@@ -1,0 +1,86 @@
+{
+  "source_of_truth": "https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history",
+  "last_verified": "2026-09-28",
+  "freshness": {
+    "age_days": 14,
+    "stale": false,
+    "warning": null
+  },
+  "filter": {
+    "since": "2026-01",
+    "kinds": []
+  },
+  "count": 10,
+  "updates": [
+    {
+      "date": "2026-09-24",
+      "name": "VideoObject creator and interaction statistics documented",
+      "kind": "schema",
+      "source": "https://developers.google.com/search/docs/appearance/structured-data/video",
+      "notes": "Recommended creator (or author) as Person or Organization with name or alternateName; interactionStatistic supports WatchAction, LikeAction, CommentAction, and ShareAction."
+    },
+    {
+      "date": "2026-09-24",
+      "name": "Search Console web multimodal performance reporting",
+      "kind": "product",
+      "source": "https://developers.google.com/search/blog/2026/09/web-multimodal-in-sc",
+      "notes": "Global rollout of a multimodal search type filter (Lens, Circle to Search, image uploads, Chrome Search this image) in the Search results and Generative AI performance reports, with export."
+    },
+    {
+      "date": "2026-09-24",
+      "name": "September 2026 Spam Update",
+      "kind": "spam",
+      "source": "https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu",
+      "notes": "Global, all-language rollout began September 24 at 09:15 PDT and was still active on September 28, 2026; Google estimates up to two weeks and named no specific target."
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Aggregator and supplier units add local business queries",
+      "kind": "documentation",
+      "source": "https://developers.google.com/search/docs/appearance/aggregator-unit",
+      "notes": "In the EEA, aggregator and supplier units now also appear for local business queries (for example plumbers and brick-and-mortar shops). Aggregators participate through the Local Point of Interest Feed. Direct providers qualify for the supplier unit from crawled data alone."
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Preferred sources in AI features require gen-AI inclusion",
+      "kind": "documentation",
+      "source": "https://developers.google.com/search/docs/appearance/preferred-sources",
+      "notes": "To display as a preferred source in AI Mode and AI Overviews, a site must be included in the Search generative AI control in Search Console. Top Stories preferred-source eligibility is unchanged."
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Mediapartners-Google crawler scope clarified",
+      "kind": "documentation",
+      "source": "https://developers.google.com/crawling/docs/changelog",
+      "notes": "robots.txt rules addressed to Mediapartners-Google affect several ad products (for example AdSense and Ad Manager), not only AdSense. The global * group is still ignored by this crawler."
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Search profile badge documentation",
+      "kind": "documentation",
+      "source": "https://developers.google.com/search/docs/appearance/search-profiles",
+      "notes": "Owners of a claimed Search profile (profile.google.com/@handle) can link to it with a badge or text link. Followers of a Search profile are more likely to see its linked content in Discover. Brand and touch-target rules apply, and the badge must stay visually distinct from the Preferred Sources badge."
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Search profiles: multi-brand management and lower US eligibility",
+      "kind": "product",
+      "source": "https://blog.google/products-and-platforms/products/search/3-new-ways-were-improving-search-profiles-for-publishers/",
+      "notes": "Publishers can manage Search profiles for sub-brands from one login. Profiles get larger article thumbnails and longer headlines. The US eligibility threshold dropped to 10,000 followers across YouTube, Instagram, X, or TikTok."
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Merchant Center AI performance insights available",
+      "kind": "product",
+      "source": "https://support.google.com/merchants/answer/17200695",
+      "notes": "Available for English-language queries for Merchant Center accounts in Australia, Canada, India, New Zealand, and the US; organic AI traffic only, paid Ads traffic excluded."
+    },
+    {
+      "date": "2026-09-16",
+      "name": "UCP integration hub adds cart transfer and checkout testing",
+      "kind": "product",
+      "source": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "notes": "Cart transfer to a merchant site and enhanced checkout flow testing roll out gradually in the US; Australia and Canada planned for early 2027, analytics forthcoming."
+    }
+  ]
+}

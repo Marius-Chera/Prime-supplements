@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "section_vertical_spacing": "medium",
+    "button_border_radius": 60,
+    "input_border_radius": 8,
+    "block_border_radius": 24,
+    "block_shadow_opacity": 10,
+    "block_shadow_vertical_offset": 18,
+    "background": "#f0f0f0",
+    "text_color": "#1a1a1a",
+    "header_background": "#f0f0f0",
+    "header_text_color": "#1a1a1a",
+    "footer_background": "#1a1a1a",
+    "footer_text_color": "#ffffff",
+    "primary_button_background": "#ec1e24",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#1a1a1a",
+    "secondary_button_text_color": "#ffffff",
+    "product_card_text_color": "#1a1a1a",
+    "product_primary_badge_background": "#803cee",
+    "heading_font": "barlow_n7",
+    "heading_font_size": "large",
+    "heading_letter_spacing": -2,
+    "text_font": "barlow_n4",
+    "heading_apparition": "split_fade",
+    "product_color_display": "swatch",
+    "product_info_alignment": "start",
+    "cart_icon": "shopping_basket",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "300",
+    "social_facebook": "https://www.facebook.com/primesupplementsro",
+    "social_instagram": "https://www.instagram.com/primesupplements_ro/",
+    "social_whatsapp": "https://wa.me/40775286584",
+    "social_youtube": "https://www.youtube.com/@primesupplementsro",
+    "social_tiktok": "https://www.tiktok.com/@primesupplements.ro",
+    "favicon": "shopify://shop_images/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png",
+    "checkout_accent_color": "#f0c417",
+    "checkout_button_color": "#1a1a1a",
+    "content_for_index": [],
+    "blocks": {
+      "13324117676663250413": {
+        "type": "shopify://apps/delivery-estimator/blocks/app-embed-block/2be8f45f-2937-4f60-b6b3-7488e231d668",
+        "disabled": false,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      },
+      "8208493610395315515": {
+        "type": "shopify://apps/dondy-whatsapp-chat-marketing/blocks/app-block/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": false,
+        "settings": {}
+      },
+      "15119538188275799212": {
+        "type": "shopify://apps/fontify/blocks/app-embed/334490e2-2153-4a2e-a452-e90bdeffa3cc",
+        "disabled": false,
+        "settings": {}
+      },
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
+      },
+      "14327677521557774844": {
+        "type": "shopify://apps/simprosys-google-shopping-feed/blocks/core_settings_block/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
+        "disabled": false,
+        "settings": {}
+      },
+      "3138269044488530766": {
+        "type": "shopify://apps/uppromote-affiliate/blocks/core-script/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {}
+      },
+      "9005256451184024879": {
+        "type": "shopify://apps/uppromote-affiliate/blocks/customer-referral/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {}
+      },
+      "1996061711396120121": {
+        "type": "shopify://apps/uppromote-affiliate/blocks/message-bar/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {}
+      },
+      "mktr_core": {
+        "type": "shopify://apps/themarketer-com-app/blocks/mktr_core/d9993ada-e1dd-43d7-9e04-04a5454109b4",
+        "disabled": false,
+        "settings": {}
+      },
+      "6770548097779500122": {
+        "type": "shopify://apps/koala-upsells-gifts/blocks/gifts-embed/baf92dc5-8ffa-40c0-967e-57b74cddc9e3",
+        "disabled": false,
+        "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      },
+      "12354790048345844953": {
+        "type": "shopify://apps/bloggenauto/blocks/tracking-embed/019d495d-eaa1-7817-b63e-f288f635c07b",
+        "disabled": false,
+        "settings": {}
+      },
+      "18408366429334172745": {
+        "type": "shopify://apps/pop-convert/blocks/app-embed/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
+        "disabled": false,
+        "settings": {}
+      },
+      "pagefly-ai-page-builder": {
+        "type": "shopify://apps/pagefly-ai-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Sound": {
+      "section_vertical_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 24,
+      "block_shadow_opacity": 10,
+      "block_shadow_vertical_offset": 18,
+      "background": "#f0f0f0",
+      "text_color": "#1a1a1a",
+      "header_background": "#f0f0f0",
+      "header_text_color": "#1a1a1a",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1a1a1a",
+      "primary_button_background": "#1a1a1a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f0c417",
+      "secondary_button_text_color": "#1a1a1a",
+      "product_card_text_color": "#1a1a1a",
+      "product_primary_badge_background": "#803cee",
+      "heading_font": "barlow_n7",
+      "heading_font_size": "large",
+      "heading_letter_spacing": -2,
+      "text_font": "barlow_n4",
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_fade",
+      "product_color_display": "swatch",
+      "product_info_alignment": "start",
+      "checkout_accent_color": "#f0c417",
+      "checkout_button_color": "#1a1a1a"
+    },
+    "Home": {
+      "section_vertical_spacing": "medium",
+      "section_boxed_horizontal_spacing": "large",
+      "button_hover_effect": "reverse",
+      "background": "#ffffff",
+      "text_color": "#272727",
+      "success_color": "#708a5c",
+      "warning_color": "#e37e16",
+      "error_color": "#aa2826",
+      "header_background": "#ffffff",
+      "header_text_color": "#272727",
+      "footer_background": "#f2f2f2",
+      "footer_text_color": "#272727",
+      "primary_button_background": "#272727",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3c619e",
+      "secondary_button_text_color": "#ffffff",
+      "product_card_text_color": "#272727",
+      "product_on_sale_accent": "#e34f4f",
+      "product_sold_out_badge_background": "#bebdb9",
+      "product_primary_badge_background": "#3c619e",
+      "heading_font": "jost_n7",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "jost_n4",
+      "cart_icon": "shopping_basket",
+      "heading_apparition": "split_rotation",
+      "color_swatch_style": "rectangle",
+      "product_color_display": "swatch",
+      "cart_type": "drawer",
+      "checkout_body_background_color": "#f2f2f2",
+      "checkout_sidebar_background_color": "#ffffff",
+      "checkout_accent_color": "#3c619e",
+      "checkout_button_color": "#3c619e"
+    },
+    "Shape": {
+      "page_width": 1440,
+      "section_vertical_spacing": "small",
+      "section_boxed_horizontal_spacing": "medium",
+      "button_border_radius": 60,
+      "input_border_radius": 8,
+      "block_border_radius": 20,
+      "icon_stroke_width": 1.5,
+      "button_style": "fill",
+      "button_hover_effect": "reverse",
+      "text_color": "#2a555a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2a555a",
+      "footer_background": "#f7f7f7",
+      "footer_text_color": "#2a555a",
+      "primary_button_background": "#2a555a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#d9967e",
+      "product_card_text_color": "#2a555a",
+      "cart_icon": "tote_bag",
+      "heading_font": "fraunces_n3",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "heading_letter_spacing": -1,
+      "text_font": "muli_n4",
+      "text_font_size_desktop": 15,
+      "product_color_display": "swatch",
+      "product_info_alignment": "center"
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".text-with-icon {font-family: \"POPPINS\";}"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_36jMey": {
+      "type": "slideshow",
+      "blocks": {
+        "image_VzQX9V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_14_11_19_1089.png",
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "La PRIME Supplements, ne dedicăm zi de zi perfecționării fiecărui detaliu pentru a oferi suplimente nutritive de cea mai înaltă calitate.",
+            "title": "DESPRE NOI",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VzQX9V"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_AGFmDk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_LhkfYc": {
+          "type": "subheading",
+          "settings": {
+            "text": "Concept"
+          }
+        },
+        "heading_NeLVFD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Misiune",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FdjgwX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>PRIME SUPPLEMENTS</strong> este un concept nou, fresh pe piață, care are ca misiune principală educarea, inspirarea și îmbunătățirea performanței sportivilor.</p><p>Suplimentele sunt create pentru a susține nevoile sportivilor până la cel mai înalt nivel de performanță. Diferitele game de produse se adresează atât celor care fac sport și își doresc o nutriție sănătoasă și adaptată, cât și sportivilor de performanță.</p><p><strong>Date de identificare:</strong> PRIME SPORT SUPPLEMENTS SRL, CUI 46260823, Nr. Reg. Com. J32/1155/2022, înființată în 2022, cu sediul social în Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România. Telefon <a href=\"tel:+40775286584\">+40 775 286 584</a>, e-mail <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a>. Toate datele de contact sunt pe <a href=\"/pages/contact\">pagina Contact</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LhkfYc",
+        "heading_NeLVFD",
+        "richtext_FdjgwX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_MYLbe4": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_8kVDLE": {
+          "type": "subheading",
+          "settings": {
+            "text": "Misiune"
+          }
+        },
+        "heading_EUXDH6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Misiune",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_g83twC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Analizăm cererea, analizăm nevoile sportivilor, analizăm materia primă și creștem calitatea. Așa ne apropiem de misiunea noastră: să creăm un nou standard pe piața de suplimente, să susținem sportivii în drumul spre performanță, să le oferim produse adaptate nevoilor lor nutriționale și să promovăm atitudinea, mindsetul HARDCORE SPORTS NUTRITION.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8kVDLE",
+        "heading_EUXDH6",
+        "richtext_g83twC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_BeEqtx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YUywcB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_12_29_40_0332.png",
+            "content_max_width": 640,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Despre noi",
+            "title": "Performanță.",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YUywcB"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_jXxTfA": {
+      "type": "multi-column",
+      "blocks": {
+        "item_6wWcjd": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "HARDCORE SPORTS NUTRITION",
+            "heading_tag": "h4",
+            "content": "<p>Împinși și conduși de motto-ul Hardcore Sports Nutrition, am gândit formulele produselor, cu micro- și macronutrienții lor, după mulți ani de studiu și experiență în culturismul de performanță.</p><p>Hardcore Sports Nutrition nu este doar un motto care ne-a împins să căutăm echilibrul potrivit în produsele noastre, ci un mindset care împinge pe oricine să își depășească propria condiție prin devotament față de obiectivul său, susținut de echilibrul dintre nutriție și antrenament.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cYQdRX": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Conceptul de calitate",
+            "heading_tag": "h4",
+            "content": "<p>Lucrăm cu furnizori de top din industria suplimentelor, iar calitatea materiei prime este susținută de certificări naționale și internaționale precum TÜV, IFS, HALAL și Cologne List for Athletes.</p><p>Ne mândrim nu doar cu tehnologia de prelucrare și cu materia primă folosită, ci și cu rețetele produselor.</p><p>În colaborare cu <strong>Marius Chera</strong>, produsele au fost adaptate nevoilor culturiștilor înainte, în timpul și după antrenament, pe toată durata zilei, cu un conținut redus de excipienți.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_e3CGHc": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fondatorul: Marius Chera",
+            "heading_tag": "h4",
+            "content": "<p>Marius Chera a fondat PRIME SUPPLEMENTS în 2022. Este unul dintre cei mai cunoscuți antrenori de culturism din România și primul antrenor român care a pregătit sportivi ce au obținut cardul PRO în cadrul organizației NPC.</p><p>Experiența sa în culturism a stat la baza optimizării produselor: gama recomandată culturiștilor pe toată perioada pregătirii se regăsește în produsele Prime Supplements.</p><p>Află mai multe pe <a href=\"/pages/autor-marius-chera\">pagina dedicată lui Marius Chera</a>.</p><p><strong>Mindsetul Hardcore Sports Nutrition</strong> stă la baza dezvoltării companiei <strong>PRIME SUPPLEMENTS</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_6wWcjd",
+        "item_cYQdRX",
+        "item_e3CGHc"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "blog_posts_KAgDhz": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_G4Q7Fc": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_G4Q7Fc"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Informații utile",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_36jMey",
+    "rich_text_AGFmDk",
+    "rich_text_MYLbe4",
+    "slideshow_BeEqtx",
+    "multi_column_jXxTfA",
+    "blog_posts_KAgDhz"
+  ]
+}

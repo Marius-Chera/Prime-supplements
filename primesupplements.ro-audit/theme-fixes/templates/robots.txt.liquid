@@ -1,0 +1,18 @@
+{%- comment -%}
+  SEO (2026-10-13): Shopify's default rules are kept unchanged (robots.default_groups);
+  only a Content-Signal line is added to the catch-all group to declare how content may be used by AI systems
+  (search=yes: search indexing; ai-input=yes: use as grounding for AI answers that cite the store; ai-train=yes: model training).
+{%- endcomment -%}
+{%- for group in robots.default_groups -%}
+  {{- group.user_agent }}
+  {%- for rule in group.rules %}
+{{ rule }}
+  {%- endfor -%}
+  {%- if group.user_agent.value == '*' %}
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+  {%- endif -%}
+  {%- if group.sitemap != blank %}
+{{ group.sitemap }}
+  {%- endif %}
+
+{% endfor -%}

@@ -1,0 +1,490 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "judge_me_reviews_preview_badge_rwiJUG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "sku_GcreDt": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_QnbbbL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"eu-label\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0917/5138/3415/files/europe-flag-icon.webp?v=1765984894\" alt=\"Steag UE\" class=\"eu-flag\" />\n  <span>Produs în Uniunea Europeană</span>\n</div>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "inventory_fUeYma": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 5
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "Culoare",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#ec1e24",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "delivery_estimator_app_block_FwTRRe": {
+          "type": "shopify://apps/delivery-estimator/blocks/app-block/2be8f45f-2937-4f60-b6b3-7488e231d668",
+          "settings": {}
+        },
+        "text_pVe6Da": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reprezinți o companie? Înregistrează-te în <a href=\"/pages/inregistrare-b2b\" title=\"Inregistrare B2B\">platforma B2B</a></p>"
+          }
+        },
+        "liquid_XMWcan": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{% if product.available %}\n  <div style=\"background-color:#111111; color:#fff; padding: 1.5rem; border-radius: 16px; text-align: center; margin: 2rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.2);\">\n    <h3 style=\"margin: 0; font-size: 1rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #f02e2e;\">\n      🖤 SUPER Black Friday Pânã la 1 Decembrie\n    </h3>\n    <h2 style=\"font-size: 2.2rem; margin: 0.5rem 0; font-weight: 900; border-radius: 12px;\">\n      Până la <span style=\"color: #f02e2e;\">-50%</span> reducere la toate produsele!\n    </h2>\n    <p style=\"font-size: 1rem; margin: 0 0 1.2rem;\">\n      Profită acum cât stocurile mai țin.\n    </p>\n    <a href=\"/collections/all\" style=\"background-color: #f02e2e; color: white; padding: 0.75rem 1.5rem; font-weight: bold; border-radius: 999px; text-decoration: none; display: inline-block; transition: background 0.3s;\">\n      Vezi toate ofertele\n    </a>\n  </div>\n{% endif %}"
+          }
+        },
+        "associated_products_HYmhQP": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Merge perfect cu",
+            "stack_products": true,
+            "products_count": 3,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": true
+          }
+        },
+        "share_buttons_gaHCkA": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        },
+        "collapsible_text_h8aeTM": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Descriere",
+            "content": "{{ product.description }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_rwiJUG",
+        "sku_GcreDt",
+        "badges",
+        "price",
+        "liquid_QnbbbL",
+        "rating",
+        "inventory_fUeYma",
+        "payment_terms",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "delivery_estimator_app_block_FwTRRe",
+        "text_pVe6Da",
+        "liquid_XMWcan",
+        "associated_products_HYmhQP",
+        "description",
+        "share_buttons_gaHCkA",
+        "collapsible_text_h8aeTM"
+      ],
+      "custom_css": [
+        ".eu-label {display: inline-flex; align-items: center; padding: 6px 12px; border: 1px solid #ccc; border-radius: 8px; background: white; font-size: 14px; font-weight: 500; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); max-width: fit-content; margin-top: 10px;}",
+        ".eu-flag {width: 20px; height: auto; margin-right: 8px; border-radius: 3px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "tabs_ANqwjb": {
+      "type": "tabs",
+      "blocks": {
+        "tab_CM4PXY": {
+          "type": "tab",
+          "settings": {
+            "title": "Beneficii cheie",
+            "content": "{{ product.metafields.custom.beneficii_cheie | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_EgrYyU": {
+          "type": "tab",
+          "settings": {
+            "title": "Despre produs",
+            "content": "{{ product.metafields.custom.despre_produs | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_6dwyCT": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingrediente",
+            "content": "{{ product.metafields.custom.ingrediente | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_6GMCLC": {
+          "type": "tab",
+          "settings": {
+            "title": "Detalii produs",
+            "content": "{{ product.metafields.custom.detalii_produs | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_CM4PXY",
+        "tab_EgrYyU",
+        "tab_6dwyCT",
+        "tab_6GMCLC"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "left",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 4,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "S-ar putea să-ți placă",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "17478174161277dbfb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_LEpEMj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_LEpEMj"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "recently_viewed_products_tznwAa": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "full_width": true,
+        "products_count": 6,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Recent vizualizate",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_cq8VYt": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "cele-mai-vandute",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Cele mai vândute",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "scrolling_text_t83jdt": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Create de campioni pentru campioni",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "collection_list_9fweNB": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pCFiiQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamine-si-minerale",
+            "image": "shopify://shop_images/1.jpg",
+            "subheading": "",
+            "title": "Vitamine și minerale",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_bewfw6": {
+          "type": "collection",
+          "settings": {
+            "collection": "arzator-de-grasimi",
+            "image": "shopify://shop_images/2.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_7cVWt9": {
+          "type": "collection",
+          "settings": {
+            "collection": "suplimente-sala",
+            "image": "shopify://shop_images/3.jpg",
+            "subheading": "",
+            "title": "Suplimente premium",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_pCFiiQ",
+        "collection_bewfw6",
+        "collection_7cVWt9"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Categorii populare",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_VYpVXX": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Ciag7z": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ product.metafields.custom.seo_produs | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Ciag7z"
+      ],
+      "custom_css": [
+        "section {max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; box-sizing: border-box;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "17735445479d538daf": {
+      "type": "apps",
+      "blocks": {
+        "youtube_gallery_carousel_widget_block_PNnybF": {
+          "type": "shopify://apps/youtube-gallery/blocks/carousel-widget-block/20730f6a-6b3e-4beb-9cbf-452a9ade13e3",
+          "settings": {
+            "contentIndex": "1",
+            "themeId": "light",
+            "autoscroll": true
+          }
+        }
+      },
+      "block_order": [
+        "youtube_gallery_carousel_widget_block_PNnybF"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tabs_ANqwjb",
+    "related-products",
+    "17478174161277dbfb",
+    "recently_viewed_products_tznwAa",
+    "featured_collection_cq8VYt",
+    "scrolling_text_t83jdt",
+    "collection_list_9fweNB",
+    "rich_text_VYpVXX",
+    "17735445479d538daf"
+  ]
+}

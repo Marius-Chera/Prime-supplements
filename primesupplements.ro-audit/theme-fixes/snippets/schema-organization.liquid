@@ -6,6 +6,7 @@
 {%- endcomment -%}
 {%- liquid
   assign org_id = shop.url | append: '/#organization'
+  assign founder_id = shop.url | append: '/#marius-chera'
   assign site_id = shop.url | append: '/#website'
   assign search_target = shop.url | append: '/search?q=' | append: '{search_term_string'
   assign search_target = search_target | append: '}'
@@ -38,7 +39,15 @@
         "streetAddress": "Str. Ioan Virgil Ispas, Nr. 17A",
         "addressLocality": "Cisnădie",
         "addressRegion": "Sibiu",
+        "postalCode": "555300",
         "addressCountry": "RO"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": {{ shop.url | append: '/#marius-chera' | json }},
+        "name": "Marius Chera",
+        "jobTitle": "Antrenor de culturism, fondator Prime Supplements",
+        "url": {{ shop.url | append: '/pages/autor-marius-chera' | json }}
       },
       "areaServed": { "@type": "Country", "name": "RO" },
       "currenciesAccepted": "RON",

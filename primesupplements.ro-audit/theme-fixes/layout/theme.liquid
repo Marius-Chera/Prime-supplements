@@ -52,6 +52,14 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       if request.page_type contains 'customers/'
         assign noindex_page = true
       endif
+      comment
+        SEO (2026-10-13): tag-filtered listings (/collections/<handle>/<tag>, /blogs/news/tagged/<tag>) repeat the parent title and content.
+      endcomment
+      if current_tags != blank
+        if request.page_type == 'collection' or request.page_type == 'blog'
+          assign noindex_page = true
+        endif
+      endif
     -%}
     <title>{{ seo_title }}</title>
 
@@ -64,6 +72,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     <link rel="canonical" href="{{ canonical_url }}">
     {% render 'schema-organization' %}
+    {%- if request.page_type == 'page' -%}{% render 'schema-page' %}{%- endif -%}
     <script src="{{ 'pandectes-rules.js' | file_url }}"></script>
 
     {%- if settings.favicon -%}
@@ -74,7 +83,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
     <link rel="preconnect" href="https://cdn.shopify.com">
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
 
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>

@@ -1,0 +1,44 @@
+{%- comment -%}
+  SEO (2026-10-13): page-type entities for the About, Contact and author profile pages.
+  Invisible to visitors; links the pages to the Organization and founder entities declared in schema-organization.
+{%- endcomment -%}
+{%- liquid
+  assign org_id = shop.url | append: '/#organization'
+  assign person_id = shop.url | append: '/#marius-chera'
+  assign page_url = shop.url | append: page.url
+  assign page_type = ''
+  case page.handle
+    when 'contact'
+      assign page_type = 'ContactPage'
+    when 'despre-noi'
+      assign page_type = 'AboutPage'
+    when 'autor-marius-chera'
+      assign page_type = 'ProfilePage'
+  endcase
+-%}
+{%- if page_type != '' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ page_type | json }},
+  "@id": {{ page_url | append: '#webpage' | json }},
+  "url": {{ page_url | json }},
+  "name": {{ page.title | json }},
+  "inLanguage": "ro",
+  "isPartOf": { "@type": "WebSite", "url": {{ shop.url | append: '/' | json }}, "name": "Prime Supplements" },
+  {%- if page_type == 'ProfilePage' %}
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ person_id | json }},
+    "name": "Marius Chera",
+    "jobTitle": "Antrenor de culturism, fondator Prime Supplements",
+    "url": {{ page_url | json }},
+    "worksFor": { "@id": {{ org_id | json }} }
+  },
+  {%- else %}
+  "about": { "@id": {{ org_id | json }} },
+  {%- endif %}
+  "dateModified": {{ page.updated_at | default: page.published_at | date: '%Y-%m-%dT%H:%M:%S%z' | json }}
+}
+</script>
+{%- endif -%}

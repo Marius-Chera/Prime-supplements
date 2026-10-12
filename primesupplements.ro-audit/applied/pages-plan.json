@@ -1,0 +1,232 @@
+{
+ "generated": "2026-10-12",
+ "scope": "Text-only content plan for primesupplements.ro entity/trust pages (CONTENT-15, CONTENT-04, GEO-06, LOCAL-03/04/05/08/13, AUTHORITY-10, SCHEMA-20). Nothing applied; no Shopify mutation run.",
+ "warnings": [
+  "despre-noi and contact: the 'main' page section is disabled in their templates, so body_html does not render; use each page's template_text_edits for the visible text (text-only, no layout change) on the live AND staging theme.",
+  "EU ODR link omitted: the platform was discontinued on 20 July 2025 (Regulation (EU) 2024/3228); the URL now redirects to a closure notice.",
+  "Author title contains 'nutriționist sportiv' as briefed, but no qualification issuer exists in the evidence: owner must confirm before publishing.",
+  "Legal pages conflict on shipping (300 vs 700 RON); the contact copy states no threshold until fixed.",
+  "LOCAL-03 (footer address linked to /cart/#) and LOCAL-05 (store profile city empty, location without address) are footer/theme-settings and Shopify Settings fixes, not page content; they remain open."
+ ],
+ "canonical_nap": {
+  "legal_name": "PRIME SPORT SUPPLEMENTS SRL",
+  "brand": "Prime Supplements",
+  "cui": "46260823",
+  "reg_com": "J32/1155/2022",
+  "address_line": "Str. Ioan Virgil Ispas, Nr. 17A",
+  "city": "Cisnădie",
+  "county": "Sibiu",
+  "postal_code": "555300",
+  "country": "România",
+  "country_code": "RO",
+  "phone_display": "+40 775 286 584",
+  "phone_e164": "+40775286584",
+  "email": "contact@primesupplements.ro",
+  "founded_year": "2022",
+  "founder": "Marius Chera",
+  "whatsapp_url": "https://wa.me/40775286584",
+  "support_hours": "luni – vineri, 8:00 – 18:00",
+  "source_notes": "legal_name, cui, address_line, city, county, country_code, phone_e164, email and founded_year are copied verbatim from theme-fixes/snippets/schema-organization.liquid (legalName, taxID, streetAddress, addressLocality, addressRegion, addressCountry, telephone, email, foundingDate). postal_code 555300 comes from the ANAF record (local.md, LOCAL-04/05) and the Shopify store profile (zip 555300); the Organization snippet has no postalCode yet, so add \"postalCode\": \"555300\" there to keep markup and pages identical. reg_com J32/1155/2022 is the form printed in the footer and legal pages (ANAF nrRegCom J2022001155327, the new ONRC format of the same number). founder: /pages/despre-noi says \"Marius Chera a conceput firma PRIME SUPPLEMENTS in anul 2022\"; his legal role in the company (associate/administrator) is not in the evidence. Registry spells the legal form \"S.R.L.\"; the snippet uses \"SRL\", which is used everywhere here. ANAF reports the company as a VAT payer (RO46260823); the VAT code is not shown on the pages because the Organization snippet has no vatID. support_hours: homepage FAQ (templates/index.json support_hours: \"Luni până Vineri: 8:00 - 18:00\", \"Timp mediu de răspuns: 1h\"). WhatsApp: the footer icon links the shortener https://wa.link/anvvmm, which 301-redirects to api.whatsapp.com/send?phone=40775286584 (checked 2026-10-12), so the number is the same as the phone."
+ },
+ "pages": [
+  {
+   "action": "update",
+   "id": "gid://shopify/Page/692417757559",
+   "handle": "despre-noi",
+   "title": "Despre noi",
+   "template_suffix": "despre-noi",
+   "body_html": "<h2>Concept</h2><p><strong>PRIME SUPPLEMENTS</strong> este un concept nou, fresh pe piață, care are ca misiune principală educarea, inspirarea și îmbunătățirea performanței sportivilor.</p><p>Suplimentele sunt create pentru a susține nevoile sportivilor până la cel mai înalt nivel de performanță. Diferitele game de produse se adresează atât celor care fac sport și își doresc o nutriție sănătoasă și adaptată, cât și sportivilor de performanță.</p><h2>Misiune</h2><p>Analizăm cererea, analizăm nevoile sportivilor, analizăm materia primă și creștem calitatea. Așa ne apropiem de misiunea noastră: să creăm un nou standard pe piața de suplimente, să susținem sportivii în drumul spre performanță, să le oferim produse adaptate nevoilor lor nutriționale și să promovăm atitudinea, mindsetul HARDCORE SPORTS NUTRITION.</p><h2>Hardcore Sports Nutrition</h2><p>Împinși și conduși de motto-ul Hardcore Sports Nutrition, am gândit formulele produselor, cu micro- și macronutrienții lor, după mulți ani de studiu și experiență în culturismul de performanță.</p><p>Hardcore Sports Nutrition nu este doar un motto care ne-a împins să căutăm echilibrul potrivit în produsele noastre, ci un mindset care împinge pe oricine să își depășească propria condiție prin devotament față de obiectivul său, susținut de echilibrul dintre nutriție și antrenament.</p><h2>Conceptul de calitate</h2><p>Lucrăm cu furnizori de materii prime din industria suplimentelor și urmărim calitatea atât la materia primă și la procesare, cât și la rețetele folosite.</p><p>Produsele au fost adaptate în colaborare cu <strong>Marius Chera</strong>, pornind de la nevoile culturiștilor înainte, în timpul și după antrenament, pe toată durata zilei.</p><h2>Fondatorul</h2><p>Marius Chera a fondat brandul Prime Supplements în 2022. Este antrenor de culturism și oferă coaching online. Experiența din pregătirea culturiștilor a stat la baza gamei de produse.</p><p>Află mai multe pe <a href=\"/pages/autor-marius-chera\">pagina dedicată lui Marius Chera</a>.</p><p><strong>Mindsetul Hardcore Sports Nutrition</strong> stă la baza dezvoltării companiei <strong>PRIME SUPPLEMENTS</strong>.</p><h2>Date de identificare</h2><ul><li><strong>Denumire:</strong> PRIME SPORT SUPPLEMENTS SRL (brandul Prime Supplements)</li><li><strong>CUI:</strong> 46260823</li><li><strong>Nr. Registrul Comerțului:</strong> J32/1155/2022</li><li><strong>Anul înființării:</strong> 2022</li><li><strong>Sediu social:</strong> Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România</li><li><strong>Telefon:</strong> <a href=\"tel:+40775286584\">+40 775 286 584</a></li><li><strong>E-mail:</strong> <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a></li></ul><p>Pentru întrebări despre produse, comenzi, livrare sau retur, folosește datele de pe pagina <a href=\"/pages/contact\">Contact</a>.</p>",
+   "seo_title": "Despre noi și fondatorul Marius Chera | Prime Supplements",
+   "seo_description": "Brandul de suplimente sport Prime Supplements, fondat în 2022 de Marius Chera, antrenor de culturism: misiunea și datele firmei PRIME SPORT SUPPLEMENTS SRL.",
+   "template_text_edits": {
+    "file": "templates/page.despre-noi.json",
+    "themes": {
+     "live": "gid://shopify/OnlineStoreTheme/179784286583",
+     "staging_to_publish": "gid://shopify/OnlineStoreTheme/193875083639"
+    },
+    "rule": "Change only these existing setting values (compare 'old' first; skip an edit if 'old' no longer matches). No section/block is added, removed, reordered or restyled; heading_tag, colors and widths stay as they are.",
+    "edits": [
+     {
+      "json_path": "sections.rich_text_AGFmDk.blocks.richtext_FdjgwX.settings.content",
+      "setting_type": "richtext",
+      "old": "<p><strong>PRIME SUPPLEMENTS</strong> este un concept nou, fresh pe piata care are ca misiune principala educarea, inspirarea si imbunatatirea performantei sportivilor.</p><p>Suplimentele sunt create pentru a sustine nevoia sportivilor pana la cel mai inalt nivel de performanta. Existenta diferitelor game de produse creaza un ambient perfect de achizitie atat pentru consumatorul de rand de sport si nutritie sanatoasa si adaptata cat si pentru cei mai performanti sportivi.</p>",
+      "new": "<p><strong>PRIME SUPPLEMENTS</strong> este un concept nou, fresh pe piață, care are ca misiune principală educarea, inspirarea și îmbunătățirea performanței sportivilor.</p><p>Suplimentele sunt create pentru a susține nevoile sportivilor până la cel mai înalt nivel de performanță. Diferitele game de produse se adresează atât celor care fac sport și își doresc o nutriție sănătoasă și adaptată, cât și sportivilor de performanță.</p><p><strong>Date de identificare:</strong> PRIME SPORT SUPPLEMENTS SRL, CUI 46260823, Nr. Reg. Com. J32/1155/2022, înființată în 2022, cu sediul social în Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România. Telefon <a href=\"tel:+40775286584\">+40 775 286 584</a>, e-mail <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a>. Toate datele de contact sunt pe <a href=\"/pages/contact\">pagina Contact</a>.</p>"
+     },
+     {
+      "json_path": "sections.rich_text_MYLbe4.blocks.richtext_g83twC.settings.content",
+      "setting_type": "richtext",
+      "old": "<p>Analizam cererea, analizam sportivii, analizam materiaprima de top, crestem calitatea si astfel reusim sa ajungem la misiunea noastra, cea de a crea un nou standard pe piata de suplimente , de a imbunatati performanta sportivilor de top, de a satisface fiecare nevoie a sportivilor din punct de vedere a micronutrientilor si de a impinge si promova atitudinea, mindsetul HARDCORE SPORTS NUTRITION.</p>",
+      "new": "<p>Analizăm cererea, analizăm nevoile sportivilor, analizăm materia primă și creștem calitatea. Așa ne apropiem de misiunea noastră: să creăm un nou standard pe piața de suplimente, să susținem sportivii în drumul spre performanță, să le oferim produse adaptate nevoilor lor nutriționale și să promovăm atitudinea, mindsetul HARDCORE SPORTS NUTRITION.</p>"
+     },
+     {
+      "json_path": "sections.multi_column_jXxTfA.blocks.item_6wWcjd.settings.content",
+      "setting_type": "richtext",
+      "old": "<p>Impinsi si condusi de moto-ul Hardcore Sports Nutrition, formulele produselor, micro- si macronutrientii lor au fost gandite dupa multi ani de studiu si experienta din zona culturismului de performanta.</p><p>Hardcore Sports Nutrition nu este doar un moto care ne-a impins sa cream echilibrul perfect in produsele noastre, ci este un mindset care impinge orice individ sa isi depaseasca propria conditie prin devotament fata de obiectivul sau si sustinerea acestuia prin echilibrul nutritiv si sportiv.</p>",
+      "new": "<p>Împinși și conduși de motto-ul Hardcore Sports Nutrition, am gândit formulele produselor, cu micro- și macronutrienții lor, după mulți ani de studiu și experiență în culturismul de performanță.</p><p>Hardcore Sports Nutrition nu este doar un motto care ne-a împins să căutăm echilibrul potrivit în produsele noastre, ci un mindset care împinge pe oricine să își depășească propria condiție prin devotament față de obiectivul său, susținut de echilibrul dintre nutriție și antrenament.</p>"
+     },
+     {
+      "json_path": "sections.multi_column_jXxTfA.blocks.item_cYQdRX.settings.content",
+      "setting_type": "richtext",
+      "old": "<p>Folosind furnizori de top din industria suplimentelor ne putem mandri cu asimilarea calitatii materiei prime. Certificarile cuprind atat atestari nationale cat si internationale precum TUV, IFS, HALAL, Cologne List for Athletes si multe altele.</p><p>Ne mandrim ca nu suntem calitativi doar din punct de vedere a tehnologiei de prelucrare si a materiei prime folosite ci si din punct de vedere a retetarelor folosite.</p><p>In colaborare cu <strong>Marius Chera</strong> , toate produsele noastre au fost adaptate pentru a facilita un mix complet si complex care deserveste culturistilor la cel mai inalt nivel. Astfel este redus considerabil consumul in exces de excipienti pentru a avea o formula complet asimilata, inainte  , in timpul  cat si dupa antrenament si pe toata durata zilei.</p>",
+      "new": "<p>Lucrăm cu furnizori de top din industria suplimentelor, iar calitatea materiei prime este susținută de certificări naționale și internaționale precum TÜV, IFS, HALAL și Cologne List for Athletes.</p><p>Ne mândrim nu doar cu tehnologia de prelucrare și cu materia primă folosită, ci și cu rețetele produselor.</p><p>În colaborare cu <strong>Marius Chera</strong>, produsele au fost adaptate nevoilor culturiștilor înainte, în timpul și după antrenament, pe toată durata zilei, cu un conținut redus de excipienți.</p>"
+     },
+     {
+      "json_path": "sections.multi_column_jXxTfA.blocks.item_e3CGHc.settings.title",
+      "setting_type": "text",
+      "old": "Marius Chera",
+      "new": "Fondatorul: Marius Chera"
+     },
+     {
+      "json_path": "sections.multi_column_jXxTfA.blocks.item_e3CGHc.settings.content",
+      "setting_type": "richtext",
+      "old": "<p>Marius Chera a conceput firma PRIME SUPPLEMENTS in anul 2022 . In acest timp el este unul dintre cei mai cunosti antrenori de culturism din Romania, fiind primul antrenor roman care a reusit sa antreneze sportivi care au obtinut cardul PRO din cadrul organizatiei NPC.</p><p>Avand o experienta vasta in culturism acesta si-a folosit cunostintele pentru a optimiza produsele la rang de arta. Gama de produse recomandata culturistilor pe toata perioada pregatirii a fost asimilata in unicitatea produselor prezentate.</p><p><strong>Mindsetul Hardcore Sports Nutrition</strong> sta la baza dezvoltarii companiei <strong>PRIME SUPPLEMENTS</strong></p>",
+      "new": "<p>Marius Chera a fondat PRIME SUPPLEMENTS în 2022. Este unul dintre cei mai cunoscuți antrenori de culturism din România și primul antrenor român care a pregătit sportivi ce au obținut cardul PRO în cadrul organizației NPC.</p><p>Experiența sa în culturism a stat la baza optimizării produselor: gama recomandată culturiștilor pe toată perioada pregătirii se regăsește în produsele Prime Supplements.</p><p>Află mai multe pe <a href=\"/pages/autor-marius-chera\">pagina dedicată lui Marius Chera</a>.</p><p><strong>Mindsetul Hardcore Sports Nutrition</strong> stă la baza dezvoltării companiei <strong>PRIME SUPPLEMENTS</strong>.</p>"
+     },
+     {
+      "json_path": "sections.slideshow_BeEqtx.blocks.image_YUywcB.settings.title",
+      "setting_type": "text",
+      "old": "Performanțã.",
+      "new": "Performanță."
+     }
+    ]
+   },
+   "notes": "1) RENDER WARNING: in templates/page.despre-noi.json the 'main' (main-page) section is \"disabled\": true on both the live and the staging theme (rendered page has no H1 and the CMS body is empty), so body_html is NOT shown on the storefront. Enabling 'main' would add a new block (H1 + prose) above the hero = a design change, so do not do it without the owner's consent. To change the visible text with zero design change, apply template_text_edits (text values of existing blocks only; richtext uses p/strong/a). Apply them to the staging theme 193875083639 too, otherwise publishing that theme brings the old text back. body_html is kept as the canonical page text for the page record. 2) Founding year: the page and the registry say 2022 (ANAF registration 2022-06-07, J32/1155/2022); the old Organization JSON-LD said 2020 (already changed to 2022 in theme-fixes). The incorporation year 2022 is used everywhere. 3) Removed as unverifiable: certification list \"TUV, IFS, HALAL, Cologne List for Athletes și multe altele\" (no certificate numbers, issuer, manufacturer or links); \"formulă complet asimilată\" and \"redus considerabil consumul în exces de excipienți\"; \"de a satisface fiecare nevoie a sportivilor din punct de vedere al micronutrienților\"; superlatives \"furnizori de top\", \"unul dintre cei mai cunoscuți antrenori de culturism din România\" and \"primul antrenor român care a reușit să antreneze sportivi care au obținut cardul PRO NPC\" (no evidence; the article bios contradict each other on the count: 8 vs 10 NPC PRO cards). Re-add any of them only with proof: certificate PDFs or the Cologne List entry URL; athlete names, competition, year and NPC/IFBB results links. 4) Founder facts kept (consistent in the About page and the 345 article bios): antrenor de culturism; oferă coaching online; brand fondat în 2022; rețetele adaptate în colaborare cu el. His legal role in the company is not stated (unknown). 5) Copy otherwise kept in structure and tone, with Romanian diacritics added (the original had none). 'Performanțã' (a-tilde) in the second hero is a typo, fixed in template_text_edits. 6) H1 (CONTENT-15/ONPAGE-23) cannot be added with text alone: Impact renders the hero heading_tag as <p class=\"h0\">; a real H1 needs a Liquid change or enabling 'main', both outside this text-only scope. 7) SEO metafields for this page were already written on 2026-10-12 (values not in the local evidence); these replace them."
+  },
+  {
+   "action": "update",
+   "id": "gid://shopify/Page/691260457335",
+   "handle": "contact",
+   "title": "Contact",
+   "template_suffix": "contact",
+   "body_html": "<p>Ai o întrebare despre un produs, o comandă sau un retur? Scrie-ne prin formularul de pe această pagină sau folosește datele de mai jos.</p><h2>Date de contact</h2><ul><li><strong>Telefon:</strong> <a href=\"tel:+40775286584\">+40 775 286 584</a></li><li><strong>WhatsApp:</strong> <a href=\"https://wa.me/40775286584\">+40 775 286 584</a></li><li><strong>E-mail:</strong> <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a></li><li><strong>Program relații cu clienții:</strong> luni – vineri, 8:00 – 18:00</li><li><strong>Timp mediu de răspuns:</strong> 1 oră</li></ul><h2>Date de identificare</h2><ul><li><strong>Denumire:</strong> PRIME SPORT SUPPLEMENTS SRL (brandul Prime Supplements)</li><li><strong>CUI:</strong> 46260823</li><li><strong>Nr. Registrul Comerțului:</strong> J32/1155/2022</li><li><strong>Sediu social:</strong> Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România</li></ul><h2>Livrare</h2><p>Prime Supplements este un magazin online. Comenzile plasate pe site se livrează prin curier (Cargus), doar pe teritoriul României. Costurile și termenele de livrare sunt descrise în <a href=\"/pages/politica-de-livrare\">Politica de livrare</a>.</p><h2>Retur și reclamații</h2><p>Te poți retrage din contract în termen de 14 zile, fără să precizezi motivul. Condițiile, pașii și formularul de retragere sunt în <a href=\"/pages/politica-de-retur\">Politica de retur</a>.</p><p>Dacă nu reușim să rezolvăm împreună o reclamație, te poți adresa Autorității Naționale pentru Protecția Consumatorilor prin procedura de <a href=\"https://anpc.ro/ce-este-sal/\">soluționare alternativă a litigiilor (ANPC – SAL)</a>.</p><p>Mai multe despre noi găsești pe pagina <a href=\"/pages/despre-noi\">Despre noi</a>.</p>",
+   "seo_title": "Contact: telefon, e-mail, WhatsApp | Prime Supplements",
+   "seo_description": "Contactează Prime Supplements: telefon și WhatsApp +40 775 286 584, e-mail contact@primesupplements.ro, luni – vineri 8:00 – 18:00. Livrăm în România.",
+   "template_text_edits": {
+    "file": "templates/page.contact.json",
+    "themes": {
+     "live": "gid://shopify/OnlineStoreTheme/179784286583",
+     "staging_to_publish": "gid://shopify/OnlineStoreTheme/193875083639"
+    },
+    "rule": "Change only these existing setting values (compare 'old' first). The contact form block (text_Ayq97B 'Telefon'), the section title (empty), colors and form size stay unchanged.",
+    "edits": [
+     {
+      "json_path": "sections.contact.settings.content",
+      "setting_type": "richtext",
+      "old": "<p>Adresa: Cisnadie, Str. Ioan Virgil Ispas, Nr. 17A<br/>Telefon: <a href=\"tel:0775286584\">0775286584<br/></a>Email: <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a></p>",
+      "new": "<p><strong>Telefon:</strong> <a href=\"tel:+40775286584\">+40 775 286 584</a><br/><strong>WhatsApp:</strong> <a href=\"https://wa.me/40775286584\">+40 775 286 584</a><br/><strong>E-mail:</strong> <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a><br/><strong>Program:</strong> luni – vineri, 8:00 – 18:00 (timp mediu de răspuns: 1 oră)</p><p><strong>PRIME SPORT SUPPLEMENTS SRL</strong><br/>CUI 46260823 · Nr. Reg. Com. J32/1155/2022<br/>Sediu social: Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România</p><p>Livrăm prin curier, doar în România. Detalii: <a href=\"/pages/politica-de-livrare\">Politica de livrare</a> · <a href=\"/pages/politica-de-retur\">Politica de retur</a></p><p>Soluționarea alternativă a litigiilor: <a href=\"https://anpc.ro/ce-este-sal/\">ANPC – SAL</a></p>"
+     },
+     {
+      "json_path": "sections.slideshow_WqzBQV.blocks.image_xXNAJK.settings.subheading",
+      "setting_type": "text",
+      "old": "Contacteaza-ne",
+      "new": "Contactează-ne"
+     }
+    ]
+   },
+   "notes": "1) RENDER WARNING: templates/page.contact.json also has 'main' disabled; the visible text is the 'contact' section's richtext setting 'content' (rendered in <div class=\"prose\"> next to the form). body_html will not display; apply template_text_edits (same text, richtext-safe: p/strong/a/br, same <br/> line style as the current block) on the live and the staging theme. The form is rendered by the section and is untouched. 2) Delivery scope: Romania only (politica-de-livrare: \"pe teritoriul României\"; T&C: \"doar pe teritoriul României\"); Hungary is not mentioned because no evidence says the store ships there (the /ro-hu market only duplicates RO content in RON). 3) Free-shipping threshold and lead times are deliberately NOT stated: politica-de-livrare says free over 300 RON, 20 RON, 24-72 h / 1-3 zile lucrătoare, while termeni-și-condiții says 700 RON and 2-4 zile lucrătoare (schema.md). Align the two legal pages first. 4) Hours: support hours and the 1 h response time are copied from the homepage FAQ (templates/index.json support_hours); they are customer-service hours, not opening hours. No map, no visiting hours: the address is a registered office with no pickup (Shopify location has no address; localPickupSettingsV2 null). 5) WhatsApp uses https://wa.me/40775286584 (verified: the footer shortener wa.link/anvvmm redirects to the same number). 6) EU ODR link https://ec.europa.eu/consumers/odr intentionally OMITTED: it now redirects to consumer-redress.ec.europa.eu/site-relocation_en, which states \"The European Online Dispute Resolution (ODR) Platform is discontinued as of 20 July 2025\" (Regulation (EU) 2024/3228), as LOCAL-13 already noted. If the owner still wants it, add one more <p> with that link, but it now leads to a closure notice. 7) https://anpc.ro/ce-este-sal/ (the URL from the brief and LOCAL-13) could not be fetched from the audit sandbox (connection reset twice; anpc.ro appears to block non-Romanian traffic): open it in a browser before publishing. 8) 14-day withdrawal right quoted from politica-de-retur. 9) No H1 possible with text alone (see despre-noi note 6). SCHEMA-20 ContactPage markup needs a theme snippet (out of this text-only scope)."
+  },
+  {
+   "action": "create",
+   "id": null,
+   "handle": "autor-marius-chera",
+   "title": "Marius Chera – antrenor de culturism",
+   "template_suffix": null,
+   "is_published": true,
+   "body_html": "<p>Marius Chera este antrenor de culturism și fondatorul Prime Supplements, brandul de suplimente pentru sport lansat în 2022 de PRIME SPORT SUPPLEMENTS SRL, din Cisnădie, jud. Sibiu.</p><h2>Despre Marius Chera</h2><ul><li>Antrenor de culturism; oferă coaching online.</li><li>A fondat brandul Prime Supplements în 2022.</li><li>A pregătit sportivi care au obținut cardul PRO în cadrul organizației NPC.</li><li>A colaborat la adaptarea rețetelor Prime Supplements, pornind de la experiența din pregătirea culturiștilor.</li></ul><h2>Rolul în conținutul de pe blog</h2><p>Articolele de pe blog sunt publicate sub coordonarea lui Marius Chera. Multe dintre ele sunt redactate cu ajutorul unor instrumente software de generare a textului.</p><p>Dacă observi o informație greșită sau neclară într-un articol, scrie-ne la <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a>, ca să o putem verifica și corecta.</p><h2>Profilurile oficiale Prime Supplements</h2><ul><li><a href=\"https://www.facebook.com/primesupplementsro\">Facebook</a></li><li><a href=\"https://www.instagram.com/primesupplements_ro/\">Instagram</a></li><li><a href=\"https://www.tiktok.com/@primesupplements.ro\">TikTok</a></li><li><a href=\"https://www.youtube.com/@primesupplementsro\">YouTube</a></li></ul><h2>Notă importantă</h2><p>Conținutul publicat pe primesupplements.ro are caracter informativ și nu reprezintă sfat medical. Nu înlocuiește consultul, diagnosticul sau tratamentul medical. Suplimentele alimentare nu trebuie folosite ca înlocuitor al unei diete variate și echilibrate și al unui stil de viață sănătos. Înainte de a lua suplimente, mai ales dacă ești însărcinată sau alăptezi, ai o afecțiune sau urmezi un tratament, consultă medicul.</p><p>Datele firmei și de contact: <a href=\"/pages/despre-noi\">Despre noi</a> · <a href=\"/pages/contact\">Contact</a>.</p>",
+   "seo_title": "Marius Chera, antrenor de culturism | Prime Supplements",
+   "seo_description": "Marius Chera, antrenor de culturism și fondatorul Prime Supplements, coordonează blogul despre suplimente pentru sport. Află cine este și cum lucrăm.",
+   "notes": "1) Uses the default 'page' template (main-page enabled: renders the title as H1 and body_html in .prose), so the body is visible with no theme change. 2) CREDENTIAL WARNING: the title wording \"nutriționist sportiv\" was specified by the brief; the evidence contains no issuer, institution, year or certificate number for any nutrition qualification (CONTENT-04, GEO-06, AUTHORITY-10; web searches found nothing). The body therefore states only antrenor de culturism / coaching online / founder 2022 / product formulation. The owner must confirm the qualification (issuer + year) before publishing; if he cannot, use the title \"Marius Chera – antrenor de culturism, fondatorul Prime Supplements\" (seo_title already avoids the claim). 3) Omitted as unverified or contradictory (list for the owner to document): \"Nutriționist Certificat\" (no issuer); \"18 ani de experiență\" vs \"15 ani\"; \"8\" vs \"10 NPC PRO Cards\"; \"primul coach/pionier în obținerea cardurilor PRO în România\"; \"numeroase/multiple titluri Europene și Mondiale IFBB\" / \"Campion Mondial IFBB\"; \"Lector la cursurile de instructori din cadrul FRCF\"; \"medaliat internațional\" vs \"multiplu medaliat\"; Biohacking/Anti-aging specialisation. 4) Editorial note: no evidence that he reviews each article; 347/355 bodies carry the BlogGenAI marker (machine-generated by BlogGenAuto), hence \"publicate sub coordonarea\" plus a plain AI-drafting disclosure. If he does review articles, change to \"verificate de Marius Chera\" only once that is true for each article. 5) Social links are the brand profiles from schema-organization.liquid sameAs (TikTok and YouTube verified live; Facebook/Instagram are the footer handles, not live-verified: LOCAL-02). His personal LinkedIn (www.linkedin.com/in/chera23, cited in 337 articles) is not linked because it is not in the snippet and was not verified; add it after the owner confirms it. 6) Photo: none in the evidence; the owner can add one in the page editor (keeps plain HTML). 7) Follow-ups outside this file: staged theme-fixes/snippets/schema-article.liquid still points the Person url to /pages/despre-noi and sets jobTitle \"Nutriționist certificat\": change url to /pages/autor-marius-chera and drop or confirm the jobTitle; blog-cleanup clean.py 'author_link_fixed' also targets /pages/despre-noi; findings/ACTION-PLAN use /pages/marius-chera: keep one handle (autor-marius-chera). ProfilePage/Person JSON-LD (SCHEMA-20) needs a theme snippet."
+  },
+  {
+   "action": "update",
+   "id": "gid://shopify/Page/691734675831",
+   "handle": "politica-de-cookies",
+   "title": "Politică de Cookies",
+   "template_suffix": "page",
+   "body_html": "<p>Această politică de cookies explică modul în care PRIME SPORT SUPPLEMENTS SRL (CUI 46260823, Nr. Reg. Com. J32/1155/2022), cu sediul în Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România, utilizează cookie-uri și tehnologii similare pe site-ul <a href=\"https://primesupplements.ro/\">primesupplements.ro</a>. Prin utilizarea acestui site, sunteți de acord cu utilizarea cookie-urilor conform acestei politici.</p>\n<h3>Ce sunt cookie-urile?</h3>\n<p>Cookie-urile sunt fișiere mici de text stocate pe dispozitivul dumneavoastră (computer, tabletă, telefon mobil) atunci când vizitați un site web. Acestea sunt utilizate pentru a îmbunătăți experiența utilizatorului și pentru a furniza informații utile proprietarilor site-ului.</p>\n<h3>Ce tipuri de cookie-uri folosim?</h3>\n<p>Pe site-ul<span> </span><a href=\"http://www.primesupplements.ro/\" rel=\"noopener\">www.primesupplements.ro</a><span> </span>utilizăm următoarele tipuri de cookie-uri:</p>\n<p><strong>Cookie-uri esențiale</strong><br>Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului și nu pot fi dezactivate. Ele permit navigarea și utilizarea funcțiilor de bază, cum ar fi accesarea contului și plasarea comenzilor.</p>\n<p><strong>Cookie-uri de analiză și performanță</strong><br>Aceste cookie-uri ne ajută să analizăm traficul și comportamentul utilizatorilor pe site, permițându-ne să îmbunătățim experiența oferită. Informațiile colectate sunt anonime și sunt utilizate exclusiv în scopuri statistice.</p>\n<p><strong>Cookie-uri de funcționalitate</strong><br>Aceste cookie-uri permit personalizarea experienței pe site, cum ar fi salvarea preferințelor utilizatorului sau a limbii selectate.</p>\n<p><strong>Cookie-uri de publicitate și marketing</strong><br>Aceste cookie-uri sunt utilizate pentru a afișa anunțuri relevante pentru dumneavoastră, pe baza intereselor și comportamentului online. Pot fi setate de către noi sau de către terțe părți, cum ar fi rețelele de publicitate.</p>\n<h3>Cum puteți controla cookie-urile?</h3>\n<p>Aveți posibilitatea de a gestiona preferințele cookie-urilor prin setările browserului dumneavoastră. Majoritatea browserelor permit:</p>\n<ul>\n<li>Blocarea tuturor cookie-urilor</li>\n<li>Ștergerea cookie-urilor existente</li>\n<li>Setarea de notificări înainte de salvarea cookie-urilor</li>\n</ul>\n<p>Pentru mai multe detalii despre cum puteți gestiona cookie-urile în browserul dumneavoastră, vizitați secțiunea “Ajutor” a acestuia.</p>\n<h3>Cookie-uri de la terțe părți</h3>\n<p>Site-ul nostru poate include cookie-uri plasate de terțe părți, cum ar fi Google Analytics, Facebook Pixel sau alte platforme de marketing digital. Aceste cookie-uri sunt utilizate pentru analiză și publicitate, iar datele colectate sunt gestionate conform politicilor acestora.</p>\n<h3>Actualizări ale politicii de cookies</h3>\n<p>Putem actualiza această politică periodic pentru a reflecta modificările legislative sau schimbările în modul în care utilizăm cookie-urile. Orice actualizare va fi publicată pe această pagină.</p>\n<h3>Contact</h3>\n<p>Dacă aveți întrebări legate de utilizarea cookie-urilor pe site-ul nostru, ne puteți contacta la:</p>\n<p>Societate: PRIME SPORT SUPPLEMENTS SRL, CUI 46260823, Nr. Reg. Com. J32/1155/2022<br>Telefon: <a href=\"tel:+40775286584\">+40 775 286 584</a><br>Email: <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a><br>Adresă: Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România<br>Website: <a href=\"https://primesupplements.ro/\">primesupplements.ro</a></p>",
+   "seo_title": "Politica de cookies a site-ului | Prime Supplements",
+   "seo_description": "Ce cookie-uri folosește PRIME SPORT SUPPLEMENTS SRL pe primesupplements.ro: esențiale, de analiză, funcționale și de marketing și cum le poți gestiona.",
+   "notes": "LOCAL-04: the page named \"Prime Supplements S.R.L.\", a company that does not exist in the registry. Only the two identity spans were replaced: the opening sentence's operator clause (name, CUI, Reg. Com., full address, site link https://primesupplements.ro/) and the Contact paragraph (company line added; canonical phone with tel: link; the e-mail <a> had no href, now mailto:; full address; https site link). The rest of the body is byte-identical to pages.json (checked by script), including the second http://www.primesupplements.ro/ link under 'Ce tipuri de cookie-uri folosim?' and the sentence 'Prin utilizarea acestui site, sunteți de acord...'. Optional legal review (not changed): consent-by-use wording vs the Pandectes consent banner; that remaining www link (2-hop redirect). Uses the default 'page' template, so the body renders. <br> kept inside the contact paragraph to preserve the current look."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691734708599",
+   "handle": "termeni-și-condiții",
+   "title": "Termeni și condiții",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change in this pass. Open issue for the owner: delivery terms conflict with politica-de-livrare (700 RON / 2-4 zile lucrătoare here vs 300 RON / 24-72 h there); \"PRIME SUPPLEMENTS nu este responsabil\" uses the brand instead of the legal name; non-ASCII handle."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691734741367",
+   "handle": "politica-de-plata",
+   "title": "Politica de plata",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change in this pass (legal name not misstated). Optional LOCAL-04 cleanup: 'www.primesupplements.ro' anchors without href, phone '0775 286 584' and address without postal code/county in the Contact block."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691734774135",
+   "handle": "politica-de-confidentialitate",
+   "title": "Politica de confidentialitate",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change: identity already correct (PRIME SPORT SUPPLEMENTS S.R.L., CUI 46260823, J32/1155/2022, Cisnădie, Sibiu)."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691734806903",
+   "handle": "politica-de-livrare",
+   "title": "Politica de livrare",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change in this pass. Optional LOCAL-04 cleanup: 'www.primesupplements.ro' anchor without href, address without postal code/county. Source of the Romania-only delivery scope used on the contact page."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691734839671",
+   "handle": "politica-de-retur",
+   "title": "POLITICA DE RETUR",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change: identity already correct; source of the 14-day withdrawal wording used on the contact page."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/691843596663",
+   "handle": "inregistrare-b2b",
+   "title": "Reprezinți o companie?",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change (B2B registration form embed)."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/692417888631",
+   "handle": "thank-you",
+   "title": "Thank you",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change (noindex already staged in theme.liquid)."
+  },
+  {
+   "action": "none",
+   "id": "gid://shopify/Page/704641139063",
+   "handle": "creatina-custom",
+   "title": "Creatina custom",
+   "body_html": null,
+   "seo_title": null,
+   "seo_description": null,
+   "notes": "No change (out of scope; section-built page)."
+  }
+ ]
+}

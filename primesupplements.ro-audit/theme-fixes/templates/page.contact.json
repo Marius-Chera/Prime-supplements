@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_WqzBQV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xXNAJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_14_10_38_1061.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Contactează-ne",
+            "title": "Ai întrebări?",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xXNAJK"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "text_Ayq97B": {
+          "type": "text",
+          "settings": {
+            "title": "Telefon",
+            "use_long_text": false,
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "text_Ayq97B"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Informații contact",
+        "title": "",
+        "content": "<p><strong>Telefon:</strong> <a href=\"tel:+40775286584\">+40 775 286 584</a><br/><strong>WhatsApp:</strong> <a href=\"https://wa.me/40775286584\">+40 775 286 584</a><br/><strong>E-mail:</strong> <a href=\"mailto:contact@primesupplements.ro\">contact@primesupplements.ro</a><br/><strong>Program:</strong> luni – vineri, 8:00 – 18:00 (timp mediu de răspuns: 1 oră)</p><p><strong>PRIME SPORT SUPPLEMENTS SRL</strong><br/>CUI 46260823 · Nr. Reg. Com. J32/1155/2022<br/>Sediu social: Str. Ioan Virgil Ispas, Nr. 17A, Cisnădie 555300, jud. Sibiu, România</p><p>Livrăm prin curier, doar în România. Detalii: <a href=\"/pages/politica-de-livrare\">Politica de livrare</a> · <a href=\"/pages/politica-de-retur\">Politica de retur</a></p><p>Soluționarea alternativă a litigiilor: <a href=\"https://anpc.ro/ce-este-sal/\">ANPC – SAL</a></p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_WqzBQV",
+    "contact"
+  ]
+}

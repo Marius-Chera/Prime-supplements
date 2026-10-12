@@ -23,6 +23,11 @@ def clean(body, handle):
     b, n = re.subn(r'<nav class="breadcrumbs"[^>]*>.*?</nav>', '', b, flags=re.S); c['breadcrumb_nav_removed'] += n
     b, n = strip_block_by_comment(b, 'Article Metadata Bar', 'div'); c['metadata_bar_removed'] += n
     b, n = re.subn(r'<div class="article-metadata"[^>]*>.*?</div>\s*</div>', '', b, flags=re.S); c['metadata_bar_removed'] += n
+    # 3b. BlogGenAuto "Published / Updated / By" box at the top of the body (fabricated dates; the theme renders the real date and author)
+    b, n = re.subn(r'<div[^>]*>\s*<p[^>]*>\s*<strong>Published:</strong>.*?</div>', '', b, flags=re.S); c['published_box_removed'] += n
+    b, n = re.subn(r'<p[^>]*>\s*<strong>Published:</strong>.*?</p>', '', b, flags=re.S); c['published_line_removed'] += n
+    # 3c. decorative "source" links that point at a homepage (no path) are not citations: keep the text, drop the link
+    b, n = re.subn(r'<a\b[^>]*href="https?://(?:www\.)?(?:ncbi\.nlm\.nih\.gov|pubmed\.ncbi\.nlm\.nih\.gov|nih\.gov|who\.int|healthline\.com|examine\.com|mayoclinic\.org|efsa\.europa\.eu|webmd\.com|medicalnewstoday\.com|sciencedirect\.com|nutrition\.org|jissn\.biomedcentral\.com|hopkinsmedicine\.org|health\.harvard\.edu|clevelandclinic\.org|nhs\.uk|fda\.gov|ods\.od\.nih\.gov|europepmc\.org|cochrane\.org|bmj\.com|thelancet\.com|nature\.com|springer\.com|wiley\.com|frontiersin\.org|mdpi\.com)/?"[^>]*>(.*?)</a>', r'\1', b, flags=re.S); c['decorative_source_links_unlinked'] += n
     # 4. "Powered by BlogGenAuto" paragraph/link
     b, n = re.subn(r'<p[^>]*>\s*<a[^>]*href="https?://(?:www\.)?bloggenauto\.com[^"]*"[^>]*>\s*Powered by BlogGenAuto\s*</a>\s*</p>', '', b, flags=re.S); c['powered_by_removed'] += n
     b, n = re.subn(r'<a[^>]*href="https?://(?:www\.)?bloggenauto\.com[^"]*"[^>]*>.*?</a>', '', b, flags=re.S); c['bloggenauto_links_removed'] += n

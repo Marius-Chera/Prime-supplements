@@ -16,8 +16,8 @@
     assign author_is_person = false
   endif
   assign author_job = ''
-  if author_raw contains 'Nutri' or author_name == 'Marius Chera'
-    assign author_job = 'Nutriționist certificat'
+  if author_name == 'Marius Chera'
+    assign author_job = 'Antrenor de culturism, fondator Prime Supplements'
   endif
   assign excerpt = article.excerpt_or_content | strip_html | strip_newlines | strip | truncate: 300, ''
   assign body_text = article.content | strip_html | strip_newlines | strip
@@ -50,6 +50,9 @@
   {%- if author_is_person %}
   "author": {
     "@type": "Person",
+    {%- if author_name == 'Marius Chera' %}
+    "@id": {{ shop.url | append: '/#marius-chera' | json }},
+    {%- endif %}
     "name": {{ author_name | json }},
     {%- if author_job != blank %}
     "jobTitle": {{ author_job | json }},
@@ -57,7 +60,11 @@
     {%- if author_name == 'Marius Chera' %}
     "sameAs": ["https://www.linkedin.com/in/chera23"],
     {%- endif %}
+    {%- if author_name == 'Marius Chera' %}
+    "url": {{ shop.url | append: '/pages/autor-marius-chera' | json }},
+    {%- else %}
     "url": {{ shop.url | append: '/pages/despre-noi' | json }},
+    {%- endif %}
     "worksFor": { "@id": {{ shop.url | append: '/#organization' | json }} }
   },
   {%- else %}

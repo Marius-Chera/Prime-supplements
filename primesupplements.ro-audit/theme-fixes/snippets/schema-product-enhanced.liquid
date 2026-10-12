@@ -7,6 +7,8 @@
   and shipping details (Google merchant-listing requirements). Brand comes from the
   vendor field, category from the product type, ratings from the standard
   reviews.rating / reviews.rating_count metafields (written by Judge.me).
+  2026-10-13: a barcode is emitted as gtin only when it is 8/12/13/14 digits with a valid GS1 check digit
+  (27 store barcodes are internal codes that fail the check and would be rejected as GTINs).
 {%- endcomment -%}
 {%- if product -%}
 {%- liquid
@@ -45,8 +47,38 @@
   {%- if first_variant.sku != blank %}
   "sku": {{ first_variant.sku | json }},
   {%- endif %}
-  {%- if first_variant.barcode != blank %}
-  "gtin": {{ first_variant.barcode | json }},
+{%- liquid
+    assign first_gtin_ok = false
+    assign gtin_code = first_variant.barcode | strip
+    assign gtin_len = gtin_code.size
+    assign gtin_rest = gtin_code | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
+    if gtin_rest == blank
+      if gtin_len == 8 or gtin_len == 12 or gtin_len == 13 or gtin_len == 14
+        assign gtin_chars = gtin_code | split: ''
+        assign gtin_check = gtin_chars.last | plus: 0
+        assign gtin_sum = 0
+        assign gtin_weight = 3
+        for gtin_i in (2..gtin_len)
+          assign gtin_idx = gtin_len | minus: gtin_i
+          assign gtin_digit = gtin_chars[gtin_idx] | plus: 0
+          assign gtin_term = gtin_digit | times: gtin_weight
+          assign gtin_sum = gtin_sum | plus: gtin_term
+          if gtin_weight == 3
+            assign gtin_weight = 1
+          else
+            assign gtin_weight = 3
+          endif
+        endfor
+        assign gtin_calc = gtin_sum | modulo: 10
+        assign gtin_calc = 10 | minus: gtin_calc | modulo: 10
+        if gtin_calc == gtin_check
+          assign first_gtin_ok = true
+        endif
+      endif
+    endif
+  -%}
+  {%- if first_gtin_ok %}
+  "gtin": {{ first_variant.barcode | strip | json }},
   {%- endif %}
   {%- if rating_value and rating_count > 0 %}
   "aggregateRating": {
@@ -72,8 +104,38 @@
       {%- if variant.sku != blank %}
       "sku": {{ variant.sku | json }},
       {%- endif %}
-      {%- if variant.barcode != blank %}
-      "gtin": {{ variant.barcode | json }},
+      {%- liquid
+    assign variant_gtin_ok = false
+    assign gtin_code = variant.barcode | strip
+    assign gtin_len = gtin_code.size
+    assign gtin_rest = gtin_code | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
+    if gtin_rest == blank
+      if gtin_len == 8 or gtin_len == 12 or gtin_len == 13 or gtin_len == 14
+        assign gtin_chars = gtin_code | split: ''
+        assign gtin_check = gtin_chars.last | plus: 0
+        assign gtin_sum = 0
+        assign gtin_weight = 3
+        for gtin_i in (2..gtin_len)
+          assign gtin_idx = gtin_len | minus: gtin_i
+          assign gtin_digit = gtin_chars[gtin_idx] | plus: 0
+          assign gtin_term = gtin_digit | times: gtin_weight
+          assign gtin_sum = gtin_sum | plus: gtin_term
+          if gtin_weight == 3
+            assign gtin_weight = 1
+          else
+            assign gtin_weight = 3
+          endif
+        endfor
+        assign gtin_calc = gtin_sum | modulo: 10
+        assign gtin_calc = 10 | minus: gtin_calc | modulo: 10
+        if gtin_calc == gtin_check
+          assign variant_gtin_ok = true
+        endif
+      endif
+    endif
+  -%}
+      {%- if variant_gtin_ok %}
+      "gtin": {{ variant.barcode | strip | json }},
       {%- endif %}
       "seller": { "@type": "Organization", "@id": {{ shop.url | append: '/#organization' | json }}, "name": "Prime Supplements" },
       "hasMerchantReturnPolicy": {

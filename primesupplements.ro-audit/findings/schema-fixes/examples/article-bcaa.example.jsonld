@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://primesupplements.ro/blogs/news/bcaa-vs-eaa-diferen%C8%9Be-%C8%99i-beneficii-pentru-culturisti-ghid-complet#article",
+  "headline": "BCAA vs. EAA: Diferențe și Beneficii pentru Culturisti - Ghid Complet",
+  "description": "Atunci când vine vorba despre suplimentele de aminoacizi, BCAA (aminoacizi cu lanț ramificat) și EAA (aminoacizi esențiali) sunt două dintre cele mai populare opțiuni. Ambele grupuri de aminoacizi joacă un rol crucial în sprijinul performanței sportive, a recuperării și a creșterii musculare...",
+  "datePublished": "2025-05-29T00:13:37+03:00",
+  "dateModified": "2026-03-12T18:41:42+02:00",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://primesupplements.ro/cdn/shop/articles/HILA_13_16_35_43_2090_cc4beccf-dba4-4ecc-9a76-ec4f00f50075.jpg?v=1773333702&width=1200",
+    "width": 1200,
+    "height": 800
+  },
+  "author": {
+    "@type": "Person",
+    "@id": "https://primesupplements.ro/pages/despre-noi#marius-chera",
+    "name": "Marius Chera",
+    "jobTitle": "Nutriționist certificat, antrenor de culturism",
+    "url": "https://primesupplements.ro/pages/despre-noi",
+    "sameAs": [
+      "https://www.linkedin.com/in/chera23"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://primesupplements.ro/#organization",
+    "name": "Prime Supplements",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-supplements-600x160.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://primesupplements.ro/blogs/news/bcaa-vs-eaa-diferen%C8%9Be-%C8%99i-beneficii-pentru-culturisti-ghid-complet"
+  }
+}

@@ -1,0 +1,82 @@
+{%- comment -%}
+  snippets/schema-organization.liquid (v2, SEO audit 2026-10-12)
+  Rendered in <head> of layout/theme.liquid on every page (keep it AFTER <meta charset>).
+  Changes vs. live: OnlineStore subtype; legalName / taxID / vatID; telephone, email, full
+  PostalAddress (from Settings > Store details: Str. Ioan Virgil Ispas 17A, Cisnădie, Sibiu 555300);
+  contactPoint with telephone + hours (Mo-Fr 09:00-17:00 per /pages/politica-de-livrare);
+  availableLanguage "ro" only (the Hungarian locale is unpublished); founder Person node;
+  logo from Settings > Brand (the hard-coded logo-prime-supplements.png returns HTTP 404);
+  foundingDate 2022 (J32/1155/2022) instead of the unverified "2020"; sameAs with the Facebook
+  URL that actually resolves (facebook.com/primesupplementsro); site-wide MerchantReturnPolicy node.
+  VERIFY before publishing: vatID (only if the SRL is VAT-registered; otherwise keep taxID only),
+  the Instagram/TikTok handles, and the exact postal code.
+{%- endcomment -%}
+{%- liquid
+  if shop.brand.logo
+    assign org_logo = shop.brand.logo | image_url: width: 600 | prepend: 'https:'
+  else
+    assign org_logo = 'logo-prime-supplements-600x160.png' | file_url | prepend: 'https:'
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://primesupplements.ro/#organization",
+      "name": "Prime Supplements",
+      "legalName": "PRIME SPORT SUPPLEMENTS SRL",
+      "alternateName": "Prime Sport Supplements",
+      "url": "https://primesupplements.ro/",
+      "logo": { "@type": "ImageObject", "@id": "https://primesupplements.ro/#logo", "url": {{ org_logo | json }}, "caption": "Prime Supplements" },
+      "image": { "@id": "https://primesupplements.ro/#logo" },
+      "description": "Magazin online românesc de suplimente sportive (creatină, proteine, pre-workout, aminoacizi) și echipament de sală MNX, cu livrare în toată România.",
+      "slogan": "Hardcore Sports Nutrition",
+      "foundingDate": "2022",
+      "founder": { "@type": "Person", "@id": "https://primesupplements.ro/pages/despre-noi#marius-chera", "name": "Marius Chera", "jobTitle": "Nutriționist certificat, antrenor de culturism", "url": "https://primesupplements.ro/pages/despre-noi", "sameAs": ["https://www.linkedin.com/in/chera23"] },
+      "taxID": "46260823",
+      "vatID": "RO46260823",
+      "telephone": "+40775286584",
+      "email": "contact@primesupplements.ro",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Str. Ioan Virgil Ispas nr. 17A",
+        "addressLocality": "Cisnădie",
+        "addressRegion": "Sibiu",
+        "postalCode": "555300",
+        "addressCountry": "RO"
+      },
+      "areaServed": { "@type": "Country", "name": "RO" },
+      "currenciesAccepted": "RON",
+      "paymentAccepted": "Card, Ramburs",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+40775286584",
+        "email": "contact@primesupplements.ro",
+        "availableLanguage": ["ro"],
+        "areaServed": "RO",
+        "hoursAvailable": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:00" }
+      }],
+      "sameAs": [
+        "https://www.facebook.com/primesupplementsro",
+        "https://www.instagram.com/primesupplements.ro",
+        "https://www.tiktok.com/@primesupplements"
+      ],
+      "hasMerchantReturnPolicy": { "@id": "https://primesupplements.ro/#return-policy" }
+    },
+    {
+      "@type": "MerchantReturnPolicy",
+      "@id": "https://primesupplements.ro/#return-policy",
+      "applicableCountry": "RO",
+      "returnPolicyCountry": "RO",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+      "merchantReturnLink": "https://primesupplements.ro/pages/politica-de-retur"
+    }
+  ]
+}
+</script>

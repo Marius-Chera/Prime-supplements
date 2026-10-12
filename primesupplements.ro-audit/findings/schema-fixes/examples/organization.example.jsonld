@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://primesupplements.ro/#organization",
+      "name": "Prime Supplements",
+      "legalName": "PRIME SPORT SUPPLEMENTS SRL",
+      "url": "https://primesupplements.ro/",
+      "telephone": "+40775286584",
+      "email": "contact@primesupplements.ro",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Str. Ioan Virgil Ispas nr. 17A",
+        "addressLocality": "Cisnădie",
+        "addressRegion": "Sibiu",
+        "postalCode": "555300",
+        "addressCountry": "RO"
+      },
+      "taxID": "46260823",
+      "vatID": "RO46260823",
+      "hasMerchantReturnPolicy": {
+        "@id": "https://primesupplements.ro/#return-policy"
+      }
+    },
+    {
+      "@type": "MerchantReturnPolicy",
+      "@id": "https://primesupplements.ro/#return-policy",
+      "applicableCountry": "RO",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
+    }
+  ]
+}

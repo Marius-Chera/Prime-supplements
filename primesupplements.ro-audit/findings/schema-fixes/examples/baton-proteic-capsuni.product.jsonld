@@ -1,0 +1,153 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://primesupplements.ro/products/baton-proteic-capsuni#product",
+  "name": "Baton proteic căpșuni",
+  "description": "Mod de administrare După cum este necesar în ceea ce privește compoziția dietei și necesarul zilnic de proteine. Ingrediente Matrice proteică (concentrat proteic din zer, peptide de colagen, izolat proteic din soia, lapte praf integral), sirop de maltitol, glazură de ciocolată albă (zahăr, unt de cacao, lapte praf integral, emulgatori: lecitină din soia, aromă naturală de vanilie), sirop de glucoză-fructoză, creamă de lapte (zahăr, ulei de palmier, ulei de floarea soarelui, unt de cacao, lapte praf degresat, aromă), bucăți de căpșuni liofilizate.",
+  "url": "https://primesupplements.ro/products/baton-proteic-capsuni",
+  "image": [
+    "https://primesupplements.ro/cdn/shop/files/01_BATONPROTEIC_strawberry_front.jpg?v=1749666741&width=1200",
+    "https://primesupplements.ro/cdn/shop/files/01_box_BATONPROTEIC_strawberry_front.jpg?v=1749666742&width=1200"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "Prime Supplements"
+  },
+  "category": "Batoane Proteice",
+  "sku": "6421766062509",
+  "gtin13": "6421766062509",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.0,
+    "bestRating": 5.0,
+    "worstRating": 1.0,
+    "ratingCount": 4,
+    "reviewCount": 4
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "url": "https://primesupplements.ro/products/baton-proteic-capsuni?variant=55179979030903",
+      "name": "Cutie 12 buc x 55g",
+      "sku": "6421766062509",
+      "gtin13": "6421766062509",
+      "price": 100.0,
+      "priceCurrency": "RON",
+      "priceValidUntil": "2027-12-31",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "priceType": "https://schema.org/StrikethroughPrice",
+        "price": 155.0,
+        "priceCurrency": "RON"
+      },
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "@id": "https://primesupplements.ro/#organization",
+        "name": "Prime Supplements"
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://primesupplements.ro/#return-policy",
+        "applicableCountry": "RO",
+        "returnPolicyCountry": "RO",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 14,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+        "merchantReturnLink": "https://primesupplements.ro/pages/politica-de-retur"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "@id": "https://primesupplements.ro/#shipping-ro",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 20,
+          "currency": "RON"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "RO"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 3,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    },
+    {
+      "@type": "Offer",
+      "url": "https://primesupplements.ro/products/baton-proteic-capsuni?variant=55179979063671",
+      "name": "Baton 55g",
+      "sku": "6421766062462",
+      "gtin13": "6421766062462",
+      "price": 8.5,
+      "priceCurrency": "RON",
+      "priceValidUntil": "2027-12-31",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "priceType": "https://schema.org/StrikethroughPrice",
+        "price": 12.5,
+        "priceCurrency": "RON"
+      },
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "@id": "https://primesupplements.ro/#organization",
+        "name": "Prime Supplements"
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://primesupplements.ro/#return-policy",
+        "applicableCountry": "RO",
+        "returnPolicyCountry": "RO",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 14,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+        "merchantReturnLink": "https://primesupplements.ro/pages/politica-de-retur"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "@id": "https://primesupplements.ro/#shipping-ro",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 20,
+          "currency": "RON"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "RO"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 3,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    }
+  ]
+}

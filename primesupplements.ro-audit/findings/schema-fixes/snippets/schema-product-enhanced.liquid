@@ -1,0 +1,121 @@
+{%- comment -%}
+  snippets/schema-product-enhanced.liquid  (v2, SEO audit 2026-10-12)
+  Replaces the hand-built block that used "| escape" (escape does not encode newlines, so 75/185
+  products emitted invalid JSON). Rules applied here:
+    * every value goes through | json (quotes, newlines, backslashes, unicode are encoded)
+    * one Offer per variant: decimal price (variant.price is in bani -> divided_by: 100.0),
+      priceCurrency from the active market, priceValidUntil, availability, sku, gtin13/gtin
+    * StrikethroughPrice (UnitPriceSpecification) when compare_at_price > price (144/185 products)
+    * aggregateRating from the Judge.me metafields reviews.rating / reviews.rating_count
+      (server-side, no dependency on the Judge.me JS widget)
+    * hasMerchantReturnPolicy + shippingDetails (Romania, 14-day withdrawal, 20 RON Cargus,
+      free over 300 RON according to /pages/politica-de-livrare) on every Offer
+    * brand from product.vendor (fallback "Prime Supplements" while 64 products still carry the
+      myshopify handle "primesupplements1" as vendor), category from product.type with fallback
+      to the first non-generic collection (product.type is empty on 185/185 products today)
+  Rendered once from sections/main-product.liquid: {% render 'schema-product-enhanced' %}
+{%- endcomment -%}
+{%- if product -%}
+{%- liquid
+  assign generic = ',all,frontpage,cele-mai-vandute,lansate-recent,11-tva,reduceri,'
+  assign category_coll = blank
+  for c in product.collections
+    assign probe = ',' | append: c.handle | append: ','
+    unless generic contains probe
+      assign category_coll = c
+      break
+    endunless
+  endfor
+
+  assign brand_name = product.vendor | strip
+  if brand_name == blank or brand_name == 'primesupplements1'
+    assign brand_name = 'Prime Supplements'
+  endif
+
+  assign category = product.type | strip
+  if category == blank and category_coll != blank
+    assign category = category_coll.title
+  endif
+
+  assign description = product.metafields.custom.short_description.value | default: product.description | strip_html | strip_newlines | strip | truncate: 5000
+  if description == blank
+    assign description = product.title | append: ' - ' | append: brand_name
+  endif
+
+  assign currency = localization.country.currency.iso_code | default: shop.currency
+  assign price_valid_until = 'now' | date: '%Y' | plus: 1 | append: '-12-31'
+  assign rating = product.metafields.reviews.rating.value
+  assign rating_count = product.metafields.reviews.rating_count.value | default: 0 | plus: 0
+  assign first_variant = product.selected_or_first_available_variant
+
+  capture return_policy
+    echo '{"@type":"MerchantReturnPolicy","@id":"https://primesupplements.ro/#return-policy","applicableCountry":"RO","returnPolicyCountry":"RO","returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow","merchantReturnDays":14,"returnMethod":"https://schema.org/ReturnByMail","returnFees":"https://schema.org/ReturnFeesCustomerResponsibility","merchantReturnLink":"https://primesupplements.ro/pages/politica-de-retur"}'
+  endcapture
+  capture shipping_details
+    echo '{"@type":"OfferShippingDetails","@id":"https://primesupplements.ro/#shipping-ro","shippingRate":{"@type":"MonetaryAmount","value":20,"currency":"RON"},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"RO"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":0,"maxValue":1,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":3,"unitCode":"DAY"}}}'
+  endcapture
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": {{ canonical_url | append: '#product' | json }},
+  "name": {{ product.title | json }},
+  "description": {{ description | json }},
+  "url": {{ canonical_url | json }},
+  "image": [
+    {%- for image in product.images limit: 8 -%}
+      {{ image | image_url: width: 1200 | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ],
+  "brand": { "@type": "Brand", "name": {{ brand_name | json }} },
+  {%- if category != blank %}
+  "category": {{ category | json }},
+  {%- endif %}
+  {%- if first_variant.sku != blank %}
+  "sku": {{ first_variant.sku | json }},
+  {%- endif %}
+  {%- if first_variant.barcode.size == 13 %}
+  "gtin13": {{ first_variant.barcode | json }},
+  {%- endif %}
+  {%- if rating != blank and rating_count > 0 %}
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ rating.rating | json }},
+    "bestRating": {{ rating.scale_max | json }},
+    "worstRating": {{ rating.scale_min | json }},
+    "ratingCount": {{ rating_count | json }},
+    "reviewCount": {{ rating_count | json }}
+  },
+  {%- endif %}
+  "offers": [
+    {%- for variant in product.variants -%}
+    {
+      "@type": "Offer",
+      "url": {{ canonical_url | append: '?variant=' | append: variant.id | json }},
+      "name": {{ variant.title | json }},
+      {%- if variant.sku != blank %}
+      "sku": {{ variant.sku | json }},
+      {%- endif %}
+      {%- if variant.barcode.size == 13 %}
+      "gtin13": {{ variant.barcode | json }},
+      {%- elsif variant.barcode != blank %}
+      "gtin": {{ variant.barcode | json }},
+      {%- endif %}
+      "price": {{ variant.price | divided_by: 100.0 | json }},
+      "priceCurrency": {{ currency | json }},
+      "priceValidUntil": {{ price_valid_until | json }},
+      {%- if variant.compare_at_price > variant.price %}
+      "priceSpecification": { "@type": "UnitPriceSpecification", "priceType": "https://schema.org/StrikethroughPrice", "price": {{ variant.compare_at_price | divided_by: 100.0 | json }}, "priceCurrency": {{ currency | json }} },
+      {%- endif %}
+      "availability": {% if variant.available %}"https://schema.org/InStock"{% else %}"https://schema.org/OutOfStock"{% endif %},
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": { "@type": "Organization", "@id": "https://primesupplements.ro/#organization", "name": "Prime Supplements" },
+      "hasMerchantReturnPolicy": {{ return_policy }},
+      "shippingDetails": {{ shipping_details }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

@@ -1,0 +1,72 @@
+{%- comment -%}
+  snippets/schema-article.liquid (v2, SEO audit 2026-10-12)
+  Fixes vs. the live snippet: | json everywhere (the "| escape" version breaks on multi-line
+  excerpts), BlogPosting with author Person "Marius Chera" (+ jobTitle, sameAs) whenever the
+  article author field contains his name (335/354 articles), Organization author only for the
+  18 articles signed "primesupplements1"; publisher with logo (ImageObject); image as ImageObject
+  with dimensions; headline capped at 110 chars; ISO-8601 dates with "+03:00" offsets; wordCount,
+  articleSection, keywords, inLanguage. Rendered from sections/main-article.liquid.
+  Prerequisite: Settings > Brand > logo (PNG) so shop.brand.logo is set, or upload
+  files/logo-prime-supplements-600x160.png (the URL used today returns 404).
+{%- endcomment -%}
+{%- if article -%}
+{%- liquid
+  assign author_name = article.author | strip
+  assign is_marius = false
+  if author_name contains 'Marius Chera'
+    assign is_marius = true
+  endif
+  assign headline = article.title | strip | truncate: 110
+  assign description = article.excerpt_or_content | strip_html | strip_newlines | strip | truncate: 300
+  assign word_count = article.content | strip_html | split: ' ' | size
+  if shop.brand.logo
+    assign org_logo = shop.brand.logo | image_url: width: 600 | prepend: 'https:'
+  else
+    assign org_logo = 'logo-prime-supplements-600x160.png' | file_url | prepend: 'https:'
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": {{ canonical_url | append: '#article' | json }},
+  "headline": {{ headline | json }},
+  "description": {{ description | json }},
+  "url": {{ canonical_url | json }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ canonical_url | json }} },
+  "inLanguage": "ro",
+  "isPartOf": { "@id": "https://primesupplements.ro/#website" },
+  "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+  "dateModified": {{ article.updated_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+  {%- if article.image %}
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ article.image | image_url: width: 1200 | prepend: 'https:' | json }},
+    "width": {{ article.image.width | json }},
+    "height": {{ article.image.height | json }}
+  },
+  {%- endif %}
+  "author": {%- if is_marius %} {
+    "@type": "Person",
+    "@id": "https://primesupplements.ro/pages/despre-noi#marius-chera",
+    "name": "Marius Chera",
+    "jobTitle": "Nutriționist certificat, antrenor de culturism",
+    "url": "https://primesupplements.ro/pages/despre-noi",
+    "sameAs": ["https://www.linkedin.com/in/chera23"]
+  }{%- else %} {
+    "@type": "Organization",
+    "@id": "https://primesupplements.ro/#organization",
+    "name": "Prime Supplements"
+  }{%- endif %},
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://primesupplements.ro/#organization",
+    "name": "Prime Supplements",
+    "logo": { "@type": "ImageObject", "url": {{ org_logo | json }} }
+  },
+  "wordCount": {{ word_count | json }},
+  "articleSection": {{ blog.title | json }},
+  "keywords": {{ article.tags | join: ', ' | json }}
+}
+</script>
+{%- endif -%}

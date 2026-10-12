@@ -1,0 +1,43 @@
+{%- comment -%}
+  snippets/schema-breadcrumb-enhanced.liquid (v2, SEO audit 2026-10-12)
+  The old version used product.collections.first, which Shopify sorts by title, so every product
+  got "All Products" (or "11% TVA" for the 15 products in that internal tax collection) as its
+  category crumb. This version prefers the collection the visitor came from (/collections/x/products/y)
+  and otherwise the first collection that is not a generic/automated one. All strings use | json.
+{%- endcomment -%}
+{%- if product -%}
+{%- liquid
+  assign generic = ',all,frontpage,cele-mai-vandute,lansate-recent,11-tva,reduceri,'
+  assign crumb = blank
+  if collection
+    assign probe = ',' | append: collection.handle | append: ','
+    unless generic contains probe
+      assign crumb = collection
+    endunless
+  endif
+  if crumb == blank
+    for c in product.collections
+      assign probe = ',' | append: c.handle | append: ','
+      unless generic contains probe
+        assign crumb = c
+        break
+      endunless
+    endfor
+  endif
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Acasă", "item": {{ request.origin | append: '/' | json }} },
+    {%- if crumb != blank %}
+    { "@type": "ListItem", "position": 2, "name": {{ crumb.title | json }}, "item": {{ request.origin | append: crumb.url | json }} },
+    { "@type": "ListItem", "position": 3, "name": {{ product.title | json }}, "item": {{ canonical_url | json }} }
+    {%- else %}
+    { "@type": "ListItem", "position": 2, "name": {{ product.title | json }}, "item": {{ canonical_url | json }} }
+    {%- endif %}
+  ]
+}
+</script>
+{%- endif -%}

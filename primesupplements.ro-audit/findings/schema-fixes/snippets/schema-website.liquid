@@ -1,0 +1,27 @@
+{%- comment -%}
+  snippets/schema-website.liquid (new, SEO audit 2026-10-12)
+  Homepage-only WebSite node (site name + entity link to the Organization). The SearchAction is kept
+  because it is harmless and documents the on-site search endpoint, but note that Google retired the
+  sitelinks search box in November 2024, so do not expect a SERP feature from it.
+  Render from layout/theme.liquid right after schema-organization:
+    {% render 'schema-website' %}
+{%- endcomment -%}
+{%- if request.page_type == 'index' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://primesupplements.ro/#website",
+  "url": "https://primesupplements.ro/",
+  "name": "Prime Supplements",
+  "alternateName": ["primesupplements.ro", "Prime Sport Supplements"],
+  "inLanguage": "ro",
+  "publisher": { "@id": "https://primesupplements.ro/#organization" },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": { "@type": "EntryPoint", "urlTemplate": {{ request.origin | append: routes.search_url | append: '?q={search_term_string}&type=product' | json }} },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{%- endif -%}

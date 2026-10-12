@@ -1,0 +1,74 @@
+{%- comment -%}
+  Article structured data (JSON-LD). Rewritten 2026-10-12: all strings use the `json`
+  filter (the previous `escape` filter left raw newlines in "description" and produced
+  invalid JSON on every article). Author is emitted as a Person built from the article
+  author field ("Marius Chera , Nutriționist Certificat" -> name "Marius Chera",
+  jobTitle "Nutriționist certificat"); the generic store account name falls back to the
+  Organization. Publisher references the site-wide Organization entity.
+{%- endcomment -%}
+{%- if article -%}
+{%- liquid
+  assign article_url = shop.url | append: article.url
+  assign author_raw = article.author | default: '' | strip
+  assign author_name = author_raw | split: ',' | first | strip
+  assign author_is_person = true
+  if author_name == blank or author_name == 'primesupplements1' or author_name == 'Prime Supplements'
+    assign author_is_person = false
+  endif
+  assign author_job = ''
+  if author_raw contains 'Nutri' or author_name == 'Marius Chera'
+    assign author_job = 'Nutriționist certificat'
+  endif
+  assign excerpt = article.excerpt_or_content | strip_html | strip_newlines | strip | truncate: 300, ''
+  assign body_text = article.content | strip_html | strip_newlines | strip
+  assign word_count = body_text | split: ' ' | size
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": {{ article_url | append: '#article' | json }},
+  "headline": {{ article.title | strip_newlines | strip | truncate: 110, '' | json }},
+  "description": {{ excerpt | json }},
+  "url": {{ article_url | json }},
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ article_url | json }} },
+  "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+  "dateModified": {{ article.updated_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+  "inLanguage": "ro",
+  "wordCount": {{ word_count | json }},
+  {%- if blog.title != blank %}
+  "articleSection": {{ blog.title | json }},
+  {%- endif %}
+  {%- if article.image %}
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ article.image | image_url: width: 1200 | prepend: 'https:' | json }},
+    "width": {{ article.image.width | json }},
+    "height": {{ article.image.height | json }}
+  },
+  {%- endif %}
+  {%- if author_is_person %}
+  "author": {
+    "@type": "Person",
+    "name": {{ author_name | json }},
+    {%- if author_job != blank %}
+    "jobTitle": {{ author_job | json }},
+    {%- endif %}
+    {%- if author_name == 'Marius Chera' %}
+    "sameAs": ["https://www.linkedin.com/in/chera23"],
+    {%- endif %}
+    "url": {{ shop.url | append: '/pages/despre-noi' | json }},
+    "worksFor": { "@id": {{ shop.url | append: '/#organization' | json }} }
+  },
+  {%- else %}
+  "author": { "@type": "Organization", "@id": {{ shop.url | append: '/#organization' | json }}, "name": "Prime Supplements" },
+  {%- endif %}
+  "publisher": {
+    "@type": "Organization",
+    "@id": {{ shop.url | append: '/#organization' | json }},
+    "name": "Prime Supplements",
+    "logo": { "@type": "ImageObject", "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-supplements.png", "width": 300, "height": 100 }
+  }
+}
+</script>
+{%- endif -%}

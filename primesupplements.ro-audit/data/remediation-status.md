@@ -8,6 +8,8 @@ The owner asked for every problem to be fixed, not only reported. The following 
 - 354 of 355 articles: `global.title_tag` and `global.description_tag` metafields rewritten (reviewed copy, 45-60 / 120-158 chars, one topic each so the 47 cannibalising groups now have differentiated titles); 17 articles whose author was the store account "primesupplements1" re-attributed to "Marius Chera". Plan: `applied/articles-plan.json`.
 - 493 of 493 product images: descriptive Romanian `alt` written from the actual image (packaging, flavour, view angle, worn/flat). Plan: `applied/alt-text-plan.json`.
 
+- 11 of 11 pages (contact, despre-noi, politici, B2B, thank-you, creatina-custom): `global.title_tag` + `description_tag` metafields written (were all empty).
+
 ## Staging theme (uploaded to the unpublished duplicate "Impact – SEO fixes 2026-10-12", id 193875083639; the OWNER must preview and publish)
 - `layout/theme.liquid`: charset + viewport first (no `maximum-scale`), title template with brand suffix and homepage override, homepage meta description, `noindex,follow` for utility collections (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage, reduceri, vendors, types), page thank-you, search, cart, password, customer templates.
 - `snippets/schema-product-enhanced.liquid`: valid Product JSON-LD (json filter), per-variant Offer with numeric price, priceValidUntil, availability, sku/gtin, hasMerchantReturnPolicy (14 days, RO), shippingDetails (20 RON / free ≥ 300 RON), aggregateRating from Judge.me metafields, brand from vendor.

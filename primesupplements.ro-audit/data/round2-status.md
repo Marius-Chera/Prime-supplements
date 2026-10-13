@@ -79,10 +79,12 @@ Doar constatările a căror stare s-a schimbat. Restul își păstrează starea 
 | ECOMMERCE-05 | PENDING | PARȚIAL (READY-R2) | Codurile de bare invalide nu mai sunt publicate ca `gtin`; completarea GTIN-urilor = PROPRIETAR |
 | SCHEMA-06 | READY | READY-R2 | Pagina de termeni aliniată cu politica de livrare (20 RON, gratuit peste 300 RON, 24–72 ore), deci markup-ul nu mai contrazice paginile |
 | TECH-03 / SITEMAP-04 / SHOPIFY-06 | READY | FIXED-R2 | `seo.hidden` pe cele 6 colecții utilitare/duplicate: noindex live și scoase din sitemap, fără să aștepte publicarea temei |
+| TECH-05 / SITEMAP-05 · ONPAGE-09 · SXO-15 | READY | FIXED-R2 | „Reduceri” (goală), „Toate produsele”, „11% TVA”, „Cele mai vândute”, „Lansate recent” și `frontpage` nu mai sunt indexabile și au ieșit din sitemap (`seo.hidden`); titlurile/meta celorlalte colecții erau scrise din runda 1 |
+| ONPAGE-21 · SXO-13 | PENDING / OPEN | PARȚIAL | Rezolvate: titlurile de produs în română (H1), „All Products” → „Toate produsele”, linia „Published:” și „Key Takeaways” scoase din articole, pagina „Thank you” scoasă din index, bara de anunț corectată (tema de test). Rămân șirurile widget-ului Judge.me („Customer Reviews”, „Write a review”, „No reviews”, „Let customers speak for us”): se traduc din aplicație, Judge.me → Settings → Translations (PROPRIETAR) |
 | TECH-06 / SITEMAP-06 | READY | FIXED-R2 | `seo.hidden` pe `/pages/thank-you`: noindex live, scoasă din sitemap |
 | ECOMMERCE-04 | FIXED | FIXED + R2 | Vendor „Frutilu” pe cele 19 băuturi instant Frutilu |
 | AGENTIC-05 | OPEN | READY-R2 | Paragraful Shopify adresat agenților scos din robots.txt-ul temei de test; `llms.txt` / `agents.md` sunt generate de platformă și nu pot fi editate din temă |
-| IMAGES-06 | READY | READY-R2 | Dimensiunile `og:image` declarate = dimensiunile imaginii servite; `summary_large_image` |
+| IMAGES-06 · INTERNATIONAL-09 | READY | READY-R2 | Dimensiunile `og:image` declarate = dimensiunile imaginii servite; `summary_large_image`; `og:locale` = `ro_RO`; `twitter:title` escapat pe articole și colecții |
 | LOCAL-01 · SCHEMA-08 | READY | READY-R2 | Logo Organization pe un fișier care există (SVG, 200), `vatID` adăugat |
 | SCHEMA-05 | READY | READY-R2 | Logo-ul publisher-ului Article pe același SVG existent (vechiul PNG răspunde 404) |
 | LOCAL-04 | OPEN → PARȚIAL | PARȚIAL (READY-R2) | Footer-ul temei de test are acum o singură formă de NAP; profilul magazinului (Setări → General) rămâne la proprietar |

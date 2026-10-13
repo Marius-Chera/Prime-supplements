@@ -8,7 +8,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | TECH-04 | 1 | High | OPEN | Arhiva blogului are 59 de pagini cu paginare doar prev/next (6 articole/pagină): majoritatea celor 354 articole sunt la 20–59 clicuri de orice hub |
 | SHOPIFY-03 | 1 | High | FIXED | Vendor „primesupplements1”, productType gol și fără categorie de taxonomie pe toate produsele (REMEDIAT) |
 | SHOPIFY-04 | 1 | High | FIXED | Titluri și descrieri SEO lipsă sau generice la produse, colecții, articole și pagini (REMEDIAT) |
-| TECH-05 / SITEMAP-05 | 1 | Medium | READY | Colecția goală „Reduceri” răspunde 200, e indexabilă și în ambele sitemap-uri (candidat soft-404), deși 144 produse au reducere |
+| TECH-05 / SITEMAP-05 | 1 | Medium | READY → FIXED-R2 | Colecția goală „Reduceri” răspunde 200, e indexabilă și în ambele sitemap-uri (candidat soft-404), deși 144 produse au reducere |
 | TECH-06 / SITEMAP-06 | 1 | Medium | READY → FIXED-R2 | `/pages/thank-you` (confirmarea înregistrării B2B) este indexabilă și în sitemap (titlu englez, fără H1, fără meta description) |
 | TECH-07 | 1 | Medium | READY | Pseudo-colecțiile automate vendor/type sunt live, indexabile și self-canonical (`/collections/vendors?q=primesupplements1`, `/collections/types?q=`) |
 | TECH-08 | 1 | Medium | OPEN → READY-R2 | URL-urile de colecție și blog filtrate pe tag răspund 200, self-canonical, indexabile, cu titluri duplicate |
@@ -77,7 +77,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | ONPAGE-06 | 3 | High | OPEN → FIXED-R2 | H1 de produs = numele brut: 100 H1 în engleză, 14 H1 de tip „500g/83 serv”, 2 H1 pe o pagină, H1 englezesc sub un titlu românesc |
 | ONPAGE-07 | 3 | Medium | OPEN → FIXED-R2 | Diacriticele sunt inconsecvente între titlu, H1 și meta pe aceeași pagină |
 | ONPAGE-08 | 3 | High | READY | Homepage: titlu cu slogan englezesc, meta ASCII de 216 caractere, H1 = logo, H2 în engleză |
-| ONPAGE-09 | 3 | High | READY | 9/23 colecții fără titlu/meta SEO; „All Products”, „11% TVA”, „Reduceri” (goală) și 2 clone cu 185 produse sunt indexabile |
+| ONPAGE-09 | 3 | High | READY → FIXED-R2 | 9/23 colecții fără titlu/meta SEO; „All Products”, „11% TVA”, „Reduceri” (goală) și 2 clone cu 185 produse sunt indexabile |
 | ONPAGE-10 | 3 | Medium | OPEN | H1 de colecție ≠ titlu, og:title folosește numele brut, iar 4 pagini de categorie au 1-3 produse |
 | ONPAGE-11 | 3 | High | OPEN → FIXED-R2 | Titluri H1 de articol: 321/354 peste 60 de caractere (max 134), 279 conțin „2026”, 206 sunt clickbait cu două puncte, 1 este integral în engleză |
 | ONPAGE-12 | 3 | High | FIXED | Titluri SEO de articol: 19 lipsă (Shopify trunchiază fallback-ul la 70 de caractere, în mijlocul cuvântului), 223/335 peste 60, 292 conțin „2026”, 90 poartă fragmente de cuvinte-cheie englezești |
@@ -89,7 +89,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | ONPAGE-18 | 3 | Medium | READY | Fără breadcrumb vizibil pe niciun șablon; singurul BreadcrumbList este JSON-LD și indică „All Products” |
 | ONPAGE-19 | 3 | Low | READY | Taguri OG/Twitter: og:image pe http, og:title ≠ titlu, card „summary”, twitter:description = text de dozare |
 | ONPAGE-20 | 3 | Low | READY → FIXED-R2 | Listări paginate: titluri bilingve „All Products – Pagina 2”, fără meta descriere, 3 serii identice de 8 pagini |
-| ONPAGE-21 | 3 | Medium | PENDING | Șiruri englezești netraduse pe pagini cu `lang="ro"` |
+| ONPAGE-21 | 3 | Medium | PENDING → PARȚIAL | Șiruri englezești netraduse pe pagini cu `lang="ro"` |
 | ONPAGE-22 | 3 | Low | OPEN → PARȚIAL | Greșeli de scriere în titlurile de secțiune din temă și în titluri |
 | ONPAGE-23 | 3 | Medium | FIXED | Pagini de magazin: 0/11 cu titlu sau meta SEO; cele trei pagini construite din secțiuni nu au H1; „Thank you” este indexabilă |
 | ONPAGE-24 | 3 | Low | OPEN → FIXED-R2 | Index de blog: titlu/H1 generic „Ultimele articole”, fără meta descriere, fără H2 |
@@ -214,7 +214,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | INTERNATIONAL-06 | 9 | Low | PENDING → FIXED-R2 | Homepage-ul /ro-hu există în două forme de URL (`/ro-hu` și `/ro-hu/`, ambele 200); canonical/hreflang/sitemap folosesc forma fără slash, în timp ce `rootUrls` al pieței spune `/ro-hu/` |
 | INTERNATIONAL-07 | 9 | Low | PENDING → FIXED-R2 | Datele structurate de pe fiecare pagină /ro-hu/ declară URL-ul rădăcină ca URL al entității (@id, url, elemente de breadcrumb), în timp ce canonical-ul și og:url ale paginii declară /ro-hu/ |
 | INTERNATIONAL-08 | 9 | Low | OPEN | Canonical-ul și hreflang/sitemap-ul nu sunt de acord asupra majusculelor din percent-encoding pentru URL-urile cu handle-uri cu diacritice (canonical minuscule `%c8%9b`, hreflang și sitemap majuscule `%C8%9B`) |
-| INTERNATIONAL-09 | 9 | Low | READY | Lacune în metadatele de limbă: fără `og:locale`, fără `inLanguage` în niciun JSON-LD și string-uri în engleză (tagline-ul din title, titlul Judge.me) pe singurul locale (român) |
+| INTERNATIONAL-09 | 9 | Low | READY → READY-R2 | Lacune în metadatele de limbă: fără `og:locale`, fără `inLanguage` în niciun JSON-LD și string-uri în engleză (tagline-ul din title, titlul Judge.me) pe singurul locale (român) |
 | INTERNATIONAL-10 | 9 | Info | OPEN | Locale-ul maghiar există, dar este nepublicat, fără traduceri, fără HUF și fără conținut legal/de livrare maghiar: lista de pregătire pentru o lansare reală în Ungaria (opțiunea c) |
 | AUTHORITY-01 | 10 | High | OPEN | Domeniul lipsește din graful web Common Crawl, în timp ce competitorul principal este clasat |
 | AUTHORITY-02 | 10 | High | OPEN | Zero mențiuni terțe găsite pentru brand, firmă, fondator sau produse |
@@ -244,9 +244,9 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | SXO-10 | 11 | Medium | OPEN → PARȚIAL | Articolele sunt fundături pentru orice persona în faza de decizie: fără traseu către produs, încredere slabă în autor, date învechite |
 | SXO-11 | 11 | Medium | OPEN | Linia de haine MNX (54 % din catalog) nu are identitate căutabilă și primește prioritate pe homepage în fața suplimentelor |
 | SXO-12 | 11 | Medium | PENDING → FIXED-R2 | Piața /ro-hu/ le servește căutătorilor maghiari conținut românesc în RON și este oricum invizibilă |
-| SXO-13 | 11 | Low | OPEN | Șirurile UI și de catalog în limbi amestecate strică claritatea pentru persona-urile românești pe fiecare template |
+| SXO-13 | 11 | Low | OPEN → PARȚIAL | Șirurile UI și de catalog în limbi amestecate strică claritatea pentru persona-urile românești pe fiecare template |
 | SXO-14 | 11 | Medium | OPEN | Persona vânătoare de oferte este trimisă către o colecție „Reduceri” goală, deși 144 de produse au preț tăiat |
-| SXO-15 | 11 | Low | READY | Trei listări identice cu 185 de produse („All Products”, „Cele mai vândute”, „Lansate recent”) plus „11% TVA” și „Prime Health” concurează pentru intrarea generică „suplimente” fără potrivire de intenție |
+| SXO-15 | 11 | Low | READY → FIXED-R2 | Trei listări identice cu 185 de produse („All Products”, „Cele mai vândute”, „Lansate recent”) plus „11% TVA” și „Prime Health” concurează pentru intrarea generică „suplimente” fără potrivire de intenție |
 | SXO-16 | 11 | Info | OPEN | Marcajul FAQPage de pe homepage și de pe produsele de creatină nu are efect în SERP; păstrează-l doar ca conținut |
 | VISUAL-01 | 12 | High | PENDING | Bannerul de cookie-uri e un modal pe tot ecranul pe mobil și acoperă hero-ul pe desktop |
 | VISUAL-02 | 12 | Medium | OPEN | Pagina de produs pe mobil nu are CTA „Adaugă în coș” above the fold |

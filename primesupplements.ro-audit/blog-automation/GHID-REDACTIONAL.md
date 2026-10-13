@@ -63,14 +63,16 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 
 Fiecare articol nou are ca imagine principală o fotografie generată cu AI în care apare **produsul Prime real**, într-o scenă frumoasă și potrivită subiectului. Pozele din casetele de produs rămân pozele oficiale ale produsului.
 
-**Cum se face:**
+**Cum se face (procesul folosit și verificat la articolul de test):**
 
-1. Cheia Google Gemini este în variabila de mediu `GEMINI_API_KEY`. Dacă lipsește, folosește imaginea produsului și scrie în raport „lipsește GEMINI_API_KEY”.
-2. Ca referință se dă poza oficială a produsului principal (`featuredImage.url` + `&width=1024`), ca ambalajul, eticheta și culorile să rămână cele reale.
-3. Scriptul de mai jos alege singur cel mai bun model Gemini de imagine disponibil (variabila `GEMINI_IMAGE_MODEL` îl poate fixa), cere format 16:9 și salvează imaginea.
-4. **Verificarea vizuală e obligatorie:** deschide imaginea (Read) și respinge-o dacă: eticheta sau logo-ul diferă de referință sau au litere stricate; produsul apare de două ori sau deformat; apare orice text, preț, număr, alt brand sau watermark adăugat; mâinile sau corpul arată nenatural; scena arată artificial. Maximum 3 încercări (schimbă scena sau formularea), apoi folosește imaginea produsului și spune în raport.
-5. Urcare în Shopify: `stagedUploadsCreate` (resource `IMAGE`, `httpMethod: PUT`, mimeType-ul imaginii, nume de fișier ASCII `blog-<handle>.png`), încarcă fișierul cu `curl -X PUT -T fișier -H "Content-Type: <mime>" "<url>"` (fără antetul x-goog-acl), apoi `fileCreate` cu `originalSource` = `resourceUrl`, `contentType: IMAGE` și textul alternativ. Așteaptă până când `fileStatus` este `READY` și folosește `image.url` al fișierului ca imagine a articolului.
-6. Text alternativ (română, 8–16 cuvinte): ce se vede + produsul + subiectul, de exemplu „Prime Whey lângă un shake proteic și ovăz, pe blatul din bucătărie”.
+1. Cheia Google Gemini este în variabila de mediu `GEMINI_API_KEY` (proiect cu facturare activă; pe planul gratuit modelele de imagine au limita 0). Dacă lipsește sau Google răspunde 429, folosește imaginea produsului și scrie motivul în raport.
+2. **Referința:** poza oficială a produsului principal la rezoluție mare (`featuredImage.url` + `&width=2048`). Deschide-o (Read) și **transcrie textul principal de pe etichetă** (nume, subtitlul de sub logo, gramaj și porții, mențiunile, aroma), ca să-l pui literă cu literă în prompt.
+3. **Generează 3 variante în paralel** (scene diferite din tabelul de mai jos), cu scriptul `gen_image.py` de mai jos. Modelul ales automat este cel mai bun disponibil (acum `gemini-3-pro-image`, ~0,134 USD pe imagine la 2K); `GEMINI_IMAGE_MODEL` îl poate fixa.
+4. **Verificarea vizuală e obligatorie și se face la zoom:** deschide fiecare variantă micșorată (≈1400 px) și apoi decupaje ale etichetei la rezoluție completă (Pillow, mărite de 3–5 ori). Respinge varianta dacă: orice text mare sau mediu de pe etichetă diferă de referință (litere stricate, cuvinte inventate, cifre greșite); produsul apare de două ori sau deformat; apare text, preț, număr, alt brand sau watermark adăugat; mâinile sau obiectele arată nenatural; scena arată artificial.
+5. **Corectare:** dacă cea mai bună variantă are greșeli doar în text, fă **o singură** editare cu `--ref <imaginea aleasă> --ref <referința 2048>` și un prompt care cere să schimbe doar textul etichetei (restul identic), la aceeași rezoluție 2K. Nu repeta editarea și nu urca la 4K: editările repetate strică textul care era corect. Dacă rămâne greșit doar textul foarte mic (sub ~12 px înălțime în imaginea 2K, de exemplu subtitlul de sub logo), poți copia literele reale din poza oficială peste el cu Pillow (scalate, înclinate ca textul vecin, fundalul vechi curățat) și verifici la zoom 5x că nu se vede retușul. Dacă nu iese natural, alege altă variantă; după 2 runde fără rezultat bun, folosește imaginea produsului și spune în raport.
+6. **Optimizare:** salvează varianta finală ca JPEG de 2400 px lățime, calitate 86 (Pillow), cu nume ASCII `blog-<handle>.jpg`.
+7. **Urcare în Shopify:** `stagedUploadsCreate` (resource `IMAGE`, `httpMethod: PUT`, `mimeType: image/jpeg`, filename-ul de mai sus), `curl -X PUT -T fișier -H "Content-Type: image/jpeg" "<url>"` (fără antetul x-goog-acl), apoi `fileCreate` cu `originalSource` = `resourceUrl`, `contentType: IMAGE` și textul alternativ. Așteaptă `fileStatus: READY` și folosește `image.url` al fișierului ca imagine a articolului.
+8. **Text alternativ** (română, 8–16 cuvinte): ce se vede + produsul + legătura cu subiectul, de exemplu „Prime Whey lângă un shake proteic și o masă cu pui, orez și legume”.
 
 **Prompt (în engleză, modelele de imagine îl înțeleg mai bine):**
 
@@ -78,25 +80,39 @@ Fiecare articol nou are ca imagine principală o fotografie generată cu AI în 
 Use the attached product photo as the exact reference for the product. Create a photorealistic editorial lifestyle photograph (16:9) for a sports-nutrition blog article about: <TOPIC IN ENGLISH>.
 Scene: <SCENE>.
 The <PRODUCT NAME> container from the reference appears exactly once, upright, in sharp focus, about one third of the frame, slightly off-centre; keep its shape, colours, logo and label exactly as in the reference (do not redraw, translate or invent label text).
+The label text must read exactly as on the reference, letter for letter: <LABEL TEXT TRANSCRIBED FROM THE REFERENCE, e.g. "PRIME" logo with the subtitle "HARDCORE SPORTS NUTRITION"; big "PRIME" in red and "WHEY" in white; vertical text "2000g / 66 SERVINGS"; bullets "..."; flavour "...">. Do not invent, misspell or blur any of these words.
 Look: premium fitness magazine photo, soft natural light, warm tones, shallow depth of field, clean uncluttered background, subtle red accents that match the brand.
 Do not add any text, captions, numbers, prices, watermarks, other brands or logos. No medical settings, no pills spilling, no before/after bodies. If a person appears, show only natural-looking hands or a figure from behind, out of focus.
 ```
 
-**Scene potrivite (alege și variază, nu repeta aceeași scenă la articole apropiate):**
+Prompt pentru editarea de corectare (pasul 5):
+
+```text
+The first image is a finished photograph. The second image is the exact reference of the product. Edit only the product label in the first image so that all of its printed text and graphics match the reference exactly; keep everything else in the first image identical (composition, lighting, objects, colours, camera angle, size and position of the product). <SAME LABEL TEXT AS ABOVE> Return the full edited photograph at the same framing (16:9).
+```
+
+**Scene potrivite (alege și variază, nu repeta aceeași scenă la articole apropiate; scena trebuie să aibă legătură cu subiectul articolului):**
 
 | Linie de produs | Scene |
 |---|---|
-| Proteine, cremă de orez, gainer | blat de bucătărie cu shaker, ovăz, banane; masă după antrenament; geantă de sală cu shaker |
+| Proteine, cremă de orez, gainer | blat de bucătărie cu pahar de shake, lingură-dozator cu pudră, farfurie echilibrată (pui, orez, legume) și un caiet; shaker, ovăz, banane; masă după antrenament |
 | Creatină, pre-workout, EAA, BCAA, glutamină | bancă de sală cu gantere și sticlă de apă; sală luminoasă dimineața; prosop și shaker după antrenament |
 | Vitamine, minerale, omega-3 | masă de mic dejun luminoasă cu fructe și un pahar cu apă; birou acasă, dimineață |
 | Magneziu, somn, relaxare | noptieră cu lumină caldă de seară, carte, pahar cu apă |
 | Colagen, articulații | pantofi de alergare, saltea de yoga, parc dimineața |
 | Crom, L-carnitină, controlul greutății | caserole cu mâncare gătită (meal prep), farfurie echilibrată, bandă de alergare în fundal |
 
-**Scriptul (salvează-l ca `gen_image.py`; rulează `python3 gen_image.py "<url referință>" out.png prompt.txt`):**
+**Scriptul** (salvează-l ca `gen_image.py`; exemple: `python3 gen_image.py --ref "<url referință>&width=2048" --prompt prompt.txt --out varianta1` pentru generare, `python3 gen_image.py --ref varianta1.jpg --ref referinta.jpg --prompt fix.txt --out varianta1_fix` pentru corectare; extensia fișierului rezultat se pune automat după tipul imaginii):
 
 ```python
-import base64, json, os, sys, urllib.request, urllib.error
+import argparse, base64, json, mimetypes, os, sys, urllib.request, urllib.error
+ap = argparse.ArgumentParser()
+ap.add_argument("--ref", action="append", required=True, help="reference image: URL or local file (repeatable)")
+ap.add_argument("--prompt", required=True, help="text file with the prompt")
+ap.add_argument("--out", required=True, help="output path without extension")
+ap.add_argument("--aspect", default="16:9")
+ap.add_argument("--size", default="2K")
+a = ap.parse_args()
 key = os.environ.get("GEMINI_API_KEY") or sys.exit("NO_KEY")
 API = "https://generativelanguage.googleapis.com/v1beta"
 def call(path, body=None):
@@ -114,17 +130,19 @@ if not model:
         if not tok: break
     names.sort(key=lambda n: ("pro" in n, "preview" not in n, n), reverse=True)
     model = names[0] if names else sys.exit("NO_IMAGE_MODEL")
-ref = urllib.request.urlopen(sys.argv[1], timeout=60)
-mime = ref.headers.get_content_type()
-ref = base64.b64encode(ref.read()).decode()
-prompt = open(sys.argv[3], encoding="utf-8").read()
-for cfg in ({"aspectRatio": "16:9", "imageSize": "2K"}, {"aspectRatio": "16:9"}, None):
+parts = [{"text": open(a.prompt, encoding="utf-8").read()}]
+for ref in a.ref:
+    if ref.startswith("http"):
+        r = urllib.request.urlopen(ref, timeout=60); mime = r.headers.get_content_type(); data = r.read()
+    else:
+        mime = mimetypes.guess_type(ref)[0] or "image/jpeg"; data = open(ref, "rb").read()
+    parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(data).decode()}})
+err = ""
+for cfg in ({"aspectRatio": a.aspect, "imageSize": a.size}, {"aspectRatio": a.aspect}, None):
     gen = {"responseModalities": ["TEXT", "IMAGE"]}
     if cfg: gen["imageConfig"] = cfg
-    body = {"contents": [{"parts": [{"text": prompt}, {"inline_data": {"mime_type": mime, "data": ref}}]}],
-            "generationConfig": gen}
     try:
-        r = call("/" + model + ":generateContent", body); break
+        r = call("/" + model + ":generateContent", {"contents": [{"parts": parts}], "generationConfig": gen}); break
     except urllib.error.HTTPError as e:
         err = e.read().decode()[:500]
         if e.code != 400: sys.exit(f"HTTP {e.code}: {err}")
@@ -132,8 +150,10 @@ else:
     sys.exit("REJECTED: " + err)
 for part in r["candidates"][0]["content"]["parts"]:
     if "inlineData" in part:
-        open(sys.argv[2], "wb").write(base64.b64decode(part["inlineData"]["data"]))
-        print(model, part["inlineData"]["mimeType"], os.path.getsize(sys.argv[2])); break
+        mime = part["inlineData"]["mimeType"]; out = a.out + (mimetypes.guess_extension(mime) or ".img").replace(".jpe", ".jpg")
+        if out.endswith(".jpeg"): out = out[:-5] + ".jpg"
+        open(out, "wb").write(base64.b64decode(part["inlineData"]["data"]))
+        print(model, mime, out, os.path.getsize(out)); break
 else:
     sys.exit("NO_IMAGE: " + json.dumps(r)[:500])
 ```

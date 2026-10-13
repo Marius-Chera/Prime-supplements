@@ -74,28 +74,29 @@ Fiecare articol nou are ca imagine principală o fotografie în care apare **pro
 7. **Urcare în Shopify:** `stagedUploadsCreate` (resource `IMAGE`, `httpMethod: PUT`, `mimeType: image/jpeg`, filename-ul de mai sus), `curl -X PUT -T fișier -H "Content-Type: image/jpeg" "<url>"` (fără antetul x-goog-acl), apoi `fileCreate` cu `originalSource` = `resourceUrl`, `contentType: IMAGE` și textul alternativ. Așteaptă `fileStatus: READY` și folosește `image.url` al fișierului ca imagine a articolului.
 8. **Text alternativ** (română, 8–16 cuvinte): ce se vede + produsul + legătura cu subiectul, de exemplu „Prime Whey lângă un shake proteic și o masă cu pui, orez și legume”.
 
-**Prompt (în engleză, modelele de imagine îl înțeleg mai bine):**
+**Prompt (în engleză, modelele de imagine îl înțeleg mai bine; varianta verificată la articolul de test):**
 
 ```text
 Use the attached product photo as the exact reference for the product. Create a photograph (16:9) for a leading health and nutrition website article about: <TOPIC IN ENGLISH>.
-Scene: <SCENE: a real place, real light, what is on the table/counter, optional person>.
-The <PRODUCT NAME> container from the reference appears exactly once, upright, in sharp focus, about one quarter to one third of the frame height, slightly off-centre; keep its shape, colours, logo and label exactly as in the reference. The label text must read exactly as on the reference, letter for letter: <LABEL TEXT TRANSCRIBED FROM THE REFERENCE>. Do not invent, misspell or blur any of these words.
-Style: authentic editorial lifestyle photography as published by top health and fitness magazines, shot on a full-frame camera with a 35mm lens at f/4, soft natural window daylight, true-to-life neutral colours, gentle contrast, realistic textures and small natural imperfections (a few oat flakes or a little powder on the counter, slight wrinkles in linen), calm honest documentary feel, plenty of clean negative space.
-Avoid: glossy advertising look, cinematic orange or golden glow, HDR, oversaturated colours, perfect symmetry, plastic or CGI-looking surfaces, extreme background blur, lens flares, floating objects.
-Do not add any text, captions, numbers, prices, watermarks, other brands or logos anywhere else in the image; any notebook, screen or scale display must be blank. No medical settings, no pills. If a person appears, show natural-looking hands or a person seen from behind or from the side without a recognisable face.
+Scene: <SCENE: a real place and light; 3-5 props tied to the topic, with small signs of use; optional person shown only as hands/forearms or cropped at the shoulders, in everyday clothes>.
+The <PRODUCT NAME> container from the reference appears exactly once, upright, turned 10-20 degrees off-axis, in sharp focus, filling about 20-30% of the frame, placed on a rule-of-thirds line; keep its shape, colours, logo and label exactly as in the reference, lit by the same window light as the scene (soft highlight band continuing from the lid across the label, natural darkening toward the curved edges, contact shadow and a faint reflection on the surface). The label text must read exactly as on the reference, letter for letter: <LABEL TEXT TRANSCRIBED FROM THE REFERENCE>. Do not invent, misspell or blur any of these words.
+Camera and light: photographed on a full-frame camera with a 35mm lens at f/2.8-f/4, 20-30 degrees above the surface, focus on the product, natural optical falloff, subtle vignetting; one soft side window light on an overcast late morning, real shadows.
+Colour: neutral to slightly warm white balance (about 5400K), saturation slightly reduced, gentle contrast, fine film grain like Kodak Portra 400, true brand red (not neon). Composition: props grouped in depth (foreground, middle, background), not lined up in a row; about one third calm negative space on one side.
+Negative: CGI, 3D render, plastic sheen, glossy or oily food, perfectly arranged scatter, duplicated or melted objects, garbled text, floating objects, extra fingers, airbrushed skin, golden glow, lens flare, oversaturated, HDR, stock-ad symmetry, fitness-model bodies.
+Do not add any text, captions, numbers, prices, watermarks, other brands or logos anywhere else in the image; notebooks must have blank pages, screens and scale displays must be blank or unreadable.
 ```
 
 Prompt pentru editarea de corectare (pasul 5):
 
 ```text
-The first image is a finished photograph. The second image is the exact reference of the product. Edit only the product label in the first image so that all of its printed text and graphics match the reference exactly; keep everything else in the first image identical (composition, lighting, objects, colours, camera angle, size and position of the product). <SAME LABEL TEXT AS ABOVE> Return the full edited photograph at the same framing (16:9).
+The first image is a finished photograph. The second image is the exact reference of the product. Edit only the product label in the first image so that all of its printed text and graphics match the reference exactly; keep everything else in the first image identical (composition, lighting, objects, colours, grain, camera angle, size and position of the product). <SAME LABEL TEXT AS ABOVE> <OPTIONAL: Make the pages of the notebook clean paper with no handwriting.> Return the full edited photograph at the same framing (16:9).
 ```
 
 **Scene potrivite (stil editorial; alege și variază, nu repeta aceeași scenă la articole apropiate; scena trebuie să aibă legătură cu subiectul):**
 
 | Linie de produs | Scene |
 |---|---|
-| Proteine, cremă de orez, gainer | bucătărie reală dimineața, cu o persoană din spate care gătește, în prim-plan produsul, shaker, fructe de pădure, pahar cu lapte; natură statică pe masă de lemn cu fular de in, lângă fereastră: shake, ovăz, pui cu fasole verde, caiet deschis cu pagină goală; mâini care pun o lingură de pudră în shaker |
+| Proteine, cremă de orez, gainer | natură statică pe masă de lemn cu fular de in, lângă fereastră, dimineața înnorată: lingură-dozator cu puțină pudră vărsată, caserolă de sticlă cu pui, orez și fasole verde, castron cu brânză de vaci, ouă fierte, caiet deschis cu pagini goale și creion; bucătărie reală, mâini care cântăresc pieptul de pui pe un cântar de bucătărie, cutie de ouă, iaurt grecesc cu lingura folosită |
 | Creatină, pre-workout, EAA, BCAA, glutamină | sală de forță reală, luminoasă, dimineața, cu cineva în fundal (din spate) la bară; bancă cu prosop, sticlă de apă și produsul; vestiar curat cu geantă de sală |
 | Vitamine, minerale, omega-3 | masă de mic dejun lângă fereastră, cu fructe și un pahar cu apă; birou de acasă în lumină de dimineață; bucătărie luminoasă cu legume proaspete |
 | Magneziu, somn, relaxare | noptieră cu lumină caldă de seară, carte, pahar cu apă; canapea cu pătură și ceai |
@@ -103,6 +104,10 @@ The first image is a finished photograph. The second image is the exact referenc
 | Crom, L-carnitină, controlul greutății | caserole cu mâncare gătită (meal prep) pe blat; farfurie echilibrată la prânz; persoană din spate care își leagă șireturile înainte de alergare |
 
 Rezultatul trebuie să pară o fotografie făcută de un fotograf, nu o randare: dacă iese prea lucioasă, prea simetrică sau cu lumină „de film”, generează altă variantă.
+
+**Oameni în imaginile generate:** doar mâini și antebrațe care fac ceva (pun pudră, toarnă, cântăresc) sau o persoană tăiată la umeri și ușor nefocalizată, în haine obișnuite (tricou, hanorac), adulți de vârste și siluete diferite. Fără corpuri de model de fitness, fără cadre din spate centrate pe abdomen sau fesieri, fără fețe recunoscătoare, fără privire în aparat.
+
+**Recuzita spune povestea:** 3–5 obiecte legate de subiect (pentru proteine: ouă, iaurt grecesc, brânză de vaci, pui în caserolă, cântar, lingură-dozator), cu mici urme de folosire; fără „presărări” aranjate fără sursă (ovăz vărsat fără bol, pudră fără lingură).
 
 **Scriptul** (salvează-l ca `gen_image.py`; exemple: `python3 gen_image.py --ref "<url referință>&width=2048" --prompt prompt.txt --out varianta1` pentru generare, `python3 gen_image.py --ref varianta1.jpg --ref referinta.jpg --prompt fix.txt --out varianta1_fix` pentru corectare; extensia fișierului rezultat se pune automat după tipul imaginii):
 
@@ -170,6 +175,7 @@ Proprietarul urcă poze reale din ședințele foto în Shopify (**Content → Fi
 4. Editarea AI e permisă doar pentru: extinderea naturală la 16:9, lumină și culori editoriale naturale, curățarea obiectelor care deranjează din fundal, un fundal mai potrivit cu subiectul, adăugarea produsului Prime din articol (din poza oficială) acolo unde e natural.
 5. **Interzis:** schimbarea fețelor, a identității, a expresiilor, a corpului, a mușchilor sau a pielii (nu se subțiază, nu se măresc mușchii, nu se „înfrumusețează” nimeni, pentru că ar induce în eroare la suplimente), adăugarea de persoane, modificarea etichetelor reale, adăugarea de text.
 6. Verificare: compară cap la cap (decupaje mărite) poza originală și cea editată: fețele și corpurile trebuie să fie identice, eticheta corectă. Apoi aceeași verificare ca la 4b.
+7. **Poze reale în interiorul articolului:** pe lângă imaginea principală, pune 1–2 poze din ședințe în corpul articolului, needitate (doar decupare), acolo unde ilustrează secțiunea (de exemplu la „Cum folosești <produs>” sau la antrenament). Folosește URL-ul fișierului din Shopify cu `&width=1200`, text alternativ descriptiv în română și legenda „Foto: Prime Supplements”, cu șablonul `<figure>` din secțiunea 5. Aceeași poză nu apare în mai mult de un articol la 20 de articole (verifici în corpurile articolelor publicate recent dacă URL-ul ei apare deja).
 
 Comanda: `python3 gen_image.py --ref "<url poza ședință>&width=2048" --ref "<url poza oficială produs>&width=2048" --prompt sedinta.txt --out varianta1`, cu promptul:
 
@@ -250,6 +256,17 @@ Fără `<h1>`, fără `<script>`, fără JSON-LD (tema generează schema Article
   </div>
 </div>
 ```
+
+Poză reală din ședința foto (opțional, 1–2 pe articol, vezi 4c):
+
+```html
+<figure style="margin: 28px 0;">
+  <img src="URL_POZA_SEDINTA&width=1200" alt="DESCRIERE CLARĂ A CE SE VEDE" loading="lazy" width="1200" height="800" style="width: 100%; height: auto; border-radius: 12px;">
+  <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">Foto: Prime Supplements</figcaption>
+</figure>
+```
+
+(`width` și `height` din tag sunt dimensiunile reale ale pozei redimensionate la 1200 px lățime, ca să nu se miște pagina la încărcare.)
 
 Culorile: text de accent `#a54f51`, fundaluri cu text alb `#b65b5d`, nuanța deschisă `#ea8a8a15` doar ca fundal decorativ. Toate trec contrastul WCAG AA. Imaginea articolelor din „Articole similare” este imaginea principală a acelor articole (câmpul `image.url`), verificată că există.
 

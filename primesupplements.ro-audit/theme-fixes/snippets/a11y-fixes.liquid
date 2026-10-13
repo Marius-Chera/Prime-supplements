@@ -1,0 +1,66 @@
+{%- comment -%}
+  Accessibility (2026-10-13), no visual effect:
+  1. The search and cart drawers are disabled in the overlay group, so the header icons point their aria-controls at
+     elements that do not exist (an invalid ARIA reference). The dangling attribute is dropped; the icons keep working as
+     plain links to /search and /cart, exactly as before. If a drawer is enabled again, its element exists and the
+     attribute is kept.
+  2. The Pop Convert popup renders its promo image link without alt text when the campaign has no "Alt text" set in the
+     app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
+     the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
+     generic label. Alt text set in the app always wins.
+{%- endcomment -%}
+<script>
+  (() => {
+    document.querySelectorAll('[aria-controls="search-drawer"], [aria-controls="cart-drawer"]').forEach((toggle) => {
+      if (!document.getElementById(toggle.getAttribute('aria-controls'))) {
+        toggle.removeAttribute('aria-controls');
+      }
+    });
+
+    const labelFor = (link) => {
+      let path;
+
+      try {
+        path = new URL(link.href, location.href).pathname.replace(/\/$/, '');
+      } catch (error) {
+        return '';
+      }
+
+      const match = Array.from(document.querySelectorAll('a[href]')).find((candidate) => {
+        try {
+          return candidate !== link && new URL(candidate.href, location.href).pathname.replace(/\/$/, '') === path && candidate.textContent.trim() !== '';
+        } catch (error) {
+          return false;
+        }
+      });
+
+      return match ? match.textContent.trim().replace(/\s+/g, ' ') : '';
+    };
+
+    const nameImages = (root) => {
+      root.querySelectorAll('img:not([alt])').forEach((image) => {
+        const link = image.closest('a[href]');
+        image.alt = link ? (labelFor(link) || 'Vezi oferta') : '';
+      });
+    };
+
+    const watchPopConvert = () => {
+      const root = window.pcTarget;
+
+      if (!(root instanceof ShadowRoot) || root.__a11yWatched) {
+        return Boolean(root && root.__a11yWatched);
+      }
+
+      root.__a11yWatched = true;
+      nameImages(root);
+      new MutationObserver(() => nameImages(root)).observe(root, {subtree: true, childList: true, attributes: true, attributeFilter: ['alt', 'src']});
+      return true;
+    };
+
+    if (!watchPopConvert()) {
+      const observer = new MutationObserver(() => watchPopConvert() && observer.disconnect());
+      observer.observe(document.body, {childList: true});
+      setTimeout(() => observer.disconnect(), 60000);
+    }
+  })();
+</script>

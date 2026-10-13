@@ -12,9 +12,14 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
+    <script>
+      if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+        document.querySelector('meta[name="viewport"]').content += ', maximum-scale=1.0';
+      }
+    </script>
     <meta name="theme-color" content="{{ settings.header_background }}">
-    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes; the viewport keeps the live maximum-scale, because removing it makes iOS zoom on focus of inputs smaller than 16px, a visible change left to the owner), title gets the brand suffix, utility/transactional pages are noindex.{%- endcomment -%}
+    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes), title gets the brand suffix, utility/transactional pages are noindex. Accessibility (2026-10-13): maximum-scale is no longer sent by default, so Android users can pinch-zoom; the inline script above adds it back on iOS only, where Safari ignores it for pinch-zoom but uses it to avoid zooming in when an input smaller than 16px gets focus, so iOS behaves exactly as before.{%- endcomment -%}
     {%- liquid
       assign seo_title = page_title
       if seo_title == blank
@@ -85,13 +90,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script src="{{ 'pandectes-rules.js' | file_url }}"></script>
 
     {%- if settings.favicon -%}
-      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      {%- comment -%}rel="icon" (2026-10-13): apps look the favicon up with link[rel="icon"]; with "shortcut icon" the Pop Convert app could not find it and requested /null (a 404 in the console).{%- endcomment -%}
+      <link rel="icon" href="{{ settings.favicon | image_url: width: 96 }}">
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
 
-    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties. Performance (2026-10-13): no preconnect to fonts.shopifycdn.com, theme fonts are served from the shop domain (/cdn/fonts), so that connection was never used.{%- endcomment -%}
     <link rel="preconnect" href="https://cdn.shopify.com">
-    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
@@ -101,6 +106,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+    {%- render 'fontify-fonts' -%}
     {%- render 'social-meta-tags' -%}
     {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
     {%- render 'css-variables' -%}
@@ -123,7 +129,23 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-    {{ 'bss-custom.css' | asset_url | stylesheet_tag }}
+    {%- comment -%}Performance (2026-10-13): the 470-byte assets/bss-custom.css (BSS B2B app) is inlined, same rules in the same place, to save a render-blocking request. If the BSS app updates that file, copy the new rules here.{%- endcomment -%}
+    <style>
+      [bss-b2b-main-product-form] [bss-b2b-variant-price] span {
+        font-size: var(--text-lg) !important;
+      }
+      cart-drawer:not([open]) [bss-b2b-item-original-price],
+      cart-drawer:not([open]) [bss-b2b-final-line-price],
+      cart-drawer:not([open]) [bss-b2b-cart-total-price] {
+        display: none !important;
+      }
+
+      .horizontal-product__info [bss-b2b-product-price] span {
+        color: rgb(var(--text-color) / .7) !important;
+        font-size: var(--text-sm) !important;
+        line-height: 1.6 !important;
+      }
+    </style>
     <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
   </head>
 
@@ -156,5 +178,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+    {%- render 'a11y-fixes' -%}
   </body>
 </html>

@@ -1,0 +1,998 @@
+diff -ruN orig/assets/country-flags.css.liquid stg/assets/country-flags.css.liquid
+--- orig/assets/country-flags.css.liquid	2026-10-13 10:10:07.922936546 +0000
++++ stg/assets/country-flags.css.liquid	2026-10-13 10:11:35.233950842 +0000
+@@ -443,8 +443,11 @@
+   background-position: -210px -168px;
+ }
+ 
++/* Performance (2026-10-13): RO and HU are the only countries this shop lists, so their flags use pixel-identical
++   crops of the sprite and the 480 KB sprite (155 KB on mobile) is no longer downloaded. */
+ .country-flags--HU {
+-  background-position: -210px -189px;
++  background: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABCmlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGBckZOcW8wkwMCQm1dSFOTupBARGaXAfoeBkUGSgZlBk8EyMbm4wDEgwIcBJ/h2DagaCC7rgszCrQ4r4ExJLU4G0h+AOD65oKiEgYERZBdPeUkBiB0BZIsUAR0FZOeA2OkQdgOInQRhTwGrCQlyBrJ5gGyHdCR2EhIbahcIsCYbJWciOyS5tKgMypQC4tOMJ5mTWSdxZHN/E7AXDZQ2UfyoOcFIwnqSG2tgeezb7IIq1s6Ns2rWZO6vvXz4pcH//yWpFSUgzc7OBgygMEQPG4RY/iIGBouvDAzMExBiSTMZGLa3MjBI3EKIqSxgYOBvYWDYdh4A8P1N247YzPkAAAJhSURBVHjarZQxTFNRFIa/c9975YEaFUGIaYQmOpgYNQ6GwaEsrqCLEkN00TBIwqpxYHBgczAmOmnUhLDV2aEMLiwG3UhM2mA1WAIYAra8vnuPA0XbUpCIf3JyT875z39uzs09QhNkx9P+qfnV687IICJ9CN0AqBYUZsWRcXZpKvUyX26slcZA/tbFm6ATLb5Jhp4h4QmebFKtKpF1lK2yYXXBOMZOvvow1VQwm8ZPnTj/2PPk3uGER2AaKVrXP3bKjw1L7Nyz/Lf20f7p6RjA3yL0Hj/7JHA6ciQwiHVo3ESvpoencMwTViwjPZ2LMTD6m/756pkbgZHJjha/fghbl1Kax6vuUjkmsnb4dGbujeTSvaE9FOY6Wrxu3+w42iaqf1BxylIUF76szqUkN1+4Hba2vjja3r7X+qa8leVlSuWNYSNiBsKwdTNRa7A91syqvDBsxcCAr8qFIJGom/m/IEgkAPqMCkljPPYLYwwOuo3hf0EwgLGwYJ3d07h2M+ssTikYYCaKon3fb1NDPxqBTLlUav7Ce3xpVSiVSjg0I+nxtB8cmMslDpqkeFL3yfWvU6tqWqWyZheijjDl5afzLnWlbTGOuGYCQasdXfVsNGpyW2e0ZnFW72RHv856ALl36596+ts6neWS+IBqVUBrGmg1Xp+L1h22os+z979P1G0bouJY7LoCG+vdoE0Qw7Y1U+upVeKfDlSfUimO7bgFLj/qGgJ97PnSZQLBeEBVXB2oBVdRXEULKjx4/7D4eteNDZAe7w1jb31IkEGEc6qaBBCVBWBGDW/9uDg5PU7cWPsLx+FWdJfoNZwAAAAASUVORK5CYII=) 1x, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAABCmlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGBckZOcW8wkwMCQm1dSFOTupBARGaXAfoeBkUGSgZlBk8EyMbm4wDEgwIcBJ/h2DagaCC7rgszCrQ4r4ExJLU4G0h+AOD65oKiEgYERZBdPeUkBiB0BZIsUAR0FZOeA2OkQdgOInQRhTwGrCQlyBrJ5gGyHdCR2EhIbahcIsCYbJWciOyS5tKgMypQC4tOMJ5mTWSdxZHN/E7AXDZQ2UfyoOcFIwnqSG2tgeezb7IIq1s6Ns2rWZO6vvXz4pcH//yWpFSUgzc7OBgygMEQPG4RY/iIGBouvDAzMExBiSTMZGLa3MjBI3EKIqSxgYOBvYWDYdh4A8P1N247YzPkAAAWFSURBVHjazZlPbCRXEcZ/9bpnxvbaYSwFBYHMjoUiRaBoJ8BhDyiZBQ4clxxyA+XIbb0SB4iUxKtIkTitN6fc2CBxJeGWIIFnIQcOSExOXJBmzF52BWRHu7bnX7/6OPTMeGY8tterkMyTnvq911X9vq5XVV1VbTxha/7su7U02iUF1YSqyMqYlUEg2kDLjFYUnxCob777t/qT7GPnArVVLYeH4RpmWxjlc+0kWgb1WIg3Nt9ttD5TgM1Xq+VAeFPG1mgtCcZSMAqJUQyGmREsf6RLRIko6GdO153oE5uK247f2Lx9NtAzAe799DvXZL4NucSW08ByGiiGcwmfTOJg4HSyMdKWSdsXf9N474kB7v2kelOwhaCYGF8qJiQ2wanJRwjMQBreGxIMpZrTQpTYnwBqYufibxvXzwWwebVSZnntfcxqwYzVQmAlDWMcc7lm1zXxEnPoDwfOfua4BNDgMFzZ/KDRnqVL58Iure7iVBODcilQMIOoc9qfTj2glWCUCoFPe5HoqlLK3geuzNKFY9J75Vs35aoGifVCIJVQ9Ly7H43nrU3d18l0wx5crKeBgJCr1nzl+ZunHvE/X/7mq8H4tZnxdDElCXwubSDxaS9DAknXv/G7f+wcA9i8+lzFsV2g8lQxsJIk0zo078rMmJm1efScrJMPBxGM9kN1Nl/4oNWeOuLoto2rsmzGigVwh+gzV4HraD4ea6L70dqYXkf0I544fN7wuhKgmJt5+SlffnPqXZpXn6vESBPEl0vpkSv5nFsU/LsXAfHoUW/9hXqrnVvxO3/aTgMsLy+zVC7zRbUCsNZu0+l0KEtbbHxtOwBY4CWACxdWEbmv1VBtjo01s8YcWs3Qc0qfeebyykp+tGbXANJm824NUUmShDRNj5RZMy5tnpvjlHU9Bu0c3mKhSBISYozl5t27tUAINYClpSUWpY2xeFINFuwSQKFYXBiAaZqOTLiWCioASZKiBQFYKJVyLIFLgSHAkCQLI0EzG+lkOYzivBBsYQCGMP5+lAML3gLQBnDXwoByH0fd7VRGG1F2OcZi6GGMcRRjtIJEA6Df6y2MBLMYcxsRewHnDkCWZQsDcNDvDwGqETzEBkC3210YgCMsHrwent3YqAPtGCP9IfIvVHqDATFGMFrPbmzUA4BctxB0Dg9PDz04YfwZdElI4uBgHyEMq48D1trNSrkQew8ASmsJFk5IziZS3zOz6pPS0BnWqaDHofcoN5Ak0eaH1++1EoDWR+3u5g8vrCMuK4pQtJEVHdvgGLg5UtY8aU/NDaGcbhgLIhh0HGUCcfsPP7/33nROUuhtC7WzgRh0hXvO6JPphE+nHj6bjgzXNTHXPFrX1FyCrCeynnDRHERujGtA40LJR93u5pXVHsaPPBMhtXPWvk6PX0+lcRgcOpJws+v1X9y7cwwgQPOPB3+9+IPVdYnLcQhSZsc2mXtqJ9gQZ9G66B84yiW/U//l/V+dWZupvf3MLlAjQPFCmKo/2FB/Zuez65N6axzp3RRfFINDxx0M+3v9tXvfPrP0Qf7d+7GkhkfoPXJiV2Nl9oksSGP3kF+n3caRwUzSje5lXae/73ieZe7S737/3OW3F996ZgfjmoCkaKQlsJm4UY9RZJzyVC6yDnim/JZz689v3D+x/HZq+LK3e/Dh12trewSqipRjX0gGYSLqtcezBI8idsWgkxsF6IFjr338+v0bp/GdGV/9a3e/8dUX135vQetA1aOIfREHGm40PDY7EtPoWGMGcSCyTs7jMVdFc7uVxP7Lf3njv2cW1s/lSC5vf6WSJL4djJekPJd5fE+jNtg7aezv1Lfb7f9LlX+yfe+tp2t4qBG4BKoAlfxXRA7GsAcSDUx3QJ98/Pp/nug3xP8AvpujOEaXBO0AAAAASUVORK5CYII=) 2x) no-repeat top left;
++  background: image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABCmlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGBckZOcW8wkwMCQm1dSFOTupBARGaXAfoeBkUGSgZlBk8EyMbm4wDEgwIcBJ/h2DagaCC7rgszCrQ4r4ExJLU4G0h+AOD65oKiEgYERZBdPeUkBiB0BZIsUAR0FZOeA2OkQdgOInQRhTwGrCQlyBrJ5gGyHdCR2EhIbahcIsCYbJWciOyS5tKgMypQC4tOMJ5mTWSdxZHN/E7AXDZQ2UfyoOcFIwnqSG2tgeezb7IIq1s6Ns2rWZO6vvXz4pcH//yWpFSUgzc7OBgygMEQPG4RY/iIGBouvDAzMExBiSTMZGLa3MjBI3EKIqSxgYOBvYWDYdh4A8P1N247YzPkAAAJhSURBVHjarZQxTFNRFIa/c9975YEaFUGIaYQmOpgYNQ6GwaEsrqCLEkN00TBIwqpxYHBgczAmOmnUhLDV2aEMLiwG3UhM2mA1WAIYAra8vnuPA0XbUpCIf3JyT875z39uzs09QhNkx9P+qfnV687IICJ9CN0AqBYUZsWRcXZpKvUyX26slcZA/tbFm6ATLb5Jhp4h4QmebFKtKpF1lK2yYXXBOMZOvvow1VQwm8ZPnTj/2PPk3uGER2AaKVrXP3bKjw1L7Nyz/Lf20f7p6RjA3yL0Hj/7JHA6ciQwiHVo3ESvpoencMwTViwjPZ2LMTD6m/756pkbgZHJjha/fghbl1Kax6vuUjkmsnb4dGbujeTSvaE9FOY6Wrxu3+w42iaqf1BxylIUF76szqUkN1+4Hba2vjja3r7X+qa8leVlSuWNYSNiBsKwdTNRa7A91syqvDBsxcCAr8qFIJGom/m/IEgkAPqMCkljPPYLYwwOuo3hf0EwgLGwYJ3d07h2M+ssTikYYCaKon3fb1NDPxqBTLlUav7Ce3xpVSiVSjg0I+nxtB8cmMslDpqkeFL3yfWvU6tqWqWyZheijjDl5afzLnWlbTGOuGYCQasdXfVsNGpyW2e0ZnFW72RHv856ALl36596+ts6neWS+IBqVUBrGmg1Xp+L1h22os+z979P1G0bouJY7LoCG+vdoE0Qw7Y1U+upVeKfDlSfUimO7bgFLj/qGgJ97PnSZQLBeEBVXB2oBVdRXEULKjx4/7D4eteNDZAe7w1jb31IkEGEc6qaBBCVBWBGDW/9uDg5PU7cWPsLx+FWdJfoNZwAAAAASUVORK5CYII=) 1x, url(data:image/png;base64,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) 2x) no-repeat top left;
+ }
+ 
+ .country-flags--ID {
+@@ -811,8 +814,11 @@
+   background-position: -294px -84px;
+ }
+ 
++/* Performance (2026-10-13): RO and HU are the only countries this shop lists, so their flags use pixel-identical
++   crops of the sprite and the 480 KB sprite (155 KB on mobile) is no longer downloaded. */
+ .country-flags--RO {
+-  background-position: -294px -105px;
++  background: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABCmlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGBckZOcW8wkwMCQm1dSFOTupBARGaXAfoeBkUGSgZlBk8EyMbm4wDEgwIcBJ/h2DagaCC7rgszCrQ4r4ExJLU4G0h+AOD65oKiEgYERZBdPeUkBiB0BZIsUAR0FZOeA2OkQdgOInQRhTwGrCQlyBrJ5gGyHdCR2EhIbahcIsCYbJWciOyS5tKgMypQC4tOMJ5mTWSdxZHN/E7AXDZQ2UfyoOcFIwnqSG2tgeezb7IIq1s6Ns2rWZO6vvXz4pcH//yWpFSUgzc7OBgygMEQPG4RY/iIGBouvDAzMExBiSTMZGLa3MjBI3EKIqSxgYOBvYWDYdh4A8P1N247YzPkAAALGSURBVHjahZS/i1xVFMc/986bMUM2QRMwWwxxlmAsBLEzEITZ0sZs54rpLEyxQixVkG3EdFuEgNpYRJJNo+tfsGOZziCCRsQpFtwiTFZC3Jl37/kei3mz8yPD5j6+vPPOuefL95zzOIEFp9PZLe58/eF7Ml+DcCkElkcR38PDLzFqZ/AO91Z6vcF8bvEM2dWfPwgh3KjjreZSoFEPxNooJgvtMnn7cBDWyhP1G39cvHj9tYcP7y0k7HR2CzuXtyRtFI0lzpwCcHCHPLpTA5oFNJeAEJYPsO3fX73Q+efPvz5erW7FMeHw7H833dmo1ZrIBNnx7FBh2iY7UeKlECjg2ssXVrbGPBHgrXd/WHezayG+QE4lloa4CbLwCmThNvk2CUmcAqL7xq8r568CxHbnuxNmaSuEBpZKLCUslZAFNocpnypCl1gKAYmvdqEoXqzX1l0sSwKVk+7agvE7EKoByY/cNaAOrdPnW+uFy664ByyXs7lZHHfks/GGOwP5lUKW3ow1xzzNSrHjCX1K4dHv4n6psJxasWYQbFTSfMlhcdmaIwyAScuFK2OWKpdPwnqOQmbj7uDuFGa2H3JqEcJ8k55f8tSQzEHOXuGW71sYtEJsMF3zfI+mk2emXL1KHOEPoks7lg9xZSTDKyCOhR89wnEOJYJ8J7ZOD7aVyz3LJW6GKiCNypZG8ClbjvsYkCSG7vuDkye3Y7e7md3t05ye4soThT7uNAttn8K/Eu58strrDSLA3w+++D4o3bL0FMmQrFLk4/FVaie+MdmBRJZ/c/nRo+2ZbfPKWa6bpW8tPcE9j3o1VqS54QiSQ1+idN1K/f7GM/uw293MwEft1z/vWspb/Sc612wEGnWIcUQkQZngcOg8FnvIP3v74OD2sRu799uXd9vtzR/Lod4fDsIakTeC0xqJ832c+xB+yv3Hd1ePVu/k/A+lNRvVxJDhBAAAAABJRU5ErkJggg==) 1x, url(data:image/png;base64,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) 2x) no-repeat top left;
++  background: image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABCmlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGBckZOcW8wkwMCQm1dSFOTupBARGaXAfoeBkUGSgZlBk8EyMbm4wDEgwIcBJ/h2DagaCC7rgszCrQ4r4ExJLU4G0h+AOD65oKiEgYERZBdPeUkBiB0BZIsUAR0FZOeA2OkQdgOInQRhTwGrCQlyBrJ5gGyHdCR2EhIbahcIsCYbJWciOyS5tKgMypQC4tOMJ5mTWSdxZHN/E7AXDZQ2UfyoOcFIwnqSG2tgeezb7IIq1s6Ns2rWZO6vvXz4pcH//yWpFSUgzc7OBgygMEQPG4RY/iIGBouvDAzMExBiSTMZGLa3MjBI3EKIqSxgYOBvYWDYdh4A8P1N247YzPkAAALGSURBVHjahZS/i1xVFMc/986bMUM2QRMwWwxxlmAsBLEzEITZ0sZs54rpLEyxQixVkG3EdFuEgNpYRJJNo+tfsGOZziCCRsQpFtwiTFZC3Jl37/kei3mz8yPD5j6+vPPOuefL95zzOIEFp9PZLe58/eF7Ml+DcCkElkcR38PDLzFqZ/AO91Z6vcF8bvEM2dWfPwgh3KjjreZSoFEPxNooJgvtMnn7cBDWyhP1G39cvHj9tYcP7y0k7HR2CzuXtyRtFI0lzpwCcHCHPLpTA5oFNJeAEJYPsO3fX73Q+efPvz5erW7FMeHw7H833dmo1ZrIBNnx7FBh2iY7UeKlECjg2ssXVrbGPBHgrXd/WHezayG+QE4lloa4CbLwCmThNvk2CUmcAqL7xq8r568CxHbnuxNmaSuEBpZKLCUslZAFNocpnypCl1gKAYmvdqEoXqzX1l0sSwKVk+7agvE7EKoByY/cNaAOrdPnW+uFy664ByyXs7lZHHfks/GGOwP5lUKW3ow1xzzNSrHjCX1K4dHv4n6psJxasWYQbFTSfMlhcdmaIwyAScuFK2OWKpdPwnqOQmbj7uDuFGa2H3JqEcJ8k55f8tSQzEHOXuGW71sYtEJsMF3zfI+mk2emXL1KHOEPoks7lg9xZSTDKyCOhR89wnEOJYJ8J7ZOD7aVyz3LJW6GKiCNypZG8ClbjvsYkCSG7vuDkye3Y7e7md3t05ye4soThT7uNAttn8K/Eu58strrDSLA3w+++D4o3bL0FMmQrFLk4/FVaie+MdmBRJZ/c/nRo+2ZbfPKWa6bpW8tPcE9j3o1VqS54QiSQ1+idN1K/f7GM/uw293MwEft1z/vWspb/Sc612wEGnWIcUQkQZngcOg8FnvIP3v74OD2sRu799uXd9vtzR/Lod4fDsIakTeC0xqJ832c+xB+yv3Hd1ePVu/k/A+lNRvVxJDhBAAAAABJRU5ErkJggg==) 1x, url(data:image/png;base64,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) 2x) no-repeat top left;
+ }
+ 
+ .country-flags--RS {
+diff -ruN orig/config/settings_data.json stg/config/settings_data.json
+--- orig/config/settings_data.json	2026-10-13 10:10:07.922765287 +0000
++++ stg/config/settings_data.json	2026-10-13 10:11:08.682006070 +0000
+@@ -64,7 +64,7 @@
+       },
+       "15119538188275799212": {
+         "type": "shopify://apps/fontify/blocks/app-embed/334490e2-2153-4a2e-a452-e90bdeffa3cc",
+-        "disabled": false,
++        "disabled": true,
+         "settings": {}
+       },
+       "15351435345818755577": {
+diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
+--- orig/layout/theme.liquid	2026-10-13 10:10:07.917479149 +0000
++++ stg/layout/theme.liquid	2026-10-13 10:11:26.229948403 +0000
+@@ -12,9 +12,14 @@
+ <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+   <head>
+     <meta charset="utf-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
++    <script>
++      if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
++        document.querySelector('meta[name="viewport"]').content += ', maximum-scale=1.0';
++      }
++    </script>
+     <meta name="theme-color" content="{{ settings.header_background }}">
+-    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes; the viewport keeps the live maximum-scale, because removing it makes iOS zoom on focus of inputs smaller than 16px, a visible change left to the owner), title gets the brand suffix, utility/transactional pages are noindex.{%- endcomment -%}
++    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes), title gets the brand suffix, utility/transactional pages are noindex. Accessibility (2026-10-13): maximum-scale is no longer sent by default, so Android users can pinch-zoom; the inline script above adds it back on iOS only, where Safari ignores it for pinch-zoom but uses it to avoid zooming in when an input smaller than 16px gets focus, so iOS behaves exactly as before.{%- endcomment -%}
+     {%- liquid
+       assign seo_title = page_title
+       if seo_title == blank
+@@ -85,13 +90,13 @@
+     <script src="{{ 'pandectes-rules.js' | file_url }}"></script>
+ 
+     {%- if settings.favicon -%}
+-      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
++      {%- comment -%}rel="icon" (2026-10-13): apps look the favicon up with link[rel="icon"]; with "shortcut icon" the Pop Convert app could not find it and requested /null (a 404 in the console).{%- endcomment -%}
++      <link rel="icon" href="{{ settings.favicon | image_url: width: 96 }}">
+       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+     {%- endif -%}
+ 
+-    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
++    {%- comment -%}Few prefetch to increase performance on commonly used third-parties. Performance (2026-10-13): no preconnect to fonts.shopifycdn.com, theme fonts are served from the shop domain (/cdn/fonts), so that connection was never used.{%- endcomment -%}
+     <link rel="preconnect" href="https://cdn.shopify.com">
+-    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+ 
+     {%- unless settings.heading_font.system? -%}
+       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+@@ -101,6 +106,7 @@
+       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+     {%- endunless -%}
+ 
++    {%- render 'fontify-fonts' -%}
+     {%- render 'social-meta-tags' -%}
+     {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
+     {%- render 'css-variables' -%}
+@@ -123,7 +129,23 @@
+     {{ content_for_header }}
+ 
+     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+-    {{ 'bss-custom.css' | asset_url | stylesheet_tag }}
++    {%- comment -%}Performance (2026-10-13): the 470-byte assets/bss-custom.css (BSS B2B app) is inlined, same rules in the same place, to save a render-blocking request. If the BSS app updates that file, copy the new rules here.{%- endcomment -%}
++    <style>
++      [bss-b2b-main-product-form] [bss-b2b-variant-price] span {
++        font-size: var(--text-lg) !important;
++      }
++      cart-drawer:not([open]) [bss-b2b-item-original-price],
++      cart-drawer:not([open]) [bss-b2b-final-line-price],
++      cart-drawer:not([open]) [bss-b2b-cart-total-price] {
++        display: none !important;
++      }
++
++      .horizontal-product__info [bss-b2b-product-price] span {
++        color: rgb(var(--text-color) / .7) !important;
++        font-size: var(--text-sm) !important;
++        line-height: 1.6 !important;
++      }
++    </style>
+     <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
+   </head>
+ 
+@@ -156,5 +178,7 @@
+         {%- sections 'footer-group' -%}
+       {%- endif -%}
+     </main>
++
++    {%- render 'a11y-fixes' -%}
+   </body>
+ </html>
+\ No newline at end of file
+diff -ruN orig/sections/cart-drawer.liquid stg/sections/cart-drawer.liquid
+--- orig/sections/cart-drawer.liquid	2026-10-13 10:10:07.917788656 +0000
++++ stg/sections/cart-drawer.liquid	2026-10-13 10:11:08.679790570 +0000
+@@ -160,7 +160,7 @@
+         {%- endif -%}
+       </div>
+ 
+-      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
++      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}" toolname="cart_drawer_checkout" tooldescription="Deschide coșul sau continuă spre finalizarea comenzii.">
+         {%- assign checkout_label = 'cart.general.checkout' | t -%}
+ 
+         {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+diff -ruN orig/sections/contact.liquid stg/sections/contact.liquid
+--- orig/sections/contact.liquid	2026-10-13 10:10:07.917895771 +0000
++++ stg/sections/contact.liquid	2026-10-13 10:11:08.675619910 +0000
+@@ -39,7 +39,8 @@
+       <div {% render 'surface', class: 'contact-form rounded', background: section.settings.contact_background, text_color: section.settings.contact_text_color, background_fallback: 'bg-secondary' %}>
+         {%- capture contact_form_id -%}contact-form-{{ section.id }}{%- endcapture -%}
+ 
+-        {%- form 'contact', id: contact_form_id, class: 'form' -%}
++        {%- capture webmcp_tool_name -%}contact_store_{{ section.id | split: '__' | last | handleize | replace: '-', '_' }}{%- endcapture -%}
++        {%- form 'contact', id: contact_form_id, class: 'form', toolname: webmcp_tool_name, tooldescription: 'Trimite un mesaj echipei Prime Supplements (întrebări despre produse, comenzi sau colaborări).' -%}
+           <div class="fieldset">
+             {%- if form.posted_successfully? -%}
+               {%- capture content -%}{{- 'contact.form.success_message' | t -}}{%- endcapture -%}
+diff -ruN orig/sections/footer-group.json stg/sections/footer-group.json
+--- orig/sections/footer-group.json	2026-10-13 10:10:07.918204100 +0000
++++ stg/sections/footer-group.json	2026-10-13 10:11:08.682313233 +0000
+@@ -155,7 +155,7 @@
+         "full_width": true,
+         "remove_vertical_spacing": true,
+         "remove_horizontal_spacing": true,
+-        "liquid": "<div class=\"footer-anpc-logos\" style=\"display: flex; gap: 20px; justify-content: center; align-items: center; padding: 20px 0; margin-bottom: 10px; background-color: #1A1A1A;\">\n  <a href=\"https://consumer-redress.ec.europa.eu/index_en?prefLang=ro\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397\" alt=\"ANPC SOL\" style=\"height: 50px;\">\n  </a>\n  <a href=\"https://anpc.ro/ce-este-sal/\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396\" alt=\"ANPC SAL\" style=\"height: 50px;\">\n  </a>\n</div>",
++        "liquid": "<div class=\"footer-anpc-logos\" style=\"display: flex; gap: 20px; justify-content: center; align-items: center; padding: 20px 0; margin-bottom: 10px; background-color: #1A1A1A;\">\n  <a href=\"https://consumer-redress.ec.europa.eu/index_en?prefLang=ro\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397\" alt=\"ANPC SOL\" width=\"182\" height=\"46\" style=\"height: 50px; width: auto;\">\n  </a>\n  <a href=\"https://anpc.ro/ce-este-sal/\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396\" alt=\"ANPC SAL\" width=\"223\" height=\"47\" style=\"height: 50px; width: auto;\">\n  </a>\n</div>",
+         "background": "#1a1a1a",
+         "background_gradient": "",
+         "text_color": ""
+diff -ruN orig/sections/footer.liquid stg/sections/footer.liquid
+--- orig/sections/footer.liquid	2026-10-13 10:10:07.918103855 +0000
++++ stg/sections/footer.liquid	2026-10-13 10:11:08.673982119 +0000
+@@ -90,7 +90,7 @@
+                       </div>
+                     {%- endif -%}
+ 
+-                    {%- form 'customer', id: 'footer-newsletter', class: 'footer__newsletter-form form' -%}
++                    {%- form 'customer', id: 'footer-newsletter', class: 'footer__newsletter-form form', toolname: 'subscribe_newsletter_footer', tooldescription: 'Abonează o adresă de e-mail la newsletterul Prime Supplements (oferte, reduceri și produse noi).' -%}
+                       {%- if form.posted_successfully? -%}
+                         {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                         {%- render 'banner', content: success_message, status: 'success' -%}
+diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
+--- orig/sections/main-article.liquid	2026-10-13 10:10:07.918441291 +0000
++++ stg/sections/main-article.liquid	2026-10-13 10:28:02.724247332 +0000
+@@ -114,6 +114,49 @@
+           | replace: 'href="https://bloggenauto.com" target="_blank" rel="noopener"', 'href="https://bloggenauto.com" rel="nofollow sponsored noopener"'
+           | replace: 'rel="noopener" href="https://bloggenauto.com" target="_blank"', 'rel="nofollow sponsored noopener" href="https://bloggenauto.com"'
+         -%}
++        {%- comment -%}
++          Accessibility (2026-10-13): many bodies jump from h2 (or from the h1 title) straight to h4 for the product and
++          author cards. The tags and their styling stay exactly as written; only an aria-level is added where a level is
++          skipped, so the outline announced by screen readers (and checked by Lighthouse) never skips a level.
++        {%- endcomment -%}
++        {%- liquid
++          assign heading_digits = '1,2,3,4,5,6' | split: ','
++          assign heading_parts = article_body | split: '<h'
++          assign previous_level = 1
++          capture article_body
++            for part in heading_parts
++              if forloop.first
++                echo part
++                continue
++              endif
++              assign level_char = part | slice: 0
++              assign next_char = part | slice: 1
++              assign is_heading = false
++              if heading_digits contains level_char
++                if next_char == ' ' or next_char == '>'
++                  assign is_heading = true
++                endif
++              endif
++              if is_heading and part contains 'aria-level'
++                assign is_heading = false
++              endif
++              if is_heading
++                assign level = level_char | plus: 0
++                assign max_level = previous_level | plus: 1
++                if level > max_level
++                  assign rest = part | slice: 1, part.size
++                  echo '<h' | append: level_char | append: ' aria-level="' | append: max_level | append: '"' | append: rest
++                  assign previous_level = max_level
++                else
++                  echo '<h' | append: part
++                  assign previous_level = level
++                endif
++              else
++                echo '<h' | append: part
++              endif
++            endfor
++          endcapture
++        -%}
+         {{ article_body }}
+       </div>
+ 
+diff -ruN orig/sections/main-blog.liquid stg/sections/main-blog.liquid
+--- orig/sections/main-blog.liquid	2026-10-13 10:10:07.918471194 +0000
++++ stg/sections/main-blog.liquid	2026-10-13 10:11:08.674805072 +0000
+@@ -46,7 +46,7 @@
+           </div>
+ 
+           {%- if section.settings.show_newsletter_form -%}
+-            {%- form 'customer', id: 'blog-newsletter', class: 'blog-banner__form form' -%}
++            {%- form 'customer', id: 'blog-newsletter', class: 'blog-banner__form form', toolname: 'subscribe_newsletter_blog_banner', tooldescription: 'Abonează o adresă de e-mail la newsletterul Prime Supplements (oferte, reduceri și produse noi).' -%}
+               {%- if form.posted_successfully? -%}
+                 {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                 {%- render 'banner', content: success_message, status: 'success' -%}
+@@ -121,7 +121,7 @@
+                       {%- endif -%}
+                     </div>
+ 
+-                    {%- form 'customer', id: 'blog-posts-newsletter-form', class: 'form form--tight' -%}
++                    {%- form 'customer', id: 'blog-posts-newsletter-form', class: 'form form--tight', toolname: 'subscribe_newsletter_blog', tooldescription: 'Abonează o adresă de e-mail la newsletterul Prime Supplements (oferte, reduceri și produse noi).' -%}
+                       <div class="fieldset">
+                         {%- if form.posted_successfully? -%}
+                           {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+diff -ruN orig/sections/main-cart.liquid stg/sections/main-cart.liquid
+--- orig/sections/main-cart.liquid	2026-10-13 10:10:07.918511087 +0000
++++ stg/sections/main-cart.liquid	2026-10-13 10:11:08.679105067 +0000
+@@ -91,7 +91,7 @@
+           </div>
+ 
+           <safe-sticky class="cart-order__recap v-stack gap-6">
+-            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded">
++            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded" toolname="update_cart" tooldescription="Actualizează cantitățile și nota din coș sau continuă spre finalizarea comenzii.">
+               {%- for block in section.blocks -%}
+                 {%- case block.type -%}
+                   {%- when '@app' -%}
+diff -ruN orig/sections/main-customers-activate-account.liquid stg/sections/main-customers-activate-account.liquid
+--- orig/sections/main-customers-activate-account.liquid	2026-10-13 10:10:07.918593173 +0000
++++ stg/sections/main-customers-activate-account.liquid	2026-10-13 10:11:08.678101420 +0000
+@@ -8,7 +8,7 @@
+             {%- render 'styled-text', content: content, gradient: section.settings.heading_gradient -%}
+           </h1>
+ 
+-          {%- form 'activate_customer_password', class: 'form' -%}
++          {%- form 'activate_customer_password', class: 'form', toolname: 'activate_customer_account', tooldescription: 'Activează contul de client prin alegerea unei parole.' -%}
+             <div class="fieldset">
+               {%- if form.errors -%}
+                 {%- assign form_errors = form.errors | default_errors -%}
+diff -ruN orig/sections/main-customers-addresses.liquid stg/sections/main-customers-addresses.liquid
+--- orig/sections/main-customers-addresses.liquid	2026-10-13 10:10:07.918611838 +0000
++++ stg/sections/main-customers-addresses.liquid	2026-10-13 10:11:08.678786291 +0000
+@@ -41,7 +41,7 @@
+                       <span class="link text-sm text-subdued">{{ 'customer.addresses.edit' | t }}</span>
+                     </button>
+ 
+-                    <form method="post" action="{{ address.url }}">
++                    <form method="post" action="{{ address.url }}" toolname="delete_customer_address_{{ address.id }}" tooldescription="Șterge această adresă din contul de client.">
+                       <input type="hidden" name="_method" value="delete">
+                       <button is="confirm-button" data-message="{{ 'customer.addresses.delete_confirm' | t | escape }}">
+                         <span class="link text-sm text-subdued">{{ 'customer.addresses.delete' | t }}</span>
+diff -ruN orig/sections/main-customers-login.liquid stg/sections/main-customers-login.liquid
+--- orig/sections/main-customers-login.liquid	2026-10-13 10:10:07.918630700 +0000
++++ stg/sections/main-customers-login.liquid	2026-10-13 10:11:08.677446194 +0000
+@@ -43,7 +43,7 @@
+ 
+                 {%- when 'fields' -%}
+                   <div {{ block.shopify_attributes }}>
+-                    {%- form 'customer_login', class: 'form' -%}
++                    {%- form 'customer_login', class: 'form', toolname: 'customer_login', tooldescription: 'Autentificare în contul de client Prime Supplements cu adresa de e-mail și parola.' -%}
+                       <input type="hidden" name="checkout_url" value="{{ block.settings.return_to | default: routes.account_url }}">
+ 
+                       <div class="fieldset">
+@@ -81,7 +81,7 @@
+             {%- render 'styled-text', content: content, gradient: section.settings.heading_gradient -%}
+           </h1>
+ 
+-          {%- form 'recover_customer_password', class: 'form' -%}
++          {%- form 'recover_customer_password', class: 'form', toolname: 'recover_customer_password', tooldescription: 'Trimite pe e-mail linkul de resetare a parolei contului de client.' -%}
+             <div class="fieldset">
+               {%- if form.errors -%}
+                 {%- render 'banner', status: 'error', content: form.errors.messages['form'] -%}
+diff -ruN orig/sections/main-customers-register.liquid stg/sections/main-customers-register.liquid
+--- orig/sections/main-customers-register.liquid	2026-10-13 10:10:07.918684371 +0000
++++ stg/sections/main-customers-register.liquid	2026-10-13 10:11:08.677831752 +0000
+@@ -27,7 +27,7 @@
+ 
+                 {%- when 'fields' -%}
+                   <div {{ block.shopify_attributes }}>
+-                    {%- form 'create_customer', class: 'form' -%}
++                    {%- form 'create_customer', class: 'form', toolname: 'create_customer_account', tooldescription: 'Creează un cont de client Prime Supplements (nume, e-mail, parolă).' -%}
+                       <div class="fieldset">
+                         {%- if form.errors -%}
+                           {%- assign form_errors = form.errors | default_errors -%}
+diff -ruN orig/sections/main-customers-reset-password.liquid stg/sections/main-customers-reset-password.liquid
+--- orig/sections/main-customers-reset-password.liquid	2026-10-13 10:10:07.918704046 +0000
++++ stg/sections/main-customers-reset-password.liquid	2026-10-13 10:11:08.678329934 +0000
+@@ -8,7 +8,7 @@
+             {%- render 'styled-text', content: content, gradient: section.settings.heading_gradient -%}
+           </h1>
+ 
+-          {%- form 'reset_customer_password', class: 'form' -%}
++          {%- form 'reset_customer_password', class: 'form', toolname: 'reset_customer_password', tooldescription: 'Setează o parolă nouă pentru contul de client.' -%}
+             <div class="fieldset">
+               {%- if form.errors -%}
+                 {%- assign form_errors = form.errors | default_errors -%}
+diff -ruN orig/sections/main-password.liquid stg/sections/main-password.liquid
+--- orig/sections/main-password.liquid	2026-10-13 10:10:07.918803980 +0000
++++ stg/sections/main-password.liquid	2026-10-13 10:11:08.675362936 +0000
+@@ -41,7 +41,7 @@
+                     {%- endif -%}
+ 
+                     {%- if block.settings.show_newsletter_form -%}
+-                      {%- form 'customer', class: 'form form--tight' -%}
++                      {%- form 'customer', class: 'form form--tight', toolname: 'subscribe_newsletter_password_page', tooldescription: 'Lasă o adresă de e-mail ca să afli când magazinul se redeschide.' -%}
+                         {%- if form.posted_successfully? -%}
+                           {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                           {%- render 'banner', status: 'success', content: success_message -%}
+@@ -69,7 +69,7 @@
+                     {%- assign has_errors = false -%}
+ 
+                     {%- capture password_form -%}
+-                      {%- form 'storefront_password', class: 'form' -%}
++                      {%- form 'storefront_password', class: 'form', toolname: 'enter_store_password', tooldescription: 'Intră în magazin cu parola primită de la proprietar, cât timp magazinul este protejat cu parolă.' -%}
+                         {%- if form.errors -%}
+                           {%- assign has_errors = true -%}
+                           {%- render 'banner', status: 'error', content: form.errors.messages['form'] -%}
+diff -ruN orig/sections/main-search.liquid stg/sections/main-search.liquid
+--- orig/sections/main-search.liquid	2026-10-13 10:10:07.918950786 +0000
++++ stg/sections/main-search.liquid	2026-10-13 10:11:08.675987920 +0000
+@@ -7,12 +7,12 @@
+ {%- assign active_filters = search.filters | where: 'active_values' -%}
+ 
+ {%- capture search_form -%}
+-  <form class="main-search-form" action="{{ routes.search_url }}" method="get" role="search">
++  <form class="main-search-form" action="{{ routes.search_url }}" method="get" role="search" toolname="search_store" tooldescription="Caută în magazinul Prime Supplements produse (suplimente, proteine, creatină, echipament) după cuvinte cheie." toolautosubmit>
+     <input type="hidden" name="type" value="product">
+ 
+     <div class="v-stack gap-6 sm:gap-12">
+       <div class="search-input">
+-        <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
++        <input type="search" name="q" value="{{ search.terms | escape }}" toolparamdescription="Cuvintele căutate, de exemplu: creatină monohidrat" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
+         <button type="submit">{%- render 'icon' with 'search' -%}</button>
+       </div>
+ 
+diff -ruN orig/sections/newsletter-popup.liquid stg/sections/newsletter-popup.liquid
+--- orig/sections/newsletter-popup.liquid	2026-10-13 10:10:07.919142935 +0000
++++ stg/sections/newsletter-popup.liquid	2026-10-13 10:11:08.674386661 +0000
+@@ -26,7 +26,7 @@
+             <p class="h5">{{- section.settings.title -}}</p>
+           {%- endif -%}
+ 
+-          {%- form 'customer', id: newsletter_id, class: 'form' -%}
++          {%- form 'customer', id: newsletter_id, class: 'form', toolname: 'subscribe_newsletter_popup', tooldescription: 'Abonează o adresă de e-mail la newsletterul Prime Supplements (oferte, reduceri și produse noi).' -%}
+             {%- if form.posted_successfully? -%}
+               {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+               {%- render 'banner', content: success_message, status: 'success' -%}
+diff -ruN orig/sections/newsletter.liquid stg/sections/newsletter.liquid
+--- orig/sections/newsletter.liquid	2026-10-13 10:10:07.919165767 +0000
++++ stg/sections/newsletter.liquid	2026-10-13 10:11:08.674201299 +0000
+@@ -36,7 +36,8 @@
+ 
+     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
+ 
+-    {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
++    {%- capture webmcp_tool_name -%}subscribe_newsletter_{{ section.id | split: '__' | last | handleize | replace: '-', '_' }}{%- endcapture -%}
++    {%- form 'customer', id: newsletter_form_id, class: 'form', toolname: webmcp_tool_name, tooldescription: 'Abonează o adresă de e-mail la newsletterul Prime Supplements (oferte, reduceri și produse noi).' -%}
+       {%- if form.posted_successfully? -%}
+         {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+         {%- render 'banner', content: success_message, status: 'success' -%}
+diff -ruN orig/sections/search-drawer.liquid stg/sections/search-drawer.liquid
+--- orig/sections/search-drawer.liquid	2026-10-13 10:10:07.919447282 +0000
++++ stg/sections/search-drawer.liquid	2026-10-13 10:11:08.676578100 +0000
+@@ -1,7 +1,7 @@
+ <search-drawer {% if request.design_mode %}handle-section-events{% endif %} class="search-drawer {% if section.settings.full_width %}search-drawer--full{% endif %} drawer drawer--lg" id="search-drawer">
+-  <form action="{{ routes.search_url }}" method="get" class="v-stack gap-5 sm:gap-8" role="search">
++  <form action="{{ routes.search_url }}" method="get" class="v-stack gap-5 sm:gap-8" role="search" toolname="search_store_drawer" tooldescription="Caută în magazinul Prime Supplements produse (suplimente, proteine, creatină, echipament) după cuvinte cheie." toolautosubmit>
+     <div class="search-input">
+-      <input type="search" name="q" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
++      <input type="search" name="q" toolparamdescription="Cuvintele căutate, de exemplu: creatină monohidrat" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
+       <button type="reset" class="text-subdued">{{ 'search.general.clear' | t }}</button>
+       <button type="button" is="close-button">
+         <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+diff -ruN orig/sections/variant-added.liquid stg/sections/variant-added.liquid
+--- orig/sections/variant-added.liquid	2026-10-13 10:10:07.919717333 +0000
++++ stg/sections/variant-added.liquid	2026-10-13 10:11:08.680223124 +0000
+@@ -41,7 +41,7 @@
+     </div>
+   </div>
+ 
+-  <form action="{{ routes.cart_url }}" method="post" class="buy-buttons buy-buttons--compact">
++  <form action="{{ routes.cart_url }}" method="post" class="buy-buttons buy-buttons--compact" toolname="added_to_cart_checkout" tooldescription="După adăugarea în coș: deschide coșul sau continuă spre finalizarea comenzii.">
+     {%- assign view_cart_label = 'cart.general.view_cart' | t -%}
+     {%- assign checkout_label = 'cart.general.checkout' | t -%}
+ 
+diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
+--- orig/snippets/a11y-fixes.liquid	1970-01-01 00:00:00.000000000 +0000
++++ stg/snippets/a11y-fixes.liquid	2026-10-13 10:09:33.258773222 +0000
+@@ -0,0 +1,66 @@
++{%- comment -%}
++  Accessibility (2026-10-13), no visual effect:
++  1. The search and cart drawers are disabled in the overlay group, so the header icons point their aria-controls at
++     elements that do not exist (an invalid ARIA reference). The dangling attribute is dropped; the icons keep working as
++     plain links to /search and /cart, exactly as before. If a drawer is enabled again, its element exists and the
++     attribute is kept.
++  2. The Pop Convert popup renders its promo image link without alt text when the campaign has no "Alt text" set in the
++     app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
++     the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
++     generic label. Alt text set in the app always wins.
++{%- endcomment -%}
++<script>
++  (() => {
++    document.querySelectorAll('[aria-controls="search-drawer"], [aria-controls="cart-drawer"]').forEach((toggle) => {
++      if (!document.getElementById(toggle.getAttribute('aria-controls'))) {
++        toggle.removeAttribute('aria-controls');
++      }
++    });
++
++    const labelFor = (link) => {
++      let path;
++
++      try {
++        path = new URL(link.href, location.href).pathname.replace(/\/$/, '');
++      } catch (error) {
++        return '';
++      }
++
++      const match = Array.from(document.querySelectorAll('a[href]')).find((candidate) => {
++        try {
++          return candidate !== link && new URL(candidate.href, location.href).pathname.replace(/\/$/, '') === path && candidate.textContent.trim() !== '';
++        } catch (error) {
++          return false;
++        }
++      });
++
++      return match ? match.textContent.trim().replace(/\s+/g, ' ') : '';
++    };
++
++    const nameImages = (root) => {
++      root.querySelectorAll('img:not([alt])').forEach((image) => {
++        const link = image.closest('a[href]');
++        image.alt = link ? (labelFor(link) || 'Vezi oferta') : '';
++      });
++    };
++
++    const watchPopConvert = () => {
++      const root = window.pcTarget;
++
++      if (!(root instanceof ShadowRoot) || root.__a11yWatched) {
++        return Boolean(root && root.__a11yWatched);
++      }
++
++      root.__a11yWatched = true;
++      nameImages(root);
++      new MutationObserver(() => nameImages(root)).observe(root, {subtree: true, childList: true, attributes: true, attributeFilter: ['alt', 'src']});
++      return true;
++    };
++
++    if (!watchPopConvert()) {
++      const observer = new MutationObserver(() => watchPopConvert() && observer.disconnect());
++      observer.observe(document.body, {childList: true});
++      setTimeout(() => observer.disconnect(), 60000);
++    }
++  })();
++</script>
+diff -ruN orig/snippets/address-form.liquid stg/snippets/address-form.liquid
+--- orig/snippets/address-form.liquid	2026-10-13 10:10:07.919923825 +0000
++++ stg/snippets/address-form.liquid	2026-10-13 10:11:08.678573062 +0000
+@@ -20,7 +20,8 @@
+     <h2 class="h5" slot="header">{{ 'customer.addresses.add_address' | t }}</h2>
+   {%- endif -%}
+ 
+-  {%- form 'customer_address', address -%}
++  {%- capture webmcp_tool_name -%}save_customer_address_{{ address.id | default: 'new' }}{%- endcapture -%}
++  {%- form 'customer_address', address, toolname: webmcp_tool_name, tooldescription: 'Salvează o adresă de livrare în contul de client.' -%}
+     <div class="address-form">
+       <p class="text-start">{{ 'customer.addresses.fill_form' | t }}</p>
+ 
+diff -ruN orig/snippets/article-comments.liquid stg/snippets/article-comments.liquid
+--- orig/snippets/article-comments.liquid	2026-10-13 10:10:07.919966271 +0000
++++ stg/snippets/article-comments.liquid	2026-10-13 10:11:08.681209941 +0000
+@@ -59,7 +59,7 @@
+       </div>
+     </div>
+ 
+-    {%- form 'new_comment', article, class: 'form' -%}
++    {%- form 'new_comment', article, class: 'form', toolname: 'post_article_comment', tooldescription: 'Trimite un comentariu la acest articol (nume, e-mail, mesaj); comentariile sunt moderate înainte de publicare.' -%}
+       <div class="fieldset">
+         {%- if form.posted_successfully? -%}
+           {%- capture content -%}
+diff -ruN orig/snippets/buy-buttons.liquid stg/snippets/buy-buttons.liquid
+--- orig/snippets/buy-buttons.liquid	2026-10-13 10:10:07.920056455 +0000
++++ stg/snippets/buy-buttons.liquid	2026-10-13 10:31:03.883689424 +0000
+@@ -29,7 +29,10 @@
+   {%- assign show_payment_button = false -%}
+ {%- endif -%}
+ 
+-{%- form 'product', product, is: 'product-form', id: form_id -%}
++{%- assign webmcp_form_kind = form_id | default: 'product-form' | split: '-form' | first | replace: '-', '_' -%}
++{%- capture webmcp_tool_name -%}add_to_cart_{{ product.id }}{% unless webmcp_form_kind == 'product' %}_{{ webmcp_form_kind }}{% endunless %}{%- endcapture -%}
++{%- capture webmcp_tool_description -%}Adaugă în coș produsul „{{ product.title | strip_html | escape }}” (varianta selectată).{%- endcapture -%}
++{%- form 'product', product, is: 'product-form', id: form_id, toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
+   <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
+ 
+   {%- assign button_disabled = false -%}
+diff -ruN orig/snippets/collection-top-bar.liquid stg/snippets/collection-top-bar.liquid
+--- orig/snippets/collection-top-bar.liquid	2026-10-13 10:10:07.920096662 +0000
++++ stg/snippets/collection-top-bar.liquid	2026-10-13 10:11:08.680775363 +0000
+@@ -44,7 +44,7 @@
+           {%- capture id_prefix -%}facets-{{ section.id }}{%- endcapture -%}
+           {%- assign availability_filter = results.filters | where: 'param_name', 'filter.v.availability' | first -%}
+ 
+-          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents">
++          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents" toolname="filter_products_bar" tooldescription="Filtrează și sortează produsele din listă (disponibilitate, preț, tip, brand).">
+             {%- if request.page_type == 'search' -%}
+               <input type="hidden" name="q" value="{{ results.terms | escape }}">
+               <input type="hidden" name="type" value="product">
+diff -ruN orig/snippets/facets-vertical.liquid stg/snippets/facets-vertical.liquid
+--- orig/snippets/facets-vertical.liquid	2026-10-13 10:10:07.920176798 +0000
++++ stg/snippets/facets-vertical.liquid	2026-10-13 10:11:08.680994302 +0000
+@@ -20,7 +20,7 @@
+ {%- capture context -%}{% if update_on_change %}sidebar{% else %}drawer{% endif %}{%- endcapture -%}
+ {%- capture id_prefix -%}facets-{{ context }}-{{ section.id }}{%- endcapture -%}
+ 
+-<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical">
++<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical" toolname="filter_products" tooldescription="Filtrează produsele din listă (disponibilitate, preț, tip, brand).">
+   {%- comment -%}We always reset to the first page so that when criteria change, the page is restored to the first one{%- endcomment -%}
+   <input type="hidden" name="page" value="">
+   <input type="hidden" name="section_id" value="{{ section.id }}" disabled>
+diff -ruN orig/snippets/fontify-fonts.liquid stg/snippets/fontify-fonts.liquid
+--- orig/snippets/fontify-fonts.liquid	1970-01-01 00:00:00.000000000 +0000
++++ stg/snippets/fontify-fonts.liquid	2026-10-13 10:08:57.473850617 +0000
+@@ -0,0 +1,322 @@
++{%- comment -%}
++  Performance (2026-10-13): self-hosted copy of the two Google Fonts families that the Fontify app embed loaded from
++  fonts.googleapis.com as render-blocking stylesheets (Bebas Neue for headings, Poppins for p, a and li). Same files,
++  same unicode ranges and the same rules as the app, so the text renders identically, but without two extra
++  third-party connections and a blocking request. The Fontify embed is switched off in this theme (config/settings_data.json);
++  if the fonts are changed later in Fontify, re-enable the embed and remove this snippet from layout/theme.liquid.
++  Only the latin and latin-ext subsets are kept (Romanian needs both); the browser downloads a file only when the page uses it.
++{%- endcomment -%}
++<style>
++  @font-face {
++    font-family: 'Bebas Neue';
++    font-style: normal;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'bebas-neue-400-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Bebas Neue';
++    font-style: normal;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'bebas-neue-400-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 100;
++    font-display: swap;
++    src: url({{ 'poppins-100-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 100;
++    font-display: swap;
++    src: url({{ 'poppins-100-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 200;
++    font-display: swap;
++    src: url({{ 'poppins-200-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 200;
++    font-display: swap;
++    src: url({{ 'poppins-200-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 300;
++    font-display: swap;
++    src: url({{ 'poppins-300-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 300;
++    font-display: swap;
++    src: url({{ 'poppins-300-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'poppins-400-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'poppins-400-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 500;
++    font-display: swap;
++    src: url({{ 'poppins-500-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 500;
++    font-display: swap;
++    src: url({{ 'poppins-500-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 600;
++    font-display: swap;
++    src: url({{ 'poppins-600-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 600;
++    font-display: swap;
++    src: url({{ 'poppins-600-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 700;
++    font-display: swap;
++    src: url({{ 'poppins-700-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 700;
++    font-display: swap;
++    src: url({{ 'poppins-700-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 800;
++    font-display: swap;
++    src: url({{ 'poppins-800-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 800;
++    font-display: swap;
++    src: url({{ 'poppins-800-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 900;
++    font-display: swap;
++    src: url({{ 'poppins-900-italic-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: italic;
++    font-weight: 900;
++    font-display: swap;
++    src: url({{ 'poppins-900-italic-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 100;
++    font-display: swap;
++    src: url({{ 'poppins-100-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 100;
++    font-display: swap;
++    src: url({{ 'poppins-100-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 200;
++    font-display: swap;
++    src: url({{ 'poppins-200-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 200;
++    font-display: swap;
++    src: url({{ 'poppins-200-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 300;
++    font-display: swap;
++    src: url({{ 'poppins-300-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 300;
++    font-display: swap;
++    src: url({{ 'poppins-300-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'poppins-400-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 400;
++    font-display: swap;
++    src: url({{ 'poppins-400-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 500;
++    font-display: swap;
++    src: url({{ 'poppins-500-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 500;
++    font-display: swap;
++    src: url({{ 'poppins-500-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 600;
++    font-display: swap;
++    src: url({{ 'poppins-600-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 600;
++    font-display: swap;
++    src: url({{ 'poppins-600-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 700;
++    font-display: swap;
++    src: url({{ 'poppins-700-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 700;
++    font-display: swap;
++    src: url({{ 'poppins-700-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 800;
++    font-display: swap;
++    src: url({{ 'poppins-800-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 800;
++    font-display: swap;
++    src: url({{ 'poppins-800-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 900;
++    font-display: swap;
++    src: url({{ 'poppins-900-latin-ext.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
++  }
++  @font-face {
++    font-family: 'Poppins';
++    font-style: normal;
++    font-weight: 900;
++    font-display: swap;
++    src: url({{ 'poppins-900-latin.woff2' | asset_url }}) format('woff2');
++    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
++  }
++
++  h1,h2,h3,h4,h5,h6,.h0,.text-gradient,.h3 {
++    font-family: 'Bebas Neue' !important;
++  }
++
++  p,a,li {
++    font-family: 'Poppins' !important;
++  }
++</style>
+diff -ruN orig/snippets/horizontal-product.liquid stg/snippets/horizontal-product.liquid
+--- orig/snippets/horizontal-product.liquid	2026-10-13 10:10:07.920250546 +0000
++++ stg/snippets/horizontal-product.liquid	2026-10-13 10:31:03.890017613 +0000
+@@ -47,7 +47,9 @@
+           {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
+             {%- capture product_form_id -%}complementary-product-{{ unique_id }}{%- endcapture -%}
+ 
+-            {%- form 'product', product, id: product_form_id, is: 'product-form' -%}
++            {%- capture webmcp_tool_name -%}add_to_cart_{{ product.id }}_{{ section.id | split: '__' | last | handleize | replace: '-', '_' }}_complementary{%- endcapture -%}
++            {%- capture webmcp_tool_description -%}Adaugă în coș produsul „{{ product.title | strip_html | escape }}” (varianta selectată).{%- endcapture -%}
++            {%- form 'product', product, id: product_form_id, is: 'product-form', toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
+               <input type="hidden" name="quantity" value="1">
+               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+               {%- render 'button', content: button_content, type: 'submit', size: 'sm', subdued: true -%}
+diff -ruN orig/snippets/localization-selector.liquid stg/snippets/localization-selector.liquid
+--- orig/snippets/localization-selector.liquid	2026-10-13 10:10:07.920468981 +0000
++++ stg/snippets/localization-selector.liquid	2026-10-13 10:11:08.672649000 +0000
+@@ -20,6 +20,7 @@
+ {%- capture localization_popover_id -%}popover-localization-form-{{ type }}-{{ popover_vertical_position }}-{{ section.id }}{%- endcapture -%}
+ {%- assign popover_vertical_position = popover_vertical_position | default: 'start' -%}
+ {%- assign popover_horizontal_position = popover_horizontal_position | default: 'end' -%}
++{%- assign webmcp_location = section.id | split: '__' | last | handleize | replace: '-', '_' -%}
+ 
+ {%- case type -%}
+   {%- when 'country' -%}
+@@ -33,8 +34,17 @@
+       <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url }}" media="print" onload="this.media='all'; this.onload = null">
+     {%- endif -%}
+ 
++    {%- comment -%}Accessibility (2026-10-13): the accessible name starts with the visible text (e.g. "România (RON lei)"), as WCAG 2.5.3 requires, followed by the action.{%- endcomment -%}
++    {%- capture country_visible_text -%}
++      {%- if show_country_name -%}
++        {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {% if localization.country.currency.symbol %}{{ localization.country.currency.symbol }}){%- endif -%}
++      {%- else -%}
++        {{ localization.country.currency.iso_code }} {% if localization.country.currency.symbol %}{{ localization.country.currency.symbol }}{%- endif -%}
++      {%- endif -%}
++    {%- endcapture -%}
++
+     <div class="relative">
+-      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ 'general.localization.change_country_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
++      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ country_visible_text | strip | escape }} – {{ 'general.localization.change_country_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+         <div class="h-stack gap-2">
+           {%- if show_country_flag -%}
+             <span class="country-flags country-flags--{{ localization.country.iso_code }}"></span>
+@@ -55,7 +65,8 @@
+       <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" anchor-horizontal="{{ popover_horizontal_position }}" anchor-vertical="{{ popover_vertical_position }}" class="popover">
+         <p class="h5" slot="title">{{ 'general.localization.country' | t }}</p>
+ 
+-        {%- form 'localization', id: localization_form_id -%}
++        {%- capture webmcp_tool_name -%}change_country_{{ webmcp_location }}_{{ popover_vertical_position }}{%- endcapture -%}
++        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: 'Schimbă țara de livrare și moneda magazinului. Parametrul country_code primește codul ISO al țării (de exemplu RO).' -%}
+           <x-listbox class="popover-listbox popover-listbox--sm" role="listbox" aria-label="{{ 'general.localization.country' | t | escape }}">
+             {%- for country in localization.available_countries -%}
+               <button type="submit" class="popover-listbox__option" name="country_code" role="option" value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}aria-selected="true"{% endif %}>
+@@ -76,7 +87,7 @@
+     {%- endcomment -%}
+ 
+     <div class="relative">
+-      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ 'general.localization.change_language_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
++      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ localization.language.endonym_name | capitalize | escape }} – {{ 'general.localization.change_language_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+         <span class="bold text-sm">{{- localization.language.endonym_name | capitalize -}}</span>
+         {%- render 'icon' with 'chevron-bottom' -%}
+       </button>
+diff -ruN orig/snippets/product-card.liquid stg/snippets/product-card.liquid
+--- orig/snippets/product-card.liquid	2026-10-13 10:10:07.920864385 +0000
++++ stg/snippets/product-card.liquid	2026-10-13 10:31:03.886891705 +0000
+@@ -67,6 +67,7 @@
+   {%- if product.media.size > 0 -%}
+     <div class="product-card__figure">
+       <a href="{{ product.url }}" data-instant>
++        {%- comment -%}Performance (2026-10-13): a 550w candidate is added to the widths below; on a phone a card in the product sliders is about 534 device pixels wide (305 CSS px at a 1.75 pixel ratio), so it no longer downloads the 600w file.{%- endcomment -%}
+         {%- capture sizes -%}
+           {%- if stacked -%}
+             (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }} - 40px), (max-width: 1200px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop }} - 64px), calc((100vw - 96px) / {{ section.settings.products_per_row_desktop }} - (24px / {{ section.settings.products_per_row_desktop }} * {{ section.settings.products_per_row_desktop | minus: 1 }}))
+@@ -84,11 +85,11 @@
+         -%}
+ 
+         {%- capture main_image_classes -%}product-card__image product-card__image--primary {% if settings.product_image_aspect_ratio contains 'crop' %}object-fill-safe{% endif %} aspect-{{ settings.product_image_aspect_ratio | split: '_' | first }}{%- endcapture -%}
+-        {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: main_media_loading_strategy, sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
++        {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: main_media_loading_strategy, sizes: sizes, widths: '200,300,400,500,550,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
+ 
+         {%- if show_secondary_image and product.media.size > 1 -%}
+           {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+-          {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
++          {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,550,600,700,800,1000,1200,1400,1600,1800' -}}
+         {%- endif -%}
+       </a>
+ 
+@@ -97,7 +98,9 @@
+           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
+ 
+           {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
+-            {%- form 'product', product, is: 'product-form' -%}
++            {%- capture webmcp_tool_name -%}add_to_cart_{{ product.id }}_{{ section.id | split: '__' | last | handleize | replace: '-', '_' }}{%- endcapture -%}
++            {%- capture webmcp_tool_description -%}Adaugă în coș produsul „{{ product.title | strip_html | escape }}” (varianta selectată).{%- endcapture -%}
++            {%- form 'product', product, is: 'product-form', toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
+               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+ 
+               <div class="pointer-fine:hidden">
+diff -ruN orig/snippets/product-info.liquid stg/snippets/product-info.liquid
+--- orig/snippets/product-info.liquid	2026-10-13 10:10:07.920925516 +0000
++++ stg/snippets/product-info.liquid	2026-10-13 10:31:03.890849941 +0000
+@@ -142,7 +142,9 @@
+           <payment-terms class="product-info__payment-terms">
+             {%- capture product_installment_form_id -%}{{ product_form_id }}-product-installment-form{%- endcapture -%}
+ 
+-            {%- form 'product', product, id: product_installment_form_id -%}
++            {%- capture webmcp_tool_name -%}add_to_cart_{{ product.id }}_installments{%- endcapture -%}
++            {%- capture webmcp_tool_description -%}Formularul widgetului Shop Pay de plată în rate pentru „{{ product.title | strip_html | escape }}”; trimis, adaugă varianta selectată în coș.{%- endcapture -%}
++            {%- form 'product', product, id: product_installment_form_id, toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
+               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+               {{- form | payment_terms -}}
+             {%- endform -%}
+diff -ruN orig/snippets/shipping-estimator.liquid stg/snippets/shipping-estimator.liquid
+--- orig/snippets/shipping-estimator.liquid	2026-10-13 10:10:07.921259675 +0000
++++ stg/snippets/shipping-estimator.liquid	2026-10-13 10:11:08.680540946 +0000
+@@ -13,7 +13,7 @@
+ {%- endcomment -%}
+ 
+ <shipping-estimator class="shipping-estimator">
+-  <form action="{{ routes.cart_url }}" class="shipping-estimator__form fieldset">
++  <form action="{{ routes.cart_url }}" class="shipping-estimator__form fieldset" toolname="estimate_shipping_rates" tooldescription="Estimează costul livrării pentru produsele din coș după țară, județ și cod poștal.">
+     {%- assign country_label = 'cart.shipping_estimator.country' | t -%}
+     {%- assign province_label = 'cart.shipping_estimator.province' | t -%}
+     {%- assign zip_label = 'cart.shipping_estimator.zip' | t -%}

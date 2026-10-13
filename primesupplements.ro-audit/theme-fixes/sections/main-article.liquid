@@ -114,6 +114,49 @@
           | replace: 'href="https://bloggenauto.com" target="_blank" rel="noopener"', 'href="https://bloggenauto.com" rel="nofollow sponsored noopener"'
           | replace: 'rel="noopener" href="https://bloggenauto.com" target="_blank"', 'rel="nofollow sponsored noopener" href="https://bloggenauto.com"'
         -%}
+        {%- comment -%}
+          Accessibility (2026-10-13): many bodies jump from h2 (or from the h1 title) straight to h4 for the product and
+          author cards. The tags and their styling stay exactly as written; only an aria-level is added where a level is
+          skipped, so the outline announced by screen readers (and checked by Lighthouse) never skips a level.
+        {%- endcomment -%}
+        {%- liquid
+          assign heading_digits = '1,2,3,4,5,6' | split: ','
+          assign heading_parts = article_body | split: '<h'
+          assign previous_level = 1
+          capture article_body
+            for part in heading_parts
+              if forloop.first
+                echo part
+                continue
+              endif
+              assign level_char = part | slice: 0
+              assign next_char = part | slice: 1
+              assign is_heading = false
+              if heading_digits contains level_char
+                if next_char == ' ' or next_char == '>'
+                  assign is_heading = true
+                endif
+              endif
+              if is_heading and part contains 'aria-level'
+                assign is_heading = false
+              endif
+              if is_heading
+                assign level = level_char | plus: 0
+                assign max_level = previous_level | plus: 1
+                if level > max_level
+                  assign rest = part | slice: 1, part.size
+                  echo '<h' | append: level_char | append: ' aria-level="' | append: max_level | append: '"' | append: rest
+                  assign previous_level = max_level
+                else
+                  echo '<h' | append: part
+                  assign previous_level = level
+                endif
+              else
+                echo '<h' | append: part
+              endif
+            endfor
+          endcapture
+        -%}
         {{ article_body }}
       </div>
 

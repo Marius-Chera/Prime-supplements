@@ -20,6 +20,7 @@ Supported variables
 {%- capture localization_popover_id -%}popover-localization-form-{{ type }}-{{ popover_vertical_position }}-{{ section.id }}{%- endcapture -%}
 {%- assign popover_vertical_position = popover_vertical_position | default: 'start' -%}
 {%- assign popover_horizontal_position = popover_horizontal_position | default: 'end' -%}
+{%- assign webmcp_location = section.id | split: '__' | last | handleize | replace: '-', '_' -%}
 
 {%- case type -%}
   {%- when 'country' -%}
@@ -33,8 +34,17 @@ Supported variables
       <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url }}" media="print" onload="this.media='all'; this.onload = null">
     {%- endif -%}
 
+    {%- comment -%}Accessibility (2026-10-13): the accessible name starts with the visible text (e.g. "România (RON lei)"), as WCAG 2.5.3 requires, followed by the action.{%- endcomment -%}
+    {%- capture country_visible_text -%}
+      {%- if show_country_name -%}
+        {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {% if localization.country.currency.symbol %}{{ localization.country.currency.symbol }}){%- endif -%}
+      {%- else -%}
+        {{ localization.country.currency.iso_code }} {% if localization.country.currency.symbol %}{{ localization.country.currency.symbol }}{%- endif -%}
+      {%- endif -%}
+    {%- endcapture -%}
+
     <div class="relative">
-      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ 'general.localization.change_country_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ country_visible_text | strip | escape }} – {{ 'general.localization.change_country_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
         <div class="h-stack gap-2">
           {%- if show_country_flag -%}
             <span class="country-flags country-flags--{{ localization.country.iso_code }}"></span>
@@ -55,7 +65,8 @@ Supported variables
       <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" anchor-horizontal="{{ popover_horizontal_position }}" anchor-vertical="{{ popover_vertical_position }}" class="popover">
         <p class="h5" slot="title">{{ 'general.localization.country' | t }}</p>
 
-        {%- form 'localization', id: localization_form_id -%}
+        {%- capture webmcp_tool_name -%}change_country_{{ webmcp_location }}_{{ popover_vertical_position }}{%- endcapture -%}
+        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: 'Schimbă țara de livrare și moneda magazinului. Parametrul country_code primește codul ISO al țării (de exemplu RO).' -%}
           <x-listbox class="popover-listbox popover-listbox--sm" role="listbox" aria-label="{{ 'general.localization.country' | t | escape }}">
             {%- for country in localization.available_countries -%}
               <button type="submit" class="popover-listbox__option" name="country_code" role="option" value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}aria-selected="true"{% endif %}>
@@ -76,7 +87,7 @@ Supported variables
     {%- endcomment -%}
 
     <div class="relative">
-      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ 'general.localization.change_language_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
+      <button type="button" class="text-with-icon gap-2.5 group" aria-label="{{ localization.language.endonym_name | capitalize | escape }} – {{ 'general.localization.change_language_accessibility_text' | t | escape }}" aria-controls="{{ localization_popover_id }}" aria-expanded="false">
         <span class="bold text-sm">{{- localization.language.endonym_name | capitalize -}}</span>
         {%- render 'icon' with 'chevron-bottom' -%}
       </button>

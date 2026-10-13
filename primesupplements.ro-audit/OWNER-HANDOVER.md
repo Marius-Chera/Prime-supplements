@@ -26,9 +26,16 @@ Regula respectată în tot acest timp: **designul site-ului nu a fost atins.** S
 
 Tema „Impact – SEO fixes 2026-10-12 (Claude, nepublicată)” conține toate corecțiile de cod: date structurate valide pentru produse (preț, stoc, retur, livrare, rating Judge.me), articole (autor Marius Chera legat de pagina lui), firmă (CUI, adresă, telefon, rețele, fondator), pagini (Contact, Despre noi, Autor); noindex pe listările duplicate și pe paginile filtrate pe etichetă; titluri cu brand; robots.txt cu politica de conținut pentru AI; în fiecare colecție, ghidurile din categoria ei (nu cele mai noi 3 articole de oriunde); link ANPC SAL, WhatsApp direct, adresa din footer către pagina de contact; mici corecturi de accesibilitate. Aspectul paginilor este identic cu tema actuală.
 
+**Runda PageSpeed (13.10, detalii în `PAGESPEED-2026-10-13.md`):** tot în tema de test, tot fără schimbări de aspect (verificat pixel cu pixel):
+- **Fonturi:** fonturile Fontify (Bebas Neue, Poppins) sunt servite de pe domeniul magazinului, nu de la Google. Embed-ul Fontify este oprit doar în tema de test.
+- **Resurse și imagini:** CSS-ul BSS este pus direct în pagină; s-au scos preconnect-urile inutile; sprite-ul de steaguri (155 KB pe mobil) nu se mai descarcă.
+- **Accesibilitate:** zoom permis pe Android (iOS se comportă ca înainte); ARIA corect la iconițele de căutare și coș; text alternativ pentru popup-ul Pop Convert; numele butonului de țară; ordinea titlurilor din articole.
+- **Erori și agenți AI:** a dispărut eroarea 404 `/null`; toate formularele au adnotări WebMCP pentru agenții AI.
+- **Rezultat așteptat în PSI:** SEO 100, Navigare autonomă 4/4, Accesibilitate de la 76 la 94.
+
 Pași:
 1. Aplicațiile Koala Gifts, BlogGenAuto, PageFly și YouTube Gallery nu mai sunt instalate în magazin (au fost dezinstalate între 12 și 13 octombrie). Pe tema live au rămas embed-urile lor, care afișează în cod eroarea ascunsă „Failed to render app block … does not exist”; tema de test nu le mai are. Dacă ai înlocuit cadourile Koala cu Wi BOGO+, verifică în previzualizare că oferta apare în coș.
-2. „Previzualizare”: verifică homepage, o colecție, un produs, un articol și coșul.
+2. „Previzualizare”: verifică homepage, o colecție, un produs, un articol și coșul. Titlurile trebuie să apară cu fontul Bebas Neue și textul cu Poppins, la fel ca pe tema live.
 3. „Publică”. Tema actuală rămâne în listă ca rezervă.
 4. După publicare: Google Rich Results Test pe `/products/baton-proteic-capsuni` → „Product” fără erori.
 
@@ -56,21 +63,27 @@ Pași:
 20. **Articolele de sănătate (colecția Prime Health):** 16 articole despre colesterol, tensiune, ficat etc. au ca autor un antrenor de culturism. Este onest, dar pentru subiecte medicale Google caută expertiză medicală: fie o revizie semnată de un medic sau farmacist (cu numele pe pagină), fie depublicarea celor mai medicale dintre ele.
 21. **Înainte de a publica cele 11 articole noi:** `creatina-efecte-secundare` se suprapune cu articolul păstrat `creatina-si-retentia-de-apa` (care primește deja 3 redirecturi despre efecte secundare). Ori le unești, ori le diferențiezi clar titlurile și primele paragrafe, ca să nu se canibalizeze din nou.
 22. **robots.txt (opțional, după publicarea temei):** tema de test conține o copie fixă a robots.txt-ului actual + linia `Content-Signal`. Dacă vrei ca regulile viitoare ale Shopify să se aplice automat, înlocuiește-o cu varianta dinamică din `theme-fixes/templates/robots.txt.liquid.dynamic` și verifică în previzualizare că fiecare regulă e pe rândul ei; nu am putut-o testa aici (previzualizarea era blocată de verificarea anti-bot).
+23. **Pop Convert** (PageSpeed): în campania „Cremă de orez” completează „Alt text” la imagine și încarc-o la 600 px în loc de 1080 px (aproximativ 90 KB mai puțin pe mobil). Tema de test completează temporar textul lipsă, dar ce scrii în aplicație are prioritate.
+24. **theMarketer** (PageSpeed, eroare 404 în consolă): oprește notificările web push sau cere-le să repare app proxy-ul `/apps/mktr` (cererea `/apps/mktr/firebase-config.js` răspunde 404). Cât timp eroarea există, „Cele mai bune practici” nu poate trece de 92.
+25. **Judge.me și Delivery Estimator** (contrast): în Judge.me → Widget → Appearance: gri **#6d6d6d** (în loc de #707070/#7b7b7b), roșu pentru linkuri **#da1218**, albastru pentru medalie **#286ec0**; în Delivery Estimator: roșu **#cf2f1f** (în loc de #e03e2d).
+26. **Fontify și BSS B2B, după publicarea temei:** dacă schimbi fonturile din Fontify, reactivează embed-ul și scoate rândul `{%- render 'fontify-fonts' -%}` din `layout/theme.liquid`. Dacă BSS modifică `assets/bss-custom.css`, copiază regulile noi în `layout/theme.liquid` (au fost mutate acolo ca să nu mai blocheze afișarea).
+27. **Șase micro-schimbări de culoare/spațiere** care duc Accesibilitatea la 100 (roșul butoanelor #ec1e24 → #eb161d, practic imperceptibil; verdele „În stoc”; punctele galeriei; siglele ANPC pe mobil; etichetele comentariilor; rozul din articole): lista exactă e în `PAGESPEED-2026-10-13.md`, secțiunea 4. Spune „da” și le aplic.
 
 ## 4. Lăsate intenționat neatinse (ar fi schimbat designul sau au risc comercial)
 
 | Ce | De ce contează | De ce nu s-a făcut |
 |---|---|---|
 | Bannerul de cookie-uri pe tot ecranul pe mobil (Pandectes) | ascunde hero-ul la prima vizită | layout = design; Pandectes → Banner → „Bar” durează 2 minute dacă vrei |
-| Bara „Adaugă în coș” fixă pe mobil; H1 pe hero; ordinea secțiunilor de pe homepage; fonturile Fontify; autoplay la slideshow; paginarea blogului; titlul paginii 404 | viteză și conversie pe mobil | toate schimbă aspectul |
+| Bara „Adaugă în coș” fixă pe mobil; H1 pe hero; ordinea secțiunilor de pe homepage; alegerea fonturilor (acum servite de temă, aceleași); autoplay la slideshow; paginarea blogului; titlul paginii 404 | viteză și conversie pe mobil | toate schimbă aspectul |
 | Prețul tăiat în datele structurate și colecția „Reduceri” | 120 de produse au preț „comparativ” permanent; a-l arăta ca reducere riscă probleme cu Directiva Omnibus | decizie comercială/juridică |
 | Unirea variantelor de culoare/aromă (45 de produse) | o singură pagină puternică în loc de 2–4 slabe | schimbă pagini și URL-uri |
 | Redenumirea fișierelor de imagine | nume descriptive în Google Images | înlocuiește fișierele folosite de temă |
-| Zoom-ul cu două degete pe mobil (`maximum-scale=1.0` în viewport) | accesibilitate (WCAG 1.4.4) și scorul Lighthouse | dacă este scos, iPhone-ul mărește pagina când se apasă în câmpurile mici (cantitate, căutare, newsletter): schimbare vizibilă. Se poate face împreună cu mărirea textului din câmpuri la 16 px pe mobil, deci tot o decizie de design |
+| Contrastul câtorva culori, punctele galeriei de produs, siglele ANPC pe mobil | Accesibilitate 94 → 100 și Best practices | fiecare schimbă o culoare sau o spațiere; valorile minime sunt în `PAGESPEED-2026-10-13.md`, secțiunea 4 (zoom-ul pe mobil s-a rezolvat între timp fără schimbare vizibilă) |
 
 ## 5. Fișiere livrate
 
 - `FULL-AUDIT-REPORT.md` / `.pdf`, `ACTION-PLAN.md` / `.pdf`, `OWNER-HANDOVER.pdf`, `audit-data.json`
+- `PAGESPEED-2026-10-13.md`: fiecare problemă din PageSpeed Insights, ce s-a făcut și cu ce rezultat; rapoartele Lighthouse în `data/pagespeed/`
 - `data/round2-status.md`: starea fiecărei constatări după runda 2
 - `applied/`: exact ce s-a scris în magazin (produse, articole, redirecturi, pagini, alt text, articole noi) + loguri
 - `theme-fixes/`: fișierele temei de test; `scripts/`: scripturile folosite

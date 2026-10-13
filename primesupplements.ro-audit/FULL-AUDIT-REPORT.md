@@ -1,6 +1,6 @@
 # Audit SEO complet – primesupplements.ro
 
-**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Verificarea adversarială** a tuturor celor 287 de constatări (doi verificatori independenți pe fiecare raport de specialist, 13.10.2026) este în **Anexa V**, la finalul raportului: 101 confirmate, 179 parțial confirmate, 7 infirmate; corecturile cerute de ea sunt aplicate în raport, în plan și pe magazin.
+**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Verificarea adversarială** a tuturor celor 287 de constatări (doi verificatori independenți pe fiecare raport de specialist, 13.10.2026) este în **Anexa V**, la finalul raportului: 101 confirmate, 179 parțial confirmate, 7 infirmate; corecturile cerute de ea sunt aplicate în raport, în plan și pe magazin. **PageSpeed Insights** (raportul trimis pentru tema live: Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, agenți 3/4) este tratat problemă cu problemă în **Anexa P** și în `PAGESPEED-2026-10-13.md`.
 
 ## Domeniu și metodă
 
@@ -6045,3 +6045,23 @@ Cu ponderile din capitolul de început, scorurile verificatorilor (Tehnic 66, Co
 - **SERP**: căutările pe care se bazează SXO-03, SXO-06, SXO-11 și partea de SERP din SXO-01/02 au fost făcute cu un motor indexat în SUA, nu pe google.ro. Încrederea în aceste constatări este redusă. Ele trebuie validate în Google Search Console și manual pe google.ro (`hl=ro`, `gl=ro`).
 - **Autoritate**: AUTHORITY-01, -02 și partea de măsurare din -04 numărau de trei ori aceeași cauză (lipsa datelor off-site). În plan sunt tratate ca o singură acțiune.
 - **Severități:** verificatorii propun Info în loc de Medium/Low pentru GEO-16 / AGENTIC-04 (llms.txt / agents.md generic, ignorat de Google) și GEO-17 (Content-Signal). Severitățile propuse de verificatori sunt înregistrate în `data/specialist-results.json`; tabelul de constatări păstrează severitatea specialistului, iar diferențele sunt sintetizate aici.
+
+## Anexa P. PageSpeed Insights (13.10.2026)
+
+Proprietarul a trimis raportul PageSpeed Insights pentru tema live (mobil): Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, Navigare autonomă 3/4. Toate remedierile sunt în tema de test, fără schimbări de aspect: capturi pixel cu pixel identice, 0 erori Liquid, 71 de fișiere verificate prin checksum.
+
+- **Performanță:** fonturile Fontify sunt servite de pe domeniul magazinului, nu din foile de stil Google care blocau afișarea. CSS-ul BSS este pus direct în pagină. Preconnect-urile inutile sunt scoase (avertismentul „mai mult de 4 preconnect” a dispărut). Sprite-ul de steaguri (155 KiB pe mobil) nu se mai descarcă. La cardurile de produs s-a adăugat o variantă de 550 px. Local, pe homepage: LCP 6,2 → 4,1 s, FCP 3,0 → 2,6 s.
+- **Accesibilitate:** ARIA invalid la iconițele de căutare și coș, imaginea fără `alt` din popup-ul Pop Convert, zoom blocat pe Android (iOS neschimbat), numele butonului de țară, ordinea titlurilor în 119 articole (`aria-level`). Toate sunt rezolvate.
+- **Best practices:** eroarea 404 `/null` (Pop Convert nu găsea favicon-ul) este rezolvată. Eroarea 404 theMarketer și cookie-urile terțe rămân în aplicații.
+- **SEO:** 100. **Navigare autonomă:** 4/4. Toate formularele temei au adnotări WebMCP.
+- **Rămase:** 6 micro-schimbări de culoare/spațiere care cer acordul proprietarului (contrast, punctele galeriei, siglele ANPC), plus setări în aplicațiile Pop Convert, theMarketer, Judge.me și Delivery Estimator. Lista exactă este în `PAGESPEED-2026-10-13.md` (secțiunile 4–5) și în `OWNER-HANDOVER.md` (punctele 23–27).
+
+| Pagina (Lighthouse 13.5 local) | Live: perf · acces. · BP · SEO · agenți | Tema de test | Accesibilitate după publicare |
+|---|---|---|---|
+| Homepage | 35 · 76 · 69 · 92 · 67 | 46 · 91 · 69 · 100 · 100 | 94 |
+| Produs | 36 · 78 · 69 · 92 · 67 | 37 · 91 · 69 · 100 · 100 | 94 |
+| Colecție | 37 · 78 · 69 · 92 · 66 | 35 · 97 · 69 · 100 · 100 | 100 |
+| Articol | 44 · 78 · 69 · 92 · 64 | 55 · 94 · 69 · 100 · 100 | 97 |
+
+Scorurile temei de test includ penalizările previzualizării: o redirecționare și bara Shopify fără titlu, care costă 3 puncte de accesibilitate. Niciuna nu există după publicare.
+

@@ -64,7 +64,7 @@
       },
       "15119538188275799212": {
         "type": "shopify://apps/fontify/blocks/app-embed/334490e2-2153-4a2e-a452-e90bdeffa3cc",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       },
       "15351435345818755577": {
@@ -97,28 +97,13 @@
         "disabled": false,
         "settings": {}
       },
-      "6770548097779500122": {
-        "type": "shopify://apps/koala-upsells-gifts/blocks/gifts-embed/baf92dc5-8ffa-40c0-967e-57b74cddc9e3",
-        "disabled": false,
-        "settings": {}
-      },
       "2567389343055140935": {
         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
         "settings": {}
       },
-      "12354790048345844953": {
-        "type": "shopify://apps/bloggenauto/blocks/tracking-embed/019d495d-eaa1-7817-b63e-f288f635c07b",
-        "disabled": false,
-        "settings": {}
-      },
       "18408366429334172745": {
         "type": "shopify://apps/pop-convert/blocks/app-embed/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
-        "disabled": false,
-        "settings": {}
-      },
-      "pagefly-ai-page-builder": {
-        "type": "shopify://apps/pagefly-ai-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {}
       }

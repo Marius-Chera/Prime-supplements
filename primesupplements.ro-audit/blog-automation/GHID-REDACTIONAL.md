@@ -11,9 +11,30 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 
 ## 2. Alegerea subiectului (anti-canibalizare)
 
-1. Subiectul vine din `calendar-luna-1.json` (data, ora, handle, titlu, cuvânt-cheie, produse, colecție, etichete). După ce calendarul se termină, automatizarea alege singură: produsul din top 15 cu cele mai puține articole în ultimele 30 de zile (date din ShopifyQL: `FROM sales SHOW net_items_sold GROUP BY product_title SINCE -180d`, variantele de aromă sunt o singură linie de produs) și un unghi încă nefolosit pentru el.
-2. Înainte de scriere, verifică articolele existente (titluri, handle-uri, etichete `intent:`): dacă o temă cu aceeași intenție de căutare există deja, schimbă unghiul (alt public, altă întrebare, altă combinație) sau sari peste și notează motivul. Nu scrie niciodată a doua oară același răspuns la aceeași întrebare.
-3. Unghiuri permise: ce este / beneficii (doar mențiuni autorizate), când și cum se ia, doza, pentru cine (femei, vegetarieni, sportivi de anduranță, peste 40 de ani), combinații, comparații, cum alegi / cum citești eticheta, rețete, semne și cauze, mituri, ghid de produs.
+1. Subiectul vine din `calendar-luna-1.json` (144 de rânduri, 14 octombrie – 24 decembrie 2026: data, ora, handle, titlu, cuvânt-cheie, produse, colecție, etichete, `tip`: `principal` sau `acoperire`).
+2. **Cele 15 produse principale (alese de proprietar):** Prime Whey (2 kg, 1 kg, Go), Cremă de orez Prime Creamy Rice, Creatină Creapure, Creatină monohidrat 300 g, Magneziu bisglicinat, Pure Isolate, EAA, Omega-3, Cluster Insulin Bomb, Vitamina C 1000, Vitamina D3+K2, Batoane proteice, L-glutamină Recovery Glutamin, Picolinat de crom, NAC. **Acoperire:** în primele 3 luni, fiecare supliment activ de pe site are cel puțin un articol (rândurile `acoperire` din calendar). Nu se scrie despre haine sau accesorii. Un produs care nu e `ACTIVE` (de exemplu Liver Protect, acum nelistat) se sare.
+3. După ce calendarul se termină, automatizarea alege singură: unul dintre cele 15 produse principale (cel cu cele mai puține articole noi în ultimele 30 de zile) și un unghi încă nefolosit pentru el.
+4. Înainte de scriere, verifică articolele existente (titluri, handle-uri, etichete `intent:`). Dacă o temă cu aceeași intenție de căutare există deja, schimbă unghiul (alt public, altă întrebare, altă combinație) sau sari peste și notează motivul. Nu scrie niciodată a doua oară același răspuns la aceeași întrebare.
+5. Unghiuri permise: ce este / beneficii (doar mențiuni autorizate), când și cum se ia, doza, pentru cine (femei, vegetarieni, sportivi de anduranță, peste 40 de ani), combinații, comparații, cum alegi / cum citești eticheta, rețete, semne și cauze, mituri, ghid de produs.
+
+## 2b. Ca să ajungă sus în Google și să fie citat de motoarele AI
+
+- **Intenția de căutare pe primul loc:** prima secțiune răspunde exact la întrebarea din titlu; nu amâna răspunsul.
+- **Definiție clară** în primele 100 de cuvinte („X este…”), cu cuvântul-cheie principal. Cuvântul-cheie apare și într-un H2, în title tag și în meta description, natural, fără repetări forțate.
+- **Pasaje citabile:** fiecare H2 începe cu 1–2 propoziții care se pot cita singure (răspuns complet, fără „după cum am spus”). Paragrafe de maximum 3 propoziții, liste și un tabel atunci când compari sau dai doze.
+- **Cifre concrete, doar din surse sigure:** doza de pe eticheta produsului, valorile de referință oficiale (EFSA), gramaje. Fără cifre inventate.
+- **Întrebări frecvente** formulate exact cum caută oamenii („Se poate lua X seara?”, „Cât X pe zi?”), cu răspunsuri directe în primele cuvinte.
+- **E-E-A-T:** autorul Marius Chera (antrenor de culturism, fondatorul Prime Supplements), sfaturi practice de antrenor la persoana întâi plural („recomandăm”, „la sportivii cu care lucrăm vedem des…”), formulate general, fără povești sau cazuri inventate, cu limitele clar spuse („discută cu medicul dacă…”).
+- **Entități clare:** numele complet al produsului și al ingredientului (de exemplu „L-glutamină Kyowa®”, „creatină monohidrat Creapure®”), forma (capsule, pudră), gramajul.
+
+## 2c. Ca să convingă la comandă (fără să devină reclamă)
+
+- Caseta produsului apare de două ori: după secțiunea care răspunde la întrebare și la final, înainte de întrebările frecvente. Butonul are textul „Vezi produsul” sau „Comandă <nume scurt>”.
+- O secțiune practică „Cum folosești <produs>”: doza și modul de administrare de pe eticheta produsului, momentul din zi, cu ce se combină, cât ține un ambalaj (calculat din gramaj și porție, fără preț).
+- Răspunde la obiecțiile reale: gust, cum se dizolvă, efecte normale la început, cui nu i se potrivește.
+- **Dovadă socială doar reală:** dacă produsul are recenzii Judge.me (metafield-urile `reviews.rating` și `reviews.rating_count`, citite prin Admin API), poți scrie „nota X din 5, din Y recenzii”. Altfel nu pomeni recenzii.
+- Fapte de magazin care ajută la decizie: livrare gratuită la comenzi peste 300 de lei; produs al brandului Prime Supplements. Fără prețuri, fără reduceri inventate, fără urgență falsă („doar azi”).
+- Un link spre un produs complementar, dacă e firesc (de exemplu proteină și cremă de orez, magneziu și vitamina D3+K2).
 
 ## 3. Reguli de conținut (obligatorii)
 

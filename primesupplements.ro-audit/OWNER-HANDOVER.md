@@ -29,7 +29,7 @@ Pași:
 
 ## 3. Ce poți face doar tu (în ordinea importanței)
 
-1. **Oprește BlogGenAuto** (pauză pe publicare, fără scripturi/schema/link „Powered by”). Altfel aplicația generează din nou articole duplicate peste blogul curățat.
+1. **Oprește BlogGenAuto** (pauză pe publicare, fără scripturi/schema/link „Powered by”). Altfel aplicația generează din nou articole duplicate peste blogul curățat. Pe tema live, embed-ul ei de tracking dă pe fiecare pagină eroarea ascunsă „Failed to render app block … bloggenauto/blocks/tracking-embed”: oprește-l din Personalizează → App embeds (pe tema de test este deja oprit).
 2. **Revizuiește și publică cele 11 articole noi** (ciorne). Sunt scrise pe surse reale, dar sunt texte despre sănătate: citește-le înainte de publicare.
 3. **Piața Ungaria:** Setări → Piețe → Ungaria → dezactivează piața (selectorul de țară încă afișează „Ungaria”) și șterge zona de livrare Ungaria (tarife în HUF).
 4. **Magazinul B2B:** parolă pe storefront (Magazin online → Preferințe → Restricționează accesul). Altfel cele 58 de produse duplicate cu prețuri en-gros rămân în Google.

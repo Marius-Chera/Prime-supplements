@@ -22,7 +22,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | SHOPIFY-05 | 1 | Medium | FIXED | Imaginile de produs nu aveau alt text (REMEDIAT) |
 | TECH-15 | 1 | Low | OPEN | Variantele cu slash final răspund 200 (un URL duplicat per pagină, atenuat de canonical) |
 | TECH-16 | 1 | Low | OPEN | `http://www` este un lanț de redirect în doi pași |
-| TECH-17 / SITEMAP-12 | 1 | Low | OPEN → PARȚIAL | Trei handle-uri conțin diacritice percent-encoded, iar canonical-ul folosește altă capitalizare hex decât sitemap-ul și hreflang-ul |
+| TECH-17 / SITEMAP-12 | 1 | Low | OPEN → FIXED-R2 | Trei handle-uri conțin diacritice percent-encoded, iar canonical-ul folosește altă capitalizare hex decât sitemap-ul și hreflang-ul |
 | TECH-18 | 1 | Low | PENDING → FIXED-R2 | Igienă URL: 57 URL-uri din sitemap depășesc 100 de caractere, 42 handle-uri de articol se termină în -2…-5 și 134 conțin fragmente englezești |
 | TECH-19 | 1 | Low | READY | Pagina goală `/search` este indexabilă, în timp ce `/search?q=` nu este |
 | TECH-20 | 1 | Low | READY | `og:image` este emis cu `http://` pe fiecare pagină |
@@ -97,11 +97,11 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | ONPAGE-26 | 3 | Medium | OPEN | 19 grupuri de titluri cvasi-duplicate (45 produse): variantele de culoare și aromă sunt publicate ca produse separate |
 | ONPAGE-27 | 3 | Low | FIXED | Text alt absent pe 493/493 imagini de produs (efecte secundare pe ancore și pe `twitter:image:alt`) |
 | ONPAGE-28 | 3 | Info | PENDING → FIXED-R2 | Fiecare titlu/meta/H1 există de două ori din cauza copiei de piață `/ro-hu/` |
-| SCHEMA-01 | 4 | Critical | READY | Product JSON-LD este sintactic invalid pe 75/185 produse (76 % din suplimente) pentru că `escape` nu codifică newline-urile |
+| SCHEMA-01 | 4 | Critical | READY → FIXED-R2 | Product JSON-LD este sintactic invalid pe 75/185 produse (76 % din suplimente) pentru că `escape` nu codifică newline-urile |
 | SCHEMA-02 | 4 | High | READY | Chiar și blocurile Product care se parsează sunt neeligibile: AggregateOffer cu stringuri cu virgulă zecimală, fără Offer per variantă, fără price |
 | SCHEMA-03 | 4 | High | READY | Lipsește aggregateRating/review din markup, deși Judge.me are rating-uri pe produse |
 | SCHEMA-04 | 4 | High | PENDING → FIXED-R2 | BlogGenAuto injectează un al doilea graf JSON-LD contradictoriu în 347/355 corpuri de articol (breadcrumb-uri myshopify, jobTitle placeholder) |
-| SCHEMA-05 | 4 | Medium | READY → READY-R2 | Blocul Article al temei: același bug `escape` (invalid pe ≥ 6 articole), autorul este mereu Organization, fără logo de publisher, headline neplafonat |
+| SCHEMA-05 | 4 | Medium | READY → FIXED-R2 | Blocul Article al temei: același bug `escape` (invalid pe ≥ 6 articole), autorul este mereu Organization, fără logo de publisher, headline neplafonat |
 | SCHEMA-06 | 4 | Medium | READY → READY-R2 | Fără hasMerchantReturnPolicy / shippingDetails, iar cele două pagini de politici se contrazic la pragul de livrare gratuită |
 | SCHEMA-07 | 4 | Medium | READY | Categoria din breadcrumb-ul de produs este „All Products” (sau colecția internă „11% TVA”) pe fiecare produs |
 | SCHEMA-08 | 4 | Medium | READY → READY-R2 | Organization: logo-ul răspunde 404, fără telefon/e-mail/adresă/identificatori legali, limbă și dată de înființare greșite, sameAs dubios |
@@ -213,7 +213,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | INTERNATIONAL-05 | 9 | Low | PENDING → PARȚIAL | Selectorul de țară este randat de trei ori pe pagină, oferă două țări cu aceeași monedă („România (RON Lei)” / „Ungaria (RON Lei)”), nu are opțiune de limbă și schimbă tacit prețurile cu −17,36 % |
 | INTERNATIONAL-06 | 9 | Low | PENDING → FIXED-R2 | Homepage-ul /ro-hu există în două forme de URL (`/ro-hu` și `/ro-hu/`, ambele 200); canonical/hreflang/sitemap folosesc forma fără slash, în timp ce `rootUrls` al pieței spune `/ro-hu/` |
 | INTERNATIONAL-07 | 9 | Low | PENDING → FIXED-R2 | Datele structurate de pe fiecare pagină /ro-hu/ declară URL-ul rădăcină ca URL al entității (@id, url, elemente de breadcrumb), în timp ce canonical-ul și og:url ale paginii declară /ro-hu/ |
-| INTERNATIONAL-08 | 9 | Low | OPEN | Canonical-ul și hreflang/sitemap-ul nu sunt de acord asupra majusculelor din percent-encoding pentru URL-urile cu handle-uri cu diacritice (canonical minuscule `%c8%9b`, hreflang și sitemap majuscule `%C8%9B`) |
+| INTERNATIONAL-08 | 9 | Low | OPEN → FIXED-R2 | Canonical-ul și hreflang/sitemap-ul nu sunt de acord asupra majusculelor din percent-encoding pentru URL-urile cu handle-uri cu diacritice (canonical minuscule `%c8%9b`, hreflang și sitemap majuscule `%C8%9B`) |
 | INTERNATIONAL-09 | 9 | Low | READY → READY-R2 | Lacune în metadatele de limbă: fără `og:locale`, fără `inLanguage` în niciun JSON-LD și string-uri în engleză (tagline-ul din title, titlul Judge.me) pe singurul locale (român) |
 | INTERNATIONAL-10 | 9 | Info | OPEN | Locale-ul maghiar există, dar este nepublicat, fără traduceri, fără HUF și fără conținut legal/de livrare maghiar: lista de pregătire pentru o lansare reală în Ungaria (opțiunea c) |
 | AUTHORITY-01 | 10 | High | OPEN | Domeniul lipsește din graful web Common Crawl, în timp ce competitorul principal este clasat |

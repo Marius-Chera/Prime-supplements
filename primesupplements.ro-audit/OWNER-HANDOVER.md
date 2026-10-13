@@ -31,14 +31,16 @@ Pași:
 
 1. **BlogGenAuto este deja dezinstalat**: nu mai generează articole. Nu îl reinstala; dacă vrei articole noi, pornește de la cele 11 ciorne documentate.
 2. **Revizuiește și publică cele 11 articole noi** (ciorne). Sunt scrise pe surse reale, dar sunt texte despre sănătate: citește-le înainte de publicare.
-3. **Piața Ungaria:** Setări → Piețe → Ungaria → dezactivează piața (selectorul de țară încă afișează „Ungaria”) și șterge zona de livrare Ungaria (tarife în HUF).
-4. **Magazinul B2B:** parolă pe storefront (Magazin online → Preferințe → Restricționează accesul). Altfel cele 58 de produse duplicate cu prețuri en-gros rămân în Google.
+3. **Piața Ungaria:** Setări → Piețe → Ungaria → dezactivează piața (selectorul de țară încă afișează „Ungaria”, iar `?country=HU` arată prețuri fără TVA, de ex. 148,76 în loc de 180 RON) și șterge zona de livrare Ungaria (tarife în HUF).
+4. **Magazinul B2B:** parolă pe storefront (Magazin online → Preferințe → Restricționează accesul). Altfel cele 58 de produse duplicate cu prețuri en-gros rămân în Google, cu descrierile vechi și cu o a doua entitate „PRIME SPORT SUPPLEMENTS SRL / 46260823” în datele structurate.
 5. **Google Search Console** (proprietate de domeniu) + **Bing Webmaster Tools**: retrimite `sitemap.xml`; la „Eliminări” cere scoaterea URL-urilor vechi `www` / `categorie-produs`.
 6. **Coduri de bare (GTIN):** 207 variante nu au cod de bare, iar 27 de coduri existente nu sunt valide. Tema nouă publică doar codurile valide; completează-le din etichete (Produse → Variantă → Cod de bare).
 7. **Judge.me:** traduce textele widget-ului în română (Setări → Traduceri).
 8. **Adresa din profilul magazinului** (Setări → General): oraș și număr completate, la fel ca în footer.
 9. **De verificat cu producătorul:** citratul de magneziu are 450 mg magneziu pe doza de 2 capsule, peste nivelul de 250 mg/zi din suplimente stabilit de EFSA (articolul nou despre magneziu spune asta deschis).
 10. **Pachetul Thermo Core + Water Out** (oferta 1–14 august) este nelistat, dar două articole despre arzătoare îl recomandă cu buton „Cumpără acum”. Dacă pachetul nu se mai vinde, spune-mi și le mut pe produsele separate.
+11. **Bannerul de cookie-uri (Pandectes):** primul ecran are doar „Preferințe” și „Accept”, fără „Refuz”. Autoritățile UE (EDPB, 2023) cer ca refuzul să fie la fel de ușor ca acceptarea. Textul „Declin” există deja în setări; în Pandectes → Banner → Layout adaugă butonul de refuz. Este o problemă de conformitate GDPR, nu de SEO.
+12. **Paginile de politici** (confidențialitate, retur etc.) scriu adresa site-ului ca „www.primesupplements.ro”. Site-ul canonic este fără `www`: Setări → Politici → înlocuiește textul.
 
 ## 4. Lăsate intenționat neatinse (ar fi schimbat designul sau au risc comercial)
 
@@ -49,6 +51,7 @@ Pași:
 | Prețul tăiat în datele structurate și colecția „Reduceri” | 120 de produse au preț „comparativ” permanent; a-l arăta ca reducere riscă probleme cu Directiva Omnibus | decizie comercială/juridică |
 | Unirea variantelor de culoare/aromă (45 de produse) | o singură pagină puternică în loc de 2–4 slabe | schimbă pagini și URL-uri |
 | Redenumirea fișierelor de imagine | nume descriptive în Google Images | înlocuiește fișierele folosite de temă |
+| Zoom-ul cu două degete pe mobil (`maximum-scale=1.0` în viewport) | accesibilitate (WCAG 1.4.4) și scorul Lighthouse | dacă este scos, iPhone-ul mărește pagina când se apasă în câmpurile mici (cantitate, căutare, newsletter): schimbare vizibilă. Se poate face împreună cu mărirea textului din câmpuri la 16 px pe mobil, deci tot o decizie de design |
 
 ## 5. Fișiere livrate
 

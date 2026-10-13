@@ -11,7 +11,7 @@ The owner asked for every problem to be fixed, not only reported. The following 
 - 11 of 11 pages (contact, despre-noi, politici, B2B, thank-you, creatina-custom): `global.title_tag` + `description_tag` metafields written (were all empty).
 
 ## Staging theme (uploaded to the unpublished duplicate "Impact – SEO fixes 2026-10-12", id 193875083639; the OWNER must preview and publish)
-- `layout/theme.liquid`: charset + viewport first (no `maximum-scale`), title template with brand suffix and homepage override, homepage meta description, `noindex,follow` for utility collections (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage, reduceri, vendors, types), page thank-you, search, cart, password, customer templates.
+- `layout/theme.liquid`: charset + viewport first (`maximum-scale` initially removed; restored in round 2 because iOS zooms on focus of inputs under 16 px, a visible change left to the owner), title template with brand suffix and homepage override, homepage meta description, `noindex,follow` for utility collections (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage, reduceri, vendors, types), page thank-you, search, cart, password, customer templates.
 - `snippets/schema-product-enhanced.liquid`: valid Product JSON-LD (json filter), per-variant Offer with numeric price, priceValidUntil, availability, sku/gtin, hasMerchantReturnPolicy (14 days, RO), shippingDetails (20 RON / free ≥ 300 RON), aggregateRating from Judge.me metafields, brand from vendor.
 - `snippets/schema-article.liquid`: valid Article JSON-LD with Person author (Marius Chera, jobTitle), publisher, image, wordCount.
 - `snippets/schema-collection.liquid`: CollectionPage + ItemList + BreadcrumbList.

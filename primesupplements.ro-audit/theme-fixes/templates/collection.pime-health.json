@@ -1,0 +1,251 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "image": "shopify://shop_images/HILA_13_16_50_01_2121_10f9c2dc-f98a-4862-8b51-ff28531f34ca.jpg",
+        "mobile_image": "shopify://shop_images/HILA_13_16_50_01_2121_10f9c2dc-f98a-4862-8b51-ff28531f34ca.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "featured_product": "baton-proteic-ciocolata-portocale",
+        "featured_product_heading": "Cel mai vândut",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "promotion_image_CdDD6W": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 4,
+            "column_span": "1",
+            "image": "shopify://shop_images/promotion-produt.jpg",
+            "mobile_image": "shopify://shop_images/promotion-mobile.jpg",
+            "title": "Nitrox NO-STIM 660g/30 Serv",
+            "content": "",
+            "link_url": "shopify://products/nitrox-no-stim",
+            "link_text": "Vezi produsul",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "promotion_image_CdDD6W"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "recently_viewed_products_qV7jgp": {
+      "type": "recently-viewed-products",
+      "name": "Recently viewed products",
+      "settings": {
+        "full_width": true,
+        "products_count": 6,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Recent vizualizate",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "collection_list_eGEX46": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_WB9jp8": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamine-si-minerale",
+            "image": "shopify://shop_images/1.jpg",
+            "subheading": "",
+            "title": "Vitamine și minerale",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_PP9Jpz": {
+          "type": "collection",
+          "settings": {
+            "collection": "arzator-de-grasimi",
+            "image": "shopify://shop_images/2.jpg",
+            "subheading": "",
+            "title": "Arzătoare de grăsimi",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_yLWiVC": {
+          "type": "collection",
+          "settings": {
+            "collection": "suplimente-sala",
+            "image": "shopify://shop_images/3.jpg",
+            "subheading": "",
+            "title": "Suplimente premium",
+            "url": "shopify://collections/suplimente-sala",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_WB9jp8",
+        "collection_PP9Jpz",
+        "collection_yLWiVC"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Alte categorii",
+        "content": "",
+        "link_url": "shopify://collections",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "scrolling_text_TqhzUH": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Create de campioni pentru campioni",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "blog_posts_VYj9G8": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_TeK4Cm": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_TeK4Cm"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Ghiduri și sfaturi utile",
+        "content": "",
+        "link_url": "shopify://blogs/news",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_e4zxV9": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_XwYLpA": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ collection.metafields.custom.seo_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_XwYLpA"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "recently_viewed_products_qV7jgp",
+    "collection_list_eGEX46",
+    "scrolling_text_TqhzUH",
+    "blog_posts_VYj9G8",
+    "rich_text_e4zxV9"
+  ]
+}

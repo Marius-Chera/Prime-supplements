@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Livrare gratuită la comenzile de peste 300 RON",
+            "url": ""
+          }
+        },
+        "message_zhFtUB": {
+          "type": "message",
+          "settings": {
+            "text": "Tehnologii de ultimă generație și ingrediente de cea mai înaltă calitate",
+            "url": ""
+          }
+        },
+        "message_VxdkHd": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "SUPER BLACK FRIDAY 2025",
+            "url": ""
+          }
+        },
+        "message_h7XARn": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Până la -25% discount la toate produsele",
+            "url": ""
+          }
+        },
+        "message_EaaN4r": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "31 Octombrie – 15 Noiembrie",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "message_zhFtUB",
+        "message_VxdkHd",
+        "message_h7XARn",
+        "message_EaaN4r"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_pmfgzL": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "layout": "drawer",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_pmfgzL"
+      ],
+      "custom_css": [
+        ".text-with-icon {font-family: \"POPPINS\";}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "logo": "shopify://shop_images/logo-prime-negru.svg",
+        "logo_max_width": 160,
+        "logo_mobile_max_width": 120,
+        "menu": "main-menu-desktop",
+        "sidebar_menu": "main-menu",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/logo-site-alb.svg",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    },
+    "mktr_custom_app": {
+      "type": "mktr_custom_app",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "mktr_custom_app"
+  ]
+}

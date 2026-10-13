@@ -12,9 +12,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
-    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes), pinch-zoom no longer blocked, title gets the brand suffix, utility/transactional pages are noindex.{%- endcomment -%}
+    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes; the viewport keeps the live maximum-scale, because removing it makes iOS zoom on focus of inputs smaller than 16px, a visible change left to the owner), title gets the brand suffix, utility/transactional pages are noindex.{%- endcomment -%}
     {%- liquid
       assign seo_title = page_title
       if seo_title == blank

@@ -105,7 +105,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "{% if product.available %}\n  <div style=\"background-color:#111111; color:#fff; padding: 1.5rem; border-radius: 16px; text-align: center; margin: 2rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.2);\">\n    <h3 style=\"margin: 0; font-size: 1rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #f02e2e;\">\n      🖤 SUPER Black Friday Pânã la 1 Decembrie\n    </h3>\n    <h2 style=\"font-size: 2.2rem; margin: 0.5rem 0; font-weight: 900; border-radius: 12px;\">\n      Până la <span style=\"color: #f02e2e;\">-50%</span> reducere la toate produsele!\n    </h2>\n    <p style=\"font-size: 1rem; margin: 0 0 1.2rem;\">\n      Profită acum cât stocurile mai țin.\n    </p>\n    <a href=\"/collections/all\" style=\"background-color: #f02e2e; color: white; padding: 0.75rem 1.5rem; font-weight: bold; border-radius: 999px; text-decoration: none; display: inline-block; transition: background 0.3s;\">\n      Vezi toate ofertele\n    </a>\n  </div>\n{% endif %}"
+            "liquid": "{% if product.available %}\n  <div style=\"background-color:#111111; color:#fff; padding: 1.5rem; border-radius: 16px; text-align: center; margin: 2rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.2);\">\n    <h3 style=\"margin: 0; font-size: 1rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #f02e2e;\">\n      🖤 SUPER Black Friday Până la 1 Decembrie\n    </h3>\n    <h2 style=\"font-size: 2.2rem; margin: 0.5rem 0; font-weight: 900; border-radius: 12px;\">\n      Până la <span style=\"color: #f02e2e;\">-50%</span> reducere la toate produsele!\n    </h2>\n    <p style=\"font-size: 1rem; margin: 0 0 1.2rem;\">\n      Profită acum cât stocurile mai țin.\n    </p>\n    <a href=\"/collections/all\" style=\"background-color: #f02e2e; color: white; padding: 0.75rem 1.5rem; font-weight: bold; border-radius: 999px; text-decoration: none; display: inline-block; transition: background 0.3s;\">\n      Vezi toate ofertele\n    </a>\n  </div>\n{% endif %}"
           }
         },
         "associated_products_HYmhQP": {
@@ -452,19 +452,6 @@
     },
     "17735445479d538daf": {
       "type": "apps",
-      "blocks": {
-        "youtube_gallery_carousel_widget_block_PNnybF": {
-          "type": "shopify://apps/youtube-gallery/blocks/carousel-widget-block/20730f6a-6b3e-4beb-9cbf-452a9ade13e3",
-          "settings": {
-            "contentIndex": "1",
-            "themeId": "light",
-            "autoscroll": true
-          }
-        }
-      },
-      "block_order": [
-        "youtube_gallery_carousel_widget_block_PNnybF"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,

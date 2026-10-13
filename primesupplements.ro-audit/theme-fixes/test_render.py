@@ -108,7 +108,7 @@ if d:
     assert len(d['itemListElement']) == 2
 d = check('article (person author)', render('schema-article.liquid', dict(base, article=article, request={'page_type': 'article'})))
 if d:
-    assert d['author']['@type'] == 'Person' and d['author']['name'] == 'Marius Chera' and d['author']['jobTitle'] == 'Nutriționist certificat'
+    assert d['author']['@type'] == 'Person' and d['author']['name'] == 'Marius Chera' and d['author']['jobTitle'] == 'Antrenor de culturism, fondator Prime Supplements'
     assert d['image']['width'] == 1200 and d['wordCount'] > 250 and '\n' not in d['headline']
     assert re.match(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}$', d['datePublished']), d['datePublished']
 d = check('article (organization author, no image)', render('schema-article.liquid', dict(base, article=article_org, request={'page_type': 'article'})))

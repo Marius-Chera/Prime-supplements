@@ -2,9 +2,9 @@
   Article structured data (JSON-LD). Rewritten 2026-10-12: all strings use the `json`
   filter (the previous `escape` filter left raw newlines in "description" and produced
   invalid JSON on every article). Author is emitted as a Person built from the article
-  author field ("Marius Chera , Nutriționist Certificat" -> name "Marius Chera",
-  jobTitle "Nutriționist certificat"); the generic store account name falls back to the
-  Organization. Publisher references the site-wide Organization entity.
+  author field ("Marius Chera , Nutriționist Certificat" -> name "Marius Chera", with the
+  same jobTitle as the author page); the generic store account name falls back to the
+  Organization. Publisher references the site-wide Organization entity and its logo.
 {%- endcomment -%}
 {%- if article -%}
 {%- liquid
@@ -74,7 +74,7 @@
     "@type": "Organization",
     "@id": {{ shop.url | append: '/#organization' | json }},
     "name": "Prime Supplements",
-    "logo": { "@type": "ImageObject", "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-supplements.png", "width": 300, "height": 100 }
+    "logo": { "@type": "ImageObject", "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg" }
   }
 }
 </script>

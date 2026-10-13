@@ -91,4 +91,4 @@ Doar constatările a căror stare s-a schimbat. Restul își păstrează starea 
 
 ## 5. Atenție la publicarea temei de test
 
-Shopify a eliminat la scrierea prin API trei embed-uri de aplicații din `config/settings_data.json` al temei de test: Koala Gifts (activ pe tema live), urmărirea BlogGenAuto și un embed PageFly orfan. **Înainte de „Publică”: Customize → App embeds → pornește „Koala Gifts”** (și BlogGenAuto doar dacă aplicația rămâne). Blocul YouTube orfan din șablonul de produs a dispărut tot atunci (nu se randa oricum).
+Shopify a eliminat la scrierea prin API trei embed-uri de aplicații din `config/settings_data.json` al temei de test: Koala Gifts, urmărirea BlogGenAuto și un embed PageFly orfan (plus blocul YouTube orfan din șablonul de produs). Între timp, toate aceste aplicații au fost dezinstalate din magazin (lista de aplicații instalate din 13.10 nu le mai conține), iar tema live afișează pentru ele erori ascunse „Failed to render app block … does not exist”. Tema de test este deci deja curată; nu trebuie reactivat nimic. Dacă oferta de cadouri trece pe Wi BOGO+, verifică în previzualizare coșul.

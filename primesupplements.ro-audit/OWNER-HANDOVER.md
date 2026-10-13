@@ -22,14 +22,14 @@ Regula respectată în tot acest timp: **designul site-ului nu a fost atins.** S
 Tema „Impact – SEO fixes 2026-10-12 (Claude, nepublicată)” conține toate corecțiile de cod: date structurate valide pentru produse (preț, stoc, retur, livrare, rating Judge.me), articole (autor Marius Chera legat de pagina lui), firmă (CUI, adresă, telefon, rețele, fondator), pagini (Contact, Despre noi, Autor); noindex pe listările duplicate și pe paginile filtrate pe etichetă; titluri cu brand; robots.txt cu politica de conținut pentru AI; în fiecare colecție, ghidurile din categoria ei (nu cele mai noi 3 articole de oriunde); link ANPC SAL, WhatsApp direct, adresa din footer către pagina de contact; mici corecturi de accesibilitate. Aspectul paginilor este identic cu tema actuală.
 
 Pași:
-1. Admin → Magazin online → Teme → la tema de test: **Personalizează → App embeds → pornește „Koala Gifts”** (Shopify l-a oprit automat când tema a fost modificată prin API; pornește și BlogGenAuto tracking doar dacă păstrezi aplicația).
-2. „Previzualizare”: verifică homepage, o colecție, un produs, un articol, coșul (cadoul Koala).
+1. Aplicațiile Koala Gifts, BlogGenAuto, PageFly și YouTube Gallery nu mai sunt instalate în magazin (au fost dezinstalate între 12 și 13 octombrie). Pe tema live au rămas embed-urile lor, care afișează în cod eroarea ascunsă „Failed to render app block … does not exist”; tema de test nu le mai are. Dacă ai înlocuit cadourile Koala cu Wi BOGO+, verifică în previzualizare că oferta apare în coș.
+2. „Previzualizare”: verifică homepage, o colecție, un produs, un articol și coșul.
 3. „Publică”. Tema actuală rămâne în listă ca rezervă.
 4. După publicare: Google Rich Results Test pe `/products/baton-proteic-capsuni` → „Product” fără erori.
 
 ## 3. Ce poți face doar tu (în ordinea importanței)
 
-1. **Oprește BlogGenAuto** (pauză pe publicare, fără scripturi/schema/link „Powered by”). Altfel aplicația generează din nou articole duplicate peste blogul curățat. Pe tema live, embed-ul ei de tracking dă pe fiecare pagină eroarea ascunsă „Failed to render app block … bloggenauto/blocks/tracking-embed”: oprește-l din Personalizează → App embeds (pe tema de test este deja oprit).
+1. **BlogGenAuto este deja dezinstalat**: nu mai generează articole. Nu îl reinstala; dacă vrei articole noi, pornește de la cele 11 ciorne documentate.
 2. **Revizuiește și publică cele 11 articole noi** (ciorne). Sunt scrise pe surse reale, dar sunt texte despre sănătate: citește-le înainte de publicare.
 3. **Piața Ungaria:** Setări → Piețe → Ungaria → dezactivează piața (selectorul de țară încă afișează „Ungaria”) și șterge zona de livrare Ungaria (tarife în HUF).
 4. **Magazinul B2B:** parolă pe storefront (Magazin online → Preferințe → Restricționează accesul). Altfel cele 58 de produse duplicate cu prețuri en-gros rămân în Google.

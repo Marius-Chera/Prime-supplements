@@ -203,10 +203,10 @@ the underlying logic of the menu.
           {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
           {%- capture widths -%}{{ section.settings.logo_max_width | times: 2 | at_most: section.settings.logo.width }}, {{ section.settings.logo_max_width | times: 3 | at_most: section.settings.logo.width }}{%- endcapture -%}
           <span class="sr-only">{{ shop.name }}</span>
-          {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
+          {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, alt: '', class: 'header__logo-image' -}}
 
           {%- if section.settings.transparent_logo -%}
-            {{- section.settings.transparent_logo | image_url: width: section.settings.transparent_logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image header__logo-image--transparent' -}}
+            {{- section.settings.transparent_logo | image_url: width: section.settings.transparent_logo.width | image_tag: sizes: sizes, widths: widths, alt: '', class: 'header__logo-image header__logo-image--transparent' -}}
           {%- endif -%}
         {%- else -%}
           <span class="header__logo-text h4">{{ shop.name }}</span>
@@ -229,7 +229,7 @@ the underlying logic of the menu.
 
       <div class="header__secondary-nav">
         {%- if section.settings.header != 'drawer' and section.settings.secondary_menu.links.size > 0 -%}
-          <nav class="header__link-list" role="navigation" aria-label="Navigație principală">
+          <nav class="header__link-list" role="navigation" aria-label="Navigație secundară">
             <ul class="contents">
               {%- for link in section.settings.secondary_menu.links -%}
                 <li>

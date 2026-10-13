@@ -50,7 +50,7 @@ diff -ruN orig/config/settings_data.json stg/config/settings_data.json
        "15351435345818755577": {
 diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 --- orig/layout/theme.liquid	2026-10-13 10:10:07.917479149 +0000
-+++ stg/layout/theme.liquid	2026-10-13 14:58:26.825911140 +0000
++++ stg/layout/theme.liquid	2026-10-13 15:12:38.796060655 +0000
 @@ -12,9 +12,14 @@
  <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
    <head>
@@ -176,7 +176,7 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 +      Accessibility (2026-10-13): owner-approved micro-changes ("Micro-schimbări care duc Accesibilitatea la 100", approved by the owner on 2026-10-13, phones first). Each rule is the smallest change that makes the Lighthouse/axe check pass; everything else on the page stays pixel-identical.
 +      1. "În stoc" text and icon: #00a341 -> #007f2b (contrast 2.92 -> 4.53 on #f0f0f0, 3.33 -> 5.16 on white). Scoped to variant-inventory, so the theme Success colour (success banners, pickup availability) is unchanged.
 +      2. Judge.me carousel reviewer names: opacity .6 -> .613 (#707070 -> #6d6d6d on #f0f0f0, 4.34 -> 4.54). Two classes, so this wins over the Judge.me stylesheet that loads later in the body; the app's gallery-theme rule (opacity 1) still wins where it applies.
-+      3. Blog comment form labels: opacity .5 -> .613 (#858585 -> #6d6d6d on #f0f0f0, 3.23 -> 4.54). Comment form only: the footer newsletter label is white on #1a1a1a and already passes.
++      3. Form labels inside the page content (comment form, contact form, account forms): opacity .5 -> .63 (comment form #858585 -> #696969 on #f0f0f0, 3.23 -> 4.82; contact form on the #e6e6e6 input 3.13 -> 4.67). The label colour is the text colour at this opacity, so a higher opacity can only raise contrast; the footer newsletter (outside main) is unchanged.
 +      4. Footer ANPC logos: object-fit: contain keeps the logos' real proportions when the row is narrower than the logos (phones). The boxes keep their size, so nothing around them moves; on desktop, where the logos already have their real proportions, nothing changes.
 +      5. Product gallery dots (shown below 1000px): gap 16px -> 18px, so neighbouring dots are 24px apart (WCAG 2.5.8 target spacing). The max-width + :has() rules keep 16px when the wider row would no longer fit on one line (e.g. 14 dots on screens narrower than 406px), so the dots never wrap onto a second row where they did not before.
 +      The button red (#ec1e24 -> #e91d23, contrast 4.39 -> 4.50) is set in the theme settings and in the index/product templates, not here.
@@ -188,8 +188,8 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 +      .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
 +        opacity: .613;
 +      }
-+      #comment_form .floating-label {
-+        opacity: .613;
++      main .floating-label {
++        opacity: .63;
 +      }
 +      .footer-anpc-logos img {
 +        object-fit: contain;
@@ -293,11 +293,21 @@ diff -ruN orig/sections/footer.liquid stg/sections/footer.liquid
                          {%- render 'banner', content: success_message, status: 'success' -%}
 diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
 --- orig/sections/main-article.liquid	2026-10-13 10:10:07.918441291 +0000
-+++ stg/sections/main-article.liquid	2026-10-13 14:58:26.827737662 +0000
-@@ -91,6 +91,44 @@
++++ stg/sections/main-article.liquid	2026-10-13 15:09:17.380895780 +0000
+@@ -91,6 +91,54 @@
      }
    {%- endif -%}
  </style>
++{%- comment -%}
++  Accessibility (2026-10-13, owner approval of improvements that keep the design): the article ce-este-creatina has three table
++  cells with the light green #2ecc71 on white (2.10, fails WCAG AA). Only that solid text colour is matched; it becomes the closest
++  passing green of the same hue, #00893d (4.52 on white).
++{%- endcomment -%}
++<style>
++  .article-content .prose [style*="color: #2ecc71;" i] {
++    color: #00893d !important;
++  }
++</style>
 +{%- comment -%}
 +  Accessibility (2026-10-13): three articles (ce-este-un-pre-workout-fara-cofeina, cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara,
 +  water-out-tinctura-retentie-apa) put their "Pe scurt" label and "Despre autor" box straight on the page background #f0f0f0 instead
@@ -339,7 +349,7 @@ diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
  
  <div class="article" {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
    {%- render 'article-banner', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, layout: section.settings.layout, article_image: article_image -%}
-@@ -114,6 +152,102 @@
+@@ -114,6 +162,102 @@
            | replace: 'href="https://bloggenauto.com" target="_blank" rel="noopener"', 'href="https://bloggenauto.com" rel="nofollow sponsored noopener"'
            | replace: 'rel="noopener" href="https://bloggenauto.com" target="_blank"', 'rel="nofollow sponsored noopener" href="https://bloggenauto.com"'
          -%}
@@ -567,8 +577,8 @@ diff -ruN orig/sections/main-password.liquid stg/sections/main-password.liquid
                            {%- render 'banner', status: 'error', content: form.errors.messages['form'] -%}
 diff -ruN orig/sections/main-search.liquid stg/sections/main-search.liquid
 --- orig/sections/main-search.liquid	2026-10-13 10:10:07.918950786 +0000
-+++ stg/sections/main-search.liquid	2026-10-13 10:11:08.675987920 +0000
-@@ -7,12 +7,12 @@
++++ stg/sections/main-search.liquid	2026-10-13 15:12:27.234069619 +0000
+@@ -7,13 +7,13 @@
  {%- assign active_filters = search.filters | where: 'active_values' -%}
  
  {%- capture search_form -%}
@@ -579,10 +589,12 @@ diff -ruN orig/sections/main-search.liquid stg/sections/main-search.liquid
      <div class="v-stack gap-6 sm:gap-12">
        <div class="search-input">
 -        <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
+-        <button type="submit">{%- render 'icon' with 'search' -%}</button>
 +        <input type="search" name="q" value="{{ search.terms | escape }}" toolparamdescription="Cuvintele căutate, de exemplu: creatină monohidrat" placeholder="{{ 'search.general.search_placeholder' | t }}" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="{{ 'search.general.title' | t | escape }}">
-         <button type="submit">{%- render 'icon' with 'search' -%}</button>
++        <button type="submit" aria-label="{{ 'search.general.title' | t | escape }}">{%- render 'icon' with 'search' -%}</button>
        </div>
  
+       {%- unless search.results_count > 0 -%}
 diff -ruN orig/sections/newsletter-popup.liquid stg/sections/newsletter-popup.liquid
 --- orig/sections/newsletter-popup.liquid	2026-10-13 10:10:07.919142935 +0000
 +++ stg/sections/newsletter-popup.liquid	2026-10-13 10:11:08.674386661 +0000

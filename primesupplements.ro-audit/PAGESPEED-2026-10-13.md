@@ -101,7 +101,7 @@ Homepage pe mobil, valori locale, live → test: **FCP 3,0 → 2,9 s · LCP 6,2 
 
 **Ce să aștepți în PSI după publicare** (estimare), pe mobil și desktop: Accesibilitate 76–80 → **94–97** (100 după aprobările din secțiunea 4), SEO 92 → **100**, Navigare autonomă 3/4 → **4/4**, WebMCP fără formulare neadnotate, Best practices 88 → **88–92** (92 când theMarketer nu mai dă 404; 96 cu corectarea siglelor ANPC; „Sign in with Shop” și cookie-urile terțe țin de tine și de aplicații), Performanță: câteva puncte în plus din FCP/LCP/TBT. Tot ce rămâne la Performanță ține de aplicații (secțiunea 5) și de codul temei Impact.
 
-## 4. Lăsate neatinse: cer acordul tău (schimbări vizuale minime, valorile exacte)
+## 4. Micro-schimbările propuse spre aprobare (aprobate și aplicate, vezi secțiunea 8)
 
 Capturile înainte și după, pentru rândurile 1–5, sunt în `data/pagespeed/aprobare-micro-schimbari.png` (tema de test pe mobil, cu schimbarea simulată în browser).
 
@@ -115,14 +115,14 @@ Capturile înainte și după, pentru rândurile 1–5, sunt în `data/pagespeed/
 | 6 | Etichetele formularului de comentarii (articole) | gri 50% (3,24) | #6d6d6d | 4,54 |
 | 7 | Rozul din articole (#ea8a8a, 680 de utilizări) | 2,47 | #db3939 | 4,51; schimbare vizibilă în articole |
 
-Fără 2 și 4, homepage-ul și pagina de produs nu pot ajunge la 100 la Accesibilitate. Spune „da” (la toate) sau numerele pe care le vrei și le aplic în tema de test.
+**Aprobate de proprietar și aplicate în tema de test (13.10: „alea pe telefon ne interesează cel mai mult”, apoi „aprob toate modificările atât timp cât îmbunătățește și nu schimbă designul”).** Valorile finale sunt în secțiunea 8.
 
 ## 5. Ce poți face doar tu (în aplicații)
 
 1. **Pop Convert:** completează „Alt text” la imaginea campaniei „Cremă de orez” și încarc-o la 600 px în loc de 1080 px (economisește aproximativ 90 KB pe mobil). Dacă vrei performanță mai bună, afișează popup-ul după scroll sau după câteva secunde, nu la încărcare.
-2. **theMarketer:** dezactivează notificările web push (sau cere-le să repare app proxy-ul `/apps/mktr`). Asta elimină eroarea 404 din consolă și încărcarea Firebase (JavaScript dublură).
-3. **Judge.me** (Settings → Widget → Appearance): textul gri **#6d6d6d** în loc de #707070/#7b7b7b, roșul linkurilor **#da1218** pe fundal gri, albastrul medaliei **#286ec0**.
-4. **Delivery Estimator:** roșul mesajului de stoc **#cf2f1f** în loc de #e03e2d.
+2. **theMarketer:** dezactivează notificările web push (sau reconectează aplicația ca să-și refacă app proxy-ul `/apps/mktr`). Confirmat din codul lor: scriptul theMarketer cheamă la fiecare vizită `setupPushNotification()`, care cere `/apps/mktr/firebase-config.js`; app proxy-ul nu există în magazin, deci răspunsul e 404, iar tema nu poate servi adrese `/apps/...`. Este singura eroare rămasă în consolă și sursa Firebase (JavaScript dublură).
+3. **Judge.me:** rezolvat din temă (secțiunea 8); nu mai e nevoie de setări în aplicație.
+4. **Delivery Estimator:** rezolvat din temă (secțiunea 8).
 5. **Fontify:** embed-ul este oprit în tema de test, fonturile sunt servite de temă. Dacă schimbi vreodată fonturile din Fontify, reactivezi embed-ul și scoți rândul `{%- render 'fontify-fonts' -%}` din `layout/theme.liquid`.
 6. **BSS B2B:** regulile din `bss-custom.css` sunt copiate în `layout/theme.liquid`. Dacă aplicația schimbă fișierul, regulile noi trebuie copiate acolo.
 7. **Aplicațiile grele** (decizie de business): Microsoft Clarity (cea mai mare parte din TBT), Pop Convert, Facebook Pixel. Fiecare aplicație scoasă se vede direct în scorul de performanță.
@@ -157,3 +157,36 @@ Cinci verificatori independenți au analizat modificările, fiecare dintr-un ung
 | Selectorul de țară e adnotat, deși are doar butoane | Păstrat intenționat, cu o descriere corectă (lista se alege din butoane). |
 
 După verificare, ultima rulare Lighthouse pe desktop a găsit încă o problemă, comună cu tema live: filele descrierii de produs (`aria-required-parent`, care pe desktop cobora și Navigarea autonomă la 67). Problema a fost rezolvată în `sections/tabs.liquid` (secțiunea 2, Accesibilitate) și verificată: capturi identice, axe 4 → 0 erori, Navigare autonomă 100 pe produs desktop.
+
+## 8. Runda pentru telefon (după aprobarea proprietarului)
+
+Proprietarul a aprobat micro-schimbările („alea pe telefon ne interesează cel mai mult”), apoi tot ce îmbunătățește fără să schimbe designul. Totul e în tema de test. Fiecare schimbare a fost proiectată de un agent și verificată de un agent independent (axe înainte și după, capturi pixel cu pixel pe paginile afectate), apoi recontrolată după încărcare.
+
+| Ce | Înainte | După | Unde |
+|---|---|---|---|
+| Roșul butoanelor („Cumpără acum”, „Adaugă în coș”, „Vezi produse”, „Trimite”) | #ec1e24 (4,39) | #e91d23 (4,50), ΔE 0,69, nu se vede | setări temă + `templates/index.json`, `product.json`, `product.creatina2.json` |
+| „În stoc” | #00a341 (2,92–3,33) | #007f2b (4,53–5,16) | doar textul de stoc; bannerele de succes rămân neschimbate |
+| Numele recenzenților Judge.me (carusel) | opacitate 0,6 | 0,613 (4,54), ΔE 1,17 | `layout/theme.liquid` |
+| Etichetele formularelor din pagină (comentarii, contact, cont) | opacitate 0,5 (3,13–3,23) | 0,63 (4,67–4,82) | newsletterul din footer rămâne cum e |
+| Siglele ANPC pe telefon | turtite | proporții reale (`object-fit: contain`), aceleași cutii | desktop identic |
+| Punctele galeriei de produs (telefon) | 16 px între ele | 18 px (ținte de 24 px) | rămân 16 px acolo unde 18 px ar trece pe al doilea rând |
+| Judge.me pe pagina de produs | gri #7b7b7b, roșu #ec1e24, medalie #4c8eda / #a36710 | #6d6d6d, #dd011b, #2270ba / #9c6004 (cea mai mică schimbare care trece, aceeași nuanță) | inclusiv la hover și pentru linkurile vizitate |
+| Paginarea recenziilor | ținte de 23,4 × 23 px | 24 × 24 px, fără nicio mișcare | |
+| Medalia Judge.me | numele citit de cititorul de ecran nu conținea „100.0” | numele începe cu textul vizibil | `snippets/a11y-fixes.liquid` |
+| Delivery Estimator | #e03e2d (3,76) | #d02e21 (4,50) | |
+| Rozul din articole (stiluri inline, 108 articole) | #ea8a8a (2,05–2,47) | text #a54f51, fundaluri #b65b5d (aceeași nuanță, mai închisă) | `sections/main-article.liquid`; conținutul articolelor e neatins |
+| Trei griuri din 3 articole; verdele din tabelul `ce-este-creatina` | 4,18–4,24; #2ecc71 (2,10) | 4,50–4,54 (ΔE 1,7–2,3); #00893d (4,52) | `sections/main-article.liquid` |
+| Butonul de căutare de pe pagina de căutare | fără nume accesibil | „Căutare” (`aria-label`) | `sections/main-search.liquid` |
+
+**Viteză pe telefon, fără efect vizual:**
+- Cardurile „articolul anterior/următor” de sub articole își încarcă imaginile la scroll, așa că nu mai concurează cu imaginea principală (LCP pe articole −0,3…0,6 s în simulare).
+- Pe paginile de produs, galeria se deschide direct pe imaginea variantei selectate (`scroll-initial-target`, Chrome/Edge 133+), fără să mai arate o clipă prima imagine. Pagina după încărcare e identică, iar LCP vine la prima afișare (−0,8…1 s în simulare, pe produsele a căror variantă implicită nu are prima imagine).
+
+**Conținut reparat (live):** singura imagine stricată din cele 190 ale celor 121 de articole era în *Carbohidrați intra-workout: rezultate după 90 de zile*, în cardul „Articole similare” către *Dextrină ciclică vs maltodextrină*. Acum folosește fișierul original (`…-studii-2026-1775819141781.png`). S-a schimbat doar adresa imaginii (verificat octet cu octet).
+
+**Verificare după încărcare:** sumele MD5 ale fișierelor urcate sunt identice cu sursa locală. Pe homepage, produse, colecție, articole, contact și căutare: 0 erori Liquid, 0 imagini stricate, 0 nume de instrument duplicate, iar galeria nu derulează pagina.
+
+**Lăsate intenționat (ar schimba vizibil designul sau nu aduc nimic în scor):**
+- roșul etichetelor de reducere și al prețurilor reduse (#f83a3a, 3,71): ar trebui închis vizibil (ΔE 5,4–9,1), iar Lighthouse nu le semnalează (cardurile apar la scroll);
+- cifrele albe de pe căsuțele gri ale listelor de verificare din articole (infografic);
+- imaginile din articole la dimensiunea telefonului (srcset): codul e gata (`scripts/pagespeed/mobile`), aduce −48% date pe telefon la imaginile din articole, dar nu schimbă scorul, iar imaginile ar fi redimensionate de CDN (nu identice la pixel).

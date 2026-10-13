@@ -92,6 +92,16 @@
   {%- endif -%}
 </style>
 {%- comment -%}
+  Accessibility (2026-10-13, owner approval of improvements that keep the design): the article ce-este-creatina has three table
+  cells with the light green #2ecc71 on white (2.10, fails WCAG AA). Only that solid text colour is matched; it becomes the closest
+  passing green of the same hue, #00893d (4.52 on white).
+{%- endcomment -%}
+<style>
+  .article-content .prose [style*="color: #2ecc71;" i] {
+    color: #00893d !important;
+  }
+</style>
+{%- comment -%}
   Accessibility (2026-10-13): three articles (ce-este-un-pre-workout-fara-cofeina, cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara,
   water-out-tinctura-retentie-apa) put their "Pe scurt" label and "Despre autor" box straight on the page background #f0f0f0 instead
   of a white card, where three grey inline text styles miss WCAG AA by a hair. Only these exact styles are matched, so the same greys

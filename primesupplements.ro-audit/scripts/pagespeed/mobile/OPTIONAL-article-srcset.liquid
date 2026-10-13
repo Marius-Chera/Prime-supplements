@@ -1,0 +1,85 @@
+        {%- comment -%}
+          Performance (2026-10-13): the content images of the article bodies are Shopify Files requested at width=1600 with no
+          srcset, so a phone downloads the 1600 px file for a column of about 372 px. A srcset (the same file at 400-1200 px plus the
+          current URL) and a sizes attribute are added to those tags only; every other attribute stays exactly as written, so the
+          browser simply downloads the width it needs. The original width of each file (images[file name].width) keeps the layout
+          identical: only widths smaller than the file are offered, the current URL is declared at its real width, sizes never
+          gives an image another width than before (phones: 100vw, or the file's own width when the file is narrower than 700 px;
+          wider screens: the file's width, capped at the article column), and an aspect-ratio equal to the proportions of the
+          file served today keeps every height to the sub-pixel (the CDN rounds the height of each resized copy). Files that cannot be looked up and tags that already
+          have srcset or sizes are left untouched.
+        {%- endcomment -%}
+        {%- liquid
+          if article_body contains 'width=1600"'
+            assign article_column_width = section.settings.content_width | remove: 'px' | plus: 0
+            assign img_parts = article_body | split: '<img '
+            capture article_body
+              for part in img_parts
+                if forloop.first
+                  echo part
+                  continue
+                endif
+                assign img_tag = part | split: '>' | first
+                assign img_src = ''
+                if img_tag contains 'width=1600"' and img_tag contains 'cdn.shopify.com/s/files/'
+                  unless img_tag contains 'srcset=' or img_tag contains 'sizes='
+                    assign img_src = ' ' | append: img_tag | split: ' src="' | last | split: '"' | first
+                  endunless
+                endif
+                assign file_width = 0
+                if img_src contains 'width=1600'
+                  assign src_parts = img_src | split: '?' | first | split: '/files/'
+                  if src_parts.size == 3
+                    assign file_image = images[src_parts.last]
+                    if file_image.width and file_image.height
+                      assign file_width = file_image.width | plus: 0
+                      assign file_height = file_image.height | plus: 0
+                    endif
+                  endif
+                endif
+                if file_width < 1
+                  echo '<img ' | append: part
+                  continue
+                endif
+                assign largest_width = file_width | at_most: 1600
+                assign img_srcset = ''
+                for step in (2..6)
+                  assign candidate_width = step | times: 200
+                  if candidate_width < largest_width
+                    assign candidate_param = 'width=' | append: candidate_width
+                    assign candidate_url = img_src | replace: 'width=1600', candidate_param
+                    assign img_srcset = img_srcset | append: candidate_url | append: ' ' | append: candidate_width | append: 'w, '
+                  endif
+                endfor
+                assign img_srcset = img_srcset | append: img_src | append: ' ' | append: largest_width | append: 'w'
+                if file_width >= 700
+                  assign img_sizes = '(max-width: 699px) 100vw, '
+                else
+                  assign img_sizes = '(max-width: 699px) ' | append: file_width | append: 'px, '
+                endif
+                assign wide_screen_width = file_width | at_most: article_column_width
+                assign img_sizes = img_sizes | append: wide_screen_width | append: 'px'
+                if file_width > 1600
+                  assign ratio_height = file_height | times: 1600.0 | divided_by: file_width | round
+                else
+                  assign ratio_height = file_height
+                endif
+                assign img_ratio = 'aspect-ratio: ' | append: largest_width | append: ' / ' | append: ratio_height | append: ';'
+                assign img_head = part | slice: 0, 7
+                if img_head == 'style="'
+                  assign ratio_style = 'style="' | append: img_ratio | append: ' '
+                  assign img_rest = part | replace_first: 'style="', ratio_style
+                  assign img_ratio_attr = ''
+                elsif img_tag contains ' style="'
+                  assign ratio_style = ' style="' | append: img_ratio | append: ' '
+                  assign img_rest = part | replace_first: ' style="', ratio_style
+                  assign img_ratio_attr = ''
+                else
+                  assign img_rest = part
+                  assign img_ratio_attr = 'style="' | append: img_ratio | append: '" '
+                endif
+                echo '<img srcset="' | append: img_srcset | append: '" sizes="' | append: img_sizes | append: '" ' | append: img_ratio_attr | append: img_rest
+              endfor
+            endcapture
+          endif
+        -%}

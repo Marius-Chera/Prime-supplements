@@ -207,7 +207,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       Accessibility (2026-10-13): owner-approved micro-changes ("Micro-schimbări care duc Accesibilitatea la 100", approved by the owner on 2026-10-13, phones first). Each rule is the smallest change that makes the Lighthouse/axe check pass; everything else on the page stays pixel-identical.
       1. "În stoc" text and icon: #00a341 -> #007f2b (contrast 2.92 -> 4.53 on #f0f0f0, 3.33 -> 5.16 on white). Scoped to variant-inventory, so the theme Success colour (success banners, pickup availability) is unchanged.
       2. Judge.me carousel reviewer names: opacity .6 -> .613 (#707070 -> #6d6d6d on #f0f0f0, 4.34 -> 4.54). Two classes, so this wins over the Judge.me stylesheet that loads later in the body; the app's gallery-theme rule (opacity 1) still wins where it applies.
-      3. Blog comment form labels: opacity .5 -> .613 (#858585 -> #6d6d6d on #f0f0f0, 3.23 -> 4.54). Comment form only: the footer newsletter label is white on #1a1a1a and already passes.
+      3. Form labels inside the page content (comment form, contact form, account forms): opacity .5 -> .63 (comment form #858585 -> #696969 on #f0f0f0, 3.23 -> 4.82; contact form on the #e6e6e6 input 3.13 -> 4.67). The label colour is the text colour at this opacity, so a higher opacity can only raise contrast; the footer newsletter (outside main) is unchanged.
       4. Footer ANPC logos: object-fit: contain keeps the logos' real proportions when the row is narrower than the logos (phones). The boxes keep their size, so nothing around them moves; on desktop, where the logos already have their real proportions, nothing changes.
       5. Product gallery dots (shown below 1000px): gap 16px -> 18px, so neighbouring dots are 24px apart (WCAG 2.5.8 target spacing). The max-width + :has() rules keep 16px when the wider row would no longer fit on one line (e.g. 14 dots on screens narrower than 406px), so the dots never wrap onto a second row where they did not before.
       The button red (#ec1e24 -> #e91d23, contrast 4.39 -> 4.50) is set in the theme settings and in the index/product templates, not here.
@@ -219,8 +219,8 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
         opacity: .613;
       }
-      #comment_form .floating-label {
-        opacity: .613;
+      main .floating-label {
+        opacity: .63;
       }
       .footer-anpc-logos img {
         object-fit: contain;

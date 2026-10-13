@@ -8,6 +8,10 @@
      app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
      the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
      generic label. Alt text set in the app always wins.
+  3. The Judge.me medal in the review widget is a link whose aria-label ("Judge.me Diamond Transparent Shop medal") does
+     not contain its visible text (the score, e.g. "100.0"), so speech-input users cannot name it (WCAG 2.5.3, Lighthouse
+     "label-content-name-mismatch"). The visible text is put at the start of the label ("100.0 Judge.me Diamond
+     Transparent Shop medal"). Nothing changes on screen; a label that already contains the visible text is left alone.
 {%- endcomment -%}
 <script>
   (() => {
@@ -64,5 +68,14 @@
       observer.observe(document.body, {childList: true});
       setTimeout(() => observer.disconnect(), 60000);
     }
+
+    document.querySelectorAll('a.jdgm-medal[aria-label]').forEach((medal) => {
+      const text = medal.textContent.trim().replace(/\s+/g, ' ');
+      const label = medal.getAttribute('aria-label');
+
+      if (text && !label.includes(text)) {
+        medal.setAttribute('aria-label', `${text} ${label}`);
+      }
+    });
   })();
 </script>

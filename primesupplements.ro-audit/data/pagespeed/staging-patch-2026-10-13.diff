@@ -29,7 +29,16 @@ diff -ruN orig/assets/country-flags.css.liquid stg/assets/country-flags.css.liqu
  .country-flags--RS {
 diff -ruN orig/config/settings_data.json stg/config/settings_data.json
 --- orig/config/settings_data.json	2026-10-13 10:10:07.922765287 +0000
-+++ stg/config/settings_data.json	2026-10-13 10:11:08.682006070 +0000
++++ stg/config/settings_data.json	2026-10-13 14:58:26.821820380 +0000
+@@ -21,7 +21,7 @@
+     "header_text_color": "#1a1a1a",
+     "footer_background": "#1a1a1a",
+     "footer_text_color": "#ffffff",
+-    "primary_button_background": "#ec1e24",
++    "primary_button_background": "#e91d23",
+     "primary_button_text_color": "#ffffff",
+     "secondary_button_background": "#1a1a1a",
+     "secondary_button_text_color": "#ffffff",
 @@ -64,7 +64,7 @@
        },
        "15119538188275799212": {
@@ -41,7 +50,7 @@ diff -ruN orig/config/settings_data.json stg/config/settings_data.json
        "15351435345818755577": {
 diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 --- orig/layout/theme.liquid	2026-10-13 10:10:07.917479149 +0000
-+++ stg/layout/theme.liquid	2026-10-13 10:52:47.383678518 +0000
++++ stg/layout/theme.liquid	2026-10-13 14:58:26.825911140 +0000
 @@ -12,9 +12,14 @@
  <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
    <head>
@@ -84,7 +93,7 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
      {%- render 'social-meta-tags' -%}
      {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
      {%- render 'css-variables' -%}
-@@ -123,7 +129,30 @@
+@@ -123,7 +129,138 @@
      {{ content_for_header }}
  
      {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
@@ -113,10 +122,118 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 +        aspect-ratio: auto 1 / 1;
 +      }
 +    </style>
++    {%- comment -%}Accessibility (2026-10-13): text contrast and tap-target size in the Judge.me review widget and the Delivery Estimator message (Lighthouse "color-contrast" and "target-size"). Each text colour is the passing colour closest to the original (smallest CIEDE2000 difference, same hue, only darker) on the #f0f0f0 page background: grey #7b7b7b to #6d6d6d, red #ec1e24 to #dd011b, estimator red #e03e2d to #d02e21, medal values (diamond #4c8eda to #2270ba, bronze #a36710 to #9c6004). The "Scrie o recenzie" button uses the approved button red #e91d23. The pagination arrows get 1-2px more padding cancelled by an equal negative margin, so nothing moves on screen; each arrow just becomes a 24 x 24 px target. Judge.me loads its CSS after this block, so each selector is one class more specific than the Judge.me rule it overrides; !important only where Judge.me or the estimator set the colour inline. The two Judge.me links get the darker red through Judge.me's own colour variable, because Judge.me's hover, active and visited rules for them are more specific than a plain colour rule and would bring back #ec1e24.{%- endcomment -%}
++    <style>
++      .jdgm-review-widget .jdgm-histogram__frequency,
++      .jdgm-review-widget .jdgm-gallery-title,
++      .jdgm-review-widget .jdgm-rev__timestamp,
++      .jdgm-review-widget .jdgm-rev__location {
++        color: #6d6d6d;
++      }
++      .jdgm-review-widget .jdgm-rev__transparency-badge {
++        color: #6d6d6d !important;
++      }
++      .jdgm-review-widget .jdgm-medal[data-tier="diamond"] .jdgm-medal__value {
++        color: #2270ba;
++      }
++      .jdgm-review-widget .jdgm-medal[data-tier="bronze"] .jdgm-medal__value {
++        color: #9c6004;
++      }
++      .jdgm-review-widget {
++        --jdgm-write-review-bg-color: #e91d23;
++      }
++      .jdgm-review-widget .jdgm-link {
++        --jdgm-primary-color: #dd011b;
++      }
++      .jdgm-review-widget .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown,
++      .jdgm-review-widget .jdgm-rev__author {
++        color: #dd011b;
++      }
++      .jdgm-review-widget .jdgm-paginate__first-page,
++      .jdgm-review-widget .jdgm-paginate__prev-page,
++      .jdgm-review-widget .jdgm-paginate__next-page,
++      .jdgm-review-widget .jdgm-paginate__last-page {
++        padding-block: 5px;
++      }
++      .jdgm-review-widget .jdgm-paginate__first-page {
++        padding-inline-start: 6px;
++        margin-inline-start: -2px;
++      }
++      .jdgm-review-widget .jdgm-paginate__prev-page,
++      .jdgm-review-widget .jdgm-paginate__next-page {
++        padding-inline-start: 5px;
++        margin-inline-start: -1px;
++      }
++      .jdgm-review-widget .jdgm-paginate__last-page {
++        padding-inline-end: 5px;
++        margin-inline-end: -1px;
++      }
++      .estimator-message [style*="#e03e2d" i] {
++        color: #d02e21 !important;
++      }
++    </style>
++    {%- comment -%}
++      Accessibility (2026-10-13): owner-approved micro-changes ("Micro-schimbări care duc Accesibilitatea la 100", approved by the owner on 2026-10-13, phones first). Each rule is the smallest change that makes the Lighthouse/axe check pass; everything else on the page stays pixel-identical.
++      1. "În stoc" text and icon: #00a341 -> #007f2b (contrast 2.92 -> 4.53 on #f0f0f0, 3.33 -> 5.16 on white). Scoped to variant-inventory, so the theme Success colour (success banners, pickup availability) is unchanged.
++      2. Judge.me carousel reviewer names: opacity .6 -> .613 (#707070 -> #6d6d6d on #f0f0f0, 4.34 -> 4.54). Two classes, so this wins over the Judge.me stylesheet that loads later in the body; the app's gallery-theme rule (opacity 1) still wins where it applies.
++      3. Blog comment form labels: opacity .5 -> .613 (#858585 -> #6d6d6d on #f0f0f0, 3.23 -> 4.54). Comment form only: the footer newsletter label is white on #1a1a1a and already passes.
++      4. Footer ANPC logos: object-fit: contain keeps the logos' real proportions when the row is narrower than the logos (phones). The boxes keep their size, so nothing around them moves; on desktop, where the logos already have their real proportions, nothing changes.
++      5. Product gallery dots (shown below 1000px): gap 16px -> 18px, so neighbouring dots are 24px apart (WCAG 2.5.8 target spacing). The max-width + :has() rules keep 16px when the wider row would no longer fit on one line (e.g. 14 dots on screens narrower than 406px), so the dots never wrap onto a second row where they did not before.
++      The button red (#ec1e24 -> #e91d23, contrast 4.39 -> 4.50) is set in the theme settings and in the index/product templates, not here.
++    {%- endcomment -%}
++    <style>
++      variant-inventory .text-success {
++        color: rgb(0 127 43);
++      }
++      .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
++        opacity: .613;
++      }
++      #comment_form .floating-label {
++        opacity: .613;
++      }
++      .footer-anpc-logos img {
++        object-fit: contain;
++      }
++      @media screen and (max-width: 999px) {
++        .product-gallery .page-dots {
++          column-gap: 18px;
++        }
++      }
++      @media screen and (max-width: 333.98px) {
++        .product-gallery .page-dots:has(> :nth-child(11)) {
++          column-gap: 16px;
++        }
++      }
++      @media screen and (max-width: 357.98px) {
++        .product-gallery .page-dots:has(> :nth-child(12)) {
++          column-gap: 16px;
++        }
++      }
++      @media screen and (max-width: 381.98px) {
++        .product-gallery .page-dots:has(> :nth-child(13)) {
++          column-gap: 16px;
++        }
++      }
++      @media screen and (max-width: 405.98px) {
++        .product-gallery .page-dots:has(> :nth-child(14)) {
++          column-gap: 16px;
++        }
++      }
++      @media screen and (max-width: 429.98px) {
++        .product-gallery .page-dots:has(> :nth-child(15)) {
++          column-gap: 16px;
++        }
++      }
++      @media screen and (max-width: 453.98px) {
++        .product-gallery .page-dots:has(> :nth-child(16)) {
++          column-gap: 16px;
++        }
++      }
++    </style>
      <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
    </head>
  
-@@ -156,5 +185,7 @@
+@@ -156,5 +293,7 @@
          {%- sections 'footer-group' -%}
        {%- endif -%}
      </main>
@@ -176,8 +293,53 @@ diff -ruN orig/sections/footer.liquid stg/sections/footer.liquid
                          {%- render 'banner', content: success_message, status: 'success' -%}
 diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
 --- orig/sections/main-article.liquid	2026-10-13 10:10:07.918441291 +0000
-+++ stg/sections/main-article.liquid	2026-10-13 10:51:56.905340357 +0000
-@@ -114,6 +114,102 @@
++++ stg/sections/main-article.liquid	2026-10-13 14:58:26.827737662 +0000
+@@ -91,6 +91,44 @@
+     }
+   {%- endif -%}
+ </style>
++{%- comment -%}
++  Accessibility (2026-10-13): three articles (ce-este-un-pre-workout-fara-cofeina, cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara,
++  water-out-tinctura-retentie-apa) put their "Pe scurt" label and "Despre autor" box straight on the page background #f0f0f0 instead
++  of a white card, where three grey inline text styles miss WCAG AA by a hair. Only these exact styles are matched, so the same greys
++  on white cards (which pass) are not touched; the new greys are visually indistinguishable (CIEDE2000 1.7 and 2.3).
++  - "Pe scurt" and "Despre autor" labels: #6b7280 -> #676e7b (4.24 -> 4.50 on #f0f0f0).
++  - author bio: #64748b -> #5f6e85 (4.18 -> 4.54 on #f0f0f0).
++{%- endcomment -%}
++<style>
++  .article-content .prose [style^="color: #6b7280; font-size: 0.85rem;" i],
++  .article-content .prose [style*="font-weight: 600; color: #6b7280; text-transform: uppercase;" i] {
++    color: #676e7b !important;
++  }
++  .article-content .prose [style^="margin: 8px 0 0 0; color: #64748b;" i] {
++    color: #5f6e85 !important;
++  }
++</style>
++{%- comment -%}
++  Accessibility (2026-10-13), owner-approved micro-change 7 ("Micro-schimbări care duc Accesibilitatea la 100", phones first): many
++  article bodies carry inline styles with the light pink #ea8a8a, which fails WCAG AA contrast (Lighthouse "color-contrast") as a
++  text colour (2.47 on white, 2.17 on the page background, 2.05 on the pink tint boxes) and as the background of white button and
++  table-header text (2.47). The bodies are live content and stay untouched: these rules override only the solid-pink colour and
++  background declarations, matched on the style attribute, inside the article body. Pink tints (#ea8a8a05/08/10/15), the gradients
++  and the pink borders are decorative and keep their colour.
++  - pink text -> #a54f51, same hue, only darker (CIEDE2000 21.6): 4.52 on the darkest real background (the #ea8a8a15 tint over the
++    page, ~#f0e8e8), 4.80 on the page background #f0f0f0, 5.47 on white.
++  - pink backgrounds under white text -> #b65b5d, same hue (dE 16.0): white text 4.52.
++{%- endcomment -%}
++<style>
++  .article-content .prose [style^="color: #ea8a8a;" i],
++  .article-content .prose [style*="; color: #ea8a8a;" i] {
++    color: #a54f51 !important;
++  }
++  .article-content .prose [style*="background: #ea8a8a;" i],
++  .article-content .prose [style*="background-color: #ea8a8a;" i] {
++    background-color: #b65b5d !important;
++  }
++</style>
+ 
+ <div class="article" {% if section.settings.allow_transparent_header %}allow-transparent-header{% endif %}>
+   {%- render 'article-banner', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, layout: section.settings.layout, article_image: article_image -%}
+@@ -114,6 +152,102 @@
            | replace: 'href="https://bloggenauto.com" target="_blank" rel="noopener"', 'href="https://bloggenauto.com" rel="nofollow sponsored noopener"'
            | replace: 'rel="noopener" href="https://bloggenauto.com" target="_blank"', 'rel="nofollow sponsored noopener" href="https://bloggenauto.com"'
          -%}
@@ -493,8 +655,8 @@ diff -ruN orig/sections/variant-added.liquid stg/sections/variant-added.liquid
  
 diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
 --- orig/snippets/a11y-fixes.liquid	1970-01-01 00:00:00.000000000 +0000
-+++ stg/snippets/a11y-fixes.liquid	2026-10-13 10:52:08.364055425 +0000
-@@ -0,0 +1,68 @@
++++ stg/snippets/a11y-fixes.liquid	2026-10-13 14:58:26.826742185 +0000
+@@ -0,0 +1,81 @@
 +{%- comment -%}
 +  Accessibility (2026-10-13), no visual effect:
 +  1. The search and cart drawers are disabled in the overlay group, so the header icons point their aria-controls at
@@ -505,6 +667,10 @@ diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
 +     app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
 +     the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
 +     generic label. Alt text set in the app always wins.
++  3. The Judge.me medal in the review widget is a link whose aria-label ("Judge.me Diamond Transparent Shop medal") does
++     not contain its visible text (the score, e.g. "100.0"), so speech-input users cannot name it (WCAG 2.5.3, Lighthouse
++     "label-content-name-mismatch"). The visible text is put at the start of the label ("100.0 Judge.me Diamond
++     Transparent Shop medal"). Nothing changes on screen; a label that already contains the visible text is left alone.
 +{%- endcomment -%}
 +<script>
 +  (() => {
@@ -561,6 +727,15 @@ diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
 +      observer.observe(document.body, {childList: true});
 +      setTimeout(() => observer.disconnect(), 60000);
 +    }
++
++    document.querySelectorAll('a.jdgm-medal[aria-label]').forEach((medal) => {
++      const text = medal.textContent.trim().replace(/\s+/g, ' ');
++      const label = medal.getAttribute('aria-label');
++
++      if (text && !label.includes(text)) {
++        medal.setAttribute('aria-label', `${text} ${label}`);
++      }
++    });
 +  })();
 +</script>
 diff -ruN orig/snippets/address-form.liquid stg/snippets/address-form.liquid
@@ -589,6 +764,26 @@ diff -ruN orig/snippets/article-comments.liquid stg/snippets/article-comments.li
        <div class="fieldset">
          {%- if form.posted_successfully? -%}
            {%- capture content -%}
+diff -ruN orig/snippets/article-navigation.liquid stg/snippets/article-navigation.liquid
+--- orig/snippets/article-navigation.liquid	2026-10-13 10:10:07.919983161 +0000
++++ stg/snippets/article-navigation.liquid	2026-10-13 14:58:26.828243646 +0000
+@@ -14,12 +14,13 @@
+   <h2 class="article-navigation__title text-with-icon h4">{%- render 'icon' with 'blog-nav-right', width: 19, height: 20, direction_aware: true -%} {{ 'blog.post.continue_reading' | t }}</h2>
+ 
+   <div class="article-prev-next scroll-area bleed sm:unbleed">
++    {%- comment -%}Performance (2026-10-13): these two cards sit below the whole article, so their images are lazy-loaded (blog-post-card loads a card image lazily when its position is above 3). They no longer download at page start next to the article banner image (the LCP element); the browser fetches them before they are scrolled into view, so they look and behave exactly as before.{%- endcomment -%}
+     {%- if blog.previous_article -%}
+-      {%- render 'blog-post-card', article: blog.previous_article, heading_size: 'h5', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: show_comments_count -%}
++      {%- render 'blog-post-card', article: blog.previous_article, heading_size: 'h5', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: show_comments_count, position: 4 -%}
+     {%- endif -%}
+ 
+     {%- if blog.next_article -%}
+-      {%- render 'blog-post-card', article: blog.next_article, heading_size: 'h5', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: show_comments_count -%}
++      {%- render 'blog-post-card', article: blog.next_article, heading_size: 'h5', show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: show_comments_count, position: 4 -%}
+     {%- endif -%}
+   </div>
+ </div>
+\ No newline at end of file
 diff -ruN orig/snippets/buy-buttons.liquid stg/snippets/buy-buttons.liquid
 --- orig/snippets/buy-buttons.liquid	2026-10-13 10:10:07.920056455 +0000
 +++ stg/snippets/buy-buttons.liquid	2026-10-13 10:31:03.883689424 +0000
@@ -1074,6 +1269,25 @@ diff -ruN orig/snippets/product-card.liquid stg/snippets/product-card.liquid
                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
  
                <div class="pointer-fine:hidden">
+diff -ruN orig/snippets/product-gallery.liquid stg/snippets/product-gallery.liquid
+--- orig/snippets/product-gallery.liquid	2026-10-13 10:10:07.920892592 +0000
++++ stg/snippets/product-gallery.liquid	2026-10-13 14:58:26.828728838 +0000
+@@ -94,7 +94,14 @@
+               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
+           {%- endcase -%}
+ 
+-          <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>
++          {%- comment -%}
++            Performance (2026-10-13; only the loading sequence changes, the page after loading is identical): when the selected
++            variant's image is not the first image, the gallery first paints image 1 and the theme script then jumps to the variant's image (on a slow
++            phone image 1 is on screen for about a second). scroll-initial-target opens the carousel directly on the variant's image
++            (Chrome/Edge 133+, other browsers keep the script jump), so the page after loading is identical, image 1 no longer flashes,
++            and the largest paint (LCP) happens at the first paint. Only for carousel layouts, where the media list always scrolls.
++          {%- endcomment -%}
++          <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}{% if media == default_media and media.position > 1 and section.settings.desktop_media_layout contains 'carousel' %} style="scroll-initial-target: nearest"{% endif %}>
+             {%- comment -%}SEO/perf (2026-10-13): high fetch priority only for the gallery of the main product section, not for featured-product sections further down a page.{%- endcomment -%}
+             {%- if default_media == media and section.index == nil or default_media == media and section.index <= 2 -%}
+               {%- assign preload = true -%}
 diff -ruN orig/snippets/shipping-estimator.liquid stg/snippets/shipping-estimator.liquid
 --- orig/snippets/shipping-estimator.liquid	2026-10-13 10:10:07.921259675 +0000
 +++ stg/snippets/shipping-estimator.liquid	2026-10-13 10:11:08.680540946 +0000
@@ -1086,3 +1300,39 @@ diff -ruN orig/snippets/shipping-estimator.liquid stg/snippets/shipping-estimato
      {%- assign country_label = 'cart.shipping_estimator.country' | t -%}
      {%- assign province_label = 'cart.shipping_estimator.province' | t -%}
      {%- assign zip_label = 'cart.shipping_estimator.zip' | t -%}
+diff -ruN orig/templates/index.json stg/templates/index.json
+--- orig/templates/index.json	2026-10-13 10:10:07.922663787 +0000
++++ stg/templates/index.json	2026-10-13 14:58:26.822775177 +0000
+@@ -26,7 +26,7 @@
+             "button_text": "Vezi produse",
+             "button_link": "shopify://collections/suplimente-sala",
+             "text_color": "#ffffff",
+-            "button_background": "#ec1e24",
++            "button_background": "#e91d23",
+             "button_text_color": "#ffffff",
+             "overlay_color": "#000000",
+             "overlay_opacity": 40,
+diff -ruN orig/templates/product.creatina2.json stg/templates/product.creatina2.json
+--- orig/templates/product.creatina2.json	2026-10-13 10:10:07.922512498 +0000
++++ stg/templates/product.creatina2.json	2026-10-13 14:58:26.824568694 +0000
+@@ -85,7 +85,7 @@
+           "settings": {
+             "show_payment_button": false,
+             "show_gift_card_recipient": true,
+-            "atc_button_background": "#ec1e24",
++            "atc_button_background": "#e91d23",
+             "atc_button_text_color": "",
+             "payment_button_background": "",
+             "payment_button_text_color": ""
+diff -ruN orig/templates/product.json stg/templates/product.json
+--- orig/templates/product.json	2026-10-13 10:10:07.922550046 +0000
++++ stg/templates/product.json	2026-10-13 14:58:26.823487229 +0000
+@@ -85,7 +85,7 @@
+           "settings": {
+             "show_payment_button": false,
+             "show_gift_card_recipient": true,
+-            "atc_button_background": "#ec1e24",
++            "atc_button_background": "#e91d23",
+             "atc_button_text_color": "",
+             "payment_button_background": "",
+             "payment_button_text_color": ""

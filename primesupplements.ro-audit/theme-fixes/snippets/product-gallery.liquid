@@ -94,7 +94,14 @@ only way to do it on Shopify right now.
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
           {%- endcase -%}
 
-          <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>
+          {%- comment -%}
+            Performance (2026-10-13; only the loading sequence changes, the page after loading is identical): when the selected
+            variant's image is not the first image, the gallery first paints image 1 and the theme script then jumps to the variant's image (on a slow
+            phone image 1 is on screen for about a second). scroll-initial-target opens the carousel directly on the variant's image
+            (Chrome/Edge 133+, other browsers keep the script jump), so the page after loading is identical, image 1 no longer flashes,
+            and the largest paint (LCP) happens at the first paint. Only for carousel layouts, where the media list always scrolls.
+          {%- endcomment -%}
+          <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}{% if media == default_media and media.position > 1 and section.settings.desktop_media_layout contains 'carousel' %} style="scroll-initial-target: nearest"{% endif %}>
             {%- comment -%}SEO/perf (2026-10-13): high fetch priority only for the gallery of the main product section, not for featured-product sections further down a page.{%- endcomment -%}
             {%- if default_media == media and section.index == nil or default_media == media and section.index <= 2 -%}
               {%- assign preload = true -%}

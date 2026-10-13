@@ -153,6 +153,114 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         aspect-ratio: auto 1 / 1;
       }
     </style>
+    {%- comment -%}Accessibility (2026-10-13): text contrast and tap-target size in the Judge.me review widget and the Delivery Estimator message (Lighthouse "color-contrast" and "target-size"). Each text colour is the passing colour closest to the original (smallest CIEDE2000 difference, same hue, only darker) on the #f0f0f0 page background: grey #7b7b7b to #6d6d6d, red #ec1e24 to #dd011b, estimator red #e03e2d to #d02e21, medal values (diamond #4c8eda to #2270ba, bronze #a36710 to #9c6004). The "Scrie o recenzie" button uses the approved button red #e91d23. The pagination arrows get 1-2px more padding cancelled by an equal negative margin, so nothing moves on screen; each arrow just becomes a 24 x 24 px target. Judge.me loads its CSS after this block, so each selector is one class more specific than the Judge.me rule it overrides; !important only where Judge.me or the estimator set the colour inline. The two Judge.me links get the darker red through Judge.me's own colour variable, because Judge.me's hover, active and visited rules for them are more specific than a plain colour rule and would bring back #ec1e24.{%- endcomment -%}
+    <style>
+      .jdgm-review-widget .jdgm-histogram__frequency,
+      .jdgm-review-widget .jdgm-gallery-title,
+      .jdgm-review-widget .jdgm-rev__timestamp,
+      .jdgm-review-widget .jdgm-rev__location {
+        color: #6d6d6d;
+      }
+      .jdgm-review-widget .jdgm-rev__transparency-badge {
+        color: #6d6d6d !important;
+      }
+      .jdgm-review-widget .jdgm-medal[data-tier="diamond"] .jdgm-medal__value {
+        color: #2270ba;
+      }
+      .jdgm-review-widget .jdgm-medal[data-tier="bronze"] .jdgm-medal__value {
+        color: #9c6004;
+      }
+      .jdgm-review-widget {
+        --jdgm-write-review-bg-color: #e91d23;
+      }
+      .jdgm-review-widget .jdgm-link {
+        --jdgm-primary-color: #dd011b;
+      }
+      .jdgm-review-widget .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown,
+      .jdgm-review-widget .jdgm-rev__author {
+        color: #dd011b;
+      }
+      .jdgm-review-widget .jdgm-paginate__first-page,
+      .jdgm-review-widget .jdgm-paginate__prev-page,
+      .jdgm-review-widget .jdgm-paginate__next-page,
+      .jdgm-review-widget .jdgm-paginate__last-page {
+        padding-block: 5px;
+      }
+      .jdgm-review-widget .jdgm-paginate__first-page {
+        padding-inline-start: 6px;
+        margin-inline-start: -2px;
+      }
+      .jdgm-review-widget .jdgm-paginate__prev-page,
+      .jdgm-review-widget .jdgm-paginate__next-page {
+        padding-inline-start: 5px;
+        margin-inline-start: -1px;
+      }
+      .jdgm-review-widget .jdgm-paginate__last-page {
+        padding-inline-end: 5px;
+        margin-inline-end: -1px;
+      }
+      .estimator-message [style*="#e03e2d" i] {
+        color: #d02e21 !important;
+      }
+    </style>
+    {%- comment -%}
+      Accessibility (2026-10-13): owner-approved micro-changes ("Micro-schimbări care duc Accesibilitatea la 100", approved by the owner on 2026-10-13, phones first). Each rule is the smallest change that makes the Lighthouse/axe check pass; everything else on the page stays pixel-identical.
+      1. "În stoc" text and icon: #00a341 -> #007f2b (contrast 2.92 -> 4.53 on #f0f0f0, 3.33 -> 5.16 on white). Scoped to variant-inventory, so the theme Success colour (success banners, pickup availability) is unchanged.
+      2. Judge.me carousel reviewer names: opacity .6 -> .613 (#707070 -> #6d6d6d on #f0f0f0, 4.34 -> 4.54). Two classes, so this wins over the Judge.me stylesheet that loads later in the body; the app's gallery-theme rule (opacity 1) still wins where it applies.
+      3. Blog comment form labels: opacity .5 -> .613 (#858585 -> #6d6d6d on #f0f0f0, 3.23 -> 4.54). Comment form only: the footer newsletter label is white on #1a1a1a and already passes.
+      4. Footer ANPC logos: object-fit: contain keeps the logos' real proportions when the row is narrower than the logos (phones). The boxes keep their size, so nothing around them moves; on desktop, where the logos already have their real proportions, nothing changes.
+      5. Product gallery dots (shown below 1000px): gap 16px -> 18px, so neighbouring dots are 24px apart (WCAG 2.5.8 target spacing). The max-width + :has() rules keep 16px when the wider row would no longer fit on one line (e.g. 14 dots on screens narrower than 406px), so the dots never wrap onto a second row where they did not before.
+      The button red (#ec1e24 -> #e91d23, contrast 4.39 -> 4.50) is set in the theme settings and in the index/product templates, not here.
+    {%- endcomment -%}
+    <style>
+      variant-inventory .text-success {
+        color: rgb(0 127 43);
+      }
+      .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
+        opacity: .613;
+      }
+      #comment_form .floating-label {
+        opacity: .613;
+      }
+      .footer-anpc-logos img {
+        object-fit: contain;
+      }
+      @media screen and (max-width: 999px) {
+        .product-gallery .page-dots {
+          column-gap: 18px;
+        }
+      }
+      @media screen and (max-width: 333.98px) {
+        .product-gallery .page-dots:has(> :nth-child(11)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 357.98px) {
+        .product-gallery .page-dots:has(> :nth-child(12)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 381.98px) {
+        .product-gallery .page-dots:has(> :nth-child(13)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 405.98px) {
+        .product-gallery .page-dots:has(> :nth-child(14)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 429.98px) {
+        .product-gallery .page-dots:has(> :nth-child(15)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 453.98px) {
+        .product-gallery .page-dots:has(> :nth-child(16)) {
+          column-gap: 16px;
+        }
+      }
+    </style>
     <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
   </head>
 

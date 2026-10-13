@@ -60,6 +60,15 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
           assign noindex_page = true
         endif
       endif
+      comment
+        SEO (2026-10-13): resources hidden with the seo.hidden metafield already get noindex,nofollow from Shopify; do not emit a second, conflicting robots tag for them.
+      endcomment
+      if request.page_type == 'collection' and collection.metafields.seo.hidden.value == 1
+        assign noindex_page = false
+      endif
+      if request.page_type == 'page' and page.metafields.seo.hidden.value == 1
+        assign noindex_page = false
+      endif
     -%}
     <title>{{ seo_title }}</title>
 

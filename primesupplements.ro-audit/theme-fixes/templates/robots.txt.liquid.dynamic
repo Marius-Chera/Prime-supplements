@@ -1,0 +1,16 @@
+{%- comment -%}
+  SEO (2026-10-13): Shopify's default robots.txt rules (robots.default_groups, so future platform changes still apply),
+  plus one Content-Signal line in the catch-all group. Delete this file (Edit code) to return to Shopify's automatic robots.txt.
+{%- endcomment -%}
+{%- for group in robots.default_groups %}
+{{ group.user_agent }}
+{%- if group.user_agent.value == '*' %}
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+{%- endif %}
+{%- for rule in group.rules %}
+{{ rule }}
+{%- endfor %}
+{%- if group.sitemap != blank %}
+{{ group.sitemap }}
+{%- endif %}
+{% endfor %}

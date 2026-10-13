@@ -170,7 +170,7 @@ Pilonul: colecția `/collections/creatina` cu ghidul `seo_text` (CONTENT-08 / CL
 
 **Recomandare:** Inclus în harta de consolidare pregătită (neexecutată). Pentru fiecare serie păstrează handle-ul de bază (sau cel cu cele mai multe linkuri de intrare, ex. `gymbeam-creatine-creatina-monohidrat-micronized-300g-fara` are 12), mută orice H2 unic în el, apoi 301 de la handle-urile cu sufix la cel păstrat. Import CSV în Shopify Admin > Navigation > URL redirects (`Redirect from,Redirect to`). Pune pe pauză / dezinstalează coada de auto-publicare BlogGenAuto înainte, altfel luna viitoare apare `-6`.
 
-**Cum verificăm (falsificabilitate):** `grep -c -- '-[2-5]$' <(curl -s https://primesupplements.ro/sitemap_blogs_1.xml | grep -o 'blogs/news/[^<]*')` returnează 0 după schimbare; toate cele 42 URL-uri vechi răspund 301.
+**Cum verificăm (falsificabilitate):** `grep -c -- '-[2-5]$' <(curl -s https://primesupplements.ro/sitemap_articles_1.xml | grep -o 'blogs/news/[^<]*')` returnează 0 după schimbare; toate cele 42 URL-uri vechi răspund 301.
 
 **Indicator timpuriu:** paginile de blog din sitemap scad imediat de la 354 la ~310; GSC „Pages” arată mai puține „Duplicate, Google chose different canonical”.
 
@@ -186,7 +186,7 @@ Pilonul: colecția `/collections/creatina` cu ghidul `seo_text` (CONTENT-08 / CL
 
 **Recomandare:** Inclus în planul de consolidare (neexecutat). Păstrează: `glutamina-si-sanatatea-stomacului-efecte-secundare-glutamina-ghid-complet` (redenumire `glutamina-efecte-secundare`), `glutamina-si-sanatatea-stomacului-cand-sa-iei-glutamina-semne` (redenumire `cand-se-ia-glutamina`, comasează `aminoacizi-esentiali-recovery-glutamin-morning-vs-evening` + `taurina-recovery-glutamin-supplements-and-hydration` + `glutamina-recovery-glutamin-signs-your-body` + `l-glutamina-beneficii-recovery-glutamin-future-trends-in`), `glutamina-si-sanatatea-stomacului-combinatii-glutamina-suplimente-2026-etape` (redenumire `glutamina-combinatii`) și scrie un spoke nou `glutamina-pentru-intestin-si-digestie` (interogarea reală). 301 pentru restul de 12 către cel mai apropiat spoke păstrat; `bcaa-recovery-glutamin-how-to-store` → pagina de produs `/products/recovery-glutamin`.
 
-**Cum verificăm (falsificabilitate):** `grep -c glutamin sitemap_blogs_1.xml` ≤ 5.
+**Cum verificăm (falsificabilitate):** `grep -c glutamin sitemap_articles_1.xml` ≤ 5.
 
 **Indicator timpuriu:** GSC: interogările „glutamina” se mapează la câte un singur URL.
 

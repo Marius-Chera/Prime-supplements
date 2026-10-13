@@ -65,7 +65,7 @@ Starea din coloana „Stare” este cea din raport (12.10.2026); unde apare „�
 | CONTENT-14 / CLUSTER-10 | 2 | Medium | OPEN → PARȚIAL | Fără hub-uri tematice sau taxonomie: 346/355 articole fără taguri, 5 taguri pe 9 articole, blog intitulat „Ultimele articole”, singura cale de navigare sunt 33 de pagini de paginare cronologică |
 | CLUSTER-11 | 2 | Medium | OPEN → PARȚIAL | Linkarea articol→articol este generată, nu planificată: 22 articole au 0 linkuri de intrare din articole, 132 au < 3, 41% din muchii traversează hub-urile, 7 articole nu linkează nimic, 2 linkuri indică handle-uri inexistente |
 | CONTENT-15 | 2 | Medium | OPEN → READY-R2 | Pagina Despre noi și conținutul de încredere al brandului sunt slabe: fără H1, certificări neverificabile, an de înființare contradictoriu, fără echipă |
-| CONTENT-16 / CLUSTER-15 | 2 | Low | OPEN | Articolele vechi scrise de om sunt subțiri sau orfane față de catalog, deși sunt singurele cu intenții curate, distincte |
+| CONTENT-16 / CLUSTER-15 | 2 | Low | OPEN → PARȚIAL | Articolele vechi scrise de om sunt subțiri sau orfane față de catalog, deși sunt singurele cu intenții curate, distincte |
 | CONTENT-17 | 2 | Low | OPEN → FIXED-R2 | Șiruri de interfață în engleză și nelocalizate în interiorul conținutului |
 | CONTENT-18 | 2 | Low | FIXED | Semnale de conținut din imagini: alt lipsă pe 19 imagini principale și 43 imagini din corp; 493/493 imagini de produs fără alt |
 | CLUSTER-17 | 2 | Info | OPEN | Verificare de realitate SERP: termenii-cap aparțin farmaciilor și publisherilor medicali; țintele câștigabile sunt intențiile long-tail românești, exact unde blogul are 3-11 URL-uri concurente fiecare |

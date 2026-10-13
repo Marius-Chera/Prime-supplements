@@ -1,0 +1,77 @@
+{
+ "scores": {
+  "technical": {
+   "specialist": 52,
+   "verifier_opinion": 66
+  },
+  "schema": {
+   "specialist": 18,
+   "verifier_opinion": 30
+  },
+  "sitemap": {
+   "specialist": 52,
+   "verifier_opinion": 76
+  },
+  "international": {
+   "specialist": 30,
+   "verifier_opinion": 80
+  },
+  "cluster": {
+   "specialist": 24,
+   "verifier_opinion": 57
+  },
+  "content": {
+   "specialist": 29,
+   "verifier_opinion": 58
+  },
+  "images": {
+   "specialist": 42,
+   "verifier_opinion": 70
+  },
+  "performance": {
+   "specialist": 40,
+   "verifier_opinion": 45
+  },
+  "geo": {
+   "specialist": 50,
+   "verifier_opinion": 66
+  },
+  "sxo": {
+   "specialist": 22,
+   "verifier_opinion": 42
+  },
+  "ecommerce": {
+   "specialist": 30,
+   "verifier_opinion": 55
+  },
+  "authority": {
+   "specialist": 18,
+   "verifier_opinion": 27
+  },
+  "local": {
+   "specialist": 26,
+   "verifier_opinion": 48
+  },
+  "visual": {
+   "specialist": 48,
+   "verifier_opinion": 62
+  },
+  "shopify-config": {
+   "specialist": 45,
+   "verifier_opinion": 72
+  },
+  "onpage": {
+   "specialist": 36,
+   "verifier_opinion": 72
+  },
+  "agentic": {
+   "specialist": 58,
+   "verifier_opinion": 68
+  }
+ },
+ "counts": {
+  "confirmed": 101,
+  "partially": 179,
+  "refuted": 7
+ }
+}

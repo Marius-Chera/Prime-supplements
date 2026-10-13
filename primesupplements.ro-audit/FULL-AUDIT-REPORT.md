@@ -1,6 +1,6 @@
 # Audit SEO complet – primesupplements.ro
 
-**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Apendicele de verificare adversarială** a tuturor constatărilor rulează separat și va fi atașat la finalul raportului; nimic din acest document nu îl așteaptă.
+**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Verificarea adversarială** a tuturor celor 287 de constatări (doi verificatori independenți pe fiecare raport de specialist, 13.10.2026) este în **Anexa V**, la finalul raportului: 101 confirmate, 179 parțial confirmate, 7 infirmate; corecturile cerute de ea sunt aplicate în raport, în plan și pe magazin.
 
 ## Domeniu și metodă
 
@@ -12,7 +12,7 @@
 
 **Remedierea din aceeași zi.** La cererea proprietarului, constatările „de date” au fost corectate direct pe magazinul live prin Admin API (titluri și meta SEO, vendor, tip de produs, categorie de taxonomie, descrieri de colecție, alt text, autori), iar corecțiile de cod au fost urcate pe o temă duplicat nepublicată, „Impact – SEO fixes 2026-10-12” (id 193875083639). Raportul distinge peste tot ce este deja live de ce așteaptă un click sau o decizie a proprietarului.
 
-**Actualizare 13 octombrie 2026 (runda 2).** A doua rundă de remediere a respectat regula proprietarului „să nu umbli la design-ul site-ului, să nu strici nimic”: s-au schimbat doar date, texte, redirecturi și cod invizibil. Pe magazinul live: prezența web `/ro-hu` eliminată cu 575 de redirecturi 301 (cele 324 care treceau prin articole mutate trimit acum direct la pagina finală); redirecturile WooCommerce într-un singur hop; blogul consolidat de la 355 la 121 de articole (234 de redirecturi), cu titluri, handle-uri, etichete și autor noi, iar corpurile celor 121 de articole curățate, reparate și reimportate; titluri românești și tab-uri complete pe toate cele 195 de produse, cu descrieri care fac blocul Product al temei actuale JSON valid pe toate paginile de produs; rezumate de o linie pe articole (blocul Article valid); link din fiecare articol către colecția hub-ului său; diacritice în meniuri și titlurile de colecție; colecțiile duplicate scoase din index și din sitemap; pagina de autor; termenii aliniați cu politica de livrare; alt text pe imaginile de temă; 11 articole noi cu surse reale, ca ciorne. Pe tema de test (tot nepublicată): noindex pe URL-urile filtrate pe tag, robots.txt cu `Content-Signal`, schema ContactPage/AboutPage/ProfilePage, fondator și autor legați, GTIN doar valid, link ANPC SAL, WhatsApp direct, accesibilitate. **121 de constatări și-au schimbat starea** (65 FIXED-R2, 20 READY-R2, 31 PARȚIAL, 3 PROPRIETAR, 2 DESIGN); lista completă este în **Anexa R2** de la finalul raportului și în `data/round2-status.md`. Secțiunile de mai jos descriu starea din 12.10 și nu au fost rescrise; unde diferă, Anexa R2 are prioritate.
+**Actualizare 13 octombrie 2026 (runda 2).** A doua rundă de remediere a respectat regula proprietarului „să nu umbli la design-ul site-ului, să nu strici nimic”: s-au schimbat doar date, texte, redirecturi și cod invizibil. Pe magazinul live: prezența web `/ro-hu` eliminată cu 575 de redirecturi 301 (cele 324 care treceau prin articole mutate trimit acum direct la pagina finală); redirecturile WooCommerce într-un singur hop; blogul consolidat de la 355 la 121 de articole (234 de redirecturi), cu titluri, handle-uri, etichete și autor noi, iar corpurile celor 121 de articole curățate, reparate și reimportate; titluri românești și tab-uri complete pe toate cele 195 de produse, cu descrieri care fac blocul Product al temei actuale JSON valid pe toate paginile de produs; rezumate de o linie pe articole (blocul Article valid); link din fiecare articol către colecția hub-ului său; diacritice în meniuri și titlurile de colecție; colecțiile duplicate scoase din index și din sitemap; pagina de autor; termenii aliniați cu politica de livrare; alt text pe imaginile de temă; 11 articole noi cu surse reale, ca ciorne. Pe tema de test (tot nepublicată): noindex pe URL-urile filtrate pe tag, robots.txt cu `Content-Signal`, schema ContactPage/AboutPage/ProfilePage, fondator și autor legați, GTIN doar valid, link ANPC SAL, WhatsApp direct, accesibilitate. **122 de constatări și-au schimbat starea** (65 FIXED-R2, 20 READY-R2, 32 PARȚIAL, 3 PROPRIETAR, 2 DESIGN); lista completă este în **Anexa R2** de la finalul raportului și în `data/round2-status.md`. Secțiunile de mai jos descriu starea din 12.10 și nu au fost rescrise; unde diferă, Anexa R2 are prioritate.
 
 **Scor estimat după runda 2 (estimare cu aceleași ponderi, nu măsurătoare):** live acum ≈ **60/100** (Tehnic 69 · Conținut 56 · On-page 70 · Schema 38 · Performanță 40 · AI Search 70 · Imagini 68 → 15,18 + 12,88 + 14,00 + 3,80 + 4,00 + 7,00 + 3,40 = 60,26); după publicarea temei de test ≈ **68/100** (76 · 57 · 74 · 80 · 42 · 73 · 69 → 16,72 + 13,11 + 14,80 + 8,00 + 4,20 + 7,30 + 3,45 = 67,58); după acțiunile rămase ale proprietarului (parolă pe B2B, cele 11 articole noi publicate, Search Console, GTIN-uri, traducerile Judge.me, piața Ungaria dezactivată) ≈ **72/100**. Față de estimarea anterioară, schema live a crescut cel mai mult: blocurile Product și Article ale temei actuale sunt acum JSON valid, fără să aștepte publicarea temei. Peste acest nivel, scorul depinde de deciziile de design lăsate intenționat neatinse (performanță, vizual) și de autoritate (mențiuni, linkuri), care nu se pot obține prin modificări în magazin. Scorurile propuse de verificatorii adversariali pentru fiecare specialist sunt în Anexa V.
 
@@ -1074,7 +1074,7 @@ Pilonul: colecția `/collections/creatina` cu ghidul `seo_text` (CONTENT-08 / CL
 
 **Recomandare:** Inclus în harta de consolidare pregătită (neexecutată). Pentru fiecare serie păstrează handle-ul de bază (sau cel cu cele mai multe linkuri de intrare, ex. `gymbeam-creatine-creatina-monohidrat-micronized-300g-fara` are 12), mută orice H2 unic în el, apoi 301 de la handle-urile cu sufix la cel păstrat. Import CSV în Shopify Admin > Navigation > URL redirects (`Redirect from,Redirect to`). Pune pe pauză / dezinstalează coada de auto-publicare BlogGenAuto înainte, altfel luna viitoare apare `-6`.
 
-**Cum verificăm (falsificabilitate):** `grep -c -- '-[2-5]$' <(curl -s https://primesupplements.ro/sitemap_blogs_1.xml | grep -o 'blogs/news/[^<]*')` returnează 0 după schimbare; toate cele 42 URL-uri vechi răspund 301.
+**Cum verificăm (falsificabilitate):** `grep -c -- '-[2-5]$' <(curl -s https://primesupplements.ro/sitemap_articles_1.xml | grep -o 'blogs/news/[^<]*')` returnează 0 după schimbare; toate cele 42 URL-uri vechi răspund 301.
 
 **Indicator timpuriu:** paginile de blog din sitemap scad imediat de la 354 la ~310; GSC „Pages” arată mai puține „Duplicate, Google chose different canonical”.
 
@@ -1090,7 +1090,7 @@ Pilonul: colecția `/collections/creatina` cu ghidul `seo_text` (CONTENT-08 / CL
 
 **Recomandare:** Inclus în planul de consolidare (neexecutat). Păstrează: `glutamina-si-sanatatea-stomacului-efecte-secundare-glutamina-ghid-complet` (redenumire `glutamina-efecte-secundare`), `glutamina-si-sanatatea-stomacului-cand-sa-iei-glutamina-semne` (redenumire `cand-se-ia-glutamina`, comasează `aminoacizi-esentiali-recovery-glutamin-morning-vs-evening` + `taurina-recovery-glutamin-supplements-and-hydration` + `glutamina-recovery-glutamin-signs-your-body` + `l-glutamina-beneficii-recovery-glutamin-future-trends-in`), `glutamina-si-sanatatea-stomacului-combinatii-glutamina-suplimente-2026-etape` (redenumire `glutamina-combinatii`) și scrie un spoke nou `glutamina-pentru-intestin-si-digestie` (interogarea reală). 301 pentru restul de 12 către cel mai apropiat spoke păstrat; `bcaa-recovery-glutamin-how-to-store` → pagina de produs `/products/recovery-glutamin`.
 
-**Cum verificăm (falsificabilitate):** `grep -c glutamin sitemap_blogs_1.xml` ≤ 5.
+**Cum verificăm (falsificabilitate):** `grep -c glutamin sitemap_articles_1.xml` ≤ 5.
 
 **Indicator timpuriu:** GSC: interogările „glutamina” se mapează la câte un singur URL.
 
@@ -5540,75 +5540,75 @@ Intrări anterioare din 2026 menționate în constatări pentru că schimbă rec
 
 ## Index constatări
 
-Tabelul de mai jos este generat automat (`python3 -I`) din `data/specialist-results.json` unit cu headingurile `#### ID` și celulele „Stare” ale celor 13 secțiuni: 264 rânduri, acoperind toate cele 287 ID-uri brute (0 ID-uri din JSON fără heading, 0 headinguri fără corespondent în JSON). Secțiunea = numărul capitolului din raport; starea este forma scurtă (FIXED = live 12.10.2026, READY = tema de test, PENDING = acțiune proprietar, OPEN = nelucrat).
+Tabelul de mai jos este generat automat (`python3 -I`) din `data/specialist-results.json` unit cu headingurile `#### ID` și celulele „Stare” ale celor 13 secțiuni: 264 rânduri, acoperind toate cele 287 ID-uri brute (0 ID-uri din JSON fără heading, 0 headinguri fără corespondent în JSON). Secțiunea = numărul capitolului din raport; starea este forma scurtă (FIXED = live 12.10.2026, READY = tema de test, PENDING = acțiune proprietar, OPEN = nelucrat). Unde apare „→”, a doua valoare este starea după runda 2 din 13.10.2026 (FIXED-R2 = live, READY-R2 = tema de test, PARȚIAL, PROPRIETAR, DESIGN; detalii în Anexa R2).
 
 | ID | Secțiune | Severitate | Stare | Titlu |
 |---|---|---|---|---|
-| TECH-01 / SITEMAP-01 / SHOPIFY-01 | 1 | Critical | PENDING | Piața „Ungaria” publică o a doua copie completă a site-ului sub `/ro-hu/` (575 URL-uri duplicate, self-canonical, conținut românesc identic, prețuri RON) |
+| TECH-01 / SITEMAP-01 / SHOPIFY-01 | 1 | Critical | PENDING → FIXED-R2 | Piața „Ungaria” publică o a doua copie completă a site-ului sub `/ro-hu/` (575 URL-uri duplicate, self-canonical, conținut românesc identic, prețuri RON) |
 | TECH-02 / SITEMAP-14 / SHOPIFY-02 | 1 | High | PENDING | Magazinul B2B b2b.primesupplements.ro este un duplicat cross-domain indexabil al catalogului (58 URL-uri de produs cu același handle; 52 identice în sitemap-ul B2B) |
-| TECH-03 / SITEMAP-04 / SHOPIFY-06 | 1 | High | READY | Colecțiile utilitare (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage) sunt indexabile și în sitemap, trei dintre ele duplicate complete ale catalogului; tema nu avea nicio logică robots-meta |
+| TECH-03 / SITEMAP-04 / SHOPIFY-06 | 1 | High | READY → FIXED-R2 | Colecțiile utilitare (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage) sunt indexabile și în sitemap, trei dintre ele duplicate complete ale catalogului; tema nu avea nicio logică robots-meta |
 | TECH-04 | 1 | High | OPEN | Arhiva blogului are 59 de pagini cu paginare doar prev/next (6 articole/pagină): majoritatea celor 354 articole sunt la 20–59 clicuri de orice hub |
 | SHOPIFY-03 | 1 | High | FIXED | Vendor „primesupplements1”, productType gol și fără categorie de taxonomie pe toate produsele (REMEDIAT) |
 | SHOPIFY-04 | 1 | High | FIXED | Titluri și descrieri SEO lipsă sau generice la produse, colecții, articole și pagini (REMEDIAT) |
-| TECH-05 / SITEMAP-05 | 1 | Medium | READY | Colecția goală „Reduceri” răspunde 200, e indexabilă și în ambele sitemap-uri (candidat soft-404), deși 144 produse au reducere |
-| TECH-06 / SITEMAP-06 | 1 | Medium | READY | `/pages/thank-you` (confirmarea înregistrării B2B) este indexabilă și în sitemap (titlu englez, fără H1, fără meta description) |
+| TECH-05 / SITEMAP-05 | 1 | Medium | READY → FIXED-R2 | Colecția goală „Reduceri” răspunde 200, e indexabilă și în ambele sitemap-uri (candidat soft-404), deși 144 produse au reducere |
+| TECH-06 / SITEMAP-06 | 1 | Medium | READY → FIXED-R2 | `/pages/thank-you` (confirmarea înregistrării B2B) este indexabilă și în sitemap (titlu englez, fără H1, fără meta description) |
 | TECH-07 | 1 | Medium | READY | Pseudo-colecțiile automate vendor/type sunt live, indexabile și self-canonical (`/collections/vendors?q=primesupplements1`, `/collections/types?q=`) |
-| TECH-08 | 1 | Medium | OPEN | URL-urile de colecție și blog filtrate pe tag răspund 200, self-canonical, indexabile, cu titluri duplicate |
+| TECH-08 | 1 | Medium | OPEN → READY-R2 | URL-urile de colecție și blog filtrate pe tag răspund 200, self-canonical, indexabile, cu titluri duplicate |
 | TECH-09 | 1 | Medium | READY | `<meta charset>` este al treilea element din `<head>` (byte 1.078, după un script extern sincron și un bloc JSON-LD), încălcând regula de 1.024 bytes |
-| TECH-10 | 1 | Medium | READY | Viewport `maximum-scale=1.0, minimum-scale=1.0` dezactivează pinch-zoom pe fiecare pagină |
+| TECH-10 | 1 | Medium | READY → DESIGN | Viewport `maximum-scale=1.0, minimum-scale=1.0` dezactivează pinch-zoom pe fiecare pagină |
 | TECH-11 | 1 | Medium | PENDING | Fiecare pagină livrează 221–617 KB HTML, cu `<head>` de 157–189 KB, 131–170 KB JavaScript inline și 67–72 taguri script (20 externe) |
 | TECH-12 | 1 | Medium | PENDING | Aplicația Fontify încarcă Google Fonts Poppins (toate cele 18 stiluri) + Bebas Neue render-blocking, în timp ce tema preîncarcă propriile fonturi Barlow, apoi suprascrise |
-| TECH-13 / SHOPIFY-07 | 1 | Medium | PENDING | Corpurile articolelor generate de BlogGenAuto conțin 2.582 linkuri către primesupplements1.myshopify.com (fiecare link de produs = un hop 301), scripturi, JSON-LD încorporat și linkuri „Powered by” followed |
+| TECH-13 / SHOPIFY-07 | 1 | Medium | PENDING → FIXED-R2 | Corpurile articolelor generate de BlogGenAuto conțin 2.582 linkuri către primesupplements1.myshopify.com (fiecare link de produs = un hop 301), scripturi, JSON-LD încorporat și linkuri „Powered by” followed |
 | TECH-14 / SITEMAP-02 / SITEMAP-03 | 1 | Medium | OPEN | lastmod fără valoare în sitemap: toate cele 185 produse poartă timpul generării (diferit la fiecare fetch), iar 21/23 colecții sunt ștampilate în bloc |
-| SITEMAP-15 | 1 | Medium | PENDING | Poartă de calitate: 708 din 1.151 intrări din sitemap sunt articole generate automat, nefiltrate |
+| SITEMAP-15 | 1 | Medium | PENDING → PARȚIAL | Poartă de calitate: 708 din 1.151 intrări din sitemap sunt articole generate automat, nefiltrate |
 | SHOPIFY-05 | 1 | Medium | FIXED | Imaginile de produs nu aveau alt text (REMEDIAT) |
 | TECH-15 | 1 | Low | OPEN | Variantele cu slash final răspund 200 (un URL duplicat per pagină, atenuat de canonical) |
 | TECH-16 | 1 | Low | OPEN | `http://www` este un lanț de redirect în doi pași |
-| TECH-17 / SITEMAP-12 | 1 | Low | OPEN | Trei handle-uri conțin diacritice percent-encoded, iar canonical-ul folosește altă capitalizare hex decât sitemap-ul și hreflang-ul |
-| TECH-18 | 1 | Low | PENDING | Igienă URL: 57 URL-uri din sitemap depășesc 100 de caractere, 42 handle-uri de articol se termină în -2…-5 și 134 conțin fragmente englezești |
+| TECH-17 / SITEMAP-12 | 1 | Low | OPEN → FIXED-R2 | Trei handle-uri conțin diacritice percent-encoded, iar canonical-ul folosește altă capitalizare hex decât sitemap-ul și hreflang-ul |
+| TECH-18 | 1 | Low | PENDING → FIXED-R2 | Igienă URL: 57 URL-uri din sitemap depășesc 100 de caractere, 42 handle-uri de articol se termină în -2…-5 și 134 conțin fragmente englezești |
 | TECH-19 | 1 | Low | READY | Pagina goală `/search` este indexabilă, în timp ce `/search?q=` nu este |
 | TECH-20 | 1 | Low | READY | `og:image` este emis cu `http://` pe fiecare pagină |
-| TECH-21 | 1 | Low | OPEN | Resource hints învechite: `dns-prefetch productreviews.shopifycdn.com` (Shopify Product Reviews, retrasă) și `preconnect cdn.nitroapps.co` (Fontify) deschid conexiuni pe care nimic nu le folosește |
+| TECH-21 | 1 | Low | OPEN → PARȚIAL | Resource hints învechite: `dns-prefetch productreviews.shopifycdn.com` (Shopify Product Reviews, retrasă) și `preconnect cdn.nitroapps.co` (Fontify) deschid conexiuni pe care nimic nu le folosește |
 | TECH-22 | 1 | Low | OPEN | Antetele de securitate sunt limitate de platformă: HSTS 91 de zile fără preload/includeSubDomains, fără Referrer-Policy sau Permissions-Policy, CSP minimal |
 | TECH-23 / SITEMAP-13 | 1 | Low | OPEN | 30 de produse complet epuizate rămân indexabile și în sitemap; indexul listează și două sitemap-uri copil goale |
 | SITEMAP-07 | 1 | Low | OPEN | Intrările de imagine din sitemap acoperă doar imaginea principală (185 din 493 imagini de produs) și folosesc taguri depreciate |
-| SHOPIFY-08 | 1 | Low | OPEN | Produsele draft/unlisted împart colecțiile automate cu produsele live |
+| SHOPIFY-08 | 1 | Low | OPEN → PARȚIAL | Produsele draft/unlisted împart colecțiile automate cu produsele live |
 | TECH-24 | 1 | Info | OPEN | IndexNow nu este implementat |
 | TECH-25 | 1 | Info | READY | Randarea JavaScript trece; doar conținutul de recenzii Judge.me este injectat prin JS |
-| TECH-26 | 1 | Info | OPEN | robots.txt este default-ul Shopify 2026 (corectează contextul): sort_by și multi-filter sunt blocate; rămân lacune pentru vendors/types/tag/ro-hu |
+| TECH-26 | 1 | Info | OPEN → PARȚIAL | robots.txt este default-ul Shopify 2026 (corectează contextul): sort_by și multi-filter sunt blocate; rămân lacune pentru vendors/types/tag/ro-hu |
 | TECH-27 | 1 | Info | OPEN | Tratarea 404 este corectă; pagina de eroare nu are H1 și canonicalizează la `/404` |
 | TECH-28 | 1 | Info | READY | Date structurate prezente pe fiecare șablon, dar duplicate și parțial invalide (detaliile sunt la specialistul schema) |
 | SITEMAP-08 | 1 | Info | OPEN | `<changefreq>` pe toate cele 1.151 intrări (ignorat de Google) |
 | SITEMAP-09 | 1 | Info | OPEN | Indexul sitemap nu are `<lastmod>` per copil și conține un comentariu XML |
 | SITEMAP-10 | 1 | Info | OPEN | Două sitemap-uri metaobject goale sunt referențiate de index |
 | SITEMAP-11 | 1 | Info | OPEN | Sitemap-ul de descoperire agentică trimite un fișier Markdown Shopify generic |
-| CONTENT-01 | 2 | Critical | PENDING | Blogul este conținut generat automat la scară, nerevizuit, pe subiecte YMYL (expunere la „scaled content abuse”) |
-| CONTENT-02 | 2 | High | OPEN | Toate „sursele științifice” sunt linkuri către homepage-uri; blogul nu conține nicio citare reală |
-| CONTENT-03 | 2 | High | OPEN | Afirmații medicale fără disclaimere, informații de siguranță sau revizie medicală |
-| CONTENT-04 | 2 | High | PENDING | Identitatea autorului este neverificabilă și inconsecventă intern; nu există pagină de autor; 18 articole au ca autor handle-ul magazinului |
-| CONTENT-05 / CLUSTER-04 | 2 | High | PENDING | Canibalizare tematică în fiecare hub: serii regenerate și clustere ancorate pe produs concurează pentru aceeași intenție (26 grupuri intenție×hub cu ≥4 articole) |
-| CLUSTER-03 | 2 | High | PENDING | Clusterul creatină: 78 articole (115.757 cuvinte) pentru 3 produse acoperă ~15 intenții, fiecare scrisă de 3-11 ori |
-| CLUSTER-05 | 2 | High | PENDING | 42 handle-uri terminate în -2/-3/-4/-5 sunt regenerări ale aceluiași brief produs × unghi și trebuie comasate în articolul de bază |
-| CLUSTER-12 | 2 | Medium | PENDING | Glutamină: 16 articole pentru un singur produs (`recovery-glutamin`), 4 dintre ele sub prefixul `glutamina-si-sanatatea-stomacului-` deși niciunul nu este despre sănătatea stomacului |
-| CLUSTER-13 | 2 | Low | PENDING | Seria „protein-a” / „protine”: spoke-urile cele mai linkate ale hub-ului pudră proteică au handle-uri cu cuvântul-cheie scris greșit, iar hub-ul nu are un spoke-pilon „izolat vs concentrat” / „cum alegi proteina” linkat |
-| CONTENT-06 | 2 | High | OPEN | Descrieri de produs lipsă sau subțiri: 102 produse sub 50 de cuvinte, inclusiv produsul cel mai linkat din blog |
-| CONTENT-07 | 2 | Medium | OPEN | Conținut de produs duplicat și cvasi-duplicat (variante publicate ca produse separate, descrieri clonate) |
+| CONTENT-01 | 2 | Critical | PENDING → PARȚIAL | Blogul este conținut generat automat la scară, nerevizuit, pe subiecte YMYL (expunere la „scaled content abuse”) |
+| CONTENT-02 | 2 | High | OPEN → PARȚIAL | Toate „sursele științifice” sunt linkuri către homepage-uri; blogul nu conține nicio citare reală |
+| CONTENT-03 | 2 | High | OPEN → FIXED-R2 | Afirmații medicale fără disclaimere, informații de siguranță sau revizie medicală |
+| CONTENT-04 | 2 | High | PENDING → FIXED-R2 | Identitatea autorului este neverificabilă și inconsecventă intern; nu există pagină de autor; 18 articole au ca autor handle-ul magazinului |
+| CONTENT-05 / CLUSTER-04 | 2 | High | PENDING → FIXED-R2 | Canibalizare tematică în fiecare hub: serii regenerate și clustere ancorate pe produs concurează pentru aceeași intenție (26 grupuri intenție×hub cu ≥4 articole) |
+| CLUSTER-03 | 2 | High | PENDING → FIXED-R2 | Clusterul creatină: 78 articole (115.757 cuvinte) pentru 3 produse acoperă ~15 intenții, fiecare scrisă de 3-11 ori |
+| CLUSTER-05 | 2 | High | PENDING → FIXED-R2 | 42 handle-uri terminate în -2/-3/-4/-5 sunt regenerări ale aceluiași brief produs × unghi și trebuie comasate în articolul de bază |
+| CLUSTER-12 | 2 | Medium | PENDING → FIXED-R2 | Glutamină: 16 articole pentru un singur produs (`recovery-glutamin`), 4 dintre ele sub prefixul `glutamina-si-sanatatea-stomacului-` deși niciunul nu este despre sănătatea stomacului |
+| CLUSTER-13 | 2 | Low | PENDING → FIXED-R2 | Seria „protein-a” / „protine”: spoke-urile cele mai linkate ale hub-ului pudră proteică au handle-uri cu cuvântul-cheie scris greșit, iar hub-ul nu are un spoke-pilon „izolat vs concentrat” / „cum alegi proteina” linkat |
+| CONTENT-06 | 2 | High | OPEN → FIXED-R2 | Descrieri de produs lipsă sau subțiri: 102 produse sub 50 de cuvinte, inclusiv produsul cel mai linkat din blog |
+| CONTENT-07 | 2 | Medium | OPEN → PARȚIAL | Conținut de produs duplicat și cvasi-duplicat (variante publicate ca produse separate, descrieri clonate) |
 | CONTENT-08 / CLUSTER-01 | 2 | High | FIXED | Toate cele 23 pagini de colecție nu au conținut editorial: 0 cuvinte de hub pe 23/23 colecții, în timp ce o secțiune `seo_text` pregătită stă dezactivată în șablon |
-| CLUSTER-02 | 2 | High | OPEN | Hub-urile nu linkează spre spoke-urile lor: fiecare colecție arată aceleași 3 articole recente, deci hub-ul creatină linkează articole despre ovăz și L-carnitină și niciunul dintre cele 78 ale sale |
-| CLUSTER-08 | 2 | High | OPEN | Linkurile spoke→hub ajung la doar 7 din 13 hub-uri; 112 articole nu au niciun link către o colecție; vitamine-si-minerale (51 articole), crema-de-orez (25), pre-workout (10), intra-workout (5), batoane și bauturi primesc 0 linkuri din corp; 40 de linkuri merg la generica „cele-mai-vandute” |
-| CLUSTER-09 | 2 | Medium | OPEN | Acoperirea produselor este inversată: 5 produse absorb 234 linkuri din articole, în timp ce 31 din 85 suplimente (toate cele 19 băuturi Frutilu, 3 din 7 arome de cremă de orez, colagen, turmeric, citrat de magneziu) au 0, iar 8 articole linkează două produse care nu mai există |
-| CLUSTER-14 | 2 | Medium | OPEN | Patru hub-uri nu au (aproape) niciun spoke, în timp ce patru produse sunt supra-deservite: bauturi (19 produse / 0 articole), batoane (4 / 0), intra-workout (4 / 5), pre-workout (7 / 10) față de L-carnitine 1000 (28 articole), ovăz instant (22), fibre (21) |
-| CONTENT-09 | 2 | High | READY | Igiena linkurilor din corp: 2.582 linkuri myshopify, 534 linkuri directe de adăugare în coș, 194 linkuri dofollow „Powered by BlogGenAuto”, linkuri către produse promoționale dispărute |
-| CONTENT-10 | 2 | Medium | OPEN | Integritatea datelor: o linie „Published:” hard-codată, în engleză, contrazice data reală de publicare pe 315 articole; niciun semnal real de actualizare |
-| CONTENT-11 | 2 | Medium | READY | Markup injectat de generator în corpuri: H1 duplicate, JSON-LD în corp care dublează schema temei, categorii de breadcrumb inventate, CSS/JS inline |
+| CLUSTER-02 | 2 | High | OPEN → READY-R2 | Hub-urile nu linkează spre spoke-urile lor: fiecare colecție arată aceleași 3 articole recente, deci hub-ul creatină linkează articole despre ovăz și L-carnitină și niciunul dintre cele 78 ale sale |
+| CLUSTER-08 | 2 | High | OPEN → FIXED-R2 | Linkurile spoke→hub ajung la doar 7 din 13 hub-uri; 112 articole nu au niciun link către o colecție; vitamine-si-minerale (51 articole), crema-de-orez (25), pre-workout (10), intra-workout (5), batoane și bauturi primesc 0 linkuri din corp; 40 de linkuri merg la generica „cele-mai-vandute” |
+| CLUSTER-09 | 2 | Medium | OPEN → PROPRIETAR | Acoperirea produselor este inversată: 5 produse absorb 234 linkuri din articole, în timp ce 31 din 85 suplimente (toate cele 19 băuturi Frutilu, 3 din 7 arome de cremă de orez, colagen, turmeric, citrat de magneziu) au 0, iar 8 articole linkează două produse care nu mai există |
+| CLUSTER-14 | 2 | Medium | OPEN → PROPRIETAR | Patru hub-uri nu au (aproape) niciun spoke, în timp ce patru produse sunt supra-deservite: bauturi (19 produse / 0 articole), batoane (4 / 0), intra-workout (4 / 5), pre-workout (7 / 10) față de L-carnitine 1000 (28 articole), ovăz instant (22), fibre (21) |
+| CONTENT-09 | 2 | High | READY → FIXED-R2 | Igiena linkurilor din corp: 2.582 linkuri myshopify, 534 linkuri directe de adăugare în coș, 194 linkuri dofollow „Powered by BlogGenAuto”, linkuri către produse promoționale dispărute |
+| CONTENT-10 | 2 | Medium | OPEN → FIXED-R2 | Integritatea datelor: o linie „Published:” hard-codată, în engleză, contrazice data reală de publicare pe 315 articole; niciun semnal real de actualizare |
+| CONTENT-11 | 2 | Medium | READY → FIXED-R2 | Markup injectat de generator în corpuri: H1 duplicate, JSON-LD în corp care dublează schema temei, categorii de breadcrumb inventate, CSS/JS inline |
 | CONTENT-12 / CLUSTER-16 | 2 | Medium | FIXED | Titlurile sunt datate cu anul, prea lungi și construite pe tipare clickbait; 311 teasere sunt trunchiate cu „...”; generatorul va re-crea fiecare intenție în 2027 |
-| CONTENT-13 / CLUSTER-06 | 2 | Medium | OPEN | Slug-urile conțin fragmente de prompt în engleză, nume de competitori, SKU-uri de produs și sufixe numerice; cuvântul-cheie din URL nu are legătură cu titlul și conținutul |
-| CLUSTER-07 | 2 | Medium | OPEN | 13 articole folosesc nume de competitori ca termen-țintă (GymBeam ×7, Optimum Nutrition / Gold Standard ×3, Dr Max, Farmacia Tei, MyProtein) fără să compare nimic |
-| CONTENT-14 / CLUSTER-10 | 2 | Medium | OPEN | Fără hub-uri tematice sau taxonomie: 346/355 articole fără taguri, 5 taguri pe 9 articole, blog intitulat „Ultimele articole”, singura cale de navigare sunt 33 de pagini de paginare cronologică |
-| CLUSTER-11 | 2 | Medium | OPEN | Linkarea articol→articol este generată, nu planificată: 22 articole au 0 linkuri de intrare din articole, 132 au < 3, 41% din muchii traversează hub-urile, 7 articole nu linkează nimic, 2 linkuri indică handle-uri inexistente |
-| CONTENT-15 | 2 | Medium | OPEN | Pagina Despre noi și conținutul de încredere al brandului sunt slabe: fără H1, certificări neverificabile, an de înființare contradictoriu, fără echipă |
-| CONTENT-16 / CLUSTER-15 | 2 | Low | OPEN | Articolele vechi scrise de om sunt subțiri sau orfane față de catalog, deși sunt singurele cu intenții curate, distincte |
-| CONTENT-17 | 2 | Low | OPEN | Șiruri de interfață în engleză și nelocalizate în interiorul conținutului |
+| CONTENT-13 / CLUSTER-06 | 2 | Medium | OPEN → FIXED-R2 | Slug-urile conțin fragmente de prompt în engleză, nume de competitori, SKU-uri de produs și sufixe numerice; cuvântul-cheie din URL nu are legătură cu titlul și conținutul |
+| CLUSTER-07 | 2 | Medium | OPEN → FIXED-R2 | 13 articole folosesc nume de competitori ca termen-țintă (GymBeam ×7, Optimum Nutrition / Gold Standard ×3, Dr Max, Farmacia Tei, MyProtein) fără să compare nimic |
+| CONTENT-14 / CLUSTER-10 | 2 | Medium | OPEN → PARȚIAL | Fără hub-uri tematice sau taxonomie: 346/355 articole fără taguri, 5 taguri pe 9 articole, blog intitulat „Ultimele articole”, singura cale de navigare sunt 33 de pagini de paginare cronologică |
+| CLUSTER-11 | 2 | Medium | OPEN → PARȚIAL | Linkarea articol→articol este generată, nu planificată: 22 articole au 0 linkuri de intrare din articole, 132 au < 3, 41% din muchii traversează hub-urile, 7 articole nu linkează nimic, 2 linkuri indică handle-uri inexistente |
+| CONTENT-15 | 2 | Medium | OPEN → READY-R2 | Pagina Despre noi și conținutul de încredere al brandului sunt slabe: fără H1, certificări neverificabile, an de înființare contradictoriu, fără echipă |
+| CONTENT-16 / CLUSTER-15 | 2 | Low | OPEN → PARȚIAL | Articolele vechi scrise de om sunt subțiri sau orfane față de catalog, deși sunt singurele cu intenții curate, distincte |
+| CONTENT-17 | 2 | Low | OPEN → FIXED-R2 | Șiruri de interfață în engleză și nelocalizate în interiorul conținutului |
 | CONTENT-18 | 2 | Low | FIXED | Semnale de conținut din imagini: alt lipsă pe 19 imagini principale și 43 imagini din corp; 493/493 imagini de produs fără alt |
 | CLUSTER-17 | 2 | Info | OPEN | Verificare de realitate SERP: termenii-cap aparțin farmaciilor și publisherilor medicali; țintele câștigabile sunt intențiile long-tail românești, exact unde blogul are 3-11 URL-uri concurente fiecare |
 | ONPAGE-01 | 3 | High | FIXED | 105/185 produse fără titlu SEO: `<title>` era numele brut al produsului |
@@ -5616,49 +5616,49 @@ Tabelul de mai jos este generat automat (`python3 -I`) din `data/specialist-resu
 | ONPAGE-03 | 3 | High | READY | Șablonul de titlu nu adaugă sufixul de brand, iar cele 80 de titluri scrise manual folosesc trei grafii ale brandului |
 | ONPAGE-04 | 3 | Medium | FIXED | 47 titluri SEO depășesc 60 de caractere (max 92) și 17 titluri brute de produs ajung la 122 de caractere |
 | ONPAGE-05 | 3 | Medium | FIXED | Meta descrieri șablonate („Descoperiți … Alegeți PRIME Supplements …”), 35 peste 160 de caractere și 2 duplicate |
-| ONPAGE-06 | 3 | High | OPEN | H1 de produs = numele brut: 100 H1 în engleză, 14 H1 de tip „500g/83 serv”, 2 H1 pe o pagină, H1 englezesc sub un titlu românesc |
-| ONPAGE-07 | 3 | Medium | OPEN | Diacriticele sunt inconsecvente între titlu, H1 și meta pe aceeași pagină |
+| ONPAGE-06 | 3 | High | OPEN → FIXED-R2 | H1 de produs = numele brut: 100 H1 în engleză, 14 H1 de tip „500g/83 serv”, 2 H1 pe o pagină, H1 englezesc sub un titlu românesc |
+| ONPAGE-07 | 3 | Medium | OPEN → FIXED-R2 | Diacriticele sunt inconsecvente între titlu, H1 și meta pe aceeași pagină |
 | ONPAGE-08 | 3 | High | READY | Homepage: titlu cu slogan englezesc, meta ASCII de 216 caractere, H1 = logo, H2 în engleză |
-| ONPAGE-09 | 3 | High | READY | 9/23 colecții fără titlu/meta SEO; „All Products”, „11% TVA”, „Reduceri” (goală) și 2 clone cu 185 produse sunt indexabile |
+| ONPAGE-09 | 3 | High | READY → FIXED-R2 | 9/23 colecții fără titlu/meta SEO; „All Products”, „11% TVA”, „Reduceri” (goală) și 2 clone cu 185 produse sunt indexabile |
 | ONPAGE-10 | 3 | Medium | OPEN | H1 de colecție ≠ titlu, og:title folosește numele brut, iar 4 pagini de categorie au 1-3 produse |
-| ONPAGE-11 | 3 | High | OPEN | Titluri H1 de articol: 321/354 peste 60 de caractere (max 134), 279 conțin „2026”, 206 sunt clickbait cu două puncte, 1 este integral în engleză |
+| ONPAGE-11 | 3 | High | OPEN → FIXED-R2 | Titluri H1 de articol: 321/354 peste 60 de caractere (max 134), 279 conțin „2026”, 206 sunt clickbait cu două puncte, 1 este integral în engleză |
 | ONPAGE-12 | 3 | High | FIXED | Titluri SEO de articol: 19 lipsă (Shopify trunchiază fallback-ul la 70 de caractere, în mijlocul cuvântului), 223/335 peste 60, 292 conțin „2026”, 90 poartă fragmente de cuvinte-cheie englezești |
-| ONPAGE-13 | 3 | Medium | PENDING | 10 titluri SEO de articol și 9 slug-uri URL țintesc nume de competitori (Gymbeam, Havok, Optimum Nutrition, MyProtein, Farmacia Tei) |
-| ONPAGE-14 | 3 | Medium | PENDING | 26 articole randează două H1; 352 corpuri încep cu o linie-antet englezească „Published: …” |
+| ONPAGE-13 | 3 | Medium | PENDING → FIXED-R2 | 10 titluri SEO de articol și 9 slug-uri URL țintesc nume de competitori (Gymbeam, Havok, Optimum Nutrition, MyProtein, Farmacia Tei) |
+| ONPAGE-14 | 3 | Medium | PENDING → FIXED-R2 | 26 articole randează două H1; 352 corpuri încep cu o linie-antet englezească „Published: …” |
 | ONPAGE-15 | 3 | High | OPEN | Descoperirea blogului: 11 articole pe pagină, 33 pagini adâncime, paginare doar prev/next, aceleași 3 articole linkate site-wide, 21 articole fără niciun link de intrare din alte articole |
-| ONPAGE-16 | 3 | High | READY | 2.582 linkuri din articole indică primesupplements1.myshopify.com și 194 articole poartă un link dofollow „Powered by BlogGenAuto” |
+| ONPAGE-16 | 3 | High | READY → FIXED-R2 | 2.582 linkuri din articole indică primesupplements1.myshopify.com și 194 articole poartă un link dofollow „Powered by BlogGenAuto” |
 | ONPAGE-17 | 3 | Medium | FIXED | Ancore goale și generice: 44 linkuri-imagine fără text pe homepage, 28 pe colecțiile mari, „Vezi toate” ×8 |
 | ONPAGE-18 | 3 | Medium | READY | Fără breadcrumb vizibil pe niciun șablon; singurul BreadcrumbList este JSON-LD și indică „All Products” |
 | ONPAGE-19 | 3 | Low | READY | Taguri OG/Twitter: og:image pe http, og:title ≠ titlu, card „summary”, twitter:description = text de dozare |
-| ONPAGE-20 | 3 | Low | READY | Listări paginate: titluri bilingve „All Products – Pagina 2”, fără meta descriere, 3 serii identice de 8 pagini |
-| ONPAGE-21 | 3 | Medium | PENDING | Șiruri englezești netraduse pe pagini cu `lang="ro"` |
-| ONPAGE-22 | 3 | Low | OPEN | Greșeli de scriere în titlurile de secțiune din temă și în titluri |
+| ONPAGE-20 | 3 | Low | READY → FIXED-R2 | Listări paginate: titluri bilingve „All Products – Pagina 2”, fără meta descriere, 3 serii identice de 8 pagini |
+| ONPAGE-21 | 3 | Medium | PENDING → PARȚIAL | Șiruri englezești netraduse pe pagini cu `lang="ro"` |
+| ONPAGE-22 | 3 | Low | OPEN → PARȚIAL | Greșeli de scriere în titlurile de secțiune din temă și în titluri |
 | ONPAGE-23 | 3 | Medium | FIXED | Pagini de magazin: 0/11 cu titlu sau meta SEO; cele trei pagini construite din secțiuni nu au H1; „Thank you” este indexabilă |
-| ONPAGE-24 | 3 | Low | OPEN | Index de blog: titlu/H1 generic „Ultimele articole”, fără meta descriere, fără H2 |
+| ONPAGE-24 | 3 | Low | OPEN → FIXED-R2 | Index de blog: titlu/H1 generic „Ultimele articole”, fără meta descriere, fără H2 |
 | ONPAGE-25 | 3 | Low | FIXED | Handle-ul myshopify „primesupplements1” este vizibil ca vendor și ca autor |
 | ONPAGE-26 | 3 | Medium | OPEN | 19 grupuri de titluri cvasi-duplicate (45 produse): variantele de culoare și aromă sunt publicate ca produse separate |
 | ONPAGE-27 | 3 | Low | FIXED | Text alt absent pe 493/493 imagini de produs (efecte secundare pe ancore și pe `twitter:image:alt`) |
-| ONPAGE-28 | 3 | Info | PENDING | Fiecare titlu/meta/H1 există de două ori din cauza copiei de piață `/ro-hu/` |
-| SCHEMA-01 | 4 | Critical | READY | Product JSON-LD este sintactic invalid pe 75/185 produse (76 % din suplimente) pentru că `escape` nu codifică newline-urile |
+| ONPAGE-28 | 3 | Info | PENDING → FIXED-R2 | Fiecare titlu/meta/H1 există de două ori din cauza copiei de piață `/ro-hu/` |
+| SCHEMA-01 | 4 | Critical | READY → FIXED-R2 | Product JSON-LD este sintactic invalid pe 75/185 produse (76 % din suplimente) pentru că `escape` nu codifică newline-urile |
 | SCHEMA-02 | 4 | High | READY | Chiar și blocurile Product care se parsează sunt neeligibile: AggregateOffer cu stringuri cu virgulă zecimală, fără Offer per variantă, fără price |
 | SCHEMA-03 | 4 | High | READY | Lipsește aggregateRating/review din markup, deși Judge.me are rating-uri pe produse |
-| SCHEMA-04 | 4 | High | PENDING | BlogGenAuto injectează un al doilea graf JSON-LD contradictoriu în 347/355 corpuri de articol (breadcrumb-uri myshopify, jobTitle placeholder) |
-| SCHEMA-05 | 4 | Medium | READY | Blocul Article al temei: același bug `escape` (invalid pe ≥ 6 articole), autorul este mereu Organization, fără logo de publisher, headline neplafonat |
-| SCHEMA-06 | 4 | Medium | READY | Fără hasMerchantReturnPolicy / shippingDetails, iar cele două pagini de politici se contrazic la pragul de livrare gratuită |
+| SCHEMA-04 | 4 | High | PENDING → FIXED-R2 | BlogGenAuto injectează un al doilea graf JSON-LD contradictoriu în 347/355 corpuri de articol (breadcrumb-uri myshopify, jobTitle placeholder) |
+| SCHEMA-05 | 4 | Medium | READY → FIXED-R2 | Blocul Article al temei: același bug `escape` (invalid pe ≥ 6 articole), autorul este mereu Organization, fără logo de publisher, headline neplafonat |
+| SCHEMA-06 | 4 | Medium | READY → READY-R2 | Fără hasMerchantReturnPolicy / shippingDetails, iar cele două pagini de politici se contrazic la pragul de livrare gratuită |
 | SCHEMA-07 | 4 | Medium | READY | Categoria din breadcrumb-ul de produs este „All Products” (sau colecția internă „11% TVA”) pe fiecare produs |
-| SCHEMA-08 | 4 | Medium | READY | Organization: logo-ul răspunde 404, fără telefon/e-mail/adresă/identificatori legali, limbă și dată de înființare greșite, sameAs dubios |
+| SCHEMA-08 | 4 | Medium | READY → READY-R2 | Organization: logo-ul răspunde 404, fără telefon/e-mail/adresă/identificatori legali, limbă și dată de înființare greșite, sameAs dubios |
 | SCHEMA-09 | 4 | Medium | READY | brand hard-codat pentru toate produsele (greșit pentru 100 articole MNX), category gol, sku/gtin dintr-o singură variantă, 207/395 variante fără cod de bare |
 | SCHEMA-10 | 4 | Low | READY | `escape` dublu-codifică `&`, `"`, `'` în stringurile JSON, iar descrierea este tăiată la 500 de caractere |
 | SCHEMA-11 | 4 | Low | READY | CollectionPage: descriere goală, numberOfItems greșit, listă trunchiată la 20, fără breadcrumb |
 | SCHEMA-12 | 4 | Low | READY | Fără nod WebSite pe homepage (nume de site / endpoint de căutare) |
 | SCHEMA-13 | 4 | Low | READY | Entitățile nu sunt legate (@id doar pe Organization); seller/publisher/author sunt noduri inline duplicate |
-| SCHEMA-14 | 4 | Low | PENDING | Datele structurate de pe duplicatele `/ro-hu/` indică URL-urile principale |
-| SCHEMA-15 | 4 | Info | OPEN | FAQPage pe homepage și pe 3 produse creatină; textul FAQ al produselor nu este vizibil în pagină (fără feature SERP din mai 2026) |
+| SCHEMA-14 | 4 | Low | PENDING → FIXED-R2 | Datele structurate de pe duplicatele `/ro-hu/` indică URL-urile principale |
+| SCHEMA-15 | 4 | Info | OPEN → READY-R2 | FAQPage pe homepage și pe 3 produse creatină; textul FAQ al produselor nu este vizibil în pagină (fără feature SERP din mai 2026) |
 | SCHEMA-16 | 4 | Medium | READY | Markup-ul întreținut de Shopify (`microdata-schema`) este dezactivat; alegeți nativ sau custom v2, niciodată ambele |
 | SCHEMA-17 | 4 | Low | PENDING | Aceleași entități de produs există pe b2b.primesupplements.ro cu alt seller/brand |
 | SCHEMA-18 | 4 | Low | OPEN | Variantele de culoare/aromă publicate ca produse separate împiedică markup-ul ProductGroup |
 | SCHEMA-19 | 4 | Low | OPEN | Prețurile reduse (compare-at pe 144/185 produse) nu sunt exprimate; fără priceValidUntil / itemCondition |
-| SCHEMA-20 | 4 | Low | OPEN | Oportunități de schema legate de conținut existent: ProfilePage pentru autor, ContactPage, VideoObject |
+| SCHEMA-20 | 4 | Low | OPEN → READY-R2 | Oportunități de schema legate de conținut existent: ProfilePage pentru autor, ContactPage, VideoObject |
 | PERFORMANCE-01 | 5 | High | OPEN | Aplicația Fontify injectează două foi de stil Google Fonts render-blocking (Poppins cu toate cele 18 variante + Bebas Neue) și suprascrie cu `!important` fontul Barlow deja preîncărcat de temă, rezultând trei familii de fonturi pe fiecare pagină |
 | PERFORMANCE-02 | 5 | Medium | READY | `pandectes-rules.js`, singurul script clasic sincron, este plasat înainte de `<meta charset>` și împinge declarația charset dincolo de primii 1.024 de bytes |
 | PERFORMANCE-03 | 5 | High | OPEN | `<head>` de ~170 KB cu 60 de scripturi inline (133–145 KB de JavaScript inline) pe fiecare template, 27 %–65 % din fiecare document |
@@ -5671,145 +5671,143 @@ Tabelul de mai jos este generat automat (`python3 -I`) din `data/specialist-resu
 | PERFORMANCE-10 | 5 | Low | OPEN | Imagini fără `width`/`height` (CLS) injectate de aplicații și Liquid custom: 17 pe homepage, 3 pe produs, 2 pe colecție, 3 pe articol |
 | PERFORMANCE-11 | 5 | Low | OPEN | Hint-uri de resurse și tag-uri redundante sau duplicate: `country-flags.css` legat de 3×, BlogGenAuto `tracking.js` de 2×, CSS Google Fonts și ca `stylesheet` și ca `prefetch`, `preconnect` nefolosit către cdn.nitroapps.co, `dns-prefetch` învechit către productreviews.shopifycdn.com, `preconnect` duplicat către cdn.shopify.com în header-ul Link, `preconnect` lipsă către fonts.gstatic.com |
 | PERFORMANCE-12 | 5 | Low | OPEN | Blocuri de aplicații orfane care nu se randează pe nicio pagină (embed-ul `pagefly-ai-page-builder` pe toate cele 4 template-uri, `youtube_gallery_carousel_widget_block` pe homepage și produs) |
-| PERFORMANCE-13 | 5 | Low | OPEN | Template de articol: `<head>` este 65 % din document, imaginea featured (candidat LCP) nu are `fetchpriority="high"`, imaginile din corp nu au `sizes`, iar generatorul BlogGen adaugă 12 blocuri `<style>` în body și un al doilea set JSON-LD |
+| PERFORMANCE-13 | 5 | Low | OPEN → PARȚIAL | Template de articol: `<head>` este 65 % din document, imaginea featured (candidat LCP) nu are `fetchpriority="high"`, imaginile din corp nu au `sizes`, iar generatorul BlogGen adaugă 12 blocuri `<style>` în body și un al doilea set JSON-LD |
 | PERFORMANCE-14 | 5 | Low | OPEN | Slideshow cu autoplay (6 s) și carusel media al produsului featured cu autoplay și înălțime adaptivă pe homepage |
 | PERFORMANCE-15 | 5 | Low | OPEN | CSS inline per secțiune (62 de blocuri `<style>`, 44 KB) și duplicarea iconițelor SVG inline (106 SVG-uri, 43,7 KB) pe homepage |
 | PERFORMANCE-16 | 5 | Info | OPEN | Răspunsul serverului și caching-ul HTML sunt sănătoase, dar timpul de randare este dat de template (Info) |
 | PERFORMANCE-17 | 5 | Info | OPEN | Scripturile de platformă Shopify (`portable-wallets.ro.js` 78 KB, `perf-kit` 26 KB, `es-modules-shim` 15 KB, `standard-actions.js` 4 KB, `shop-js cart-sync`) sunt prezente pe fiecare template (Info) |
 | IMAGES-01 | 6 | High | FIXED | 493/493 imagini de produs fără alt text stocat; fallback-ul storefront-ului dă fiecărei imagini a unui produs același titlu brut |
-| IMAGES-02 | 6 | High | OPEN | Hero-ul homepage (imaginea LCP), logo-ul și cele șase tile-uri de categorie se livrează cu `alt=""` |
-| IMAGES-03 | 6 | Medium | OPEN | Bannerele de colecție, tile-ul promo și banda lifestyle „1.jpg/2.jpg/3.jpg” au alt gol și nume de fișier de aparat foto pe fiecare șablon |
+| IMAGES-02 | 6 | High | OPEN → FIXED-R2 | Hero-ul homepage (imaginea LCP), logo-ul și cele șase tile-uri de categorie se livrează cu `alt=""` |
+| IMAGES-03 | 6 | Medium | OPEN → PARȚIAL | Bannerele de colecție, tile-ul promo și banda lifestyle „1.jpg/2.jpg/3.jpg” au alt gol și nume de fișier de aparat foto pe fiecare șablon |
 | IMAGES-04 | 6 | Medium | OPEN | 40 % din fișierele imaginilor de produs au nume de aparat foto, WhatsApp, derivate WordPress sau UUID; 89 % conțin majuscule sau underscore |
-| IMAGES-05 | 6 | Medium | PENDING | Sitemap de imagini: doar imaginea principală (185 din 493), caption-uri goale, imaginile colecțiilor lipsesc și fiecare imagine e listată de două ori prin `/ro-hu/` |
-| IMAGES-06 | 6 | Medium | READY | Meta tag-uri Open Graph / Twitter: schemă `http://`, dimensiuni declarate nepotrivite, `twitter:image:alt` gol, fallback la imaginea homepage-ului |
-| IMAGES-07 | 6 | Medium | OPEN | Imaginile din corpul articolelor (șablon BlogGenAuto): fără `width`/`height`, 43 alt-uri goale, thumbnail-uri de produs aduse la originalul de 4000 px, alt-uri cu cuvinte-cheie și an |
-| IMAGES-08 | 6 | Medium | OPEN | Imaginile principale ale articolelor: 19 fără alt, 327/354 sunt PNG-uri generate AI cu nume de timestamp sau cu promptul întreg, fără `fetchpriority` pe imaginea LCP |
+| IMAGES-05 | 6 | Medium | PENDING → PARȚIAL | Sitemap de imagini: doar imaginea principală (185 din 493), caption-uri goale, imaginile colecțiilor lipsesc și fiecare imagine e listată de două ori prin `/ro-hu/` |
+| IMAGES-06 | 6 | Medium | READY → READY-R2 | Meta tag-uri Open Graph / Twitter: schemă `http://`, dimensiuni declarate nepotrivite, `twitter:image:alt` gol, fallback la imaginea homepage-ului |
+| IMAGES-07 | 6 | Medium | OPEN → FIXED-R2 | Imaginile din corpul articolelor (șablon BlogGenAuto): fără `width`/`height`, 43 alt-uri goale, thumbnail-uri de produs aduse la originalul de 4000 px, alt-uri cu cuvinte-cheie și an |
+| IMAGES-08 | 6 | Medium | OPEN → PARȚIAL | Imaginile principale ale articolelor: 19 fără alt, 327/354 sunt PNG-uri generate AI cu nume de timestamp sau cu promptul întreg, fără `fetchpriority` pe imaginea LCP |
 | IMAGES-09 | 6 | Medium | OPEN | 9 imagini secundare de produs (tabele nutriționale/infografice) sunt sub 1000 px și se upscalează într-o galerie de 730 px; 57 produse au o singură imagine |
 | IMAGES-10 | 6 | Medium | OPEN | Over-fetch pe bannere: bannerele de colecție folosesc `sizes="130vw"` pe fișiere de aparat de 4000-5472 px; randarea hero-ului e de 210 KB WebP; imaginea shop-the-look are sursă de 6000x4000 |
 | IMAGES-11 | 6 | Low | OPEN | Homepage-ul repetă aceleași imagini de produs de trei ori și poartă 130 KB de markup `srcset` (21 % din HTML-ul de 630 KB) |
-| IMAGES-12 | 6 | Low | OPEN | O a doua imagine `fetchpriority="high" loading="eager"` stă sub fold pe homepage (secțiunea featured product) |
+| IMAGES-12 | 6 | Low | OPEN → READY-R2 | O a doua imagine `fetchpriority="high" loading="eager"` stă sub fold pe homepage (secțiunea featured product) |
 | IMAGES-13 | 6 | Low | OPEN | Imagini injectate de aplicații fără dimensiuni sau lazy-loading nativ (carusel/poze de recenzie Judge.me, insignele ANPC, steagul UE) |
 | IMAGES-14 | 6 | Low | FIXED | Acolo unde există alt text, e titlul brut al produsului cu șiruri de merchandising, erori de spațiere și formulări în engleză |
 | IMAGES-15 | 6 | Info | OPEN | Formatul și compresia sunt gestionate de CDN-ul Shopify; încărcarea surselor AVIF/PNG nu aduce nimic (și AVIF nu e livrat niciodată) |
 | IMAGES-16 | 6 | Info | OPEN | `decoding="async"` nu e folosit pe nicio imagine |
 | IMAGES-17 | 6 | Medium | OPEN | Oportunitate Google Images / Shopping: packshot-urile sunt eligibile, dar semnalele care le-ar clasa lipsesc |
-| GEO-01 | 7 | High | OPEN | Fiecare link „sursă” din blog duce la un homepage: 338 articole invocă studii pe care nu le citează niciodată |
-| GEO-02 | 7 | High | OPEN | Semnale de prospețime fabricate: liniile „Published:” hard-codate nu corespund datelor Shopify, „Updated” este mereu egal cu „Published”, 267/354 articole au peste 90 de zile și fiecare pagină poartă două scheme Article contradictorii |
+| GEO-01 | 7 | High | OPEN → PARȚIAL | Fiecare link „sursă” din blog duce la un homepage: 338 articole invocă studii pe care nu le citează niciodată |
+| GEO-02 | 7 | High | OPEN → FIXED-R2 | Semnale de prospețime fabricate: liniile „Published:” hard-codate nu corespund datelor Shopify, „Updated” este mereu egal cu „Published”, 267/354 articole au peste 90 de zile și fiecare pagină poartă două scheme Article contradictorii |
 | GEO-03 | 7 | High | FIXED | 22 din 23 pagini de colecție nu aveau niciun text descriptiv, deci paginile de categorie („money pages”) nu ofereau nimic citabil unui sistem AI |
-| GEO-04 | 7 | Medium | OPEN | Paginile de produs (eșantion Creapure) îngroapă definiția la ~1.100 de cuvinte, randează textul de două ori, au H1 în engleză și fac afirmații de sănătate neautorizate, fără sursă |
+| GEO-04 | 7 | Medium | OPEN → FIXED-R2 | Paginile de produs (eșantion Creapure) îngroapă definiția la ~1.100 de cuvinte, randează textul de două ori, au H1 în engleză și fac afirmații de sănătate neautorizate, fără sursă |
 | GEO-05 | 7 | High | READY | Entitatea Organization este scindată: handle-urile sameAs din schemă diferă de cele din footer, YouTube lipsește, fără legalName/adresă/telefon, iar brandul este scris în 6 feluri |
-| GEO-06 | 7 | High | PENDING | Entitatea de autor „Marius Chera” are patru identități, nu are pagină de autor, are acreditări contradictorii și o schemă Person doar cu un URL LinkedIn |
-| GEO-07 | 7 | Medium | PENDING | Primul pasaj al majorității articolelor este boilerplate sau un widget de preț, nu răspunsul |
-| GEO-08 | 7 | Medium | OPEN | FAQPage ascuns pe produsele creatină: 8 întrebări-răspuns există doar în JSON-LD, nu în pagină |
-| GEO-09 | 7 | Medium | OPEN | Statistici neatribuite în blocurile-răspuns („până la 60%”, „99.99%”, „82% standardul de aur”) |
-| GEO-10 | 7 | Medium | OPEN | Întrebările FAQ clinice generate automat împing un magazin de suplimente în teritoriu medical pentru care sistemele AI nu îl vor cita |
-| GEO-11 | 7 | Medium | PENDING | Amprentă de generare AI fără declarație „Cum”: markeri BlogGenAI, 194 linkuri „Powered by BlogGenAuto”, „Scaled by KEMO” |
-| GEO-12 | 7 | Medium | READY | „primesupplements1” se scurge ca alias de brand în corpusurile AI (vendor pe 64 produse, autor pe 17 articole, 2.582 linkuri myshopify) |
-| GEO-13 / AGENTIC-16 | 7 | Medium | PENDING | Oglinda `/ro-hu/` dublează fiecare URL citabil, împarte semnalele de citare și dublează suprafața pe care agenții trebuie să o parcurgă sub un WAF cu limitare de rată |
+| GEO-06 | 7 | High | PENDING → FIXED-R2 | Entitatea de autor „Marius Chera” are patru identități, nu are pagină de autor, are acreditări contradictorii și o schemă Person doar cu un URL LinkedIn |
+| GEO-07 | 7 | Medium | PENDING → FIXED-R2 | Primul pasaj al majorității articolelor este boilerplate sau un widget de preț, nu răspunsul |
+| GEO-08 | 7 | Medium | OPEN → READY-R2 | FAQPage ascuns pe produsele creatină: 8 întrebări-răspuns există doar în JSON-LD, nu în pagină |
+| GEO-09 | 7 | Medium | OPEN → FIXED-R2 | Statistici neatribuite în blocurile-răspuns („până la 60%”, „99.99%”, „82% standardul de aur”) |
+| GEO-10 | 7 | Medium | OPEN → PARȚIAL | Întrebările FAQ clinice generate automat împing un magazin de suplimente în teritoriu medical pentru care sistemele AI nu îl vor cita |
+| GEO-11 | 7 | Medium | PENDING → PARȚIAL | Amprentă de generare AI fără declarație „Cum”: markeri BlogGenAI, 194 linkuri „Powered by BlogGenAuto”, „Scaled by KEMO” |
+| GEO-12 | 7 | Medium | READY → FIXED-R2 | „primesupplements1” se scurge ca alias de brand în corpusurile AI (vendor pe 64 produse, autor pe 17 articole, 2.582 linkuri myshopify) |
+| GEO-13 / AGENTIC-16 | 7 | Medium | PENDING → FIXED-R2 | Oglinda `/ro-hu/` dublează fiecare URL citabil, împarte semnalele de citare și dublează suprafața pe care agenții trebuie să o parcurgă sub un WAF cu limitare de rată |
 | GEO-14 / AGENTIC-03 | 7 | Medium | OPEN | Protecția anti-bot Shopify răspunde cu 429 „Verifying your connection...” la trafic de rată moderată, poate lovi fetcherele AI declanșate de utilizator exact la momentul răspunsului și nu există allowlist pentru comerciant |
-| GEO-15 | 7 | Low | PENDING | Canibalizare tematică: 47 grupuri de cuvinte-cheie / 164 articole și 42 handle-uri regenerate „-2..-5” dau retrieval-ului AI multe pasaje slabe în loc de un răspuns puternic |
+| GEO-15 | 7 | Low | PENDING → FIXED-R2 | Canibalizare tematică: 47 grupuri de cuvinte-cheie / 164 articole și 42 handle-uri regenerate „-2..-5” dau retrieval-ului AI multe pasaje slabe în loc de un răspuns puternic |
 | GEO-16 / AGENTIC-04 | 7 | Medium | OPEN | llms.txt, llms-full.txt și agents.md sunt șablonul generic „Agent Instructions” al Shopify, nu un index al conținutului magazinului: fără linkuri către colecții, produse sau blog (Google ignoră llms.txt) |
-| GEO-17 / AGENTIC-02 | 7 | Low | OPEN | Niciun semnal de licențiere/utilizare citibil de mașină: fără Content-Signal (robots.txt, antet HTTP sau meta), fără RSL, fără antet License |
+| GEO-17 / AGENTIC-02 | 7 | Low | OPEN → READY-R2 | Niciun semnal de licențiere/utilizare citibil de mașină: fără Content-Signal (robots.txt, antet HTTP sau meta), fără RSL, fără antet License |
 | GEO-18 | 7 | Info | OPEN | Pregătirea pe platforme (Google AI Overviews/AI Mode, ChatGPT, Perplexity, Bing Copilot) nu a fost măsurată; evaluare calitativă |
-| AGENTIC-01 | 7 | Medium | OPEN | robots.txt nu are o politică deliberată de agenți pe scopuri (un singur grup `*`) |
-| AGENTIC-05 | 7 | Info | OPEN | Fișierele de platformă se adresează agenților cu instrucțiuni terțe (instalarea skill-ului shop.app); de tratat ca date, nu ca vocea comerciantului |
+| AGENTIC-01 | 7 | Medium | OPEN → PARȚIAL | robots.txt nu are o politică deliberată de agenți pe scopuri (un singur grup `*`) |
+| AGENTIC-05 | 7 | Info | OPEN → READY-R2 | Fișierele de platformă se adresează agenților cu instrucțiuni terțe (instalarea skill-ului shop.app); de tratat ca date, nu ca vocea comerciantului |
 | AGENTIC-06 | 7 | Low | OPEN | Fără livrare Markdown; o cerere strictă `Accept: text/markdown` primește 404 în loc de pagina HTML |
 | AGENTIC-07 | 7 | Info | OPEN | Fără ai-catalog.json / Agentmap, deși magazinul rulează un server MCP real (oportunitate, negăzduibilă pe Shopify) |
-| AGENTIC-08 | 7 | Medium | OPEN | Listbox-urile de localizare nu au nume accesibil (axe `aria-input-field-name`, din setul de reguli al arborelui de agent Lighthouse) |
-| AGENTIC-09 | 7 | Low | OPEN | Landmark de navigație fără nume, `aria-controls` orfane, butoane fără `type`, anomalii de heading |
+| AGENTIC-08 | 7 | Medium | OPEN → READY-R2 | Listbox-urile de localizare nu au nume accesibil (axe `aria-input-field-name`, din setul de reguli al arborelui de agent Lighthouse) |
+| AGENTIC-09 | 7 | Low | OPEN → PARȚIAL | Landmark de navigație fără nume, `aria-controls` orfane, butoane fără `type`, anomalii de heading |
 | AGENTIC-10 | 7 | Medium | FIXED | Fotografiile de produs erau fără nume în arborele de accesibilitate (alt gol pe 493/493 imagini de produs) |
-| AGENTIC-11 | 7 | Low | READY | Viewport-ul blochează zoom-ul (`maximum-scale=1.0, minimum-scale=1.0`) |
+| AGENTIC-11 | 7 | Low | READY → DESIGN | Viewport-ul blochează zoom-ul (`maximum-scale=1.0, minimum-scale=1.0`) |
 | AGENTIC-12 | 7 | Medium | OPEN | Greutatea paginilor și numărul de controale fac canalul DOM scump pentru agenți (345–630 KB HTML, 69–71 scripturi, 128 butoane pentru ~700–2.800 cuvinte) |
 | AGENTIC-13 | 7 | Info | OPEN | WebMCP: adaptorul Shopify este prezent; fără tools proprii ale comerciantului, fără adnotări de formular (oportunitate, acoperită de platformă) |
 | AGENTIC-14 | 7 | Info | OPEN | Inconsistențe în anunțarea UCP/MCP și metadate generice ale tools (gestionate de Shopify; aprofundare → seo-ecommerce) |
-| AGENTIC-15 | 7 | Low | OPEN | Șapte descrieri de produs MNX conțin markup lipit din interfața de chat Gemini, expus agenților prin HTML, `/products.json` și UCP `get_product` |
+| AGENTIC-15 | 7 | Low | OPEN → FIXED-R2 | Șapte descrieri de produs MNX conțin markup lipit din interfața de chat Gemini, expus agenților prin HTML, `/products.json` și UCP `get_product` |
 | AGENTIC-17 | 7 | Info | OPEN | Overlay-urile injectate târziu (consimțământ, popup, bulă de chat, cadouri) netestate pentru focus trap sau acoperire; CLS Lighthouse necunoscut |
 | ECOMMERCE-01 | 8 | Critical | READY | Product JSON-LD este neeligibil pentru merchant listings pe fiecare produs (JSON invalid pe descrierile multi-linie, AggregateOffer cu prețuri cu virgulă, fără price/livrare/retur/rating) |
-| ECOMMERCE-02 | 8 | High | PENDING | Piața duplicat `/ro-hu/` afișează prețuri FĂRĂ TVA 21 % în RON (82,64 lei vs 100,00 lei) pe pagini indexabile și în JSON-LD |
+| ECOMMERCE-02 | 8 | High | PENDING → FIXED-R2 | Piața duplicat `/ro-hu/` afișează prețuri FĂRĂ TVA 21 % în RON (82,64 lei vs 100,00 lei) pe pagini indexabile și în JSON-LD |
 | ECOMMERCE-03 | 8 | High | FIXED | `productType` era gol pe 185/185 produse: categoria lipsea din schema, feed-uri, filtre și paginile de tip |
 | ECOMMERCE-04 | 8 | High | FIXED | Datele de vendor/brand erau greșite: handle-ul myshopify „primesupplements1” era vendor pe 64 produse, iar articolele MNX purtau brandul „Prime Supplements” |
-| ECOMMERCE-05 | 8 | High | PENDING | Acoperire și validitate GTIN: 207/395 variante fără cod de bare, 27 din 188 coduri pică la cifra de control GS1, codurile invalide sunt publicate ca `gtin`; SKU = EAN pe 164 variante |
+| ECOMMERCE-05 | 8 | High | PENDING → PARȚIAL | Acoperire și validitate GTIN: 207/395 variante fără cod de bare, 27 din 188 coduri pică la cifra de control GS1, codurile invalide sunt publicate ca `gtin`; SKU = EAN pe 164 variante |
 | ECOMMERCE-06 | 8 | High | FIXED | Acoperire titlu/descriere SEO: 105 produse fără titlu SEO, 79 cu meta descriere GOALĂ, 12 cu text de dozare ca meta, 47/80 titluri SEO peste 60 de caractere |
-| ECOMMERCE-07 | 8 | High | OPEN | Modelul de conținut al produsului este stricat: câmpul description conține dozare/ingrediente niciodată afișate, cele 4 tab-uri din metafield-uri sunt în mare parte goale, 102 produse au < 50 de cuvinte, fără tabel nutrițional |
+| ECOMMERCE-07 | 8 | High | OPEN → FIXED-R2 | Modelul de conținut al produsului este stricat: câmpul description conține dozare/ingrediente niciodată afișate, cele 4 tab-uri din metafield-uri sunt în mare parte goale, 102 produse au < 50 de cuvinte, fără tabel nutrițional |
 | ECOMMERCE-08 | 8 | Medium | OPEN | 45 produse sunt duplicate de culoare/aromă publicate ca produse separate în loc de variante (19 grupuri) |
-| ECOMMERCE-09 | 8 | Medium | OPEN | Titluri și H1: 17 titluri peste 60 de caractere (max 122), 96 titluri în engleză pe un magazin românesc, 19 fără diacritice, H1 diferit de titlul SEO pe produse-cheie |
+| ECOMMERCE-09 | 8 | Medium | OPEN → FIXED-R2 | Titluri și H1: 17 titluri peste 60 de caractere (max 122), 96 titluri în engleză pe un magazin românesc, 19 fără diacritice, H1 diferit de titlul SEO pe produse-cheie |
 | ECOMMERCE-10 | 8 | Medium | OPEN | 30 produse sunt epuizate pe toate variantele (22 MNX, 8 suplimente), dar rămân indexabile, în sitemap și linkate din blog, fără captare „anunță-mă” |
 | ECOMMERCE-11 | 8 | Medium | OPEN | „Reduceri” compare-at pe 144/185 produse (120 cu toate variantele tăiate permanent) și o colecție „Reduceri” goală: risc Omnibus și de sale-price în Merchant Center |
 | ECOMMERCE-12 | 8 | High | OPEN | Arhitectura colecțiilor: 23 colecții plate, 5 colecții utilitare indexabile, două categorii de îmbrăcăminte suprapuse (99 vs 87, 86 comune), fără subcategorii pe obiectiv/brand/tip de articol, toate descrierile goale |
 | ECOMMERCE-13 | 8 | Low | READY | Navigarea fațetată este subțire (preț, disponibilitate, 2 metafield-uri custom) și crawlabilă; paginile de interogare vendor/type sunt indexabile |
 | ECOMMERCE-14 | 8 | Medium | READY | Fără breadcrumb vizibil pe paginile de produs și de colecție; BreadcrumbList JSON-LD trimite fiecare produs la „All Products” |
-| ECOMMERCE-15 | 8 | Medium | OPEN | Cross-sell-ul este doar client-side: paginile de produs expun 6-7 linkuri de produs în HTML-ul brut; blocul complementar nu are date; titlurile secțiunilor au greșeli de tipar și engleză |
+| ECOMMERCE-15 | 8 | Medium | OPEN → PARȚIAL | Cross-sell-ul este doar client-side: paginile de produs expun 6-7 linkuri de produs în HTML-ul brut; blocul complementar nu are date; titlurile secțiunilor au greșeli de tipar și engleză |
 | ECOMMERCE-16 | 8 | Medium | READY | Recenziile există (431 la nivel de magazin), dar sunt invizibile pentru căutare: fără markup aggregateRating/review, blocul rating dezactivat, text de widget în engleză, widget gol pe produsele fără recenzii |
 | ECOMMERCE-17 | 8 | Medium | FIXED | Imagini de produs: 0/493 imagini aveau alt text și 57 produse au o singură imagine (53 suplimente) |
 | ECOMMERCE-18 | 8 | High | PENDING | Pregătirea pentru Google Merchant Center: faptele din politici există pe pagini, dar nu în datele de produs; 8 familii de atribute care blochează feed-ul lipsesc sau sunt greșite |
-| ECOMMERCE-19 | 8 | High | READY | Linkingul blog → produs este deviat: 2582 linkuri către primesupplements1.myshopify.com, 534 linkuri de adăugare în coș, 130/185 produse niciodată linkate, 16 linkuri către produse moarte |
+| ECOMMERCE-19 | 8 | High | READY → FIXED-R2 | Linkingul blog → produs este deviat: 2582 linkuri către primesupplements1.myshopify.com, 534 linkuri de adăugare în coș, 130/185 produse niciodată linkate, 16 linkuri către produse moarte |
 | ECOMMERCE-20 | 8 | Low | OPEN | Tag-urile și handle-urile sunt inconsecvente (97 tag-uri cu duplicate de majuscule/plural, handle cu underscore, trei modele de handle în gama Frutilu) |
 | ECOMMERCE-21 | 8 | Low | OPEN | Denumirea variantelor este inconsecventă și se scurge în coș, feed-uri și UCP (`Cutie 12 buc x 55g` / `Baton 55g` / `55g`; numele produsului repetat în titlul variantei; două scale de mărimi) |
-| ECOMMERCE-22 | 8 | Low | OPEN | Defecte ale template-ului de colecție: „Alte categorii” fixe, produs recomandat din banner lipsă, bloc de blog generic pe fiecare colecție, 24 produse pe pagină la colecții de 185, H1 ≠ titlu |
+| ECOMMERCE-22 | 8 | Low | OPEN → PARȚIAL | Defecte ale template-ului de colecție: „Alte categorii” fixe, produs recomandat din banner lipsă, bloc de blog generic pe fiecare colecție, 24 produse pe pagină la colecții de 185, H1 ≠ titlu |
 | ECOMMERCE-23 | 8 | Info | OPEN | Profilul UCP este live și bine format; calitatea comerțului prin agenți este plafonată de datele de produs de mai sus |
 | ECOMMERCE-24 | 8 | Info | PENDING | Peisajul de marketplace și competitori nu a putut fi măsurat (fără date Merchant/SERP); magazinul B2B duplică 57 produse retail cu prețuri en-gros vizibile |
-| INTERNATIONAL-01 | 9 | High | PENDING | Web presence-ul pieței „Ungaria” publică o a doua copie completă a site-ului sub /ro-hu/ (575 URL-uri duplicate cu conținut românesc identic, ambele self-canonical) |
-| INTERNATIONAL-02 | 9 | High | PENDING | Alternate-urile /ro-hu/ afișează prețuri diferite pentru aceleași produse (fără TVA, exact ÷1,21) în aceeași monedă RON, inclusiv în Product JSON-LD cu același @id |
-| INTERNATIONAL-03 | 9 | Medium | PENDING | Setul hreflang este tehnic valid, dar nejustificat semantic: `ro-HU` țintește vorbitorii de română din Ungaria fără nicio localizare, în timp ce a doua audiență realistă (vorbitorii de maghiară din România, `hu-RO`) nu este deservită deloc |
-| INTERNATIONAL-04 | 9 | Medium | PENDING | Livrarea și conținutul legal contrazic piața Ungaria: magazinul livrează în HU cu tarife Cargus denumite în maghiară și exprimate în HUF, în timp ce politica de livrare și Termenii spun că livrarea este doar în România și nu există pagini legale maghiare |
-| INTERNATIONAL-05 | 9 | Low | PENDING | Selectorul de țară este randat de trei ori pe pagină, oferă două țări cu aceeași monedă („România (RON Lei)” / „Ungaria (RON Lei)”), nu are opțiune de limbă și schimbă tacit prețurile cu −17,36 % |
-| INTERNATIONAL-06 | 9 | Low | PENDING | Homepage-ul /ro-hu există în două forme de URL (`/ro-hu` și `/ro-hu/`, ambele 200); canonical/hreflang/sitemap folosesc forma fără slash, în timp ce `rootUrls` al pieței spune `/ro-hu/` |
-| INTERNATIONAL-07 | 9 | Low | PENDING | Datele structurate de pe fiecare pagină /ro-hu/ declară URL-ul rădăcină ca URL al entității (@id, url, elemente de breadcrumb), în timp ce canonical-ul și og:url ale paginii declară /ro-hu/ |
-| INTERNATIONAL-08 | 9 | Low | OPEN | Canonical-ul și hreflang/sitemap-ul nu sunt de acord asupra majusculelor din percent-encoding pentru URL-urile cu handle-uri cu diacritice (canonical minuscule `%c8%9b`, hreflang și sitemap majuscule `%C8%9B`) |
-| INTERNATIONAL-09 | 9 | Low | READY | Lacune în metadatele de limbă: fără `og:locale`, fără `inLanguage` în niciun JSON-LD și string-uri în engleză (tagline-ul din title, titlul Judge.me) pe singurul locale (român) |
+| INTERNATIONAL-01 | 9 | High | PENDING → FIXED-R2 | Web presence-ul pieței „Ungaria” publică o a doua copie completă a site-ului sub /ro-hu/ (575 URL-uri duplicate cu conținut românesc identic, ambele self-canonical) |
+| INTERNATIONAL-02 | 9 | High | PENDING → FIXED-R2 | Alternate-urile /ro-hu/ afișează prețuri diferite pentru aceleași produse (fără TVA, exact ÷1,21) în aceeași monedă RON, inclusiv în Product JSON-LD cu același @id |
+| INTERNATIONAL-03 | 9 | Medium | PENDING → FIXED-R2 | Setul hreflang este tehnic valid, dar nejustificat semantic: `ro-HU` țintește vorbitorii de română din Ungaria fără nicio localizare, în timp ce a doua audiență realistă (vorbitorii de maghiară din România, `hu-RO`) nu este deservită deloc |
+| INTERNATIONAL-04 | 9 | Medium | PENDING → PROPRIETAR | Livrarea și conținutul legal contrazic piața Ungaria: magazinul livrează în HU cu tarife Cargus denumite în maghiară și exprimate în HUF, în timp ce politica de livrare și Termenii spun că livrarea este doar în România și nu există pagini legale maghiare |
+| INTERNATIONAL-05 | 9 | Low | PENDING → PARȚIAL | Selectorul de țară este randat de trei ori pe pagină, oferă două țări cu aceeași monedă („România (RON Lei)” / „Ungaria (RON Lei)”), nu are opțiune de limbă și schimbă tacit prețurile cu −17,36 % |
+| INTERNATIONAL-06 | 9 | Low | PENDING → FIXED-R2 | Homepage-ul /ro-hu există în două forme de URL (`/ro-hu` și `/ro-hu/`, ambele 200); canonical/hreflang/sitemap folosesc forma fără slash, în timp ce `rootUrls` al pieței spune `/ro-hu/` |
+| INTERNATIONAL-07 | 9 | Low | PENDING → FIXED-R2 | Datele structurate de pe fiecare pagină /ro-hu/ declară URL-ul rădăcină ca URL al entității (@id, url, elemente de breadcrumb), în timp ce canonical-ul și og:url ale paginii declară /ro-hu/ |
+| INTERNATIONAL-08 | 9 | Low | OPEN → FIXED-R2 | Canonical-ul și hreflang/sitemap-ul nu sunt de acord asupra majusculelor din percent-encoding pentru URL-urile cu handle-uri cu diacritice (canonical minuscule `%c8%9b`, hreflang și sitemap majuscule `%C8%9B`) |
+| INTERNATIONAL-09 | 9 | Low | READY → READY-R2 | Lacune în metadatele de limbă: fără `og:locale`, fără `inLanguage` în niciun JSON-LD și string-uri în engleză (tagline-ul din title, titlul Judge.me) pe singurul locale (român) |
 | INTERNATIONAL-10 | 9 | Info | OPEN | Locale-ul maghiar există, dar este nepublicat, fără traduceri, fără HUF și fără conținut legal/de livrare maghiar: lista de pregătire pentru o lansare reală în Ungaria (opțiunea c) |
 | AUTHORITY-01 | 10 | High | OPEN | Domeniul lipsește din graful web Common Crawl, în timp ce competitorul principal este clasat |
 | AUTHORITY-02 | 10 | High | OPEN | Zero mențiuni terțe găsite pentru brand, firmă, fondator sau produse |
 | AUTHORITY-03 | 10 | High | READY | `sameAs` din Organization nu coincide cu profilurile sociale reale pe niciuna dintre cele trei rețele și omite YouTube |
 | AUTHORITY-04 | 10 | Medium | OPEN | Nicio sursă de date de backlink-uri scorabilă nu este configurată (GSC, Bing WMT, Moz) |
-| AUTHORITY-05 | 10 | High | READY | 194 articole poartă un link „Powered by BlogGenAuto” șablonat, dofollow și cu contrast scăzut |
-| AUTHORITY-06 | 10 | High | READY | 2 582 linkuri din corpul articolelor către primesupplements1.myshopify.com (incl. 534 linkuri /cart/) redirecționează, dublează și irosesc echitatea internă |
+| AUTHORITY-05 | 10 | High | READY → FIXED-R2 | 194 articole poartă un link „Powered by BlogGenAuto” șablonat, dofollow și cu contrast scăzut |
+| AUTHORITY-06 | 10 | High | READY → FIXED-R2 | 2 582 linkuri din corpul articolelor către primesupplements1.myshopify.com (incl. 534 linkuri /cart/) redirecționează, dublează și irosesc echitatea internă |
 | AUTHORITY-07 | 10 | Medium | PENDING | Magazinul B2B este o a doua entitate indexabilă, cu CUI-ul drept nume, profiluri sociale placeholder Shopify și catalog duplicat |
-| AUTHORITY-08 | 10 | Medium | PENDING | Piața duplicat /ro-hu/ împarte fiecare semnal off-site între două seturi de URL-uri |
+| AUTHORITY-08 | 10 | Medium | PENDING → FIXED-R2 | Piața duplicat /ro-hu/ împarte fiecare semnal off-site între două seturi de URL-uri |
 | AUTHORITY-09 | 10 | Medium | READY | Cele 431 recenzii Judge.me sunt invizibile off-site: fără pagină publică de recenzii, fără markup rich-snippet, fără profiluri terțe de recenzii |
-| AUTHORITY-10 | 10 | Medium | READY | Entitatea autorului expert („Marius Chera, Nutriționist Certificat”) este necoroborată, marcată inconsistent și fără pagină de autor |
+| AUTHORITY-10 | 10 | Medium | READY → FIXED-R2 | Entitatea autorului expert („Marius Chera, Nutriționist Certificat”) este necoroborată, marcată inconsistent și fără pagină de autor |
 | AUTHORITY-11 | 10 | Low | READY | Schema Organization omite adresa, telefonul, legalName și identificatorii fiscali, deși NAP-ul este pe fiecare pagină |
 | AUTHORITY-12 | 10 | Low | READY | `foundingDate` 2020 din schema Organization contrazice registrul (J32/1155/2022) și pagina Despre noi („in anul 2022”) |
 | AUTHORITY-13 | 10 | Low | FIXED | Handle-ul myshopify „primesupplements1” se scurge ca nume de brand/autor/vendor |
-| AUTHORITY-14 | 10 | Low | OPEN | Profilul de linkuri de ieșire al blogului este boilerplate: aceleași 7 domenii străine de autoritate în 349 articole, fără surse de reglementare românești/UE, fără co-citare locală |
+| AUTHORITY-14 | 10 | Low | OPEN → PARȚIAL | Profilul de linkuri de ieșire al blogului este boilerplate: aceleași 7 domenii străine de autoritate în 349 articole, fără surse de reglementare românești/UE, fără co-citare locală |
 | AUTHORITY-15 | 10 | Info | OPEN | Fără active care să atragă linkuri: 354 articole șablonate, fără pagină de autor, unelte, date sau secțiune „parteneri”/presă |
-| AUTHORITY-16 | 10 | Info | OPEN | Igienă minoră de ieșire: linkul WhatsApp site-wide trece printr-un scurtător terț |
-| SXO-01 | 11 | High | PENDING | Articolele de blog, nu colecția și produsele de creatină, sunt paginile pe care Google le asociază cu termenii comerciali pentru creatină |
+| AUTHORITY-16 | 10 | Info | OPEN → READY-R2 | Igienă minoră de ieșire: linkul WhatsApp site-wide trece printr-un scurtător terț |
+| SXO-01 | 11 | High | PENDING → PARȚIAL | Articolele de blog, nu colecția și produsele de creatină, sunt paginile pe care Google le asociază cu termenii comerciali pentru creatină |
 | SXO-02 | 11 | High | FIXED | Paginile de colecție sunt „filtre + 3-5 carduri”, în timp ce SERP-ul românesc recompensează paginile de categorie bogate (și ghidurile) |
 | SXO-03 | 11 | High | READY | Numele de brand nu este deținut în căutare: „prime supplements” / „primesupplements” / „prime whey” întorc alte companii |
-| SXO-04 | 11 | High | OPEN | URL-urile vechi WooCommerce (categorie-produs, cache-buster ?v=, host www) sunt încă ceea ce arată Google pentru site |
+| SXO-04 | 11 | High | OPEN → PARȚIAL | URL-urile vechi WooCommerce (categorie-produs, cache-buster ?v=, host www) sunt încă ceea ce arată Google pentru site |
 | SXO-05 | 11 | High | PENDING | Magazinul en-gros b2b.primesupplements.ro este indexat și servește consumatorilor pagini de produs cu prețuri B2B |
 | SXO-06 | 11 | Medium | OPEN | SERP-urile pentru termenii comerciali principali sunt dominate de farmacii, publicații medicale și marketplace-uri; magazinul concurează cu autoritate zero și fără amprentă de advertoriale / PR |
 | SXO-07 | 11 | High | OPEN | Homepage-ul se deschide cu un slogan în engleză și un rând de haine epuizate, picând toate persona-urile de cumpărători de suplimente deasupra pliului |
-| SXO-08 | 11 | Medium | OPEN | Paginile de produs ascund conținutul educațional și logica de preț pe care SERP-ul de decizie le așteaptă și distrag cu un CTA B2B |
-| SXO-09 | 11 | High | PENDING | 355 de articole generate automat se canibalizează reciproc și țintesc subiecte tranzacționale cu pagini informaționale |
-| SXO-10 | 11 | Medium | OPEN | Articolele sunt fundături pentru orice persona în faza de decizie: fără traseu către produs, încredere slabă în autor, date învechite |
+| SXO-08 | 11 | Medium | OPEN → PARȚIAL | Paginile de produs ascund conținutul educațional și logica de preț pe care SERP-ul de decizie le așteaptă și distrag cu un CTA B2B |
+| SXO-09 | 11 | High | PENDING → FIXED-R2 | 355 de articole generate automat se canibalizează reciproc și țintesc subiecte tranzacționale cu pagini informaționale |
+| SXO-10 | 11 | Medium | OPEN → PARȚIAL | Articolele sunt fundături pentru orice persona în faza de decizie: fără traseu către produs, încredere slabă în autor, date învechite |
 | SXO-11 | 11 | Medium | OPEN | Linia de haine MNX (54 % din catalog) nu are identitate căutabilă și primește prioritate pe homepage în fața suplimentelor |
-| SXO-12 | 11 | Medium | PENDING | Piața /ro-hu/ le servește căutătorilor maghiari conținut românesc în RON și este oricum invizibilă |
-| SXO-13 | 11 | Low | OPEN | Șirurile UI și de catalog în limbi amestecate strică claritatea pentru persona-urile românești pe fiecare template |
+| SXO-12 | 11 | Medium | PENDING → FIXED-R2 | Piața /ro-hu/ le servește căutătorilor maghiari conținut românesc în RON și este oricum invizibilă |
+| SXO-13 | 11 | Low | OPEN → PARȚIAL | Șirurile UI și de catalog în limbi amestecate strică claritatea pentru persona-urile românești pe fiecare template |
 | SXO-14 | 11 | Medium | OPEN | Persona vânătoare de oferte este trimisă către o colecție „Reduceri” goală, deși 144 de produse au preț tăiat |
-| SXO-15 | 11 | Low | READY | Trei listări identice cu 185 de produse („All Products”, „Cele mai vândute”, „Lansate recent”) plus „11% TVA” și „Prime Health” concurează pentru intrarea generică „suplimente” fără potrivire de intenție |
+| SXO-15 | 11 | Low | READY → FIXED-R2 | Trei listări identice cu 185 de produse („All Products”, „Cele mai vândute”, „Lansate recent”) plus „11% TVA” și „Prime Health” concurează pentru intrarea generică „suplimente” fără potrivire de intenție |
 | SXO-16 | 11 | Info | OPEN | Marcajul FAQPage de pe homepage și de pe produsele de creatină nu are efect în SERP; păstrează-l doar ca conținut |
 | VISUAL-01 | 12 | High | PENDING | Bannerul de cookie-uri e un modal pe tot ecranul pe mobil și acoperă hero-ul pe desktop |
 | VISUAL-02 | 12 | Medium | OPEN | Pagina de produs pe mobil nu are CTA „Adaugă în coș” above the fold |
 | VISUAL-03 | 12 | Medium | OPEN | H1-ul homepage-ului e doar numele brandului; titlul vizibil nu e H1 |
-| VISUAL-04 | 12 | Low | OPEN | 24 de imagini de pe homepage se randează fără alt (imagini de temă/secțiuni) |
+| VISUAL-04 | 12 | Low | OPEN → FIXED-R2 | 24 de imagini de pe homepage se randează fără alt (imagini de temă/secțiuni) |
 | VISUAL-05 | 12 | Low | PENDING | Widgetul WhatsApp flotant acoperă cardurile de produs pe mobil |
-| LOCAL-01 | 13 | High | READY | Schema Organization nu conține adresă, telefon, e-mail, legalName sau cod de TVA pe niciunul dintre cele ~1 150 de URL-uri |
+| LOCAL-01 | 13 | High | READY → READY-R2 | Schema Organization nu conține adresă, telefon, e-mail, legalName sau cod de TVA pe niciunul dintre cele ~1 150 de URL-uri |
 | LOCAL-02 | 13 | High | READY | `sameAs` trimite Google la un cont TikTok greșit; handle-urile Facebook/Instagram din schemă diferă de cele din footer; YouTube lipsește |
-| LOCAL-03 | 13 | Medium | OPEN | Adresa stradală din footer este un link către `https://www.primesupplements.ro/cart/#` pe fiecare pagină |
-| LOCAL-04 | 13 | Medium | OPEN | NAP-ul este scris în șase forme pentru nume, patru pentru adresă și trei pentru telefon; o pagină legală numește o firmă care nu există |
+| LOCAL-03 | 13 | Medium | OPEN → READY-R2 | Adresa stradală din footer este un link către `https://www.primesupplements.ro/cart/#` pe fiecare pagină |
+| LOCAL-04 | 13 | Medium | OPEN → PARȚIAL | NAP-ul este scris în șase forme pentru nume, patru pentru adresă și trei pentru telefon; o pagină legală numește o firmă care nu există |
 | LOCAL-05 | 13 | Medium | OPEN | Adresa din profilul magazinului Shopify este incompletă (oraș gol, stradă fără număr), iar locația de fulfilment nu are nicio adresă |
 | LOCAL-06 | 13 | Medium | PENDING | Magazinul B2B indexabil prezintă o altă entitate: nume legal + CUI drept brand, fără adresă/telefon, link-uri sociale către conturile Shopify |
 | LOCAL-07 | 13 | Medium | READY | Recenziile există doar în widget-ul Judge.me: niciun aggregateRating/Review în JSON-LD, o singură platformă, fără prezență Google/Trustpilot găsită |
-| LOCAL-08 | 13 | Low | OPEN | Pagina de contact nu are H1, meta description, program, identitate a firmei și context de livrare/hartă; programul de suport există doar într-un acordeon FAQ pe homepage |
+| LOCAL-08 | 13 | Low | OPEN → READY-R2 | Pagina de contact nu are H1, meta description, program, identitate a firmei și context de livrare/hartă; programul de suport există doar într-un acordeon FAQ pe homepage |
 | LOCAL-09 | 13 | Low | READY | `foundingDate` „2020” din Organization contrazice registrul (2022-06-07) și pagina Despre noi („in anul 2022”) |
 | LOCAL-10 | 13 | Low | READY | `contactPoint.availableLanguage` declară suport în maghiară și nu există `areaServed`, deși site-ul nu are locale maghiar publicat și livrează doar în România |
 | LOCAL-11 | 13 | Info | OPEN | Niciun semnal Google Business Profile / Bing Places / Apple pe site, iar firma nu este eligibilă pentru ele ca magazin exclusiv online: nu creați o fișă |
-| LOCAL-12 | 13 | Info | OPEN | Niciun semnal local de autoritate/citare dincolo de registrul statutar; entitatea fondatorului nu este legată; lint-ul GBP deprecat este curat |
-| LOCAL-13 | 13 | Info | OPEN | Link-uri pentru litigii de consum: doar un link generic `https://anpc.ro/` în footer; pagina ANPC SAL nu este legată |
-
-Totaluri: 4 Critical · 66 High · 96 Medium · 67 Low · 31 Info; 25 FIXED · 57 READY · 47 PENDING · 135 OPEN.
+| LOCAL-12 | 13 | Info | OPEN → READY-R2 | Niciun semnal local de autoritate/citare dincolo de registrul statutar; entitatea fondatorului nu este legată; lint-ul GBP deprecat este curat |
+| LOCAL-13 | 13 | Info | OPEN → READY-R2 | Link-uri pentru litigii de consum: doar un link generic `https://anpc.ro/` în footer; pagina ANPC SAL nu este legată |
 
 ## Fișiere livrate
 
@@ -5838,13 +5836,21 @@ Legendă stări noi: **FIXED-R2** = aplicat pe magazinul live în runda 2 și ve
 |---|---|---|---|
 | Piața Ungaria (`/ro-hu`, `/ro-huu`) | Prezențele web eliminate; 575 redirecturi 301 1:1 `/ro-hu/<cale>` → `/<cale>` (`applied/redirects/ro-hu-redirects.csv`) | live | `/ro-hu` → 301 `/`; `/ro-hu/collections/creatina` → 301; `sitemap.xml` fără `ro-hu`; homepage fără hreflang `ro-HU`; 575 reguli în Admin |
 | URL-uri vechi WooCommerce | Toate cele 25 de reguli `/categorie-produs/*` trimit direct la colecția finală (un singur hop); reguli noi pentru căile din `legacy-redirects.csv` | live | `/categorie-produs/suplimente/` → 301 `/collections/suplimente-sala` (200) |
+| Lanțuri de redirect după consolidare | 324 dintre regulile `/ro-hu/<cale>` trimiteau la articole sau produse care între timp au fost redirecționate (consolidarea blogului, handle-uri noi), deci vizitatorul și Googlebot treceau prin 2–3 hop-uri. Toate cele 324 au fost reîndreptate direct spre destinația finală (articol, colecție sau produs) | live | 25 de URL-uri alese aleator: fiecare = un singur 301 → 200 pe destinația finală; 0 erori la cele 324 de actualizări |
 | Pagini și entitate | Pagina de autor `/pages/autor-marius-chera` (antrenor de culturism, fondator); termenii mutați pe handle ASCII `/pages/termeni-si-conditii` (301 de pe vechiul URL); numele firmei corectat în politica de cookie-uri; titlurile paginilor de confidențialitate și plată corectate; blogul redenumit „Blog despre suplimente și antrenament” cu H1 „Ghiduri despre suplimente” și meta description; colecția „All Products” → „Toate produsele” | live | titlurile și H1 citite live |
 | Consolidarea blogului | 355 → 121 articole publicate: 233 duplicate depublicate, 234 redirecturi 301 către articolul păstrat / colecție / produs; 121 articole retitrate (≤ 60 caractere, fără „2026”), 92 mutate pe handle-uri românești ASCII (301 automat), etichete `hub:` / `intent:` / temă pe toate, autor unic „Marius Chera”; `custom.hub_articles` pe 11 colecții | live (+ blocul de ghiduri pe colecții în tema de test) | handle vechi → 301 → handle nou 200 cu H1 nou |
-| Corpurile articolelor (121) | Reparate și importate: fără scripturi, JSON-LD, linkuri myshopify, „Published:”, „Powered by BlogGenAuto”; linkurile `/cart/<id>:1` → pagina produsului; etichete românești („Pe scurt”, „Cuprins”, „Întrebări frecvente”); fără ani-momeală, branduri concurente, fragmente englezești, statistici inventate sau afirmații medicale neautorizate; deschidere cu răspunsul; disclaimer medical; autor cu link la pagina de autor | live | vezi §4 (importul este verificat articol cu articol prin sha256) |
+| Corpurile articolelor (121) | Reparate și importate: fără scripturi, JSON-LD, linkuri myshopify, „Published:”, „Powered by BlogGenAuto”; linkurile `/cart/<id>:1` → pagina produsului; etichete românești („Pe scurt”, „Cuprins”, „Întrebări frecvente”); fără ani-momeală, branduri concurente, fragmente englezești, statistici inventate sau afirmații medicale neautorizate; deschidere cu răspunsul; disclaimer medical; autor cu link la pagina de autor; titlurile imbricate greșit de generator (`<h2>Titlu<h2></h2></h2>`, 1 658 de cazuri în 84 de articole) închise corect, cu textul neschimbat; imaginile din corp cu alt text și lățime cerută de la CDN | live | vezi §4 (fiecare corp citit înapoi din Admin și comparat cu fișierul local, plus verificare pe storefront) |
+| Autor și linkuri în articole (13.10, după verificare) | Toate cele 121 de articole au aceeași casetă de autor: numele trimite la `/pages/autor-marius-chera` (3 articole îl trimiteau la homepage), aceeași descriere verificabilă („antrenor de culturism, fondatorul Prime Supplements”), fără „nutriționist sportiv”, „Biohacking” sau „la rang de artă” (3 variante vechi înlocuite), alt-ul fotografiei fără „nutritionist”; 2 articole fără casetă de autor au primit-o (`bcaa-vs-eaa`, `glicerol-culturism-pompare-musculara`). Ultimul link WooCommerce rămas într-un corp (`/produs/glycerol-max-pump…?customize_changeset_uuid=`) trimite direct la produs. În `ce-este-un-pre-workout-fara-cofeina` titlurile amestecate de generator (H2 în interiorul unei liste) au fost reordonate fără schimbarea textului; un H4 gol scos din articolul Combat PRO | live | toate cele 157 de linkuri interne unice din corpuri răspund 200 direct; textul vizibil complet, toate linkurile și alt-urile fiecărui corp regăsite pe storefront |
 | Articole noi | 11 articole documentate cu surse reale (PubMed/PMC, EFSA, Regulamentul UE 432/2012), create ca **ciorne nepublicate** | live, nepublicate | Admin → Conținut → Postări blog → filtrul „Ascunse” |
-| Produse (195) | Titluri românești (= H1), descriere completă, tab-urile „Beneficii cheie” / „Despre produs” / „Ingrediente” / „Detalii produs” completate pe toate, secțiune SEO pe 81; doar mențiuni de sănătate autorizate UE + avertismentele obligatorii pentru suplimente; pe cele 5 produse cu creatină, mențiunea folosește formularea exactă din Regulamentul 432/2012 („Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate”, efect la 3 g/zi) | live | 193/195 verificate pe storefront (2 pachete sunt nelistate); exemplu: H1 `/products/creatina-creapure` = „Creatină monohidrat micronizată Creapure®” |
+| Produse (195) | Titluri românești (= H1), descriere completă, tab-urile „Beneficii cheie” / „Despre produs” / „Ingrediente” / „Detalii produs” completate pe toate, secțiune SEO pe 81; doar mențiuni de sănătate autorizate UE + avertismentele obligatorii pentru suplimente; pe cele 5 produse cu creatină, mențiunea folosește formularea exactă din Regulamentul 432/2012 („Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate”, efect la 3 g/zi) | live | 193/195 verificate pe storefront (2 pachete sunt în starea Ciornă și au fost verificate în Admin); exemplu: H1 `/products/creatina-creapure` = „Creatină monohidrat micronizată Creapure®” |
 | Imagini de temă | Alt text românesc pe 52 de fișiere de temă/secțiuni și 150 de imagini din Content → Files | live | homepage și cele 23 de colecții: 0 `<img>` cu alt gol |
+| Colecții și pagini duplicate | `seo.hidden` = 1 pe colecțiile `frontpage`, `all`, `11-tva`, `cele-mai-vandute`, `lansate-recent`, `reduceri` și pe pagina B2B `thank-you`: Shopify emite `noindex,nofollow` și le scoate din sitemap. Paginile rămân accesibile din meniu, aspectul nu se schimbă | live | `/collections/all` → `<meta name="robots" content="noindex,nofollow">`; `sitemap_collections_1.xml` și `sitemap_pages_1.xml` nu le mai conțin |
+| Rezumatele articolelor (excerpt) | Cele 121 de articole au acum un rezumat de o frază sau două, luat din deschiderea articolului (textul pe care cardurile îl afișau deja), fără rânduri noi. Efecte: blocul Article din JSON-LD-ul temei live devine valid (tema live folosește `escape`, iar corpurile începeau cu rânduri noi); rezumatele vechi BlogGenAuto, cu ani-momeală și afirmații de sănătate („restabili energia… în 2026”), au dispărut din carduri și din feed | live | `/blogs/news/alpinia-galanga-beneficii`: Article JSON-LD parsat valid; `applied/article-excerpts/summaries.json` |
+| Meniuri și titluri de colecție | Diacritice în meniurile principal, desktop și footer („Băuturi”, „Creatină”, „Cremă de orez”, „Înregistrare B2B”, „Politica de plată”, „Politica de confidențialitate”) și în titlurile colecțiilor Băuturi, Creatină, Cremă de orez (H1); linkul „Înregistrare B2B” din footer duce acum la pagina de pe domeniul principal (`/pages/inregistrare-b2b`, cu formularul), nu la copia de pe `b2b.primesupplements.ro` (fără formular) | live | meniurile citite înapoi din Admin; handle-urile și titlurile SEO neschimbate |
+| Brand Frutilu | Vendor „Frutilu” pe cele 19 băuturi instant (era „Prime Supplements”; descrierile spuneau deja „Brand: Frutilu”, codurile de bare 859 = Cehia) | live | Admin, `vendor` citit înapoi |
+| Descrieri de produs și JSON-LD-ul temei live | Tema live pune primele 500 de caractere din descriere în JSON-LD cu filtrul `escape`, care lasă rândurile noi neescapate. Descrierile din runda 2 aveau rânduri noi între paragrafe, deci blocul Product devenise JSON invalid. Descrierile au fost rescrise fără rând nou între taguri (`</p> <p>`), cu textul și afișarea identice | live | text normalizat identic cu runda 2; JSON-LD Product parsat valid pe paginile verificate (§4) |
 | Tema de test v2 | noindex pe URL-urile filtrate pe tag; robots.txt = copia exactă a celui live + `Content-Signal`; schema pentru ContactPage/AboutPage/ProfilePage; fondator (Person) legat în Organization; autorul articolelor cu `@id` și pagină; GTIN emis doar dacă trece cifra de control GS1; `aria-label` pe navigație și selectorul de țară; preload/fetchpriority corecte pe imaginea principală de articol și galerie; adresa din footer → `/pages/contact`, telefon `tel:`, link ANPC SAL, WhatsApp direct `wa.me/40775286584`; titluri de secțiune corectate („S-ar putea să-ți placă”, „Vezi toate”); blocul de articole din colecții arată ghidurile hub-ului; textele paginilor Despre noi și Contact (diacritice, date de identificare, NAP) | tema de test | preview + `theme-fixes/` |
+| Tema de test, corecturi după verificarea adversarială | robots.txt fără paragraful de reclamă adresat agenților AI pe care Shopify îl pune în comentarii (shop.app, ToS, e-mail); `og:image:width/height` = dimensiunile reale ale imaginii trimise (max. 2048), `twitter:card` = `summary_large_image`; logo-ul din Organization și din publisher-ul Article mutat de pe `logo-prime-supplements.png` (404) pe `logo-prime-negru.svg` (200); `vatID` RO46260823 în Organization; în footer o singură formă de NAP (PRIME SPORT SUPPLEMENTS SRL, CUI, J32/1155/2022, telefon, adresa completă); logo-ul din header cu alt gol + numele magazinului în textul pentru cititoarele de ecran (nu mai dublează H1-ul); `aria-label` distinct pe navigația secundară; greșeli de diacritice în textele temei („ã” → „ă”, „ş” → „ș”: bara de anunțuri, popup-ul de newsletter, titlurile „Vitamine și minerale” / „Arzătoare de grăsimi” din lista de colecții a celor 15 șabloane de colecție, homepage, etichetele de checkout, pagina B2B de confirmare, „vei primi”, „cele mai bune produse”) | tema de test | checksum MD5 al fiecărui fișier citit înapoi = fișierul local; testul offline de randare JSON-LD (`theme-fixes/test_render.py`) trece |
 
 ### 2. Starea constatărilor după runda 2
 
@@ -5858,8 +5864,8 @@ Doar constatările a căror stare s-a schimbat. Restul își păstrează starea 
 | INTERNATIONAL-05 | PENDING | PARȚIAL | Selectorul de țară mai listează „Ungaria” (piața există fără domeniu): Settings → Markets → Ungaria → dezactivează |
 | INTERNATIONAL-04 | PENDING | PROPRIETAR | Zona de livrare Ungaria (tarife în HUF) rămâne de șters în Settings → Shipping |
 | IMAGES-05 | PENDING | PARȚIAL | Dublarea prin `/ro-hu` a dispărut; sitemap-ul de imagini rămâne generat de platformă |
-| SXO-04 | OPEN | PARȚIAL | Redirecturile legacy într-un singur hop; rămâne GSC → Removals pentru rezultatele vechi |
-| TECH-17 / SITEMAP-12 | OPEN | PARȚIAL | Termenii au acum handle ASCII; celelalte handle-uri cu diacritice nu au fost redenumite (ar schimba URL-uri de produs indexate) |
+| SXO-04 | OPEN | FIXED-R2 | Redirecturile legacy într-un singur hop. Nu se folosește GSC → Removals pentru URL-urile redirecționate (ar ascunde temporar și varianta nouă); Google actualizează singur rezultatele prin 301 |
+| TECH-17 / SITEMAP-12 · INTERNATIONAL-08 | OPEN | FIXED-R2 | Niciun URL indexabil nu mai are diacritice: termenii sunt pe handle ASCII (301 de pe vechiul URL), iar cele 2 pachete cu „®” în handle sunt în starea Ciornă. Cele 4 sitemap-uri (186 produse, 10 pagini, 17 colecții, 121 articole) conțin doar URL-uri ASCII, deci canonical-ul și sitemap-ul nu mai pot diferi prin capitalizarea hex. Dacă pachetele revin publicate, handle-ul lor trebuie făcut ASCII |
 | CONTENT-04 · GEO-06 | PENDING | FIXED-R2 | Pagina de autor, autor unic pe toate articolele, acreditare reală („antrenor de culturism”) în loc de „Nutriționist certificat” neverificabil; schema Person legată READY-R2 |
 | AUTHORITY-10 | READY | FIXED-R2 + READY-R2 | Pagina de autor live; markup-ul în tema de test |
 | LOCAL-04 | OPEN | PARȚIAL | Firma inexistentă din politica de cookie-uri corectată; NAP-ul canonic din footer în tema de test |
@@ -5869,19 +5875,22 @@ Doar constatările a căror stare s-a schimbat. Restul își păstrează starea 
 | ONPAGE-13 · CLUSTER-07 | PENDING / OPEN | FIXED-R2 | Numele concurenților scoase din titluri, handle-uri și corpuri |
 | TECH-18 · CONTENT-13 / CLUSTER-06 | PENDING / OPEN | FIXED-R2 | 92 handle-uri curate; regenerările „-2…-5” și fragmentele englezești ies prin redirect |
 | ONPAGE-11 | OPEN | FIXED-R2 | 121 titluri/H1 noi, ≤ 60 caractere, fără an |
-| CONTENT-14 / CLUSTER-10 | OPEN | PARȚIAL | Etichete pe toate articolele + titlu de blog; navigarea pe hub-uri devine vizibilă la publicarea temei; paginarea arhivei = DESIGN |
-| CLUSTER-02 | OPEN | READY-R2 | Fiecare colecție arată ghidurile propriului hub (`custom.hub_articles` live, secțiunea în tema de test) |
+| CONTENT-14 / CLUSTER-10 | OPEN | PARȚIAL | Fiecare articol are o singură etichetă de temă, în română (11 în total: Creatină, Proteine, Aminoacizi, Pre-workout, Arzătoare de grăsimi, Vitamine și minerale, Sănătate, Alimente, Cremă de orez, Batoane proteice, Echipament și haine); titlu și H1 de blog. Corectură după verificare: etichetele interne de lucru din runda 2 (`hub:`, `intent:`, `produs:`) și eticheta „Blog 2025” apăreau ca 180 de butoane de filtrare pe `/blogs/news` (fiecare cu o pagină `/tagged/` indexabilă); au fost scoase de pe toate cele 121 de articole, iar bara de filtre afișează acum 11 teme (verificat live). Paginile `/tagged/*` primesc noindex în tema de test; paginarea arhivei = DESIGN |
+| CLUSTER-08 | OPEN | FIXED-R2 | Fiecare dintre cele 121 de articole are acum un link din corp către colecția hub-ului său (12 colecții: vitamine și minerale 18, aminoacizi 17, Prime Health 17, pudră proteică 14, arzătoare 12, pre-workout 11, creatină 11, alimente sănătoase 9, intra-workout 5, batoane 3, cremă de orez 3, MNX 1). La 62 de articole s-a adăugat o frază de final („Mai multe produse din această categorie găsești în colecția …”), la celelalte linkul exista deja; 17 linkuri generice spre „Cele mai vândute” (acum noindex) au fost mutate pe colecția hub-ului. Verificat pe storefront: linkul există în corpul publicat, pe toate cele 121 |
+| CLUSTER-02 | OPEN | READY-R2 | Fiecare colecție arată ghidurile propriului hub (`custom.hub_articles` live, secțiunea în tema de test). Corectură după verificare: colecția Intra-workout are acum propria listă (5 ghiduri); pe Pudră proteică și Aminoacizi primele poziții sunt comparațiile-pilon `izolat-vs-concentrat-proteic` și `bcaa-vs-eaa` (fără linkuri interne până acum); lista Pre-workout conține doar ghiduri de pre-workout |
 | SITEMAP-15 | PENDING | PARȚIAL | 708 → 121 articole generate automat în sitemap; restul calității editoriale ține de proprietar |
-| CONTENT-01 | PENDING | PARȚIAL | Volumul a scăzut de la 355 la 121 de articole, toate reparate, cu disclaimer și autor real; **BlogGenAuto trebuie oprit** de proprietar, altfel generează articole noi |
+| CONTENT-01 | PENDING | PARȚIAL | Volumul a scăzut de la 355 la 121 de articole, toate reparate, cu disclaimer și autor real; BlogGenAuto a fost dezinstalat (13.10), deci nu mai generează articole |
 | SXO-01 | PENDING | PARȚIAL | Canibalizarea dintre articole a dispărut; ca pagina de colecție să câștige, ajută publicarea temei + autoritate |
 | CONTENT-09 · ONPAGE-16 · AUTHORITY-05 · AUTHORITY-06 · ECOMMERCE-19 · GEO-12 | READY | FIXED-R2 | Linkurile myshopify, „Powered by”, `/cart/` și linkurile moarte eliminate din sursă, nu doar la afișare |
-| TECH-13 / SHOPIFY-07 · SCHEMA-04 | PENDING | FIXED-R2 | Scripturile și graful JSON-LD BlogGenAuto scoase din corpuri (prevenirea pe viitor = oprirea BlogGenAuto) |
+| TECH-13 / SHOPIFY-07 · SCHEMA-04 | PENDING | FIXED-R2 | Scripturile și graful JSON-LD BlogGenAuto scoase din corpuri (BlogGenAuto este dezinstalat, deci nu mai apar altele noi) |
 | CONTENT-11 · ONPAGE-14 | READY / PENDING | FIXED-R2 | Un singur H1 (titlul temei), fără linia „Published:” |
 | CONTENT-10 · GEO-02 | OPEN | FIXED-R2 | Datele fabricate „Published / Updated” scoase; rămân datele reale Shopify |
 | CONTENT-03 · GEO-07 · GEO-09 | OPEN / PENDING | FIXED-R2 | Disclaimer medical, afirmații medicale neautorizate și statistici inventate scoase, răspunsul în primul paragraf |
 | CONTENT-17 | OPEN | FIXED-R2 | „Key Takeaways”, „Table of Contents”, „FAQ” traduse |
 | CONTENT-02 / GEO-01 · AUTHORITY-14 | OPEN | PARȚIAL | Linkurile decorative spre homepage-uri scoase; citări reale în cele 11 articole noi; articolele vechi nu au citări (muncă editorială) |
 | GEO-10 · GEO-11 · SXO-10 · CLUSTER-11 | OPEN / PENDING | PARȚIAL | FAQ-urile clinice și markerii de generare reduși; linkurile spre articole redirecționate rescrise; traseul spre produs = linkuri directe spre pagina produsului |
+| CONTENT-16 / CLUSTER-15 | OPEN | PARȚIAL | Stub-ul de 73 de cuvinte redirecționat, handle-urile ASCII și caseta de autor pe articolele vechi păstrate; îmbogățirea lor cu experiență directă rămâne muncă editorială |
+| CONTENT-03 (produse) | FIXED-R2 | FIXED-R2 | Verificare suplimentară: pe toate cele 49 de suplimente, mențiunile obligatorii (supliment alimentar, nu înlocuiește o dietă variată, a nu se depăși doza, a nu se lăsa la îndemâna copiilor) sunt vizibile în tab-ul „Despre produs”. Singurul produs pe alt șablon (`creatina-monohidrat-micronized-300g-fara-aroma`, șablonul `creatina2`, unde „Despre produs” e text fix al temei) le are acum în tab-ul „Detalii produs” |
 | CLUSTER-14 · CLUSTER-09 | OPEN | PROPRIETAR | 11 articole noi pentru hub-urile goale (băuturi ×2, batoane, cremă de orez ×2, pre-workout ×2, aminoacizi, vitamine și minerale, proteine, creatină), ciorne care așteaptă revizia și publicarea |
 | ECOMMERCE-07 · CONTENT-06 · GEO-04 | OPEN | FIXED-R2 | Tab-urile de produs completate pe 195/195, definiția în primul paragraf, doar mențiuni autorizate |
 | ONPAGE-06 · ECOMMERCE-09 · ONPAGE-07 | OPEN | FIXED-R2 | Titluri românești cu diacritice (= H1) pe 195 produse |
@@ -5898,25 +5907,141 @@ Doar constatările a căror stare s-a schimbat. Restul își păstrează starea 
 | CONTENT-15 · LOCAL-08 | OPEN | READY-R2 | Texte Despre noi / Contact cu date de identificare, NAP, diacritice, link la autor (H1-ul vizibil = DESIGN) |
 | AGENTIC-08 | OPEN | READY-R2 | Nume accesibil pe selectorul de țară |
 | AGENTIC-09 · TECH-21 · ONPAGE-22 · ECOMMERCE-15 · ECOMMERCE-22 | OPEN | PARȚIAL (READY-R2) | `aria-label` pe navigație; dns-prefetch retras; greșelile din titlurile de secțiune; blocul de blog pe colecție specific hub-ului |
-| IMAGES-12 | OPEN | READY-R2 | Preload doar pentru galeria din primele secțiuni |
+| IMAGES-12 | OPEN | READY-R2 | Preload doar pentru galeria din primele secțiuni; un slideshow aflat mai jos în pagină (convenția temei: secțiunea a 4-a sau mai jos) nu mai cere imaginea cu `loading="eager"` + `fetchpriority="high"` (pe `/pages/despre-noi`, al doilea banner PNG de 4000 px se încărca odată cu primul) |
 | PERFORMANCE-13 · IMAGES-08 | OPEN | PARȚIAL (READY-R2) | `fetchpriority="high"` + `loading="eager"` pe imaginea principală a articolului |
 | ECOMMERCE-05 | PENDING | PARȚIAL (READY-R2) | Codurile de bare invalide nu mai sunt publicate ca `gtin`; completarea GTIN-urilor = PROPRIETAR |
 | SCHEMA-06 | READY | READY-R2 | Pagina de termeni aliniată cu politica de livrare (20 RON, gratuit peste 300 RON, 24–72 ore), deci markup-ul nu mai contrazice paginile |
+| TECH-03 / SITEMAP-04 / SHOPIFY-06 | READY | FIXED-R2 | `seo.hidden` pe cele 6 colecții utilitare/duplicate: noindex live și scoase din sitemap, fără să aștepte publicarea temei |
+| TECH-05 / SITEMAP-05 · ONPAGE-09 · SXO-15 | READY | FIXED-R2 | „Reduceri” (goală), „Toate produsele”, „11% TVA”, „Cele mai vândute”, „Lansate recent” și `frontpage` nu mai sunt indexabile și au ieșit din sitemap (`seo.hidden`); titlurile/meta celorlalte colecții erau scrise din runda 1 |
+| ONPAGE-21 · SXO-13 | PENDING / OPEN | PARȚIAL | Rezolvate: titlurile de produs în română (H1), „All Products” → „Toate produsele”, linia „Published:” și „Key Takeaways” scoase din articole, pagina „Thank you” scoasă din index, bara de anunț corectată (tema de test). Rămân șirurile widget-ului Judge.me („Customer Reviews”, „Write a review”, „No reviews”, „Let customers speak for us”): se traduc din aplicație, Judge.me → Settings → Translations (PROPRIETAR) |
+| TECH-06 / SITEMAP-06 | READY | FIXED-R2 | `seo.hidden` pe `/pages/thank-you`: noindex live, scoasă din sitemap |
+| ECOMMERCE-04 | FIXED | FIXED + R2 | Vendor „Frutilu” pe cele 19 băuturi instant Frutilu |
+| AGENTIC-05 | OPEN | READY-R2 | Paragraful Shopify adresat agenților scos din robots.txt-ul temei de test; `llms.txt` / `agents.md` sunt generate de platformă și nu pot fi editate din temă |
+| IMAGES-06 · INTERNATIONAL-09 | READY | READY-R2 | Dimensiunile `og:image` declarate = dimensiunile imaginii servite; `summary_large_image`; `og:locale` = `ro_RO`; `twitter:title` escapat pe articole și colecții |
+| LOCAL-01 · SCHEMA-08 | READY | READY-R2 | Logo Organization pe un fișier care există (SVG, 200), `vatID` adăugat |
+| SCHEMA-01 | READY | FIXED-R2 (+ READY-R2) | Blocul Product al temei live este acum JSON valid pe 188/188 pagini de produs publicate, fără să aștepte tema: descrierile nu mai au rânduri noi în primele 500 de caractere (vezi §1). Corectura de cod (filtrul `json`) rămâne în tema de test, pentru orice descriere scrisă pe viitor din editor |
+| SCHEMA-05 | READY | FIXED-R2 + READY-R2 | Blocul Article al temei live este JSON valid prin rezumatele de o linie (vezi §1). Logo-ul publisher-ului mutat pe SVG-ul existent (vechiul PNG răspunde 404) și autorul Person sunt în tema de test |
+| LOCAL-04 | OPEN → PARȚIAL | PARȚIAL (READY-R2) | Footer-ul temei de test are acum o singură formă de NAP; profilul magazinului (Setări → General) rămâne la proprietar |
+| IMAGES-07 | OPEN | FIXED-R2 | În corpurile celor 121 de articole: 32 de alt-uri goale completate, 538 de imagini cerute de la CDN la lățimea afișată (nu originalul de 4000 px), 1 imagine ruptă scoasă; alt text pe 13 imagini principale de articol |
+| ECOMMERCE-01 · SCHEMA-02 · SCHEMA-10 | READY | READY-R2 | Rafinări ale blocului Product din tema de test după verificare: politica de retur declară `ReturnFeesCustomerResponsibility` (pagina de retur: clientul suportă costul direct al returnării); `sku`/`gtin` la nivel de produs doar pentru produsele cu o singură variantă (la celelalte fiecare Offer are codul lui); Offer fără nume „Default Title”; descrierea nu mai lipește cuvintele separate doar de taguri („Mod de administrare După…”); aceeași corectură în blocul Article |
+| GEO-08 · SCHEMA-15 | OPEN | READY-R2 | Blocul FAQPage ascuns de pe cele 3 produse cu creatină (8 întrebări vizibile doar în JSON-LD, fără diacritice, cu afirmații de sănătate neautorizate) nu mai este emis; FAQ-ul vizibil de pe homepage rămâne, cu markup-ul lui. Originalul este în `theme-fixes/snippets/faq-schema-creatina.orig.liquid` |
+| TECH-10 · AGENTIC-11 | READY | DESIGN | Scoaterea `maximum-scale` a fost retrasă din tema de test: pe iPhone ar mări pagina la atingerea câmpurilor sub 16 px (cantitate, căutare, newsletter), o schimbare vizibilă. Viewport-ul rămâne identic cu cel live; decizia (împreună cu textul de 16 px în câmpuri) este a proprietarului |
+| SHOPIFY-08 | OPEN | PARȚIAL | Cele 2 pachete fără conținut propriu (`pachet-nitrox3d-creatina-creapure®`, `fiber-creatina-creapure®`) sunt în starea Ciornă (Draft), nu apar pe storefront; pachetul Thermo Core + Water Out este nelistat și încă recomandat în 2 articole (vezi PROPRIETAR) |
 
 ### 3. Lăsate neatinse intenționat
 
-**DESIGN (instrucțiunea proprietarului):** VISUAL-01 (layout banner cookie, setare Pandectes), VISUAL-02 (bara sticky „Adaugă în coș”), VISUAL-03 (H1 pe hero), VISUAL-05 (poziția bulei WhatsApp), PERFORMANCE-05 / IMAGES-11 / SXO-07 / SXO-11 (secțiunile și ordinea homepage-ului), TECH-12 / PERFORMANCE-01 (fonturile Fontify), PERFORMANCE-14 (autoplay slideshow), TECH-04 / ONPAGE-15 (paginarea arhivei de blog), TECH-27 (H1 pe pagina 404), ECOMMERCE-08 / ONPAGE-26 / SCHEMA-18 (unirea variantelor de culoare/aromă: schimbă pagini și URL-uri).
+**DESIGN (instrucțiunea proprietarului):** VISUAL-01 (layout banner cookie, setare Pandectes; separat, primul ecran nu are buton de refuz, o problemă de conformitate GDPR pentru proprietar), TECH-10 / AGENTIC-11 (zoom-ul pe mobil, vezi §2), VISUAL-02 (bara sticky „Adaugă în coș”), VISUAL-03 (H1 pe hero), VISUAL-05 (poziția bulei WhatsApp), PERFORMANCE-05 / IMAGES-11 / SXO-07 / SXO-11 (secțiunile și ordinea homepage-ului), TECH-12 / PERFORMANCE-01 (fonturile Fontify), PERFORMANCE-14 (autoplay slideshow), TECH-04 / ONPAGE-15 (paginarea arhivei de blog), TECH-27 (H1 pe pagina 404), ECOMMERCE-08 / ONPAGE-26 / SCHEMA-18 (unirea variantelor de culoare/aromă: schimbă pagini și URL-uri).
 
 **Risc comercial sau legal, nu doar SEO:** SCHEMA-19 (preț tăiat în markup: 120 de produse au compare-at permanent, iar afișarea lui ca reducere ridică riscul Omnibus), ECOMMERCE-11 / SXO-14 (regula colecției „Reduceri”: aceeași problemă), ștergerea codurilor de bare invalide (pot fi folosite la scanare în depozit), redenumirea fișierelor de imagine (IMAGES-04).
 
-**Doar proprietarul:** publicarea temei de test (și reactivarea embed-ului Koala Gifts, vezi §5), oprirea BlogGenAuto, parola pe B2B, GTIN-urile, Google Search Console / Bing, traducerile Judge.me (ONPAGE-21), dezactivarea pieței Ungaria și a zonei de livrare HU, adresa din profilul magazinului (LOCAL-05), revizia și publicarea celor 11 articole noi.
+**Doar proprietarul:** publicarea temei de test (nu trebuie reactivat niciun embed, vezi §5), parola pe B2B, GTIN-urile, Google Search Console / Bing, traducerile Judge.me (ONPAGE-21), dezactivarea pieței Ungaria și a zonei de livrare HU, adresa din profilul magazinului (LOCAL-05), revizia și publicarea celor 11 articole noi.
 
 ### 4. Verificări înainte de a marca
 
-- Toate cele 195 de produse au fost scrise cu `productUpdate`; 193 verificate pe storefront (titlu, descriere și fiecare text de tab prezent în HTML). Cele 2 pachete nelistate (`pachet-nitrox3d-creatina-creapure®`, `fiber-creatina-creapure®`) au fost verificate prin Admin. 20 de scrieri respinse de filtrul de siguranță al agenților au fost refăcute manual și verificate la fel.
+- Toate cele 195 de produse au fost scrise cu `productUpdate`; 193 verificate pe storefront (titlu, descriere și fiecare text de tab prezent în HTML). Cele 2 pachete în starea Ciornă (`pachet-nitrox3d-creatina-creapure®`, `fiber-creatina-creapure®`) au fost verificate prin Admin. 20 de scrieri respinse de filtrul de siguranță al agenților au fost refăcute manual și verificate la fel.
 - Corpurile articolelor: fiecare corp reparat a trecut validatorul `import/validate.py` (echilibru HTML nu mai rău decât înainte, 0 myshopify / BlogGenAuto / „Published:” / script / JSON-LD / `/cart/` / H1, toate linkurile interne spre articole păstrate, produse active sau colecții existente, imaginile, tabelele și caseta de autor păstrate, cu excepția secțiunilor scoase motivat: secțiunea „Nattokinaza vs. Aspirină”, tabelele cu procente nesusținute din articolul despre magneziu glicinat și secțiunea off-topic din articolul despre momentul proteinei). Importul este verificat prin sha256 al corpului citit înapoi.
 - Cele 11 articole noi: corpul citit înapoi din Admin comparat cu fișierul local; toate linkurile interne verificate 200 fără redirect.
+- Toate cele 121 de articole publicate, verificate pe storefront pe 13.10.2026 după import (`applied/article-bodies/live-check-2026-10-13.txt`, scriptul `scripts/import/check_all.py`): textul vizibil complet al corpului final, fiecare link și fiecare alt text regăsite în pagină; linkul către colecția hub-ului prezent; numele autorului trimite la `/pages/autor-marius-chera`; 0 linkuri LinkedIn, myshopify, BlogGenAuto, „Published:” sau `/cart/`; disclaimerul medical prezent. Rezultat: 121/121. Cele 157 de linkuri interne unice din corpuri răspund 200 fără redirect.
 
 ### 5. Atenție la publicarea temei de test
 
-Shopify a eliminat la scrierea prin API trei embed-uri de aplicații din `config/settings_data.json` al temei de test: Koala Gifts (activ pe tema live), urmărirea BlogGenAuto și un embed PageFly orfan. **Înainte de „Publică”: Customize → App embeds → pornește „Koala Gifts”** (și BlogGenAuto doar dacă aplicația rămâne). Blocul YouTube orfan din șablonul de produs a dispărut tot atunci (nu se randa oricum).
+Shopify a eliminat la scrierea prin API trei embed-uri de aplicații din `config/settings_data.json` al temei de test: Koala Gifts, urmărirea BlogGenAuto și un embed PageFly orfan (plus blocul YouTube orfan din șablonul de produs). Între timp, toate aceste aplicații au fost dezinstalate din magazin (lista de aplicații instalate din 13.10 nu le mai conține), iar tema live afișează pentru ele erori ascunse „Failed to render app block … does not exist”. Tema de test este deci deja curată; nu trebuie reactivat nimic. Dacă oferta de cadouri trece pe Wi BOGO+, verifică în previzualizare coșul.
+
+## Anexa V. Verificarea adversarială (13.10.2026)
+
+Fiecare raport de specialist a fost reluat de doi verificatori independenți, care nu au văzut concluziile celuilalt:
+
+- **reproduce**: refac dovada pe site-ul live (13.10.2026) și în datele capturate, cifră cu cifră;
+- **impact**: judecă efectul real în Google, siguranța remedierii propuse și dacă remedierile din runda 2 țin pe site-ul live.
+
+O constatare este **confirmată** când ambii verificatori o confirmă, **parțial confirmată** când cel puțin unul corectează severitatea, dovada sau recomandarea, și **infirmată** când verificatorul „reproduce” o infirmă (sau „impact” o infirmă fără ca „reproduce” să o confirme). Severitățile propuse de verificatori sunt în `data/specialist-results.json`; tabelul de constatări păstrează severitatea specialistului.
+
+**Rezultat:** 287 constatări verificate: 101 confirmate, 179 parțial confirmate, 7 infirmate. Severitate ridicată la 0, coborâtă la 134: verificatorii au judecat și starea de după runda 2, deci multe probleme deja remediate primesc o severitate mai mică, iar când cei doi verificatori propun severități diferite se păstrează cea mai mică.
+
+**Remedierile din runda 2, verificate live:** 265 țin, 85 țin parțial, 6 nu țineau la momentul verificării (toate tratate, vezi mai jos); 218 verificări nu se aplicau (constatări fără remediere în runda 2).
+
+| Specialist | Constatări | Confirmate | Parțial | Infirmate | Neverificate | Scor specialist (12.10) | Scorul verificatorului „impact” (13.10, după runda 2) |
+|---|---|---|---|---|---|---|---|
+| technical | 28 | 13 | 15 | 0 | 0 | 52 | 66 |
+| schema | 20 | 10 | 10 | 0 | 0 | 18 | 30 |
+| sitemap | 15 | 8 | 7 | 0 | 0 | 52 | 76 |
+| international | 10 | 3 | 7 | 0 | 0 | 30 | 80 |
+| cluster | 17 | 7 | 10 | 0 | 0 | 24 | 57 |
+| content | 18 | 10 | 8 | 0 | 0 | 29 | 58 |
+| images | 17 | 5 | 11 | 1 | 0 | 42 | 70 |
+| performance | 17 | 2 | 15 | 0 | 0 | 40 | 45 |
+| geo | 18 | 5 | 12 | 1 | 0 | 50 | 66 |
+| sxo | 16 | 4 | 11 | 1 | 0 | 22 | 42 |
+| ecommerce | 24 | 11 | 13 | 0 | 0 | 30 | 55 |
+| authority | 16 | 4 | 11 | 1 | 0 | 18 | 27 |
+| local | 13 | 5 | 8 | 0 | 0 | 26 | 48 |
+| visual | 5 | 1 | 4 | 0 | 0 | 48 | 62 |
+| shopify-config | 8 | 1 | 6 | 1 | 0 | 45 | 72 |
+| onpage | 28 | 8 | 20 | 0 | 0 | 36 | 72 |
+| agentic | 17 | 4 | 11 | 2 | 0 | 58 | 68 |
+
+Infirmate: IMAGES-17, GEO-14, SXO-14, AUTHORITY-04, SHOPIFY-08, AGENTIC-10, AGENTIC-17.
+
+Cu ponderile din capitolul de început, scorurile verificatorilor (Tehnic 66, Conținut 58, On-page 72, Schema 30, Performanță 45, AI Search 66, Imagini 70) dau 14,52 + 13,34 + 14,40 + 3,00 + 4,50 + 6,60 + 3,50 = **59,86 ≈ 60/100**, adică aceeași valoare ca estimarea live din capitolul de început.
+
+### Constatări infirmate și de ce
+
+- **SHOPIFY-08** (partea de SEO): Shopify pune singur `noindex,nofollow` pe produsele cu starea „Nelistat”, deci ele nu sunt indexabile. Rămâne doar partea practică: pachetul Thermo Core + Water Out, nelistat, este încă recomandat în 2 articole (la proprietar). Cele 2 pachete Creapure sunt în starea Ciornă, nu „nelistate”; formularea din `round2-status.md` a fost corectată.
+- **AGENTIC-10**: tema folosește titlul produsului ca text alternativ când câmpul alt din Admin este gol, deci fotografiile de produs aveau deja nume în arborele de accesibilitate. Alt-urile au fost oricum completate în runda 1.
+- **AGENTIC-17**: constatarea descria o limită a mediului de test (overlay-urile nu au putut fi randate), nu o problemă observată pe site.
+- **IMAGES-17**: era o constatare-umbrelă care repeta IMAGES-01, -04, -05 și -09.
+- **AUTHORITY-04**: dovezile descriau mediul de audit (lipsa cheilor Moz/Bing și a accesului GSC/GA4), nu site-ul. Rămâne o limită a auditului, nu o problemă a magazinului.
+- **SXO-14**: secțiunea „Reduceri” de pe homepage nu duce la colecția goală `/collections/reduceri`, ci la „Cele mai vândute”. Eticheta înșelătoare a secțiunii rămâne de schimbat de proprietar (`OWNER-HANDOVER.md`).
+- **GEO-14** (constatarea specialistului GEO): blocarea fetcherelor AI de către protecția anti-bot nu a fost reprodusă cu niciun user-agent de AI; paginile 429 salvate în audit provin din rafalele de cereri ale mediului de audit. Perechea AGENTIC-03 rămâne doar ca risc de urmărit în loguri, nu ca defect constatat.
+
+### Remedieri din runda 2 care nu țineau la verificare și ce s-a făcut
+
+- **ECOMMERCE-01 / SCHEMA-01**: descrierile scrise în runda 2 aveau rânduri noi între paragrafe, iar tema live (filtrul `escape`) producea astfel JSON-LD Product invalid. Descrierile au fost rescrise fără rând nou între taguri, cu același text și aceeași afișare. Acum blocul Product este valid live pe 188/188 pagini de produs.
+- **TECHNICAL-13**: un articol păstrat (`cum-alegi-crema-de-orez`) avea încă linkuri myshopify și JSON-LD BlogGenAuto, pentru că importul corpurilor nu se terminase. După import, toate cele 121 de articole au fost verificate pe storefront (§4 din `round2-status.md`).
+- **AGENTIC-05**: robots.txt-ul temei de test copia paragraful Shopify adresat agenților AI (shop.app, ToS, e-mail). Paragraful a fost scos.
+- **SHOPIFY-08**: formularea „nelistate” pentru pachetele în Ciornă a fost corectată.
+
+### Probleme noi semnalate de verificatori și tratate
+
+- **Article JSON-LD invalid pe tema live**: rezumatele vechi aveau rânduri noi. Cele 121 de articole au acum un rezumat de o linie, iar blocul Article este valid live.
+- **Breadcrumb-ul de produs**: tema live alege prima colecție a produsului, adică „Cele mai vândute”, care acum este noindex. Tema de test alege prima colecție reală (READY-R2); până la publicarea ei, breadcrumb-ul live rămâne neschimbat.
+- **Linkul „Înregistrare B2B” din footer** ducea pe `b2b.primesupplements.ro`. Acum duce la `/pages/inregistrare-b2b` pe domeniul principal (live).
+- **Două identități de autor** (două profiluri LinkedIn diferite; Organization în JSON-LD și Person în corp): linkurile LinkedIn au fost scoase din corpuri, iar autorul trimite la `/pages/autor-marius-chera`. Autorul Person cu `@id` este în tema de test.
+- **FAQPage ascuns** pe produsele cu creatină (afirmații de sănătate neautorizate, fără diacritice): nu mai este emis (tema de test). Tot în tema de test: `og:locale` = `ro_RO`, iar logo-ul Organization/publisher este mutat de pe un PNG care răspunde 404.
+- **Recomandarea GSC → Removals** pentru URL-urile vechi a fost retrasă: pentru URL-uri redirecționate contrazice ghidul Google, iar Google actualizează singur rezultatele prin 301.
+- **Google Business Profile / Bing Places**: magazinul este exclusiv online, deci nu este eligibil (LOCAL-11), iar un profil pe adresa sediului riscă suspendarea. Toate recomandările de acest fel au fost scoase din raport (TECH-16, AUTHORITY-02, -09, -11, SXO-03).
+- **„Nutriționist certificat”**: credențiala nu poate fi verificată. Recomandările care o foloseau citează acum credențiala reală, „antrenor de culturism”.
+- **Facebook**: verificatorul a semnalat că forma `facebook.com/primesupplementsro` (din footer și din `sameAs`) dădea eroare la redirecționarea spre login. Dovezile salvate în audit arată însă invers: forma fără punct se încarcă. Proprietarul confirmă adresa paginii înainte de publicarea temei (`OWNER-HANDOVER.md`).
+- **Comentariile „Failed to render app block”** din tema live (aplicații dezinstalate) dispar la publicarea temei de test, care nu le mai referențiază.
+
+### Lotul al treilea (conținut, clustere, AI Search, on-page) și ce s-a corectat după el
+
+- **Regresie din runda 2, corectată:** etichetele interne de lucru (`hub:`, `intent:`, `produs:`) plus „Blog 2025” apăreau ca 180 de butoane de filtrare pe `/blogs/news`, fiecare cu o pagină `/tagged/` indexabilă (CLUSTER-10). Acum fiecare articol are o singură etichetă de temă în română, iar bara afișează 11 teme (verificat live).
+- **„Textul de produs randat de două ori” (GEO-04):** tab-urile de produs apar o dată ca acordeon pentru mobil și o dată ca tab-uri pentru desktop, iar CSS-ul ascunde una dintre ele. Este structura temei, nu un text dublat de noi, și nu se vede de două ori. Secțiunea SEO de jos (`custom.seo_produs`, pe 81 de produse) repetă cel mult câteva propoziții din „Despre produs” (doar 1 produs din 81 depășește 60 % asemănare). FIXED-R2 rămâne.
+- **Mențiunile obligatorii pe pagina de produs (CONTENT-03):** pe cele 49 de suplimente apar vizibil în tab-ul „Despre produs”. Singurul produs pe alt șablon (`creatina-monohidrat-micronized-300g-fara-aroma`, unde „Despre produs” este text fix al temei) le are acum în „Detalii produs”.
+- **Ghidurile din colecții (CLUSTER-02):** colecția Intra-workout are acum propria listă. Pe Pudră proteică și Aminoacizi, comparațiile `izolat-vs-concentrat-proteic` și `bcaa-vs-eaa`, care nu aveau niciun link intern, sunt primele în listă. Lista Pre-workout conține doar ghiduri de pre-workout.
+- **Tema de test:** nu mai emite un al doilea meta robots pe resursele ascunse cu `seo.hidden` (Shopify le dă deja `noindex,nofollow`). Datele structurate ale autorului nu mai trimit la un profil LinkedIn care nu apare pe pagina de autor.
+- **Statusuri corectate:** CONTENT-16 / CLUSTER-15 trec din OPEN în PARȚIAL (stub-ul redirecționat, handle-uri ASCII, autor pe articolele vechi). Verificările CLUSTER-05 / CLUSTER-12 caută acum în `sitemap_articles_1.xml` (`sitemap_blogs_1.xml` listează doar blogul).
+- **Rămân la proprietar** (`OWNER-HANDOVER.md` §3):
+  - titlul și meta-descrierea homepage-ului din Preferințe (se pot aplica live azi, API-ul nu le expune);
+  - titlul „Înainte/după”;
+  - certificările din „Despre noi”;
+  - expertiza medicală pe cele 16 articole Prime Health;
+  - suprapunerea `creatina-efecte-secundare` / `creatina-si-retentia-de-apa` înainte de publicarea ciornelor;
+  - linkurile spre pachetul promoțional nelistat.
+- **Rămân muncă editorială** (raportate, neatinse):
+  - articolele păstrate nu citează surse primare; „studiile arată” apare fără link în aproximativ 90 de corpuri, iar cele 11 ciorne au surse;
+  - 26 de articole nu primesc niciun link din alte articole; blocul de articole asemănătoare ar fi o schimbare de design;
+  - titlurile de secțiune în stil generator („Top 5 Probleme…”);
+  - stilurile inline ale generatorului din 55 de corpuri, care țin aspectul cardurilor.
+- **Info:**
+  - fotografia autorului are în numele fișierului „primesupplements1-myshopify-com”;
+  - alt-urile imaginilor de produs folosesc încă numele englezești de dinainte de redenumire;
+  - arhiva blogului are acum 21 de pagini (6 articole pe pagină), nu 33 cum scria raportul din 12.10.
+
+### Reconcilieri și limite
+
+- **Recenzii**: numărul de referință este **431 de recenzii Judge.me, medie 4,87**, citit live pe 13.10.2026 din caruselul de pe homepage (`data-number-of-reviews='431'`). 124 era contorul recenziilor despre magazin (nu despre produse) din widget, iar „60+” era o formulare din text. Raportul folosește 431.
+- **SERP**: căutările pe care se bazează SXO-03, SXO-06, SXO-11 și partea de SERP din SXO-01/02 au fost făcute cu un motor indexat în SUA, nu pe google.ro. Încrederea în aceste constatări este redusă. Ele trebuie validate în Google Search Console și manual pe google.ro (`hl=ro`, `gl=ro`).
+- **Autoritate**: AUTHORITY-01, -02 și partea de măsurare din -04 numărau de trei ori aceeași cauză (lipsa datelor off-site). În plan sunt tratate ca o singură acțiune.
+- **Severități:** verificatorii propun Info în loc de Medium/Low pentru GEO-16 / AGENTIC-04 (llms.txt / agents.md generic, ignorat de Google) și GEO-17 (Content-Signal). Severitățile propuse de verificatori sunt înregistrate în `data/specialist-results.json`; tabelul de constatări păstrează severitatea specialistului, iar diferențele sunt sintetizate aici.

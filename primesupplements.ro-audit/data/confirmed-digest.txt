@@ -1,0 +1,280 @@
+TECHNICAL-01 [High] The /ro-hu/ 'Ungaria' market publishes a full second copy of the site (575 duplicate URLs, self-canonical, identical Romanian content and RON prices) (fixed 2026-10-12)
+TECHNICAL-02 [Medium] The B2B store b2b.primesupplements.ro is an indexable cross-domain duplicate of the product catalogue (58 same-handle product URLs)
+TECHNICAL-03 [Medium] Five utility collections (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage) are indexable and in the sitemap, three of them full-catalogue duplicates of each other; the theme has no robots-meta logic at all
+TECHNICAL-04 [Medium] Blog archive is 59 pages deep with prev/next-only pagination (6 articles per page): most of the 354 articles are 20-59 clicks from any hub
+TECHNICAL-05 [Low] Empty 'Reduceri' collection is a 200, indexable, in both sitemaps (soft-404 candidate)
+TECHNICAL-06 [Low] /pages/thank-you is indexable and in the sitemap (English title, no H1, no meta description)
+TECHNICAL-07 [Low] Shopify's automatic vendor/type pseudo-collections are live, indexable and self-canonical (/collections/vendors?q=primesupplements1, /collections/types?q=)
+TECHNICAL-08 [Low] Tag-filtered collection and blog URLs are 200, self-canonical and indexable with duplicated titles
+TECHNICAL-09 [Low] <meta charset> is the third element of <head> (byte 1,078, after a synchronous external script and a JSON-LD block), breaking the 1,024-byte rule
+TECHNICAL-10 [Low] Viewport maximum-scale=1.0, minimum-scale=1.0 disables pinch-zoom on every page
+TECHNICAL-11 [Medium] Every page ships 221-617 KB of HTML with a 157-189 KB <head>, 131-170 KB of inline JavaScript and 67-72 script tags (20 external)
+TECHNICAL-12 [Medium] Fontify app loads Google Fonts Poppins (all 18 styles) + Bebas Neue render-blocking while the theme preloads its own Barlow fonts that are then overridden
+TECHNICAL-13 [Medium] 2,582 blog links point at primesupplements1.myshopify.com, so every product link in the blog is a 301 hop (fixed 2026-10-12)
+TECHNICAL-14 [Low] Sitemap lastmod churn: all 185 products and 21/23 collections carry today's identical timestamp
+TECHNICAL-15 [Info] Trailing-slash variants return 200 (duplicate URL per page, mitigated by canonical)
+TECHNICAL-16 [Info] http://www is a two-hop redirect chain
+TECHNICAL-17 [Low] Three handles contain percent-encoded diacritics and the canonical tag uses a different encoding case than the sitemap/hreflang (fixed 2026-10-12)
+TECHNICAL-18 [Low] URL hygiene: 57 sitemap URLs exceed 100 characters, 42 article handles end in -2...-5 and 134 contain English fragments (fixed 2026-10-12)
+TECHNICAL-19 [Low] The empty /search page is indexable while /search?q= is not
+TECHNICAL-20 [Low] og:image is emitted with http:// on every page
+TECHNICAL-21 [Low] Stale resource hints: dns-prefetch productreviews.shopifycdn.com (retired app) and preconnect cdn.nitroapps.co (Fontify) plus duplicate font prefetches
+TECHNICAL-22 [Info] Security headers are platform-limited: HSTS 91 days without preload/includeSubDomains, no Referrer-Policy or Permissions-Policy, minimal CSP
+TECHNICAL-23 [Low] 30 fully out-of-stock products are indexable and in the sitemap; the index also lists two empty child sitemaps
+TECHNICAL-24 [Info] IndexNow is not implemented
+TECHNICAL-25 [Info] JavaScript rendering passes; only Judge.me review content is JS-injected
+TECHNICAL-26 [Info] robots.txt is Shopify's 2026 default (correcting the context): sort_by and multi-filter are blocked; gaps remain for vendors/types/tag/ro-hu URLs
+TECHNICAL-27 [Info] 404 handling is correct; the error page has no H1 and canonicalises to /404
+TECHNICAL-28 [Info] Structured data is present on every template but duplicated and partly invalid (detail owned by the schema specialist)
+SCHEMA-01 [Critical] Product JSON-LD is syntactically invalid on 75/185 products (76% of supplements) because `escape` does not encode newlines
+SCHEMA-02 [High] Parseable Product blocks are still ineligible: AggregateOffer with comma-decimal strings, no per-variant Offer, no price
+SCHEMA-03 [High] No aggregateRating/review in the markup although Judge.me stores ratings as native metafields
+SCHEMA-04 [Medium] BlogGenAuto injects a second, conflicting JSON-LD graph into 347/355 article bodies (myshopify breadcrumbs, placeholder jobTitle) (fixed 2026-10-12)
+SCHEMA-05 [Medium] Theme Article block: same `escape` bug (invalid on >=6 articles), author always Organization, no publisher logo, headline not capped
+SCHEMA-06 [Medium] No hasMerchantReturnPolicy / shippingDetails, and the two policy pages disagree on the free-shipping threshold
+SCHEMA-07 [Medium] Product breadcrumb category is 'All Products' (or the internal '11% TVA' collection) on every product
+SCHEMA-08 [Medium] Organization: logo URL returns 404, no telephone/e-mail/address/legal IDs, wrong language and founding date, dubious sameAs
+SCHEMA-09 [Medium] brand hard-coded for all products (wrong for 100 MNX items), category empty, sku/gtin from one variant, 207/395 variants without barcode
+SCHEMA-10 [Low] `escape` double-encodes &, quotes inside JSON strings and the description is cut at 500 chars
+SCHEMA-11 [Low] CollectionPage: empty description, wrong numberOfItems, list truncated to 20, no breadcrumb
+SCHEMA-12 [Low] No WebSite node on the homepage (site name / search endpoint)
+SCHEMA-13 [Low] Entities are not linked: @id only on Organization; seller/publisher/author are duplicated inline nodes
+SCHEMA-14 [Low] Structured data on the /ro-hu/ duplicates points at the primary URLs (fixed 2026-10-12)
+SCHEMA-15 [Info] FAQPage on the homepage and on 3 creatina products; the product FAQ text is not visible on the page (no SERP feature since May 2026)
+SCHEMA-16 [Low] Shopify-maintained markup (microdata-schema) is disabled; choose native or custom v2, never both
+SCHEMA-17 [Low] The same product entities exist on b2b.primesupplements.ro with a different seller/brand
+SCHEMA-18 [Low] Colour/flavour variants published as separate products prevent ProductGroup markup
+SCHEMA-19 [Low] Sale prices (compare-at on 144/185 products) not expressed; no priceValidUntil / itemCondition
+SCHEMA-20 [Low] Missing schema tied to existing content: ProfilePage for the author, ContactPage, VideoObject
+SITEMAP-01 [High] The /ro-hu/ market subfolder duplicates every URL in the sitemap (575 of 1151) (fixed 2026-10-12)
+SITEMAP-02 [Low] Product lastmod is the sitemap generation time: identical for all 185 products and different on every fetch
+SITEMAP-03 [Info] Collection lastmod is bulk-stamped (21 of 23 within two seconds)
+SITEMAP-04 [Medium] Utility and triple-duplicate collections are submitted as indexable landing pages (all, cele-mai-vandute, lansate-recent, 11-tva, frontpage)
+SITEMAP-05 [Low] The empty 'Reduceri' collection is submitted while 144 products actually carry a discount
+SITEMAP-06 [Low] The B2B thank-you confirmation page is submitted and indexable
+SITEMAP-07 [Info] Image entries cover only the featured image (185 of 493 product images) and use deprecated tags
+SITEMAP-08 [Info] <changefreq> on all 1151 entries (ignored by Google)
+SITEMAP-09 [Info] Sitemap index carries no <lastmod> per child and an XML comment
+SITEMAP-10 [Info] Two empty metaobject sitemaps are referenced by the index
+SITEMAP-11 [Info] The agentic discovery sitemap submits a generic Shopify Markdown file
+SITEMAP-12 [Info] Three diacritic handles are percent-encoded with a different hex case than their canonical tags (fixed 2026-10-12)
+SITEMAP-13 [Low] 30 products with zero available inventory remain submitted and indexable
+SITEMAP-14 [High] The B2B store publishes a crawlable sitemap with 52 of the retail store's product handles
+SITEMAP-15 [Medium] Quality gate: 708 of 1151 entries are unfiltered machine-generated articles
+INTERNATIONAL-01 [High] "Ungaria" market web presence publishes a complete second copy of the site under /ro-hu/ (575 duplicate URLs, identical Romanian content, both self-canonical) (fixed 2026-10-12)
+INTERNATIONAL-02 [High] /ro-hu/ hreflang alternates show different prices for the same products (ex-VAT, exactly /1.21) in the same RON currency, including inside Product JSON-LD with the same @id (fixed 2026-10-12)
+INTERNATIONAL-03 [Low] hreflang set is technically valid but semantically unjustified: ro-HU targets Romanian speakers in Hungary with zero localisation, while the realistic second audience (Hungarian speakers in Romania, hu-RO) is not served (fixed 2026-10-12)
+INTERNATIONAL-04 [Low] Shipping and legal content contradict the Hungary market: store ships to HU with Hungarian-named, HUF-priced Cargus rates while the delivery policy and Terms say delivery is Romania-only; no Hungarian legal pages
+INTERNATIONAL-05 [Low] Country selector rendered three times per page, offers two countries with the same currency ('România (RON Lei)' / 'Ungaria (RON Lei)'), no language option, and silently cuts prices by 17.36%
+INTERNATIONAL-06 [Info] /ro-hu homepage exists in two 200 URL forms (/ro-hu and /ro-hu/); canonical, hreflang and sitemap use the no-slash form while the market's rootUrls says /ro-hu/ (fixed 2026-10-12)
+INTERNATIONAL-07 [Info] Structured data on every /ro-hu/ page declares the root URL as entity URL (@id, url, breadcrumb items) while canonical and og:url declare /ro-hu/ (fixed 2026-10-12)
+INTERNATIONAL-08 [Info] Canonical vs hreflang/sitemap percent-encoding case mismatch on URLs with diacritic handles (canonical lowercase %c8%9b, hreflang and sitemap uppercase %C8%9B) (fixed 2026-10-12)
+INTERNATIONAL-09 [Info] Language metadata gaps: no og:locale, no inLanguage in any JSON-LD, English strings (title tagline, Judge.me heading) on the only Romanian locale
+INTERNATIONAL-10 [Info] Hungarian locale exists but is unpublished with no translations, no HUF and no Hungarian legal/shipping content: readiness checklist for a genuine Hungary launch (option c)
+CLUSTER-01 [High] Every commercial hub is an empty page: 0 words of hub content on 23/23 collections while a prepared seo_text section sits disabled in the template (fixed 2026-10-12)
+CLUSTER-02 [Medium] Hubs do not link to their spokes: every collection shows the same 3 latest blog posts, so the creatina hub links to oat-cream and L-carnitine articles and to none of its 78 creatina articles
+CLUSTER-03 [High] Creatina cluster: 78 articles (115,757 words) for 3 products cover ~15 intents, each written 3-11 times (fixed 2026-10-12)
+CLUSTER-04 [High] Intent-level cannibalisation repeats in every hub: 26 intent x hub groups with >=4 articles; the pre-computed 47 keyword groups are headline-template groups, not topics (fixed 2026-10-12)
+CLUSTER-05 [Medium] 42 handles ending in -2/-3/-4/-5 are regenerations of the same product x angle brief and should be merged into their base article (fixed 2026-10-12)
+CLUSTER-06 [Low] Article URLs carry a keyword unrelated to title and content: 246/355 handles are <English keyword>-<product handle>-<English angle>; 101 start with an English keyword; 30 handle-topic != title-topic hub; 72 embedded-product hub != title hub (fixed 2026-10-12)
+CLUSTER-07 [Low] 13 articles use competitor brand names as the target keyword (GymBeam x7, Optimum Nutrition/Gold Standard x3, Dr Max, Farmacia Tei, MyProtein) without comparing anything (fixed 2026-10-12)
+CLUSTER-08 [Medium] Spoke->hub links reach only 7 of 13 hubs; 112 articles have no collection link; vitamine-si-minerale (51 articles), crema-de-orez (25), pre-workout (10), intra-workout (5), batoane, bauturi receive 0 body links; 40 links go to generic cele-mai-vandute (fixed 2026-10-12)
+CLUSTER-09 [Low] Product coverage is upside-down: 5 products absorb 234 article links while 31 of 85 supplements (all 19 Frutilu drinks, 3 of 7 crema de orez flavours, collagen, turmeric, magnesium citrate) have 0, and 8 articles link to two products that no longer exist
+CLUSTER-10 [Medium] No blog taxonomy: 5 tags on 9 articles (346 untagged), the theme tag filter renders five near-empty hubs, and the only browse path is 33 pages of chronological pagination
+CLUSTER-11 [Medium] Article-to-article linking is generated, not planned: 22 articles have 0 inbound article links, 132 have <3, 41% of edges cross hubs, 7 link out to nothing, 2 links point to non-existent handles
+CLUSTER-12 [Low] Glutamine: 16 articles for one product (recovery-glutamin), 4 under the handle prefix glutamina-si-sanatatea-stomacului- although none is about stomach health (fixed 2026-10-12)
+CLUSTER-13 [Low] protein-a / protine series: the pudra-proteica hub's most-linked spokes carry misspelt keyword handles and the unlinked 'izolat vs concentrat' article is the hub's best SERP opportunity (fixed 2026-10-12)
+CLUSTER-14 [Medium] Four hubs have no or almost no spokes while three products are over-served: bauturi 19 products/0 articles, batoane 4/0, intra-workout 4/5, pre-workout 7/10 vs L-carnitine 1000 (28 articles), oat cream (22), fiber (21)
+CLUSTER-15 [Low] The 2025 hand-written articles are the only ones with clean distinct intents and the least linked: one 73-word stub, two handles with diacritics, two belong to no hub
+CLUSTER-16 [Low] 279/355 titles are date-stamped ('in 2026', 'in sezonul 2026', 'de toamna') so the generator will re-create every intent in 2027; only 29/355 articles were ever updated in place (fixed 2026-10-12)
+CLUSTER-17 [Info] SERP reality: head terms belong to pharmacies/medical publishers; winnable targets are Romanian long-tail intents, exactly where the blog has 3-11 competing URLs each
+CONTENT-01 [Critical] Blog is scaled, unreviewed generator output on YMYL topics (scaled content abuse exposure)
+CONTENT-02 [High] All 'scientific sources' are homepage links; no real citation exists in the blog
+CONTENT-03 [High] Health/medical claims without disclaimers, safety information or medical review (fixed 2026-10-12)
+CONTENT-04 [High] Author identity is unverifiable and internally inconsistent; no author page; 18 articles authored by the store handle (fixed 2026-10-12)
+CONTENT-05 [High] Topic cannibalisation: regenerated series and product-anchored clusters compete for the same intent (fixed 2026-10-12)
+CONTENT-06 [High] Product descriptions missing or thin: 102 products under 50 words, including the blog's most-linked product (fixed 2026-10-12)
+CONTENT-07 [Low] Duplicate and near-duplicate product content (variants published as separate products, cloned descriptions) (fixed 2026-10-12)
+CONTENT-08 [Medium] All 23 collection pages have no editorial content (thin category pages) (fixed 2026-10-12)
+CONTENT-09 [Medium] In-body link hygiene: 2,582 myshopify links, 534 add-to-cart deep links, 194 dofollow 'Powered by BlogGenAuto' links, links to dead promo products (fixed 2026-10-12)
+CONTENT-10 [Medium] Date integrity: a hard-coded English 'Published:' line contradicts the real publish date on 315 articles; no genuine update signal (fixed 2026-10-12)
+CONTENT-11 [Low] Generator-injected markup in bodies: duplicate H1s, in-body JSON-LD duplicating theme schema, invented breadcrumb categories, inline CSS/JS (fixed 2026-10-12)
+CONTENT-12 [Medium] Titles are year-stamped, over-long and clickbait-patterned; 311 teasers are truncated with '...' (fixed 2026-10-12)
+CONTENT-13 [Low] Slugs contain English prompt fragments, competitor brand names, product SKUs and numeric suffixes (fixed 2026-10-12)
+CONTENT-14 [Medium] No topical hubs or taxonomy: 346/355 articles untagged, blog titled 'Ultimele articole', ~33 paginated pages
+CONTENT-15 [Medium] About page and brand trust content are weak: no H1, unverifiable certifications, conflicting founding year, missing team
+CONTENT-16 [Low] Legacy human-written articles are thin or orphaned from the catalogue
+CONTENT-17 [Low] English and non-localised UI strings inside content (fixed 2026-10-12)
+CONTENT-18 [Low] Image content signals: missing alt on 19 featured and 43 body images; 493/493 product images without alt (fixed 2026-10-12)
+IMAGES-01 [Medium] 493/493 product images have no stored alt text; storefront fallback makes every image of a product carry the identical bare title (fixed 2026-10-12)
+IMAGES-02 [Medium] Homepage hero (LCP image), logo and the six category tiles ship with alt="" (fixed 2026-10-12)
+IMAGES-03 [Low] Collection banners, promo tile and the 1.jpg/2.jpg/3.jpg lifestyle strip have empty alt and camera file names on every template (fixed 2026-10-12)
+IMAGES-04 [Low] 40% of product image files carry camera, WhatsApp, WordPress-derivative or UUID names; 89% contain upper-case or underscores
+IMAGES-05 [Low] Image sitemap: only the featured image (185 of 493), captions empty, collection images absent, every image listed twice via /ro-hu/ (fixed 2026-10-12)
+IMAGES-06 [Low] Open Graph / Twitter image tags: http:// scheme, mismatched declared dimensions, empty twitter:image:alt, fallback to the homepage image
+IMAGES-07 [Low] Blog body images (BlogGenAuto template): no width/height, 43 empty alts, product thumbnails fetched at the 4000-px original, keyword-year alts
+IMAGES-08 [Low] Article featured images: 19 without alt, 327/354 are PNG AI renders named with timestamps or the full generation prompt, no fetchpriority on the LCP image
+IMAGES-09 [Low] 9 secondary product images (nutrition tables/infographics) are below 1000 px and upscaled in a 730-px gallery; 57 products have a single image
+IMAGES-10 [Medium] Over-fetch on banners: collection banners use sizes="130vw" on 4000-5472 px camera files; hero rendition 210 KB WebP; shop-the-look image is a 6000x4000 source
+IMAGES-11 [Info] Homepage repeats the same product images three times and carries 130 KB of srcset markup (21% of the 630 KB HTML)
+IMAGES-12 [Low] A second fetchpriority="high" loading="eager" image sits below the fold on the homepage (featured product section)
+IMAGES-13 [Low] App-injected images without dimensions or native lazy-loading (Judge.me carousel/review photos, ANPC badges, EU flag)
+IMAGES-14 [Low] Where alt text exists it is the raw product title with merchandising strings, spacing errors and English wording (fixed 2026-10-12)
+IMAGES-15 [Info] Format and compression are handled by the Shopify CDN; uploading AVIF/PNG sources buys nothing (AVIF is never delivered)
+IMAGES-16 [Info] decoding="async" is not used on any image
+PERFORMANCE-01 [Medium] Fontify app injects two render-blocking Google Fonts stylesheets (Poppins with all 18 variants + Bebas Neue) and overrides the theme's preloaded Barlow with !important, producing a triple font stack on every page
+PERFORMANCE-02 [Low] pandectes-rules.js is the only classic synchronous script and sits before <meta charset>, pushing the charset declaration to byte 1,078 (past the 1,024-byte limit)
+PERFORMANCE-03 [Medium] ~170 KB <head> with 60 inline scripts (133-145 KB of inline JavaScript) on every template, 27 % to 65 % of each document
+PERFORMANCE-04 [Medium] 20 external scripts per page, 12 of them app extensions (~350 KB brotli), plus 8 web pixels: main-thread cost lands on every template including blog articles
+PERFORMANCE-05 [Medium] Homepage: 630 KB HTML, ~2,944 DOM elements, 41 product cards from 7 featured-collection sections, including a duplicated 'Cele mai vandute' section rendering the same 6 products twice
+PERFORMANCE-06 [Low] Judge.me footprint loaded on every template (incl. blog and collections): 30.8 KB inline settings, 14.5 KB render-blocking CSS, 4 style blocks, 1,104 jdgm- markup occurrences on the homepage
+PERFORMANCE-07 [Low] Homepage LCP image (slideshow slide 1, header-desktop.jpg / header-mobile.jpg) is 211 KB WebP on desktop and 83 KB WebP at 800 px mobile, and is not preloaded although it is discovered only after ~170 KB of head scripts
+PERFORMANCE-08 [Medium] Collection pages: parallax banner image with sizes="130vw" from a 4000 x 2667 source requests the 2600 px variant on desktop (298 KB WebP) and 1600 px on phones (151 KB WebP)
+PERFORMANCE-09 [Info] Product gallery src fallback points at the 4000 px rendition (600 KB WebP / 977 KB JPEG) and each gallery image is referenced 8 times in the HTML
+PERFORMANCE-10 [Low] Images without width/height (CLS) injected by apps and custom Liquid: 17 on the homepage, 3 on product, 2 on collection, 3 on article
+PERFORMANCE-11 [Low] Redundant and duplicated resource hints and tags: country-flags.css linked 3x, BlogGenAuto tracking.js 2x, Google Fonts CSS both stylesheet and prefetch, unused preconnect to cdn.nitroapps.co, obsolete dns-prefetch to productreviews.shopifycdn.com, duplicate preconnect to cdn.shopify.com, missing preconnect to fonts.gstatic.com
+PERFORMANCE-12 [Info] Orphaned app blocks fail to render on every page (pagefly-ai-page-builder app embed on all 4 templates, youtube_gallery_carousel_widget_block on homepage and product)
+PERFORMANCE-13 [Low] Article template: <head> is 65 % of the document, the featured image (LCP candidate) lacks fetchpriority=high, in-body images lack sizes, and BlogGen adds 12 body <style> blocks and a second JSON-LD set
+PERFORMANCE-14 [Info] Autoplaying slideshow (6 s) and autoplaying featured-product media carousel with adaptive height on the homepage
+PERFORMANCE-15 [Info] Inline per-section CSS (62 <style> blocks, 44 KB) and inline SVG icon duplication (106 SVGs, 43.7 KB) on the homepage
+PERFORMANCE-16 [Info] Server response and HTML caching are healthy; render time is template-driven (Info)
+PERFORMANCE-17 [Info] Shopify platform scripts (portable-wallets.ro.js 78 KB, perf-kit 26 KB, es-modules-shim 15 KB, standard-actions.js 4 KB, shop-js cart-sync) present on every template (Info)
+GEO-01 [High] Every 'source' link in the blog points to a homepage, so 338 articles claim studies they never cite
+GEO-02 [Medium] Freshness signals are fabricated: hard-coded 'Published:' lines disagree with Shopify dates, 'Updated' always equals 'Published', 267/354 articles older than 90 days, two conflicting Article schemas per page (fixed 2026-10-12)
+GEO-03 [Medium] 22 of 23 collection pages have zero descriptive text, so category money pages have nothing an AI system can quote (fixed 2026-10-12)
+GEO-04 [Medium] Product pages (Creapure sample) bury the definition 1,100 words down, render the copy twice, use an English H1 and make unauthorised health claims without sources (fixed 2026-10-12)
+GEO-05 [Medium] Organization entity is split: schema sameAs handles differ from the footer's, YouTube is missing, no legalName/address/phone, and the brand is written 6 ways
+GEO-06 [High] Author entity 'Marius Chera' has four identities, no author page, contradictory credentials and a Person schema with only a LinkedIn URL (fixed 2026-10-12)
+GEO-07 [Low] The first passage of most articles is boilerplate or a price widget, not the answer (fixed 2026-10-12)
+GEO-08 [Low] Hidden FAQPage markup on the creatina products: 8 Q&As exist only in JSON-LD, not on the page
+GEO-09 [Medium] Unattributed statistics in the answer blocks ('până la 60%', '99.99%', '82% standardul de aur') (fixed 2026-10-12)
+GEO-10 [Low] Auto-generated clinical FAQ questions push a supplement shop into medical territory AI systems will not cite it for
+GEO-11 [Medium] AI-generation footprint with no 'How' disclosure: BlogGenAI markers, 194 'Powered by BlogGenAuto' links, 'Scaled by KEMO'
+GEO-12 [Low] 'primesupplements1' leaks as a brand alias into AI corpora (vendor on 64 products, author on 17 articles, 2,582 myshopify links) (fixed 2026-10-12)
+GEO-13 [Medium] The /ro-hu/ mirror doubles every citable URL and splits citation signals (fixed 2026-10-12)
+GEO-15 [Low] Topic cannibalisation: 47 keyword groups / 164 articles and 42 regenerated '-2..-5' handles give AI retrieval many weak passages instead of one strong answer (fixed 2026-10-12)
+GEO-16 [Info] llms.txt, llms-full.txt and agents.md are Shopify's generic agent-instructions file, not a content index (Google ignores llms.txt)
+GEO-17 [Info] No machine-readable licensing/usage signals (no RSL, no Content-Signal, no License Link header)
+GEO-18 [Info] Platform readiness (Google AIO/AI Mode, ChatGPT, Perplexity, Bing Copilot) not measured; qualitative assessment only
+SXO-01 [Medium] Blog posts, not the creatine collection or products, are the pages Google associates with the creatine money terms (fixed 2026-10-12)
+SXO-02 [Medium] Collection pages are 'filters + 3-5 cards' while the Romanian SERP rewards rich category pages and guides (fixed 2026-10-12)
+SXO-03 [Medium] The brand name is not owned in search: 'prime supplements', 'primesupplements', 'prime whey' return other companies
+SXO-04 [Low] Legacy WooCommerce URLs (categorie-produs, ?v= cache-buster, www host) are still what Google shows for the site (fixed 2026-10-12)
+SXO-05 [High] The wholesale store b2b.primesupplements.ro is indexed and surfaces product pages with B2B prices to consumers
+SXO-06 [Low] Commercial head-term SERPs are dominated by pharmacies, medical publishers and marketplaces; the store competes with zero authority and no advertorial/PR footprint
+SXO-07 [Medium] The homepage opens with an English slogan and a row of sold-out apparel, failing every supplement-buyer persona above the fold
+SXO-08 [Medium] Product pages hide the educational content and price logic the decision-stage SERP expects, and distract with a B2B CTA
+SXO-09 [High] 355 machine-generated articles cannibalise each other and target transactional topics with informational pages (fixed 2026-10-12)
+SXO-10 [Medium] Articles are dead ends for every decision-stage persona: no product path, weak author trust, stale dates
+SXO-11 [Medium] The MNX apparel line (54% of the catalogue) has no searchable identity and is given homepage priority over supplements
+SXO-12 [Medium] The /ro-hu/ market serves Hungarian searchers Romanian content in RON and is invisible anyway (fixed 2026-10-12)
+SXO-13 [Low] Mixed-language UI and catalogue strings break clarity for Romanian personas on every template
+SXO-15 [Low] Three identical 185-product listings plus '11% TVA' and 'Prime Health' compete for the generic 'suplimente' entry point with no intent match (fixed 2026-10-12)
+SXO-16 [Info] FAQPage markup on the homepage and creatine products has no SERP effect; keep it only as content
+ECOMMERCE-01 [Critical] Product JSON-LD ineligible for merchant listings on every product (invalid JSON on multi-line descriptions, AggregateOffer with comma prices, no price/shipping/returns/rating)
+ECOMMERCE-02 [High] /ro-hu duplicate market shows prices without 21% VAT in RON (82,64 lei vs 100,00 lei) on indexable pages and in JSON-LD (fixed 2026-10-12)
+ECOMMERCE-03 [Medium] productType empty on 185/185 products: no category in schema, feeds, filters or type pages (fixed 2026-10-12)
+ECOMMERCE-04 [Medium] Vendor/brand data wrong: myshopify handle 'primesupplements1' is the vendor of 64 products; MNX garments and Frutilu drinks branded 'Prime Supplements' (fixed 2026-10-12)
+ECOMMERCE-05 [Medium] GTIN coverage and validity: 207/395 variants without barcode, 27 of 188 barcodes fail the GS1 check digit, invalid codes published as gtin; SKU = EAN on 164 variants
+ECOMMERCE-06 [Medium] SEO title/description coverage: 105 products without SEO title, 79 with an empty meta description, 12 with dosage text as meta, 47/80 SEO titles over 60 chars (fixed 2026-10-12)
+ECOMMERCE-07 [High] Product content model broken: description holds dosage/ingredients never displayed, 4 metafield tabs mostly empty, 102 products under 50 words, no nutrition tables (fixed 2026-10-12)
+ECOMMERCE-08 [Low] 45 products are colour/flavour duplicates published as separate products instead of variants (19 groups)
+ECOMMERCE-09 [Medium] Titles/H1s: 17 titles over 60 chars (max 122), 96 English titles on a Romanian store, 19 without diacritics, H1 differs from SEO title and duplicates on key products (fixed 2026-10-12)
+ECOMMERCE-10 [Low] 30 products out of stock on every variant remain indexable, in the sitemap and linked from the blog, with no back-in-stock capture
+ECOMMERCE-11 [Medium] Compare-at 'discounts' on 144/185 products (120 permanently struck through) and an empty 'Reduceri' collection: Omnibus and Merchant Center sale-price risk
+ECOMMERCE-12 [Medium] Collection architecture: 23 flat collections, 5 utility collections indexable, two overlapping apparel categories (99 vs 87, 86 shared), no goal/brand/garment-type sub-categories, all descriptions empty
+ECOMMERCE-13 [Low] Faceted navigation thin (price, availability, 2 custom metafields) and crawlable; vendor/type query pages indexable
+ECOMMERCE-14 [Low] No visible breadcrumb on product or collection pages; BreadcrumbList JSON-LD points every product to 'All Products'
+ECOMMERCE-15 [Low] Cross-sell is client-side only: 6-7 product links in raw HTML, complementary block has no data, section titles with typos and English
+ECOMMERCE-16 [Medium] Reviews exist (431 store-wide) but are invisible to search: no aggregateRating/review markup, rating block disabled, English widget text, empty widget on 0-review products
+ECOMMERCE-17 [Medium] Product images: 0/493 images have alt text and 57 products have a single image (53 supplements) (fixed 2026-10-12)
+ECOMMERCE-18 [Medium] Google Merchant Center readiness: policy facts exist on pages but not in product data; 8 feed-blocking attribute families missing or wrong
+ECOMMERCE-19 [Medium] Blog-to-product linking misrouted: 2582 links to primesupplements1.myshopify.com, 534 add-to-cart links, 130/185 products never linked, 16 links to dead products (fixed 2026-10-12)
+ECOMMERCE-20 [Low] Tags and handles inconsistent: 97 tags with case/plural duplicates, underscore handle, three handle patterns in the Frutilu range
+ECOMMERCE-21 [Low] Variant naming inconsistent and leaks into cart, feeds and UCP (Cutie 12 buc x 55g / Baton 55g / 55g; product name repeated in variant titles; two size scales)
+ECOMMERCE-22 [Low] Collection template defects: fixed 'Alte categorii', missing banner featured product, generic blog block, 24 per page on 185-product collections, H1/title mismatch
+ECOMMERCE-23 [Info] UCP profile live and well-formed; agent commerce quality capped by the product data defects
+ECOMMERCE-24 [Info] Marketplace and competitor landscape not measurable (no Merchant/SERP data); B2B store duplicates 57 retail products with visible wholesale prices
+AUTHORITY-01 [Low] Domain absent from the Common Crawl web graph while the lead competitor is ranked
+AUTHORITY-02 [Medium] Zero third-party brand mentions surfaced for brand, company, founder or products
+AUTHORITY-03 [Low] Organization sameAs disagrees with the real social profiles on all three networks and omits YouTube
+AUTHORITY-05 [Medium] 194 articles carry a templated, dofollow, low-contrast 'Powered by BlogGenAuto' link (fixed 2026-10-12)
+AUTHORITY-06 [Medium] 2,582 in-body links to primesupplements1.myshopify.com (incl. 534 /cart/ links) redirect, duplicate and waste internal equity (fixed 2026-10-12)
+AUTHORITY-07 [Medium] B2B store is an indexable second entity with CUI-as-name, Shopify placeholder socials and a duplicate catalog
+AUTHORITY-08 [Medium] /ro-hu/ duplicate market splits every off-site signal between two URL sets (fixed 2026-10-12)
+AUTHORITY-09 [Medium] 431 Judge.me reviews are invisible off-site: no public reviews page, no rich-snippet markup, no third-party review profiles
+AUTHORITY-10 [Medium] Expert author entity 'Marius Chera, Nutriționist Certificat' is uncorroborated, inconsistently marked up and has no author page (fixed 2026-10-12)
+AUTHORITY-11 [Low] Organization schema omits address, telephone, legalName and tax identifiers although the NAP is on every page
+AUTHORITY-12 [Low] foundingDate 2020 in Organization schema contradicts the registry (J32/1155/2022) and the About page ('in anul 2022')
+AUTHORITY-13 [Low] The myshopify handle 'primesupplements1' leaks as a brand/author/vendor name (fixed 2026-10-12)
+AUTHORITY-14 [Low] Blog outbound profile is boilerplate: same 7 foreign authority domains in 349 articles, no Romanian/EU regulatory sources
+AUTHORITY-15 [Info] No link-earning assets: 354 templated articles, no author page, no tools, no data, no partners/press section
+AUTHORITY-16 [Info] Site-wide WhatsApp link goes through a third-party shortener instead of wa.me
+LOCAL-01 [Medium] Organization schema carries no address, telephone, e-mail, legalName or VAT ID on any of ~1,150 URLs
+LOCAL-02 [Medium] sameAs sends Google to the wrong TikTok account; Facebook/Instagram handles in schema differ from the footer; YouTube missing
+LOCAL-03 [Low] Footer street address is a link to https://www.primesupplements.ro/cart/# on every page
+LOCAL-04 [Low] NAP written six ways for the name, four for the address, three for the phone; cookie policy names a non-existent company
+LOCAL-05 [Low] Shopify store profile address incomplete (city empty, street without number) and the fulfilment location has no address
+LOCAL-06 [Low] Indexable B2B store presents a different entity: legal name + CUI as the brand, no address/phone, social links to Shopify's own accounts
+LOCAL-07 [Medium] Reviews exist only inside the Judge.me widget: no aggregateRating/Review in JSON-LD, single platform, no Google/Trustpilot presence found
+LOCAL-08 [Low] Contact page has no H1, no meta description, no hours, no company identity, no delivery scope; support hours live only in a homepage FAQ accordion
+LOCAL-09 [Low] Organization foundingDate '2020' contradicts the registry (2022-06-07) and the About page ('in anul 2022')
+LOCAL-10 [Low] contactPoint claims Hungarian support and no areaServed is declared, while no Hungarian locale is published and delivery is Romania-only
+LOCAL-11 [Info] No GBP/Bing/Apple signals and the business is not eligible for them as an online-only store: do not create a listing
+LOCAL-12 [Info] No local authority/citation signals beyond the statutory registry; founder entity not linked; deprecated-GBP lint clean
+LOCAL-13 [Info] Consumer-dispute links: only a generic https://anpc.ro/ link in the footer; the ANPC SAL page is not linked
+VISUAL-01 [Low] Cookie banner is a full-screen modal on mobile and hides the hero on desktop
+VISUAL-02 [Info] Mobile product page has no add-to-cart CTA above the fold
+VISUAL-03 [Low] Homepage H1 is the brand name only; headline keyword is an image-styled heading
+VISUAL-04 [Low] 24 images on the homepage render without alt text (theme/section images) (fixed 2026-10-12)
+VISUAL-05 [Info] Floating WhatsApp widget overlaps product cards on mobile
+SHOPIFY-01 [High] Hungary market web presence duplicates the entire site under /ro-hu/ (fixed 2026-10-12)
+SHOPIFY-02 [Medium] B2B storefront republishes 58 product URLs on a second domain
+SHOPIFY-03 [Medium] Vendor "primesupplements1", empty product types and taxonomy (FIXED) (fixed 2026-10-12)
+SHOPIFY-04 [Medium] Missing SEO titles/descriptions on products, collections and articles (FIXED) (fixed 2026-10-12)
+SHOPIFY-05 [Medium] Product images had no alt text (FIXED) (fixed 2026-10-12)
+SHOPIFY-06 [Medium] Utility and automated collections are indexable and in the sitemap
+SHOPIFY-07 [Medium] Blog bodies generated by BlogGenAuto embed scripts, invalid JSON-LD and myshopify links (fixed 2026-10-12)
+ONPAGE-01 [High] 105/185 products have no SEO title, so `<title>` is the raw product name (fixed 2026-10-12)
+ONPAGE-02 [Medium] 104/185 products have no meta description; 79 ship with no `<meta name="description">` at all and 12 use dosage text (fixed 2026-10-12)
+ONPAGE-03 [Low] The title template adds no brand suffix and the 80 hand-written titles use three different brand spellings (fixed 2026-10-12)
+ONPAGE-04 [Low] 47 SEO titles exceed 60 characters (max 92) and 17 raw product titles run to 122 characters (fixed 2026-10-12)
+ONPAGE-05 [Low] Meta descriptions are templated ("Descoperiți … Alegeți PRIME Supplements …"), 35 exceed 160 chars and 2 are duplicates (fixed 2026-10-12)
+ONPAGE-06 [Medium] Product H1 is the raw product name: 100 English-worded H1s, 14 "500g/83 serv" H1s, 2 H1s on one page, English H1 under a Romanian title (fixed 2026-10-12)
+ONPAGE-07 [Low] Diacritics are inconsistent between title, H1 and meta on the same page (fixed 2026-10-12)
+ONPAGE-08 [Medium] Homepage: English tagline title, 216-char ASCII meta, H1 is the logo, English H2
+ONPAGE-09 [Medium] 9/23 collections have no SEO title/meta; "All Products", "11% TVA", empty "Reduceri" and 2× 185-product clones are indexable (fixed 2026-10-12)
+ONPAGE-10 [Low] Collection H1 ≠ title, og:title uses the raw name, and 4 category pages hold 1-3 products
+ONPAGE-11 [Medium] Article H1 titles: 321/354 over 60 chars (max 134), 279 carry "2026", 206 are colon-clickbait, 1 is fully English (fixed 2026-10-12)
+ONPAGE-12 [Medium] Article SEO titles: 19 missing (Shopify then truncates the fallback at 70 chars mid-word), 223/335 over 60 chars, 292 contain "2026", 90 carry English keyword fragments (fixed 2026-10-12)
+ONPAGE-13 [Low] 10 article SEO titles and 9 URL slugs target competitor brand names (Gymbeam, Havok, Optimum Nutrition, MyProtein, Farmacia Tei) (fixed 2026-10-12)
+ONPAGE-14 [Medium] 26 articles render two H1s; 352 bodies start with an English "Published: …" header line (fixed 2026-10-12)
+ONPAGE-15 [Medium] Blog discoverability: 11 posts per page, 33 pages deep, prev/next-only pagination, the same 3 articles linked site-wide, 21 articles with zero inbound article links
+ONPAGE-16 [Medium] 2582 in-article links point to primesupplements1.myshopify.com and 194 articles carry a dofollow "Powered by BlogGenAuto" link (fixed 2026-10-12)
+ONPAGE-17 [Low] Empty and generic anchor texts: 44 image links with no text on the homepage, 28 on big collection pages, "Vezi toate" ×8 (fixed 2026-10-12)
+ONPAGE-18 [Low] No visible breadcrumbs on any template; the only BreadcrumbList is JSON-LD and it points to "All Products"
+ONPAGE-19 [Low] OG/Twitter tags: http og:image, og:title ≠ title, summary card, twitter:description = dosage text
+ONPAGE-20 [Low] Paginated listings: "All Products – Pagina 2" mixed-language titles, no meta description, 3 identical 8-page series (fixed 2026-10-12)
+ONPAGE-21 [Low] Untranslated English strings on `lang="ro"` pages
+ONPAGE-22 [Low] Typos in template headings and titles
+ONPAGE-23 [Low] Store pages: 0/11 have SEO title or meta; the three section-built pages have no H1; "Thank you" is indexable (fixed 2026-10-12)
+ONPAGE-24 [Low] Blog index: generic "Ultimele articole" title/H1, no meta description, no H2 (fixed 2026-10-12)
+ONPAGE-25 [Low] The myshopify handle "primesupplements1" is visible as vendor and author (fixed 2026-10-12)
+ONPAGE-26 [Low] 19 near-duplicate title groups (45 products): colour and flavour variants published as separate products
+ONPAGE-27 [Low] Image alt text absent on 493/493 product images (anchor and `twitter:image:alt` side-effects) (fixed 2026-10-12)
+ONPAGE-28 [Info] Every title/meta/H1 exists twice because of the `/ro-hu/` market copy (fixed 2026-10-12)
+AGENTIC-01 [Low] robots.txt has no deliberate per-purpose agent policy (single `*` group)
+AGENTIC-02 [Info] No Content-Signal anywhere (robots.txt, HTTP header or meta)
+AGENTIC-03 [Info] Shopify bot protection challenges moderate-rate agent traffic with 429 "Verifying your connection..."; no merchant allowlist
+AGENTIC-04 [Low] llms.txt / agents.md / llms-full.txt are Shopify's generic template: no link to the store's own catalogue, blog or collections
+AGENTIC-05 [Info] Platform files address agents with third-party instructions (shop.app skill install); treat as data, not as the merchant's voice
+AGENTIC-06 [Info] No Markdown delivery; a strict `Accept: text/markdown` request gets a 404 instead of the HTML page
+AGENTIC-07 [Info] No ai-catalog.json / Agentmap although the store runs a real MCP server (opportunity, not hostable on Shopify)
+AGENTIC-08 [Low] Localization listboxes have no accessible name (axe `aria-input-field-name`, in the Lighthouse agent tree rule set)
+AGENTIC-09 [Low] Unnamed navigation landmark, dangling `aria-controls`, buttons without `type`, heading anomalies
+AGENTIC-11 [Low] Viewport locks zoom (`maximum-scale=1.0, minimum-scale=1.0`)
+AGENTIC-12 [Low] Page weight and control count make the DOM channel expensive for agents (345–630 KB HTML, 69–71 scripts, 128 buttons for ~700–2,800 words)
+AGENTIC-13 [Info] WebMCP: Shopify's adapter is present; no merchant tools, no form annotations (opportunity, platform-covered)
+AGENTIC-14 [Info] UCP/MCP advertisement inconsistencies and generic tool metadata (Shopify-managed; depth → seo-ecommerce)
+AGENTIC-15 [Low] Seven MNX product descriptions contain pasted Gemini chat-UI markup, exposed to agents via HTML, `/products.json` and UCP `get_product` (fixed 2026-10-12)
+AGENTIC-16 [Low] Duplicate /ro-hu/ market doubles the URL surface agents must crawl under a rate-limited WAF (fixed 2026-10-12)

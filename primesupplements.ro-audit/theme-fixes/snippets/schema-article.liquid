@@ -58,9 +58,6 @@
     "jobTitle": {{ author_job | json }},
     {%- endif %}
     {%- if author_name == 'Marius Chera' %}
-    "sameAs": ["https://www.linkedin.com/in/chera23"],
-    {%- endif %}
-    {%- if author_name == 'Marius Chera' %}
     "url": {{ shop.url | append: '/pages/autor-marius-chera' | json }},
     {%- else %}
     "url": {{ shop.url | append: '/pages/despre-noi' | json }},

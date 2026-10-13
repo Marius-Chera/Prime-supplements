@@ -65,7 +65,7 @@ Fiecare articol nou are ca imagine principală o fotografie în care apare **pro
 
 **Cum se face (procesul folosit și verificat la articolul de test):**
 
-1. Cheia Google Gemini este în variabila de mediu `GEMINI_API_KEY` (proiect cu facturare activă; pe planul gratuit modelele de imagine au limita 0). Dacă lipsește sau Google răspunde 429, folosește imaginea produsului și scrie motivul în raport.
+1. Cheia Google Gemini este salvată ca **Network secret** în mediul cloud „Prime supplements” (host `generativelanguage.googleapis.com`, antet `x-goog-api-key`): proxy-ul o adaugă singur la cereri, iar sesiunea n-o vede, deci variabila `GEMINI_API_KEY` lipsește în mod normal și scriptul merge fără ea. Dacă scriptul răspunde `NO_KEY` (401/403) sau Google răspunde 429, folosește imaginea produsului și scrie motivul în raport.
 2. **Referința:** poza oficială a produsului principal la rezoluție mare (`featuredImage.url` + `&width=2048`). Deschide-o (Read) și **transcrie textul principal de pe etichetă** (nume, subtitlul de sub logo, gramaj și porții, mențiunile, aroma), ca să-l pui literă cu literă în prompt.
 3. **Generează 3 variante în paralel** (scene diferite din tabelul de mai jos), cu scriptul `gen_image.py` de mai jos. Modelul ales automat este cel mai bun disponibil (acum `gemini-3-pro-image`, ~0,134 USD pe imagine la 2K); `GEMINI_IMAGE_MODEL` îl poate fixa.
 4. **Verificarea vizuală e obligatorie și se face la zoom:** deschide fiecare variantă micșorată (≈1400 px) și apoi decupaje ale etichetei la rezoluție completă (Pillow, mărite de 3–5 ori). Respinge varianta dacă: orice text mare sau mediu de pe etichetă diferă de referință (litere stricate, cuvinte inventate, cifre greșite); produsul apare de două ori sau deformat; apare text, preț, număr, alt brand sau watermark adăugat; mâinile sau obiectele arată nenatural; scena arată artificial.
@@ -120,12 +120,16 @@ ap.add_argument("--out", required=True, help="output path without extension")
 ap.add_argument("--aspect", default="16:9")
 ap.add_argument("--size", default="2K")
 a = ap.parse_args()
-key = os.environ.get("GEMINI_API_KEY") or sys.exit("NO_KEY")
+key = os.environ.get("GEMINI_API_KEY", "")  # de obicei gol: cheia e un Network secret pus de proxy pe generativelanguage.googleapis.com
 API = "https://generativelanguage.googleapis.com/v1beta"
 def call(path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body else None,
-                                 headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-    return json.load(urllib.request.urlopen(req, timeout=300))
+                                 headers={**({"x-goog-api-key": key} if key else {}), "Content-Type": "application/json"})
+    try:
+        return json.load(urllib.request.urlopen(req, timeout=300))
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403) and not body: sys.exit("NO_KEY: " + e.read().decode()[:300])
+        raise
 model = os.environ.get("GEMINI_IMAGE_MODEL")
 if not model:
     names, tok = [], ""
@@ -152,6 +156,7 @@ for cfg in ({"aspectRatio": a.aspect, "imageSize": a.size}, {"aspectRatio": a.as
         r = call("/" + model + ":generateContent", {"contents": [{"parts": parts}], "generationConfig": gen}); break
     except urllib.error.HTTPError as e:
         err = e.read().decode()[:500]
+        if e.code in (401, 403): sys.exit("NO_KEY: " + err)
         if e.code != 400: sys.exit(f"HTTP {e.code}: {err}")
 else:
     sys.exit("REJECTED: " + err)

@@ -51,13 +51,92 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 - **Handle:** cel din calendar (ASCII, fără diacritice, cratime, maxim 60 de caractere). Dacă există deja, adaugă un cuvânt distinctiv, nu un număr.
 - **Rezumat (summary):** 1–2 propoziții care răspund direct la întrebare (fără HTML complicat).
 - **Etichete:** exact cele din calendar: categoria, `hub:<colecție>` (dacă există) și `intent:<tip>:<subiect>`.
-- **Imagine principală:** imaginea principală a produsului principal (URL-ul `featuredImage.url` al produsului), cu text alternativ descriptiv în română, de forma „<produs> – <subiectul articolului>”.
+- **Imagine principală:** o fotografie nouă generată cu AI, după secțiunea 4b (produsul Prime real într-o scenă frumoasă, potrivită subiectului), cu text alternativ descriptiv în română. Doar dacă generarea nu reușește, se folosește imaginea principală a produsului (`featuredImage.url`).
 - **Linkuri interne (obligatoriu, toate verificate prin Admin API că există și sunt publicate):**
   - pagina produsului principal: de 2–3 ori, inclusiv în caseta de produs; ancore descriptive, nu „click aici”;
   - pagina colecției din calendar: o dată;
   - 2–3 articole existente, relevante, din blog (în text și în „Articole similare”);
   - pagina autorului `/pages/autor-marius-chera` (în caseta de autor).
   Nu inventa adrese. Linkurile relative încep cu `/products/`, `/collections/`, `/blogs/news/`.
+
+## 4b. Imaginea principală generată cu AI
+
+Fiecare articol nou are ca imagine principală o fotografie generată cu AI în care apare **produsul Prime real**, într-o scenă frumoasă și potrivită subiectului. Pozele din casetele de produs rămân pozele oficiale ale produsului.
+
+**Cum se face:**
+
+1. Cheia Google Gemini este în variabila de mediu `GEMINI_API_KEY`. Dacă lipsește, folosește imaginea produsului și scrie în raport „lipsește GEMINI_API_KEY”.
+2. Ca referință se dă poza oficială a produsului principal (`featuredImage.url` + `&width=1024`), ca ambalajul, eticheta și culorile să rămână cele reale.
+3. Scriptul de mai jos alege singur cel mai bun model Gemini de imagine disponibil (variabila `GEMINI_IMAGE_MODEL` îl poate fixa), cere format 16:9 și salvează imaginea.
+4. **Verificarea vizuală e obligatorie:** deschide imaginea (Read) și respinge-o dacă: eticheta sau logo-ul diferă de referință sau au litere stricate; produsul apare de două ori sau deformat; apare orice text, preț, număr, alt brand sau watermark adăugat; mâinile sau corpul arată nenatural; scena arată artificial. Maximum 3 încercări (schimbă scena sau formularea), apoi folosește imaginea produsului și spune în raport.
+5. Urcare în Shopify: `stagedUploadsCreate` (resource `IMAGE`, `httpMethod: PUT`, mimeType-ul imaginii, nume de fișier ASCII `blog-<handle>.png`), încarcă fișierul cu `curl -X PUT -T fișier -H "Content-Type: <mime>" "<url>"` (fără antetul x-goog-acl), apoi `fileCreate` cu `originalSource` = `resourceUrl`, `contentType: IMAGE` și textul alternativ. Așteaptă până când `fileStatus` este `READY` și folosește `image.url` al fișierului ca imagine a articolului.
+6. Text alternativ (română, 8–16 cuvinte): ce se vede + produsul + subiectul, de exemplu „Prime Whey lângă un shake proteic și ovăz, pe blatul din bucătărie”.
+
+**Prompt (în engleză, modelele de imagine îl înțeleg mai bine):**
+
+```text
+Use the attached product photo as the exact reference for the product. Create a photorealistic editorial lifestyle photograph (16:9) for a sports-nutrition blog article about: <TOPIC IN ENGLISH>.
+Scene: <SCENE>.
+The <PRODUCT NAME> container from the reference appears exactly once, upright, in sharp focus, about one third of the frame, slightly off-centre; keep its shape, colours, logo and label exactly as in the reference (do not redraw, translate or invent label text).
+Look: premium fitness magazine photo, soft natural light, warm tones, shallow depth of field, clean uncluttered background, subtle red accents that match the brand.
+Do not add any text, captions, numbers, prices, watermarks, other brands or logos. No medical settings, no pills spilling, no before/after bodies. If a person appears, show only natural-looking hands or a figure from behind, out of focus.
+```
+
+**Scene potrivite (alege și variază, nu repeta aceeași scenă la articole apropiate):**
+
+| Linie de produs | Scene |
+|---|---|
+| Proteine, cremă de orez, gainer | blat de bucătărie cu shaker, ovăz, banane; masă după antrenament; geantă de sală cu shaker |
+| Creatină, pre-workout, EAA, BCAA, glutamină | bancă de sală cu gantere și sticlă de apă; sală luminoasă dimineața; prosop și shaker după antrenament |
+| Vitamine, minerale, omega-3 | masă de mic dejun luminoasă cu fructe și un pahar cu apă; birou acasă, dimineață |
+| Magneziu, somn, relaxare | noptieră cu lumină caldă de seară, carte, pahar cu apă |
+| Colagen, articulații | pantofi de alergare, saltea de yoga, parc dimineața |
+| Crom, L-carnitină, controlul greutății | caserole cu mâncare gătită (meal prep), farfurie echilibrată, bandă de alergare în fundal |
+
+**Scriptul (salvează-l ca `gen_image.py`; rulează `python3 gen_image.py "<url referință>" out.png prompt.txt`):**
+
+```python
+import base64, json, os, sys, urllib.request, urllib.error
+key = os.environ.get("GEMINI_API_KEY") or sys.exit("NO_KEY")
+API = "https://generativelanguage.googleapis.com/v1beta"
+def call(path, body=None):
+    req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body else None,
+                                 headers={"x-goog-api-key": key, "Content-Type": "application/json"})
+    return json.load(urllib.request.urlopen(req, timeout=300))
+model = os.environ.get("GEMINI_IMAGE_MODEL")
+if not model:
+    names, tok = [], ""
+    while True:
+        r = call("/models?pageSize=1000" + ("&pageToken=" + tok if tok else ""))
+        names += [m["name"] for m in r.get("models", [])
+                  if "image" in m["name"] and "generateContent" in m.get("supportedGenerationMethods", [])]
+        tok = r.get("nextPageToken")
+        if not tok: break
+    names.sort(key=lambda n: ("pro" in n, "preview" not in n, n), reverse=True)
+    model = names[0] if names else sys.exit("NO_IMAGE_MODEL")
+ref = urllib.request.urlopen(sys.argv[1], timeout=60)
+mime = ref.headers.get_content_type()
+ref = base64.b64encode(ref.read()).decode()
+prompt = open(sys.argv[3], encoding="utf-8").read()
+for cfg in ({"aspectRatio": "16:9", "imageSize": "2K"}, {"aspectRatio": "16:9"}, None):
+    gen = {"responseModalities": ["TEXT", "IMAGE"]}
+    if cfg: gen["imageConfig"] = cfg
+    body = {"contents": [{"parts": [{"text": prompt}, {"inline_data": {"mime_type": mime, "data": ref}}]}],
+            "generationConfig": gen}
+    try:
+        r = call("/" + model + ":generateContent", body); break
+    except urllib.error.HTTPError as e:
+        err = e.read().decode()[:500]
+        if e.code != 400: sys.exit(f"HTTP {e.code}: {err}")
+else:
+    sys.exit("REJECTED: " + err)
+for part in r["candidates"][0]["content"]["parts"]:
+    if "inlineData" in part:
+        open(sys.argv[2], "wb").write(base64.b64decode(part["inlineData"]["data"]))
+        print(model, part["inlineData"]["mimeType"], os.path.getsize(sys.argv[2])); break
+else:
+    sys.exit("NO_IMAGE: " + json.dumps(r)[:500])
+```
 
 ## 5. Șablon HTML (culori accesibile, aceeași familie vizuală ca articolele existente)
 
@@ -137,4 +216,4 @@ Culorile: text de accent `#a54f51`, fundaluri cu text alb `#b65b5d`, nuanța des
 1. Toate linkurile interne există (produs ACTIVE, colecție, articole publicate, prin Admin API).
 2. Fără H1 în corp, fără `<script>`, fără linkuri inventate, fără prețuri, fără mențiuni de sănătate neautorizate (caută cuvintele interzise de la secțiunea 3).
 3. Title tag ≤ 60 de caractere, meta description 140–155, handle unic, etichetele din calendar.
-4. După creare: citește articolul înapoi și confirmă `isPublished: true`, `publishedAt` = ora programată, imaginea, metafield-urile SEO și etichetele.
+4. După creare: citește articolul înapoi și confirmă `isPublished: true`, `publishedAt` = ora programată, imaginea (cea generată cu AI, verificată vizual), metafield-urile SEO și etichetele.

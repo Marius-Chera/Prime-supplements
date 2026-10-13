@@ -1,0 +1,10 @@
+{"requests":11,"redirects":[
+ {"from":"/blogs/news/bcaa-aminoacizi-cum-sa-combini-bcaa-pentru","status":301,"location":"/blogs/news/cum-combini-bcaa","expected":"/blogs/news/cum-combini-bcaa","ok":true},
+ {"from":"/blogs/news/creatine-pastile-creatina-creapure-how-to-read","status":301,"location":"/blogs/news/cum-alegi-creatina","expected":"/blogs/news/cum-alegi-creatina","ok":true},
+ {"from":"/blogs/news/instant-oat-cream-800g-25-serv-healthy-food-swaps-that-work-2","status":301,"location":"/collections/alimente-sanatoase","expected":"/collections/alimente-sanatoase","ok":true},
+ {"from":"/blogs/news/creatine-monohydrate-creatina-creapure-debunking-common-supplement","status":301,"location":"/blogs/news/ce-este-creatina","expected":"/blogs/news/ce-este-creatina","ok":true,"note":"the redirect row without article id; confirms it is not live"}],
+ "renamed":[
+ {"old":"acetyl-l-carnitine-15-reducere-pachet-thermo-core-3","new":"cum-alegi-un-arzator-de-grasimi","old_status":301,"old_location":"/blogs/news/cum-alegi-un-arzator-de-grasimi","new_status":200,"title":"Cum alegi un arzător de grăsimi: ingrediente și calitate","h1":"Cum alegi un arzător de grăsimi: ingrediente și calitate","ok":true},
+ {"old":"creatina-si-volumizarea-musculara-cand-apar-rezultate-creatina-30","new":"in-cat-timp-face-efect-creatina","old_status":301,"old_location":"/blogs/news/in-cat-timp-face-efect-creatina","new_status":200,"title":"În cât timp face efect creatina: primele 30 de zile","h1":"În cât timp face efect creatina: primele 30 de zile","ok":true},
+ {"old":"protein-a-ghid-izolat-proteic-performanta-2026","new":"izolat-proteic-beneficii","old_status":301,"old_location":"/blogs/news/izolat-proteic-beneficii","new_status":200,"title":"Izolat proteic: ce este, beneficii și cum îl folosești","h1":"Izolat proteic: ce este, beneficii și cum îl folosești","ok":true}],
+ "blog_index":{"status":200,"unique_article_links_page1":6,"hrefs_page1":12,"pagination":"/blogs/news?page=2 present","all_page1_links_are_kept_articles":true}}

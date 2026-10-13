@@ -1,0 +1,1097 @@
+{
+ "applied": 121,
+ "failed": 0,
+ "renamed": 92,
+ "failures": [],
+ "results": [
+  {
+   "chunk": 1,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024172753271",
+   "old": "acetyl-l-carnitine-15-reducere-pachet-thermo-core-3",
+   "new": "cum-alegi-un-arzator-de-grasimi",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1023877022071",
+   "old": "acetyl-l-carnitine-l-carnitine-1000-80-caps",
+   "new": "l-carnitina-rezultate",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1024776438135",
+   "old": "acetyl-l-carnitine-thermo-core-120-caps-sleep",
+   "new": "thermo-core-ghid",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1024779878775",
+   "old": "adevarul-despre-spirulina-90-zile-spirulina-evaluare-studii",
+   "new": "adevarul-despre-spirulina-90-zile-spirulina-evaluare-studii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023394742647",
+   "old": "alpha-booster-testosterone-ce-spun-studiile-tincturi-potenta",
+   "new": "tincturi-pentru-potenta",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1023876235639",
+   "old": "alpina-galanga-secrete-eficienta-pre-workout-fara",
+   "new": "alpinia-galanga-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1023859458423",
+   "old": "aminoacizi-eaa-aminoacizi-esentiali-how-to",
+   "new": "aminoacizi-esentiali-ce-sunt",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1024500892023",
+   "old": "aminoacizi-recovery-bcaa-500g-how-to",
+   "new": "cum-combini-bcaa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024178159991",
+   "old": "aminoacizi-suplimente-eaa-aminoacizi-esentiali-supplements-for",
+   "new": "aminoacizi-esentiali-dozaj",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1024041091447",
+   "old": "aminoacizi-taurine-80-caps-budget-smart",
+   "new": "taurina-efecte-secundare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1023847399799",
+   "old": "apa-de-cocos-intra-workout-secretele-absorbtiei-carbohidratilor-intra-workout",
+   "new": "apa-de-cocos-intra-workout",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 1,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1024231145847",
+   "old": "bcaa-ce-este-recovery-bcaa-500g-complete-beginner",
+   "new": "bcaa-ce-sunt-si-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024013173111",
+   "old": "bcaa-ce-este-taurine-80-caps-supplements-for",
+   "new": "taurina-rezultate-30-de-zile",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1020666380663",
+   "old": "bcaa-vs-eaa-diferențe-și-beneficii-pentru-culturisti-ghid-complet",
+   "new": "bcaa-vs-eaa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1024486277495",
+   "old": "beneficii-omega-3-coenzima-q10-80-caps-how",
+   "new": "coenzima-q10-si-omega-3",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023990858103",
+   "old": "beneficii-omega-3-omega-3-how-to-store",
+   "new": "cum-alegi-omega-3",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023605604727",
+   "old": "beneficile-consumului-de-fibre-suplimente-fibre-rezultate-reale-mituri",
+   "new": "suplimente-de-fibre-pe-varste",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1024181174647",
+   "old": "best-creatine-monohydrate-dozaj-optim-creatina-rezultate-2026",
+   "new": "cum-se-ia-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1024482935159",
+   "old": "beta-alanina-cum-sa-citesti-eticheta-suplimente",
+   "new": "beta-alanina-cum-sa-citesti-eticheta-suplimente",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1023943344503",
+   "old": "bisglicinat-de-magneziu-ashwagandha-ksm-66-how-long",
+   "new": "ashwagandha-in-cat-timp-face-efect",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1023573852535",
+   "old": "branched-chain-amino-acids-cum-sa-combini-aminoacizii-esentiali",
+   "new": "cum-combini-aminoacizii-esentiali",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023971230071",
+   "old": "ce-este-taurina-taurine-80-caps-supplements-and",
+   "new": "ce-este-taurina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1020609167735",
+   "old": "ce-este-un-pre-workout-fara-cofeina",
+   "new": "ce-este-un-pre-workout-fara-cofeina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 2,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1023303844215",
+   "old": "ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "new": "ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1023329403255",
+   "old": "citicolina-ghid-pre-workout-fara-cafeina",
+   "new": "citicolina-ghid-pre-workout-fara-cafeina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1023328846199",
+   "old": "coenzima-q10-rezultate-coenzima-q10-asteptari-vs",
+   "new": "coenzima-q10-rezultate",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023341035895",
+   "old": "colesterol-7-semne-colesterol-marit-ghid",
+   "new": "colesterol-7-semne-colesterol-marit-ghid",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1024193200503",
+   "old": "creatina-citrulina-intraworkout-90-zile-carbohidrati-intra-workout",
+   "new": "carbohidrati-intra-workout-rezultate",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023943508343",
+   "old": "creatina-monohidrata-baton-proteic-capsuni-how-to",
+   "new": "cum-combini-batoanele-proteice-cu-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1024227705207",
+   "old": "creatina-monohidrata-nitrox-no-stim-combining-supplements",
+   "new": "pre-workout-cu-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1023877054839",
+   "old": "creatina-pure-isolate-2000g-most-common",
+   "new": "creatina-si-proteina-impreuna",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1024296157559",
+   "old": "creatina-si-volumizarea-musculara-cand-apar-rezultate-creatina-30",
+   "new": "in-cat-timp-face-efect-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024181141879",
+   "old": "creatina-si-volumizarea-musculara-secretele-absorbtiei-creatinei-optimizare-rezultate",
+   "new": "cu-ce-se-combina-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1025008697719",
+   "old": "creatine-monohydrate-creatina-creapure-signs-your-body",
+   "new": "creatina-creapure-ghid",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1023652725111",
+   "old": "creatine-monohydrate-creatina-monohidrat-micronized-300g-fara",
+   "new": "creatina-si-retentia-de-apa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 3,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1024068845943",
+   "old": "creatine-pastile-creatina-creapure-seasonal-supplementation-adjus",
+   "new": "cum-alegi-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1023943278967",
+   "old": "creatine-pastile-creatine-ready-to-go-plicuri",
+   "new": "creatina-pastile-sau-praf",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1024181109111",
+   "old": "creatine-powder-de-ce-nu-vezi-rezultate",
+   "new": "creatina-dupa-40-de-ani",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1025023803767",
+   "old": "creatine-ready-to-go-plicuri-prime-supplements-how-to-store-supplements-prope",
+   "new": "plicuri-creatina-ready-to-go",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023897895287",
+   "old": "creatine-side-effects-creatina-monohidrat-micronized-300g-fara",
+   "new": "ce-este-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1025017381239",
+   "old": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "new": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1020609200503",
+   "old": "cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara",
+   "new": "cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1024770146679",
+   "old": "detox-ficat-protocol-regenerare-hepatica-sportivi-2026",
+   "new": "detox-ficat-pentru-sportivi",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1023589286263",
+   "old": "dextrina-ciclica-intra-workout-cum-sa-alegi-carbohidratii-intra",
+   "new": "dextrina-ciclica-vs-maltodextrina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1023329239415",
+   "old": "digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "new": "digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1024133628279",
+   "old": "fat-burner-fat-burning-booster-weight-loss",
+   "new": "arzatoarele-de-grasimi-functioneaza",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1024041845111",
+   "old": "fat-burner-x10-thermo-core-120-caps-weight",
+   "new": "cum-se-ia-arzatorul-de-grasimi",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 4,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1023943442807",
+   "old": "fiber-blood-orange-anti-inflammatory-foods-guide",
+   "new": "fibre-dieta-antiinflamatoare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024236061047",
+   "old": "fiber-blood-orange-healthy-snacking-strategies",
+   "new": "doza-zilnica-de-fibre",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1024009699703",
+   "old": "fiber-blood-orange-understanding-macronutrients",
+   "new": "lipsa-de-fibre-simptome",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023394939255",
+   "old": "gainer-mass-pure-isolate-2000g-future-of",
+   "new": "proteine-dupa-30-de-ani",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1024009961847",
+   "old": "glutamina-si-sanatatea-stomacului-cand-sa-iei-glutamina-semne",
+   "new": "cand-se-ia-glutamina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1024297009527",
+   "old": "glutamina-si-sanatatea-stomacului-combinatii-glutamina-suplimente-2026-etape",
+   "new": "glutamina-combinatii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1023403524471",
+   "old": "glutamina-si-sanatatea-stomacului-efecte-secundare-glutamina-ghid-complet",
+   "new": "glutamina-efecte-secundare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1023403557239",
+   "old": "glutamina-si-sanatatea-stomacului-suplimente-recuperare-virste-glutamina-2026",
+   "new": "aminoacizi-recuperare-pe-varste",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1020666347895",
+   "old": "glycerolul-secretul-culturistilor-profesionisti-pentru-un-antrenament-eficient",
+   "new": "glicerol-culturism-pompare-musculara",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024264929655",
+   "old": "havok-pre-workout-ghid-depanare-rutina-suplimente-pre",
+   "new": "pre-workout-nu-mai-are-efect",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023347884407",
+   "old": "hibiscus-si-tensiunea-arteriala-cat-timp-rezultate-suplimente-naturale",
+   "new": "hibiscus-tensiunea-arteriala-rezultate",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1024505119095",
+   "old": "hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "new": "hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 5,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1023948161399",
+   "old": "instant-oat-cream-800g-25-serv-gut-healthy-food-choices",
+   "new": "ovaz-si-balonare-reactii-digestive",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1023978504567",
+   "old": "instant-oat-cream-800g-25-serv-healthy-cooking-methods",
+   "new": "cand-se-consuma-ovazul-instant",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1023998460279",
+   "old": "instant-oat-cream-800g-25-serv-healthy-eating-for-busy-people",
+   "new": "cum-alegi-ovazul-instant",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023537578359",
+   "old": "intra-workout-dozaj-optim-carbohidrati-combatere-stres",
+   "new": "intra-workout-dozaj-optim-carbohidrati-combatere-stres",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023756435831",
+   "old": "iso-whey-protein-8-saptamani-izolat-proteic-slabit",
+   "new": "izolat-proteic-pentru-slabit",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023722193271",
+   "old": "izolat-proteic-din-zer-prime-whey-2000g-plant-vs",
+   "new": "proteina-din-zer-vs-vegetala",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1023998394743",
+   "old": "l-carnitine-15-reducere-pachet-thermo-core",
+   "new": "combinatii-arzatoare-de-grasimi",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1023859589495",
+   "old": "l-carnitine-fat-burning-booster-meal-replacement",
+   "new": "arzatoare-de-grasimi-efecte-secundare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1024059736439",
+   "old": "l-carnitine-pareri-l-carnitine-1000-80-caps-2",
+   "new": "l-carnitina-pentru-slabit-pareri",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024246251895",
+   "old": "l-carnitine-pareri-l-carnitine-1000-80-caps-3",
+   "new": "l-carnitina-pentru-cine-este-potrivita",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023990825335",
+   "old": "l-carnitine-pentru-slabit-water-out-120-caps-weight",
+   "new": "cand-se-iau-diureticele-naturale",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1024227770743",
+   "old": "l-glutamina-beneficii-recovery-glutamin-future-trends-in",
+   "new": "glutamina-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 6,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1024016875895",
+   "old": "l-glutamina-contraindicatii-eaa-aminoacizi-esentiali-how-long",
+   "new": "aminoacizi-rezultate-in-cat-timp",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024235962743",
+   "old": "l-glutamina-contraindicatii-taurine-80-caps-most-common",
+   "new": "taurina-doza-si-cand-se-ia",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1024767852919",
+   "old": "l-glutamina-recovery-bcaa-500g-bioavailability-why",
+   "new": "bcaa-doza-si-cand-se-iau",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023859491191",
+   "old": "magneziu-bisglicinat-80-caps-natural-vs-synthetic-supplemen",
+   "new": "magneziu-bisglicinat-rezultate-30-de-zile",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023313150327",
+   "old": "magneziu-bisglicinat-cum-iti-dai-seama-daca",
+   "new": "magneziu-bisglicinat-cum-iti-dai-seama-daca",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1024520847735",
+   "old": "magneziu-glicinat-baton-proteic-cocos-si-caramel",
+   "new": "batoane-proteice-pentru-refacere",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1024009666935",
+   "old": "magneziu-glicinat-daily-vitamin-formula-natural-vs",
+   "new": "multivitamine-efecte-secundare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1024760217975",
+   "old": "magneziu-l-threonate-supliment-alimentar-chromium-picolinate-80",
+   "new": "crom-picolinat-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1024013238647",
+   "old": "magneziu-l-threonate-vitamin-c-1000-80-caps",
+   "new": "vitamina-c-doza-pe-varste",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024017072503",
+   "old": "magneziu-l-treonat-vitamina-d3-k2-supplements-and",
+   "new": "cand-se-ia-vitamina-d3-k2",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023312986487",
+   "old": "mass-gainer-prime-whey-1000g-protein-cooking",
+   "new": "gatit-cu-pudra-proteica",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1023835668855",
+   "old": "muscle-gainer-pure-isolate-2000g-protein-powder",
+   "new": "efecte-secundare-proteina-whey",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 7,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1023876104567",
+   "old": "nac-600-mg-cum-sa-combini-n-acetilcisteina",
+   "new": "nac-600-mg-cum-sa-combini-n-acetilcisteina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024226328951",
+   "old": "nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "new": "nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1024482673015",
+   "old": "nac-supliment-utilizarea-n-acetilcisteinei-termen-lung",
+   "new": "nac-supliment-utilizarea-n-acetilcisteinei-termen-lung",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023329173879",
+   "old": "nattokinaza-6-semne-circulatie-sange-ingreunata",
+   "new": "nattokinaza-6-semne-circulatie-sange-ingreunata",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1024776405367",
+   "old": "omega-3-3-6-9-l-carnitine-1000-80-caps",
+   "new": "cum-se-ia-l-carnitina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1024059670903",
+   "old": "omega-3-3-6-9-unt-de-arahide-supplements-for",
+   "new": "unt-de-arahide-beneficii-sportivi",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1024050037111",
+   "old": "omega-3-6-9-baton-proteic-caramel-sarat-seasonal",
+   "new": "oboseala-post-antrenament-batoane-proteice",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1024231080311",
+   "old": "omega-3-beneficii-ashwagandha-ksm-66-age-specific",
+   "new": "ashwagandha-ksm-66-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1023971328375",
+   "old": "omega-3-beneficii-cluster-insulin-bomb-1000g-signs",
+   "new": "ce-este-intra-workout",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1025247904119",
+   "old": "omega-3-crema-de-orez-blueberry-muffin",
+   "new": "cum-alegi-crema-de-orez",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1024780697975",
+   "old": "omega-9-6-3-crema-de-orez-tort-de",
+   "new": "crema-de-orez-dimineata",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1023603081591",
+   "old": "ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "new": "ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 8,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1023640207735",
+   "old": "potasiul-si-retentia-de-apa-suplimente-potasiu-alimentatie-calatorii-2026",
+   "new": "potasiu-si-retentia-de-apa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1023967887735",
+   "old": "pre-workout-havok-suplimente-pre-workout-si-alimentatia",
+   "new": "pre-workout-ce-este-cum-se-ia",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1023370461559",
+   "old": "pre-workout-suplimente-pre-antrenament-calitate-vs",
+   "new": "cum-alegi-un-pre-workout",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1024246317431",
+   "old": "prospect-spirulina-cum-sa-alegi-spirulina-de",
+   "new": "prospect-spirulina-cum-sa-alegi-spirulina-de",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023896879479",
+   "old": "protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "new": "protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023360565623",
+   "old": "protein-a-ghid-izolat-proteic-performanta-2026",
+   "new": "izolat-proteic-beneficii",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1024807764343",
+   "old": "protein-izolat-vs-concentrat-proteic-ghid",
+   "new": "izolat-vs-concentrat-proteic",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1023361548663",
+   "old": "proteina-cum-alegi-pudra-proteica-calitate",
+   "new": "proteina-cum-alegi-pudra-proteica-calitate",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1023587713399",
+   "old": "proteina-isolate-whey-emperor-mass_3000g-complete-protein-guide",
+   "new": "gainer-pentru-masa-musculara",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1024036929911",
+   "old": "protine-whey-isolate-refacere-musculara-semne-deficit-proteic",
+   "new": "semne-deficit-proteic",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023329141111",
+   "old": "psv-nac-administrarea-n-acetilcisteinei-dimineata-seara",
+   "new": "cand-se-ia-nac-dimineata-sau-seara",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1024226623863",
+   "old": "pudra-sfecla-rosie-30-de-zile-cu-pre",
+   "new": "pudra-sfecla-rosie-30-de-zile-cu-pre",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 9,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1024016679287",
+   "old": "pure-creatine-cand-sa-iei-pauza-de",
+   "new": "pauza-de-creatina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1023305089399",
+   "old": "scortisoara-ceylon-scortisoara-ieftina-vs-ceylon-diferenta",
+   "new": "scortisoara-ceylon-scortisoara-ieftina-vs-ceylon-diferenta",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u1",
+   "id": "gid://shopify/Article/1023661506935",
+   "old": "spirulina-beneficii-doza-optima-spirulina-alimente-detoxifiere",
+   "new": "spirulina-beneficii-doza-optima",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u2",
+   "id": "gid://shopify/Article/1023546491255",
+   "old": "tricou-sala-cele-mai-bune-tricouri-yoga",
+   "new": "tricou-sala-cele-mai-bune-tricouri-yoga",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u3",
+   "id": "gid://shopify/Article/1023546327415",
+   "old": "unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "new": "unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u4",
+   "id": "gid://shopify/Article/1023300010359",
+   "old": "vitamine-b12-90-zile-vitamina-d3-k2",
+   "new": "vitamine-b12-90-zile-vitamina-d3-k2",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u5",
+   "id": "gid://shopify/Article/1023300534647",
+   "old": "vitamine-k-ce-vitamine-aleg-expertii-sanatatea",
+   "new": "vitamine-k-ce-vitamine-aleg-expertii-sanatatea",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u6",
+   "id": "gid://shopify/Article/1020666446199",
+   "old": "water-out-tinctura-soluția-naturala-pentru-eliminarea-retenției-de-apa",
+   "new": "water-out-tinctura-retentie-apa",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u7",
+   "id": "gid://shopify/Article/1023775867255",
+   "old": "weight-gainer-prime-whey-1000g-how-much",
+   "new": "gainer-sau-proteina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u8",
+   "id": "gid://shopify/Article/1023559172471",
+   "old": "whey-isolate-proteina-doza-optima-izolat-proteic-refacere",
+   "new": "doza-optima-izolat-proteic",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u9",
+   "id": "gid://shopify/Article/1023663505783",
+   "old": "whey-isolate-proteina-prime-whey-go-protein-timing",
+   "new": "cand-se-ia-proteina",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u10",
+   "id": "gid://shopify/Article/1024509182327",
+   "old": "zinc-citrat-cum-sa-stii-daca-zincul",
+   "new": "zinc-citrat-cum-sa-stii-daca-zincul",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 10,
+   "alias": "u11",
+   "id": "gid://shopify/Article/1025013711223",
+   "old": "zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "new": "zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "ok": true,
+   "errors": []
+  },
+  {
+   "chunk": 11,
+   "alias": "u0",
+   "id": "gid://shopify/Article/1024236618103",
+   "old": "zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "new": "zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "ok": true,
+   "errors": []
+  }
+ ]
+}

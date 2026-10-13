@@ -61,7 +61,7 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 
 ## 4b. Imaginea principală generată cu AI
 
-Fiecare articol nou are ca imagine principală o fotografie generată cu AI în care apare **produsul Prime real**, într-o scenă frumoasă și potrivită subiectului. Pozele din casetele de produs rămân pozele oficiale ale produsului.
+Fiecare articol nou are ca imagine principală o fotografie în care apare **produsul Prime real**, într-o scenă potrivită subiectului. **Stilul este cel al marilor site-uri de sănătate și fitness** (Healthline, Verywell Fit, Men's Health): fotografie editorială naturală, lumină de zi, culori reale, case și săli reale, mici imperfecțiuni firești. Nu trebuie să arate a reclamă lucioasă sau a imagine AI. Când există o poză potrivită din ședințele foto Prime, se pornește de la ea (secțiunea 4c). Pozele din casetele de produs rămân pozele oficiale ale produsului.
 
 **Cum se face (procesul folosit și verificat la articolul de test):**
 
@@ -77,12 +77,12 @@ Fiecare articol nou are ca imagine principală o fotografie generată cu AI în 
 **Prompt (în engleză, modelele de imagine îl înțeleg mai bine):**
 
 ```text
-Use the attached product photo as the exact reference for the product. Create a photorealistic editorial lifestyle photograph (16:9) for a sports-nutrition blog article about: <TOPIC IN ENGLISH>.
-Scene: <SCENE>.
-The <PRODUCT NAME> container from the reference appears exactly once, upright, in sharp focus, about one third of the frame, slightly off-centre; keep its shape, colours, logo and label exactly as in the reference (do not redraw, translate or invent label text).
-The label text must read exactly as on the reference, letter for letter: <LABEL TEXT TRANSCRIBED FROM THE REFERENCE, e.g. "PRIME" logo with the subtitle "HARDCORE SPORTS NUTRITION"; big "PRIME" in red and "WHEY" in white; vertical text "2000g / 66 SERVINGS"; bullets "..."; flavour "...">. Do not invent, misspell or blur any of these words.
-Look: premium fitness magazine photo, soft natural light, warm tones, shallow depth of field, clean uncluttered background, subtle red accents that match the brand.
-Do not add any text, captions, numbers, prices, watermarks, other brands or logos. No medical settings, no pills spilling, no before/after bodies. If a person appears, show only natural-looking hands or a figure from behind, out of focus.
+Use the attached product photo as the exact reference for the product. Create a photograph (16:9) for a leading health and nutrition website article about: <TOPIC IN ENGLISH>.
+Scene: <SCENE: a real place, real light, what is on the table/counter, optional person>.
+The <PRODUCT NAME> container from the reference appears exactly once, upright, in sharp focus, about one quarter to one third of the frame height, slightly off-centre; keep its shape, colours, logo and label exactly as in the reference. The label text must read exactly as on the reference, letter for letter: <LABEL TEXT TRANSCRIBED FROM THE REFERENCE>. Do not invent, misspell or blur any of these words.
+Style: authentic editorial lifestyle photography as published by top health and fitness magazines, shot on a full-frame camera with a 35mm lens at f/4, soft natural window daylight, true-to-life neutral colours, gentle contrast, realistic textures and small natural imperfections (a few oat flakes or a little powder on the counter, slight wrinkles in linen), calm honest documentary feel, plenty of clean negative space.
+Avoid: glossy advertising look, cinematic orange or golden glow, HDR, oversaturated colours, perfect symmetry, plastic or CGI-looking surfaces, extreme background blur, lens flares, floating objects.
+Do not add any text, captions, numbers, prices, watermarks, other brands or logos anywhere else in the image; any notebook, screen or scale display must be blank. No medical settings, no pills. If a person appears, show natural-looking hands or a person seen from behind or from the side without a recognisable face.
 ```
 
 Prompt pentru editarea de corectare (pasul 5):
@@ -91,16 +91,18 @@ Prompt pentru editarea de corectare (pasul 5):
 The first image is a finished photograph. The second image is the exact reference of the product. Edit only the product label in the first image so that all of its printed text and graphics match the reference exactly; keep everything else in the first image identical (composition, lighting, objects, colours, camera angle, size and position of the product). <SAME LABEL TEXT AS ABOVE> Return the full edited photograph at the same framing (16:9).
 ```
 
-**Scene potrivite (alege și variază, nu repeta aceeași scenă la articole apropiate; scena trebuie să aibă legătură cu subiectul articolului):**
+**Scene potrivite (stil editorial; alege și variază, nu repeta aceeași scenă la articole apropiate; scena trebuie să aibă legătură cu subiectul):**
 
 | Linie de produs | Scene |
 |---|---|
-| Proteine, cremă de orez, gainer | blat de bucătărie cu pahar de shake, lingură-dozator cu pudră, farfurie echilibrată (pui, orez, legume) și un caiet; shaker, ovăz, banane; masă după antrenament |
-| Creatină, pre-workout, EAA, BCAA, glutamină | bancă de sală cu gantere și sticlă de apă; sală luminoasă dimineața; prosop și shaker după antrenament |
-| Vitamine, minerale, omega-3 | masă de mic dejun luminoasă cu fructe și un pahar cu apă; birou acasă, dimineață |
-| Magneziu, somn, relaxare | noptieră cu lumină caldă de seară, carte, pahar cu apă |
-| Colagen, articulații | pantofi de alergare, saltea de yoga, parc dimineața |
-| Crom, L-carnitină, controlul greutății | caserole cu mâncare gătită (meal prep), farfurie echilibrată, bandă de alergare în fundal |
+| Proteine, cremă de orez, gainer | bucătărie reală dimineața, cu o persoană din spate care gătește, în prim-plan produsul, shaker, fructe de pădure, pahar cu lapte; natură statică pe masă de lemn cu fular de in, lângă fereastră: shake, ovăz, pui cu fasole verde, caiet deschis cu pagină goală; mâini care pun o lingură de pudră în shaker |
+| Creatină, pre-workout, EAA, BCAA, glutamină | sală de forță reală, luminoasă, dimineața, cu cineva în fundal (din spate) la bară; bancă cu prosop, sticlă de apă și produsul; vestiar curat cu geantă de sală |
+| Vitamine, minerale, omega-3 | masă de mic dejun lângă fereastră, cu fructe și un pahar cu apă; birou de acasă în lumină de dimineață; bucătărie luminoasă cu legume proaspete |
+| Magneziu, somn, relaxare | noptieră cu lumină caldă de seară, carte, pahar cu apă; canapea cu pătură și ceai |
+| Colagen, articulații | pantofi de alergare și saltea de yoga lângă ușa de la intrare; parc dimineața, bancă cu sticlă de apă |
+| Crom, L-carnitină, controlul greutății | caserole cu mâncare gătită (meal prep) pe blat; farfurie echilibrată la prânz; persoană din spate care își leagă șireturile înainte de alergare |
+
+Rezultatul trebuie să pară o fotografie făcută de un fotograf, nu o randare: dacă iese prea lucioasă, prea simetrică sau cu lumină „de film”, generează altă variantă.
 
 **Scriptul** (salvează-l ca `gen_image.py`; exemple: `python3 gen_image.py --ref "<url referință>&width=2048" --prompt prompt.txt --out varianta1` pentru generare, `python3 gen_image.py --ref varianta1.jpg --ref referinta.jpg --prompt fix.txt --out varianta1_fix` pentru corectare; extensia fișierului rezultat se pune automat după tipul imaginii):
 
@@ -156,6 +158,26 @@ for part in r["candidates"][0]["content"]["parts"]:
         print(model, mime, out, os.path.getsize(out)); break
 else:
     sys.exit("NO_IMAGE: " + json.dumps(r)[:500])
+```
+
+## 4c. Pozele din ședințele foto Prime
+
+Proprietarul urcă poze reale din ședințele foto în Shopify (**Content → Files**), cu numele fișierului începând cu `sedinta-foto-` (de exemplu `sedinta-foto-sala-2026-01.jpg`). Pozele reale sunt cele mai valoroase pentru Google și pentru încrederea cititorilor, deci au prioritate când se potrivesc cu articolul.
+
+1. Listează-le cu Admin API: `files(first: 100, query: "filename:sedinta-foto-*")` (paginează), descarcă-le la `&width=1024` și uită-te la ele (Read).
+2. Alege una potrivită cu produsul și subiectul articolului (același produs sau aceeași linie, scenă potrivită). Dacă nu se potrivește niciuna, folosește generarea din 4b.
+3. Nu repeta aceeași poză de ședință la mai puțin de 20 de articole: numele fișierului generat include sursa, `blog-<handle>-din-<numele pozei fără extensie>.jpg`, iar înainte verifici cu `files(query: "filename:*-din-<numele pozei>*")` când a fost folosită ultima dată.
+4. Editarea AI e permisă doar pentru: extinderea naturală la 16:9, lumină și culori editoriale naturale, curățarea obiectelor care deranjează din fundal, un fundal mai potrivit cu subiectul, adăugarea produsului Prime din articol (din poza oficială) acolo unde e natural.
+5. **Interzis:** schimbarea fețelor, a identității, a expresiilor, a corpului, a mușchilor sau a pielii (nu se subțiază, nu se măresc mușchii, nu se „înfrumusețează” nimeni, pentru că ar induce în eroare la suplimente), adăugarea de persoane, modificarea etichetelor reale, adăugarea de text.
+6. Verificare: compară cap la cap (decupaje mărite) poza originală și cea editată: fețele și corpurile trebuie să fie identice, eticheta corectă. Apoi aceeași verificare ca la 4b.
+
+Comanda: `python3 gen_image.py --ref "<url poza ședință>&width=2048" --ref "<url poza oficială produs>&width=2048" --prompt sedinta.txt --out varianta1`, cu promptul:
+
+```text
+The first image is a real photo from the brand's own photo shoot. Keep the people exactly as they are: same faces, identity, expressions, bodies, muscles, skin, hair, clothing and poses; do not retouch, slim, enlarge or idealise anyone. Keep every real product and its label exactly as they are.
+Turn it into a professional editorial photograph for a leading health and fitness website, 16:9: <EDITS, e.g. extend the scene naturally to 16:9; remove the distracting objects in the background; soft natural daylight and true-to-life colours>.
+<OPTIONAL: Place the product from the second image naturally <WHERE>, upright, sharp, with its label exactly as in the reference: <LABEL TEXT>.>
+Do not add any text, captions, logos, watermarks or other brands.
 ```
 
 ## 5. Șablon HTML (culori accesibile, aceeași familie vizuală ca articolele existente)

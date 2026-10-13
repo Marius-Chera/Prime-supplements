@@ -66,7 +66,8 @@ Supported variables
         <p class="h5" slot="title">{{ 'general.localization.country' | t }}</p>
 
         {%- capture webmcp_tool_name -%}change_country_{{ webmcp_location }}_{{ popover_vertical_position }}{%- endcapture -%}
-        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: 'Schimbă țara de livrare și moneda magazinului. Parametrul country_code primește codul ISO al țării (de exemplu RO).' -%}
+        {%- capture webmcp_tool_description -%}Selectorul de țară și monedă al magazinului ({{ localization.available_countries | map: 'name' | join: ', ' | escape }}). Țara se alege din butoanele listei; formularul nu are câmpuri de completat.{%- endcapture -%}
+        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
           <x-listbox class="popover-listbox popover-listbox--sm" role="listbox" aria-label="{{ 'general.localization.country' | t | escape }}">
             {%- for country in localization.available_countries -%}
               <button type="submit" class="popover-listbox__option" name="country_code" role="option" value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}aria-selected="true"{% endif %}>

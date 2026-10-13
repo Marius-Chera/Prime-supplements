@@ -146,6 +146,13 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         line-height: 1.6 !important;
       }
     </style>
+    {%- comment -%}Performance (2026-10-13): size hints for two images that had neither width nor height (Lighthouse "unsized images"). "auto" keeps each image's own proportions once it has loaded, so nothing changes visually: the Judge.me carousel thumbnails already have an explicit height, the EU flag an explicit width (the flag file is square).{%- endcomment -%}
+    <style>
+      .jdgm-carousel-item__product-image,
+      .eu-label .eu-flag {
+        aspect-ratio: auto 1 / 1;
+      }
+    </style>
     <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
   </head>
 

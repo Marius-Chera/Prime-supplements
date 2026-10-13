@@ -91,7 +91,7 @@
           </div>
 
           <safe-sticky class="cart-order__recap v-stack gap-6">
-            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded" toolname="update_cart" tooldescription="Actualizează cantitățile și nota din coș sau continuă spre finalizarea comenzii.">
+            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded" toolname="update_cart" tooldescription="Adaugă sau modifică nota comenzii din coș; comanda se finalizează cu butonul Finalizează comanda.">
               {%- for block in section.blocks -%}
                 {%- case block.type -%}
                   {%- when '@app' -%}

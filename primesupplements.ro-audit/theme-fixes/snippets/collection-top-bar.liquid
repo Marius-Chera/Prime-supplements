@@ -44,7 +44,14 @@ Supported variables
           {%- capture id_prefix -%}facets-{{ section.id }}{%- endcapture -%}
           {%- assign availability_filter = results.filters | where: 'param_name', 'filter.v.availability' | first -%}
 
-          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents" toolname="filter_products_bar" tooldescription="Filtrează și sortează produsele din listă (disponibilitate, preț, tip, brand).">
+          {%- capture webmcp_filter_list -%}
+            {%- for filter in results.filters -%}
+              {%- if filter.param_name == 'filter.v.availability' -%}{{ 'collection.faceting.availability_label' | t | downcase }}{%- else -%}{{ filter.label | downcase }}{%- endif -%}
+              {%- unless forloop.last -%}, {% endunless -%}
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents" toolname="filter_products_bar" tooldescription="Filtrează produsele din listă{% if webmcp_filter_list != blank %} ({{ webmcp_filter_list | escape }}){% endif %}.">
             {%- if request.page_type == 'search' -%}
               <input type="hidden" name="q" value="{{ results.terms | escape }}">
               <input type="hidden" name="type" value="product">

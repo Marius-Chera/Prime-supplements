@@ -41,7 +41,7 @@ diff -ruN orig/config/settings_data.json stg/config/settings_data.json
        "15351435345818755577": {
 diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 --- orig/layout/theme.liquid	2026-10-13 10:10:07.917479149 +0000
-+++ stg/layout/theme.liquid	2026-10-13 10:11:26.229948403 +0000
++++ stg/layout/theme.liquid	2026-10-13 10:52:47.383678518 +0000
 @@ -12,9 +12,14 @@
  <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
    <head>
@@ -84,7 +84,7 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
      {%- render 'social-meta-tags' -%}
      {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
      {%- render 'css-variables' -%}
-@@ -123,7 +129,23 @@
+@@ -123,7 +129,30 @@
      {{ content_for_header }}
  
      {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
@@ -106,10 +106,17 @@ diff -ruN orig/layout/theme.liquid stg/layout/theme.liquid
 +        line-height: 1.6 !important;
 +      }
 +    </style>
++    {%- comment -%}Performance (2026-10-13): size hints for two images that had neither width nor height (Lighthouse "unsized images"). "auto" keeps each image's own proportions once it has loaded, so nothing changes visually: the Judge.me carousel thumbnails already have an explicit height, the EU flag an explicit width (the flag file is square).{%- endcomment -%}
++    <style>
++      .jdgm-carousel-item__product-image,
++      .eu-label .eu-flag {
++        aspect-ratio: auto 1 / 1;
++      }
++    </style>
      <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
    </head>
  
-@@ -156,5 +178,7 @@
+@@ -156,5 +185,7 @@
          {%- sections 'footer-group' -%}
        {%- endif -%}
      </main>
@@ -169,20 +176,27 @@ diff -ruN orig/sections/footer.liquid stg/sections/footer.liquid
                          {%- render 'banner', content: success_message, status: 'success' -%}
 diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
 --- orig/sections/main-article.liquid	2026-10-13 10:10:07.918441291 +0000
-+++ stg/sections/main-article.liquid	2026-10-13 10:28:02.724247332 +0000
-@@ -114,6 +114,49 @@
++++ stg/sections/main-article.liquid	2026-10-13 10:51:56.905340357 +0000
+@@ -114,6 +114,102 @@
            | replace: 'href="https://bloggenauto.com" target="_blank" rel="noopener"', 'href="https://bloggenauto.com" rel="nofollow sponsored noopener"'
            | replace: 'rel="noopener" href="https://bloggenauto.com" target="_blank"', 'rel="nofollow sponsored noopener" href="https://bloggenauto.com"'
          -%}
 +        {%- comment -%}
 +          Accessibility (2026-10-13): many bodies jump from h2 (or from the h1 title) straight to h4 for the product and
-+          author cards. The tags and their styling stay exactly as written; only an aria-level is added where a level is
-+          skipped, so the outline announced by screen readers (and checked by Lighthouse) never skips a level.
++          author cards. The tags and their styling stay exactly as written; an aria-level is added only where needed, so
++          the outline announced by screen readers (and checked by Lighthouse) never skips a level. Each heading is placed
++          one level below the closest previous heading with a smaller tag (open_1..open_6 hold the announced level of the
++          open heading of each tag, the article title being the open h1), so headings with the same tag stay siblings.
 +        {%- endcomment -%}
 +        {%- liquid
 +          assign heading_digits = '1,2,3,4,5,6' | split: ','
 +          assign heading_parts = article_body | split: '<h'
-+          assign previous_level = 1
++          assign open_1 = 1
++          assign open_2 = 0
++          assign open_3 = 0
++          assign open_4 = 0
++          assign open_5 = 0
++          assign open_6 = 0
 +          capture article_body
 +            for part in heading_parts
 +              if forloop.first
@@ -200,17 +214,63 @@ diff -ruN orig/sections/main-article.liquid stg/sections/main-article.liquid
 +              if is_heading and part contains 'aria-level'
 +                assign is_heading = false
 +              endif
-+              if is_heading
-+                assign level = level_char | plus: 0
-+                assign max_level = previous_level | plus: 1
-+                if level > max_level
-+                  assign rest = part | slice: 1, part.size
-+                  echo '<h' | append: level_char | append: ' aria-level="' | append: max_level | append: '"' | append: rest
-+                  assign previous_level = max_level
-+                else
-+                  echo '<h' | append: part
-+                  assign previous_level = level
-+                endif
++              unless is_heading
++                echo '<h' | append: part
++                continue
++              endunless
++              assign tag_level = level_char | plus: 0
++              assign parent_level = 0
++              if tag_level > 1 and open_1 > 0
++                assign parent_level = open_1
++              endif
++              if tag_level > 2 and open_2 > 0
++                assign parent_level = open_2
++              endif
++              if tag_level > 3 and open_3 > 0
++                assign parent_level = open_3
++              endif
++              if tag_level > 4 and open_4 > 0
++                assign parent_level = open_4
++              endif
++              if tag_level > 5 and open_5 > 0
++                assign parent_level = open_5
++              endif
++              assign announced_level = parent_level | plus: 1
++              if announced_level > tag_level
++                assign announced_level = tag_level
++              endif
++              case tag_level
++                when 1
++                  assign open_1 = announced_level
++                  assign open_2 = 0
++                  assign open_3 = 0
++                  assign open_4 = 0
++                  assign open_5 = 0
++                  assign open_6 = 0
++                when 2
++                  assign open_2 = announced_level
++                  assign open_3 = 0
++                  assign open_4 = 0
++                  assign open_5 = 0
++                  assign open_6 = 0
++                when 3
++                  assign open_3 = announced_level
++                  assign open_4 = 0
++                  assign open_5 = 0
++                  assign open_6 = 0
++                when 4
++                  assign open_4 = announced_level
++                  assign open_5 = 0
++                  assign open_6 = 0
++                when 5
++                  assign open_5 = announced_level
++                  assign open_6 = 0
++                when 6
++                  assign open_6 = announced_level
++              endcase
++              if announced_level < tag_level
++                assign rest = part | slice: 1, part.size
++                echo '<h' | append: level_char | append: ' aria-level="' | append: announced_level | append: '"' | append: rest
 +              else
 +                echo '<h' | append: part
 +              endif
@@ -243,13 +303,13 @@ diff -ruN orig/sections/main-blog.liquid stg/sections/main-blog.liquid
                            {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
 diff -ruN orig/sections/main-cart.liquid stg/sections/main-cart.liquid
 --- orig/sections/main-cart.liquid	2026-10-13 10:10:07.918511087 +0000
-+++ stg/sections/main-cart.liquid	2026-10-13 10:11:08.679105067 +0000
++++ stg/sections/main-cart.liquid	2026-10-13 11:16:22.965329925 +0000
 @@ -91,7 +91,7 @@
            </div>
  
            <safe-sticky class="cart-order__recap v-stack gap-6">
 -            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded">
-+            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded" toolname="update_cart" tooldescription="Actualizează cantitățile și nota din coș sau continuă spre finalizarea comenzii.">
++            <form action="{{ routes.cart_url }}" method="POST" class="cart-form rounded" toolname="update_cart" tooldescription="Adaugă sau modifică nota comenzii din coș; comanda se finalizează cu butonul Finalizează comanda.">
                {%- for block in section.blocks -%}
                  {%- case block.type -%}
                    {%- when '@app' -%}
@@ -399,6 +459,26 @@ diff -ruN orig/sections/search-drawer.liquid stg/sections/search-drawer.liquid
        <button type="reset" class="text-subdued">{{ 'search.general.clear' | t }}</button>
        <button type="button" is="close-button">
          <span class="sr-only">{{ 'general.accessibility.close' | t }}</span>
+diff -ruN orig/sections/tabs.liquid stg/sections/tabs.liquid
+--- orig/sections/tabs.liquid	2026-10-13 11:32:35.868949957 +0000
++++ stg/sections/tabs.liquid	2026-10-13 11:32:43.935144336 +0000
+@@ -60,9 +60,15 @@
+             {%- endfor -%}
+           </div>
+ 
++          {%- comment -%}
++            Accessibility (2026-10-13), no visual effect: the tablist role sat on the <slot>, which axe (the engine behind
++            Lighthouse) skips when it flattens the shadow tree, so the tab buttons had no tablist parent
++            (aria-required-parent). The role and the styling part now sit on a wrapper; the slot inside it is
++            display: contents, so the layout is unchanged.
++          {%- endcomment -%}
+           <x-tabs class="tabs-inner sm:text-{{ section.settings.text_alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+             <template shadowrootmode="open">
+-              <slot role="tablist" part="tab-list" name="title"></slot>
++              <div role="tablist" part="tab-list"><slot name="title"></slot></div>
+               <slot part="tab-panels" name="content"></slot>
+             </template>
+ 
 diff -ruN orig/sections/variant-added.liquid stg/sections/variant-added.liquid
 --- orig/sections/variant-added.liquid	2026-10-13 10:10:07.919717333 +0000
 +++ stg/sections/variant-added.liquid	2026-10-13 10:11:08.680223124 +0000
@@ -413,14 +493,14 @@ diff -ruN orig/sections/variant-added.liquid stg/sections/variant-added.liquid
  
 diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
 --- orig/snippets/a11y-fixes.liquid	1970-01-01 00:00:00.000000000 +0000
-+++ stg/snippets/a11y-fixes.liquid	2026-10-13 10:09:33.258773222 +0000
-@@ -0,0 +1,66 @@
++++ stg/snippets/a11y-fixes.liquid	2026-10-13 10:52:08.364055425 +0000
+@@ -0,0 +1,68 @@
 +{%- comment -%}
 +  Accessibility (2026-10-13), no visual effect:
 +  1. The search and cart drawers are disabled in the overlay group, so the header icons point their aria-controls at
 +     elements that do not exist (an invalid ARIA reference). The dangling attribute is dropped; the icons keep working as
 +     plain links to /search and /cart, exactly as before. If a drawer is enabled again, its element exists and the
-+     attribute is kept.
++     attribute is kept. Skipped in the theme editor, where a drawer can be switched on without reloading the header.
 +  2. The Pop Convert popup renders its promo image link without alt text when the campaign has no "Alt text" set in the
 +     app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
 +     the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
@@ -428,11 +508,13 @@ diff -ruN orig/snippets/a11y-fixes.liquid stg/snippets/a11y-fixes.liquid
 +{%- endcomment -%}
 +<script>
 +  (() => {
++    {%- unless request.design_mode -%}
 +    document.querySelectorAll('[aria-controls="search-drawer"], [aria-controls="cart-drawer"]').forEach((toggle) => {
 +      if (!document.getElementById(toggle.getAttribute('aria-controls'))) {
 +        toggle.removeAttribute('aria-controls');
 +      }
 +    });
++    {%- endunless -%}
 +
 +    const labelFor = (link) => {
 +      let path;
@@ -496,13 +578,14 @@ diff -ruN orig/snippets/address-form.liquid stg/snippets/address-form.liquid
  
 diff -ruN orig/snippets/article-comments.liquid stg/snippets/article-comments.liquid
 --- orig/snippets/article-comments.liquid	2026-10-13 10:10:07.919966271 +0000
-+++ stg/snippets/article-comments.liquid	2026-10-13 10:11:08.681209941 +0000
-@@ -59,7 +59,7 @@
++++ stg/snippets/article-comments.liquid	2026-10-13 11:16:22.966546287 +0000
+@@ -59,7 +59,8 @@
        </div>
      </div>
  
 -    {%- form 'new_comment', article, class: 'form' -%}
-+    {%- form 'new_comment', article, class: 'form', toolname: 'post_article_comment', tooldescription: 'Trimite un comentariu la acest articol (nume, e-mail, mesaj); comentariile sunt moderate înainte de publicare.' -%}
++    {%- capture webmcp_tool_description -%}Trimite un comentariu la acest articol (nume, e-mail, mesaj){% if blog.moderated? %}; comentariile sunt moderate înainte de publicare{% endif %}.{%- endcapture -%}
++    {%- form 'new_comment', article, class: 'form', toolname: 'post_article_comment', tooldescription: webmcp_tool_description -%}
        <div class="fieldset">
          {%- if form.posted_successfully? -%}
            {%- capture content -%}
@@ -523,32 +606,50 @@ diff -ruN orig/snippets/buy-buttons.liquid stg/snippets/buy-buttons.liquid
    {%- assign button_disabled = false -%}
 diff -ruN orig/snippets/collection-top-bar.liquid stg/snippets/collection-top-bar.liquid
 --- orig/snippets/collection-top-bar.liquid	2026-10-13 10:10:07.920096662 +0000
-+++ stg/snippets/collection-top-bar.liquid	2026-10-13 10:11:08.680775363 +0000
-@@ -44,7 +44,7 @@
++++ stg/snippets/collection-top-bar.liquid	2026-10-13 11:20:51.332528798 +0000
+@@ -44,7 +44,14 @@
            {%- capture id_prefix -%}facets-{{ section.id }}{%- endcapture -%}
            {%- assign availability_filter = results.filters | where: 'param_name', 'filter.v.availability' | first -%}
  
 -          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents">
-+          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents" toolname="filter_products_bar" tooldescription="Filtrează și sortează produsele din listă (disponibilitate, preț, tip, brand).">
++          {%- capture webmcp_filter_list -%}
++            {%- for filter in results.filters -%}
++              {%- if filter.param_name == 'filter.v.availability' -%}{{ 'collection.faceting.availability_label' | t | downcase }}{%- else -%}{{ filter.label | downcase }}{%- endif -%}
++              {%- unless forloop.last -%}, {% endunless -%}
++            {%- endfor -%}
++          {%- endcapture -%}
++
++          <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents" toolname="filter_products_bar" tooldescription="Filtrează produsele din listă{% if webmcp_filter_list != blank %} ({{ webmcp_filter_list | escape }}){% endif %}.">
              {%- if request.page_type == 'search' -%}
                <input type="hidden" name="q" value="{{ results.terms | escape }}">
                <input type="hidden" name="type" value="product">
 diff -ruN orig/snippets/facets-vertical.liquid stg/snippets/facets-vertical.liquid
 --- orig/snippets/facets-vertical.liquid	2026-10-13 10:10:07.920176798 +0000
-+++ stg/snippets/facets-vertical.liquid	2026-10-13 10:11:08.680994302 +0000
-@@ -20,7 +20,7 @@
++++ stg/snippets/facets-vertical.liquid	2026-10-13 11:20:51.331887657 +0000
+@@ -20,7 +20,18 @@
  {%- capture context -%}{% if update_on_change %}sidebar{% else %}drawer{% endif %}{%- endcapture -%}
  {%- capture id_prefix -%}facets-{{ context }}-{{ section.id }}{%- endcapture -%}
  
 -<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical">
-+<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical" toolname="filter_products" tooldescription="Filtrează produsele din listă (disponibilitate, preț, tip, brand).">
++{%- capture webmcp_filter_list -%}
++  {%- for filter in results.filters -%}
++    {%- if filter.param_name == 'filter.v.availability' -%}{{ 'collection.faceting.availability_label' | t | downcase }}{%- else -%}{{ filter.label | downcase }}{%- endif -%}
++    {%- unless forloop.last -%}, {% endunless -%}
++  {%- endfor -%}
++{%- endcapture -%}
++{%- capture webmcp_tool_description -%}
++  {%- if show_filters and show_sort_by -%}Filtrează și sortează produsele din listă{%- elsif show_filters -%}Filtrează produsele din listă{%- else -%}Sortează produsele din listă{%- endif -%}
++  {%- if show_filters and webmcp_filter_list != blank %} ({{ webmcp_filter_list }}){% endif -%}.
++{%- endcapture -%}
++
++<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical" toolname="filter_products_{{ context }}" tooldescription="{{ webmcp_tool_description | escape }}">
    {%- comment -%}We always reset to the first page so that when criteria change, the page is restored to the first one{%- endcomment -%}
    <input type="hidden" name="page" value="">
    <input type="hidden" name="section_id" value="{{ section.id }}" disabled>
 diff -ruN orig/snippets/fontify-fonts.liquid stg/snippets/fontify-fonts.liquid
 --- orig/snippets/fontify-fonts.liquid	1970-01-01 00:00:00.000000000 +0000
-+++ stg/snippets/fontify-fonts.liquid	2026-10-13 10:08:57.473850617 +0000
-@@ -0,0 +1,322 @@
++++ stg/snippets/fontify-fonts.liquid	2026-10-13 11:13:05.510688614 +0000
+@@ -0,0 +1,324 @@
 +{%- comment -%}
 +  Performance (2026-10-13): self-hosted copy of the two Google Fonts families that the Fontify app embed loaded from
 +  fonts.googleapis.com as render-blocking stylesheets (Bebas Neue for headings, Poppins for p, a and li). Same files,
@@ -556,6 +657,8 @@ diff -ruN orig/snippets/fontify-fonts.liquid stg/snippets/fontify-fonts.liquid
 +  third-party connections and a blocking request. The Fontify embed is switched off in this theme (config/settings_data.json);
 +  if the fonts are changed later in Fontify, re-enable the embed and remove this snippet from layout/theme.liquid.
 +  Only the latin and latin-ext subsets are kept (Romanian needs both); the browser downloads a file only when the page uses it.
++  The files are Google's hinted build (the one Google sends to Windows and Linux). Its glyph outlines and metrics are identical
++  to the unhinted build Google sends to Android, macOS and iOS, which ignore hinting, so every platform renders as before.
 +{%- endcomment -%}
 +<style>
 +  @font-face {
@@ -887,7 +990,7 @@ diff -ruN orig/snippets/horizontal-product.liquid stg/snippets/horizontal-produc
                {%- render 'button', content: button_content, type: 'submit', size: 'sm', subdued: true -%}
 diff -ruN orig/snippets/localization-selector.liquid stg/snippets/localization-selector.liquid
 --- orig/snippets/localization-selector.liquid	2026-10-13 10:10:07.920468981 +0000
-+++ stg/snippets/localization-selector.liquid	2026-10-13 10:11:08.672649000 +0000
++++ stg/snippets/localization-selector.liquid	2026-10-13 11:16:30.323592621 +0000
 @@ -20,6 +20,7 @@
  {%- capture localization_popover_id -%}popover-localization-form-{{ type }}-{{ popover_vertical_position }}-{{ section.id }}{%- endcapture -%}
  {%- assign popover_vertical_position = popover_vertical_position | default: 'start' -%}
@@ -915,17 +1018,18 @@ diff -ruN orig/snippets/localization-selector.liquid stg/snippets/localization-s
          <div class="h-stack gap-2">
            {%- if show_country_flag -%}
              <span class="country-flags country-flags--{{ localization.country.iso_code }}"></span>
-@@ -55,7 +65,8 @@
+@@ -55,7 +65,9 @@
        <x-popover id="{{ localization_popover_id }}" initial-focus="[aria-selected='true']" anchor-horizontal="{{ popover_horizontal_position }}" anchor-vertical="{{ popover_vertical_position }}" class="popover">
          <p class="h5" slot="title">{{ 'general.localization.country' | t }}</p>
  
 -        {%- form 'localization', id: localization_form_id -%}
 +        {%- capture webmcp_tool_name -%}change_country_{{ webmcp_location }}_{{ popover_vertical_position }}{%- endcapture -%}
-+        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: 'Schimbă țara de livrare și moneda magazinului. Parametrul country_code primește codul ISO al țării (de exemplu RO).' -%}
++        {%- capture webmcp_tool_description -%}Selectorul de țară și monedă al magazinului ({{ localization.available_countries | map: 'name' | join: ', ' | escape }}). Țara se alege din butoanele listei; formularul nu are câmpuri de completat.{%- endcapture -%}
++        {%- form 'localization', id: localization_form_id, toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
            <x-listbox class="popover-listbox popover-listbox--sm" role="listbox" aria-label="{{ 'general.localization.country' | t | escape }}">
              {%- for country in localization.available_countries -%}
                <button type="submit" class="popover-listbox__option" name="country_code" role="option" value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}aria-selected="true"{% endif %}>
-@@ -76,7 +87,7 @@
+@@ -76,7 +88,7 @@
      {%- endcomment -%}
  
      <div class="relative">
@@ -970,20 +1074,6 @@ diff -ruN orig/snippets/product-card.liquid stg/snippets/product-card.liquid
                <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
  
                <div class="pointer-fine:hidden">
-diff -ruN orig/snippets/product-info.liquid stg/snippets/product-info.liquid
---- orig/snippets/product-info.liquid	2026-10-13 10:10:07.920925516 +0000
-+++ stg/snippets/product-info.liquid	2026-10-13 10:31:03.890849941 +0000
-@@ -142,7 +142,9 @@
-           <payment-terms class="product-info__payment-terms">
-             {%- capture product_installment_form_id -%}{{ product_form_id }}-product-installment-form{%- endcapture -%}
- 
--            {%- form 'product', product, id: product_installment_form_id -%}
-+            {%- capture webmcp_tool_name -%}add_to_cart_{{ product.id }}_installments{%- endcapture -%}
-+            {%- capture webmcp_tool_description -%}Formularul widgetului Shop Pay de plată în rate pentru „{{ product.title | strip_html | escape }}”; trimis, adaugă varianta selectată în coș.{%- endcapture -%}
-+            {%- form 'product', product, id: product_installment_form_id, toolname: webmcp_tool_name, tooldescription: webmcp_tool_description -%}
-               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-               {{- form | payment_terms -}}
-             {%- endform -%}
 diff -ruN orig/snippets/shipping-estimator.liquid stg/snippets/shipping-estimator.liquid
 --- orig/snippets/shipping-estimator.liquid	2026-10-13 10:10:07.921259675 +0000
 +++ stg/snippets/shipping-estimator.liquid	2026-10-13 10:11:08.680540946 +0000

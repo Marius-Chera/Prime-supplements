@@ -1,0 +1,27 @@
+import puppeteer from 'puppeteer-core';
+import fs from 'fs';
+const [,, themeId, outdir] = process.argv;
+fs.mkdirSync(outdir, {recursive: true});
+const browser = await puppeteer.launch({executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', headless: 'new', args: ['--no-sandbox','--proxy-server=http://127.0.0.1:33241','--disable-dev-shm-usage']});
+const page = await browser.newPage();
+await page.setViewport({width: 1350, height: 940});
+await page.goto(`https://primesupplements.ro/?preview_theme_id=${themeId}`, {waitUntil: 'networkidle2', timeout: 90000});
+const save = async (p) => {
+  const r = await page.goto('https://primesupplements.ro' + p, {waitUntil: 'networkidle2', timeout: 90000});
+  const raw = await r.text();
+  const name = p.replace(/[^a-z0-9]+/gi, '_');
+  fs.writeFileSync(`${outdir}/${name}.raw.html`, raw);
+  const tools = await page.$$eval('form[toolname]', fs => fs.map(f => [f.getAttribute('toolname'), f.getAttribute('tooldescription')]));
+  console.log(r.status(), p, raw.length, 'liquidErr=' + (raw.match(/Liquid (syntax )?error/gi) || []).length, 'previewTheme=' + (raw.includes(themeId) ? 'yes' : 'NO'));
+  const names = tools.map(t => t[0]);
+  const dup = names.filter((n, i) => names.indexOf(n) !== i);
+  console.log('  forms:', names.length, 'dups:', JSON.stringify(dup));
+  for (const t of tools) if (/cart|filter|comment|country/.test(t[0])) console.log('   ', t[0], '=>', t[1]);
+  await new Promise(r => setTimeout(r, 2000));
+};
+for (const p of ['/', '/collections/proteine', '/blogs/news/glicerol-culturism-pompare-musculara', '/products/prime-whey-2000g']) await save(p);
+const vid = await page.evaluate(async () => (await (await fetch('/products/prime-whey-2000g.js')).json()).variants.find(v => v.available).id);
+await page.evaluate(async (id) => fetch('/cart/add.js', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({items: [{id, quantity: 1}]})}), vid);
+await save('/cart');
+await page.evaluate(async () => fetch('/cart/clear.js', {method: 'POST'}));
+await browser.close();

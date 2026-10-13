@@ -5,6 +5,8 @@
   third-party connections and a blocking request. The Fontify embed is switched off in this theme (config/settings_data.json);
   if the fonts are changed later in Fontify, re-enable the embed and remove this snippet from layout/theme.liquid.
   Only the latin and latin-ext subsets are kept (Romanian needs both); the browser downloads a file only when the page uses it.
+  The files are Google's hinted build (the one Google sends to Windows and Linux). Its glyph outlines and metrics are identical
+  to the unhinted build Google sends to Android, macOS and iOS, which ignore hinting, so every platform renders as before.
 {%- endcomment -%}
 <style>
   @font-face {

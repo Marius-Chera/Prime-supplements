@@ -3,7 +3,7 @@
   1. The search and cart drawers are disabled in the overlay group, so the header icons point their aria-controls at
      elements that do not exist (an invalid ARIA reference). The dangling attribute is dropped; the icons keep working as
      plain links to /search and /cart, exactly as before. If a drawer is enabled again, its element exists and the
-     attribute is kept.
+     attribute is kept. Skipped in the theme editor, where a drawer can be switched on without reloading the header.
   2. The Pop Convert popup renders its promo image link without alt text when the campaign has no "Alt text" set in the
      app, which leaves an image and a link without a name for screen readers. Until the alt text is filled in the app,
      the image gets the text of the matching link from the page (e.g. the menu entry for the same collection), or a
@@ -11,11 +11,13 @@
 {%- endcomment -%}
 <script>
   (() => {
+    {%- unless request.design_mode -%}
     document.querySelectorAll('[aria-controls="search-drawer"], [aria-controls="cart-drawer"]').forEach((toggle) => {
       if (!document.getElementById(toggle.getAttribute('aria-controls'))) {
         toggle.removeAttribute('aria-controls');
       }
     });
+    {%- endunless -%}
 
     const labelFor = (link) => {
       let path;

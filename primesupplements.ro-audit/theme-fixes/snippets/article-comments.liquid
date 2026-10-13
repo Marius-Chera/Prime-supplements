@@ -59,7 +59,8 @@ Supported parameters
       </div>
     </div>
 
-    {%- form 'new_comment', article, class: 'form', toolname: 'post_article_comment', tooldescription: 'Trimite un comentariu la acest articol (nume, e-mail, mesaj); comentariile sunt moderate înainte de publicare.' -%}
+    {%- capture webmcp_tool_description -%}Trimite un comentariu la acest articol (nume, e-mail, mesaj){% if blog.moderated? %}; comentariile sunt moderate înainte de publicare{% endif %}.{%- endcapture -%}
+    {%- form 'new_comment', article, class: 'form', toolname: 'post_article_comment', tooldescription: webmcp_tool_description -%}
       <div class="fieldset">
         {%- if form.posted_successfully? -%}
           {%- capture content -%}

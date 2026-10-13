@@ -20,7 +20,18 @@ Supported variables
 {%- capture context -%}{% if update_on_change %}sidebar{% else %}drawer{% endif %}{%- endcapture -%}
 {%- capture id_prefix -%}facets-{{ context }}-{{ section.id }}{%- endcapture -%}
 
-<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical" toolname="filter_products" tooldescription="Filtrează produsele din listă (disponibilitate, preț, tip, brand).">
+{%- capture webmcp_filter_list -%}
+  {%- for filter in results.filters -%}
+    {%- if filter.param_name == 'filter.v.availability' -%}{{ 'collection.faceting.availability_label' | t | downcase }}{%- else -%}{{ filter.label | downcase }}{%- endif -%}
+    {%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture webmcp_tool_description -%}
+  {%- if show_filters and show_sort_by -%}Filtrează și sortează produsele din listă{%- elsif show_filters -%}Filtrează produsele din listă{%- else -%}Sortează produsele din listă{%- endif -%}
+  {%- if show_filters and webmcp_filter_list != blank %} ({{ webmcp_filter_list }}){% endif -%}.
+{%- endcapture -%}
+
+<form id="facet-form" is="facet-form" section-id="{{ section.id }}" {% if update_on_change %}update-on-change{% endif %} method="GET" action="{{ request.path }}" class="facets-vertical" toolname="filter_products_{{ context }}" tooldescription="{{ webmcp_tool_description | escape }}">
   {%- comment -%}We always reset to the first page so that when criteria change, the page is restored to the first one{%- endcomment -%}
   <input type="hidden" name="page" value="">
   <input type="hidden" name="section_id" value="{{ section.id }}" disabled>

@@ -1,6 +1,6 @@
 # Audit SEO complet – primesupplements.ro
 
-**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Verificarea adversarială** a tuturor celor 287 de constatări (doi verificatori independenți pe fiecare raport de specialist, 13.10.2026) este în **Anexa V**, la finalul raportului: 101 confirmate, 179 parțial confirmate, 7 infirmate; corecturile cerute de ea sunt aplicate în raport, în plan și pe magazin. **PageSpeed Insights** (raportul trimis pentru tema live: Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, agenți 3/4) este tratat problemă cu problemă în **Anexa P** și în `PAGESPEED-2026-10-13.md`.
+**Data auditului:** 12 octombrie 2026 (remedierile din aceeași zi sunt consemnate în fiecare secțiune cu starea FIXED / READY / PENDING / OPEN). **Site:** https://primesupplements.ro — magazin Shopify (tema Impact, id 179784286583), PRIME SPORT SUPPLEMENTS SRL, Cisnădie, jud. Sibiu. **Verificarea adversarială** a tuturor celor 287 de constatări (doi verificatori independenți pe fiecare raport de specialist, 13.10.2026) este în **Anexa V**, la finalul raportului: 101 confirmate, 179 parțial confirmate, 7 infirmate; corecturile cerute de ea sunt aplicate în raport, în plan și pe magazin. **PageSpeed Insights** (rapoartele trimise pentru tema live, mobil și desktop: pe mobil Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, agenți 3/4) este tratat problemă cu problemă în **Anexa P** și în `PAGESPEED-2026-10-13.md`.
 
 ## Domeniu și metodă
 
@@ -6048,20 +6048,22 @@ Cu ponderile din capitolul de început, scorurile verificatorilor (Tehnic 66, Co
 
 ## Anexa P. PageSpeed Insights (13.10.2026)
 
-Proprietarul a trimis raportul PageSpeed Insights pentru tema live (mobil): Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, Navigare autonomă 3/4. Toate remedierile sunt în tema de test, fără schimbări de aspect: capturi pixel cu pixel identice, 0 erori Liquid, 71 de fișiere verificate prin checksum.
+Proprietarul a trimis rapoartele PageSpeed Insights pentru tema live: mobil (Performanță 64, Accesibilitate 76, Best practices 88, SEO 92, Navigare autonomă 3/4) și desktop. Toate remedierile sunt în tema de test, fără schimbări de aspect: capturi pixel cu pixel identice, 0 erori Liquid, 72 de fișiere verificate prin checksum (38 de fonturi, 34 de fișiere de cod și configurare). Modificările au trecut printr-o verificare adversarială cu cinci verificatori; constatările și ce s-a făcut cu ele sunt în `PAGESPEED-2026-10-13.md`, secțiunea 7.
 
-- **Performanță:** fonturile Fontify sunt servite de pe domeniul magazinului, nu din foile de stil Google care blocau afișarea. CSS-ul BSS este pus direct în pagină. Preconnect-urile inutile sunt scoase (avertismentul „mai mult de 4 preconnect” a dispărut). Sprite-ul de steaguri (155 KiB pe mobil) nu se mai descarcă. La cardurile de produs s-a adăugat o variantă de 550 px. Local, pe homepage: LCP 6,2 → 4,1 s, FCP 3,0 → 2,6 s.
-- **Accesibilitate:** ARIA invalid la iconițele de căutare și coș, imaginea fără `alt` din popup-ul Pop Convert, zoom blocat pe Android (iOS neschimbat), numele butonului de țară, ordinea titlurilor în 119 articole (`aria-level`). Toate sunt rezolvate.
-- **Best practices:** eroarea 404 `/null` (Pop Convert nu găsea favicon-ul) este rezolvată. Eroarea 404 theMarketer și cookie-urile terțe rămân în aplicații.
-- **SEO:** 100. **Navigare autonomă:** 4/4. Toate formularele temei au adnotări WebMCP.
-- **Rămase:** 6 micro-schimbări de culoare/spațiere care cer acordul proprietarului (contrast, punctele galeriei, siglele ANPC), plus setări în aplicațiile Pop Convert, theMarketer, Judge.me și Delivery Estimator. Lista exactă este în `PAGESPEED-2026-10-13.md` (secțiunile 4–5) și în `OWNER-HANDOVER.md` (punctele 23–27).
+- **Performanță:** fonturile Fontify sunt servite de pe domeniul magazinului (build-ul „hinted” al Google, identic pe Windows), nu din foile de stil Google care blocau afișarea. CSS-ul BSS este pus direct în pagină. Preconnect-urile inutile sunt scoase (avertismentul „mai mult de 4 preconnect” a dispărut). Sprite-ul de steaguri (155 KiB pe mobil, 66 KiB pe desktop) nu se mai descarcă. La cardurile de produs s-a adăugat o variantă de 550 px. Imaginile fără dimensiuni (siglele ANPC, caruselul Judge.me, steagul UE) au acum dimensiuni explicite. Local: LCP pe homepage mobil 6,2 → 4,4 s, pe produs mobil 7,2 → 4,0 s; TBT pe homepage desktop 440 → 110 ms.
+- **Accesibilitate:** ARIA invalid la iconițele de căutare și coș, imaginea fără `alt` din popup-ul Pop Convert, zoom blocat pe Android (iOS neschimbat), numele butonului de țară, ordinea titlurilor în 119 articole (`aria-level`), filele descrierii de produs pe desktop (`aria-required-parent`). Toate sunt rezolvate.
+- **Best practices:** eroarea 404 `/null` (Pop Convert nu găsea favicon-ul) este rezolvată. Eroarea 404 theMarketer, cookie-urile terțe și problema CSP `shop.app` cu erorile de telemetrie din consolă (funcția Shopify „Sign in with Shop”, raportul desktop) nu vin din temă.
+- **SEO:** 100. **Navigare autonomă:** 4/4 pe mobil și desktop. Toate formularele utilizabile ale temei au adnotări WebMCP cu descrieri exacte.
+- **Diagnostice desktop care nu țin de temă:** CSS nefolosit (`theme.css` Impact și Judge.me), JavaScript nefolosit și munca firului principal (aplicații și pixeli; Facebook Pixel se descarcă de două ori), JavaScript neminimizat (UpPromote), payload (fișierele checkout preîncărcate de Shopify, Google tag, Facebook, Pop Convert).
+- **Rămase:** 7 micro-schimbări de culoare/spațiere care cer acordul proprietarului (foaia de capturi `data/pagespeed/aprobare-micro-schimbari.png`), plus setări în Shopify și în aplicațiile Pop Convert, theMarketer, Judge.me, Delivery Estimator, Simprosys/Facebook și UpPromote. Lista exactă este în `PAGESPEED-2026-10-13.md` (secțiunile 4–5) și în `OWNER-HANDOVER.md` (punctele 23–30).
 
 | Pagina (Lighthouse 13.5 local) | Live: perf · acces. · BP · SEO · agenți | Tema de test | Accesibilitate după publicare |
 |---|---|---|---|
-| Homepage | 35 · 76 · 69 · 92 · 67 | 46 · 91 · 69 · 100 · 100 | 94 |
-| Produs | 36 · 78 · 69 · 92 · 67 | 37 · 91 · 69 · 100 · 100 | 94 |
-| Colecție | 37 · 78 · 69 · 92 · 66 | 35 · 97 · 69 · 100 · 100 | 100 |
-| Articol | 44 · 78 · 69 · 92 · 64 | 55 · 94 · 69 · 100 · 100 | 97 |
+| Homepage | 35 · 76 · 69 · 92 · 67 | 43 · 91 · 69 · 100 · 100 | 94 |
+| Produs | 36 · 78 · 69 · 92 · 67 | 45 · 91 · 69 · 100 · 100 | 94 |
+| Colecție | 37 · 78 · 69 · 92 · 66 | 36 · 97 · 69 · 100 · 100 | 100 |
+| Articol | 44 · 78 · 69 · 92 · 64 | 48 · 94 · 69 · 100 · 100 | 97 |
+| Homepage, desktop | 66 · 80 · 73 · 92 · 67 | 88 · 94 · 73 · 100 · 100 | 97 |
+| Produs, desktop | 79 · 78 · 73 · 92 · 67 | 82 · 94 · 73 · 100 · 100 | 97 |
 
-Scorurile temei de test includ penalizările previzualizării: o redirecționare și bara Shopify fără titlu, care costă 3 puncte de accesibilitate. Niciuna nu există după publicare.
-
+Scorurile temei de test includ penalizările previzualizării: o redirecționare, scripturile barei Shopify (aproximativ 415 KiB) și bara fără titlu, care costă 3 puncte de accesibilitate. Niciuna nu există după publicare. Performanța locală variază de la o rulare la alta cu câteva puncte, după ce popup-uri și pixeli apucă să se încarce.

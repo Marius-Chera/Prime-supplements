@@ -182,7 +182,7 @@ Proprietarul a aprobat micro-schimbările („alea pe telefon ne interesează ce
 - Cardurile „articolul anterior/următor” de sub articole își încarcă imaginile la scroll, așa că nu mai concurează cu imaginea principală (LCP pe articole −0,3…0,6 s în simulare).
 - Pe paginile de produs, galeria se deschide direct pe imaginea variantei selectate (`scroll-initial-target`, Chrome/Edge 133+), fără să mai arate o clipă prima imagine. Pagina după încărcare e identică, iar LCP vine la prima afișare (−0,8…1 s în simulare, pe produsele a căror variantă implicită nu are prima imagine).
 
-**Conținut reparat (live):** singura imagine stricată din cele 190 ale celor 121 de articole era în *Carbohidrați intra-workout: rezultate după 90 de zile*, în cardul „Articole similare” către *Dextrină ciclică vs maltodextrină*. Acum folosește fișierul original (`…-studii-2026-1775819141781.png`). S-a schimbat doar adresa imaginii (verificat octet cu octet).
+**Conținut reparat (live):** singura imagine stricată din peste 230 de imagini din 120 de articole (al 121-lea, `vitamina-c-doza-pe-varste`, n-a putut fi citit din cauza verificării anti-bot) era în *Carbohidrați intra-workout: rezultate după 90 de zile*, în cardul „Articole similare” către *Dextrină ciclică vs maltodextrină*. Acum folosește fișierul original (`…-studii-2026-1775819141781.png`). S-a schimbat doar adresa imaginii (verificat octet cu octet).
 
 **Verificare după încărcare:** sumele MD5 ale fișierelor urcate sunt identice cu sursa locală. Pe homepage, produse, colecție, articole, contact și căutare: 0 erori Liquid, 0 imagini stricate, 0 nume de instrument duplicate, iar galeria nu derulează pagina.
 

@@ -32,3 +32,9 @@ LIMITS
 
 FINAL REPORT (Romanian, short): for each article created: title, URL https://primesupplements.ro/blogs/news/<handle>, scheduled time (Romania), main product, internal links used, word count, image (AI with the model name, or product photo and why); anything skipped and why.
 ```
+
+## Rutina de rezervă (model mai ieftin)
+
+Routine: **Blog Prime Supplements – rezervă (model mai ieftin)** · zilnic la 13:57 și 21:57, ora României (`CRON_TZ=Europe/Bucharest 57 13,21 * * *`) · model `claude-sonnet-5-5` · o sesiune nouă la fiecare rulare · **conector necesar: Shopify** (adăugat de proprietar din interfață, ca la rutina principală).
+
+Cerința proprietarului: dacă rularea principală eșuează, articolele se fac pe un model mai ieftin, ca să nu rămână nicio zi fără postare. Rezerva verifică întâi, ieftin, dacă articolele de azi și de mâine din calendar există deja în Shopify. Dacă există, se oprește imediat. Dacă lipsește ceva, le creează doar pe cele lipsă, după aceleași reguli și același ghid, fără să dubleze vreun articol. Raportul ei începe cu „Rezervă:”.

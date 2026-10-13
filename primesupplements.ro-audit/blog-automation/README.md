@@ -21,3 +21,5 @@
 - Fiecare rulare consumă din limita de utilizare a contului tău Claude. Dacă limita e atinsă, rularea din ziua respectivă nu se face, iar automatizarea recuperează a doua zi (maximum 4 articole odată).
 - Google nu răsplătește volumul, ci utilitatea. De aceea fiecare articol răspunde la o întrebare nouă și trimite spre produs doar unde are sens. Recomand o verificare scurtă a articolelor programate, de 1–2 ori pe săptămână, mai ales a celor despre sănătate.
 - Rezultatele în Google apar în timp: de obicei 1–3 luni pentru articolele noi.
+
+**Rezervă:** o a doua rutină, pe un model mai ieftin (13:57 și 21:57), verifică în fiecare zi dacă articolele de azi și de mâine există și le creează pe cele lipsă, ca să nu rămână nicio zi fără postare. Detalii în `PROMPT-ROUTINE.md`.

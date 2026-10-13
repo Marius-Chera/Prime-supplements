@@ -74,6 +74,8 @@
 
 \* Bara de previzualizare Shopify (iframe fără titlu) există doar în previzualizare. După publicare dispare și cu ea pierderea de 3 puncte.
 
+**Desktop** (tab-ul „Computer” din PSI), homepage, Lighthouse local cu profilul desktop: tema live **66 · 80 · 73 · 92 · 67** → tema de test **84 · 94 · 73 · 100 · 100** (FCP 1,0 → 1,1 s · LCP 1,6 → 1,3 s · TBT 440 → 150 ms · CLS 0,02 → 0,015). După publicare, accesibilitatea pe desktop este **97**. Singurul audit rămas este contrastul: butonul roșu, verdele „În stoc” și numele recenzenților Judge.me (secțiunile 4 și 5).
+
 Homepage, valori locale, live → test: **FCP 3,0 → 2,6 s · LCP 6,2 → 4,1 s · Speed Index 8,1 → 7,2 s**, chiar dacă testul plătește în plus redirecționarea previzualizării. Best practices local arată 69 pe ambele teme din cauza unui audit de cookie-uri terțe pe care PSI nu l-a penalizat (PSI: 88).
 
 **Ce să aștepți în PSI după publicare** (estimare): Accesibilitate 76 → **94** (100 după cele două aprobări de culoare și spațiere), SEO 92 → **100**, Navigare autonomă 3/4 → **4/4**, WebMCP fără formulare neadnotate, Best practices 88 → **88–92** (92 când theMarketer nu mai dă 404; 96 cu corectarea siglelor ANPC; restul sunt cookie-uri terțe), Performanță: mai multe puncte din FCP/LCP. Tot ce rămâne la Performanță ține de aplicații (secțiunea 5) și de codul temei Impact.

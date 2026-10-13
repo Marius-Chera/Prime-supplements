@@ -1,0 +1,21 @@
+{
+  "applied": [
+    "potassium-complex-80-caps",
+    "glycerol-max-pump-500g-125-serv"
+  ],
+  "failures": [
+    {"handle": "fiber-blood-orange", "error": "not applied: the auto-mode permission classifier denied the step loading this product's payload (reason: Production Deploy); further live-store mutations stopped pending user decision"},
+    {"handle": "prime-whey-go", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "15-reducere-pachet-thermo-core-water-out-1-14-august", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "pachet-nitrox3d-creatina-creapure®", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "fiber-creatina-creapure®", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "creatina-monohidrat-micronized-300g-fara-aroma", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "creatine-ready-to-go-plicuri-prime-supplements", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"},
+    {"handle": "tricou-sala-suffer-to-dominate-bumbac-premium-negru", "error": "not applied: stopped after permission denial (Production Deploy) - pending user decision"}
+  ],
+  "notes": {
+    "potassium-complex-80-caps": "verified: userErrors empty, title and all 5 metafields equal; descriptionHtml re-serialised only (Shopify inserted newlines between <ul>/<li> tags)",
+    "glycerol-max-pump-500g-125-serv": "verified: userErrors empty, title and all 5 metafields equal; descriptionHtml re-serialised only (Shopify inserted newlines between <ul>/<li> tags)",
+    "previous_log_backup": "prod-logs/products-apply-3.prev-round.json (the earlier round's log that was in this path)"
+  }
+}

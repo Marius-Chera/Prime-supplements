@@ -1,0 +1,24 @@
+{
+  "applied": [
+    "mnx-double-layer-shorts-sand",
+    "mnx-cotton-t-shirt-basix-pastel-rose",
+    "mnx-cotton-t-shirt-basix-white",
+    "mnx-cotton-t-shirt-basix-pastel-green",
+    "mnx-shaker-600-ml",
+    "tricou-sala-built-in-the-city-bumbac-premium-negru",
+    "tricou-sala-made-of-iron-bumbac-premium-negru",
+    "mnx-cotton-t-shirt-basix-purple",
+    "mnx-extra-t-shirt-industrial-navy-blue",
+    "mnx-ribbed-shorts-hammer-3-0-dark-grey"
+  ],
+  "failures": [],
+  "notes": [
+    "All 10 productUpdate calls used the exact prod-vars2/<handle>.json content as variables; final responses had empty userErrors, and id, handle and title matched for every product.",
+    "Every metafield in each vars file matched its returned value under json.loads equality (beneficii_cheie, despre_produs, detalii_produs for all 10; ingrediente for the 4 files that include it). No file contained seo_produs; Shopify returned s=null (untouched). Files without ingrediente returned i=null (not written).",
+    "descriptionHtml: Shopify only re-serialised the HTML by inserting newlines between <ul>/<li>/</ul> tags; equal after removing inter-tag whitespace, with no entity, attribute or text changes (accepted).",
+    "tricou-sala-made-of-iron-bumbac-premium-negru: the first call carried a transcription error (Cyrillic U+043C in place of Latin m in every 'emblema' occurrence, in descriptionHtml and the beneficii_cheie/despre_produs/detalii_produs metafields). Verification caught it; the single retry with the exact file content overwrote all fields and verified OK.",
+    "mnx-ribbed-shorts-hammer-3-0-dark-grey: the first call carried a transcription error in the title ('reiăți' instead of 'reiați'). The single retry with the exact file content verified OK.",
+    "Independent read-back: the public storefront /products/<handle>.json title and body_html matched the vars files for all 10, and the rendered pages of the two retried products contain no Cyrillic characters and no 'reiăți'.",
+    "Saved responses: scratchpad/g10resp/<handle>.json (first-attempt notes in *.attempt1.json); storefront read-backs in scratchpad/g10live/."
+  ]
+}

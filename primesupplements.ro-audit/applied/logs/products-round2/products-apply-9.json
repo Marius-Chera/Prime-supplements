@@ -1,0 +1,17 @@
+{
+  "applied": [
+    "mnx-shorts-golden-era-2-0-red",
+    "mnx-stringer-golden-era-2-0-black-white",
+    "mnx-stringer-golden-era-2-0-fire-red-white",
+    "mnx-stringer-golden-era-2-0-white-black",
+    "mnx-classic-t-shirt-golden-era-2-0-white-red",
+    "mnx-classic-t-shirt-golden-era-2-0-white-black"
+  ],
+  "failures": [
+    {"handle": "mnx-golden-era-cotton-shorts-rosewood", "error": "not applied: the auto-mode permission classifier denied the step that loads this product's payload (reason: Modify Shared Resources). Further live-store mutations stopped until the user decides."},
+    {"handle": "mnx-golden-era-cotton-shorts-melange-grey", "error": "not applied: stopped after the permission denial (Modify Shared Resources), waiting for the user's decision"},
+    {"handle": "mnx-golden-era-cotton-shorts-sky-blue", "error": "not applied: stopped after the permission denial (Modify Shared Resources), waiting for the user's decision"},
+    {"handle": "mnx-extra-t-shirt-embossed-mosaic-blue", "error": "not applied: stopped after the permission denial (Modify Shared Resources), waiting for the user's decision"}
+  ],
+  "notes": "Applied 6 products, one productUpdate call each, in order. Variables were passed unchanged from prod-vars2/<handle>.json. Every call returned empty userErrors, and the id, handle and title matched. All 4 metafields in each vars file (beneficii_cheie, despre_produs, detalii_produs, ingrediente) were equal under json.loads, including the rich-text link nodes with title/target null. None of these files had seo_produs, and Shopify returned s=null. descriptionHtml matched after whitespace collapse; Shopify's only change was adding newlines between the <ul>/<li>/</ul> tags, with no entity, attribute or text changes. No retries were needed. Saved responses are in scratchpad/g9resp/<handle>.json. The 7th product was not applied because the classifier denied loading its payload. Applying it, or any later product, would mean working around that denial, so the remaining 4 were left unchanged on the store."
+}

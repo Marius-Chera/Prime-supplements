@@ -1,0 +1,16 @@
+{
+  "applied": [
+    "energy-pump",
+    "fat-burning-booster",
+    "prosop-negru",
+    "hanorac-prime-squad",
+    "t-shirt-drop-shoulder-muscle-white",
+    "unt-de-arahide",
+    "unt-de-migdale",
+    "prime-bodybuilding-classic-pants",
+    "water-out-500-ml",
+    "unt-de-caju"
+  ],
+  "failures": [],
+  "notes": "All 10 productUpdate calls (vars from prod-vars2) returned empty userErrors; id, handle and title matched; every metafield in each vars file matched by json.loads equality (unt-de-caju has no seo_produs in its file, so it was not written and returned null). descriptionHtml matched for all 10 after whitespace normalisation: Shopify only re-serialised the HTML by inserting a newline between <ul>/<li>/</ul> tags; removing newlines makes stored and file HTML byte-identical (no text, entity or attribute changes). No retries were needed. Saved responses: scratchpad/prod-resp-apply1-r2/<handle>.json. The previous contents of this log (an earlier group of 9 products) were preserved in prod-logs/products-apply-1.prev-group-backup.json."
+}

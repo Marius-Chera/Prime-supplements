@@ -1,0 +1,16 @@
+{
+ "applied": [
+  "mnx-basketball-shorts-2-0-light-yellow",
+  "mnx-basketball-mesh-shorts-red",
+  "mnx-ribbed-shorts-hammer-green-lint",
+  "mnx-ribbed-shorts-hammer-dusty-chedar",
+  "prime-shaker-customised",
+  "crema-de-orez-fara-aroma",
+  "crema-de-orez-blueberry-muffin",
+  "crema-de-orez-caramel-sarat",
+  "crema-de-orez-sirop-de-artar",
+  "crema-de-orez-biscuiti-cu-crema"
+ ],
+ "failures": [],
+ "notes": "descriptionHtml: Shopify re-serialised list markup (inserted newlines between <ul>/<li> tags); text and attributes otherwise identical. All metafields json-equal."
+}

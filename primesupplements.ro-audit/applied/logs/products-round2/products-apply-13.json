@@ -1,0 +1,16 @@
+{
+ "applied": [
+  "instant-drink-frutilu-ice-tea-lemon-10g",
+  "instant-drink-frutilu-lemon",
+  "instant-drink-frutilu-lemon-lime-10g",
+  "instant-drink-frutilu-mango-10g",
+  "instant-drink-frutilu-orange-10g",
+  "frutilu-instant-drink-tropic-10-g",
+  "instant-drink-frutilu-watermelon-10g",
+  "instant-drink-frutilu-pineapple-10g",
+  "frutilu-instant-drink-strawberry-10-g",
+  "frutilu-instant-drink-sport-red-orange-10-g"
+ ],
+ "failures": [],
+ "notes": "descriptionHtml: Shopify re-serialised list markup (inserted newlines between <ul>/<li> tags); text and attributes otherwise identical. All metafields json-equal. frutilu-instant-drink-strawberry-10-g: first call stored seo_produs with a transcription typo (\"împarti\" instead of \"împarți\"); retried once with the exact file content and verified OK."
+}

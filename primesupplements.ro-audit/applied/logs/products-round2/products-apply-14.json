@@ -1,0 +1,30 @@
+{
+  "applied": [
+    "mnx-classic-t-shirt-golden-era-blue",
+    "mnx-hardcore-mesh-shorts-grey",
+    "mnx-extra-t-shirt-hc-2-0-limited-dark-grey",
+    "mnx-stringer-golden-era-2-0-grey-black",
+    "mnx-extra-t-shirt-basic-light-pink",
+    "pantaloni-trening-barbati-hammer-3-0-prime-negri",
+    "pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri",
+    "tricou-oversized-barbati-hammer-3-0-prime-negru",
+    "maieu-fitness-barbati-edge-prime-negru",
+    "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare"
+  ],
+  "failures": [],
+  "notes": [
+    "All 10 productUpdate calls used the exact prod-vars2/<handle>.json content as variables, one call per product, in order; every response had empty userErrors and matching id/handle/title.",
+    "All metafields in each file matched by json.loads equality (Shopify returned compact JSON serialisation). Metafields not in a file (e.g. ingrediente on Prime apparel) were not sent and not touched.",
+    "descriptionHtml: Shopify re-serialised list markup by inserting newlines between <ul>/<li> tags; equal after collapsing whitespace (including inter-tag whitespace); no content changes. No retries were needed.",
+    "mnx-classic-t-shirt-golden-era-blue: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente",
+    "mnx-hardcore-mesh-shorts-grey: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente",
+    "mnx-extra-t-shirt-hc-2-0-limited-dark-grey: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente",
+    "mnx-stringer-golden-era-2-0-grey-black: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente",
+    "mnx-extra-t-shirt-basic-light-pink: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente",
+    "pantaloni-trening-barbati-hammer-3-0-prime-negri: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, seo_produs",
+    "pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, seo_produs",
+    "tricou-oversized-barbati-hammer-3-0-prime-negru: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, seo_produs",
+    "maieu-fitness-barbati-edge-prime-negru: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, seo_produs",
+    "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare: html equal after whitespace collapse; Shopify inserted newlines between tags; metafields checked: beneficii_cheie, despre_produs, detalii_produs, ingrediente, seo_produs"
+  ]
+}

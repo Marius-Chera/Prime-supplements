@@ -1,0 +1,16 @@
+{
+  "applied": [
+    "shaker-premium-accesorizat-500-ml",
+    "prime-whey-1000g",
+    "prime-whey-2000g",
+    "cluster-insulin-bomb-1000g",
+    "nitrox-no-stim",
+    "combat-pro-2-0-660g-30-serv",
+    "instant-oat-cream-800g-25-serv",
+    "spirulina-80-caps",
+    "silimarina-80-caps",
+    "enzima-nattokinaza-80-caps"
+  ],
+  "failures": [],
+  "notes": "All 10 productUpdate calls made once each, in order, with no retries needed. Every call returned empty userErrors, and id, handle and title all matched. Every metafield in each vars file matched its returned value under json.loads equality: beneficii_cheie, despre_produs, detalii_produs and seo_produs for all 10, plus ingrediente for the 9 files that include it (the shaker file has none). descriptionHtml matched after whitespace collapse for all 10. Shopify's only change was re-serialising the HTML by adding a newline between <ul>/<li>/</ul> tags; no text, entity (&amp; kept as-is) or attribute was altered. Saved responses: scratchpad/prod-resp2/<handle>.json. The previous round's products-apply-2.json was backed up to prod-logs/products-apply-2.prev-round.json before being overwritten."
+}

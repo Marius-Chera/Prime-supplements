@@ -27,3 +27,7 @@ Files: `theme-fixes/`.
 - B2B store noindex/password: owner action on the other store.
 - Theme publish: owner action after preview.
 - Consolidation of the ~190 duplicate/cannibalising articles (301 map in the cluster findings): editorial decision, not executed.
+
+# Round 2 (2026-10-13)
+
+A second remediation round followed on 2026-10-13, under the owner's rule "do not touch the site design, do not break anything". It removed the `/ro-hu` market presence (575 redirects), consolidated the blog (355 → 121 articles, 234 redirects), repaired and re-imported the 121 kept article bodies, wrote Romanian product titles and full tab content for all 195 products, added alt text to theme images, created the author page and 11 sourced draft articles, aligned the terms page with the delivery policy, and extended the staging theme. Several items listed above as "Prepared but NOT applied" are now done. The per-finding state is in `round2-status.md`, and the owner checklist is in `../OWNER-HANDOVER.md`.

@@ -2,7 +2,15 @@
 
 Data: 12 octombrie 2026. Planul conține doar constatările **OPEN** și **PENDING** din `FULL-AUDIT-REPORT.md`, plus pașii de *publicare-și-verificare* pentru cele 57 constatări **READY** din tema de test; munca deja aplicată pe live (25 FIXED) nu mai apare ca sarcină — doar pasul ei de verificare este în fiecare secțiune a raportului. Responsabili: **dev temă** (cod Liquid/JSON pe tema de test), **admin Shopify** (setări, aplicații, Markets, URL redirects, Merchant Center), **conținut** (editorial, descrieri, surse, pagina de autor), **marketing** (PR, mențiuni, profiluri, măsurare). Efort: S ≤ 1 zi, M = 2–5 zile, L = săptămâni.
 
-> **Fă asta mai întâi (ziua 1, ~1 oră, admin Shopify + dev temă)**
+> **Actualizare 13 octombrie 2026 (runda 2).** O parte mare din acest plan este deja executată: eliminarea `/ro-hu` cu cele 575 de redirecturi, redirecturile legacy într-un singur hop, consolidarea blogului (355 → 121 articole, 234 redirecturi), importul corpurilor curățate și reparate, titlurile românești și tab-urile complete pe 195 de produse, pagina de autor, alt text pe imaginile de temă, aliniarea termenilor cu politica de livrare și retușurile de cod de pe tema de test (TECH-08, robots.txt cu Content-Signal, founder/autor legați, GTIN validat, ANPC SAL, wa.me, accesibilitate). Starea fiecărui ID este în `data/round2-status.md`, iar lista scurtă pentru proprietar în `OWNER-HANDOVER.md`. Rândurile de mai jos rămân ca referință, dar **acțiunile rămase sunt doar**:
+>
+> 1. Pe tema de test: pornește embed-ul „Koala Gifts” (Customize → App embeds), previzualizează și **publică**.
+> 2. Oprește BlogGenAuto; revizuiește și publică cele 11 articole noi (ciorne).
+> 3. Dezactivează piața Ungaria (selectorul încă o afișează) și zona de livrare HU; parolă pe B2B.
+> 4. GSC + Bing: sitemap, Removals pentru URL-urile vechi; GTIN-uri; traduceri Judge.me; adresa din profilul magazinului.
+> 5. Deciziile de design și comerciale lăsate intenționat neatinse (banner cookie, sticky ATC, homepage, fonturi, preț tăiat/Reduceri, unirea variantelor): vezi `OWNER-HANDOVER.md` §4.
+
+> **Fă asta mai întâi (ziua 1, ~1 oră, admin Shopify + dev temă)** *(planul inițial din 12.10; vezi actualizarea de mai sus)*
 >
 > 1. Pe tema de test „Impact – SEO fixes 2026-10-12” (id 193875083639) aplică cele 8 retușuri de dinaintea publicării (tabelul 1.1), încarcă `logo-prime-supplements.png` în Content → Files cu exact acest nume (altfel `Organization.logo` rămâne 404 și după publicare) și previzualizează homepage-ul, o colecție, un produs, un articol.
 > 2. **Publică tema** (Online Store → Themes → Publish; tema actuală rămâne ca rezervă). Deblochează 57 constatări READY, inclusiv ambele Critical de markup (`SCHEMA-01` / `ECOMMERCE-01`) și noindex-ul listărilor utilitare. Verificare: `curl -s https://primesupplements.ro/ | head -c 1024 | grep -c 'meta charset'` = 1; Rich Results Test pe `/products/baton-proteic-capsuni` → Product parsabil, Merchant listings eligibil, review snippet 4.0/4.

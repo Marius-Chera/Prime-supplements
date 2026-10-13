@@ -1,0 +1,16 @@
+{
+  "applied": [
+    "mnx-ribbed-shorts-hammer-3-0-black",
+    "mnx-ribbed-shorts-hammer-3-0-white",
+    "mnx-extra-hc-t-shirt-4-0-washed-look-blue",
+    "mnx-extra-hc-t-shirt-4-0-washed-look-purple",
+    "mnx-extra-hc-t-shirt-4-0-washed-look-white",
+    "mnx-t-shirt-edge-black",
+    "mnx-t-shirt-edge-creamy-white",
+    "mnx-t-shirt-edge-dusty-coral",
+    "mnx-sleeveless-basketball-jersey-black",
+    "mnx-sleeveless-basketball-jersey-cool-gray"
+  ],
+  "failures": [],
+  "notes": "All 10 productUpdate calls returned empty userErrors. For each product, the id, handle and title matched. Every metafield in each vars file (beneficii_cheie, despre_produs, detalii_produs, ingrediente) matched under json.loads equality. No vars file contained seo_produs, so it was neither written nor checked, and Shopify returned s=null. descriptionHtml matched for all 10 after collapsing whitespace: Shopify only added newlines between the <ul> and <li> tags, with no entity, text or attribute changes. No retries were needed. Saved responses: scratchpad/prod-resp4-r2/<handle>.json. The previous round's log is backed up as products-apply-4.prev-round.json."
+}

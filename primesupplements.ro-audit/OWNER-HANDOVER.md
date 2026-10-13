@@ -1,44 +1,58 @@
-# Prime Supplements – ce s-a făcut și ce rămâne de făcut (12 octombrie 2026)
+# Prime Supplements – ce s-a făcut și ce rămâne de făcut (actualizat 13 octombrie 2026)
 
-Acest document este rezumatul practic pentru proprietar. Raportul complet este în `FULL-AUDIT-REPORT.md`, planul în `ACTION-PLAN.md`.
+Rezumatul practic pentru proprietar. Detaliile pe constatări sunt în `data/round2-status.md` (runda 2) și `data/remediation-status.md` (runda 1); raportul complet în `FULL-AUDIT-REPORT.md`, planul în `ACTION-PLAN.md`.
+
+Regula respectată în tot acest timp: **designul site-ului nu a fost atins.** S-au schimbat doar texte, date, redirecturi și cod invizibil (meta, date structurate, robots, accesibilitate). Ce ar fi cerut o schimbare de design este listat la punctul 4, ca să decizi tu.
 
 ## 1. Aplicat deja pe magazinul live (nu necesită nicio acțiune)
 
 | Zonă | Ce s-a schimbat | Cum verifici |
 |---|---|---|
-| Produse (195) | Titlu SEO + meta description noi în română, sufix " \| Prime Supplements", fără afirmații de sănătate interzise; vendor corectat ("Prime Supplements" / "MNX", nu "primesupplements1"); tip de produs completat; categorie din taxonomia Shopify setată | Admin → Produse → orice produs → secțiunea "Previzualizare listare motor de căutare" |
-| Colecții (23) | Titlu SEO + meta description; 17 colecții de categorie au acum descriere de 3 paragrafe | Admin → Produse → Colecții |
-| Articole blog (354) | Titlu SEO + meta description rescrise (un subiect clar per articol); 17 articole trecute de pe contul "primesupplements1" pe autorul real | Admin → Conținut → Postări blog |
-| Imagini produse (493) | Text alternativ descriptiv în română pentru fiecare imagine | Admin → Conținut → Fișiere, sau pagina produsului → imagine → "Editare text alternativ" |
+| Piața Ungaria | Copia completă a site-ului de sub `/ro-hu/` (575 de pagini duplicate, cu prețuri fără TVA) a fost eliminată; fiecare URL vechi face 301 către pagina românească | deschide `primesupplements.ro/ro-hu/products/creatina-creapure` → ajungi pe `/products/creatina-creapure` |
+| URL-uri vechi din WooCommerce | `/categorie-produs/...` duce direct (un singur redirect) la colecția corectă | `primesupplements.ro/categorie-produs/suplimente/` |
+| Produse (195) | Titluri în română, cu diacritice (sunt și titlul mare de pe pagină); descriere completă; tab-urile „Beneficii cheie”, „Despre produs”, „Ingrediente”, „Detalii produs” completate pe toate; doar mențiuni de sănătate permise în UE + avertismentele obligatorii la suplimente | orice pagină de produs |
+| Blog | Din 355 de articole generate automat au rămas **121**, câte unul pe subiect, cu titluri noi, URL-uri românești curate și autor „Marius Chera”; celelalte 234 trimit cu 301 la articolul păstrat. Corpurile au fost curățate: fără linkuri `myshopify`, fără scripturi, fără „Powered by BlogGenAuto”, fără date false „Published”, fără statistici inventate sau afirmații medicale, cu disclaimer medical și link la pagina de autor | `/blogs/news` și orice articol |
+| Articole noi | 11 articole noi, documentate cu studii și surse oficiale (EFSA, Regulamentul UE 432/2012), pentru categoriile care nu aveau niciun ghid (băuturi, batoane, cremă de orez, pre-workout, proteine, magneziu, glutamină, creatină). **Sunt salvate ca ciorne, nepublicate** | Admin → Conținut → Postări blog → „Ascunse” |
+| Pagini | Pagină de autor nouă: `/pages/autor-marius-chera`; termenii mutați pe `/pages/termeni-si-conditii` și aliniați cu politica de livrare (20 RON, gratuit peste 300 RON, 24–72 ore); firma corectă în politica de cookie-uri; blogul se numește „Blog despre suplimente și antrenament”; „All Products” → „Toate produsele” | paginile respective |
+| Imagini | Text alternativ în română pe toate imaginile de temă (hero, logo, bannere, tile-uri) și pe cele 150 de imagini din Fișiere, pe lângă cele 493 de imagini de produs din runda 1 | — |
+| Runda 1 (12.10) | Titlu SEO + meta description pe 195 produse, 23 colecții, toate articolele și paginile; vendor, tip de produs, categorie; descrieri pe 17 colecții; alt text pe 493 de imagini de produs | — |
 
-## 2. Pregătit pe tema de test – trebuie publicată de tine (5 minute)
+## 2. Tema de test – publicarea o faci tu (10 minute)
 
-Tema `Impact – SEO fixes 2026-10-12 (Claude, nepublicată)` conține toate corecțiile de cod: șablon de titlu cu brand, noindex pe colecțiile utilitare (all, cele-mai-vandute, lansate-recent, 11-tva, reduceri, vendors, types) și pe paginile cart/search/thank-you, viewport fără blocarea zoom-ului, date structurate valide (Product cu prețuri numerice, retur 14 zile, livrare 20 RON / gratuită ≥ 300 RON, rating Judge.me; Article cu autor; Organization cu CUI, telefon, adresă, rețele sociale; breadcrumb), og:image pe https, și neutralizarea la afișare a scripturilor/link-urilor BlogGenAuto din articole.
+Tema „Impact – SEO fixes 2026-10-12 (Claude, nepublicată)” conține toate corecțiile de cod: date structurate valide pentru produse (preț, stoc, retur, livrare, rating Judge.me), articole (autor Marius Chera legat de pagina lui), firmă (CUI, adresă, telefon, rețele, fondator), pagini (Contact, Despre noi, Autor); noindex pe listările duplicate și pe paginile filtrate pe etichetă; titluri cu brand; robots.txt cu politica de conținut pentru AI; în fiecare colecție, ghidurile din categoria ei (nu cele mai noi 3 articole de oriunde); link ANPC SAL, WhatsApp direct, adresa din footer către pagina de contact; mici corecturi de accesibilitate. Aspectul paginilor este identic cu tema actuală.
 
-Pași: Admin → Magazin online → Teme → la tema de test apasă "Previzualizare" (verifică pagina principală, o colecție, un produs, un articol) → "Publică". Tema actuală rămâne în listă ca rezervă.
+Pași:
+1. Admin → Magazin online → Teme → la tema de test: **Personalizează → App embeds → pornește „Koala Gifts”** (Shopify l-a oprit automat când tema a fost modificată prin API; pornește și BlogGenAuto tracking doar dacă păstrezi aplicația).
+2. „Previzualizare”: verifică homepage, o colecție, un produs, un articol, coșul (cadoul Koala).
+3. „Publică”. Tema actuală rămâne în listă ca rezervă.
+4. După publicare: Google Rich Results Test pe `/products/baton-proteic-capsuni` → „Product” fără erori.
 
-## 3. Decizii pe care doar tu le poți lua
+## 3. Ce poți face doar tu (în ordinea importanței)
 
-1. **Piața Ungaria (`/ro-hu/`)** dublează tot site-ul (575 URL-uri identice în română, cu RON). Dacă nu vinzi efectiv în Ungaria cu conținut maghiar: Admin → Setări → Piețe → Ungaria → Domenii și limbi → elimină subfolderul `/ro-hu` (sau șterge piața). Este cea mai mare problemă de indexare rămasă.
-2. **Magazinul B2B** publică 58 de pagini de produs identice pe alt domeniu. Pune-i parolă (Magazin online → Preferințe → Restricționează accesul) sau noindex.
-3. **Corpul articolelor**: cele 355 de articole curățate sunt în `blog-cleanup/cleaned-bodies.tar.gz` (fără scripturi, fără JSON-LD invalid, fără link-uri myshopify, fără prețuri hard-codate, fără "Powered by BlogGenAuto"). Import: aplicația Matrixify (foaia "Blog Posts", coloanele ID + Body HTML) sau un script scurt de Admin API; eu nu am putut rula importul în masă din acest mediu.
-4. **Consolidarea articolelor duplicate**: ~190 de articole generate automat se bat pe aceleași cuvinte-cheie (47 de grupuri). Harta de consolidare (ce rămâne, ce se redirecționează 301) este în `findings/cluster.md` și `findings/content.md`. Este o decizie editorială.
-5. **Bannerul de cookie-uri** (Pandectes) acoperă tot ecranul pe mobil. Setează-l ca bară jos (Pandectes → Banner → Layout "Bar").
-6. **BlogGenAuto**: oprește generarea automată sau setează-i să nu mai insereze scripturi, JSON-LD și link-uri externe în corpul articolelor.
+1. **Oprește BlogGenAuto** (pauză pe publicare, fără scripturi/schema/link „Powered by”). Altfel aplicația generează din nou articole duplicate peste blogul curățat.
+2. **Revizuiește și publică cele 11 articole noi** (ciorne). Sunt scrise pe surse reale, dar sunt texte despre sănătate: citește-le înainte de publicare.
+3. **Piața Ungaria:** Setări → Piețe → Ungaria → dezactivează piața (selectorul de țară încă afișează „Ungaria”) și șterge zona de livrare Ungaria (tarife în HUF).
+4. **Magazinul B2B:** parolă pe storefront (Magazin online → Preferințe → Restricționează accesul). Altfel cele 58 de produse duplicate cu prețuri en-gros rămân în Google.
+5. **Google Search Console** (proprietate de domeniu) + **Bing Webmaster Tools**: retrimite `sitemap.xml`; la „Eliminări” cere scoaterea URL-urilor vechi `www` / `categorie-produs`.
+6. **Coduri de bare (GTIN):** 207 variante nu au cod de bare, iar 27 de coduri existente nu sunt valide. Tema nouă publică doar codurile valide; completează-le din etichete (Produse → Variantă → Cod de bare).
+7. **Judge.me:** traduce textele widget-ului în română (Setări → Traduceri).
+8. **Adresa din profilul magazinului** (Setări → General): oraș și număr completate, la fel ca în footer.
+9. **De verificat cu producătorul:** citratul de magneziu are 450 mg magneziu pe doza de 2 capsule, peste nivelul de 250 mg/zi din suplimente stabilit de EFSA (articolul nou despre magneziu spune asta deschis).
+10. **Pachetul Thermo Core + Water Out** (oferta 1–14 august) este nelistat, dar două articole despre arzătoare îl recomandă cu buton „Cumpără acum”. Dacă pachetul nu se mai vinde, spune-mi și le mut pe produsele separate.
 
-## 4. Următoarele 30 de zile (ordinea recomandată)
+## 4. Lăsate intenționat neatinse (ar fi schimbat designul sau au risc comercial)
 
-1. Publică tema de test (ziua 1).
-2. Elimină `/ro-hu` și protejează B2B (ziua 1-2).
-3. Importă corpurile curățate ale articolelor (săptămâna 1).
-4. Google Search Console: trimite din nou `sitemap.xml`, cere indexarea paginilor principale de colecții, urmărește raportul "Pagini" (dublurile ar trebui să scadă în 2-4 săptămâni).
-5. Google Merchant Center: re-sincronizează canalul Google & YouTube (brand, tip, categorie acum completate; GTIN-urile lipsesc încă pe majoritatea produselor – adaugă-le în Admin → Produse → Variante → Cod de bare).
-6. Consolidează articolele duplicate pe baza hărții din raport (luna 2).
+| Ce | De ce contează | De ce nu s-a făcut |
+|---|---|---|
+| Bannerul de cookie-uri pe tot ecranul pe mobil (Pandectes) | ascunde hero-ul la prima vizită | layout = design; Pandectes → Banner → „Bar” durează 2 minute dacă vrei |
+| Bara „Adaugă în coș” fixă pe mobil; H1 pe hero; ordinea secțiunilor de pe homepage; fonturile Fontify; autoplay la slideshow; paginarea blogului; titlul paginii 404 | viteză și conversie pe mobil | toate schimbă aspectul |
+| Prețul tăiat în datele structurate și colecția „Reduceri” | 120 de produse au preț „comparativ” permanent; a-l arăta ca reducere riscă probleme cu Directiva Omnibus | decizie comercială/juridică |
+| Unirea variantelor de culoare/aromă (45 de produse) | o singură pagină puternică în loc de 2–4 slabe | schimbă pagini și URL-uri |
+| Redenumirea fișierelor de imagine | nume descriptive în Google Images | înlocuiește fișierele folosite de temă |
 
 ## 5. Fișiere livrate
-- `FULL-AUDIT-REPORT.md`, `ACTION-PLAN.md`, `audit-data.json`, `FULL-AUDIT-REPORT.pdf`
-- `findings/` – rapoartele celor 17 specialiști (dovezi, ID-uri)
-- `applied/` – exact ce s-a scris în magazin (produse, colecții, articole, alt text) + loguri
-- `theme-fixes/` – fișierele Liquid urcate pe tema de test
-- `blog-cleanup/` – scriptul, raportul și corpurile curățate ale articolelor
-- `screenshots/` – capturi mobil/desktop
+
+- `FULL-AUDIT-REPORT.md` / `.pdf`, `ACTION-PLAN.md` / `.pdf`, `OWNER-HANDOVER.pdf`, `audit-data.json`
+- `data/round2-status.md`: starea fiecărei constatări după runda 2
+- `applied/`: exact ce s-a scris în magazin (produse, articole, redirecturi, pagini, alt text, articole noi) + loguri
+- `theme-fixes/`: fișierele temei de test; `scripts/`: scripturile folosite

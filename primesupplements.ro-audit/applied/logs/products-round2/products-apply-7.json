@@ -1,0 +1,16 @@
+{
+  "applied": [
+    "mnx-stringer-tank-top-maniax-limited",
+    "mnx-cotton-pants-industrial-dusty-rose",
+    "mnx-extra-hc-t-shirt-4-0-washed-look-bronze",
+    "mnx-stringer-tank-top-skull-souls-yellow",
+    "mnx-stringer-tank-top-skull-souls-purple",
+    "mnx-extra-t-shirt-basic-vivid-red",
+    "mnx-cotton-t-shirt-basix-cherry-red",
+    "mnx-men-s-pants-oxygen-beige",
+    "mnx-men-s-hoodie-oxygen-beige",
+    "mnx-men-s-lightweight-hoodie-aesthetic-khaki"
+  ],
+  "failures": [],
+  "notes": "All 10 verified: userErrors empty, title exact, all 4 metafields (beneficii_cheie, despre_produs, detalii_produs, ingrediente) json-equal. descriptionHtml: Shopify only re-serialised by inserting newlines between <ul>/<li> elements; otherwise identical. seo_produs not in input files (returned null, untouched)."
+}

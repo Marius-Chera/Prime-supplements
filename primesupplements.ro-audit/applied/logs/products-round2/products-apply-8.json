@@ -1,0 +1,20 @@
+{
+  "applied": [
+    "mnx-men-s-lightweight-hoodie-aesthetic-maroon",
+    "mnx-men-s-lightweight-joggers-aesthetic-maroon",
+    "mnx-sweat-pants-edge-black",
+    "mnx-sweat-pants-edge-red",
+    "mnx-sweat-pants-edge-melange-grey",
+    "mnx-hoodie-edge-black",
+    "mnx-hoodie-edge-melange-grey-1",
+    "mnx-hoodie-edge-violet",
+    "mnx-shorts-golden-era-2-0-grey",
+    "mnx-shorts-golden-era-2-0-black"
+  ],
+  "failures": [],
+  "notes": [
+    "All 10 verified: userErrors empty, title equal, all metafields (beneficii_cheie, despre_produs, detalii_produs, ingrediente) json-equal; seo_produs not in files and returned null (untouched).",
+    "descriptionHtml: Shopify re-serialised by inserting newlines between <ul>/<li> tags only; equal after removing inter-tag whitespace (accepted).",
+    "mnx-hoodie-edge-melange-grey-1: first call sent a mistranscribed word ('emblămă' instead of 'emblemă') in descriptionHtml and despre_produs; verification caught it and the single retry with the exact file content succeeded and verified OK."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "applied": [
+  "mnx-hoodie-motion-black",
+  "mnx-pants-motion-black",
+  "mnx-cotton-t-shirt-basix-black",
+  "mnx-hoodie-motion-burgundy",
+  "mnx-hoodie-industrial-bronze",
+  "mnx-hoodie-industrial-dusty-rose",
+  "mnx-men-s-lightweight-hoodie-aesthetic-dove",
+  "mnx-mens-lightweight-hoodie-aesthetic-black",
+  "mnx-hoodie-maniax-limited",
+  "mnx-hoodie-xforce-2-0-black"
+ ],
+ "failures": [],
+ "notes": [
+  "All 10 productUpdate calls made once each, in order, with the prod-vars2/<handle>.json content as variables; no retries needed.",
+  "Every response had empty userErrors; id, handle and title matched the vars file.",
+  "All metafields in each file (beneficii_cheie, despre_produs, detalii_produs, ingrediente) matched by json.loads equality; Shopify returned compact JSON. No file contained seo_produs; s returned null (untouched).",
+  "descriptionHtml: Shopify re-serialised list markup by inserting newlines between <ul>/<li>/</ul> tags; byte-identical to the file after removing those newlines (no entity, attribute or text changes) - accepted.",
+  "Saved responses: scratchpad/apply15-resp/<handle>.json; verifier: scratchpad/apply15-tools/verify.py."
+ ]
+}

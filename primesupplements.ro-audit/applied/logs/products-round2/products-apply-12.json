@@ -1,0 +1,20 @@
+{
+  "applied": [
+    "crema-de-orez-plactina-cu-cocos",
+    "crema-de-orez-tort-de-ciocolata",
+    "instant-drink-frutilu-almond-10g",
+    "instant-drink-frutilu-apricot-10g",
+    "instant-drink-frutilu-chocolate-10g",
+    "instant-drink-frutilu-cola-10g",
+    "instant-drink-frutilu-energy-cranberry-10g",
+    "instant-drink-frutilu-forest-fruits-10g",
+    "instant-drink-frutilu-green-apple-10g",
+    "instant-drink-frutilu-ice-tea-peach-10g"
+  ],
+  "failures": [],
+  "notes": [
+    "All 10 productUpdate calls used the exact prod-vars2/<handle>.json content as variables; every response had empty userErrors and matching id/handle/title.",
+    "All metafields (beneficii_cheie, despre_produs, ingrediente, detalii_produs, seo_produs) matched by json.loads equality (Shopify returned compact JSON serialisation).",
+    "descriptionHtml: Shopify re-serialised list markup by inserting newlines between <ul>/<li> tags; equal after collapsing whitespace (including inter-tag whitespace); no content changes."
+  ]
+}

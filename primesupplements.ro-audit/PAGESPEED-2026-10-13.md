@@ -186,6 +186,23 @@ Proprietarul a aprobat micro-schimbările („alea pe telefon ne interesează ce
 
 **Verificare după încărcare:** sumele MD5 ale fișierelor urcate sunt identice cu sursa locală. Pe homepage, produse, colecție, articole, contact și căutare: 0 erori Liquid, 0 imagini stricate, 0 nume de instrument duplicate, iar galeria nu derulează pagina.
 
+**Notificarea Pop Convert „… persoane …”:** textul gri #8d8d8d pe alb (3,31) devine #767676 (4,54), doar acolo unde are exact acel gri (`snippets/a11y-fixes.liquid`).
+
+**Rezultate finale (Lighthouse 13.5 local, tema de test, după toate schimbările):**
+
+| Pagina | Perf · Acces. · BP · SEO · Agenți | Accesibilitate după publicare* |
+|---|---|---|
+| Homepage, telefon | 44 · 97 · 73 · 100 · 100 | **100** |
+| Produs, telefon | 50 · 97 · 73 · 100 · 100 | **100** |
+| Colecție, telefon | 34 · 97 · 73 · 100 · 100 | **100** |
+| Articol, telefon | 51 · 97 · 73 · 100 · 100 | **100** |
+| Homepage, desktop | 88 · 97 · 73 · 100 · 100 | **100** |
+| Produs, desktop | 89 · 94–97 · 73 · 100 · 100 | **100** |
+
+\* Singurul audit de accesibilitate rămas este `frame-title` al barei de previzualizare Shopify, care nu există după publicare. La Best practices (73 local, 88 în PSI pe tema live) rămân doar: eroarea 404 theMarketer (secțiunea 5, punctul 2), problema CSP „Sign in with Shop” (punctul 8) și cookie-urile terțe. LCP pe telefon, live → test: homepage 6,2 → 4,3 s, produs 7,2 → 3,1 s, articol 5,7 → 3,7 s. Colecția depinde de animația de apariție a banner-ului (design Impact) și de aplicații.
+
+**Cost aproximativ al aplicațiilor (homepage live, telefon, câte o aplicație blocată pe rând, o rulare fiecare, `data/pagespeed/lighthouse/apps-blocking-live-home.txt`):** fără Clarity, Judge.me, Pop Convert, Facebook sau pixelii Shopify, scorul local crește cu 5–8 puncte fiecare (în principal Speed Index și TBT). Măsurătorile locale variază mult de la o rulare la alta, deci cifrele sunt orientative; decizia de a păstra sau nu aplicațiile e una de business.
+
 **Lăsate intenționat (ar schimba vizibil designul sau nu aduc nimic în scor):**
 - roșul etichetelor de reducere și al prețurilor reduse (#f83a3a, 3,71): ar trebui închis vizibil (ΔE 5,4–9,1), iar Lighthouse nu le semnalează (cardurile apar la scroll);
 - cifrele albe de pe căsuțele gri ale listelor de verificare din articole (infografic);

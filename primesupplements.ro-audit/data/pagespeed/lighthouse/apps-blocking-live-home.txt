@@ -1,0 +1,11 @@
+home 1 none 42 {'first-contentful-paint': 2809, 'largest-contentful-paint': 4350, 'speed-index': 11123, 'total-blocking-time': 2655} 0.024
+home 2 clarity 49 {'first-contentful-paint': 2713, 'largest-contentful-paint': 4309, 'speed-index': 5889, 'total-blocking-time': 1782} 0
+home 3 popconvert 47 {'first-contentful-paint': 2603, 'largest-contentful-paint': 4247, 'speed-index': 6141, 'total-blocking-time': 2718} 0.008
+home 4 facebook 48 {'first-contentful-paint': 2522, 'largest-contentful-paint': 4226, 'speed-index': 6231, 'total-blocking-time': 2932} 0.024
+home 5 google 30 {'first-contentful-paint': 4386, 'largest-contentful-paint': 14677, 'speed-index': 7795, 'total-blocking-time': 2691} 0.001
+home 6 themarketer 32 {'first-contentful-paint': 4453, 'largest-contentful-paint': 13290, 'speed-index': 7399, 'total-blocking-time': 1958} 0
+home 7 judgeme 50 {'first-contentful-paint': 2530, 'largest-contentful-paint': 4244, 'speed-index': 4793, 'total-blocking-time': 2684} 0.024
+home 8 uppromote 44 {'first-contentful-paint': 2635, 'largest-contentful-paint': 4143, 'speed-index': 10640, 'total-blocking-time': 2693} 0.024
+home 9 shopifypixels 48 {'first-contentful-paint': 2883, 'largest-contentful-paint': 4794, 'speed-index': 4995, 'total-blocking-time': 1665} 0.024
+home 10 all3p 47 {'first-contentful-paint': 2689, 'largest-contentful-paint': 4660, 'speed-index': 5655, 'total-blocking-time': 1729} 0.024
+DONE

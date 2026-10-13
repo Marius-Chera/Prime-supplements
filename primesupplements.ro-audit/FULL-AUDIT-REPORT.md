@@ -6067,3 +6067,5 @@ Proprietarul a trimis rapoartele PageSpeed Insights pentru tema live: mobil (Per
 | Produs, desktop | 79 · 78 · 73 · 92 · 67 | 82 · 94 · 73 · 100 · 100 | 97 |
 
 Scorurile temei de test includ penalizările previzualizării: o redirecționare, scripturile barei Shopify (aproximativ 415 KiB) și bara fără titlu, care costă 3 puncte de accesibilitate. Niciuna nu există după publicare. Performanța locală variază de la o rulare la alta cu câteva puncte, după ce popup-uri și pixeli apucă să se încarce.
+
+**Runda pentru telefon (13.10, după aprobarea proprietarului):** micro-schimbările de contrast și spațiere, culorile Judge.me și Delivery Estimator, rozul din articole și două optimizări de viteză invizibile sunt aplicate în tema de test; accesibilitatea ajunge la 97 în previzualizare pe toate paginile testate (100 după publicare), SEO și Navigare autonomă 100. Detalii în `PAGESPEED-2026-10-13.md`, secțiunea 8.

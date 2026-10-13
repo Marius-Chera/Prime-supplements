@@ -1,0 +1,640 @@
+[
+  {
+    "id": "gid://shopify/Product/15434753376631",
+    "handle": "mnx-extra-t-shirt-hc-2-0-limited-white",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt HC 2.0 *Limited*, white",
+    "new_title": "Tricou MNX Extra HC 2.0, ediție limitată – alb",
+    "beneficii_cheie": [
+      "Ediție limitată din linia MNX Extra HC 2.0, cu croială supradimensionată.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Imprimeu mare negru pe spate, cu efect crăpat și text caligrafic, și logo mic negru pe piept.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra HC 2.0** în varianta albă face parte dintr-o ediție limitată a liniei Extra și este gândit pentru bărbații care preferă o croială supradimensionată. Este confecționat din 100% bumbac, un material moale la atingere, și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Elementul principal al designului se află pe spate: un imprimeu mare negru, cu efect crăpat și text caligrafic. Pe piept apare un logo mic negru, cu aceeași textură crăpată, iar în partea de jos tricoul are o etichetă cu logo țesut."
+      },
+      {
+        "p": "Croiala largă îl face potrivit atât pentru antrenamentele de la sală, cât și pentru ținutele de zi cu zi. Tricoul este disponibil în mărimile S/M și L/XL. Alte tricouri, maiouri și pantaloni scurți din aceeași gamă găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: alb, imprimeu negru",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Colecție: MNX Extra HC 2.0, ediție limitată",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('T-shirt ... *Limited*, white' -> 'Tricou ... ediție limitată – alb'); asterisks dropped. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; print colour, cracked effect and calligraphic text taken from the image alts. 'Oversized' rendered as 'croială supradimensionată', 'woven logo' as 'etichetă cu logo țesut'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434753606007",
+    "handle": "mnx-extra-t-shirt-hc-2-0-limited-black",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt HC 2.0 *Limited*, black",
+    "new_title": "Tricou MNX Extra HC 2.0, ediție limitată – negru",
+    "beneficii_cheie": [
+      "Ediție limitată din linia MNX Extra HC 2.0, cu croială supradimensionată.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Imprimeu mare gri pe spate, cu efect crăpat și text caligrafic, și logo mic gri pe piept.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra HC 2.0** în varianta neagră face parte dintr-o ediție limitată a liniei Extra și este gândit pentru bărbații care preferă o croială supradimensionată. Este confecționat din 100% bumbac, un material moale la atingere, și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Elementul principal al designului se află pe spate: un imprimeu mare gri, cu efect crăpat și text caligrafic. Pe piept apare un logo mic gri, iar în partea de jos tricoul are o etichetă cu logo țesut."
+      },
+      {
+        "p": "Croiala largă îl face potrivit atât pentru antrenamentele de la sală, cât și pentru ținutele de zi cu zi. Tricoul este disponibil în mărimile S/M și L/XL. Alte tricouri, maiouri și pantaloni scurți din aceeași gamă găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: negru, imprimeu gri",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Colecție: MNX Extra HC 2.0, ediție limitată",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('T-shirt ... *Limited*, black' -> 'Tricou ... ediție limitată – negru'); asterisks dropped. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; print colour, cracked effect and calligraphic text taken from the image alts. 'Oversized' rendered as 'croială supradimensionată', 'woven logo' as 'etichetă cu logo țesut'. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Removed the pasted chat line 'Iată traducerea pentru acest tricou MNX în ediție limitată:' from the old Despre produs tab.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434754294135",
+    "handle": "mnx-extra-t-shirt-hc-2-0-limited-burgundy",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt HC 2.0 *Limited*, burgundy",
+    "new_title": "Tricou MNX Extra HC 2.0, ediție limitată – bordo",
+    "beneficii_cheie": [
+      "Ediție limitată din linia MNX Extra HC 2.0, cu croială supradimensionată.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Imprimeu mare negru pe spate, cu efect crăpat și text caligrafic, și logo mic negru pe piept.",
+      "Etichetă țesută MNX Extra la tivul tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra HC 2.0** în varianta bordo face parte dintr-o ediție limitată a liniei Extra și este gândit pentru bărbații care preferă o croială supradimensionată. Este confecționat din 100% bumbac, un material moale la atingere, și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Elementul principal al designului se află pe spate: un imprimeu mare negru, cu efect crăpat și text caligrafic. Pe piept apare un logo mic negru, iar la tiv tricoul are o etichetă țesută MNX Extra."
+      },
+      {
+        "p": "Croiala largă îl face potrivit atât pentru antrenamentele de la sală, cât și pentru ținutele de zi cu zi. Tricoul este disponibil în mărimile S/M și L/XL. Alte tricouri, maiouri și pantaloni scurți din aceeași gamă găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: bordo, imprimeu negru",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Colecție: MNX Extra HC 2.0, ediție limitată",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('T-shirt ... *Limited*, burgundy' -> 'Tricou ... ediție limitată – bordo'); asterisks dropped. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; print colour, cracked effect and calligraphic text taken from the image alts. 'Oversized' rendered as 'croială supradimensionată', 'woven logo' as 'etichetă cu logo țesut'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434762813815",
+    "handle": "mnx-extra-t-shirt-basic-black",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt basic, black",
+    "new_title": "Tricou MNX Extra Basic – negru",
+    "beneficii_cheie": [
+      "Croială supradimensionată, cu mâneci cu margine brută, pentru o siluetă lejeră.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Două logouri MNX mici, din cauciuc alb: unul pe piept și unul la ceafă.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra Basic** în culoarea neagră este varianta cu design minimalist a liniei Extra: un tricou pentru bărbați cu croială supradimensionată, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Detaliile sunt discrete: două logouri MNX mici, din cauciuc, de culoare albă: unul pe piept și unul la ceafă, plus o etichetă cu logo țesut în partea de jos. Mânecile au margine brută, care completează aspectul lejer al tricoului."
+      },
+      {
+        "p": "Tricoul este disponibil în mărimile S/M și L/XL. Îl poți combina cu alte piese din colecția [haine MNX](/collections/haine-mnx), de la pantaloni scurți până la maiouri."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: negru, logouri albe",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt basic, black' -> 'Tricou MNX Extra Basic – negru'); 'Basic' kept capitalised as the line name. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; logo colour/position (chest and nape) and sleeve details taken from the image alts and the old tab ('două logouri mici din cauciuc'). 'Oversized' rendered as 'croială supradimensionată'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434763895159",
+    "handle": "mnx-extra-t-shirt-basic-burgundy",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt basic, burgundy",
+    "new_title": "Tricou MNX Extra Basic – bordo",
+    "beneficii_cheie": [
+      "Croială supradimensionată, cu mâneci scurte largi și margine de jos netivită.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Două logouri MNX mici, din cauciuc: unul alb pe piept și unul la ceafă.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimea L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra Basic** în culoarea bordo este varianta cu design minimalist a liniei Extra: un tricou pentru bărbați cu croială supradimensionată, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Detaliile sunt discrete: două logouri MNX mici, din cauciuc: unul alb pe piept și unul la ceafă, plus o etichetă cu logo țesut în partea de jos. Mânecile scurte sunt largi, iar marginea de jos este lăsată netivită, pentru un aspect lejer."
+      },
+      {
+        "p": "Tricoul este disponibil în mărimea L/XL. Îl poți combina cu alte piese din colecția [haine MNX](/collections/haine-mnx), de la pantaloni scurți până la maiouri."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: bordo, logo alb pe piept",
+      "Mărimi: L/XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt basic, burgundy' -> 'Tricou MNX Extra Basic – bordo'); 'Basic' kept capitalised as the line name. Old tab listed sizes S/M, L/XL, 2XL/3XL but only L/XL exists as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; logo colour/position (chest and nape) and sleeve details taken from the image alts and the old tab ('două logouri mici din cauciuc'). 'Oversized' rendered as 'croială supradimensionată'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434763993463",
+    "handle": "mnx-extra-t-shirt-basic-grey",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt basic, grey",
+    "new_title": "Tricou MNX Extra Basic – gri",
+    "beneficii_cheie": [
+      "Croială supradimensionată, pentru o siluetă lejeră, la sală sau în oraș.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Două logouri MNX mici, din cauciuc: unul negru pe piept și unul la ceafă.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra Basic** în culoarea gri este varianta cu design minimalist a liniei Extra: un tricou pentru bărbați cu croială supradimensionată, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Detaliile sunt discrete: două logouri MNX mici, din cauciuc: unul negru pe piept și unul la ceafă, plus o etichetă cu logo țesut în partea de jos."
+      },
+      {
+        "p": "Tricoul este disponibil în mărimile S/M și L/XL. Îl poți combina cu alte piese din colecția [haine MNX](/collections/haine-mnx), de la pantaloni scurți până la maiouri."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: gri, logo negru pe piept",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt basic, grey' -> 'Tricou MNX Extra Basic – gri'); 'Basic' kept capitalised as the line name. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; logo colour/position (chest and nape) and sleeve details taken from the image alts and the old tab ('două logouri mici din cauciuc'). 'Oversized' rendered as 'croială supradimensionată'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434764091767",
+    "handle": "mnx-extra-t-shirt-basic-white",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt basic, white",
+    "new_title": "Tricou MNX Extra Basic – alb",
+    "beneficii_cheie": [
+      "Croială supradimensionată, pentru o siluetă lejeră, la sală sau în oraș.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Două logouri MNX mici, din cauciuc negru: unul pe piept și unul la ceafă.",
+      "Etichetă cu logo țesut în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra Basic** în culoarea albă este varianta cu design minimalist a liniei Extra: un tricou pentru bărbați cu croială supradimensionată, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Detaliile sunt discrete: două logouri MNX mici, din cauciuc, de culoare neagră: unul pe piept și unul la ceafă, plus o etichetă cu logo țesut în partea de jos."
+      },
+      {
+        "p": "Tricoul este disponibil în mărimile S/M și L/XL. Îl poți combina cu alte piese din colecția [haine MNX](/collections/haine-mnx), de la pantaloni scurți până la maiouri."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: alb, logouri negre",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt basic, white' -> 'Tricou MNX Extra Basic – alb'); 'Basic' kept capitalised as the line name. Old tab listed sizes S/M, L/XL, 2XL/3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; logo colour/position (chest and nape) and sleeve details taken from the image alts and the old tab ('două logouri mici din cauciuc'). 'Oversized' rendered as 'croială supradimensionată'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434764157303",
+    "handle": "mnx-workout-top-golden-era-deep-purple",
+    "status": "ACTIVE",
+    "old_title": "MNX Workout Top Golden Era, deep purple",
+    "new_title": "Tricou de antrenament MNX Golden Era – mov închis",
+    "beneficii_cheie": [
+      "Confecționat din 100% bumbac moale și călduros, cu o greutate de aproximativ 450 de grame.",
+      "Croială supradimensionată, cu decolteu larg, mâneci raglan tăiate și margini netivite.",
+      "Imprimeu galben „Golden Era Venice Beach” pe piept și ecuson original MNX.",
+      "Contracție la spălare de 5%, de care merită să ții cont când alegi mărimea.",
+      "Disponibil în mărimea L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul de antrenament MNX Golden Era** în nuanța mov închis poartă pe piept imprimeul galben „Golden Era Venice Beach”, o trimitere la era de aur a culturismului. Este confecționat din 100% bumbac moale și călduros și cântărește aproximativ 450 de grame."
+      },
+      {
+        "p": "Croiala este supradimensionată, cu decolteu larg, mâneci raglan tăiate și margini netivite, așa că tricoul lasă libertate de mișcare la antrenament. Designul este completat de ecusonul original MNX și de eticheta de la ceafă."
+      },
+      {
+        "p": "Ține cont că materialul are o contracție la spălare de 5% atunci când alegi mărimea. Varianta mov închis este disponibilă în mărimea L/XL, iar alte modele găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac (contracție la spălare de 5%)."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Contracție la spălare: 5%",
+      "Croială: supradimensionată, mâneci raglan",
+      "Culoare: mov închis, imprimeu galben",
+      "Mărimi: L/XL",
+      "Greutate: aprox. 450 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Workout Top Golden Era, deep purple' -> 'Tricou de antrenament MNX Golden Era – mov închis'); 'Golden Era' and 'Venice Beach' kept as print text. Old tab was contradictory ('amestec de bumbac' vs 'Material: 100% bumbac'); used 100% bumbac and kept the stated 5% shrinkage. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only L/XL exists as variants; used the variants. Superlative 'pentru confort maxim' removed. Print colour, neckline, sleeves and label details taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "fixed: removed unsupported usage claim \"la antrenamentele pentru umeri și spate\" from despre_produs (not in source data)"
+  },
+  {
+    "id": "gid://shopify/Product/15434764353911",
+    "handle": "mnx-workout-top-golden-era-sky-blue",
+    "status": "ACTIVE",
+    "old_title": "MNX Workout Top Golden Era, sky blue",
+    "new_title": "Tricou de antrenament MNX Golden Era – albastru deschis",
+    "beneficii_cheie": [
+      "Confecționat din 100% bumbac moale și călduros, cu o greutate de aproximativ 450 de grame.",
+      "Croială supradimensionată, cu decolteu larg, pentru libertate de mișcare.",
+      "Imprimeu alb circular „Golden Era”, inscripția „Venice Beach” pe piept și ecuson original MNX.",
+      "Contracție la spălare de 5%, de care merită să ții cont când alegi mărimea.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul de antrenament MNX Golden Era** în nuanța albastru deschis are pe piept un imprimeu alb circular „Golden Era”, însoțit de inscripția „Venice Beach”, o trimitere la era de aur a culturismului. Este confecționat din 100% bumbac moale și călduros și cântărește aproximativ 450 de grame."
+      },
+      {
+        "p": "Croiala este supradimensionată, cu decolteu larg, așa că tricoul lasă libertate de mișcare la antrenament și se poartă comod și în afara sălii. Designul este completat de ecusonul original MNX și de eticheta mică de la ceafă."
+      },
+      {
+        "p": "Ține cont că materialul are o contracție la spălare de 5% atunci când alegi mărimea. Varianta albastru deschis este disponibilă în mărimile S/M și L/XL, iar alte modele găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac (contracție la spălare de 5%)."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Contracție la spălare: 5%",
+      "Croială: supradimensionată, decolteu larg",
+      "Culoare: albastru deschis, imprimeu alb",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 450 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Workout Top Golden Era, sky blue' -> 'Tricou de antrenament MNX Golden Era – albastru deschis'); 'Golden Era' and 'Venice Beach' kept as print text. Old tab was contradictory ('amestec de bumbac' vs 'Material: 100% bumbac'); used 100% bumbac and kept the stated 5% shrinkage. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only S/M, L/XL exist as variants; used the variants. Superlative 'pentru confort maxim' removed. Print colour, neckline, sleeves and label details taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434764419447",
+    "handle": "mnx-workout-top-hammer-3-0-white",
+    "status": "ACTIVE",
+    "old_title": "MNX Workout Top Hammer 3.0, white",
+    "new_title": "Tricou de antrenament MNX Hammer 3.0 – alb",
+    "beneficii_cheie": [
+      "Material reiat, moale, din 50% bumbac și 50% poliester, cu o greutate de aproximativ 350 de grame.",
+      "Croială supradimensionată, lejeră, pentru antrenament și pentru purtat zilnic.",
+      "Benzi negre Hammer pe umeri, inscripția MNX Hammer sub guler și imprimeu 3D din cauciuc.",
+      "Ecusoane țesute MNX la ceafă și la tiv.",
+      "Disponibil în mărimea S/M."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul de antrenament MNX Hammer 3.0** în culoarea albă este confecționat din material reiat, cu textură striată, dintr-un amestec de 50% bumbac și 50% poliester. Materialul este moale și confortabil, iar tricoul cântărește aproximativ 350 de grame."
+      },
+      {
+        "p": "Designul seriei Hammer se vede din prima privire: benzi negre pe umeri, inscripția MNX Hammer sub guler și un imprimeu 3D din cauciuc. Ecusoanele țesute MNX sunt plasate la ceafă și la tiv."
+      },
+      {
+        "p": "Croiala supradimensionată lasă libertate de mișcare la sală și se potrivește la fel de bine cu o ținută de zi cu zi. Varianta albă este disponibilă în mărimea S/M. Îl poți asorta cu pantalonii scurți reiați din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "50% bumbac, 50% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 50% bumbac, 50% poliester, țesătură reiată",
+      "Croială: supradimensionată",
+      "Culoare: alb, benzi negre pe umeri",
+      "Mărimi: S/M",
+      "Greutate: aprox. 350 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Workout Top Hammer 3.0, white' -> 'Tricou de antrenament MNX Hammer 3.0 – alb'). Old tab heading had a typo ('Material Reiati'/'Reiat'); 'ribbed' rendered as 'reiat', 'patch-uri' as 'ecusoane', 'oversized' as 'croială supradimensionată'. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only S/M exists as variants; used the variants. Shoulder bands, lettering position and emblem positions taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434765107575",
+    "handle": "mnx-workout-top-hammer-3-0-black",
+    "status": "ACTIVE",
+    "old_title": "MNX Workout Top Hammer 3.0, black",
+    "new_title": "Tricou de antrenament MNX Hammer 3.0 – negru",
+    "beneficii_cheie": [
+      "Material reiat, moale, din 50% bumbac și 50% poliester, cu o greutate de aproximativ 350 de grame.",
+      "Croială supradimensionată, lejeră, pentru antrenament și pentru purtat zilnic.",
+      "Inscripția MNX Hammer realizată ton pe ton și imprimeu 3D cauciucat.",
+      "Ecusoane țesute MNX, dintre care unul la ceafă.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul de antrenament MNX Hammer 3.0** în culoarea neagră este confecționat din material reiat, cu textură striată, dintr-un amestec de 50% bumbac și 50% poliester. Materialul este moale și fin, iar tricoul cântărește aproximativ 350 de grame."
+      },
+      {
+        "p": "Designul este discret: inscripția MNX Hammer, realizată ton pe ton, imprimeul 3D cauciucat și ecusoanele țesute MNX, dintre care unul este plasat la ceafă."
+      },
+      {
+        "p": "Croiala supradimensionată lasă libertate de mișcare la sală și se potrivește la fel de bine cu o ținută de zi cu zi. Varianta neagră este disponibilă în mărimile S/M și L/XL. Îl poți asorta cu pantalonii scurți reiați din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "50% bumbac, 50% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 50% bumbac, 50% poliester, țesătură reiată",
+      "Croială: supradimensionată",
+      "Culoare: negru, inscripție ton pe ton",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 350 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Workout Top Hammer 3.0, black' -> 'Tricou de antrenament MNX Hammer 3.0 – negru'). Old tab heading had a typo ('Material Reiati'/'Reiat'); 'ribbed' rendered as 'reiat', 'patch-uri' as 'ecusoane', 'oversized' as 'croială supradimensionată'. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only S/M, L/XL exist as variants; used the variants. Shoulder bands, lettering position and emblem positions taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434765140343",
+    "handle": "mnx-workout-top-hammer-3-0-grey",
+    "status": "ACTIVE",
+    "old_title": "MNX Workout Top Hammer 3.0, grey",
+    "new_title": "Tricou de antrenament MNX Hammer 3.0 – gri",
+    "beneficii_cheie": [
+      "Material reiat, moale, din 50% bumbac și 50% poliester, cu o greutate de aproximativ 350 de grame.",
+      "Croială supradimensionată, lejeră, pentru antrenament și pentru purtat zilnic.",
+      "Benzi negre Hammer pe umeri, inscripția MNX Hammer pe față și imprimeu 3D cauciucat.",
+      "Ecusoane țesute MNX la ceafă și la tiv.",
+      "Disponibil în mărimea L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul de antrenament MNX Hammer 3.0** în culoarea gri este confecționat din material reiat, cu textură striată, dintr-un amestec de 50% bumbac și 50% poliester. Materialul este moale și fin, iar tricoul cântărește aproximativ 350 de grame."
+      },
+      {
+        "p": "Pe fondul gri ies în evidență benzile negre Hammer de pe umeri și inscripția MNX Hammer de pe față, completate de un imprimeu 3D cauciucat. Ecusoanele țesute MNX sunt plasate la ceafă și la tiv."
+      },
+      {
+        "p": "Croiala supradimensionată lasă libertate de mișcare la sală și se potrivește la fel de bine cu o ținută de zi cu zi. Varianta gri este disponibilă în mărimea L/XL. Îl poți asorta cu pantalonii scurți reiați din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "50% bumbac, 50% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 50% bumbac, 50% poliester, țesătură reiată",
+      "Croială: supradimensionată",
+      "Culoare: gri, benzi negre pe umeri",
+      "Mărimi: L/XL",
+      "Greutate: aprox. 350 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Workout Top Hammer 3.0, grey' -> 'Tricou de antrenament MNX Hammer 3.0 – gri'). Old tab heading had a typo ('Material Reiati'/'Reiat'); 'ribbed' rendered as 'reiat', 'patch-uri' as 'ecusoane', 'oversized' as 'croială supradimensionată'. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only L/XL exists as variants; used the variants. Shoulder bands, lettering position and emblem positions taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434765304183",
+    "handle": "mnx-ribbed-shorts-hammer-black",
+    "status": "ACTIVE",
+    "old_title": "MNX Ribbed shorts Hammer, black",
+    "new_title": "Pantaloni scurți reiați MNX Hammer – negri",
+    "beneficii_cheie": [
+      "Material reiat, cu textură striată, din 65% bumbac și 35% poliester.",
+      "Talie elastică cu șnur interior reglabil și buzunare laterale cu fermoar.",
+      "Ecuson Hammer roșu și imprimeu MNX gri cu roșu pe crac.",
+      "Croială lejeră, largă, cu lungime până la genunchi.",
+      "Disponibili în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Pantalonii scurți MNX Hammer** în varianta neagră sunt confecționați din material reiat, cu textură striată, dintr-un amestec de 65% bumbac și 35% poliester. Au croială lejeră, largă, și lungime până la genunchi."
+      },
+      {
+        "p": "Talia elastică are un șnur interior reglabil, ca să poți ajusta pantalonii pe corp, iar buzunarele laterale se închid cu fermoar, astfel încât lucrurile mici rămân la locul lor în timpul antrenamentului. Designul este completat de ecusonul Hammer roșu și de imprimeul MNX gri cu roșu de pe crac."
+      },
+      {
+        "p": "Sunt disponibili în mărimile S/M și L/XL și se asortează cu tricourile de antrenament MNX Hammer din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "65% bumbac, 35% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 65% bumbac, 35% poliester, țesătură reiată",
+      "Croială: lejeră, până la genunchi",
+      "Talie: elastică, cu șnur interior reglabil",
+      "Buzunare: laterale, cu fermoar",
+      "Culoare: negru, ecuson Hammer roșu",
+      "Mărimi: S/M, L/XL",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Ribbed shorts Hammer, black' -> 'Pantaloni scurți reiați MNX Hammer – negri'); no '3.0' here, this is a different product from the Hammer 3.0 shorts. Old tab listed sizes S, M, L, XL, XXL, 3XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; 'loose fit' rendered as 'croială lejeră', 'patch-uri' as 'ecusoane'. Panels, pocket colour, emblem and print details taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434765402487",
+    "handle": "mnx-ribbed-shorts-hammer-white",
+    "status": "ACTIVE",
+    "old_title": "MNX Ribbed shorts Hammer, white",
+    "new_title": "Pantaloni scurți reiați MNX Hammer – albi",
+    "beneficii_cheie": [
+      "Material reiat, cu textură striată, din 65% bumbac și 35% poliester.",
+      "Talie elastică cu șnur interior reglabil și buzunare laterale cu fermoar.",
+      "Panouri laterale negre, buzunare negre contrastante, ecuson Hammer la tiv și imprimeu MNX gri pe crac.",
+      "Croială lejeră, care lasă libertate de mișcare la antrenament.",
+      "Disponibili în mărimea L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Pantalonii scurți MNX Hammer** în varianta albă sunt confecționați din material reiat, cu textură striată, dintr-un amestec de 65% bumbac și 35% poliester. Au croială lejeră, care lasă libertate de mișcare la antrenament."
+      },
+      {
+        "p": "Talia elastică are un șnur interior reglabil, ca să poți ajusta pantalonii pe corp, iar buzunarele laterale se închid cu fermoar, astfel încât lucrurile mici rămân la locul lor în timpul antrenamentului. Pe fondul alb, cu dungi fine, ies în evidență panourile laterale negre și buzunarele negre, contrastante. Designul este completat de eticheta MNX din talie, de ecusonul Hammer de la tiv și de imprimeul MNX gri de pe crac."
+      },
+      {
+        "p": "Sunt disponibili în mărimea L/XL și se asortează cu tricourile de antrenament MNX Hammer din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "65% bumbac, 35% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 65% bumbac, 35% poliester, țesătură reiată",
+      "Croială: lejeră",
+      "Talie: elastică, cu șnur interior reglabil",
+      "Buzunare: laterale, cu fermoar",
+      "Culoare: alb, panouri laterale negre",
+      "Mărimi: L/XL",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Ribbed shorts Hammer, white' -> 'Pantaloni scurți reiați MNX Hammer – albi'); no '3.0' here, this is a different product from the Hammer 3.0 shorts. Old tab listed sizes S, M, L, XL, XXL, 3XL but only L/XL exists as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; 'loose fit' rendered as 'croială lejeră', 'patch-uri' as 'ecusoane'. Panels, pocket colour, emblem and print details taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15434765631863",
+    "handle": "mnx-ribbed-shorts-hammer-grey",
+    "status": "ACTIVE",
+    "old_title": "MNX Ribbed shorts Hammer, grey",
+    "new_title": "Pantaloni scurți reiați MNX Hammer – gri",
+    "beneficii_cheie": [
+      "Material reiat, cu textură striată, din 65% bumbac și 35% poliester.",
+      "Talie elastică cu șnur interior reglabil și buzunare laterale cu fermoar.",
+      "Inserții laterale negre, buzunare negre și logo MNX imprimat pe piciorul stâng.",
+      "Croială lejeră, care lasă libertate de mișcare la antrenament.",
+      "Disponibili în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Pantalonii scurți MNX Hammer** în varianta gri sunt confecționați din material reiat, cu textură striată, dintr-un amestec de 65% bumbac și 35% poliester. Au croială lejeră, care lasă libertate de mișcare la antrenament."
+      },
+      {
+        "p": "Talia elastică are un șnur interior reglabil, ca să poți ajusta pantalonii pe corp, iar buzunarele laterale se închid cu fermoar, astfel încât lucrurile mici rămân la locul lor în timpul antrenamentului. Pe fondul gri ies în evidență inserțiile laterale negre și buzunarele negre, iar pe piciorul stâng este imprimat logoul MNX."
+      },
+      {
+        "p": "Sunt disponibili în mărimile S/M și L/XL și se asortează cu tricourile de antrenament MNX Hammer din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "65% bumbac, 35% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 65% bumbac, 35% poliester, țesătură reiată",
+      "Croială: lejeră",
+      "Talie: elastică, cu șnur interior reglabil",
+      "Buzunare: laterale, cu fermoar",
+      "Culoare: gri, inserții laterale negre",
+      "Mărimi: S/M, L/XL",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Ribbed shorts Hammer, grey' -> 'Pantaloni scurți reiați MNX Hammer – gri'); no '3.0' here, this is a different product from the Hammer 3.0 shorts. Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only S/M, L/XL exist as variants; used the variants. 'Culoare: conform imaginii' replaced by the colour from the title; 'loose fit' rendered as 'croială lejeră', 'patch-uri' as 'ecusoane'. Panels, pocket colour, emblem and print details taken from the image alts. The audit (ECOMMERCE-10) lists this product as out of stock on every variant. Care line is the standard garment wording, not read from the label: check the sewn-in care label. Spelling 'reiat' (DEX) used; batch 6 used 'raiat' for the Hammer 3.0 shorts, harmonise if needed.",
+    "review": "ok"
+  }
+]

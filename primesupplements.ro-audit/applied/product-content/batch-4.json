@@ -1,0 +1,1079 @@
+[
+ {
+  "id": "gid://shopify/Product/14971468251511",
+  "handle": "energy-pump",
+  "status": "ACTIVE",
+  "old_title": "Energy Pump Shot",
+  "new_title": "Energy Pump Shot – pre-workout lichid, fiole de 25 ml",
+  "beneficii_cheie": [
+   "Pre-workout lichid în fiolă de 25 ml, gata de băut, fără pulbere de dizolvat și fără shaker.",
+   "Formula conține DL malat de L-citrulină, L-arginină AKG 2:1, beta alanină și cafeină anhidră.",
+   "Aromă de fructe de pădure (Wild Berries), îndulcită cu sucraloză și acesulfam de potasiu.",
+   "Se consumă o fiolă cu aproximativ 30-45 de minute înainte de antrenament.",
+   "Disponibil la bucată sau în cutie cu 20 de fiole de 25 ml (500 ml în total)."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Energy Pump Shot** este un pre-workout lichid de la Prime Supplements, ambalat în fiole de 25 ml. Este gândit pentru cei care se antrenează în sală și preferă o doză gata pregătită, pe care o pot lua în geantă fără shaker și fără pulbere de măsurat."
+   },
+   {
+    "p": "Formula combină DL malat de L-citrulină, L-arginină AKG 2:1, beta alanină și cafeină anhidră, într-o bază de apă purificată cu aromă de fructe de pădure (Wild Berries). Gustul dulce vine din îndulcitorii sucraloză și acesulfam de potasiu."
+   },
+   {
+    "p": "Se consumă o fiolă cu aproximativ 30-45 de minute înainte de antrenament, conform instrucțiunilor de pe ambalaj. Produsul conține cafeină și nu este recomandat copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Fiolele se vând la bucată sau în cutie de 20, alături de celelalte [suplimente pre-workout](/collections/suplimente-pre-workout)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Apă purificată, DL malat de L-citrulină, L-arginină AKG 2:1, beta alanină, cafeină anhidră, aromă, îndulcitori (sucraloză, acesulfam de potasiu), conservanți (sorbat de potasiu, benzoat de sodiu)."
+   },
+   {
+    "p": "Valorile nutriționale la 25 ml și la 100 ml sunt trecute în tabelul de pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: fiolă de 25 ml sau cutie cu 20 x 25 ml",
+   "Formă: lichid, monodoză",
+   "Aromă: Wild Berries (fructe de pădure)",
+   "Mod de administrare: o fiolă cu aproximativ 30-45 de minute înainte de antrenament",
+   "Stimulente: conține cafeină anhidră",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Energy Pump Shot este varianta lichidă a unui pre-workout: o fiolă de 25 ml cu aromă de fructe de pădure, pe care o bei înainte de antrenament, fără să mai amesteci pulbere în shaker. Produsul face parte din gama de shoturi Prime Supplements și se vinde la bucată sau în cutie cu 20 de fiole, adică 500 ml în total."
+   },
+   {
+    "h": "Ce conține o fiolă",
+    "level": 3
+   },
+   {
+    "p": "Formula are la bază apă purificată și include DL malat de L-citrulină, L-arginină AKG 2:1, beta alanină și cafeină anhidră. Pentru gust sunt folosite aromă și îndulcitorii sucraloză și acesulfam de potasiu, iar sorbatul de potasiu și benzoatul de sodiu au rol de conservanți. Cantitățile exacte ale ingredientelor, la 25 ml și la 100 ml, sunt trecute în tabelul nutrițional de pe etichetă."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Consumați o fiolă cu aproximativ 30-45 de minute înainte de antrenament, conform indicațiilor de pe ambalaj. Nu depășiți doza zilnică recomandată și beți suficientă apă pe parcursul zilei."
+   },
+   {
+    "h": "Precauții",
+    "level": 3
+   },
+   {
+    "p": "Energy Pump Shot conține cafeină. Nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Țineți cont și de cafeina din cafea sau din alte suplimente consumate în aceeași zi și discutați cu medicul înainte de utilizare dacă aveți afecțiuni sau urmați un tratament medicamentos."
+   }
+  ],
+  "notes": "Supplement with no EU-authorised claims for its actives (citrulline, arginine, beta-alanine, caffeine): benefits reduced to product facts. Removed the fake 'Journal of Strength and Conditioning Research' study, the 3-6 g beta-alanine dosing advice, pump/blood-flow/recovery/fatigue promises and 'rezultate dovedite'. Old seo_produs listed 'vitamine din complexul B', which are not in the ingredient list, so they were dropped. Mode of use (one vial ~30-45 min before training) comes from the old seo_produs. Caffeine per 25 ml is not in the data: if the drink exceeds 150 mg/l caffeine, the mandatory 'Conținut ridicat de cafeină' label wording applies; verify on the label. Title was 16 chars (too short).",
+  "review": "fixed: removed implied sugar-free statement (\"fără zahăr în lista de ingrediente\"), not stated in the data and close to a regulated nutrition claim"
+ },
+ {
+  "id": "gid://shopify/Product/14971468317047",
+  "handle": "fat-burning-booster",
+  "status": "ACTIVE",
+  "old_title": "Fat Burning Booster Shot",
+  "new_title": "Fat Burning Booster Shot – fiole de 25 ml",
+  "beneficii_cheie": [
+   "Supliment lichid în fiolă de 25 ml, gata de consumat, fără pulbere de dizolvat.",
+   "Conține L-carnitină, extract din frunze de ceai verde (50% polifenoli, 30% catechine, 7% cafeină), extract din boabe de cafea verde și cafeină anhidră.",
+   "Formula include și crom, sub formă de picolinat de crom.",
+   "Aromă de fructe de pădure (Forest Fruits), îndulcită cu sucraloză și acesulfam de potasiu.",
+   "Disponibil la bucată sau în cutie cu 20 de fiole de 25 ml (500 ml în total)."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Fat Burning Booster Shot** este un supliment alimentar lichid de la Prime Supplements, ambalat în fiole de 25 ml cu aromă de fructe de pădure. Se adresează adulților activi care vor o doză gata pregătită, ușor de luat în geantă, ca parte a unei rutine cu alimentație echilibrată și mișcare regulată."
+   },
+   {
+    "p": "Formula conține L-carnitină, extract din frunze de ceai verde standardizat (50% polifenoli, 30% catechine, 7% cafeină), extract din boabe de cafea verde (50% acid clorogenic), cafeină anhidră și picolinat de crom, într-o bază de apă purificată. Gustul este dat de aromă și de îndulcitorii sucraloză și acesulfam de potasiu."
+   },
+   {
+    "p": "Fiola se consumă conform instrucțiunilor de pe etichetă și poate fi luată înainte de antrenament. Produsul conține cafeină și nu este recomandat copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Găsești și celelalte fiole din gamă în categoria [shoturi pre-workout](/collections/shot-pre-workout)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Apă purificată, L-carnitină, acidifiant (acid citric), extract din frunze de ceai verde (50% polifenoli, 30% catechine, 7% cafeină), extract din boabe de cafea verde (50% acid clorogenic), cafeină anhidră, corector de aciditate (citrat trisodic), aromă, îndulcitori (sucraloză, acesulfam de potasiu), conservanți (sorbat de potasiu, benzoat de sodiu), crom picolinat."
+   },
+   {
+    "p": "Valorile per 25 ml (L-carnitină, extract de ceai verde, cafeină, crom) sunt trecute în tabelul de pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: fiolă de 25 ml sau cutie cu 20 x 25 ml",
+   "Formă: lichid, monodoză",
+   "Aromă: Forest Fruits (fructe de pădure)",
+   "Mod de administrare: conform instrucțiunilor de pe etichetă, înainte de antrenament",
+   "Stimulente: conține cafeină anhidră și extract de ceai verde",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Fat Burning Booster Shot este un supliment lichid în fiole de 25 ml, din gama de shoturi Prime Supplements. Fiecare fiolă are aromă de fructe de pădure și se bea direct din ambalaj, fără shaker. Produsul se găsește la bucată sau în cutie cu 20 de fiole."
+   },
+   {
+    "h": "Ce conține",
+    "level": 3
+   },
+   {
+    "p": "Pe lângă apa purificată, formula include L-carnitină, extract din frunze de ceai verde (50% polifenoli, 30% catechine, 7% cafeină), extract din boabe de cafea verde (50% acid clorogenic), cafeină anhidră și picolinat de crom. Acidul citric și citratul trisodic reglează aciditatea, iar sorbatul de potasiu și benzoatul de sodiu au rol de conservanți. Cantitățile per 25 ml sunt trecute în tabelul nutrițional de pe etichetă."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Urmați instrucțiunile de pe etichetă și nu depășiți doza zilnică recomandată. Fiola poate fi consumată înainte de antrenament. Produsul se folosește ca parte a unui stil de viață activ, alături de o alimentație variată și echilibrată, și nu înlocuiește mesele."
+   },
+   {
+    "h": "Precauții",
+    "level": 3
+   },
+   {
+    "p": "Produsul conține cafeină, atât sub formă de cafeină anhidră, cât și din extractul de ceai verde. Nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Țineți cont de cafeina din alte surse consumate în aceeași zi și consultați medicul înainte de utilizare dacă aveți afecțiuni sau urmați un tratament medicamentos."
+   }
+  ],
+  "notes": "No authorised claims for L-carnitine, green tea, green coffee or caffeine: removed fat-burning, metabolism, thermogenesis, appetite and blood-sugar promises plus the fake studies ('Journal of Physiology', University of Queensland). Old seo_produs mentioned Garcinia cambogia and '1-2 capsule', neither of which matches this liquid product, so both were dropped. A chromium claim ('Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge') can be added only if the label shows at least 15% NRV chromium per 25 ml; that amount is not in the data. The name 'Fat Burning' is itself an implied slimming claim, so consider renaming. The 20 x 25 ml variant has no compare-at price.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971468382583",
+  "handle": "prosop-negru",
+  "status": "ACTIVE",
+  "old_title": "Prosop Negru Prime",
+  "new_title": "Prosop de sală Prime – negru, 50 x 100 cm",
+  "beneficii_cheie": [
+   "Confecționat din 100% bumbac, moale la atingere și delicat cu pielea.",
+   "Dimensiuni de 50 x 100 cm: potrivit pentru față și gât, dar și ca suport pe bancă sau pe saltea.",
+   "Negru, cu logo Prime brodat în roșu și alb pe banda laterală.",
+   "Absorbant și rezistent, pentru folosire frecventă la sală."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Prosopul negru Prime** este un accesoriu de sală confecționat din 100% bumbac, cu o textură plăcută la atingere. Are dimensiunile de 50 x 100 cm, suficient pentru a șterge transpirația de pe față și gât între seturi și pentru a-l folosi ca suport pe bancă, pe aparat sau pe saltea în timpul exercițiilor."
+   },
+   {
+    "p": "Materialul este absorbant și rezistent, potrivit pentru folosirea zilnică la sală, la antrenamentele în aer liber sau acasă. Culoarea neagră este practică pentru un accesoriu care se folosește des, iar logo-ul Prime este brodat în roșu și alb pe banda laterală."
+   },
+   {
+    "p": "Prosopul se împăturește compact și încape ușor în geanta de sală, alături de shaker și de restul echipamentului. Vezi și celelalte [accesorii de sală](/collections/accesorii-sala) Prime."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Material: 100% bumbac."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% bumbac",
+   "Dimensiuni: 50 x 100 cm",
+   "Culoare: negru, logo Prime brodat în roșu și alb",
+   "Utilizare: sală, antrenamente în aer liber, acasă",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Prosopul Prime este un accesoriu simplu, dar folosit la fiecare antrenament: șterge transpirația între seturi și creează o barieră între piele și bancă, aparat sau saltea. Este confecționat din 100% bumbac și are dimensiunile de 50 x 100 cm."
+   },
+   {
+    "h": "Material și dimensiuni",
+    "level": 3
+   },
+   {
+    "p": "Bumbacul este moale la atingere și absorbant, potrivit și pentru pielea sensibilă. Formatul de 50 x 100 cm este suficient pentru față, gât și brațe, dar și pentru a acoperi spătarul unei bănci de împins sau o porțiune de saltea."
+   },
+   {
+    "h": "Design",
+    "level": 3
+   },
+   {
+    "p": "Prosopul este negru, cu logo-ul Prime brodat în roșu și alb pe banda laterală. Se împăturește compact și încape în orice geantă de sală."
+   },
+   {
+    "h": "Când îl folosești",
+    "level": 3
+   },
+   {
+    "p": "La sală, la antrenamentele în aer liber, la yoga sau la exercițiile făcute acasă. Un prosop propriu este util mai ales în sălile în care aceleași aparate și bănci sunt folosite de multe persoane într-o zi."
+   }
+  ],
+  "notes": "Removed 'antibacterian' (unverified) and 'extrem de absorbant'; old seo_produs was one run-on paragraph with pasted chat text ('Acest text este optimizat pentru SEO...') and brand CTA, now rewritten. Care instructions are not in the data, so no 'Îngrijire' line (towel, not a garment). Ingrediente tab kept as material line, following the apparel rule; set to null if a material line under 'Ingrediente' looks odd for an accessory.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971468448119",
+  "handle": "hanorac-prime-squad",
+  "status": "ACTIVE",
+  "old_title": "Prime Hanorac cu broderie “Prime Squad”",
+  "new_title": "Hanorac Prime Squad cu glugă și fermoar – negru",
+  "beneficii_cheie": [
+   "Amestec de 80% bumbac și 20% poliester.",
+   "Negru, cu broderia „Prime Squad” în roșu și alb pe spate și logo roșu pe piept.",
+   "Închidere cu fermoar și glugă.",
+   "Disponibil în mărimile XS, S, M, L, XL și XXL.",
+   "Modelul din fotografii are 190 cm și poartă mărimea L."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Hanoracul Prime Squad** este un hanorac negru cu fermoar și glugă, confecționat dintr-un amestec de 80% bumbac și 20% poliester. Pe spate are broderia „Prime Squad” în roșu și alb, iar pe piept logo-ul Prime în roșu."
+   },
+   {
+    "p": "Este potrivit ca strat de încălzire înainte de antrenament, pentru drumul spre sală sau pentru zilele mai răcoroase, purtat peste un tricou sau un maiou. Fermoarul îl face ușor de deschis între seturi, iar gluga oferă un strat în plus când ieși afară."
+   },
+   {
+    "p": "Hanoracul este disponibil în mărimile XS, S, M, L, XL și XXL. Pentru orientare, modelul din fotografii are 190 cm și poartă mărimea L. Găsești și alte piese în categoria [echipament de sală](/collections/echipament-sala)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "80% bumbac, 20% poliester."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 80% bumbac, 20% poliester",
+   "Culoare: negru, broderie roșu cu alb",
+   "Mărimi: XS, S, M, L, XL, XXL",
+   "Detalii: fermoar, glugă, broderie „Prime Squad” pe spate, logo pe piept",
+   "Model: 190 cm, poartă mărimea L",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Hanoracul Prime Squad face parte din colecția de îmbrăcăminte Prime și combină un croi clasic, cu fermoar și glugă, cu broderia „Prime Squad” pe spate. Este negru, cu detalii în roșu și alb, și se potrivește atât la sală, cât și în ținutele de zi cu zi."
+   },
+   {
+    "h": "Material",
+    "level": 3
+   },
+   {
+    "p": "Materialul este un amestec de 80% bumbac și 20% poliester. Bumbacul oferă o senzație plăcută pe piele, iar amestecul cu poliester este des folosit la hanoracele sport pentru rezistență la purtare."
+   },
+   {
+    "h": "Mărimi",
+    "level": 3
+   },
+   {
+    "p": "Hanoracul este disponibil în mărimile XS, S, M, L, XL și XXL. Modelul din fotografii are 190 cm și poartă mărimea L; dacă preferi un croi mai lejer, poți alege o mărime în plus."
+   },
+   {
+    "h": "Îngrijire",
+    "level": 3
+   },
+   {
+    "p": "Spălați hanoracul la 30 °C, fără înălbitor, și nu îl uscați în uscător, pentru a păstra broderia și materialul în stare bună."
+   }
+  ],
+  "notes": "English-style title ('Prime Hanorac cu broderie ...') reworded; zipper and hood taken from the image alt texts. Model height '190' assumed to be in cm. Variant size kept as XXL (as in the options). Old seo_produs referenced 'PRIME Apparel'; brand kept as Prime Supplements (vendor).",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971468513655",
+  "handle": "t-shirt-drop-shoulder-muscle-white",
+  "status": "ACTIVE",
+  "old_title": "T-shirt Drop Shoulder Muscle White",
+  "new_title": "Tricou Prime Drop Shoulder Muscle – alb",
+  "beneficii_cheie": [
+   "Confecționat din 100% bumbac.",
+   "Croi supradimensionat, cu umeri coborâți.",
+   "Guler rotund, ușor de purtat la sală și în afara ei.",
+   "Alb, cu logo Prime mic pe piept și imprimeu Prime negru cu roșu.",
+   "Disponibil în mărimile M și L."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul Prime Drop Shoulder Muscle** este un tricou alb din 100% bumbac, cu croi supradimensionat și umeri coborâți. Cusătura umărului coboară pe braț, ceea ce îi dă un aspect lejer, iar gulerul rotund îl face ușor de purtat atât la sală, cât și în afara ei."
+   },
+   {
+    "p": "Pe piept are un logo Prime mic, iar imprimeul Prime este negru cu roșu. Albul se asortează ușor cu pantalonii scurți sau cu pantalonii de trening negri din colecția Prime."
+   },
+   {
+    "p": "Tricoul este disponibil în mărimile M și L, iar croiul este gândit să cadă lejer pe corp. Vezi și restul pieselor din categoria [echipament de sală](/collections/echipament-sala)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% bumbac."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% bumbac",
+   "Croi: supradimensionat, cu umeri coborâți",
+   "Guler: rotund",
+   "Culoare: alb, imprimeu Prime negru cu roșu",
+   "Mărimi: M, L",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Tricoul Prime Drop Shoulder Muscle este un tricou alb cu croi supradimensionat, gândit pentru antrenamente și pentru ținutele de zi cu zi. Numele vine de la umerii coborâți: cusătura umărului cade pe braț, ceea ce dă tricoului o linie relaxată și lasă libertate de mișcare."
+   },
+   {
+    "h": "Material și croi",
+    "level": 3
+   },
+   {
+    "p": "Tricoul este confecționat din 100% bumbac și are guler rotund. Croiul supradimensionat cade lejer pe corp, potrivit pentru exercițiile de forță, pentru încălzire sau pentru purtat peste zi."
+   },
+   {
+    "h": "Design",
+    "level": 3
+   },
+   {
+    "p": "Pe fondul alb se află un logo Prime mic pe piept, iar imprimeul Prime este negru cu roșu. Tricoul se combină ușor cu pantaloni scurți sau pantaloni de trening negri."
+   },
+   {
+    "h": "Mărimi și îngrijire",
+    "level": 3
+   },
+   {
+    "p": "Tricoul este disponibil în mărimile M și L. Pentru a păstra imprimeul și forma, spălați-l la 30 °C, fără înălbitor, și evitați uscătorul."
+   }
+  ],
+  "notes": "English title translated ('T-shirt ... White' -> 'Tricou ... – alb'); 'Crewneck' and 'Oversize fit' translated. Old seo_produs claimed a cotton-polyester blend, which contradicts '100% bumbac' in the description; used 100% bumbac. 'PRIME' written as 'Prime' (no caps). Only sizes M and L exist as variants.",
+  "review": "fixed: removed English \"(oversize)\" from a benefit"
+ },
+ {
+  "id": "gid://shopify/Product/14971468579191",
+  "handle": "unt-de-arahide",
+  "status": "ACTIVE",
+  "old_title": "Unt de Arahide",
+  "new_title": "Unt de arahide Prime Health, 600 g",
+  "beneficii_cheie": [
+   "Pastă cremoasă obținută prin măcinarea arahidelor prăjite.",
+   "Conține 100% unt de arahide, fără adaosuri de zahăr sau conservanți.",
+   "Borcan de sticlă de 600 g, cu capac negru.",
+   "Se întinde pe pâine prăjită sau se adaugă în smoothie-uri, clătite, prăjituri și sosuri.",
+   "Face parte din gama Prime Health, alături de untul de migdale și untul de caju."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Untul de arahide Prime Health** este o pastă cremoasă obținută prin măcinarea arahidelor prăjite. Conform listei de ingrediente, produsul este 100% unt de arahide, fără adaosuri de zahăr sau conservanți, iar gustul este cel al arahidelor prăjite."
+   },
+   {
+    "p": "Este o alegere practică pentru mic dejun și gustări: se întinde pe pâine prăjită, se adaugă în smoothie-uri sau pe clătite, în prăjituri ori ca bază pentru sosuri. Valorile nutriționale la 100 g (energie, grăsimi, proteine, glucide, fibre) sunt trecute în tabelul de pe eticheta borcanului."
+   },
+   {
+    "p": "Se recomandă amestecarea conținutului înainte de utilizare, pentru o textură uniformă. Produsul conține arahide și nu este potrivit persoanelor alergice la arahide. Este ambalat în borcan de sticlă de 600 g și face parte din gama [Prime Health](/collections/prime-health)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% unt de arahide, fără adaosuri."
+   },
+   {
+    "p": "Alergeni: arahide."
+   },
+   {
+    "p": "Valorile nutriționale la 100 g sunt disponibile pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: 600 g",
+   "Ingrediente: 100% unt de arahide",
+   "Ambalaj: borcan de sticlă cu capac",
+   "Utilizare: se amestecă înainte de folosire",
+   "Alergeni: arahide",
+   "Brand: Prime Health (Prime Supplements)"
+  ],
+  "seo_produs": [
+   {
+    "p": "Untul de arahide Prime Health este un produs cu un singur ingredient: arahide prăjite, măcinate până devin o pastă cremoasă. Nu are zahăr adăugat sau conservanți, așa că gustul este cel al arahidelor, fără alte adaosuri."
+   },
+   {
+    "h": "Cum îl folosești",
+    "level": 3
+   },
+   {
+    "p": "Întinde-l pe pâine prăjită sau pe clătite, adaugă-l în smoothie-uri ori folosește-l în prăjituri și sosuri. Înainte de utilizare, amestecă bine conținutul borcanului pentru o textură uniformă."
+   },
+   {
+    "h": "Informații nutriționale",
+    "level": 3
+   },
+   {
+    "p": "Tabelul cu valorile nutriționale la 100 g, cu valoarea energetică, grăsimile, proteinele, glucidele și fibrele, este trecut pe eticheta borcanului. Untul de arahide conține în mod natural grăsimi și proteine vegetale și este un aliment dens energetic, așa că se potrivește într-o alimentație variată, în porții adaptate necesarului zilnic."
+   },
+   {
+    "h": "Ambalaj și alergeni",
+    "level": 3
+   },
+   {
+    "p": "Produsul vine într-un borcan de sticlă de 600 g, cu capac negru și etichetă verde cu alb. Conține arahide și nu este potrivit persoanelor alergice la arahide."
+   }
+  ],
+  "notes": "Food, not a supplement: no disclaimer. Removed cardiovascular/cholesterol, muscle-building and digestion claims and the 'PRIME Foods' brand mention (label and alt texts say Prime Health). No nutrition numbers in the data (the alt text only mentions a table at 100 g): send the label values to add a nutrition table. Product is tagged 'Suplimente' although it is a food.",
+  "review": "fixed: benefit no longer starts with a number"
+ },
+ {
+  "id": "gid://shopify/Product/14971468906871",
+  "handle": "unt-de-migdale",
+  "status": "ACTIVE",
+  "old_title": "Unt de Migdale",
+  "new_title": "Unt de migdale Prime Health, 600 g",
+  "beneficii_cheie": [
+   "Pastă cremoasă obținută prin măcinarea migdalelor prăjite.",
+   "Conține 100% unt de migdale, fără adaosuri.",
+   "Borcan de sticlă de 600 g, cu capac negru.",
+   "Se adaugă în smoothie-uri, pe pâine prăjită sau în rețete de deserturi și sosuri.",
+   "Face parte din gama Prime Health, alături de untul de arahide și untul de caju."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Untul de migdale Prime Health** este o pastă cremoasă obținută prin măcinarea migdalelor prăjite. Lista de ingrediente are un singur element, 100% unt de migdale, fără adaosuri, iar gustul este cel al migdalelor prăjite."
+   },
+   {
+    "p": "Este potrivit pentru cei care urmează un stil de viață activ și gătesc acasă: se adaugă în smoothie-uri, se întinde pe pâine prăjită sau pe clătite și poate înlocui untul obișnuit în rețete de deserturi și sosuri. Tabelul cu valorile nutriționale la 100 g (grăsimi, proteine, glucide, fibre) este trecut pe eticheta borcanului."
+   },
+   {
+    "p": "Se recomandă amestecarea înainte de utilizare, pentru o textură uniformă. Produsul conține migdale, fructe cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă. Este ambalat în borcan de sticlă de 600 g și face parte din gama [Prime Health](/collections/prime-health)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% unt de migdale, fără adaosuri."
+   },
+   {
+    "p": "Alergeni: migdale (fructe cu coajă)."
+   },
+   {
+    "p": "Valorile nutriționale la 100 g sunt disponibile pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: 600 g",
+   "Ingrediente: 100% unt de migdale",
+   "Ambalaj: borcan de sticlă cu capac",
+   "Utilizare: se amestecă înainte de folosire",
+   "Alergeni: migdale (fructe cu coajă)",
+   "Brand: Prime Health (Prime Supplements)"
+  ],
+  "seo_produs": [
+   {
+    "p": "Untul de migdale Prime Health este obținut din migdale prăjite, măcinate până la o pastă cremoasă. Produsul are un singur ingredient, fără adaosuri, așa că gustul și culoarea vin doar din migdale."
+   },
+   {
+    "h": "Cum îl folosești",
+    "level": 3
+   },
+   {
+    "p": "Poți adăuga untul de migdale în smoothie-uri, îl poți întinde pe pâine prăjită sau pe clătite ori îl poți folosi în rețete de deserturi și sosuri, inclusiv în locul untului obișnuit. Înainte de utilizare, amestecă bine conținutul borcanului pentru o textură uniformă."
+   },
+   {
+    "h": "Informații nutriționale",
+    "level": 3
+   },
+   {
+    "p": "Valorile nutriționale la 100 g, cu grăsimile, proteinele, glucidele și fibrele, sunt trecute pe eticheta borcanului. Migdalele conțin în mod natural grăsimi și proteine vegetale, iar untul de migdale este un aliment dens energetic, potrivit într-o alimentație variată, în porții adaptate necesarului zilnic."
+   },
+   {
+    "h": "Ambalaj și alergeni",
+    "level": 3
+   },
+   {
+    "p": "Untul de migdale vine într-un borcan de sticlă de 600 g, cu capac negru și etichetă verde cu alb. Conține migdale, un fruct cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă."
+   }
+  ],
+  "notes": "Food, not a supplement: no disclaimer. Removed cardiovascular/cholesterol, muscle, recovery and weight-control claims and the 'PRIME Foods' brand. 'Fără zahăr adăugat' is not stated for this product (only 'fără adaosuri'), so it was not used. No nutrition numbers in the data: send the label values to add a nutrition table.",
+  "review": "fixed: benefit no longer starts with a number; unverifiable \"este preferat de\" changed to \"este potrivit pentru\""
+ },
+ {
+  "id": "gid://shopify/Product/14971468939639",
+  "handle": "prime-bodybuilding-classic-pants",
+  "status": "ACTIVE",
+  "old_title": "Prime Bodybuilding Classic Pants",
+  "new_title": "Pantaloni Prime Bodybuilding Classic – negri",
+  "beneficii_cheie": [
+   "Amestec de 80% bumbac și 20% poliester.",
+   "Negri, cu broderie în roșu și alb și logo Prime pe coapsă.",
+   "Manșete elastice la glezne.",
+   "Disponibili în mărimile M, L și XL.",
+   "Modelul din fotografie are 180 cm și poartă mărimea L."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii Prime Bodybuilding Classic** sunt pantaloni negri pentru sală, confecționați dintr-un amestec de 80% bumbac și 20% poliester. Au manșete elastice la glezne și logo-ul Prime pe coapsă, cu broderie în roșu și alb."
+   },
+   {
+    "p": "Croiul clasic îi face potriviți pentru încălzire, pentru antrenamentele de forță sau pentru drumul spre sală, iar culoarea neagră se combină ușor cu tricourile și hanoracele din colecția Prime."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimile M, L și XL. Pentru orientare, modelul din fotografie are 180 cm și poartă mărimea L. Găsești și alte piese în categoria [echipament de sală](/collections/echipament-sala)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "80% bumbac, 20% poliester."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 80% bumbac, 20% poliester",
+   "Culoare: negru, broderie roșu cu alb",
+   "Mărimi: M, L, XL",
+   "Detalii: manșete elastice, logo Prime pe coapsă",
+   "Model: 180 cm, poartă mărimea L",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Pantalonii Prime Bodybuilding Classic sunt un model simplu, negru, pentru sală și pentru purtat zilnic. Au manșete elastice la glezne, care țin pantalonii pe loc în timpul exercițiilor, și logo-ul Prime brodat pe coapsă."
+   },
+   {
+    "h": "Material",
+    "level": 3
+   },
+   {
+    "p": "Pantalonii sunt confecționați dintr-un amestec de 80% bumbac și 20% poliester. Bumbacul este plăcut pe piele, iar amestecul cu poliester este des folosit la pantalonii sport pentru rezistență la purtare."
+   },
+   {
+    "h": "Mărimi",
+    "level": 3
+   },
+   {
+    "p": "Modelul este disponibil în mărimile M, L și XL. Pentru orientare, modelul din fotografie are 180 cm și poartă mărimea L."
+   },
+   {
+    "h": "Cum îi porți și cum îi îngrijești",
+    "level": 3
+   },
+   {
+    "p": "Pantalonii se potrivesc cu tricourile și hanoracele din colecția Prime, pentru încălzire, antrenamente de forță sau drumul spre sală. Spălați-i la 30 °C, fără înălbitor, și evitați uscătorul, pentru a păstra broderia și materialul în stare bună."
+   }
+  ],
+  "notes": "English title translated. The old description is identical to the Prime Squad hoodie (mentions 'Broderie Prime Squad' and the same 80/20 blend), while the image alt shows a Prime logo on the thigh and elastic cuffs: verify the embroidery text and composition; 'Prime Squad' was not repeated. Model height '180' assumed in cm.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971469005175",
+  "handle": "water-out-500-ml",
+  "status": "ACTIVE",
+  "old_title": "Water Out - 500 ml",
+  "new_title": "Water Out Prime Health – tinctură din plante, 500 ml",
+  "beneficii_cheie": [
+   "Tinctură dintr-un amestec de opt plante: coada-calului, mesteacăn, ienupăr, păpădie, urzică, brusture, sânziene și afin.",
+   "Extract 1:6 în soluție hidroetanolică, cu un conținut de alcool de 30% v/v.",
+   "Flacon de 500 ml, pentru 100 de porții.",
+   "Se administrează o porție pe zi, de preferat dimineața, conform etichetei.",
+   "Face parte din gama de tincturi Prime Health."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Water Out** este o tinctură din gama Prime Health, obținută prin extracție 1:6 într-o soluție hidroetanolică (alcool etilic și apă) dintr-un amestec de opt plante: părți aeriene de coada-calului, frunze de mesteacăn, fructe de ienupăr, frunze de păpădie, frunze de urzică, rădăcină de brusture, părți aeriene de sânziene și frunze de afin."
+   },
+   {
+    "p": "Produsul se adresează adulților care preferă suplimentele din plante sub formă lichidă. Flaconul de 500 ml conține 100 de porții, iar administrarea recomandată este de o porție pe zi, de preferat dimineața, conform indicațiilor de pe etichetă. Pe parcursul zilei este important să consumați suficiente lichide."
+   },
+   {
+    "p": "Tinctura conține alcool (30% v/v), de aceea nu este potrivită copiilor, femeilor însărcinate sau care alăptează și persoanelor care trebuie să evite alcoolul. Vezi și celelalte produse din gama [Prime Health](/collections/prime-health)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Extract 1:6 în soluție hidroetanolică (alcool etilic/apă – 34/66 în procente de masă) din următorul amestec de plante:"
+   },
+   {
+    "ul": [
+     "Coada-calului (Equisetum arvense), părți aeriene (15%)",
+     "Mesteacăn (Betula pendula), frunze (15%)",
+     "Ienupăr (Juniperus communis), fructe (15%)",
+     "Păpădie (Taraxacum officinale), frunze (15%)",
+     "Urzică (Urtica dioica), frunze (10%)",
+     "Brusture (Arctium lappa), rădăcină (10%)",
+     "Sânziene (Galium verum), părți aeriene (10%)",
+     "Afin (Vaccinium myrtillus), frunze (10%)"
+    ]
+   },
+   {
+    "p": "Conținut de alcool: 30% v/v."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: 500 ml",
+   "Porții: 100",
+   "Formă: tinctură (extract 1:6 în soluție hidroetanolică)",
+   "Mod de administrare: o porție pe zi, de preferat dimineața, conform etichetei",
+   "Conținut de alcool: 30% v/v",
+   "Brand: Prime Health (Prime Supplements)"
+  ],
+  "seo_produs": [
+   {
+    "p": "Water Out este o tinctură din plante din gama Prime Health, ambalată într-o sticlă închisă la culoare de 500 ml, suficientă pentru 100 de porții. Formula reunește opt plante, extrase în raport 1:6 într-o soluție de alcool etilic și apă."
+   },
+   {
+    "h": "Ce plante conține",
+    "level": 3
+   },
+   {
+    "p": "Amestecul de plante are următoarea compoziție:"
+   },
+   {
+    "ul": [
+     "Coada-calului (Equisetum arvense), părți aeriene (15%)",
+     "Mesteacăn (Betula pendula), frunze (15%)",
+     "Ienupăr (Juniperus communis), fructe (15%)",
+     "Păpădie (Taraxacum officinale), frunze (15%)",
+     "Urzică (Urtica dioica), frunze (10%)",
+     "Brusture (Arctium lappa), rădăcină (10%)",
+     "Sânziene (Galium verum), părți aeriene (10%)",
+     "Afin (Vaccinium myrtillus), frunze (10%)"
+    ]
+   },
+   {
+    "p": "Soluția de extracție este formată din alcool etilic și apă în proporție de 34/66 (procente de masă), iar conținutul final de alcool este de 30% v/v."
+   },
+   {
+    "h": "Cum se administrează",
+    "level": 3
+   },
+   {
+    "p": "Se administrează o porție pe zi, de preferat dimineața, conform indicațiilor de pe etichetă. Nu depășiți doza zilnică recomandată și consumați suficiente lichide pe parcursul zilei."
+   },
+   {
+    "h": "Precauții",
+    "level": 3
+   },
+   {
+    "p": "Produsul conține alcool. Nu este recomandat copiilor, femeilor însărcinate sau care alăptează și persoanelor care trebuie să evite alcoolul. Dacă aveți afecțiuni sau urmați un tratament medicamentos, consultați medicul înainte de utilizare."
+   }
+  ],
+  "notes": "Botanicals have no authorised EU health claims: removed diuretic, detox, kidney, liver, anti-inflammatory, skin, blood-purifying and cardiovascular claims. Old seo_produs listed green tea extract, which is not in the ingredient list. Serving volume (ml per serving) is not in the data, so it was not stated; the mode of use (one serving daily, preferably in the morning) comes from the old seo_produs. The name 'Water Out' and productType 'Arzătoare de grăsimi' imply water-loss/slimming effects; consider renaming or recategorising. Compare-at equals price (73.00).",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971469201783",
+  "handle": "unt-de-caju",
+  "status": "ACTIVE",
+  "old_title": "Unt de Caju",
+  "new_title": "Unt de caju Prime Health, 600 g",
+  "beneficii_cheie": [
+   "Conține 18 g de proteine la 100 g de produs.",
+   "Valoare energetică de 2415 kJ / 582 kcal la 100 g, cu 43,8 g grăsimi și 3,3 g fibre.",
+   "Conținut de sare: 0 g la 100 g.",
+   "Borcan de sticlă de 600 g, cu capac negru.",
+   "Se întinde pe pâine sau se adaugă în smoothie-uri și deserturi de casă."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Untul de caju Prime Health** este o pastă din caju, ambalată într-un borcan de sticlă de 600 g cu capac negru. Face parte din gama de unturi din nuci Prime Health, alături de untul de arahide și untul de migdale, și are gustul specific nucilor caju."
+   },
+   {
+    "p": "La 100 g, untul de caju furnizează 2415 kJ / 582 kcal, 43,8 g grăsimi (din care 7,8 g acizi grași saturați), 18 g proteine, 27 g glucide (din care 5,9 g zaharuri) și 3,3 g fibre, iar conținutul de sare este de 0 g. Fiind un aliment dens energetic, se consumă în porții mici, adaptate necesarului zilnic."
+   },
+   {
+    "p": "Se poate întinde pe pâine sau pe clătite ori adăuga în smoothie-uri și deserturi de casă. Produsul conține caju, un fruct cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă. Vezi întreaga gamă [Prime Health](/collections/prime-health)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Valori nutriționale la 100 g:"
+   },
+   {
+    "ul": [
+     "Valoare energetică: 2415 kJ / 582 kcal",
+     "Grăsimi: 43,8 g",
+     "din care acizi grași saturați: 7,8 g",
+     "Proteine: 18 g",
+     "Glucide: 27 g",
+     "din care zaharuri: 5,9 g",
+     "Fibre: 3,3 g",
+     "Sare: 0 g"
+    ]
+   },
+   {
+    "p": "Alergeni: caju (fructe cu coajă). Lista completă a ingredientelor este disponibilă pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Cantitate: 600 g",
+   "Ambalaj: borcan de sticlă cu capac",
+   "Proteine: 18 g la 100 g",
+   "Valoare energetică: 582 kcal la 100 g",
+   "Alergeni: caju (fructe cu coajă)",
+   "Brand: Prime Health (Prime Supplements)"
+  ],
+  "seo_produs": null,
+  "notes": "Food, not a supplement: no disclaimer. The old description was only the nutrition table; it is now the Ingrediente tab (decimal points written with commas). The ingredient list (e.g. whether it is 100% caju) is not in the data: confirm it on the label and add it. No existing seo_produs, so none was created.",
+  "review": "fixed: benefits no longer start with a number or read as a bare label line"
+ },
+ {
+  "id": "gid://shopify/Product/14971469365623",
+  "handle": "shaker-premium-accesorizat-500-ml",
+  "status": "ACTIVE",
+  "old_title": "Shaker Premium Accesorizat 500 ml",
+  "new_title": "Shaker Prime cu compartimente, 500 ml",
+  "beneficii_cheie": [
+   "Pahar gradat cu o capacitate de până la 500 ml de lichid.",
+   "Realizat din plastic fără BPA.",
+   "Compartimente detașabile pentru pastile și pudre, care se prind sub pahar.",
+   "Include un accesoriu pentru amestecarea și omogenizarea shake-urilor proteice.",
+   "Disponibil în negru sau negru cu roșu, cu logo Prime."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Shakerul Prime cu compartimente** este gândit pentru prepararea și transportul shake-urilor proteice și al suplimentelor sub formă de pudră. Paharul gradat are o capacitate de până la 500 ml de lichid și este realizat din plastic fără BPA."
+   },
+   {
+    "p": "Sub pahar se prind compartimentele detașabile: unul pentru pastile și unul pentru pudre, astfel încât poți lua cu tine porția de proteină sau de pre-workout fără recipiente separate. Accesoriul de amestecare din interior ajută la omogenizarea pudrei cu apa sau laptele, iar capacul se închide cu clips."
+   },
+   {
+    "p": "Shakerul este disponibil în două variante de culoare, negru și negru cu roșu, ambele cu logo Prime. Se recomandă spălarea manuală, pentru a păstra materialele în stare bună. Vezi și celelalte [accesorii de sală](/collections/accesorii-sala)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Capacitate: 500 ml",
+   "Material: plastic fără BPA",
+   "Culori: negru, negru cu roșu",
+   "Componente: pahar gradat, capac cu clips, accesoriu de amestecare, compartimente pentru pastile și pudre",
+   "Îngrijire: spălare manuală recomandată",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Shakerul Prime cu compartimente este un recipient de 500 ml pentru prepararea shake-urilor proteice, a pre-workout-urilor și a altor suplimente sub formă de pudră. Pe lângă pahar, setul include compartimente detașabile în care poți păstra separat pudra și pastilele pentru o zi de antrenament."
+   },
+   {
+    "h": "Ce include",
+    "level": 3
+   },
+   {
+    "p": "Paharul este gradat și realizat din plastic fără BPA. Capacul se înfiletează pe pahar și are clips de închidere, iar în interior se află un accesoriu de amestecare care ajută la omogenizarea pudrei cu lichidul. Sub pahar se prind compartimentele pentru pastile și pudre, care se pot detașa și folosi separat."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Adăugați apă sau lapte, apoi pudra, închideți bine capacul și agitați până când amestecul devine omogen. Compartimentele inferioare se umplu acasă, iar la sală sau la birou porția este gata de amestecat."
+   },
+   {
+    "h": "Culori și îngrijire",
+    "level": 3
+   },
+   {
+    "p": "Shakerul este disponibil în negru sau în negru cu roșu, ambele cu logo Prime. Se recomandă spălarea manuală, pentru ca materialele să rămână în stare bună."
+   }
+  ],
+  "notes": "Removed 'mult mai ușor', 'nou' and the 'PRIME Accessories' brand. Old text: 'Vine cu 2 recipiente pentru proteine, unul pentru pastile, unul pentru pudre' is ambiguous about the number of compartments, so no count is given. The image alts disagree about the mixer (ball vs spring), so it is called 'accesoriu de amestecare'. Variant 'Roșu' is described as 'Negru cu roșu': consider renaming the variant. Audit lists this product as out of stock.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971469398391",
+  "handle": "prime-whey-1000g",
+  "status": "ACTIVE",
+  "old_title": "Prime Whey 1kg/33serv",
+  "new_title": "Prime Whey – proteină din zer, 1 kg",
+  "beneficii_cheie": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare.",
+   "Proteinele contribuie la menținerea unor oase normale.",
+   "Conține 82 g de proteine la 100 g de produs.",
+   "Tub de 1000 g, pentru 33 de porții de aproximativ 30 g.",
+   "Șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Prime Whey** este o pudră proteică din concentrat de zer, cu 82 g de proteine la 100 g de produs. Tubul de 1 kg conține 33 de porții și este formatul potrivit dacă vrei să încerci gama Prime Whey sau să alternezi mai multe arome."
+   },
+   {
+    "p": "Se adresează persoanelor care se antrenează și celor care vor să-și completeze aportul zilnic de proteine dintr-o sursă practică. O porție de aproximativ 30 g se amestecă cu apă sau lapte și se consumă după antrenament sau ca gustare între mese; pudra poate fi adăugată și în smoothie-uri."
+   },
+   {
+    "p": "Lista de ingrediente include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Poți alege dintre șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni și ciocolată albă cu zmeură. Pentru consum regulat există și ambalajul mai mare, iar toate variantele se găsesc în categoria [pudră proteică](/collections/pudra-proteica)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Concentrat proteic din zer, glicină, L-lizină, arome, îndulcitori (sucraloză, acesulfam-K)."
+   },
+   {
+    "p": "Alergeni: lapte (zer)."
+   },
+   {
+    "p": "Valorile nutriționale per porție de 30 g și la 100 g, precum și profilul de aminoacizi, sunt trecute pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Greutate: 1000 g",
+   "Porții: 33",
+   "Proteine: 82 g la 100 g",
+   "Arome: afine și vanilie, vanilie Bourbon, ciocolată și cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee, ciocolată albă și zmeură",
+   "Mod de administrare: o porție (aproximativ 30 g) cu apă sau lapte, după antrenament sau ca gustare între mese",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Prime Whey este o proteină din zer de la Prime Supplements, cu 82 g de proteine la 100 g de produs. Tubul de 1 kg conține 33 de porții și este un format bun pentru a testa o aromă nouă sau pentru cine consumă proteină doar în zilele de antrenament."
+   },
+   {
+    "h": "Ce conține",
+    "level": 3
+   },
+   {
+    "p": "Lista de ingrediente include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Tabelul cu valorile nutriționale per porție de 30 g și la 100 g, împreună cu profilul de aminoacizi, este imprimat pe tub. Produsul conține lapte."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Amestecați o porție de aproximativ 30 g cu apă sau lapte într-un shaker și consumați-o după antrenament sau ca gustare între mese. Pudra poate fi adăugată și în smoothie-uri. Necesarul de proteine diferă de la o persoană la alta, așa că adaptați consumul la restul alimentației."
+   },
+   {
+    "h": "Arome disponibile",
+    "level": 3
+   },
+   {
+    "p": "Prime Whey de 1 kg este disponibil în șapte arome: afine cu vanilie, vanilie Bourbon, ciocolată cu cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee și ciocolată albă cu zmeură."
+   },
+   {
+    "h": "Rolul proteinelor",
+    "level": 3
+   },
+   {
+    "p": "Proteinele contribuie la creșterea și menținerea masei musculare și la menținerea unor oase normale. O pudră proteică este utilă atunci când aportul din alimente nu acoperă necesarul, dar nu înlocuiește o dietă variată și echilibrată."
+   }
+  ],
+  "notes": "Authorised protein claims used (protein ~82 g/100 g, well above the 'source of protein' threshold). Removed 'superioară altor branduri', 'de top', 'fără aditivi artificiali' (it contains sucralose and acesulfame-K), 'whey isolate' (not in the ingredient list), recovery/glycogen/BCAA/anti-catabolic claims and the false 'potrivit pentru vegani' (it contains milk). The ingredient list contains added glycine and L-lysine: check whether the declared 82 g protein/100 g includes these free amino acids (protein-spiking risk). Flavour names in Detalii are Romanian translations of the English variant names; the variant names stay as they are. Compare-at equals price on every variant. Old 1 kg and 2 kg texts were identical; the new texts differ by pack size and use.",
+  "review": "fixed: benefit no longer starts with a number"
+ },
+ {
+  "id": "gid://shopify/Product/14971469529463",
+  "handle": "prime-whey-2000g",
+  "status": "ACTIVE",
+  "old_title": "Prime Whey 2kg/66serv",
+  "new_title": "Prime Whey – proteină din zer, 2 kg",
+  "beneficii_cheie": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare.",
+   "Proteinele contribuie la menținerea unor oase normale.",
+   "Conține 82 g de proteine la 100 g de produs.",
+   "Tub de 2000 g, pentru 66 de porții de aproximativ 30 g.",
+   "Șapte arome, de la ciocolată cu cocos la ciocolată albă cu zmeură."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Prime Whey 2 kg** este ambalajul mare al pudrei proteice din concentrat de zer Prime Supplements, cu 82 g de proteine la 100 g de produs. Tubul de 2000 g conține 66 de porții și este potrivit pentru cine folosește proteina zilnic sau aproape zilnic și și-a ales deja aroma preferată."
+   },
+   {
+    "p": "O porție de aproximativ 30 g se amestecă cu apă sau lapte și se consumă după antrenament sau ca gustare între mese. Pudra poate fi folosită și în smoothie-uri sau în rețete simple, ca sursă suplimentară de proteine într-o alimentație echilibrată."
+   },
+   {
+    "p": "Formula include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Aromele disponibile sunt aceleași ca la tubul mai mic: afine cu vanilie, vanilie Bourbon, ciocolată cu cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee și ciocolată albă cu zmeură. Compară toate variantele în categoria [pudră proteică](/collections/pudra-proteica)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Concentrat proteic din zer, glicină, L-lizină, arome, îndulcitori (sucraloză, acesulfam-K)."
+   },
+   {
+    "p": "Alergeni: lapte (zer)."
+   },
+   {
+    "p": "Valorile nutriționale per porție de 30 g și la 100 g, precum și profilul de aminoacizi, sunt trecute pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Greutate: 2000 g",
+   "Porții: 66",
+   "Proteine: 82 g la 100 g",
+   "Arome: afine și vanilie, vanilie Bourbon, ciocolată și cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee, ciocolată albă și zmeură",
+   "Mod de administrare: o porție (aproximativ 30 g) cu apă sau lapte, după antrenament sau ca gustare între mese",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Prime Whey 2 kg este varianta pentru consum regulat a proteinei din zer Prime Supplements. Tubul de 2000 g conține 66 de porții, iar fiecare 100 g de produs furnizează 82 g de proteine."
+   },
+   {
+    "h": "Ce conține",
+    "level": 3
+   },
+   {
+    "p": "Ingredientele sunt concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Pe lateralul tubului sunt trecute valorile nutriționale per porție de 30 g și la 100 g, precum și aminograma. Produsul conține lapte."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Amestecați o porție de aproximativ 30 g cu apă sau lapte și consumați-o după antrenament sau ca gustare între mese. Dacă folosiți proteina în fiecare zi, ambalajul de 2 kg acoperă 66 de zile cu câte o porție. Adaptați consumul la necesarul personal de proteine și la restul alimentației."
+   },
+   {
+    "h": "Arome disponibile",
+    "level": 3
+   },
+   {
+    "p": "Tubul de 2 kg este disponibil în șapte arome: afine cu vanilie, vanilie Bourbon, ciocolată cu cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee și ciocolată albă cu zmeură. Dacă nu ați încercat încă o aromă, o puteți testa mai întâi în tubul mai mic."
+   },
+   {
+    "h": "Rolul proteinelor",
+    "level": 3
+   },
+   {
+    "p": "Proteinele contribuie la creșterea și menținerea masei musculare și la menținerea unor oase normale. Un supliment proteic completează alimentația atunci când aportul din alimente nu acoperă necesarul, fără să înlocuiască o dietă variată și echilibrată."
+   }
+  ],
+  "notes": "Authorised protein claims used (protein ~82 g/100 g, well above the 'source of protein' threshold). Removed 'superioară altor branduri', 'de top', 'fără aditivi artificiali' (it contains sucralose and acesulfame-K), 'whey isolate' (not in the ingredient list), recovery/glycogen/BCAA/anti-catabolic claims and the false 'potrivit pentru vegani' (it contains milk). The ingredient list contains added glycine and L-lysine: check whether the declared 82 g protein/100 g includes these free amino acids (protein-spiking risk). Flavour names in Detalii are Romanian translations of the English variant names; the variant names stay as they are. Compare-at equals price on every variant. Old 1 kg and 2 kg texts were identical; the new texts differ by pack size and use.",
+  "review": "fixed: benefit no longer starts with a number; consistent formal register in seo_produs"
+ },
+ {
+  "id": "gid://shopify/Product/14971469562231",
+  "handle": "cluster-insulin-bomb-1000g",
+  "status": "ACTIVE",
+  "old_title": "Cluster Insulin Bomb 1kg/33serv",
+  "new_title": "Cluster Insulin Bomb – pulbere intra-workout, 1 kg",
+  "beneficii_cheie": [
+   "Pulbere pentru băutura consumată în timpul antrenamentului, cu Cluster Dextrin® (dextrină ciclică puternic ramificată) ca sursă de carbohidrați.",
+   "Conține creatină monohidrată, un mix de aminoacizi esențiali (EAA) și L-citrulină.",
+   "Include pulbere organică din apă de cocos și săruri minerale: citrat trisodic, clorură de potasiu și clorură de sodiu.",
+   "Se amestecă cu 300-400 ml de apă și se consumă pe parcursul antrenamentului.",
+   "Tub de 1000 g, în trei arome: ananas, zmeură și căpșuni cu kiwi."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Cluster Insulin Bomb** este o pulbere intra-workout de la Prime Supplements, gândită pentru a fi amestecată cu apă și consumată în timpul antrenamentului. Baza formulei este Cluster Dextrin®, o dextrină ciclică puternic ramificată, folosită ca sursă de carbohidrați în băuturile pentru sportivi."
+   },
+   {
+    "p": "Pe lângă carbohidrați, formula conține creatină monohidrată, un mix de aminoacizi esențiali (L-leucină, L-valină, L-izoleucină, L-lizină, L-fenilalanină, L-treonină, L-metionină, L-triptofan), L-citrulină, pulbere organică din apă de cocos și săruri minerale. Se adresează sportivilor care fac antrenamente lungi sau cu volum mare și preferă să bea ceva pe parcursul lor."
+   },
+   {
+    "p": "Porția se amestecă cu 300-400 ml de apă și se consumă pe parcursul antrenamentului; cantitatea de pudră pe porție este indicată pe etichetă. Tubul de 1000 g este disponibil în aromele ananas (Pineapple), zmeură (Raspberry) și căpșuni cu kiwi (Strawberry & Kiwi). Găsești și alte produse în categoria [suplimente intra-workout](/collections/suplimente-intra-workout)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Cluster Dextrin® (dextrină ciclică puternic ramificată), pulbere organică din apă de cocos (Cocos nucifera), creatină monohidrată, mix de aminoacizi esențiali (L-leucină, L-valină, L-izoleucină, L-lizină HCl, L-fenilalanină, L-treonină, L-metionină, L-triptofan), L-citrulină, citrat trisodic, clorură de potasiu, clorură de sodiu, arome, colorant (riboflavină), îndulcitori (sucraloză, acesulfam-K)."
+   },
+   {
+    "p": "Valorile nutriționale per porție și la 100 g (carbohidrați, creatină, EAA) sunt trecute în tabelul de pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Greutate: 1000 g",
+   "Porții: 33",
+   "Arome: ananas (Pineapple), zmeură (Raspberry), căpșuni cu kiwi (Strawberry & Kiwi)",
+   "Mod de administrare: o porție amestecată cu 300-400 ml de apă, consumată pe parcursul antrenamentului",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Cluster Insulin Bomb este o băutură intra-workout sub formă de pulbere, gândită pentru a fi consumată în timpul antrenamentului. Tubul de 1000 g are ca ingredient principal Cluster Dextrin®, la care se adaugă creatină monohidrată, aminoacizi esențiali, L-citrulină, pulbere de apă de cocos și săruri minerale."
+   },
+   {
+    "h": "Ce este Cluster Dextrin®",
+    "level": 3
+   },
+   {
+    "p": "Cluster Dextrin® este denumirea comercială a unei dextrine ciclice puternic ramificate, un tip de carbohidrat folosit în băuturile pentru sportivi. În Cluster Insulin Bomb este primul ingredient din listă, deci componenta principală a formulei."
+   },
+   {
+    "h": "Cum se folosește",
+    "level": 3
+   },
+   {
+    "p": "Amestecați porția indicată pe etichetă cu 300-400 ml de apă și consumați-o treptat pe parcursul antrenamentului. Nu depășiți doza zilnică recomandată. Produsul conține creatină, așa că țineți cont și de alte suplimente cu creatină folosite în aceeași zi."
+   },
+   {
+    "h": "Pentru cine este potrivit",
+    "level": 3
+   },
+   {
+    "p": "Produsul se adresează adulților care fac antrenamente de forță sau de anduranță de durată și preferă să consume carbohidrați și aminoacizi sub formă de băutură în timpul efortului. Conține îndulcitori (sucraloză, acesulfam-K) și colorantul riboflavină. Femeile însărcinate sau care alăptează și persoanele cu afecțiuni ar trebui să consulte medicul înainte de utilizare."
+   }
+  ],
+  "notes": "Removed three fake or unverifiable studies (Hawley 2010, Jeukendrup 2011, 'R. K. B. R. B. 2014') with their references, plus insulin, muscle-growth, recovery, hydration and cramp claims. The creatine claim is not used because creatine per serving is not in the data (it needs 3 g/day). The carbohydrate-electrolyte claims need composition conditions that cannot be verified. Conflicting serving data: the title and label say 33 servings, the old Detalii tab says 'Serviri: 40', the old description says '40 g (aproximativ 2 măsuri)', an image alt says 'per porție de 30 g' and the old SEO text says '30-60 g'. 33 servings were kept (title/label) and no gram dose was stated: verify on the label and add the exact dose. The name 'Insulin Bomb' implies a physiological effect; consider renaming. Fixed cedilla 'ţ' to comma 'ț' in the ingredient list.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/14971469594999",
+  "handle": "nitrox-no-stim",
+  "status": "ACTIVE",
+  "old_title": "Pre Workout Fără Stimulente Nitrox NO-STIM , 660g (30 Serviri)",
+  "new_title": "Pre-workout fără stimulente Nitrox No-Stim, 660 g",
+  "beneficii_cheie": [
+   "Pre-workout fără cafeină și fără stimulente, potrivit și pentru antrenamentele de seară.",
+   "Tubul de 660 g conține 30 de porții; cantitatea pe porție este indicată pe etichetă.",
+   "Formula include L-citrulină, BCAA 2:1:1, creatină monohidrată, beta alanină, taurină și pulbere de suc de sfeclă roșie.",
+   "Conține extract de Alpinia galanga EnXtra®, citicolină și extract din fructe de piper negru (95% piperină).",
+   "Aromă Ice Blueberry (afine), îndulcită cu sucraloză și acesulfam-K."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Nitrox No-Stim** este un pre-workout fără stimulente de la Prime Supplements: nu conține cafeină, așa că poate fi folosit și de cei care se antrenează seara sau evită cafeina. Tubul de 660 g conține 30 de porții, cu aromă Ice Blueberry (afine)."
+   },
+   {
+    "p": "Formula reunește aminoacizi cu catenă ramificată BCAA 2:1:1, L-citrulină, creatină monohidrată, L-arginină alfa-ketoglutarat, beta alanină și taurină, alături de pulbere organică din apă de cocos, pulbere organică de suc de sfeclă roșie și glicerol monostearat. Lista se completează cu extract din rădăcină de Alpinia galanga EnXtra®, citicolină, extract din fructe de piper negru (95% piperină), niacină și vitamina B12."
+   },
+   {
+    "p": "Amestecă porția indicată pe etichetă cu 150-250 ml de apă și consumă băutura cu 30-60 de minute înainte de antrenament. Pentru că nu are stimulente, poate fi folosit atât dimineața, cât și seara. Vezi și celelalte [suplimente pre-workout](/collections/suplimente-pre-workout)."
+   },
+   {
+    "p": "Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "Aminoacizi cu catenă ramificată BCAA 2:1:1 (L-leucină, L-valină, L-izoleucină), L-citrulină, creatină monohidrată, pulbere organică din apă de nucă de cocos (Cocos nucifera), L-arginină alfa-ketoglutarat, pulbere organică de suc din sfeclă roșie (Beta vulgaris L.), beta alanină, taurină, acidifiant (acid citric), agent antiaglomerant (dioxid de siliciu), glicerol monostearat, citrat trisodic, extract din rădăcină de EnXtra®-Alpinia galanga (Alpinia galanga, 30% glicozide totale, 4% polifenoli totali ca acid galic, 3% flavonoide totale ca echivalent al rutinei, 1% taninuri totale tip pirocatecolic), citrat de potasiu, îndulcitori (sucraloză, acesulfam-K), arome, colorant (spirulina blue), citicolină, niacină, extract din fructe de piper negru (Piper nigrum, 95% piperină), cianocobalamină (vitamina B12)."
+   },
+   {
+    "p": "Tabelul cu valorile nutriționale per porție este trecut pe eticheta produsului."
+   }
+  ],
+  "detalii_produs": [
+   "Greutate: 660 g",
+   "Porții: 30",
+   "Aromă: Ice Blueberry (afine)",
+   "Mod de administrare: o porție cu 150-250 ml de apă, cu 30-60 de minute înainte de antrenament",
+   "Stimulente: fără cafeină",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": [
+   {
+    "p": "Nitrox No-Stim este un pre-workout fără cafeină și fără alte stimulente, pentru cei care se antrenează seara, sunt sensibili la cafeină sau vor o pauză de la produsele cu stimulente. Tubul de 660 g conține 30 de porții, cu aromă Ice Blueberry."
+   },
+   {
+    "h": "Ce conține o porție",
+    "level": 3
+   },
+   {
+    "p": "Formula include BCAA în raport 2:1:1 (L-leucină, L-valină, L-izoleucină), L-citrulină, creatină monohidrată, L-arginină alfa-ketoglutarat, beta alanină și taurină. Formula mai conține pulbere organică din apă de cocos, pulbere organică de suc de sfeclă roșie, glicerol monostearat, extract din rădăcină de Alpinia galanga EnXtra®, citicolină, extract de piper negru (95% piperină), niacină și vitamina B12. Cantitățile per porție sunt trecute pe etichetă."
+   },
+   {
+    "h": "Mod de administrare",
+    "level": 3
+   },
+   {
+    "p": "Amestecați porția indicată pe etichetă cu 150-250 ml de apă rece și consumați cu 30-60 de minute înainte de antrenament. Pentru că formula nu conține cafeină, poate fi folosită atât la antrenamentele de dimineață, cât și la cele de seară. Nu depășiți doza zilnică recomandată."
+   },
+   {
+    "h": "Pentru cine este potrivit",
+    "level": 3
+   },
+   {
+    "p": "Pentru adulții activi care vor un pre-workout fără cafeină. Produsul conține creatină și beta alanină; dacă folosiți și alte suplimente cu aceste ingrediente, țineți cont de aportul total. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos."
+   }
+  ],
+  "notes": "Title shortened from 62 chars; 'NO-STIM' written as 'No-Stim' to respect the no-caps rule (revert if the brand insists on the label spelling). Removed five fake or unverifiable study citations (JISSN x2, Phytotherapy Research, JSCR, Journal of Medicinal Food, American Journal of Physiology) and claims about serotonin, dopamine, cognition, nitric oxide, pump, hydration, recovery and 'superioară citrulinei malate'. Niacin and vitamin B12 claims were not used because amounts per serving are not in the data; add 'Niacina/Vitamina B12 contribuie la reducerea oboselii și extenuării' only if the label shows at least 15% NRV per 10 g. Latin names lower-cased per botanical convention (Cocos nucifera, Beta vulgaris, Piper nigrum, Alpinia galanga). 'colorant (spirulina blue)' kept as on the label. Review: the old text gives 10 g (1 măsură) per serving, but 30 servings x 10 g = 300 g, not the 660 g in the title (about 22 g per serving); the gram dose was removed everywhere and only 660 g / 30 porții kept. Verify the scoop size on the label and add it to 'Mod de administrare'.",
+  "review": "fixed: removed the 10 g serving size, which contradicts 660 g / 30 servings (benefit, despre, detalii, seo); dose now refers to the label"
+ }
+]

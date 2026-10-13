@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "gid://shopify/Product/15519263981943",
+    "handle": "instant-drink-frutilu-ice-tea-lemon-10g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust de Ceai cu Lamaie Frutilu Ice Tea Lemon, 10g (pentru 1.5L) – Fara Zahar, cu Stevia si Vitamina C",
+    "new_title": "Băutură instant Frutilu – ceai rece cu lămâie, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o băutură cu gust de ceai rece cu lămâie.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Plic mic, ușor de luat la birou, la sală sau în drumeții."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de ceai rece cu lămâie** (pe plic: Ice Tea Lemon) este o pulbere solubilă care transformă apa simplă într-o băutură cu gust de ceai rece: un echilibru între gustul de ceai și aroma citrică a lămâii. Este o alternativă fără zahăr adăugat la ceaiurile reci îndulcite cu zahăr."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece sau apă minerală rece și amestecă până când pulberea se dizolvă complet. Servită cu cuburi de gheață și câteva felii de lămâie, băutura amintește de ceaiul rece clasic. Plicul încape ușor în geantă, așa că îl poți lua la birou, la sală sau în drumeții. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: ceai rece cu lămâie",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de ceai rece cu lămâie îți permite să prepari acasă sau la birou o carafă întreagă de ceai rece, fără zahăr adăugat, pornind de la un singur plic de 10 g și 1,5 L de apă. Nu ai nevoie de plicuri de ceai, de timp de infuzare sau de răcire: pulberea se dizolvă direct în apa rece."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece sau apă minerală rece.",
+          "Amestecă sau agită recipientul câteva secunde, până când pulberea se dizolvă complet.",
+          "Adaugă cuburi de gheață și felii de lămâie proaspătă, pentru un gust apropiat de ceaiul rece clasic."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește oricând vrei apă cu gust: la birou, la sală, în drumeții sau acasă. Pentru că nu conține zahăr adăugat, este o alternativă la ceaiurile reci la sticlă îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Formula este vegană, fără gluten și fără lactoză. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 120 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu).",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519266603383",
+    "handle": "instant-drink-frutilu-lemon",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust de Lamaie Frutilu, 10g (pentru 1.5L) – Limonada Fara Zahar, cu Vitamina C",
+    "new_title": "Băutură instant Frutilu – lămâie, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o limonadă cu gust acrișor de lămâie.",
+      "Fără zahăr adăugat; conține îndulcitori, dar nu aspartam sau acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Cu apă minerală carbogazoasă obții o limonadă acidulată.",
+      "Plic mic, ușor de luat la sală, la birou sau oriunde ai nevoie."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de lămâie** (pe plic: Lemon) este o pulbere solubilă din care prepari, în câteva secunde, o limonadă fără zahăr adăugat. Are gustul acrișor și proaspăt al limonadei clasice și este o alternativă la sucurile din comerț îndulcite cu zahăr."
+      },
+      {
+        "p": "Băutura conține îndulcitori, dar nu aspartam sau acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece și amestecă până când pulberea se dizolvă complet. Dacă vrei o limonadă acidulată, folosește apă minerală carbogazoasă, apoi adaugă cuburi de gheață și felii de lămâie proaspătă. Plicul e compact, așa că îl poți păstra în geantă pentru sală, birou sau zilele petrecute acasă. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Conține îndulcitori",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Fără conservanți artificiali"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: lămâie",
+      "Îndulcire: fără zahăr adăugat, cu îndulcitori",
+      "Conține: vitamina C",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de lămâie este varianta clasică a gamei: o limonadă instant, fără zahăr adăugat, pe care o prepari dintr-un plic de 10 g și 1,5 L de apă. Nu trebuie să storci lămâi sau să adaugi îndulcitor, iar gustul rămâne același de fiecare dată."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece; pentru o limonadă acidulată, folosește apă minerală carbogazoasă.",
+          "Amestecă sau agită recipientul câteva secunde, până când pulberea se dizolvă complet.",
+          "Adaugă cuburi de gheață și felii de lămâie proaspătă."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Limonada se potrivește pe parcursul întregii zile, fie că ești la sală, la birou sau acasă. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile și limonadele îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura conține îndulcitori, fără aspartam și fără acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 97 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old text said both 'Fara Zahar' and 'contine indulcitori' without naming stevia (unlike the stevia flavours), so the sweetener is described only as 'îndulcitori'. 'Fără conservanți artificiali' kept from the old text with 'conform descrierii produsului': verify on the pack.",
+    "review": "fixed: removed the hedge 'Conform descrierii produsului' before 'nu conține conservanți artificiali' in despre_produs/seo_produs (fact is in the source data; reads oddly in customer copy)"
+  },
+  {
+    "id": "gid://shopify/Product/15519267586423",
+    "handle": "instant-drink-frutilu-lemon-lime-10g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust de Lemon-Lime Frutilu, 10g (pentru 1.5L) – Limonada Fara Zahar, cu Stevia si Vitamina C",
+    "new_title": "Băutură instant Frutilu – lămâie și lime, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o limonadă cu gust acrișor-dulce de lămâie și lime.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Se servește bine cu gheață, mentă proaspătă și felii de lămâie."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de lămâie și lime** (pe plic: Lemon-Lime) este o pulbere solubilă din care prepari o limonadă cu gust acrișor-dulce de citrice. Este o alternativă fără zahăr adăugat la limonadele și sucurile acidulate din comerț îndulcite cu zahăr."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece sau apă minerală carbogazoasă, dacă vrei o limonadă acidulată, și amestecă până la dizolvarea completă. Cu cuburi de gheață, frunze de mentă proaspătă și felii de lămâie obții o limonadă de vară. Plicul mic se ia ușor în geantă, la birou sau la antrenament. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: lămâie și lime",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de lămâie și lime combină două citrice într-o limonadă instant, fără zahăr adăugat. Un singur plic de 10 g ajunge pentru 1,5 L de băutură, așa că pregătești o carafă întreagă în câteva secunde, fără să storci fructe."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece; pentru o limonadă acidulată, folosește apă minerală carbogazoasă.",
+          "Amestecă sau agită recipientul câteva secunde, până când pulberea se dizolvă complet.",
+          "Adaugă cuburi de gheață, frunze de mentă proaspătă și felii de lămâie."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Limonada se potrivește la birou, în timpul antrenamentelor sau în zilele călduroase de vară. Pentru că nu conține zahăr adăugat, este o alternativă la limonadele și sucurile acidulate îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Formula este vegană, fără gluten și fără lactoză. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 111 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). 'Lime' kept as the usual Romanian shop name of the fruit (as in the old text).",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519269028215",
+    "handle": "instant-drink-frutilu-mango-10g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust de Mango Frutilu, 10g (pentru 1.5L) – Fara Zahar, cu Stevia si Vitamina C",
+    "new_title": "Băutură instant Frutilu – mango, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o băutură cu gust dulce, tropical, de mango.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Plic mic, ușor de luat la birou, la antrenament sau oriunde ai nevoie."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de mango** este o pulbere solubilă care transformă apa simplă într-o băutură cu gust dulce, tropical, de mango. Este o alternativă fără zahăr adăugat la sucurile din comerț îndulcite cu zahăr, potrivită pentru cei care preferă un gust de fructe exotice."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece și amestecă până când pulberea se dizolvă complet. Cu apă minerală carbogazoasă obții un suc acidulat, iar câteva cuburi de gheață și bucăți de mango proaspăt completează băutura. Plicul se ia ușor în geantă, la birou, la antrenament sau în călătorii. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: mango",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de mango aduce un gust de fructe tropicale într-o băutură instant, fără zahăr adăugat. Dintr-un plic de 10 g și 1,5 L de apă pregătești o carafă de băutură răcoritoare, fără să cumperi suc la sticlă."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece; pentru un suc acidulat, folosește apă minerală carbogazoasă.",
+          "Amestecă sau agită recipientul câteva secunde, până când pulberea se dizolvă complet.",
+          "Adaugă cuburi de gheață și bucăți de mango proaspăt."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește la birou, în timpul antrenamentelor sau acasă, oricând vrei o băutură cu gust de fructe. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile de fructe îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Formula este vegană, fără gluten și fără lactoză. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 97 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu).",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519270109559",
+    "handle": "instant-drink-frutilu-orange-10g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust de Portocale Frutilu, 10g (pentru 1.5L) – Fara Zahar, cu Vitamina C",
+    "new_title": "Băutură instant Frutilu – portocale, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o băutură cu gust citric de portocale.",
+      "Fără zahăr adăugat; conține îndulcitori, dar nu aspartam sau acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Cu apă minerală carbogazoasă obții o băutură acidulată de portocale.",
+      "Plic compact, ușor de luat în călătorii, la sală sau la birou."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de portocale** (pe plic: Orange) este o pulbere solubilă din care obții, în câteva secunde, o băutură cu gust citric de portocale. Este o alternativă fără zahăr adăugat la sucurile din comerț îndulcite cu zahăr, pentru cei care preferă un gust clasic de citrice."
+      },
+      {
+        "p": "Băutura conține îndulcitori, dar nu aspartam sau acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece și amestecă până când pulberea se dizolvă complet. Pentru o băutură acidulată de portocale, folosește apă minerală carbogazoasă și servește cu cuburi de gheață și felii de portocală proaspătă. Plicul compact este ușor de luat în călătorii, la antrenament sau la birou. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Conține îndulcitori",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Fără conservanți artificiali"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: portocale",
+      "Îndulcire: fără zahăr adăugat, cu îndulcitori",
+      "Conține: vitamina C",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de portocale este varianta cu gust clasic de citrice a gamei: o băutură instant, fără zahăr adăugat, preparată dintr-un plic de 10 g și 1,5 L de apă. Plicul ocupă foarte puțin loc, așa că îl poți avea mereu la îndemână."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece; pentru o băutură acidulată, folosește apă minerală carbogazoasă.",
+          "Amestecă sau agită recipientul câteva secunde, până când pulberea se dizolvă complet.",
+          "Servește cu cuburi de gheață și felii de portocală proaspătă."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește în timpul antrenamentelor, la birou, acasă sau în călătorii. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile de portocale îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura conține îndulcitori, fără aspartam și fără acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 91 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old text said 'contine indulcitori' without naming stevia, so the sweetener is described only as 'îndulcitori'. Removed 'oferă un plus de energie' (vitamin C). 'Fără conservanți artificiali' kept with 'conform descrierii produsului': verify on the pack.",
+    "review": "fixed: removed the hedge 'Conform descrierii produsului' before 'nu conține conservanți artificiali' in despre_produs/seo_produs (fact is in the source data; reads oddly in customer copy)"
+  },
+  {
+    "id": "gid://shopify/Product/15519271485815",
+    "handle": "frutilu-instant-drink-tropic-10-g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Instant cu Gust Tropic Frutilu, 10g (pentru 1.5L) – Fara Zahar, cu Vitamina C",
+    "new_title": "Băutură instant Frutilu – fructe tropicale, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o băutură cu gust de fructe tropicale.",
+      "Arome de ananas, kiwi și papaya, într-o băutură fără zahăr adăugat.",
+      "Conține îndulcitori, dar nu aspartam sau acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Plic mic, ușor de luat la sală, la birou sau în drumeții."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu Tropic** este o pulbere solubilă cu gust de fructe tropicale, în care se îmbină aromele de ananas, kiwi și papaya. Un plic transformă apa simplă într-o băutură fructată, fără zahăr adăugat, o alternativă la sucurile din comerț îndulcite cu zahăr."
+      },
+      {
+        "p": "Băutura conține îndulcitori, dar nu aspartam sau acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece și agită bine recipientul până când pulberea se dizolvă complet. Cu apă minerală carbogazoasă obții un efect de suc acidulat, iar cuburile de gheață și feliile de fructe proaspete completează băutura. Plicul se ia ușor la sală, la birou sau în drumeții. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Conține îndulcitori",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Fără conservanți artificiali"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: fructe tropicale (ananas, kiwi, papaya)",
+      "Îndulcire: fără zahăr adăugat, cu îndulcitori",
+      "Conține: vitamina C",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu Tropic adună într-un singur plic gustul mai multor fructe exotice: ananas, kiwi și papaya. Din 10 g de pulbere și 1,5 L de apă pregătești o băutură fructată, fără zahăr adăugat, pe care o poți bea pe tot parcursul zilei."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece; pentru un efect de suc acidulat, folosește apă minerală carbogazoasă.",
+          "Amestecă sau agită bine recipientul, până când pulberea se dizolvă complet.",
+          "Adaugă cuburi de gheață și felii de fructe proaspete."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește la sală, la birou, în drumeții sau acasă, pentru toată familia. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile de fructe îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura conține îndulcitori, fără aspartam și fără acesulfam K, și este îmbogățită cu vitamina C. Nu conține conservanți artificiali. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 85 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). 'Tropic' kept as the flavour line name; fruit names (ananas, kiwi, papaya) from the old text and the image alt. Old text said 'conține indulcitori' without naming stevia. Removed 'oferă un plus de energie și protecție antioxidantă' and 'Ideală pentru... diabetici'. 'Fără conservanți artificiali' kept with 'conform descrierii produsului': verify on the pack.",
+    "review": "fixed: removed the hedge 'Conform descrierii produsului' before 'nu conține conservanți artificiali' in despre_produs/seo_produs (fact is in the source data; reads oddly in customer copy)"
+  },
+  {
+    "id": "gid://shopify/Product/15519272305015",
+    "handle": "instant-drink-frutilu-watermelon-10g",
+    "status": "ACTIVE",
+    "old_title": "Pudra Solubila pentru Hidratare Frutilu Watermelon 10g",
+    "new_title": "Băutură instant Frutilu – pepene roșu, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură cu gust de pepene roșu.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Gustul se îmbunătățește dacă adaugi gheață."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de pepene roșu** (pe plic: Watermelon) este o pulbere solubilă care transformă apa simplă într-o băutură răcoritoare cu gust de pepene roșu, fără zahăr adăugat. Gustul se îmbunătățește dacă adaugi gheață, așa că este o alegere potrivită pentru zilele călduroase."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Conținutul unui plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură. Pregătește o sticlă sau o carafă dimineața și ia-o cu tine la antrenament, la birou sau oriunde ești pe drum. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă",
+      "Aromă: pepene roșu",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de pepene roșu este o pulbere solubilă din care prepari o băutură răcoritoare, fără zahăr adăugat. Un plic de 10 g ajunge pentru 1,5 L, o cantitate suficientă pentru o zi petrecută la birou, la antrenament sau pe drum."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă.",
+          "Amestecă sau agită recipientul, până când pulberea se dizolvă.",
+          "Adaugă gheață: gustul se îmbunătățește când băutura este rece."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește oricând vrei să bei apă cu gust: la antrenament, la birou sau în mișcare. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile îndulcite cu zahăr, iar formula vegană, fără gluten și fără lactoză o face potrivită pentru mai multe tipuri de alimentație."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 54 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old title 'Pudra Solubila pentru Hidratare' dropped: 'hidratare' is an effect claim. Old description was empty (audit CONTENT-06); all facts come from the old Despre tab ('Îmbunătățește gustul adăugând gheață'), the old seo_produs and the image alt. Removed 'sănătate în fiecare pahar', 'sprijină imunitatea și starea de bine', 'gust natural' (flavour source not in the data), 'complet sigur'.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519274008951",
+    "handle": "instant-drink-frutilu-pineapple-10g",
+    "status": "ACTIVE",
+    "old_title": "Pudra Solubila pentru Hidratare Frutilu Pineapple 10g",
+    "new_title": "Băutură instant Frutilu – ananas, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură cu gust de ananas.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Plic mic, ușor de luat la antrenament, la birou sau în mișcare."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de ananas** (pe plic: Pineapple) este o pulbere solubilă din care prepari o băutură cu gust exotic de ananas, fără zahăr adăugat. Este o variantă simplă de a da gust apei pe care o bei în timpul zilei, fără sucuri la sticlă îndulcite cu zahăr."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Conținutul unui plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură. Servită cu gheață, băutura de ananas este răcoritoare în zilele calde, iar plicul mic se ia ușor la antrenament, la birou sau pe drum. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă",
+      "Aromă: ananas",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de ananas este o pulbere solubilă cu gust exotic, din care prepari o băutură fără zahăr adăugat. Un plic de 10 g ajunge pentru 1,5 L de băutură, așa că o sticlă mare sau o carafă se pregătește în câteva secunde."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă.",
+          "Amestecă sau agită recipientul, până când pulberea se dizolvă.",
+          "Servește cu gheață, dacă preferi băutura rece."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește la antrenament, la birou sau în mișcare, oricând vrei apă cu gust de fructe. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile de fructe îndulcite cu zahăr, iar formula vegană, fără gluten și fără lactoză o face potrivită pentru mai multe tipuri de alimentație."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 53 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old title 'Pudra Solubila pentru Hidratare' dropped: 'hidratare' is an effect claim. Old description was empty (audit CONTENT-06); facts come from the old Despre tab, the old seo_produs and the image alt. Removed 'sănătate în fiecare pahar', 'sprijină imunitatea și starea de bine', 'gust natural', 'complet sigur'.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519275516279",
+    "handle": "frutilu-instant-drink-strawberry-10-g",
+    "status": "ACTIVE",
+    "old_title": "Pudra Solubila pentru Hidratare Frutilu Strawberry 10g",
+    "new_title": "Băutură instant Frutilu – căpșuni, 10 g",
+    "beneficii_cheie": [
+      "Un plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură cu gust de căpșuni.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză.",
+      "Plic mic, ușor de luat acasă, la birou sau la antrenament."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu cu gust de căpșuni** (pe plic: Strawberry) este o pulbere solubilă din care prepari o băutură răcoritoare cu gust de căpșuni, fără zahăr adăugat. Este o variantă simplă de a da gust apei pe care o bei în timpul zilei, acasă, la birou sau la antrenament."
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Este îmbogățită cu vitamina C, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Conținutul unui plic de 10 g se dizolvă rapid în apă și ajunge pentru 1,5 L de băutură. Pentru o variantă răcoritoare, servește băutura cu gheață și câteva căpșuni proaspete. Plicul ocupă puțin loc în geantă, așa că îl poți avea la îndemână oriunde. Alte arome găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă",
+      "Aromă: căpșuni",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu cu gust de căpșuni transformă apa simplă într-o băutură cu gust de fructe roșii, fără zahăr adăugat. Un plic de 10 g ajunge pentru 1,5 L de băutură, deci pentru o sticlă mare sau o carafă pe care o împarți cu familia."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă.",
+          "Amestecă sau agită recipientul, până când pulberea se dizolvă.",
+          "Servește cu gheață și câteva căpșuni proaspete."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura se potrivește la antrenament, la birou sau în mișcare, oricând vrei apă cu gust. Pentru că nu conține zahăr adăugat, este o alternativă la sucurile îndulcite cu zahăr, iar formula vegană, fără gluten și fără lactoză o face potrivită pentru mai multe tipuri de alimentație."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura este îndulcită cu stevia, nu conține aspartam sau acesulfam K și este îmbogățită cu vitamina C. Lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 54 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old title 'Pudra Solubila pentru Hidratare' dropped: 'hidratare' is an effect claim. Old description was empty (audit CONTENT-06); facts come from the old Despre tab, the old seo_produs and the image alt (fresh strawberries and ice shown next to the glass). Removed 'sănătate în fiecare pahar', 'sprijină imunitatea și starea de bine', 'gust natural', 'gust irezistibil', 'complet sigur'.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15519276138871",
+    "handle": "frutilu-instant-drink-sport-red-orange-10-g",
+    "status": "ACTIVE",
+    "old_title": "Bautura Izotonica Instant Frutilu Sport Red Orange, 10g (pentru 1.5L) – cu Electroliti, Fara Zahar, Stevia & Vitamina C",
+    "new_title": "Băutură instant Frutilu Sport – portocale roșii, 10 g",
+    "beneficii_cheie": [
+      "Băutură instant din gama Frutilu Sport, cu electroliți adăugați.",
+      "Un plic de 10 g se dizolvă în 1,5 L de apă rece și dă o băutură cu gust ușor acrișor de portocale roșii.",
+      "Fără zahăr adăugat, îndulcită cu stevia; nu conține aspartam și nici acesulfam K.",
+      "Îmbogățită cu vitamina C.",
+      "Formulă vegană, fără gluten și fără lactoză."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Băutura instant Frutilu Sport cu gust de portocale roșii** (pe plic: Sport Red Orange) face parte din gama Sport a mărcii și conține electroliți adăugați. Are un gust răcoritor, ușor acrișor, de portocale roșii și este gândită pentru persoanele active care vor o băutură fără zahăr adăugat în timpul antrenamentelor sau pe parcursul zilei."
+      },
+      {
+        "p": "Pe lângă electroliți, băutura este îmbogățită cu vitamina C. Este îndulcită cu stevia, nu conține aspartam sau acesulfam K, iar formula este vegană, fără gluten și fără lactoză."
+      },
+      {
+        "p": "Pentru preparare, dizolvă conținutul unui plic de 10 g în 1,5 L de apă rece sau apă minerală, direct în bidon, și agită câteva secunde până când pulberea se dizolvă complet. Plicul este compact și îl poți lua în rucsac la sală sau la alergare. Celelalte arome Frutilu găsești în colecția [băuturi instant](/collections/bauturi)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "ul": [
+          "Conține electroliți adăugați",
+          "Îndulcitor: stevia",
+          "Fără zahăr adăugat",
+          "Fără aspartam și fără acesulfam K",
+          "Conține vitamina C",
+          "Vegană, fără gluten și fără lactoză"
+        ]
+      },
+      {
+        "p": "Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului."
+      }
+    ],
+    "detalii_produs": [
+      "Gama: Frutilu Sport, cu electroliți adăugați",
+      "Greutate netă: 10 g (un plic)",
+      "Preparare: un plic la 1,5 L de apă rece",
+      "Aromă: portocale roșii",
+      "Îndulcire: fără zahăr adăugat, cu stevia",
+      "Caracteristici: vegană, fără gluten, fără lactoză",
+      "Brand: Frutilu"
+    ],
+    "seo_produs": [
+      {
+        "p": "Frutilu Sport cu gust de portocale roșii este varianta gamei Frutilu gândită pentru antrenament: pe lângă aromă și vitamina C, conține electroliți adăugați. Un plic de 10 g se amestecă direct în bidon cu 1,5 L de apă, fără zahăr adăugat."
+      },
+      {
+        "h": "Cum se prepară",
+        "level": 3
+      },
+      {
+        "ul": [
+          "Dizolvă conținutul unui plic (10 g) în 1,5 L de apă rece sau apă minerală.",
+          "Agită bidonul câteva secunde, până când pulberea se dizolvă complet.",
+          "Consum-o în timpul antrenamentelor, al curselor sau pe parcursul zilei."
+        ]
+      },
+      {
+        "h": "Când o poți bea",
+        "level": 3
+      },
+      {
+        "p": "Băutura este gândită pentru persoanele active: o poți avea în bidon la sală, în timpul curselor sau la birou. Pentru că nu conține zahăr adăugat, este o alternativă la băuturile sport îndulcite cu zahăr."
+      },
+      {
+        "h": "Ce conține",
+        "level": 3
+      },
+      {
+        "p": "Băutura conține electroliți adăugați și vitamina C, este îndulcită cu stevia și nu conține aspartam sau acesulfam K. Formula este vegană, fără gluten și fără lactoză. Tipul și cantitatea electroliților, lista completă a ingredientelor și valorile nutriționale se găsesc pe eticheta plicului."
+      }
+    ],
+    "notes": "Old title was 119 chars, ASCII without diacritics and stuffed with claims; shortened to type + brand + flavour + sachet size, English flavour name translated (the pack name is kept once in Despre produs so buyers can match the sachet). Food, not a supplement: no supplement disclaimer. Removed from the old texts: emojis and the all-caps banner, '0 calorii' / 'zero calorii' (no nutrition table in the data), 'potrivită pentru diabetici', 'keto/low-carb', 'sănătoasă', the vitamin C immunity/antioxidant/energy claims (vitamin C amount per serving is not in the data, so an authorised claim cannot be checked; kept the fact 'conține vitamina C'), 'încurajează hidratarea și reduce pofta de dulciuri', 'Make up to 1.5L / 50.7 fl oz'. Conflict in the data: the old Despre tab says 'cel puțin 1,5 L de băutură (recomandăm 3 L)' while the old description says 'până la 1,5 L'; used 1 plic = 1,5 L (the preparation step) and dropped the 3 L recommendation: owner to confirm against the pack. Brand set to Frutilu (vendor field still says Prime Supplements; audit recommends vendor Frutilu). Old title called it 'Bautura Izotonica': dropped 'izotonică' (osmolality not in the data; the EU-authorised carbohydrate-electrolyte claims need 80-350 kcal/L from carbohydrates, which a sugar-free drink does not meet). Removed 'previne crampele musculare', 'accelerează rehidratarea', 'refacere rapidă', 'rehidratare optimă', 'susține nivelul energetic', 'ușor de digerat', 'hidratare de nivel superior' and the German 'ELEKTROLYTES'. Which electrolytes and how much are not in the data: add them from the pack.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15528836661623",
+    "handle": "mnx-classic-t-shirt-golden-era-blue",
+    "status": "ACTIVE",
+    "old_title": "MNX classic T-shirt Golden Era, blue",
+    "new_title": "Tricou clasic MNX Golden Era – albastru",
+    "beneficii_cheie": [
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Corp albastru cu margini albe, în stilul clasic al seriei Golden Era.",
+      "Imprimeu circular Golden Era Venice Beach și emblemă MNX.",
+      "Croială standard, potrivită pentru antrenament și pentru purtarea de zi cu zi.",
+      "Disponibil în mărimile M, L și XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul clasic MNX Golden Era** în culoarea albastră are corpul albastru cu margini albe și o croială standard, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Designul pornește de la imprimeul circular Golden Era Venice Beach, o trimitere la era de aur a culturismului care dă numele seriei, completat de emblema MNX. Pe spate, sub guler, tricoul are o etichetă țesută."
+      },
+      {
+        "p": "Bumbacul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Tricoul este disponibil în mărimile M, L și XL și se asortează cu pantalonii scurți și maiourile Golden Era din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac (contracție la spălare de 5%)."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac (contracție la spălare: 5%)",
+      "Croială: standard",
+      "Culoare: albastru, margini albe",
+      "Mărimi: M, L, XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX classic T-shirt Golden Era, blue' -> 'Tricou clasic MNX Golden Era – albastru'); lowercase 'classic' translated as 'clasic', as for the Golden Era 2.0 siblings in batch 9. Old tab was contradictory ('amestec moale de bumbac' vs 'Material: 100% bumbac'); used 100% bumbac and kept the stated 5% shrinkage. Sizes from the variants (M, L, XL); the old tab listed none. Superlative 'pentru confort maxim' removed; 'regular fit' rendered as 'croială standard'. 'Culoare: conform imaginii' replaced by the colour from the title; white trim, circular Golden Era Venice Beach print and woven label under the collar taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15528839709047",
+    "handle": "mnx-hardcore-mesh-shorts-grey",
+    "status": "ACTIVE",
+    "old_title": "MNX Hardcore mesh shorts, grey",
+    "new_title": "Pantaloni scurți MNX Hardcore din plasă – gri",
+    "beneficii_cheie": [
+      "Material ușor din plasă, 100% poliester, cu o greutate de aproximativ 250 de grame.",
+      "Croială lejeră, potrivită pentru antrenament și pentru timpul liber.",
+      "Talie elastică cu șnur interior și buzunare laterale.",
+      "Imprimeu gotic negru pe piciorul drept, șnur negru și etichetă cusută la tiv.",
+      "Disponibili în mărimile M, L și XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Pantalonii scurți MNX Hardcore** în culoarea gri sunt confecționați dintr-un material ușor din plasă, 100% poliester, și au o croială lejeră. Cântăresc aproximativ 250 de grame și se potrivesc atât la antrenamentele de la sală, cât și în timpul liber."
+      },
+      {
+        "p": "Talia este elastică, cu șnur interior negru, ca să poți ajusta pantalonii pe corp, iar buzunarele laterale țin la îndemână lucrurile mici. Designul Hardcore se recunoaște după imprimeul gotic negru de pe piciorul drept, iar la tiv pantalonii au o etichetă cusută."
+      },
+      {
+        "p": "Pantalonii sunt disponibili în mărimile M, L și XL. În fotografii sunt purtați cu adidași albi, pentru o ținută de sală simplă. Îi poți asorta cu tricourile și maiourile din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% poliester."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% poliester, plasă",
+      "Croială: lejeră",
+      "Talie: elastică, cu șnur interior",
+      "Culoare: gri, imprimeu și șnur negre",
+      "Mărimi: M, L, XL",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Hardcore mesh shorts, grey' -> 'Pantaloni scurți MNX Hardcore din plasă – gri'); 'mesh' rendered as 'din plasă', 'loose fit' as 'croială lejeră'. Old tab listed sizes S, M, L, XL, XXL, 3XL but only M, L, XL exist as variants; used the variants. Superlative 'perfecți pentru antrenament' softened. 'Culoare: conform imaginii' replaced by the colour from the title; black drawcord, gothic print on the right leg, hem label and white sneakers taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15528845476215",
+    "handle": "mnx-extra-t-shirt-hc-2-0-limited-dark-grey",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt HC 2.0 *Limited*, dark grey",
+    "new_title": "Tricou MNX Extra HC 2.0, ediție limitată – gri închis",
+    "beneficii_cheie": [
+      "Ediție limitată din linia MNX Extra HC 2.0, cu croială supradimensionată.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Imprimeu mare MNX pe spate, cu inscripția „Striving for excellence”, și logo MNX mic, negru, pe piept.",
+      "Etichetă textilă cu logo în partea de jos a tricoului.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra HC 2.0** în culoarea gri închis face parte dintr-o ediție limitată a liniei Extra și este gândit pentru bărbații care preferă o croială supradimensionată. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Elementul principal al designului se află pe spate: un imprimeu mare MNX, cu inscripția „Striving for excellence”. Pe piept apare un logo MNX mic, negru, iar în partea de jos tricoul are o etichetă textilă cu logo."
+      },
+      {
+        "p": "Croiala foarte largă îl face potrivit atât pentru antrenamentele de la sală, cât și pentru ținutele de zi cu zi. Tricoul este disponibil în mărimile S/M și L/XL. Alte tricouri, maiouri și pantaloni scurți din aceeași gamă găsești în colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată",
+      "Culoare: gri închis, logo negru",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 250 g",
+      "Colecție: MNX Extra HC 2.0, ediție limitată",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt HC 2.0 *Limited*, dark grey' -> 'Tricou MNX Extra HC 2.0, ediție limitată – gri închis'), same pattern as the white/black/burgundy siblings in batch 7; asterisks dropped. 'Oversized' rendered as 'croială supradimensionată'. 'Culoare: conform imaginii' replaced by the colour from the title; black chest logo and the back print text 'Striving for excellence' (quoted as printed) taken from the image alts. Sizes from the variants (S/M, L/XL). Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "ok"
+  },
+  {
+    "id": "gid://shopify/Product/15528848818551",
+    "handle": "mnx-stringer-golden-era-2-0-grey-black",
+    "status": "ACTIVE",
+    "old_title": "MNX Stringer Golden Era 2.0, grey & black",
+    "new_title": "Maiou stringer MNX Golden Era 2.0 – gri cu negru",
+    "beneficii_cheie": [
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 150 de grame.",
+      "Croială stringer clasică, cu spate decupat, care lasă umerii și brațele libere.",
+      "Design în două culori, cu corp gri-bej, margini negre și emblemă rotundă pe piept.",
+      "Etichetă Golden Era pe spate și tiv rotunjit la bază.",
+      "Disponibil în mărimile S/M și L/XL."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Maioul stringer MNX Golden Era 2.0** în varianta gri cu negru are croiala clasică de stringer, cu spate decupat, care lasă umerii și brațele libere în timpul exercițiilor. Este confecționat din 100% bumbac moale și cântărește aproximativ 150 de grame."
+      },
+      {
+        "p": "Designul este în două culori: corpul gri, cu o nuanță bej, și margini negre, iar pe piept are o emblemă rotundă, în spiritul seriei Golden Era. Pe spate are o etichetă Golden Era, iar tivul de la bază este rotunjit."
+      },
+      {
+        "p": "Bumbacul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Maioul este disponibil în mărimile S/M și L/XL și se asortează cu pantalonii scurți Golden Era 2.0 din colecția [haine MNX](/collections/haine-mnx)."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac (contracție la spălare de 5%)."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac (contracție la spălare: 5%)",
+      "Croială: stringer, spate decupat, tiv rotunjit",
+      "Culoare: gri-bej, margini negre",
+      "Mărimi: S/M, L/XL",
+      "Greutate: aprox. 150 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Stringer Golden Era 2.0, grey & black' -> 'Maiou stringer MNX Golden Era 2.0 – gri cu negru'), same pattern as the batch 9 siblings; 'stringer' kept as the usual gym term for a thin-strap tank. Superlatives removed ('pentru confort maxim', 'libertate deplină de mișcare', 'emblematice'); the old tab said both 'croială de tip stringer' and 'regular fit', kept the stringer cut. 'Culoare: conform imaginii' replaced by the title colours; the image alt describes the body as 'bej-gri', so the colour reads 'gri-bej'. Round chest emblem, cut-out back and Golden Era back label taken from the image alts. Sizes from the variants (S/M, L/XL). Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "fixed: rephrased a beneficii_cheie line that opened with a colon heading"
+  },
+  {
+    "id": "gid://shopify/Product/15528849637751",
+    "handle": "mnx-extra-t-shirt-basic-light-pink",
+    "status": "ACTIVE",
+    "old_title": "MNX Extra T-shirt basic, light pink",
+    "new_title": "Tricou MNX Extra Basic – roz pal",
+    "beneficii_cheie": [
+      "Croială supradimensionată, cu mâneci largi, pentru o siluetă lejeră, la sală sau în oraș.",
+      "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 250 de grame.",
+      "Două logouri MNX mici, din cauciuc, unul pe piept și unul la spate, sub guler.",
+      "Etichetă textilă cu logo la tiv.",
+      "Disponibil în mărimea S."
+    ],
+    "despre_produs": [
+      {
+        "p": "**Tricoul MNX Extra Basic** în culoarea roz pal este varianta cu design minimalist a liniei Extra: un tricou pentru bărbați cu croială supradimensionată și mâneci largi, care se poartă la fel de bine la sală și în afara ei. Este confecționat din 100% bumbac moale și cântărește aproximativ 250 de grame."
+      },
+      {
+        "p": "Detaliile sunt discrete: două logouri MNX mici, din cauciuc, unul pe piept și unul la spate, sub guler, plus o etichetă textilă cu logo la tiv. În fotografii, tricoul este purtat cu pantaloni cu model camuflaj."
+      },
+      {
+        "p": "Tricoul este disponibil în mărimea S. Îl poți combina cu alte piese din colecția [haine MNX](/collections/haine-mnx), de la pantaloni scurți până la maiouri."
+      }
+    ],
+    "ingrediente": [
+      {
+        "p": "100% bumbac."
+      }
+    ],
+    "detalii_produs": [
+      "Material: 100% bumbac",
+      "Croială: supradimensionată, mâneci largi",
+      "Culoare: roz pal",
+      "Mărime: S",
+      "Greutate: aprox. 250 g",
+      "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+      "Brand: MNX"
+    ],
+    "seo_produs": null,
+    "notes": "English title translated ('MNX Extra T-shirt basic, light pink' -> 'Tricou MNX Extra Basic – roz pal'), same pattern as the Extra Basic siblings in batch 7; colour name 'roz pal' taken from the image alt. 'Oversized' rendered as 'croială supradimensionată'. 'Culoare: conform imaginii' replaced by the title colour; chest and under-collar logo positions, wide sleeves and hem label taken from the image alts and the old tab ('două logo-uri mici din cauciuc'). Only size S is offered. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+    "review": "fixed: rephrased a beneficii_cheie line that opened with a colon heading; 'Mărimi: S' -> 'Mărime: S' (single size)"
+  }
+]

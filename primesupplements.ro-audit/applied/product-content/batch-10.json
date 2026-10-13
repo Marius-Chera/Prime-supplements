@@ -1,0 +1,575 @@
+[
+ {
+  "id": "gid://shopify/Product/15434788864375",
+  "handle": "mnx-double-layer-shorts-sand",
+  "status": "ACTIVE",
+  "old_title": "MNX Double layer shorts, sand",
+  "new_title": "Pantaloni scurți MNX cu strat dublu – nisipiu",
+  "beneficii_cheie": [
+   "Material ușor, cu strat dublu, din 100% poliester, cu strat interior negru.",
+   "Talie elastică cu șnur interior și buzunare cu fermoar.",
+   "Panouri laterale cu inserții negre și logo MNX pe buzunarul de la spate.",
+   "Croială standard, potrivită pentru antrenament, cu o greutate de aproximativ 300 de grame.",
+   "Disponibili în mărimile S/M, L/XL și XXL/3XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți MNX cu strat dublu** în nuanța nisipie sunt gândiți pentru antrenament. Materialul este ușor, din 100% poliester, și dublu stratificat, cu un strat interior negru. Croiala este standard, nici strâmtă, nici foarte largă, așa că pantalonii se potrivesc la exercițiile din sală, dar și în afara ei."
+   },
+   {
+    "p": "Talia elastică are un șnur interior, ca să poți ajusta pantalonii pe corp, iar buzunarele se închid cu fermoar, astfel încât lucrurile mici rămân la locul lor în timpul antrenamentului. Pe lateral au panouri cu inserții negre, iar pe buzunarul de la spate apare logoul MNX."
+   },
+   {
+    "p": "Pantalonii cântăresc aproximativ 300 de grame și sunt disponibili în mărimile S/M, L/XL și XXL/3XL. Materialul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Îi poți asorta cu tricourile și maiourile din colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% poliester (contracție la spălare: 5%)."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% poliester, strat dublu (contracție la spălare: 5%)",
+   "Croială: standard",
+   "Talie: elastică, cu șnur interior",
+   "Culoare: nisipiu, strat interior negru",
+   "Mărimi: S/M, L/XL, XXL/3XL",
+   "Greutate: aprox. 300 g",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Double layer shorts, sand' -> 'Pantaloni scurți MNX cu strat dublu – nisipiu'). Old tab listed sizes S/M, L/XL, XXL/3XL, 4XL/5XL but only S/M, L/XL, XXL/3XL exist as variants; used the variants. 'Regular fit' rendered as 'croială standard'; 'Culoare: conform imaginii' replaced by the colour from the title. Black inner layer, side panels with black inserts and the MNX logo on the back pocket taken from the image alts. Removed 'Perfecți pentru antrenament' and 'Branding original'. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: colour agreement \"nuanța nisipie\""
+ },
+ {
+  "id": "gid://shopify/Product/15434789388663",
+  "handle": "mnx-cotton-t-shirt-basix-pastel-rose",
+  "status": "ACTIVE",
+  "old_title": "MNX cotton T-shirt Basix, pastel rose",
+  "new_title": "Tricou din bumbac MNX Basix – roz pastel",
+  "beneficii_cheie": [
+   "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 300 de grame.",
+   "Croială lejeră, ușor supradimensionată, cu mâneci scurte și largi.",
+   "Design minimalist: logo MNX negru, mic, pe piept și eticheta Basix la baza gâtului.",
+   "Contracție la spălare de 5%, de care merită să ții cont când alegi mărimea.",
+   "Disponibil în mărimile S/M, L/XL și XXL/3XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul din bumbac MNX Basix** în nuanța roz pastel este un tricou de bază, cu design minimalist și croială lejeră, ușor supradimensionată. Este confecționat din 100% bumbac moale și cântărește aproximativ 300 de grame."
+   },
+   {
+    "p": "Pe piept are un logo MNX mic, negru, iar la spate se află eticheta Basix, la baza gâtului. Mânecile sunt scurte și largi, iar gulerul are o bandă interioară, așa că tricoul se poartă comod la antrenament și se combină ușor cu ținutele de zi cu zi."
+   },
+   {
+    "p": "Bumbacul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Tricoul este disponibil în mărimile S/M, L/XL și XXL/3XL, iar alte culori și modele găsești în colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% bumbac (contracție la spălare: 5%)."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% bumbac (contracție la spălare: 5%)",
+   "Croială: lejeră, ușor supradimensionată",
+   "Culoare: roz pastel, logo negru",
+   "Mărimi: S/M, L/XL, XXL/3XL",
+   "Greutate: aprox. 300 g",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX cotton T-shirt Basix, pastel rose' -> 'Tricou din bumbac MNX Basix – roz pastel'), same pattern as the cherry red Basix in batch 8. Old tab heading 'Tricou MNX Medium Oversized' rendered as 'croială ușor supradimensionată'; tab was contradictory ('amestec de bumbac' vs 'Material: 100% bumbac'), used 100% bumbac. 'Pentru confort maxim', 'loose-fit' and 'Culoare: conform imaginii' removed. Sizes in the old tab match the variants. Logo colour, Basix label, wide sleeves and inner neck tape taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: removed \"pentru bărbați\" (only inferred from the model photo)"
+ },
+ {
+  "id": "gid://shopify/Product/15434789749111",
+  "handle": "mnx-cotton-t-shirt-basix-white",
+  "status": "ACTIVE",
+  "old_title": "MNX cotton T-shirt Basix, white",
+  "new_title": "Tricou din bumbac MNX Basix – alb",
+  "beneficii_cheie": [
+   "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 300 de grame.",
+   "Croială lejeră, ușor supradimensionată, cu mâneci scurte.",
+   "Design minimalist: logo MNX negru, mic, pe piept și eticheta Basix cusută sub guler.",
+   "Contracție la spălare de 5%, de care merită să ții cont când alegi mărimea.",
+   "Disponibil în mărimile S/M și XXL/3XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul din bumbac MNX Basix** în culoarea albă este un tricou de bază, cu design minimalist și croială lejeră, ușor supradimensionată. Este confecționat din 100% bumbac moale și cântărește aproximativ 300 de grame."
+   },
+   {
+    "p": "Pe piept are un logo MNX mic, negru, iar la spate se află eticheta Basix, cusută sub guler. Gulerul are o bandă neagră care se asortează cu logoul, iar mânecile scurte și croiala lejeră fac tricoul comod la antrenament și ușor de combinat cu ținutele de zi cu zi."
+   },
+   {
+    "p": "Bumbacul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Pentru orientare, modelul din fotografiile de studio are 178 cm și 84 kg și poartă mărimea L/XL. Tricoul este disponibil în mărimile S/M și XXL/3XL, iar alte culori și modele găsești în colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% bumbac (contracție la spălare: 5%)."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% bumbac (contracție la spălare: 5%)",
+   "Croială: lejeră, ușor supradimensionată",
+   "Culoare: alb, logo negru",
+   "Mărimi: S/M, XXL/3XL",
+   "Greutate: aprox. 300 g",
+   "Model: 178 cm, 84 kg, poartă mărimea L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX cotton T-shirt Basix, white' -> 'Tricou din bumbac MNX Basix – alb'). Old tab listed S/M, L/XL, XXL/3XL but only S/M and XXL/3XL exist as variants; used the variants. The model in the photos wears L/XL (from the old tab), a size not currently offered: keep or drop the model line if L/XL will not return. Tab contradiction ('amestec de bumbac' vs '100% bumbac') resolved as 100% bumbac. Black neck tape, black MNX logo and Basix label taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: removed \"pentru bărbați\" (only inferred from the model photo); \"în nuanța alb\" -> \"în culoarea albă\""
+ },
+ {
+  "id": "gid://shopify/Product/15434790240631",
+  "handle": "mnx-cotton-t-shirt-basix-pastel-green",
+  "status": "ACTIVE",
+  "old_title": "MNX cotton T-shirt Basix, pastel green",
+  "new_title": "Tricou din bumbac MNX Basix – verde pastel",
+  "beneficii_cheie": [
+   "Confecționat din 100% bumbac moale, cu o greutate de aproximativ 300 de grame.",
+   "Croială lejeră, ușor supradimensionată, cu mâneci scurte.",
+   "Design minimalist: logo MNX alb pe piept și eticheta Basix la gât.",
+   "Contracție la spălare de 5%, de care merită să ții cont când alegi mărimea.",
+   "Disponibil în mărimile S/M, L/XL și XXL/3XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul din bumbac MNX Basix** în nuanța verde pastel este un tricou de bază, cu design minimalist și croială lejeră, ușor supradimensionată. Este confecționat din 100% bumbac moale și cântărește aproximativ 300 de grame."
+   },
+   {
+    "p": "Pe piept are un logo MNX alb, iar la spate se află eticheta Basix, la gât. Gulerul are o bandă interioară, iar mânecile scurte și croiala lejeră fac tricoul comod la antrenament și ușor de combinat cu ținutele de zi cu zi."
+   },
+   {
+    "p": "Bumbacul are o contracție la spălare de 5%, de care merită să ții cont când alegi mărimea. Pentru orientare, modelul din fotografiile de studio are 178 cm și 84 kg și poartă mărimea L/XL. Tricoul este disponibil în mărimile S/M, L/XL și XXL/3XL, iar alte culori și modele găsești în colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": [
+   {
+    "p": "100% bumbac (contracție la spălare: 5%)."
+   }
+  ],
+  "detalii_produs": [
+   "Material: 100% bumbac (contracție la spălare: 5%)",
+   "Croială: lejeră, ușor supradimensionată",
+   "Culoare: verde pastel, logo alb",
+   "Mărimi: S/M, L/XL, XXL/3XL",
+   "Greutate: aprox. 300 g",
+   "Model: 178 cm, 84 kg, poartă mărimea L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX cotton T-shirt Basix, pastel green' -> 'Tricou din bumbac MNX Basix – verde pastel'). Sizes in the old tab match the variants. Model info (178 cm, 84 kg, L/XL) kept from the old tab. Tab contradiction ('amestec de bumbac' vs '100% bumbac') resolved as 100% bumbac; 'pentru confort maxim' and 'loose-fit' removed. White MNX logo, Basix label and inner neck tape taken from the image alts. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: removed \"pentru bărbați\" (only inferred from the model photo); removed \"mic\" for the logo (not in this product's alts)"
+ },
+ {
+  "id": "gid://shopify/Product/15434802594167",
+  "handle": "mnx-shaker-600-ml",
+  "status": "ACTIVE",
+  "old_title": "MNX Shaker 600 ml",
+  "new_title": "Shaker MNX 600 ml – negru transparent",
+  "beneficii_cheie": [
+   "Capacitate de 600 ml, pentru shake-uri proteice și alte suplimente sub formă de pudră.",
+   "Se demontează în pahar, sită și capac negru cu clapetă.",
+   "Sita ajută la amestecarea pudrei cu apa sau laptele.",
+   "Plastic durabil, fără BPA, cu o greutate de 140 g.",
+   "Pahar negru transparent, cu logo MNX și textul «Striving for excellence»."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Shakerul MNX de 600 ml** este un recipient pentru prepararea și transportul shake-urilor proteice și al altor suplimente sub formă de pudră. Paharul este negru transparent, din plastic durabil, fără BPA, iar întregul shaker cântărește 140 g, așa că îl poți lua ușor în geantă la sală sau la birou."
+   },
+   {
+    "p": "Shakerul se demontează în pahar, sită și capac. Sita ajută la amestecarea pudrei cu apa sau laptele, iar capacul negru are o clapetă care se deschide când vrei să bei. Pe pahar apar logoul MNX și textul «Striving for excellence»."
+   },
+   {
+    "p": "Spală shakerul înainte de prima utilizare și după fiecare folosire, ca să nu rămână resturi de pudră în pahar sau în sită. Vezi și celelalte [accesorii de sală](/collections/accesorii-sala)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Capacitate: 600 ml",
+   "Greutate: 140 g",
+   "Culoare: negru transparent",
+   "Material: plastic durabil, fără BPA",
+   "Componente: pahar, sită, capac cu clapetă",
+   "Îngrijire: a se spăla înainte de prima utilizare și după fiecare folosire",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "Old title 'MNX Shaker 600 ml' was under 20 characters; new title adds the colour from the old tab. 'BPA-free' duplicate removed. Strainer, flip-cap and the printed text 'Striving for excellence' taken from the image alts; one alt also mentions a 'Limited Edition' badge, not used in the copy (would imply limited stock). Same capacity, weight, colour and material as prime-shaker-customised: check whether both listings are needed. ",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/15434804724087",
+  "handle": "tricou-sala-built-in-the-city-bumbac-premium-negru",
+  "status": "UNLISTED",
+  "old_title": "Tricou Sala \"Built in the city\" - Bumbac Premium Negru",
+  "new_title": "Tricou Prime Built in the City – negru",
+  "beneficii_cheie": [
+   "Tricou negru din bumbac, din gama de echipament de sală Prime Supplements.",
+   "Modelul poartă numele «Built in the city».",
+   "Potrivit pentru antrenamentele din sală și pentru ținutele de zi cu zi.",
+   "Disponibil în mărimile S, M, L, XL și 2XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul Prime Built in the City** este un tricou negru din bumbac, din gama de echipament de sală Prime Supplements. Modelul poartă numele «Built in the city» și se adresează celor la care antrenamentul face parte din rutina zilnică. Este gândit pentru antrenamentele din sală, dar se poartă la fel de bine și în afara ei, în ținutele de zi cu zi."
+   },
+   {
+    "p": "Negrul se combină ușor cu pantalonii scurți sau cu pantalonii de trening, așa că tricoul poate fi purtat la sală, pe drum spre ea sau în oraș. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior."
+   },
+   {
+    "p": "Tricoul este disponibil în mărimile S, M, L, XL și 2XL. Dacă ești între două mărimi sau preferi un tricou mai lejer, alege mărimea mai mare. Alte tricouri, maiouri și pantaloni pentru antrenament găsești în categoria [echipament de sală](/collections/echipament-sala)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Material: bumbac",
+   "Culoare: negru",
+   "Mărimi: S, M, L, XL, 2XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": null,
+  "notes": "Status UNLISTED. Old title had 'Sala', 'Premium' and quotes; new title follows the 'Tricou Prime ... – negru' pattern used for 'Suffer to Dominate' in batch 5. The product has no description, no tab content and two images with empty alt text, so the copy uses only the title (black, cotton, slogan) and the variant sizes: add the composition, print placement/colour and a size guide, then enrich the tabs. Material given as 'bumbac' (from the title) without a percentage, so ingrediente is null. Variant prices are inconsistent (S 70 lei, M-2XL 80 lei, compare-at 110 lei): check. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: \"poartă mesajul\" (assumed printed slogan, not in data) -> \"modelul poartă numele\""
+ },
+ {
+  "id": "gid://shopify/Product/15434804953463",
+  "handle": "tricou-sala-made-of-iron-bumbac-premium-negru",
+  "status": "ACTIVE",
+  "old_title": "Tricou Sala \"Made of iron\" - Bumbac Premium Negru",
+  "new_title": "Tricou Prime Made of Iron – negru",
+  "beneficii_cheie": [
+   "Tricou negru din bumbac, din gama de echipament de sală Prime Supplements.",
+   "Emblemă și inscripție metalizată pe piept, plus o emblemă mică, ton pe ton, la spate, sub guler.",
+   "Potrivit pentru antrenamentele din sală și pentru ținutele de zi cu zi.",
+   "Disponibil în mărimile S, M, L, XL și 2XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul Prime Made of Iron** este un tricou negru din bumbac, din gama de echipament de sală Prime Supplements. Modelul poartă numele «Made of iron», iar pe piept are o emblemă și o inscripție metalizată. Este gândit pentru antrenamentele din sală, dar se poartă la fel de bine și în afara ei, în ținutele de zi cu zi."
+   },
+   {
+    "p": "La spate, sub guler, se află o emblemă mică, ton pe ton, care completează designul fără să încarce tricoul. Negrul se combină ușor cu pantalonii scurți sau cu pantalonii de trening. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior."
+   },
+   {
+    "p": "Tricoul este disponibil în mărimile S, M, L, XL și 2XL. Dacă ești între două mărimi sau preferi un tricou mai lejer, alege mărimea mai mare. Alte tricouri, maiouri și pantaloni pentru antrenament găsești în categoria [echipament de sală](/collections/echipament-sala)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Material: bumbac",
+   "Culoare: negru",
+   "Imprimeu: emblemă și inscripție metalizată pe piept, emblemă mică ton pe ton sub guler, la spate",
+   "Mărimi: S, M, L, XL, 2XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": null,
+  "notes": "Old title had 'Sala', 'Premium' and quotes; new title follows the 'Tricou Prime ... – negru' pattern used for 'Suffer to Dominate' in batch 5. The product has no description and no tab content; chest emblem with metallic lettering and the small tone-on-tone emblem under the collar come from the image alts. Material given as 'bumbac' (from the title) without a percentage, so ingrediente is null: add the composition and a size guide. Compare-at 110 lei vs price 60 lei: check (audit, compare-at). Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: \"poartă mesajul\" (assumed the chest inscription text, not in data) -> \"modelul poartă numele\""
+ },
+ {
+  "id": "gid://shopify/Product/15466812080503",
+  "handle": "mnx-cotton-t-shirt-basix-purple",
+  "status": "ACTIVE",
+  "old_title": "MNX cotton T-shirt Basix, purple",
+  "new_title": "Tricou din bumbac MNX Basix – mov",
+  "beneficii_cheie": [
+   "Tricou din bumbac, din linia de tricouri de bază MNX Basix.",
+   "Croială largă, ușor supradimensionată, și tiv cu șlițuri laterale.",
+   "Logo MNX mic, alb, pe piept și guler cu bandă neagră.",
+   "Eticheta Basix cusută la spate, sub guler.",
+   "Disponibil în mărimile S/M și L/XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul din bumbac MNX Basix** în nuanța mov face parte din linia de tricouri de bază MNX: un model simplu, cu design minimalist, gândit pentru antrenament și pentru purtat zi de zi. Croiala este largă, ușor supradimensionată, iar tivul are șlițuri laterale, care lasă libertate de mișcare."
+   },
+   {
+    "p": "Pe piept are un logo MNX mic, alb, care iese în evidență pe fondul mov. Gulerul are o bandă neagră, iar la spate, sub guler, este cusută eticheta Basix. Tricoul se poartă comod la sală și se combină ușor cu pantalonii de trening sau cu pantalonii scurți."
+   },
+   {
+    "p": "Tricoul este disponibil în mărimile S/M și L/XL. Pentru o croială mai lejeră, alege mărimea mai mare. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Alte culori din linia Basix și restul pieselor găsești în colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Material: bumbac",
+   "Croială: largă, ușor supradimensionată, tiv cu șlițuri laterale",
+   "Culoare: mov, logo alb, guler cu bandă neagră",
+   "Mărimi: S/M, L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX cotton T-shirt Basix, purple' -> 'Tricou din bumbac MNX Basix – mov'). This product has no description and no tab content; the copy uses only the title, variants and image alts (white logo, black neck tape, side slits, Basix label). The other Basix colours state composition, weight and shrinkage, but these are not in this product's data and were not copied: confirm with the supplier and add them, then ingrediente can carry the composition. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/15466813391223",
+  "handle": "mnx-extra-t-shirt-industrial-navy-blue",
+  "status": "ACTIVE",
+  "old_title": "MNX Extra T-shirt Industrial, navy blue",
+  "new_title": "Tricou MNX Extra Industrial – bleumarin",
+  "beneficii_cheie": [
+   "Tricou din bumbac spălat, cu croială largă, supradimensionată.",
+   "Logo X brodat pe piept și încă unul la spate, sub guler.",
+   "Etichetă cusută la tiv, în partea din față.",
+   "Disponibil în mărimea L/XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Tricoul MNX Extra Industrial** în nuanța bleumarin este un tricou cu croială largă, supradimensionată, confecționat din bumbac spălat. Face parte din linia Industrial a MNX, cu un design simplu, construit în jurul logoului X brodat."
+   },
+   {
+    "p": "Logoul X este brodat pe piept și, încă o dată, la spate, sub guler, iar în față, la tiv, este cusută o etichetă. Croiala largă lasă libertate de mișcare la antrenament, iar bleumarinul se combină ușor cu pantalonii de trening sau cu alte piese din garderoba de zi cu zi."
+   },
+   {
+    "p": "Tricoul este disponibil în mărimea L/XL. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Pentru alte culori din linia Industrial și pentru restul pieselor, vezi colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Material: bumbac spălat",
+   "Croială: largă, supradimensionată",
+   "Culoare: bleumarin",
+   "Detalii: logo X brodat pe piept și sub guler, etichetă la tiv",
+   "Mărimi: L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Extra T-shirt Industrial, navy blue' -> 'Tricou MNX Extra Industrial – bleumarin'), same pattern as the Industrial colours in batch 6. No description or tab content; material ('bumbac spălat'), cut and embroidered X logos taken from the image alts. Sibling colours state composition and weight, not copied because they are not in this product's data: confirm and add. Only L/XL is offered. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: removed \"pentru bărbați\" (only inferred from the model photo)"
+ },
+ {
+  "id": "gid://shopify/Product/15466815914359",
+  "handle": "mnx-ribbed-shorts-hammer-3-0-dark-grey",
+  "status": "ACTIVE",
+  "old_title": "MNX Ribbed shorts Hammer 3.0, dark grey",
+  "new_title": "Pantaloni scurți reiați MNX Hammer 3.0 – gri închis",
+  "beneficii_cheie": [
+   "Țesătură reiată, cu textură striată, în nuanța gri închis.",
+   "Șnur în talie și buzunar cu fermoar.",
+   "Bandă neagră Hammer pe lateral și imprimeu Hammer 3.0 pe picior.",
+   "Disponibili în mărimile S și XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți MNX Hammer 3.0** în nuanța gri închis sunt confecționați din țesătură reiată, cu textură striată, și sunt gândiți pentru antrenament. Pe lateral au o bandă neagră Hammer, iar pe picior apare imprimeul Hammer 3.0."
+   },
+   {
+    "p": "Talia are un șnur pentru ajustare, iar buzunarul cu fermoar ține lucrurile mici la locul lor în timpul antrenamentului. În fotografii, pantalonii sunt purtați cu șosete MNX, pentru o ținută de sală asortată."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimile S și XL. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Îi poți asorta cu tricourile de antrenament MNX Hammer 3.0 din colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Țesătură: reiată, striată",
+   "Talie: cu șnur",
+   "Buzunar: cu fermoar",
+   "Culoare: gri închis, bandă laterală neagră",
+   "Mărimi: S, XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Ribbed shorts Hammer 3.0, dark grey' -> 'Pantaloni scurți reiați MNX Hammer 3.0 – gri închis'). No description or tab content; ribbed fabric from the title, drawstring, zip pocket, black Hammer band and 'Hammer 3.0' print from the image alts. Composition and weight of the black/white Hammer 3.0 siblings not copied because they are not in this product's data: confirm and add. Spelling 'reiați' (DEX); batch 6 uses 'raiați' for Hammer 3.0 black/white, harmonise. Only S and XL are offered; the S variant has barcode 60050001. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/15466817290615",
+  "handle": "mnx-basketball-shorts-2-0-light-yellow",
+  "status": "ACTIVE",
+  "old_title": "MNX Basketball shorts 2.0, light yellow",
+  "new_title": "Pantaloni scurți de baschet MNX 2.0 – galben pal",
+  "beneficii_cheie": [
+   "Pantaloni scurți în stil baschet, în nuanța galben pal.",
+   "Buzunar cu fermoar, pentru lucrurile mici.",
+   "Tiv alb, cu logo X alb.",
+   "Disponibili în mărimile S/M și L/XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți de baschet MNX 2.0** în nuanța galben pal sunt inspirați din echipamentul de baschet și sunt potriviți pentru antrenamentele din sală, pentru sporturile de echipă și pentru zilele de vară."
+   },
+   {
+    "p": "Au un buzunar cu fermoar, în care lucrurile mici rămân la locul lor în timpul mișcării, iar tivul este alb, cu un logo X alb care completează designul. În fotografii sunt purtați cu șosete albe, pentru o ținută sportivă în culori deschise."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimile S/M și L/XL. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Pentru tricouri și maiouri asortate, vezi colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Stil: pantaloni scurți de baschet",
+   "Buzunar: cu fermoar",
+   "Culoare: galben pal, tiv alb, logo X alb",
+   "Mărimi: S/M, L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Basketball shorts 2.0, light yellow' -> 'Pantaloni scurți de baschet MNX 2.0 – galben pal'), consistent with 'Maiou de baschet MNX' in batch 6. No description or tab content; zip pocket, white hem and white X logo taken from the image alts. Composition, weight and size guide missing: add from the supplier sheet. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/15466817651063",
+  "handle": "mnx-basketball-mesh-shorts-red",
+  "status": "ACTIVE",
+  "old_title": "MNX Basketball mesh shorts, red",
+  "new_title": "Pantaloni scurți de baschet MNX din plasă – roșu",
+  "beneficii_cheie": [
+   "Pantaloni scurți de baschet din material tip plasă, în nuanța roșie.",
+   "Inserții negre, inclusiv la tiv.",
+   "Panou lateral negru cu logo X roșu, la tiv.",
+   "Disponibili în mărimea L/XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți de baschet MNX din plasă** în nuanța roșie sunt confecționați din material tip plasă și sunt inspirați din echipamentul de baschet. Sunt potriviți pentru antrenamentele din sală, pentru sporturile de echipă și pentru zilele de vară."
+   },
+   {
+    "p": "Pe fondul roșu ies în evidență inserțiile negre, inclusiv cele de la tiv, iar pe lateral, la tiv, un panou negru poartă logoul X, roșu. Contrastul roșu cu negru dă pantalonilor un aspect sportiv, iar în fotografii sunt purtați cu adidași albi."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimea L/XL. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Pentru tricouri și maiouri asortate, vezi colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Material: plasă",
+   "Stil: pantaloni scurți de baschet",
+   "Culoare: roșu, inserții negre, logo X roșu",
+   "Mărimi: L/XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Basketball mesh shorts, red' -> 'Pantaloni scurți de baschet MNX din plasă – roșu'). No description or tab content; mesh fabric from the title, black inserts and the red X logo on a black side panel from the image alts. Composition and size guide missing; only L/XL is offered. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "ok"
+ },
+ {
+  "id": "gid://shopify/Product/15466817880439",
+  "handle": "mnx-ribbed-shorts-hammer-green-lint",
+  "status": "ACTIVE",
+  "old_title": "MNX Ribbed shorts Hammer, green lint",
+  "new_title": "Pantaloni scurți reiați MNX Hammer – verde pal",
+  "beneficii_cheie": [
+   "Țesătură reiată, cu textură striată, în nuanța verde pal.",
+   "Buzunare negre din plasă și un buzunar cu fermoar pe lateral.",
+   "Logo MNX pe picior.",
+   "Disponibili în mărimea XXL/3XL."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți MNX Hammer** în nuanța verde pal sunt confecționați din țesătură reiată, cu textură striată, și sunt gândiți pentru antrenament. Pe fondul deschis ies în evidență buzunarele negre din plasă, iar pe picior apare logoul MNX."
+   },
+   {
+    "p": "Pe lateral are și un buzunar cu fermoar, astfel încât lucrurile mici rămân la locul lor în timpul antrenamentului. În fotografii, pantalonii sunt purtați cu șosete albe și adidași, pentru o ținută de sală în culori deschise."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimea XXL/3XL. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Îi poți asorta cu tricourile de antrenament MNX Hammer din colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Țesătură: reiată, striată",
+   "Buzunare: negre, din plasă, plus un buzunar lateral cu fermoar",
+   "Culoare: verde pal, buzunare negre",
+   "Mărimi: XXL/3XL",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Ribbed shorts Hammer, green lint' -> 'Pantaloni scurți reiați MNX Hammer – verde pal'; colour name taken from the image alt). No description or tab content; ribbed fabric from the title, mesh pockets, zip pocket and MNX leg logo from the image alts. Composition of the grey Hammer sibling not copied because it is not in this product's data: confirm and add. Only XXL/3XL is offered. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: alts do not say the zip pocket is one of the mesh pockets; described separately"
+ },
+ {
+  "id": "gid://shopify/Product/15466818208119",
+  "handle": "mnx-ribbed-shorts-hammer-dusty-chedar",
+  "status": "ACTIVE",
+  "old_title": "MNX Ribbed shorts Hammer, dusty chedar",
+  "new_title": "Pantaloni scurți reiați MNX Hammer – cărămiziu",
+  "beneficii_cheie": [
+   "Țesătură reiată, cu textură striată, în nuanța cărămizie.",
+   "Buzunar negru din plasă.",
+   "Etichetă MNX în talie și logo pe picior.",
+   "Disponibili în mărimea S/M."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Pantalonii scurți MNX Hammer** în nuanța cărămizie sunt confecționați din țesătură reiată, cu textură striată, și sunt gândiți pentru antrenament. Culoarea caldă se combină ușor cu tricourile negre, albe sau gri."
+   },
+   {
+    "p": "Pe lateral au un buzunar negru din plasă, care contrastează cu fondul cărămiziu, iar în talie este cusută o etichetă MNX. Pe picior apare logoul MNX. În fotografii, pantalonii sunt purtați cu șosete albe, pentru o ținută de sală simplă."
+   },
+   {
+    "p": "Pantalonii sunt disponibili în mărimea S/M. Compoziția exactă a materialului și instrucțiunile de îngrijire sunt trecute pe eticheta cusută în interior. Îi poți asorta cu tricourile de antrenament MNX Hammer din colecția [haine MNX](/collections/haine-mnx)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Țesătură: reiată, striată",
+   "Buzunar: negru, din plasă",
+   "Culoare: cărămiziu, buzunar negru",
+   "Mărimi: S/M",
+   "Îngrijire: spălare la 30 °C, fără înălbitor, fără uscător",
+   "Brand: MNX"
+  ],
+  "seo_produs": null,
+  "notes": "English title translated ('MNX Ribbed shorts Hammer, dusty chedar' -> 'Pantaloni scurți reiați MNX Hammer – cărămiziu'; colour name taken from the image alt, old title also misspells 'cheddar'). No description or tab content; ribbed fabric from the title, mesh pocket, waist label and leg logo from the image alts. Composition and size guide missing: add from the supplier sheet. Only S/M is offered. Care line is the standard garment wording, not read from the label: check the sewn-in care label.",
+  "review": "fixed: colour agreement \"nuanța cărămizie\""
+ },
+ {
+  "id": "gid://shopify/Product/15472866132343",
+  "handle": "prime-shaker-customised",
+  "status": "ACTIVE",
+  "old_title": "PRIME SHAKER CUSTOMISED",
+  "new_title": "Shaker Prime 600 ml – negru transparent",
+  "beneficii_cheie": [
+   "Capacitate de 600 ml, pentru shake-uri proteice și alte suplimente sub formă de pudră.",
+   "Sită detașabilă, care ajută la amestecarea pudrei cu lichidul.",
+   "Capac negru cu clapetă și logo Prime alb.",
+   "Plastic durabil, fără BPA, cu o greutate de 140 g.",
+   "Formă sportivă, care se ține comod în mână."
+  ],
+  "despre_produs": [
+   {
+    "p": "**Shakerul Prime de 600 ml** este un recipient negru transparent, cu logo Prime alb, pentru prepararea shake-urilor proteice și a altor suplimente sub formă de pudră. Forma sa sportivă se ține comod în mână, iar materialul este plastic durabil, fără BPA, potrivit pentru folosirea zilnică la antrenament."
+   },
+   {
+    "p": "Shakerul are o sită detașabilă, care ajută la amestecarea pudrei cu apa sau laptele, și un capac negru cu clapetă. Cântărește 140 g, așa că îl poți lua ușor în geantă la sală sau la birou."
+   },
+   {
+    "p": "Spală shakerul înainte de prima utilizare și după fiecare utilizare, ca să nu rămână resturi de pudră în pahar sau în sită. Vezi și celelalte [accesorii de sală](/collections/accesorii-sala)."
+   }
+  ],
+  "ingrediente": null,
+  "detalii_produs": [
+   "Capacitate: 600 ml",
+   "Greutate: 140 g",
+   "Culoare: negru transparent",
+   "Material: plastic durabil, fără BPA",
+   "Componente: pahar, sită detașabilă, capac cu clapetă",
+   "Îngrijire: a se spăla înainte de prima utilizare și după fiecare utilizare",
+   "Brand: Prime Supplements"
+  ],
+  "seo_produs": null,
+  "notes": "Old title 'PRIME SHAKER CUSTOMISED' was all caps English; 'customised' dropped (meaning unclear) and replaced with capacity and colour from the existing tab. Removed 'modern' and 'asigură o utilizare sigură'. Black flip-cap and white Prime logo taken from the image alt. Same capacity, weight, colour and material as mnx-shaker-600-ml: check whether both listings are needed. Price 15 lei vs compare-at 30 lei: check (audit, compare-at). Audit lists the product with 0 description words and without barcode.",
+  "review": "ok"
+ }
+]

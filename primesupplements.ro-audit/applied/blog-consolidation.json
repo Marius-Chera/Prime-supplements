@@ -1,0 +1,4534 @@
+{
+ "generated": "2026-10-12",
+ "source_files": [
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-alimente-sanatoase.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-aminoacizi.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-antrenament-general.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-arzator-de-grasimi.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-batoane-proteice.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-bauturi.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-creatina.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-crema-de-orez.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-haine-mnx.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-legacy-2025.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-prime-health.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-pudra-proteica.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-suplimente-pre-workout.json",
+  "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/plan/decisions-vitamine-si-minerale.json"
+ ],
+ "totals": {
+  "total": 355,
+  "kept": 121,
+  "redirected": 234,
+  "renamed": 92,
+  "retitled": 121,
+  "to_blog": 211,
+  "to_collection": 11,
+  "to_product": 12,
+  "cross_hub_blog": 4,
+  "suggested_new": 12,
+  "suggested_in_place": 6
+ },
+ "hubs": [
+  {
+   "hub": "creatina",
+   "collection_handle": "creatina",
+   "tag": "Creatină",
+   "new_articles_suggested": [
+    "Creatina efecte secundare: ce spun studiile",
+    "Creatina Prime vs GymBeam: comparație"
+   ],
+   "new_articles_suggested_handles": [
+    "creatina-efecte-secundare",
+    "creatina-prime-vs-gymbeam"
+   ],
+   "counts": {
+    "total": 71,
+    "kept": 11,
+    "redirected": 60,
+    "renamed": 11,
+    "retitled": 11,
+    "to_blog": 60,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 0,
+    "suggested_new": 2,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "pudra-proteica",
+   "collection_handle": "pudra-proteica",
+   "tag": "Proteine",
+   "new_articles_suggested": [
+    "Câtă proteină pe zi pentru masă musculară"
+   ],
+   "new_articles_suggested_handles": [
+    "cata-proteina-pe-zi-masa-musculara"
+   ],
+   "counts": {
+    "total": 34,
+    "kept": 14,
+    "redirected": 20,
+    "renamed": 13,
+    "retitled": 14,
+    "to_blog": 18,
+    "to_collection": 1,
+    "to_product": 1,
+    "cross_hub_blog": 0,
+    "suggested_new": 1,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "aminoacizi",
+   "collection_handle": "aminoacizi",
+   "tag": "Aminoacizi",
+   "new_articles_suggested": [
+    "Glutamina pentru intestin și digestie: beneficii și cum se ia"
+   ],
+   "new_articles_suggested_handles": [
+    "glutamina-pentru-intestin-si-digestie"
+   ],
+   "notes": "Intent keys carry a substance qualifier (bcaa, eaa, glutamina, taurina) or \"aminoacizi\" for hub-wide intents, because the hub spans four products; one kept article per qualified intent. Specialist keep bcaa-vs-eaa-diferențe-și-beneficii-pentru-culturisti-ghid-complet is handled in legacy-2025 (planned rename bcaa-vs-eaa), so it is not in this file. Specialist keep l-glutamina-taurine-80-caps-natural-vs is redirected as a worse duplicate of ce-este-taurina-taurine-80-caps-supplements-and. cum-alegi/calitate has no kept spoke: the collection seo_text (CLUSTER-01) carries the choosing guide.",
+   "counts": {
+    "total": 51,
+    "kept": 16,
+    "redirected": 35,
+    "renamed": 16,
+    "retitled": 16,
+    "to_blog": 30,
+    "to_collection": 2,
+    "to_product": 3,
+    "cross_hub_blog": 0,
+    "suggested_new": 1,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "arzator-de-grasimi",
+   "collection_handle": "arzator-de-grasimi",
+   "tag": "Arzătoare de grăsimi",
+   "new_articles_suggested": [
+    "Arzătoare de grăsimi: efecte secundare și contraindicații",
+    "Thermo Core: ghid de ingrediente, dozaj și administrare"
+   ],
+   "new_articles_suggested_handles": [
+    "arzatoare-de-grasimi-efecte-secundare",
+    "thermo-core-ghid"
+   ],
+   "new_articles_note": "Both specialist *create spokes are fulfilled in place: l-carnitine-fat-burning-booster-meal-replacement is renamed to arzatoare-de-grasimi-efecte-secundare and acetyl-l-carnitine-thermo-core-120-caps-sleep to thermo-core-ghid. Rewrite those kept articles to the new brief; do NOT create separate articles with these handles.",
+   "notes": "Intents carry an entity qualifier (:arzatoare, :l-carnitina, :diuretice-naturale) where the hub keeps one spoke per entity for the same base intent. Rule-4 exceptions: l-carnitine-15-reducere-pachet-thermo-core-2 (age) and -3 (progress tracking) go to the same-intent spokes, not to their base (combinations). Cross-hub: legacy-2025 stub cum-contribuie-l-carnitine-1000-la-arderea-grasimilor should 301 to /blogs/news/l-carnitina-pentru-slabit-pareri; water-out-tinctura-soluția-naturala-pentru-eliminarea-retenției-de-apa (legacy-2025, specialist keep) is the Water Out product guide and must not be renamed to any handle used here.",
+   "counts": {
+    "total": 47,
+    "kept": 12,
+    "redirected": 35,
+    "renamed": 11,
+    "retitled": 12,
+    "to_blog": 33,
+    "to_collection": 0,
+    "to_product": 2,
+    "cross_hub_blog": 0,
+    "suggested_new": 0,
+    "suggested_in_place": 2
+   }
+  },
+  {
+   "hub": "vitamine-si-minerale",
+   "collection_handle": "vitamine-si-minerale",
+   "tag": "Vitamine și minerale",
+   "new_articles_suggested": [
+    "Magneziu bisglicinat vs citrat: diferențe și ce formă alegi",
+    "Vitamina D3+K2: doza zilnică și cum o ajustezi"
+   ],
+   "new_articles_suggested_handles": [
+    "magneziu-bisglicinat-vs-citrat",
+    "vitamina-d3-k2-dozaj"
+   ],
+   "notes": "Intent keys carry an entity qualifier (vitamina-d3-k2, magneziu-bisglicinat, zinc, coenzima-q10, omega-3, multivitamine, vitamina-c, crom-picolinat, nattokinaza, potasiu) because the hub spans 10 products; one kept article per qualified intent. Added beyond the specialist list: vitamine-k (D3+K2 benefits, 7 inbound), nattokinaza (only article, 6 inbound), zinc immunity (head zinc intent, 5 inbound), Q10+omega-3 combination (5 inbound), potassium (only article). Suggested *vitamina-d3-k2-dozaj shares intent dozaj-si-cand-se-ia:vitamina-d3-k2 with kept cand-se-ia-vitamina-d3-k2: expand that spoke with a dosage section instead of creating a second URL. Products vitamina-d3-k2, magneziu-bisglicinat-80-caps and coenzima-q10-80-caps sit in the prime-health collection; add them to vitamine-si-minerale.",
+   "counts": {
+    "total": 24,
+    "kept": 16,
+    "redirected": 8,
+    "renamed": 9,
+    "retitled": 16,
+    "to_blog": 6,
+    "to_collection": 0,
+    "to_product": 2,
+    "cross_hub_blog": 0,
+    "suggested_new": 1,
+    "suggested_in_place": 1
+   }
+  },
+  {
+   "hub": "prime-health",
+   "collection_handle": "prime-health",
+   "tag": "Sănătate",
+   "new_articles_suggested": [],
+   "notes": "Intent keys carry an entity qualifier (nac, ficat, inima, colesterol, spirulina, ashwagandha, testosteron, scortisoara). Specialist plan row lists no * new articles for this hub. Added beyond the specialist list: nac-supliment-utilizarea-n-acetilcisteinei-termen-lung (only NAC safety article) and spirulina-beneficii-doza-optima (head spirulina benefits intent). liver-protect-500-ml no longer exists (ghost product, CLUSTER-09), so both Liver Protect articles redirect to silimarin spokes. citicolina-ghid-pre-workout-fara-cafeina from the specialist row belongs to pre-workout, not this hub.",
+   "counts": {
+    "total": 39,
+    "kept": 16,
+    "redirected": 23,
+    "renamed": 7,
+    "retitled": 16,
+    "to_blog": 23,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 0,
+    "suggested_new": 0,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "collection_handle": "suplimente-pre-workout",
+   "tag": "Pre-workout",
+   "new_articles_suggested": [
+    "Pre-workout: ce este, cum se ia și ce mănânci înainte",
+    "Pre-workout: efecte secundare și cum le eviți",
+    "Citrulina: beneficii, doză și diferența pură vs malat",
+    "Ce este intra-workout și 4 semne că ai nevoie de el",
+    "Dextrină ciclică vs maltodextrină la intra-workout"
+   ],
+   "new_articles_suggested_handles": [
+    "pre-workout-ce-este-cum-se-ia",
+    "pre-workout-efecte-secundare",
+    "citrulina-beneficii",
+    "ce-este-intra-workout",
+    "dextrina-ciclica-vs-maltodextrina"
+   ],
+   "new_articles_note": "Three of the five specialist *create spokes are fulfilled in place: pre-workout-havok-suplimente-pre-workout-si-alimentatia -> pre-workout-ce-este-cum-se-ia, omega-3-beneficii-cluster-insulin-bomb-1000g-signs -> ce-este-intra-workout, dextrina-ciclica-intra-workout-cum-sa-alegi-carbohidratii-intra -> dextrina-ciclica-vs-maltodextrina. Rewrite those kept articles to the new brief; do NOT create separate articles with these handles. Only pre-workout-efecte-secundare and citrulina-beneficii are new URLs (citrulina-beneficii should absorb the pure-citrulline-vs-malate sections repeated in the pre-workout spokes).",
+   "notes": "Merged hub (pre-workout + intra-workout + Energy Pump shot + Glycerol Max Pump). Intent keys carry an entity qualifier (pre-workout, intra-workout, citicolina, beta-alanina, sfecla-rosie, alpinia-galanga, apa-de-cocos) because the hub spans several products and ingredients; one kept article per qualified intent. 10/10 in-hub specialist keeps are kept. The other 3 specialist keeps are legacy-2025 articles decided in that file: ce-este-un-pre-workout-fara-cofeina (Nitrox NO-STIM / no-caffeine guide), glycerolul-secretul-culturistilor-profesionisti-pentru-un-antrenament-eficient (glycerol) and cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara (Combat PRO). Their duplicates here go to the product page (arzator precedent) because a cross-hub target is not verifiable from this file: if legacy-2025 keeps those handles, re-point apa-de-cocos-nitrox-no-stim-antrenamente-seara -> /blogs/news/ce-este-un-pre-workout-fara-cofeina, magneziu-bisglicinat-combat-pro-2-0-660g -> /blogs/news/cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara (and update that article to Combat PRO 2.0), magneziu-l-treonat-glycerol-max-pump-500g-125 -> the final glycerol handle. Added beyond the specialist list: intra-workout dosing (only one, 5 inbound), pre-workout timing (havok/alimentatia, 1761 w; its Combat PRO twin redirected) and alpinia galanga (only ingredient article, 1625 w). Competitor brand Havok appears in the bodies of the two kept havok-* articles and GymBeam in an H2 of the redirected checklist: strip in the body rewrite. No -2..-5 handles in this hub. All 22 articles carry the BlogGenAI marker; none qualifies for the hand-written rule.",
+   "counts": {
+    "total": 22,
+    "kept": 13,
+    "redirected": 9,
+    "renamed": 9,
+    "retitled": 13,
+    "to_blog": 8,
+    "to_collection": 0,
+    "to_product": 1,
+    "cross_hub_blog": 3,
+    "suggested_new": 2,
+    "suggested_in_place": 3
+   }
+  },
+  {
+   "hub": "crema-de-orez",
+   "collection_handle": "crema-de-orez",
+   "tag": "Cremă de orez",
+   "new_articles_suggested": [
+    "Crema de orez: ce este, cum se prepară și când o mănânci",
+    "Crema de orez vs ovăz instant: diferențe și ce alegi"
+   ],
+   "notes": "Intent keys carry an entity qualifier (crema-de-orez, unt-de-migdale, unt-de-arahide) because the hub spans cream of rice and nut butters. Each nut butter keeps one ghid-produs spoke; same-product quality/routine fillers fold into it (rule 1). Recipe intent (altele:retete-crema-de-orez) has no kept spoke: re-point the two recipe redirects to the new 'ce este si cum se prepara' spoke once it is published (avoid chains: update the redirect, do not chain). Inbound article links counted from articles-p*.json bodies: blueberry-muffin 0, tort-de 2, transforma-antrenamente 3, unt-de-migdale-reteta 1, unt-de-arahide-supplements-for 2, ashwagandha-unt-de-migdale 5.",
+   "new_articles_suggested_handles": [
+    "crema-de-orez-ce-este-cum-se-prepara",
+    "crema-de-orez-vs-ovaz-instant"
+   ],
+   "counts": {
+    "total": 10,
+    "kept": 5,
+    "redirected": 5,
+    "renamed": 3,
+    "retitled": 5,
+    "to_blog": 3,
+    "to_collection": 1,
+    "to_product": 1,
+    "cross_hub_blog": 0,
+    "suggested_new": 2,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "bauturi",
+   "collection_handle": "bauturi",
+   "tag": "Băuturi",
+   "new_articles_suggested": [
+    "Băuturi instant fără zahăr Frutilu: arome și când le folosești",
+    "Electroliți și hidratare la sală: ce bei la antrenament"
+   ],
+   "new_articles_suggested_handles": [
+    "bauturi-instant-fara-zahar-frutilu-ghid",
+    "electroliti-si-hidratare-la-sala"
+   ],
+   "notes": "Hub has 0 existing articles (cluster.md hub map: 19 products / 0 articles, CLUSTER-08/09/14). Hydration-themed articles in articles-all.json belong to other hubs' products (zinc, creatine, glutamine, oat cream, nitrox, cardio-calm) and are not reassigned here. Both suggested spokes (marked * in the plan table) should link /collections/bauturi and all 19 Frutilu drinks.",
+   "counts": {
+    "total": 0,
+    "kept": 0,
+    "redirected": 0,
+    "renamed": 0,
+    "retitled": 0,
+    "to_blog": 0,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 0,
+    "suggested_new": 2,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "batoane-proteice",
+   "collection_handle": "batoane-proteice",
+   "tag": "Batoane proteice",
+   "new_articles_suggested": [
+    "Batoane proteice: comparație pe arome și macronutrienți"
+   ],
+   "new_articles_suggested_handles": [
+    "batoane-proteice-ghid-comparatie"
+   ],
+   "notes": "All 3 articles are BlogGenAI re-assigned spokes (CLUSTER-03 re-assign row, plan table: keep 3, create 1). Each covers a distinct intent, so none is redirected. New spoke batoane-proteice-ghid-comparatie (CLUSTER-09/14) should link all 4 bars including baton-proteic-ciocolata-fructe-de-padure, which has 0 article links. CLUSTER-14 also lists baton-proteic-inainte-sau-dupa-antrenament (not starred in the plan table); kept titles avoid that query.",
+   "counts": {
+    "total": 3,
+    "kept": 3,
+    "redirected": 0,
+    "renamed": 3,
+    "retitled": 3,
+    "to_blog": 0,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 0,
+    "suggested_new": 1,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "alimente-sanatoase",
+   "collection_handle": "alimente-sanatoase",
+   "tag": "Alimente",
+   "new_articles_suggested": [],
+   "notes": "Intent keys carry an entity qualifier (ovaz-instant, fibre) because the hub spans two products. Specialist KEEP list kept as-is (9). Intents with no kept spoke go to the hub collection: rezultate-si-durata:ovaz-instant (3), cum-alegi/calitate:fibre (3), rezultate-si-durata:fibre (1). cluster.md marks no * new articles for this hub; CLUSTER-14 asks to stop producing oat/fibre articles. Inbound article links counted from articles-p*.json bodies range 0-5 and did not separate candidates. Every article carries the BlogGenAI marker and the same generator author, so rule 3 applies to none.",
+   "counts": {
+    "total": 46,
+    "kept": 9,
+    "redirected": 37,
+    "renamed": 7,
+    "retitled": 9,
+    "to_blog": 29,
+    "to_collection": 7,
+    "to_product": 1,
+    "cross_hub_blog": 0,
+    "suggested_new": 0,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "haine-mnx",
+   "collection_handle": "haine-mnx",
+   "tag": "Echipament și haine",
+   "new_articles_suggested": [],
+   "notes": "Plan table row Haine MNX: C only, keep tricou-sala-cele-mai-bune-tricouri-yoga, collection text only, no blog spokes needed, no * new spokes (CLUSTER-09: MNX apparel needs collection text, CLUSTER-01). Shaker article was re-assigned from vitamine-si-minerale (CLUSTER-06 cites its magneziu-l-treonat handle vs 'Ghidul Shaker-elor' title mismatch); redirect to the active product shaker-premium-accesorizat-500-ml (published false). The kept tricou article has 0 inbound links (CLUSTER-11), so the haine-mnx collection seo_text should link it.",
+   "counts": {
+    "total": 2,
+    "kept": 1,
+    "redirected": 1,
+    "renamed": 0,
+    "retitled": 1,
+    "to_blog": 0,
+    "to_collection": 0,
+    "to_product": 1,
+    "cross_hub_blog": 0,
+    "suggested_new": 0,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "antrenament-general",
+   "collection_handle": "suplimente-sala",
+   "tag": "Antrenament",
+   "new_articles_suggested": [],
+   "notes": "Hub has 0 input articles and an empty specialist KEEP list. cluster.md has no plan-table row, no CLUSTER-03/04/05/12/13 entry and no *-marked spoke for /collections/suplimente-sala, so nothing is kept, redirected or suggested. hubs.json: synthetic hub kept as a target for future training/nutrition-basics articles; every current BlogGenAuto article is product-bound and stays in its product hub.",
+   "counts": {
+    "total": 0,
+    "kept": 0,
+    "redirected": 0,
+    "renamed": 0,
+    "retitled": 0,
+    "to_blog": 0,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 0,
+    "suggested_new": 0,
+    "suggested_in_place": 0
+   }
+  },
+  {
+   "hub": "legacy-2025",
+   "collection_handle": "",
+   "tag": "Blog 2025",
+   "new_articles_suggested": [],
+   "notes": "Synthetic hub of the 6 articles published 2025-05-26..28 (CLUSTER-15). cluster.md has no plan-table row for this hub and no *-marked new spoke, so new_articles_suggested is empty (CLUSTER-14 lists pre-workout-fara-cofeina as existing: extend ce-este-un-pre-workout-fara-cofeina from 950 words). Departures from the computed rules: (a) tag 'hub:' would be empty because collection_handle is empty on purpose (hubs.json), so each kept article gets hub:<its topic collection> (aminoacizi, suplimente-pre-workout, arzator-de-grasimi), which also puts glycerol and Combat PRO into the pre-workout hub as CLUSTER-15 asks. (b) product_link_targets is empty for all 6 articles (bodies carry no /products/ links), so produs tags name the product each article is about, verified ACTIVE in products-all.json. (c) cum-contribuie-l-carnitine-1000-la-arderea-grasimilor meets rule 3 (2025, no BlogGenAI marker, author Sorin Cristea) but is a 73-word stub not on the specialist keep list; CLUSTER-15 redirects it to the kept L-carnitine spoke, and decisions-arzator-de-grasimi.json keeps l-carnitine-pareri-l-carnitine-1000-80-caps-2 with final handle l-carnitina-pentru-slabit-pareri (intent ce-este/beneficii:l-carnitina), so its target is a cross-hub kept final handle. Fallback if cross-hub blog targets are not allowed: /products/l-carnitine-1000-80-caps. Kept articles with has_bloggenai_marker=true (ce-este-un-pre-workout-fara-cofeina, cum-te-ajuta-combat-pro..., water-out-tinctura...) are 2025 hand-written posts reformatted in March 2026; all are specialist keeps. Re-points for other hubs: decisions-suplimente-pre-workout.json can now send magneziu-l-treonat-glycerol-max-pump-500g-125 -> /blogs/news/glicerol-culturism-pompare-musculara, magneziu-bisglicinat-combat-pro-2-0-660g -> /blogs/news/cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara, apa-de-cocos-nitrox-no-stim-antrenamente-seara -> /blogs/news/ce-este-un-pre-workout-fara-cofeina; aminoacizi collection guides should list bcaa-vs-eaa. Renames need Shopify redirects from the old diacritic/long handles (bcaa-vs-eaa, glicerol-culturism-pompare-musculara, water-out-tinctura-retentie-apa). Combat PRO article: body names Combat PRO (500 g); update to Combat PRO 2.0 in the rewrite. Titles carry no year; the Water Out title drops the seasonal 'în sezonul cald'.",
+   "counts": {
+    "total": 6,
+    "kept": 5,
+    "redirected": 1,
+    "renamed": 3,
+    "retitled": 5,
+    "to_blog": 1,
+    "to_collection": 0,
+    "to_product": 0,
+    "cross_hub_blog": 1,
+    "suggested_new": 0,
+    "suggested_in_place": 0
+   }
+  }
+ ],
+ "decisions": [
+  {
+   "handle": "best-creatine-monohydrate-dozaj-optim-creatina-rezultate-2026",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia",
+   "new_handle": "cum-se-ia-creatina",
+   "new_title": "Cum se ia creatina: doza pe zi și momentul optim",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:dozaj-si-cand-se-ia",
+    "produs:creatine-ready-to-go-plicuri-prime-supplements"
+   ],
+   "reason": "Specialist keep, 9 inbound; absorbs dimineața/seara timing pages; English handle and year removed.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-cand-apar-rezultate-creatina-30",
+   "action": "keep",
+   "intent": "rezultate-si-durata",
+   "new_handle": "in-cat-timp-face-efect-creatina",
+   "new_title": "În cât timp face efect creatina: primele 30 de zile",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:rezultate-si-durata",
+    "produs:creatina-monohidrat-micronized-300g-fara-aroma"
+   ],
+   "reason": "Specialist keep, 6 inbound; results timeline spoke; 66-char handle shortened.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-secretele-absorbtiei-creatinei-optimizare-rezultate",
+   "action": "keep",
+   "intent": "combinatii",
+   "new_handle": "cu-ce-se-combina-creatina",
+   "new_title": "Cu ce se combină creatina: carbohidrați, apă și absorbție",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:combinatii",
+    "produs:creatina-monohidrat-micronized-300g-fara-aroma"
+   ],
+   "reason": "Specialist keep, 5 inbound; carbs/hydration absorption content; replaces GymBeam -2 as combinations spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-creatina-creapure-signs-your-body",
+   "action": "keep",
+   "intent": "ghid-produs:creatina-creapure",
+   "new_handle": "creatina-creapure-ghid",
+   "new_title": "Creatina Creapure: cum o folosești pentru performanță",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:ghid-produs:creatina-creapure",
+    "produs:creatina-creapure"
+   ],
+   "reason": "Specialist product spoke for Creapure; English prompt fragment in handle.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-creatina-monohidrat-micronized-300g-fara",
+   "action": "keep",
+   "intent": "efecte-secundare",
+   "new_handle": "creatina-si-retentia-de-apa",
+   "new_title": "Creatina și retenția de apă: cum te hidratezi corect",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:efecte-secundare",
+    "produs:creatina-monohidrat-micronized-300g-fara-aroma"
+   ],
+   "reason": "Specialist keep (hidratare), 1846 words, 7 inbound; water retention is the main side-effect query.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatina-creapure-seasonal-supplementation-adjus",
+   "action": "keep",
+   "intent": "cum-alegi/calitate",
+   "new_handle": "cum-alegi-creatina",
+   "new_title": "Cum alegi creatina: ieftină vs Creapure, puritate și preț",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:cum-alegi/calitate",
+    "produs:creatina-creapure"
+   ],
+   "reason": "Specialist keep; quality/purity spoke absorbing label, certification and Creapure-vs-generic pages.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatine-ready-to-go-plicuri",
+   "action": "keep",
+   "intent": "comparatie:pastile-vs-praf",
+   "new_handle": "creatina-pastile-sau-praf",
+   "new_title": "Creatina pastile, praf sau plicuri: ce formă să alegi",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:comparatie:pastile-vs-praf",
+    "produs:creatine-ready-to-go-plicuri-prime-supplements"
+   ],
+   "reason": "Specialist keep (tipuri de creatină); format comparison spoke; English handle renamed.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-powder-de-ce-nu-vezi-rezultate",
+   "action": "keep",
+   "intent": "pe-varste/profil",
+   "new_handle": "creatina-dupa-40-de-ani",
+   "new_title": "Creatina după 40 de ani: de ce scade forța și cum ajută",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:pe-varste/profil",
+    "produs:creatina-creapure"
+   ],
+   "reason": "Specialist keep (pe vârste/după 40); handle did not match title.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements-how-to-store-supplements-prope",
+   "action": "keep",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "new_handle": "plicuri-creatina-ready-to-go",
+   "new_title": "Plicuri de creatină Ready To Go: cum le folosești corect",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+    "produs:creatine-ready-to-go-plicuri-prime-supplements"
+   ],
+   "reason": "Specialist product spoke for Ready To Go; absorbs RTG budget, storage and seasonal fillers.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-side-effects-creatina-monohidrat-micronized-300g-fara",
+   "action": "keep",
+   "intent": "ce-este/beneficii",
+   "new_handle": "ce-este-creatina",
+   "new_title": "Ce este creatina: beneficii pentru masă musculară și mituri",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:ce-este/beneficii",
+    "produs:creatina-monohidrat-micronized-300g-fara-aroma"
+   ],
+   "reason": "Specialist keep; best benefits explainer (1585 words); English side-effects handle renamed.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "pure-creatine-cand-sa-iei-pauza-de",
+   "action": "keep",
+   "intent": "altele:pauza-de-creatina",
+   "new_handle": "pauza-de-creatina",
+   "new_title": "Pauza de creatină: când o faci fără să pierzi progresul",
+   "tags": [
+    "Creatină",
+    "hub:creatina",
+    "intent:altele:pauza-de-creatina",
+    "produs:creatina-creapure"
+   ],
+   "reason": "Specialist keep; distinct cycling/pause query; English prefix and truncated handle fixed.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatina-creapure-bioavailability-why-absorption",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Creapure vs generic purity duplicates the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Dimineața sau seara near-duplicate (CLUSTER-03); merge into how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatine-ready-to-go-plicuri",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/in-cat-timp-face-efect-creatina",
+   "published": false,
+   "reason": "Cold-season filler whose body is before/after results; merge into results spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatine-ready-to-go-plicuri-2",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/in-cat-timp-face-efect-creatina",
+   "published": false,
+   "reason": "-2 \"când apar rezultatele\" in travel; merge into results spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatine-ready-to-go-plicuri-3",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "-3 research/stress-performance angle duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "before-and-after-creatine-creatine-ready-to-go-plicuri-4",
+   "action": "redirect",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "target": "/blogs/news/plicuri-creatina-ready-to-go",
+   "published": false,
+   "reason": "-4 generic Ready To Go product filler; merge into RTG product guide.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creapure-creatine-monohydrate-moduri-maximizare-forta-creatina-alimente",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/cu-ce-se-combina-creatina",
+   "published": false,
+   "reason": "Food synergy and stacking angle duplicates the combinations spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-ce-iau-expertii-forta-mituri",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Myths/strength page duplicates the benefits-and-myths spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-cum-sa-stii-daca-creatina",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Specialist keep dropped: general explainer duplicating benefits spoke; fewer words, 1 inbound, older.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-de-ce-calitatea-creatinei-conteaza",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Quality-in-travel filler; merge into quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-rutina-dimineata-creatina-optimizare-sezoniera",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Seasonal morning routine filler; timing belongs to how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-si-volumizarea-musculara-stagnarea-fortei-cand-sa-ceri",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Strength stagnation angle duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-benefits-creatina-creapure-understanding-dosage-recommend",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "\"7 semne că ai nevoie de creatină\" duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-benefits-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/creatina-dupa-40-de-ani",
+   "published": false,
+   "reason": "Age-strategy page duplicates the after-40 spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-benefits-creatina-monohidrat-micronized-300g-fara-2",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-2 regeneration on timing; base not kept; merge into how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-benefits-creatina-monohidrat-micronized-300g-fara-3",
+   "action": "redirect",
+   "intent": "efecte-secundare",
+   "target": "/blogs/news/creatina-si-retentia-de-apa",
+   "published": false,
+   "reason": "-3 hydration regeneration; water-retention myth goes to side-effects spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-benefits-creatina-monohidrat-micronized-300g-fara-4",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "-4 science vs myths regeneration of the benefits spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-creatina-creapure-combining-supplements-with",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Specialist keep dropped: strength-stagnation benefits duplicate; fewer words, eMAG/Dr Max H2; 8 inbound pass on.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatina-creapure-how-to-read",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Label-reading/choosing creatine duplicates the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Routine/consistency mistakes duplicate the how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatina-monohidrat-micronized-300g-fara-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "-2 stagnation checklist; base not kept; benefits explainer covers it.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatina-monohidrat-micronized-300g-fara-3",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/creatina-dupa-40-de-ani",
+   "published": false,
+   "reason": "-3 age-stage guide duplicates the after-40 spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatina-monohidrat-micronized-300g-fara-4",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-4 dimineața/seara near-duplicate (CLUSTER-03); merge into how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-gummies-creatine-ready-to-go-plicuri",
+   "action": "redirect",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "target": "/blogs/news/plicuri-creatina-ready-to-go",
+   "published": false,
+   "reason": "Storage filler pitching Ready To Go sachets; not its own intent.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatina-creapure-bioavailability-why-absorption",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Quality vs absorption duplicates the quality spoke; 0 inbound.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatina-creapure-future-trends-in",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Purity mistake page duplicates the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatina-creapure-future-trends-in-2",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-2 regeneration on dosing mistake; base not kept; merge into how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatina-creapure-supplements-and-food",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/creatina-dupa-40-de-ani",
+   "published": false,
+   "reason": "Creatine by age decade duplicates the after-40 spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatina-creapure-understanding-dosage-recommend",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "\"6 semne că ai nevoie de creatină\" duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-kinase-creatine-ready-to-go-plicuri",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/cu-ce-se-combina-creatina",
+   "published": false,
+   "reason": "Travel stacking/combination filler; merge into combinations spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-cand-sa-iei-creatina-dimineata",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Specialist keep dropped: timing shares intent with dosing spoke (9 vs 1 inbound); merge sections.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-creatina-creapure-debunking-common-supplement",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Unpublished English draft (myths); specialist says delete; redirect is a harmless fallback.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-creatina-creapure-how-to-evaluate",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/creatina-dupa-40-de-ani",
+   "published": false,
+   "reason": "Creatine at 20 vs 50 duplicates the after-40 spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-creatina-performanta-stiinta-2026",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Science/performance overview duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-semne-corp-nevoie-creatina-hidratare",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "\"Semne că ai nevoie de creatină\" duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-monohydrate-side-effects-cum-sa-iei-corect-suplimentele",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Correct-intake mistakes duplicate the how-to-take spoke (CLUSTER-03).",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatina-creapure-combining-supplements-with",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Lack-of-strength angle duplicates the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatina-creapure-how-to-evaluate",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/creatina-dupa-40-de-ani",
+   "published": false,
+   "reason": "Strength loss after 30 by age; same intent as after-40 spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatina-creapure-how-to-read",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Choosing pure creatine by label duplicates the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-pastile-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/in-cat-timp-face-efect-creatina",
+   "published": false,
+   "reason": "12-week results by age duplicates the results spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements-budget-smart-supplementation-s",
+   "action": "redirect",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "target": "/blogs/news/plicuri-creatina-ready-to-go",
+   "published": false,
+   "reason": "Specialist keep dropped: RTG budget/waste filler is not an intent; merge into RTG product guide.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements-budget-smart-supplementation-s-2",
+   "action": "redirect",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "target": "/blogs/news/plicuri-creatina-ready-to-go",
+   "published": false,
+   "reason": "-2 regeneration of RTG budget filler; merge into RTG product guide.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements-how-to-transition-between-supp",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Brand-switch/purity warning signs belong to the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements-supplements-for-seasonal-welln",
+   "action": "redirect",
+   "intent": "ghid-produs:creatine-ready-to-go-plicuri-prime-supplements",
+   "target": "/blogs/news/plicuri-creatina-ready-to-go",
+   "published": false,
+   "reason": "Seasonal RTG protocol filler; merge into RTG product guide.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-side-effects-creatina-creapure-signs-your-body",
+   "action": "redirect",
+   "intent": "efecte-secundare",
+   "target": "/blogs/news/creatina-si-retentia-de-apa",
+   "published": false,
+   "reason": "Body mostly side effects (myths, women, long term); merge into side-effects spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-side-effects-creatine-ready-to-go-plicuri",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Certifications (Creapure, NSF) page belongs to the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-side-effects-creatine-ready-to-go-plicuri-2",
+   "action": "redirect",
+   "intent": "altele:pauza-de-creatina",
+   "target": "/blogs/news/pauza-de-creatina",
+   "published": false,
+   "reason": "-2 pause regeneration; merge into pause spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatine-side-effects-creatine-ready-to-go-plicuri-3",
+   "action": "redirect",
+   "intent": "efecte-secundare",
+   "target": "/blogs/news/creatina-si-retentia-de-apa",
+   "published": false,
+   "reason": "-3 regeneration; body mostly kidney/women side effects despite type-choice title.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Specialist keep dropped: travel filler is not an intent; 956 words, GymBeam handle; 12 inbound pass to dosing spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-2",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/cu-ce-se-combina-creatina",
+   "published": false,
+   "reason": "Specialist keep dropped: -2 regeneration with GymBeam in title and H2s; absorption spoke kept instead.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-3",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-3 travel regeneration with GymBeam title; travel is not an intent.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-4",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-4 regeneration on intake mistakes; GymBeam handle and H2s.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-5",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "-5 autumn seasonal filler on dosing; GymBeam handle.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "gymbeam-creatine-creatine-ready-to-go-plicuri",
+   "action": "redirect",
+   "intent": "altele:pauza-de-creatina",
+   "target": "/blogs/news/pauza-de-creatina",
+   "published": false,
+   "reason": "Pause topic written 3 times; GymBeam handle; merge into pause spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "magneziu-creatina-creapure-morning-vs-evening",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia",
+   "target": "/blogs/news/cum-se-ia-creatina",
+   "published": false,
+   "reason": "Morning vs evening timing written 5 times; merge into how-to-take spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "micronized-creatine-monohydrate-plafonare-fizica-creatina-combinatii-suplimente",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/cu-ce-se-combina-creatina",
+   "published": false,
+   "reason": "Plateau plus stacking filler (Optimum/Amazon H2s); merge into combinations spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "monohydrate-creatine-5-semne-stagnare-forta-creatina",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Strength stagnation signs duplicate the benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "monohydrate-creatine-benefits-secrete-etichete-creatina-eficienta-maxima",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-creatina",
+   "published": false,
+   "reason": "Label secrets page duplicates the quality spoke.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "monohydrate-creatine-cum-sa-stii-daca-creatina",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Near-duplicate title (0.96) of \"cum să știi dacă creatina\"; benefits explainer.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "omega-3-creatina-monohidrat-micronized-300g-fara",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/ce-este-creatina",
+   "published": false,
+   "reason": "Myths vs results overview duplicates the benefits spoke; omega-3 handle unrelated.",
+   "hub": "creatina"
+  },
+  {
+   "handle": "creatina-pure-isolate-2000g-most-common",
+   "action": "keep",
+   "intent": "combinatii",
+   "new_handle": "creatina-si-proteina-impreuna",
+   "new_title": "Creatină și proteină împreună: cum le combini corect",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:combinatii",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Combinations intent: most inbound (6) vs my-protein (1); re-assigned from creatina hub; creatine+isolate stacking.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "gainer-mass-pure-isolate-2000g-future-of",
+   "action": "keep",
+   "intent": "pe-varste/profil",
+   "new_handle": "proteine-dupa-30-de-ani",
+   "new_title": "Proteine după 30 de ani: izolat sau gainer, ce alegi?",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:pe-varste/profil",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Age intent: tie on inbound (3) with buget-varsta, more words (1528); English handle renamed.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "iso-whey-protein-8-saptamani-izolat-proteic-slabit",
+   "action": "keep",
+   "intent": "rezultate-si-durata",
+   "new_handle": "izolat-proteic-pentru-slabit",
+   "new_title": "Izolat proteic pentru slăbit: rezultate în 8 săptămâni",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:rezultate-si-durata",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Only results/timeline article worth keeping; most inbound (5) in intent; English \"iso-whey-protein\" prefix removed.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "izolat-proteic-din-zer-prime-whey-2000g-plant-vs",
+   "action": "keep",
+   "intent": "comparatie:zer-vs-vegetal",
+   "new_handle": "proteina-din-zer-vs-vegetala",
+   "new_title": "Proteina din zer vs vegetală: ce alegi pentru mușchi",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:comparatie:zer-vs-vegetal",
+    "produs:prime-whey-2000g"
+   ],
+   "reason": "Specialist keep; whey vs plant comparison; handle carried product handle and English \"plant-vs\".",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "mass-gainer-prime-whey-1000g-protein-cooking",
+   "action": "keep",
+   "intent": "altele:gatit-cu-proteina",
+   "new_handle": "gatit-cu-pudra-proteica",
+   "new_title": "Cum gătești cu pudră proteică: 7 greșeli de evitat",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:altele:gatit-cu-proteina",
+    "produs:prime-whey-1000g"
+   ],
+   "reason": "Specialist keep; cooking/recipes spoke absorbing meal-prep and snack fillers; English handle renamed.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "muscle-gainer-pure-isolate-2000g-protein-powder",
+   "action": "keep",
+   "intent": "efecte-secundare",
+   "new_handle": "efecte-secundare-proteina-whey",
+   "new_title": "Efectele secundare ale proteinei whey: balonare și soluții",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:efecte-secundare",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Only side-effects (bloating) article in hub, 5 inbound; English handle renamed to Romanian query.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "protein-a-ghid-izolat-proteic-performanta-2026",
+   "action": "keep",
+   "intent": "ce-este/beneficii",
+   "new_handle": "izolat-proteic-beneficii",
+   "new_title": "Izolat proteic: ce este, beneficii și cum îl folosești",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:ce-este/beneficii",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Specialist keep, 8 inbound; misspelt \"protein-a\" handle and year renamed (CLUSTER-13).",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "protein-izolat-vs-concentrat-proteic-ghid",
+   "action": "keep",
+   "intent": "comparatie:izolat-vs-concentrat",
+   "new_handle": "izolat-vs-concentrat-proteic",
+   "new_title": "Izolat vs concentrat proteic: merită diferența de preț?",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:comparatie:izolat-vs-concentrat",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Specialist keep; pillar comparison for a weak SERP; drop English \"protein\" prefix from handle.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-cum-alegi-pudra-proteica-calitate",
+   "action": "keep",
+   "intent": "cum-alegi/calitate",
+   "new_handle": "proteina-cum-alegi-pudra-proteica-calitate",
+   "new_title": "Cum alegi o pudră proteică de calitate și ce verifici",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:cum-alegi/calitate",
+    "produs:prime-whey-1000g"
+   ],
+   "reason": "Specialist keep; handle already ASCII Romanian; title drops \"gătit\" to avoid overlap with cooking spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-isolate-whey-emperor-mass_3000g-complete-protein-guide",
+   "action": "keep",
+   "intent": "ghid-produs:emperor-mass_3000g",
+   "new_handle": "gainer-pentru-masa-musculara",
+   "new_title": "Gainer pentru masă musculară: cum îl folosești corect",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:ghid-produs:emperor-mass_3000g",
+    "produs:emperor-mass_3000g"
+   ],
+   "reason": "Specialist keep (gainer spoke, Emperor Mass); handle had underscore and English prompt fragment.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "protine-whey-isolate-refacere-musculara-semne-deficit-proteic",
+   "action": "keep",
+   "intent": "altele:semne-deficit-proteic",
+   "new_handle": "semne-deficit-proteic",
+   "new_title": "Semne de deficit proteic: ce e normal la refacere",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:altele:semne-deficit-proteic",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Specialist keep, 13 inbound (most linked in blog); misspelt \"protine\" handle renamed (CLUSTER-13).",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "weight-gainer-prime-whey-1000g-how-much",
+   "action": "keep",
+   "intent": "comparatie:gainer-vs-proteina",
+   "new_handle": "gainer-sau-proteina",
+   "new_title": "Gainer sau proteină whey: diferențe și ce alegi",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:comparatie:gainer-vs-proteina",
+    "produs:prime-whey-1000g"
+   ],
+   "reason": "Specialist keep; body is weight gainer vs protein powder, so retitled to \"gainer sau proteină\".",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-isolate-proteina-doza-optima-izolat-proteic-refacere",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:doza",
+   "new_handle": "doza-optima-izolat-proteic",
+   "new_title": "Doza optimă de izolat proteic pentru refacere musculară",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:dozaj-si-cand-se-ia:doza",
+    "produs:pure-isolate-2000g"
+   ],
+   "reason": "Specialist keep (dose per meal); handle had English \"whey-isolate\" prefix and duplicated keyword.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-isolate-proteina-prime-whey-go-protein-timing",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:cand-se-ia",
+   "new_handle": "cand-se-ia-proteina",
+   "new_title": "Când se ia proteina: înainte sau după antrenament?",
+   "tags": [
+    "Proteine",
+    "hub:pudra-proteica",
+    "intent:dozaj-si-cand-se-ia:cand-se-ia",
+    "produs:prime-whey-go"
+   ],
+   "reason": "Specialist keep: the one timing article (CLUSTER-13), rename cand-se-ia-proteina; 75% clickbait title replaced.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "gainer-gymbeam-prime-whey-2000g-protein-myths",
+   "action": "redirect",
+   "intent": "ghid-produs:prime-whey-2000g",
+   "target": "/products/prime-whey-2000g",
+   "published": false,
+   "reason": "Generic Prime Whey product filler, 0 inbound, GymBeam in handle; no Prime Whey spoke kept.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "gainer-masa-musculara-pure-isolate-2000g-protein-meal",
+   "action": "redirect",
+   "intent": "altele:gatit-cu-proteina",
+   "target": "/blogs/news/gatit-cu-pudra-proteica",
+   "published": false,
+   "reason": "Isolate meal-prep filler; recipes go to the cooking spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "gainer-prime-whey-2000g-seasonal-protein",
+   "action": "redirect",
+   "intent": "comparatie:gainer-vs-proteina",
+   "target": "/blogs/news/gainer-sau-proteina",
+   "published": false,
+   "reason": "Seasonal filler (bulking gainer vs cutting protein); 6 inbound passed to gainer-vs-protein spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "isolate-whey-protein-ce-verifica-expertii-eticheta-izolat",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/proteina-cum-alegi-pudra-proteica-calitate",
+   "published": false,
+   "reason": "Label reading = how to choose quality protein; merge checklist into the cum-alegi spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "izolat-proteic-emperor-mass_3000g-protein-for-muscle",
+   "action": "redirect",
+   "intent": "ghid-produs:emperor-mass_3000g",
+   "target": "/blogs/news/gainer-pentru-masa-musculara",
+   "published": false,
+   "reason": "Emperor Mass gainer analysis; duplicates the kept gainer spoke for the same product.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "magneziu-bisglicinat-prime-whey-2000g-future-trends",
+   "action": "redirect",
+   "intent": "altele:semne-deficit-proteic",
+   "target": "/blogs/news/semne-deficit-proteic",
+   "published": false,
+   "reason": "Muscle stagnation \"when to worry\" template; same angle as deficit signs spoke; magnesium handle mismatch.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "my-protein-ghid-rezultate-combinatii-izolat-proteic",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/creatina-si-proteina-impreuna",
+   "published": false,
+   "reason": "Combinations duplicate with 1 inbound; competitor MyProtein in handle.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "omega-3-prime-whey-1000g-complete-beginner",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/izolat-proteic-beneficii",
+   "published": false,
+   "reason": "Beginner whey protein guide (what it is, benefits); omega-3 handle unrelated to topic.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "protein-a-cum-sa-stii-daca-timing",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:cand-se-ia",
+   "target": "/blogs/news/cand-se-ia-proteina",
+   "published": false,
+   "reason": "Timing written 3 times (CLUSTER-13); misspelt protein-a handle; merge into timing spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-on-whey-gold-standard-prime-whey-go-protein-for",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/izolat-proteic-pentru-slabit",
+   "published": false,
+   "reason": "Protein for weight control; covered by the weight-loss results spoke; competitor brand in handle.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-whey-100-prime-whey-1000g-protein-snack",
+   "action": "redirect",
+   "intent": "altele:gatit-cu-proteina",
+   "target": "/blogs/news/gatit-cu-pudra-proteica",
+   "published": false,
+   "reason": "30-day protein snack recipes; belongs in cooking with protein powder spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-whey-gold-standard-prime-whey-2000g-reading-protein",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/proteina-cum-alegi-pudra-proteica-calitate",
+   "published": false,
+   "reason": "Label reading = choosing quality powder; competitor Gold Standard in handle; merge into cum-alegi spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-whey-isolate-ghid-izolat-proteic-buget-varsta",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/proteine-dupa-30-de-ani",
+   "published": false,
+   "reason": "Age/budget duplicate of the kept age spoke; tie on inbound, fewer words; move age section.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-whey-isolate-prime-whey-go-budget-protein",
+   "action": "redirect",
+   "intent": "altele",
+   "target": "/collections/pudra-proteica",
+   "published": false,
+   "reason": "Budget filler on cheap protein sources; no matching kept intent, send to hub collection.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "proteina-whey-optimum-nutrition-emperor-mass_3000g-protein-for-recovery",
+   "action": "redirect",
+   "intent": "ghid-produs:emperor-mass_3000g",
+   "target": "/blogs/news/gainer-pentru-masa-musculara",
+   "published": false,
+   "reason": "Gainer quality / Emperor Mass piece; competitor Optimum Nutrition in handle; merge into gainer spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "wave-protein-stagnare-musculara-alegere-proteina-vegetala",
+   "action": "redirect",
+   "intent": "comparatie:zer-vs-vegetal",
+   "target": "/blogs/news/proteina-din-zer-vs-vegetala",
+   "published": false,
+   "reason": "Same whey vs plant protein comparison as the kept spoke; English \"wave-protein\" handle.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-isolate-protein-secretele-absorbtiei-izolatului-masa-musculara",
+   "action": "redirect",
+   "intent": "ce-este/beneficii",
+   "target": "/blogs/news/izolat-proteic-beneficii",
+   "published": false,
+   "reason": "Generic whey isolate benefits/absorption; duplicates the kept izolat proteic benefits spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-on-protein-planificare-mese-izolat-proteic-buget",
+   "action": "redirect",
+   "intent": "altele:gatit-cu-proteina",
+   "target": "/blogs/news/gatit-cu-pudra-proteica",
+   "published": false,
+   "reason": "Budget meal-prep filler; recipes belong in cooking spoke; competitor ON/Gold Standard in handle.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-protein-cand-sa-ceri-sfatul-expert",
+   "action": "redirect",
+   "intent": "efecte-secundare",
+   "target": "/blogs/news/efecte-secundare-proteina-whey",
+   "published": false,
+   "reason": "Whey safety myths (organs, digestion); merge into side-effects spoke.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "whey-protein-isolate-rutina-matinala-pudra-proteica-performanta",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:cand-se-ia",
+   "target": "/blogs/news/cand-se-ia-proteina",
+   "published": false,
+   "reason": "Morning routine = when to take protein; third timing duplicate per CLUSTER-13.",
+   "hub": "pudra-proteica"
+  },
+  {
+   "handle": "aminoacizi-eaa-aminoacizi-esentiali-how-to",
+   "action": "keep",
+   "intent": "ce-este/beneficii:eaa",
+   "new_handle": "aminoacizi-esentiali-ce-sunt",
+   "new_title": "Aminoacizi esențiali: ce sunt și ce beneficii au (EAA)",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:ce-este/beneficii:eaa",
+    "produs:eaa-aminoacizi-esentiali"
+   ],
+   "reason": "Head query \"aminoacizi esentiali\" had no definition spoke; top inbound in hub (7); English handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-recovery-bcaa-500g-how-to",
+   "action": "keep",
+   "intent": "combinatii:bcaa",
+   "new_handle": "cum-combini-bcaa",
+   "new_title": "Cum combini BCAA cu glutamină și creatină: ce spun studiile",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:combinatii:bcaa",
+    "produs:recovery-bcaa-500g"
+   ],
+   "reason": "Specialist keep (BCAA studii); stacking spoke absorbing three BCAA combination duplicates.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-suplimente-eaa-aminoacizi-esentiali-supplements-for",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:eaa",
+   "new_handle": "aminoacizi-esentiali-dozaj",
+   "new_title": "Aminoacizi esențiali: dozaj și când se iau suplimentele EAA",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:dozaj-si-cand-se-ia:eaa",
+    "produs:eaa-aminoacizi-esentiali"
+   ],
+   "reason": "Specialist keep (EAA dozaj); absorbs label, absorption and travel dosage duplicates; English handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-taurine-80-caps-budget-smart",
+   "action": "keep",
+   "intent": "efecte-secundare:taurina",
+   "new_handle": "taurina-efecte-secundare",
+   "new_title": "Taurina: efecte secundare, contraindicații și semne de risc",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:efecte-secundare:taurina",
+    "produs:taurine-80-caps"
+   ],
+   "reason": "Specialist keep (taurină efecte secundare); English \"budget-smart\" handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-ce-este-recovery-bcaa-500g-complete-beginner",
+   "action": "keep",
+   "intent": "ce-este/beneficii:bcaa",
+   "new_handle": "bcaa-ce-sunt-si-beneficii",
+   "new_title": "BCAA: ce sunt aminoacizii ramificați și ce beneficii au",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:ce-este/beneficii:bcaa",
+    "produs:recovery-bcaa-500g"
+   ],
+   "reason": "Specialist keep; main BCAA guide, absorbs BCAA food and winter fillers; English handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-ce-este-taurine-80-caps-supplements-for",
+   "action": "keep",
+   "intent": "rezultate-si-durata:taurina",
+   "new_handle": "taurina-rezultate-30-de-zile",
+   "new_title": "Taurina: rezultate în 30 de zile și la ce să te aștepți",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:rezultate-si-durata:taurina",
+    "produs:taurine-80-caps"
+   ],
+   "reason": "Specialist keep (30 zile taurină); misleading \"bcaa-ce-este\" handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "branched-chain-amino-acids-cum-sa-combini-aminoacizii-esentiali",
+   "action": "keep",
+   "intent": "combinatii:eaa",
+   "new_handle": "cum-combini-aminoacizii-esentiali",
+   "new_title": "Cum combini aminoacizii esențiali cu BCAA pentru recuperare",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:combinatii:eaa",
+    "produs:eaa-aminoacizi-esentiali"
+   ],
+   "reason": "Specialist keep; English prefix \"branched-chain-amino-acids\" removed from handle.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "ce-este-taurina-taurine-80-caps-supplements-and",
+   "action": "keep",
+   "intent": "ce-este/beneficii:taurina",
+   "new_handle": "ce-este-taurina",
+   "new_title": "Ce este taurina: beneficii și rol în oboseala musculară",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:ce-este/beneficii:taurina",
+    "produs:taurine-80-caps"
+   ],
+   "reason": "Best taurine definition/benefits article (5 inbound, 1726 words, Romanian handle); replaces weaker specialist pick.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-si-sanatatea-stomacului-cand-sa-iei-glutamina-semne",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:glutamina",
+   "new_handle": "cand-se-ia-glutamina",
+   "new_title": "Când se ia glutamina: dimineața, seara sau după antrenament",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:dozaj-si-cand-se-ia:glutamina",
+    "produs:recovery-glutamin"
+   ],
+   "reason": "Specialist keep (CLUSTER-12); absorbs morning/evening, hydration, routine and signs duplicates.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-si-sanatatea-stomacului-combinatii-glutamina-suplimente-2026-etape",
+   "action": "keep",
+   "intent": "combinatii:glutamina",
+   "new_handle": "glutamina-combinatii",
+   "new_title": "Glutamina: combinații cu creatină, proteine și BCAA",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:combinatii:glutamina",
+    "produs:recovery-glutamin"
+   ],
+   "reason": "Specialist keep (CLUSTER-12); year and misleading stomach prefix removed from handle.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-si-sanatatea-stomacului-efecte-secundare-glutamina-ghid-complet",
+   "action": "keep",
+   "intent": "efecte-secundare:glutamina",
+   "new_handle": "glutamina-efecte-secundare",
+   "new_title": "Glutamina: efecte secundare, ce e normal și semne de alarmă",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:efecte-secundare:glutamina",
+    "produs:recovery-glutamin"
+   ],
+   "reason": "Specialist keep (CLUSTER-12); misleading stomach prefix, handle over 60 chars renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-si-sanatatea-stomacului-suplimente-recuperare-virste-glutamina-2026",
+   "action": "keep",
+   "intent": "pe-varste/profil:aminoacizi",
+   "new_handle": "aminoacizi-recuperare-pe-varste",
+   "new_title": "Aminoacizi pentru recuperare pe vârste: 20, 30 și 40+ ani",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:pe-varste/profil:aminoacizi",
+    "produs:recovery-glutamin"
+   ],
+   "reason": "Hub age spoke: most words (1840), 7 inbound; absorbs EAA/BCAA/magneziu age duplicates; year removed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-beneficii-recovery-glutamin-future-trends-in",
+   "action": "keep",
+   "intent": "ce-este/beneficii:glutamina",
+   "new_handle": "glutamina-beneficii",
+   "new_title": "Glutamina: beneficii pentru recuperare și imunitate",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:ce-este/beneficii:glutamina",
+    "produs:recovery-glutamin"
+   ],
+   "reason": "Core \"glutamina beneficii\" query had no kept spoke; most inbound (6) benefits article; English handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-contraindicatii-eaa-aminoacizi-esentiali-how-long",
+   "action": "keep",
+   "intent": "rezultate-si-durata:aminoacizi",
+   "new_handle": "aminoacizi-rezultate-in-cat-timp",
+   "new_title": "Aminoacizi EAA și BCAA: în cât timp apar rezultatele",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:rezultate-si-durata:aminoacizi",
+    "produs:eaa-aminoacizi-esentiali",
+    "produs:recovery-bcaa-500g"
+   ],
+   "reason": "Results spoke for EAA and BCAA: 6 inbound; absorbs BCAA results and stagnation duplicates.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-contraindicatii-taurine-80-caps-most-common",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:taurina",
+   "new_handle": "taurina-doza-si-cand-se-ia",
+   "new_title": "Taurina: doza zilnică, când se ia și 5 greșeli de evitat",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:dozaj-si-cand-se-ia:taurina",
+    "produs:taurine-80-caps"
+   ],
+   "reason": "Only taurine dosage/timing article; covers \"taurina cand se ia\"; misleading glutamina handle renamed.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-recovery-bcaa-500g-bioavailability-why",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:bcaa",
+   "new_handle": "bcaa-doza-si-cand-se-iau",
+   "new_title": "BCAA: doza corectă, pragul de leucină și când se iau",
+   "tags": [
+    "Aminoacizi",
+    "hub:aminoacizi",
+    "intent:dozaj-si-cand-se-ia:bcaa",
+    "produs:recovery-bcaa-500g"
+   ],
+   "reason": "Only BCAA dosage/leucine-threshold article, 5 inbound; covers \"bcaa cand se iau\"; clickbait title and handle replaced.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-esentiali-recovery-bcaa-500g-travel-friendly",
+   "action": "redirect",
+   "intent": "combinatii:bcaa",
+   "target": "/blogs/news/cum-combini-bcaa",
+   "published": false,
+   "reason": "Travel filler about combining BCAA; merge into the BCAA stacking spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-esentiali-recovery-glutamin-morning-vs-evening",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:glutamina",
+   "target": "/blogs/news/cand-se-ia-glutamina",
+   "published": false,
+   "reason": "Glutamine morning vs evening duplicate (CLUSTER-12); merge into the timing spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-suplimente-recovery-glutamin-quality-certifications-what",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:glutamina",
+   "target": "/blogs/news/cand-se-ia-glutamina",
+   "published": false,
+   "reason": "Morning glutamine routine is a timing duplicate; merge into the timing spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "aminoacizi-suplimente-recovery-glutamin-supplements-for-active",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:glutamina",
+   "target": "/blogs/news/glutamina-beneficii",
+   "published": false,
+   "reason": "Thin 914-word glutamine benefits guide; duplicate of the benefits spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-aminoacizi-cum-sa-combini-bcaa-pentru",
+   "action": "redirect",
+   "intent": "combinatii:bcaa",
+   "target": "/blogs/news/cum-combini-bcaa",
+   "published": false,
+   "reason": "\"Cum să combini BCAA\" budget duplicate of the BCAA stacking spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-ce-este-eaa-aminoacizi-esentiali-seasonal-supplementation",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:eaa",
+   "target": "/blogs/news/aminoacizi-esentiali-ce-sunt",
+   "published": false,
+   "reason": "Thin 1053-word generic EAA guide; duplicate of the EAA definition spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-eaa-aminoacizi-esentiali-age-specific",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:eaa",
+   "target": "/blogs/news/aminoacizi-esentiali-ce-sunt",
+   "published": false,
+   "reason": "Signs you need EAA; definition/benefits intent, merge into the EAA guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-recovery-glutamin-how-to-store",
+   "action": "redirect",
+   "intent": "altele:depozitare",
+   "target": "/products/recovery-glutamin",
+   "published": false,
+   "reason": "Storage filler for one product; specialist sends it to the product page.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bcaa-recovery-glutamin-natural-vs-synthetic",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:glutamina",
+   "target": "/blogs/news/glutamina-beneficii",
+   "published": false,
+   "reason": "Glutamine sources vs supplements: benefits intent, merged into the glutamine benefits spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "bisglicinat-de-magneziu-recovery-glutamin-supplements-for-different",
+   "action": "redirect",
+   "intent": "pe-varste/profil:aminoacizi",
+   "target": "/blogs/news/aminoacizi-recuperare-pe-varste",
+   "published": false,
+   "reason": "Recovery by age duplicate; magneziu handle misleading; merge into the age spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "ce-este-taurina-recovery-bcaa-500g-how-to",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:bcaa",
+   "target": "/blogs/news/bcaa-ce-sunt-si-beneficii",
+   "published": false,
+   "reason": "BCAA food sources and leucine basics; merge into the main BCAA guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "ce-este-taurina-recovery-glutamin-supplements-and-food",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:glutamina",
+   "target": "/blogs/news/glutamina-beneficii",
+   "published": false,
+   "reason": "Seasonal slow-recovery filler about glutamine role; merge into the benefits spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-beneficii-eaa-aminoacizi-esentiali-building-your",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:eaa",
+   "target": "/blogs/news/aminoacizi-esentiali-dozaj",
+   "published": false,
+   "reason": "Travel dosage filler for EAA; merge into the EAA dosage spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-beneficii-recovery-bcaa-500g-building-your",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:bcaa",
+   "target": "/blogs/news/bcaa-ce-sunt-si-beneficii",
+   "published": false,
+   "reason": "Thin 922-word winter BCAA filler, ALL CAPS title; merge into main BCAA guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-beneficii-taurine-80-caps-creating-a",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:taurina",
+   "target": "/blogs/news/taurina-rezultate-30-de-zile",
+   "published": false,
+   "reason": "Taurine results vs marketing duplicate of the 30-day results spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-eaa-aminoacizi-esentiali-understanding-dosage",
+   "action": "redirect",
+   "intent": "pe-varste/profil:aminoacizi",
+   "target": "/blogs/news/aminoacizi-recuperare-pe-varste",
+   "published": false,
+   "reason": "EAA and glutamine by age duplicate; merge its age table into the age spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-recovery-glutamin-signs-your-body",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:glutamina",
+   "target": "/blogs/news/cand-se-ia-glutamina",
+   "published": false,
+   "reason": "Signs-you-need-glutamine duplicate; CLUSTER-12 merges it into the timing spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "glutamina-taurine-80-caps-signs-your",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:taurina",
+   "target": "/blogs/news/ce-este-taurina",
+   "published": false,
+   "reason": "Signs you need taurine (fatigue, cramps); merge into the taurine benefits guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-beneficii-recovery-bcaa-500g-seasonal-supplementation",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:aminoacizi",
+   "target": "/blogs/news/aminoacizi-rezultate-in-cat-timp",
+   "published": false,
+   "reason": "Seasonal progress-monitoring filler; results intent, merge into the results spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-beneficii-taurine-80-caps-quality-certifications",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:taurina",
+   "target": "/blogs/news/ce-este-taurina",
+   "published": false,
+   "reason": "Thin 969-word taurine performance benefits filler; merge into the taurine guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-eaa-aminoacizi-esentiali-bioavailability-why",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:eaa",
+   "target": "/blogs/news/aminoacizi-esentiali-dozaj",
+   "published": false,
+   "reason": "CLUSTER-04 absorption duplicate pair; EAA dose/absorption merged into EAA dosage spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-recovery-bcaa-500g-when-to",
+   "action": "redirect",
+   "intent": "combinatii:bcaa",
+   "target": "/blogs/news/cum-combini-bcaa",
+   "published": false,
+   "reason": "BCAA + glutamine blends duplicate of the BCAA stacking spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-taurine-80-caps-combining-supplements",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:taurina",
+   "target": "/blogs/news/ce-este-taurina",
+   "published": false,
+   "reason": "Natural taurine sources vs supplements; definition/benefits intent, merge into taurine guide.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-taurine-80-caps-how-to",
+   "action": "redirect",
+   "intent": "altele:depozitare",
+   "target": "/products/taurine-80-caps",
+   "published": false,
+   "reason": "Storage filler for one product, same treatment as glutamine storage article.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "l-glutamina-taurine-80-caps-natural-vs",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:taurina",
+   "target": "/blogs/news/ce-este-taurina",
+   "published": false,
+   "reason": "Specialist keep overridden: worse duplicate (3 inbound, 1323 words, glutamina handle) of ce-este-taurina.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "magneziu-b6-eaa-aminoacizi-esentiali-how-to",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:eaa",
+   "target": "/blogs/news/aminoacizi-esentiali-dozaj",
+   "published": false,
+   "reason": "EAA dosage/label duplicate; magneziu handle misleading; merge into EAA dosage spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-beneficii-eaa-aminoacizi-esentiali-how-to",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:aminoacizi",
+   "target": "/blogs/news/aminoacizi-rezultate-in-cat-timp",
+   "published": false,
+   "reason": "Stagnation (no results) with EAA; merge into the results spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-beneficii-recovery-bcaa-500g-how-long",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:aminoacizi",
+   "target": "/blogs/news/aminoacizi-rezultate-in-cat-timp",
+   "published": false,
+   "reason": "BCAA results timeline, 0 inbound; merge into the EAA/BCAA results spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-beneficii-recovery-glutamin-debunking-common-supplement",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:aminoacizi",
+   "target": "/products/recovery-glutamin",
+   "published": false,
+   "reason": "Kyowa purity piece about one product; no kept quality spoke, so product page.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-ce-este-eaa-aminoacizi-esentiali-how-to",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:aminoacizi",
+   "target": "/collections/aminoacizi",
+   "published": false,
+   "reason": "Choosing EAA when switching brand; no kept quality spoke, collection guide covers choosing.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-ce-este-recovery-bcaa-500g-how-to",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:aminoacizi",
+   "target": "/collections/aminoacizi",
+   "published": false,
+   "reason": "Switching-brand/purity piece; no kept quality spoke, collection guide covers choosing.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-ce-este-recovery-glutamin-supplements-for-stress",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:taurina",
+   "target": "/blogs/news/ce-este-taurina",
+   "published": false,
+   "reason": "Handle and SEO title target \"ce este taurina\"; merge into the taurine definition spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-eaa-aminoacizi-esentiali-supplements-for",
+   "action": "redirect",
+   "intent": "pe-varste/profil:aminoacizi",
+   "target": "/blogs/news/aminoacizi-recuperare-pe-varste",
+   "published": false,
+   "reason": "EAA strategy by age duplicate; merge into the age spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-recovery-bcaa-500g-supplements-for",
+   "action": "redirect",
+   "intent": "pe-varste/profil:aminoacizi",
+   "target": "/blogs/news/aminoacizi-recuperare-pe-varste",
+   "published": false,
+   "reason": "BCAA/taurine stagnation after 40 is an age-profile duplicate; merge into the age spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "taurina-recovery-glutamin-supplements-and-hydration",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:glutamina",
+   "target": "/blogs/news/cand-se-ia-glutamina",
+   "published": false,
+   "reason": "Third \"când se ia glutamina\" article (CLUSTER-12); merge into the timing spoke.",
+   "hub": "aminoacizi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-15-reducere-pachet-thermo-core-3",
+   "action": "keep",
+   "intent": "cum-alegi/calitate",
+   "new_handle": "cum-alegi-un-arzator-de-grasimi",
+   "new_title": "Cum alegi un arzător de grăsimi: ingrediente și calitate",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:cum-alegi/calitate",
+    "produs:thermo-core-120-caps",
+    "produs:water-out-120-caps"
+   ],
+   "reason": "Specialist keep; -3 suffix and dead bundle handle renamed; absorbs premium/ieftin fillers.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-l-carnitine-1000-80-caps",
+   "action": "keep",
+   "intent": "rezultate-si-durata",
+   "new_handle": "l-carnitina-rezultate",
+   "new_title": "L-carnitina: rezultate reale după 8 și 12 săptămâni",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:rezultate-si-durata",
+    "produs:l-carnitine-1000-80-caps"
+   ],
+   "reason": "Specialist keep (8 săptămâni); base of -2/-3/-4 series; absorbs monitoring fillers.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-thermo-core-120-caps-sleep",
+   "action": "keep",
+   "intent": "ghid-produs:thermo-core-120-caps",
+   "new_handle": "thermo-core-ghid",
+   "new_title": "Thermo Core: ghid de ingrediente, dozaj și administrare",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:ghid-produs:thermo-core-120-caps",
+    "produs:thermo-core-120-caps"
+   ],
+   "reason": "Existing Thermo Core guide; rewritten in place as specialist *thermo-core-ghid; absorbs Thermo Core fillers.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "action": "keep",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "new_handle": "ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "new_title": "Ceai diuretic și retenția de apă: 5 cauze și soluții",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:ce-este/beneficii:diuretice-naturale",
+    "produs:water-out-120-caps"
+   ],
+   "reason": "Specialist keep; hand-written, no BlogGenAI marker, 5 inbound; handle already clean; retention pillar spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-fat-burning-booster-weight-loss",
+   "action": "keep",
+   "intent": "ce-este/beneficii:arzatoare",
+   "new_handle": "arzatoarele-de-grasimi-functioneaza",
+   "new_title": "Arzătoarele de grăsimi funcționează? Ce spune știința",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:ce-este/beneficii:arzatoare",
+    "produs:fat-burning-booster"
+   ],
+   "reason": "Most inbound (5) of the fat-burner explainers; base of -2; covers do-fat-burners-work FAQ.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-thermo-core-120-caps-weight",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:arzatoare",
+   "new_handle": "cum-se-ia-arzatorul-de-grasimi",
+   "new_title": "Cum se ia arzătorul de grăsimi: doză, moment și durată",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:dozaj-si-cand-se-ia:arzatoare",
+    "produs:thermo-core-120-caps"
+   ],
+   "reason": "Specialist keep (termen lung); has administrare/dozaj H2; non-Prime \"x10\" handle renamed.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-15-reducere-pachet-thermo-core",
+   "action": "keep",
+   "intent": "combinatii",
+   "new_handle": "combinatii-arzatoare-de-grasimi",
+   "new_title": "Combinații de arzătoare de grăsimi: ce funcționează și ce nu",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:combinatii",
+    "produs:thermo-core-120-caps",
+    "produs:water-out-120-caps"
+   ],
+   "reason": "Specialist keep; handle carries dead promo bundle; produs tags = bundle components.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-fat-burning-booster-meal-replacement",
+   "action": "keep",
+   "intent": "efecte-secundare",
+   "new_handle": "arzatoare-de-grasimi-efecte-secundare",
+   "new_title": "Arzătoare de grăsimi: efecte secundare și contraindicații",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:efecte-secundare",
+    "produs:fat-burning-booster"
+   ],
+   "reason": "Only side-effects article (contraindicații H2); rewritten in place as specialist *arzatoare-de-grasimi-efecte-secundare.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pareri-l-carnitine-1000-80-caps-2",
+   "action": "keep",
+   "intent": "ce-este/beneficii:l-carnitina",
+   "new_handle": "l-carnitina-pentru-slabit-pareri",
+   "new_title": "L-carnitina pentru slăbit: păreri și cum funcționează",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:ce-este/beneficii:l-carnitina",
+    "produs:l-carnitine-1000-80-caps"
+   ],
+   "reason": "Specialist keep (l-carnitina slăbit păreri); -2 suffix renamed; target of the 2025 L-carnitine stub.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pareri-l-carnitine-1000-80-caps-3",
+   "action": "keep",
+   "intent": "pe-varste/profil",
+   "new_handle": "l-carnitina-pentru-cine-este-potrivita",
+   "new_title": "L-carnitina: pentru cine este potrivită și când nu",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:pe-varste/profil",
+    "produs:l-carnitine-1000-80-caps"
+   ],
+   "reason": "Specialist keep (cum știi dacă e potrivită); absorbs age and signs-you-need fillers.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pentru-slabit-water-out-120-caps-weight",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:diuretice-naturale",
+   "new_handle": "cand-se-iau-diureticele-naturale",
+   "new_title": "Când se iau diureticele naturale: momentul care contează",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:dozaj-si-cand-se-ia:diuretice-naturale",
+    "produs:water-out-120-caps"
+   ],
+   "reason": "Specialist keep; 4 inbound; English handle fragments renamed to the Romanian query.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "omega-3-3-6-9-l-carnitine-1000-80-caps",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:l-carnitina",
+   "new_handle": "cum-se-ia-l-carnitina",
+   "new_title": "Cum se ia L-carnitina: doza pe zi și cum citești eticheta",
+   "tags": [
+    "Arzătoare de grăsimi",
+    "hub:arzator-de-grasimi",
+    "intent:dozaj-si-cand-se-ia:l-carnitina",
+    "produs:l-carnitine-1000-80-caps"
+   ],
+   "reason": "Specialist keep (dozaj L-carnitină); misleading omega-3 handle renamed.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-15-reducere-pachet-thermo-core",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-un-arzator-de-grasimi",
+   "published": false,
+   "reason": "Base of series; quality/choice intent kept in -3; dead promo bundle product.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-15-reducere-pachet-thermo-core-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:arzatoare",
+   "target": "/blogs/news/arzatoarele-de-grasimi-functioneaza",
+   "published": false,
+   "reason": "\"Realitate vs marketing\" duplicates the do-fat-burners-work explainer; base not kept.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-l-carnitine-1000-80-caps-2",
+   "action": "redirect",
+   "intent": "altele:slabit-in-grup",
+   "target": "/blogs/news/l-carnitina-rezultate",
+   "published": false,
+   "reason": "-2 regeneration (group challenge filler); base kept, rule 4.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-l-carnitine-1000-80-caps-3",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/l-carnitina-rezultate",
+   "published": false,
+   "reason": "-3 regeneration (fitness-watch monitoring); base kept, rule 4.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "acetyl-l-carnitine-l-carnitine-1000-80-caps-4",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/l-carnitina-rezultate",
+   "published": false,
+   "reason": "-4 regeneration, 12-week results; same intent as base, rule 4.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "carbohidrati-fat-burning-booster-supplements-for",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:arzatoare",
+   "target": "/blogs/news/cum-se-ia-arzatorul-de-grasimi",
+   "published": false,
+   "reason": "Dosing mistake/adaptation phase; merge into how-to-take fat burner spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-fat-burning-booster-plateau-breakthrough",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:arzatoare",
+   "target": "/blogs/news/arzatoarele-de-grasimi-functioneaza",
+   "published": false,
+   "reason": "\"Semne că arzătoarele ajută\" checklist duplicates the do-fat-burners-work explainer.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-fat-burning-booster-weight-loss-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:arzatoare",
+   "target": "/blogs/news/arzatoarele-de-grasimi-functioneaza",
+   "published": false,
+   "reason": "-2 regeneration (subscription filler); base kept, rule 4.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-pareri-water-out-120-caps-healthy",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "Snacks causing water retention; covered by the retention causes spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-pareri-water-out-120-caps-motivation",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "Retention remedies (păpădie, mesteacăn) duplicate the retention pillar; CLUSTER-04 pair with -2.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-pareri-water-out-120-caps-motivation-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "-2 regeneration of retention experts brief; base not kept; merge into retention pillar.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-pareri-water-out-120-caps-weight",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "Diet for water retention; covered by the retention causes and solutions spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-thermo-core-120-caps-weight",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:arzatoare",
+   "target": "/blogs/news/arzatoarele-de-grasimi-functioneaza",
+   "published": false,
+   "reason": "How a fat burner works; CLUSTER-04 duplicate of the -2 \"eficiență\" pair; merge into explainer.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-fat-burning-booster-stress-management",
+   "action": "redirect",
+   "intent": "combinatii",
+   "target": "/blogs/news/combinatii-arzatoare-de-grasimi",
+   "published": false,
+   "reason": "\"Cum să asociezi arzătoarele\" (L-carnitină + crom) is the combinations intent.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-pareri-fat-burning-booster-fitness-equipment",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/l-carnitina-pentru-cine-este-potrivita",
+   "published": false,
+   "reason": "\"Semne că ai nevoie\" belongs to the suitability spoke; non-Prime x10 handle.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-pareri-fat-burning-booster-weight-loss",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/l-carnitina-pentru-cine-este-potrivita",
+   "published": false,
+   "reason": "Fat burner by age; one profile spoke per hub; non-Prime x10 handle.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-pareri-fat-burning-booster-weight-loss-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:arzatoare",
+   "target": "/blogs/news/arzatoarele-de-grasimi-functioneaza",
+   "published": false,
+   "reason": "Gift/seasonal filler on what science supports; base not kept.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-pareri-l-carnitine-1000-80-caps",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:l-carnitina",
+   "target": "/blogs/news/l-carnitina-pentru-slabit-pareri",
+   "published": false,
+   "reason": "Thin English-origin L-carnitine explainer (951 w); merge into L-carnitine benefits spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-thermo-core-120-caps-premium",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-un-arzator-de-grasimi",
+   "published": false,
+   "reason": "\"Greșeala 85%\" choosing filler; longest text (1886 w), merge its sections into the choice spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "fat-burner-x10-thermo-core-120-caps-stress",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:arzatoare",
+   "target": "/blogs/news/cum-se-ia-arzatorul-de-grasimi",
+   "published": false,
+   "reason": "Adapting fat burner dose to a stressful lifestyle; merge into how-to-take spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-1000-80-caps-travel-weight-loss-tips",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-un-arzator-de-grasimi",
+   "published": false,
+   "reason": "Ieftin vs premium travel filler; CLUSTER-04 pair; 0 inbound.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-15-reducere-pachet-thermo-core-2",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/l-carnitina-pentru-cine-este-potrivita",
+   "published": false,
+   "reason": "Metabolism after 30 is the age intent, not combinations; deliberate rule-4 exception.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-15-reducere-pachet-thermo-core-3",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/l-carnitina-rezultate",
+   "published": false,
+   "reason": "Progress tracking is the results intent, not combinations; deliberate rule-4 exception.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-fat-burning-booster-weight-loss",
+   "action": "redirect",
+   "intent": "ghid-produs:fat-burning-booster",
+   "target": "/products/fat-burning-booster",
+   "published": false,
+   "reason": "Thin product filler (1120 w, 1 inbound); no FBB guide kept; product page.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pareri-l-carnitine-1000-80-caps",
+   "action": "redirect",
+   "intent": "pe-varste/profil",
+   "target": "/blogs/news/l-carnitina-pentru-cine-este-potrivita",
+   "published": false,
+   "reason": "Base of pareri series; age/decade content merges into the kept suitability spoke (-3).",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pareri-water-out-120-caps-sustainable",
+   "action": "redirect",
+   "intent": "ghid-produs:water-out-120-caps",
+   "target": "/products/water-out-120-caps",
+   "published": false,
+   "reason": "Water Out ingredients filler; Water Out guide lives in legacy-2025 hub; product page.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pentru-slabit-thermo-core-120-caps-weight",
+   "action": "redirect",
+   "intent": "ghid-produs:thermo-core-120-caps",
+   "target": "/blogs/news/thermo-core-ghid",
+   "published": false,
+   "reason": "Thin \"integrate Thermo Core\" filler (1067 w); merge into Thermo Core guide.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pentru-slabit-water-out-120-caps-food",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:diuretice-naturale",
+   "target": "/blogs/news/cand-se-iau-diureticele-naturale",
+   "published": false,
+   "reason": "Using natural diuretics to see scale progress; merge into when-to-take diuretics spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-pentru-slabit-water-out-120-caps-home",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "Swollen legs is a medical SERP; fold into retention causes spoke.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-thermo-core-120-caps-meal",
+   "action": "redirect",
+   "intent": "ghid-produs:thermo-core-120-caps",
+   "target": "/blogs/news/thermo-core-ghid",
+   "published": false,
+   "reason": "Thermo Core morning timing; CLUSTER-04 pair with meal-replacement; merge into Thermo Core guide.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-thermo-core-120-caps-portion",
+   "action": "redirect",
+   "intent": "ghid-produs:thermo-core-120-caps",
+   "target": "/blogs/news/thermo-core-ghid",
+   "published": false,
+   "reason": "Thermo Core appetite/portion filler; merge into the Thermo Core guide.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "l-carnitine-thermo-core-120-caps-travel",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate",
+   "target": "/blogs/news/cum-alegi-un-arzator-de-grasimi",
+   "published": false,
+   "reason": "Ieftin vs premium travel filler; CLUSTER-04 pair; travel is not an intent.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "magneziu-bisglicinat-water-out-500-ml-travel",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:diuretice-naturale",
+   "target": "/blogs/news/cand-se-iau-diureticele-naturale",
+   "published": false,
+   "reason": "Travel filler for Water Out 500 ml; travel is not an intent; 6 inbound passed on.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "magneziu-l-treonat-thermo-core-120-caps-creating",
+   "action": "redirect",
+   "intent": "rezultate-si-durata",
+   "target": "/blogs/news/l-carnitina-rezultate",
+   "published": false,
+   "reason": "Progress monitoring with fat burners; results spoke has the monitoring section.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "magneziu-water-out-500-ml-quality",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:diuretice-naturale",
+   "target": "/blogs/news/ceai-diuretic-sfatul-medicului-cauze-retentie-apa",
+   "published": false,
+   "reason": "Diuretic supplements overlap the ceai-diuretic guide; off-topic magnesium handle and H2.",
+   "hub": "arzator-de-grasimi"
+  },
+  {
+   "handle": "beneficii-omega-3-coenzima-q10-80-caps-how",
+   "action": "keep",
+   "intent": "combinatii:coenzima-q10",
+   "new_handle": "coenzima-q10-si-omega-3",
+   "new_title": "Coenzima Q10 și Omega-3: sinergia pentru energie celulară",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:combinatii:coenzima-q10",
+    "produs:coenzima-q10-80-caps"
+   ],
+   "reason": "Q10 + omega-3 combination spoke, 5 inbound, 1730 words; English \"how\" handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "beneficii-omega-3-omega-3-how-to-store",
+   "action": "keep",
+   "intent": "cum-alegi/calitate:omega-3",
+   "new_handle": "cum-alegi-omega-3",
+   "new_title": "Cum alegi Omega-3 de calitate și cum îl păstrezi corect",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:cum-alegi/calitate:omega-3",
+    "produs:omega-3"
+   ],
+   "reason": "Specialist keep; only omega-3 article in hub; English \"how-to-store\" handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "coenzima-q10-rezultate-coenzima-q10-asteptari-vs",
+   "action": "keep",
+   "intent": "rezultate-si-durata:coenzima-q10",
+   "new_handle": "coenzima-q10-rezultate",
+   "new_title": "Coenzima Q10: rezultate reale și mituri de marketing",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:rezultate-si-durata:coenzima-q10",
+    "produs:coenzima-q10-80-caps"
+   ],
+   "reason": "Specialist keep, 6 inbound; handle repeats words and ends in English \"vs\".",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-bisglicinat-80-caps-natural-vs-synthetic-supplemen",
+   "action": "keep",
+   "intent": "rezultate-si-durata:magneziu-bisglicinat",
+   "new_handle": "magneziu-bisglicinat-rezultate-30-de-zile",
+   "new_title": "Magneziu bisglicinat: rezultate după 30 de zile",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:rezultate-si-durata:magneziu-bisglicinat",
+    "produs:magneziu-bisglicinat-80-caps"
+   ],
+   "reason": "Specialist keep (30 zile magneziu), 5 inbound; English truncated handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-bisglicinat-cum-iti-dai-seama-daca",
+   "action": "keep",
+   "intent": "ce-este/beneficii:magneziu-bisglicinat",
+   "new_handle": "magneziu-bisglicinat-cum-iti-dai-seama-daca",
+   "new_title": "Magneziu bisglicinat: beneficii și cui i se potrivește",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:magneziu-bisglicinat",
+    "produs:magneziu-bisglicinat-80-caps"
+   ],
+   "reason": "Specialist keep; most inbound in hub (11); absorbs the absorption-signs duplicate.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-glicinat-daily-vitamin-formula-natural-vs",
+   "action": "keep",
+   "intent": "efecte-secundare:multivitamine",
+   "new_handle": "multivitamine-efecte-secundare",
+   "new_title": "Multivitamine: efecte secundare normale și semne de alarmă",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:efecte-secundare:multivitamine",
+    "produs:daily-vitamin-formula"
+   ],
+   "reason": "Specialist keep (multivitamine); magneziu/English product-handle slug renamed to the query.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-l-threonate-supliment-alimentar-chromium-picolinate-80",
+   "action": "keep",
+   "intent": "ce-este/beneficii:crom-picolinat",
+   "new_handle": "crom-picolinat-beneficii",
+   "new_title": "Crom picolinat: beneficii și cum știi dacă ți se potrivește",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:crom-picolinat",
+    "produs:supliment-alimentar-chromium-picolinate-80-caps"
+   ],
+   "reason": "Specialist keep; only chromium article; 62-char English handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-l-threonate-vitamin-c-1000-80-caps",
+   "action": "keep",
+   "intent": "pe-varste/profil:vitamina-c",
+   "new_handle": "vitamina-c-doza-pe-varste",
+   "new_title": "Vitamina C pe vârste: doza zilnică de la 20 la 60+ ani",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:pe-varste/profil:vitamina-c",
+    "produs:vitamin-c-1000-80-caps"
+   ],
+   "reason": "Specialist keep; only vitamin C article; misleading magneziu/English handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-l-treonat-vitamina-d3-k2-supplements-and",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:vitamina-d3-k2",
+   "new_handle": "cand-se-ia-vitamina-d3-k2",
+   "new_title": "Când se ia vitamina D3+K2: momentul optim și absorbția",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:dozaj-si-cand-se-ia:vitamina-d3-k2",
+    "produs:vitamina-d3-k2"
+   ],
+   "reason": "Specialist keep (când se ia D3+K2); English \"supplements-and\" handle renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "nattokinaza-6-semne-circulatie-sange-ingreunata",
+   "action": "keep",
+   "intent": "ce-este/beneficii:nattokinaza",
+   "new_handle": "nattokinaza-6-semne-circulatie-sange-ingreunata",
+   "new_title": "Nattokinaza: beneficii și 6 semne de circulație îngreunată",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:nattokinaza",
+    "produs:enzima-nattokinaza-80-caps"
+   ],
+   "reason": "Only nattokinaza article, 6 inbound; distinct entity, no duplicate; clean Romanian handle.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "potasiul-si-retentia-de-apa-suplimente-potasiu-alimentatie-calatorii-2026",
+   "action": "keep",
+   "intent": "ce-este/beneficii:potasiu",
+   "new_handle": "potasiu-si-retentia-de-apa",
+   "new_title": "Potasiul și retenția de apă: ce mănânci și ce suplimente iei",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:potasiu",
+    "produs:potassium-complex-80-caps"
+   ],
+   "reason": "Only potassium article (deficit symptoms, foods); 72-char handle with travel and year renamed.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "vitamine-b12-90-zile-vitamina-d3-k2",
+   "action": "keep",
+   "intent": "rezultate-si-durata:vitamina-d3-k2",
+   "new_handle": "vitamine-b12-90-zile-vitamina-d3-k2",
+   "new_title": "Vitamina D3+K2 și B12: rezultate în 90 de zile",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:rezultate-si-durata:vitamina-d3-k2",
+    "produs:vitamina-d3-k2"
+   ],
+   "reason": "Specialist keep; no BlogGenAI marker; 90-day results spoke; handle already clean Romanian.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "vitamine-k-ce-vitamine-aleg-expertii-sanatatea",
+   "action": "keep",
+   "intent": "ce-este/beneficii:vitamina-d3-k2",
+   "new_handle": "vitamine-k-ce-vitamine-aleg-expertii-sanatatea",
+   "new_title": "Vitamine pentru oase: de ce D3 și K2 se iau împreună",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:vitamina-d3-k2",
+    "produs:vitamina-d3-k2"
+   ],
+   "reason": "D3+K2 benefits/bones intent had no kept spoke; 7 inbound, 1681 words; clean Romanian handle.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-cum-sa-stii-daca-zincul",
+   "action": "keep",
+   "intent": "pe-varste/profil:zinc",
+   "new_handle": "zinc-citrat-cum-sa-stii-daca-zincul",
+   "new_title": "Zinc pe vârste: cum știi de cât zinc ai nevoie",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:pe-varste/profil:zinc",
+    "produs:zinc-citrate-80-caps"
+   ],
+   "reason": "Specialist keep; zinc by age (young, adults, seniors); clean Romanian handle.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:zinc",
+   "new_handle": "zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "new_title": "Doza de zinc pe zi: cât și când iei zinc citrat",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:dozaj-si-cand-se-ia:zinc",
+    "produs:zinc-citrate-80-caps"
+   ],
+   "reason": "Specialist keep (dozaj zinc); absorbs pause, travel and dose-error duplicates; clean handle.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "action": "keep",
+   "intent": "ce-este/beneficii:zinc",
+   "new_handle": "zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "new_title": "Zinc pentru imunitate: beneficii, semne de deficit și surse",
+   "tags": [
+    "Vitamine și minerale",
+    "hub:vitamine-si-minerale",
+    "intent:ce-este/beneficii:zinc",
+    "produs:zinc-citrate-80-caps"
+   ],
+   "reason": "Head zinc benefits/immunity intent had no kept spoke; most zinc inbound (5); Romanian handle.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "ashwagandha-vitamina-d3-k2-how-to",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:vitamina-d3-k2",
+   "target": "/products/vitamina-d3-k2",
+   "published": false,
+   "reason": "Brand-switch filler, half about ashwagandha; no kept D3+K2 quality spoke, so product page.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "carbohidrati-magneziu-bisglicinat-80-caps-bioavailability",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:magneziu-bisglicinat",
+   "target": "/blogs/news/magneziu-bisglicinat-cum-iti-dai-seama-daca",
+   "published": false,
+   "reason": "Absorption-signs angle duplicates the 'is bisglicinat right for you' spoke; 4 vs 11 inbound.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-glicinat-coenzima-q10-80-caps-debunking",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:coenzima-q10",
+   "target": "/products/coenzima-q10-80-caps",
+   "published": false,
+   "reason": "Cheap vs premium Q10 filler, 0 inbound; no kept Q10 quality spoke, so product page.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "magneziu-zinc-citrate-80-caps-when",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:zinc",
+   "target": "/blogs/news/zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "published": false,
+   "reason": "Zinc pause/cycling is part of the dosage regimen; merge into the zinc dosage spoke.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-de-ce-strategia-suplimentare-zinc",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:zinc",
+   "target": "/blogs/news/zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "published": false,
+   "reason": "\"De ce strategia\" template; elemental-dose and absorption errors duplicate the zinc dosage spoke.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-greseli-administrare-zinc-calatorii-2026",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:zinc",
+   "target": "/blogs/news/zinc-citrat-dozaj-optim-zinc-imunitate-evaluare",
+   "published": false,
+   "reason": "Travel filler; body is zinc timing, pauses and copper balance; merge into dosage spoke.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-protocol-complet-hidratare-zinc-imunitate",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:zinc",
+   "target": "/blogs/news/zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "published": false,
+   "reason": "Hydration-and-zinc immunity protocol duplicates the zinc immunity spoke (2 vs 5 inbound).",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "zinc-citrat-stres-imunitate-ghid-zinc-efecte",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:zinc",
+   "target": "/blogs/news/zinc-citrat-zincul-pentru-imunitate-solutii-buget",
+   "published": false,
+   "reason": "Stress-and-immunity angle duplicates the zinc immunity spoke; 1 inbound.",
+   "hub": "vitamine-si-minerale"
+  },
+  {
+   "handle": "adevarul-despre-spirulina-90-zile-spirulina-evaluare-studii",
+   "action": "keep",
+   "intent": "rezultate-si-durata:spirulina",
+   "new_handle": "adevarul-despre-spirulina-90-zile-spirulina-evaluare-studii",
+   "new_title": "Adevărul despre spirulină: rezultate în 90 de zile",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:rezultate-si-durata:spirulina",
+    "produs:spirulina-80-caps"
+   ],
+   "reason": "Specialist keep; spirulina 90-day results spoke; handle already clean Romanian.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "alpha-booster-testosterone-ce-spun-studiile-tincturi-potenta",
+   "action": "keep",
+   "intent": "ce-este/beneficii:testosteron",
+   "new_handle": "tincturi-pentru-potenta",
+   "new_title": "Tincturi pentru potență și testosteron: ce spun studiile",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:testosteron",
+    "produs:testo-revive-500-ml"
+   ],
+   "reason": "Specialist keep; only testosterone/potency spoke; English \"alpha-booster-testosterone\" handle renamed.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "bisglicinat-de-magneziu-ashwagandha-ksm-66-how-long",
+   "action": "keep",
+   "intent": "rezultate-si-durata:ashwagandha",
+   "new_handle": "ashwagandha-in-cat-timp-face-efect",
+   "new_title": "Ashwagandha KSM-66: în cât timp face efect asupra stresului",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:rezultate-si-durata:ashwagandha",
+    "produs:ashwagandha-ksm-66"
+   ],
+   "reason": "Specialist keep; ashwagandha results timeline; English \"how-long\" handle renamed.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "colesterol-7-semne-colesterol-marit-ghid",
+   "action": "keep",
+   "intent": "ce-este/beneficii:colesterol",
+   "new_handle": "colesterol-7-semne-colesterol-marit-ghid",
+   "new_title": "Colesterol mărit: 7 semne ascunse și rolul bergamotei",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:colesterol",
+    "produs:citrus-bergamot"
+   ],
+   "reason": "Specialist keep; bergamot cholesterol spoke; absorbs budget and seasonal bergamot fillers.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "detox-ficat-protocol-regenerare-hepatica-sportivi-2026",
+   "action": "keep",
+   "intent": "ce-este/beneficii:ficat",
+   "new_handle": "detox-ficat-pentru-sportivi",
+   "new_title": "Detox ficat pentru sportivi: protocol cu silimarină și dietă",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:ficat",
+    "produs:silimarina-80-caps"
+   ],
+   "reason": "Specialist keep, 4 inbound; detox/liver-protection spoke; year removed from handle.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "hibiscus-si-tensiunea-arteriala-cat-timp-rezultate-suplimente-naturale",
+   "action": "keep",
+   "intent": "rezultate-si-durata:inima",
+   "new_handle": "hibiscus-tensiunea-arteriala-rezultate",
+   "new_title": "Hibiscus și tensiunea arterială: când apar rezultatele",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:rezultate-si-durata:inima",
+    "produs:cardio-calm-500-ml"
+   ],
+   "reason": "Specialist keep, 4 inbound; heart results timeline spoke; 70-char handle shortened.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "action": "keep",
+   "intent": "ce-este/beneficii:inima",
+   "new_handle": "hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "new_title": "Suplimente pentru inimă: 6 semne că ai nevoie și cum le iei",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:inima",
+    "produs:cardio-calm-500-ml"
+   ],
+   "reason": "Specialist keep; heart supplements signs and administration spoke; handle already clean Romanian.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-600-mg-cum-sa-combini-n-acetilcisteina",
+   "action": "keep",
+   "intent": "combinatii:nac",
+   "new_handle": "nac-600-mg-cum-sa-combini-n-acetilcisteina",
+   "new_title": "Cum combini NAC 600 mg cu vitamina C și seleniu",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:combinatii:nac",
+    "produs:nac-80-caps"
+   ],
+   "reason": "Specialist keep; only NAC stacking article; handle already clean Romanian.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "action": "keep",
+   "intent": "ce-este/beneficii:nac",
+   "new_handle": "nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "new_title": "NAC 600 mg: beneficii și semne că ai nevoie de el",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:nac",
+    "produs:nac-80-caps"
+   ],
+   "reason": "Specialist keep, 5 inbound; absorbs oxidative-stress signs, results-vs-myths and thin energy duplicates.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-supliment-utilizarea-n-acetilcisteinei-termen-lung",
+   "action": "keep",
+   "intent": "efecte-secundare:nac",
+   "new_handle": "nac-supliment-utilizarea-n-acetilcisteinei-termen-lung",
+   "new_title": "NAC: efecte secundare și siguranța pe termen lung",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:efecte-secundare:nac",
+    "produs:nac-80-caps"
+   ],
+   "reason": "Only NAC safety/contraindications article; most NAC words (1776), 4 inbound; clean handle.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "omega-3-beneficii-ashwagandha-ksm-66-age-specific",
+   "action": "keep",
+   "intent": "ce-este/beneficii:ashwagandha",
+   "new_handle": "ashwagandha-ksm-66-beneficii",
+   "new_title": "Ashwagandha KSM-66: beneficii și vitalitate la orice vârstă",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:ashwagandha",
+    "produs:ashwagandha-ksm-66"
+   ],
+   "reason": "Specialist keep, 5 inbound; ashwagandha benefits by age; omega-3/English handle renamed.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "prospect-spirulina-cum-sa-alegi-spirulina-de",
+   "action": "keep",
+   "intent": "cum-alegi/calitate:spirulina",
+   "new_handle": "prospect-spirulina-cum-sa-alegi-spirulina-de",
+   "new_title": "Cum alegi spirulina de calitate: prospect și puritate",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:cum-alegi/calitate:spirulina",
+    "produs:spirulina-80-caps"
+   ],
+   "reason": "Specialist keep; spirulina quality spoke; absorbs travel \"best spirulina\" filler.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:ficat",
+   "new_handle": "protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "new_title": "Dozajul silimarinei pentru ficat: ce spun studiile",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:dozaj-si-cand-se-ia:ficat",
+    "produs:silimarina-80-caps"
+   ],
+   "reason": "Specialist keep; silimarin dosage spoke; absorbs travel timing, cycling and Liver Protect dosing duplicates.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "psv-nac-administrarea-n-acetilcisteinei-dimineata-seara",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:nac",
+   "new_handle": "cand-se-ia-nac-dimineata-sau-seara",
+   "new_title": "Când se ia NAC (N-acetilcisteină): dimineața sau seara?",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:dozaj-si-cand-se-ia:nac",
+    "produs:nac-80-caps"
+   ],
+   "reason": "Specialist keep; NAC timing spoke; absorbs empty-stomach and storage duplicates; \"psv\" football keyword removed.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "scortisoara-ceylon-scortisoara-ieftina-vs-ceylon-diferenta",
+   "action": "keep",
+   "intent": "comparatie:scortisoara",
+   "new_handle": "scortisoara-ceylon-scortisoara-ieftina-vs-ceylon-diferenta",
+   "new_title": "Scorțișoară Ceylon vs Cassia: diferențe și riscul cumarinei",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:comparatie:scortisoara",
+    "produs:scortisoara-ceylon-bio-200g"
+   ],
+   "reason": "Specialist keep; only cinnamon article, Ceylon vs Cassia comparison; handle already Romanian.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "spirulina-beneficii-doza-optima-spirulina-alimente-detoxifiere",
+   "action": "keep",
+   "intent": "ce-este/beneficii:spirulina",
+   "new_handle": "spirulina-beneficii-doza-optima",
+   "new_title": "Spirulina: beneficii, doza optimă și combinații cu alimente",
+   "tags": [
+    "Sănătate",
+    "hub:prime-health",
+    "intent:ce-este/beneficii:spirulina",
+    "produs:spirulina-80-caps"
+   ],
+   "reason": "Head benefits+dose intent had no kept spoke; best topical match; 62-char handle shortened.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "cea-mai-buna-spirulina-de-pe-piata-ce-iau-expertii-detoxifiere-calatorii",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:spirulina",
+   "target": "/blogs/news/prospect-spirulina-cum-sa-alegi-spirulina-de",
+   "published": false,
+   "tags": [],
+   "reason": "Travel filler on choosing spirulina; same quality intent as the kept choosing spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "coenzima-q10-citrus-bergamot-seasonal-supplementation-adjus",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:colesterol",
+   "target": "/blogs/news/colesterol-7-semne-colesterol-marit-ghid",
+   "published": false,
+   "tags": [],
+   "reason": "Seasonal filler on bergamot dose by age and Q10; folds into the bergamot spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "creatina-liver-protect-500-ml-understanding",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ficat",
+   "target": "/blogs/news/protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "published": false,
+   "tags": [],
+   "reason": "Dosing protocol for deleted Liver Protect product; English creatine handle; merge into silimarin dosage.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "creatina-monohidratata-nac-80-caps-debunking-common",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:nac",
+   "target": "/blogs/news/nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "published": false,
+   "tags": [],
+   "reason": "NAC results-vs-myths mixed with creatine; English handle; duplicates the NAC benefits spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "detox-ficat-4-semne-stres-hepatic-sportivi",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ficat",
+   "target": "/blogs/news/detox-ficat-pentru-sportivi",
+   "published": false,
+   "tags": [],
+   "reason": "Liver-stress signs for athletes; same detox ficat intent; 2 vs 4 inbound.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "detox-ficat-alternativa-naturala-accesibila-protectie-ficat",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ficat",
+   "target": "/blogs/news/detox-ficat-pentru-sportivi",
+   "published": false,
+   "tags": [],
+   "reason": "Budget filler on silimarin and 3-day detox myths; duplicates the detox ficat spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "hibiscus-suplimente-inima-dieta-mituri-monitorizare",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:inima",
+   "target": "/blogs/news/hibiscus-tensiunea-arteriala-rezultate",
+   "published": false,
+   "tags": [],
+   "reason": "Diet and 3-month monitoring for results; hibiscus duplicate of the results spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "magneziu-bisglicinat-dr-max-liver-protect-500-ml-supplements",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ficat",
+   "target": "/blogs/news/detox-ficat-pentru-sportivi",
+   "published": false,
+   "tags": [],
+   "reason": "Liver-fatigue signs; Dr Max brand handle; promotes the deleted Liver Protect product.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "magneziu-bisglicinat-pareri-testo-revive-500-ml-travel",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:testosteron",
+   "target": "/blogs/news/tincturi-pentru-potenta",
+   "published": false,
+   "tags": [],
+   "reason": "Travel filler on Testo Revive vitality tincture; English handle; travel is not an intent.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-1000-mg-transformare-obiceiuri-sanatoase-nac-energie",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:nac",
+   "target": "/blogs/news/nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "published": false,
+   "tags": [],
+   "reason": "Thin (876 w), 0 inbound generic NAC benefits/energy piece.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-beneficii-ghid-administrare-n-acetilcisteina-absorbtie",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:nac",
+   "target": "/blogs/news/cand-se-ia-nac-dimineata-sau-seara",
+   "published": false,
+   "tags": [],
+   "reason": "Empty-stomach administration duplicates the kept NAC timing spoke; 1 inbound.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-farmacia-tei-greseli-depozitare-n-acetilcisteina-preventie",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:nac",
+   "target": "/blogs/news/cand-se-ia-nac-dimineata-sau-seara",
+   "published": false,
+   "tags": [],
+   "reason": "Storage filler with Farmacia Tei brand in handle; storage is not an intent.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "nac-lista-simptome-stres-oxidativ-suplimente",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:nac",
+   "target": "/blogs/news/nac-600mg-semne-nevoie-nac-rezultate-reale",
+   "published": false,
+   "tags": [],
+   "reason": "Same \"signs you need NAC\" intent as specialist-kept NAC 600 mg spoke; shorter (1182 w).",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "omega-3-citrus-bergamot-budget-smart-supplementation",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:colesterol",
+   "target": "/blogs/news/colesterol-7-semne-colesterol-marit-ghid",
+   "published": false,
+   "tags": [],
+   "reason": "Budget filler on bergamot need signs; English handle; same signs intent as cholesterol spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "paducel-suplimente-pentru-inima-calatorii-asteptari",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:inima",
+   "target": "/blogs/news/hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "published": false,
+   "tags": [],
+   "reason": "Travel filler on hawthorn heart supplements; travel is not an intent.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "protectie-ficat-de-ce-strategia-protectie-ficat",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ficat",
+   "target": "/blogs/news/protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "published": false,
+   "tags": [],
+   "reason": "\"De ce strategia\" template; silimarin cycling and pauses belong to the dosage spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "protectie-ficat-eroare-protectie-ficat-sportivi-peste",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ficat",
+   "target": "/blogs/news/detox-ficat-pentru-sportivi",
+   "published": false,
+   "tags": [],
+   "reason": "Liver protection for 35+ athletes; 0 inbound; same silimarin protection intent as detox spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "protectie-ficat-sursa-stresului-hepatic-deplasari-silimarina",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ficat",
+   "target": "/blogs/news/protectie-ficat-dozaj-silimarina-protectie-ficat-studii",
+   "published": false,
+   "tags": [],
+   "reason": "Travel filler; body is silimarin timing with meals; merge into the dosage spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "reglarea-tensiunii-din-plante-de-ce-nu-functioneaza-suplimentele",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:inima",
+   "target": "/blogs/news/hibiscus-tensiunea-arteriala-rezultate",
+   "published": false,
+   "tags": [],
+   "reason": "Why herbal heart supplements fail without pauses; results-timeline intent; 0 inbound.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "scaderea-tensiuni-arteriale-solutie-naturala-sanatate-inima-hidratare",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:inima",
+   "target": "/blogs/news/hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "published": false,
+   "tags": [],
+   "reason": "Natural blood-pressure remedies and hydration; same heart supplements intent; misspelt handle.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "somn-imbunatatit-suplimente-sanatate-inima-ghid-economisire",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:inima",
+   "target": "/blogs/news/hipertensiune-arteriala-semne-nevoie-suplimente-inima-dozaj",
+   "published": false,
+   "tags": [],
+   "reason": "Budget filler on Cardio Calm, sleep and warning signs; duplicates heart supplements spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "spirulina-prospect-rutina-dimineata-spirulina-refacere-varsta",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:spirulina",
+   "target": "/blogs/news/spirulina-beneficii-doza-optima",
+   "published": false,
+   "tags": [],
+   "reason": "Morning routine/age filler; what-is and benefits content duplicates the benefits spoke.",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "spirulina-spirulina-oboseala-persistenta-pauza-suplimente-spirulina",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:spirulina",
+   "target": "/blogs/news/spirulina-beneficii-doza-optima",
+   "published": false,
+   "tags": [],
+   "reason": "Fatigue/cycling angle; detox benefits content duplicates the spirulina benefits spoke (topical fit).",
+   "hub": "prime-health"
+  },
+  {
+   "handle": "alpina-galanga-secrete-eficienta-pre-workout-fara",
+   "action": "keep",
+   "intent": "ce-este/beneficii:alpinia-galanga",
+   "new_handle": "alpinia-galanga-beneficii",
+   "new_title": "Alpinia galanga: beneficii pentru focus fără cafeină",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:alpinia-galanga",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Only alpinia galanga spoke; 1625 words, 2 inbound; misspelt, truncated \"secrete\" handle renamed.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "apa-de-cocos-intra-workout-secretele-absorbtiei-carbohidratilor-intra-workout",
+   "action": "keep",
+   "intent": "ce-este/beneficii:apa-de-cocos",
+   "new_handle": "apa-de-cocos-intra-workout",
+   "new_title": "Apa de cocos intra-workout: beneficii și cât bei pe zi",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:apa-de-cocos",
+    "produs:cluster-insulin-bomb-1000g"
+   ],
+   "reason": "Specialist keep; 5 inbound; 77-char handle shortened to the query.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "beta-alanina-cum-sa-citesti-eticheta-suplimente",
+   "action": "keep",
+   "intent": "ce-este/beneficii:beta-alanina",
+   "new_handle": "beta-alanina-cum-sa-citesti-eticheta-suplimente",
+   "new_title": "Beta-alanină: beneficii, furnicături și cum citești eticheta",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:beta-alanina",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Specialist keep; only beta-alanine article; Romanian handle meets the rules, kept.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "citicolina-ghid-pre-workout-fara-cafeina",
+   "action": "keep",
+   "intent": "ce-este/beneficii:citicolina",
+   "new_handle": "citicolina-ghid-pre-workout-fara-cafeina",
+   "new_title": "Citicolina în pre-workout fără cafeină: doză și beneficii",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:citicolina",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Specialist keep; 6 inbound; clean Romanian handle; retitled to citicolina so it stops competing with the legacy no-caffeine guide.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "creatina-citrulina-intraworkout-90-zile-carbohidrati-intra-workout",
+   "action": "keep",
+   "intent": "rezultate-si-durata:intra-workout",
+   "new_handle": "carbohidrati-intra-workout-rezultate",
+   "new_title": "Carbohidrați intra-workout: rezultate după 90 de zile",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:rezultate-si-durata:intra-workout",
+    "produs:cluster-insulin-bomb-1000g"
+   ],
+   "reason": "Specialist keep (re-assigned from creatina); 66-char handle renamed to the query.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "creatina-monohidrata-nitrox-no-stim-combining-supplements",
+   "action": "keep",
+   "intent": "combinatii:pre-workout",
+   "new_handle": "pre-workout-cu-creatina",
+   "new_title": "Pre-workout cu creatină: cum le combini corect",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:combinatii:pre-workout",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Specialist keep (re-assigned from creatina); 5 inbound; English \"combining-supplements\" handle renamed.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "dextrina-ciclica-intra-workout-cum-sa-alegi-carbohidratii-intra",
+   "action": "keep",
+   "intent": "comparatie:dextrina-ciclica-vs-maltodextrina",
+   "new_handle": "dextrina-ciclica-vs-maltodextrina",
+   "new_title": "Dextrină ciclică vs maltodextrină la intra-workout",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:comparatie:dextrina-ciclica-vs-maltodextrina",
+    "produs:cluster-insulin-bomb-1000g"
+   ],
+   "reason": "Specialist keep; body already compares maltodextrin/dextrose; 63-char handle renamed; fulfils *dextrina-ciclica-vs-maltodextrina in place.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "havok-pre-workout-ghid-depanare-rutina-suplimente-pre",
+   "action": "keep",
+   "intent": "rezultate-si-durata:pre-workout",
+   "new_handle": "pre-workout-nu-mai-are-efect",
+   "new_title": "Pre-workout-ul nu mai are efect? Cauze, semne și soluții",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:rezultate-si-durata:pre-workout",
+    "produs:nitrox"
+   ],
+   "reason": "Specialist keep; Havok brand in handle; renamed; strip Havok from body, absorb checklist article.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "intra-workout-dozaj-optim-carbohidrati-combatere-stres",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:intra-workout",
+   "new_handle": "intra-workout-dozaj-optim-carbohidrati-combatere-stres",
+   "new_title": "Intra-workout: dozajul optim de carbohidrați pe antrenament",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:dozaj-si-cand-se-ia:intra-workout",
+    "produs:cluster-insulin-bomb-1000g"
+   ],
+   "reason": "Only intra-workout dosing article; 5 inbound; clean Romanian handle; expand from 954 words.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "omega-3-beneficii-cluster-insulin-bomb-1000g-signs",
+   "action": "keep",
+   "intent": "ce-este/beneficii:intra-workout",
+   "new_handle": "ce-este-intra-workout",
+   "new_title": "Ce este intra-workout și 4 semne că ai nevoie de el",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:intra-workout",
+    "produs:cluster-insulin-bomb-1000g"
+   ],
+   "reason": "Specialist keep; English/omega-3 handle renamed; fulfils *ce-este-intra-workout in place.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "pre-workout-havok-suplimente-pre-workout-si-alimentatia",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:pre-workout",
+   "new_handle": "pre-workout-ce-este-cum-se-ia",
+   "new_title": "Pre-workout: ce este, cum se ia și ce mănânci înainte",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:dozaj-si-cand-se-ia:pre-workout",
+    "produs:nitrox"
+   ],
+   "reason": "Only timing spoke; beats Combat PRO twin on words; Havok brand removed; fulfils *pre-workout-ce-este-cum-se-ia.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "pre-workout-suplimente-pre-antrenament-calitate-vs",
+   "action": "keep",
+   "intent": "cum-alegi/calitate:pre-workout",
+   "new_handle": "cum-alegi-un-pre-workout",
+   "new_title": "Cum alegi un pre-workout: ingrediente, doze și calitate",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:cum-alegi/calitate:pre-workout",
+    "produs:nitrox"
+   ],
+   "reason": "Specialist keep; 6 inbound; handle ends in truncated \"vs\" fragment, renamed to the query.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "pudra-sfecla-rosie-30-de-zile-cu-pre",
+   "action": "keep",
+   "intent": "ce-este/beneficii:sfecla-rosie",
+   "new_handle": "pudra-sfecla-rosie-30-de-zile-cu-pre",
+   "new_title": "Pudră de sfeclă roșie: beneficii și rezultate în 30 de zile",
+   "tags": [
+    "Pre-workout",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:sfecla-rosie",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Specialist keep; only beetroot article; Romanian handle meets the rules, kept.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "apa-de-cocos-nitrox-no-stim-antrenamente-seara",
+   "action": "redirect",
+   "intent": "ghid-produs:nitrox-no-stim",
+   "target": "/blogs/news/ce-este-un-pre-workout-fara-cofeina",
+   "published": false,
+   "reason": "Thin NO-STIM filler (831 w, 0 inbound); duplicates legacy no-caffeine guide; product page.",
+   "hub": "suplimente-pre-workout",
+   "previous_target": "/products/nitrox-no-stim",
+   "consolidation_fix": "Re-pointed from /products/nitrox-no-stim to the legacy-2025 kept spoke ce-este-un-pre-workout-fara-cofeina (condition in pre-workout notes met: legacy-2025 keeps it)."
+  },
+  {
+   "handle": "bisglicinat-de-magneziu-energy-pump-supplements-for-stress",
+   "action": "redirect",
+   "intent": "ghid-produs:energy-pump",
+   "target": "/products/energy-pump",
+   "published": false,
+   "reason": "Travel-fatigue filler for Energy Pump shot; travel is not an intent; no shot guide; product page.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "citicolina-conexiune-musculara-rutina-antrenament-seara-travel-2026",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:citicolina",
+   "target": "/blogs/news/citicolina-ghid-pre-workout-fara-cafeina",
+   "published": false,
+   "reason": "Evening/travel filler on citicolina and Nitrox NO-STIM; travel is not an intent; 3 inbound pass on.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "ghimbir-tailandez-cum-sa-asociezi-suplimente-pre",
+   "action": "redirect",
+   "intent": "combinatii:pre-workout",
+   "target": "/blogs/news/pre-workout-cu-creatina",
+   "published": false,
+   "reason": "\"Cum asociezi suplimentele pre-workout\" duplicates the combinations spoke (creatine, BCAA stacking).",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "magneziu-b6-nitrox-supplements-and-hydration-conn",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:pre-workout",
+   "target": "/blogs/news/cum-alegi-un-pre-workout",
+   "published": false,
+   "reason": "Hydration-myth frame over Nitrox ingredient quality (pure citrulline vs malate); duplicates quality spoke; 5 inbound.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "magneziu-bisglicinat-combat-pro-2-0-660g",
+   "action": "redirect",
+   "intent": "ghid-produs:combat-pro-2-0-660g-30-serv",
+   "target": "/blogs/news/cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara",
+   "published": false,
+   "reason": "Thin Combat PRO 2.0 filler (893 w, 1 inbound); Combat PRO guide is legacy-2025; product page.",
+   "hub": "suplimente-pre-workout",
+   "previous_target": "/products/combat-pro-2-0-660g-30-serv",
+   "consolidation_fix": "Re-pointed from /products/combat-pro-2-0-660g-30-serv to the legacy-2025 kept spoke cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara (condition in pre-workout notes met: legacy-2025 keeps it)."
+  },
+  {
+   "handle": "magneziu-l-treonat-glycerol-max-pump-500g-125",
+   "action": "redirect",
+   "intent": "ghid-produs:glycerol-max-pump-500g-125-serv",
+   "target": "/blogs/news/glicerol-culturism-pompare-musculara",
+   "published": false,
+   "reason": "Glycerol pump filler (921 w); glycerol spoke is the legacy-2025 article; product page.",
+   "hub": "suplimente-pre-workout",
+   "previous_target": "/products/glycerol-max-pump-500g-125-serv",
+   "consolidation_fix": "Re-pointed from /products/glycerol-max-pump-500g-125-serv to the legacy-2025 kept spoke glicerol-culturism-pompare-musculara (condition in pre-workout notes met: legacy-2025 keeps it)."
+  },
+  {
+   "handle": "omega-3-combat-pro-how-long-until",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:pre-workout",
+   "target": "/blogs/news/pre-workout-ce-este-cum-se-ia",
+   "published": false,
+   "reason": "Pre-workout meal timing duplicates the kept timing spoke; fewer words, English handle.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "pre-workout-lista-verificare-performanta-schimbare-suplimente",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:pre-workout",
+   "target": "/blogs/news/pre-workout-nu-mai-are-efect",
+   "published": false,
+   "reason": "\"6 signs a pre-workout works\" duplicates the results/troubleshooting spoke; merge its checklist; 5 inbound pass on.",
+   "hub": "suplimente-pre-workout"
+  },
+  {
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "action": "keep",
+   "intent": "ghid-produs:crema-de-orez-blueberry-muffin",
+   "new_handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "new_title": "Crema de orez Blueberry Muffin: energie pentru antrenament",
+   "tags": [
+    "Cremă de orez",
+    "hub:crema-de-orez",
+    "intent:ghid-produs:crema-de-orez-blueberry-muffin",
+    "produs:crema-de-orez-blueberry-muffin"
+   ],
+   "reason": "Specialist keep; Blueberry Muffin product guide for training; handle already ASCII Romanian.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "omega-3-3-6-9-unt-de-arahide-supplements-for",
+   "action": "keep",
+   "intent": "ghid-produs:unt-de-arahide",
+   "new_handle": "unt-de-arahide-beneficii-sportivi",
+   "new_title": "Unt de arahide: beneficii și integrare în dieta sportivă",
+   "tags": [
+    "Cremă de orez",
+    "hub:crema-de-orez",
+    "intent:ghid-produs:unt-de-arahide",
+    "produs:unt-de-arahide"
+   ],
+   "reason": "Specialist keep; peanut butter guide, most words in hub; English fragment in handle.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "omega-3-crema-de-orez-blueberry-muffin",
+   "action": "keep",
+   "intent": "cum-alegi/calitate:crema-de-orez",
+   "new_handle": "cum-alegi-crema-de-orez",
+   "new_title": "Cum alegi crema de orez: pregelatinizare și absorbție",
+   "tags": [
+    "Cremă de orez",
+    "hub:crema-de-orez",
+    "intent:cum-alegi/calitate:crema-de-orez",
+    "produs:crema-de-orez-blueberry-muffin"
+   ],
+   "reason": "Specialist keep; only cream-of-rice selection article; omega-3 prefix misleads, rename to query.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "omega-9-6-3-crema-de-orez-tort-de",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:crema-de-orez",
+   "new_handle": "crema-de-orez-dimineata",
+   "new_title": "Crema de orez dimineața: rutina matinală pentru energie",
+   "tags": [
+    "Cremă de orez",
+    "hub:crema-de-orez",
+    "intent:dozaj-si-cand-se-ia:crema-de-orez",
+    "produs:crema-de-orez-tort-de-ciocolata"
+   ],
+   "reason": "Specialist keep; timing/morning routine intent; handle has foreign omega prefix and truncated \"tort-de\".",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "action": "keep",
+   "intent": "ghid-produs:unt-de-migdale",
+   "new_handle": "unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "new_title": "Unt de migdale: rețetă, beneficii reale și contraindicații",
+   "tags": [
+    "Cremă de orez",
+    "hub:crema-de-orez",
+    "intent:ghid-produs:unt-de-migdale",
+    "produs:unt-de-migdale"
+   ],
+   "reason": "Specialist keep; single almond butter guide incl. pure vs commercial quality; Romanian handle.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "ashwagandha-somnifera-unt-de-migdale-supplements-and",
+   "action": "redirect",
+   "intent": "ghid-produs:unt-de-migdale",
+   "target": "/blogs/news/unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "published": false,
+   "tags": [],
+   "reason": "Almond butter quality/absorption filler stuffed with ashwagandha; English handle; merge into almond butter guide.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "creatina-monohidratata-crema-de-orez-biscuiti-cu",
+   "action": "redirect",
+   "intent": "altele:retete-crema-de-orez",
+   "target": "/collections/crema-de-orez",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 964-word generic dessert recipes; no kept recipe spoke; creatine prefix; send to hub.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "magneziu-b6-unt-de-arahide-building-your",
+   "action": "redirect",
+   "intent": "ghid-produs:unt-de-arahide",
+   "target": "/blogs/news/unt-de-arahide-beneficii-sportivi",
+   "published": false,
+   "tags": [],
+   "reason": "\"Combine peanut butter in your routine\" duplicates kept peanut butter integration guide; magneziu B6 stuffing.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "omega-3-6-9-crema-de-orez-plactina-cu",
+   "action": "redirect",
+   "intent": "altele:retete-crema-de-orez",
+   "target": "/products/crema-de-orez-plactina-cu-cocos",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 1002-word coconut tart recipe for one flavour; no kept recipe spoke; send to product.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "omega-9-6-3-unt-de-migdale-quality-certifications",
+   "action": "redirect",
+   "intent": "ghid-produs:unt-de-migdale",
+   "target": "/blogs/news/unt-de-migdale-reteta-unt-de-migdale-rezultate-reale",
+   "published": false,
+   "tags": [],
+   "reason": "Almond butter cheap-vs-quality filler; purity vs commercial covered by kept almond butter guide.",
+   "hub": "crema-de-orez"
+  },
+  {
+   "handle": "creatina-monohidrata-baton-proteic-capsuni-how-to",
+   "action": "keep",
+   "intent": "combinatii",
+   "new_handle": "cum-combini-batoanele-proteice-cu-creatina",
+   "new_title": "Cum combini batoanele proteice cu creatină monohidrată",
+   "tags": [
+    "Batoane proteice",
+    "hub:batoane-proteice",
+    "intent:combinatii",
+    "produs:baton-proteic-capsuni"
+   ],
+   "reason": "Specialist keep, re-assigned from creatina; only bar stacking article; English 'how-to' fragment forces rename.",
+   "hub": "batoane-proteice"
+  },
+  {
+   "handle": "magneziu-glicinat-baton-proteic-cocos-si-caramel",
+   "action": "keep",
+   "intent": "cum-alegi/calitate",
+   "new_handle": "batoane-proteice-pentru-refacere",
+   "new_title": "Batoane proteice pentru refacere: ce contează în compoziție",
+   "tags": [
+    "Batoane proteice",
+    "hub:batoane-proteice",
+    "intent:cum-alegi/calitate",
+    "produs:baton-proteic-cocos-si-caramel"
+   ],
+   "reason": "Specialist keep with rename; magneziu-glicinat prefix belongs to vitamine hub; protein-matrix quality article.",
+   "hub": "batoane-proteice"
+  },
+  {
+   "handle": "omega-3-6-9-baton-proteic-caramel-sarat-seasonal",
+   "action": "keep",
+   "intent": "ce-este/beneficii",
+   "new_handle": "oboseala-post-antrenament-batoane-proteice",
+   "new_title": "Oboseala post-antrenament și când te ajută un baton proteic",
+   "tags": [
+    "Batoane proteice",
+    "hub:batoane-proteice",
+    "intent:ce-este/beneficii",
+    "produs:baton-proteic-caramel-sarat"
+   ],
+   "reason": "Specialist keep; only benefits/signs article for bars; omega and 'seasonal' fragments removed from handle.",
+   "hub": "batoane-proteice"
+  },
+  {
+   "handle": "beneficile-consumului-de-fibre-suplimente-fibre-rezultate-reale-mituri",
+   "action": "keep",
+   "intent": "pe-varste/profil:fibre",
+   "new_handle": "suplimente-de-fibre-pe-varste",
+   "new_title": "Suplimente de fibre pe vârste: rezultate reale vs. mituri",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:pe-varste/profil:fibre",
+    "produs:fiber-blood-orange"
+   ],
+   "reason": "Specialist keep; fibre needs by age plus myths; handle 71 chars with typo, renamed.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "action": "keep",
+   "intent": "combinatii:fibre",
+   "new_handle": "digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "new_title": "Suplimente de fibre și dietă: ce să mănânci pentru digestie",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:combinatii:fibre",
+    "produs:fiber-blood-orange"
+   ],
+   "reason": "Specialist keep; oldest fibre spoke, supplements plus foods; handle already Romanian.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-anti-inflammatory-foods-guide",
+   "action": "keep",
+   "intent": "altele:fibre-antiinflamatoare",
+   "new_handle": "fibre-dieta-antiinflamatoare",
+   "new_title": "Fibre în dieta antiinflamatoare: inulină și acacia",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:altele:fibre-antiinflamatoare",
+    "produs:fiber-blood-orange"
+   ],
+   "reason": "Specialist keep; inulin plus acacia in anti-inflammatory diet; English handle renamed.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-healthy-snacking-strategies",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:fibre",
+   "new_handle": "doza-zilnica-de-fibre",
+   "new_title": "Doza zilnică de fibre: cât și când să iei pentru sațietate",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:dozaj-si-cand-se-ia:fibre",
+    "produs:fiber-blood-orange"
+   ],
+   "reason": "Specialist keep (dozaj); fibre dose before meals for satiety; English handle renamed.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-understanding-macronutrients",
+   "action": "keep",
+   "intent": "ce-este/beneficii:fibre",
+   "new_handle": "lipsa-de-fibre-simptome",
+   "new_title": "Lipsa de fibre: 6 simptome și cum te ajută prebioticele",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:ce-este/beneficii:fibre",
+    "produs:fiber-blood-orange"
+   ],
+   "reason": "Specialist keep (simptome lipsă); 4 inbound; English handle renamed to query.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-gut-healthy-food-choices",
+   "action": "keep",
+   "intent": "efecte-secundare:ovaz-instant",
+   "new_handle": "ovaz-si-balonare-reactii-digestive",
+   "new_title": "Ovăz și balonare: reacții normale vs. semne de alarmă",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:efecte-secundare:ovaz-instant",
+    "produs:instant-oat-cream-800g-25-serv"
+   ],
+   "reason": "Specialist keep (digestie); bloating normal vs alarm signs; English handle renamed.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-cooking-methods",
+   "action": "keep",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "new_handle": "cand-se-consuma-ovazul-instant",
+   "new_title": "Când se consumă ovăzul instant: momentul optim și dozarea",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:dozaj-si-cand-se-ia:ovaz-instant",
+    "produs:instant-oat-cream-800g-25-serv"
+   ],
+   "reason": "Specialist keep; timing and 30-50 g dose spoke; English handle renamed to query.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-eating-for-busy-people",
+   "action": "keep",
+   "intent": "cum-alegi/calitate:ovaz-instant",
+   "new_handle": "cum-alegi-ovazul-instant",
+   "new_title": "Cum alegi ovăzul instant: diferențe ieftin vs. premium",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:cum-alegi/calitate:ovaz-instant",
+    "produs:instant-oat-cream-800g-25-serv"
+   ],
+   "reason": "Specialist keep; cheap vs premium quality spoke; English handle renamed.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "action": "keep",
+   "intent": "ce-este/beneficii:ovaz-instant",
+   "new_handle": "ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "new_title": "Ovăz instant: beneficii, nutriție și energie de durată",
+   "tags": [
+    "Alimente",
+    "hub:alimente-sanatoase",
+    "intent:ce-este/beneficii:ovaz-instant",
+    "produs:instant-oat-cream-800g-25-serv"
+   ],
+   "reason": "Specialist keep; oat pillar (nutrition, preparation, energy); handle already ASCII Romanian.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-anti-inflammatory-foods-guide-2",
+   "action": "redirect",
+   "intent": "altele:fibre-antiinflamatoare",
+   "target": "/blogs/news/fibre-dieta-antiinflamatoare",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of kept anti-inflammatory base; redirect to base.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-budget-healthy-eating-tips",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:fibre",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "Budget filler on which fibre to choose; no kept fibre choice spoke; hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-budget-healthy-eating-tips-2",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:fibre",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of budget brief; no kept fibre choice spoke; hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-building-balanced-meals",
+   "action": "redirect",
+   "intent": "combinatii:fibre",
+   "target": "/blogs/news/digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "published": false,
+   "tags": [],
+   "reason": "Balanced meals with fibre; duplicates supplements-plus-diet spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-building-balanced-meals-2",
+   "action": "redirect",
+   "intent": "combinatii:fibre",
+   "target": "/blogs/news/digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration (absorption, hydration, inulin/acacia); base redirected; same diet spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-eating-for-mental-clarity",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:fibre",
+   "target": "/blogs/news/lipsa-de-fibre-simptome",
+   "published": false,
+   "tags": [],
+   "reason": "Gut-brain benefit filler; merge into fibre benefits/deficiency spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-energy-boosting-foods",
+   "action": "redirect",
+   "intent": "pe-varste/profil:fibre",
+   "target": "/blogs/news/suplimente-de-fibre-pe-varste",
+   "published": false,
+   "tags": [],
+   "reason": "Fibre by age (20/30/40); duplicates kept by-age spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-energy-boosting-foods-2",
+   "action": "redirect",
+   "intent": "pe-varste/profil:fibre",
+   "target": "/blogs/news/suplimente-de-fibre-pe-varste",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of by-age brief; same by-age spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-food-prep-time-saving-hacks",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:fibre",
+   "target": "/blogs/news/doza-zilnica-de-fibre",
+   "published": false,
+   "tags": [],
+   "reason": "30-second daily protocol; duplicates kept fibre dose spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-food-storage-for-freshness",
+   "action": "redirect",
+   "intent": "combinatii:fibre",
+   "target": "/blogs/news/digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "published": false,
+   "tags": [],
+   "reason": "Combinations plus storage filler; storage is not an intent; diet spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-food-storage-for-freshness-2",
+   "action": "redirect",
+   "intent": "ghid-produs:fiber-blood-orange",
+   "target": "/products/fiber-blood-orange",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 940-word Fiber product promo regeneration; send to product page.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-future-of-healthy-eating",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:fibre",
+   "target": "/blogs/news/doza-zilnica-de-fibre",
+   "published": false,
+   "tags": [],
+   "reason": "Too-fast introduction mistake, 14-day ramp-up; belongs to dose spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-healthy-food-combinations",
+   "action": "redirect",
+   "intent": "combinatii:fibre",
+   "target": "/blogs/news/digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "published": false,
+   "tags": [],
+   "reason": "Fibre with foods, what to avoid; near-duplicate of kept diet spoke; 5 inbound pass on.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-healthy-restaurant-ordering",
+   "action": "redirect",
+   "intent": "combinatii:fibre",
+   "target": "/blogs/news/digestie-suplimente-fibre-alimentatie-rezultate-maxime",
+   "published": false,
+   "tags": [],
+   "reason": "Restaurant filler, fibre before meals; folds into diet spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-meal-prep-for-healthy-eating",
+   "action": "redirect",
+   "intent": "pe-varste/profil:fibre",
+   "target": "/blogs/news/suplimente-de-fibre-pe-varste",
+   "published": false,
+   "tags": [],
+   "reason": "\"Are prebiotic fibres right for you\" profile filler; by-age spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-travel-healthy-eating-tips",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:fibre",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "Travel filler on whether fibre works; no kept fibre results spoke; hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-understanding-food-quality",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:fibre",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "Fibre source quality, inulin vs acacia; no kept fibre choice spoke; hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "fiber-blood-orange-understanding-macronutrients-2",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:fibre",
+   "target": "/blogs/news/lipsa-de-fibre-simptome",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 1005-word regeneration of kept fibre-deficiency base; redirect to base.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-family-healthy-eating-transiti",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ovaz-instant",
+   "target": "/blogs/news/ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "published": false,
+   "tags": [],
+   "reason": "Family travel breakfast filler; travel is not an intent; send to oat pillar.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-food-tracking-benefits",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Breakfast-tracking protocol filler; daily use covered by timing spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-gut-healthy-food-choices-2",
+   "action": "redirect",
+   "intent": "efecte-secundare:ovaz-instant",
+   "target": "/blogs/news/ovaz-si-balonare-reactii-digestive",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of kept digestion base; redirect to base.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-comfort-food-makeovers",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ovaz-instant",
+   "target": "/blogs/news/ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "published": false,
+   "tags": [],
+   "reason": "Five oat myths (glycemic index, fibre); merge into oat benefits pillar.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-cooking-methods-2",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 1120-word regeneration of kept timing base; redirect to base.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-eating-for-busy-people-2",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:ovaz-instant",
+   "target": "/blogs/news/cum-alegi-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Thin 1013-word regeneration of kept choice base; redirect to base.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-eating-on-a-budget",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:ovaz-instant",
+   "target": "/blogs/news/cum-alegi-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Budget breakfast filler; price vs value belongs to the choice spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-food-swaps-that-work",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:ovaz-instant",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "What changes after switching to oats; no kept oat results spoke, send to hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-food-swaps-that-work-2",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:ovaz-instant",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "\"7 zile cu ovăz\" regeneration; base redirected; no kept results spoke, send to hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-healthy-hydration-habits",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ovaz-instant",
+   "target": "/blogs/news/ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "published": false,
+   "tags": [],
+   "reason": "Oat cream vs dry breakfast benefit filler; merge into oat benefits pillar.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-mindful-eating-practices",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Mindful-eating filler on how to eat oats; folds into timing spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-mindful-eating-practices-2",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of mindful-eating brief, 0 inbound; same timing spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-pantry-staples-for-healthy-coo",
+   "action": "redirect",
+   "intent": "rezultate-si-durata:ovaz-instant",
+   "target": "/collections/alimente-sanatoase",
+   "published": false,
+   "tags": [],
+   "reason": "Oat results vs marketing; no kept oat results spoke; send to hub.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-reading-nutrition-labels-guide",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:ovaz-instant",
+   "target": "/blogs/news/ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "published": false,
+   "tags": [],
+   "reason": "Morning fatigue and oat energy; duplicates oat energy pillar.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-seasonal-eating-benefits",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:ovaz-instant",
+   "target": "/blogs/news/cum-alegi-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Seasonal filler on oat quality; duplicates kept cheap-vs-premium choice spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-seasonal-eating-benefits-2",
+   "action": "redirect",
+   "intent": "cum-alegi/calitate:ovaz-instant",
+   "target": "/blogs/news/cum-alegi-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of seasonal quality brief; same choice spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-superfoods-worth-adding-to-you",
+   "action": "redirect",
+   "intent": "efecte-secundare:ovaz-instant",
+   "target": "/blogs/news/ovaz-si-balonare-reactii-digestive",
+   "published": false,
+   "tags": [],
+   "reason": "Oats and digestion, bloating and alarm signs; overlaps kept bloating spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-whole-foods-vs-processed-compa",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Morning-routine filler; timing covered by kept \"când se consumă\" spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "instant-oat-cream-800g-25-serv-whole-foods-vs-processed-compa-2",
+   "action": "redirect",
+   "intent": "dozaj-si-cand-se-ia:ovaz-instant",
+   "target": "/blogs/news/cand-se-consuma-ovazul-instant",
+   "published": false,
+   "tags": [],
+   "reason": "Regeneration of the morning-routine brief; base also redirected; same timing spoke.",
+   "hub": "alimente-sanatoase"
+  },
+  {
+   "handle": "tricou-sala-cele-mai-bune-tricouri-yoga",
+   "action": "keep",
+   "intent": "cum-alegi/calitate",
+   "new_handle": "tricou-sala-cele-mai-bune-tricouri-yoga",
+   "new_title": "Tricou de sală: cum alegi cele mai bune tricouri de yoga",
+   "tags": [
+    "Echipament și haine",
+    "hub:haine-mnx",
+    "intent:cum-alegi/calitate",
+    "produs:mnx-extra-hc-t-shirt-4-0-washed-look-bronze"
+   ],
+   "reason": "Specialist keep; only MNX apparel article; handle already ASCII Romanian, 39 chars, no fragments.",
+   "hub": "haine-mnx"
+  },
+  {
+   "handle": "magneziu-l-treonat-shaker-premium-accesorizat-500-ml",
+   "action": "redirect",
+   "intent": "ghid-produs:shaker-premium-accesorizat-500-ml",
+   "target": "/products/shaker-premium-accesorizat-500-ml",
+   "reason": "Not on specialist keep; BlogGenAI shaker filler mixing magneziu L-treonat; no matching kept spoke; product page.",
+   "hub": "haine-mnx",
+   "published": false
+  },
+  {
+   "handle": "bcaa-vs-eaa-diferențe-și-beneficii-pentru-culturisti-ghid-complet",
+   "action": "keep",
+   "intent": "comparatie:bcaa-vs-eaa",
+   "new_handle": "bcaa-vs-eaa",
+   "new_title": "BCAA vs EAA: diferențe, beneficii și ce să alegi",
+   "tags": [
+    "Blog 2025",
+    "hub:aminoacizi",
+    "intent:comparatie:bcaa-vs-eaa",
+    "produs:recovery-bcaa-500g",
+    "produs:eaa-aminoacizi-esentiali"
+   ],
+   "reason": "Specialist keep; hand-written, no BlogGenAI marker; only BCAA vs EAA comparison; diacritic handle renamed to bcaa-vs-eaa.",
+   "hub": "legacy-2025"
+  },
+  {
+   "handle": "ce-este-un-pre-workout-fara-cofeina",
+   "action": "keep",
+   "intent": "ce-este/beneficii:pre-workout-fara-cofeina",
+   "new_handle": "ce-este-un-pre-workout-fara-cofeina",
+   "new_title": "Ce este un pre-workout fără cofeină: ghid Nitrox NO-STIM",
+   "tags": [
+    "Blog 2025",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:pre-workout-fara-cofeina",
+    "produs:nitrox-no-stim"
+   ],
+   "reason": "Specialist keep; 5 internal links, 950 words; handle already ASCII Romanian query; extend per CLUSTER-14.",
+   "hub": "legacy-2025"
+  },
+  {
+   "handle": "cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara",
+   "action": "keep",
+   "intent": "ghid-produs:combat-pro",
+   "new_handle": "cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara",
+   "new_title": "Combat PRO pre-workout: ingrediente, efecte și utilizare",
+   "tags": [
+    "Blog 2025",
+    "hub:suplimente-pre-workout",
+    "intent:ghid-produs:combat-pro",
+    "produs:combat-pro",
+    "produs:combat-pro-2-0-660g-30-serv"
+   ],
+   "reason": "Specialist keep; 2806 words, 6 internal links; handle ASCII Romanian, 51 chars, so unchanged.",
+   "hub": "legacy-2025"
+  },
+  {
+   "handle": "glycerolul-secretul-culturistilor-profesionisti-pentru-un-antrenament-eficient",
+   "action": "keep",
+   "intent": "ce-este/beneficii:glicerol",
+   "new_handle": "glicerol-culturism-pompare-musculara",
+   "new_title": "Glicerol în culturism: cum ajută la pomparea musculară",
+   "tags": [
+    "Blog 2025",
+    "hub:suplimente-pre-workout",
+    "intent:ce-este/beneficii:glicerol",
+    "produs:glycerol-max-pump-500g-125-serv"
+   ],
+   "reason": "Specialist keep; hand-written, no marker; only glycerol article; 78-char handle shortened to Romanian query.",
+   "hub": "legacy-2025"
+  },
+  {
+   "handle": "water-out-tinctura-soluția-naturala-pentru-eliminarea-retenției-de-apa",
+   "action": "keep",
+   "intent": "ghid-produs:water-out-500-ml",
+   "new_handle": "water-out-tinctura-retentie-apa",
+   "new_title": "Water Out tinctură pentru retenția de apă: ce conține",
+   "tags": [
+    "Blog 2025",
+    "hub:arzator-de-grasimi",
+    "intent:ghid-produs:water-out-500-ml",
+    "produs:water-out-500-ml"
+   ],
+   "reason": "Specialist keep; 2816 words, 6 internal links; Water Out tincture guide; diacritic 69-char handle renamed ASCII.",
+   "hub": "legacy-2025"
+  },
+  {
+   "handle": "cum-contribuie-l-carnitine-1000-la-arderea-grasimilor",
+   "action": "redirect",
+   "intent": "ce-este/beneficii:l-carnitina",
+   "target": "/blogs/news/l-carnitina-pentru-slabit-pareri",
+   "published": false,
+   "tags": [
+    "arderea grasimilor"
+   ],
+   "reason": "73-word stub, 0 links; CLUSTER-15 redirects it to the kept L-carnitine spoke (arzator hub).",
+   "hub": "legacy-2025"
+  }
+ ],
+ "suggested_new_articles": [
+  {
+   "hub": "aminoacizi",
+   "title": "Glutamina pentru intestin și digestie: beneficii și cum se ia",
+   "handle": "glutamina-pentru-intestin-si-digestie",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "arzator-de-grasimi",
+   "title": "Arzătoare de grăsimi: efecte secundare și contraindicații",
+   "handle": "arzatoare-de-grasimi-efecte-secundare",
+   "handle_source": "hub file",
+   "kind": "in-place",
+   "status": "fulfilled in place: rewrite kept article l-carnitine-fat-burning-booster-meal-replacement (renamed to arzatoare-de-grasimi-efecte-secundare)"
+  },
+  {
+   "hub": "arzator-de-grasimi",
+   "title": "Thermo Core: ghid de ingrediente, dozaj și administrare",
+   "handle": "thermo-core-ghid",
+   "handle_source": "hub file",
+   "kind": "in-place",
+   "status": "fulfilled in place: rewrite kept article acetyl-l-carnitine-thermo-core-120-caps-sleep (renamed to thermo-core-ghid)"
+  },
+  {
+   "hub": "batoane-proteice",
+   "title": "Batoane proteice: comparație pe arome și macronutrienți",
+   "handle": "batoane-proteice-ghid-comparatie",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "bauturi",
+   "title": "Băuturi instant fără zahăr Frutilu: arome și când le folosești",
+   "handle": "bauturi-instant-fara-zahar-frutilu-ghid",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "bauturi",
+   "title": "Electroliți și hidratare la sală: ce bei la antrenament",
+   "handle": "electroliti-si-hidratare-la-sala",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "creatina",
+   "title": "Creatina efecte secundare: ce spun studiile",
+   "handle": "creatina-efecte-secundare",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "creatina",
+   "title": "Creatina Prime vs GymBeam: comparație",
+   "handle": "creatina-prime-vs-gymbeam",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "crema-de-orez",
+   "title": "Crema de orez: ce este, cum se prepară și când o mănânci",
+   "handle": "crema-de-orez-ce-este-cum-se-prepara",
+   "handle_source": "derived by consolidation from the title",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "crema-de-orez",
+   "title": "Crema de orez vs ovăz instant: diferențe și ce alegi",
+   "handle": "crema-de-orez-vs-ovaz-instant",
+   "handle_source": "derived by consolidation from the title",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "pudra-proteica",
+   "title": "Câtă proteină pe zi pentru masă musculară",
+   "handle": "cata-proteina-pe-zi-masa-musculara",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "title": "Pre-workout: ce este, cum se ia și ce mănânci înainte",
+   "handle": "pre-workout-ce-este-cum-se-ia",
+   "handle_source": "hub file",
+   "kind": "in-place",
+   "status": "fulfilled in place: rewrite kept article pre-workout-havok-suplimente-pre-workout-si-alimentatia (renamed to pre-workout-ce-este-cum-se-ia)"
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "title": "Pre-workout: efecte secundare și cum le eviți",
+   "handle": "pre-workout-efecte-secundare",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "title": "Citrulina: beneficii, doză și diferența pură vs malat",
+   "handle": "citrulina-beneficii",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "title": "Ce este intra-workout și 4 semne că ai nevoie de el",
+   "handle": "ce-este-intra-workout",
+   "handle_source": "hub file",
+   "kind": "in-place",
+   "status": "fulfilled in place: rewrite kept article omega-3-beneficii-cluster-insulin-bomb-1000g-signs (renamed to ce-este-intra-workout)"
+  },
+  {
+   "hub": "suplimente-pre-workout",
+   "title": "Dextrină ciclică vs maltodextrină la intra-workout",
+   "handle": "dextrina-ciclica-vs-maltodextrina",
+   "handle_source": "hub file",
+   "kind": "in-place",
+   "status": "fulfilled in place: rewrite kept article dextrina-ciclica-intra-workout-cum-sa-alegi-carbohidratii-intra (renamed to dextrina-ciclica-vs-maltodextrina)"
+  },
+  {
+   "hub": "vitamine-si-minerale",
+   "title": "Magneziu bisglicinat vs citrat: diferențe și ce formă alegi",
+   "handle": "magneziu-bisglicinat-vs-citrat",
+   "handle_source": "hub file",
+   "kind": "new",
+   "status": "new URL to create"
+  },
+  {
+   "hub": "vitamine-si-minerale",
+   "title": "Vitamina D3+K2: doza zilnică și cum o ajustezi",
+   "handle": "vitamina-d3-k2-dozaj",
+   "handle_source": "hub file",
+   "kind": "fold",
+   "status": "do not create: expand kept spoke cand-se-ia-vitamina-d3-k2 with a dosage section (same intent, per hub notes)"
+  }
+ ],
+ "consolidation_fixes": [
+  "haine-mnx: redirect magneziu-l-treonat-shaker-premium-accesorizat-500-ml was missing \"published\"; set to false like the other 233 redirects (its hub notes already say published false).",
+  "suplimente-pre-workout: redirect magneziu-l-treonat-glycerol-max-pump-500g-125 re-pointed /products/glycerol-max-pump-500g-125-serv -> /blogs/news/glicerol-culturism-pompare-musculara (cross-hub kept spoke in legacy-2025; both hub files ask for this re-point).",
+  "suplimente-pre-workout: redirect magneziu-bisglicinat-combat-pro-2-0-660g re-pointed /products/combat-pro-2-0-660g-30-serv -> /blogs/news/cum-te-ajuta-combat-pro-sa-ti-cresti-masa-musculara (cross-hub kept spoke in legacy-2025; both hub files ask for this re-point).",
+  "suplimente-pre-workout: redirect apa-de-cocos-nitrox-no-stim-antrenamente-seara re-pointed /products/nitrox-no-stim -> /blogs/news/ce-este-un-pre-workout-fara-cofeina (cross-hub kept spoke in legacy-2025; both hub files ask for this re-point).",
+  "crema-de-orez: suggested article 'Crema de orez: ce este, cum se prepară și când o mănânci' had no handle; proposed crema-de-orez-ce-este-cum-se-prepara (slug of the title's head, checked unique).",
+  "crema-de-orez: suggested article 'Crema de orez vs ovăz instant: diferențe și ce alegi' had no handle; proposed crema-de-orez-vs-ovaz-instant (slug of the title's head, checked unique)."
+ ],
+ "validation_problems": []
+}

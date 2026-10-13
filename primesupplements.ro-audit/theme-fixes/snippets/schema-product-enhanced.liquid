@@ -17,7 +17,7 @@
     assign brand_name = 'Prime Supplements'
   endif
   assign product_url = shop.url | append: product.url
-  assign plain_description = product.description | strip_html | strip_newlines | strip | truncate: 5000, ''
+  assign plain_description = product.description | replace: '<', ' <' | strip_html | strip_newlines | split: ' ' | join: ' ' | strip | truncate: 5000, ''
   if plain_description == blank
     assign plain_description = product.title
   endif
@@ -44,7 +44,8 @@
   {%- if product.type != blank %}
   "category": {{ product.type | json }},
   {%- endif %}
-  {%- if first_variant.sku != blank %}
+  {%- comment -%} Product-level sku/gtin only for single-variant products; with several variants each Offer carries its own. {%- endcomment -%}
+  {%- if product.variants.size == 1 and first_variant.sku != blank %}
   "sku": {{ first_variant.sku | json }},
   {%- endif %}
 {%- liquid
@@ -77,7 +78,7 @@
       endif
     endif
   -%}
-  {%- if first_gtin_ok %}
+  {%- if first_gtin_ok and product.variants.size == 1 %}
   "gtin": {{ first_variant.barcode | strip | json }},
   {%- endif %}
   {%- if rating_value and rating_count > 0 %}
@@ -95,7 +96,9 @@
       "@type": "Offer",
       "@id": {{ product_url | append: '?variant=' | append: variant.id | append: '#offer' | json }},
       "url": {{ product_url | append: '?variant=' | append: variant.id | json }},
+      {%- unless variant.title == 'Default Title' %}
       "name": {{ variant.title | strip_newlines | strip | json }},
+      {%- endunless %}
       "price": {{ variant.price | divided_by: 100.0 | json }},
       "priceCurrency": {{ currency_code | json }},
       "priceValidUntil": {{ price_valid_until | json }},
@@ -145,7 +148,7 @@
         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
         "merchantReturnDays": 14,
         "returnMethod": "https://schema.org/ReturnByMail",
-        "returnFees": "https://schema.org/ReturnShippingFees",
+        "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
         "merchantReturnLink": {{ shop.url | append: '/pages/politica-de-retur' | json }}
       },
       "shippingDetails": {

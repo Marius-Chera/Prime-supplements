@@ -19,8 +19,8 @@
   if author_name == 'Marius Chera'
     assign author_job = 'Antrenor de culturism, fondator Prime Supplements'
   endif
-  assign excerpt = article.excerpt_or_content | strip_html | strip_newlines | strip | truncate: 300, ''
-  assign body_text = article.content | strip_html | strip_newlines | strip
+  assign excerpt = article.excerpt_or_content | replace: '<', ' <' | strip_html | strip_newlines | split: ' ' | join: ' ' | strip | truncate: 300, ''
+  assign body_text = article.content | replace: '<', ' <' | strip_html | strip_newlines | strip
   assign word_count = body_text | split: ' ' | size
 -%}
 <script type="application/ld+json">

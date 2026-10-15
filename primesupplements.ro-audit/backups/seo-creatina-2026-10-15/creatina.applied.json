@@ -1,0 +1,58 @@
+{
+ "applied_at": "2026-10-15 ~22:05 UTC",
+ "source_file": "/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/creatina/final/creatina.json",
+ "mutation": "collectionUpdate(input:{id, descriptionHtml, seo{title, description}})",
+ "userErrors": [],
+ "handle": "creatina",
+ "id": "gid://shopify/Collection/671131369847",
+ "applied_fields": {
+  "descriptionHtml": "<p>Creatină monohidrată Prime Supplements în trei formate, cu 5 g de creatină monohidrată per porție. Alege între <a href=\"/products/creatina-creapure\">creatină Creapure®</a> la 300 g (60 de porții) sau 500 g (100 de porții), <a href=\"/products/creatina-monohidrat-micronized-300g-fara-aroma\">creatină monohidrată micronizată fără aromă</a> la 300 g și <a href=\"/products/creatine-ready-to-go-plicuri-prime-supplements\">plicuri efervescente Ready To Go</a> de 10 g.</p> <p>Pudra din tuburi are un singur ingredient, iar conținutul plicului se dizolvă în 200–300 ml de apă. Suplimente alimentare pentru adulții care fac antrenamente de mare intensitate. Respectă doza de pe etichetă.</p>",
+  "seo.title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+  "seo.description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g."
+ },
+ "unchanged_fields": {
+  "title": "Creatină",
+  "handle": "creatina",
+  "image.id": "gid://shopify/CollectionImage/2060055216503",
+  "image.altText": "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față",
+  "templateSuffix": "",
+  "sortOrder": "BEST_SELLING",
+  "custom.seo_text": "not touched",
+  "custom.hub_articles": "not touched"
+ },
+ "readback_admin_api": {
+  "id": "gid://shopify/Collection/671131369847",
+  "title": "Creatină",
+  "handle": "creatina",
+  "updatedAt": "2026-10-15T14:37:36Z",
+  "templateSuffix": "",
+  "sortOrder": "BEST_SELLING",
+  "descriptionHtml": "<p>Creatină monohidrată Prime Supplements în trei formate, cu 5 g de creatină monohidrată per porție. Alege între <a href=\"/products/creatina-creapure\">creatină Creapure®</a> la 300 g (60 de porții) sau 500 g (100 de porții), <a href=\"/products/creatina-monohidrat-micronized-300g-fara-aroma\">creatină monohidrată micronizată fără aromă</a> la 300 g și <a href=\"/products/creatine-ready-to-go-plicuri-prime-supplements\">plicuri efervescente Ready To Go</a> de 10 g.</p> <p>Pudra din tuburi are un singur ingredient, iar conținutul plicului se dizolvă în 200–300 ml de apă. Suplimente alimentare pentru adulții care fac antrenamente de mare intensitate. Respectă doza de pe etichetă.</p>",
+  "seo": {
+   "title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+   "description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g."
+  },
+  "image": {
+   "id": "gid://shopify/CollectionImage/2060055216503",
+   "altText": "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față"
+  },
+  "titleTag": {
+   "value": "Creatină monohidrată: pudră și plicuri | Prime Supplements"
+  },
+  "descriptionTag": {
+   "value": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g."
+  }
+ },
+ "live_check": {
+  "url": "https://primesupplements.ro/collections/creatina",
+  "http": 200,
+  "title_tag": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+  "meta_description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g.",
+  "canonical": "https://primesupplements.ro/collections/creatina",
+  "banner_new_text_live": true,
+  "old_banner_gone": true,
+  "jsonld_collectionpage_desc_has_10_g_Pudra": true,
+  "seo_section_h2": "none - this file applies no seo_text; theme section disabled; old seo_text not visible"
+ },
+ "backup_file": "/home/user/Prime-supplements/primesupplements.ro-audit/backups/seo-creatina-2026-10-15/creatina.before.json"
+}

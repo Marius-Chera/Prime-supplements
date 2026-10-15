@@ -1,0 +1,52 @@
+{
+ "backup_of": "collection creatina before the SEO apply of 2026-10-15",
+ "read_via": "Shopify Admin GraphQL API, query collection(id) at 2026-10-15 ~22:00 (store time UTC)",
+ "collection": {
+  "id": "gid://shopify/Collection/671131369847",
+  "title": "Creatină",
+  "handle": "creatina",
+  "updatedAt": "2026-10-15T14:37:36Z",
+  "templateSuffix": "",
+  "sortOrder": "BEST_SELLING",
+  "descriptionHtml": "<p>Creatină monohidrată, 5 g per porție, în trei formate: <a href=\"/products/creatina-creapure\">creatină Creapure®</a> la 300 g (60 de porții) sau 500 g (100 de porții), <a href=\"/products/creatina-monohidrat-micronized-300g-fara-aroma\">creatină monohidrată micronizată fără aromă</a> la 300 g și plicuri efervescente Ready To Go de 10 g.</p>\n<p>Pudrele se amestecă în apă sau în shake, plicul în 200–300 ml de apă. Respectă doza de pe etichetă; creatina este pentru adulții care fac antrenamente de mare intensitate.</p>",
+  "seo": {
+   "title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+   "description": "Creatină monohidrată în trei formate: Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g (5000 mg)."
+  },
+  "image": {
+   "id": "gid://shopify/CollectionImage/2060055216503",
+   "altText": "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față",
+   "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/Creatina-Creapure-front.jpg?v=1792075056",
+   "width": 1500,
+   "height": 1500
+  },
+  "productsCount": {
+   "count": 5
+  },
+  "hubArticles": {
+   "id": "gid://shopify/Metafield/204657656136055",
+   "type": "list.single_line_text_field",
+   "value": "[\"ce-este-creatina\",\"cum-se-ia-creatina\",\"in-cat-timp-face-efect-creatina\",\"creatina-si-retentia-de-apa\",\"cum-alegi-creatina\",\"cu-ce-se-combina-creatina\"]",
+   "updatedAt": "2026-10-13T01:02:15Z"
+  },
+  "titleTag": {
+   "id": "gid://shopify/Metafield/182074939343223",
+   "type": "string",
+   "value": "Creatină monohidrată: pudră și plicuri | Prime Supplements"
+  },
+  "descriptionTag": {
+   "id": "gid://shopify/Metafield/182074939375991",
+   "type": "string",
+   "value": "Creatină monohidrată în trei formate: Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g (5000 mg)."
+  }
+ },
+ "seoText_metafield": {
+  "id": "gid://shopify/Metafield/182074939048311",
+  "namespace": "custom",
+  "key": "seo_text",
+  "type": "rich_text_field",
+  "updatedAt": "2025-05-21T08:24:47Z",
+  "note": "not modified in this run; value not copied here (old keyword copy, theme section disabled)"
+ },
+ "rollback_mutation": "mutation { collectionUpdate(input:{id:\"gid://shopify/Collection/671131369847\", descriptionHtml: <collection.descriptionHtml>, seo:{title:<collection.seo.title>, description:<collection.seo.description>}}) { collection { id } userErrors { field message } } }"
+}

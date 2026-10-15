@@ -1,0 +1,153 @@
+{
+ "backup_of": "product creatina-creapure before the SEO apply of 2026-10-15",
+ "read_via": "Shopify Admin GraphQL API, query product(id) on 2026-10-15 (store time UTC); full custom.* metafields with type and value, search boost, global title/description tags, media ids and alts, variants",
+ "product": {
+  "id": "gid://shopify/Product/14971467268471",
+  "title": "Creatină monohidrat micronizată Creapure®",
+  "handle": "creatina-creapure",
+  "updatedAt": "2026-10-15T18:21:06Z",
+  "status": "ACTIVE",
+  "templateSuffix": null,
+  "descriptionHtml": "<p><strong>Creatină Creapure®</strong> de la Prime Supplements: creatină monohidrată micronizată Creapure®, un supliment alimentar pentru adulți sub formă de pulbere, cu un singur ingredient. Creapure® este o marcă înregistrată de creatină monohidrată, iar Prime Supplements apare pe site-ul creapure.com ca producător partener din România.</p>\n<p>Creatina este un compus care se găsește în mod natural în organism, mai ales în mușchi. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Doza zilnică recomandată este de 3–5 g, iar pe durata utilizării consumi suficiente lichide pe parcursul zilei.</p>\n<p>Este pentru adulții care fac antrenamente de mare intensitate și vor o creatină fără arome adăugate. Alegi tubul de 300 g (60 de porții) sau pe cel de 500 g (100 de porții), iar celelalte forme le găsești în categoria <a href=\"/collections/creatina\">creatină monohidrată</a>.</p>\n<p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p>\n<h2>Pe scurt</h2>\n<ul>\n<li>Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină.</li>\n<li>Un singur ingredient: creatină monohidrată micronizată (Creapure®), sub formă de pulbere, fără arome, îndulcitori sau coloranți în lista de ingrediente.</li>\n<li>Doza zilnică recomandată: 3–5 g de creatină, pentru adulții care fac antrenamente de mare intensitate; pe durata utilizării consumi suficiente lichide.</li>\n<li>Două mărimi: tub de 300 g cu 60 de porții sau tub de 500 g cu 100 de porții.</li>\n<li>Prime Supplements apare pe site-ul creapure.com ca producător partener din România; captura listării este în galeria produsului.</li>\n</ul>\n<h2>Ingrediente</h2>\n<p>Creatină monohidrată micronizată (Creapure®).</p>\n<p>Lista are un singur ingredient: fără arome, îndulcitori sau coloranți.</p>\n<h3>Cantități declarate</h3>\n<ul>\n<li>Doza zilnică recomandată: 3–5 g de creatină</li>\n<li>Tub de 300 g: 60 de porții</li>\n<li>Tub de 500 g: 100 de porții („500 g / 100 servings” pe tub)</li>\n<li>Porție: 5 g de pulbere (300 g / 60 de porții; 500 g / 100 de porții)</li>\n</ul>\n<h2>Detalii produs</h2>\n<ul>\n<li>Denumire: supliment alimentar pentru adulți, sub formă de pulbere</li>\n<li>Cantitate: 300 g (60 de porții) sau 500 g (100 de porții)</li>\n<li>Porție: 5 g de pulbere</li>\n<li>Ingredient: creatină monohidrată micronizată (Creapure®)</li>\n<li>Aromă: fără aromă</li>\n<li>Mod de administrare: 3–5 g de creatină pe zi; consumă suficiente lichide pe parcursul zilei</li>\n<li>Pentru: adulții care fac antrenamente de mare intensitate</li>\n<li>Atenționări: a nu se depăși doza zilnică recomandată; a nu se lăsa la îndemâna și la vederea copiilor mici</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+  "seo": {
+   "title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+   "description": "Creatină Creapure®: pulbere cu un singur ingredient, creatină monohidrată Creapure®. Tub de 300 g (60 de porții) sau 500 g (100 de porții), 3–5 g pe zi."
+  },
+  "custom": {
+   "nodes": [
+    {
+     "id": "gid://shopify/Metafield/181761055228279",
+     "namespace": "custom",
+     "key": "length",
+     "type": "multi_line_text_field",
+     "value": "10",
+     "updatedAt": "2025-05-05T07:14:41Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/181761055261047",
+     "namespace": "custom",
+     "key": "width",
+     "type": "multi_line_text_field",
+     "value": "10",
+     "updatedAt": "2025-05-05T07:14:41Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/181761055293815",
+     "namespace": "custom",
+     "key": "height",
+     "type": "single_line_text_field",
+     "value": "14",
+     "updatedAt": "2025-08-07T14:36:25Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/181761055326583",
+     "namespace": "custom",
+     "key": "short_description",
+     "type": "multi_line_text_field",
+     "value": "Creatină Creapure®: supliment alimentar pentru adulți, pulbere cu un singur ingredient, creatină monohidrată micronizată (Creapure®), fără arome sau îndulcitori. Tub de 300 g (60 de porții) sau 500 g (100 de porții). Doza zilnică recomandată: 3–5 g.",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/182356065780087",
+     "namespace": "custom",
+     "key": "ingrediente",
+     "type": "rich_text_field",
+     "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creatină monohidrată micronizată (Creapure®).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Lista are un singur ingredient: fără arome, îndulcitori sau coloranți.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cantități declarate\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Doza zilnică recomandată: 3–5 g de creatină\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Tub de 300 g: 60 de porții\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Tub de 500 g: 100 de porții („500 g / 100 servings” pe tub)\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Porție: 5 g de pulbere (300 g / 60 de porții; 500 g / 100 de porții)\"}]}]}]}",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/182356065812855",
+     "namespace": "custom",
+     "key": "detalii_produs",
+     "type": "list.single_line_text_field",
+     "value": "[\"Denumire: supliment alimentar pentru adulți, sub formă de pulbere\",\"Cantitate: 300 g (60 de porții) sau 500 g (100 de porții)\",\"Porție: 5 g de pulbere\",\"Ingredient: creatină monohidrată micronizată (Creapure®)\",\"Aromă: fără aromă\",\"Mod de administrare: 3–5 g de creatină pe zi; consumă suficiente lichide pe parcursul zilei\",\"Pentru: adulții care fac antrenamente de mare intensitate\",\"Atenționări: a nu se depăși doza zilnică recomandată; a nu se lăsa la îndemâna și la vederea copiilor mici\",\"Brand: Prime Supplements\"]",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/182356065845623",
+     "namespace": "custom",
+     "key": "beneficii_cheie",
+     "type": "list.single_line_text_field",
+     "value": "[\"Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină.\",\"Un singur ingredient: creatină monohidrată micronizată (Creapure®), sub formă de pulbere, fără arome, îndulcitori sau coloranți în lista de ingrediente.\",\"Doza zilnică recomandată: 3–5 g de creatină, pentru adulții care fac antrenamente de mare intensitate; pe durata utilizării consumi suficiente lichide.\",\"Două mărimi: tub de 300 g cu 60 de porții sau tub de 500 g cu 100 de porții.\",\"Prime Supplements apare pe site-ul creapure.com ca producător partener din România; captura listării este în galeria produsului.\"]",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/182356065878391",
+     "namespace": "custom",
+     "key": "seo_produs",
+     "type": "rich_text_field",
+     "value": "{\"type\":\"root\",\"children\":[{\"type\":\"heading\",\"level\":2,\"children\":[{\"type\":\"text\",\"value\":\"Creatină Creapure®: un singur ingredient, în tub de 300 g sau 500 g\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creatină Creapure® de la Prime Supplements: supliment alimentar sub formă de pulbere, cu un singur ingredient, creatină monohidrată micronizată Creapure®, în tub de 300 g (60 de porții) sau 500 g (100 de porții), cu o doză zilnică recomandată de 3–5 g.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce este Creapure®\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creapure® este o marcă înregistrată de creatină monohidrată. Pe fața tubului Prime scrie „made of Creapure®”, iar lista de ingrediente are un singur element: creatină monohidrată micronizată (Creapure®). Prime Supplements apare pe site-ul creapure.com ca producător partener din România; captura listării este în galeria produsului.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum o folosești\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Doza zilnică recomandată este de 3–5 g de creatină. Pulberea nu are aromă, așa că o poți adăuga în apă sau în shake-ul proteic. Tubul de 300 g are 60 de porții, iar cel de 500 g are 100 de porții: la 5 g pe zi, tuburile ajung pentru 60, respectiv 100 de zile. Pe durata utilizării consumi suficiente lichide pe parcursul zilei și nu depășești doza zilnică recomandată.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Pentru cine este\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care fac antrenamente de mare intensitate, iar doza zilnică recomandată a produsului este de 3–5 g.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. Dacă ești însărcinată, alăptezi, ai o afecțiune sau urmezi un tratament medicamentos, consultă medicul înainte de utilizare.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Creapure® sau celelalte forme de creatină Prime\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Creatină Creapure® (acest produs):\",\"bold\":true},{\"type\":\"text\",\"value\":\" creatină monohidrată micronizată Creapure®, tub de 300 g sau 500 g, doză de 3–5 g pe zi.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"link\",\"url\":\"/products/creatina-monohidrat-micronized-300g-fara-aroma\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Creatină monohidrată micronizată fără aromă, 300 g\"}]},{\"type\":\"text\",\"value\":\": ingredientul declarat este creatină monohidrată, fără mențiunea Creapure®; 60 de porții de 5 g, cu măsură inclusă.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"link\",\"url\":\"/products/creatine-ready-to-go-plicuri-prime-supplements\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Plicuri de creatină Ready To Go\"}]},{\"type\":\"text\",\"value\":\": plic efervescent de 10 g cu 5000 mg creatină monohidrată și 200 mg vitamina C, cu arome și îndulcitori.\"}]}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Întrebări frecvente\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Ce este creatina Creapure®?\",\"bold\":true}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Este creatină monohidrată micronizată vândută sub marca înregistrată Creapure®. În tubul Prime Supplements este singurul ingredient.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Câte grame de creatină iei pe zi?\",\"bold\":true}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Între 3 și 5 g, conform dozei zilnice recomandate pentru acest produs. Condiția mențiunii de sănătate este un consum zilnic de 3 g de creatină, iar doza recomandată o acoperă. Nu depăși doza zilnică recomandată.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creapure 300 g sau 500 g: ce diferă?\",\"bold\":true}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Doar cantitatea din tub: 300 g înseamnă 60 de porții, iar 500 g înseamnă 100 de porții. Ingredientul și doza zilnică sunt aceleași.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Are aromă sau îndulcitori?\",\"bold\":true}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Nu. Lista de ingrediente are un singur ingredient, creatina monohidrată micronizată Creapure®, fără arome sau îndulcitori.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Cine nu ar trebui să o folosească?\",\"bold\":true}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Produsul este destinat adulților. Nu-l lăsa la îndemâna copiilor mici și consultă medicul înainte de utilizare dacă ești însărcinată, alăptezi, ai o afecțiune sau urmezi un tratament.\"}]}]}",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    },
+    {
+     "id": "gid://shopify/Metafield/204657805033847",
+     "namespace": "custom",
+     "key": "despre_produs",
+     "type": "rich_text_field",
+     "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creatină Creapure®\",\"bold\":true},{\"type\":\"text\",\"value\":\" de la Prime Supplements: creatină monohidrată micronizată Creapure®, un supliment alimentar pentru adulți sub formă de pulbere, cu un singur ingredient. Creapure® este o marcă înregistrată de creatină monohidrată, iar Prime Supplements apare pe site-ul creapure.com ca producător partener din România.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Creatina este un compus care se găsește în mod natural în organism, mai ales în mușchi. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Doza zilnică recomandată este de 3–5 g, iar pe durata utilizării consumi suficiente lichide pe parcursul zilei.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Este pentru adulții care fac antrenamente de mare intensitate și vor o creatină fără arome adăugate. Alegi tubul de 300 g (60 de porții) sau pe cel de 500 g (100 de porții), iar celelalte forme le găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/creatina\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"creatină monohidrată\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}",
+     "updatedAt": "2026-10-15T14:18:01Z"
+    }
+   ]
+  },
+  "boost": {
+   "id": "gid://shopify/Metafield/204790559703415",
+   "namespace": "shopify--discovery--product_search_boost",
+   "key": "queries",
+   "type": "list.single_line_text_field",
+   "value": "[\"creapure\",\"creatina creapure\",\"creatină creapure\",\"creatina creapure 500g\",\"creatina monohidrata creapure\"]",
+   "updatedAt": "2026-10-15T14:18:01Z"
+  },
+  "titleTag": {
+   "id": "gid://shopify/Metafield/182356065517943",
+   "type": "string",
+   "value": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements"
+  },
+  "descriptionTag": {
+   "id": "gid://shopify/Metafield/182356065550711",
+   "type": "string",
+   "value": "Creatină Creapure®: pulbere cu un singur ingredient, creatină monohidrată Creapure®. Tub de 300 g (60 de porții) sau 500 g (100 de porții), 3–5 g pe zi."
+  },
+  "media": {
+   "nodes": [
+    {
+     "id": "gid://shopify/MediaImage/64959911854455",
+     "alt": "Creatină Creapure® Prime Supplements, tub negru de 500 g cu 100 de porții și etichetă roșu cu negru, din față",
+     "mediaContentType": "IMAGE",
+     "status": "READY",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722",
+      "width": 4000,
+      "height": 4000
+     }
+    },
+    {
+     "id": "gid://shopify/MediaImage/65101771178359",
+     "alt": "Captură de pe creapure.com: Prime Supplements, România, listat cu produsul Creatina, tub de 500 g made of Creapure®",
+     "mediaContentType": "IMAGE",
+     "status": "READY",
+     "image": {
+      "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/creapure.jpg?v=1749730794",
+      "width": 603,
+      "height": 883
+     }
+    }
+   ]
+  },
+  "variants": {
+   "nodes": [
+    {
+     "id": "gid://shopify/ProductVariant/56938509304183",
+     "title": "Creatine (Creapure®) 500g/100serv",
+     "sku": "6421766015109",
+     "barcode": "6421766015109"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/56938509336951",
+     "title": "Creatine (Creapure®) 300g/60serv",
+     "sku": "6421766064404",
+     "barcode": "6421766064404"
+    }
+   ]
+  }
+ }
+}

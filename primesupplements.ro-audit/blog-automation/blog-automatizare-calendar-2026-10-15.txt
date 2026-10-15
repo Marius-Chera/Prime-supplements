@@ -1,0 +1,2959 @@
+[
+ {
+  "nr": 1,
+  "data": "2026-10-14",
+  "ora": "09:00",
+  "handle": "cata-proteina-trebuie-zi-calcul-greutate-obiectiv",
+  "titlu": "Câtă proteină îți trebuie pe zi: calcul pe greutate și obiectiv",
+  "cuvant_cheie": "câtă proteină pe zi",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:dozaj-si-cand-se-ia:necesar-proteic"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 2,
+  "data": "2026-10-14",
+  "ora": "18:00",
+  "handle": "crema-orez-inainte-antrenament-cand-cat-mananci",
+  "titlu": "Crema de orez înainte de antrenament: când și cât mănânci",
+  "cuvant_cheie": "crema de orez înainte de antrenament",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:dozaj-si-cand-se-ia:crema-de-orez"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 3,
+  "data": "2026-10-15",
+  "ora": "09:00",
+  "handle": "citesti-eticheta-unei-proteine-whey-verifici",
+  "titlu": "Cum citești eticheta unei proteine whey: ce verifici",
+  "cuvant_cheie": "eticheta proteină whey",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:cum-alegi:eticheta-whey"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 4,
+  "data": "2026-10-15",
+  "ora": "18:00",
+  "handle": "magneziu-seara-somn-il-iei-doza",
+  "titlu": "Magneziu seara pentru somn: cum îl iei și ce doză",
+  "cuvant_cheie": "magneziu pentru somn",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:magneziu-somn"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 5,
+  "data": "2026-10-16",
+  "ora": "09:00",
+  "handle": "eaa-post-intermitent-rupe-postul-nu",
+  "titlu": "EAA în post intermitent: rupe postul sau nu?",
+  "cuvant_cheie": "EAA post intermitent",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:altele:eaa-post-intermitent"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 6,
+  "data": "2026-10-16",
+  "ora": "18:00",
+  "handle": "coenzima-q10-ubiquinona-ubiquinol-forma-alegi",
+  "titlu": "Coenzima Q10: ubiquinonă sau ubiquinol, ce formă alegi",
+  "cuvant_cheie": "ubiquinona vs ubiquinol",
+  "produse": [
+   "coenzima-q10-80-caps"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:comparatie:ubiquinona-vs-ubiquinol"
+  ],
+  "linie": "q10",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 7,
+  "data": "2026-10-17",
+  "ora": "09:00",
+  "handle": "epa-dha-explicate-cat-omega-3-trebuie-zi",
+  "titlu": "EPA și DHA explicate: cât Omega-3 îți trebuie pe zi",
+  "cuvant_cheie": "EPA DHA doza zilnică",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:omega-3"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 8,
+  "data": "2026-10-17",
+  "ora": "18:00",
+  "handle": "vitamina-c-sportul-refacere-imunitate-sezonul-rece",
+  "titlu": "Vitamina C și sportul: refacere și imunitate în sezonul rece",
+  "cuvant_cheie": "vitamina C sportivi",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:vitamina-c-sportivi"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 9,
+  "data": "2026-10-18",
+  "ora": "09:00",
+  "handle": "gustari-proteice-birou-idei-sub-250-kcal",
+  "titlu": "Gustări proteice pentru birou: idei sub 250 de kcal",
+  "cuvant_cheie": "gustări proteice",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:altele:gustari-proteice"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 10,
+  "data": "2026-10-18",
+  "ora": "18:00",
+  "handle": "bei-mai-multa-apa-7-trucuri-care-chiar-functioneaza",
+  "titlu": "Cum bei mai multă apă: 7 trucuri care chiar funcționează",
+  "cuvant_cheie": "cum să bei mai multă apă",
+  "produse": [
+   "instant-drink-frutilu-pineapple-10g",
+   "instant-drink-frutilu-watermelon-10g",
+   "instant-drink-frutilu-forest-fruits-10g",
+   "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare"
+  ],
+  "colectie": "bauturi",
+  "etichete": [
+   "Băuturi",
+   "hub:bauturi",
+   "intent:altele:consum-apa"
+  ],
+  "linie": "frutilu",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 11,
+  "data": "2026-10-19",
+  "ora": "09:00",
+  "handle": "retete-rapide-proteina-whey-micul-dejun",
+  "titlu": "Rețete rapide cu proteină whey pentru micul dejun",
+  "cuvant_cheie": "rețete cu proteină whey",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:retete:proteina-whey"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 12,
+  "data": "2026-10-19",
+  "ora": "18:00",
+  "handle": "retete-crema-orez-6-idei-dulci-proteice",
+  "titlu": "Rețete cu cremă de orez: 6 idei dulci și proteice",
+  "cuvant_cheie": "rețete cremă de orez",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:retete:crema-de-orez"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 13,
+  "data": "2026-10-20",
+  "ora": "09:00",
+  "handle": "izolat-proteic-intoleranta-lactoza-trebuie-sa-stii",
+  "titlu": "Izolat proteic și intoleranța la lactoză: ce trebuie să știi",
+  "cuvant_cheie": "izolat proteic lactoză",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:altele:izolat-lactoza"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 14,
+  "data": "2026-10-20",
+  "ora": "18:00",
+  "handle": "cand-se-ia-coenzima-q10-dimineata-masa-grasimi",
+  "titlu": "Când se ia coenzima Q10: dimineața, cu masa și cu grăsimi",
+  "cuvant_cheie": "când se ia coenzima Q10",
+  "produse": [
+   "coenzima-q10-80-caps"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:dozaj-si-cand-se-ia:coenzima-q10"
+  ],
+  "linie": "q10",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 15,
+  "data": "2026-10-21",
+  "ora": "09:00",
+  "handle": "antrenamente-peste-90-minute-sustii-energia",
+  "titlu": "Antrenamente de peste 90 de minute: cum îți susții energia",
+  "cuvant_cheie": "energie antrenament lung",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:altele:antrenament-lung"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 16,
+  "data": "2026-10-21",
+  "ora": "18:00",
+  "handle": "vitamina-d-iarna-scade-mentii",
+  "titlu": "Vitamina D iarna: de ce scade și cum o menții",
+  "cuvant_cheie": "vitamina D iarna",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:vitamina-d-iarna"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 17,
+  "data": "2026-10-22",
+  "ora": "09:00",
+  "handle": "glutamina-kyowa-inseamna-fermentatia-puritatea",
+  "titlu": "Glutamina Kyowa: ce înseamnă fermentația și puritatea",
+  "cuvant_cheie": "glutamina kyowa",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:ghid-produs:glutamina-kyowa"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 18,
+  "data": "2026-10-22",
+  "ora": "18:00",
+  "handle": "bauturi-fara-zahar-indulcite-stevia-trebuie-sa-stii",
+  "titlu": "Băuturi fără zahăr îndulcite cu stevia: ce trebuie să știi",
+  "cuvant_cheie": "băuturi fără zahăr stevia",
+  "produse": [
+   "instant-drink-frutilu-pineapple-10g",
+   "instant-drink-frutilu-watermelon-10g",
+   "instant-drink-frutilu-forest-fruits-10g",
+   "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare"
+  ],
+  "colectie": "bauturi",
+  "etichete": [
+   "Băuturi",
+   "hub:bauturi",
+   "intent:ce-este/beneficii:stevia"
+  ],
+  "linie": "frutilu",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 19,
+  "data": "2026-10-23",
+  "ora": "09:00",
+  "handle": "picolinat-crom-cand-se-ia-doza",
+  "titlu": "Picolinat de crom: când se ia și ce doză",
+  "cuvant_cheie": "picolinat de crom doza",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:crom"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 20,
+  "data": "2026-10-23",
+  "ora": "18:00",
+  "handle": "crampe-musculare-sala-magneziul-hidratarea",
+  "titlu": "Crampe musculare la sală: magneziul și hidratarea",
+  "cuvant_cheie": "crampe musculare magneziu",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:crampe-musculare"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 21,
+  "data": "2026-10-24",
+  "ora": "09:00",
+  "handle": "leucina-aminoacidul-cheie-muschi",
+  "titlu": "Leucina: de ce e aminoacidul cheie pentru mușchi",
+  "cuvant_cheie": "leucina beneficii",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:ce-este/beneficii:leucina"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 22,
+  "data": "2026-10-24",
+  "ora": "18:00",
+  "handle": "frutilu-energy-bautura-cafeina-fara-zahar-cand-bei",
+  "titlu": "Frutilu Energy: băutură cu cafeină fără zahăr, când o bei",
+  "cuvant_cheie": "băutură cu cafeină fără zahăr",
+  "produse": [
+   "instant-drink-frutilu-energy-cranberry-10g"
+  ],
+  "colectie": "bauturi",
+  "etichete": [
+   "Băuturi",
+   "hub:bauturi",
+   "intent:ghid-produs:frutilu-energy"
+  ],
+  "linie": "frutiluenergy",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 23,
+  "data": "2026-10-25",
+  "ora": "09:00",
+  "handle": "omega-3-sportivi-stim-despre-refacere",
+  "titlu": "Omega-3 pentru sportivi: ce știm despre refacere",
+  "cuvant_cheie": "omega 3 sportivi",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:omega-3-sportivi"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 24,
+  "data": "2026-10-25",
+  "ora": "18:00",
+  "handle": "vitamina-c-fierul-iei-impreuna",
+  "titlu": "Vitamina C și fierul: de ce le iei împreună",
+  "cuvant_cheie": "vitamina C și fier",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:vitamina-c-fier"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 25,
+  "data": "2026-10-26",
+  "ora": "09:00",
+  "handle": "baton-proteic-inainte-antrenament-idee-buna",
+  "titlu": "Baton proteic înainte de antrenament: e o idee bună?",
+  "cuvant_cheie": "baton proteic înainte de antrenament",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:dozaj-si-cand-se-ia:baton-pre-antrenament"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 26,
+  "data": "2026-10-26",
+  "ora": "18:00",
+  "handle": "multivitamine-plicuri-alegi-formula-zilnica",
+  "titlu": "Multivitamine în plicuri: cum alegi o formulă zilnică",
+  "cuvant_cheie": "multivitamine plicuri",
+  "produse": [
+   "daily-vitamin-formula"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:cum-alegi:multivitamine"
+  ],
+  "linie": "daily",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 27,
+  "data": "2026-10-27",
+  "ora": "09:00",
+  "handle": "proteina-whey-femei-mituri-folosesti",
+  "titlu": "Proteina whey pentru femei: mituri și cum o folosești",
+  "cuvant_cheie": "proteina whey pentru femei",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:public-tinta:whey-femei"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 28,
+  "data": "2026-10-27",
+  "ora": "18:00",
+  "handle": "creatina-femei-beneficii-doza-mituri",
+  "titlu": "Creatina pentru femei: beneficii, doză și mituri",
+  "cuvant_cheie": "creatina pentru femei",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:public-tinta:creatina-femei"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 29,
+  "data": "2026-10-28",
+  "ora": "09:00",
+  "handle": "crema-orez-glicemia-inseamna-indicele-glicemic",
+  "titlu": "Crema de orez și glicemia: ce înseamnă indicele glicemic",
+  "cuvant_cheie": "crema de orez indice glicemic",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:altele:crema-de-orez-glicemie"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 30,
+  "data": "2026-10-28",
+  "ora": "18:00",
+  "handle": "unt-arahide-migdale-caju-comparatie-nutritionala",
+  "titlu": "Unt de arahide, migdale sau caju: comparație nutrițională",
+  "cuvant_cheie": "unt de arahide vs migdale",
+  "produse": [
+   "unt-de-arahide",
+   "unt-de-migdale",
+   "unt-de-caju"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Alimente",
+   "intent:comparatie:unturi-nuci"
+  ],
+  "linie": "unturi",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 31,
+  "data": "2026-10-29",
+  "ora": "09:00",
+  "handle": "shake-proteic-apa-lapte-diferente-alegi",
+  "titlu": "Shake proteic cu apă sau cu lapte: diferențe și ce alegi",
+  "cuvant_cheie": "shake proteic cu apă sau lapte",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:comparatie:shake-apa-vs-lapte"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 32,
+  "data": "2026-10-29",
+  "ora": "18:00",
+  "handle": "cluster-insulin-bomb-zilele-cardio-forta",
+  "titlu": "Cluster Insulin Bomb în zilele de cardio și de forță",
+  "cuvant_cheie": "cluster insulin bomb mod de utilizare",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:ghid-produs:cluster-insulin-bomb"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 33,
+  "data": "2026-10-30",
+  "ora": "09:00",
+  "handle": "cata-vitamina-d-zi-doze-analize-greseli",
+  "titlu": "Câtă vitamina D pe zi: doze, analize și greșeli",
+  "cuvant_cheie": "doza vitamina D pe zi",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:vitamina-d-doza"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 34,
+  "data": "2026-10-30",
+  "ora": "18:00",
+  "handle": "combat-pro-combat-pro-2-0-diferente-alegi",
+  "titlu": "Combat Pro sau Combat Pro 2.0: diferențe și ce alegi",
+  "cuvant_cheie": "combat pro 2.0",
+  "produse": [
+   "combat-pro-2-0-660g-30-serv",
+   "combat-pro"
+  ],
+  "colectie": "suplimente-pre-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:comparatie:combat-pro-versiuni"
+  ],
+  "linie": "combat",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 35,
+  "data": "2026-10-31",
+  "ora": "09:00",
+  "handle": "glutamina-alergare-sporturi-anduranta",
+  "titlu": "Glutamina pentru alergare și sporturi de anduranță",
+  "cuvant_cheie": "glutamina anduranță",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:public-tinta:glutamina-anduranta"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 36,
+  "data": "2026-10-31",
+  "ora": "18:00",
+  "handle": "cromul-glicemia-spune-mentiunea-aprobata-ue",
+  "titlu": "Cromul și glicemia: ce spune mențiunea aprobată în UE",
+  "cuvant_cheie": "crom glicemie",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:crom-glicemie"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 37,
+  "data": "2026-11-01",
+  "ora": "09:00",
+  "handle": "semne-deficit-magneziu-sa-urmaresti",
+  "titlu": "Semne de deficit de magneziu: ce să urmărești",
+  "cuvant_cheie": "deficit de magneziu simptome",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:semne:deficit-magneziu"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 38,
+  "data": "2026-11-01",
+  "ora": "18:00",
+  "handle": "bergamota-este-se-foloseste-suplimente",
+  "titlu": "Bergamota: ce este și cum se folosește în suplimente",
+  "cuvant_cheie": "bergamota beneficii",
+  "produse": [
+   "citrus-bergamot"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:ce-este/beneficii:bergamota"
+  ],
+  "linie": "bergamot",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 39,
+  "data": "2026-11-02",
+  "ora": "09:00",
+  "handle": "eaa-vegetarieni-completezi-aminoacizii",
+  "titlu": "EAA pentru vegetarieni: cum completezi aminoacizii",
+  "cuvant_cheie": "aminoacizi esențiali vegetarieni",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:public-tinta:eaa-vegetarieni"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 40,
+  "data": "2026-11-02",
+  "ora": "18:00",
+  "handle": "omega-3-peste-suplimente-alegi",
+  "titlu": "Omega-3 din pește sau din suplimente: ce alegi",
+  "cuvant_cheie": "omega 3 pește sau supliment",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:comparatie:omega-3-peste-vs-supliment"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 41,
+  "data": "2026-11-03",
+  "ora": "09:00",
+  "handle": "vitamina-c-naturala-sintetica-exista-diferente",
+  "titlu": "Vitamina C naturală sau sintetică: există diferențe?",
+  "cuvant_cheie": "vitamina C naturală vs sintetică",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:comparatie:vitamina-c-naturala-vs-sintetica"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 42,
+  "data": "2026-11-03",
+  "ora": "18:00",
+  "handle": "water-out-capsule-tinctura-forma-alegi",
+  "titlu": "Water Out capsule sau tinctură: ce formă alegi",
+  "cuvant_cheie": "water out capsule",
+  "produse": [
+   "water-out-120-caps",
+   "water-out-500-ml"
+  ],
+  "colectie": "arzator-de-grasimi",
+  "etichete": [
+   "Arzătoare de grăsimi",
+   "intent:comparatie:water-out-forme"
+  ],
+  "linie": "waterout",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 43,
+  "data": "2026-11-04",
+  "ora": "09:00",
+  "handle": "batoane-proteice-dieta-slabit-integrezi",
+  "titlu": "Batoane proteice în dieta de slăbit: cum le integrezi",
+  "cuvant_cheie": "batoane proteice slăbit",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:altele:batoane-slabit"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 44,
+  "data": "2026-11-04",
+  "ora": "18:00",
+  "handle": "proteina-whey-satietatea-te-ajuta-controlul-foamei",
+  "titlu": "Proteina whey și sațietatea: cum te ajută la controlul foamei",
+  "cuvant_cheie": "proteina whey sațietate",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:altele:whey-satietate"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 45,
+  "data": "2026-11-05",
+  "ora": "09:00",
+  "handle": "nac-glutationul-legatura-exista",
+  "titlu": "NAC și glutationul: ce legătură există",
+  "cuvant_cheie": "NAC glutation",
+  "produse": [
+   "nac-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "hub:vitamine-si-minerale",
+   "intent:ce-este/beneficii:nac-glutation"
+  ],
+  "linie": "nac",
+  "tip": "principal"
+ },
+ {
+  "nr": 46,
+  "data": "2026-11-05",
+  "ora": "18:00",
+  "handle": "nitrox-3d-ingrediente-il-folosesti",
+  "titlu": "Nitrox 3D: ingrediente și cum îl folosești",
+  "cuvant_cheie": "nitrox 3d",
+  "produse": [
+   "nitrox"
+  ],
+  "colectie": "suplimente-pre-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:ghid-produs:nitrox-3d"
+  ],
+  "linie": "nitrox",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 47,
+  "data": "2026-11-06",
+  "ora": "09:00",
+  "handle": "creatina-vegetarieni-vegani-conteaza",
+  "titlu": "Creatina pentru vegetarieni și vegani: de ce contează",
+  "cuvant_cheie": "creatina vegetarieni",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:public-tinta:creatina-vegetarieni"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 48,
+  "data": "2026-11-06",
+  "ora": "18:00",
+  "handle": "crema-orez-fara-gluten-cine-potrivita",
+  "titlu": "Crema de orez fără gluten: pentru cine e potrivită",
+  "cuvant_cheie": "crema de orez fără gluten",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:altele:crema-de-orez-gluten"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 49,
+  "data": "2026-11-07",
+  "ora": "09:00",
+  "handle": "proteina-seara-poti-lua-inainte-culcare",
+  "titlu": "Proteina seara: o poți lua înainte de culcare?",
+  "cuvant_cheie": "proteina seara înainte de culcare",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:dozaj-si-cand-se-ia:proteina-seara"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 50,
+  "data": "2026-11-07",
+  "ora": "18:00",
+  "handle": "zinc-magneziu-seara-combinatia-zma-explicata",
+  "titlu": "Zinc și magneziu seara: combinația ZMA explicată",
+  "cuvant_cheie": "zinc și magneziu seara",
+  "produse": [
+   "zinc-citrate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:zinc-magneziu"
+  ],
+  "linie": "zinc",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 51,
+  "data": "2026-11-08",
+  "ora": "09:00",
+  "handle": "carbohidrati-dupa-antrenament-refacerea-glicogenului",
+  "titlu": "Carbohidrați după antrenament: refacerea glicogenului",
+  "cuvant_cheie": "carbohidrați după antrenament",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:dozaj-si-cand-se-ia:carbohidrati-post"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 52,
+  "data": "2026-11-08",
+  "ora": "18:00",
+  "handle": "vitamina-d-functia-musculara-sportivi",
+  "titlu": "Vitamina D și funcția musculară la sportivi",
+  "cuvant_cheie": "vitamina D sportivi",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:vitamina-d-sportivi"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 53,
+  "data": "2026-11-09",
+  "ora": "09:00",
+  "handle": "glutamina-dieta-slabit-are-sens",
+  "titlu": "Glutamina în dieta de slăbit: are sens?",
+  "cuvant_cheie": "glutamina slăbit",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:altele:glutamina-dieta"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 54,
+  "data": "2026-11-09",
+  "ora": "18:00",
+  "handle": "ashwagandha-somnul-arata-studiile",
+  "titlu": "Ashwagandha și somnul: ce arată studiile",
+  "cuvant_cheie": "ashwagandha somn",
+  "produse": [
+   "ashwagandha-ksm-66"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:altele:ashwagandha-somn"
+  ],
+  "linie": "ashwa",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 55,
+  "data": "2026-11-10",
+  "ora": "09:00",
+  "handle": "poftele-dulce-obiceiuri-care-ajuta-rolul-cromului",
+  "titlu": "Poftele de dulce: obiceiuri care ajută și rolul cromului",
+  "cuvant_cheie": "pofta de dulce",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:pofta-dulce"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 56,
+  "data": "2026-11-10",
+  "ora": "18:00",
+  "handle": "magneziu-sportivi-necesar-pierderi-prin-transpiratie",
+  "titlu": "Magneziu pentru sportivi: necesar și pierderi prin transpirație",
+  "cuvant_cheie": "magneziu sportivi",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:magneziu-sportivi"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 57,
+  "data": "2026-11-11",
+  "ora": "09:00",
+  "handle": "eaa-zilele-pauza-iei-nu",
+  "titlu": "EAA în zilele de pauză: le iei sau nu?",
+  "cuvant_cheie": "EAA în zilele de pauză",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:dozaj-si-cand-se-ia:eaa-zile-pauza"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 58,
+  "data": "2026-11-11",
+  "ora": "18:00",
+  "handle": "extractul-ceai-verde-suplimente-este-egcg",
+  "titlu": "Extractul de ceai verde în suplimente: ce este EGCG",
+  "cuvant_cheie": "extract ceai verde",
+  "produse": [
+   "thermo-core-120-caps"
+  ],
+  "colectie": "arzator-de-grasimi",
+  "etichete": [
+   "Arzătoare de grăsimi",
+   "intent:ce-este/beneficii:ceai-verde"
+  ],
+  "linie": "thermo",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 59,
+  "data": "2026-11-12",
+  "ora": "09:00",
+  "handle": "cand-se-ia-omega-3-masa-dimineata-seara",
+  "titlu": "Când se ia Omega-3: cu masa, dimineața sau seara",
+  "cuvant_cheie": "când se ia omega 3",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:omega-3-moment"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 60,
+  "data": "2026-11-12",
+  "ora": "18:00",
+  "handle": "vitamina-c-colagenul-rolul-piele-articulatii",
+  "titlu": "Vitamina C și colagenul: rolul pentru piele și articulații",
+  "cuvant_cheie": "vitamina C colagen",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:vitamina-c-colagen"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 61,
+  "data": "2026-11-13",
+  "ora": "09:00",
+  "handle": "baton-proteic-ciocolata-comparatie-nutritionala",
+  "titlu": "Baton proteic sau ciocolată: comparație nutrițională",
+  "cuvant_cheie": "baton proteic vs ciocolată",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:comparatie:baton-vs-ciocolata"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 62,
+  "data": "2026-11-13",
+  "ora": "18:00",
+  "handle": "pre-workout-lichid-fiole-cand-are-sens",
+  "titlu": "Pre-workout lichid în fiole: când are sens",
+  "cuvant_cheie": "pre workout lichid",
+  "produse": [
+   "energy-pump"
+  ],
+  "colectie": "shot-pre-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:ce-este/beneficii:shot-pre-workout"
+  ],
+  "linie": "energypump",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 63,
+  "data": "2026-11-14",
+  "ora": "09:00",
+  "handle": "proteina-whey-vegetarieni-trebuie-sa-stii",
+  "titlu": "Proteina whey pentru vegetarieni: ce trebuie să știi",
+  "cuvant_cheie": "proteina whey vegetarieni",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:public-tinta:whey-vegetarieni"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 64,
+  "data": "2026-11-14",
+  "ora": "18:00",
+  "handle": "creatina-fara-aroma-amesteci-fara-cocoloase",
+  "titlu": "Creatina fără aromă: cum o amesteci fără cocoloașe",
+  "cuvant_cheie": "cum se dizolvă creatina",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ghid-produs:creatina-fara-aroma"
+  ],
+  "linie": "crea300",
+  "tip": "principal"
+ },
+ {
+  "nr": 65,
+  "data": "2026-11-15",
+  "ora": "09:00",
+  "handle": "nac-sportivi-se-studiaza",
+  "titlu": "NAC pentru sportivi: ce se studiază",
+  "cuvant_cheie": "NAC sportivi",
+  "produse": [
+   "nac-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:nac-sportivi"
+  ],
+  "linie": "nac",
+  "tip": "principal"
+ },
+ {
+  "nr": 66,
+  "data": "2026-11-15",
+  "ora": "18:00",
+  "handle": "fat-burning-booster-shot-il-folosesti",
+  "titlu": "Fat Burning Booster Shot: cum îl folosești",
+  "cuvant_cheie": "fat burning booster",
+  "produse": [
+   "fat-burning-booster"
+  ],
+  "colectie": "arzator-de-grasimi",
+  "etichete": [
+   "Arzătoare de grăsimi",
+   "intent:ghid-produs:fat-burning-booster"
+  ],
+  "linie": "fbb",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 67,
+  "data": "2026-11-16",
+  "ora": "09:00",
+  "handle": "creatina-cafeaua-poti-lua-impreuna",
+  "titlu": "Creatina și cafeaua: le poți lua împreună?",
+  "cuvant_cheie": "creatina și cafeaua",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:combinatii:creatina-cafea"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 68,
+  "data": "2026-11-16",
+  "ora": "18:00",
+  "handle": "crema-orez-proteina-acelasi-shake-combini",
+  "titlu": "Crema de orez cu proteină în același shake: cum le combini",
+  "cuvant_cheie": "crema de orez cu proteină",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:combinatii:crema-de-orez-proteina"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 69,
+  "data": "2026-11-17",
+  "ora": "09:00",
+  "handle": "izolat-proteic-varstnici-mentii-masa-musculara",
+  "titlu": "Izolat proteic pentru vârstnici: cum menții masa musculară",
+  "cuvant_cheie": "izolat proteic vârstnici",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:public-tinta:proteina-varstnici"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 70,
+  "data": "2026-11-17",
+  "ora": "18:00",
+  "handle": "glicerolul-hidratarea-sportivii-anduranta",
+  "titlu": "Glicerolul și hidratarea la sportivii de anduranță",
+  "cuvant_cheie": "glicerol hidratare",
+  "produse": [
+   "glycerol-max-pump-500g-125-serv"
+  ],
+  "colectie": "suplimente-pre-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:public-tinta:glicerol-anduranta"
+  ],
+  "linie": "glycerol",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 71,
+  "data": "2026-11-18",
+  "ora": "09:00",
+  "handle": "intra-workout-sporturi-anduranta-ciclism-alergare",
+  "titlu": "Intra-workout pentru sporturi de anduranță: ciclism și alergare",
+  "cuvant_cheie": "intra-workout anduranță",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:public-tinta:intra-workout-anduranta"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 72,
+  "data": "2026-11-18",
+  "ora": "18:00",
+  "handle": "deficitul-vitamina-d-semne-cine-risc",
+  "titlu": "Deficitul de vitamina D: semne și cine e la risc",
+  "cuvant_cheie": "deficit vitamina D simptome",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:semne:deficit-vitamina-d"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 73,
+  "data": "2026-11-19",
+  "ora": "09:00",
+  "handle": "cate-portii-are-cutie-glutamina-500-g",
+  "titlu": "Câte porții are o cutie de glutamină de 500 g",
+  "cuvant_cheie": "glutamina 500 g porții",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:ghid-produs:glutamina-portii"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 74,
+  "data": "2026-11-19",
+  "ora": "18:00",
+  "handle": "l-carnitina-tartrat-baza-diferente-alegi",
+  "titlu": "L-carnitină tartrat sau bază: diferențe și ce alegi",
+  "cuvant_cheie": "forme de l-carnitină",
+  "produse": [
+   "l-carnitine-1000-80-caps"
+  ],
+  "colectie": "arzator-de-grasimi",
+  "etichete": [
+   "Arzătoare de grăsimi",
+   "intent:comparatie:forme-carnitina"
+  ],
+  "linie": "carnitine",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 75,
+  "data": "2026-11-20",
+  "ora": "09:00",
+  "handle": "picolinat-crom-efecte-secundare-cine-il-evita",
+  "titlu": "Picolinat de crom: efecte secundare și cine îl evită",
+  "cuvant_cheie": "picolinat de crom efecte secundare",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:efecte-secundare:crom"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 76,
+  "data": "2026-11-20",
+  "ora": "18:00",
+  "handle": "magneziu-vitamina-d-merg-impreuna",
+  "titlu": "Magneziu și vitamina D: de ce merg împreună",
+  "cuvant_cheie": "magneziu și vitamina D",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:magneziu-vitamina-d"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 77,
+  "data": "2026-11-21",
+  "ora": "09:00",
+  "handle": "eaa-proteina-whey-cand-alegi-aminoacizi",
+  "titlu": "EAA sau proteină whey: când alegi aminoacizi",
+  "cuvant_cheie": "EAA sau proteină",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:comparatie:eaa-vs-whey"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 78,
+  "data": "2026-11-21",
+  "ora": "18:00",
+  "handle": "citrat-magneziu-digestia-trebuie-sa-stii",
+  "titlu": "Citrat de magneziu și digestia: ce trebuie să știi",
+  "cuvant_cheie": "citrat de magneziu digestie",
+  "produse": [
+   "magnesium-citrate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:citrat-magneziu-digestie"
+  ],
+  "linie": "mgcit",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 79,
+  "data": "2026-11-22",
+  "ora": "09:00",
+  "handle": "omega-3-vitamina-d-se-combina",
+  "titlu": "Omega-3 și vitamina D: de ce se combină",
+  "cuvant_cheie": "omega 3 și vitamina D",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:omega-3-vitamina-d"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 80,
+  "data": "2026-11-22",
+  "ora": "18:00",
+  "handle": "vitamina-c-raceala-poate-nu",
+  "titlu": "Vitamina C și răceala: ce poate și ce nu",
+  "cuvant_cheie": "vitamina C răceală",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:mituri:vitamina-c-raceala"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 81,
+  "data": "2026-11-23",
+  "ora": "09:00",
+  "handle": "cata-proteina-are-baton-proteic-cand-suficient",
+  "titlu": "Câtă proteină are un baton proteic și când e suficient",
+  "cuvant_cheie": "câtă proteină are un baton proteic",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:altele:baton-proteina-continut"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 82,
+  "data": "2026-11-23",
+  "ora": "18:00",
+  "handle": "alimente-bogate-potasiu-sportivi",
+  "titlu": "Alimente bogate în potasiu pentru sportivi",
+  "cuvant_cheie": "alimente bogate în potasiu",
+  "produse": [
+   "potassium-complex-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:potasiu-alimente"
+  ],
+  "linie": "potassium",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 83,
+  "data": "2026-11-24",
+  "ora": "09:00",
+  "handle": "proteina-rinichii-mituri-spun-studiile",
+  "titlu": "Proteina și rinichii: mituri și ce spun studiile",
+  "cuvant_cheie": "proteina și rinichii",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:mituri:proteina-rinichi"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 84,
+  "data": "2026-11-24",
+  "ora": "18:00",
+  "handle": "inseamna-creatina-micronizata-conteaza",
+  "titlu": "Ce înseamnă creatină micronizată și de ce contează",
+  "cuvant_cheie": "creatina micronizată",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:creatina-micronizata"
+  ],
+  "linie": "crea300",
+  "tip": "principal"
+ },
+ {
+  "nr": 85,
+  "data": "2026-11-25",
+  "ora": "09:00",
+  "handle": "nac-600-mg-citesti-eticheta",
+  "titlu": "NAC 600 mg: cum citești eticheta",
+  "cuvant_cheie": "NAC 600 mg etichetă",
+  "produse": [
+   "nac-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "hub:vitamine-si-minerale",
+   "intent:cum-alegi:nac"
+  ],
+  "linie": "nac",
+  "tip": "principal"
+ },
+ {
+  "nr": 86,
+  "data": "2026-11-25",
+  "ora": "18:00",
+  "handle": "natto-alimentul-japonez-care-provine-nattokinaza",
+  "titlu": "Natto: alimentul japonez din care provine nattokinaza",
+  "cuvant_cheie": "natto",
+  "produse": [
+   "enzima-nattokinaza-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "intent:ce-este/beneficii:natto"
+  ],
+  "linie": "natto",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 87,
+  "data": "2026-11-26",
+  "ora": "09:00",
+  "handle": "creatina-fotbal-sporturi-echipa",
+  "titlu": "Creatina pentru fotbal și sporturi de echipă",
+  "cuvant_cheie": "creatina pentru fotbal",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:public-tinta:creatina-sporturi-echipa"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 88,
+  "data": "2026-11-26",
+  "ora": "18:00",
+  "handle": "crema-orez-seara-idee-buna-cina",
+  "titlu": "Crema de orez seara: e o idee bună la cină?",
+  "cuvant_cheie": "crema de orez seara",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:dozaj-si-cand-se-ia:crema-de-orez-seara"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 89,
+  "data": "2026-11-27",
+  "ora": "09:00",
+  "handle": "clatite-proteice-izolat-reteta-baza-variante",
+  "titlu": "Clătite proteice cu izolat: rețeta de bază și variante",
+  "cuvant_cheie": "clătite proteice",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:retete:clatite-proteice"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 90,
+  "data": "2026-11-27",
+  "ora": "18:00",
+  "handle": "retete-scortisoara-ceylon-micul-dejun",
+  "titlu": "Rețete cu scorțișoară de Ceylon pentru micul dejun",
+  "cuvant_cheie": "rețete cu scorțișoară",
+  "produse": [
+   "scortisoara-ceylon-bio-200g"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Alimente",
+   "intent:retete:scortisoara"
+  ],
+  "linie": "scortisoara",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 91,
+  "data": "2026-11-28",
+  "ora": "09:00",
+  "handle": "intra-workout-ziua-picioare-conteaza",
+  "titlu": "Intra-workout în ziua de picioare: de ce contează",
+  "cuvant_cheie": "intra workout zi de picioare",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:altele:intra-picioare"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 92,
+  "data": "2026-11-28",
+  "ora": "18:00",
+  "handle": "vitamina-d-imunitatea-spune-stiinta",
+  "titlu": "Vitamina D și imunitatea: ce spune știința",
+  "cuvant_cheie": "vitamina D imunitate",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:vitamina-d-imunitate"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 93,
+  "data": "2026-11-29",
+  "ora": "09:00",
+  "handle": "glutamina-vegetarieni-cat-aduce-dieta",
+  "titlu": "Glutamina pentru vegetarieni: cât îți aduce dieta",
+  "cuvant_cheie": "glutamina vegetarieni",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:public-tinta:glutamina-vegetarieni"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 94,
+  "data": "2026-11-29",
+  "ora": "18:00",
+  "handle": "gainer-ectomorfi-calculezi-caloriile",
+  "titlu": "Gainer pentru ectomorfi: cum îți calculezi caloriile",
+  "cuvant_cheie": "gainer ectomorf",
+  "produse": [
+   "emperor-mass_3000g"
+  ],
+  "colectie": "suplimente-sala",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:public-tinta:gainer-ectomorfi"
+  ],
+  "linie": "gainer",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 95,
+  "data": "2026-11-30",
+  "ora": "09:00",
+  "handle": "alimente-bogate-crom-unde-il-gasesti",
+  "titlu": "Alimente bogate în crom: unde îl găsești",
+  "cuvant_cheie": "alimente bogate în crom",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:crom-alimente"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 96,
+  "data": "2026-11-30",
+  "ora": "18:00",
+  "handle": "magneziu-stresul-stim-nu",
+  "titlu": "Magneziu și stresul: ce știm și ce nu",
+  "cuvant_cheie": "magneziu stres",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:magneziu-stres"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 97,
+  "data": "2026-12-01",
+  "ora": "09:00",
+  "handle": "aminoacizi-esentiali-dieta-definire",
+  "titlu": "Aminoacizi esențiali în dieta de definire",
+  "cuvant_cheie": "aminoacizi în dieta de slăbit",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:altele:eaa-definire"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 98,
+  "data": "2026-12-01",
+  "ora": "18:00",
+  "handle": "turmeric-piperina-se-combina",
+  "titlu": "Turmeric cu piperină: de ce se combină",
+  "cuvant_cheie": "turmeric cu piperină",
+  "produse": [
+   "turmeric-extract-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "intent:combinatii:turmeric-piperina"
+  ],
+  "linie": "turmeric",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 99,
+  "data": "2026-12-02",
+  "ora": "09:00",
+  "handle": "omega-3-fara-gust-peste-eviti-eructatiile",
+  "titlu": "Omega-3 fără gust de pește: cum eviți eructațiile",
+  "cuvant_cheie": "omega 3 gust de pește",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:altele:omega-3-eructatii"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 100,
+  "data": "2026-12-02",
+  "ora": "18:00",
+  "handle": "vitamina-c-fumatori-necesarul-mai-mare",
+  "titlu": "Vitamina C pentru fumători: de ce necesarul e mai mare",
+  "cuvant_cheie": "vitamina C fumători",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:vitamina-c-fumatori"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 101,
+  "data": "2026-12-03",
+  "ora": "09:00",
+  "handle": "baton-proteic-shake-dupa-antrenament-alegi",
+  "titlu": "Baton proteic sau shake după antrenament: ce alegi",
+  "cuvant_cheie": "baton proteic sau shake",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:comparatie:baton-vs-shake"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 102,
+  "data": "2026-12-03",
+  "ora": "18:00",
+  "handle": "tincturile-plante-iei-corect",
+  "titlu": "Tincturile din plante: cum le iei corect",
+  "cuvant_cheie": "cum se iau tincturile",
+  "produse": [
+   "testo-revive-500-ml"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:ghid-produs:tincturi"
+  ],
+  "linie": "testo",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 103,
+  "data": "2026-12-04",
+  "ora": "09:00",
+  "handle": "shake-proteic-fructe-combinatii-calorii",
+  "titlu": "Shake proteic cu fructe: combinații și calorii",
+  "cuvant_cheie": "shake proteic cu fructe",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:retete:shake-fructe"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 104,
+  "data": "2026-12-04",
+  "ora": "18:00",
+  "handle": "cate-portii-are-cutie-creatina-300-g",
+  "titlu": "Câte porții are o cutie de creatină de 300 g",
+  "cuvant_cheie": "300 g creatină câte porții",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ghid-produs:creatina-300g-portii"
+  ],
+  "linie": "crea300",
+  "tip": "principal"
+ },
+ {
+  "nr": 105,
+  "data": "2026-12-05",
+  "ora": "09:00",
+  "handle": "nac-dupa-40-ani-trebuie-sa-stii",
+  "titlu": "NAC după 40 de ani: ce trebuie să știi",
+  "cuvant_cheie": "NAC după 40 de ani",
+  "produse": [
+   "nac-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:nac-40"
+  ],
+  "linie": "nac",
+  "tip": "principal"
+ },
+ {
+  "nr": 106,
+  "data": "2026-12-05",
+  "ora": "18:00",
+  "handle": "cardio-calm-plantele-formula-scurt",
+  "titlu": "Cardio Calm: plantele din formulă, pe scurt",
+  "cuvant_cheie": "cardio calm",
+  "produse": [
+   "cardio-calm-500-ml"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:ghid-produs:cardio-calm"
+  ],
+  "linie": "cardiocalm",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 107,
+  "data": "2026-12-06",
+  "ora": "09:00",
+  "handle": "creatina-dieta-slabit-pastrezi-nu",
+  "titlu": "Creatina în dieta de slăbit: o păstrezi sau nu?",
+  "cuvant_cheie": "creatina în dietă de slăbit",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:altele:creatina-dieta"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 108,
+  "data": "2026-12-06",
+  "ora": "18:00",
+  "handle": "crema-orez-alergare-ciclism",
+  "titlu": "Crema de orez pentru alergare și ciclism",
+  "cuvant_cheie": "crema de orez anduranță",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:public-tinta:crema-de-orez-anduranta"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 109,
+  "data": "2026-12-07",
+  "ora": "09:00",
+  "handle": "proteina-alergatori-ciclism-cat-cand",
+  "titlu": "Proteina pentru alergători și ciclism: cât și când",
+  "cuvant_cheie": "proteina pentru alergători",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:public-tinta:proteina-anduranta"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 110,
+  "data": "2026-12-07",
+  "ora": "18:00",
+  "handle": "bcaa-dieta-definire-cand-au-sens",
+  "titlu": "BCAA în dieta de definire: când au sens",
+  "cuvant_cheie": "BCAA dietă",
+  "produse": [
+   "recovery-bcaa-500g"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:altele:bcaa-definire"
+  ],
+  "linie": "bcaa",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 111,
+  "data": "2026-12-08",
+  "ora": "09:00",
+  "handle": "intra-workout-sporturi-contact-lupta",
+  "titlu": "Intra-workout pentru sporturi de contact și luptă",
+  "cuvant_cheie": "intra workout sporturi de luptă",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:public-tinta:intra-sporturi-lupta"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 112,
+  "data": "2026-12-08",
+  "ora": "18:00",
+  "handle": "vitamina-d-cei-care-lucreaza-birou",
+  "titlu": "Vitamina D pentru cei care lucrează la birou",
+  "cuvant_cheie": "vitamina D birou",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:vitamina-d-birou"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 113,
+  "data": "2026-12-09",
+  "ora": "09:00",
+  "handle": "glutamina-dupa-40-ani-se-schimba",
+  "titlu": "Glutamina după 40 de ani: ce se schimbă",
+  "cuvant_cheie": "glutamina după 40 de ani",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:public-tinta:glutamina-40"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 114,
+  "data": "2026-12-09",
+  "ora": "18:00",
+  "handle": "fibre-proteine-impreuna-combini-satietate",
+  "titlu": "Fibre și proteine împreună: cum le combini pentru sațietate",
+  "cuvant_cheie": "fibre și proteine sațietate",
+  "produse": [
+   "fiber-blood-orange"
+  ],
+  "colectie": "alimente-sanatoase",
+  "etichete": [
+   "Sănătate",
+   "intent:combinatii:fibre-proteine"
+  ],
+  "linie": "fiber",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 115,
+  "data": "2026-12-10",
+  "ora": "09:00",
+  "handle": "crom-magneziu-se-pot-lua-impreuna",
+  "titlu": "Crom și magneziu: se pot lua împreună?",
+  "cuvant_cheie": "crom și magneziu",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:crom-magneziu"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 116,
+  "data": "2026-12-10",
+  "ora": "18:00",
+  "handle": "magneziu-inainte-dupa-masa-il-iei-corect",
+  "titlu": "Magneziu înainte sau după masă: cum îl iei corect",
+  "cuvant_cheie": "magneziu înainte sau după masă",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:magneziu-masa"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 117,
+  "data": "2026-12-11",
+  "ora": "09:00",
+  "handle": "citesti-eticheta-eaa-cei-9-aminoacizi-proportiile",
+  "titlu": "Cum citești eticheta EAA: cei 9 aminoacizi și proporțiile",
+  "cuvant_cheie": "aminoacizi esențiali etichetă",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:cum-alegi:eaa-eticheta"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 118,
+  "data": "2026-12-11",
+  "ora": "18:00",
+  "handle": "taurina-bauturile-energizante-mituri-realitate",
+  "titlu": "Taurina din băuturile energizante: mituri și realitate",
+  "cuvant_cheie": "taurina energizante",
+  "produse": [
+   "taurine-80-caps"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:mituri:taurina-energizante"
+  ],
+  "linie": "taurine",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 119,
+  "data": "2026-12-12",
+  "ora": "09:00",
+  "handle": "omega-3-vegetarieni-optiuni-exista",
+  "titlu": "Omega-3 pentru vegetarieni: ce opțiuni există",
+  "cuvant_cheie": "omega 3 vegetarieni",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:omega-3-vegetarieni"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 120,
+  "data": "2026-12-12",
+  "ora": "18:00",
+  "handle": "alimente-bogate-vitamina-c-supliment-alegi",
+  "titlu": "Alimente bogate în vitamina C sau supliment: ce alegi",
+  "cuvant_cheie": "alimente bogate în vitamina C",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:comparatie:vitamina-c-alimente"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 121,
+  "data": "2026-12-13",
+  "ora": "09:00",
+  "handle": "gustari-drumetii-calatorii-batoane-proteice",
+  "titlu": "Gustări pentru drumeții și călătorii: batoane proteice",
+  "cuvant_cheie": "gustări pentru drumeții",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:altele:batoane-drumetii"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 122,
+  "data": "2026-12-13",
+  "ora": "18:00",
+  "handle": "colagen-lichid-pudra-diferente-alegi",
+  "titlu": "Colagen lichid sau pudră: diferențe și ce alegi",
+  "cuvant_cheie": "colagen lichid",
+  "produse": [
+   "complete-collagen"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Sănătate",
+   "intent:comparatie:colagen-lichid-vs-pudra"
+  ],
+  "linie": "collagen",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 123,
+  "data": "2026-12-14",
+  "ora": "09:00",
+  "handle": "cate-portii-are-cutie-proteina-2-kg",
+  "titlu": "Câte porții are o cutie de proteină de 2 kg",
+  "cuvant_cheie": "câte porții are 2 kg proteină",
+  "produse": [
+   "prime-whey-2000g",
+   "prime-whey-1000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:ghid-produs:whey-portii"
+  ],
+  "linie": "whey",
+  "tip": "principal"
+ },
+ {
+  "nr": 124,
+  "data": "2026-12-14",
+  "ora": "18:00",
+  "handle": "creatina-monohidrat-hcl-diferente-alegi",
+  "titlu": "Creatina monohidrat sau HCl: diferențe și ce alegi",
+  "cuvant_cheie": "creatina HCl vs monohidrat",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:comparatie:monohidrat-vs-hcl"
+  ],
+  "linie": "crea300",
+  "tip": "principal"
+ },
+ {
+  "nr": 125,
+  "data": "2026-12-15",
+  "ora": "09:00",
+  "handle": "cisteina-alimentatie-unde-gasesti",
+  "titlu": "Cisteina în alimentație: unde o găsești",
+  "cuvant_cheie": "alimente bogate în cisteină",
+  "produse": [
+   "nac-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "hub:vitamine-si-minerale",
+   "intent:altele:cisteina-alimente"
+  ],
+  "linie": "nac",
+  "tip": "principal"
+ },
+ {
+  "nr": 126,
+  "data": "2026-12-15",
+  "ora": "18:00",
+  "handle": "silimarina-capsule-citesti-eticheta",
+  "titlu": "Silimarina în capsule: cum citești eticheta",
+  "cuvant_cheie": "silimarina capsule",
+  "produse": [
+   "silimarina-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "intent:cum-alegi:silimarina"
+  ],
+  "linie": "silimarina",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 127,
+  "data": "2026-12-16",
+  "ora": "09:00",
+  "handle": "creatina-caderea-parului-spun-studiile",
+  "titlu": "Creatina și căderea părului: ce spun studiile",
+  "cuvant_cheie": "creatina cădere păr",
+  "produse": [
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:mituri:creatina-par"
+  ],
+  "linie": "creapure",
+  "tip": "principal"
+ },
+ {
+  "nr": 128,
+  "data": "2026-12-16",
+  "ora": "18:00",
+  "handle": "prepari-crema-orez-apa-lapte-consistenta",
+  "titlu": "Cum prepari crema de orez: apă, lapte și consistență",
+  "cuvant_cheie": "cum prepari crema de orez",
+  "produse": [
+   "crema-de-orez-tort-de-ciocolata",
+   "crema-de-orez-plactina-cu-cocos",
+   "crema-de-orez-biscuiti-cu-crema",
+   "crema-de-orez-blueberry-muffin",
+   "crema-de-orez-caramel-sarat",
+   "crema-de-orez-sirop-de-artar"
+  ],
+  "colectie": "crema-de-orez",
+  "etichete": [
+   "Cremă de orez",
+   "hub:crema-de-orez",
+   "intent:ghid-produs:preparare-crema-de-orez"
+  ],
+  "linie": "rice",
+  "tip": "principal"
+ },
+ {
+  "nr": 129,
+  "data": "2026-12-17",
+  "ora": "09:00",
+  "handle": "proteina-hidrolizata-izolat-diferente-alegi",
+  "titlu": "Proteina hidrolizată sau izolat: diferențe și ce alegi",
+  "cuvant_cheie": "proteina hidrolizată vs izolat",
+  "produse": [
+   "pure-isolate-2000g"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:comparatie:hidrolizat-vs-izolat"
+  ],
+  "linie": "isolate",
+  "tip": "principal"
+ },
+ {
+  "nr": 130,
+  "data": "2026-12-17",
+  "ora": "18:00",
+  "handle": "spirulina-vegetarieni-proteine-fier",
+  "titlu": "Spirulina pentru vegetarieni: proteine și fier",
+  "cuvant_cheie": "spirulina vegetarieni",
+  "produse": [
+   "spirulina-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Sănătate",
+   "intent:public-tinta:spirulina-vegetarieni"
+  ],
+  "linie": "spirulina",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 131,
+  "data": "2026-12-18",
+  "ora": "09:00",
+  "handle": "greseli-frecvente-bauturile-intra-workout",
+  "titlu": "Greșeli frecvente cu băuturile intra-workout",
+  "cuvant_cheie": "greșeli intra workout",
+  "produse": [
+   "cluster-insulin-bomb-1000g"
+  ],
+  "colectie": "suplimente-intra-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:greseli:intra-workout"
+  ],
+  "linie": "cluster",
+  "tip": "principal"
+ },
+ {
+  "nr": 132,
+  "data": "2026-12-18",
+  "ora": "18:00",
+  "handle": "vitamina-d-oasele-dupa-40-ani",
+  "titlu": "Vitamina D și oasele după 40 de ani",
+  "cuvant_cheie": "vitamina D oase",
+  "produse": [
+   "vitamina-d3-k2"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:public-tinta:vitamina-d-40"
+  ],
+  "linie": "vitd",
+  "tip": "principal"
+ },
+ {
+  "nr": 133,
+  "data": "2026-12-19",
+  "ora": "09:00",
+  "handle": "glutamina-antrenamentele-doua-ori-zi",
+  "titlu": "Glutamina și antrenamentele de două ori pe zi",
+  "cuvant_cheie": "glutamina antrenament intens",
+  "produse": [
+   "recovery-glutamin"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:altele:glutamina-volum"
+  ],
+  "linie": "glut",
+  "tip": "principal"
+ },
+ {
+  "nr": 134,
+  "data": "2026-12-19",
+  "ora": "18:00",
+  "handle": "creatina-efervescenta-se-dizolva-contine",
+  "titlu": "Creatina efervescentă: cum se dizolvă și ce conține",
+  "cuvant_cheie": "creatina efervescentă",
+  "produse": [
+   "creatine-ready-to-go-plicuri-prime-supplements"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:creatina-efervescenta"
+  ],
+  "linie": "crearTG",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 135,
+  "data": "2026-12-20",
+  "ora": "09:00",
+  "handle": "picolinat-crom-alte-forme-crom-diferente",
+  "titlu": "Picolinat de crom sau alte forme de crom: diferențe",
+  "cuvant_cheie": "forme de crom",
+  "produse": [
+   "supliment-alimentar-chromium-picolinate-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:comparatie:forme-crom"
+  ],
+  "linie": "crom",
+  "tip": "principal"
+ },
+ {
+  "nr": 136,
+  "data": "2026-12-20",
+  "ora": "18:00",
+  "handle": "cafeaua-magneziul-legatura-exista",
+  "titlu": "Cafeaua și magneziul: ce legătură există",
+  "cuvant_cheie": "cafea și magneziu",
+  "produse": [
+   "magneziu-bisglicinat-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:combinatii:magneziu-cafea"
+  ],
+  "linie": "mg",
+  "tip": "principal"
+ },
+ {
+  "nr": 137,
+  "data": "2026-12-21",
+  "ora": "09:00",
+  "handle": "eaa-alergare-ciclism-cand-au-sens",
+  "titlu": "EAA pentru alergare și ciclism: când au sens",
+  "cuvant_cheie": "aminoacizi anduranță",
+  "produse": [
+   "eaa-aminoacizi-esentiali"
+  ],
+  "colectie": "aminoacizi",
+  "etichete": [
+   "Aminoacizi",
+   "hub:aminoacizi",
+   "intent:public-tinta:eaa-anduranta"
+  ],
+  "linie": "eaa",
+  "tip": "principal"
+ },
+ {
+  "nr": 138,
+  "data": "2026-12-21",
+  "ora": "18:00",
+  "handle": "retete-crema-ovaz-instant",
+  "titlu": "Rețete cu cremă de ovăz instant",
+  "cuvant_cheie": "rețete cu ovăz instant",
+  "produse": [
+   "instant-oat-cream-800g-25-serv"
+  ],
+  "colectie": "alimente-sanatoase",
+  "etichete": [
+   "Alimente",
+   "intent:retete:ovaz-instant"
+  ],
+  "linie": "oat",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 139,
+  "data": "2026-12-22",
+  "ora": "09:00",
+  "handle": "raportul-omega-6-omega-3-alimentatie",
+  "titlu": "Raportul omega-6 și omega-3 în alimentație",
+  "cuvant_cheie": "raport omega 6 omega 3",
+  "produse": [
+   "omega-3"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:ce-este/beneficii:raport-omega"
+  ],
+  "linie": "omega",
+  "tip": "principal"
+ },
+ {
+  "nr": 140,
+  "data": "2026-12-22",
+  "ora": "18:00",
+  "handle": "vitamina-c-stomacul-gol-iei-fara-disconfort",
+  "titlu": "Vitamina C pe stomacul gol: cum o iei fără disconfort",
+  "cuvant_cheie": "vitamina C stomacul gol",
+  "produse": [
+   "vitamin-c-1000-80-caps"
+  ],
+  "colectie": "vitamine-si-minerale",
+  "etichete": [
+   "Vitamine și minerale",
+   "hub:vitamine-si-minerale",
+   "intent:dozaj-si-cand-se-ia:vitamina-c-moment"
+  ],
+  "linie": "vitc",
+  "tip": "principal"
+ },
+ {
+  "nr": 141,
+  "data": "2026-12-23",
+  "ora": "09:00",
+  "handle": "pastrezi-batoanele-proteice-temperatura-termen",
+  "titlu": "Cum păstrezi batoanele proteice: temperatură și termen",
+  "cuvant_cheie": "cum păstrezi batoanele proteice",
+  "produse": [
+   "baton-proteic-capsuni",
+   "baton-proteic-cocos-si-caramel",
+   "baton-proteic-caramel-sarat",
+   "baton-proteic-ciocolata-fructe-de-padure"
+  ],
+  "colectie": "batoane-proteice",
+  "etichete": [
+   "Batoane proteice",
+   "hub:batoane-proteice",
+   "intent:ghid-produs:batoane-pastrare"
+  ],
+  "linie": "bars",
+  "tip": "principal"
+ },
+ {
+  "nr": 142,
+  "data": "2026-12-23",
+  "ora": "18:00",
+  "handle": "pre-workout-seara-alegi-varianta-fara-stimulente",
+  "titlu": "Pre-workout seara: de ce alegi o variantă fără stimulente",
+  "cuvant_cheie": "pre workout seara",
+  "produse": [
+   "nitrox-no-stim"
+  ],
+  "colectie": "suplimente-pre-workout",
+  "etichete": [
+   "Pre-workout",
+   "hub:suplimente-pre-workout",
+   "intent:altele:pre-workout-seara"
+  ],
+  "linie": "nostim",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 143,
+  "data": "2026-12-24",
+  "ora": "09:00",
+  "handle": "proteina-plicuri-prime-whey-go-birou-calatorii",
+  "titlu": "Proteina în plicuri: Prime Whey Go la birou și în călătorii",
+  "cuvant_cheie": "proteina în plicuri",
+  "produse": [
+   "prime-whey-go"
+  ],
+  "colectie": "pudra-proteica",
+  "etichete": [
+   "Proteine",
+   "hub:pudra-proteica",
+   "intent:ghid-produs:prime-whey-go"
+  ],
+  "linie": "wheygo",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 144,
+  "data": "2026-12-24",
+  "ora": "18:00",
+  "handle": "unt-caju-valori-nutritionale-il-folosesti",
+  "titlu": "Unt de caju: valori nutriționale și cum îl folosești",
+  "cuvant_cheie": "unt de caju",
+  "produse": [
+   "unt-de-caju"
+  ],
+  "colectie": "prime-health",
+  "etichete": [
+   "Alimente",
+   "intent:ce-este/beneficii:unt-caju"
+  ],
+  "linie": "caju",
+  "tip": "acoperire"
+ },
+ {
+  "nr": 145,
+  "data": "2026-10-17",
+  "ora": "13:00",
+  "handle": "creapure-vs-creatina-monohidrata-obisnuita",
+  "titlu": "Creapure® vs creatină monohidrată obișnuită: ce diferă",
+  "cuvant_cheie": "creapure vs creatină monohidrată",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:comparatie:creapure-vs-monohidrat"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 146,
+  "data": "2026-10-18",
+  "ora": "13:00",
+  "handle": "la-ce-ajuta-creatina-mentiunea-autorizata",
+  "titlu": "La ce ajută creatina: mențiunea autorizată în UE, explicată",
+  "cuvant_cheie": "la ce ajută creatina",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:la-ce-ajuta-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 147,
+  "data": "2026-10-19",
+  "ora": "13:00",
+  "handle": "cand-se-ia-creatina-inainte-sau-dupa-antrenament",
+  "titlu": "Când se ia creatina: înainte sau după antrenament?",
+  "cuvant_cheie": "când se ia creatina",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:dozaj-si-cand-se-ia:cand-se-ia-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 148,
+  "data": "2026-10-20",
+  "ora": "13:00",
+  "handle": "faza-de-incarcare-creatina-formula-eticheta",
+  "titlu": "Faza de încărcare cu creatină: formula de pe etichetă",
+  "cuvant_cheie": "faza de încărcare creatină",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:dozaj-si-cand-se-ia:faza-de-incarcare"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 149,
+  "data": "2026-10-21",
+  "ora": "13:00",
+  "handle": "creatina-sau-creatinina-diferenta",
+  "titlu": "Creatină sau creatinină: care este diferența",
+  "cuvant_cheie": "creatină sau creatinină",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:creatina-vs-creatinina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 150,
+  "data": "2026-10-22",
+  "ora": "13:00",
+  "handle": "creatina-contraindicatii-cine-nu-o-ia",
+  "titlu": "Creatina: contraindicații și cine nu ar trebui să o ia",
+  "cuvant_cheie": "creatina contraindicații",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:efecte-secundare:contraindicatii"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 151,
+  "data": "2026-10-23",
+  "ora": "13:00",
+  "handle": "cum-citesti-eticheta-creatinei-ce-verifici",
+  "titlu": "Eticheta creatinei: cum o citești și ce verifici",
+  "cuvant_cheie": "eticheta creatinei",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:cum-alegi:eticheta-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 152,
+  "data": "2026-10-24",
+  "ora": "13:00",
+  "handle": "cum-pastrezi-creatina-valabilitate-dupa-deschidere",
+  "titlu": "Creatina expiră? Valabilitate și păstrare după deschidere",
+  "cuvant_cheie": "creatina expiră",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatine-ready-to-go-plicuri-prime-supplements"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ghid-produs:pastrare-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ }
+]

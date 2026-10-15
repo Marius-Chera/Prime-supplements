@@ -1,0 +1,641 @@
+<style>
+  .cx { display: grid; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
+  .cx-head { display: grid; gap: var(--cds-gap-sm); max-width: 62rem; }
+  .cx-title { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.25); line-height: 1.2; text-wrap: balance; }
+  .cx-take { margin: 0; font-size: var(--cds-font-size-body); line-height: 1.55; max-width: 68ch; }
+  .cx-take b { font-weight: 600; }
+  .cx-sub { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; max-width: 72ch; }
+  .cx-section { display: grid; gap: var(--cds-gap-md); }
+  .cx-h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); text-wrap: balance; }
+  .cx-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13.5rem), 1fr)); gap: var(--cds-gap-md); }
+  .cx-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; min-width: 0; }
+  .cx-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.4; }
+  .cx-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: calc(var(--cds-font-size-title) * 1.5); line-height: 1.1; }
+  .cx-line { font-size: var(--cds-font-size-caption); line-height: 1.5; }
+  .cx-up { color: var(--color-ok); }
+  .cx-down { color: var(--color-bad); }
+  .cx-flat { color: var(--color-fg-muted); }
+  .cx-spark { min-height: 40px; margin-top: var(--cds-gap-xs); }
+  .cx-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+  .cx-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); align-content: start; min-width: 0; }
+  .cx-card-title { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .cx-chart { position: relative; min-height: 250px; }
+  .cx-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .cx-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .cx-legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .cx-tick { font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); }
+  .cx-mark-label { font-size: var(--cds-font-size-caption); fill: var(--color-fg); }
+  .cx-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.5; white-space: nowrap; z-index: 2; }
+  .cx-tip .cx-tip-h { color: var(--cds-text-secondary); }
+  .cx-tip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; margin-right: 6px; }
+  .cx-fail { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .cx-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+  .cx-tablebox { overflow-x: auto; }
+  .cx-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); }
+  .cx-table th { text-align: right; font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .cx-table td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .cx-table th:first-child, .cx-table td:first-child { text-align: left; white-space: normal; }
+  .cx-log td { text-align: left; white-space: normal; vertical-align: top; }
+  .cx-log td:first-child { white-space: nowrap; }
+  .cx-notes { display: grid; gap: var(--cds-gap-xs); margin: 0; padding-left: 1.1rem; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.55; max-width: 78ch; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  @media (max-width: 40rem) { .cx-hide-narrow { display: none; } }
+</style>
+
+<div class="cx">
+  <header class="cx-head" id="sus">
+    <h1 class="cx-title">Creatină SEO săptămânal</h1>
+    <p class="cx-take" id="concluzie" data-source="comparatie">
+      <span class="dash-skeleton">—</span>
+    </p>
+    <p class="cx-sub">Înainte = cele 12 săptămâni complete dinainte de modificări (20 iul. – 11 oct. 2026). Modificările SEO pe paginile de creatină au intrat pe 13 și 15 oct., deci săptămâna 12–18 oct. e săptămâna schimbării. După = săptămânile complete de după, începând cu 19–25 oct. Cifrele se actualizează singure la fiecare deschidere, din Shopify.</p>
+  </header>
+
+  <section class="cx-section" id="indicatori">
+    <h2 class="cx-h2">Ultima săptămână completă față de înainte</h2>
+    <div class="cx-tiles">
+      <div class="cx-tile" id="tile-comenzi">
+        <div class="cx-label">Comenzi cu creatină</div>
+        <div class="cx-big dash-skeleton" data-source="comparatie" data-field="ultima" data-where="indicator=comenzi">—</div>
+        <div class="cx-line">Media înainte: <span data-source="comparatie" data-field="medie_inainte" data-where="indicator=comenzi">—</span> · <span class="cx-delta" data-source="comparatie" data-field="ultima_vs_inainte" data-where="indicator=comenzi">—</span></div>
+        <div class="cx-line">După modificări: <span data-source="comparatie" data-field="medie_dupa" data-where="indicator=comenzi">—</span> <span class="cx-delta" data-source="comparatie" data-field="dupa_vs_inainte" data-where="indicator=comenzi"></span></div>
+        <div class="cx-spark" data-source="saptamani" data-key="comenzi"></div>
+      </div>
+      <div class="cx-tile" id="tile-comenzi-cautare">
+        <div class="cx-label">Comenzi cu creatină venite din căutare</div>
+        <div class="cx-big dash-skeleton" data-source="comparatie" data-field="ultima" data-where="indicator=comenzi_cautare">—</div>
+        <div class="cx-line">Media înainte: <span data-source="comparatie" data-field="medie_inainte" data-where="indicator=comenzi_cautare">—</span> · <span class="cx-delta" data-source="comparatie" data-field="ultima_vs_inainte" data-where="indicator=comenzi_cautare">—</span></div>
+        <div class="cx-line">După modificări: <span data-source="comparatie" data-field="medie_dupa" data-where="indicator=comenzi_cautare">—</span> <span class="cx-delta" data-source="comparatie" data-field="dupa_vs_inainte" data-where="indicator=comenzi_cautare"></span></div>
+        <div class="cx-spark" data-source="saptamani" data-key="comenzi_cautare"></div>
+      </div>
+      <div class="cx-tile" id="tile-vizite">
+        <div class="cx-label">Vizite din Google pe paginile de creatină</div>
+        <div class="cx-big dash-skeleton" data-source="comparatie" data-field="ultima" data-where="indicator=vizite_creatina">—</div>
+        <div class="cx-line">Media înainte: <span data-source="comparatie" data-field="medie_inainte" data-where="indicator=vizite_creatina">—</span> · <span class="cx-delta" data-source="comparatie" data-field="ultima_vs_inainte" data-where="indicator=vizite_creatina">—</span></div>
+        <div class="cx-line">După modificări: <span data-source="comparatie" data-field="medie_dupa" data-where="indicator=vizite_creatina">—</span> <span class="cx-delta" data-source="comparatie" data-field="dupa_vs_inainte" data-where="indicator=vizite_creatina"></span></div>
+        <div class="cx-spark" data-source="saptamani" data-key="vizite_creatina"></div>
+      </div>
+      <div class="cx-tile" id="tile-produse">
+        <div class="cx-label">Vizite din Google pe Creapure® și micronizată</div>
+        <div class="cx-big dash-skeleton" data-source="comparatie" data-field="ultima" data-where="indicator=vizite_produse">—</div>
+        <div class="cx-line">Media înainte: <span data-source="comparatie" data-field="medie_inainte" data-where="indicator=vizite_produse">—</span> · <span class="cx-delta" data-source="comparatie" data-field="ultima_vs_inainte" data-where="indicator=vizite_produse">—</span></div>
+        <div class="cx-line">După modificări: <span data-source="comparatie" data-field="medie_dupa" data-where="indicator=vizite_produse">—</span> <span class="cx-delta" data-source="comparatie" data-field="dupa_vs_inainte" data-where="indicator=vizite_produse"></span></div>
+        <div class="cx-spark" data-source="saptamani" data-key="vizite_produse"></div>
+      </div>
+      <div class="cx-tile" id="tile-cota">
+        <div class="cx-label">Cota creatinei din toate vizitele din Google</div>
+        <div class="cx-big dash-skeleton" data-source="comparatie" data-field="ultima" data-where="indicator=cota_creatina">—</div>
+        <div class="cx-line">Înainte: <span data-source="comparatie" data-field="medie_inainte" data-where="indicator=cota_creatina">—</span> · <span class="cx-delta" data-source="comparatie" data-field="ultima_vs_inainte" data-where="indicator=cota_creatina">—</span></div>
+        <div class="cx-line">După modificări: <span data-source="comparatie" data-field="medie_dupa" data-where="indicator=cota_creatina">—</span> <span class="cx-delta" data-source="comparatie" data-field="dupa_vs_inainte" data-where="indicator=cota_creatina"></span></div>
+        <div class="cx-spark" data-source="saptamani" data-key="cota_creatina"></div>
+      </div>
+    </div>
+    <p class="cx-sub">Cota arată dacă paginile de creatină cresc mai repede decât restul site-ului. Dacă vizitele cresc doar pentru că e sezon, cota rămâne la fel.</p>
+  </section>
+
+  <section class="cx-section" id="grafice">
+    <h2 class="cx-h2">Săptămână cu săptămână</h2>
+    <div class="cx-grid">
+      <div class="cx-card" id="card-vizite">
+        <h3 class="cx-card-title">Vizite din Google, pe pagini</h3>
+        <p class="cx-sub">Sesiuni care au intrat pe site dintr-un motor de căutare, după pagina pe care au intrat. Linia punctată marchează modificările din 15 oct.</p>
+        <div class="cx-legend" id="legenda-vizite" data-source="grupuri"></div>
+        <div class="cx-chart" id="grafic-vizite" data-source="grupuri"></div>
+      </div>
+      <div class="cx-card" id="card-comenzi">
+        <h3 class="cx-card-title">Comenzi cu creatină</h3>
+        <p class="cx-sub">Comenzi care conțin cel puțin o creatină, după sursa vizitei care a dus la comandă.</p>
+        <div class="cx-legend" id="legenda-comenzi" data-source="saptamani"></div>
+        <div class="cx-chart" id="grafic-comenzi" data-source="saptamani"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cx-section" id="pagini">
+    <h2 class="cx-h2">Înainte și după, pe fiecare pagină</h2>
+    <div class="cx-card">
+      <h3 class="cx-card-title">Vizite din Google pe săptămână</h3>
+      <div class="cx-tablebox">
+        <table class="cx-table" id="tabel-pagini" data-source="pe_pagini" data-row-key="pagina">
+          <thead><tr>
+            <th data-field="pagina">Pagina</th>
+            <th data-field="medie_inainte">Înainte, media</th>
+            <th data-field="ultima">Ultima săpt.</th>
+            <th data-field="ultima_vs_inainte">Ultima față de înainte</th>
+            <th data-field="medie_dupa">După, media</th>
+            <th data-field="dupa_vs_inainte">După față de înainte</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="cx-card">
+      <h3 class="cx-card-title">Comenzi pe săptămână, pe produs</h3>
+      <div class="cx-tablebox">
+        <table class="cx-table" id="tabel-produse" data-source="pe_produse" data-row-key="produs">
+          <thead><tr>
+            <th data-field="produs">Produsul</th>
+            <th data-field="medie_inainte">Înainte, media</th>
+            <th data-field="ultima">Ultima săpt.</th>
+            <th data-field="ultima_vs_inainte">Ultima față de înainte</th>
+            <th data-field="medie_dupa">După, media</th>
+            <th data-field="dupa_vs_inainte">După față de înainte</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="cx-sub">O comandă cu două creatine diferite apare la ambele produse.</p>
+    </div>
+  </section>
+
+  <section class="cx-section" id="jurnal">
+    <h2 class="cx-h2">Ce am schimbat și când</h2>
+    <div class="cx-card">
+      <div class="cx-tablebox">
+        <table class="cx-table cx-log" id="tabel-jurnal" data-source="jurnal" data-row-key="ce">
+          <thead><tr>
+            <th data-field="data">Data</th>
+            <th data-field="pagina">Pagina</th>
+            <th data-field="ce">Ce s-a schimbat</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="cx-section" id="cum-citesti">
+    <h2 class="cx-h2">Cum citești raportul</h2>
+    <ul class="cx-notes">
+      <li>Google preia de obicei paginile schimbate în 2–6 săptămâni. Primele săptămâni de după pot arăta la fel ca înainte.</li>
+      <li>„Din căutare” înseamnă vizite venite din Google, Bing și alte motoare de căutare, așa cum le clasifică Shopify. Dacă rulezi reclame Google, o parte din ele pot apărea tot aici.</li>
+      <li>O săptămână izolată poate sări mult. Pe 21–27 sept. un singur articol a adus multe vizite, iar media de dinainte include și acea săptămână.</li>
+      <li>Pozițiile în Google pe fiecare căutare nu apar aici, pentru că Google Search Console nu e conectat. Când îl conectăm, adaug pozițiile și clicurile pentru „creatina”, „creatina creapure” și „creatina monohidrat”.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+  (() => {
+    const LUNI = ['ian.', 'feb.', 'mar.', 'apr.', 'mai', 'iun.', 'iul.', 'aug.', 'sept.', 'oct.', 'nov.', 'dec.'];
+    const ro = d3.formatLocale({ decimal: ',', thousands: '.', grouping: [3], currency: ['', ' lei'], minus: '−' });
+    const zi = (s) => new Date(String(s).slice(0, 10) + 'T00:00:00Z');
+    const scurt = (s) => { const d = zi(s); return d.getUTCDate() + ' ' + LUNI[d.getUTCMonth()]; };
+    const interval = (s) => {
+      const a = zi(s);
+      const b = new Date(a.getTime() + 6 * 864e5);
+      return a.getUTCMonth() === b.getUTCMonth()
+        ? a.getUTCDate() + '–' + b.getUTCDate() + ' ' + LUNI[b.getUTCMonth()]
+        : a.getUTCDate() + ' ' + LUNI[a.getUTCMonth()] + ' – ' + b.getUTCDate() + ' ' + LUNI[b.getUTCMonth()];
+    };
+    const dataLunga = (s) => { const d = zi(s); return d.getUTCDate() + ' ' + LUNI[d.getUTCMonth()] + ' ' + d.getUTCFullYear(); };
+    const nr = ro.format(',.0f');
+    const nr1 = ro.format(',.1~f');
+    const pct = ro.format('+.1%');
+    const cota = ro.format('.1%');
+    const valoare = (indicator, x) => (x === null || x === undefined ? '—' : indicator === 'cota_creatina' ? cota(x) : Number.isInteger(x) ? nr(x) : nr1(x));
+    const schimbare = (el, x) => {
+      el.classList.remove('cx-up', 'cx-down', 'cx-flat');
+      if (x === null || x === undefined) { el.textContent = ''; return; }
+      el.textContent = pct(x);
+      el.classList.add(x > 0.005 ? 'cx-up' : x < -0.005 ? 'cx-down' : 'cx-flat');
+    };
+    const esuat = (box) => { const d = document.createElement('div'); d.className = 'cx-fail'; d.textContent = 'Nu s-a încărcat'; box.replaceChildren(d); };
+    window.cx = { SCHIMBARE: '2026-10-12', LUNI, zi, scurt, interval, dataLunga, nr, nr1, pct, cota, valoare, schimbare, esuat };
+  })();
+</script>
+
+<script>
+  dash.loader('vizite_creatina', {
+    description: 'Răspunsul Shopify Analytics (coloane + rânduri) transformat în rânduri, cu numerele ca numere.',
+    fn: ({ answer }) => {
+      let a = answer;
+      if (Array.isArray(a) && a[0] && typeof a[0].text === 'string') a = a[0].text;
+      if (typeof a === 'string') { try { a = JSON.parse(a); } catch (e) { throw new Error(a.slice(0, 300)); } }
+      if (!a || !Array.isArray(a.columns) || !Array.isArray(a.rows)) throw new Error((a && (a.error || a.message)) || 'Shopify nu a trimis un tabel.');
+      const numeric = new Set(['INTEGER', 'MONEY', 'FLOAT', 'DECIMAL', 'NUMBER', 'PERCENT']);
+      return a.rows.map((r) => Object.fromEntries(a.columns.map((c, i) => [c.name, numeric.has(c.dataType) ? Number(r[i]) : r[i]])));
+    },
+  });
+  dash.loader('vizite_site', {
+    description: 'Răspunsul Shopify Analytics (coloane + rânduri) transformat în rânduri, cu numerele ca numere.',
+    fn: ({ answer }) => {
+      let a = answer;
+      if (Array.isArray(a) && a[0] && typeof a[0].text === 'string') a = a[0].text;
+      if (typeof a === 'string') { try { a = JSON.parse(a); } catch (e) { throw new Error(a.slice(0, 300)); } }
+      if (!a || !Array.isArray(a.columns) || !Array.isArray(a.rows)) throw new Error((a && (a.error || a.message)) || 'Shopify nu a trimis un tabel.');
+      const numeric = new Set(['INTEGER', 'MONEY', 'FLOAT', 'DECIMAL', 'NUMBER', 'PERCENT']);
+      return a.rows.map((r) => Object.fromEntries(a.columns.map((c, i) => [c.name, numeric.has(c.dataType) ? Number(r[i]) : r[i]])));
+    },
+  });
+  dash.loader('comenzi_creatina', {
+    description: 'Răspunsul Shopify Analytics (coloane + rânduri) transformat în rânduri, cu numerele ca numere.',
+    fn: ({ answer }) => {
+      let a = answer;
+      if (Array.isArray(a) && a[0] && typeof a[0].text === 'string') a = a[0].text;
+      if (typeof a === 'string') { try { a = JSON.parse(a); } catch (e) { throw new Error(a.slice(0, 300)); } }
+      if (!a || !Array.isArray(a.columns) || !Array.isArray(a.rows)) throw new Error((a && (a.error || a.message)) || 'Shopify nu a trimis un tabel.');
+      const numeric = new Set(['INTEGER', 'MONEY', 'FLOAT', 'DECIMAL', 'NUMBER', 'PERCENT']);
+      return a.rows.map((r) => Object.fromEntries(a.columns.map((c, i) => [c.name, numeric.has(c.dataType) ? Number(r[i]) : r[i]])));
+    },
+  });
+  dash.loader('vanzari_produse', {
+    description: 'Răspunsul Shopify Analytics (coloane + rânduri) transformat în rânduri, cu numerele ca numere.',
+    fn: ({ answer }) => {
+      let a = answer;
+      if (Array.isArray(a) && a[0] && typeof a[0].text === 'string') a = a[0].text;
+      if (typeof a === 'string') { try { a = JSON.parse(a); } catch (e) { throw new Error(a.slice(0, 300)); } }
+      if (!a || !Array.isArray(a.columns) || !Array.isArray(a.rows)) throw new Error((a && (a.error || a.message)) || 'Shopify nu a trimis un tabel.');
+      const numeric = new Set(['INTEGER', 'MONEY', 'FLOAT', 'DECIMAL', 'NUMBER', 'PERCENT']);
+      return a.rows.map((r) => Object.fromEntries(a.columns.map((c, i) => [c.name, numeric.has(c.dataType) ? Number(r[i]) : r[i]])));
+    },
+  });
+
+  dash.calc('grupuri', {
+    title: 'Vizite din Google pe grupuri de pagini',
+    description: 'Adună vizitele din căutare pe săptămână pentru fiecare grup: cele 3 produse, colecția și articolele despre creatină.',
+    inputs: ['vizite_creatina'],
+    fn: (vizite_creatina) => {
+      const grup = (p) => p === '/products/creatina-creapure' ? 'Creatină Creapure®'
+        : p === '/products/creatina-monohidrat-micronized-300g-fara-aroma' ? 'Creatină micronizată 300 g'
+        : p === '/products/creatine-ready-to-go-plicuri-prime-supplements' ? 'Creatină Ready To Go'
+        : p === '/collections/creatina' ? 'Colecția Creatină'
+        : String(p).startsWith('/blogs/') ? 'Articole despre creatină' : 'Alte pagini';
+      const sume = new Map();
+      for (const r of vizite_creatina) {
+        const k = r.week + '|' + grup(r.landing_page_path);
+        sume.set(k, (sume.get(k) || 0) + r.sessions);
+      }
+      return [...sume].map(([k, vizite]) => ({ week: k.split('|')[0], pagina: k.split('|')[1], vizite }));
+    },
+  });
+
+  dash.calc('saptamani', {
+    title: 'Totaluri pe săptămână',
+    description: 'Pe fiecare săptămână: vizite din Google pe paginile de creatină și pe cele 2 produse, cota lor din toate vizitele din Google și comenzile cu creatină.',
+    inputs: ['vizite_site', 'vizite_creatina', 'comenzi_creatina'],
+    fn: (vizite_site, vizite_creatina, comenzi_creatina) => {
+      const SCHIMBARE = '2026-10-12';
+      const produse = ['/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma'];
+      const suma = (rows, k) => rows.reduce((t, r) => t + r[k], 0);
+      return vizite_site.map((s) => {
+        const pag = vizite_creatina.filter((r) => r.week === s.week);
+        const com = comenzi_creatina.filter((r) => r.week === s.week);
+        const vc = suma(pag, 'sessions');
+        return {
+          week: s.week,
+          perioada: s.week < SCHIMBARE ? 'înainte' : s.week === SCHIMBARE ? 'schimbare' : 'după',
+          vizite_creatina: vc,
+          vizite_produse: suma(pag.filter((r) => produse.includes(r.landing_page_path)), 'sessions'),
+          vizite_site: s.sessions,
+          cota_creatina: s.sessions ? Math.round((vc / s.sessions) * 10000) / 10000 : null,
+          comenzi: suma(com, 'orders'),
+          comenzi_cautare: suma(com.filter((r) => r.order_referrer_source === 'search'), 'orders'),
+        };
+      });
+    },
+  });
+
+  dash.calc('comparatie', {
+    title: 'Înainte și după, pe indicator',
+    description: 'Ultima săptămână completă, media pe săptămână înainte de modificări și după ele, și schimbarea față de înainte.',
+    inputs: ['saptamani'],
+    fn: (saptamani) => {
+      const rot1 = (x) => (x === null ? null : Math.round(x * 10) / 10);
+      const rotp = (x) => (x === null ? null : Math.round(x * 1000) / 1000);
+      const inainte = saptamani.filter((r) => r.perioada === 'înainte');
+      const dupa = saptamani.filter((r) => r.perioada === 'după');
+      const ultima = saptamani[saptamani.length - 1] || null;
+      const medie = (rows, k) => {
+        if (!rows.length) return null;
+        if (k === 'cota_creatina') {
+          const site = rows.reduce((t, r) => t + r.vizite_site, 0);
+          return site ? Math.round((rows.reduce((t, r) => t + r.vizite_creatina, 0) / site) * 10000) / 10000 : null;
+        }
+        return rot1(rows.reduce((t, r) => t + r[k], 0) / rows.length);
+      };
+      return ['comenzi', 'comenzi_cautare', 'vizite_creatina', 'vizite_produse', 'cota_creatina'].map((k) => {
+        const m0 = medie(inainte, k);
+        const m1 = medie(dupa, k);
+        const u = ultima ? ultima[k] : null;
+        return {
+          indicator: k,
+          saptamana: ultima ? ultima.week : null,
+          ultima: u,
+          medie_inainte: m0,
+          ultima_vs_inainte: m0 && u !== null ? rotp(u / m0 - 1) : null,
+          medie_dupa: m1,
+          dupa_vs_inainte: m0 && m1 !== null ? rotp(m1 / m0 - 1) : null,
+          saptamani_inainte: inainte.length,
+          saptamani_dupa: dupa.length,
+        };
+      });
+    },
+  });
+
+  dash.calc('pe_pagini', {
+    title: 'Vizite din Google pe pagină',
+    description: 'Pentru fiecare grup de pagini: media pe săptămână înainte, ultima săptămână, media după și schimbările față de înainte.',
+    inputs: ['grupuri', 'vizite_site'],
+    fn: (grupuri, vizite_site) => {
+      const SCHIMBARE = '2026-10-12';
+      const ordine = ['Creatină Creapure®', 'Creatină micronizată 300 g', 'Creatină Ready To Go', 'Colecția Creatină', 'Articole despre creatină', 'Alte pagini'];
+      const sapt = vizite_site.map((r) => r.week);
+      const inainte = sapt.filter((w) => w < SCHIMBARE);
+      const dupa = sapt.filter((w) => w > SCHIMBARE);
+      const ultima = sapt[sapt.length - 1];
+      return ordine.filter((g) => grupuri.some((r) => r.pagina === g)).map((g) => {
+        const suma = (ws) => grupuri.filter((r) => r.pagina === g && ws.includes(r.week)).reduce((t, r) => t + r.vizite, 0);
+        const m0 = inainte.length ? suma(inainte) / inainte.length : null;
+        const m1 = dupa.length ? suma(dupa) / dupa.length : null;
+        const u = ultima ? suma([ultima]) : null;
+        return {
+          pagina: g,
+          medie_inainte: m0 === null ? null : Math.round(m0 * 10) / 10,
+          ultima: u,
+          ultima_vs_inainte: m0 ? Math.round((u / m0 - 1) * 1000) / 1000 : null,
+          medie_dupa: m1 === null ? null : Math.round(m1 * 10) / 10,
+          dupa_vs_inainte: m0 && m1 !== null ? Math.round((m1 / m0 - 1) * 1000) / 1000 : null,
+        };
+      });
+    },
+  });
+
+  dash.calc('pe_produse', {
+    title: 'Comenzi pe produs',
+    description: 'Pentru fiecare creatină: comenzile medii pe săptămână înainte, ultima săptămână, media după și schimbările față de înainte.',
+    inputs: ['vanzari_produse', 'vizite_site'],
+    fn: (vanzari_produse, vizite_site) => {
+      const SCHIMBARE = '2026-10-12';
+      const produs = (t) => /creapure/i.test(t) ? 'Creatină Creapure®' : /ready/i.test(t) ? 'Creatină Ready To Go' : /micronizat/i.test(t) ? 'Creatină micronizată 300 g' : t;
+      const randuri = vanzari_produse.map((r) => ({ week: r.week, produs: produs(r.product_title), orders: r.orders }));
+      const sapt = vizite_site.map((r) => r.week);
+      const inainte = sapt.filter((w) => w < SCHIMBARE);
+      const dupa = sapt.filter((w) => w > SCHIMBARE);
+      const ultima = sapt[sapt.length - 1];
+      const ordine = ['Creatină Creapure®', 'Creatină micronizată 300 g', 'Creatină Ready To Go'];
+      const toate = [...ordine, ...new Set(randuri.map((r) => r.produs).filter((p) => !ordine.includes(p)))];
+      return toate.filter((p) => randuri.some((r) => r.produs === p)).map((p) => {
+        const suma = (ws) => randuri.filter((r) => r.produs === p && ws.includes(r.week)).reduce((t, r) => t + r.orders, 0);
+        const m0 = inainte.length ? suma(inainte) / inainte.length : null;
+        const m1 = dupa.length ? suma(dupa) / dupa.length : null;
+        const u = ultima ? suma([ultima]) : null;
+        return {
+          produs: p,
+          medie_inainte: m0 === null ? null : Math.round(m0 * 10) / 10,
+          ultima: u,
+          ultima_vs_inainte: m0 ? Math.round((u / m0 - 1) * 1000) / 1000 : null,
+          medie_dupa: m1 === null ? null : Math.round(m1 * 10) / 10,
+          dupa_vs_inainte: m0 && m1 !== null ? Math.round((m1 / m0 - 1) * 1000) / 1000 : null,
+        };
+      });
+    },
+  });
+</script>
+
+<script>
+  (() => {
+    const GRUPURI = ['Creatină Creapure®', 'Creatină micronizată 300 g', 'Creatină Ready To Go', 'Colecția Creatină', 'Articole despre creatină', 'Alte pagini'];
+
+    const bare = (box, cfg) => {
+      box.replaceChildren();
+      const W = Math.max(260, box.clientWidth || 0);
+      const H = 250;
+      const top = 22;
+      const bottom = 26;
+      const totaluri = cfg.weeks.map((w) => cfg.keys.reduce((t, k) => t + (cfg.get(w, k) || 0), 0));
+      const y = d3.scaleLinear([0, d3.max(totaluri) || 1], [H - bottom, top]).nice();
+      const ticks = y.ticks(4);
+      const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', cfg.aria);
+      const probe = svg.append('g');
+      const tickText = probe.selectAll('text').data(ticks).join('text').attr('class', 'cx-tick').text((d) => cx.nr(d));
+      let lat = 0;
+      tickText.each(function () { lat = Math.max(lat, this.getComputedTextLength()); });
+      probe.remove();
+      const left = Math.ceil(lat) + 10;
+      const right = 6;
+      const x = d3.scaleBand(cfg.weeks, [left, W - right]).paddingInner(0.28).paddingOuter(0.1);
+
+      svg.append('g').selectAll('line').data(ticks).join('line')
+        .attr('x1', left).attr('x2', W - right).attr('y1', (d) => y(d)).attr('y2', (d) => y(d))
+        .attr('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+      svg.append('g').selectAll('text').data(ticks).join('text')
+        .attr('class', 'cx-tick').attr('x', left - 8).attr('y', (d) => y(d)).attr('dy', '0.32em').attr('text-anchor', 'end')
+        .text((d) => cx.nr(d));
+
+      const rows = cfg.weeks.map((w) => Object.fromEntries([['week', w], ...cfg.keys.map((k) => [k, cfg.get(w, k) || 0])]));
+      const layers = d3.stack().keys(cfg.keys)(rows);
+      svg.append('g').selectAll('g').data(layers).join('g')
+        .attr('fill', (d, i) => cfg.colors[i])
+        .selectAll('rect').data((d) => d).join('rect')
+        .attr('x', (d) => x(d.data.week)).attr('width', x.bandwidth())
+        .attr('y', (d) => y(d[1])).attr('height', (d) => Math.max(0, y(d[0]) - y(d[1])))
+        .attr('rx', 2);
+
+      const loc = Math.max(1, Math.ceil(cfg.weeks.length / Math.max(1, Math.floor((W - left - right) / 54))));
+      svg.append('g').selectAll('text').data(cfg.weeks.filter((w, i) => (cfg.weeks.length - 1 - i) % loc === 0)).join('text')
+        .attr('class', 'cx-tick').attr('x', (w) => x(w) + x.bandwidth() / 2).attr('y', H - 8).attr('text-anchor', 'middle')
+        .text((w) => cx.scurt(w));
+
+      const areSchimbare = cfg.weeks.includes(cx.SCHIMBARE);
+      const ultima = cfg.weeks[cfg.weeks.length - 1];
+      const xm = areSchimbare ? x(cx.SCHIMBARE) + x.bandwidth() * 0.55 : (ultima && ultima < cx.SCHIMBARE ? W - right - 1 : null);
+      if (xm !== null) {
+        svg.append('line').attr('x1', xm).attr('x2', xm).attr('y1', top - 4).attr('y2', H - bottom)
+          .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 1.5).attr('stroke-dasharray', '4 3');
+        const eticheta = svg.append('text').attr('class', 'cx-mark-label').attr('y', top - 10)
+          .text(areSchimbare ? '15 oct. · SEO nou' : 'SEO nou din 15 oct. →');
+        const lw = eticheta.node().getComputedTextLength();
+        eticheta.attr('x', Math.max(left, Math.min(xm - lw / 2, W - right - lw)));
+      }
+
+      const tip = document.createElement('div');
+      tip.className = 'cx-tip';
+      tip.hidden = true;
+      box.appendChild(tip);
+      svg.append('g').selectAll('rect').data(cfg.weeks).join('rect')
+        .attr('x', (w) => x(w) - (x.step() - x.bandwidth()) / 2).attr('width', x.step())
+        .attr('y', top).attr('height', H - bottom - top).attr('fill', 'transparent')
+        .on('mouseenter mousemove', (event, w) => {
+          const head = document.createElement('div');
+          head.className = 'cx-tip-h';
+          head.textContent = cx.interval(w);
+          const lines = cfg.keys.map((k, i) => ({ k, i, v: cfg.get(w, k) || 0 })).filter((l) => l.v > 0).reverse().map((l) => {
+            const d = document.createElement('div');
+            const sw = document.createElement('i');
+            sw.style.background = cfg.colors[l.i];
+            d.append(sw, document.createTextNode(cfg.label(l.k) + ': ' + cx.nr(l.v)));
+            return d;
+          });
+          const tot = document.createElement('div');
+          tot.textContent = 'Total: ' + cx.nr(cfg.keys.reduce((t, k) => t + (cfg.get(w, k) || 0), 0));
+          tip.replaceChildren(head, ...lines, tot);
+          tip.hidden = false;
+          const [px] = d3.pointer(event, box);
+          const bw = box.clientWidth;
+          const tw = tip.offsetWidth;
+          tip.style.left = Math.max(0, Math.min(px + 12, bw - tw)) + 'px';
+          tip.style.top = '4px';
+        })
+        .on('mouseleave', () => { tip.hidden = true; });
+    };
+
+    const legenda = (el, keys, colors, label) => {
+      el.replaceChildren(...keys.map((k, i) => {
+        const s = document.createElement('span');
+        const sw = document.createElement('i');
+        sw.style.background = colors[i];
+        s.append(sw, document.createTextNode(label(k)));
+        return s;
+      }));
+    };
+
+    const spark = (box, rows, key) => {
+      box.replaceChildren();
+      if (!rows.length) return;
+      const W = Math.max(160, box.clientWidth || 0);
+      const H = 40;
+      const x = d3.scaleLinear([0, rows.length - 1], [3, W - 4]);
+      const vals = rows.map((r) => r[key] || 0);
+      const y = d3.scaleLinear([0, d3.max(vals) || 1], [H - 3, 4]);
+      const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('aria-hidden', 'true');
+      const iS = rows.findIndex((r) => r.week >= cx.SCHIMBARE);
+      if (iS >= 0) {
+        svg.append('line').attr('x1', x(iS)).attr('x2', x(iS)).attr('y1', 0).attr('y2', H)
+          .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '3 3');
+      }
+      svg.append('path').attr('d', d3.line((d, i) => x(i), (d) => y(d))(vals))
+        .attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-width', 2)
+        .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round');
+      svg.append('circle').attr('cx', x(vals.length - 1)).attr('cy', y(vals[vals.length - 1])).attr('r', 3).attr('fill', dash.colors[0]);
+    };
+
+    const umple = (sel, fn) => document.querySelectorAll(sel).forEach(fn);
+    const gata = (el) => el.classList.remove('dash-skeleton');
+
+    const tabel = (tableId, id, keyField) => {
+      const t = document.getElementById(tableId);
+      const tb = t.querySelector('tbody');
+      const st = dash.data(id);
+      if (st.status !== 'ok') { tb.replaceChildren(); return; }
+      tb.replaceChildren(...st.data.map((r) => {
+        const tr = document.createElement('tr');
+        const cell = (txt, cls) => { const td = document.createElement('td'); td.textContent = txt; if (cls) td.className = cls; return td; };
+        const delta = (x) => { const td = document.createElement('td'); cx.schimbare(td, x); if (x === null || x === undefined) td.textContent = '—'; return td; };
+        tr.append(
+          cell(r[keyField]),
+          cell(cx.valoare('', r.medie_inainte)),
+          cell(cx.valoare('', r.ultima)),
+          delta(r.ultima_vs_inainte),
+          cell(cx.valoare('', r.medie_dupa)),
+          delta(r.dupa_vs_inainte),
+        );
+        return tr;
+      }));
+    };
+
+    dash.onData(() => {
+      const comp = dash.data('comparatie');
+      const sapt = dash.data('saptamani');
+      const grup = dash.data('grupuri');
+
+      // Indicatori
+      umple('[data-source="comparatie"][data-field]', (el) => {
+        if (comp.status === 'ok') {
+          const ind = new URLSearchParams(el.dataset.where).get('indicator');
+          const row = comp.data.find((r) => r.indicator === ind);
+          const f = el.dataset.field;
+          const v = row ? row[f] : null;
+          if (f === 'ultima_vs_inainte' || f === 'dupa_vs_inainte') cx.schimbare(el, v);
+          else if (f === 'medie_dupa' && (v === null || v === undefined)) el.textContent = 'din 26 oct.';
+          else el.textContent = cx.valoare(ind, v);
+          gata(el);
+        } else if (comp.status === 'error') { el.textContent = '—'; gata(el); }
+      });
+      umple('.cx-spark', (box) => {
+        if (sapt.status === 'ok') spark(box, sapt.data, box.dataset.key);
+        else box.replaceChildren();
+      });
+
+      // Concluzia de sus
+      const take = document.getElementById('concluzie');
+      if (comp.status === 'ok' && comp.data.length) {
+        const by = Object.fromEntries(comp.data.map((r) => [r.indicator, r]));
+        const c = by.comenzi;
+        const v = by.vizite_creatina;
+        const span = (ind, field, txt) => {
+          const s = document.createElement('b');
+          s.dataset.source = 'comparatie';
+          s.dataset.field = field;
+          s.dataset.where = 'indicator=' + ind;
+          s.textContent = txt;
+          return s;
+        };
+        const t = (s) => document.createTextNode(s);
+        const parts = [
+          t('Săptămâna '), span('comenzi', 'saptamana', c.saptamana ? cx.interval(c.saptamana) : '—'), t(': '),
+          span('comenzi', 'ultima', cx.valoare('comenzi', c.ultima)), t(' comenzi cu creatină ('),
+          span('comenzi', 'ultima_vs_inainte', c.ultima_vs_inainte === null ? '—' : cx.pct(c.ultima_vs_inainte)), t(' față de media de dinainte) și '),
+          span('vizite_creatina', 'ultima', cx.valoare('vizite_creatina', v.ultima)), t(' vizite din Google pe paginile de creatină ('),
+          span('vizite_creatina', 'ultima_vs_inainte', v.ultima_vs_inainte === null ? '—' : cx.pct(v.ultima_vs_inainte)), t('). '),
+        ];
+        if (c.saptamani_dupa > 0) {
+          parts.push(t('După modificări, în medie '), span('comenzi', 'medie_dupa', cx.valoare('comenzi', c.medie_dupa)),
+            t(' comenzi pe săptămână ('), span('comenzi', 'dupa_vs_inainte', c.dupa_vs_inainte === null ? '—' : cx.pct(c.dupa_vs_inainte)), t(' față de înainte).'));
+        } else {
+          parts.push(t('Prima săptămână completă după modificări e 19–25 oct.; apare aici de luni, 26 oct.'));
+        }
+        take.replaceChildren(...parts);
+      } else if (comp.status === 'error') {
+        take.textContent = 'Datele din Shopify nu s-au încărcat. Deschide Surse ca să vezi de ce.';
+      }
+
+      // Grafic vizite pe pagini
+      const gv = document.getElementById('grafic-vizite');
+      if (grup.status === 'ok' && sapt.status === 'ok') {
+        const prezente = GRUPURI.filter((g) => grup.data.some((r) => r.pagina === g));
+        const idx = new Map(grup.data.map((r) => [r.week + '|' + r.pagina, r.vizite]));
+        const culori = prezente.map((g, i) => dash.colors[i % dash.colors.length]);
+        legenda(document.getElementById('legenda-vizite'), prezente, culori, (k) => k);
+        bare(gv, {
+          weeks: sapt.data.map((r) => r.week), keys: prezente, colors: culori, label: (k) => k,
+          get: (w, k) => idx.get(w + '|' + k) || 0,
+          aria: 'Vizite din Google pe paginile de creatină, pe săptămâni și pe grupuri de pagini',
+        });
+      } else if (grup.status === 'error' || sapt.status === 'error') esuat(gv);
+      else gv.replaceChildren();
+
+      // Grafic comenzi
+      const gc = document.getElementById('grafic-comenzi');
+      if (sapt.status === 'ok') {
+        const keys = ['cautare', 'alte'];
+        const nume = { cautare: 'Din căutare', alte: 'Din alte surse' };
+        const culori = [dash.colors[0], 'var(--cds-chart-muted)'];
+        const idx = new Map(sapt.data.map((r) => [r.week, r]));
+        legenda(document.getElementById('legenda-comenzi'), keys, culori, (k) => nume[k]);
+        bare(gc, {
+          weeks: sapt.data.map((r) => r.week), keys, colors: culori, label: (k) => nume[k],
+          get: (w, k) => { const r = idx.get(w); return !r ? 0 : k === 'cautare' ? r.comenzi_cautare : r.comenzi - r.comenzi_cautare; },
+          aria: 'Comenzi cu creatină pe săptămâni, din căutare și din alte surse',
+        });
+      } else if (sapt.status === 'error') esuat(gc);
+      else gc.replaceChildren();
+
+      // Tabele
+      tabel('tabel-pagini', 'pe_pagini', 'pagina');
+      tabel('tabel-produse', 'pe_produse', 'produs');
+
+      const j = dash.data('jurnal');
+      const tj = document.querySelector('#tabel-jurnal tbody');
+      if (j.status === 'ok') {
+        const rows = [...j.data].sort((a, b) => String(b.data).localeCompare(String(a.data)));
+        tj.replaceChildren(...rows.map((r) => {
+          const tr = document.createElement('tr');
+          [cx.dataLunga(r.data), r.pagina, r.ce].forEach((txt) => { const td = document.createElement('td'); td.textContent = txt; tr.appendChild(td); });
+          return tr;
+        }));
+      } else tj.replaceChildren();
+    });
+  })();
+</script>

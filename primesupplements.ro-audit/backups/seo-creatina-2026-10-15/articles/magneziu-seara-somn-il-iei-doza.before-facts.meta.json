@@ -1,0 +1,21 @@
+{
+ "id": "gid://shopify/Article/1025275134327",
+ "handle": "magneziu-seara-somn-il-iei-doza",
+ "title": "Magneziul seara: cum îl iei, ce doză și ce spune UE despre somn",
+ "isPublished": true,
+ "publishedAt": "2026-10-15T15:00:03Z",
+ "tags": [
+  "hub:vitamine-si-minerale",
+  "intent:altele:magneziu-somn",
+  "Vitamine și minerale"
+ ],
+ "blog": {
+  "id": "gid://shopify/Blog/116352287095"
+ },
+ "summary": "Mulți iau magneziul seara, cu cina sau cu 1–2 ore înainte de culcare, în doza de pe ambalaj. În UE nu există o mențiune de sănătate autorizată pentru magneziu și somn, așa că nu promitem un efect asupra somnului.",
+ "image": {
+  "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-magneziu-seara-somn-il-iei-doza.jpg?v=1792059753",
+  "altText": "Flacon Magneziu Bisglicinat Prime Health pe noptieră, lângă un pahar cu apă, o carte și capsule într-un bol mic"
+ },
+ "body_file": "magneziu-seara-somn-il-iei-doza.before-facts.html"
+}

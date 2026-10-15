@@ -1,0 +1,21 @@
+{
+ "id": "gid://shopify/Article/1025275199863",
+ "handle": "crema-orez-inainte-antrenament-cand-cat-mananci",
+ "title": "Crema de orez înainte de antrenament: când și cât mănânci",
+ "isPublished": false,
+ "publishedAt": "2026-10-16T10:00:00Z",
+ "tags": [
+  "Cremă de orez",
+  "hub:crema-de-orez",
+  "intent:dozaj-si-cand-se-ia:crema-de-orez"
+ ],
+ "blog": {
+  "id": "gid://shopify/Blog/116352287095"
+ },
+ "summary": "Crema de orez se mănâncă cu 30 de minute până la 3 ore înainte de antrenament, de obicei în 1–2 porții de aproximativ 45 g (circa 35–70 g de carbohidrați, adică 0,5–1 g/kg pentru o persoană de 70 kg), cu atât mai mici cu cât ai mai puțin timp.",
+ "image": {
+  "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-crema-orez-inainte-antrenament-cand-cat-mananci.jpg?v=1792059886",
+  "altText": "Prime Creamy Rice cu tort de ciocolată lângă un bol cu cremă de orez, o banană și o geantă de sală pe masa din bucătărie"
+ },
+ "body_file": "crema-orez-inainte-antrenament-cand-cat-mananci.before-facts.html"
+}

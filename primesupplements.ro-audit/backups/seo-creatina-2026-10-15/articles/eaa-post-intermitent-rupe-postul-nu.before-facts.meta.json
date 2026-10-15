@@ -1,0 +1,21 @@
+{
+ "id": "gid://shopify/Article/1025275167095",
+ "handle": "eaa-post-intermitent-rupe-postul-nu",
+ "title": "EAA în post intermitent: rupe postul sau nu?",
+ "isPublished": false,
+ "publishedAt": "2026-10-16T06:00:00Z",
+ "tags": [
+  "Aminoacizi",
+  "hub:aminoacizi",
+  "intent:altele:eaa-post-intermitent"
+ ],
+ "blog": {
+  "id": "gid://shopify/Blog/116352287095"
+ },
+ "summary": "EAA rup un post strict, pentru că aminoacizii furnizează calorii; o doză Prime EAA are aproximativ 6 g, adică cel mult circa 24 kcal, după calculul nostru. Dacă postul e doar control caloric, aportul e foarte mic.",
+ "image": {
+  "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-eaa-post-intermitent-rupe-postul-nu.jpg?v=1792059819",
+  "altText": "Tub Prime EAA lângă un shaker cu băutură de aminoacizi, o cafea neagră, un ceas de perete și un caiet pe masă"
+ },
+ "body_file": "eaa-post-intermitent-rupe-postul-nu.before-facts.html"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "gid://shopify/Article/1025262748023",
+ "handle": "cata-proteina-trebuie-zi-calcul-greutate-obiectiv",
+ "title": "Câtă proteină pe zi: calcul pe greutate și obiectiv",
+ "isPublished": true,
+ "publishedAt": "2026-10-13T17:21:00Z",
+ "tags": [
+  "hub:pudra-proteica",
+  "intent:dozaj-si-cand-se-ia:necesar-proteic",
+  "Proteine"
+ ],
+ "blog": {
+  "id": "gid://shopify/Blog/116352287095"
+ },
+ "summary": "Câtă proteină pe zi îți trebuie: aproximativ 0,8 g/kg dacă ești sedentar și 1,6–2,2 g/kg dacă te antrenezi cu greutăți. Înmulțești ținta cu greutatea ta și împarți rezultatul pe 3–5 mese.",
+ "image": {
+  "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-cata-proteina-pe-zi-calcul.jpg?v=1791916897",
+  "altText": "Prime Whey pe o masă de lemn, cu pui și orez la caserolă, ouă, brânză de vaci și un caiet"
+ },
+ "body_file": "cata-proteina-trebuie-zi-calcul-greutate-obiectiv.before-facts.html"
+}

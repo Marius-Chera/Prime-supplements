@@ -1,0 +1,25 @@
+{
+ "backup_of": "product B standard metafield shopify.dietary-preferences before removal of Vegan + Vegetarian (2026-10-15 ~23:20 UTC)",
+ "read_via": "Shopify Admin GraphQL product(id).metafields(namespace:\"shopify\") at ~23:18 UTC; product updatedAt 2026-10-15T23:10:27Z",
+ "product_id": "gid://shopify/Product/15404872368503",
+ "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+ "metafield": {
+  "id": "gid://shopify/Metafield/193544321368439",
+  "namespace": "shopify",
+  "key": "dietary-preferences",
+  "type": "list.metaobject_reference",
+  "value": "[\"gid://shopify/Metaobject/529562206583\",\"gid://shopify/Metaobject/529562272119\"]",
+  "updatedAt": "2026-03-04T00:06:18Z",
+  "resolved": {
+   "gid://shopify/Metaobject/529562206583": "shopify--dietary-preferences / vegetarian (Vegetarian, TaxonomyValue/8676)",
+   "gid://shopify/Metaobject/529562272119": "shopify--dietary-preferences / vegan (Vegan, TaxonomyValue/8675)"
+  }
+ },
+ "other_shopify_metafields_unchanged": {
+  "shopify.flavor": "[Unflavored]",
+  "shopify.age-group": "[Adults]",
+  "shopify.detailed-ingredients": "[Creatine]"
+ },
+ "product_A_creatina-creapure": "no shopify-namespace metafields (nothing to back up or change)",
+ "rollback_mutation": "metafieldsSet(metafields:[{ownerId:\"gid://shopify/Product/15404872368503\", namespace:\"shopify\", key:\"dietary-preferences\", type:\"list.metaobject_reference\", value:<metafield.value>}])"
+}

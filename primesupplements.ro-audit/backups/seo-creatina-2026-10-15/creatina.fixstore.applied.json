@@ -1,0 +1,60 @@
+{
+ "applied_at": "2026-10-15 23:14-23:18 UTC",
+ "task": "creatine store fixes (collection hub/seo_text, product B dietary-preferences); Page 704641139063 not edited",
+ "writes": [
+  {
+   "mutation": "articleUpdate",
+   "id": "gid://shopify/Article/1024181174647",
+   "handle": "cum-se-ia-creatina",
+   "fields": {
+    "title": "Cum se ia creatina: doza de pe etichetă",
+    "summary": "Urmezi doza zilnică a produsului ales: la Creatină Creapure®, doza zilnică recomandată este de 3–5 g pe zi; la pudra micronizată fără aromă, porții de 5 g (½ măsură) după schema zilnică de pe etichetă; la Ready To Go, 1 plic pe zi. Nu depăși doza de pe etichetă.",
+    "image.altText": "Borcan de sticlă cu pudră albă și linguriță de măsură plină, lângă un carnet deschis și o ganteră"
+   },
+   "userErrors": [],
+   "readback_updatedAt": "2026-10-15T23:14:46Z",
+   "image_id_unchanged": "gid://shopify/ArticleImage/398508294519",
+   "backup": "articles/cum-se-ia-creatina.cardfields.before.json"
+  },
+  {
+   "mutation": "articleUpdate",
+   "id": "gid://shopify/Article/1023943278967",
+   "handle": "creatina-pastile-sau-praf",
+   "fields": {
+    "summary": "Pudră din tub sau plicuri efervescente: diferă ambalajul, lista de ingrediente și modul de administrare de pe etichetă. Alegi forma care ți se potrivește; doza este cea de pe eticheta produsului.",
+    "image.altText": "Tub de pudră deschis, linguriță de măsură plină și un pahar cu apă pe o masă albă"
+   },
+   "userErrors": [],
+   "readback_updatedAt": "2026-10-15T23:14:51Z",
+   "image_id_unchanged": "gid://shopify/ArticleImage/397916242295",
+   "backup": "articles/creatina-pastile-sau-praf.cardfields.before.json"
+  },
+  {
+   "mutation": "metafieldsSet",
+   "ownerId": "gid://shopify/Collection/671131369847",
+   "custom.hub_articles": "[\"cum-se-ia-creatina\",\"creatina-pastile-sau-praf\"]",
+   "custom.seo_text": "{\"type\":\"root\",\"children\":[]}",
+   "userErrors": [],
+   "updatedAt": "2026-10-15T23:14:58Z",
+   "backup": "creatina.metafields.before.json"
+  },
+  {
+   "mutation": "metafieldsDelete",
+   "ownerId": "gid://shopify/Product/15404872368503",
+   "namespace": "shopify",
+   "key": "dietary-preferences",
+   "removed_values": [
+    "Vegetarian (Metaobject 529562206583)",
+    "Vegan (Metaobject 529562272119)"
+   ],
+   "userErrors": [],
+   "backup": "creatina-monohidrat-micronized-300g-fara-aroma.dietary-preferences.before.json"
+  }
+ ],
+ "not_written": {
+  "Page 704641139063 (creatina-custom)": "body is empty and is not rendered by the product tab; product.creatina2 tab 'Despre produs' is a hard-coded liquid block in the template (owner/theme decision)",
+  "product A/B seo, descriptionHtml, custom.* metafields, alts": "not touched (other agent)",
+  "templates/theme": "not touched",
+  "Judge.me": "not editable via API; reported only"
+ }
+}

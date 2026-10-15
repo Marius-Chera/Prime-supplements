@@ -7,7 +7,7 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 - Blog: `news` (id `gid://shopify/Blog/116352287095`), adrese `https://primesupplements.ro/blogs/news/<handle>`.
 - Autor: **Marius Chera** (câmpul author al articolului) și caseta de autor de la secțiunea 5.
 - Limba: română, cu diacritice corecte (ș, ț cu virgulă dedesubt, nu ş/ţ cu sedilă).
-- Programare: două articole pe zi, la **09:00** și **18:00** (ora României), cu `isPublished: true` și `publishDate` în viitor; Shopify le face vizibile singur la ora respectivă.
+- Programare: două articole pe zi, la **09:00** și **18:00** (ora României). Pentru o oră din viitor: `isPublished: false` și `publishDate` = ora programată (UTC); Shopify le face vizibile singur la ora respectivă, iar `publishedAt` arată deja ora programată. Shopify refuză `isPublished: true` împreună cu o dată viitoare (eroarea `INVALID_PUBLISH_DATE`). `isPublished: true` se folosește doar dacă ora a trecut deja.
 
 ## 2. Alegerea subiectului (anti-canibalizare)
 
@@ -280,4 +280,4 @@ Culorile: text de accent `#a54f51`, fundaluri cu text alb `#b65b5d`, nuanța des
 1. Toate linkurile interne există (produs ACTIVE, colecție, articole publicate, prin Admin API).
 2. Fără H1 în corp, fără `<script>`, fără linkuri inventate, fără prețuri, fără mențiuni de sănătate neautorizate (caută cuvintele interzise de la secțiunea 3).
 3. Title tag ≤ 60 de caractere, meta description 140–155, handle unic, etichetele din calendar.
-4. După creare: citește articolul înapoi și confirmă `isPublished: true`, `publishedAt` = ora programată, imaginea (cea generată cu AI, verificată vizual), metafield-urile SEO și etichetele.
+4. După creare: citește articolul înapoi și confirmă `publishedAt` = ora programată (`isPublished` rămâne `false` până la ora respectivă), imaginea (cea generată cu AI, verificată vizual), metafield-urile SEO și etichetele.

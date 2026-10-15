@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131238775",
+   "handle": "suplimente-sala",
+   "title": "Suplimente",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Colecția Suplimente reunește întreaga gamă de suplimente Prime într-un singur loc: de la vitamine și minerale la formule termogenice, tincturi din plante și batoane proteice. Este punctul de pornire dacă nu știi exact ce cauți sau vrei să compari mai multe tipuri de produse.</p><p>Printre produsele din colecție se numără Vitamina D3 + K2, Magnesium Citrate, NAC, Chromium Picolinate, Citrus Bergamot și KSM-66 Ashwagandha, toate în flacoane de 80 de capsule, Thermo Core și Water Out cu 120 de capsule, L-Carnitine 1000, Colagen Hidrolizat 500 ml și tincturile Cardio Calm și Testo Revive. Pentru gustări rapide ai batoanele proteice de 55 g, în arome precum căpșuni sau caramel sărat, la bucată sau în cutie de 12.</p><p>Dacă vrei o listă mai scurtă, vezi și colecțiile dedicate: Batoane proteice, Arzătoare de grăsimi, Intra-workout sau Prime Health. Citește modul de administrare de pe fiecare pagină de produs și nu depăși doza zilnică recomandată.</p>",
+   "seo": {
+    "title": "Suplimente de sală – gama completă | Prime Supplements",
+    "description": "Suplimente de sală: Vitamina D3 + K2, NAC, KSM-66, arzătoare de grăsimi, colagen hidrolizat, tincturi din plante și batoane proteice. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060055085431",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/Prime-Whey_strawberry-cheesecake_1000g_145x454_5c9c0b93-7b45-4b59-9b3d-8d8912437d47.jpg?v=1746428617",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 59
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Suplimente"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

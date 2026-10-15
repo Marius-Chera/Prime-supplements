@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131173239",
+   "handle": "prime-health",
+   "title": "Prime Health",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "pime-health",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Prime Health este gama de suplimente pentru sănătatea de zi cu zi, nu doar pentru antrenament: vitamine, minerale, extracte din plante, colagen și alimente naturale, pentru cei care vor să își completeze dieta constant, indiferent de nivelul de activitate fizică.</p><p>În capsule găsești Vitamina D3 + K2, Magneziu Bisglicinat, Coenzima Q10, Citrus Bergamot și KSM-66 Ashwagandha, toate cu 80 de capsule per flacon. Vitamina D contribuie la menținerea sănătății oaselor, iar magneziul contribuie la reducerea oboselii. Sub formă lichidă ai Colagen Hidrolizat 500 ml, cu 6 g de colagen pur hidrolizat în fiecare doză de 15 ml, și tincturile din plante Cardio Calm, Testo Revive și Water Out, de câte 500 ml. Completează lista Scorțișoara Ceylon BIO 200g și unturile de arahide, migdale și caju de 600 g.</p><p>Alege forma care ți se potrivește: capsulele sunt simple de dozat, tincturile se iau cu lingurița, iar unturile intră direct în mese. Citește modul de administrare de pe fiecare produs.</p>",
+   "seo": {
+    "title": "Prime Health – vitamine, Q10 și tincturi | Prime Supplements",
+    "description": "Prime Health: Vitamina D3 + K2, Magneziu Bisglicinat și Coenzima Q10 cu 80 de capsule, KSM-66 Ashwagandha, colagen și tincturi din plante. Vezi detalii."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060055019895",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/Prime-health.png?v=1749723076",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 14
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Prime Health"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131042167",
+   "handle": "arzator-de-grasimi",
+   "title": "Arzătoare de grăsimi",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "arzatoare",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Colecția Arzătoare de grăsimi include suplimentele Prime Supplements folosite de obicei în perioadele de dietă și definire, când antrenamentul și alimentația sunt deja puse la punct. Găsești aici formule în capsule și shoturi lichide, concepute pentru a fi integrate ușor în rutina zilnică.</p><p>Thermo Core, cu 120 de capsule, este formula termogenică a gamei, cu ingrediente naturale. L-Carnitine 1000, cu 80 de capsule, aduce L-carnitină, un compus natural derivat din aminoacizii lizină și metionină. Water Out, tot cu 120 de capsule, este formulat pentru a susține eliminarea excesului de apă din organism. Pentru cei care preferă un format rapid, Fat Burning Booster Shot vine în doze de 25 ml cu aromă Forest Fruits, la bucată sau în cutie de 20.</p><p>Alege în funcție de obiectiv și de preferința pentru capsule sau lichid. Aceste suplimente completează o dietă echilibrată și un program de antrenament, nu le înlocuiesc. Respectă doza recomandată pe etichetă.</p>",
+   "seo": {
+    "title": "Arzător de grăsimi – capsule și shoturi | Prime Supplements",
+    "description": "Arzătoare de grăsimi: Thermo Core și Water Out cu 120 de capsule, L-Carnitine 1000 cu 80 de capsule și Fat Burning Booster Shot de 25 ml. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060054888823",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/PHOTO-2024-01-31-15-41-06.jpg?v=1749720761",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 5
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Arzătoare de grăsimi"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

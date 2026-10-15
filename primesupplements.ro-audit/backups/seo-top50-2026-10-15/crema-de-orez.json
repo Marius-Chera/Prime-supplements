@@ -1,0 +1,36 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/696762859895",
+   "handle": "crema-de-orez",
+   "title": "Cremă de orez",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Crema de orez Creamy Rice de la Prime Supplements este o sursă de carbohidrați cu absorbție rapidă, din făină de orez pregelatinizată, la 1 kg. Se prepară instant, cald sau rece, este fără gluten și are 0% zahăr adăugat. Varianta Natur nu conține îndulcitori sau arome adăugate și se combină cu proteine, fructe sau unt de arahide, iar cele șase arome acoperă gusturi diferite: Blueberry Muffin, Salted Caramel, Maple Sugar, Cookie Cream, Coconut Cream Pie și Chocolate Cake.</p><p>Este potrivită ca mic dejun consistent sau ca masă în zilele cu volum mare de antrenament, când ai nevoie de carbohidrați ușor de pregătit, fără rețete complicate.</p><p>Cum alegi: Natur dacă vrei control total asupra gustului, Chocolate Cake sau Cookie Cream pentru gust de desert, Maple Sugar pentru un mic dejun inspirat din clătitele americane, Coconut Cream Pie pentru o aromă exotică. Fiecare variantă vine la 1 kg, așa că poți lua mai multe arome și le alternezi.</p>",
+   "seo": {
+    "title": "Cremă de orez 1 kg – 6 arome și Natur | Prime Supplements",
+    "description": "Cremă de orez Creamy Rice 1 kg, instant, fără gluten: Natur (fără îndulcitori) sau 6 arome, de la Salted Caramel la Chocolate Cake. Comandă online."
+   },
+   "image": null,
+   "productsCount": {
+    "count": 7
+   },
+   "ruleSet": {
+    "appliedDisjunctively": false,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "crema orez"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

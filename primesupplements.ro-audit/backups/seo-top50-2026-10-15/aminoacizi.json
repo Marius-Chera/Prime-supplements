@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131402615",
+   "handle": "aminoacizi",
+   "title": "Aminoacizi",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "aminoaicizi",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Colecția Aminoacizi include formulele de bază pentru antrenament și refacere: EAA 500 g (83 serviri), cu aminoacizi esențiali, în aromele Peach Ice Tea, Blueberry, Strawberry &amp; Kiwi și Tropical; Recovery BCAA 500 g (62 serviri), cu L-leucină, L-valină și L-izoleucină, în aromele Cherry și Pear; Recovery Glutamin Kyowa® 500 g (125 serviri), simplă sau în aromele Raspberry, Blueberry, Cherry Lime și Pineapple Mango; și Taurine, 80 capsule.</p><p>Sunt potrivite pentru sportivii care se antrenează intens și vor o pudră aromată, ușor de băut în timpul sau după antrenament. Alege EAA dacă vrei toți aminoacizii esențiali într-un singur produs, BCAA dacă te interesează doar cei trei cu catenă ramificată, iar glutamina ca supliment separat în perioadele de efort fizic intens.</p><p>Toate pudrele se dozează pe serviri și se amestecă în apă. Verifică numărul de serviri și aroma înainte de a comanda; glutamina simplă, fără aromă, se poate adăuga în orice shake.</p>",
+   "seo": {
+    "title": "Aminoacizi – EAA, BCAA și glutamină | Prime Supplements",
+    "description": "Aminoacizi: EAA 500 g (83 serviri), Recovery BCAA cu leucină, valină și izoleucină, Glutamin Kyowa (125 serviri) și Taurine 80 capsule. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060055249271",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/EAA-500g-Current-View.jpg?v=1746428677",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 4
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Aminoacizi"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

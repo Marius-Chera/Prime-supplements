@@ -1,0 +1,58 @@
+{
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971470053751",
+   "handle": "enzima-nattokinaza-80-caps",
+   "title": "Enzimă nattokinază – 60 de capsule",
+   "status": "ACTIVE",
+   "updatedAt": "2026-10-13T07:37:41Z",
+   "descriptionHtml": "<p>Nattokinaza de la Prime Supplements este un supliment alimentar în capsule care conține nattokinază, o enzimă obținută din natto – un aliment tradițional japonez preparat din boabe de soia fermentate. Produsul se adresează adulților care vor să includă această enzimă în rutina lor de suplimente, fără să consume natto.</p> <p>Fiecare capsulă are o concentrație declarată de 100 mg de nattokinază, iar flaconul conține 60 de capsule. Administrarea se face conform indicațiilor de pe eticheta produsului, fără a depăși doza recomandată.</p> <p>Pentru că enzima este obținută din soia, produsul nu este potrivit persoanelor alergice la soia. Învelișul capsulei este din gelatină. Alte suplimente pentru rutina zilnică găsești în categoria <a href=\"/collections/vitamine-si-minerale\">vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Concentrație declarată: 100 mg de nattokinază pe capsulă.</li>\n<li>Nattokinaza este o enzimă obținută din natto, un aliment tradițional japonez din soia fermentată.</li>\n<li>Flacon cu 60 de capsule.</li>\n<li>Conține soia; învelișul capsulei este din gelatină.</li>\n</ul> <h2>Ingrediente</h2> <p>Nattokinază (din boabe de soia).</p> <p>Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).</p> <p>Alergeni: soia.</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 60 de capsule</li>\n<li>Concentrație: 100 mg nattokinază / capsulă</li>\n<li>Mod de administrare: conform indicațiilor de pe eticheta produsului</li>\n<li>Alergeni: soia</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Nattokinază 60 capsule, enzimă din natto | Prime Supplements",
+    "description": "Nattokinază în 60 de capsule: enzimă din natto, preparat tradițional japonez din soia fermentată. Supliment din categoria circulație. Vezi detalii."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/65177346408823",
+      "alt": "Enzima nattokinaza 60 caps Prime, flacon negru cu literă N roșie, Nattokinase din extract de soia fermentată, 24,9 g"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/182356497334647",
+    "type": "list.single_line_text_field",
+    "value": "[\"Concentrație declarată: 100 mg de nattokinază pe capsulă.\",\"Nattokinaza este o enzimă obținută din natto, un aliment tradițional japonez din soia fermentată.\",\"Flacon cu 60 de capsule.\",\"Conține soia; învelișul capsulei este din gelatină.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/182356497269111",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Nattokinaza de la Prime Supplements este un supliment alimentar în capsule care conține nattokinază, o enzimă obținută din natto – un aliment tradițional japonez preparat din boabe de soia fermentate. Produsul se adresează adulților care vor să includă această enzimă în rutina lor de suplimente, fără să consume natto.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fiecare capsulă are o concentrație declarată de 100 mg de nattokinază, iar flaconul conține 60 de capsule. Administrarea se face conform indicațiilor de pe eticheta produsului, fără a depăși doza recomandată.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Pentru că enzima este obținută din soia, produsul nu este potrivit persoanelor alergice la soia. Învelișul capsulei este din gelatină. Alte suplimente pentru rutina zilnică găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182356406337911",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Nattokinază (din boabe de soia).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Alergeni: soia.\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/182356497301879",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 60 de capsule\",\"Concentrație: 100 mg nattokinază / capsulă\",\"Mod de administrare: conform indicațiilor de pe eticheta produsului\",\"Alergeni: soia\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182356497367415",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Nattokinaza este o enzimă care se formează în natto, preparatul tradițional japonez din boabe de soia fermentate. Natto are un gust și o textură aparte, de aceea varianta în capsule este mai ușor de inclus într-o rutină zilnică.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce conține o capsulă\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fiecare capsulă are o concentrație declarată de 100 mg de nattokinază, completată cu maltodextrină ca agent de încărcare. Învelișul este din gelatină, iar flaconul conține 60 de capsule.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se administrează\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Respectă doza de pe eticheta produsului și nu o depăși. Suplimentul nu înlocuiește un tratament prescris de medic și nici o dietă variată și echilibrată.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cine ar trebui să discute mai întâi cu medicul\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Persoanele care urmează un tratament medicamentos, cele cu afecțiuni cronice și femeile însărcinate sau care alăptează ar trebui să ceară sfatul medicului înainte de utilizare. Produsul conține soia și nu este potrivit persoanelor alergice la soia.\"}]}]}"
+   },
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761111327095",
+    "type": "multi_line_text_field",
+    "value": "<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<h3><strong>Mod de prezentare</strong>: flacon 300 ml negru + capac 45 mm negru (dimensiune eticheta: 205 x 80)</h3>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<strong>Supliment alimentar pentru adulți, sub formă de capsule, cu nattokinază.</strong>\n<br></div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Susținerea sănătății cardiovasculare</strong>: Nattokinaza este cunoscută pentru proprietățile sale de sprijinire a sănătății sistemului cardiovascular prin promovarea circulației sanguine sănătoase.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Activitate fibrinolitică</strong>: Contribuie la menținerea unui echilibru sănătos al coagulării sângelui, ajutând la descompunerea fibrinogenului.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Promovarea sănătății arteriale</strong>: Poate ajuta la menținerea elasticității arterialelor și la reducerea riscurilor asociate cu afecțiunile cardiovasculare.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Potrivit pentru vegetarieni</strong>: Formula sa este adecvată pentru toate stilurile de viață, având în vedere că ingredientul principal provine din soia.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<table width=\"571\">\n<tbody>\n<tr>\n<td width=\"355\"><strong>Valori nutriționale / Nutrition Facts </strong>\n<br><em>Porție: 1 capsulă / Serving size: 1 capsule<br>Porții pe flacon: 60 / Servings per container: 60</em></td>\n<br><td width=\"216\"><strong>1 capsule</strong></td>\n<br></tr>\n<br><tr>\n<td width=\"355\">Natokinază / Nattokinase</td>\n<br><td width=\"216\">100 mg (2000 UF/FU<sup>*</sup>)</td>\n<br></tr>\n<br></tbody>\n<br></table>\n<sup>*</sup>UF- activitatea enzimei în unități fibrinolitice / *FU – enzyme activity in fibrinolytic units<br><br></div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div></div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\"><br><br> <br><br></div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<strong>Alergeni</strong>: Produsul conține soia. Produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, gluten, pește).<br><br></div>\n</div>"
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ },
+ "backup_taken": "2026-10-15",
+ "source": "Shopify Admin GraphQL read before the seo-top50 apply (batch apply6)"
+}

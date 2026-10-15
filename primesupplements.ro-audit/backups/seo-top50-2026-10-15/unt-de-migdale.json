@@ -1,0 +1,62 @@
+{
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971468906871",
+   "handle": "unt-de-migdale",
+   "title": "Unt de migdale Prime Health, 600 g",
+   "status": "ACTIVE",
+   "updatedAt": "2026-10-15T08:25:08Z",
+   "descriptionHtml": "<p><strong>Untul de migdale Prime Health</strong> este o pastă cremoasă obținută prin măcinarea migdalelor prăjite. Lista de ingrediente are un singur element, 100% unt de migdale, fără adaosuri, iar gustul este cel al migdalelor prăjite.</p> <p>Este potrivit pentru cei care urmează un stil de viață activ și gătesc acasă: se adaugă în smoothie-uri, se întinde pe pâine prăjită sau pe clătite și poate înlocui untul obișnuit în rețete de deserturi și sosuri. Tabelul cu valorile nutriționale la 100 g (grăsimi, proteine, glucide, fibre) este trecut pe eticheta borcanului.</p> <p>Se recomandă amestecarea înainte de utilizare, pentru o textură uniformă. Produsul conține migdale, fructe cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă. Este ambalat în borcan de sticlă de 600 g și face parte din gama <a href=\"/collections/prime-health\">Prime Health</a>.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Pastă cremoasă obținută prin măcinarea migdalelor prăjite.</li>\n<li>Conține 100% unt de migdale, fără adaosuri.</li>\n<li>Borcan de sticlă de 600 g, cu capac negru.</li>\n<li>Se adaugă în smoothie-uri, pe pâine prăjită sau în rețete de deserturi și sosuri.</li>\n<li>Face parte din gama Prime Health, alături de untul de arahide și untul de caju.</li>\n</ul> <h2>Ingrediente</h2> <p>100% unt de migdale, fără adaosuri.</p> <p>Alergeni: migdale (fructe cu coajă).</p> <p>Valorile nutriționale la 100 g sunt disponibile pe eticheta produsului.</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 600 g</li>\n<li>Ingrediente: 100% unt de migdale</li>\n<li>Ambalaj: borcan de sticlă cu capac</li>\n<li>Utilizare: se amestecă înainte de folosire</li>\n<li>Alergeni: migdale (fructe cu coajă)</li>\n<li>Brand: Prime Health (Prime Supplements)</li>\n</ul>",
+   "seo": {
+    "title": "Unt de migdale 600 g din migdale prăjite | Prime Supplements",
+    "description": "Unt de migdale 600 g, pastă cremoasă din migdale prăjite, cu grăsimi mononesaturate, proteine și fibre. Comandă online, livrare rapidă în România."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64959506547063",
+      "alt": "Unt de Migdale Prime Health în borcan de sticlă de 600 g cu capac negru și etichetă verde-albă, pe fundal deschis"
+     },
+     {
+      "id": "gid://shopify/MediaImage/65102889124215",
+      "alt": "Eticheta cu valori nutriționale la 100 g pentru Unt de Migdale Prime Health, cu grăsimi, proteine, glucide și fibre"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/204657959666039",
+    "type": "list.single_line_text_field",
+    "value": "[\"Pastă cremoasă obținută prin măcinarea migdalelor prăjite.\",\"Conține 100% unt de migdale, fără adaosuri.\",\"Borcan de sticlă de 600 g, cu capac negru.\",\"Se adaugă în smoothie-uri, pe pâine prăjită sau în rețete de deserturi și sosuri.\",\"Face parte din gama Prime Health, alături de untul de arahide și untul de caju.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/182550182658423",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Untul de migdale Prime Health\",\"bold\":true},{\"type\":\"text\",\"value\":\" este o pastă cremoasă obținută prin măcinarea migdalelor prăjite. Lista de ingrediente are un singur element, 100% unt de migdale, fără adaosuri, iar gustul este cel al migdalelor prăjite.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Este potrivit pentru cei care urmează un stil de viață activ și gătesc acasă: se adaugă în smoothie-uri, se întinde pe pâine prăjită sau pe clătite și poate înlocui untul obișnuit în rețete de deserturi și sosuri. Tabelul cu valorile nutriționale la 100 g (grăsimi, proteine, glucide, fibre) este trecut pe eticheta borcanului.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Se recomandă amestecarea înainte de utilizare, pentru o textură uniformă. Produsul conține migdale, fructe cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă. Este ambalat în borcan de sticlă de 600 g și face parte din gama \"},{\"type\":\"link\",\"url\":\"/collections/prime-health\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Prime Health\"}]},{\"type\":\"text\",\"value\":\".\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182550222242167",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"100% unt de migdale, fără adaosuri.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Alergeni: migdale (fructe cu coajă).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Valorile nutriționale la 100 g sunt disponibile pe eticheta produsului.\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/182550222274935",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 600 g\",\"Ingrediente: 100% unt de migdale\",\"Ambalaj: borcan de sticlă cu capac\",\"Utilizare: se amestecă înainte de folosire\",\"Alergeni: migdale (fructe cu coajă)\",\"Brand: Prime Health (Prime Supplements)\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182550182691191",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Untul de migdale Prime Health este obținut din migdale prăjite, măcinate până la o pastă cremoasă. Produsul are un singur ingredient, fără adaosuri, așa că gustul și culoarea vin doar din migdale.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum îl folosești\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Poți adăuga untul de migdale în smoothie-uri, îl poți întinde pe pâine prăjită sau pe clătite ori îl poți folosi în rețete de deserturi și sosuri, inclusiv în locul untului obișnuit. Înainte de utilizare, amestecă bine conținutul borcanului pentru o textură uniformă.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Informații nutriționale\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Valorile nutriționale la 100 g, cu grăsimile, proteinele, glucidele și fibrele, sunt trecute pe eticheta borcanului. Migdalele conțin în mod natural grăsimi și proteine vegetale, iar untul de migdale este un aliment dens energetic, potrivit într-o alimentație variată, în porții adaptate necesarului zilnic.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ambalaj și alergeni\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Untul de migdale vine într-un borcan de sticlă de 600 g, cu capac negru și etichetă verde cu alb. Conține migdale, un fruct cu coajă, și nu este potrivit persoanelor alergice la fructe cu coajă.\"}]}]}"
+   },
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761085210999",
+    "type": "multi_line_text_field",
+    "value": "Creat din migdale coapte lent, untul nostru de migdale este 100% natural și o sursă excelentă de proteine - ideal pentru a vă susține antrenamentul și pentru a vă reduce poftele.<br>În plus, nu are adaos de sare, zahăr, ulei de palmier și conservanți, fiind în același timp plin de fibre și de nutrienți esențiali precum vitamina E și magneziu, această gustare super-nutritivă este modalitatea dulce și simplă de a vă menține antrenamentul pe drumul cel bun.<br><ul>\n<li>100% natural</li>\n<li>fara adaos de sare, zahar, ulei de palmier si conservanti</li>\n<li>borcan de sticla sigilat</li>\n<li>textura cremoasa</li>\n</ul>"
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ },
+ "backup_taken": "2026-10-15",
+ "source": "Shopify Admin GraphQL read before the seo-top50 apply (batch apply7)"
+}

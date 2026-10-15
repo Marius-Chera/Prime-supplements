@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131304311",
+   "handle": "pudra-proteica",
+   "title": "Pudre Proteice",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "pudre-proteice",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Pudrele proteice de la Prime Supplements acoperă trei nevoi: Prime Whey, proteină din zer cu 82% proteine la 100 g, disponibilă la 1 kg (33 serviri) și 2 kg (66 serviri); Pure Isolate, izolat proteic din zer cu 74 de serviri la 2 kg; și Emperor MASS, un gainer de 3 kg (42 serviri) pentru cei care au dificultăți în a-și atinge necesarul caloric.</p><p>Proteinele contribuie la creșterea și menținerea masei musculare, așa că o pudră proteică este utilă după antrenament sau ca gustare bogată în proteine. Alege Pure Isolate dacă preferi un izolat, Prime Whey pentru raportul de 82% proteine și Emperor MASS, în Chocolate sau Strawberry, dacă urmărești un surplus caloric.</p><p>Arome disponibile, în funcție de produs: Chocolate Coconut, Salted Caramel, Strawberry Cheesecake, Bourbon Vanilla, White Chocolate Raspberry, Toffee Chocolate sau Blueberry Vanilla. Pentru a testa o aromă nouă sau pentru drum, Prime Whey Go vine la plic de 30 g sau la cutie de 15 plicuri.</p>",
+   "seo": {
+    "title": "Pudre proteice – whey, izolat și gainer | Prime Supplements",
+    "description": "Pudre proteice: Prime Whey cu 82% proteine, izolat Pure Isolate (74 serviri), gainer Emperor MASS 3 kg și plicuri Prime Whey Go de 30 g. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2061589250423",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/01_PRIME_WHEY_bourbon_vanilla_2000g_front_af73df8a-f164-4395-8ee2-6a5bb9bbb3b7.jpg?v=1749720295",
+    "altText": null
+   },
+   "productsCount": {
+    "count": 5
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Pudre Proteice"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

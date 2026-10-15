@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131337079",
+   "handle": "vitamine-si-minerale",
+   "title": "Vitamine și Minerale",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "vitamine",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Colecția Vitamine și Minerale reunește capsule cu un singur ingredient activ și complexe gata dozate. Găsești Vitamin C 1000 cu 1000 mg per capsulă, Magnesium Citrate (citrat și carbonat de magneziu, 2 capsule pe zi), Zinc citrate, Potassium Complex (citrat de potasiu și citrat de magneziu), Chromium picolinate, Omega-3 cu EPA și DHA, plus Daily Vitamin Formula, un complex de vitamine și minerale în 30 de pachete zilnice.</p><p>Sunt potrivite pentru sportivi și persoane active care vor să-și completeze alimentația. Magneziul și vitamina C contribuie la reducerea oboselii, iar zincul și vitamina C susțin funcționarea normală a sistemului imunitar.</p><p>Tot aici găsești extracte și compuși precum Turmeric extract (95% curcuminoide, cu piperină), NAC, Spirulina, Silimarina extract și Enzima nattokinaza. Majoritatea flacoanelor au 80 de capsule (nattokinaza are 60), deci verifică doza zilnică de pe etichetă ca să calculezi pentru cât timp îți ajunge un flacon.</p>",
+   "seo": {
+    "title": "Vitamine și minerale – aport zilnic | Prime Supplements",
+    "description": "Vitamin C 1000 cu 1000 mg per capsulă, Magnesium Citrate, Zinc citrate, Omega-3 cu EPA și DHA și Daily Vitamin Formula în 30 de pachete. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060055183735",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/Daily-Vitamin-Formula-front.jpg?v=1749721075",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 13
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Vitamine și Minerale"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

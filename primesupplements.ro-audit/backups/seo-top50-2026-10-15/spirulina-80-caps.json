@@ -1,0 +1,58 @@
+{
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971469889911",
+   "handle": "spirulina-80-caps",
+   "title": "Spirulină Prime – 80 de capsule",
+   "status": "ACTIVE",
+   "updatedAt": "2026-10-13T08:12:43Z",
+   "descriptionHtml": "<p>Spirulina de la Prime Supplements este un supliment alimentar în capsule care conține pulbere de spirulină (Spirulina platensis), o microalgă albastru-verde folosită de mult timp ca ingredient alimentar. Flaconul conține 80 de capsule.</p> <p>Formatul în capsule este practic pentru cei care vor să includă spirulina în rutina zilnică fără să o amestece în băuturi sau mâncare, unde pulberea are un gust și o culoare pronunțate. Administrarea se face conform indicațiilor de pe eticheta produsului.</p> <p>Capsula este din gelatină, așa că produsul nu este potrivit pentru vegani sau vegetarieni. Alte suplimente pentru rutina zilnică găsești în categoria <a href=\"/collections/vitamine-si-minerale\">vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Capsule cu pulbere de spirulină (Spirulina platensis).</li>\n<li>Spirulina este o microalgă albastru-verde, folosită ca ingredient alimentar.</li>\n<li>Flacon cu 80 de capsule, ușor de luat cu tine.</li>\n<li>Învelișul capsulei este din gelatină, deci produsul nu este potrivit pentru vegani.</li>\n</ul> <h2>Ingrediente</h2> <p>Pulbere de spirulină organică (Spirulina platensis).</p> <p>Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (fosfat tricalcic, amidon modificat din porumb, săruri de magneziu ale acizilor grași, dioxid de siliciu).</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 de capsule</li>\n<li>Formă: capsule cu înveliș din gelatină</li>\n<li>Mod de administrare: conform indicațiilor de pe eticheta produsului</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Spirulină 80 capsule – sursă de proteine | Prime Supplements",
+    "description": "Spirulină, 80 capsule vegane: microalgă verde-albastră, sursă de proteine, vitamine și minerale. Potrivită sportivilor în recuperare. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/65177422070135",
+      "alt": "Flacon negru Spirulina 80 caps de la Prime, 58,4 g, eticheta din față cu litera S roșie și capac negru"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/182356770521463",
+    "type": "list.single_line_text_field",
+    "value": "[\"Capsule cu pulbere de spirulină (Spirulina platensis).\",\"Spirulina este o microalgă albastru-verde, folosită ca ingredient alimentar.\",\"Flacon cu 80 de capsule, ușor de luat cu tine.\",\"Învelișul capsulei este din gelatină, deci produsul nu este potrivit pentru vegani.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/182356770423159",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Spirulina de la Prime Supplements este un supliment alimentar în capsule care conține pulbere de spirulină (Spirulina platensis), o microalgă albastru-verde folosită de mult timp ca ingredient alimentar. Flaconul conține 80 de capsule.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Formatul în capsule este practic pentru cei care vor să includă spirulina în rutina zilnică fără să o amestece în băuturi sau mâncare, unde pulberea are un gust și o culoare pronunțate. Administrarea se face conform indicațiilor de pe eticheta produsului.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Capsula este din gelatină, așa că produsul nu este potrivit pentru vegani sau vegetarieni. Alte suplimente pentru rutina zilnică găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182356770455927",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Pulbere de spirulină organică (Spirulina platensis).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (fosfat tricalcic, amidon modificat din porumb, săruri de magneziu ale acizilor grași, dioxid de siliciu).\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/182356770488695",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 de capsule\",\"Formă: capsule cu înveliș din gelatină\",\"Mod de administrare: conform indicațiilor de pe eticheta produsului\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182356770554231",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Spirulina este o microalgă folosită de mult timp în alimentație. Prime Supplements o oferă sub formă de capsule, pentru o administrare simplă, fără nicio pregătire.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce este spirulina\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Spirulina (Spirulina platensis) este o microalgă albastru-verde, cultivată și uscată sub formă de pulbere. Pulberea are o culoare intensă și un gust caracteristic, motiv pentru care mulți preferă capsulele în locul pulberii amestecate în smoothie-uri sau iaurt.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se folosește\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Respectă doza indicată pe eticheta produsului și nu o depăși. Dacă urmezi un tratament medicamentos, ai o afecțiune, ești însărcinată sau alăptezi, discută cu medicul înainte de a începe.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce să știi înainte de cumpărare\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Capsulele au înveliș din gelatină, deci produsul nu este potrivit pentru o dietă vegană sau vegetariană. Pe lângă spirulină, capsula conține agenți antiaglomeranți, trecuți integral în tabul Ingrediente. Flaconul conține 80 de capsule. Spirulina nu înlocuiește fructele, legumele și celelalte alimente dintr-o dietă variată.\"}]}]}"
+   },
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761107788151",
+    "type": "multi_line_text_field",
+    "value": "<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<h3><strong>Mod de prezentare</strong>: 80 capsule</h3>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<strong>Supliment alimentar pentru adulți sub formă de capsule, cu conținut de spirulină (Arthrospira platensis)</strong>.<br><br></div>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Nutriție completă</strong>: Spirulina este o sursă bogată de proteine vegetale, conținând toți aminoacizii esențiali, vitamine (A, B, C, E) și minerale (fier, calciu, magneziu).</li>\n<li><strong>Protecție antioxidantă</strong>: Conține antioxidanți puternici, cum ar fi ficocianina, care ajută la combaterea stresului oxidativ și susține sănătatea celulară.</li>\n<li><strong>Detoxifiere eficientă</strong>: Spirulina ajută la eliminarea toxinelor din organism, sprijinind funcția hepatică și detoxifierea naturală.</li>\n<li><strong>Sănătatea sistemului imunitar</strong>: Acest supliment sprijină sistemul imunitar prin stimularea producției de anticorpi și prin proprietățile sale antiinflamatorii.</li>\n<li><strong>Energie și vitalitate</strong>: Spirulina poate crește nivelul de energie și vitalitate, fiind un excelent supliment pentru persoanele active sau sportive.</li>\n<li><strong>Sprijin pentru sănătatea digestivă</strong>: Conține probiotice care ajută la menținerea florei intestinale sănătoase și la îmbunătățirea digestiei.</li>\n<li><strong>Reglarea nivelului de colesterol</strong>: Studiile sugerează că spirulina poate ajuta la menținerea unui nivel sănătos de colesterol și la sprijinirea sănătății cardiovasculare.</li>\n<li><strong>Potrivit pentru vegetarieni și vegani</strong>: Spirulina este un supliment ideal pentru toate stilurile de viață, fiind 100% vegetală și fără ingrediente de origine animală.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div></div>\n</div>\n<table width=\"647\">\n<tbody>\n<tr>\n<td width=\"481\"><strong>Valori nutriționale/ Nutrition Facts </strong>\n<br><em>Porție: 2 capsule / Serving size: 2 capsules<br>Porții pe flacon: 40 / Servings per container: 40</em></td>\n<br><td width=\"84\"><strong>1 capsule</strong></td>\n<br><td width=\"82\"><strong>2 </strong><strong>capsules</strong></td>\n<br></tr>\n<br><tr>\n<td width=\"481\">Pulbere de spirulină organică (<em>Spirulina platensis</em>) /  Organic spirulina powder (<em>Spirulina platensis)</em></td>\n<br><td width=\"84\">600 mg</td>\n<br><td width=\"82\">1200 mg</td>\n<br></tr>\n<br></tbody>\n<br></table><br> <br><br><strong>Alergeni: </strong>Produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, grâu, pește)."
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ },
+ "backup_taken": "2026-10-15",
+ "source": "Shopify Admin GraphQL read before the seo-top50 apply (batch apply6)"
+}

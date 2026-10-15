@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131140471",
+   "handle": "suplimente-intra-workout",
+   "title": "Intra-workout",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "intra-workout",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>Suplimentele intra-workout se consumă în timpul antrenamentului, când efortul este intens și de durată. Colecția Prime Supplements include pudre cu aminoacizi, carbohidrați și glicerol, pe care le amesteci în shaker și le bei pe parcursul ședinței de antrenament.</p><p>EAA 500g, cu 83 de porții, aduce aminoacizii esențiali în aromele Peach Ice Tea, Blueberry, Strawberry &amp; Kiwi și Tropical. Recovery BCAA 500g, cu 62 de porții, conține aminoacizii cu catenă ramificată L-leucină, L-valină și L-izoleucină, în aromele Cherry și Pear. Cluster Insulin Bomb 1kg, cu 33 de porții, este o formulă pe bază de dextrină ciclică, în aromele Pineapple, Raspberry și Strawberry &amp; Kiwi, iar Glycerol Max Pump 500g, cu 125 de porții, are glicerolul ca ingredient principal.</p><p>Alege EAA sau BCAA dacă vrei doar aminoacizi, Cluster Insulin Bomb pentru antrenamentele lungi care cer și carbohidrați și Glycerol Max Pump dacă vrei o formulă pe bază de glicerol, cu multe porții per ambalaj.</p>",
+   "seo": {
+    "title": "Suplimente intra-workout – EAA și BCAA | Prime Supplements",
+    "description": "Suplimente intra-workout: EAA 500g cu 83 de porții, Recovery BCAA 500g cu 62 de porții, Cluster Insulin Bomb 1kg și Glycerol Max Pump. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060054987127",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/CLUSTER_INSULIN-BOMB_pineapple-flavour_1000g_80x400_e1061b90-b50d-4659-a66b-c79a237df4be.jpg?v=1749715553",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 4
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Intra-workout"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

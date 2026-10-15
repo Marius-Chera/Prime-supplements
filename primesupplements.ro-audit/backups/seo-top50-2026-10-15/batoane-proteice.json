@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131074935",
+   "handle": "batoane-proteice",
+   "title": "Batoane Proteice",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "batoane-proteice",
+   "sortOrder": "MANUAL",
+   "descriptionHtml": "<p>Batoanele proteice Prime Supplements sunt gustarea practică pentru zilele în care nu ai timp de o masă completă, dar vrei să îți completezi aportul zilnic de proteine. Fiecare baton are 55 g, se bazează pe o matrice proteică din concentrat proteic din zer, peptide de colagen, izolat proteic din soia și lapte praf integral și este îndulcit cu sirop de maltitol.</p><p>Ai de ales între patru arome: Baton proteic căpșuni și Baton proteic cocos și caramel, ambele cu glazură de ciocolată albă, respectiv Baton proteic caramel sărat și Baton proteic ciocolată și fructe de pădure, cu glazură de ciocolată neagră. Toate sunt disponibile la bucată sau în cutie de 12 bucăți, varianta potrivită dacă le consumi regulat după antrenament sau la birou.</p><p>Alege aroma după preferință și cutia dacă vrei să ai mereu o rezervă în geanta de sală. Proteinele contribuie la creșterea și menținerea masei musculare, iar batonul se consumă în funcție de necesarul tău zilnic de proteine.</p>",
+   "seo": {
+    "title": "Batoane proteice – 4 arome, cutie de 12 | Prime Supplements",
+    "description": "Batoane proteice 55g cu zer, colagen și soia, în 4 arome, de la căpșuni la ciocolată și fructe de pădure, la bucată sau în cutie de 12. Comandă online."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060054921591",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/thumbnail_IMG_25351.jpg?v=1749715062",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 8
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Batoane Proteice"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

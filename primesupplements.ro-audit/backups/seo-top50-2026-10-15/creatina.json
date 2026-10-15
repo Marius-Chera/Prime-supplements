@@ -1,0 +1,40 @@
+{
+ "data": {
+  "collection": {
+   "id": "gid://shopify/Collection/671131369847",
+   "handle": "creatina",
+   "title": "Creatină",
+   "updatedAt": "2026-10-15T11:42:13Z",
+   "templateSuffix": "",
+   "sortOrder": "BEST_SELLING",
+   "descriptionHtml": "<p>În colecția Creatină găsești creatină monohidrată în trei formate. Creatine (Creapure®) folosește materie primă de la Creapure®, furnizor recunoscut pentru calitate și puritate, și vine la 300 g (60 serviri) sau 500 g (100 serviri). Creatine Monohydrate 300 g (60 serviri) este varianta simplă, micronizată și fără aromă, iar Creatine Ready To Go pune creatina într-un plic efervescent de 10 g, în aromele Blue Moon (afine) și Pink Madness (zmeură-lime).</p><p>Creatina susține performanța fizică în serii scurte de efort intens, de aceea este un supliment de bază pentru antrenamentele de forță și culturism. Pudra neutră se amestecă ușor în apă, suc sau shake-ul proteic, iar plicurile se dizolvă în 200-300 ml de apă și sunt practice la sală, la birou sau în călătorii.</p><p>Alege pudra la 500 g dacă o folosești zilnic și vrei mai multe serviri într-o cutie, 300 g pentru a testa, sau cutia cu 25 de plicuri Ready To Go dacă preferi dozarea gata făcută.</p>",
+   "seo": {
+    "title": "Creatină monohidrată – pudră și plicuri | Prime Supplements",
+    "description": "Creatină monohidrată Creapure (60 sau 100 serviri), pudră micronizată 300 g și plicuri efervescente Ready To Go 10 g. Susține performanța în efort intens."
+   },
+   "image": {
+    "id": "gid://shopify/CollectionImage/2060055216503",
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/collections/Creatina-Creapure-front.jpg?v=1746428664",
+    "altText": ""
+   },
+   "productsCount": {
+    "count": 5
+   },
+   "ruleSet": {
+    "appliedDisjunctively": true,
+    "rules": [
+     {
+      "column": "TAG",
+      "relation": "EQUALS",
+      "condition": "Creatina"
+     }
+    ]
+   }
+  }
+ },
+ "backup_meta": {
+  "taken_at": "2026-10-15",
+  "source": "Admin GraphQL collections query (handle filter), read right before the write",
+  "kind": "collection"
+ }
+}

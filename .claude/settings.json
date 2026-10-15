@@ -9,5 +9,14 @@
   },
   "enabledPlugins": {
     "claude-seo@agricidaniel-claude-seo": true
+  },
+  "permissions": {
+    "allow": [
+      "mcp__Shopify",
+      "mcp__theMarketer",
+      "mcp__Claude_Docs",
+      "WebFetch",
+      "WebSearch"
+    ]
   }
 }

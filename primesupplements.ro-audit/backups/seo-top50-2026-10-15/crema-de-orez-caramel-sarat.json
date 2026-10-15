@@ -1,0 +1,61 @@
+{
+ "backup_date": "2026-10-15",
+ "source": "Shopify Admin GraphQL productByHandle (read before seo-top50 apply)",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/15509051605367",
+   "title": "Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg",
+   "handle": "crema-de-orez-caramel-sarat",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Cremă de orez și ovăz",
+   "templateSuffix": "",
+   "tags": [
+    "crema orez"
+   ],
+   "descriptionHtml": "<p><strong>Prime Creamy Rice cu aromă de caramel sărat</strong> (Salted Caramel) este o cremă de orez instant pe bază de făină de orez pregelatinizată. Aroma îmbină dulceața caramelului cu o notă fină de sare. Produsul nu conține zahăr adăugat și este îndulcit cu sucraloză și acesulfam K. Tubul de 1 kg are 22 de porții, conform etichetei.</p> <p>Prin pregelatinizare se modifică structura amidonului, astfel că pudra se amestecă direct cu lichidul, fără fierbere. Pui 1-2 cupe într-un bol, în funcție de necesarul tău caloric, adaugi apă sau lapte (cald, rece sau la temperatura camerei) și omogenizezi cu un tel până obții consistența de budincă dorită. Cea mai fină textură se obține cu apă la temperatura camerei sau ușor călduță.</p> <p>Este o opțiune practică pentru micul dejun, pentru o gustare înainte de antrenament sau pentru o masă rapidă în zilele aglomerate. La 100 g, pudra are 353 kcal, 78,1 g glucide, 8,0 g proteine și 0,6 g grăsimi. Toate aromele gamei sunt în categoria <a href=\"/collections/crema-de-orez\">cremă de orez</a>.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Cremă de orez instant din făină de orez pregelatinizată, cu aromă de caramel sărat.</li>\n<li>Fără zahăr adăugat; îndulcită cu sucraloză și acesulfam K.</li>\n<li>Conține 78,1 g glucide, 8,0 g proteine și 0,6 g grăsimi la 100 g (353 kcal).</li>\n<li>Se prepară fără fierbere, cu apă sau lapte cald, rece ori la temperatura camerei, omogenizând cu un tel.</li>\n<li>Tub de 1 kg, cu 22 de porții.</li>\n</ul> <h2>Ingrediente</h2> <p><strong>Ingrediente:</strong> făină de orez pregelatinizată, îndulcitori (sucraloză, acesulfam K).</p> <p><strong>Declarație nutrițională (la 100 g):</strong></p> <ul>\n<li>Valoare energetică: 1498 kJ / 353 kcal</li>\n<li>Grăsimi: 0,6 g, din care acizi grași saturați: 0,15 g</li>\n<li>Glucide: 78,1 g, din care zaharuri: 0,6 g</li>\n<li>Fibre: 1,5 g</li>\n<li>Proteine: 8,0 g</li>\n<li>Sare: 0,013 g</li>\n<li>Sodiu: 0,005 g</li>\n</ul> <h2>Detalii produs</h2> <ul>\n<li>Greutate: 1 kg</li>\n<li>Porții: 22</li>\n<li>Aromă: caramel sărat (Salted Caramel)</li>\n<li>Îndulcitori: sucraloză, acesulfam K</li>\n<li>Mod de preparare: 1-2 cupe într-un bol, cu apă sau lapte (cald, rece sau la temperatura camerei), omogenizate cu un tel până la consistența dorită</li>\n<li>Ambalaj: tub</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Cremă de orez Salted Caramel 1 kg | Prime Supplements",
+    "description": "Cremă de orez cu aromă de caramel sărat, 1 kg, din orez pregelatinizat. Fără zahăr adăugat, fără gluten, gata în apă caldă sau rece. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/70046795661687",
+      "alt": "Tub Crema de Orez Creamy Rice Salted Caramel 1kg Prime cu cuburi de caramel sărat ilustrate pe etichetă, 22 porții",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii": {
+    "id": "gid://shopify/Metafield/204659169722743",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cremă de orez instant din făină de orez pregelatinizată, cu aromă de caramel sărat.\",\"Fără zahăr adăugat; îndulcită cu sucraloză și acesulfam K.\",\"Conține 78,1 g glucide, 8,0 g proteine și 0,6 g grăsimi la 100 g (353 kcal).\",\"Se prepară fără fierbere, cu apă sau lapte cald, rece ori la temperatura camerei, omogenizând cu un tel.\",\"Tub de 1 kg, cu 22 de porții.\"]"
+   },
+   "despre": {
+    "id": "gid://shopify/Metafield/200543332041079",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prime Creamy Rice cu aromă de caramel sărat\",\"bold\":true},{\"type\":\"text\",\"value\":\" (Salted Caramel) este o cremă de orez instant pe bază de făină de orez pregelatinizată. Aroma îmbină dulceața caramelului cu o notă fină de sare. Produsul nu conține zahăr adăugat și este îndulcit cu sucraloză și acesulfam K. Tubul de 1 kg are 22 de porții, conform etichetei.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prin pregelatinizare se modifică structura amidonului, astfel că pudra se amestecă direct cu lichidul, fără fierbere. Pui 1-2 cupe într-un bol, în funcție de necesarul tău caloric, adaugi apă sau lapte (cald, rece sau la temperatura camerei) și omogenizezi cu un tel până obții consistența de budincă dorită. Cea mai fină textură se obține cu apă la temperatura camerei sau ușor călduță.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Este o opțiune practică pentru micul dejun, pentru o gustare înainte de antrenament sau pentru o masă rapidă în zilele aglomerate. La 100 g, pudra are 353 kcal, 78,1 g glucide, 8,0 g proteine și 0,6 g grăsimi. Toate aromele gamei sunt în categoria \"},{\"type\":\"link\",\"url\":\"/collections/crema-de-orez\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"cremă de orez\"}]},{\"type\":\"text\",\"value\":\".\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/200543279251831",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Ingrediente:\",\"bold\":true},{\"type\":\"text\",\"value\":\" făină de orez pregelatinizată, îndulcitori (sucraloză, acesulfam K).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Declarație nutrițională (la 100 g):\",\"bold\":true}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Valoare energetică: 1498 kJ / 353 kcal\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Grăsimi: 0,6 g, din care acizi grași saturați: 0,15 g\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Glucide: 78,1 g, din care zaharuri: 0,6 g\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Fibre: 1,5 g\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Proteine: 8,0 g\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Sare: 0,013 g\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Sodiu: 0,005 g\"}]}]}]}"
+   },
+   "detalii": {
+    "id": "gid://shopify/Metafield/200541239705975",
+    "type": "list.single_line_text_field",
+    "value": "[\"Greutate: 1 kg\",\"Porții: 22\",\"Aromă: caramel sărat (Salted Caramel)\",\"Îndulcitori: sucraloză, acesulfam K\",\"Mod de preparare: 1-2 cupe într-un bol, cu apă sau lapte (cald, rece sau la temperatura camerei), omogenizate cu un tel până la consistența dorită\",\"Ambalaj: tub\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/203695045214583",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prime Creamy Rice cu aromă de caramel sărat este pentru cei care preferă un gust dulce cu o notă de sare, într-o cremă de orez gata în câteva minute, fără fierbere.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum obții o textură fină\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Pune 1-2 cupe de pudră într-un bol și adaugă lichidul treptat, amestecând cu un tel; așa crema iese omogenă, fără cocoloașe. Poți folosi apă sau lapte, cald, rece sau la temperatura camerei, iar cea mai fină consistență se obține cu lichid la temperatura camerei sau ușor călduț. Pentru o cremă densă, de budincă, pune mai puțin lichid; pentru una mai fluidă, adaugă mai mult.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Idei de combinații\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Felii de banană și puțin unt de arahide.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Pudră proteică cu aromă de vanilie sau de caramel.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Nuci ori alune tocate, pentru o textură crocantă.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Lapte în loc de apă, pentru un gust mai cremos.\"}]}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum o integrezi în mesele zilei\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Cantitatea o alegi în funcție de necesarul tău caloric și de restul meselor din zi. Un tub de 1 kg are 22 de porții, conform etichetei, iar declarația nutrițională la 100 g este în secțiunea Ingrediente. Crema poate fi micul dejun, gustarea de dinaintea antrenamentului sau o masă rapidă atunci când nu ai timp să gătești.\"}]}]}"
+   },
+   "short_description": null,
+   "cantitate": null,
+   "aroma": null,
+   "search_boost": null
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "backup_taken_at": "2026-10-15",
+ "source": "product(id) via Shopify Admin GraphQL, read before any write; NO write was performed in this run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971464647031",
+   "title": "Extract de bergamotă Citrus Bergamot – 80 capsule",
+   "handle": "citrus-bergamot",
+   "status": "ACTIVE",
+   "descriptionHtml": "<p>Citrus Bergamot este un supliment alimentar cu extract uscat din fructele de bergamotă (Citrus bergamia Risso), un citric care provine din Calabria, Italia. Extractul folosit este Bergamonte®, de la HP Ingredients, standardizat la 38% polifenoli, printre care neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină.</p> <p>Fiecare capsulă vegetală conține 500 mg de extract, iar flaconul are 80 de capsule. Produsul se adresează adulților care vor să includă un extract standardizat de bergamotă în rutina zilnică, alături de o alimentație echilibrată și de mișcare regulată. Se administrează conform indicațiilor de pe etichetă.</p> <p>Citrus Bergamot face parte din gama <a href=\"/collections/prime-health\">Prime Health</a>, alături de alte suplimente cu extracte din plante, vitamine și tincturi.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Extract uscat din fructe de bergamotă (Citrus bergamia), standardizat la 38% polifenoli.</li>\n<li>Fiecare capsulă conține 500 mg de extract.</li>\n<li>Conține flavonoidele caracteristice bergamotei: neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină.</li>\n<li>Extract Bergamonte®, de la HP Ingredients.</li>\n<li>Capsule vegetale din hidroxipropilmetilceluloză, 80 de capsule per flacon.</li>\n</ul> <h2>Ingrediente</h2> <p>Extract apos uscat din fructe de bergamotă (Citrus bergamia), conținând 38% polifenoli (neoeriocitrină, naringină, neohesperidină, melitidină, brutieridină) – 500 mg; capsulă vegetală (hidroxipropilmetilceluloză); agent de încărcare: făină de orez – 100 mg.</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 capsule</li>\n<li>Porții: 80</li>\n<li>Conținut pe capsulă: 500 mg extract de bergamotă (38% polifenoli)</li>\n<li>Tip capsulă: vegetală (hidroxipropilmetilceluloză)</li>\n<li>Mod de administrare: conform indicațiilor de pe etichetă</li>\n<li>Brand: Prime Supplements (gama Prime Health)</li>\n</ul>",
+   "seo": {
+    "title": "Citrus Bergamot 80 capsule – polifenoli | Prime Supplements",
+    "description": "Citrus Bergamot, extract standardizat de bergamotă din Calabria, bogat în polifenoli flavonoizi. 80 capsule, ingredient Bergamonte®. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64958740398455",
+      "alt": "Citrus Bergamot - 80 caps de la Prime Health, flacon alb cu etichetă verde, Bergamonte 500 mg, vedere din față",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Extract uscat din fructe de bergamotă (Citrus bergamia), standardizat la 38% polifenoli.\",\"Fiecare capsulă conține 500 mg de extract.\",\"Conține flavonoidele caracteristice bergamotei: neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină.\",\"Extract Bergamonte®, de la HP Ingredients.\",\"Capsule vegetale din hidroxipropilmetilceluloză, 80 de capsule per flacon.\"]"
+   },
+   "despre": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrus Bergamot este un supliment alimentar cu extract uscat din fructele de bergamotă (Citrus bergamia Risso), un citric care provine din Calabria, Italia. Extractul folosit este Bergamonte®, de la HP Ingredients, standardizat la 38% polifenoli, printre care neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fiecare capsulă vegetală conține 500 mg de extract, iar flaconul are 80 de capsule. Produsul se adresează adulților care vor să includă un extract standardizat de bergamotă în rutina zilnică, alături de o alimentație echilibrată și de mișcare regulată. Se administrează conform indicațiilor de pe etichetă.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrus Bergamot face parte din gama \"},{\"type\":\"link\",\"url\":\"/collections/prime-health\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Prime Health\"}]},{\"type\":\"text\",\"value\":\", alături de alte suplimente cu extracte din plante, vitamine și tincturi.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Extract apos uscat din fructe de bergamotă (Citrus bergamia), conținând 38% polifenoli (neoeriocitrină, naringină, neohesperidină, melitidină, brutieridină) – 500 mg; capsulă vegetală (hidroxipropilmetilceluloză); agent de încărcare: făină de orez – 100 mg.\"}]}]}"
+   },
+   "detalii": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 capsule\",\"Porții: 80\",\"Conținut pe capsulă: 500 mg extract de bergamotă (38% polifenoli)\",\"Tip capsulă: vegetală (hidroxipropilmetilceluloză)\",\"Mod de administrare: conform indicațiilor de pe etichetă\",\"Brand: Prime Supplements (gama Prime Health)\"]"
+   },
+   "seo_produs": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrus Bergamot conține extract din fructul de bergamotă (Citrus bergamia Risso), un citric care provine din Calabria, Italia. Spre deosebire de uleiul esențial de bergamotă, folosit în aromaterapie, suplimentul conține un extract apos uscat din fruct, standardizat în polifenoli și livrat în capsule vegetale.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce conține o capsulă\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"500 mg extract uscat din fructe de bergamotă, standardizat la 38% polifenoli\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"flavonoidele specifice bergamotei: neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"capsulă vegetală din hidroxipropilmetilceluloză și 100 mg de făină de orez ca agent de încărcare\"}]}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se folosește\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Urmează doza zilnică recomandată de pe etichetă și nu o depăși. Un flacon conține 80 de capsule. Extractul provine de la HP Ingredients, producătorul ingredientului Bergamonte®.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Pentru cine este potrivit\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrus Bergamot se adresează adulților care vor un supliment cu extract standardizat de bergamotă, ca parte a unei alimentații variate și a unui stil de viață activ. Dacă urmezi un tratament medicamentos, ai o afecțiune cronică, ești însărcinată sau alăptezi, discută cu medicul înainte de utilizare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.\"}]}]}"
+   },
+   "short_description": {
+    "type": "multi_line_text_field",
+    "value": "Fructele de Bergamota sunt bogate in flavonoide (neoeriocitrina, naringina, neohesperidina, melitidina, neoeriocitrina, brutieridina si bergamotina) care sunt recunoscute pentru efectul lor antioxidant.<br><ul>\n<li>Bergamonte ® 500mg</li>\n<li>Antioxidant & Anti-inflamator</li>\n<li>Sprijină colesterolul sănătos</li>\n<li>Sprijină sănătatea cardiovasculară</li>\n</ul>"
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ }
+}

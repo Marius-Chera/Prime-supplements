@@ -1,0 +1,47 @@
+# Newsletter automat · reguli pentru rutina săptămânală (v1, 15.10.2026)
+
+Magazin: primesupplements.ro (Shopify). Proprietar: Marius Chera. Rutina rulează duminica, la 17:40 (Europe/Bucharest); automatizarea din Shopify Flow „Newsletter automat” trimite e-mailul fiecărui abonat etichetat `nl-send` (citește shop.metafields.newsletter.html) și apoi scoate eticheta.
+
+## 1. Cum alegi articolul
+1. Candidați: articolele PUBLICATE din blogul News (gid://shopify/Blog/116352287095) cu publishedAt în ultimele 8 zile, care NU apar în jurnalul shop newsletter.sent_log.
+2. Punctaj (alege cel mai mare): produsul principal al articolului este ACTIVE și are stoc (> 0 la cel puțin o variantă) = 3 p; subiect potrivit sezonului (toamnă/iarnă: vitamine, D3+K2, magneziu, proteine, creatină; primăvară/vară: hidratare, cremă de orez, pre-workout) = 2 p; are caseta „Pe scurt” cu 3–4 puncte = 2 p; produsul e din lista prioritară (Prime Whey, Pure Isolate, Creatină Creapure®, Creatină micronizată, Combat Pro, Nitrox, cremă de orez, Magneziu bisglicinat, Vitamina D3+K2, Omega-3) = 2 p; articol nou (ultimele 8 zile) = 1 p.
+3. Dacă niciun articol nou nu trece verificările din §3, alege un articol „evergreen” publicat mai demult, care nu e în sent_log, cu produs ACTIVE și text conform.
+4. NU alege articole cu titluri care promit efecte („rezultate după 30 de zile”, „beneficii”, „energie pentru…”, „slăbește”, „arde”), articole despre îmbrăcăminte/accesorii, sau articole al căror produs principal e DRAFT ori fără stoc.
+5. Nu repeta același produs principal două săptămâni la rând dacă există altă opțiune.
+
+## 2. Cum construiești e-mailul (șablonul newsletter-automat-sablon*.txt)
+- [[INTRO]]: 1–2 propoziții în limbaj simplu, persoana a II-a, care spun ce e articolul și pentru cine (fără promisiuni de efect; fără „cel mai bun”). Ex.: „Am publicat un ghid nou pe blog, pentru cei care…: ce verifici, cât iei și când.”
+- [[ARTICLE_URL]]: https://primesupplements.ro/blogs/news/<handle>?utm_source=shopify_email&utm_medium=email&utm_campaign=newsletter-AAAA-LL-ZZ (toate link-urile din e-mail primesc același utm_campaign).
+- [[IMAGE_URL]]: article.image.url + „&width=1104” (dacă URL-ul are deja „?”, adaugi cu „&”; altfel cu „?”). [[IMAGE_ALT]]: article.image.altText (sau titlul articolului dacă lipsește). În HTML, „&” din URL se scrie „&amp;”.
+- [[TITLE]]: titlul articolului, neschimbat.
+- [[SUMMARY]]: article.summary (dacă lipsește, prima propoziție-două din articol, fără HTML).
+- [[BULLETS]]: 3–4 elemente `<li style="margin-bottom:6px;">…</li>` luate din caseta „Pe scurt” a articolului (primul `<ul>` din `<div>`-ul cu „Pe scurt”); dacă nu există, 3 fapte din articol (fără cifre inventate). Ultimul `<li>` cu `margin-bottom:0`.
+- Caseta produs: produsul principal (din link-ul casetei de produs din articol, din etichetele `intent:…:<handle>` sau din `produse`). [[PRODUCT_URL]] = https://primesupplements.ro/products/<handle>?utm…; [[PRODUCT_IMG]] = featuredMedia.preview.image.url + „&width=280”; [[PRODUCT_ALT]] = titlul produsului + „, Prime Supplements”; [[PRODUCT_TITLE]] = titlul produsului; [[PRODUCT_TEXT]] = o propoziție factuală (tip produs, format, aromă/porții) din custom.short_description sau din detalii_produs, fără mențiuni de sănătate, fără preț.
+- Nu adăugi secțiuni noi, nu schimbi culorile (#e91d23 butoane, #1a1a1a text, #f0f0f0 casetă), nu pui Liquid în HTML.
+
+## 3. Verificări obligatorii (cu python -I) înainte de scriere
+- Fără cuvinte interzise: vindecă, tratează, previne, boală, detox, arde grăsimea, slăbești garantat, garantat, imunitate (ca promisiune), energie (ca promisiune), „cel mai bun”, „nr. 1”, „fără efecte secundare”, „testosteron”, „somnifer”, denumiri de competitori, numele producătorului/furnizorului/fabricii.
+- Fără prețuri și fără oferte: „lei”, „RON”, „reducere”, „cod”, „-%”, „promo”, „Black Friday”.
+- Diacritice cu virgulă (ș ț), nu cu sedilă (ş ţ).
+- Toate link-urile răspund 200 (curl -sL -o /dev/null -w "%{http_code}"); la 429 reîncerci de 2 ori cu pauză de 5 s.
+- Fiecare `<img>` are alt. Nu există `{{`, `{%` în HTML. Dimensiune sub 40.000 de octeți. Nu rămâne niciun marcaj `[[`.
+- Mențiuni de sănătate: doar cele autorizate UE, exact ca în articol; dacă articolul nu are, nu adaugi.
+
+## 4. Scrierea în Shopify (metafieldsSet, owner gid://shopify/Shop/91751383415)
+- newsletter.html (multi_line_text_field) = HTML-ul final.
+- newsletter.subject (single_line_text_field) = titlul articolului (pentru jurnal; subiectul e-mailului trimis e fix, din automatizare).
+- newsletter.sent_log (json) = lista existentă + {"data": "AAAA-LL-ZZ", "handle": "...", "titlu": "...", "audienta": "<numele segmentului>", "destinatari": <număr etichetați>}.
+
+## 5. Audiența și etichetarea
+- Primele 2 trimiteri (sent_log are sub 2 intrări): segmentul „Email · încălzire (cei mai activi)” gid://shopify/Segment/1166828667255. De la a 3-a: „Newsletter · audiență (abonați activi)” gid://shopify/Segment/1166833123703 (abonați fără eticheta email-inactiv).
+- Înainte de etichetare: dacă există clienți cu eticheta `nl-send` rămasă (customers(query:"tag:nl-send")), o scoți (tagsRemove, loturi de 50 cu aliasuri) și notezi câți erau. Dacă erau mai mult de jumătate din audiență, automatizarea Flow e probabil oprită: NU etichetezi, oprești rularea și raportezi.
+- Membrii segmentului: customerSegmentMembers(segmentId, first: 1000, after) — paginezi și aduni ID-urile clienților.
+- Etichetarea: tagsAdd(id, tags:["nl-send"]) în loturi de 50 per mutație (aliasuri a0…a49). La throttling, pauză 2 s și reîncerci lotul. La final: customersCount(query:"tag:nl-send") trebuie să fie egal cu numărul membrilor (toleranță 1 %); altfel reîncerci lipsurile o dată.
+- Ordinea e obligatorie: întâi metafield-urile (conținutul), abia apoi etichetele (trimiterea).
+
+## 6. Limite
+- Nu creezi/editezi campanii sau automatizări, nu trimiți e-mailuri tu, nu modifici articole, produse, alte metafield-uri, nu ștergi nimic, nu folosești date personale în raport (doar cifre).
+- Dacă ceva esențial eșuează (fișiere lipsă, metafieldsSet refuzat, segment gol), te oprești înainte de etichetare și explici în raport.
+
+## 7. Raport (română, scurt)
+Articolul ales și de ce (punctaj), subiectul, audiența și numărul de clienți etichetați, verificările trecute, etichete rămase găsite, probleme.

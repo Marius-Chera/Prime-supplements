@@ -1,0 +1,110 @@
+{
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971469398391",
+   "handle": "prime-whey-1000g",
+   "title": "Prime Whey – proteină din zer, 1 kg",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Proteine",
+   "tags": [
+    "Pudre Proteice",
+    "Suplimente",
+    "whey"
+   ],
+   "templateSuffix": null,
+   "descriptionHtml": "<p><strong>Prime Whey</strong> este o pudră proteică din concentrat de zer, cu 82 g de proteine la 100 g de produs. Tubul de 1 kg conține 33 de porții și este formatul potrivit dacă vrei să încerci gama Prime Whey sau să alternezi mai multe arome.</p> <p>Se adresează persoanelor care se antrenează și celor care vor să-și completeze aportul zilnic de proteine dintr-o sursă practică. O porție de aproximativ 30 g se amestecă cu apă sau lapte și se consumă după antrenament sau ca gustare între mese; pudra poate fi adăugată și în smoothie-uri.</p> <p>Lista de ingrediente include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Poți alege dintre șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni și ciocolată albă cu zmeură. Pentru consum regulat există și ambalajul mai mare, iar toate variantele se găsesc în categoria <a href=\"/collections/pudra-proteica\">pudră proteică</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Proteinele contribuie la creșterea și menținerea masei musculare.</li>\n<li>Proteinele contribuie la menținerea unor oase normale.</li>\n<li>Conține 82 g de proteine la 100 g de produs.</li>\n<li>Tub de 1000 g, pentru 33 de porții de aproximativ 30 g.</li>\n<li>Șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni.</li>\n</ul> <h2>Ingrediente</h2> <p>Concentrat proteic din zer, glicină, L-lizină, arome, îndulcitori (sucraloză, acesulfam-K).</p> <p>Alergeni: lapte (zer).</p> <p>Valorile nutriționale per porție de 30 g și la 100 g, precum și profilul de aminoacizi, sunt trecute pe eticheta produsului.</p> <h2>Detalii produs</h2> <ul>\n<li>Greutate: 1000 g</li>\n<li>Porții: 33</li>\n<li>Proteine: 82 g la 100 g</li>\n<li>Arome: afine și vanilie, vanilie Bourbon, ciocolată și cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee, ciocolată albă și zmeură</li>\n<li>Mod de administrare: o porție (aproximativ 30 g) cu apă sau lapte, după antrenament sau ca gustare între mese</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Prime Whey 1kg, 33 porții – 82% proteine | Prime Supplements",
+    "description": "Proteină din zer Prime Whey, 1 kg, 82% proteine la 100 g, contribuie la creșterea masei musculare. 7 arome, inclusiv Salted Caramel. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/69888476512631",
+      "alt": "Prime Whey 1kg/33serv în tub negru, aroma Chocolate-Coconut, vedere din față cu logo Prime roșu",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888476053879",
+      "alt": "Prime Whey 1kg/33serv tub negru cu aroma Blueberry-Vanilla, afine și flori de vanilie ilustrate pe etichetă",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64959761678711",
+      "alt": "Prime Whey 1kg/33serv în tub negru, aroma Bourbon Vanilla, etichetă roșu-negru cu păstăi de vanilie",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64959761744247",
+      "alt": "Prime Whey 1kg/33serv tub negru de 1000 g, aroma Salted Caramel, cu ciocolată și caramel ilustrate pe etichetă",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64959761842551",
+      "alt": "Prime Whey 1kg/33serv în tub negru, aroma Toffee Chocolate, vedere frontală cu inscripția 1000g/33 servings",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64959761908087",
+      "alt": "Prime Whey 1kg/33serv în tub negru, aroma White Chocolate Raspberry, cu zmeură și ciocolată albă pe etichetă",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64999547797879",
+      "alt": "Prime Whey 1kg/33serv în tub negru, aroma Strawberry Cheesecake, cu prăjitură cu căpșuni ilustrată pe etichetă",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/65689251348855",
+      "alt": "Tabel cu valori nutriționale și profil de aminoacizi pentru Prime Whey 1kg/33serv, per porție de 30 g și la 100 g",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888475627895",
+      "alt": "Prime Whey 1kg/33serv văzut din spate, cu tabelul de valori nutriționale și profilul de aminoacizi imprimat pe tub",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888476021111",
+      "alt": "Spatele tubului Prime Whey 1kg/33serv cu mod de administrare, ingrediente, cod de bare și datele producătorului",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888475988343",
+      "alt": "Lateralul tubului Prime Whey 1kg/33serv cu eticheta cu valori nutriționale și profilul aminoacizilor, pe fundal gri",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Proteinele contribuie la creșterea și menținerea masei musculare.\",\"Proteinele contribuie la menținerea unor oase normale.\",\"Conține 82 g de proteine la 100 g de produs.\",\"Tub de 1000 g, pentru 33 de porții de aproximativ 30 g.\",\"Șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni.\"]"
+   },
+   "despre_produs": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prime Whey\",\"bold\":true},{\"type\":\"text\",\"value\":\" este o pudră proteică din concentrat de zer, cu 82 g de proteine la 100 g de produs. Tubul de 1 kg conține 33 de porții și este formatul potrivit dacă vrei să încerci gama Prime Whey sau să alternezi mai multe arome.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Se adresează persoanelor care se antrenează și celor care vor să-și completeze aportul zilnic de proteine dintr-o sursă practică. O porție de aproximativ 30 g se amestecă cu apă sau lapte și se consumă după antrenament sau ca gustare între mese; pudra poate fi adăugată și în smoothie-uri.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Lista de ingrediente include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Poți alege dintre șapte arome, de la vanilie Bourbon și caramel sărat la cheesecake cu căpșuni și ciocolată albă cu zmeură. Pentru consum regulat există și ambalajul mai mare, iar toate variantele se găsesc în categoria \"},{\"type\":\"link\",\"url\":\"/collections/pudra-proteica\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"pudră proteică\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Concentrat proteic din zer, glicină, L-lizină, arome, îndulcitori (sucraloză, acesulfam-K).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Alergeni: lapte (zer).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Valorile nutriționale per porție de 30 g și la 100 g, precum și profilul de aminoacizi, sunt trecute pe eticheta produsului.\"}]}]}"
+   },
+   "detalii_produs": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Greutate: 1000 g\",\"Porții: 33\",\"Proteine: 82 g la 100 g\",\"Arome: afine și vanilie, vanilie Bourbon, ciocolată și cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee, ciocolată albă și zmeură\",\"Mod de administrare: o porție (aproximativ 30 g) cu apă sau lapte, după antrenament sau ca gustare între mese\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prime Whey este o proteină din zer de la Prime Supplements, cu 82 g de proteine la 100 g de produs. Tubul de 1 kg conține 33 de porții și este un format bun pentru a testa o aromă nouă sau pentru cine consumă proteină doar în zilele de antrenament.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce conține\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Lista de ingrediente include concentrat proteic din zer, glicină, L-lizină, arome și îndulcitori (sucraloză, acesulfam-K). Tabelul cu valorile nutriționale per porție de 30 g și la 100 g, împreună cu profilul de aminoacizi, este imprimat pe tub. Produsul conține lapte.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se folosește\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Amestecați o porție de aproximativ 30 g cu apă sau lapte într-un shaker și consumați-o după antrenament sau ca gustare între mese. Pudra poate fi adăugată și în smoothie-uri. Necesarul de proteine diferă de la o persoană la alta, așa că adaptați consumul la restul alimentației.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Arome disponibile\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Prime Whey de 1 kg este disponibil în șapte arome: afine cu vanilie, vanilie Bourbon, ciocolată cu cocos, caramel sărat, cheesecake cu căpșuni, ciocolată toffee și ciocolată albă cu zmeură.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Rolul proteinelor\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Proteinele contribuie la creșterea și menținerea masei musculare și la menținerea unor oase normale. O pudră proteică este utilă atunci când aportul din alimente nu acoperă necesarul, dar nu înlocuiește o dietă variată și echilibrată.\"}]}]}"
+   },
+   "short_description": {
+    "type": "multi_line_text_field",
+    "value": "<strong>Gramaj</strong>: 1000 g / 33 serviri;<br><strong>Supliment alimentar pentru adulți, sub formă de pulbere, cu conținut <strong>ridicat de proteine.</strong></strong><br>Prime Whey este un concentrat proteic din zer (WPC) și se numără printre cele mai populare suplimente proteice. Datorită conținutului său ridicat de proteine, ajută la creșterea și menținerea masei musculare.<br>Indiferent dacă ești un sportiv profesionist sau un entuziast al fitnessului, Prime Whey îți oferă proteine ​​de calitate superioară pentru a-ți atinge obiectivele. Adaugă Prime Whey în rutina ta zilnică și bucură-te de beneficiile unei surse de proteine ​​pură și ușor de digerat.<br>Disclaimer: Suplimentele alimentare trebuie consumate în cadrul unui stil de viață sănătos și echilibrat. Consultă un specialist înainte de a începe utilizarea suplimentelor."
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ },
+ "backup_taken": "2026-10-15",
+ "note": "live values read via graphql_query before the seo-top50 apply"
+}

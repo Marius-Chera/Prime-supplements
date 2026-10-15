@@ -1,0 +1,62 @@
+{
+ "backup_taken_at": "2026-10-15",
+ "source": "product(id) via Shopify Admin GraphQL (mcp graphql_query), read immediately before the apply4b write run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971466383735",
+   "handle": "nac-80-caps",
+   "title": "NAC – N-acetilcisteină, 80 de capsule",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Suplimente pentru sănătate",
+   "tags": [
+    "N-acetilcisteină",
+    "nac",
+    "Suplimente",
+    "Vitamine și Minerale"
+   ],
+   "descriptionHtml": "<p><strong>NAC</strong> de la Prime Supplements este un supliment alimentar cu N-acetilcisteină, forma acetilată a aminoacidului cisteină, prezentat în capsule de gelatină. Un flacon conține 80 de capsule, iar lista de ingrediente este scurtă: substanța activă, maltodextrină ca agent de încărcare și fosfat tricalcic ca agent antiaglomerant.</p> <p>Produsul se adresează adulților care caută un supliment cu N-acetilcisteină ușor de inclus în rutina zilnică. Se administrează o capsulă pe zi, preferabil pe stomacul gol, fără a depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și nici femeilor însărcinate sau care alăptează.</p> <p>Flaconul se păstrează într-un loc răcoros, ferit de lumină, umiditate și căldură excesivă. Alte suplimente din aceeași gamă găsești în categoria <a href=\"/collections/vitamine-si-minerale\">Vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Conține N-acetilcisteină (NAC), forma acetilată a aminoacidului cisteină.</li>\n<li>Flacon cu 80 de capsule de gelatină.</li>\n<li>Se administrează o capsulă pe zi, preferabil pe stomacul gol.</li>\n<li>Pe lângă N-acetilcisteină, conține maltodextrină ca agent de încărcare, fosfat tricalcic ca agent antiaglomerant și învelișul capsulei din gelatină.</li>\n</ul> <h2>Ingrediente</h2> <p>N-acetilcisteină. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină), agent antiaglomerant (fosfat tricalcic).</p> <h3>Valori nutriționale</h3> <ul><li>Per 2 capsule: N-acetilcisteină 500 mg</li></ul> <p>Alergeni: produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, gluten, pește).</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 de capsule</li>\n<li>Substanță activă: N-acetilcisteină, 500 mg la 2 capsule</li>\n<li>Mod de administrare: 1 capsulă pe zi, preferabil pe stomacul gol</li>\n<li>Păstrare: loc răcoros, ferit de lumină, umiditate și căldură excesivă</li>\n<li>Atenționări: nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "NAC 80 capsule – N-acetilcisteină 500 mg | Prime Supplements",
+    "description": "NAC Prime Supplements: N-acetilcisteină 500 mg la 2 capsule, 80 capsule, 1 capsulă pe zi, de preferat pe stomacul gol. Comandă online, livrare rapidă."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64959990399351",
+      "alt": "NAC 80 caps de la Prime, flacon negru cu capac, etichetă roșu cu negru N-Acetylcysteine, vedere din față",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii": {
+    "id": "gid://shopify/Metafield/204657465819511",
+    "type": "list.single_line_text_field",
+    "value": "[\"Conține N-acetilcisteină (NAC), forma acetilată a aminoacidului cisteină.\",\"Flacon cu 80 de capsule de gelatină.\",\"Se administrează o capsulă pe zi, preferabil pe stomacul gol.\",\"Pe lângă N-acetilcisteină, conține maltodextrină ca agent de încărcare, fosfat tricalcic ca agent antiaglomerant și învelișul capsulei din gelatină.\"]"
+   },
+   "despre": {
+    "id": "gid://shopify/Metafield/204657465852279",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"NAC\",\"bold\":true},{\"type\":\"text\",\"value\":\" de la Prime Supplements este un supliment alimentar cu N-acetilcisteină, forma acetilată a aminoacidului cisteină, prezentat în capsule de gelatină. Un flacon conține 80 de capsule, iar lista de ingrediente este scurtă: substanța activă, maltodextrină ca agent de încărcare și fosfat tricalcic ca agent antiaglomerant.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Produsul se adresează adulților care caută un supliment cu N-acetilcisteină ușor de inclus în rutina zilnică. Se administrează o capsulă pe zi, preferabil pe stomacul gol, fără a depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și nici femeilor însărcinate sau care alăptează.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Flaconul se păstrează într-un loc răcoros, ferit de lumină, umiditate și căldură excesivă. Alte suplimente din aceeași gamă găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182550823174519",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"N-acetilcisteină. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină), agent antiaglomerant (fosfat tricalcic).\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Valori nutriționale\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Per 2 capsule: N-acetilcisteină 500 mg\"}]}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Alergeni: produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, gluten, pește).\"}]}]}"
+   },
+   "detalii": {
+    "id": "gid://shopify/Metafield/204657465885047",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 de capsule\",\"Substanță activă: N-acetilcisteină, 500 mg la 2 capsule\",\"Mod de administrare: 1 capsulă pe zi, preferabil pe stomacul gol\",\"Păstrare: loc răcoros, ferit de lumină, umiditate și căldură excesivă\",\"Atenționări: nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează\",\"Brand: Prime Supplements\"]"
+   },
+   "seoprod": null,
+   "shortdesc": {
+    "id": "gid://shopify/Metafield/181761035207031",
+    "type": "multi_line_text_field",
+    "value": "<strong>Mod de prezentare</strong> : 80 capsule<br><br>Supliment alimentar pentru adulți sub formă de capsule, cu conținut de N-acetilcisteină.<br><ul>\n<li><strong>Protecție antioxidantă:</strong> NAC este unul dintre cei mai puternici antioxidanți, oferind protecție împotriva daunelor oxidative și sprijinind sănătatea celulară.</li>\n<li><strong>Sprijin pentru sănătatea creierului:</strong> Contribuie la funcționarea optimă a creierului și a sistemului nervos, datorită proprietăților sale antioxidante.</li>\n<li><strong>Detoxifiere eficientă:</strong> Susține sănătatea ficatului și promovează procesele de detoxifiere, facilitând eliminarea toxinelor.</li>\n<li><strong>Sănătatea sistemului respirator:</strong> NAC sprijină funcția respiratorie sănătoasă și menține activitatea antioxidantă celulară optimă.</li>\n<li><strong>Îmbunătățirea funcției imunitare:</strong> Acest supliment ajută la îmbunătățirea funcției normale a sistemului imunitar prin promovarea formării glutationului.</li>\n<li><strong>Potrivit pentru vegetarieni și vegani:</strong> Formula sa este adecvată pentru toate stilurile de viață, fără a conține ingrediente de origine animală.</li>\n<li><strong>Molibden și seleniu:</strong> NAC este îmbogățit cu molibden și seleniu, minerale esențiale care susțin producția de enzime vitale pentru sănătatea organismului.</li>\n<li><strong>Lupta împotriva radicalilor liberi:</strong> Ajută la neutralizarea radicalilor liberi, reducând riscul de daune oxidative și sprijinind longevitatea celulară.</li>\n<li><strong>Sprijin pentru structura proteică:</strong> Datorită conținutului de sulf, NAC stabilizează formarea structurilor proteice, esențiale pentru funcționarea optimă a organismului.</li>\n</ul>"
+   },
+   "cantitate": null,
+   "boost": null
+  }
+ }
+}

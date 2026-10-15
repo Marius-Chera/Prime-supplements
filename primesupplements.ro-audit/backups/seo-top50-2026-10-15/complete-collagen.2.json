@@ -1,0 +1,61 @@
+{
+ "backup_taken_at": "2026-10-15",
+ "source": "product(id) via Shopify Admin GraphQL (mcp graphql_query), read immediately before the apply4b write run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971466088823",
+   "handle": "complete-collagen",
+   "title": "Colagen hidrolizat lichid Complete Collagen – 500 ml",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Colagen",
+   "tags": [
+    "Prime Health",
+    "Suplimente",
+    "tincturi"
+   ],
+   "descriptionHtml": "<p>Complete Collagen este un supliment alimentar lichid cu peptide din colagen bovin hidrolizat Peptan, care reprezintă 40% din formulă. O doză de 15 ml conține 6 g de colagen hidrolizat, iar flaconul are 500 ml.</p> <p>Pe lângă colagen, formula include extracte apoase din scoarță de salcie, flori de soc, frunze de mentă și de urzică, fructe de ienupăr, cătină și măceș și flori de hibiscus, precum și extract de aloe și vitamina C. Gustul este îndulcit cu extract de stevia.</p> <p>Se consumă 15 ml pe zi, simplu sau diluat într-un pahar de apă, de preferat pe stomacul gol. Produsul nu este recomandat persoanelor alergice la oricare dintre ingrediente, iar femeile însărcinate sau care alăptează trebuie să ceară sfatul unui specialist înainte de utilizare. Descoperă și alte produse din gama <a href=\"/collections/prime-health\">Prime Health</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Fiecare doză de 15 ml conține 6 g de colagen hidrolizat.</li>\n<li>Peptide din colagen bovin hidrolizat Peptan, care reprezintă 40% din formulă.</li>\n<li>Formă lichidă, care se consumă simplu sau diluată într-un pahar de apă.</li>\n<li>Conține extracte apoase din plante, extract de aloe și vitamina C (acid L-ascorbic).</li>\n<li>Îndulcit cu extract de stevia.</li>\n</ul> <h2>Ingrediente</h2> <p>Peptide din colagen bovin hidrolizat Peptan© (40%), extract apos de plante: salcie (Salix alba) scoarță, soc (Sambucus nigra) flori, mentă (Mentha piperita) frunze, urzică (Urtica dioica) frunze, ienupăr (Juniperus communis) fructe, cătină (Hippophae rhamnoides) fructe, măceș (Rosa canina) fructe, hibiscus (Hibiscus sabdariffa) flori; extract de aloe (Aloe barbadensis); vitamina C (acid L-ascorbic); corector de aciditate (acid citric); conservanți (sorbat de potasiu și benzoat de sodiu); îndulcitor natural: extract de stevie (Stevia rebaudiana).</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 500 ml</li>\n<li>Doză zilnică: 15 ml (6 g colagen hidrolizat)</li>\n<li>Mod de administrare: 15 ml pe zi, simplu sau diluat într-un pahar de apă, de preferat pe stomacul gol</li>\n<li>Sursa colagenului: bovină (Peptan)</li>\n<li>Îndulcitor: extract de stevia</li>\n<li>Brand: Prime Supplements (gama Prime Health)</li>\n</ul>",
+   "seo": {
+    "title": "Colagen hidrolizat 500 ml – 6 g per doză | Prime Supplements",
+    "description": "Colagen hidrolizat lichid Peptan, 500 ml: 6 g colagen bovin per doză de 15 ml, cu extracte de plante, aloe, vitamina C și stevie. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64959535055223",
+      "alt": "Colagen Hidrolizat - 500 ml Complete Collagen Prime Health, sticlă de culoare închisă cu etichetă verde și capac transparent",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii": {
+    "id": "gid://shopify/Metafield/204657370104183",
+    "type": "list.single_line_text_field",
+    "value": "[\"Fiecare doză de 15 ml conține 6 g de colagen hidrolizat.\",\"Peptide din colagen bovin hidrolizat Peptan, care reprezintă 40% din formulă.\",\"Formă lichidă, care se consumă simplu sau diluată într-un pahar de apă.\",\"Conține extracte apoase din plante, extract de aloe și vitamina C (acid L-ascorbic).\",\"Îndulcit cu extract de stevia.\"]"
+   },
+   "despre": {
+    "id": "gid://shopify/Metafield/204657370136951",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Complete Collagen este un supliment alimentar lichid cu peptide din colagen bovin hidrolizat Peptan, care reprezintă 40% din formulă. O doză de 15 ml conține 6 g de colagen hidrolizat, iar flaconul are 500 ml.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Pe lângă colagen, formula include extracte apoase din scoarță de salcie, flori de soc, frunze de mentă și de urzică, fructe de ienupăr, cătină și măceș și flori de hibiscus, precum și extract de aloe și vitamina C. Gustul este îndulcit cu extract de stevia.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Se consumă 15 ml pe zi, simplu sau diluat într-un pahar de apă, de preferat pe stomacul gol. Produsul nu este recomandat persoanelor alergice la oricare dintre ingrediente, iar femeile însărcinate sau care alăptează trebuie să ceară sfatul unui specialist înainte de utilizare. Descoperă și alte produse din gama \"},{\"type\":\"link\",\"url\":\"/collections/prime-health\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Prime Health\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182550851813751",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Peptide din colagen bovin hidrolizat Peptan© (40%), extract apos de plante: salcie (Salix alba) scoarță, soc (Sambucus nigra) flori, mentă (Mentha piperita) frunze, urzică (Urtica dioica) frunze, ienupăr (Juniperus communis) fructe, cătină (Hippophae rhamnoides) fructe, măceș (Rosa canina) fructe, hibiscus (Hibiscus sabdariffa) flori; extract de aloe (Aloe barbadensis); vitamina C (acid L-ascorbic); corector de aciditate (acid citric); conservanți (sorbat de potasiu și benzoat de sodiu); îndulcitor natural: extract de stevie (Stevia rebaudiana).\"}]}]}"
+   },
+   "detalii": {
+    "id": "gid://shopify/Metafield/204657370169719",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 500 ml\",\"Doză zilnică: 15 ml (6 g colagen hidrolizat)\",\"Mod de administrare: 15 ml pe zi, simplu sau diluat într-un pahar de apă, de preferat pe stomacul gol\",\"Sursa colagenului: bovină (Peptan)\",\"Îndulcitor: extract de stevia\",\"Brand: Prime Supplements (gama Prime Health)\"]"
+   },
+   "seoprod": null,
+   "shortdesc": {
+    "id": "gid://shopify/Metafield/181761031569783",
+    "type": "multi_line_text_field",
+    "value": "Complete Collagen este un produs revoluționar care combină colagenul pur hidrolizat cu un amestec de extracte din plante pentru a susține sănătatea articulațiilor, pielii, părului și unghiilor. Formula sa avansată stimulează producția de colagen, inhibă enzimele care degradează colagenul, ajută la refacerea structurii osoase și reduce deformările articulațiilor și oaselor. În plus, combinatia dintre colagen și extractele din plante maximizează absorbția și eficiența.<br><br>Fiecare doză de 15 ml, conține 6 g de colagen pur hidrolizat, care contribuie activ la îmbunătățirea rezistenței masei osoase și la revitalizarea pielii, părului și unghiilor."
+   },
+   "cantitate": null,
+   "boost": null
+  }
+ }
+}

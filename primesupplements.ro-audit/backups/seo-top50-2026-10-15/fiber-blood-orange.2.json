@@ -1,0 +1,84 @@
+{
+ "backup_date": "2026-10-15",
+ "source": "Shopify Admin GraphQL productByIdentifier(handle) read before seo-top50 apply (apply4 batch: crema de orez + fiber)",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14998832546167",
+   "title": "Fiber – băutură cu fibre, aromă portocală roșie, 500 g",
+   "handle": "fiber-blood-orange",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Fibre și digestie",
+   "templateSuffix": "",
+   "tags": [
+    "Alimente sănătoase",
+    "Digestie",
+    "fibre",
+    "prebiotice",
+    "Suplimente"
+   ],
+   "descriptionHtml": "<p>Fiber de la Prime Supplements este un supliment alimentar sub formă de pudră pentru băutură, cu aromă de portocală roșie, pentru cei care vor să adauge mai multe fibre în alimentația zilnică. O porție de 10 g furnizează 7,4 g de fibre.</p> <p>Formula combină mai multe surse de fibre – inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan din rădăcina de konjac – alături de pulbere din fructe de baobab. Aroma de portocală roșie face băutura mai ușor de consumat decât pulberile de fibre fără gust.</p> <p>Amestecă 10 g (aproximativ o măsură) cu 150-250 ml de apă și consumă o porție pe zi, înainte de masă. Când crești aportul de fibre, bea suficiente lichide pe parcursul zilei. Tubul de 500 g conține 50 de porții. Alte produse pentru alimentația zilnică găsești în categoria <a href=\"/collections/alimente-sanatoase\">alimente sănătoase</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>O porție de 10 g furnizează 7,4 g de fibre.</li>\n<li>Mai multe surse de fibre: inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan.</li>\n<li>Aromă de portocală roșie, pentru o băutură ușor de consumat zilnic.</li>\n<li>Tub de 500 g cu 50 de porții de 10 g.</li>\n<li>Se prepară rapid: 10 g (aproximativ o măsură) amestecate cu 150-250 ml de apă.</li>\n</ul> <h2>Ingrediente</h2> <p>Inulină, fibre de acacia, fibre de bambus, făină de ovăz, glucomanan (extract din rădăcina de Amorphophallus konjac), acid citric, pulbere organică din fructe de baobab (Adansonia digitata), arome, colorant (extract de boia), îndulcitori (sucroză, acesulfam-K).</p> <p>Valori nutriționale: 7,4 g de fibre per porție de 10 g. Tabelul nutrițional complet este disponibil pe eticheta produsului.</p> <h2>Detalii produs</h2> <ul>\n<li>Greutate: 500 g</li>\n<li>Porții: 50 (10 g / porție)</li>\n<li>Aromă: portocală roșie</li>\n<li>Mod de administrare: 10 g (aproximativ 1 măsură) cu 150-250 ml de apă, o porție pe zi, înainte de masă</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Fiber 500g 50 porții – fibre prebiotice | Prime Supplements",
+    "description": "Fiber, băutură instant cu fibre prebiotice (inulină și fibre de acacia), gust de portocale roșii. 10 g per porție, 50 de porții în 500 g. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/69888643105143",
+      "alt": "Fiber 500g/50serv, tub alb cu aromă Blood Orange și portocală roșie pe etichetă, 50 de porții, vedere din față",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888643137911",
+      "alt": "Spatele tubului Fiber 500g/50serv cu lista de ingrediente și modul de utilizare în română și engleză",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/69888643170679",
+      "alt": "Eticheta cu valori nutriționale a tubului Fiber 500g/50serv, 7,4 g fibre per porție de 10 g, cu pictograme de preparare",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii": {
+    "id": "gid://shopify/Metafield/182361738477943",
+    "namespace": "custom",
+    "key": "beneficii_cheie",
+    "type": "list.single_line_text_field",
+    "value": "[\"O porție de 10 g furnizează 7,4 g de fibre.\",\"Mai multe surse de fibre: inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan.\",\"Aromă de portocală roșie, pentru o băutură ușor de consumat zilnic.\",\"Tub de 500 g cu 50 de porții de 10 g.\",\"Se prepară rapid: 10 g (aproximativ o măsură) amestecate cu 150-250 ml de apă.\"]"
+   },
+   "despre": {
+    "id": "gid://shopify/Metafield/182361738379639",
+    "namespace": "custom",
+    "key": "despre_produs",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fiber de la Prime Supplements este un supliment alimentar sub formă de pudră pentru băutură, cu aromă de portocală roșie, pentru cei care vor să adauge mai multe fibre în alimentația zilnică. O porție de 10 g furnizează 7,4 g de fibre.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Formula combină mai multe surse de fibre – inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan din rădăcina de konjac – alături de pulbere din fructe de baobab. Aroma de portocală roșie face băutura mai ușor de consumat decât pulberile de fibre fără gust.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Amestecă 10 g (aproximativ o măsură) cu 150-250 ml de apă și consumă o porție pe zi, înainte de masă. Când crești aportul de fibre, bea suficiente lichide pe parcursul zilei. Tubul de 500 g conține 50 de porții. Alte produse pentru alimentația zilnică găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/alimente-sanatoase\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"alimente sănătoase\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182361738412407",
+    "namespace": "custom",
+    "key": "ingrediente",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Inulină, fibre de acacia, fibre de bambus, făină de ovăz, glucomanan (extract din rădăcina de Amorphophallus konjac), acid citric, pulbere organică din fructe de baobab (Adansonia digitata), arome, colorant (extract de boia), îndulcitori (sucroză, acesulfam-K).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Valori nutriționale: 7,4 g de fibre per porție de 10 g. Tabelul nutrițional complet este disponibil pe eticheta produsului.\"}]}]}"
+   },
+   "detalii": {
+    "id": "gid://shopify/Metafield/182361738445175",
+    "namespace": "custom",
+    "key": "detalii_produs",
+    "type": "list.single_line_text_field",
+    "value": "[\"Greutate: 500 g\",\"Porții: 50 (10 g / porție)\",\"Aromă: portocală roșie\",\"Mod de administrare: 10 g (aproximativ 1 măsură) cu 150-250 ml de apă, o porție pe zi, înainte de masă\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182361531384183",
+    "namespace": "custom",
+    "key": "seo_produs",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fibrele sunt o parte a alimentației pe care mulți oameni o acoperă greu doar din meniul obișnuit. Fiber oferă o variantă simplă: o băutură cu aromă de portocală roșie, gata imediat după amestecare.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce conține\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"O porție de 10 g furnizează 7,4 g de fibre din mai multe surse: inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan din rădăcina de konjac. Formula mai conține pulbere din fructe de baobab, acid citric, arome, colorant din extract de boia și îndulcitori.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se prepară\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Amestecă 10 g (aproximativ o măsură) cu 150-250 ml de apă și consumă o porție pe zi, înainte de masă. Folosește cantitatea de apă indicată și bea suficiente lichide pe parcursul zilei, mai ales în perioada în care îți crești aportul de fibre.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Pentru cine este\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Fiber se potrivește persoanelor care vor să-și crească aportul de fibre într-un mod practic, fie că urmează o dietă pentru sală, fie că au un program aglomerat. Tubul de 500 g ajunge pentru 50 de porții, iar băutura nu înlocuiește legumele, fructele și cerealele integrale dintr-o dietă variată.\"}]}]}"
+   },
+   "short_description": null,
+   "cantitate": null,
+   "search_boost": null
+  }
+ }
+}

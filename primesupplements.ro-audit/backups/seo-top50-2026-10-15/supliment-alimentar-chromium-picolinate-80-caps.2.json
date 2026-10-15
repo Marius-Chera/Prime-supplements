@@ -1,0 +1,68 @@
+{
+ "backup_taken_at": "2026-10-15T16:55:11.449059+00:00",
+ "source": "product(id) via Shopify Admin GraphQL (apply5 run), read before any write in this run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971466252663",
+   "title": "Picolinat de crom – 80 capsule",
+   "handle": "supliment-alimentar-chromium-picolinate-80-caps",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Minerale",
+   "tags": [
+    "chrom",
+    "crom",
+    "crom picolinat",
+    "Suplimente",
+    "Vitamine și Minerale"
+   ],
+   "updatedAt": "2026-10-13T08:12:44Z",
+   "descriptionHtml": "<p>Picolinatul de crom este o formă de crom legată de acidul picolinic, folosită frecvent în suplimentele alimentare. Fiecare capsulă conține 1,6 mg de picolinat de crom, care furnizează 200 µg de crom, iar flaconul are 80 de capsule.</p> <p>Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge și la metabolismul normal al macronutrienților. Produsul se adresează adulților care vor să-și completeze aportul de crom din alimentație, ca parte a unei diete variate și a unui stil de viață activ.</p> <p>Se administrează 1 capsulă pe zi, de preferat în timpul mesei. Capsula este din gelatină, iar ca agent de încărcare se folosește maltodextrina. Găsești și alte minerale în categoria <a href=\"/collections/vitamine-si-minerale\">vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.</li>\n<li>Cromul contribuie la metabolismul normal al macronutrienților.</li>\n<li>O capsulă conține 1,6 mg de picolinat de crom, care furnizează 200 µg de crom.</li>\n<li>Se administrează 1 capsulă pe zi, de preferat în timpul mesei.</li>\n<li>Flacon cu 80 de capsule.</li>\n</ul> <h2>Ingrediente</h2> <p>Picolinat de crom. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).</p> <p>O capsulă: 1,6 mg picolinat de crom (200 µg crom).</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 capsule (34,2 g)</li>\n<li>Conținut pe capsulă: 1,6 mg picolinat de crom (200 µg crom)</li>\n<li>Mod de administrare: 1 capsulă pe zi, de preferat în timpul mesei</li>\n<li>Tip capsulă: gelatină</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Crom picolinat 80 capsule – metabolism | Prime Supplements",
+    "description": "Crom picolinat, 80 capsule. Cromul contribuie la metabolismul normal al macronutrienților și la menținerea unei glicemii normale. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64960027525495",
+      "alt": "Chromium picolinate 80 caps, flacon negru cu etichetă roșu-negru Prime Hardcore Sports Nutrition, 34,2 g, din față",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/182136073519479",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.\",\"Cromul contribuie la metabolismul normal al macronutrienților.\",\"O capsulă conține 1,6 mg de picolinat de crom, care furnizează 200 µg de crom.\",\"Se administrează 1 capsulă pe zi, de preferat în timpul mesei.\",\"Flacon cu 80 de capsule.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/182423702045047",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Picolinatul de crom este o formă de crom legată de acidul picolinic, folosită frecvent în suplimentele alimentare. Fiecare capsulă conține 1,6 mg de picolinat de crom, care furnizează 200 µg de crom, iar flaconul are 80 de capsule.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge și la metabolismul normal al macronutrienților. Produsul se adresează adulților care vor să-și completeze aportul de crom din alimentație, ca parte a unei diete variate și a unui stil de viață activ.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Se administrează 1 capsulă pe zi, de preferat în timpul mesei. Capsula este din gelatină, iar ca agent de încărcare se folosește maltodextrina. Găsești și alte minerale în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182423656464759",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Picolinat de crom. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"O capsulă: 1,6 mg picolinat de crom (200 µg crom).\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/182136073453943",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 capsule (34,2 g)\",\"Conținut pe capsulă: 1,6 mg picolinat de crom (200 µg crom)\",\"Mod de administrare: 1 capsulă pe zi, de preferat în timpul mesei\",\"Tip capsulă: gelatină\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182075339047287",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Picolinatul de crom este o formă de crom legată de acidul picolinic. Fiecare capsulă conține 1,6 mg de picolinat de crom, care furnizează 200 µg de crom, iar flaconul are 80 de capsule.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Rolul cromului\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Cromul contribuie la metabolismul normal al macronutrienților.\"}]}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Caracteristici\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"80 de capsule per flacon\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"1 capsulă pe zi, de preferat în timpul mesei\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"capsulă din gelatină, cu maltodextrină ca agent de încărcare\"}]}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Pentru cine este potrivit\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Pentru adulții care vor să-și completeze aportul de crom din alimentație, ca parte a unei diete variate și a unui stil de viață activ. Persoanele care urmează un tratament medicamentos, femeile însărcinate sau care alăptează trebuie să consulte medicul înainte de utilizare. Nu depăși doza zilnică recomandată.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ai întrebări?\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Dacă ai întrebări despre administrarea produsului, contactează echipa Prime Supplements și te vom ajuta să alegi varianta potrivită pentru rutina ta.\"}]}]}"
+   },
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761032454519",
+    "type": "multi_line_text_field",
+    "value": "<strong>Mod de prezentare</strong> : 80 capsule<br><br>Supliment alimentar pentru adulți, sub formă de capsule, ce conține crom.<br>Cromul contribuie la metabolismul normal al macronutrienților și ajută și la menținerea nivelului normal de glucoză din sânge. Drept urmare, este alegerea ideală pentru persoanele care doresc să aibă grijă de nivelul de zahăr din sânge."
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ }
+}

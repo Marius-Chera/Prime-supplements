@@ -1,0 +1,63 @@
+{
+ "backup_taken_at": "2026-10-15T16:55:11.443896+00:00",
+ "source": "product(id) via Shopify Admin GraphQL (apply5 run), read before any write in this run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971466482039",
+   "title": "Citrat de zinc 40 mg – 80 de capsule",
+   "handle": "zinc-citrate-80-caps",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Minerale",
+   "tags": [
+    "Suplimente",
+    "Vitamine și Minerale",
+    "zinc",
+    "zinc citrate"
+   ],
+   "updatedAt": "2026-10-13T08:13:35Z",
+   "descriptionHtml": "<p><strong>Citratul de zinc</strong> de la Prime Supplements furnizează 40 mg de zinc într-o singură capsulă, adică 400% din valoarea nutrițională de referință (VNR). Zincul provine din citrat de zinc, iar formula mai conține doar maltodextrină ca agent de încărcare și învelișul capsulei din gelatină.</p> <p>Zincul contribuie la funcționarea normală a sistemului imunitar și la menținerea concentrațiilor normale de testosteron din sânge. Produsul se adresează adulților care vor un supliment simplu, cu un singur mineral, într-o doză zilnică de o capsulă.</p> <p>Se administrează o capsulă pe zi, înainte sau după masă. Flaconul conține 80 de capsule și se păstrează într-un loc răcoros, ferit de lumină, umiditate și căldură excesivă. Alte minerale găsești în categoria <a href=\"/collections/vitamine-si-minerale\">Vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>Zincul contribuie la funcționarea normală a sistemului imunitar.</li>\n<li>Zincul contribuie la menținerea concentrațiilor normale de testosteron din sânge.</li>\n<li>Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.</li>\n<li>O capsulă furnizează 40 mg de zinc din citrat de zinc; se ia o capsulă pe zi, înainte sau după masă.</li>\n<li>Flacon cu 80 de capsule.</li>\n</ul> <h2>Ingrediente</h2> <p>Citrat de zinc. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).</p> <h3>Valori nutriționale per capsulă</h3> <ul>\n<li>Zinc (din citrat de zinc): 40 mg (400% VNR*)</li>\n<li>*VNR – valori nutriționale de referință</li>\n</ul> <p>Alergeni: produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, gluten, pește).</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 de capsule</li>\n<li>Zinc per capsulă: 40 mg (400% VNR)</li>\n<li>Formă: citrat de zinc</li>\n<li>Mod de administrare: 1 capsulă pe zi, înainte sau după masă</li>\n<li>Păstrare: loc răcoros, ferit de lumină, umiditate și căldură excesivă</li>\n<li>Greutate netă: 34,9 g</li>\n<li>Atenționări: nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Zinc Citrate 80 caps – 40 mg per capsulă | Prime Supplements",
+    "description": "Citrat de zinc cu 40 mg zinc per capsulă (400% VNR), 80 capsule, 1 pe zi. Zincul contribuie la funcționarea normală a sistemului imunitar. Vezi detalii."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/64959985222007",
+      "alt": "Zinc citrate 80 caps, flacon negru lucios cu etichetă roșu-negru Prime, 34,9 g, fotografiat frontal pe fundal gri deschis",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/204657594270071",
+    "type": "list.single_line_text_field",
+    "value": "[\"Zincul contribuie la funcționarea normală a sistemului imunitar.\",\"Zincul contribuie la menținerea concentrațiilor normale de testosteron din sânge.\",\"Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.\",\"O capsulă furnizează 40 mg de zinc din citrat de zinc; se ia o capsulă pe zi, înainte sau după masă.\",\"Flacon cu 80 de capsule.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/204657594302839",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citratul de zinc\",\"bold\":true},{\"type\":\"text\",\"value\":\" de la Prime Supplements furnizează 40 mg de zinc într-o singură capsulă, adică 400% din valoarea nutrițională de referință (VNR). Zincul provine din citrat de zinc, iar formula mai conține doar maltodextrină ca agent de încărcare și învelișul capsulei din gelatină.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Zincul contribuie la funcționarea normală a sistemului imunitar și la menținerea concentrațiilor normale de testosteron din sânge. Produsul se adresează adulților care vor un supliment simplu, cu un singur mineral, într-o doză zilnică de o capsulă.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Se administrează o capsulă pe zi, înainte sau după masă. Flaconul conține 80 de capsule și se păstrează într-un loc răcoros, ferit de lumină, umiditate și căldură excesivă. Alte minerale găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"Vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182550800466295",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrat de zinc. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Valori nutriționale per capsulă\"}]},{\"type\":\"list\",\"listType\":\"unordered\",\"children\":[{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"Zinc (din citrat de zinc): 40 mg (400% VNR*)\"}]},{\"type\":\"list-item\",\"children\":[{\"type\":\"text\",\"value\":\"*VNR – valori nutriționale de referință\"}]}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Alergeni: produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, gluten, pește).\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/204657594335607",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 de capsule\",\"Zinc per capsulă: 40 mg (400% VNR)\",\"Formă: citrat de zinc\",\"Mod de administrare: 1 capsulă pe zi, înainte sau după masă\",\"Păstrare: loc răcoros, ferit de lumină, umiditate și căldură excesivă\",\"Greutate netă: 34,9 g\",\"Atenționări: nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": null,
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761039171959",
+    "type": "multi_line_text_field",
+    "value": "<strong>Mod de prezentare</strong> : 80 capsule<br><br>Supliment alimentar pentru adulți sub formă de capsule, cu conținut de zinc.<br>Zincul este un mineral esențial prezent în aproape toate celulele corpului. Acesta stimulează activitatea a aproape 100 de enzime, care sunt esențiale pentru desfășurarea reacțiilor biochimice din organism. Zincul joacă un rol crucial în funcționarea sistemului imunitar, este necesar pentru vindecarea rănilor, contribuie la simțurile de miros și gust și este indispensabil în sinteza ADN-ului. De asemenea, zincul este important pentru femeile însărcinate, copii și adolescenți."
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ }
+}

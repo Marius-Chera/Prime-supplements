@@ -1,0 +1,81 @@
+{
+ "backup_taken_at": "2026-10-15T16:55:11.446177+00:00",
+ "source": "product(id) via Shopify Admin GraphQL (apply5 run), read before any write in this run",
+ "data": {
+  "product": {
+   "id": "gid://shopify/Product/14971470152055",
+   "title": "Potassium Complex – potasiu și magneziu, 80 de capsule",
+   "handle": "potassium-complex-80-caps",
+   "status": "ACTIVE",
+   "vendor": "Prime Supplements",
+   "productType": "Minerale",
+   "tags": [
+    "definire",
+    "echilibru",
+    "electroliti",
+    "elimina retentia de apa",
+    "hidratatare",
+    "magneziu",
+    "musculatura",
+    "potasiu",
+    "recuperare",
+    "retentie de apa",
+    "saruri minerale",
+    "Suplimente",
+    "Vitamine și Minerale"
+   ],
+   "updatedAt": "2026-10-13T09:40:33Z",
+   "descriptionHtml": "<p>Potassium Complex este un supliment alimentar în capsule de la Prime Supplements care combină două minerale: potasiul, sub formă de citrat de potasiu, și magneziul, sub formă de citrat de magneziu. O porție de 3 capsule furnizează 324 mg de potasiu și 240 mg de magneziu.</p> <p>Produsul se adresează persoanelor active și sportivilor care vor să-și completeze aportul de potasiu și magneziu din alimentație. Magneziul contribuie la echilibrul electrolitic și la reducerea oboselii și extenuării, iar potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.</p> <p>Administrarea se face conform instrucțiunilor de pe ambalaj, cu sau fără alimente, de preferat cu un pahar de apă. Flaconul conține 80 de capsule. Alte minerale și vitamine găsești în categoria <a href=\"/collections/vitamine-si-minerale\">vitamine și minerale</a>.</p> <p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p> <h2>Beneficii cheie</h2> <ul>\n<li>O porție de 3 capsule furnizează 324 mg de potasiu și 240 mg de magneziu, sub formă de citrat de potasiu și citrat de magneziu.</li>\n<li>Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.</li>\n<li>Magneziul contribuie la reducerea oboselii și extenuării.</li>\n<li>Magneziul contribuie la echilibrul electrolitic și la funcționarea normală a sistemului muscular.</li>\n<li>Flacon cu 80 de capsule.</li>\n</ul> <h2>Ingrediente</h2> <p>Citrat de magneziu, citrat de potasiu.</p> <p>Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (fosfat tricalcic, amidon modificat din porumb, dioxid de siliciu, săruri de magneziu ale acizilor grași).</p> <p>Per porție de 3 capsule: potasiu 324 mg, magneziu 240 mg.</p> <h2>Detalii produs</h2> <ul>\n<li>Cantitate: 80 de capsule</li>\n<li>Porție: 3 capsule (324 mg potasiu, 240 mg magneziu)</li>\n<li>Mod de administrare: conform instrucțiunilor de pe ambalaj, cu sau fără alimente, cu un pahar de apă</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+   "seo": {
+    "title": "Potassium Complex 80 caps – electroliți | Prime Supplements",
+    "description": "Potassium Complex: potasiu citrat și magneziu citrat, 80 capsule. Contribuie la echilibrul electrolitic și la funcția normală a mușchilor. Comandă online."
+   },
+   "media": {
+    "nodes": [
+     {
+      "id": "gid://shopify/MediaImage/65177318424951",
+      "alt": "Flacon negru Potassium Complex 80 caps, eticheta din față cu literele PC roșii, fotografiat pe fundal deschis",
+      "mediaContentType": "IMAGE"
+     },
+     {
+      "id": "gid://shopify/MediaImage/64702819893623",
+      "alt": "Detaliu etichetă Potassium Complex 80 caps: alergeni, atenționări și valori nutriționale, potasiu 324 mg și magneziu 240 mg",
+      "mediaContentType": "IMAGE"
+     }
+    ]
+   },
+   "beneficii_cheie": {
+    "id": "gid://shopify/Metafield/182344781070711",
+    "type": "list.single_line_text_field",
+    "value": "[\"O porție de 3 capsule furnizează 324 mg de potasiu și 240 mg de magneziu, sub formă de citrat de potasiu și citrat de magneziu.\",\"Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.\",\"Magneziul contribuie la reducerea oboselii și extenuării.\",\"Magneziul contribuie la echilibrul electrolitic și la funcționarea normală a sistemului muscular.\",\"Flacon cu 80 de capsule.\"]"
+   },
+   "despre_produs": {
+    "id": "gid://shopify/Metafield/182344780972407",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Potassium Complex este un supliment alimentar în capsule de la Prime Supplements care combină două minerale: potasiul, sub formă de citrat de potasiu, și magneziul, sub formă de citrat de magneziu. O porție de 3 capsule furnizează 324 mg de potasiu și 240 mg de magneziu.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Produsul se adresează persoanelor active și sportivilor care vor să-și completeze aportul de potasiu și magneziu din alimentație. Magneziul contribuie la echilibrul electrolitic și la reducerea oboselii și extenuării, iar potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Administrarea se face conform instrucțiunilor de pe ambalaj, cu sau fără alimente, de preferat cu un pahar de apă. Flaconul conține 80 de capsule. Alte minerale și vitamine găsești în categoria \"},{\"type\":\"link\",\"url\":\"/collections/vitamine-si-minerale\",\"title\":null,\"target\":null,\"children\":[{\"type\":\"text\",\"value\":\"vitamine și minerale\"}]},{\"type\":\"text\",\"value\":\".\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "ingrediente": {
+    "id": "gid://shopify/Metafield/182344781005175",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Citrat de magneziu, citrat de potasiu.\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (fosfat tricalcic, amidon modificat din porumb, dioxid de siliciu, săruri de magneziu ale acizilor grași).\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Per porție de 3 capsule: potasiu 324 mg, magneziu 240 mg.\"}]}]}"
+   },
+   "detalii_produs": {
+    "id": "gid://shopify/Metafield/182344781037943",
+    "type": "list.single_line_text_field",
+    "value": "[\"Cantitate: 80 de capsule\",\"Porție: 3 capsule (324 mg potasiu, 240 mg magneziu)\",\"Mod de administrare: conform instrucțiunilor de pe ambalaj, cu sau fără alimente, cu un pahar de apă\",\"Brand: Prime Supplements\"]"
+   },
+   "seo_produs": {
+    "id": "gid://shopify/Metafield/182344781103479",
+    "type": "rich_text_field",
+    "value": "{\"type\":\"root\",\"children\":[{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Potasiul și magneziul sunt două minerale pe care le obținem în mod obișnuit din alimente precum legumele, fructele, leguminoasele și nucile. Potassium Complex le reunește în aceeași capsulă, sub formă de citrați.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Ce conține o porție\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Porția de 3 capsule furnizează 324 mg de potasiu și 240 mg de magneziu. Ambele minerale sunt prezente ca citrați: citrat de potasiu și citrat de magneziu. Flaconul conține 80 de capsule.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Rolul celor două minerale\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Magneziul contribuie la echilibrul electrolitic, la funcționarea normală a sistemului muscular și la reducerea oboselii și extenuării. Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.\"}]},{\"type\":\"heading\",\"level\":3,\"children\":[{\"type\":\"text\",\"value\":\"Cum se administrează\"}]},{\"type\":\"paragraph\",\"children\":[{\"type\":\"text\",\"value\":\"Urmează instrucțiunile de pe ambalaj și nu depăși doza zilnică recomandată. Capsulele se pot lua cu sau fără alimente, cu un pahar de apă. Persoanele cu afecțiuni renale, cele care urmează un tratament medicamentos și femeile însărcinate sau care alăptează trebuie să discute cu medicul înainte de utilizare.\"}]}]}"
+   },
+   "short_description": {
+    "id": "gid://shopify/Metafield/181761112342903",
+    "type": "multi_line_text_field",
+    "value": "<h3><strong>Mod de prezentare: </strong></h3><br>flacon 300ml negru + capac 45mm negru<br><div class=\"overflow-x-auto relative\" dir=\"auto\">\n<h3><strong>Potasiu Citrat</strong></h3>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<strong>Supliment alimentar pentru adulți sub formă de capsule, cu conținut de potasiu citrat.</strong>\n<br></div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Sprijin pentru echilibrul electrolitilor</strong>: Potasiul este esențial pentru menținerea echilibrului electrolitic în organism, contribuind la funcționarea normală a celulelor și sistemului nervos.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Susținerea sănătății cardiovasculare</strong>: Contribuie la menținerea tensiunii arteriale sănătoase și la sprijinirea sănătății inimii.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Funcția musculară optimă</strong>: Potasiul ajută la contracția și relaxarea mușchilor, fiind important pentru performanța fizică și recuperare.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Reglarea pH-ului</strong>: Contribuie la menținerea unui pH sănătos în organism, sprijinind funcționarea optimă a sistemelor metabolice.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Detoxifiere eficientă</strong>: Ajută la eliminarea toxinelor din organism, sprijinind funcția renală.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Potrivit pentru vegetarieni și vegani</strong>: Formula sa este adecvată pentru toate stilurile de viață, fiind 100% vegetală și fără ingrediente de origine animală.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<hr></hr>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<h3><strong>Magneziu Citrat</strong></h3>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<strong>Supliment alimentar pentru adulți sub formă de capsule, cu conținut de magneziu citrat.</strong>\n<br></div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Sprijin pentru sănătatea sistemului nervos</strong>: Magneziul contribuie la funcționarea normală a sistemului nervos și poate ajuta la reducerea stresului și anxietății.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Susținerea sănătății musculare</strong>: Este esențial pentru contracția și relaxarea mușchilor, prevenind crampe musculare și oboseala.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Îmbunătățirea calității somnului</strong>: Magneziul poate ajuta la promovarea unui somn odihnitor prin relaxarea sistemului nervos.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Contribuția la metabolismul energetic</strong>: Este implicat în metabolismul carbohidraților și lipidelor, sprijinind producția de energie.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Sănătatea oaselor</strong>: Magneziul joacă un rol important în menținerea sănătății oaselor, ajutând la absorbția calciului.</li>\n</ul>\n</div>\n</div>\n<div class=\"overflow-x-auto relative\" dir=\"auto\">\n<div>\n<ul>\n<li><strong>Potrivit pentru vegetarieni și vegani</strong>: Formula sa este adecvată pentru toate stilurile de viață, fiind 100% vegetală și fără ingrediente de origine animală.</li>\n</ul><br> <br><table width=\"584\">\n<tbody>\n<tr>\n<td width=\"385\"><strong>Valori nutriționale / Nutrition Facts </strong>\n<br><em>Porție: 3 capsule / Serving size: 3 capsules<br>Porții pe flacon: 30 / Servings per container: 30</em></td>\n<br><td width=\"198\"><strong>3 capsule /</strong>\n<br><strong>3 capsules</strong></td>\n<br></tr>\n<br><tr>\n<td width=\"385\">Potasiu citrat/ Potassium citrate<br><br>Magneziu citrat / Magnesium citrate</td>\n<br><td width=\"198\">324 mg (16,2%*)<br><br>240 mg (63,9%*)</td>\n<br></tr>\n<br></tbody>\n<br></table><br>*VNR – Valori nutriționale de referință / *NRVs – Nutrient Reference Values<br><br></div>\n<h3><strong>Alergeni: </strong></h3><br>Produs într-o unitate care procesează și substanțe cu potențial alergen (lapte, ou, soia, gluten, pește).<br><br></div>"
+   },
+   "cantitate": null,
+   "search_boost": null
+  }
+ }
+}

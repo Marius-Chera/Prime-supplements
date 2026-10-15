@@ -1,0 +1,21 @@
+{
+ "backup_of": "article card fields (title, summary, image alt) before the hub-card edit of 2026-10-15 ~23:15 UTC; body not modified (body backups: <handle>.before.html)",
+ "read_via": "Shopify Admin GraphQL article(id)",
+ "article": {
+  "id": "gid://shopify/Article/1024181174647",
+  "handle": "cum-se-ia-creatina",
+  "title": "Cum se ia creatina: doza pe zi și momentul optim",
+  "summary": "Creatina monohidrat se ia în doză de 3-5 g pe zi, în fiecare zi, inclusiv în zilele fără antrenament. Faza de încărcare (20 g pe zi timp de 5-7 zile) este opțională: cu 3-5 g zilnic ajungi la același nivel de saturare a mușchilor în aproximativ patru săptămâni.",
+  "isPublished": true,
+  "updatedAt": "2026-10-13T09:13:38Z",
+  "templateSuffix": "article",
+  "image": {
+   "altText": "best creatine monohydrate - Dozajul optim de creatină pentru rezultate maxime în 2026",
+   "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-dozaj-optim-creatina-rezultate-2026-1780293841528_cfe02841-b7ae-4cfa-a5f1-c8b67746e5e5.png?v=1781004293",
+   "id": "gid://shopify/ArticleImage/398508294519"
+  },
+  "global.title_tag": "Cum se ia creatina: doza pe zi și momentul optim",
+  "global.description_tag": "3-5 g pe zi rămâne doza standard pentru saturarea musculară. Cum alegi o creatină monohidrată pură, când o iei și de ce contează mai mult constanța."
+ },
+ "rollback_mutation": "articleUpdate(id:<id>, article:{title:<title>, summary:<summary>, image:{altText:<image.altText>}})"
+}

@@ -1,0 +1,21 @@
+{
+ "backup_of": "article card fields (title, summary, image alt) before the hub-card edit of 2026-10-15 ~23:15 UTC; body not modified (body backups: <handle>.before.html)",
+ "read_via": "Shopify Admin GraphQL article(id)",
+ "article": {
+  "id": "gid://shopify/Article/1023943278967",
+  "handle": "creatina-pastile-sau-praf",
+  "title": "Creatina pastile, praf sau plicuri: ce formă să alegi",
+  "summary": "Forma potrivită de creatină depinde de stilul tău de viață, nu de eficiență: pastilele, pudra și plicurile conțin aceeași creatină monohidrat, iar odată dizolvată în stomac este procesată la fel. Dilema clasică „creatina pastile sau praf” capătă noi valențe.",
+  "isPublished": true,
+  "updatedAt": "2026-10-15T22:29:05Z",
+  "templateSuffix": null,
+  "image": {
+   "altText": "creatine pastile - Cum să alegi tipul corect de creatină: Greșeli de evitat în 2026",
+   "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/blog-creatine-pastile-creatine-ready-to-go-plicuri-1778910056836.png?v=1778997006",
+   "id": "gid://shopify/ArticleImage/397916242295"
+  },
+  "global.title_tag": "Creatina pastile, praf sau plicuri: ce formă să alegi",
+  "global.description_tag": "Pastile, praf sau plicuri Ready To Go? Compară formatele de creatină monohidrat și află ce greșeli de dozaj îți blochează progresul. Citește ghidul."
+ },
+ "rollback_mutation": "articleUpdate(id:<id>, article:{title:<title>, summary:<summary>, image:{altText:<image.altText>}})"
+}

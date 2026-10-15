@@ -1,0 +1,266 @@
+{
+ "applied_at": "2026-10-15 23:08-23:10 UTC",
+ "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+ "id": "gid://shopify/Product/15404872368503",
+ "source_file": "scratchpad/creatina/final/creatina-monohidrat-micronized-300g-fara-aroma.json",
+ "payload_file": "scratchpad/creatina/apply_b/payload_b.json",
+ "rollback_source": "/home/user/Prime-supplements/primesupplements.ro-audit/backups/seo-creatina-2026-10-15/creatina-monohidrat-micronized-300g-fara-aroma.before.json",
+ "precheck": "apply_b/precheck_b.py (python3 -I): PRECHECK OK, 0 errors; all 7 internal links HTTP 200; regenerated payload identical to apply_b/payload_b.json; extra scan: no cedilla, no manufacturer/supplier names (only the label operator Prime Sport Supplements SRL)",
+ "backup_freshness": "live updatedAt before apply 2026-10-15T14:20:16Z == backup updatedAt; metafield updatedAt values and alts identical to backup; no fresh backup needed",
+ "mutations": [
+  {
+   "name": "productUpdate",
+   "fields": [
+    "seo.title",
+    "seo.description",
+    "descriptionHtml"
+   ],
+   "userErrors": [],
+   "product_updatedAt": "2026-10-15T23:08:11Z",
+   "note": "seo.title value identical to the previous live value (re-sent unchanged)"
+  },
+  {
+   "name": "metafieldsSet",
+   "fields": [
+    "custom.beneficii_cheie",
+    "custom.despre_produs",
+    "custom.ingrediente",
+    "custom.detalii_produs",
+    "custom.seo_produs",
+    "custom.short_description",
+    "shopify--discovery--product_search_boost.queries"
+   ],
+   "userErrors": [],
+   "metafields_updatedAt": "2026-10-15T23:10:18Z"
+  },
+  {
+   "name": "fileUpdate",
+   "fields": [
+    "alt gid://shopify/MediaImage/68923582382455",
+    "alt gid://shopify/MediaImage/68923582415223",
+    "alt gid://shopify/MediaImage/68923582447991"
+   ],
+   "userErrors": [],
+   "fileStatus": "READY"
+  }
+ ],
+ "applied_values": {
+  "seo": {
+   "title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+   "description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient."
+  },
+  "descriptionHtml": "<p><strong>Creatină monohidrată micronizată</strong> fără aromă de la Prime Supplements: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată (denumirea de pe etichetă). Tubul de 300 g are 60 de porții de 5 g și măsură de dozare inclusă; un singur ingredient, fără arome, îndulcitori sau coloranți.</p>\n<p>O porție de 5 g (½ măsură) furnizează 5000 mg de creatină monohidrată și se amestecă în 300–500 ml de apă. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care efectuează exerciții fizice de mare intensitate. Eticheta descrie o fază de încărcare, calculată după greutatea corporală, și o perioadă de menținere (textul complet este în „Detalii produs”); urmezi eticheta și nu depășești doza recomandată pentru consumul zilnic.</p>\n<p>Pentru că nu are aromă, o poți pune și în shake-ul proteic. Este pentru adulți, femei sau bărbați, care fac antrenamente de mare intensitate; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Celelalte formate Prime sunt în categoria <a href=\"/collections/creatina\">creatină monohidrată</a>. Produs pentru Prime Sport Supplements SRL, Cisnădie.</p>\n<p>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</p>\n<h2>Pe scurt</h2>\n<ul>\n<li>Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină.</li>\n<li>O porție de 5 g (½ măsură) conține 5000 mg de creatină monohidrată; tubul de 300 g are 60 de porții și măsură inclusă. La o porție pe zi ajunge 60 de zile; în faza de încărcare de pe etichetă consumul zilnic este mai mare.</li>\n<li>Un singur ingredient, creatină monohidrată (100%), sub formă de pulbere micronizată, fără arome, îndulcitori sau coloranți; „Micronized” și „Unflavoured” sunt tipărite pe fața tubului.</li>\n<li>Fără aromă: amesteci porția de 5 g în 300–500 ml de apă, în shaker, cum arată pictogramele de pe etichetă, sau o adaugi în shake-ul proteic.</li>\n<li>Supliment alimentar pentru adulții care fac antrenamente de mare intensitate; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Produs pentru Prime Sport Supplements SRL, Cisnădie.</li>\n</ul>\n<h2>Ingrediente</h2>\n<p>Creatină monohidrată (100%).</p>\n<p>Lista de ingrediente de pe etichetă are un singur element, deci nu conține arome, îndulcitori sau coloranți.</p>\n<h3>Cantități declarate</h3>\n<p>Din tabelul „Valori nutriționale” de pe tub:</p>\n<ul>\n<li>Porție: 5 g</li>\n<li>Porții pe flacon: 60</li>\n<li>Creatină monohidrată: 5000 mg per porție</li>\n</ul>\n<p>Alergeni (formularea de pe etichetă): produsul poate conține urme de substanțe cu potențial alergen (<strong>lapte</strong>, <strong>ou</strong>, <strong>soia</strong>, <strong>gluten</strong>); textul în engleză de pe aceeași etichetă enumeră <strong>lapte</strong>, <strong>soia</strong>, <strong>ou</strong>, <strong>grâu</strong> și <strong>pește</strong>.</p>\n<p>Produs pentru: Prime Sport Supplements SRL, Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, jud. Sibiu, România.</p>\n<h2>Detalii produs</h2>\n<ul>\n<li>Denumire pe etichetă: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată</li>\n<li>Cantitate netă: 300 g</li>\n<li>Porții: 60 (o porție = 5 g; modul de administrare de pe etichetă precizează „½ măsură = 5 g”)</li>\n<li>Creatină monohidrată: 5000 mg per porție de 5 g</li>\n<li>Ingrediente: creatină monohidrată (100%), un singur ingredient</li>\n<li>Formă și gust: pulbere (pudră) micronizată, fără aromă („Micronized”, „Unflavoured” pe fața tubului); fără îndulcitori sau coloranți</li>\n<li>Mod de administrare (etichetă): se consumă 1½–3 măsuri (½ măsură = 5 g) pe zi în faza de încărcare (primele 5–15 zile), în funcție de greutatea corporală, și ½–1½ măsuri pe zi în perioada de menținere (6–8 săptămâni)</li>\n<li>Formula de pe etichetă: cantitatea de creatină (în grame) necesară zilnic în perioada de încărcare = greutatea corporală (kg)/3; efectul benefic se obține în condițiile unui consum zilnic de cel puțin 3 g de creatină</li>\n<li>Preparare (pictogramele de pe etichetă): 5 g de pulbere în 300–500 ml de apă, în shaker; agiți și bei</li>\n<li>Accesorii: măsură de dozare inclusă</li>\n<li>Atenționări: a nu se depăși doza recomandată pentru consumul zilnic; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare; a se consulta medicul înainte de administrare dacă aveți vreo afecțiune medicală</li>\n<li>Păstrare: în loc răcoros, ferit de lumină, umiditate și căldură excesivă; a se consuma de preferință înainte de data expirării înscrisă pe ambalaj</li>\n<li>Alergeni: poate conține urme de lapte, ou, soia, gluten (textul în engleză de pe etichetă enumeră lapte, soia, ou, grâu, pește)</li>\n<li>Produs pentru: Prime Sport Supplements SRL, Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, jud. Sibiu, România</li>\n<li>EAN: 6421766064107</li>\n<li>Brand: Prime Supplements</li>\n</ul>",
+  "metafields": {
+   "custom.beneficii_cheie": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină.\", \"O porție de 5 g (½ măsură) conține 5000 mg de creatină monohidrată; tubul de 300 g are 60 de porții și măsură inclusă. La o porție pe zi ajunge 60 de zile; în faza de încărcare de pe etichetă consumul zilnic este mai mare.\", \"Un singur ingredient, creatină monohidrată (100%), sub formă de pulbere micronizată, fără arome, îndulcitori sau coloranți; „Micronized” și „Unflavoured” sunt tipărite pe fața tubului.\", \"Fără aromă: amesteci porția de 5 g în 300–500 ml de apă, în shaker, cum arată pictogramele de pe etichetă, sau o adaugi în shake-ul proteic.\", \"Supliment alimentar pentru adulții care fac antrenamente de mare intensitate; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Produs pentru Prime Sport Supplements SRL, Cisnădie.\"]"
+   },
+   "custom.despre_produs": {
+    "type": "rich_text_field",
+    "value": "{\"type\": \"root\", \"children\": [{\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Creatină monohidrată micronizată\", \"bold\": true}, {\"type\": \"text\", \"value\": \" fără aromă de la Prime Supplements: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată (denumirea de pe etichetă). Tubul de 300 g are 60 de porții de 5 g și măsură de dozare inclusă; un singur ingredient, fără arome, îndulcitori sau coloranți.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"O porție de 5 g (½ măsură) furnizează 5000 mg de creatină monohidrată și se amestecă în 300–500 ml de apă. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care efectuează exerciții fizice de mare intensitate. Eticheta descrie o fază de încărcare, calculată după greutatea corporală, și o perioadă de menținere (textul complet este în „Detalii produs”); urmezi eticheta și nu depășești doza recomandată pentru consumul zilnic.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Pentru că nu are aromă, o poți pune și în shake-ul proteic. Este pentru adulți, femei sau bărbați, care fac antrenamente de mare intensitate; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Celelalte formate Prime sunt în categoria \"}, {\"type\": \"link\", \"url\": \"/collections/creatina\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"creatină monohidrată\"}]}, {\"type\": \"text\", \"value\": \". Produs pentru Prime Sport Supplements SRL, Cisnădie.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}]}"
+   },
+   "custom.ingrediente": {
+    "type": "rich_text_field",
+    "value": "{\"type\": \"root\", \"children\": [{\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Creatină monohidrată (100%).\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Lista de ingrediente de pe etichetă are un singur element, deci nu conține arome, îndulcitori sau coloranți. Denumirea de pe etichetă: „supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată”.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Cantități declarate\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Din tabelul „Valori nutriționale” de pe tub:\"}]}, {\"type\": \"list\", \"listType\": \"unordered\", \"children\": [{\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Porție: 5 g\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Porții pe flacon: 60\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Creatină monohidrată: 5000 mg per porție\"}]}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Alergeni (formularea de pe etichetă): produsul poate conține urme de substanțe cu potențial alergen (\"}, {\"type\": \"text\", \"value\": \"lapte\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"ou\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"soia\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"gluten\", \"bold\": true}, {\"type\": \"text\", \"value\": \"); textul în engleză de pe aceeași etichetă enumeră \"}, {\"type\": \"text\", \"value\": \"lapte\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"soia\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"ou\", \"bold\": true}, {\"type\": \"text\", \"value\": \", \"}, {\"type\": \"text\", \"value\": \"grâu\", \"bold\": true}, {\"type\": \"text\", \"value\": \" și \"}, {\"type\": \"text\", \"value\": \"pește\", \"bold\": true}, {\"type\": \"text\", \"value\": \".\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Atenționări de pe etichetă\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"A nu se depăși doza recomandată pentru consumul zilnic! Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un mod de viață sănătos! A nu se lăsa la îndemâna și la vederea copiilor mici! Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare! A se consulta medicul înainte de administrare dacă aveți vreo afecțiune medicală!\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Produs pentru: Prime Sport Supplements SRL, Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, jud. Sibiu, România.\"}]}]}"
+   },
+   "custom.detalii_produs": {
+    "type": "list.single_line_text_field",
+    "value": "[\"Denumire pe etichetă: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată\", \"Cantitate netă: 300 g\", \"Porții: 60 (o porție = 5 g; modul de administrare de pe etichetă precizează „½ măsură = 5 g”)\", \"Creatină monohidrată: 5000 mg per porție de 5 g\", \"Ingrediente: creatină monohidrată (100%), un singur ingredient\", \"Formă și gust: pulbere (pudră) micronizată, fără aromă („Micronized”, „Unflavoured” pe fața tubului); fără îndulcitori sau coloranți\", \"Mod de administrare (etichetă): se consumă 1½–3 măsuri (½ măsură = 5 g) pe zi în faza de încărcare (primele 5–15 zile), în funcție de greutatea corporală, și ½–1½ măsuri pe zi în perioada de menținere (6–8 săptămâni)\", \"Formula de pe etichetă: cantitatea de creatină (în grame) necesară zilnic în perioada de încărcare = greutatea corporală (kg)/3; efectul benefic se obține în condițiile unui consum zilnic de cel puțin 3 g de creatină\", \"Preparare (pictogramele de pe etichetă): 5 g de pulbere în 300–500 ml de apă, în shaker; agiți și bei\", \"Accesorii: măsură de dozare inclusă\", \"Atenționări: a nu se depăși doza recomandată pentru consumul zilnic; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare; a se consulta medicul înainte de administrare dacă aveți vreo afecțiune medicală\", \"Păstrare: în loc răcoros, ferit de lumină, umiditate și căldură excesivă; a se consuma de preferință înainte de data expirării înscrisă pe ambalaj\", \"Alergeni: poate conține urme de lapte, ou, soia, gluten (textul în engleză de pe etichetă enumeră lapte, soia, ou, grâu, pește)\", \"Produs pentru: Prime Sport Supplements SRL, Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, jud. Sibiu, România\", \"EAN: 6421766064107\", \"Brand: Prime Supplements\"]"
+   },
+   "custom.seo_produs": {
+    "type": "rich_text_field",
+    "value": "{\"type\": \"root\", \"children\": [{\"type\": \"heading\", \"level\": 2, \"children\": [{\"type\": \"text\", \"value\": \"Creatină monohidrată micronizată fără aromă: 5000 mg pe porție, tub de 300 g\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Creatina monohidrată micronizată fără aromă de la Prime Supplements este un supliment alimentar pentru adulți: pulbere cu un singur ingredient, creatină monohidrată (100%). Tubul de 300 g are 60 de porții de 5 g, fiecare cu 5000 mg de creatină monohidrată, iar măsura este inclusă. Produs pentru Prime Sport Supplements SRL, Cisnădie.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Ce este creatina\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Creatina este un compus care se găsește în mod natural în organism, mai ales în mușchi. Mențiunea de sănătate autorizată prin Regulamentul (UE) nr. 432/2012: Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care efectuează exerciții fizice de mare intensitate.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Ce înseamnă creatină micronizată\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"„Micronizată” se referă la forma pulberii, cu particule fine, nu la un alt tip de creatină: creatina micronizată din acest tub este tot creatină monohidrată.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Cum o prepari și ce scrie pe etichetă despre încărcare și menținere\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Pașii din pictogramele etichetei:\"}]}, {\"type\": \"list\", \"listType\": \"ordered\", \"children\": [{\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Pui 300–500 ml de apă în shaker.\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Adaugi 5 g de pulbere.\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Agiți și bei.\"}]}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Eticheta descrie două perioade:\"}]}, {\"type\": \"list\", \"listType\": \"unordered\", \"children\": [{\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"încărcare:\", \"bold\": true}, {\"type\": \"text\", \"value\": \" 1½–3 măsuri pe zi (15–30 g), în primele 5–15 zile, după formula greutate corporală (kg)/3 (de exemplu 20 g pe zi la 60 kg), în limita intervalului de pe etichetă;\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"menținere:\", \"bold\": true}, {\"type\": \"text\", \"value\": \" ½–1½ măsuri pe zi (5–15 g), 6–8 săptămâni.\"}]}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"A nu se depăși doza recomandată pentru consumul zilnic! Este textul etichetei, nu un îndemn să iei mai mult.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Cât ține tubul de 300 g\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Tubul de 300 g ajunge 60 de zile la o porție de 5 g pe zi, doza minimă de menținere de pe etichetă. În faza de încărcare consumul zilnic este mai mare, deci ajunge mai puțin.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Cele trei formate Prime: ce diferă\"}]}, {\"type\": \"list\", \"listType\": \"unordered\", \"children\": [{\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"Acest produs:\", \"bold\": true}, {\"type\": \"text\", \"value\": \" creatină monohidrată (100%), fără marcă de ingredient declarată; 5000 mg per porție de 5 g; 60 de porții; măsură inclusă.\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"link\", \"url\": \"/products/creatina-creapure\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"Creatină Creapure®\"}]}, {\"type\": \"text\", \"value\": \": marca Creapure® declarată pe etichetă; 5 g (5000 mg) per porție; 300 g sau 500 g (60 sau 100 de porții); 3–5 g pe zi.\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"link\", \"url\": \"/products/creatine-ready-to-go-plicuri-prime-supplements\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"Plicuri efervescente Creatine Ready To Go\"}]}, {\"type\": \"text\", \"value\": \": plic de 10 g cu 5000 mg de creatină monohidrată și 200 mg de vitamina C, cu arome și îndulcitori.\"}]}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Toate sunt în categoria \"}, {\"type\": \"link\", \"url\": \"/collections/creatina\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"creatină monohidrată\"}]}, {\"type\": \"text\", \"value\": \"; alegi după marca declarată, aroma și modul de administrare.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Cu ce combini creatina micronizată din gama Prime\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"O poți adăuga și în shake-ul cu \"}, {\"type\": \"link\", \"url\": \"/collections/pudra-proteica\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"pudră proteică Prime\"}]}, {\"type\": \"text\", \"value\": \" sau cu \"}, {\"type\": \"link\", \"url\": \"/products/eaa-aminoacizi-esentiali\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"aminoacizi esențiali EAA\"}]}, {\"type\": \"text\", \"value\": \". Creatină monohidrată conțin și pudra pre-workout fără cofeină \"}, {\"type\": \"link\", \"url\": \"/products/nitrox-no-stim\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"Nitrox No-Stim\"}]}, {\"type\": \"text\", \"value\": \" (2200 mg per porție de 22 g) și gainerul cu proteine și carbohidrați \"}, {\"type\": \"link\", \"url\": \"/products/emperor-mass_3000g\", \"title\": null, \"target\": null, \"children\": [{\"type\": \"text\", \"value\": \"Emperor Mass\"}]}, {\"type\": \"text\", \"value\": \" (1750 mg per porție de 70 g). Creatină conțin și alte produse Prime, deci verifică lista de ingrediente. Dacă le folosești în aceeași zi, însumezi creatina ca să nu depășești doza recomandată pentru consumul zilnic.\"}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Creatina micronizată fără aromă, criteriu cu criteriu\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Criterii verificabile pe orice etichetă:\"}]}, {\"type\": \"list\", \"listType\": \"unordered\", \"children\": [{\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"ingrediente (aici: unul);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"mg de creatină monohidrată per porție (aici: 5000 mg la 5 g);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"porții și gramaj (aici: 60 de porții, 300 g);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"aroma (aici: fără aromă);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"marca ingredientului (aici: nedeclarată);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"modul de administrare (aici: încărcare și menținere);\"}]}, {\"type\": \"list-item\", \"children\": [{\"type\": \"text\", \"value\": \"măsură inclusă și „Produs pentru” (aici: Prime Sport Supplements SRL, Cisnădie).\"}]}]}, {\"type\": \"heading\", \"level\": 3, \"children\": [{\"type\": \"text\", \"value\": \"Întrebări frecvente\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Câtă creatină se ia pe zi și cât are o porție?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Pe eticheta acestui produs, o porție are 5 g (½ măsură); la încărcare, 1½–3 măsuri pe zi, în funcție de greutatea corporală, apoi ½–1½ măsuri pe zi la menținere. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Nu depăși doza recomandată pentru consumul zilnic.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Când se ia creatina: înainte sau după antrenament?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Eticheta nu indică un moment anume al zilei: dozele de pe etichetă sunt zilnice. Nu depăși doza recomandată pentru consumul zilnic.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Ce gust are creatina micronizată fără aromă?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Pe fața tubului scrie „Unflavoured”, iar lista de ingrediente are doar creatină monohidrată, fără arome, îndulcitori sau coloranți. Pictogramele de pe etichetă arată prepararea: 5 g de pulbere în 300–500 ml de apă, în shaker.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Este creatina și pentru femei?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Da: produsul este pentru adulți, femei sau bărbați, care fac antrenamente de mare intensitate; nu se recomandă în perioada de sarcină sau alăptare.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Cine nu ar trebui să folosească creatina?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Produsul este pentru adulți (pe etichetă: „Supliment alimentar pentru adulți”). Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Dacă ai o afecțiune medicală sau urmezi un tratament, consultă medicul înainte de utilizare. Nu depăși doza recomandată pentru consumul zilnic.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Creatina micronizată conține alergeni?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Singurul ingredient este creatina monohidrată, dar eticheta avertizează: poate conține urme de lapte, ou, soia, gluten; textul în engleză de pe etichetă enumeră și grâu și pește.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Cum păstrezi creatina și când expiră?\", \"bold\": true}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"În loc răcoros, ferit de lumină, umiditate și căldură excesivă; a se consuma de preferință înainte de data expirării înscrisă pe ambalaj.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.\"}]}, {\"type\": \"paragraph\", \"children\": [{\"type\": \"text\", \"value\": \"Surse: Regulamentul (UE) nr. 432/2012 (EFSA Journal 2011;9(7):2303); eticheta produsului, EAN 6421766064107. Actualizat: octombrie 2026.\"}]}]}"
+   },
+   "custom.short_description": {
+    "type": "multi_line_text_field",
+    "value": "Creatină monohidrată micronizată fără aromă: supliment alimentar pentru adulți, pulbere cu un singur ingredient (creatină monohidrată 100%). Tub de 300 g, 60 de porții de 5 g (½ măsură), 5000 mg de creatină monohidrată per porție, măsură de dozare inclusă."
+   },
+   "shopify--discovery--product_search_boost.queries": {
+    "type": "list.single_line_text_field",
+    "value": "[\"creatina micronizata\", \"creatină micronizată\", \"creatina monohidrata micronizata\", \"creatina fara aroma\", \"creatină fără aromă\", \"creatina fara aroma 300g\", \"creatina 300g\", \"creatina monohidrata 300g\", \"creatine monohydrate\", \"creatina pudra\"]"
+   }
+  },
+  "alts": {
+   "gid://shopify/MediaImage/68923582382455": "Creatină monohidrată micronizată fără aromă Prime Supplements, tub alb de 300 g cu 60 de porții de 5 g, din față",
+   "gid://shopify/MediaImage/68923582415223": "Spatele tubului de creatină monohidrată micronizată 300 g: mod de administrare, ingrediente și păstrare, în română și engleză",
+   "gid://shopify/MediaImage/68923582447991": "Eticheta laterală a creatinei micronizate 300 g: 5000 mg de creatină monohidrată per porție de 5 g, 60 de porții, alergeni"
+  }
+ },
+ "not_changed": {
+  "title": "Creatină monohidrat micronizată – fără aromă, 300 g",
+  "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+  "status": "ACTIVE",
+  "vendor": "Prime Supplements",
+  "productType": "Creatină",
+  "tags": [
+   "Creatina",
+   "Suplimente"
+  ],
+  "templateSuffix": "creatina2",
+  "custom.despre_produs_custom": "gid://shopify/Page/704641139063 (untouched, updatedAt 2026-09-14T17:38:31Z)",
+  "custom.cantitate": "300g (untouched on purpose, updatedAt 2026-10-15T14:20:13Z)",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/56825168396663",
+    "title": "Default Title",
+    "price": "93.00",
+    "compareAtPrice": "98.00"
+   }
+  ],
+  "other": "no template, theme, page, Judge.me, price, shopify.dietary-preferences or other metafield writes"
+ },
+ "readback_updatedAt": "2026-10-15T23:10:27Z",
+ "verification": {
+  "checks": [
+   {
+    "check": "readback id",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "seo.title",
+    "ok": true,
+    "info": "Creatină monohidrată micronizată 300 g | Prime Supplements"
+   },
+   {
+    "check": "seo.description",
+    "ok": true,
+    "info": 144
+   },
+   {
+    "check": "descriptionHtml",
+    "ok": true,
+    "info": 5443
+   },
+   {
+    "check": "custom.beneficii_cheie value (list.single_line_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "custom.despre_produs value (rich_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "custom.ingrediente value (rich_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "custom.detalii_produs value (list.single_line_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "custom.seo_produs value (rich_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "custom.short_description value (multi_line_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "shopify--discovery--product_search_boost.queries value (list.single_line_text_field)",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "alt 68923582382455",
+    "ok": true,
+    "info": 112
+   },
+   {
+    "check": "alt 68923582415223",
+    "ok": true,
+    "info": 125
+   },
+   {
+    "check": "alt 68923582447991",
+    "ok": true,
+    "info": 122
+   },
+   {
+    "check": "unchanged title",
+    "ok": true,
+    "info": "Creatină monohidrat micronizată – fără aromă, 300 g"
+   },
+   {
+    "check": "unchanged handle",
+    "ok": true,
+    "info": "creatina-monohidrat-micronized-300g-fara-aroma"
+   },
+   {
+    "check": "unchanged status",
+    "ok": true,
+    "info": "ACTIVE"
+   },
+   {
+    "check": "untouched custom.despre_produs_custom",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "untouched custom.cantitate",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "storefront HTTP 200",
+    "ok": true,
+    "info": "200"
+   },
+   {
+    "check": "title tag == new SEO title",
+    "ok": true,
+    "info": "Creatină monohidrată micronizată 300 g | Prime Supplements"
+   },
+   {
+    "check": "meta description == new",
+    "ok": true,
+    "info": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient."
+   },
+   {
+    "check": "seo_produs H2 text on page",
+    "ok": true,
+    "info": "Creatină monohidrată micronizată fără aromă: 5000 mg pe porție, tub de 300 g"
+   },
+   {
+    "check": "seo_produs H2 rendered as <h2>",
+    "ok": true,
+    "info": ""
+   },
+   {
+    "check": "first beneficii_cheie item on page",
+    "ok": true,
+    "info": "Creatina crește performanța fizică în eforturi succesive din"
+   }
+  ],
+  "storefront_info": {
+   "beneficii_cheie": "5/5 items found",
+   "despre_produs": "3/4 blocks found",
+   "ingrediente": "7/8 blocks found",
+   "detalii_produs": "16/16 items found",
+   "seo_produs": "33/35 blocks found",
+   "short_description": "not found in HTML",
+   "alt 68923582382455": "found",
+   "alt 68923582415223": "found",
+   "alt 68923582447991": "found",
+   "descriptionHtml first text": "found",
+   "json-ld blocks": 3
+  },
+  "page_h2s": [
+   "CREATINĂ\n          MONOHIDRATĂ MICRONIZATĂ",
+   "CREATINĂ\n          MONOHIDRATĂ MICRONIZATĂ",
+   "S-ar putea să-ți placă",
+   "Customer Reviews",
+   "Cele mai vândute",
+   "Categorii populare",
+   "Creatină monohidrată micronizată fără aromă: 5000 mg pe porție, tub de 300 g"
+  ],
+  "title_tag": "Creatină monohidrată micronizată 300 g | Prime Supplements"
+ },
+ "compliance_note": "Not reported as compliant: template product.creatina2 still renders Page 704641139063 (custom.despre_produs_custom) in Tab 2 with Fără aditivi / PRIME Supplements® / extra H2 (final notes[22], owner decision)."
+}

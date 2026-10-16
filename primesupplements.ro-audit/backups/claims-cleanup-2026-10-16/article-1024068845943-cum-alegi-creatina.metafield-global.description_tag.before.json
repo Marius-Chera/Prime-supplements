@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1024068845943",
+ "handle": "cum-alegi-creatina",
+ "field": "metafield-global.description_tag",
+ "value": "Creatina ieftină poate conține creatinină sau diciandiamidă. Vezi semnele unui supliment slab, avantajele pastilelor Creapure și ajustarea dozei pe sezon.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-15T22:37:46Z (unchanged since export)",
+ "updatedAt": "2026-10-15T22:37:46Z",
+ "isPublished": true,
+ "publishedAt": "2026-06-01T07:30:05Z",
+ "metafield_id": "gid://shopify/Metafield/198980328718711",
+ "type": "single_line_text_field"
+}

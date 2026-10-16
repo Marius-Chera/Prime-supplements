@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024246251895",
+ "handle": "l-carnitina-pentru-cine-este-potrivita",
+ "field": "description_tag",
+ "value": "Este L-carnitina potrivită pentru tine? Păreri, rol în metabolism, hidratare, contraindicații și de ce capsulele L-Carnitine 1000 sunt comode în călătorii.",
+ "isPublished": true,
+ "publishedAt": "2026-06-16T09:30:11Z",
+ "updatedAt": "2026-10-16T02:00:55Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/199648377340279",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

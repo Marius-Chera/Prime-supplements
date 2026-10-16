@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-16",
+  "scope": "privacy texts: small text corrections only",
+  "page": {
+    "handle": "politica-de-confidentialitate",
+    "id": "gid://shopify/Page/691734774135",
+    "method": "pageUpdate (body only)",
+    "updatedAt_before": "2026-10-16T04:10:25Z",
+    "updatedAt_after": "2026-10-16T04:28:16Z",
+    "sha256_before": "186474704756964921c78aa4545756835de97bf987430729b6d71158bf607d4e",
+    "sha256_after": "1e70b637dc2e157ac4fc5b7db483d246d563a993212646e48ed364a4c81a41eb",
+    "backup": "politica-de-confidentialitate.before-typos.html",
+    "expected": "politica-de-confidentialitate.after-typos-expected.html",
+    "replacements": [
+      {
+        "old": "SCOPURILE DE PRELUCRĂRE",
+        "new": "SCOPURILE DE PRELUCRARE",
+        "count": 1
+      },
+      {
+        "old": "pâna",
+        "new": "până",
+        "count": 1
+      },
+      {
+        "old": "securitatea Datele",
+        "new": "securitatea Datelor",
+        "count": 1
+      },
+      {
+        "old": "Personal.De asemenea",
+        "new": "Personal. De asemenea",
+        "count": 1
+      }
+    ],
+    "verified": "Storefront API body == expected (sha256 match); public /pages/politica-de-confidentialitate HTTP 200 contains expected body byte-for-byte; NBSP 23 -> 23; no cedilla s/t; no Cyrillic",
+    "rollback": "pageUpdate(id, {body: <politica-de-confidentialitate.before-typos.html>})"
+  },
+  "shop_policy_PRIVACY_POLICY": {
+    "status": "NOT WRITTEN - shopPolicyUpdate denied: connector lacks write_legal_policies scope; policy unchanged (updatedAt 2025-05-19T13:51:31+03:00)",
+    "sha256_current": "3838015846e4676f78467e965cc01221d14407a1fcf9bd892f842afc8d770e06",
+    "sha256_expected": "4c5dde39501058fcdbad84f6f0b52a6e506143112d234658f54ba8090721b6e1",
+    "backup": "privacy-policy-shopify.before.html (exact stored body via Storefront API)",
+    "backup_note": "privacy-policy-shopify.before.storefront-render.html = theme-rendered HTML (adds 18 newlines after <li>); not for rollback",
+    "expected": "privacy-policy-shopify.after-expected.html",
+    "planned_replacements": [
+      {
+        "old": "un e-mail lamarius.chera@outlook.com",
+        "new": "un e-mail la contact@primesupplements.ro",
+        "count": 1
+      },
+      {
+        "old": "marius.chera@outlook.com (other occurrences)",
+        "new": "contact@primesupplements.ro",
+        "count": 0
+      },
+      {
+        "old": "Strada Ioan Virgil Ispas, 555300 SB",
+        "new": "Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, jud. Sibiu",
+        "count": 1
+      },
+      {
+        "old": "în carePrime Supplements",
+        "new": "în care Prime Supplements",
+        "count": 1
+      },
+      {
+        "old": "Ultima actualizare: 14 septembrie 2026",
+        "new": "Ultima actualizare: 16 octombrie 2026",
+        "count": 1
+      }
+    ]
+  }
+}

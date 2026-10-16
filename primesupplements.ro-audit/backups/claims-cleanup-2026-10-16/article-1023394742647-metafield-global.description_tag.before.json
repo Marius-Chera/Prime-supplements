@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023394742647",
+ "handle": "tincturi-pentru-potenta",
+ "field": "description_tag",
+ "value": "Ce e un alpha booster, de ce tincturile se absorb mai rapid decât tabletele și ce spun studiile despre brânca-ursului, ginseng și năpraznic. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-03-23T08:58:27Z",
+ "updatedAt": "2026-10-13T09:14:11Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/195006329127287",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

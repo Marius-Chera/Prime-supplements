@@ -142,8 +142,8 @@
   "nr": 8,
   "data": "2026-10-17",
   "ora": "18:00",
-  "handle": "vitamina-c-sportul-refacere-imunitate-sezonul-rece",
-  "titlu": "Vitamina C și sportul: refacere și imunitate în sezonul rece",
+  "handle": "vitamina-c-sportivi-doza-ce-spune-ue",
+  "titlu": "Vitamina C pentru sportivi: doza, momentul și ce spune UE",
   "cuvant_cheie": "vitamina C sportivi",
   "produse": [
    "vitamin-c-1000-80-caps"
@@ -155,7 +155,8 @@
    "intent:public-tinta:vitamina-c-sportivi"
   ],
   "linie": "vitc",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 9,
@@ -286,9 +287,9 @@
   "nr": 15,
   "data": "2026-10-21",
   "ora": "09:00",
-  "handle": "antrenamente-peste-90-minute-sustii-energia",
-  "titlu": "Antrenamente de peste 90 de minute: cum îți susții energia",
-  "cuvant_cheie": "energie antrenament lung",
+  "handle": "antrenamente-peste-90-minute-carbohidrati-hidratare",
+  "titlu": "Antrenamente de peste 90 de minute: carbohidrați și hidratare",
+  "cuvant_cheie": "carbohidrați antrenament lung",
   "produse": [
    "cluster-insulin-bomb-1000g"
   ],
@@ -299,7 +300,8 @@
    "intent:altele:antrenament-lung"
   ],
   "linie": "cluster",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 16,
@@ -384,9 +386,9 @@
   "nr": 20,
   "data": "2026-10-23",
   "ora": "18:00",
-  "handle": "crampe-musculare-sala-magneziul-hidratarea",
-  "titlu": "Crampe musculare la sală: magneziul și hidratarea",
-  "cuvant_cheie": "crampe musculare magneziu",
+  "handle": "magneziu-sportivi-cat-iei-eticheta",
+  "titlu": "Magneziul la sportivi: cât iei și ce verifici pe etichetă",
+  "cuvant_cheie": "magneziu sportivi",
   "produse": [
    "magneziu-bisglicinat-80-caps"
   ],
@@ -397,7 +399,8 @@
    "intent:altele:crampe-musculare"
   ],
   "linie": "mg",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 21,
@@ -441,8 +444,8 @@
   "nr": 23,
   "data": "2026-10-25",
   "ora": "09:00",
-  "handle": "omega-3-sportivi-stim-despre-refacere",
-  "titlu": "Omega-3 pentru sportivi: ce știm despre refacere",
+  "handle": "omega-3-sportivi-epa-dha-doza",
+  "titlu": "Omega-3 pentru sportivi: EPA, DHA și doza de pe etichetă",
   "cuvant_cheie": "omega 3 sportivi",
   "produse": [
    "omega-3"
@@ -454,7 +457,8 @@
    "intent:public-tinta:omega-3-sportivi"
   ],
   "linie": "omega",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 24,
@@ -930,9 +934,9 @@
   "nr": 48,
   "data": "2026-11-06",
   "ora": "18:00",
-  "handle": "crema-orez-fara-gluten-cine-potrivita",
-  "titlu": "Crema de orez fără gluten: pentru cine e potrivită",
-  "cuvant_cheie": "crema de orez fără gluten",
+  "handle": "crema-orez-gluten-ce-scrie-pe-eticheta",
+  "titlu": "Crema de orez și glutenul: ce scrie pe etichetă",
+  "cuvant_cheie": "crema de orez gluten",
   "produse": [
    "crema-de-orez-tort-de-ciocolata",
    "crema-de-orez-plactina-cu-cocos",
@@ -948,7 +952,8 @@
    "intent:altele:crema-de-orez-gluten"
   ],
   "linie": "rice",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 49,
@@ -1049,9 +1054,9 @@
   "nr": 54,
   "data": "2026-11-09",
   "ora": "18:00",
-  "handle": "ashwagandha-somnul-arata-studiile",
-  "titlu": "Ashwagandha și somnul: ce arată studiile",
-  "cuvant_cheie": "ashwagandha somn",
+  "handle": "ashwagandha-ce-este-eticheta",
+  "titlu": "Ashwagandha: ce este și cum citești eticheta",
+  "cuvant_cheie": "ashwagandha ce este",
   "produse": [
    "ashwagandha-ksm-66"
   ],
@@ -1061,7 +1066,8 @@
    "intent:altele:ashwagandha-somn"
   ],
   "linie": "ashwa",
-  "tip": "acoperire"
+  "tip": "acoperire",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 55,
@@ -1859,9 +1865,9 @@
   "nr": 96,
   "data": "2026-11-30",
   "ora": "18:00",
-  "handle": "magneziu-stresul-stim-nu",
-  "titlu": "Magneziu și stresul: ce știm și ce nu",
-  "cuvant_cheie": "magneziu stres",
+  "handle": "bisglicinat-sau-citrat-de-magneziu",
+  "titlu": "Bisglicinat sau citrat de magneziu: cum alegi forma",
+  "cuvant_cheie": "bisglicinat sau citrat de magneziu",
   "produse": [
    "magneziu-bisglicinat-80-caps"
   ],
@@ -1872,7 +1878,8 @@
    "intent:altele:magneziu-stres"
   ],
   "linie": "mg",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 97,

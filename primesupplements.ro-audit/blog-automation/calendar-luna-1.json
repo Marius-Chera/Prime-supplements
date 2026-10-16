@@ -142,8 +142,8 @@
   "nr": 8,
   "data": "2026-10-17",
   "ora": "18:00",
-  "handle": "vitamina-c-sportul-refacere-imunitate-sezonul-rece",
-  "titlu": "Vitamina C și sportul: refacere și imunitate în sezonul rece",
+  "handle": "vitamina-c-sportivi-doza-ce-spune-ue",
+  "titlu": "Vitamina C pentru sportivi: doza, momentul și ce spune UE",
   "cuvant_cheie": "vitamina C sportivi",
   "produse": [
    "vitamin-c-1000-80-caps"
@@ -155,7 +155,8 @@
    "intent:public-tinta:vitamina-c-sportivi"
   ],
   "linie": "vitc",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 9,
@@ -286,9 +287,9 @@
   "nr": 15,
   "data": "2026-10-21",
   "ora": "09:00",
-  "handle": "antrenamente-peste-90-minute-sustii-energia",
-  "titlu": "Antrenamente de peste 90 de minute: cum îți susții energia",
-  "cuvant_cheie": "energie antrenament lung",
+  "handle": "antrenamente-peste-90-minute-carbohidrati-hidratare",
+  "titlu": "Antrenamente de peste 90 de minute: carbohidrați și hidratare",
+  "cuvant_cheie": "carbohidrați antrenament lung",
   "produse": [
    "cluster-insulin-bomb-1000g"
   ],
@@ -299,7 +300,8 @@
    "intent:altele:antrenament-lung"
   ],
   "linie": "cluster",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 16,
@@ -384,9 +386,9 @@
   "nr": 20,
   "data": "2026-10-23",
   "ora": "18:00",
-  "handle": "crampe-musculare-sala-magneziul-hidratarea",
-  "titlu": "Crampe musculare la sală: magneziul și hidratarea",
-  "cuvant_cheie": "crampe musculare magneziu",
+  "handle": "magneziu-sportivi-cat-iei-eticheta",
+  "titlu": "Magneziul la sportivi: cât iei și ce verifici pe etichetă",
+  "cuvant_cheie": "magneziu sportivi",
   "produse": [
    "magneziu-bisglicinat-80-caps"
   ],
@@ -397,7 +399,8 @@
    "intent:altele:crampe-musculare"
   ],
   "linie": "mg",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 21,
@@ -441,8 +444,8 @@
   "nr": 23,
   "data": "2026-10-25",
   "ora": "09:00",
-  "handle": "omega-3-sportivi-stim-despre-refacere",
-  "titlu": "Omega-3 pentru sportivi: ce știm despre refacere",
+  "handle": "omega-3-sportivi-epa-dha-doza",
+  "titlu": "Omega-3 pentru sportivi: EPA, DHA și doza de pe etichetă",
   "cuvant_cheie": "omega 3 sportivi",
   "produse": [
    "omega-3"
@@ -454,7 +457,8 @@
    "intent:public-tinta:omega-3-sportivi"
   ],
   "linie": "omega",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 24,
@@ -930,9 +934,9 @@
   "nr": 48,
   "data": "2026-11-06",
   "ora": "18:00",
-  "handle": "crema-orez-fara-gluten-cine-potrivita",
-  "titlu": "Crema de orez fără gluten: pentru cine e potrivită",
-  "cuvant_cheie": "crema de orez fără gluten",
+  "handle": "crema-orez-gluten-ce-scrie-pe-eticheta",
+  "titlu": "Crema de orez și glutenul: ce scrie pe etichetă",
+  "cuvant_cheie": "crema de orez gluten",
   "produse": [
    "crema-de-orez-tort-de-ciocolata",
    "crema-de-orez-plactina-cu-cocos",
@@ -948,7 +952,8 @@
    "intent:altele:crema-de-orez-gluten"
   ],
   "linie": "rice",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 49,
@@ -1049,9 +1054,9 @@
   "nr": 54,
   "data": "2026-11-09",
   "ora": "18:00",
-  "handle": "ashwagandha-somnul-arata-studiile",
-  "titlu": "Ashwagandha și somnul: ce arată studiile",
-  "cuvant_cheie": "ashwagandha somn",
+  "handle": "ashwagandha-ce-este-eticheta",
+  "titlu": "Ashwagandha: ce este și cum citești eticheta",
+  "cuvant_cheie": "ashwagandha ce este",
   "produse": [
    "ashwagandha-ksm-66"
   ],
@@ -1061,7 +1066,8 @@
    "intent:altele:ashwagandha-somn"
   ],
   "linie": "ashwa",
-  "tip": "acoperire"
+  "tip": "acoperire",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 55,
@@ -1859,9 +1865,9 @@
   "nr": 96,
   "data": "2026-11-30",
   "ora": "18:00",
-  "handle": "magneziu-stresul-stim-nu",
-  "titlu": "Magneziu și stresul: ce știm și ce nu",
-  "cuvant_cheie": "magneziu stres",
+  "handle": "bisglicinat-sau-citrat-de-magneziu",
+  "titlu": "Bisglicinat sau citrat de magneziu: cum alegi forma",
+  "cuvant_cheie": "bisglicinat sau citrat de magneziu",
   "produse": [
    "magneziu-bisglicinat-80-caps"
   ],
@@ -1872,7 +1878,8 @@
    "intent:altele:magneziu-stres"
   ],
   "linie": "mg",
-  "tip": "principal"
+  "tip": "principal",
+  "nota_conformitate": "16.10.2026: titlu schimbat ca să nu sugereze un efect neautorizat (review_legal / ghid §3)."
  },
  {
   "nr": 97,
@@ -2797,5 +2804,163 @@
   ],
   "linie": "caju",
   "tip": "acoperire"
+ },
+ {
+  "nr": 145,
+  "data": "2026-10-17",
+  "ora": "13:00",
+  "handle": "creapure-vs-creatina-monohidrata-obisnuita",
+  "titlu": "Creapure® vs creatină monohidrată obișnuită: ce diferă",
+  "cuvant_cheie": "creapure vs creatină monohidrată",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:comparatie:creapure-vs-monohidrat"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 146,
+  "data": "2026-10-18",
+  "ora": "13:00",
+  "handle": "la-ce-ajuta-creatina-mentiunea-autorizata",
+  "titlu": "La ce ajută creatina: mențiunea autorizată în UE, explicată",
+  "cuvant_cheie": "la ce ajută creatina",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:la-ce-ajuta-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 147,
+  "data": "2026-10-19",
+  "ora": "13:00",
+  "handle": "cand-se-ia-creatina-inainte-sau-dupa-antrenament",
+  "titlu": "Când se ia creatina: înainte sau după antrenament?",
+  "cuvant_cheie": "când se ia creatina",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:dozaj-si-cand-se-ia:cand-se-ia-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 148,
+  "data": "2026-10-20",
+  "ora": "13:00",
+  "handle": "faza-de-incarcare-creatina-formula-eticheta",
+  "titlu": "Faza de încărcare cu creatină: formula de pe etichetă",
+  "cuvant_cheie": "faza de încărcare creatină",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:dozaj-si-cand-se-ia:faza-de-incarcare"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 149,
+  "data": "2026-10-21",
+  "ora": "13:00",
+  "handle": "creatina-sau-creatinina-diferenta",
+  "titlu": "Creatină sau creatinină: care este diferența",
+  "cuvant_cheie": "creatină sau creatinină",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ce-este/beneficii:creatina-vs-creatinina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 150,
+  "data": "2026-10-22",
+  "ora": "13:00",
+  "handle": "creatina-contraindicatii-cine-nu-o-ia",
+  "titlu": "Creatina: contraindicații și cine nu ar trebui să o ia",
+  "cuvant_cheie": "creatina contraindicații",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatina-creapure"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:efecte-secundare:contraindicatii"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 151,
+  "data": "2026-10-23",
+  "ora": "13:00",
+  "handle": "cum-citesti-eticheta-creatinei-ce-verifici",
+  "titlu": "Eticheta creatinei: cum o citești și ce verifici",
+  "cuvant_cheie": "eticheta creatinei",
+  "produse": [
+   "creatina-creapure",
+   "creatina-monohidrat-micronized-300g-fara-aroma"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:cum-alegi:eticheta-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
+ },
+ {
+  "nr": 152,
+  "data": "2026-10-24",
+  "ora": "13:00",
+  "handle": "cum-pastrezi-creatina-valabilitate-dupa-deschidere",
+  "titlu": "Creatina expiră? Valabilitate și păstrare după deschidere",
+  "cuvant_cheie": "creatina expiră",
+  "produse": [
+   "creatina-monohidrat-micronized-300g-fara-aroma",
+   "creatine-ready-to-go-plicuri-prime-supplements"
+  ],
+  "colectie": "creatina",
+  "etichete": [
+   "Creatină",
+   "hub:creatina",
+   "intent:ghid-produs:pastrare-creatina"
+  ],
+  "linie": "creatina",
+  "tip": "cluster"
  }
 ]

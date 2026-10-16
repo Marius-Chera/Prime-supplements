@@ -1,0 +1,63 @@
+{
+ "date": "2026-10-16",
+ "scope": "fara gluten / gluten-free wording vs labels",
+ "changes": [
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1025017381239",
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "old": "<li style=\"margin-bottom: 8px;\">Produsul este fără gluten, potrivit pentru dietele care exclud glutenul.</li>",
+   "new": "<li style=\"margin-bottom: 8px;\">Are la bază făina de orez, dar poate conține urme de grâu, conform etichetei.</li>"
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1025017381239",
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "old": " Se prepară în câteva minute cu apă sau lapte, cald sau rece, și este fără gluten, deci se potrivește atât ca masă pre-workout, cât și în recuperare.",
+   "new": " Se prepară în câteva minute cu apă sau lapte, cald sau rece, și se potrivește atât ca masă pre-workout, cât și în recuperare."
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1025017381239",
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "old": "<p>Da, Crema de Orez Blueberry Muffin este fără gluten; dacă ai boală celiacă, verifică pe etichetă mențiunile despre urme.</p>",
+   "new": "<p>Nu este declarată ca produs fără gluten. Făina de orez nu conține gluten în mod natural, dar eticheta menționează că produsul poate conține urme de grâu (și de lapte, ou, soia, pește). Dacă ai boală celiacă sau alergie la grâu, discută cu medicul înainte de consum.</p>"
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1025017381239",
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "old": "<li>Dietele restrictive care necesită alimente fără gluten.</li>",
+   "new": "<li>Nevoia de a doza ușor carbohidrații: 34,7 g la o porție de 45 g (1 măsură), conform etichetei.</li>"
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1023603081591",
+   "handle": "ovaz-instant-secrete-nutritie-crema-ovaz-energie",
+   "old": "Ovăzul este natural fără gluten, dar poate fi contaminat în timpul procesării.",
+   "new": "Legislația UE include ovăzul printre cerealele care conțin gluten, declarate ca alergeni, iar ovăzul obișnuit poate fi contaminat cu grâu în timpul procesării. Mențiunea „fără gluten” este permisă doar pentru ovăzul produs special, cu cel mult 20 mg/kg gluten."
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1023948161399",
+   "handle": "ovaz-si-balonare-reactii-digestive",
+   "old": "Ovăzul este natural fără gluten, dar este adesea contaminat în timpul procesării. Pentru persoanele sensibile, este vital să aleagă ovăz certificat „gluten-free”.",
+   "new": "Legislația UE include ovăzul printre cerealele care conțin gluten, declarate ca alergeni, iar ovăzul obișnuit este adesea contaminat cu grâu în timpul procesării. Mențiunea „fără gluten” este permisă doar pentru ovăzul produs special, cu cel mult 20 mg/kg gluten."
+  },
+  {
+   "type": "article.body",
+   "id": "gid://shopify/Article/1023998460279",
+   "handle": "cum-alegi-ovazul-instant",
+   "old": "Ovăzul în sine nu conține gluten, dar este adesea procesat în facilități care manipulează grâul.",
+   "new": "Legislația UE include ovăzul printre cerealele care conțin gluten, declarate ca alergeni, iar ovăzul obișnuit este adesea procesat în facilități care manipulează grâul. Mențiunea „fără gluten” este permisă doar pentru ovăzul produs special, cu cel mult 20 mg/kg gluten."
+  },
+  {
+   "type": "article.metafield global.description_tag",
+   "id": "gid://shopify/Article/1025017381239",
+   "handle": "crema-orez-transforma-antrenamente-crema-orez-blueberry",
+   "old": "Crema de Orez Blueberry Muffin: carbohidrați ușor de digerat, fără zahăr adăugat, fără gluten. Cum o folosești înainte și după antrenament. Vezi detalii.",
+   "new": "Crema de Orez Blueberry Muffin: carbohidrați ușor de digerat, fără zahăr adăugat. Cum o folosești înainte și după antrenament. Vezi detalii."
+  }
+ ],
+ "verification": "All 4 bodies and the description_tag read back byte-identical to the expected text; no Cyrillic; isPublished/publishedAt and summary unchanged for all 4; publish state unchanged for all 374 articles (bulk export before/after)."
+}

@@ -1,0 +1,3683 @@
+{
+ "meta": {
+  "created_utc": "2026-10-16T00:45Z",
+  "store": "primesupplements.ro (Shopify primesupplements1.myshopify.com)",
+  "timezone": "Europe/Bucharest (săptămâni luni–duminică, ora magazinului)",
+  "currency": "RON",
+  "baseline_weeks": "2026-08-17 – 2026-10-11 (8 săptămâni complete)",
+  "change_week": "2026-10-12 – 2026-10-18 (schimbări: 13.10 comasare articole + titluri/meta; 15.10 prima trecere SEO 12:00–14:40 UTC; 15.10 22:00–23:20 UTC programul creatină; 16.10 00:12 UTC corecturi conformitate articole)",
+  "after_weeks_from": "2026-10-19",
+  "analytics_source": "Shopify Analytics (ShopifyQL, mcp__Shopify__run-analytics-query)",
+  "queries": {
+   "Q10": "FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q11": "FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY referrer_source WHERE landing_page_path CONTAINS '/blogs/' AND landing_page_path CONTAINS 'creat' TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q12": {
+    "pages_daily": "FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY landing_page_path, referrer_source WHERE landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES day SINCE 2026-10-12 UNTIL 2026-10-15",
+    "products": "FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales GROUP BY product_id WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) SINCE 2026-10-12 UNTIL 2026-10-15",
+    "store_sessions": "FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY referrer_source SINCE 2026-10-12 UNTIL 2026-10-15"
+   },
+   "Q1": "FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate GROUP BY landing_page_path, referrer_source WHERE landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q2": "FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY landing_page_path, referrer_name WHERE referrer_source = 'search' AND landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q3": "FROM sales SHOW orders, quantity_ordered, net_items_sold, gross_sales, net_sales GROUP BY product_id WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q4": "FROM sales SHOW orders, quantity_ordered, gross_sales GROUP BY product_id, order_referrer_source WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q5": "FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q5b": "FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales GROUP BY order_referrer_source WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q6": "FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate GROUP BY referrer_source TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q7": "FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY referrer_name WHERE referrer_source = 'search' TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q8": "FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales, total_sales GROUP BY order_referrer_source TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11",
+   "Q9": "FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales, total_sales TIMESERIES week SINCE 2026-08-17 UNTIL 2026-10-11"
+  },
+  "definitions": {
+   "sessions_search": "referrer_source = search (Google, Bing, DuckDuckGo… așa cum clasifică Shopify). Include organic + Google Shopping gratuit + orice reclamă Google fără UTM; „paid” separat = 3 sesiuni în 8 săpt. → practic organic.",
+   "sessions_search_google": "referrer_source = search ȘI referrer_name = google.",
+   "landing page": "landing_page_path = prima pagină a sesiunii (vizita a intrat pe site prin pagina respectivă).",
+   "conversion_rate": "sessions_that_completed_checkout / sessions (sesiuni care au intrat pe pagină și au terminat o comandă în aceeași sesiune).",
+   "orders (produs)": "comenzi care conțin produsul (FROM sales, filtru product_id); o comandă cu 2 creatine diferite apare la ambele; _all_3_distinct_orders o numără o dată.",
+   "units_ordered": "quantity_ordered (bucăți comandate, înainte de retururi); net_items_sold = după retururi.",
+   "gross_sales_ron": "gross_sales Shopify (preț × cantitate, înainte de reduceri și retururi, fără TVA); net_sales = după reduceri și retururi.",
+   "orders_from_search": "order_referrer_source = search (sursa vizitei care a dus la comandă)."
+  },
+  "raw_files": "weekly/baseline_raw/ (răspunsurile brute, câte un fișier per interogare)"
+ },
+ "weeks": [
+  {
+   "week_start": "2026-08-17",
+   "week_end": "2026-08-23",
+   "n": 1
+  },
+  {
+   "week_start": "2026-08-24",
+   "week_end": "2026-08-30",
+   "n": 2
+  },
+  {
+   "week_start": "2026-08-31",
+   "week_end": "2026-09-06",
+   "n": 3
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "n": 4
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "n": 5
+  },
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "n": 6
+  },
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "n": 7
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "n": 8
+  }
+ ],
+ "pages": {
+  "/products/creatina-creapure": {
+   "label": "Creatină Creapure® (produs A)",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 61,
+     "sessions_search": 24,
+     "sessions_search_google": 24,
+     "sessions_direct": 22,
+     "sessions_social": 1,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 4,
+     "sessions_that_reached_checkout": 3,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0492,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 48,
+     "sessions_search": 25,
+     "sessions_search_google": 25,
+     "sessions_direct": 7,
+     "sessions_social": 2,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 5,
+     "sessions_that_reached_checkout": 3,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0208,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 58,
+     "sessions_search": 15,
+     "sessions_search_google": 15,
+     "sessions_direct": 22,
+     "sessions_social": 3,
+     "sessions_other": 18,
+     "sessions_with_cart_additions": 9,
+     "sessions_that_reached_checkout": 5,
+     "sessions_that_completed_checkout": 5,
+     "search_sessions_that_completed_checkout": 2,
+     "conversion_rate": 0.0862,
+     "conversion_rate_search": 0.1333
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 50,
+     "sessions_search": 16,
+     "sessions_search_google": 16,
+     "sessions_direct": 16,
+     "sessions_social": 6,
+     "sessions_other": 12,
+     "sessions_with_cart_additions": 8,
+     "sessions_that_reached_checkout": 4,
+     "sessions_that_completed_checkout": 4,
+     "search_sessions_that_completed_checkout": 2,
+     "conversion_rate": 0.08,
+     "conversion_rate_search": 0.125
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 84,
+     "sessions_search": 23,
+     "sessions_search_google": 23,
+     "sessions_direct": 19,
+     "sessions_social": 1,
+     "sessions_other": 41,
+     "sessions_with_cart_additions": 11,
+     "sessions_that_reached_checkout": 6,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 2,
+     "conversion_rate": 0.0357,
+     "conversion_rate_search": 0.087
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 52,
+     "sessions_search": 26,
+     "sessions_search_google": 26,
+     "sessions_direct": 17,
+     "sessions_social": 3,
+     "sessions_other": 6,
+     "sessions_with_cart_additions": 5,
+     "sessions_that_reached_checkout": 4,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0577,
+     "conversion_rate_search": 0.0385
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 54,
+     "sessions_search": 17,
+     "sessions_search_google": 17,
+     "sessions_direct": 22,
+     "sessions_social": 1,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0185,
+     "conversion_rate_search": 0.0588
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 35,
+     "sessions_search": 6,
+     "sessions_search_google": 6,
+     "sessions_direct": 20,
+     "sessions_social": 1,
+     "sessions_other": 8,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 2,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0286,
+     "conversion_rate_search": 0.0
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 442,
+     "avg_week": 55.25,
+     "median_week": 53.0,
+     "min_week": 35,
+     "max_week": 84
+    },
+    "sessions_search": {
+     "total_8w": 152,
+     "avg_week": 19.0,
+     "median_week": 20.0,
+     "min_week": 6,
+     "max_week": 26
+    },
+    "sessions_search_google": {
+     "total_8w": 152,
+     "avg_week": 19.0,
+     "median_week": 20.0,
+     "min_week": 6,
+     "max_week": 26
+    },
+    "sessions_direct": {
+     "total_8w": 145,
+     "avg_week": 18.12,
+     "median_week": 19.5,
+     "min_week": 7,
+     "max_week": 22
+    },
+    "sessions_social": {
+     "total_8w": 18,
+     "avg_week": 2.25,
+     "median_week": 1.5,
+     "min_week": 1,
+     "max_week": 6
+    },
+    "sessions_other": {
+     "total_8w": 127,
+     "avg_week": 15.88,
+     "median_week": 14.0,
+     "min_week": 6,
+     "max_week": 41
+    },
+    "sessions_with_cart_additions": {
+     "total_8w": 48,
+     "avg_week": 6.0,
+     "median_week": 5.0,
+     "min_week": 3,
+     "max_week": 11
+    },
+    "sessions_that_reached_checkout": {
+     "total_8w": 28,
+     "avg_week": 3.5,
+     "median_week": 3.5,
+     "min_week": 1,
+     "max_week": 6
+    },
+    "sessions_that_completed_checkout": {
+     "total_8w": 21,
+     "avg_week": 2.62,
+     "median_week": 3.0,
+     "min_week": 1,
+     "max_week": 5
+    },
+    "search_sessions_that_completed_checkout": {
+     "total_8w": 8,
+     "avg_week": 1.0,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 2
+    },
+    "conversion_rate": {
+     "avg_week": 0.0471,
+     "median_week": 0.0425,
+     "min_week": 0.0185,
+     "max_week": 0.0862
+    },
+    "conversion_rate_search": {
+     "avg_week": 0.0553,
+     "median_week": 0.0486,
+     "min_week": 0.0,
+     "max_week": 0.1333
+    },
+    "conversion_rate_8w": 0.0475,
+    "conversion_rate_search_8w": 0.0526
+   }
+  },
+  "/products/creatina-monohidrat-micronized-300g-fara-aroma": {
+   "label": "Creatină micronizată 300 g (produs B)",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 6,
+     "sessions_search": 2,
+     "sessions_search_google": 2,
+     "sessions_direct": 4,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 8,
+     "sessions_search": 4,
+     "sessions_search_google": 4,
+     "sessions_direct": 4,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 3,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.125,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 6,
+     "sessions_search": 1,
+     "sessions_search_google": 1,
+     "sessions_direct": 5,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 2,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.1667,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 11,
+     "sessions_search": 0,
+     "sessions_search_google": 0,
+     "sessions_direct": 6,
+     "sessions_social": 5,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 2,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0909,
+     "conversion_rate_search": null
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 16,
+     "sessions_search": 1,
+     "sessions_search_google": 1,
+     "sessions_direct": 10,
+     "sessions_social": 5,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 3,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0625,
+     "conversion_rate_search": 1.0
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 15,
+     "sessions_search": 3,
+     "sessions_search_google": 3,
+     "sessions_direct": 9,
+     "sessions_social": 3,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 9,
+     "sessions_search": 4,
+     "sessions_search_google": 4,
+     "sessions_direct": 5,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 2,
+     "sessions_that_completed_checkout": 2,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.2222,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 10,
+     "sessions_search": 0,
+     "sessions_search_google": 0,
+     "sessions_direct": 7,
+     "sessions_social": 3,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 2,
+     "sessions_that_reached_checkout": 2,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.1,
+     "conversion_rate_search": null
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 81,
+     "avg_week": 10.12,
+     "median_week": 9.5,
+     "min_week": 6,
+     "max_week": 16
+    },
+    "sessions_search": {
+     "total_8w": 15,
+     "avg_week": 1.88,
+     "median_week": 1.5,
+     "min_week": 0,
+     "max_week": 4
+    },
+    "sessions_search_google": {
+     "total_8w": 15,
+     "avg_week": 1.88,
+     "median_week": 1.5,
+     "min_week": 0,
+     "max_week": 4
+    },
+    "sessions_direct": {
+     "total_8w": 50,
+     "avg_week": 6.25,
+     "median_week": 5.5,
+     "min_week": 4,
+     "max_week": 10
+    },
+    "sessions_social": {
+     "total_8w": 16,
+     "avg_week": 2.0,
+     "median_week": 1.5,
+     "min_week": 0,
+     "max_week": 5
+    },
+    "sessions_other": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_with_cart_additions": {
+     "total_8w": 17,
+     "avg_week": 2.12,
+     "median_week": 2.5,
+     "min_week": 0,
+     "max_week": 3
+    },
+    "sessions_that_reached_checkout": {
+     "total_8w": 14,
+     "avg_week": 1.75,
+     "median_week": 2.0,
+     "min_week": 0,
+     "max_week": 3
+    },
+    "sessions_that_completed_checkout": {
+     "total_8w": 7,
+     "avg_week": 0.88,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 2
+    },
+    "search_sessions_that_completed_checkout": {
+     "total_8w": 1,
+     "avg_week": 0.12,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 1
+    },
+    "conversion_rate": {
+     "avg_week": 0.0959,
+     "median_week": 0.0955,
+     "min_week": 0.0,
+     "max_week": 0.2222
+    },
+    "conversion_rate_search": {
+     "avg_week": 0.1667,
+     "median_week": 0.0,
+     "min_week": 0.0,
+     "max_week": 1.0
+    },
+    "conversion_rate_8w": 0.0864,
+    "conversion_rate_search_8w": 0.0667
+   }
+  },
+  "/collections/creatina": {
+   "label": "Colecția Creatină",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 6,
+     "sessions_search": 4,
+     "sessions_search_google": 4,
+     "sessions_direct": 2,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 7,
+     "sessions_search": 3,
+     "sessions_search_google": 3,
+     "sessions_direct": 4,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.1429,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 8,
+     "sessions_search": 5,
+     "sessions_search_google": 5,
+     "sessions_direct": 3,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.125,
+     "conversion_rate_search": 0.2
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 3,
+     "sessions_search": 0,
+     "sessions_search_google": 0,
+     "sessions_direct": 3,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": null
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 6,
+     "sessions_search": 6,
+     "sessions_search_google": 6,
+     "sessions_direct": 0,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 12,
+     "sessions_search": 8,
+     "sessions_search_google": 8,
+     "sessions_direct": 4,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 10,
+     "sessions_search": 3,
+     "sessions_search_google": 3,
+     "sessions_direct": 7,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 3,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.1,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 12,
+     "sessions_search": 2,
+     "sessions_search_google": 2,
+     "sessions_direct": 10,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 1,
+     "sessions_that_reached_checkout": 1,
+     "sessions_that_completed_checkout": 1,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0833,
+     "conversion_rate_search": 0.5
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 64,
+     "avg_week": 8.0,
+     "median_week": 7.5,
+     "min_week": 3,
+     "max_week": 12
+    },
+    "sessions_search": {
+     "total_8w": 31,
+     "avg_week": 3.88,
+     "median_week": 3.5,
+     "min_week": 0,
+     "max_week": 8
+    },
+    "sessions_search_google": {
+     "total_8w": 31,
+     "avg_week": 3.88,
+     "median_week": 3.5,
+     "min_week": 0,
+     "max_week": 8
+    },
+    "sessions_direct": {
+     "total_8w": 33,
+     "avg_week": 4.12,
+     "median_week": 3.5,
+     "min_week": 0,
+     "max_week": 10
+    },
+    "sessions_social": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_other": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_with_cart_additions": {
+     "total_8w": 8,
+     "avg_week": 1.0,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 3
+    },
+    "sessions_that_reached_checkout": {
+     "total_8w": 5,
+     "avg_week": 0.62,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 1
+    },
+    "sessions_that_completed_checkout": {
+     "total_8w": 4,
+     "avg_week": 0.5,
+     "median_week": 0.5,
+     "min_week": 0,
+     "max_week": 1
+    },
+    "search_sessions_that_completed_checkout": {
+     "total_8w": 2,
+     "avg_week": 0.25,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 1
+    },
+    "conversion_rate": {
+     "avg_week": 0.0564,
+     "median_week": 0.0416,
+     "min_week": 0.0,
+     "max_week": 0.1429
+    },
+    "conversion_rate_search": {
+     "avg_week": 0.1,
+     "median_week": 0.0,
+     "min_week": 0.0,
+     "max_week": 0.5
+    },
+    "conversion_rate_8w": 0.0625,
+    "conversion_rate_search_8w": 0.0645
+   }
+  },
+  "/products/creatine-ready-to-go-plicuri-prime-supplements": {
+   "label": "Creatină Ready To Go – plicuri (context)",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 2,
+     "sessions_search": 2,
+     "sessions_search_google": 2,
+     "sessions_direct": 0,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 0,
+     "sessions_search": 0,
+     "sessions_search_google": 0,
+     "sessions_direct": 0,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": null,
+     "conversion_rate_search": null
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 5,
+     "sessions_search": 3,
+     "sessions_search_google": 3,
+     "sessions_direct": 2,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 2,
+     "sessions_search": 1,
+     "sessions_search_google": 1,
+     "sessions_direct": 1,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 9,
+     "sessions_search": 8,
+     "sessions_search_google": 8,
+     "sessions_direct": 1,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 3,
+     "sessions_search": 3,
+     "sessions_search_google": 3,
+     "sessions_direct": 0,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 9,
+     "sessions_search": 6,
+     "sessions_search_google": 6,
+     "sessions_direct": 3,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 4,
+     "sessions_search": 1,
+     "sessions_search_google": 1,
+     "sessions_direct": 3,
+     "sessions_social": 0,
+     "sessions_other": 0,
+     "sessions_with_cart_additions": 0,
+     "sessions_that_reached_checkout": 0,
+     "sessions_that_completed_checkout": 0,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0,
+     "conversion_rate_search": 0.0
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 34,
+     "avg_week": 4.25,
+     "median_week": 3.5,
+     "min_week": 0,
+     "max_week": 9
+    },
+    "sessions_search": {
+     "total_8w": 24,
+     "avg_week": 3.0,
+     "median_week": 2.5,
+     "min_week": 0,
+     "max_week": 8
+    },
+    "sessions_search_google": {
+     "total_8w": 24,
+     "avg_week": 3.0,
+     "median_week": 2.5,
+     "min_week": 0,
+     "max_week": 8
+    },
+    "sessions_direct": {
+     "total_8w": 10,
+     "avg_week": 1.25,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 3
+    },
+    "sessions_social": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_other": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_with_cart_additions": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_that_reached_checkout": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "sessions_that_completed_checkout": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "search_sessions_that_completed_checkout": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    },
+    "conversion_rate": {
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0.0,
+     "max_week": 0.0
+    },
+    "conversion_rate_search": {
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0.0,
+     "max_week": 0.0
+    },
+    "conversion_rate_8w": 0.0,
+    "conversion_rate_search_8w": 0.0
+   }
+  },
+  "_all_4": {
+   "label": "Cele 4 pagini de creatină, adunate",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 75,
+     "sessions_search": 32,
+     "sessions_search_google": 32,
+     "sessions_direct": 28,
+     "sessions_social": 1,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 6,
+     "sessions_that_reached_checkout": 5,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.04,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 63,
+     "sessions_search": 32,
+     "sessions_search_google": 32,
+     "sessions_direct": 15,
+     "sessions_social": 2,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 9,
+     "sessions_that_reached_checkout": 7,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 0,
+     "conversion_rate": 0.0476,
+     "conversion_rate_search": 0.0
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 77,
+     "sessions_search": 24,
+     "sessions_search_google": 24,
+     "sessions_direct": 32,
+     "sessions_social": 3,
+     "sessions_other": 18,
+     "sessions_with_cart_additions": 12,
+     "sessions_that_reached_checkout": 7,
+     "sessions_that_completed_checkout": 7,
+     "search_sessions_that_completed_checkout": 3,
+     "conversion_rate": 0.0909,
+     "conversion_rate_search": 0.125
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 66,
+     "sessions_search": 17,
+     "sessions_search_google": 17,
+     "sessions_direct": 26,
+     "sessions_social": 11,
+     "sessions_other": 12,
+     "sessions_with_cart_additions": 11,
+     "sessions_that_reached_checkout": 6,
+     "sessions_that_completed_checkout": 5,
+     "search_sessions_that_completed_checkout": 2,
+     "conversion_rate": 0.0758,
+     "conversion_rate_search": 0.1176
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 115,
+     "sessions_search": 38,
+     "sessions_search_google": 38,
+     "sessions_direct": 30,
+     "sessions_social": 6,
+     "sessions_other": 41,
+     "sessions_with_cart_additions": 14,
+     "sessions_that_reached_checkout": 9,
+     "sessions_that_completed_checkout": 4,
+     "search_sessions_that_completed_checkout": 3,
+     "conversion_rate": 0.0348,
+     "conversion_rate_search": 0.0789
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 82,
+     "sessions_search": 40,
+     "sessions_search_google": 40,
+     "sessions_direct": 30,
+     "sessions_social": 6,
+     "sessions_other": 6,
+     "sessions_with_cart_additions": 6,
+     "sessions_that_reached_checkout": 4,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0366,
+     "conversion_rate_search": 0.025
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 82,
+     "sessions_search": 30,
+     "sessions_search_google": 30,
+     "sessions_direct": 37,
+     "sessions_social": 1,
+     "sessions_other": 14,
+     "sessions_with_cart_additions": 9,
+     "sessions_that_reached_checkout": 4,
+     "sessions_that_completed_checkout": 4,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0488,
+     "conversion_rate_search": 0.0333
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 61,
+     "sessions_search": 9,
+     "sessions_search_google": 9,
+     "sessions_direct": 40,
+     "sessions_social": 4,
+     "sessions_other": 8,
+     "sessions_with_cart_additions": 6,
+     "sessions_that_reached_checkout": 5,
+     "sessions_that_completed_checkout": 3,
+     "search_sessions_that_completed_checkout": 1,
+     "conversion_rate": 0.0492,
+     "conversion_rate_search": 0.1111
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 621,
+     "avg_week": 77.62,
+     "median_week": 76.0,
+     "min_week": 61,
+     "max_week": 115
+    },
+    "sessions_search": {
+     "total_8w": 222,
+     "avg_week": 27.75,
+     "median_week": 31.0,
+     "min_week": 9,
+     "max_week": 40
+    },
+    "sessions_search_google": {
+     "total_8w": 222,
+     "avg_week": 27.75,
+     "median_week": 31.0,
+     "min_week": 9,
+     "max_week": 40
+    },
+    "sessions_direct": {
+     "total_8w": 238,
+     "avg_week": 29.75,
+     "median_week": 30.0,
+     "min_week": 15,
+     "max_week": 40
+    },
+    "sessions_social": {
+     "total_8w": 34,
+     "avg_week": 4.25,
+     "median_week": 3.5,
+     "min_week": 1,
+     "max_week": 11
+    },
+    "sessions_other": {
+     "total_8w": 127,
+     "avg_week": 15.88,
+     "median_week": 14.0,
+     "min_week": 6,
+     "max_week": 41
+    },
+    "sessions_with_cart_additions": {
+     "total_8w": 73,
+     "avg_week": 9.12,
+     "median_week": 9.0,
+     "min_week": 6,
+     "max_week": 14
+    },
+    "sessions_that_reached_checkout": {
+     "total_8w": 47,
+     "avg_week": 5.88,
+     "median_week": 5.5,
+     "min_week": 4,
+     "max_week": 9
+    },
+    "sessions_that_completed_checkout": {
+     "total_8w": 32,
+     "avg_week": 4.0,
+     "median_week": 3.5,
+     "min_week": 3,
+     "max_week": 7
+    },
+    "search_sessions_that_completed_checkout": {
+     "total_8w": 11,
+     "avg_week": 1.38,
+     "median_week": 1.0,
+     "min_week": 0,
+     "max_week": 3
+    },
+    "conversion_rate": {
+     "avg_week": 0.053,
+     "median_week": 0.0482,
+     "min_week": 0.0348,
+     "max_week": 0.0909
+    },
+    "conversion_rate_search": {
+     "avg_week": 0.0614,
+     "median_week": 0.0561,
+     "min_week": 0.0,
+     "max_week": 0.125
+    },
+    "conversion_rate_8w": 0.0515,
+    "conversion_rate_search_8w": 0.0495
+   }
+  },
+  "_blog_creatine_articles": {
+   "label": "Articole de blog cu „creat” în adresă (context)",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "sessions": 8,
+     "sessions_search": 6
+    },
+    {
+     "week": "2026-08-24",
+     "sessions": 16,
+     "sessions_search": 16
+    },
+    {
+     "week": "2026-08-31",
+     "sessions": 10,
+     "sessions_search": 5
+    },
+    {
+     "week": "2026-09-07",
+     "sessions": 10,
+     "sessions_search": 7
+    },
+    {
+     "week": "2026-09-14",
+     "sessions": 16,
+     "sessions_search": 10
+    },
+    {
+     "week": "2026-09-21",
+     "sessions": 77,
+     "sessions_search": 73
+    },
+    {
+     "week": "2026-09-28",
+     "sessions": 9,
+     "sessions_search": 8
+    },
+    {
+     "week": "2026-10-05",
+     "sessions": 10,
+     "sessions_search": 9
+    }
+   ],
+   "baseline": {
+    "sessions": {
+     "total_8w": 156,
+     "avg_week": 19.5,
+     "median_week": 10.0,
+     "min_week": 8,
+     "max_week": 77
+    },
+    "sessions_search": {
+     "total_8w": 134,
+     "avg_week": 16.75,
+     "median_week": 8.5,
+     "min_week": 5,
+     "max_week": 73
+    }
+   }
+  }
+ },
+ "products": {
+  "14971467268471": {
+   "handle": "creatina-creapure",
+   "title": "Creatină monohidrat micronizată Creapure®",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "orders": 10,
+     "units_ordered": 10,
+     "net_items_sold": 10,
+     "gross_sales_ron": 1371.84,
+     "net_sales_ron": 1273.53,
+     "orders_from_search": 5,
+     "orders_no_referrer": 4,
+     "orders_from_social": 1
+    },
+    {
+     "week": "2026-08-24",
+     "orders": 7,
+     "units_ordered": 7,
+     "net_items_sold": 7,
+     "gross_sales_ron": 867.76,
+     "net_sales_ron": 804.96,
+     "orders_from_search": 2,
+     "orders_no_referrer": 5,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-08-31",
+     "orders": 16,
+     "units_ordered": 16,
+     "net_items_sold": 15,
+     "gross_sales_ron": 2033.33,
+     "net_sales_ron": 1506.89,
+     "orders_from_search": 4,
+     "orders_no_referrer": 11,
+     "orders_from_social": 1
+    },
+    {
+     "week": "2026-09-07",
+     "orders": 19,
+     "units_ordered": 22,
+     "net_items_sold": 22,
+     "gross_sales_ron": 2578.46,
+     "net_sales_ron": 2196.07,
+     "orders_from_search": 10,
+     "orders_no_referrer": 9,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-14",
+     "orders": 24,
+     "units_ordered": 29,
+     "net_items_sold": 28,
+     "gross_sales_ron": 3657.93,
+     "net_sales_ron": 3077.41,
+     "orders_from_search": 12,
+     "orders_no_referrer": 11,
+     "orders_from_social": 1
+    },
+    {
+     "week": "2026-09-21",
+     "orders": 13,
+     "units_ordered": 14,
+     "net_items_sold": 14,
+     "gross_sales_ron": 1636.33,
+     "net_sales_ron": 1556.19,
+     "orders_from_search": 6,
+     "orders_no_referrer": 7,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-28",
+     "orders": 16,
+     "units_ordered": 17,
+     "net_items_sold": 17,
+     "gross_sales_ron": 1999.89,
+     "net_sales_ron": 1797.79,
+     "orders_from_search": 5,
+     "orders_no_referrer": 10,
+     "orders_from_social": 1
+    },
+    {
+     "week": "2026-10-05",
+     "orders": 11,
+     "units_ordered": 11,
+     "net_items_sold": 8,
+     "gross_sales_ron": 1306.98,
+     "net_sales_ron": 716.19,
+     "orders_from_search": 3,
+     "orders_no_referrer": 8,
+     "orders_from_social": 0
+    }
+   ],
+   "baseline": {
+    "orders": {
+     "total_8w": 116,
+     "avg_week": 14.5,
+     "median_week": 14.5,
+     "min_week": 7,
+     "max_week": 24
+    },
+    "units_ordered": {
+     "total_8w": 126,
+     "avg_week": 15.75,
+     "median_week": 15.0,
+     "min_week": 7,
+     "max_week": 29
+    },
+    "net_items_sold": {
+     "total_8w": 121,
+     "avg_week": 15.12,
+     "median_week": 14.5,
+     "min_week": 7,
+     "max_week": 28
+    },
+    "gross_sales_ron": {
+     "total_8w": 15452.52,
+     "avg_week": 1931.57,
+     "median_week": 1818.11,
+     "min_week": 867.76,
+     "max_week": 3657.93
+    },
+    "net_sales_ron": {
+     "total_8w": 12929.03,
+     "avg_week": 1616.13,
+     "median_week": 1531.54,
+     "min_week": 716.19,
+     "max_week": 3077.41
+    },
+    "orders_from_search": {
+     "total_8w": 47,
+     "avg_week": 5.88,
+     "median_week": 5.0,
+     "min_week": 2,
+     "max_week": 12
+    },
+    "orders_no_referrer": {
+     "total_8w": 65,
+     "avg_week": 8.12,
+     "median_week": 8.5,
+     "min_week": 4,
+     "max_week": 11
+    },
+    "orders_from_social": {
+     "total_8w": 4,
+     "avg_week": 0.5,
+     "median_week": 0.5,
+     "min_week": 0,
+     "max_week": 1
+    }
+   }
+  },
+  "15404872368503": {
+   "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+   "title": "Creatină monohidrat micronizată – fără aromă, 300 g",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "orders": 12,
+     "units_ordered": 13,
+     "net_items_sold": 13,
+     "gross_sales_ron": 1052.77,
+     "net_sales_ron": 947.58,
+     "orders_from_search": 3,
+     "orders_no_referrer": 9,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-08-24",
+     "orders": 5,
+     "units_ordered": 6,
+     "net_items_sold": 6,
+     "gross_sales_ron": 485.91,
+     "net_sales_ron": 445.45,
+     "orders_from_search": 2,
+     "orders_no_referrer": 3,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-08-31",
+     "orders": 4,
+     "units_ordered": 4,
+     "net_items_sold": 3,
+     "gross_sales_ron": 323.92,
+     "net_sales_ron": 210.57,
+     "orders_from_search": 1,
+     "orders_no_referrer": 3,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-07",
+     "orders": 6,
+     "units_ordered": 7,
+     "net_items_sold": 7,
+     "gross_sales_ron": 566.92,
+     "net_sales_ron": 542.64,
+     "orders_from_search": 2,
+     "orders_no_referrer": 4,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-14",
+     "orders": 3,
+     "units_ordered": 3,
+     "net_items_sold": 2,
+     "gross_sales_ron": 242.94,
+     "net_sales_ron": 137.68,
+     "orders_from_search": 2,
+     "orders_no_referrer": 1,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-21",
+     "orders": 3,
+     "units_ordered": 4,
+     "net_items_sold": 4,
+     "gross_sales_ron": 307.46,
+     "net_sales_ron": 209.14,
+     "orders_from_search": 2,
+     "orders_no_referrer": 1,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-28",
+     "orders": 8,
+     "units_ordered": 9,
+     "net_items_sold": 9,
+     "gross_sales_ron": 691.68,
+     "net_sales_ron": 630.23,
+     "orders_from_search": 3,
+     "orders_no_referrer": 5,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-10-05",
+     "orders": 7,
+     "units_ordered": 9,
+     "net_items_sold": 9,
+     "gross_sales_ron": 691.75,
+     "net_sales_ron": 585.08,
+     "orders_from_search": 1,
+     "orders_no_referrer": 6,
+     "orders_from_social": 0
+    }
+   ],
+   "baseline": {
+    "orders": {
+     "total_8w": 48,
+     "avg_week": 6.0,
+     "median_week": 5.5,
+     "min_week": 3,
+     "max_week": 12
+    },
+    "units_ordered": {
+     "total_8w": 55,
+     "avg_week": 6.88,
+     "median_week": 6.5,
+     "min_week": 3,
+     "max_week": 13
+    },
+    "net_items_sold": {
+     "total_8w": 53,
+     "avg_week": 6.62,
+     "median_week": 6.5,
+     "min_week": 2,
+     "max_week": 13
+    },
+    "gross_sales_ron": {
+     "total_8w": 4363.35,
+     "avg_week": 545.42,
+     "median_week": 526.41,
+     "min_week": 242.94,
+     "max_week": 1052.77
+    },
+    "net_sales_ron": {
+     "total_8w": 3708.37,
+     "avg_week": 463.55,
+     "median_week": 494.04,
+     "min_week": 137.68,
+     "max_week": 947.58
+    },
+    "orders_from_search": {
+     "total_8w": 16,
+     "avg_week": 2.0,
+     "median_week": 2.0,
+     "min_week": 1,
+     "max_week": 3
+    },
+    "orders_no_referrer": {
+     "total_8w": 32,
+     "avg_week": 4.0,
+     "median_week": 3.5,
+     "min_week": 1,
+     "max_week": 9
+    },
+    "orders_from_social": {
+     "total_8w": 0,
+     "avg_week": 0.0,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 0
+    }
+   }
+  },
+  "15410672075127": {
+   "handle": "creatine-ready-to-go-plicuri-prime-supplements",
+   "title": "Creatină Ready To Go – plicuri efervescente 10 g",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "orders": 0,
+     "units_ordered": 0,
+     "net_items_sold": 0,
+     "gross_sales_ron": 0.0,
+     "net_sales_ron": 0.0,
+     "orders_from_search": 0,
+     "orders_no_referrer": 0,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-08-24",
+     "orders": 0,
+     "units_ordered": 0,
+     "net_items_sold": 0,
+     "gross_sales_ron": 0.0,
+     "net_sales_ron": 0.0,
+     "orders_from_search": 0,
+     "orders_no_referrer": 0,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-08-31",
+     "orders": 1,
+     "units_ordered": 1,
+     "net_items_sold": 1,
+     "gross_sales_ron": 90.91,
+     "net_sales_ron": 90.91,
+     "orders_from_search": 1,
+     "orders_no_referrer": 0,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-07",
+     "orders": 2,
+     "units_ordered": 4,
+     "net_items_sold": 4,
+     "gross_sales_ron": 101.82,
+     "net_sales_ron": 92.73,
+     "orders_from_search": 0,
+     "orders_no_referrer": 1,
+     "orders_from_social": 1
+    },
+    {
+     "week": "2026-09-14",
+     "orders": 0,
+     "units_ordered": 0,
+     "net_items_sold": 0,
+     "gross_sales_ron": 0.0,
+     "net_sales_ron": 0.0,
+     "orders_from_search": 0,
+     "orders_no_referrer": 0,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-21",
+     "orders": 0,
+     "units_ordered": 0,
+     "net_items_sold": 0,
+     "gross_sales_ron": 0.0,
+     "net_sales_ron": 0.0,
+     "orders_from_search": 0,
+     "orders_no_referrer": 0,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-09-28",
+     "orders": 2,
+     "units_ordered": 2,
+     "net_items_sold": 2,
+     "gross_sales_ron": 181.82,
+     "net_sales_ron": 172.73,
+     "orders_from_search": 0,
+     "orders_no_referrer": 2,
+     "orders_from_social": 0
+    },
+    {
+     "week": "2026-10-05",
+     "orders": 1,
+     "units_ordered": 2,
+     "net_items_sold": 2,
+     "gross_sales_ron": 272.72,
+     "net_sales_ron": 17.52,
+     "orders_from_search": 0,
+     "orders_no_referrer": 1,
+     "orders_from_social": 0
+    }
+   ],
+   "baseline": {
+    "orders": {
+     "total_8w": 6,
+     "avg_week": 0.75,
+     "median_week": 0.5,
+     "min_week": 0,
+     "max_week": 2
+    },
+    "units_ordered": {
+     "total_8w": 9,
+     "avg_week": 1.12,
+     "median_week": 0.5,
+     "min_week": 0,
+     "max_week": 4
+    },
+    "net_items_sold": {
+     "total_8w": 9,
+     "avg_week": 1.12,
+     "median_week": 0.5,
+     "min_week": 0,
+     "max_week": 4
+    },
+    "gross_sales_ron": {
+     "total_8w": 647.27,
+     "avg_week": 80.91,
+     "median_week": 45.45,
+     "min_week": 0.0,
+     "max_week": 272.72
+    },
+    "net_sales_ron": {
+     "total_8w": 373.89,
+     "avg_week": 46.74,
+     "median_week": 8.76,
+     "min_week": 0.0,
+     "max_week": 172.73
+    },
+    "orders_from_search": {
+     "total_8w": 1,
+     "avg_week": 0.12,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 1
+    },
+    "orders_no_referrer": {
+     "total_8w": 4,
+     "avg_week": 0.5,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 2
+    },
+    "orders_from_social": {
+     "total_8w": 1,
+     "avg_week": 0.12,
+     "median_week": 0.0,
+     "min_week": 0,
+     "max_week": 1
+    }
+   }
+  },
+  "_all_3_distinct_orders": {
+   "title": "Comenzi distincte care conțin cel puțin una dintre cele 3 creatine",
+   "weekly": [
+    {
+     "week": "2026-08-17",
+     "orders": 22,
+     "units_ordered": 23,
+     "gross_sales_ron": 2424.61,
+     "net_sales_ron": 2221.11,
+     "orders_from_search": 8,
+     "orders_no_referrer": 13
+    },
+    {
+     "week": "2026-08-24",
+     "orders": 12,
+     "units_ordered": 13,
+     "gross_sales_ron": 1353.67,
+     "net_sales_ron": 1250.41,
+     "orders_from_search": 4,
+     "orders_no_referrer": 8
+    },
+    {
+     "week": "2026-08-31",
+     "orders": 21,
+     "units_ordered": 21,
+     "gross_sales_ron": 2448.16,
+     "net_sales_ron": 1808.37,
+     "orders_from_search": 6,
+     "orders_no_referrer": 14
+    },
+    {
+     "week": "2026-09-07",
+     "orders": 27,
+     "units_ordered": 33,
+     "gross_sales_ron": 3247.2,
+     "net_sales_ron": 2831.44,
+     "orders_from_search": 12,
+     "orders_no_referrer": 14
+    },
+    {
+     "week": "2026-09-14",
+     "orders": 27,
+     "units_ordered": 32,
+     "gross_sales_ron": 3900.87,
+     "net_sales_ron": 3215.09,
+     "orders_from_search": 14,
+     "orders_no_referrer": 12
+    },
+    {
+     "week": "2026-09-21",
+     "orders": 16,
+     "units_ordered": 18,
+     "gross_sales_ron": 1943.79,
+     "net_sales_ron": 1765.33,
+     "orders_from_search": 8,
+     "orders_no_referrer": 8
+    },
+    {
+     "week": "2026-09-28",
+     "orders": 26,
+     "units_ordered": 28,
+     "gross_sales_ron": 2873.39,
+     "net_sales_ron": 2600.75,
+     "orders_from_search": 8,
+     "orders_no_referrer": 17
+    },
+    {
+     "week": "2026-10-05",
+     "orders": 19,
+     "units_ordered": 22,
+     "gross_sales_ron": 2271.45,
+     "net_sales_ron": 1318.79,
+     "orders_from_search": 4,
+     "orders_no_referrer": 15
+    }
+   ],
+   "baseline": {
+    "orders": {
+     "total_8w": 170,
+     "avg_week": 21.25,
+     "median_week": 21.5,
+     "min_week": 12,
+     "max_week": 27
+    },
+    "units_ordered": {
+     "total_8w": 190,
+     "avg_week": 23.75,
+     "median_week": 22.5,
+     "min_week": 13,
+     "max_week": 33
+    },
+    "gross_sales_ron": {
+     "total_8w": 20463.14,
+     "avg_week": 2557.89,
+     "median_week": 2436.39,
+     "min_week": 1353.67,
+     "max_week": 3900.87
+    },
+    "net_sales_ron": {
+     "total_8w": 17011.29,
+     "avg_week": 2126.41,
+     "median_week": 2014.74,
+     "min_week": 1250.41,
+     "max_week": 3215.09
+    },
+    "orders_from_search": {
+     "total_8w": 64,
+     "avg_week": 8.0,
+     "median_week": 8.0,
+     "min_week": 4,
+     "max_week": 14
+    },
+    "orders_no_referrer": {
+     "total_8w": 101,
+     "avg_week": 12.62,
+     "median_week": 13.5,
+     "min_week": 8,
+     "max_week": 17
+    }
+   }
+  }
+ },
+ "store": {
+  "weekly": [
+   {
+    "week": "2026-08-17",
+    "sessions": 2194,
+    "sessions_search": 686,
+    "sessions_search_google": 682,
+    "sessions_direct": 958,
+    "sessions_social": 523,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 118,
+    "conversion_rate": 0.0538,
+    "search_sessions_that_completed_checkout": 41,
+    "orders": 124,
+    "units_ordered": 716,
+    "gross_sales_ron": 42691.46,
+    "net_sales_ron": 33442.08,
+    "total_sales_ron": 40967.6,
+    "orders_from_search": 42,
+    "gross_sales_from_search_ron": 16700.94,
+    "conversion_rate_search": 0.0598,
+    "creatine_pages_share_of_google_sessions": 0.0469,
+    "creatine_orders_share_of_orders": 0.1774
+   },
+   {
+    "week": "2026-08-24",
+    "sessions": 1970,
+    "sessions_search": 599,
+    "sessions_search_google": 596,
+    "sessions_direct": 831,
+    "sessions_social": 504,
+    "sessions_paid": 3,
+    "sessions_that_completed_checkout": 72,
+    "conversion_rate": 0.0365,
+    "search_sessions_that_completed_checkout": 26,
+    "orders": 78,
+    "units_ordered": 428,
+    "gross_sales_ron": 29051.33,
+    "net_sales_ron": 22439.16,
+    "total_sales_ron": 27298.1,
+    "orders_from_search": 27,
+    "gross_sales_from_search_ron": 8210.76,
+    "conversion_rate_search": 0.0434,
+    "creatine_pages_share_of_google_sessions": 0.0537,
+    "creatine_orders_share_of_orders": 0.1538
+   },
+   {
+    "week": "2026-08-31",
+    "sessions": 2159,
+    "sessions_search": 649,
+    "sessions_search_google": 643,
+    "sessions_direct": 950,
+    "sessions_social": 530,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 122,
+    "conversion_rate": 0.0565,
+    "search_sessions_that_completed_checkout": 49,
+    "orders": 131,
+    "units_ordered": 796,
+    "gross_sales_ron": 48831.77,
+    "net_sales_ron": 30198.7,
+    "total_sales_ron": 36870.64,
+    "orders_from_search": 50,
+    "gross_sales_from_search_ron": 18484.32,
+    "conversion_rate_search": 0.0755,
+    "creatine_pages_share_of_google_sessions": 0.0373,
+    "creatine_orders_share_of_orders": 0.1603
+   },
+   {
+    "week": "2026-09-07",
+    "sessions": 2221,
+    "sessions_search": 745,
+    "sessions_search_google": 738,
+    "sessions_direct": 982,
+    "sessions_social": 471,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 106,
+    "conversion_rate": 0.0477,
+    "search_sessions_that_completed_checkout": 41,
+    "orders": 114,
+    "units_ordered": 677,
+    "gross_sales_ron": 42154.4,
+    "net_sales_ron": 30106.48,
+    "total_sales_ron": 36847.05,
+    "orders_from_search": 45,
+    "gross_sales_from_search_ron": 15045.26,
+    "conversion_rate_search": 0.055,
+    "creatine_pages_share_of_google_sessions": 0.023,
+    "creatine_orders_share_of_orders": 0.2368
+   },
+   {
+    "week": "2026-09-14",
+    "sessions": 2387,
+    "sessions_search": 785,
+    "sessions_search_google": 775,
+    "sessions_direct": 1129,
+    "sessions_social": 427,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 96,
+    "conversion_rate": 0.0402,
+    "search_sessions_that_completed_checkout": 44,
+    "orders": 103,
+    "units_ordered": 679,
+    "gross_sales_ron": 40127.81,
+    "net_sales_ron": 30794.72,
+    "total_sales_ron": 37429.9,
+    "orders_from_search": 46,
+    "gross_sales_from_search_ron": 16625.09,
+    "conversion_rate_search": 0.0561,
+    "creatine_pages_share_of_google_sessions": 0.049,
+    "creatine_orders_share_of_orders": 0.2621
+   },
+   {
+    "week": "2026-09-21",
+    "sessions": 2166,
+    "sessions_search": 832,
+    "sessions_search_google": 825,
+    "sessions_direct": 916,
+    "sessions_social": 403,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 71,
+    "conversion_rate": 0.0328,
+    "search_sessions_that_completed_checkout": 24,
+    "orders": 71,
+    "units_ordered": 285,
+    "gross_sales_ron": 22788.51,
+    "net_sales_ron": 17701.64,
+    "total_sales_ron": 21883.1,
+    "orders_from_search": 25,
+    "gross_sales_from_search_ron": 6043.64,
+    "conversion_rate_search": 0.0288,
+    "creatine_pages_share_of_google_sessions": 0.0485,
+    "creatine_orders_share_of_orders": 0.2254
+   },
+   {
+    "week": "2026-09-28",
+    "sessions": 3332,
+    "sessions_search": 868,
+    "sessions_search_google": 863,
+    "sessions_direct": 1478,
+    "sessions_social": 949,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 177,
+    "conversion_rate": 0.0531,
+    "search_sessions_that_completed_checkout": 48,
+    "orders": 188,
+    "units_ordered": 758,
+    "gross_sales_ron": 52373.9,
+    "net_sales_ron": 41440.68,
+    "total_sales_ron": 50563.58,
+    "orders_from_search": 52,
+    "gross_sales_from_search_ron": 12716.01,
+    "conversion_rate_search": 0.0553,
+    "creatine_pages_share_of_google_sessions": 0.0348,
+    "creatine_orders_share_of_orders": 0.1383
+   },
+   {
+    "week": "2026-10-05",
+    "sessions": 3318,
+    "sessions_search": 736,
+    "sessions_search_google": 730,
+    "sessions_direct": 1401,
+    "sessions_social": 1161,
+    "sessions_paid": 0,
+    "sessions_that_completed_checkout": 129,
+    "conversion_rate": 0.0389,
+    "search_sessions_that_completed_checkout": 30,
+    "orders": 135,
+    "units_ordered": 543,
+    "gross_sales_ron": 43510.42,
+    "net_sales_ron": 30744.44,
+    "total_sales_ron": 37888.17,
+    "orders_from_search": 31,
+    "gross_sales_from_search_ron": 9835.88,
+    "conversion_rate_search": 0.0408,
+    "creatine_pages_share_of_google_sessions": 0.0123,
+    "creatine_orders_share_of_orders": 0.1407
+   }
+  ],
+  "baseline": {
+   "sessions": {
+    "total_8w": 19747,
+    "avg_week": 2468.38,
+    "median_week": 2207.5,
+    "min_week": 1970,
+    "max_week": 3332
+   },
+   "sessions_search": {
+    "total_8w": 5900,
+    "avg_week": 737.5,
+    "median_week": 740.5,
+    "min_week": 599,
+    "max_week": 868
+   },
+   "sessions_search_google": {
+    "total_8w": 5852,
+    "avg_week": 731.5,
+    "median_week": 734.0,
+    "min_week": 596,
+    "max_week": 863
+   },
+   "sessions_direct": {
+    "total_8w": 8645,
+    "avg_week": 1080.62,
+    "median_week": 970.0,
+    "min_week": 831,
+    "max_week": 1478
+   },
+   "sessions_social": {
+    "total_8w": 4968,
+    "avg_week": 621.0,
+    "median_week": 513.5,
+    "min_week": 403,
+    "max_week": 1161
+   },
+   "sessions_paid": {
+    "total_8w": 3,
+    "avg_week": 0.38,
+    "median_week": 0.0,
+    "min_week": 0,
+    "max_week": 3
+   },
+   "sessions_that_completed_checkout": {
+    "total_8w": 891,
+    "avg_week": 111.38,
+    "median_week": 112.0,
+    "min_week": 71,
+    "max_week": 177
+   },
+   "conversion_rate": {
+    "avg_week": 0.0449,
+    "median_week": 0.044,
+    "min_week": 0.0328,
+    "max_week": 0.0565
+   },
+   "search_sessions_that_completed_checkout": {
+    "total_8w": 303,
+    "avg_week": 37.88,
+    "median_week": 41.0,
+    "min_week": 24,
+    "max_week": 49
+   },
+   "orders": {
+    "total_8w": 944,
+    "avg_week": 118.0,
+    "median_week": 119.0,
+    "min_week": 71,
+    "max_week": 188
+   },
+   "units_ordered": {
+    "total_8w": 4882,
+    "avg_week": 610.25,
+    "median_week": 678.0,
+    "min_week": 285,
+    "max_week": 796
+   },
+   "gross_sales_ron": {
+    "total_8w": 321529.6,
+    "avg_week": 40191.2,
+    "median_week": 42422.93,
+    "min_week": 22788.51,
+    "max_week": 52373.9
+   },
+   "net_sales_ron": {
+    "total_8w": 236867.9,
+    "avg_week": 29608.49,
+    "median_week": 30471.57,
+    "min_week": 17701.64,
+    "max_week": 41440.68
+   },
+   "total_sales_ron": {
+    "total_8w": 289748.14,
+    "avg_week": 36218.52,
+    "median_week": 37150.27,
+    "min_week": 21883.1,
+    "max_week": 50563.58
+   },
+   "orders_from_search": {
+    "total_8w": 318,
+    "avg_week": 39.75,
+    "median_week": 43.5,
+    "min_week": 25,
+    "max_week": 52
+   },
+   "gross_sales_from_search_ron": {
+    "total_8w": 103661.9,
+    "avg_week": 12957.74,
+    "median_week": 13880.64,
+    "min_week": 6043.64,
+    "max_week": 18484.32
+   },
+   "conversion_rate_search": {
+    "avg_week": 0.0518,
+    "median_week": 0.0552,
+    "min_week": 0.0288,
+    "max_week": 0.0755
+   },
+   "creatine_pages_share_of_google_sessions": {
+    "avg_week": 0.0382,
+    "median_week": 0.0421,
+    "min_week": 0.0123,
+    "max_week": 0.0537
+   },
+   "creatine_orders_share_of_orders": {
+    "avg_week": 0.1868,
+    "median_week": 0.1689,
+    "min_week": 0.1383,
+    "max_week": 0.2621
+   },
+   "conversion_rate_8w": 0.0451,
+   "creatine_pages_share_of_google_sessions_8w": 0.0379,
+   "creatine_orders_share_of_orders_8w": 0.1801
+  }
+ },
+ "change_week_partial": {
+  "note": "Săptămâna schimbării 12–18.10.2026, doar 12–15.10 (4 zile). Informativ; nu intră în media „înainte”. Raportul săptămânal o va recalcula complet.",
+  "pages_sessions": {
+   "/products/creatina-creapure": 33,
+   "/products/creatina-monohidrat-micronized-300g-fara-aroma": 3,
+   "/collections/creatina": 1,
+   "/products/creatine-ready-to-go-plicuri-prime-supplements": 10
+  },
+  "pages_sessions_search": {
+   "/products/creatina-creapure": 11,
+   "/products/creatina-monohidrat-micronized-300g-fara-aroma": 1,
+   "/collections/creatina": 0,
+   "/products/creatine-ready-to-go-plicuri-prime-supplements": 7
+  },
+  "products": {
+   "14971467268471": {
+    "orders": 15,
+    "units_ordered": 15,
+    "gross_sales_ron": 1900.76,
+    "net_sales_ron": 1793.36
+   },
+   "15404872368503": {
+    "orders": 4,
+    "units_ordered": 5,
+    "gross_sales_ron": 384.29,
+    "net_sales_ron": 361.24
+   }
+  },
+  "store_sessions_by_source": {
+   "direct": 1176,
+   "social": 642,
+   "search": 598,
+   "unknown": 23,
+   "email": 2,
+   "paid": 1
+  }
+ },
+ "content": {
+  "definitions": {
+   "rendered_page": "Măsurat pe HTML-ul paginii publice salvat (scripts/page_metrics.py). <main> include și secțiunile temei (recomandări, recenzii, „Cele mai vândute”), deci words_main_unique (blocuri de text unice) este cifra de urmărit; h2/h3 numără titlurile din <main>.",
+   "admin_data": "Câmpurile din Shopify Admin (scripts/data_metrics.py): SEO title/meta, cuvinte în descriere + metafield-urile de text, alt-urile pozelor produsului.",
+   "internal_links_in": "Articole de blog PUBLICATE care au în corpul textului cel puțin un link către pagină + numărul total de linkuri (scripts/links_in.py), plus linkurile de pe prima pagină și din meniul principal (scripts/home_links.py)."
+  },
+  "pre_program": {
+   "creatina-creapure": {
+    "rendered": {
+     "title": "Creatina Creapure - Supliment pentru Performanță Fizică",
+     "title_len": 55,
+     "meta_description": "Descoperiți beneficiile Creatinei Creapure pentru creșterea masei musculare și îmbunătățirea performanței atletice. Alegeți PRIME Supplements pentru produse de calitate superioară!",
+     "meta_description_len": 180,
+     "canonical": "https://primesupplements.ro/products/creatina-creapure",
+     "robots_meta": [],
+     "h1": [
+      "Creatine (Creapure®)"
+     ],
+     "h2_count": 9,
+     "h2_unique_count": 9,
+     "h2_unique": [
+      "S-ar putea să-ți placã",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Ce Este Creatina Creapure?",
+      "Beneficiile Creatinei Creapure",
+      "Cum Funcționează Creatina Creapure?",
+      "Recomandări de Utilizare",
+      "Concluzie"
+     ],
+     "h3_count": 0,
+     "h3_unique_count": 0,
+     "h3_unique": [],
+     "words_main": 1352,
+     "words_main_unique": 1024,
+     "faq_visible": 2,
+     "faq_visible_questions": [
+      "Ce Este Creatina Creapure?",
+      "Cum Funcționează Creatina Creapure?"
+     ],
+     "faq_jsonld": 8,
+     "jsonld_types": [
+      "Answer",
+      "BreadcrumbList",
+      "ContactPoint",
+      "FAQPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Question"
+     ],
+     "jsonld_parse_errors": 1,
+     "aggregate_rating": null,
+     "images_main": 26,
+     "images_main_empty_alt": 6,
+     "links_out_internal_main": 22
+    },
+    "rendered_source": "recon/pages/*.html (crawl audit 12.10.2026 14:47 UTC)",
+    "admin": {
+     "state": "pre_program_2026-10-12",
+     "source": "recon/shopify/products-p1.json (Admin read 12.10.2026 14:37 UTC)",
+     "product_title_H1": "Creatine (Creapure®)",
+     "template_suffix": null,
+     "seo_title": "Creatina Creapure - Supliment pentru Performanță Fizică",
+     "seo_title_len": 55,
+     "seo_description": "Descoperiți beneficiile Creatinei Creapure pentru creșterea masei musculare și îmbunătățirea performanței atletice. Alegeți PRIME Supplements pentru produse de calitate superioară!",
+     "seo_description_len": 180,
+     "description_words": 603,
+     "description_headings": {},
+     "metafield_words": {},
+     "text_words_total": 603,
+     "seo_produs_headings": {},
+     "seo_produs_questions": 0,
+     "image_alts": [
+      "",
+      ""
+     ],
+     "images": 2,
+     "images_without_alt": 2,
+     "search_boost": null
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 354,
+     "articles_linking": 22,
+     "links": 107,
+     "article_handles": [
+      "before-and-after-creatine-creatina-creapure-bioavailability-why-absorption",
+      "creapure-creatine-monohydrate-moduri-maximizare-forta-creatina-alimente",
+      "creatine-benefits-creatina-creapure-understanding-dosage-recommend",
+      "creatine-creatina-creapure-combining-supplements-with",
+      "creatine-gummies-creatina-creapure-how-to-read",
+      "creatine-kinase-creatina-creapure-bioavailability-why-absorption",
+      "creatine-kinase-creatina-creapure-future-trends-in",
+      "creatine-kinase-creatina-creapure-future-trends-in-2",
+      "creatine-kinase-creatina-creapure-supplements-and-food",
+      "creatine-kinase-creatina-creapure-understanding-dosage-recommend",
+      "creatine-monohydrate-creatina-creapure-how-to-evaluate",
+      "creatine-monohydrate-creatina-creapure-signs-your-body",
+      "creatine-monohydrate-semne-corp-nevoie-creatina-hidratare",
+      "creatine-pastile-creatina-creapure-combining-supplements-with",
+      "creatine-pastile-creatina-creapure-how-to-evaluate",
+      "creatine-pastile-creatina-creapure-how-to-read",
+      "creatine-pastile-creatina-creapure-seasonal-supplementation-adjus",
+      "creatine-powder-de-ce-nu-vezi-rezultate",
+      "creatine-side-effects-creatina-creapure-signs-your-body",
+      "magneziu-creatina-creapure-morning-vs-evening",
+      "monohydrate-creatine-5-semne-stagnare-forta-creatina",
+      "pure-creatine-cand-sa-iei-pauza-de"
+     ],
+     "homepage": {
+      "homepage_links": 4,
+      "header_nav_links": 0
+     }
+    },
+    "note": "faq_visible=2 sunt H2-uri ale textului vechi care se termină cu „?”, nu FAQ; FAQ vizibil real = 0. FAQPage JSON-LD (8 întrebări) venea dintr-un bloc de cod din descriere. JSON-LD Product invalid (caracter de control) → Google nu îl putea citi. Titlu produs „Creatine (Creapure®)”."
+   },
+   "creatina-monohidrat-micronized-300g-fara-aroma": {
+    "rendered": {
+     "title": "Creatina Monohidrat Micronized 300g (Fără Aromă) | PRIME Supplements",
+     "title_len": 68,
+     "meta_description": "Crește forța și masa musculară cu Creatina Monohidrat Micronized 300g de la PRIME Supplements. Absorbție rapidă, puritate 100% și zero arome. Comandă acum pentru performanță!",
+     "meta_description_len": 174,
+     "canonical": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+     "robots_meta": [],
+     "h1": [
+      "CREATINE MONOHYDRATE 300g/60serv",
+      "Creatine Monohydrate Micronized 300g (Fără Aromă) – Puritate și Performanță"
+     ],
+     "h2_count": 11,
+     "h2_unique_count": 10,
+     "h2_unique": [
+      "CREATINĂ MONOHIDRATĂ MICRONIZATĂ",
+      "S-ar putea să-ți placã",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Ce Este Creatina Monohidrat Micronized?",
+      "Beneficii Creatină pentru Masa Musculară și Performanță",
+      "Cum Funcționează și Cum se Administrează Creatina Micronized?",
+      "De Ce să Alegi Creatina de la PRIME Supplements?",
+      "Întrebări Frecvente (FAQ)"
+     ],
+     "h3_count": 0,
+     "h3_unique_count": 0,
+     "h3_unique": [],
+     "words_main": 1268,
+     "words_main_unique": 1002,
+     "faq_visible": 6,
+     "faq_visible_questions": [
+      "Ce Este Creatina Monohidrat Micronized?",
+      "Cum Funcționează și Cum se Administrează Creatina Micronized?",
+      "De Ce să Alegi Creatina de la PRIME Supplements?",
+      "Pot amesteca creatina cu alte suplimente?",
+      "Cât timp pot folosi acest supliment?",
+      "Este potrivită pentru începători?"
+     ],
+     "faq_jsonld": 8,
+     "jsonld_types": [
+      "AggregateOffer",
+      "Answer",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "FAQPage",
+      "ImageObject",
+      "ListItem",
+      "Organization",
+      "Product",
+      "Question"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": null,
+     "images_main": 28,
+     "images_main_empty_alt": 4,
+     "links_out_internal_main": 23
+    },
+    "rendered_source": "recon/pages/*.html (crawl audit 12.10.2026 14:47 UTC)",
+    "admin": {
+     "state": "pre_program_2026-10-12",
+     "source": "recon/shopify/products-p2.json (Admin read 12.10.2026 14:37 UTC)",
+     "product_title_H1": "CREATINE MONOHYDRATE 300g/60serv",
+     "template_suffix": null,
+     "seo_title": "Creatina Monohidrat Micronized 300g (Fără Aromă) | PRIME Supplements",
+     "seo_title_len": 68,
+     "seo_description": "Crește forța și masa musculară cu Creatina Monohidrat Micronized 300g de la PRIME Supplements. Absorbție rapidă, puritate 100% și zero arome. Comandă acum pentru performanță!\n",
+     "seo_description_len": 175,
+     "description_words": 0,
+     "description_headings": {},
+     "metafield_words": {},
+     "text_words_total": 0,
+     "seo_produs_headings": {},
+     "seo_produs_questions": 0,
+     "image_alts": [
+      "",
+      "",
+      ""
+     ],
+     "images": 3,
+     "images_without_alt": 3,
+     "search_boost": null
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 354,
+     "articles_linking": 25,
+     "links": 119,
+     "article_handles": [
+      "before-and-after-creatine-creatina-monohidrat-micronized-300g-fara",
+      "creatina-si-volumizarea-musculara-cand-apar-rezultate-creatina-30",
+      "creatina-si-volumizarea-musculara-ce-iau-expertii-forta-mituri",
+      "creatina-si-volumizarea-musculara-cum-sa-stii-daca-creatina",
+      "creatina-si-volumizarea-musculara-de-ce-calitatea-creatinei-conteaza",
+      "creatina-si-volumizarea-musculara-rutina-dimineata-creatina-optimizare-sezoniera",
+      "creatina-si-volumizarea-musculara-secretele-absorbtiei-creatinei-optimizare-rezultate",
+      "creatina-si-volumizarea-musculara-stagnarea-fortei-cand-sa-ceri",
+      "creatine-benefits-creatina-monohidrat-micronized-300g-fara",
+      "creatine-benefits-creatina-monohidrat-micronized-300g-fara-2",
+      "creatine-benefits-creatina-monohidrat-micronized-300g-fara-3",
+      "creatine-benefits-creatina-monohidrat-micronized-300g-fara-4",
+      "creatine-gummies-creatina-monohidrat-micronized-300g-fara",
+      "creatine-gummies-creatina-monohidrat-micronized-300g-fara-2",
+      "creatine-gummies-creatina-monohidrat-micronized-300g-fara-3",
+      "creatine-gummies-creatina-monohidrat-micronized-300g-fara-4",
+      "creatine-monohydrate-creatina-monohidrat-micronized-300g-fara",
+      "creatine-pastile-creatina-monohidrat-micronized-300g-fara",
+      "creatine-side-effects-creatina-monohidrat-micronized-300g-fara",
+      "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara",
+      "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-2",
+      "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-3",
+      "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-4",
+      "gymbeam-creatine-creatina-monohidrat-micronized-300g-fara-5",
+      "omega-3-creatina-monohidrat-micronized-300g-fara"
+     ],
+     "homepage": {
+      "homepage_links": 0,
+      "header_nav_links": 0
+     }
+    },
+    "note": "faq_visible=6 = 3 H2-uri cu „?” + 3 întrebări FAQ reale; 2 H1. descriptionHtml gol (textul venea din pagina /pages/creatina-custom și dintr-un bloc SEO). Meta cu „forța și masa musculară”, text cu „particule de până la 20 de ori mai mici” (eliminat)."
+   },
+   "creatina": {
+    "rendered": {
+     "title": "Creatina monohidrat pentru forță și performanță",
+     "title_len": 47,
+     "meta_description": "Alege creatina ideală pentru masă musculară, forță și energie. Produse testate, eficiente și sigure. Comandă online de la Prime Supplements.",
+     "meta_description_len": 140,
+     "canonical": "https://primesupplements.ro/collections/creatina",
+     "robots_meta": [],
+     "h1": [
+      "Creatina"
+     ],
+     "h2_count": 2,
+     "h2_unique_count": 2,
+     "h2_unique": [
+      "Alte categorii",
+      "Ghiduri și sfaturi utile"
+     ],
+     "h3_count": 0,
+     "h3_unique_count": 0,
+     "h3_unique": [],
+     "words_main": 507,
+     "words_main_unique": 392,
+     "faq_visible": 0,
+     "faq_visible_questions": [],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "CollectionPage",
+      "ContactPoint",
+      "ImageObject",
+      "ItemList",
+      "ListItem",
+      "Organization"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": null,
+     "images_main": 16,
+     "images_main_empty_alt": 5,
+     "links_out_internal_main": 21
+    },
+    "rendered_source": "recon/pages/*.html (crawl audit 12.10.2026 14:47 UTC)",
+    "admin": null,
+    "internal_links_in": {
+     "published_articles_in_blog": 354,
+     "articles_linking": 0,
+     "links": 0,
+     "article_handles": [],
+     "homepage": {
+      "homepage_links": 2,
+      "header_nav_links": 2
+     }
+    }
+   }
+  },
+  "before": {
+   "creatina-creapure": {
+    "rendered": {
+     "title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+     "title_len": 60,
+     "meta_description": "Creatină Creapure®: pulbere cu un singur ingredient, creatină monohidrată Creapure®. Tub de 300 g (60 de porții) sau 500 g (100 de porții), 3–5 g pe zi.",
+     "meta_description_len": 152,
+     "canonical": "https://primesupplements.ro/products/creatina-creapure",
+     "robots_meta": [],
+     "h1": [
+      "Creatină monohidrat micronizată Creapure®"
+     ],
+     "h2_count": 8,
+     "h2_unique_count": 8,
+     "h2_unique": [
+      "Pe scurt",
+      "Ingrediente",
+      "Detalii produs",
+      "S-ar putea să-ți placă",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Creatină Creapure®: un singur ingredient, în tub de 300 g sau 500 g"
+     ],
+     "h3_count": 8,
+     "h3_unique_count": 6,
+     "h3_unique": [
+      "Cantități declarate",
+      "Ce este Creapure®",
+      "Cum o folosești",
+      "Pentru cine este",
+      "Creapure® sau celelalte forme de creatină Prime",
+      "Întrebări frecvente"
+     ],
+     "words_main": 2415,
+     "words_main_unique": 1389,
+     "faq_visible": 5,
+     "faq_visible_questions": [
+      "Ce este creatina Creapure®?",
+      "Câte grame de creatină iei pe zi?",
+      "Creapure 300 g sau 500 g: ce diferă?",
+      "Are aromă sau îndulcitori?",
+      "Cine nu ar trebui să o folosească?"
+     ],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "Country",
+      "DefinedRegion",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "MonetaryAmount",
+      "Offer",
+      "OfferShippingDetails",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "Product",
+      "QuantitativeValue",
+      "ShippingDeliveryTime"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": {
+      "ratingValue": "5.0",
+      "reviewCount": 18
+     },
+     "images_main": 26,
+     "images_main_empty_alt": 2,
+     "links_out_internal_main": 24
+    },
+    "rendered_source": "creatina/live/audit/*.html (15.10.2026 15:30 UTC, după prima trecere SEO din 13–15.10, înainte de programul creatină)",
+    "admin": {
+     "state": "before_2026-10-15",
+     "source": "backups/seo-creatina-2026-10-15/creatina-creapure.before.json",
+     "product_title_H1": "Creatină monohidrat micronizată Creapure®",
+     "template_suffix": null,
+     "seo_title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+     "seo_title_len": 60,
+     "seo_description": "Creatină Creapure®: pulbere cu un singur ingredient, creatină monohidrată Creapure®. Tub de 300 g (60 de porții) sau 500 g (100 de porții), 3–5 g pe zi.",
+     "seo_description_len": 152,
+     "description_words": 458,
+     "description_headings": {
+      "h2": 3,
+      "h3": 1
+     },
+     "metafield_words": {
+      "beneficii_cheie": 112,
+      "despre_produs": 202,
+      "ingrediente": 59,
+      "detalii_produs": 80,
+      "seo_produs": 497,
+      "short_description": 38
+     },
+     "text_words_total": 1446,
+     "seo_produs_headings": {
+      "h2": 1,
+      "h3": 5
+     },
+     "seo_produs_questions": 5,
+     "image_alts": [
+      "Creatină Creapure® Prime Supplements, tub negru de 500 g cu 100 de porții și etichetă roșu cu negru, din față",
+      "Captură de pe creapure.com: Prime Supplements, România, listat cu produsul Creatina, tub de 500 g made of Creapure®"
+     ],
+     "images": 2,
+     "images_without_alt": 0,
+     "search_boost": [
+      "creapure",
+      "creatina creapure",
+      "creatină creapure",
+      "creatina creapure 500g",
+      "creatina monohidrata creapure"
+     ]
+    },
+    "admin_after_13_10_before_top50": {
+     "state": "after_13_10_before_top50_2026-10-15",
+     "source": "backups/seo-top50-2026-10-15/creatina-creapure.json",
+     "product_title_H1": "Creatină monohidrat micronizată Creapure®",
+     "template_suffix": null,
+     "seo_title": "Creatină Creapure® 300 g sau 500 g | Prime Supplements",
+     "seo_title_len": 54,
+     "seo_description": "Creatină Creapure®, 300 g (60 porții) sau 500 g (100 porții), doză de 3-5 g pe zi. Susține performanța fizică în efort intens și repetat. Comandă online.",
+     "seo_description_len": 153,
+     "description_words": 329,
+     "description_headings": {
+      "h2": 3
+     },
+     "metafield_words": {
+      "beneficii_cheie": 81,
+      "despre_produs": 200,
+      "ingrediente": 4,
+      "detalii_produs": 39,
+      "seo_produs": 193,
+      "short_description": 50
+     },
+     "text_words_total": 896,
+     "seo_produs_headings": {
+      "h3": 3
+     },
+     "seo_produs_questions": 0,
+     "image_alts": [
+      "Creatine (Creapure®) de la Prime, tub negru de 500 g cu etichetă roșu-negru și sigla Creapure, vedere din față",
+      "Creatine (Creapure®) de la Prime Supplements listată pe site-ul oficial creapure.com ca producător partener din România"
+     ],
+     "images": 2,
+     "images_without_alt": 0,
+     "search_boost": null
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 4,
+     "links": 43,
+     "article_handles": [
+      "creatina-creapure-ghid",
+      "creatina-dupa-40-de-ani",
+      "cum-alegi-creatina",
+      "pauza-de-creatina"
+     ],
+     "homepage": null
+    },
+    "note": "Randarea e din 15.10 15:30 UTC; backup-ul Admin (before.json) e din 22:08 UTC, produs actualizat la 18:21 UTC între ele → mici diferențe posibile între rendered și admin."
+   },
+   "creatina-monohidrat-micronized-300g-fara-aroma": {
+    "rendered": {
+     "title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "title_len": 58,
+     "meta_description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg creatină pe porție, un singur ingredient, măsură inclusă.",
+     "meta_description_len": 145,
+     "canonical": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+     "robots_meta": [],
+     "h1": [
+      "Creatină monohidrat micronizată – fără aromă, 300 g"
+     ],
+     "h2_count": 7,
+     "h2_unique_count": 6,
+     "h2_unique": [
+      "CREATINĂ MONOHIDRATĂ MICRONIZATĂ",
+      "S-ar putea să-ți placă",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Creatină monohidrată micronizată: 5000 mg pe porție, fără aromă"
+     ],
+     "h3_count": 6,
+     "h3_unique_count": 5,
+     "h3_unique": [
+      "Cantități declarate",
+      "Ce înseamnă creatină micronizată",
+      "Cum o prepari",
+      "Trei forme de creatină Prime: cum alegi",
+      "Întrebări frecvente"
+     ],
+     "words_main": 1658,
+     "words_main_unique": 1155,
+     "faq_visible": 5,
+     "faq_visible_questions": [
+      "Creatină monohidrată sau micronizată: care e diferența?",
+      "Câte grame de creatină iei pe zi?",
+      "Cât ține un tub de 300 g?",
+      "Conține alergeni?",
+      "Cine nu ar trebui să o folosească?"
+     ],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "Country",
+      "DefinedRegion",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "MonetaryAmount",
+      "Offer",
+      "OfferShippingDetails",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "Product",
+      "QuantitativeValue",
+      "ShippingDeliveryTime"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": {
+      "ratingValue": "3.0",
+      "reviewCount": 2
+     },
+     "images_main": 28,
+     "images_main_empty_alt": 0,
+     "links_out_internal_main": 23
+    },
+    "rendered_source": "creatina/live/audit/*.html (15.10.2026 15:30 UTC, după prima trecere SEO din 13–15.10, înainte de programul creatină)",
+    "admin": {
+     "state": "before_2026-10-15",
+     "source": "backups/seo-creatina-2026-10-15/creatina-monohidrat-micronized-300g-fara-aroma.before.json",
+     "product_title_H1": "Creatină monohidrat micronizată – fără aromă, 300 g",
+     "template_suffix": null,
+     "seo_title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "seo_title_len": 58,
+     "seo_description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg creatină pe porție, un singur ingredient, măsură inclusă.",
+     "seo_description_len": 145,
+     "description_words": 513,
+     "description_headings": {
+      "h2": 3,
+      "h3": 1
+     },
+     "metafield_words": {
+      "beneficii_cheie": 109,
+      "despre_produs": 206,
+      "ingrediente": 56,
+      "detalii_produs": 137,
+      "seo_produs": 426,
+      "short_description": 36
+     },
+     "text_words_total": 1483,
+     "seo_produs_headings": {
+      "h2": 1,
+      "h3": 4
+     },
+     "seo_produs_questions": 5,
+     "image_alts": [
+      "Creatină monohidrată micronizată Prime Supplements, tub alb de 300 g cu 60 de porții, fără aromă, din față",
+      "Spatele tubului de creatină micronizată 300 g: denumire, mod de administrare, ingrediente, păstrare (RO și EN)",
+      "Eticheta laterală a creatinei micronizate 300 g: 5000 mg pe porție de 5 g, 60 de porții, alergeni"
+     ],
+     "images": 3,
+     "images_without_alt": 0,
+     "search_boost": [
+      "creatina micronizata",
+      "creatină micronizată",
+      "creatina monohidrata micronizata",
+      "creatina fara aroma",
+      "creatina 300g"
+     ]
+    },
+    "admin_after_13_10_before_top50": {
+     "state": "after_13_10_before_top50_2026-10-15",
+     "source": "backups/seo-top50-2026-10-15/creatina-monohidrat-micronized-300g-fara-aroma.json",
+     "product_title_H1": "Creatină monohidrat micronizată – fără aromă, 300 g",
+     "template_suffix": "creatina2",
+     "seo_title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "seo_title_len": 58,
+     "seo_description": "Creatină monohidrată micronizată, fără aromă: 300 g, 60 de porții de 5 g. Susține performanța fizică în efort intens. Comandă online, livrare rapidă.",
+     "seo_description_len": 149,
+     "description_words": 378,
+     "description_headings": {
+      "h2": 3
+     },
+     "metafield_words": {
+      "beneficii_cheie": 80,
+      "despre_produs": 198,
+      "ingrediente": 27,
+      "detalii_produs": 107,
+      "seo_produs": 204
+     },
+     "text_words_total": 994,
+     "seo_produs_headings": {
+      "h3": 3
+     },
+     "seo_produs_questions": 3,
+     "image_alts": [
+      "Tub alb Creatine Monohydrate 300g/60serv Prime Supplements, pure micronized, fără aromă, văzut din față cu logo roșu",
+      "Spatele tubului Creatine Monohydrate 300g/60serv cu modul de administrare și ingredientele în română și engleză",
+      "Eticheta cu valori nutriționale a tubului Creatine Monohydrate 300g/60serv: porție de 5 g, 60 porții, alergeni și pictograme"
+     ],
+     "images": 3,
+     "images_without_alt": 0,
+     "search_boost": null
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 4,
+     "links": 41,
+     "article_handles": [
+      "ce-este-creatina",
+      "creatina-si-retentia-de-apa",
+      "cu-ce-se-combina-creatina",
+      "in-cat-timp-face-efect-creatina"
+     ],
+     "homepage": null
+    }
+   },
+   "creatina": {
+    "rendered": {
+     "title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+     "title_len": 58,
+     "meta_description": "Creatină monohidrată în trei formate: Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g (5000 mg).",
+     "meta_description_len": 154,
+     "canonical": "https://primesupplements.ro/collections/creatina",
+     "robots_meta": [],
+     "h1": [
+      "Creatină"
+     ],
+     "h2_count": 2,
+     "h2_unique_count": 2,
+     "h2_unique": [
+      "Alte categorii",
+      "Ghiduri și sfaturi utile"
+     ],
+     "h3_count": 0,
+     "h3_unique_count": 0,
+     "h3_unique": [],
+     "words_main": 622,
+     "words_main_unique": 504,
+     "faq_visible": 0,
+     "faq_visible_questions": [],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ContactPoint",
+      "Country",
+      "ImageObject",
+      "ItemList",
+      "ListItem",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": null,
+     "images_main": 16,
+     "images_main_empty_alt": 0,
+     "links_out_internal_main": 21
+    },
+    "rendered_source": "creatina/live/audit/*.html (15.10.2026 15:30 UTC, după prima trecere SEO din 13–15.10, înainte de programul creatină)",
+    "admin": {
+     "state": "before_2026-10-15",
+     "source": "backups/seo-creatina-2026-10-15/creatina.before.json",
+     "title_H1": "Creatină",
+     "seo_title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+     "seo_title_len": 58,
+     "seo_description": "Creatină monohidrată în trei formate: Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g (5000 mg).",
+     "seo_description_len": 154,
+     "description_words": 70,
+     "description_links": [
+      "/products/creatina-creapure",
+      "/products/creatina-monohidrat-micronized-300g-fara-aroma"
+     ],
+     "image_alt": "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față",
+     "hub_articles": [
+      "ce-este-creatina",
+      "cum-se-ia-creatina",
+      "in-cat-timp-face-efect-creatina",
+      "creatina-si-retentia-de-apa",
+      "cum-alegi-creatina",
+      "cu-ce-se-combina-creatina"
+     ]
+    },
+    "admin_after_13_10_before_top50": {
+     "state": "after_13_10_before_top50_2026-10-15",
+     "source": "backups/seo-top50-2026-10-15/creatina.json",
+     "title_H1": "Creatină",
+     "seo_title": "Creatină monohidrată – pudră și plicuri | Prime Supplements",
+     "seo_title_len": 59,
+     "seo_description": "Creatină monohidrată Creapure (60 sau 100 serviri), pudră micronizată 300 g și plicuri efervescente Ready To Go 10 g. Susține performanța în efort intens.",
+     "seo_description_len": 154,
+     "description_words": 163,
+     "description_links": [],
+     "image_alt": "",
+     "hub_articles": null
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 11,
+     "links": 17,
+     "article_handles": [
+      "ce-este-creatina",
+      "creatina-creapure-ghid",
+      "creatina-dupa-40-de-ani",
+      "creatina-pastile-sau-praf",
+      "creatina-si-retentia-de-apa",
+      "cu-ce-se-combina-creatina",
+      "cum-alegi-creatina",
+      "cum-se-ia-creatina",
+      "in-cat-timp-face-efect-creatina",
+      "pauza-de-creatina",
+      "plicuri-creatina-ready-to-go"
+     ],
+     "homepage": null
+    }
+   },
+   "_note": "Inbound links „before” = reconstruit: setul de articole publicate la 15.10 15:33 UTC + corpurile din backup-urile 15–16.10 pentru cele 16 articole schimbate după 15:00 UTC; homepage nu a fost salvată pe 15.10 (pe 12.10 și 16.10 e identică)."
+  },
+  "now": {
+   "creatina-creapure": {
+    "rendered": {
+     "title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+     "title_len": 60,
+     "meta_description": "Creatină Creapure®: un singur ingredient, creatină monohidrată. Tub de 300 g sau 500 g (60 sau 100 de porții), 3–5 g pe zi. Brand listat pe creapure.com.",
+     "meta_description_len": 153,
+     "canonical": "https://primesupplements.ro/products/creatina-creapure",
+     "robots_meta": [],
+     "h1": [
+      "Creatină monohidrat micronizată Creapure®"
+     ],
+     "h2_count": 5,
+     "h2_unique_count": 5,
+     "h2_unique": [
+      "S-ar putea să-ți placă",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Creatină Creapure®: un singur ingredient, în tub de 300 g sau 500 g"
+     ],
+     "h3_count": 12,
+     "h3_unique_count": 11,
+     "h3_unique": [
+      "Pe scurt",
+      "Ingrediente",
+      "Detalii produs",
+      "Cantități declarate",
+      "Ce este Creapure® și cum verifici brandurile partenere din România",
+      "Cum o folosești: doza zilnică recomandată",
+      "Cât ține un tub de 300 g sau de 500 g",
+      "Pentru cine este",
+      "Creatina Creapure® față de celelalte formate Prime",
+      "Cu ce combini creatina Creapure® din gama Prime",
+      "Întrebări frecvente"
+     ],
+     "words_main": 3339,
+     "words_main_unique": 1957,
+     "faq_visible": 7,
+     "faq_visible_questions": [
+      "Creapure® sau creatină monohidrată: care e diferența?",
+      "Câte grame de creatină Creapure® iei pe zi?",
+      "Trebuie să faci fază de încărcare cu creatina Creapure®?",
+      "Când iei creatina Creapure®: înainte sau după antrenament?",
+      "Creatina Creapure® 300 g sau 500 g: ce diferă?",
+      "Este creatina Creapure® și pentru femei?",
+      "Cine nu ar trebui să folosească creatina Creapure®?"
+     ],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "Country",
+      "DefinedRegion",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "MonetaryAmount",
+      "Offer",
+      "OfferShippingDetails",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "Product",
+      "QuantitativeValue",
+      "ShippingDeliveryTime"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": {
+      "ratingValue": "5.0",
+      "reviewCount": 18
+     },
+     "images_main": 26,
+     "images_main_empty_alt": 2,
+     "links_out_internal_main": 27
+    },
+    "rendered_source": "weekly/baseline_raw/live_2026-10-16/*.html (16.10.2026 00:26 UTC)",
+    "admin": {
+     "state": "now_2026-10-16",
+     "source": "Admin read /tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/creatina/weekly/baseline_raw/admin_now_2026-10-16.json",
+     "product_title_H1": "Creatină monohidrat micronizată Creapure®",
+     "template_suffix": null,
+     "seo_title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+     "seo_title_len": 60,
+     "seo_description": "Creatină Creapure®: un singur ingredient, creatină monohidrată. Tub de 300 g sau 500 g (60 sau 100 de porții), 3–5 g pe zi. Brand listat pe creapure.com.",
+     "seo_description_len": 153,
+     "description_words": 633,
+     "description_headings": {
+      "h3": 3,
+      "h4": 1
+     },
+     "metafield_words": {
+      "beneficii_cheie": 162,
+      "despre_produs": 226,
+      "ingrediente": 72,
+      "detalii_produs": 168,
+      "seo_produs": 906,
+      "short_description": 42
+     },
+     "text_words_total": 2209,
+     "seo_produs_headings": {
+      "h2": 1,
+      "h3": 7
+     },
+     "seo_produs_questions": 7,
+     "image_alts": [
+      "Creatină Creapure® Prime Supplements: tub negru de 500 g, 100 de porții, „made of Creapure®” pe eticheta din față",
+      "Captură de pe creapure.com: Prime Supplements, brand partener Creapure® (România), cu produsul Creatina, tub de 500 g"
+     ],
+     "images": 2,
+     "images_without_alt": 0,
+     "search_boost": [
+      "creapure",
+      "creatina creapure",
+      "creatină creapure",
+      "creatina creapure 500g",
+      "creatina creapure 300g",
+      "creapure creatina monohidrata",
+      "creatina monohidrata creapure",
+      "creatine creapure",
+      "creatina 500g",
+      "creatina monohidrata"
+     ]
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 6,
+     "links": 40,
+     "article_handles": [
+      "creatina-creapure-ghid",
+      "creatina-dupa-40-de-ani",
+      "cum-alegi-creatina",
+      "cum-se-ia-creatina",
+      "pauza-de-creatina",
+      "pre-workout-cu-creatina"
+     ],
+     "homepage": {
+      "homepage_links": 4,
+      "header_nav_links": 0
+     }
+    }
+   },
+   "creatina-monohidrat-micronized-300g-fara-aroma": {
+    "rendered": {
+     "title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "title_len": 58,
+     "meta_description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient.",
+     "meta_description_len": 144,
+     "canonical": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+     "robots_meta": [],
+     "h1": [
+      "Creatină monohidrat micronizată – fără aromă, 300 g"
+     ],
+     "h2_count": 7,
+     "h2_unique_count": 6,
+     "h2_unique": [
+      "CREATINĂ MONOHIDRATĂ MICRONIZATĂ",
+      "S-ar putea să-ți placă",
+      "Customer Reviews",
+      "Cele mai vândute",
+      "Categorii populare",
+      "Creatină monohidrată micronizată fără aromă: 5000 mg pe porție, tub de 300 g"
+     ],
+     "h3_count": 12,
+     "h3_unique_count": 10,
+     "h3_unique": [
+      "Cantități declarate",
+      "Atenționări de pe etichetă",
+      "Ce este creatina",
+      "Ce înseamnă creatină micronizată",
+      "Cum o prepari și ce scrie pe etichetă despre încărcare și menținere",
+      "Cât ține tubul de 300 g",
+      "Cele trei formate Prime: ce diferă",
+      "Cu ce combini creatina micronizată din gama Prime",
+      "Creatina micronizată fără aromă, criteriu cu criteriu",
+      "Întrebări frecvente"
+     ],
+     "words_main": 2734,
+     "words_main_unique": 1935,
+     "faq_visible": 7,
+     "faq_visible_questions": [
+      "Câtă creatină se ia pe zi și cât are o porție?",
+      "Când se ia creatina: înainte sau după antrenament?",
+      "Ce gust are creatina micronizată fără aromă?",
+      "Este creatina și pentru femei?",
+      "Cine nu ar trebui să folosească creatina?",
+      "Creatina micronizată conține alergeni?",
+      "Cum păstrezi creatina și când expiră?"
+     ],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "AggregateRating",
+      "Brand",
+      "BreadcrumbList",
+      "ContactPoint",
+      "Country",
+      "DefinedRegion",
+      "ImageObject",
+      "ListItem",
+      "MerchantReturnPolicy",
+      "MonetaryAmount",
+      "Offer",
+      "OfferShippingDetails",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress",
+      "Product",
+      "QuantitativeValue",
+      "ShippingDeliveryTime"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": {
+      "ratingValue": "3.0",
+      "reviewCount": 2
+     },
+     "images_main": 28,
+     "images_main_empty_alt": 0,
+     "links_out_internal_main": 27
+    },
+    "rendered_source": "weekly/baseline_raw/live_2026-10-16/*.html (16.10.2026 00:26 UTC)",
+    "admin": {
+     "state": "now_2026-10-16",
+     "source": "Admin read /tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/creatina/weekly/baseline_raw/admin_now_2026-10-16.json",
+     "product_title_H1": "Creatină monohidrat micronizată – fără aromă, 300 g",
+     "template_suffix": "creatina2",
+     "seo_title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "seo_title_len": 58,
+     "seo_description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient.",
+     "seo_description_len": 144,
+     "description_words": 773,
+     "description_headings": {
+      "h2": 3,
+      "h3": 1
+     },
+     "metafield_words": {
+      "beneficii_cheie": 158,
+      "despre_produs": 248,
+      "ingrediente": 171,
+      "detalii_produs": 271,
+      "seo_produs": 916,
+      "short_description": 40
+     },
+     "text_words_total": 2577,
+     "seo_produs_headings": {
+      "h2": 1,
+      "h3": 8
+     },
+     "seo_produs_questions": 7,
+     "image_alts": [
+      "Creatină monohidrată micronizată fără aromă Prime Supplements, tub alb de 300 g cu 60 de porții de 5 g, din față",
+      "Spatele tubului de creatină monohidrată micronizată 300 g: mod de administrare, ingrediente și păstrare, în română și engleză",
+      "Eticheta laterală a creatinei micronizate 300 g: 5000 mg de creatină monohidrată per porție de 5 g, 60 de porții, alergeni"
+     ],
+     "images": 3,
+     "images_without_alt": 0,
+     "search_boost": [
+      "creatina micronizata",
+      "creatină micronizată",
+      "creatina monohidrata micronizata",
+      "creatina fara aroma",
+      "creatină fără aromă",
+      "creatina fara aroma 300g",
+      "creatina 300g",
+      "creatina monohidrata 300g",
+      "creatine monohydrate",
+      "creatina pudra"
+     ]
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 10,
+     "links": 46,
+     "article_handles": [
+      "ce-este-creatina",
+      "creatina-pastile-sau-praf",
+      "creatina-si-proteina-impreuna",
+      "creatina-si-retentia-de-apa",
+      "cu-ce-se-combina-creatina",
+      "cum-alegi-creatina",
+      "cum-combini-batoanele-proteice-cu-creatina",
+      "cum-se-ia-creatina",
+      "glutamina-combinatii",
+      "in-cat-timp-face-efect-creatina"
+     ],
+     "homepage": {
+      "homepage_links": 0,
+      "header_nav_links": 0
+     }
+    }
+   },
+   "creatina": {
+    "rendered": {
+     "title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+     "title_len": 58,
+     "meta_description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g.",
+     "meta_description_len": 153,
+     "canonical": "https://primesupplements.ro/collections/creatina",
+     "robots_meta": [],
+     "h1": [
+      "Creatină"
+     ],
+     "h2_count": 2,
+     "h2_unique_count": 2,
+     "h2_unique": [
+      "Alte categorii",
+      "Ghiduri și sfaturi utile"
+     ],
+     "h3_count": 0,
+     "h3_unique_count": 0,
+     "h3_unique": [],
+     "words_main": 562,
+     "words_main_unique": 448,
+     "faq_visible": 0,
+     "faq_visible_questions": [],
+     "faq_jsonld": 0,
+     "jsonld_types": [
+      "BreadcrumbList",
+      "CollectionPage",
+      "ContactPoint",
+      "Country",
+      "ImageObject",
+      "ItemList",
+      "ListItem",
+      "OnlineStore",
+      "Organization",
+      "Person",
+      "PostalAddress"
+     ],
+     "jsonld_parse_errors": 0,
+     "aggregate_rating": null,
+     "images_main": 15,
+     "images_main_empty_alt": 0,
+     "links_out_internal_main": 20
+    },
+    "rendered_source": "weekly/baseline_raw/live_2026-10-16/*.html (16.10.2026 00:26 UTC)",
+    "admin": {
+     "state": "now_2026-10-16",
+     "source": "Admin read /tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/creatina/weekly/baseline_raw/admin_now_2026-10-16.json",
+     "title_H1": "Creatină",
+     "seo_title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+     "seo_title_len": 58,
+     "seo_description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g.",
+     "seo_description_len": 153,
+     "description_words": 81,
+     "description_links": [
+      "/products/creatina-creapure",
+      "/products/creatina-monohidrat-micronized-300g-fara-aroma",
+      "/products/creatine-ready-to-go-plicuri-prime-supplements"
+     ],
+     "image_alt": "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față",
+     "hub_articles": [
+      "cum-se-ia-creatina",
+      "creatina-pastile-sau-praf"
+     ]
+    },
+    "internal_links_in": {
+     "published_articles_in_blog": 126,
+     "articles_linking": 14,
+     "links": 20,
+     "article_handles": [
+      "ce-este-creatina",
+      "creatina-creapure-ghid",
+      "creatina-dupa-40-de-ani",
+      "creatina-pastile-sau-praf",
+      "creatina-si-proteina-impreuna",
+      "creatina-si-retentia-de-apa",
+      "cu-ce-se-combina-creatina",
+      "cum-alegi-creatina",
+      "cum-combini-bcaa",
+      "cum-se-ia-creatina",
+      "in-cat-timp-face-efect-creatina",
+      "pauza-de-creatina",
+      "plicuri-creatina-ready-to-go",
+      "pre-workout-cu-creatina"
+     ],
+     "homepage": {
+      "homepage_links": 2,
+      "header_nav_links": 2
+     }
+    }
+   },
+   "_ready_to_go_links_in": {
+    "articles": 4,
+    "links": 29,
+    "article_handles": [
+     "creatina-pastile-sau-praf",
+     "cu-ce-se-combina-creatina",
+     "cum-se-ia-creatina",
+     "plicuri-creatina-ready-to-go"
+    ]
+   }
+  }
+ },
+ "visibility": {
+  "caveat": "INDICATIV. WebSearch (mode extended) este un index web geolocalizat în SUA, nu Google.ro; „poziția” = ordinea în lista întoarsă (9–10 rezultate), nu poziția exactă din Google. Pozițiile reale se citesc doar în Google Search Console (neconectat).",
+  "study_15_10": {
+   "source": [
+    "creatina/serp_comercial.md (22 de interogări comerciale, 15.10.2026)",
+    "creatina/serp_informational.md (32 de interogări informaționale, 15.10.2026)"
+   ],
+   "method": "WebSearch mode extended, 1–3 formulări per interogare; Google.ro direct nu a putut fi citit (shell JavaScript).",
+   "summary": "Produsele A/B și colecția nu apăreau în top 10 pe niciuna dintre cele 16 interogări comerciale de bază. Apariții: A #10 la „creatina creapure 300g lei” (cu titlul vechi), A #5 la „creapure ce inseamna”, A #1 la „creatina creapure pareri”; articole de blog pe mai multe interogări informaționale.",
+   "commercial": [
+    {
+     "query": "creatina",
+     "present": false,
+     "note": "#5 doar în rularea filtrată pe domenii .ro, cu /blogs/news/ce-este-creatina"
+    },
+    {
+     "query": "creatină",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrata",
+     "present": false
+    },
+    {
+     "query": "creatina creapure",
+     "present": true,
+     "position": 10,
+     "url": "/products/creatina-creapure",
+     "note": "doar la formularea „creatina creapure 300g lei”; snippet cu titlul vechi „Creatina Creapure - Supliment pentru Performanță Fizică”"
+    },
+    {
+     "query": "creatina micronizata",
+     "present": false
+    },
+    {
+     "query": "creatina pudra",
+     "present": false
+    },
+    {
+     "query": "creatina 300g",
+     "present": false
+    },
+    {
+     "query": "creatina 500g",
+     "present": false
+    },
+    {
+     "query": "creatina fara aroma",
+     "present": false
+    },
+    {
+     "query": "cea mai buna creatina",
+     "present": false
+    },
+    {
+     "query": "creatina pret",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrat micronizata",
+     "present": false
+    },
+    {
+     "query": "creapure romania",
+     "present": false,
+     "note": "indirect: pagina „buy here” a mărcii Creapure® listează Prime Supplements"
+    },
+    {
+     "query": "creatina magazin online",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrata pura",
+     "present": false
+    },
+    {
+     "query": "creatina 100% monohidrat",
+     "present": false
+    },
+    {
+     "query": "creatina micronizata vs monohidrata",
+     "present": true,
+     "position": "7, 8",
+     "url": "2 articole vechi de blog (micronized-creatine-monohydrate-plafonare-..., creatine-gummies-...-2)"
+    },
+    {
+     "query": "creapure vs creatina monohidrata obisnuita",
+     "present": false
+    },
+    {
+     "query": "cum se ia / cand se ia creatina",
+     "present": false
+    },
+    {
+     "query": "cata creatina pe zi / faza de incarcare",
+     "present": true,
+     "position": 5,
+     "url": "/blogs/news/cum-se-ia-creatina"
+    },
+    {
+     "query": "creatina pentru femei",
+     "present": false
+    },
+    {
+     "query": "creatina ingrasa / retine apa / efecte secundare / rinichi",
+     "present": false
+    }
+   ],
+   "informational": [
+    {
+     "query": "cum se ia creatina",
+     "present": true,
+     "position": 6,
+     "url": "/blogs/news/cum-se-ia-creatina"
+    },
+    {
+     "query": "creatina beneficii",
+     "present": false
+    },
+    {
+     "query": "creatina efecte secundare",
+     "present": false
+    },
+    {
+     "query": "creatina inainte sau dupa antrenament",
+     "present": false,
+     "note": "a doua formulare „cand se ia creatina”: #7 cu un articol vechi (creatine-monohydrate-cand-sa-iei-creatina-dimineata)"
+    },
+    {
+     "query": "creatina incarcare",
+     "present": false
+    },
+    {
+     "query": "creatina pentru femei",
+     "present": false
+    },
+    {
+     "query": "creatina si apa retinuta",
+     "present": false,
+     "note": "a doua formulare „creatina retine apa in corp”: #5 /blogs/news/creatina-si-retentia-de-apa"
+    },
+    {
+     "query": "creatina rinichi",
+     "present": false
+    },
+    {
+     "query": "cat timp se ia creatina",
+     "present": true,
+     "position": "6, 7",
+     "url": "/blogs/news/cum-se-ia-creatina, /blogs/news/in-cat-timp-face-efect-creatina",
+     "note": "„in cat timp face efect creatina”: #2 și #4"
+    },
+    {
+     "query": "creapure vs creatina monohidrata",
+     "present": false
+    },
+    {
+     "query": "creatina micronizata vs monohidrata",
+     "present": false,
+     "note": "„ce inseamna creatina micronizata”: #5 (articol vechi) și #8 /blogs/news/ce-este-creatina"
+    },
+    {
+     "query": "pauza creatina",
+     "present": true,
+     "position": 1,
+     "url": "/blogs/news/pauza-de-creatina"
+    },
+    {
+     "query": "creatina cu ce se amesteca",
+     "present": true,
+     "position": "5, 7",
+     "url": "/blogs/news/cu-ce-se-combina-creatina, /blogs/news/creatina-si-proteina-impreuna"
+    },
+    {
+     "query": "creatina pe zi cat",
+     "present": false
+    },
+    {
+     "query": "creatina ce este",
+     "present": false
+    },
+    {
+     "query": "creatina la ce ajuta",
+     "present": false
+    },
+    {
+     "query": "creatina contraindicatii",
+     "present": false
+    },
+    {
+     "query": "creatina efecte negative",
+     "present": false
+    },
+    {
+     "query": "creatina ingrasa",
+     "present": false
+    },
+    {
+     "query": "creatina in zilele fara antrenament",
+     "present": false
+    },
+    {
+     "query": "creatina dimineata sau seara",
+     "present": true,
+     "position": "2, 3, 5, 6",
+     "url": "4 articole vechi (canibalizare internă)"
+    },
+    {
+     "query": "creatina cade parul",
+     "present": false
+    },
+    {
+     "query": "cea mai buna creatina",
+     "present": false
+    },
+    {
+     "query": "creatina pret",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrata fara aroma 300g",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrata pudra 300g pret",
+     "present": false
+    },
+    {
+     "query": "creatina micronizata",
+     "present": false
+    },
+    {
+     "query": "creapure ce inseamna",
+     "present": true,
+     "position": 5,
+     "url": "/products/creatina-creapure"
+    },
+    {
+     "query": "creatina creapure pareri",
+     "present": true,
+     "position": 1,
+     "url": "/products/creatina-creapure"
+    },
+    {
+     "query": "creapure creatina romania",
+     "present": false
+    },
+    {
+     "query": "creatina creapure micronizata",
+     "present": false
+    },
+    {
+     "query": "creatina monohidrata pareri forum",
+     "present": false
+    }
+   ]
+  },
+  "check_16_10": {
+   "date_utc": "2026-10-16T00:30Z",
+   "method": "WebSearch mode extended, exact textul de mai jos, o singură rulare per interogare. Aceleași 10 interogări în fiecare săptămână.",
+   "queries": [
+    {
+     "n": 1,
+     "query": "creatină",
+     "target": "colecția",
+     "present": false,
+     "top3": [
+      "ro.wikipedia.org",
+      "reginamaria.ro (articol)",
+      "catena.ro (articol)"
+     ]
+    },
+    {
+     "n": 2,
+     "query": "creatină monohidrată",
+     "target": "colecția",
+     "present": false,
+     "top3": [
+      "comenzi.farmaciatei.ro (căutare)",
+      "reginamaria.ro (articol)",
+      "myprotein.ro (categorie)"
+     ]
+    },
+    {
+     "n": 3,
+     "query": "creatină Creapure",
+     "target": "produs A",
+     "present": false,
+     "top3": [
+      "decathlon.ro (produs)",
+      "gymbeam.ro (produs)",
+      "pronutrition.ro (produs)"
+     ]
+    },
+    {
+     "n": 4,
+     "query": "creatină Creapure 500 g preț",
+     "target": "produs A",
+     "present": false,
+     "top3": [
+      "decathlon.ro (produs)",
+      "drmax.ro (produs)",
+      "amazon.de"
+     ]
+    },
+    {
+     "n": 5,
+     "query": "creapure România",
+     "target": "produs A",
+     "present": false,
+     "note": "indirect: #3 pagina „buy here” a mărcii Creapure® listează Prime Supplements",
+     "top3": [
+      "decathlon.ro (produs)",
+      "geniusnutrition.ro (produs)",
+      "creapure.com/en/buy-here"
+     ]
+    },
+    {
+     "n": 6,
+     "query": "creatină monohidrată micronizată",
+     "target": "produs B",
+     "present": true,
+     "position": 8,
+     "url": "/products/creatina-monohidrat-micronized-300g-fara-aroma",
+     "indexed_title": "Creatina Monohidrat Micronized 300g (Fără Aromă)",
+     "note": "titlul și textul din index sunt cele VECHI (12.10), nu cele de acum"
+    },
+    {
+     "n": 7,
+     "query": "creatină fără aromă 300 g",
+     "target": "produs B",
+     "present": false,
+     "top3": [
+      "drmax.ro (produs)",
+      "comenzi.farmaciatei.ro (produs)",
+      "comenzi.farmaciatei.ro (produs)"
+     ]
+    },
+    {
+     "n": 8,
+     "query": "creatină preț",
+     "target": "colecția",
+     "present": false,
+     "top3": [
+      "comenzi.farmaciatei.ro (articol)",
+      "comenzi.farmaciatei.ro (căutare)",
+      "comenzi.farmaciatei.ro (categorie)"
+     ]
+    },
+    {
+     "n": 9,
+     "query": "cea mai bună creatină",
+     "target": "blog / colecția",
+     "present": false,
+     "top3": [
+      "reginamaria.ro (articol)",
+      "gym-stack.ro (articol)",
+      "zitamine.ro (articol)"
+     ]
+    },
+    {
+     "n": 10,
+     "query": "cum se ia creatina",
+     "target": "blog",
+     "present": true,
+     "position": 7,
+     "url": "/blogs/news/cum-se-ia-creatina",
+     "indexed_title": "Cum se ia creatina: doza pe zi și momentul optim"
+    }
+   ],
+   "score": {
+    "present": 2,
+    "of": 10,
+    "product_or_collection_present": 1
+   }
+  },
+  "index_check_16_10": {
+   "query": "site:primesupplements.ro creatina",
+   "result_count_returned": 9,
+   "pages_indexed": {
+    "/products/creatina-creapure": {
+     "indexed": true,
+     "indexed_title": "Creatina Creapure - Supliment pentru Performanță Fizică",
+     "current_title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+     "fresh": false
+    },
+    "/products/creatina-monohidrat-micronized-300g-fara-aroma": {
+     "indexed": true,
+     "indexed_title": "Creatina Monohidrat Micronized 300g (Fără Aromă)",
+     "current_title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+     "fresh": false,
+     "seen_in": "interogarea „primesupplements.ro creatină Creapure monohidrată 300/500 g”"
+    },
+    "/collections/creatina": {
+     "indexed": true,
+     "indexed_title": "Creatina monohidrat pentru forță și performanță",
+     "current_title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+     "fresh": false,
+     "seen_in": "interogarea „primesupplements.ro creatină Creapure monohidrată 300/500 g”"
+    }
+   },
+   "old_urls_still_indexed": [
+    "/blogs/news/creatine-ready-to-go-plicuri-prime-supplements-supplements-for-seasonal-welln",
+    "/blogs/news/creatina-si-volumizarea-musculara-cum-sa-stii-daca-creatina",
+    "/blogs/news/creatina-si-volumizarea-musculara-stagnarea-fortei-cand-sa-ceri",
+    "/blogs/news/creatina-si-volumizarea-musculara-ce-iau-expertii-forta-mituri"
+   ],
+   "current_articles_indexed": [
+    "/blogs/news/pre-workout-cu-creatina",
+    "/blogs/news/in-cat-timp-face-efect-creatina",
+    "/blogs/news/ce-este-creatina",
+    "/blogs/news/cum-se-ia-creatina",
+    "/blogs/news/cu-ce-se-combina-creatina"
+   ],
+   "reading": "Paginile sunt indexate, dar cu titlurile de dinainte de 13.10: indexul nu a preluat încă nici prima trecere SEO, nici programul creatină. Primul semn de progres = titlurile noi în acest test."
+  },
+  "other_observations_16_10": [
+   "/pages/creatina-custom (folosită ca tab pe produsul B) răspunde 200, fără meta robots noindex, și e în sitemap_pages → pagină subțire indexabilă pe „creatină monohidrată micronizată” (recomandare din own_audit: ascunde-o din căutare).",
+   "Un revânzător (gym-stack.ro) are fișă proprie pentru Creapure® 500 g Prime Supplements și apare la interogarea cu numele mărcii.",
+   "sitemap_products: ambele produse prezente, lastmod 2026-10-16T03:35+03:00."
+  ]
+ },
+ "not_measurable": [
+  "Poziția exactă în Google.ro pe fiecare căutare, afișări (impressions), clicuri organice și CTR: Google Search Console nu e conectat.",
+  "Căutarea web disponibilă aici este din SUA; rezultatele pentru textul în română sunt indicative (alt index, altă ordine decât Google.ro).",
+  "Sesiunile „search” din Shopify nu despart organicul de reclamele Google fără UTM și de Google Shopping gratuit.",
+  "Vânzări atribuite exact paginii (last-click pe pagină): Shopify dă sursa comenzii (order_referrer_source), nu pagina de intrare a comenzii, în tabelul sales.",
+  "Volumul de căutare al cuvintelor-cheie (nu există unealtă de volum conectată).",
+  "Sesiunile cu vizite foarte mici (sub ~10 pe săptămână pe pagină) variază mult de la o săptămână la alta; compară cu intervalul min–max de mai jos, nu cu o singură săptămână."
+ ]
+}

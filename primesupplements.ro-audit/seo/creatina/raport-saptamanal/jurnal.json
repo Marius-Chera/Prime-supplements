@@ -1,6 +1,37 @@
 [
-  {"data": "2026-10-13", "pagina": "Articole despre creatină", "ce": "Articolele dublate despre creatină au fost comasate și redenumite, cu redirecționare 301 de la adresele vechi la cele noi."},
-  {"data": "2026-10-15", "pagina": "Colecția Creatină", "ce": "Titlu și descriere SEO noi, text nou pe pagina colecției și câmpuri structurate actualizate."},
-  {"data": "2026-10-15", "pagina": "Creatină Creapure®", "ce": "Descriere nouă, meta descriere, beneficii cheie, ingrediente, detalii produs, cuvinte de căutare în magazin și texte alternative la poze."},
-  {"data": "2026-10-15", "pagina": "Creatină micronizată 300 g", "ce": "Descriere nouă, meta descriere, beneficii cheie, ingrediente, detalii produs, cuvinte de căutare în magazin și texte alternative la cele 3 poze."}
+ {
+  "data": "2026-10-13",
+  "pagina": "Articole despre creatină",
+  "ce": "Articolele dublate despre creatină au fost comasate și redenumite, cu redirecționare 301 de la adresele vechi la cele noi."
+ },
+ {
+  "data": "2026-10-15",
+  "pagina": "Colecția Creatină",
+  "ce": "Titlu și descriere SEO noi, text nou pe pagina colecției și câmpuri structurate actualizate."
+ },
+ {
+  "data": "2026-10-15",
+  "pagina": "Creatină Creapure®",
+  "ce": "Descriere nouă, meta descriere, beneficii cheie, ingrediente, detalii produs, cuvinte de căutare în magazin și texte alternative la poze."
+ },
+ {
+  "data": "2026-10-15",
+  "pagina": "Creatină micronizată 300 g",
+  "ce": "Descriere nouă, meta descriere, beneficii cheie, ingrediente, detalii produs, cuvinte de căutare în magazin și texte alternative la cele 3 poze."
+ },
+ {
+  "data": "2026-10-16",
+  "pagina": "Colecția Creatină",
+  "ce": "Cardurile de ghiduri arată doar 2 articole verificate („Cum se ia creatina: doza de pe etichetă” și „Creatina: pastile sau praf”), cu rezumate și texte alternative noi; textul SEO vechi cu afirmații de efect a fost golit."
+ },
+ {
+  "data": "2026-10-16",
+  "pagina": "Creatină micronizată 300 g",
+  "ce": "Scoase etichetele greșite „Vegan” și „Vegetarian” din preferințele alimentare ale produsului."
+ },
+ {
+  "data": "2026-10-16",
+  "pagina": "Articole despre creatină",
+  "ce": "9 articole rescrise după etichete și regulile UE: doar mențiunea autorizată pentru creatină, cu condiția de 3 g pe zi; 8 linkuri interne noi spre produse și colecție; 6 imagini cu ambalaje care nu sunt ale noastre înlocuite cu pozele reale; meta descrieri noi."
+ }
 ]

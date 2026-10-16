@@ -1,0 +1,15 @@
+{
+ "id": "gid://shopify/Article/1024297009527",
+ "handle": "glutamina-combinatii",
+ "title": "Glutamina: combinații cu creatină, proteine și BCAA",
+ "title_tag": {
+  "id": "gid://shopify/Metafield/200001739489655",
+  "value": "Glutamina: combinații cu creatină, proteine și BCAA",
+  "type": "single_line_text_field"
+ },
+ "description_tag": {
+  "id": "gid://shopify/Metafield/200001739522423",
+  "value": "Cu ce merge glutamina (creatină sau BCAA), când se ia, ce mituri și contraindicații există și cum arată protocolul de recuperare pe vârste. Vezi ghidul.",
+  "type": "single_line_text_field"
+ }
+}

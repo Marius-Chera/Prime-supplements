@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1023859458423",
+ "handle": "aminoacizi-esentiali-ce-sunt",
+ "field": "metafield-global.description_tag",
+ "value": "Ce arată cercetarea despre EAA și refacerea musculară: rolul leucinei, strategii pe vârste (20, 30, 45+) și combinarea cu carbohidrați rapizi. Vezi ghidul.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-13T09:13:06Z (unchanged since export)",
+ "updatedAt": "2026-10-13T09:13:06Z",
+ "isPublished": true,
+ "publishedAt": "2026-05-12T05:30:16Z",
+ "metafield_id": "gid://shopify/Metafield/197952606175607",
+ "type": "single_line_text_field"
+}

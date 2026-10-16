@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1024235962743",
+ "handle": "taurina-doza-si-cand-se-ia",
+ "field": "metafield-global.description_tag",
+ "value": "Dozaj incorect, moment nepotrivit și alte greșeli cu taurina: intervalul 500-2000 mg pe zi, reglarea calciului celular și contraindicațiile L-glutaminei.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-13T09:14:10Z (unchanged since export)",
+ "updatedAt": "2026-10-13T09:14:10Z",
+ "isPublished": true,
+ "publishedAt": "2026-06-15T09:30:12Z",
+ "metafield_id": "gid://shopify/Metafield/199614555980151",
+ "type": "single_line_text_field"
+}

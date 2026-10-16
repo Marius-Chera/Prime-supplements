@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024482935159",
+ "handle": "beta-alanina-cum-sa-citesti-eticheta-suplimente",
+ "field": "description_tag",
+ "value": "Doza corectă de beta alanină, citrulină pură vs amestecuri diluate și rolul citicolinei pentru focus seara. Ce verifici pe etichetă înainte să cumperi.",
+ "isPublished": true,
+ "publishedAt": "2026-07-13T02:40:09Z",
+ "updatedAt": "2026-10-13T09:13:07Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/201047533126007",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

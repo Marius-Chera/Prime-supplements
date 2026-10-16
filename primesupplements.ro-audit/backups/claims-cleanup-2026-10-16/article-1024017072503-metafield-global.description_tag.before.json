@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024017072503",
+ "handle": "cand-se-ia-vitamina-d3-k2",
+ "field": "description_tag",
+ "value": "Momentul potrivit pentru vitamina D3+K2: de ce se ia cu o masă cu grăsimi sănătoase, de preferat în prima parte a zilei, și ce rol are magneziul L-treonat.",
+ "isPublished": true,
+ "publishedAt": "2026-05-25T07:10:09Z",
+ "updatedAt": "2026-10-13T09:13:08Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198605040189815",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

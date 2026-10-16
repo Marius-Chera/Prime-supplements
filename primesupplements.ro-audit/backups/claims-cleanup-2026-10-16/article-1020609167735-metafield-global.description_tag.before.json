@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1020609167735",
+ "handle": "ce-este-un-pre-workout-fara-cofeina",
+ "field": "description_tag",
+ "value": "Un pre-workout fără cofeină susține performanța fără stimulente. Cum funcționează Nitrox NO-STIM, pentru cine este potrivit și de ce este ideal seara.",
+ "isPublished": true,
+ "publishedAt": "2025-05-26T06:41:20Z",
+ "updatedAt": "2026-10-13T09:13:08Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/182191425159543",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

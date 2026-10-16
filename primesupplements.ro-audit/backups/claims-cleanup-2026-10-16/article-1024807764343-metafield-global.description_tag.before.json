@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024807764343",
+ "handle": "izolat-vs-concentrat-proteic",
+ "field": "description_tag",
+ "value": "Izolat sau concentrat proteic: diferențe de puritate, lactoză, absorbție și preț, plus strategia de protein stacking pentru recuperare. Vezi detalii.",
+ "isPublished": true,
+ "publishedAt": "2026-08-19T11:51:40Z",
+ "updatedAt": "2026-10-13T09:13:40Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/202942110368119",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

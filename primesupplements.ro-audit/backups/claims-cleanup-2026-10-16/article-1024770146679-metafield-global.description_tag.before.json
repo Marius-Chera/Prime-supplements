@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024770146679",
+ "handle": "detox-ficat-pentru-sportivi",
+ "field": "description_tag",
+ "value": "De ce dieta singură nu ajunge, mitul detoxului în 3 zile și cum combini silimarina cu alimente integrale și antioxidanți la momentul potrivit. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-08-13T23:30:04Z",
+ "updatedAt": "2026-10-13T09:13:39Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/202766329938295",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

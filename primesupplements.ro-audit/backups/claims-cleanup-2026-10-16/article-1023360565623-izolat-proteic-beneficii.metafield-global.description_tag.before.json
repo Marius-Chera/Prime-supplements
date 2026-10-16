@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1023360565623",
+ "handle": "izolat-proteic-beneficii",
+ "field": "metafield-global.description_tag",
+ "value": "Ghid pentru începători despre izolatul proteic: puritate de peste 90%, absorbție rapidă după antrenament și nevoile de proteine la 20 vs 50 de ani.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-13T09:13:40Z (unchanged since export)",
+ "updatedAt": "2026-10-13T09:13:40Z",
+ "isPublished": true,
+ "publishedAt": "2026-03-18T09:25:05Z",
+ "metafield_id": "gid://shopify/Metafield/194323351929207",
+ "type": "single_line_text_field"
+}

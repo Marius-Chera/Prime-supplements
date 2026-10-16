@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023998460279",
+ "handle": "cum-alegi-ovazul-instant",
+ "field": "description_tag",
+ "value": "Ovăz instant ieftin, cu zahăr adăugat, vs. premium micronizat: indice glicemic, beta-glucan și preparare fără gătit. Ce alegi pentru un mic dejun rapid.",
+ "isPublished": true,
+ "publishedAt": "2026-05-22T06:50:14Z",
+ "updatedAt": "2026-10-16T03:24:15Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198479906111863",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

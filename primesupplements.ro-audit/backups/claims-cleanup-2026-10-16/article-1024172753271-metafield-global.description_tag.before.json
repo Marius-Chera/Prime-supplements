@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024172753271",
+ "handle": "cum-alegi-un-arzator-de-grasimi",
+ "field": "description_tag",
+ "value": "Protocol pas cu pas ca să alegi un arzător de grăsimi: acetyl L-carnitină, combinația termogenic + diuretic natural și avantajul pachetelor. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-06-06T08:20:20Z",
+ "updatedAt": "2026-10-13T09:13:38Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/199237121999223",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

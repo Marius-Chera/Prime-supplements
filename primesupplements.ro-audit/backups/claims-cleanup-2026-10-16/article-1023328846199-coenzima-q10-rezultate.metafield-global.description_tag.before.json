@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1023328846199",
+ "handle": "coenzima-q10-rezultate",
+ "field": "metafield-global.description_tag",
+ "value": "La ce rezultate te poți aștepta de la coenzima Q10, rolul ei în producția de ATP, doza de 100 mg, pauzele în administrare și cum alegi un supliment bun.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-13T09:13:09Z (unchanged since export)",
+ "updatedAt": "2026-10-13T09:13:09Z",
+ "isPublished": true,
+ "publishedAt": "2026-03-15T00:33:28Z",
+ "metafield_id": "gid://shopify/Metafield/194141758685559",
+ "type": "single_line_text_field"
+}

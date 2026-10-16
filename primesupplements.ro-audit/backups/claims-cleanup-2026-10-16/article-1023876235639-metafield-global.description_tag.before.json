@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023876235639",
+ "handle": "alpinia-galanga-beneficii",
+ "field": "description_tag",
+ "value": "Energie fără cofeină: Alpinia galanga pentru focus, L-citrulină pentru pompare, piperină pentru absorbție, plus bugetul unui începător. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-05-14T02:30:02Z",
+ "updatedAt": "2026-10-13T09:13:06Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198051299164535",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

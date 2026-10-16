@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023329403255",
+ "handle": "citicolina-ghid-pre-workout-fara-cafeina",
+ "field": "description_tag",
+ "value": "Ce este citicolina și ce rol are în pre-workout-urile fără cafeină: dozaj de 500 mg, L-citrulină și sfeclă roșie pentru oxid nitric, cafeină vs no-stim.",
+ "isPublished": true,
+ "publishedAt": "2026-03-15T02:16:33Z",
+ "updatedAt": "2026-10-13T09:13:09Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/194143876645239",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

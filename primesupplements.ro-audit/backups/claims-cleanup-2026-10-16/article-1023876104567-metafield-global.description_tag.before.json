@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023876104567",
+ "handle": "nac-600-mg-cum-sa-combini-n-acetilcisteina",
+ "field": "description_tag",
+ "value": "Ghid de stivuire pentru NAC 600 mg: de ce N-acetilcisteina este precursorul glutationului și cum o combini cu vitamina C și seleniu. Vezi detalii.",
+ "isPublished": true,
+ "publishedAt": "2026-05-14T01:10:01Z",
+ "updatedAt": "2026-10-13T09:14:09Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198049189757303",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

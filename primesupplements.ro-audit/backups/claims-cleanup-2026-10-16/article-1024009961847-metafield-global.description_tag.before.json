@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024009961847",
+ "handle": "cand-se-ia-glutamina",
+ "field": "description_tag",
+ "value": "Semnele unui aport insuficient de glutamină, legătura cu sănătatea stomacului, ce se întâmplă în 30 de zile și când se ia pentru rezultate. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-05-23T07:40:03Z",
+ "updatedAt": "2026-10-13T09:13:08Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198528020808055",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

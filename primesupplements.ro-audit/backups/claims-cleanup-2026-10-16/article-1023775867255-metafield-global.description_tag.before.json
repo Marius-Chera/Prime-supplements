@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023775867255",
+ "handle": "gainer-sau-proteina",
+ "field": "description_tag",
+ "value": "Calculează necesarul de proteine cu metoda 30-30-40, află când are sens un weight gainer și de ce contează concentrația proteică (82% la Prime Whey).",
+ "isPublished": true,
+ "publishedAt": "2026-05-01T12:30:04Z",
+ "updatedAt": "2026-10-16T02:47:42Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/197440318112119",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

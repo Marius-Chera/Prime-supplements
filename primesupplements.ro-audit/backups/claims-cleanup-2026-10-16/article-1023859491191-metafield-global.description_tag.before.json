@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023859491191",
+ "handle": "magneziu-bisglicinat-rezultate-30-de-zile",
+ "field": "description_tag",
+ "value": "30 de zile de magneziu bisglicinat: biodisponibilitate față de oxid, când apar de obicei primele efecte (7-10 zile) și de ce nu vezi rezultate imediat.",
+ "isPublished": true,
+ "publishedAt": "2026-05-12T05:30:21Z",
+ "updatedAt": "2026-10-13T09:13:41Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/197952609517943",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

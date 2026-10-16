@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023998394743",
+ "handle": "combinatii-arzatoare-de-grasimi",
+ "field": "description_tag",
+ "value": "Cum combini L-carnitina cu termogenice și diuretice naturale: protocol cu L-Carnitine 3000 și Thermo CORE, păreri de forum, contraindicații. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-05-22T06:50:03Z",
+ "updatedAt": "2026-10-13T09:13:09Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/198479902146935",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

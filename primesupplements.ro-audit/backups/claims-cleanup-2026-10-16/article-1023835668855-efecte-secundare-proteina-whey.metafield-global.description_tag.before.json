@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1023835668855",
+ "handle": "efecte-secundare-proteina-whey",
+ "field": "metafield-global.description_tag",
+ "value": "De ce apare balonarea după proteine (lactoză, concentrate ieftine) și când alegi un muscle gainer sau un izolat din zer cu peste 90% puritate. Vezi ghidul.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-16T02:50:20Z (unchanged since export)",
+ "updatedAt": "2026-10-16T02:50:20Z",
+ "isPublished": true,
+ "publishedAt": "2026-05-08T12:30:02Z",
+ "metafield_id": "gid://shopify/Metafield/197762933096823",
+ "type": "single_line_text_field"
+}

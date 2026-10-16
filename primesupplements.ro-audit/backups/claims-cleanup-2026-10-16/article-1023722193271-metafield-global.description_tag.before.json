@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023722193271",
+ "handle": "proteina-din-zer-vs-vegetala",
+ "field": "description_tag",
+ "value": "Izolat din zer sau proteine vegetale? Comparăm biodisponibilitatea, leucina, viteza de absorbție și concentrația de 82% a Prime Whey. Vezi detalii.",
+ "isPublished": true,
+ "publishedAt": "2026-04-24T12:30:04Z",
+ "updatedAt": "2026-10-13T09:14:10Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/197097765470583",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

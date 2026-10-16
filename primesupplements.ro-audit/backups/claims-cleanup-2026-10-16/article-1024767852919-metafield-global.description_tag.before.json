@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024767852919",
+ "handle": "bcaa-doza-si-cand-se-iau",
+ "field": "description_tag",
+ "value": "Pragul de L-leucină de 4-5 g pentru activarea mTOR, sinergia BCAA + L-glutamină, dozarea corectă și raportul leucină-valină-izoleucină. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-08-13T16:10:16Z",
+ "updatedAt": "2026-10-13T09:13:07Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/202759017431415",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

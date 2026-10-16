@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1023756435831",
+ "handle": "izolat-proteic-pentru-slabit",
+ "field": "description_tag",
+ "value": "Protocol de 8 săptămâni cu izolat proteic, etapă cu etapă: adaptare, definire, rezultate și cum alegi un izolat cu puritate de peste 90%. Vezi ghidul.",
+ "isPublished": true,
+ "publishedAt": "2026-04-29T10:12:09Z",
+ "updatedAt": "2026-10-13T09:13:40Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/197268687225207",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

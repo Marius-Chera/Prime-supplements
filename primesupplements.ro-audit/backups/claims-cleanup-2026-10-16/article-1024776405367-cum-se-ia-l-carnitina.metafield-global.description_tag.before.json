@@ -1,0 +1,12 @@
+{
+ "id": "gid://shopify/Article/1024776405367",
+ "handle": "cum-se-ia-l-carnitina",
+ "field": "metafield-global.description_tag",
+ "value": "Cum citești eticheta unui supliment cu L-carnitină, de ce contează doza pură de 1000 mg, ce aditivi eviți și cum o combini cu omega 3 6 9. Vezi ghidul.",
+ "source": "live store state: bulk export 2026-10-16T03:34Z; live updatedAt re-checked 2026-10-16T04:13Z = 2026-10-13T09:13:38Z (unchanged since export)",
+ "updatedAt": "2026-10-13T09:13:38Z",
+ "isPublished": true,
+ "publishedAt": "2026-08-14T16:30:04Z",
+ "metafield_id": "gid://shopify/Metafield/202788169843063",
+ "type": "single_line_text_field"
+}

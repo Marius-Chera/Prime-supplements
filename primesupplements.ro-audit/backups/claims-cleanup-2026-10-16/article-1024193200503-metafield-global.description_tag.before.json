@@ -1,0 +1,14 @@
+{
+ "article_id": "gid://shopify/Article/1024193200503",
+ "handle": "carbohidrati-intra-workout-rezultate",
+ "field": "description_tag",
+ "value": "90 de zile de carbohidrați intra-workout: Cluster Dextrin, creatină și citrulină pentru intensitate constantă, fără disconfort gastric. Vezi protocolul.",
+ "isPublished": true,
+ "publishedAt": "2026-06-09T11:20:04Z",
+ "updatedAt": "2026-10-16T01:53:14Z",
+ "captured": "2026-10-16 from bulk operation gid://shopify/BulkOperation/11909829460343 (live read before write)",
+ "metafield_id": "gid://shopify/Metafield/199383463068023",
+ "type": "single_line_text_field",
+ "namespace": "global",
+ "key": "description_tag"
+}

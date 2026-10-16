@@ -300,3 +300,20 @@ Toate schimbările din automatizări le faci tu, în aplicație. Pentru fiecare 
 | Un singur șablon, dark mode, alt text | Folosim șablonul „Prime · Master 2026” din săptămâna 1. Testul de dark mode îl facem în luna a 2-a. |
 | Segmentare | O fac eu, prin API. |
 | Teste A/B | Facem un singur test cumulat: subiectul newsletterului, împărțit 50/50 timp de 8 săptămâni. La volumul nostru, alte teste ar arăta doar zgomot. |
+
+## Stare aplicată (16.10.2026, prin extensia Chrome)
+
+| Automatizare | Status |
+|---|---|
+| Welcome series 2 | Running |
+| Cart abandonment | Running |
+| Cross sell | Paused (16.10; 47 contacte în curs au ieșit din flux) |
+| Product follow-up | Paused (16.10; 2 contacte în curs au ieșit din flux) |
+| Cart abandonment similar products | Paused |
+| Inactivity behavior | Paused |
+| Bounce follow-up | Paused |
+| Remind customers to reorder (x2), Automatizare cupon mail | șterse de proprietar |
+
+Notă: „Stop” în theMarketer scoate contactele aflate în flux (nu există opțiune de păstrare).
+Setări: smart sending 24h, SMS quiet hours 20:00–10:00, automated scheduling OFF.
+Rutina „Newsletter blog duminică” dezactivată (dubla newsletterul din theMarketer de duminică 18:00).

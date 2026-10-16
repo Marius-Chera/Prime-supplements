@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-16",
+  "plan": "SETARI-VANZARI-2026-10-16.md §4 A3, A4",
+  "method": "pageUpdate (body only) via Shopify Admin GraphQL",
+  "pages": [
+    {
+      "handle": "politica-de-confidentialitate",
+      "id": "gid://shopify/Page/691734774135",
+      "item": "A3",
+      "updatedAt_before": "2026-10-12T22:44:48Z",
+      "updatedAt_after": "2026-10-16T04:10:25Z",
+      "sha256_before": "4bdf4dee069222513ba631fd4055e31acf3263f697e500994e02130880783389",
+      "sha256_after": "186474704756964921c78aa4545756835de97bf987430729b6d71158bf607d4e",
+      "replacements": [
+        {
+          "old": "contact@old.primesupplements.ro",
+          "new": "contact@primesupplements.ro",
+          "count": 2
+        }
+      ],
+      "verified": "API read-back matches; storefront /pages/politica-de-confidentialitate HTTP 200 contains expected body byte-for-byte (NBSP preserved)"
+    },
+    {
+      "handle": "politica-de-cookies",
+      "id": "gid://shopify/Page/691734675831",
+      "item": "A4",
+      "updatedAt_before": "2026-10-12T22:49:42Z",
+      "updatedAt_after": "2026-10-16T04:08:00Z",
+      "sha256_before": "93bdf4cf30684e89c87c5dee9aa812786832a6981eb7b6d8dc9836724e97ae05",
+      "sha256_after": "a41fcb6cd1b962f24bde6dc25c84755e3faeb1aaa8a77a6cad42f0236672f532",
+      "replacements": [
+        {
+          "old": "<a href=\"http://www.primesupplements.ro/\" rel=\"noopener\">www.primesupplements.ro</a>",
+          "new": "<a href=\"https://primesupplements.ro/\" rel=\"noopener\">primesupplements.ro</a>",
+          "count": 1
+        }
+      ],
+      "verified": "API read-back matches; storefront /pages/politica-de-cookies HTTP 200 contains expected body byte-for-byte (NBSP preserved)"
+    },
+    {
+      "handle": "termeni-si-conditii",
+      "id": "gid://shopify/Page/691734708599",
+      "item": "A4",
+      "updatedAt_before": "2026-10-13T02:46:33Z",
+      "updatedAt_after": "2026-10-16T04:14:54Z",
+      "sha256_before": "65957719dc93ea44af704a6675ca6391e043bdcbe551d0ccafd1b341d3c2de00",
+      "sha256_after": "1ff02d922892bce70e466469adfdd66b764a8bf3eccccd6bff5e16f368e55600",
+      "replacements": [
+        {
+          "old": "www.primesupplements.ro",
+          "new": "primesupplements.ro",
+          "count": 1
+        },
+        {
+          "old": "instrucțiunile producătorului / Vânzătorului",
+          "new": "instrucțiunile de pe etichetă",
+          "count": 1
+        },
+        {
+          "old": "instrucțiunilor producătorului / Vânzătorul",
+          "new": "instrucțiunilor de pe etichetă",
+          "count": 1
+        }
+      ],
+      "verified": "API read-back matches; storefront /pages/termeni-si-conditii HTTP 200 contains expected body byte-for-byte (NBSP preserved)"
+    },
+    {
+      "handle": "politica-de-plata",
+      "id": "gid://shopify/Page/691734741367",
+      "item": "A4",
+      "updatedAt_before": "2026-10-12T22:44:48Z",
+      "updatedAt_after": "2026-10-16T04:07:15Z",
+      "sha256_before": "16d22195f39160e37e8a60019018ff3f609c3c217179d9d166e5a6b54515f821",
+      "sha256_after": "0b7af3227fb2194692c204c11e6be1f26f8e9162eac6d3763304fb4ce7757a7a",
+      "replacements": [
+        {
+          "old": "www.primesupplements.ro",
+          "new": "primesupplements.ro",
+          "count": 2
+        }
+      ],
+      "verified": "API read-back matches; storefront /pages/politica-de-plata HTTP 200 contains expected body byte-for-byte (NBSP preserved)"
+    },
+    {
+      "handle": "politica-de-livrare",
+      "id": "gid://shopify/Page/691734806903",
+      "item": "A4",
+      "updatedAt_before": "2026-10-12T20:25:58Z",
+      "updatedAt_after": "2026-10-16T04:06:17Z",
+      "sha256_before": "627b42964b791e5e58a876aea18450ca3b00ad05964ee022b43692dfec708991",
+      "sha256_after": "d26abebc02338b5c722bde33d4d2020e48acb987eb3e794eb4a6e526a0947889",
+      "replacements": [
+        {
+          "old": "www.primesupplements.ro",
+          "new": "primesupplements.ro",
+          "count": 2
+        },
+        {
+          "old": "în ambalajul producătorului",
+          "new": "în ambalajul original",
+          "count": 1
+        },
+        {
+          "old": "Livrare are costul de 20 RON (HTML: <strong>Livrare<span>&nbsp;</span></strong>are costul de)",
+          "new": "Livrarea costă 20 RON (HTML: <strong>Livrarea<span>&nbsp;</span></strong>costă)",
+          "count": 1
+        }
+      ],
+      "verified": "API read-back matches; storefront /pages/politica-de-livrare HTTP 200 contains expected body byte-for-byte (NBSP preserved)"
+    }
+  ],
+  "shop_policies_checked": {
+    "PRIVACY_POLICY": "no old.primesupplements.ro; not changed",
+    "REFUND_POLICY": "no old.primesupplements.ro; not changed"
+  },
+  "rollback": "pageUpdate(id, {body: <contents of <handle>.before.html>})"
+}

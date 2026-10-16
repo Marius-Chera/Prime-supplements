@@ -1,0 +1,65 @@
+<style>
+.prime-product-story{--prime-red:#ed1c24;--prime-black:#191919;--prime-gray:#f1f1f1;width:100%;color:var(--prime-black);background:var(--prime-gray);font-family:inherit;text-align:left}
+.prime-product-story,.prime-product-story *{box-sizing:border-box}
+.prime-product-story .pps-inner{max-width:1440px;margin:0 auto;padding:clamp(28px,5vw,76px)}
+.prime-product-story .pps-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(28px,5vw,76px)}
+.prime-product-story .pps-copy{min-width:0}
+.prime-product-story .pps-label{display:flex;align-items:center;gap:12px;margin:0 0 24px;font-size:11px;font-weight:750;line-height:1.5;letter-spacing:.12em;text-transform:uppercase}
+.prime-product-story .pps-label::before{content:"";width:28px;height:5px;flex-shrink:0;background:var(--prime-red);transform:skewX(-20deg)}
+.prime-product-story .pps-title{margin:0;padding:0;color:var(--prime-black);font-family:var(--heading-font-family,var(--font-heading-family,Impact,sans-serif));font-style:normal;font-weight:var(--heading-font-weight,800);font-size:clamp(44px,6vw,92px);line-height:1;letter-spacing:-.035em;text-transform:uppercase;overflow-wrap:normal}
+.prime-product-story .pps-title span{display:block;margin-top:8px;color:var(--prime-red);font-size:.52em;line-height:1.1;letter-spacing:0}
+.prime-product-story .pps-lead{margin:26px 0 14px;color:var(--prime-black);font-size:clamp(21px,2.2vw,29px);font-weight:750;line-height:1.35;letter-spacing:-.035em}
+.prime-product-story .pps-description{max-width:560px;margin:0;color:#595959;font-size:16px;line-height:1.8}
+.prime-product-story .pps-features{display:flex;flex-wrap:wrap;gap:10px 20px;margin:24px 0 0;padding:0;list-style:none}
+.prime-product-story .pps-features li{display:flex;align-items:center;gap:8px;margin:0;color:#292929;font-size:12px;font-weight:650;line-height:1.5}
+.prime-product-story .pps-features li::before{content:"✓";color:var(--prime-red);font-size:15px;font-weight:800}
+.prime-product-story .pps-formula{display:flex;align-items:center;gap:18px;margin-top:30px;padding:19px 22px;border-left:4px solid var(--prime-red);background:#fff}
+.prime-product-story .pps-formula strong{flex-shrink:0;color:var(--prime-red);font-size:32px;font-weight:850;line-height:1;letter-spacing:-.05em}
+.prime-product-story .pps-formula p{margin:0;color:#525252;font-size:13px;line-height:1.6}
+.prime-product-story .pps-formula b{display:block;color:var(--prime-black);font-weight:750}
+.prime-product-story .pps-media{position:relative;min-width:0;margin:0;padding:24px;border-radius:8px;background:#fff;overflow:hidden}
+.prime-product-story .pps-image{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;border:0;border-radius:0}
+.prime-product-story .pps-image-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px;padding-top:16px;border-top:1px solid #e9e9e9;color:#666;font-size:10px;font-weight:700;line-height:1.5;letter-spacing:.08em;text-transform:uppercase}
+.prime-product-story .pps-image-caption span:last-child{color:var(--prime-red);text-align:right}
+.prime-product-story .pps-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:36px 0 0;padding:0;border-radius:6px;background:var(--prime-black);overflow:hidden}
+.prime-product-story .pps-stat{display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0;padding:28px 16px;text-align:center}
+.prime-product-story .pps-stat+.pps-stat{border-left:1px solid #383838}
+.prime-product-story .pps-stat dt{order:2;margin:0;color:#bcbcbc;font-size:10px;font-weight:650;line-height:1.5;letter-spacing:.12em;text-transform:uppercase}
+.prime-product-story .pps-stat dd{margin:0;color:#fff;font-size:clamp(28px,3vw,42px);font-weight:800;line-height:1;letter-spacing:-.04em}
+.prime-product-story .pps-stat dd small{font-size:.5em;font-weight:600}
+.prime-story-text{margin-top:32px}
+@media (max-width:900px){.prime-product-story .pps-grid{grid-template-columns:minmax(0,1fr);gap:28px}.prime-product-story .pps-title{font-size:clamp(46px,10vw,80px)}.prime-product-story .pps-description{max-width:none}.prime-product-story .pps-media{width:100%;max-width:580px;justify-self:center}}
+@media (max-width:480px){.prime-product-story .pps-inner{padding:30px 20px}.prime-product-story .pps-label{font-size:9px;letter-spacing:.08em}.prime-product-story .pps-description{font-size:14px}.prime-product-story .pps-formula{gap:14px;padding:16px}.prime-product-story .pps-formula strong{font-size:28px}.prime-product-story .pps-media{padding:16px}.prime-product-story .pps-stats{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:24px}.prime-product-story .pps-stat{padding:24px 12px}.prime-product-story .pps-stat:nth-child(3){border-left:0}.prime-product-story .pps-stat:nth-child(n+3){border-top:1px solid #383838}}
+</style>
+<section class="prime-product-story" aria-label="Creatină monohidrată micronizată Prime Supplements">
+<div class="pps-inner">
+<div class="pps-grid">
+<div class="pps-copy">
+<p class="pps-label">PRIME Supplements · Creatină fără aromă</p>
+<p class="pps-title">CREATINĂ<span>MONOHIDRATĂ MICRONIZATĂ</span></p>
+<p class="pps-lead">Un singur ingredient.<br>Pentru rutina ta de antrenament.</p>
+<p class="pps-description">Creatină monohidrată sub formă de pulbere fină, micronizată. Fiecare porție de 5 g furnizează 5000 mg de creatină monohidrată: un singur ingredient, fără aromă.</p>
+<ul class="pps-features" aria-label="Caracteristici">
+<li>Micronizată</li>
+<li>Fără aromă</li>
+<li>Un singur ingredient</li>
+</ul>
+<div class="pps-formula">
+<strong>100%</strong>
+<p><b>Creatină monohidrată.</b> De la Prime Supplements.</p>
+</div>
+</div>
+<figure class="pps-media">
+<img class="pps-image" src="https://primesupplements.ro/cdn/shop/files/ALLMERCH-CREATINE300g1.jpg?v=1772583366&amp;width=1400" alt="Creatină monohidrată micronizată Prime Supplements, 300 g" loading="lazy" decoding="async">
+<figcaption class="pps-image-caption"><span>PRIME Supplements</span><span>300 g / 60 de porții</span></figcaption>
+</figure>
+</div>
+<dl class="pps-stats">
+<div class="pps-stat"><dt>Cantitate netă</dt><dd>300 <small>g</small></dd></div>
+<div class="pps-stat"><dt>Porții per tub</dt><dd>60</dd></div>
+<div class="pps-stat"><dt>Cantitate per porție</dt><dd>5 <small>g</small></dd></div>
+<div class="pps-stat"><dt>Creatină monohidrată / porție</dt><dd>5000 <small>mg</small></dd></div>
+</dl>
+</div>
+</section>
+<div class="prose prime-story-text">{{ product.metafields.custom.despre_produs | metafield_tag }}</div>

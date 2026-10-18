@@ -84,10 +84,21 @@ def fit(d,txt,path,size,maxw):
     f=ft(path,size)
     while d.textlength(txt,font=f)>maxw: size-=3; f=ft(path,size)
     return f
+def photo_bg(p,W,H,story):
+    im=Image.open(p["photo"]).convert("RGB"); s=max(W/im.width,H/im.height)
+    im=im.resize((int(im.width*s)+1,int(im.height*s)+1),Image.LANCZOS)
+    fy=p.get("focus_y",0.35); x=(im.width-W)//2; y=int((im.height-H)*fy)
+    im=im.crop((x,y,x+W,y+H)).convert("RGBA")
+    yy=np.linspace(0,1,H)[:,None]
+    top=np.clip(1-yy/0.22,0,1)*0.85; bot=np.clip((yy-(0.42 if story else 0.40))/0.35,0,1)*0.96
+    a=np.clip(top+bot,0,0.96)*np.ones((1,W)); a=np.maximum(a,0.18)
+    ov=Image.new("RGBA",(W,H),(8,8,10,0)); ov.putalpha(Image.fromarray((a*255).astype(np.uint8))); im.alpha_composite(ov)
+    L=Image.new("RGBA",(W,H),(0,0,0,0)); ImageDraw.Draw(L).polygon([(0,H*0.62),(W,H*0.50),(W,H*0.505),(0,H*0.625)],fill=RED+(230,)); im.alpha_composite(L)
+    return im
 def make(p,out,story):
     W,H=(1080,1920) if story else (1080,1350)
     gy=H*0.50 if story else H*0.47
-    C=background(W,H,gy); d=ImageDraw.Draw(C)
+    C=photo_bg(p,W,H,story) if p.get("photo") else background(W,H,gy); d=ImageDraw.Draw(C)
     top=230 if story else 64
     logo(C,64,top,300)
     f=ft(XB,28); tw=d.textlength(p["tag"],font=f)+52; pill(d,W-64-tw,top+8,p["tag"],f,RED,"white")
@@ -98,8 +109,10 @@ def make(p,out,story):
         d.text((W//2,y+f1.size*0.98),p["h2"],font=f2,fill=RED,anchor="ma")
         y2=y+f1.size*0.98+f2.size*1.14
         d.text((W//2,y2),p["sub"],font=ft(SB,38),fill=(230,230,230),anchor="ma")
-        hh=560 if len(p["img"])==1 else 430
-        a,b=place(C,p,hh,W//2,int(y2+70+hh/2),W-70,-50); d=ImageDraw.Draw(C)
+        if p.get("photo"): b=H-560
+        else:
+            hh=560 if len(p["img"])==1 else 430
+            a,b=place(C,p,hh,W//2,int(y2+70+hh/2),W-70,-50); d=ImageDraw.Draw(C)
         # chips
         fc=ft(XB,27); ws=[d.textlength(t,font=fc)+52 for t in p["chips"]]; tot=sum(ws)+14*(len(ws)-1); x=W/2-tot/2
         for t,w in zip(p["chips"],ws): pill(d,x,b+50,t,fc,(0,0,0),"white",outline=(255,255,255)); x+=w+14
@@ -111,8 +124,10 @@ def make(p,out,story):
         d.text((W//2,y+168),"link în bio  •  primesupplements.ro",font=ft(SB,30),fill=(215,215,215),anchor="mm")
     else:
         nc=len(p.get("claim",[]))
-        hh=(540-25*nc) if len(p["img"])==1 else 400
-        a,b=place(C,p,hh,W//2,int(gy-10-12*nc),W-90,-45); d=ImageDraw.Draw(C)
+        if p.get("photo"): b=H-470
+        else:
+            hh=(540-25*nc) if len(p["img"])==1 else 400
+            a,b=place(C,p,hh,W//2,int(gy-10-12*nc),W-90,-45); d=ImageDraw.Draw(C)
         f1=fit(d,p["h1"],BLKI,100,W-128); f2=fit(d,p["h2"],BLKI,100,W-128)
         y=b+40
         d.text((64,y),p["h1"],font=f1,fill="white"); d.text((64,y+f1.size*0.98),p["h2"],font=f2,fill=RED)

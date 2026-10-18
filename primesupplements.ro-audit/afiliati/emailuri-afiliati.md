@@ -1,6 +1,6 @@
 # E-mailuri lunare către afiliați (sistem aprobat 18.10.2026)
 
-Expeditor: UpPromote (e-mail către afiliați). Pachetele din colecția Reduceri NU se promovează: nu primesc comision acolo.
+Expeditor: theMarketer (e-mailuri tranzacționale personale), automat prin sarcina programată „E-mailuri lunare afiliați Prime” (zilele 2–4 ale lunii). Lista: Google Sheet „Prime – Afiliați”. Pachetele din colecția Reduceri NU se promovează: nu primesc comision acolo.
 Toate textele folosesc doar afirmații de sănătate autorizate în UE.
 
 ## Kit de conținut – noiembrie 2026 (feed 1080×1350 + story 1080×1920)

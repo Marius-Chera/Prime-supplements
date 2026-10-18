@@ -1,0 +1,688 @@
+[
+ {
+  "day": "2026-10-19",
+  "ig": 1,
+  "slug": "01-batoane",
+  "type": "poll",
+  "img": [
+   "img/bcaps.jpg",
+   "img/bcar.jpg",
+   "img/bcoc.jpg"
+  ],
+  "labels": [
+   "1",
+   "2",
+   "3"
+  ],
+  "stack": true,
+  "tag": "ALEGE UNA",
+  "h1": "1, 2 SAU 3?",
+  "h2": "ALEGE-ȚI BATONUL.",
+  "sub": "Prime Delicious Bar • căpșuni, caramel sărat, cocos",
+  "cta": "Scrie cifra în comentarii",
+  "claim": [],
+  "link": "https://primesupplements.ro/collections/batoane-proteice",
+  "text": "Trei arome, un singur favorit. Care e al tău? 👇\n\n1️⃣ Căpșuni\n2️⃣ Caramel sărat\n3️⃣ Cocos\n\nScrie cifra în comentarii — la final de săptămână anunțăm aroma câștigătoare. 🏆\n\nBatoanele proteice Prime Delicious Bar sunt gustarea practică pentru birou, sală sau drum.",
+  "tags": "#primesupplements #batonproteic #batoaneproteice #gustareproteica #fitnessromania #sala"
+ },
+ {
+  "day": "2026-10-20",
+  "ig": 1,
+  "slug": "02-prime-whey",
+  "type": "prod",
+  "img": [
+   "img/whey.jpg"
+  ],
+  "ph": 460,
+  "tag": "BESTSELLER",
+  "h1": "PRIME WHEY",
+  "h2": "PROTEINĂ DIN ZER.",
+  "bullets": [
+   "2 kg • 7 arome",
+   "Se dizolvă ușor în apă sau lapte",
+   "Shake gata în 30 de secunde"
+  ],
+  "claim": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare."
+  ],
+  "cta": "Alege aroma ta",
+  "link": "https://primesupplements.ro/products/prime-whey-2000g",
+  "text": "Prime Whey – proteina din zer cea mai aleasă de clienții noștri. 🥇\n\n✔️ 2 kg, 7 arome\n✔️ Se amestecă ușor, fără cocoloașe\n✔️ Shake gata în 30 de secunde, după sală sau la micul dejun\n\nProteinele contribuie la creșterea și menținerea masei musculare.\n\nCare aromă ți-ar plăcea să încerci? Spune-ne în comentarii.",
+  "tags": "#primesupplements #proteinawhey #proteinadinzer #whey #gym #fitnessromania"
+ },
+ {
+  "day": "2026-10-21",
+  "ig": 1,
+  "slug": "03-nitrox",
+  "type": "poll",
+  "img": [
+   "img/nitrox.jpg"
+  ],
+  "tag": "PRE-WORKOUT",
+  "h1": "DIMINEAȚA",
+  "h2": "SAU SEARA?",
+  "sub": "Nitrox 3D • 500 g • când te antrenezi tu?",
+  "cta": "Răspunde în comentarii",
+  "claim": [],
+  "link": "https://primesupplements.ro/products/nitrox",
+  "text": "Echipa de dimineață ☀️ sau echipa de seară 🌙?\n\nSpune-ne în comentarii la ce oră te antrenezi și de ce. Suntem curioși cine câștigă!\n\nNitrox 3D – pre-workout-ul Prime, 500 g.",
+  "tags": "#primesupplements #preworkout #nitrox3d #antrenament #gym #fitnessromania"
+ },
+ {
+  "day": "2026-10-22",
+  "ig": 0,
+  "slug": "04-creapure-vs",
+  "type": "text",
+  "tag": "GHID",
+  "big": [
+   "CREAPURE®",
+   "SAU CREATINĂ",
+   "OBIȘNUITĂ?"
+  ],
+  "sub": "Ce diferă, de fapt, între ele — explicat simplu, pe blogul Prime.",
+  "cta": "Citește articolul",
+  "link": "https://primesupplements.ro/blogs/news/creapure-vs-creatina-monohidrata-obisnuita",
+  "text": "Creapure® sau creatină monohidrată obișnuită? 🤔\n\nAm scris un ghid scurt despre ce diferă între ele, cum le compari și la ce să te uiți pe etichetă.\n\n📖 Citește articolul complet: https://primesupplements.ro/blogs/news/creapure-vs-creatina-monohidrata-obisnuita\n\nTu ce creatină folosești? Spune-ne în comentarii.",
+  "tags": "#primesupplements #creatina #creapure #creatinamonohidrat #nutritiesportiva"
+ },
+ {
+  "day": "2026-10-23",
+  "ig": 1,
+  "slug": "05-vitamina-c",
+  "type": "prod",
+  "img": [
+   "img/vitc.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "VITAMINA C",
+  "h2": "1000 MG.",
+  "bullets": [
+   "80 de capsule",
+   "O capsulă pe zi",
+   "Pentru rutina de toamnă"
+  ],
+  "claim": [
+   "Vitamina C contribuie la funcționarea normală a sistemului imunitar."
+  ],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/vitamin-c-1000-80-caps",
+  "text": "Toamna nu înseamnă pauză. 🍂\n\nVitamina C 1000 mg de la Prime Health: 80 de capsule, o capsulă pe zi, simplu de inclus în rutină.\n\nVitamina C contribuie la funcționarea normală a sistemului imunitar.\n\nCe nu lipsește din rutina ta de toamnă? 👇",
+  "tags": "#primesupplements #primehealth #vitaminac #vitamine #rutina #wellbeing"
+ },
+ {
+  "day": "2026-10-24",
+  "ig": 1,
+  "slug": "06-whey-vs-isolate",
+  "type": "poll",
+  "img": [
+   "img/whey.jpg",
+   "dl/iso.jpg"
+  ],
+  "labels": [
+   "W",
+   "I"
+  ],
+  "ph": 360,
+  "gap": 50,
+  "tag": "WHEY VS ISOLATE",
+  "h1": "ECHIPA WHEY",
+  "h2": "SAU ISOLATE?",
+  "sub": "Prime Whey 2 kg • Pure Isolate 2 kg",
+  "cta": "Comentează W sau I",
+  "claim": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare."
+  ],
+  "link": "https://primesupplements.ro/collections/pudra-proteica",
+  "text": "Marea dezbatere de weekend. 🥊\n\nW = Prime Whey 2 kg\nI = Pure Isolate 2 kg\n\nComentează W sau I și spune-ne de ce. Răspundem fiecăruia!\n\nProteinele contribuie la creșterea și menținerea masei musculare.",
+  "tags": "#primesupplements #whey #isolate #proteina #proteinawhey #fitnessromania"
+ },
+ {
+  "day": "2026-10-25",
+  "ig": 0,
+  "slug": "07-isolate-pentru-cine",
+  "type": "proc",
+  "img": [
+   "dl/iso.jpg"
+  ],
+  "tag": "PURE ISOLATE",
+  "h1": "PENTRU CINE E",
+  "h2": "PURE ISOLATE?",
+  "pro": [
+   "Vrei un shake cu mai puține grăsimi și carbohidrați",
+   "Te antrenezi des și vrei ceva rapid după sală",
+   "Îți place o textură fină, ușor de amestecat"
+  ],
+  "con": [
+   "Cauți varianta cu cel mai mic preț pe porție — atunci Prime Whey e alegerea mai bună"
+  ],
+  "claim": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare."
+  ],
+  "cta": "Compară proteinele",
+  "link": "https://primesupplements.ro/products/pure-isolate-2000g",
+  "text": "Pure Isolate nu e pentru oricine — și e corect să-ți spunem asta. 👇\n\n✅ E pentru tine dacă vrei un shake cu mai puține grăsimi și carbohidrați, te antrenezi des sau îți place o textură foarte fină.\n➖ Dacă vrei cel mai bun preț pe porție, Prime Whey e alegerea mai potrivită.\n\nProteinele contribuie la creșterea și menținerea masei musculare.\n\nAi întrebări despre care proteină ți se potrivește? Scrie-ne în comentarii sau în mesaj.\n🔗 https://primesupplements.ro/products/pure-isolate-2000g",
+  "tags": "#primesupplements #pureisolate #izolatproteic #proteinadinzer #nutritiesportiva"
+ },
+ {
+  "day": "2026-10-26",
+  "ig": 1,
+  "slug": "08-crema-orez-cum",
+  "type": "howto",
+  "img": [
+   "img/rtort.jpg",
+   "img/rbisc.jpg",
+   "img/rcocos.jpg"
+  ],
+  "th": 8,
+  "er": 3,
+  "bt": 14,
+  "ph": 320,
+  "gap": -40,
+  "tag": "CUM SE PREPARĂ",
+  "h1": "MIC DEJUN",
+  "h2": "ÎN 3 PAȘI.",
+  "steps": [
+   "Pune 2–3 linguri de cremă de orez în bol",
+   "Adaugă apă caldă sau lapte și amestecă",
+   "Lasă 1 minut, apoi adaugă topping-ul preferat"
+  ],
+  "cta": "Alege aroma",
+  "link": "https://primesupplements.ro/collections/crema-de-orez",
+  "text": "Micul dejun în 3 pași, cu gust de desert. 🍫🍪🥥\n\n1️⃣ Pune 2–3 linguri de cremă de orez Prime în bol\n2️⃣ Adaugă apă caldă sau lapte și amestecă\n3️⃣ Lasă un minut, apoi adaugă topping-ul preferat\n\nToate aromele sunt din nou în stoc. Ce topping pui tu? 👇",
+  "tags": "#primesupplements #cremadeorez #creamyrice #micdejun #reteta #fitnessromania"
+ },
+ {
+  "day": "2026-10-27",
+  "ig": 1,
+  "slug": "09-eaa",
+  "type": "prod",
+  "img": [
+   "img/eaa.jpg"
+  ],
+  "ph": 440,
+  "tag": "AMINOACIZI",
+  "h1": "EAA",
+  "h2": "AMINOACIZI ESENȚIALI.",
+  "bullets": [
+   "Tub de 500 g",
+   "Spectru complet de aminoacizi esențiali",
+   "Aromă de afine, se bea ușor"
+  ],
+  "claim": [],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/eaa-aminoacizi-esentiali",
+  "text": "EAA – aminoacizii esențiali Prime, într-un tub de 500 g. 💧\n\n✔️ Spectru complet de aminoacizi esențiali\n✔️ Aromă de afine, se bea ușor în timpul antrenamentului\n✔️ Se amestecă rapid în shaker\n\nTu ce ai în shaker când te antrenezi? 👇",
+  "tags": "#primesupplements #eaa #aminoacizi #aminoacizi #gym #workout"
+ },
+ {
+  "day": "2026-10-28",
+  "ig": 0,
+  "slug": "10-eticheta-whey",
+  "type": "text",
+  "tag": "GHID",
+  "big": [
+   "CUM CITEȘTI",
+   "ETICHETA",
+   "UNEI PROTEINE?"
+  ],
+  "sub": "Ce verifici înainte să cumperi o proteină whey — ghid pe blogul Prime.",
+  "cta": "Citește ghidul",
+  "link": "https://primesupplements.ro/blogs/news/citesti-eticheta-unei-proteine-whey-verifici",
+  "text": "Nu toate proteinele sunt la fel — eticheta spune tot. 🔍\n\nÎn ghidul nostru afli ce verifici: proteina pe porție, ingredientele, aromele și ce înseamnă fiecare cifră.\n\n📖 https://primesupplements.ro/blogs/news/citesti-eticheta-unei-proteine-whey-verifici\n\nCe te uiți primul pe o etichetă? 👇",
+  "tags": "#primesupplements #proteinawhey #ghid #nutritiesportiva #eticheta"
+ },
+ {
+  "day": "2026-10-29",
+  "ig": 1,
+  "slug": "11-magneziu",
+  "type": "prod",
+  "img": [
+   "img/mag.jpg"
+  ],
+  "th": 8,
+  "er": 3,
+  "bt": 14,
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "MAGNEZIU",
+  "h2": "BISGLICINAT.",
+  "bullets": [
+   "300 mg • 80 de capsule",
+   "Formă bisglicinat",
+   "Ușor de inclus în rutina de seară"
+  ],
+  "claim": [
+   "Magneziul contribuie la reducerea oboselii și extenuării."
+  ],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/magneziu-bisglicinat-80-caps",
+  "text": "Pe lângă sală, rutina de zi cu zi contează. 🌙\n\nMagneziu bisglicinat Prime Health – 300 mg, 80 de capsule.\n\nMagneziul contribuie la reducerea oboselii și extenuării.\n\nIei magneziu dimineața sau seara? Spune-ne în comentarii.",
+  "tags": "#primesupplements #primehealth #magneziu #magneziubisglicinat #minerale #wellbeing"
+ },
+ {
+  "day": "2026-10-30",
+  "ig": 1,
+  "slug": "12-pachet-mic-dejun",
+  "type": "photo",
+  "photo": "dl/pk-mic.jpg",
+  "photo_h": 700,
+  "focus_y": 0.0,
+  "tag": "PACHETE PRIME",
+  "h1": "PACHETUL",
+  "h2": "MIC DEJUN PROTEIC.",
+  "sub": "Prime Whey 2 kg + 2 × Cremă de orez • -15%",
+  "cta": "Vezi toate pachetele",
+  "link": "https://primesupplements.ro/collections/reduceri",
+  "text": "Micul dejun complet, la preț de pachet. 🍳\n\nPachetul Mic Dejun Proteic: Prime Whey 2 kg + 2 creme de orez la alegere, cu 15% mai puțin decât separat.\n\nVezi toate pachetele Prime în colecția Reduceri. Care pachet ți-ar plăcea să mai facem? 👇",
+  "tags": "#primesupplements #pachete #reduceri #proteina #cremadeorez #micdejun"
+ },
+ {
+  "day": "2026-10-31",
+  "ig": 1,
+  "slug": "13-aroma-crema",
+  "type": "poll",
+  "img": [
+   "img/rtort.jpg",
+   "img/rbisc.jpg",
+   "img/rcocos.jpg"
+  ],
+  "labels": [
+   "1",
+   "2",
+   "3"
+  ],
+  "th": 8,
+  "er": 3,
+  "bt": 14,
+  "ph": 380,
+  "gap": -30,
+  "tag": "VOTEAZĂ",
+  "h1": "CARE AROMĂ",
+  "h2": "E PREFERATA TA?",
+  "sub": "Tort de ciocolată • biscuiți cu cremă • plăcintă cu cocos",
+  "cta": "Scrie cifra în comentarii",
+  "claim": [],
+  "link": "https://primesupplements.ro/collections/crema-de-orez",
+  "text": "Echipa e împărțită și avem nevoie de voi. 👇\n\n1️⃣ Tort de ciocolată\n2️⃣ Biscuiți cu cremă\n3️⃣ Plăcintă cu cocos\n\nScrie cifra aromei tale preferate de cremă de orez Prime. Cea mai votată primește o surpriză pe stories! 🎉",
+  "tags": "#primesupplements #cremadeorez #creamyrice #vot #micdejun #fitnessromania"
+ },
+ {
+  "day": "2026-11-01",
+  "ig": 0,
+  "slug": "14-creatina-pentru-cine",
+  "type": "proc",
+  "img": [
+   "img/crea.jpg"
+  ],
+  "tag": "CREATINĂ CREAPURE®",
+  "h1": "PENTRU CINE E",
+  "h2": "CREATINA?",
+  "pro": [
+   "Faci antrenamente scurte și intense: forță, sprint, HIIT",
+   "Poți lua 3 g în fiecare zi, constant",
+   "Vrei un supliment simplu, cu o singură substanță"
+  ],
+  "con": [
+   "Te antrenezi rar sau cauți efecte imediate, după o singură doză"
+  ],
+  "claim": [
+   "Creatina crește performanța fizică în exerciții scurte, intense și repetate.",
+   "Efectul benefic se obține la un aport zilnic de 3 g."
+  ],
+  "cta": "Vezi creatina",
+  "link": "https://primesupplements.ro/products/creatina-creapure",
+  "text": "Creatina e unul dintre cele mai studiate suplimente — dar contează cum o folosești. 👇\n\n✅ E pentru tine dacă faci antrenamente scurte și intense și poți lua 3 g zilnic, constant.\n➖ Nu te aștepta la efecte după o singură doză: consecvența e cheia.\n\nCreatina crește performanța fizică în exerciții scurte, intense și repetate. Efectul benefic se obține la un aport zilnic de 3 g.\n\n🔗 https://primesupplements.ro/products/creatina-creapure",
+  "tags": "#primesupplements #creatina #creapure #creatinamonohidrat #forta #gym"
+ },
+ {
+  "day": "2026-11-02",
+  "ig": 1,
+  "slug": "15-omega3",
+  "type": "prod",
+  "img": [
+   "img/omega.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "OMEGA-3",
+  "h2": "DIN ULEI DE PEȘTE.",
+  "bullets": [
+   "80 de capsule",
+   "EPA + DHA",
+   "Parte din rutina zilnică"
+  ],
+  "claim": [
+   "EPA și DHA contribuie la funcționarea normală a inimii.",
+   "Efectul benefic se obține la un aport zilnic de 250 mg EPA și DHA."
+  ],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/omega-3",
+  "text": "Bazele contează. 🐟\n\nOmega-3 din ulei de pește – 80 de capsule, cu EPA și DHA.\n\nEPA și DHA contribuie la funcționarea normală a inimii. Efectul benefic se obține la un aport zilnic de 250 mg EPA și DHA.\n\nCâte suplimente ai în rutina zilnică? 👇",
+  "tags": "#primesupplements #omega3 #uleidepeste #epa #dha #rutina"
+ },
+ {
+  "day": "2026-11-03",
+  "ig": 1,
+  "slug": "16-shake-reteta",
+  "type": "howto",
+  "img": [
+   "img/whey.jpg",
+   "img/shaker.jpg"
+  ],
+  "ph": 360,
+  "gap": 30,
+  "tag": "REȚETĂ",
+  "h1": "SHAKE-UL",
+  "h2": "DE DUPĂ SALĂ.",
+  "steps": [
+   "300 ml apă rece sau lapte în shaker",
+   "1 măsură (30 g) de Prime Whey",
+   "Agită 15 secunde — gata"
+  ],
+  "claim": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare."
+  ],
+  "cta": "Alege aroma",
+  "link": "https://primesupplements.ro/products/prime-whey-2000g",
+  "text": "Cel mai simplu shake de după sală. 🥤\n\n1️⃣ 300 ml apă rece sau lapte în shaker\n2️⃣ O măsură de Prime Whey (30 g)\n3️⃣ Agită 15 secunde — gata\n\nBonus: adaugă o banană sau o lingură de unt de arahide.\n\nProteinele contribuie la creșterea și menținerea masei musculare.\n\nCum îți faci tu shake-ul? 👇",
+  "tags": "#primesupplements #shake #proteinshake #reteta #whey #gym"
+ },
+ {
+  "day": "2026-11-04",
+  "ig": 0,
+  "slug": "17-vitc-sportivi",
+  "type": "text",
+  "tag": "GHID",
+  "big": [
+   "VITAMINA C",
+   "PENTRU",
+   "SPORTIVI."
+  ],
+  "sub": "Doza, momentul și ce spune legislația UE — pe blogul Prime.",
+  "cta": "Citește articolul",
+  "link": "https://primesupplements.ro/blogs/news/vitamina-c-sportivi-doza-ce-spune-ue",
+  "text": "Câtă vitamina C și când? 🍊\n\nAm adunat într-un articol scurt doza, momentul potrivit și ce afirmații sunt permise în UE.\n\n📖 https://primesupplements.ro/blogs/news/vitamina-c-sportivi-doza-ce-spune-ue\n\nIei vitamina C zilnic sau doar toamna? 👇",
+  "tags": "#primesupplements #vitaminac #ghid #sport #nutritie"
+ },
+ {
+  "day": "2026-11-05",
+  "ig": 1,
+  "slug": "18-unt-arahide",
+  "type": "prod",
+  "img": [
+   "dl/arahide.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "UNT DE ARAHIDE",
+  "h2": "600 G.",
+  "bullets": [
+   "Pe pâine, în shake sau în ovăz",
+   "Borcan de 600 g",
+   "Gustarea ta preferată, mai bună"
+  ],
+  "claim": [],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/unt-de-arahide",
+  "text": "Unt de arahide Prime Health, 600 g. 🥜\n\nPe pâine, în ovăz, în shake sau direct cu lingura — fără judecăți. 😄\n\nCum îl mănânci tu? Spune-ne în comentarii — cea mai creativă idee apare pe stories!",
+  "tags": "#primesupplements #primehealth #untdearahide #peanutbutter #gustare #reteta"
+ },
+ {
+  "day": "2026-11-06",
+  "ig": 0,
+  "slug": "19-leg-day",
+  "type": "text",
+  "tag": "ÎNTREBAREA ZILEI",
+  "big": [
+   "ZIUA DE PICIOARE:",
+   "O IUBEȘTI",
+   "SAU O EVIȚI?"
+  ],
+  "sub": "Fii sincer. Răspunde în comentarii.",
+  "cta": "Răspunde în comentarii",
+  "comment": true,
+  "link": "https://primesupplements.ro",
+  "text": "Întrebarea zilei: ziua de picioare — o iubești sau o eviți? 🦵😅\n\nFii sincer în comentarii. Și spune-ne exercițiul tău preferat (sau cel mai urât).",
+  "tags": "#primesupplements #legday #gym #sala #fitnessromania"
+ },
+ {
+  "day": "2026-11-07",
+  "ig": 1,
+  "slug": "20-combat-pro",
+  "type": "prod",
+  "img": [
+   "dl/combat.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRE-WORKOUT",
+  "h1": "COMBAT PRO",
+  "h2": "CU CAFEINĂ.",
+  "bullets": [
+   "500 g • aromă de fructe de pădure",
+   "Se ia înainte de antrenament",
+   "Pentru antrenamentele grele"
+  ],
+  "claim": [],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/combat-pro",
+  "text": "Combat Pro – pre-workout-ul cu cafeină din gama Prime. ⚡\n\n✔️ 500 g, aromă de fructe de pădure\n✔️ Se ia înainte de antrenament\n✔️ Pentru zilele în care antrenamentul e greu\n\nConține cafeină: citește eticheta și nu depăși doza recomandată.\n\nNitrox 3D sau Combat Pro — care e preferatul tău? 👇",
+  "tags": "#primesupplements #preworkout #combatpro #cafeina #gym #antrenament"
+ },
+ {
+  "day": "2026-11-08",
+  "ig": 1,
+  "slug": "21-hanorac",
+  "type": "photo",
+  "photo": "dl/hanorac2.jpg",
+  "photo_h": 700,
+  "focus_y": 0.25,
+  "tag": "COLECȚIA PRIME",
+  "h1": "HANORAC",
+  "h2": "PRIME SQUAD.",
+  "sub": "Glugă și fermoar • negru",
+  "cta": "Vezi colecția",
+  "link": "https://primesupplements.ro/products/hanorac-prime-squad",
+  "text": "Echipa se recunoaște de la distanță. 🖤❤️\n\nHanoracul Prime Squad, cu glugă și fermoar.\n\nPostează o poză cu el la sală și dă-ne tag @primesupplements_ro — repostăm cele mai bune poze!",
+  "tags": "#primesquad #primesupplements #gymwear #gymoutfit #hanorac"
+ },
+ {
+  "day": "2026-11-09",
+  "ig": 0,
+  "slug": "22-mit-creatina",
+  "type": "text",
+  "tag": "MIT VS ADEVĂR",
+  "myth": "Creatina trebuie luată doar în zilele de antrenament.",
+  "fact": "Efectul vine din aportul zilnic constant, de 3 g pe zi.",
+  "sub": "Mai multe despre creatină, pe blogul Prime.",
+  "cta": "Citește articolul",
+  "link": "https://primesupplements.ro/blogs/news/la-ce-ajuta-creatina-mentiunea-autorizata",
+  "text": "MIT: Creatina se ia doar în zilele de antrenament. ❌\nADEVĂR: Efectul benefic se obține la un aport zilnic de 3 g. ✅\n\nCreatina crește performanța fizică în exerciții scurte, intense și repetate.\n\n📖 Mai multe: https://primesupplements.ro/blogs/news/la-ce-ajuta-creatina-mentiunea-autorizata\n\nCe alt mit despre suplimente ai auzit? 👇",
+  "tags": "#primesupplements #creatina #mit #nutritiesportiva #ghid"
+ },
+ {
+  "day": "2026-11-10",
+  "ig": 1,
+  "slug": "23-glutamina",
+  "type": "prod",
+  "img": [
+   "img/glut.jpg"
+  ],
+  "ph": 440,
+  "tag": "RECUPERARE",
+  "h1": "L-GLUTAMINĂ",
+  "h2": "KYOWA®.",
+  "bullets": [
+   "Recovery Glutamin • 500 g",
+   "Aromă de afine",
+   "Se amestecă ușor în apă"
+  ],
+  "claim": [],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/recovery-glutamin",
+  "text": "Recovery Glutamin Kyowa® – 500 g, aromă de afine. 🫐\n\nSe amestecă ușor în apă sau în shake, după antrenament.\n\nCe faci tu pentru recuperare după o zi grea la sală? 👇",
+  "tags": "#primesupplements #glutamina #kyowa #recuperare #gym"
+ },
+ {
+  "day": "2026-11-11",
+  "ig": 0,
+  "slug": "24-whey-pentru-cine",
+  "type": "proc",
+  "img": [
+   "img/whey.jpg"
+  ],
+  "tag": "PRIME WHEY",
+  "h1": "PENTRU CINE E",
+  "h2": "PRIME WHEY?",
+  "pro": [
+   "Vrei o sursă practică de proteine, zi de zi",
+   "Îți plac aromele: 7 variante",
+   "Cauți un preț bun pe porție"
+  ],
+  "con": [
+   "Vrei cât mai puține grăsimi și carbohidrați — atunci alege Pure Isolate"
+  ],
+  "claim": [
+   "Proteinele contribuie la creșterea și menținerea masei musculare."
+  ],
+  "cta": "Vezi Prime Whey",
+  "link": "https://primesupplements.ro/products/prime-whey-2000g",
+  "text": "Prime Whey sau altceva? Îți spunem sincer. 👇\n\n✅ E pentru tine dacă vrei o sursă practică de proteine, îți plac aromele (avem 7) și vrei un preț bun pe porție.\n➖ Dacă vrei cât mai puține grăsimi și carbohidrați, Pure Isolate e alegerea mai bună.\n\nProteinele contribuie la creșterea și menținerea masei musculare.\n\n🔗 https://primesupplements.ro/products/prime-whey-2000g",
+  "tags": "#primesupplements #primewhey #proteinadinzer #whey #nutritiesportiva"
+ },
+ {
+  "day": "2026-11-12",
+  "ig": 1,
+  "slug": "25-d3k2",
+  "type": "prod",
+  "img": [
+   "dl/d3k2.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "VITAMINA D3",
+  "h2": "+ K2.",
+  "bullets": [
+   "80 de capsule",
+   "Pentru lunile cu mai puțin soare",
+   "O capsulă pe zi"
+  ],
+  "claim": [
+   "Vitamina D contribuie la menținerea normală a oaselor."
+  ],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/vitamina-d3-k2",
+  "text": "Zilele se scurtează, soarele e tot mai rar. ☁️\n\nVitamina D3 + K2 Prime Health – 80 de capsule.\n\nVitamina D contribuie la menținerea normală a oaselor.\n\nIei vitamina D iarna? 👇",
+  "tags": "#primesupplements #primehealth #vitaminad3 #vitaminak2 #vitamine #iarna"
+ },
+ {
+  "day": "2026-11-13",
+  "ig": 1,
+  "slug": "26-gustare-birou",
+  "type": "poll",
+  "img": [
+   "img/bcar.jpg",
+   "img/whey.jpg"
+  ],
+  "labels": [
+   "B",
+   "S"
+  ],
+  "ph": 330,
+  "gap": 60,
+  "tag": "ÎNTREBAREA ZILEI",
+  "h1": "BATON",
+  "h2": "SAU SHAKE?",
+  "sub": "Gustarea de birou: tu ce alegi?",
+  "cta": "Comentează B sau S",
+  "claim": [],
+  "link": "https://primesupplements.ro/blogs/news/gustari-proteice-birou-idei-sub-250-kcal",
+  "text": "Ora 16:00 la birou, foamea atacă. 🕓\n\nB = baton proteic Prime\nS = shake Prime Whey\n\nComentează B sau S! Iar dacă vrei mai multe idei, am scris un articol cu gustări proteice pentru birou: https://primesupplements.ro/blogs/news/gustari-proteice-birou-idei-sub-250-kcal",
+  "tags": "#primesupplements #gustare #birou #batonproteic #shake #fitnessromania"
+ },
+ {
+  "day": "2026-11-14",
+  "ig": 0,
+  "slug": "27-pachet-preworkout",
+  "type": "photo",
+  "photo": "dl/pk-pre.jpg",
+  "photo_h": 700,
+  "focus_y": 0.0,
+  "tag": "PACHETE PRIME",
+  "h1": "PACHETUL",
+  "h2": "PRE-WORKOUT POWER.",
+  "sub": "Nitrox 3D + Creatină Creapure® 500 g",
+  "cta": "Vezi toate pachetele",
+  "link": "https://primesupplements.ro/collections/reduceri",
+  "text": "Pre-workout și creatină, împreună, la preț de pachet. ⚡\n\nPachetul Pre-Workout Power: Nitrox 3D + Creatină Creapure® 500 g.\n\nToate pachetele Prime: https://primesupplements.ro/collections/reduceri",
+  "tags": "#primesupplements #pachete #reduceri #preworkout #creatina"
+ },
+ {
+  "day": "2026-11-15",
+  "ig": 0,
+  "slug": "28-rutina-creatina",
+  "type": "howto",
+  "img": [
+   "img/crea.jpg"
+  ],
+  "ph": 360,
+  "tag": "RUTINA ZILNICĂ",
+  "h1": "CREATINA",
+  "h2": "ÎN 3 PAȘI.",
+  "steps": [
+   "3 g pe zi, în fiecare zi",
+   "În apă, suc sau în shake-ul de proteine",
+   "Oricând îți e comod — important e să fii constant"
+  ],
+  "claim": [
+   "Creatina crește performanța fizică în exerciții scurte, intense și repetate.",
+   "Efectul benefic se obține la un aport zilnic de 3 g."
+  ],
+  "cta": "Vezi creatina",
+  "link": "https://primesupplements.ro/products/creatina-creapure",
+  "text": "Creatina, fără complicații. ✅\n\n1️⃣ 3 g pe zi, în fiecare zi\n2️⃣ În apă, suc sau în shake-ul de proteine\n3️⃣ Oricând îți e comod — important e să fii constant\n\nCreatina crește performanța fizică în exerciții scurte, intense și repetate. Efectul benefic se obține la un aport zilnic de 3 g.\n\n🔗 https://primesupplements.ro/products/creatina-creapure",
+  "tags": "#primesupplements #creatina #creapure #rutina #gym"
+ },
+ {
+  "day": "2026-11-16",
+  "ig": 1,
+  "slug": "29-zinc",
+  "type": "prod",
+  "img": [
+   "dl/zinc.jpg"
+  ],
+  "ph": 440,
+  "tag": "PRIME HEALTH",
+  "h1": "CITRAT",
+  "h2": "DE ZINC.",
+  "bullets": [
+   "40 mg • 80 de capsule",
+   "O capsulă pe zi",
+   "Pentru sezonul rece"
+  ],
+  "claim": [
+   "Zincul contribuie la funcționarea normală a sistemului imunitar."
+  ],
+  "cta": "Vezi produsul",
+  "link": "https://primesupplements.ro/products/zinc-citrate-80-caps",
+  "text": "Sezonul rece a venit. ❄️\n\nCitrat de zinc Prime Health – 40 mg, 80 de capsule.\n\nZincul contribuie la funcționarea normală a sistemului imunitar.\n\nCe suplimente nu lipsesc din rutina ta de iarnă? 👇",
+  "tags": "#primesupplements #primehealth #zinc #minerale #iarna #rutina"
+ },
+ {
+  "day": "2026-11-17",
+  "ig": 1,
+  "slug": "30-tricou",
+  "type": "photo",
+  "photo": "dl/tricou.jpg",
+  "photo_h": 700,
+  "focus_y": 0.2,
+  "tag": "COLECȚIA PRIME",
+  "h1": "TRICOU PRIME",
+  "h2": "DROP SHOULDER.",
+  "sub": "Croială lejeră, logo Prime • alb sau negru",
+  "cta": "Vezi colecția",
+  "link": "https://primesupplements.ro/products/t-shirt-drop-shoulder-muscle-white",
+  "text": "Croiala care se vede de la prima serie. 💪\n\nTricoul Prime Drop Shoulder Muscle – în alb sau negru.\n\nAlb sau negru? Comentează A sau N! 👇",
+  "tags": "#primesupplements #gymwear #tricou #gymoutfit #primesquad"
+ }
+]

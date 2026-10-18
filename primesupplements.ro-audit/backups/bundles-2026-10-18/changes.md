@@ -45,3 +45,15 @@ Cele 3 pachete vechi (aplicația Bundles) sunt arhivate, cu 301 către cele noi.
 ### Colecția Reduceri
 - Regula: TYPE = Pachet ȘI tag pachet.
 - Are descriere și SEO, apare în meniurile main-menu și main-menu-desktop.
+
+## Încă 5 pachete (18.10.2026)
+| Pachet | Componente | Preț / înainte |
+|---|---|---|
+| Set Hammer 3.0 | tricou oversized Hammer 3.0 (4 mărimi) + pantaloni scurți waffle Hammer 3.0 (5 mărimi) | 245 / 290 |
+| Set Antrenament Hammer | maiou Edge (4 mărimi) + pantaloni de trening Hammer 3.0 (4 mărimi) | 229 / 270 |
+| Recuperare | EAA (4 arome) + L-glutamină Kyowa (5 arome) | 285 / 340 |
+| Mix 9 batoane | 3 × căpșuni + 3 × caramel sărat + 3 × cocos | 64 / 76,50 |
+| Starter Începător | Prime Whey 1 kg (7 arome) + Creapure 500 g + Shaker Prime | 335 / 395 |
+
+- Toate pachetele sunt excluse automat din `eligibile-coduri-reducere`, prin tipul Pachet.
+- Pantalonii MNX Ribbed Hammer 2.0 white au fost scoși manual din colecția Reduceri, unde rămăseseră din regula veche. Am completat și productType=Îmbrăcăminte, care era gol.

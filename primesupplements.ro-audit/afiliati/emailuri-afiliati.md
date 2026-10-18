@@ -64,3 +64,6 @@ Afiliații care postează măcar un story pe săptămână vând constant – ia
 Dacă ai nevoie de altceva (alt produs, alt format), răspunde la acest e-mail.
 
 Echipa Prime Supplements
+
+## Regulă e-mailuri de TEST (cerută de proprietar, 18.10.2026)
+Orice e-mail de test se trimite la marius.chera@yahoo.com ȘI la adelina.chera@gmail.com (în theMarketer: `to` + `bcc`).

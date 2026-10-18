@@ -96,7 +96,7 @@ def make(p,out,story):
         y=top+150
         d.text((W//2,y),p["h1"],font=f1,fill="white",anchor="ma")
         d.text((W//2,y+f1.size*0.98),p["h2"],font=f2,fill=RED,anchor="ma")
-        y2=y+f1.size*0.98+f2.size*1.05
+        y2=y+f1.size*0.98+f2.size*1.14
         d.text((W//2,y2),p["sub"],font=ft(SB,38),fill=(230,230,230),anchor="ma")
         hh=560 if len(p["img"])==1 else 430
         a,b=place(C,p,hh,W//2,int(y2+70+hh/2),W-70,-50); d=ImageDraw.Draw(C)
@@ -116,7 +116,7 @@ def make(p,out,story):
         f1=fit(d,p["h1"],BLKI,100,W-128); f2=fit(d,p["h2"],BLKI,100,W-128)
         y=b+40
         d.text((64,y),p["h1"],font=f1,fill="white"); d.text((64,y+f1.size*0.98),p["h2"],font=f2,fill=RED)
-        y2=y+f1.size*0.98+f2.size*1.08
+        y2=y+f1.size*0.98+f2.size*1.18
         d.text((64,y2),p["sub"],font=ft(SB,32),fill=(230,230,230))
         for j,l in enumerate(p.get("claim",[])): d.text((64,H-92-26-(nc-1-j)*29),l,font=ft(MD,22),fill=(175,175,175),anchor="ls")
         d.rectangle((0,H-92,W,H),fill=RED)

@@ -1,0 +1,679 @@
+{
+ "seo": {
+  "data": {
+   "collectionByHandle": {
+    "id": "gid://shopify/Collection/672296436087",
+    "title": "Reduceri – Pachete Prime",
+    "productsCount": {
+     "count": 12
+    },
+    "seo": {
+     "title": "Reduceri – Pachete Prime Supplements cu minimum 15% reducere",
+     "description": "Pachete Prime Supplements cu minimum 15% reducere: proteină + creatină Creapure®, pre-workout, cremă de orez, vitamine. Livrare rapidă în toată România."
+    },
+    "descriptionHtml": "<p>Pachetele Prime Supplements reunesc produsele pe care clienții noștri le comandă cel mai des împreună, la un preț cu <strong>minimum 15% mai mic</strong> decât dacă le-ai cumpăra separat. Alegi aroma direct pe pagina pachetului, iar toate produsele vin în aceeași comandă.</p><p><em>Prețurile pachetelor sunt deja reduse și nu se cumulează cu alte coduri de reducere.</em></p>",
+    "products": {
+     "nodes": [
+      {
+       "id": "gid://shopify/Product/15577150751095",
+       "title": "Pachet Starter Forță: Prime Whey 2 kg + Creatină Creapure® 500 g",
+       "handle": "pachet-starter-forta-prime-whey-2kg-creatina-creapure",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Prime Whey 2 kg + Creatină Creapure® 500 g | -15%",
+        "description": "Prime Whey 2 kg + Creatină Creapure® 500 g la 455 lei în loc de 540 lei. Alegi aroma de proteină. Cel mai comandat duo."
+       },
+       "description": "🔥 Ofertă pachet: 455 lei în loc de 540 lei – economisești 85 lei (-15%).Cel mai comandat duo de pe site: proteina Prime Whey 2 kg și creatina Creapure® 500 g. Alegi aroma de proteină mai sus.Ce primești în pachet Prime Whey – proteină din zer, 2 kg, aroma aleasă Creatină monohidrată Creapure® – 5...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "455.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "540.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885074960759",
+          "alt": "Pachet Starter Forță: Prime Whey 2 kg și Creatină Creapure® 500 g",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-starter-forta.jpg?v=1792318516"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150783863",
+       "title": "Pachet Mic Dejun Proteic: Prime Whey 2 kg + 2 × Cremă de orez",
+       "handle": "pachet-mic-dejun-proteic-prime-whey-2kg-crema-de-orez",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Prime Whey 2 kg + 2 creme de orez | -15%",
+        "description": "Prime Whey 2 kg + cremă de orez tort de ciocolată și plăcintă cu cocos la 419 lei în loc de 495 lei."
+       },
+       "description": "🔥 Ofertă pachet: 419 lei în loc de 495 lei – economisești 76 lei (-15%).Proteina Prime Whey 2 kg plus două creme de orez de 1 kg (tort de ciocolată și plăcintă cu cocos) – combinația pe care o aleg des clienții pentru micul dejun. Alegi aroma de proteină mai sus.Ce primești în pachet Prime Whey –...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "419.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "495.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885075091831",
+          "alt": "Pachet Mic Dejun Proteic: Prime Whey 2 kg și 2 creme de orez",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-mic-dejun-proteic.jpg?v=1792318517"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577159795063",
+       "title": "Pachet Starter Începător: Prime Whey 1 kg + Creatină Creapure® 500 g + Shaker",
+       "handle": "pachet-starter-incepator-prime-whey-1kg-creapure-shaker",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Starter: Prime Whey 1 kg + Creatină Creapure® + Shaker | -17%",
+        "description": "Prime Whey 1 kg, creatină Creapure® 500 g și shaker Prime la 335 lei în loc de 405 lei. Pachetul ideal pentru început."
+       },
+       "description": "🔥 Ofertă pachet: 335 lei în loc de 405 lei – economisești 70 lei (-17%).Tot ce îți trebuie ca să începi: proteina Prime Whey 1 kg, creatina Creapure® 500 g și shakerul Prime de 600 ml, la preț de pachet. Alegi aroma de proteină mai sus.Ce primești în pachet Prime Whey – proteină din zer, 1 kg, ar...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "335.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "405.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70893919076727",
+          "alt": "Pachet Starter Începător: Prime Whey 1 kg, Creatină Creapure® 500 g și Shaker Prime",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-starter-incepator-17.jpg?v=1792359451"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150095735",
+       "title": "Pachet Pre-Workout Power: Nitrox 3D + Creatină Creapure® 500 g",
+       "handle": "pachet-pre-workout-power-nitrox-3d-creatina-creapure",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Nitrox 3D + Creatină Creapure® 500 g | -16%",
+        "description": "Pachet Nitrox 3D 500 g + Creatină Creapure® 500 g la 309 lei în loc de 370 lei. Alegi aroma de pre-workout. Livrare rapidă în toată România."
+       },
+       "description": "🔥 Ofertă pachet: 309 lei în loc de 370 lei – economisești 61 lei (-16%).Combinația preferată de clienții care se antrenează intens: pre-antrenamentul Nitrox 3D și creatina Creapure®, într-o singură comandă, la preț de pachet. Aroma de Nitrox 3D o alegi mai sus.Ce primești în pachet Nitrox 3D – su...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "309.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "370.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885074829687",
+          "alt": "Pachet Pre-Workout Power: Nitrox 3D și Creatină Creapure® 500 g",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-pre-workout-power.jpg?v=1792318516"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577159729527",
+       "title": "Pachet Recuperare: Aminoacizi EAA + L-glutamină Kyowa®",
+       "handle": "pachet-recuperare-eaa-glutamina-kyowa",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet EAA + L-glutamină Kyowa® | -16%",
+        "description": "Aminoacizi EAA 500 g + L-glutamină Kyowa® 500 g la 285 lei în loc de 340 lei. Alegi aromele."
+       },
+       "description": "🔥 Ofertă pachet: 285 lei în loc de 340 lei – economisești 55 lei (-16%).Două produse pe care clienții le comandă des împreună: aminoacizii esențiali EAA și L-glutamina Kyowa®. Alegi aroma pentru fiecare.Ce primești în pachet Aminoacizi esențiali EAA – 500 g, aroma aleasă L-glutamină Recovery Glut...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "285.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "340.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885117034871",
+          "alt": "Pachet Recuperare: aminoacizi EAA și L-glutamină Kyowa",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-recuperare-eaa-glutamina.jpg?v=1792319697"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150620023",
+       "title": "Pachet Daily Fit: Fiber + Creatină Creapure® 500 g",
+       "handle": "pachet-daily-fit-fiber-creatina-creapure",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Fiber + Creatină Creapure® 500 g | -16%",
+        "description": "Pachet Fiber 500 g + Creatină Creapure® 500 g la 259 lei în loc de 310 lei. Rutina zilnică, la preț de pachet."
+       },
+       "description": "🔥 Ofertă pachet: 259 lei în loc de 310 lei – economisești 51 lei (-16%).Două produse pentru rutina de zi cu zi: băutura cu fibre Fiber și creatina Creapure®, la preț de pachet.Ce primești în pachet Fiber – băutură cu fibre, aromă portocală roșie, 500 g Creatină monohidrată Creapure® – 500 g (100 ...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "259.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "310.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885074862455",
+          "alt": "Pachet Daily Fit: Fiber și Creatină Creapure® 500 g",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-daily-fit.jpg?v=1792318516"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577159663991",
+       "title": "Pachet Set Hammer 3.0: Tricou oversized + Pantaloni scurți waffle",
+       "handle": "pachet-set-hammer-3-0-tricou-pantaloni-scurti",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Set Prime Hammer 3.0: tricou oversized + pantaloni scurți | -15%",
+        "description": "Tricou oversized și pantaloni scurți waffle Prime Hammer 3.0 la 245 lei în loc de 290 lei. Alegi mărimea pentru fiecare."
+       },
+       "description": "🔥 Ofertă pachet: 245 lei în loc de 290 lei – economisești 45 lei (-15%).Ținuta completă de sală din linia Prime Hammer 3.0: tricoul supradimensionat și pantalonii scurți waffle, la preț de pachet.Ce primești în pachet Tricou supradimensionat bărbați Prime Hammer 3.0 – negru Pantaloni scurți waffl...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "245.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "290.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885116969335",
+          "alt": "Pachet Set Hammer 3.0: tricou oversized și pantaloni scurți waffle Prime",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-set-hammer-3-0.jpg?v=1792319696"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577159696759",
+       "title": "Pachet Set Antrenament Hammer: Maiou Edge + Pantaloni de trening",
+       "handle": "pachet-set-antrenament-hammer-maiou-pantaloni-trening",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Set antrenament Prime: maiou Edge + pantaloni trening Hammer 3.0 | -15%",
+        "description": "Maiou fitness Prime Edge și pantaloni de trening Prime Hammer 3.0 la 238 lei în loc de 280 lei."
+       },
+       "description": "🔥 Ofertă pachet: 238 lei în loc de 280 lei – economisești 42 lei (-15%).Setul de antrenament Prime: maioul fitness Edge și pantalonii de trening Hammer 3.0, la preț de pachet.Ce primești în pachet Maiou fitness bărbați Prime Edge – negru Pantaloni de trening bărbați Prime Hammer 3.0 – negri Mărim...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "238.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "280.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885117002103",
+          "alt": "Pachet Set Antrenament Hammer: maiou Edge și pantaloni de trening Prime",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-set-antrenament-hammer.jpg?v=1792319697"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150652791",
+       "title": "Pachet Duo Capsule: Thermo Core + Water Out",
+       "handle": "pachet-duo-capsule-thermo-core-water-out",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Thermo Core + Water Out | -15%",
+        "description": "Pachet Thermo Core 120 capsule + Water Out 120 capsule la 195 lei în loc de 230 lei."
+       },
+       "description": "🔥 Ofertă pachet: 195 lei în loc de 230 lei – economisești 35 lei (-15%).Thermo Core și Water Out, cele două formule în capsule Prime Supplements comandate cel mai des împreună, la preț de pachet.Ce primești în pachet Thermo Core – 120 de capsule cu L-carnitină, extract de ceai verde, cafeină și c...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "195.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "230.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885074895223",
+          "alt": "Pachet Duo Capsule: Thermo Core și Water Out",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-duo-capsule.jpg?v=1792318516"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150685559",
+       "title": "Pachet Trio Cremă de orez: cele 3 arome preferate",
+       "handle": "pachet-trio-crema-de-orez-3-arome",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet 3 arome cremă de orez Prime Creamy Rice | -16%",
+        "description": "Trio cremă de orez: tort de ciocolată, biscuiți cu cremă și plăcintă cu cocos, 3 × 1 kg, la 168 lei în loc de 200 lei."
+       },
+       "description": "🔥 Ofertă pachet: 168 lei în loc de 200 lei – economisești 32 lei (-16%).Cele mai comandate trei arome de cremă de orez Prime Creamy Rice, într-un singur pachet: tort de ciocolată, biscuiți cu cremă și plăcintă cu cocos.Ce primești în pachet Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 k...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "168.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "200.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885075026295",
+          "alt": "Pachet Trio Cremă de orez Prime Creamy Rice, 3 arome",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-trio-crema-de-orez.jpg?v=1792318517"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577150718327",
+       "title": "Pachet Rutina Zilnică: Omega-3 + Magneziu + Vitamina C",
+       "handle": "pachet-rutina-zilnica-omega-3-magneziu-vitamina-c",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Pachet Omega-3 + Magneziu + Vitamina C | -21%",
+        "description": "Pachet rutina zilnică: Omega-3, magneziu bisglicinat și vitamina C 1000 mg la 149 lei în loc de 190 lei."
+       },
+       "description": "🔥 Ofertă pachet: 149 lei în loc de 190 lei – economisești 41 lei (-21%).Trei suplimente pe care clienții le iau des împreună în rutina zilnică: Omega-3, magneziu bisglicinat și vitamina C, la preț de pachet.Ce primești în pachet Omega-3 din ulei de pește – 80 de capsule Magneziu bisglicinat 300 m...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "149.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "190.0"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70893919338871",
+          "alt": "Pachet Rutina Zilnică: Omega-3, Magneziu bisglicinat și Vitamina C",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-rutina-zilnica-21.jpg?v=1792359452"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "id": "gid://shopify/Product/15577159762295",
+       "title": "Pachet Mix 9 batoane proteice: căpșuni, caramel sărat, cocos",
+       "handle": "pachet-mix-9-batoane-proteice",
+       "productType": "Pachet",
+       "status": "ACTIVE",
+       "tags": [
+        "pachet",
+        "reduceri"
+       ],
+       "seo": {
+        "title": "Mix 9 batoane proteice Prime: căpșuni, caramel sărat, cocos | -16%",
+        "description": "9 batoane proteice Prime, câte 3 din fiecare aromă, la 64 lei în loc de 76,50 lei."
+       },
+       "description": "🔥 Ofertă pachet: 64 lei în loc de 76,50 lei – economisești 12,50 lei (-16%).Nouă batoane proteice Prime, câte trei din fiecare aromă preferată: căpșuni, caramel sărat și cocos cu caramel. Gustarea ideală pentru geantă, birou sau după sală.Ce primești în pachet 3 × baton proteic căpșuni, 55 g 3 × ...",
+       "priceRangeV2": {
+        "minVariantPrice": {
+         "amount": "64.0"
+        }
+       },
+       "compareAtPriceRange": {
+        "maxVariantCompareAtPrice": {
+         "amount": "76.5"
+        }
+       },
+       "media": {
+        "nodes": [
+         {
+          "id": "gid://shopify/MediaImage/70885117067639",
+          "alt": "Pachet Mix 9 batoane proteice Prime",
+          "image": {
+           "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-mix-9-batoane-proteice.jpg?v=1792319697"
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ "html": {
+  "data": {
+   "collectionByHandle": {
+    "products": {
+     "nodes": [
+      {
+       "handle": "pachet-starter-forta-prime-whey-2kg-creatina-creapure",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 455 lei în loc de 540 lei – economisești 85 lei (-15%).</strong></p><p>Cel mai comandat duo de pe site: proteina Prime Whey 2 kg și creatina Creapure® 500 g. Alegi aroma de proteină mai sus.</p><h2>Ce primești în pachet</h2><ul>\n<li>Prime Whey – proteină din zer, 2 kg, aroma aleasă</li>\n<li>Creatină monohidrată Creapure® – 500 g (100 de porții)</li>\n</ul><h2>De ce împreună</h2><p>Proteinele contribuie la creșterea și menținerea masei musculare. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.</p><h2>Mod de utilizare</h2><p>Proteina se amestecă cu apă sau lapte, oricând ai nevoie de un aport de proteine în cursul zilei. Creatina se ia zilnic, inclusiv în zilele fără antrenament. Dozele exacte sunt pe eticheta fiecărui produs.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Aromă Prime Whey",
+         "values": [
+          "Strawberry Cheesecake",
+          "Toffee Chocolate",
+          "White Chocolate Raspberry",
+          "Bourbon Vanilla",
+          "Chocolate Coconut",
+          "Blueberry Vanilla",
+          "Salted Caramel"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-mic-dejun-proteic-prime-whey-2kg-crema-de-orez",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 419 lei în loc de 495 lei – economisești 76 lei (-15%).</strong></p><p>Proteina Prime Whey 2 kg plus două creme de orez de 1 kg (tort de ciocolată și plăcintă cu cocos) – combinația pe care o aleg des clienții pentru micul dejun. Alegi aroma de proteină mai sus.</p><h2>Ce primești în pachet</h2><ul>\n<li>Prime Whey – proteină din zer, 2 kg, aroma aleasă</li>\n<li>Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg</li>\n<li>Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg</li>\n</ul><h2>De ce împreună</h2><p>Proteinele contribuie la creșterea și menținerea masei musculare.</p><h2>Mod de utilizare</h2><p>Crema de orez se prepară cu apă sau lapte, conform etichetei; poți adăuga o porție de Prime Whey pentru un mic dejun bogat în proteine. Dozele exacte sunt pe eticheta fiecărui produs.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Aromă Prime Whey",
+         "values": [
+          "Strawberry Cheesecake",
+          "Toffee Chocolate",
+          "White Chocolate Raspberry",
+          "Bourbon Vanilla",
+          "Chocolate Coconut",
+          "Blueberry Vanilla",
+          "Salted Caramel"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-starter-incepator-prime-whey-1kg-creapure-shaker",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 335 lei în loc de 405 lei – economisești 70 lei (-17%).</strong></p><p>Tot ce îți trebuie ca să începi: proteina Prime Whey 1 kg, creatina Creapure® 500 g și shakerul Prime de 600 ml, la preț de pachet. Alegi aroma de proteină mai sus.</p><h2>Ce primești în pachet</h2><ul>\n<li>Prime Whey – proteină din zer, 1 kg, aroma aleasă</li>\n<li>Creatină monohidrată Creapure® – 500 g (100 de porții)</li>\n<li>Shaker Prime 600 ml</li>\n</ul><h2>De ce împreună</h2><p>Proteinele contribuie la creșterea și menținerea masei musculare. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.</p><h2>Mod de utilizare</h2><p>Proteina se amestecă cu apă sau lapte în shaker. Creatina se ia zilnic, inclusiv în zilele fără antrenament. Dozele exacte sunt pe eticheta fiecărui produs.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Aromă Prime Whey",
+         "values": [
+          "Blueberry Vanilla",
+          "Chocolate Coconut",
+          "Salted Caramel",
+          "Strawberry Cheesecake",
+          "Toffee Chocolate",
+          "White Chocolate Raspberry",
+          "Bourbon Vanilla"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-pre-workout-power-nitrox-3d-creatina-creapure",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 309 lei în loc de 370 lei – economisești 61 lei (-16%).</strong></p><p>Combinația preferată de clienții care se antrenează intens: pre-antrenamentul Nitrox 3D și creatina Creapure®, într-o singură comandă, la preț de pachet. Aroma de Nitrox 3D o alegi mai sus.</p><h2>Ce primești în pachet</h2><ul>\n<li>Nitrox 3D – supliment pre-antrenament, 500 g (25 de porții), aroma aleasă</li>\n<li>Creatină monohidrată Creapure® – 500 g (100 de porții)</li>\n</ul><h2>De ce împreună</h2><p>Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.</p><h2>Mod de utilizare</h2><p>Nitrox 3D se amestecă cu apă și se consumă cu aproximativ 15–30 de minute înainte de antrenament. Creatina se ia zilnic, inclusiv în zilele fără antrenament. Dozele exacte sunt pe eticheta fiecărui produs. Nitrox 3D conține cafeină: nu se recomandă copiilor, femeilor însărcinate sau care alăptează.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Aromă Nitrox 3D",
+         "values": [
+          "Cireșe",
+          "Ananas cu mango",
+          "Fructul pasiunii",
+          "Căpșuni cu lămâie verde"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-recuperare-eaa-glutamina-kyowa",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 285 lei în loc de 340 lei – economisești 55 lei (-16%).</strong></p><p>Două produse pe care clienții le comandă des împreună: aminoacizii esențiali EAA și L-glutamina Kyowa®. Alegi aroma pentru fiecare.</p><h2>Ce primești în pachet</h2><ul>\n<li>Aminoacizi esențiali EAA – 500 g, aroma aleasă</li>\n<li>L-glutamină Recovery Glutamin Kyowa® – 500 g, aroma aleasă</li>\n</ul><h2>Mod de utilizare</h2><p>Fiecare produs se amestecă cu apă și se consumă conform dozei de pe propria etichetă, de exemplu în timpul sau după antrenament.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Aromă EAA",
+         "values": [
+          "Peach Ice Tea",
+          "Blueberry",
+          "Strawberry & Kiwi",
+          "Tropical"
+         ]
+        },
+        {
+         "name": "Aromă glutamină",
+         "values": [
+          "Simplu",
+          "Raspberry",
+          "Blueberry",
+          "Cherry Lime",
+          "Pineapple Mango"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-daily-fit-fiber-creatina-creapure",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 259 lei în loc de 310 lei – economisești 51 lei (-16%).</strong></p><p>Două produse pentru rutina de zi cu zi: băutura cu fibre Fiber și creatina Creapure®, la preț de pachet.</p><h2>Ce primești în pachet</h2><ul>\n<li>Fiber – băutură cu fibre, aromă portocală roșie, 500 g</li>\n<li>Creatină monohidrată Creapure® – 500 g (100 de porții)</li>\n</ul><h2>De ce împreună</h2><p>Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.</p><h2>Mod de utilizare</h2><p>Fiber se ia de preferat dimineața sau înainte de masă, cu un pahar mare de apă. Creatina se ia zilnic, oricând în cursul zilei. Dozele exacte sunt pe eticheta fiecărui produs.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Title",
+         "values": [
+          "Default Title"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-set-hammer-3-0-tricou-pantaloni-scurti",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 245 lei în loc de 290 lei – economisești 45 lei (-15%).</strong></p><p>Ținuta completă de sală din linia Prime Hammer 3.0: tricoul supradimensionat și pantalonii scurți waffle, la preț de pachet.</p><h2>Ce primești în pachet</h2><ul>\n<li>Tricou supradimensionat bărbați Prime Hammer 3.0 – negru</li>\n<li>Pantaloni scurți waffle bărbați Prime Hammer 3.0 – negri</li>\n</ul><h2>Mărimi</h2><p>Alegi separat mărimea tricoului (S/M, L/XL, XXL/3XL, 4XL/5XL) și mărimea pantalonilor scurți (M–3XL). Dacă nu ești sigur, scrie-ne pe WhatsApp și te ajutăm să alegi.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p>",
+       "options": [
+        {
+         "name": "Mărime tricou",
+         "values": [
+          "S/M",
+          "L/XL",
+          "XXL/3XL",
+          "4XL/5XL"
+         ]
+        },
+        {
+         "name": "Mărime pantaloni scurți",
+         "values": [
+          "M",
+          "L",
+          "XL",
+          "2XL",
+          "3XL"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-set-antrenament-hammer-maiou-pantaloni-trening",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 238 lei în loc de 280 lei – economisești 42 lei (-15%).</strong></p><p>Setul de antrenament Prime: maioul fitness Edge și pantalonii de trening Hammer 3.0, la preț de pachet.</p><h2>Ce primești în pachet</h2><ul>\n<li>Maiou fitness bărbați Prime Edge – negru</li>\n<li>Pantaloni de trening bărbați Prime Hammer 3.0 – negri</li>\n</ul><h2>Mărimi</h2><p>Alegi separat mărimea maioului (S/M, L/XL, XXL/3XL, 4XL/5XL) și mărimea pantalonilor (S–XL). Dacă nu ești sigur, scrie-ne pe WhatsApp și te ajutăm să alegi.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p>",
+       "options": [
+        {
+         "name": "Mărime maiou",
+         "values": [
+          "S/M",
+          "L/XL",
+          "XXL/3XL",
+          "4XL/5XL"
+         ]
+        },
+        {
+         "name": "Mărime pantaloni",
+         "values": [
+          "S",
+          "M",
+          "L",
+          "XL"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-duo-capsule-thermo-core-water-out",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 195 lei în loc de 230 lei – economisești 35 lei (-15%).</strong></p><p>Thermo Core și Water Out, cele două formule în capsule Prime Supplements comandate cel mai des împreună, la preț de pachet.</p><h2>Ce primești în pachet</h2><ul>\n<li>Thermo Core – 120 de capsule cu L-carnitină, extract de ceai verde, cafeină și capsaicină</li>\n<li>Water Out – 120 de capsule cu extracte din plante (urzică, păpădie, sparanghel)</li>\n</ul><h2>Mod de utilizare</h2><p>Fiecare produs se administrează separat, conform etichetei, fără a depăși doza zilnică recomandată. Thermo Core conține cafeină: nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Title",
+         "values": [
+          "Default Title"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-trio-crema-de-orez-3-arome",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 168 lei în loc de 200 lei – economisești 32 lei (-16%).</strong></p><p>Cele mai comandate trei arome de cremă de orez Prime Creamy Rice, într-un singur pachet: tort de ciocolată, biscuiți cu cremă și plăcintă cu cocos.</p><h2>Ce primești în pachet</h2><ul>\n<li>Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg</li>\n<li>Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg</li>\n<li>Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg</li>\n</ul><h2>De ce împreună</h2><p>Clienții noștri comandă de obicei mai multe arome odată, ca să alterneze gustul de la o zi la alta. Pachetul le reunește pe cele mai cerute trei.</p><h2>Mod de utilizare</h2><p>Se prepară cu apă sau lapte, conform instrucțiunilor de pe etichetă. Poate fi consumată la micul dejun sau ca gustare.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Aliment. Valorile nutriționale și alergenii sunt trecuți pe eticheta fiecărui produs.</em></p>",
+       "options": [
+        {
+         "name": "Title",
+         "values": [
+          "Default Title"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-rutina-zilnica-omega-3-magneziu-vitamina-c",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 149 lei în loc de 190 lei – economisești 41 lei (-21%).</strong></p><p>Trei suplimente pe care clienții le iau des împreună în rutina zilnică: Omega-3, magneziu bisglicinat și vitamina C, la preț de pachet.</p><h2>Ce primești în pachet</h2><ul>\n<li>Omega-3 din ulei de pește – 80 de capsule</li>\n<li>Magneziu bisglicinat 300 mg – 80 de capsule</li>\n<li>Vitamina C 1000 mg – 80 de capsule</li>\n</ul><h2>De ce împreună</h2><p>Vitamina C contribuie la funcționarea normală a sistemului imunitar. Magneziul contribuie la reducerea oboselii și extenuării. EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA.</p><h2>Mod de utilizare</h2><p>Fiecare produs se ia separat, conform dozei zilnice de pe propria etichetă, de preferat în timpul mesei.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Supliment alimentar. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată și un stil de viață sănătos. A nu se depăși doza zilnică recomandată. A nu se lăsa la îndemâna și la vederea copiilor mici. Consultați medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.</em></p>",
+       "options": [
+        {
+         "name": "Title",
+         "values": [
+          "Default Title"
+         ]
+        }
+       ]
+      },
+      {
+       "handle": "pachet-mix-9-batoane-proteice",
+       "descriptionHtml": "<p><strong>🔥 Ofertă pachet: 64 lei în loc de 76,50 lei – economisești 12,50 lei (-16%).</strong></p><p>Nouă batoane proteice Prime, câte trei din fiecare aromă preferată: căpșuni, caramel sărat și cocos cu caramel. Gustarea ideală pentru geantă, birou sau după sală.</p><h2>Ce primești în pachet</h2><ul>\n<li>3 × baton proteic căpșuni, 55 g</li>\n<li>3 × baton proteic caramel sărat, 55 g</li>\n<li>3 × baton proteic cocos și caramel, 55 g</li>\n</ul><h2>De ce împreună</h2><p>Clienții noștri comandă de obicei mai multe arome odată. Pachetul le reunește pe cele mai cerute trei.</p><h2>Mod de utilizare</h2><p>Se consumă ca gustare, oricând în cursul zilei.</p><p><strong>Important:</strong> prețul pachetului este deja redus și <strong>nu se cumulează cu alte coduri de reducere</strong>, inclusiv codurile partenerilor și sportivilor Prime. Produsele din pachet se livrează împreună, în aceeași comandă.</p><p><em>Aliment. Valorile nutriționale și alergenii sunt trecuți pe ambalajul fiecărui baton.</em></p>",
+       "options": [
+        {
+         "name": "Title",
+         "values": [
+          "Default Title"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+}

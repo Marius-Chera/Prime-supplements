@@ -52,3 +52,7 @@ Reactivare: Shopify -> Discounts -> cod -> Activate (sau discountCodeActivate).
 | KARINA10 | 10% | 2026-03-10 | 7 | gid://shopify/DiscountCodeNode/2306372469111 |
 | Ienciu25 | 10% | 2026-04-10 | 1 | gid://shopify/DiscountCodeNode/2317140099447 |
 | Dobrin10 | 10% | 2026-05-01 | 0 | gid://shopify/DiscountCodeNode/2323247006071 |
+
+## Actualizare 18.10.2026
+- Reactivate: matei10, CLYEN, axc10, KARINA10, ANDU10 (toate pe colecția „Eligibile coduri reducere (intern)”, fără pachete).
+- Celelalte 43 coduri din tabel au fost ȘTERSE definitiv (discountCodeBulkDelete), la cererea proprietarului.

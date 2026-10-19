@@ -17,9 +17,11 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ### Checkout
 - 19.10: adresa de e-mail devine obligatorie la comandă (înainte: telefon sau e-mail).
-- 19.10: verificat: bara „livrare gratuită peste 300 lei” e activă în coș; propuse texte noi.
+- 19.10: bara „livrare gratuită peste 300 lei” din coș – texte noi: „Mai ai doar X până la livrare gratuită 🚚” și „Felicitări, ai livrare gratuită! 🎉” (verificat pe site).
+- 19.10: analiză checkout-uri abandonate (50 în 3–19.10, ~11.200 lei; doar 28% abonați la e-mail).
 
 ### E-mail (theMarketer / Shopify)
+- 19–20.10: coș abandonat (theMarketer): copie „Cart abandonment 2026” cu e-mailul 2 refăcut (fără „Ultima șansă”, plus 3 produse pentru livrarea gratuită) – în test, schimbul îl face proprietarul.
 - 15–16.10: audit theMarketer; 7 automatizări puse pe pauză (72% din e-mailurile automate, fără comenzi), păstrate Welcome și Coș abandonat; 3.080 de abonați sincronizați din Shopify; newsletter săptămânal de duminică.
 
 ### Social media (Zernio: Facebook + Instagram)

@@ -21,7 +21,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.10: analiză checkout-uri abandonate (50 în 3–19.10, ~11.200 lei; doar 28% abonați la e-mail).
 
 ### E-mail (theMarketer / Shopify)
-- 19–20.10: coș abandonat (theMarketer): copie „Cart abandonment 2026” cu e-mailul 2 refăcut (fără „Ultima șansă”, plus 3 produse pentru livrarea gratuită) – în test, schimbul îl face proprietarul.
+- 19–21.10: coș abandonat (theMarketer): fluxul vechi oprit, înlocuit cu „Cart abandonment 2026”: e-mailul 2 nou („Bine de știut înainte să comanzi”, fără „Ultima șansă”, plus 3 produse pentru livrarea gratuită), salut fără prenume gol („Salut!”), fraza falsă „au împachetat deja” înlocuită cu „Produsele alese te așteaptă în coș”, filtru vechi corectat.
 - 15–16.10: audit theMarketer; 7 automatizări puse pe pauză (72% din e-mailurile automate, fără comenzi), păstrate Welcome și Coș abandonat; 3.080 de abonați sincronizați din Shopify; newsletter săptămânal de duminică.
 
 ### Social media (Zernio: Facebook + Instagram)

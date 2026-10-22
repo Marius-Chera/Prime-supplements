@@ -9,4 +9,4 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 4. **theMarketer:** raport extensie despre limita de 7 zile la coș abandonat + „Produsele”; 4 newslettere 29.11–20.12 (cu pachetele de iarnă).
 5. **Search Console:** raportul extensiei pentru indexarea /collections/reduceri.
 6. **NIR D3 (NIRPRS8215):** antet 1.084,45 vs linii 15.222,24 – de verificat de proprietar în Oblio.
-7. **GitHub în claude.ai:** conectarea GitHub a contului claude.ai trebuie mutată pe contul **Marius-Chera** (aplicația Claude instalată pe repo-ul Marius-Chera/Prime-supplements), altfel rutinele din cloud care scriu în repo nu pot face push. Repo-ul de lucru este acum https://github.com/Marius-Chera/Prime-supplements.
+7. ~~GitHub în claude.ai~~ – **făcut pe 23.10.2026**: GitHub conectat în claude.ai cu contul Marius-Chera, aplicația Claude instalată doar pe repo-ul Marius-Chera/Prime-supplements; test de scriere din cloud reușit („Everything up-to-date”). Repo-ul de lucru este https://github.com/Marius-Chera/Prime-supplements. Rutina de test „Test acces repo Marius-Chera” poate fi ștearsă din https://claude.ai/code/routines.

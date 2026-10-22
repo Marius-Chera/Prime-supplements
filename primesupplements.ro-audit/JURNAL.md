@@ -54,3 +54,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Pachet Iarnă Complet – D3 + K2 + Magneziu bisglicinat + NAC: 159 lei (în loc de 200, -20%), marjă ~53%;
   - Pachet Duo Magneziu – 2 × Magneziu bisglicinat: 115 lei (în loc de 140, -18%), marjă ~55%.
 - 12 postări FB + IG programate pentru pachetele de iarnă (24.10, 26.10, 28.10, 31.10, 03.11, 06.11, ora 12:30), intercalate cu postările zilnice de la 18:00 (social/2026-10-pachete-iarna/).
+- NAC: doza corectată la 500 mg per capsulă (confirmat de proprietar) pe pagina produsului (descriere, Pe scurt, Ingrediente, Detalii produs, FAQ) și în pachetul Iarnă Complet + postările lui; înainte scria greșit „500 mg la 2 capsule”.

@@ -47,4 +47,5 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Articolul „Creatină și proteină împreună”: meta descrierea nu mai promite „0% lactoză” (acum: „foarte puțină lactoză”).
 - Tema „Prime – tema activă (22.10)” (ID 193996554615) publicată pe 22.10 și verificată live (tema veche păstrată ca rezervă): homepage fără descrierea lungă duplicată de la Cluster Bomb; „Vezi toate” de la Reduceri duce la /collections/reduceri; diacritice corectate (Înainte/după, întrebări frecvente, Prime Health, Prime Whey, recenzia Combat); textul Combat Pro 2.0 corectat (fără cafeină în formulă, conține sinefrină – nu mai scrie „fără cofeină” simplu); „Despre noi” are H1; og:title/twitter:title = titlul SEO pe toate paginile.
 - Judge.me: titlul caruselului de recenzii „Ce spun clienții noștri”.
+- Coenzima Q10 trecută în Draft (lot expirat): redirect temporar /products/coenzima-q10-80-caps → /collections/prime-health (7 articole o linkau); Liver Protect avea deja redirect.
 - Raport stoc săptămânal și raport creatină săptămânal rulate.

@@ -311,10 +311,11 @@
         if (!rows.length) return null;
         if (k === 'cota_creatina') {
           const site = rows.reduce((t, r) => t + r.vizite_site, 0);
-          return site ? Math.round((rows.reduce((t, r) => t + r.vizite_creatina, 0) / site) * 10000) / 10000 : null;
+          return site ? rows.reduce((t, r) => t + r.vizite_creatina, 0) / site : null;
         }
-        return rot1(rows.reduce((t, r) => t + r[k], 0) / rows.length);
+        return rows.reduce((t, r) => t + r[k], 0) / rows.length;
       };
+      const afis = (k, x) => (x === null ? null : k === 'cota_creatina' ? Math.round(x * 10000) / 10000 : rot1(x));
       return ['comenzi', 'comenzi_cautare', 'vizite_creatina', 'vizite_produse', 'cota_creatina'].map((k) => {
         const m0 = medie(inainte, k);
         const m1 = medie(dupa, k);
@@ -323,9 +324,9 @@
           indicator: k,
           saptamana: ultima ? ultima.week : null,
           ultima: u,
-          medie_inainte: m0,
+          medie_inainte: afis(k, m0),
           ultima_vs_inainte: m0 && u !== null ? rotp(u / m0 - 1) : null,
-          medie_dupa: m1,
+          medie_dupa: afis(k, m1),
           dupa_vs_inainte: m0 && m1 !== null ? rotp(m1 / m0 - 1) : null,
           saptamani_inainte: inainte.length,
           saptamani_dupa: dupa.length,

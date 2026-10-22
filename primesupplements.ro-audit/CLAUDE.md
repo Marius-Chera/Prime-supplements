@@ -6,7 +6,8 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 - **Nu modifica niciodată stocul (inventarul) și nici statusul unui produs** (Active / Draft / Archived) fără cererea explicită a proprietarului sau fără să-l întrebi înainte și să primești „da”. Stocul vine din Oblio; nu-l corecta în Shopify nici dacă pare greșit – raportează-l.
 
 ## Aplicații de comenzi
-- Nu deschide Fluxsales, Primesupplements App sau alte aplicații de comenzi (acolo se fac AWB-uri și facturi). Nu intra în checkout pe site.
+- Nu umbla în Fluxsales și Primesupplements App (acolo se fac AWB-uri și facturi). Nu intra în checkout pe site.
+- Oblio NU e inclus în regula de mai sus. Citirea datelor din Oblio (ex. prețuri de achiziție) e permisă când o cere proprietarul; orice modificare în Oblio (facturi, produse, stocuri) doar cu acordul lui.
 
 ## Conținut
 - Nicăieri pe site nu se menționează furnizorul sau fabrica produselor (excepție: mărcile de ingrediente din titluri, de ex. Creapure®, Kyowa®).

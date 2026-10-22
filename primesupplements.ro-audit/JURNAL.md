@@ -49,3 +49,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Judge.me: titlul caruselului de recenzii „Ce spun clienții noștri”.
 - Coenzima Q10 trecută în Draft (lot expirat): redirect temporar /products/coenzima-q10-80-caps → /collections/prime-health (7 articole o linkau); Liver Protect avea deja redirect.
 - Raport stoc săptămânal și raport creatină săptămânal rulate.
+- 3 pachete noi de iarnă (pachete native Shopify, se facturează pe componente în Oblio), tip „Pachet”, în colecția Reduceri și excluse din codurile de reducere (nu se cumulează cu cupoane), descrieri + SEO + imagine proprie:
+  - Pachet Cura de Iarnă – 3 × Vitamina D3 + K2: 149 lei (în loc de 225, -34%), marjă netă ~64%;
+  - Pachet Iarnă Complet – D3 + K2 + Magneziu bisglicinat + NAC: 159 lei (în loc de 200, -20%), marjă ~53%;
+  - Pachet Duo Magneziu – 2 × Magneziu bisglicinat: 115 lei (în loc de 140, -18%), marjă ~55%.
+- 12 postări FB + IG programate pentru pachetele de iarnă (24.10, 26.10, 28.10, 31.10, 03.11, 06.11, ora 12:30), intercalate cu postările zilnice de la 18:00 (social/2026-10-pachete-iarna/).

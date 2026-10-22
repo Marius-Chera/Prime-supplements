@@ -1,0 +1,126 @@
+--- orig/templates/index.json	2026-10-22 11:35:07.549065927 +0000
++++ templates/index.json	2026-10-22 11:37:14.046259372 +0000
+@@ -409,7 +409,7 @@
+         "richtext_LjQ9Jw": {
+           "type": "richtext",
+           "settings": {
+-            "content": "<p>Nutritie zilnica pentru imunitate, digestie si vitalitate.</p>"
++            "content": "<p>Nutriție zilnică pentru imunitate, digestie și vitalitate.</p>"
+           }
+         },
+         "button_3nGTwj": {
+@@ -483,7 +483,7 @@
+         "subheading": "",
+         "title": "Reduceri",
+         "content": "",
+-        "link_url": "",
++        "link_url": "shopify://collections/reduceri",
+         "link_text": "Vezi toate",
+         "background": "",
+         "background_gradient": "",
+@@ -502,7 +502,7 @@
+           "settings": {
+             "title": "Combat PRO 2.0",
+             "subheading": "Combat PRO 2.0",
+-            "content": "<p>Cel mai complet pre-workout fara cofeina. Formula unica din ingrediente atent alese pentru pompari maxime in timpul antrenamentelor si focus mental pentru imbuinatirea conexiunii neuro musculare !</p>",
++            "content": "<p>Pre-workout fără cafeină în formulă, 30 de porții, pentru antrenamentele intense. Conține sinefrină, deci nu se recomandă persoanelor sensibile la stimulente.</p>",
+             "button_text": "Cumpără acum",
+             "button_url": "shopify://products/combat-pro-2-0-660g-30-serv",
+             "animate_impact_text": false,
+@@ -656,8 +656,8 @@
+       "settings": {
+         "full_width": true,
+         "subheading": "",
+-        "title": "Inainte/dupa",
+-        "content": "<p>Feedback de la sportivii de performanta</p>",
++        "title": "Înainte/după",
++        "content": "<p>Feedback de la sportivii de performanță</p>",
+         "before_image": "shopify://shop_images/image00001_4ccb020e-c747-4944-bcf7-d318c649d1f1.jpg",
+         "before_image_mobile": "shopify://shop_images/image00001_4ccb020e-c747-4944-bcf7-d318c649d1f1.jpg",
+         "after_image": "shopify://shop_images/after4d.jpg",
+@@ -685,7 +685,7 @@
+           "settings": {
+             "logo_width": 100,
+             "author": "Rammy Andrei , competitor Men's Physique",
+-            "content": "Combat 2.0 este produsul meu preferat pe care il folosesc in pregatirea competitionala pentru Olympia Amateur , am observat o imbunatatire a focusului din timpul antrenamentelor si o volumizare musculara foarte mare.",
++            "content": "Combat 2.0 este produsul meu preferat, pe care îl folosesc în pregătirea competițională pentru Olympia Amateur. Am observat o îmbunătățire a focusului în timpul antrenamentelor și o volumizare musculară foarte mare.",
+             "show_rating": false,
+             "rating": 5
+           }
+@@ -730,7 +730,7 @@
+             "vertical_position_mobile": 45,
+             "icon_width": 32,
+             "title": "Prime Whey 1kg/33 Serv",
+-            "content": "<p>Pudra proteica de cea mai inalta calitate cu o concentratie de peste 82% proteine per 100g.<br/><br/><a href=\"/products/prime-whey-1000g\" title=\"Prime Whey 1kg/33 serv\">Vezi produsul</a></p>"
++            "content": "<p>Pudră proteică de cea mai înaltă calitate, cu o concentrație de peste 82% proteine la 100 g.<br/><br/><a href=\"/products/prime-whey-1000g\" title=\"Prime Whey 1kg/33 serv\">Vezi produsul</a></p>"
+           }
+         }
+       },
+@@ -848,14 +848,6 @@
+           "type": "separator",
+           "settings": {}
+         },
+-        "description": {
+-          "type": "description",
+-          "settings": {
+-            "icon": "none",
+-            "icon_width": 20,
+-            "collapse_content": true
+-          }
+-        },
+         "variant-picker": {
+           "type": "variant_picker",
+           "settings": {
+@@ -898,7 +890,6 @@
+         "rating",
+         "inventory_f8DRgp",
+         "separator",
+-        "description",
+         "variant-picker",
+         "quantity-selector",
+         "buy-buttons",
+@@ -974,22 +965,22 @@
+         "166442457738b23caf-0": {
+           "type": "item",
+           "settings": {
+-            "title": "Articolul comandat nu este in stoc. De ce apare pe site?",
+-            "content": "<p>Stocurile noastre depind de disponibilitate. Ne dorim sa poti comanda si sa primesti produsele dorite fara eforturi extra, deci vom incerca sa te informam daca un produs nu este in stoc. Ocazional, pot aparea intarzieri neasteptate, iar in acest caz, te vom contacta pentru a-ti aduce la cunostinta.</p>"
++            "title": "Articolul comandat nu este în stoc. De ce apare pe site?",
++            "content": "<p>Stocurile noastre depind de disponibilitate. Ne dorim să poți comanda și să primești produsele dorite fără eforturi în plus, așa că încercăm să te informăm dacă un produs nu este în stoc. Ocazional pot apărea întârzieri neașteptate; în acest caz, te contactăm ca să te anunțăm.</p>"
+           }
+         },
+         "item_EL8qPR": {
+           "type": "item",
+           "settings": {
+-            "title": "Am primit un articol gresit. Ce ar trebui sa fac?",
+-            "content": "<p>Avem nevoie sa stim urmatoarele: Numarul comenzii, Articolul primit gresit, Articolul corect comandat. Imediat ce investigam ce s-a intamplat, iti vom trimite un email cu rezultatul.</p>"
++            "title": "Am primit un articol greșit. Ce ar trebui să fac?",
++            "content": "<p>Avem nevoie să știm următoarele: numărul comenzii, articolul primit greșit și articolul corect comandat. Imediat ce verificăm ce s-a întâmplat, îți trimitem un e-mail cu rezultatul.</p>"
+           }
+         },
+         "166442457738b23caf-1": {
+           "type": "item",
+           "settings": {
+-            "title": "Ce fac daca nu am primit comanda?",
+-            "content": "<p>Iti trimitem un email imediat ce comanda ta este inregistrata si este in drum spre tine, astfel incat sa poti afla cand va ajunge. Pentru comenzile cu urmarire, utilizeaza link-ul de urmarire furnizat in emailul tau pentru a verifica unde se afla comanda ta.</p>"
++            "title": "Ce fac dacă nu am primit comanda?",
++            "content": "<p>Îți trimitem un e-mail imediat ce comanda ta este înregistrată și pe drum spre tine, ca să afli când ajunge. Pentru comenzile cu urmărire, folosește linkul de urmărire din e-mail ca să vezi unde se află coletul.</p>"
+           }
+         },
+         "item_M8Rpcy": {
+@@ -1003,7 +994,7 @@
+           "type": "item",
+           "settings": {
+             "title": "Cum pot plati comanda mea?",
+-            "content": "<p>Oferim o varietate de metode de plata online pentru a ne asigura ca puteti accesa cu usurinta cele mai bune produse.<br/><br/>Plata Ramburs (cash la curier)<br/>Visa<br/>Mastercard<br/>ApplePay<br/><br/>Puteti selecta metoda preferata de plata la finalizarea comenzii. Deoarece luam frauda foarte in serios, veti trece prin procesul de validare si autorizare atat din partea noastra, cat si a emitentului cardului.</p><p>Aceasta este doar o masura de siguranta pentru protectia clientilor nostri.</p>"
++            "content": "<p>Oferim mai multe metode de plată, ca să poți comanda cât mai ușor.<br/><br/>Plata ramburs (numerar la curier)<br/>Visa<br/>Mastercard<br/>Apple Pay<br/><br/>Alegi metoda de plată la finalizarea comenzii. Pentru că luăm frauda în serios, plățile cu cardul trec printr-un proces de validare și autorizare, atât din partea noastră, cât și a băncii emitente.</p><p>Este doar o măsură de siguranță pentru protecția clienților noștri.</p>"
+           }
+         }
+       },
+@@ -1097,4 +1088,4 @@
+     "1752713175620cb137",
+     "1773543102ef58f575"
+   ]
+-}
++}
+\ No newline at end of file

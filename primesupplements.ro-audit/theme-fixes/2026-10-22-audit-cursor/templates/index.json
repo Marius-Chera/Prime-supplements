@@ -1,0 +1,1091 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header-desktop.jpg",
+            "mobile_image": "shopify://shop_images/header-mobile.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "PRIME SUPPLEMENTS",
+            "title": "Hardcore sports nutrition",
+            "heading_tag": "h0",
+            "button_text": "Vezi produse",
+            "button_link": "shopify://collections/suplimente-sala",
+            "text_color": "#ffffff",
+            "button_background": "#e91d23",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 40,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "lg",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(55deg, rgba(26, 26, 26, 1) 54%, rgba(248, 58, 58, 1) 100%)"
+      }
+    },
+    "image-link-blocks": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "1664424046b00c932c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pre-workout.jpg",
+            "stretch_image": true,
+            "link_text": "PRE-WORKOUT",
+            "link_url": "shopify://collections/suplimente-pre-workout",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/shoturi.jpg",
+            "stretch_image": true,
+            "link_text": "SHOT-URI",
+            "link_url": "shopify://collections/shot-pre-workout",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/dailyvitamin.jpg",
+            "stretch_image": true,
+            "link_text": "VITAMINE ȘI MINERALE",
+            "link_url": "shopify://collections/vitamine-si-minerale",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1664424046b00c932c-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/accesorii.jpg",
+            "stretch_image": true,
+            "link_text": "ACCESORII",
+            "link_url": "shopify://collections/accesorii-sala",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/aminoacizi.jpg",
+            "stretch_image": true,
+            "link_text": "AMINOACIZI",
+            "link_url": "",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_pmXpiK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pure.jpg",
+            "stretch_image": true,
+            "link_text": "PUDRE PROTEICE",
+            "link_url": "shopify://collections/pudra-proteica",
+            "background": "",
+            "text_color": "#1a1a1a",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1664424046b00c932c-0",
+        "1664424046b00c932c-1",
+        "1664424046b00c932c-2",
+        "1664424046b00c932c-3",
+        "e4a0ef18-1856-4ddd-83d8-871a60d7acac",
+        "item_pmXpiK"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured_collection_nBLAPd": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "haine-mnx",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "NOU - Haine MNX",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_UTDYQn": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pudra-proteica",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Pudre proteice",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_GJttDJ": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "prime-health",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Prime Health",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_FVJhtH": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "suplimente-pre-workout",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Pre Workout",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Create de campioni pentru campioni",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "linear-gradient(270deg, rgba(26, 26, 26, 1), rgba(26, 26, 26, 1) 100%)"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vitamine-si-minerale",
+            "image": "shopify://shop_images/1.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "arzator-de-grasimi",
+            "image": "shopify://shop_images/2.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "suplimente-pre-workout",
+            "image": "shopify://shop_images/3.jpg",
+            "subheading": "",
+            "title": "Pre Workout",
+            "url": "",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "lansate-recent",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Lansate recent",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "image_with_text_overlay_iAkp9B": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_7zxRVQ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_qzjnRU": {
+          "type": "heading",
+          "settings": {
+            "text": "Descoperă PRIME Health",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LjQ9Jw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nutriție zilnică pentru imunitate, digestie și vitalitate.</p>"
+          }
+        },
+        "button_3nGTwj": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Vezi produse",
+            "url": "shopify://collections/prime-health",
+            "background": "#ffffff",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7zxRVQ",
+        "heading_qzjnRU",
+        "richtext_LjQ9Jw",
+        "button_3nGTwj"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/prime-health-d.jpg",
+        "mobile_image": "shopify://shop_images/prime-health-mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_NFyp6g": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "cele-mai-vandute",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Cele mai vândute",
+        "content": "",
+        "link_url": "",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_bt96pP": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "cele-mai-vandute",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Reduceri",
+        "content": "",
+        "link_url": "shopify://collections/reduceri",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "impact-text": {
+      "type": "impact-text",
+      "blocks": {
+        "1664424181b38582d5-0": {
+          "type": "item",
+          "settings": {
+            "title": "Combat PRO 2.0",
+            "subheading": "Combat PRO 2.0",
+            "content": "<p>Pre-workout fără cafeină în formulă, 30 de porții, pentru antrenamentele intense. Conține sinefrină, deci nu se recomandă persoanelor sensibile la stimulente.</p>",
+            "button_text": "Cumpără acum",
+            "button_url": "shopify://products/combat-pro-2-0-660g-30-serv",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "1664424181b38582d5-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/01_PRIME_COMBAT_PRO_Mango_660g_front_e21f38cf-02c1-41c9-958a-8b64e9241d0d.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_15_25_20_1666.jpg",
+            "title": "Prime Whey",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/prime-whey-2000g",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_12_43_04_0431.jpg",
+            "title": "Instant Oats",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/instant-oat-cream-800g-25-serv",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_12_37_10_0397.jpg",
+            "title": "BCAA",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/recovery-bcaa-500g",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "29246d34-c6e0-4373-84f6-b15e57736a00": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HILA_13_12_58_08_0530.jpg",
+            "title": "Shaker Premium Accesorizat",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/shaker-premium-accesorizat-500-ml",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "29246d34-c6e0-4373-84f6-b15e57736a00"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Înainte/după",
+        "content": "<p>Feedback de la sportivii de performanță</p>",
+        "before_image": "shopify://shop_images/image00001_4ccb020e-c747-4944-bcf7-d318c649d1f1.jpg",
+        "before_image_mobile": "shopify://shop_images/image00001_4ccb020e-c747-4944-bcf7-d318c649d1f1.jpg",
+        "after_image": "shopify://shop_images/after4d.jpg",
+        "after_image_mobile": "shopify://shop_images/after-m.jpg",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Înainte",
+        "after_text": "După",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Rammy Andrei , competitor Men's Physique",
+            "content": "Combat 2.0 este produsul meu preferat, pe care îl folosesc în pregătirea competițională pentru Olympia Amateur. Am observat o îmbunătățire a focusului în timpul antrenamentelor și o volumizare musculară foarte mare.",
+            "show_rating": false,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "hot-spots": {
+      "type": "hot-spots",
+      "blocks": {
+        "1664424434f5b7d0e0-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 16,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 9,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "NITROX 3D 500g/25 Serv",
+            "content": "<p>Unul dintre cele mai complete produse de tip pre workout de pe piata , cu ingrediente atent dozate conform ultimelor studii !<a href=\"/products/nitrox\" title=\"NITROX 3D 500g/25 serv\"><strong><br/></strong><br/>Vezi produsul</a></p>"
+          }
+        },
+        "1664424434f5b7d0e0-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 45,
+            "icon_width": 32,
+            "title": "Prime Whey 1kg/33 Serv",
+            "content": "<p>Pudră proteică de cea mai înaltă calitate, cu o concentrație de peste 82% proteine la 100 g.<br/><br/><a href=\"/products/prime-whey-1000g\" title=\"Prime Whey 1kg/33 serv\">Vezi produsul</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664424434f5b7d0e0-0",
+        "1664424434f5b7d0e0-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/shop-the-look.jpg",
+        "mobile_image": "shopify://shop_images/shop-the-look-mobile.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "multiple-images-with-text": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "1664424486a2b084ab-0": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "1664424486a2b084ab-1": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664424486a2b084ab-0",
+        "1664424486a2b084ab-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "sku_RBnHAM": {
+          "type": "sku",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "inventory_f8DRgp": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "color",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "share_buttons_anPpwz": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "sku_RBnHAM",
+        "badges",
+        "price",
+        "rating",
+        "inventory_f8DRgp",
+        "separator",
+        "variant-picker",
+        "quantity-selector",
+        "buy-buttons",
+        "share_buttons_anPpwz"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "cluster-bomb-1000g",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_h3DMLB": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify://shop_images/reveal-scroll-d.jpg",
+        "mobile_image": "shopify://shop_images/reveal-m.jpg",
+        "subheading": "Nitrox NO-STIM 660g/30 Serv",
+        "title": "Pre-antrenament fără cofeină",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "blog_posts_fPzUUD": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_HYRWbN": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_HYRWbN"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Ghiduri și sfaturi utile",
+        "content": "",
+        "link_url": "shopify://blogs/news",
+        "link_text": "Vezi toate",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Articolul comandat nu este în stoc. De ce apare pe site?",
+            "content": "<p>Stocurile noastre depind de disponibilitate. Ne dorim să poți comanda și să primești produsele dorite fără eforturi în plus, așa că încercăm să te informăm dacă un produs nu este în stoc. Ocazional pot apărea întârzieri neașteptate; în acest caz, te contactăm ca să te anunțăm.</p>"
+          }
+        },
+        "item_EL8qPR": {
+          "type": "item",
+          "settings": {
+            "title": "Am primit un articol greșit. Ce ar trebui să fac?",
+            "content": "<p>Avem nevoie să știm următoarele: numărul comenzii, articolul primit greșit și articolul corect comandat. Imediat ce verificăm ce s-a întâmplat, îți trimitem un e-mail cu rezultatul.</p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "Ce fac dacă nu am primit comanda?",
+            "content": "<p>Îți trimitem un e-mail imediat ce comanda ta este înregistrată și pe drum spre tine, ca să afli când ajunge. Pentru comenzile cu urmărire, folosește linkul de urmărire din e-mail ca să vezi unde se află coletul.</p>"
+          }
+        },
+        "item_M8Rpcy": {
+          "type": "item",
+          "settings": {
+            "title": "Care este politica voastra de returnare?",
+            "content": "<p>Te rugăm să arunci o privire peste politica noastră de retur care se găsește <a href=\"/pages/politica-de-retur\" title=\"POLITICA DE RETUR\">aici</a>.</p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Cum pot plati comanda mea?",
+            "content": "<p>Oferim mai multe metode de plată, ca să poți comanda cât mai ușor.<br/><br/>Plata ramburs (numerar la curier)<br/>Visa<br/>Mastercard<br/>Apple Pay<br/><br/>Alegi metoda de plată la finalizarea comenzii. Pentru că luăm frauda în serios, plățile cu cardul trec printr-un proces de validare și autorizare, atât din partea noastră, cât și a băncii emitente.</p><p>Este doar o măsură de siguranță pentru protecția clienților noștri.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "item_EL8qPR",
+        "166442457738b23caf-1",
+        "item_M8Rpcy",
+        "166442457738b23caf-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Întrebări frecvente",
+        "content": "<p>Aruncă o privire, cel mai probabil găsești aici răspunsul </p>",
+        "team_avatar_width": 160,
+        "support_hours": "Serviciul nostru de relații cu clienții este disponibil de Luni până Vineri: 8:00 - 18:00",
+        "answer_time": "Timp mediu de răspuns: 1h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "1752713175620cb137": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_UceJiJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_UceJiJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1773543102ef58f575": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "image-link-blocks",
+    "featured_collection_nBLAPd",
+    "featured_collection_UTDYQn",
+    "featured_collection_GJttDJ",
+    "featured_collection_FVJhtH",
+    "scrolling-text",
+    "collection-list",
+    "featured-collection",
+    "image_with_text_overlay_iAkp9B",
+    "featured_collection_NFyp6g",
+    "featured_collection_bt96pP",
+    "impact-text",
+    "image-with-text-overlay",
+    "media-grid",
+    "before-after-image",
+    "press",
+    "hot-spots",
+    "multiple-images-with-text",
+    "featured-product",
+    "revealed_image_on_scroll_h3DMLB",
+    "blog_posts_fPzUUD",
+    "faq",
+    "1752713175620cb137",
+    "1773543102ef58f575"
+  ]
+}

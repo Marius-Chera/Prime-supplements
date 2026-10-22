@@ -1,0 +1,21 @@
+--- orig/sections/slideshow.liquid	2026-10-22 11:36:42.402599421 +0000
++++ sections/slideshow.liquid	2026-10-22 11:36:49.886546597 +0000
+@@ -128,9 +128,16 @@
+               {%- endif -%}
+ 
+               {%- if block.settings.title != blank -%}
+-                <p class="{{ block.settings.heading_tag }}" data-sequence="heading">
++                {%- comment -%}SEO (2026-10-22): the first slide of the first slideshow on the "Despre noi" page is the page's H1 (same look, the class keeps the size).{%- endcomment -%}
++                {%- liquid
++                  assign slide_heading_element = 'p'
++                  if template.suffix == 'despre-noi' and section.id contains 'slideshow_36jMey' and forloop.first
++                    assign slide_heading_element = 'h1'
++                  endif
++                -%}
++                <{{ slide_heading_element }} class="{{ block.settings.heading_tag }}" data-sequence="heading">
+                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
+-                </p>
++                </{{ slide_heading_element }}>
+               {%- endif -%}
+ 
+               {%- if block.settings.button_text != blank -%}

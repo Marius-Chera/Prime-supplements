@@ -1,0 +1,20 @@
+--- orig/layout/theme.liquid	2026-10-22 11:35:07.547963507 +0000
++++ layout/theme.liquid	2026-10-22 11:35:54.211268074 +0000
+@@ -44,7 +44,7 @@
+       endif
+ 
+       assign noindex_page = false
+-      assign utility_collections = 'all,cele-mai-vandute,lansate-recent,11-tva,frontpage,reduceri,vendors,types' | split: ','
++      assign utility_collections = 'all,cele-mai-vandute,lansate-recent,11-tva,frontpage,vendors,types' | split: ','
+       if request.page_type == 'collection' and utility_collections contains collection.handle
+         assign noindex_page = true
+       endif
+@@ -107,7 +107,7 @@
+     {%- endunless -%}
+ 
+     {%- render 'fontify-fonts' -%}
+-    {%- render 'social-meta-tags' -%}
++    {%- render 'social-meta-tags', seo_title: seo_title -%}
+     {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
+     {%- render 'css-variables' -%}
+     {%- render 'js-variables' -%}

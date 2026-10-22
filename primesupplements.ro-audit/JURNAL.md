@@ -58,3 +58,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - NAC: titlul produsului devine „NAC – N-acetilcisteină 500 mg, 80 de capsule” (+ titlu SEO cu 500 mg). Articolul „NAC 600 mg” reformulat ca „NAC 500 mg sau 600 mg: ce doză alegi și semne că ai nevoie” (același URL, păstrează căutările pe „NAC 600”), cu doza corectă a produsului Prime și o întrebare nouă „500 sau 600 mg?”.
 - Costuri: rapoartele lunare „Ce am lucrat” și „Vânzări fără reduceri” rulează acum pe un model mai ieftin (Sonnet). Instalat CLI-ul Headroom (fără hooks/proxy).
 - Blog automat: de la 23.10 un singur articol pe zi (ora 09:00), pe modelul mai ieftin (Sonnet) – rularea principală și rezerva. Calendarul e folosit ca listă de subiecte în ordine, fără articole „de recuperat”. Verificare calitate după 7 zile (~30.10).
+
+## 2026-10-23
+
+### Rapoarte și automatizări
+- Cele 8 sarcini programate care rulau în sesiunea veche (raport stoc joi 14:33, raport creatină joi 14:47, reactivare click-uri e-mail 1 pe 23.10 și e-mail 2 pe 28.10, verificare comenzi fără e-mail pe 26.10, curățenia reactivării pe 10.11, verificare Edu20 pe 12.12, raport afiliați pe 05.02.2027) au fost recreate ca rutine care pornesc o sesiune nouă la fiecare rulare, cu prompturi complete (fără dependență de istoricul vechi). Cele doar-citire (stoc, comenzi fără e-mail, raport afiliați) rulează pe modelul mai ieftin (Sonnet). Orele și regulile au rămas aceleași; vechile variante au fost puse pe pauză.

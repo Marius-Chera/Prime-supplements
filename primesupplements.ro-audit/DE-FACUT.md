@@ -3,7 +3,7 @@
 Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 
 ## Deschis
-1. **Sarcini programate care rulează în sesiunea veche** (scumpe, încarcă tot istoricul): raport stoc săptămânal (joi 14:33), raport creatină săptămânal (joi 14:47), reactivare click-uri e-mail 1 (23.10), verificare comenzi fără e-mail (26.10), reactivare e-mail 2 (28.10), reactivare curățenie (10.11), Edu20 (12.12), raport afiliați (05.02.2027). De mutat în sesiuni noi la fiecare rulare (pe Sonnet unde e doar citire), cu prompturi complete.
+1. ~~Sarcini programate care rulează în sesiunea veche~~ – **făcut pe 23.10.2026**: cele 8 sarcini au fost recreate ca rutine care pornesc o sesiune nouă la fiecare rulare, cu prompturi complete (Sonnet pe cele doar-citire: stoc, comenzi fără e-mail, raport afiliați); orele și regulile au rămas aceleași. Vechile variante sunt oprite (pauză); de șters definitiv din https://claude.ai/code/routines după confirmarea proprietarului.
 2. **Blog zilnic:** din 23.10, 1 articol/zi pe Sonnet (decizia proprietarului). Pe ~30.10: verifică calitatea ultimelor 7 articole (ghid, mențiuni UE, imagini) și raportează; dacă e mai slabă, revino pe modelul mare.
 3. **Blog: curățare afirmații de sănătate** în articolele publicate (ex. NAC: „mucolitic”, „ficat”, „imunitate” – fără mențiuni UE autorizate).
 4. **theMarketer:** raport extensie despre limita de 7 zile la coș abandonat + „Produsele”; 4 newslettere 29.11–20.12 (cu pachetele de iarnă).

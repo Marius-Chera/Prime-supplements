@@ -34,3 +34,14 @@ Corectură la D4: `d1639lhkj5l89m.cloudfront.net` NU e Pop Convert, ci scriptul 
 1. Pandectes: „Refuz toate” pe primul ecran (ordinea Preferințe · Refuz toate · Accept), iconița de redeschidere jos-stânga, bară jos; blocare automată pornită cu: clarity.ms (Analiză); t.themarketer.com, c3api.themarketer.com (Marketing); UpPromote după decizia 3; scanare nouă pe primesupplements.ro; publicare după aprobare.
 2. Politica: copia veche e în `backups/cookies-clarity-2026-10-23/politica-de-cookies.before.html`; public textul aprobat prin API.
 3. Clarity: după decizia 2; verificare într-un browser curat: înainte de acord nicio cerere spre clarity.ms; după „Accept” la Analiză, _clck/_clsk și u.clarity.ms/collect.
+
+## 4. Făcut pe 23.10 (după aprobarea proprietarului)
+- Permisiunile noi Pandectes acordate („Update”, aprobat de proprietar). Oferta „noul designer de banner” refuzată („Keep current banner”), ca să nu se schimbe designul.
+- Bannerul salvat și publicat (aprobat de proprietar; `tsPublished` 23.10.2026 11:46 UTC): primul ecran „Accept toate” · „Refuz toate” (la fel de vizibile) · „Preferințe”; poziția „Bar at the bottom”; butonul de redeschidere pornit (iconiță cookie, jos-stânga, „Setări cookie”); linkul „Află mai multe” → `/pages/politica-de-cookies` (înainte → politica de confidențialitate); textul nou: „Folosim cookie-uri strict necesare pentru funcționarea magazinului și, doar cu acordul dumneavoastră, cookie-uri de analiză și de marketing. Vă puteți schimba alegerea oricând, din iconița din stânga-jos.”; în fereastra de preferințe: „Aproape” → „Închide”, „Acceptă tot” → „Accept toate”, „Refuzați toate” → „Refuz toate”. Regula strictă, culorile și fontul au rămas.
+- Verificat live (telefon 375 px, browser curat): bara apare jos cu cele 3 butoane; „Refuz toate” setează analytics/marketing/preferences = „no” în Shopify; iconița de redeschidere apare jos-stânga; `Pandectes.fn.openPreferences()` funcționează pe planul actual (deci linkul din politică poate redeschide preferințele).
+- Observație: bula WhatsApp (Dondy) acoperă colțul din dreapta al butonului „Refuz toate” pe telefon.
+
+## 5. Blocajul rămas: blocarea automată e doar în Premium
+- „Auto blocker” din Pandectes cere planul **Premium (29 $/lună; acum Plus, 9 $/lună)**; butonul „Enable” e inactiv pe Plus.
+- Verificat după „Refuz toate”: **Clarity (www.clarity.ms, scripts.clarity.ms, r.clarity.ms), theMarketer și UpPromote pornesc în continuare**. Google și Meta nu pornesc.
+- Variante: A) Premium (+20 $/lună): blocare automată pentru clarity.ms (Analiză), theMarketer și, după decizie, UpPromote (Marketing). B) Gratuit: opresc embed-ul aplicației Clarity din temă și încarc Clarity printr-un fragment de cod care așteaptă acordul la Analiză (pe o copie a temei, publicată de proprietar); theMarketer rămâne la D4 varianta A (e-mailul către iam@themarketer.com) până răspund. C) Lași Clarity în modul fără cookie-uri (nu e „pornește doar după acord”).

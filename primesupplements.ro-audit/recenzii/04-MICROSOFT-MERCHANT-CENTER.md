@@ -1,6 +1,7 @@
 # Microsoft Merchant Center – pași pregătiți, 23.10.2026
 
-**Stare:** pregătit, nepornit. Contul Microsoft Advertising îl creează proprietarul (cont nou, acceptă termenii Microsoft). Fără buget: folosim doar listările gratuite, fără campanii plătite.
+**Stare (23.10.2026, după-amiază): FĂCUT, așteaptă aprobarea Microsoft.** Contul Microsoft Advertising **PRIME SPORT SUPPLEMENTS SRL (G145RDYP)** a fost creat cu contul Microsoft contact@primesupplements.ro, fără campanie și fără metodă de plată („Configurați plata mai târziu”). Moneda contului e EUR (RON nu există în listă), iar codul de TVA e necompletat. Magazinul Microsoft Merchant Center **„Prime Supplements” (storeId 50105172)** a fost creat prin import din Google Merchant Center 5540809866 (cont Google contact@primesupplements.ro, cu toate permisiunile bifate), cu contact contact@primesupplements.ro. Importul zilnic e activat (12:00 ora Pacificului, adică ~22:00 în România); primul import a fost pornit manual pe 23.10. Aprobarea durează până la 3 zile lucrătoare. Un alt cont Microsoft Ads, creat de proprietar cu marius.chera@gmail.com, rămâne nefolosit (fără campanii).
+
 
 ## De ce
 - ChatGPT și Copilot se bazează pe Bing. Pe Bing nu apărem la „proteina whey”, „creatina” și nici la „crema de orez” (audit §5).

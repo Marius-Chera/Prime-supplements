@@ -60,3 +60,18 @@ Magazinul „Prime Supplements” (50105172) din contul G145RDYP: **431 de produ
 - **Ce se poate face:** pentru fiecare grup, Diagnostice → „Solicitați revizuirea pentru toți”, motivul „Clasificare incorectă”. Formularul cere o confirmare în numele firmei („M-am asigurat că ofertele mele de produs sunt conforme cu politicile…”). Microsoft avertizează că prea multe contestații fără modificări îi pot limita pe viitor, deci se trimite **o singură dată pe grup**. Nu s-a trimis nimic: așteaptă „da”-ul proprietarului.
 - **Mesajul roșu „Aveți nevoie de o metodă de plată…”** se referă doar la reclamele plătite. Listările gratuite nu au nevoie de card, deci nu adăugăm nicio metodă de plată.
 - De verificat din nou după ~28.10 (3 zile lucrătoare): câte produse sunt active și dacă apar pe Bing Shopping.
+
+## Contestația (aprobată de proprietar pe 24.10: „Da, trimite contestația «Clasificare incorectă»… câte o dată pe grup”)
+Din aplicație nu s-a putut trimite: sesiunea Microsoft a expirat, iar autentificarea cere parola contului contact@primesupplements.ro. Textul de mai jos e pentru extensie; autentificarea o face proprietarul.
+
+```text
+Lucrezi în Microsoft Advertising (ui.ads.microsoft.com), contul PRIME SPORT SUPPLEMENTS SRL (G145RDYP), magazinul Microsoft Merchant Center „Prime Supplements” (storeId 50105172). Dacă nu ești autentificat sau pagina cere parola, OPREȘTE-TE și cere-i lui Marius să se autentifice el cu contact@primesupplements.ro; nu introduce tu parole. Nu crea campanii, nu adăuga metode de plată, nu schimba setările magazinului sau ale fluxului.
+
+Sarcina: trimiți DOUĂ contestații, câte una pe grup, cu motivul „Clasificare incorectă”. Proprietarul a aprobat trimiterea și confirmarea de conformitate.
+1. Deschide https://ui.ads.microsoft.com/campaign/vnext/merchantcenter/diagnostics/productissues?aid=187326993&cid=255102868&storeId=50105172&uid=193174043 și așteaptă 10 secunde.
+2. Apasă rândul „Oferta nu respectă normele noastre editoriale.” Se deschide „Detalii despre încălcarea politicii”.
+3. Grupul 1: la rândul „Conținut care instigă la ură” (93 de produse, toate haine MNX și Prime) apasă „Vedeți eșantioanele”, apoi „Solicitați revizuirea pentru toți”. În panoul din dreapta bifează „M-am asigurat că ofertele mele de produs sunt conforme…”, la „Motiv de apel” alege „Clasificare incorectă”. Dacă există un câmp de comentariu, scrie: „Produsele sunt haine sport (tricouri, maiouri, hanorace, pantaloni) cu numele colecțiilor MNX și Prime (de ex. Hammer, Golden Era, Arnold Era, Suffer to Dominate). Nu conțin niciun mesaj de ură; clasificarea automată este greșită.” Apasă „Trimiteți”.
+4. Întoarce-te la „Detalii despre încălcarea politicii”. Grupul 2: la rândul „Vitamine și suplimente” (4 produse: 3 shakere și Glycerol Max Pump) apasă „Vedeți eșantioanele”, apoi „Solicitați revizuirea pentru toți”. Bifează confirmarea și alege „Clasificare incorectă”. Dacă există comentariu: „3 dintre produse sunt shakere (recipiente de plastic pentru amestecat băuturi), nu suplimente. Glycerol Max Pump este un aliment pentru sportivi (monostearat de glicerol), nu un medicament cu rețetă.” Apasă „Trimiteți”.
+5. Nu trimite nicio altă contestație (rândul „Farmacie” e același produs cu grupul 2). Nu trimite de două ori același grup.
+6. Raportează: mesajul afișat după fiecare trimitere și starea nouă a celor două grupuri din „Detalii despre încălcarea politicii”.
+```

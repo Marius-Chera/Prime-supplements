@@ -1,0 +1,22 @@
+--- theme.liquid.orig	2026-10-23 14:54:55.907841200 +0300
++++ theme.liquid.new	2026-10-23 14:55:10.156595600 +0300
+@@ -127,6 +127,8 @@
+     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+ 
+     {{ content_for_header }}
++    {%- comment -%}Consent (2026-10-23): Microsoft Clarity starts only after the visitor allows analytics cookies in the cookie banner (snippets/clarity-consent.liquid). The Clarity app embed is turned off in the theme settings, because it started Clarity before consent.{%- endcomment -%}
++    {%- render 'clarity-consent' -%}
+ 
+     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+     {%- comment -%}Performance (2026-10-13): the 470-byte assets/bss-custom.css (BSS B2B app) is inlined, same rules in the same place, to save a render-blocking request. If the BSS app updates that file, copy the new rules here.{%- endcomment -%}
+--- settings_data.orig.json	2026-10-23 14:57:21.646188400 +0300
++++ settings_data.new.json	2026-10-23 14:57:27.843032000 +0300
+@@ -99,7 +99,7 @@
+       },
+       "2567389343055140935": {
+         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+-        "disabled": false,
++        "disabled": true,
+         "settings": {}
+       },
+       "18408366429334172745": {

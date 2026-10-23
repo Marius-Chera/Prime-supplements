@@ -1,0 +1,60 @@
+{%- comment -%}
+  Microsoft Clarity (2026-10-23, approved by the owner): project "Prime Supplements" (z268w804fi) on the company Microsoft
+  account. Clarity is loaded only once the visitor allows analytics cookies in the Pandectes banner, read through the
+  Shopify Customer Privacy API: on page load for returning visitors who already agreed, or when the visitor agrees
+  (visitorConsentCollected event). Visitors who refuse, or have not chosen yet, never load clarity.ms. If a visitor
+  withdraws consent later, Clarity is told to stop and erase its cookies. Clarity masking stays "Balanced" (form input
+  is never recorded). The app embed of the Microsoft Clarity app is off in the theme settings, because it loads Clarity
+  before consent.
+{%- endcomment -%}
+<script>
+  (function () {
+    var projectId = 'z268w804fi';
+    var loaded = false;
+
+    function sendConsent(analyticsAllowed, marketingAllowed) {
+      window.clarity('consentv2', {
+        analytics_Storage: analyticsAllowed ? 'granted' : 'denied',
+        ad_Storage: marketingAllowed ? 'granted' : 'denied'
+      });
+    }
+
+    function loadClarity(marketingAllowed) {
+      loaded = true;
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = 'https://www.clarity.ms/tag/' + i + '?ref=shopify';
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', projectId);
+      sendConsent(true, marketingAllowed);
+    }
+
+    function applyConsent(analyticsAllowed, marketingAllowed) {
+      if (analyticsAllowed) {
+        if (loaded) {
+          sendConsent(true, marketingAllowed);
+        } else {
+          loadClarity(marketingAllowed);
+        }
+      } else if (loaded) {
+        sendConsent(false, false);
+        window.clarity('consent', false);
+      }
+    }
+
+    document.addEventListener('visitorConsentCollected', function (event) {
+      applyConsent(event.detail.analyticsAllowed, event.detail.marketingAllowed);
+    });
+
+    if (window.Shopify && window.Shopify.loadFeatures) {
+      window.Shopify.loadFeatures([{ name: 'consent-tracking-api', version: '0.1' }], function (error) {
+        var privacy = window.Shopify.customerPrivacy;
+        if (error || !privacy) return;
+        applyConsent(privacy.analyticsProcessingAllowed(), privacy.marketingAllowed());
+      });
+    }
+  })();
+</script>

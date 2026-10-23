@@ -98,3 +98,8 @@ Lucrezi în Shopify Admin (magazinul primesupplements1) și în app.themarketer.
 Nu deschide și nu modifica Fluxsales sau Primesupplements App. Nu modifica nimic altceva, nu plasa comenzi și nu intra în checkout pe site.
 ```
 După raport: verific live (vizitator care refuză → fără cereri spre t.themarketer.com / c3api.themarketer.com și fără mktr_cart_data). Dacă theMarketer nu oferă setarea în ~2 săptămâni, varianta din temă: embed-ul `mktr_core` oprit și scriptul theMarketer încărcat doar după acordul de marketing (ca la Clarity), cu dezavantajul că pop-up-ul de abonare nu mai apare celor care refuză (D4 varianta B).
+
+## 12. theMarketer: fără setare de consimțământ – e-mail către suport (23.10)
+- Proprietarul: extensia nu a găsit în theMarketer nicio opțiune de consimțământ. Trimite el e-mailul către suport (iam@themarketer.com) cu textul de mai jos. Politica de cookie-uri (aprobată) se publică după ce theMarketer pornește doar după acord; dacă nu rezolvă în ~2 săptămâni (până pe ~06.11.2026), varianta din temă (embed `mktr_core` oprit, script încărcat după acordul de marketing).
+- Subiect: „primesupplements.ro (WB4DZZXL) – scriptul theMarketer pornește înainte de acordul la cookie-uri”
+- Textul trimis e cel din răspunsul din sesiune (aceleași fapte ca la §11, pasul 5, plus întrebările concrete și termenul).

@@ -103,3 +103,8 @@ După raport: verific live (vizitator care refuză → fără cereri spre t.them
 - Proprietarul: extensia nu a găsit în theMarketer nicio opțiune de consimțământ. Trimite el e-mailul către suport (iam@themarketer.com) cu textul de mai jos. Politica de cookie-uri (aprobată) se publică după ce theMarketer pornește doar după acord; dacă nu rezolvă în ~2 săptămâni (până pe ~06.11.2026), varianta din temă (embed `mktr_core` oprit, script încărcat după acordul de marketing).
 - Subiect: „primesupplements.ro (WB4DZZXL) – scriptul theMarketer pornește înainte de acordul la cookie-uri”
 - Textul trimis e cel din răspunsul din sesiune (aceleași fapte ca la §11, pasul 5, plus întrebările concrete și termenul).
+
+## 13. Butonul „Chat” (asistentul AI Shopify Inbox) peste WhatsApp (23.10, semnalat de proprietar cu o captură de pe telefon)
+- Cauza: butonul Chat (Shopify Inbox, setat „bottom_right / highest”) și bula WhatsApp Dondy (dreapta, `bottom: 90px`) stăteau ambele în dreapta-jos; pe telefonul proprietarului se suprapuneau.
+- Remedierea: copie a temei live **„Prime – Chat în stânga (23.10)”, ID 194013069687** (din „Prime – banner fără suprapuneri (23.10)”); în `config/settings_data.json`, la blocul Shopify Inbox, doar `button_horizontal_position`: `bottom_right` → `bottom_left`. Restul setărilor identice (Shopify scosese deja din fișier blocurile aplicațiilor dezinstalate Fontify și Pop Convert). Diff: `theme-fixes/chat-in-stanga-2026-10-23/changes.diff`.
+- Testat în previzualizare pe telefon (375 px), pe colecția Creatină și pe pagina Creatină Creapure®: Chat în stânga (x 39, y 584), WhatsApp în dreapta (x 310, y 667), iconița de cookie jos-stânga (y 749), fără suprapuneri. Așteaptă publicarea de către proprietar.

@@ -114,3 +114,7 @@ După raport: verific live (vizitator care refuză → fără cereri spre t.them
 - Suportul theMarketer: au transmis problema cookie-urilor dezvoltatorului care se ocupă acum de pluginul Shopify (fără termen). Notificările push sunt dezactivate din setările contului theMarketer; se pot dezactiva și din setările modulului theMarketer din Shopify.
 - Verificat live pe 24.10 (vizitator care a refuzat): Firebase / web push nu se mai încarcă (nicio cerere spre gstatic.com). theMarketer încă pornește înainte de acord: `t.themarketer.com/t/j/WB4DZZXL`, `t.themarketer.com/t/r`, `c3api.themarketer.com/p/u` și `/p/s`.
 - Ce urmează: termenul rămâne 06.11.2026. Dacă până atunci pluginul nu așteaptă acordul, varianta din temă (embed `mktr_core` oprit, scriptul încărcat după acordul de marketing; pop-up-ul de abonare nu mai apare celor care refuză). Politica de cookie-uri aprobată se publică după aceea.
+
+## 15. Scanarea Pandectes (E5) – 24.10
+- Textul pentru extensie a fost lipit de proprietar într-o conversație Claude fără acces la browser (nu în panoul extensiei din Brave), deci scanarea nu s-a făcut. Varianta îmbunătățită a textului (oprire dacă alegerea domeniului cere salvare, fără schimbarea frecvenței scanării, comparație cu scanarea veche) e cea de folosit.
+- Încercare din sesiunea de pe PC: setările Pandectes s-au deschis, dar după clicul pe „Cookie scanner” capturile din Brave s-au blocat din nou (fereastra aplicației). Nu s-a pornit nicio scanare și nu s-a modificat nimic. Rămâne pentru extensie.

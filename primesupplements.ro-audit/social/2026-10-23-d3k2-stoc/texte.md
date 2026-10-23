@@ -6,10 +6,12 @@ Cerute de proprietar pe 23.10: produsul a revenit pe stoc (reactivat pe 22.10, d
 |---|---|---|---|
 | Instagram story | imediat | `01-d3k2-stoc-story.jpg` (1080×1920) | fără text (story-urile nu au caption) |
 | Instagram feed (carusel) | imediat | 1. `01-d3k2-stoc-feed.jpg` 2. `02-d3k2-blog-feed.jpg` (1080×1350) | textul IG de mai jos |
-| Facebook 1 | imediat | ambele poze (stoc, apoi blog) | textul FB 1 |
-| Facebook 2 | 23.10, 20:00 | ambele poze (blog, apoi stoc) | textul FB 2 |
+| Facebook 1 | imediat | doar `01-d3k2-stoc-feed.jpg` | textul FB 1 |
+| Facebook 2 | 23.10, 20:00 | doar `02-d3k2-blog-feed.jpg` | textul FB 2 |
 
 Postarea zilnică din calendar (Vitamina C, 18:00) rămâne neschimbată.
+
+Corectură 23.10 (~15:00): proprietarul a cerut pe Facebook două postări diferite, fiecare cu o singură poză (nu o postare cu ambele). Prima postare (cu ambele poze) a fost ștearsă de pe Facebook și republicată doar cu poza „din nou pe stoc” (https://www.facebook.com/108704658683324_1110221678534099), iar postarea de la 20:00 are doar poza cu ghidul. Textul FB 1 nu mai conține linkul spre ghid; ghidul e în postarea de la 20:00.
 
 ## Text Facebook 1 (acum)
 
@@ -22,8 +24,6 @@ Vitamina D3 + K2 Prime Health – 80 de capsule. Pe etichetă: o capsulă o dat�
 Vitamina D contribuie la funcționarea normală a sistemului imunitar.
 
 🔗 https://primesupplements.ro/products/vitamina-d3-k2
-
-Am scris și un ghid nou pe blog: vitamina D și imunitatea – ce spune UE și ce scrie pe etichetă 👉 https://primesupplements.ro/blogs/news/vitamina-d-imunitate-ce-spune-ue
 
 #primesupplements #primehealth #vitaminad3 #vitaminak2 #vitamine #iarna
 

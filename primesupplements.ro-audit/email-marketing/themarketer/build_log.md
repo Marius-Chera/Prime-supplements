@@ -114,3 +114,7 @@ HTML: `email-marketing/campanii/2026-10-stoc-revenit-d3-k2.html` (fără preț t
 **Automatizare nouă (cloud):** rutina „Stoc revenit – verificare zilnică și ciornă de campanie” (trig_01UbUT2hrNzgG86NSkFCLmFV), zilnic 09:00: compară stocul Shopify cu `data/stoc-revenit/snapshot.json`, pentru produsele revenite (0 → ≥10, cu vânzări în 180 de zile, fără pachete/haine) creează segment + campanie **ciornă** după șablonul de mai sus și trimite test proprietarului; nu trimite niciodată singură.
 
 **Observație de verificat:** pe 22.10 fiecare contact nou a intrat de 3 ori în „Welcome series 2” (get_entered_automation). De văzut dacă e doar jurnalizare triplă sau trimiteri triple.
+
+**23.10, 08:40 – programate de proprietar (stoc confirmat real, test aprobat):** VIP → campania nouă `6adaf1435d8d3038aa09b3bf` (24.10 10:00, 58 estimați); restul → `6adaf146f3872261c90afd59` (25.10 10:00, 76 estimați înainte de excluderi). Ciornele C1/C2 au fost redenumite „[CIORNĂ VECHE – de șters]” (API-ul nu poate programa o ciornă existentă și nici șterge). De verificat după trimitere: get_campaign_report pe cele două id-uri.
+
+**Raportat de extensie (23.10):** fluxul vechi „Remind customers to reorder” e încă pornit (413 e-mailuri în 90 de zile, 31 săptămâna trecută) → de oprit la construirea „Reaprovizionare 2026”. Produse cu Recurrence dar fără stoc: Coenzima Q10, Nattokinaza, Creamy Rice brioșă cu afine.

@@ -70,3 +70,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - „Stoc revenit” D3 + K2 (produsul a stat indisponibil 5 săptămâni, reactivat pe 22.10): două campanii pregătite ca ciorne, VIP pe 24.10 și restul pe 25.10, pe segmentul cumpărători 6 luni + vizitatori 3 luni (fără cei care au comandat în ultimele 7 zile); test trimis proprietarului; trimiterea așteaptă confirmarea stocului real.
 - Rutină nouă zilnică „stoc revenit” (09:00): detectează produsele revenite în stoc și pregătește automat campania ca ciornă + test; proprietarul doar confirmă și programează.
 - Pregătite textele pentru extensie (email-marketing/themarketer/texte-extensie-2026-10-23.md): bifa de abonare la checkout (Shopify) și fluxul „Reaprovizionare 2026” (theMarketer), care nu se pot face prin API.
+- 23.10: campaniile „Vitamina D3 + K2 e din nou în stoc” programate de proprietar după confirmarea stocului: VIP vineri 24.10 10:00, restul sâmbătă 25.10 10:00.

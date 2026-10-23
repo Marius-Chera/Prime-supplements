@@ -123,3 +123,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 23.10: feedul Judge.me → Google Shopping corectat prin extensie: linkuri https, fără recenziile produselor scoase din magazin, fără recenziile cu date personale („Feed updated”, feedul rămâne live). Restul setărilor, cuponul și recenziile au rămas neschimbate. Verificarea stelelor pe Google Shopping: ~02.11.
 - 23.10: pregătit (nefolosit) blocul „Provocarea lunii” pentru afiliați: un video sau o postare marcată ca reclamă, fără recenzii pe site. Fișier: afiliati/propunere-provocare-video-noiembrie-2026.html. Șablonul rutinei lunare a rămas neschimbat, la cererea proprietarului; restul strategiei 4 e pe pauză.
 - 23.10: e-mailul „Provocarea lunii” pentru afiliați (un video scurt cu produsul folosit, marcat ca reclamă) scris complet în designul comun, pentru 10.11.2026: afiliati/propunere-email-video-2026-11-10.html; subiecte și note în afiliati/emailuri-afiliati.md. Fără fraza despre recenzii (cererea proprietarului). Neprogramat, netrimis.
+
+## 2026-10-24
+- E-mailul „Provocarea lunii” pentru afiliați (video marcat ca reclamă) a fost mutat de pe 10.11 pe **1 decembrie 2026**, după Black Friday, la cererea proprietarului. Eticheta din e-mail e acum „Provocarea lunii · decembrie”; fișierul e afiliati/propunere-email-video-2026-12-01.html. Încă neprogramat și netrimis.

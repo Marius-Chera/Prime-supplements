@@ -68,10 +68,10 @@ Echipa Prime Supplements
 ## Regulă e-mailuri de TEST (cerută de proprietar, 18.10.2026)
 Orice e-mail de test se trimite la marius.chera@yahoo.com ȘI la adelina.chera@gmail.com (în theMarketer: `to` + `bcc`).
 
-## Propunere: e-mailul „Provocarea lunii” – 10.11.2026 (NEPROGRAMAT)
-Decizia proprietarului (23.10): ideea e bună și se trimite pe 10 noiembrie. Fără fraza despre recenzii. Deocamdată nu se programează nimic, doar se lucrează la conținut.
+## Propunere: e-mailul „Provocarea lunii” – 01.12.2026 (NEPROGRAMAT)
+Decizia proprietarului (23.10): ideea e bună. Pe 24.10 data a fost mutată pe **1 decembrie 2026**, după Black Friday („vreau să așteptăm să terminăm cu Black Friday”). Fără fraza despre recenzii. Deocamdată nu se programează nimic, doar se lucrează la conținut.
 
-- HTML: `afiliati/propunere-email-video-2026-11-10.html` (designul comun, imagine AI Prime Whey la micul dejun, marcaje `[[PRENUME]]` și `[[COD]]`).
+- HTML: `afiliati/propunere-email-video-2026-12-01.html` (designul comun, imagine AI Prime Whey la micul dejun, marcaje `[[PRENUME]]` și `[[COD]]`).
 - **Subiect (3 variante):**
   1. [[PRENUME]], provocarea lunii: un video cu produsul tău preferat
   2. 15 secunde, un produs Prime, codul tău
@@ -79,4 +79,4 @@ Decizia proprietarului (23.10): ideea e bună și se trimite pe 10 noiembrie. F�
 - **Preheader:** Idei gata făcute, cum îl marchezi ca reclamă și ce ai voie să spui.
 - **Structura:** provocarea → „Rețeta unui video bun” (4 pași) → idei pe produs (Prime Whey, cremă de orez, Creapure®, o zi de antrenament) → obligatoriu: marcare ca reclamă (eticheta „Parteneriat plătit” sau „Conținut promoțional” + #reclamă), etichetarea @primesupplements_ro / @primesupplements.ro, doar afirmațiile autorizate → „Trimite-ne video-ul” (linkul postării; repostare doar cu acordul afiliatului) → chenarul „Ce avem voie să spunem” → buton „VEZI CONTUL PRIME”.
 - Fără pachetele din Reduceri, fără haine MNX, fără numărul de afiliați, fără cifre de comenzi.
-- **De hotărât înainte de programare:** pe 10 ale lunii pleacă deja e-mailul de reactivare (afiliații cu 0–1 comenzi). Variante: (a) e-mailul video merge la toți afiliații și reactivarea din noiembrie se sare; (b) e-mailul video înlocuiește reactivarea doar pentru cei cu 0–1 comenzi; (c) e-mailul video pleacă pe 11.11. Testul merge la Marius și Adelina înainte de orice trimitere.
+- **De hotărât înainte de programare:** pe 1–4 decembrie pleacă deja e-mailurile lunare (raportul lunar și kitul de conținut, prin rutina „E-mailuri lunare afiliați Prime”). Variante: (a) e-mailul video pleacă pe 1.12, iar rutina lunară pe 2–4.12, ca de obicei; (b) blocul video intră în kitul din decembrie și nu mai pleacă separat. Testul merge la Marius și Adelina înainte de orice trimitere.

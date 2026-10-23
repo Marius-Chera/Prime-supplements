@@ -77,3 +77,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - E-mailurile lunare pentru afiliați trec pe designul comun (3 șabloane noi în afiliati/sabloane/, imagini AI cu produsele, kit cu toate 7 produsele); rutina lunară actualizată; teste trimise.
 - 7 fotografii noi din ședințele foto urcate în Shopify Files pentru e-mailuri (email-evo-gym-*, email-mihai-diaconu-*); poza de grup cu foste colaboratoare scoasă și ștearsă.
 - Rulare cloud pornită pentru refacerea pozelor de magneziu din kitul afiliaților (decupaj cu margini zimțate).
+
+### Site și SEO – 23.10
+- Pagina de autor /pages/autor-marius-chera refăcută (mai completă, E-E-A-T): prezentare, „Pe scurt”, parcursul sportiv 2013–2016 (tabel cu rezultate), activitatea de antrenor și lector FRCF, rolul în echipa Prime (companie cu echipă, nu brand personal), cum scriem ghidurile (inclusiv redactarea asistată de AI), ghiduri recomandate, apariții media, profiluri, întrebări frecvente, date structurate ProfilePage + Person. Titlu SEO și meta descriere noi. Numărul exact de carduri PRO nu e afișat (sursele noastre spun 8 sau 10). Backup: backups/pagina-autor-2026-10-23/.

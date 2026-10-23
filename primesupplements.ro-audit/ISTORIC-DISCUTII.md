@@ -58,7 +58,7 @@ Detaliile sunt în JURNAL.md (sursa principală).
 ## 3. Discutat, dar nefăcut sau în așteptare
 - Strategia 1 (checkout, fără Shopify Payments): taxa de livrare afișată devreme, ora-limită de expediere, rândul de încredere lângă butonul de comandă.
 - Strategia 3 (afiliați): invitație personală pentru cei cu 0 comenzi; micro-afiliați dintre clienții cu peste 3 comenzi.
-- Strategia 4 (recenzii): cerere Judge.me cu memento și poză; cele mai bune recenzii pe primele 10 produse.
+- Strategia 4 (recenzii): cerere Judge.me cu memento și poză; cele mai bune recenzii pe primele 10 produse. **23.10:** propunerile complete (flux Judge.me, stele în Google Shopping, Trustpilot, SupliScout, Microsoft Merchant Center) sunt în `recenzii/`; așteaptă aprobarea proprietarului.
 - Strategia 5 (Google): paginile produselor epuizate (alternative + „anunță-mă când revine”); E12 – citirea setărilor Simprosys (Tracking Tags, GTIN, Campaigns) cu fereastra Brave în față; cele 45 de produse „găsite de Google”, netrimise; costul de retur în Merchant Center (decizia lui).
 - Condiții generale: produsele care vindeau mult să nu rămână la 0 în stoc; oprirea campaniei Meta cu 0 comenzi în 13 luni (decizia lui).
 - Welcome: seria completă de 4 e-mailuri + confirmare (SYSTEM.md §4.1); azi există 2 e-mailuri, refăcute în designul nou.

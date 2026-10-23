@@ -25,7 +25,7 @@ Se aplică la ABSOLUT TOATE e-mailurile care pleacă din theMarketer: fluxuri (W
 ## Fotografii reale încărcate pentru e-mailuri (Shopify Files)
 | Fișier | Conținut | Folosit în |
 |---|---|---|
-| `email-evo-gym-sportiva-rosu.jpg` (și același cadru la `email-evo-gym-echipa-sportive-prime.jpg`, temporar) | sportivă în maiou roșu Prime | Welcome E1 |
+| `email-evo-gym-sportiva-rosu.jpg` | sportivă în maiou roșu Prime | Welcome E1 |
 | `email-evo-gym-sportiv-proteina.jpg` | sportiv tatuat cu Nitrox | Welcome E2 |
 | `sedinta-foto-sala-kettlebell-prime-whey.jpg` | Ana Savici, kettlebell, Prime Whey | Reaprovizionare |
 | `email-evo-gym-cuplu-prime-whey.jpg`, `email-evo-gym-sportiv-whey-rosu.jpg`, `email-evo-gym-sportiv-sapca-produse.jpg`, `email-mihai-diaconu-crema-de-orez.jpg` | alte cadre | rezervă pentru campanii și newsletter |

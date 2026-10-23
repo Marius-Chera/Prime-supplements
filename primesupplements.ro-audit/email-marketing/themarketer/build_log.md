@@ -96,3 +96,21 @@ API-ul nu poate edita sau șterge un segment. De aceea versiunile corectate au p
   - audiența și excluderile pe newsletterele programate (`update_campaign`, interzis în acest pas: e al jobului de newsletter sau al tău, ghidul pasul 0.2);
   - verificarea acordului celor 581 de abonați importați și tagul `acord-nedovedit` (§9.2): atinge contacte, deci e un pas separat, cu aprobarea ta;
   - ciornele de campanii (§10.3 pasul 4): un pas separat.
+
+## 4. Adăugiri 23.10.2026 – „e-mailul la treabă” (stoc revenit D3 + K2)
+
+Context: D3 + K2 a vândut 5–10 comenzi/săptămână până pe 20.09, apoi 0 comenzi 5 săptămâni (produs indisponibil) și a fost reactivat pe 22.10, odată cu pachetele de iarnă. Stocul Shopify arată 1.023 din 15.09 (cifră de sistem; de confirmat de proprietar din Oblio înainte de trimitere).
+
+| # | Segment / campanie | id | Reguli / audiență | Stare |
+|---|---|---|---|---|
+| 41 | S · D3 + K2 · cumpărat 6 luni sau văzut 3 luni | `6adaeecea7366b612c05e812` | any: purchased_product is D3 + K2 (`68552d1e830bb87b330ba05a`) · viewed_product is D3 + K2 | estimare 76 |
+| 42 | X · Au comandat în ultimele 7 zile | `6adaeed03b9ce03f8c061983` | shopper_status bought_in_last 7 days | excludere pentru stoc revenit (§4.12) |
+| 43 | S · D3 + K2 · VIP (primesc cu o zi înainte) | `6adaef082ba9f83f430a2979` | all: segment is #41 · segment is „L · VIP” | estimare 58 |
+| C1 | Stoc revenit · Vitamina D3 + K2 · 24.10 (VIP, cu o zi înainte) | `6adaef8b1bd330adec0aa257` | #43; excluderile standard; smart sending; propus 24.10 10:00; utm promo-2026-10-24-stoc-d3-k2-vip | **ciornă**, neprogramată |
+| C2 | Stoc revenit · Vitamina D3 + K2 · 25.10 (toți, fără VIP) | `6adaef0aa3c095d90d0db63e` | #41 fără „L · VIP”; excluderile standard + #42; smart sending; propus 25.10 10:00; utm promo-2026-10-25-stoc-d3-k2 | **ciornă**, test trimis la Marius și Adelina |
+
+HTML: `email-marketing/campanii/2026-10-stoc-revenit-d3-k2.html` (fără preț tăiat, doar mențiuni UE din metafield-uri, cardul pachetului „Cura de Iarnă” la 149 lei). Programarea o face proprietarul din aplicație (sau o cere într-o sesiune) după ce confirmă stocul real.
+
+**Automatizare nouă (cloud):** rutina „Stoc revenit – verificare zilnică și ciornă de campanie” (trig_01UbUT2hrNzgG86NSkFCLmFV), zilnic 09:00: compară stocul Shopify cu `data/stoc-revenit/snapshot.json`, pentru produsele revenite (0 → ≥10, cu vânzări în 180 de zile, fără pachete/haine) creează segment + campanie **ciornă** după șablonul de mai sus și trimite test proprietarului; nu trimite niciodată singură.
+
+**Observație de verificat:** pe 22.10 fiecare contact nou a intrat de 3 ori în „Welcome series 2” (get_entered_automation). De văzut dacă e doar jurnalizare triplă sau trimiteri triple.

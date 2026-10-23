@@ -91,3 +91,9 @@ Feedul Google Shopping e deja live (din 10.04.2026). Sarcina: corectezi 3 setăr
 4. Redeschide „Edit your feed” și verifică dacă cele 3 setări au rămas salvate, apoi închide cu Cancel.
 5. Raportează: mesajul afișat după „Submit feed”, starea feedului de pe pagină („live” sau altceva) și dacă setările au rămas salvate la pasul 4.
 ```
+
+## Raportul rulării 3 (23.10): FĂCUT
+- Cele 3 setări au fost schimbate și salvate cu „Submit feed” (notificarea „Feed updated”). Verificat la redeschidere: link format **https://**, „out-of-store products” **nebifat**, „personal information” **nebifat**.
+- Restul a rămas neschimbat: GTIN bifat, MPN nebifat, „Shorten last name”, pozele din recenzii și filtrul de injurii bifate, product groups nebifat, store-experience keywords bifat.
+- Starea: „Your Google Product Review Feed is live”, „Feed settings last updated Oct 23, 2026”, comutatorul pe On. Nimic altceva modificat în Judge.me.
+- De verificat după ~10 zile (~02.11): stelele pe Google Shopping la Prime Whey 2 kg, Creapure® și Creamy Rice.

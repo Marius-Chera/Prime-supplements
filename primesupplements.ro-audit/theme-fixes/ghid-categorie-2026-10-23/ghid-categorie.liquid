@@ -1,0 +1,23 @@
+{%- comment -%}Ghidul de categorie din metafield-ul custom.seo_text, sub produse. Nu afișează nimic dacă metafield-ul e gol.{%- endcomment -%}
+{%- assign ghid_html = collection.metafields.custom.seo_text | metafield_tag -%}
+{%- assign ghid_text = ghid_html | strip_html | strip -%}
+
+{%- if ghid_text != blank -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
+    }
+  </style>
+
+  <div {% render 'section-properties' %}>
+    <div class="rich-text justify-start">
+      <div class="rich-text__wrapper">
+        <div class="prose justify-items-start text-start">
+          {{- ghid_html -}}
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}

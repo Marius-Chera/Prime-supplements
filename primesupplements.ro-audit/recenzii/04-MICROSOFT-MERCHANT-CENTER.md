@@ -50,3 +50,13 @@
 - Nicio campanie plătită și niciun buget.
 - **UET tag** (scriptul Microsoft de măsurare): nu e necesar, pentru că domeniul e validat prin Bing Webmaster Tools. Ar adăuga cod pe site și ar cere o mențiune în politica de cookie-uri.
 - Microsoft Clarity: decizie separată (audit §11).
+
+## Verificare 24.10.2026 (doar citire, nimic trimis)
+Magazinul „Prime Supplements” (50105172) din contul G145RDYP: **431 de produse**, **0 active**, **337 în așteptare** și **94 respinse**. Ultimul import: 24.10, 01:06. Încă nicio afișare și niciun clic.
+- **În așteptare (normal, revine singur):** 278 așteaptă verificarea imaginilor de către Microsoft, iar 59 sunt în verificare manuală. Niciun supliment nu e respins.
+- **Respinse, toate din greșeală (filtru automat):**
+  - **93 de haine MNX și Prime** (tricouri, maiouri, hanorace, pantaloni) marcate „Conținut care instigă la ură”. Probabil din titluri ca „Suffer to Dominate”, „Hammer”, „Arnold Era” sau din imagini;
+  - **4 produse** marcate „Vitamine și suplimente”: 3 shakere (Prime cu compartimente 500 ml, MNX 600 ml, Prime 600 ml) și Glycerol Max Pump 500 g. Unul dintre ele e marcat și „Farmacie – rețete”.
+- **Ce se poate face:** pentru fiecare grup, Diagnostice → „Solicitați revizuirea pentru toți”, motivul „Clasificare incorectă”. Formularul cere o confirmare în numele firmei („M-am asigurat că ofertele mele de produs sunt conforme cu politicile…”). Microsoft avertizează că prea multe contestații fără modificări îi pot limita pe viitor, deci se trimite **o singură dată pe grup**. Nu s-a trimis nimic: așteaptă „da”-ul proprietarului.
+- **Mesajul roșu „Aveți nevoie de o metodă de plată…”** se referă doar la reclamele plătite. Listările gratuite nu au nevoie de card, deci nu adăugăm nicio metodă de plată.
+- De verificat din nou după ~28.10 (3 zile lucrătoare): câte produse sunt active și dacă apar pe Bing Shopping.

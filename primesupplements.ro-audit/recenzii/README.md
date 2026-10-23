@@ -15,5 +15,5 @@ Scop: să urcăm în Google și în răspunsurile ChatGPT/Copilot prin dovezi in
 3. ~~Stelele în Google Shopping~~ **făcut 23.10:** feedul Judge.me e live din 10.04.2026 (324 de recenzii eligibile); cele 3 setări au fost corectate (https, fără produse scoase din magazin, fără recenzii cu date personale). Verificare pe Google Shopping pe ~02.11.
 4. **Trustpilot:** creezi contul gratuit (pașii în 03), apoi decidem cum pleacă invitațiile și fraza din politica de confidențialitate.
 5. **SupliScout:** trimiți e-mailul din 03 de pe contact@primesupplements.ro.
-6. **Microsoft Merchant Center:** creezi contul Microsoft Advertising cu contact@primesupplements.ro (pașii în 04), fără campanii și fără buget.
+6. ~~Microsoft Merchant Center~~ **creat pe 23.10** (cont G145RDYP, magazin 50105172, import zilnic din Google). Pe 24.10: 337 de produse în verificare, 94 respinse din greșeală (93 de haine „ură”, 3 shakere și Glycerol „suplimente”). Contestația („Clasificare incorectă”) așteaptă „da”-ul proprietarului. Detalii în 04.
 7. **Raportul extensiei** din 01 §3, sau Brave în față când lucrez în Judge.me.

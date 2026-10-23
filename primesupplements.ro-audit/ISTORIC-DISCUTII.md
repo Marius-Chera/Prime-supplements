@@ -3,7 +3,7 @@
 Scop: un singur loc în care orice sesiune Claude (din aplicația de pe calculator sau din browser) găsește tot ce s-a discutat și s-a decis cu proprietarul (Marius), ca să nu se reia lucruri deja hotărâte și să nu se dubleze munca.
 
 **Surse (versiunea 1, 23.10.2026):** JURNAL.md, DE-FACUT.md, CLAUDE.md, OWNER-HANDOVER.md, SETARI-VANZARI-2026-10-16.md, documentele din `email-marketing/`, istoricul commiturilor (12–23.10.2026) și sesiunea din aplicație din 23.10.2026.
-**Ce NU e încă inclus cuvânt cu cuvânt:** conversația din prima sesiune din browser (claude.ai, 12–22.10.2026, `session_01PHApHSYZLG3YN4uAZqrTyd`). Rezultatele ei sunt în JURNAL.md și în fișierele din repo, dar nu fiecare mesaj. Se poate extrage integral la cerere (e foarte lungă, deci costă mult).
+**Ce NU e încă inclus cuvânt cu cuvânt:** conversația din prima sesiune din browser (claude.ai, 12–22.10.2026, `session_01PHApHSYZLG3YN4uAZqrTyd`). Rezultatele ei sunt în JURNAL.md și în fișierele din repo, dar nu fiecare mesaj. Decizie proprietar (23.10): NU se extrage integral – ajunge ce e în acest caiet.
 
 **Regula de actualizare:** orice decizie nouă a proprietarului se adaugă la secțiunea 1, cu data; orice lucru făcut merge în JURNAL.md; ce rămâne deschis, în DE-FACUT.md.
 

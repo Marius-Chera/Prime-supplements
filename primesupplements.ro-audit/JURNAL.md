@@ -127,3 +127,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 ## 2026-10-24
 - E-mailul „Provocarea lunii” pentru afiliați (video marcat ca reclamă) a fost mutat de pe 10.11 pe **1 decembrie 2026**, după Black Friday, la cererea proprietarului. Eticheta din e-mail e acum „Provocarea lunii · decembrie”; fișierul e afiliati/propunere-email-video-2026-12-01.html. Încă neprogramat și netrimis.
 - 24.10: e-mailul video pentru afiliați pus pe pauză (decizia proprietarului): rămân cele 3 e-mailuri lunare. Ideea se reia în decembrie, împreună cu un Christmas sale. Memento programat pentru 01.12.2026.
+- 24.10: răspuns theMarketer: problema cookie-urilor e la dezvoltatorul pluginului Shopify (fără termen); web push dezactivat din cont – verificat live, Firebase nu se mai încarcă. theMarketer încă pornește înainte de acord; termen 06.11, apoi varianta din temă.

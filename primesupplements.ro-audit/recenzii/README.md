@@ -10,7 +10,7 @@ Scop: să urcăm în Google și în răspunsurile ChatGPT/Copilot prin dovezi in
 | `04-MICROSOFT-MERCHANT-CENTER.md` | Contul Microsoft Advertising, magazinul, importul din Google, listările gratuite | Pregătit. Contul îl creează proprietarul |
 
 ## Ce trebuie să aprobe sau să facă proprietarul
-1. **D10, cuponul Judge.me de 12 %:** e încă pornit, deci fiecare recenzie din invitație creează un cod nou, contrar regulii „doar WELCOME5”. Recomand oprirea.
+1. **Cuponul Judge.me de 12 % rămâne** (decizia proprietarului, 23.10). Îl evaluăm pe ~15.11, după 30 de zile de la pornire.
 2. **Fluxul de cerere de recenzie** (02): aprobare. Urmează testul la Marius și Adelina, apoi pornirea.
 3. **Stelele în Google Shopping:** trimiți formularul Google „Evaluările produselor” din Merchant Center → Suplimente, apoi conectăm Judge.me → Integrations → Google Shopping (API).
 4. **Trustpilot:** creezi contul gratuit (pașii în 03), apoi decidem cum pleacă invitațiile și fraza din politica de confidențialitate.

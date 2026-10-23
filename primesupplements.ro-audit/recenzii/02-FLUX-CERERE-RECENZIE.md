@@ -16,7 +16,7 @@ Ce era deja decis (nu se reia): recenziile rămân **doar în Judge.me**, iar mo
 | E3 · Poza | **2 zile după o recenzie fără poză** (funcția Judge.me „picture reminder”) | Doar cei care au scris deja o recenzie fără poză | O singură rugăminte: adaugă o poză la recenzia ta |
 
 Reguli comune:
-- Fără cupon, cod sau recompensă în texte (vezi §5, D10).
+- **Cuponul de 12 % rămâne** (decizia proprietarului, 23.10; evaluare ~15.11). E-mailul îl spune deschis: codul vine după recenzie, indiferent de notă, valabil 30 de zile. Altă recompensă nu promitem. La Trustpilot nu se oferă nimic.
 - Fără „lasă-ne 5 stele”, fără filtrarea clienților mulțumiți. Cerem părerea sinceră de la toți (cerință și pentru Trustpilot și Google).
 - Fără mențiuni de sănătate. Întrebările ajutătoare sunt despre gust, amestecare și folosire.
 - Expeditor: „Prime Supplements” <contact@primesupplements.ro>. Semnătura: „Echipa Prime Supplements”.
@@ -41,7 +41,7 @@ Rândul „Ai o problemă cu comanda? Scrie-ne…” rămâne intenționat. Prob
 **Subiect:** Ne-ar ajuta părerea ta despre [produsul]
 **Preheader:** Durează două minute. După acest e-mail nu te mai rugăm.
 **Text:**
-> Salut, [Prenume]! Acum o săptămână te-am rugat să ne spui cum ți se pare [produsul]. Dacă ai două minute, apasă pe o stea și scrie câteva cuvinte: aroma, gustul, cum îl folosești. Este ultimul e-mail în care te rugăm asta.
+> Salut, [Prenume]! Acum o săptămână te-am rugat să ne spui cum ți se pare [produsul]. Dacă ai două minute, apasă pe o stea și scrie câteva cuvinte: aroma, gustul, cum îl folosești. După recenzie primești codul de 12 % pentru următoarea comandă, indiferent de notă. Este ultimul e-mail în care te rugăm asta.
 > Mulțumim, Echipa Prime Supplements
 
 Buton: **SCRIE RECENZIA**. Același antet, card și subsol ca la E1, fără poza mare (e-mail mai scurt).
@@ -67,7 +67,7 @@ Depinde de ce permite editorul. Se confirmă cu raportul extensiei din `01-JUDGE
 - Lucrul în Judge.me se face cu fereastra Brave în față (altfel panoul rămâne alb) sau prin extensia Chrome.
 
 ## 5. Decizii pentru proprietar (înainte de pornire)
-1. **D10, cuponul de 12 %:** azi fiecare recenzie din invitație generează un cod nou de 12 %, contrar regulii „doar WELCOME5”. **Recomand oprirea** (Judge.me → Coupons → Enable coupons: Off). Textele de mai sus sunt scrise fără cupon. Dacă cuponul rămâne pornit, Judge.me adaugă singur promisiunea în e-mail și regula se încalcă la fiecare recenzie.
+1. **D10, cuponul de 12 %: rămâne pornit** (decizia proprietarului, 23.10). Evaluare la ~15.11, după 30 de zile de la pornire: recenzii verificate pe lună înainte și după 15.10, procentul cu poză, câte coduri de 12 % s-au folosit la comenzi și valoarea lor. Apoi proprietarul decide.
 2. **Aprobarea fluxului:** E1 la 10 zile, E2 la 7 zile după, E3 pentru poză, cu textele de mai sus.
 3. **Aprobarea designului** după testul trimis la Marius și Adelina.
 

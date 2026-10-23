@@ -118,3 +118,13 @@ După raport: verific live (vizitator care refuză → fără cereri spre t.them
 ## 15. Scanarea Pandectes (E5) – 24.10
 - Textul pentru extensie a fost lipit de proprietar într-o conversație Claude fără acces la browser (nu în panoul extensiei din Brave), deci scanarea nu s-a făcut. Varianta îmbunătățită a textului (oprire dacă alegerea domeniului cere salvare, fără schimbarea frecvenței scanării, comparație cu scanarea veche) e cea de folosit.
 - Încercare din sesiunea de pe PC: setările Pandectes s-au deschis, dar după clicul pe „Cookie scanner” capturile din Brave s-au blocat din nou (fereastra aplicației). Nu s-a pornit nicio scanare și nu s-a modificat nimic. Rămâne pentru extensie.
+
+## 16. Raportul scanării Pandectes (extensia, 24.10, 02:45)
+- Scanarea veche: singura din istoric, 11.06.2025 19:50, automată, pe primesupplements1.myshopify.com, oprită la pagina de parolă – 14 trackere, doar Shopify/necunoscute.
+- Scanarea nouă: 24.10.2026 02:45, https://primesupplements.ro, din UE – 116 trackere (76 cookie-uri, 35 elemente HTML storage, 5 pixeli), 314 scripturi, 23 iframe-uri. Scanerul le-a adăugat singur în Cookies & trackers (128 de înregistrări în total; cele 12 vechi de pe myshopify au „Last seen: –”). Nimic mutat, șters, salvat sau publicat.
+- Strict necesare (60): _pandectes_gdpr, _tracking_consent, localization, cart, cart_currency, _shopify_essential, shopify_essential, _merchant_essential, privacy_signal, shopify_pay, storefront_digest, _shop_app_essential, _identity_session, __Host-_identity_session…, __Host-_merchant_essential, _master_udr, discount_code, keep_alive, _secure_admin_session_id(_csrf), login_with_shop_finalize, _shopify_test, testcookie, wpm-test-cookie + 11 elemente storage Shopify.
+- Funcționale (2): shopify_override_user_locale.
+- Performanță (29): _ga, ga* (include _ga_DX0F0N485Q), gcl* (include _gcl_au, 3 luni), _clck, _clsk, SM (Microsoft), _shopify_y, _shopify_analytics, _merchant_analytics, shop_analytics, _shopify_s, _landing_page, _orig_referrer, _cltk, _shs_state, ri-*, bugsnag-anonymous-id.
+- Marketing (17): _fbp, _shopify_marketing, IDE și test_cookie (Google/DoubleClick), MUID, MR, ANONCHK (Microsoft), SR* (Adform) + 4 storage (Facebook, Shopify) + 3 pixeli Google (ads/ga-audiences, pagead/1p-user-list ×2).
+- Neclasificate (20, furnizor „Unknown”): mktr_cart_data, __sm__c, _up_clid, _up_pixel_cart_fi (25 s) + 14 storage (mktr_c, _up*, jdgm_widget_interactions, cf.turnstile.u…) + pixelii c.gif (Clarity) și ccm/conversion (Google Ads).
+- Publicare: nu există buton „Publish”/salvare; „Display cookies list under each category” e bifat, deci lista vine direct din Cookies & trackers. Pagina „Cookies declaration” nu e adăugată pe site (arată „Activation instructions”).

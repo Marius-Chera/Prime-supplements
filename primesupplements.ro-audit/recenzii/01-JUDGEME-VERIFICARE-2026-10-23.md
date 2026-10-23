@@ -17,22 +17,41 @@ Strategia 4 „recenziile”, pasul 1. Nu am modificat nimic în Judge.me, Shopi
 | Galeria de poze a clienților | Pornită pe pagina de produs | Avem unde arăta pozele, dar aproape nu primim poze |
 | Limba widgetului | Magazinul pe română; o parte din texte sunt încă traduceri automate („Upload Pictures”, „Trimite Recenzie Verificată”) | Textele E10 se completează odată cu fluxul nou |
 | Date structurate pe produs | Pagina Prime Whey 2 kg are `AggregateRating` 4,77 (din tema noastră, din câmpurile Judge.me); JSON-LD-ul propriu Judge.me pentru produse e oprit | Corect, fără dublură. Stelele pot apărea la rezultatele de produs din Google |
-| **Stele în Google Shopping** | **Nu.** În Merchant Center, „Evaluările produselor” apare la „Descoperă suplimente”, cu nota „Necesar înainte de a adăuga: trimite formularul de exprimare a interesului” | Notele Judge.me **nu ajung** în Google Shopping. De aceea caruselele de produse nu ne arată stelele |
+| **Stele în Google Shopping** | **Nu.** În Merchant Center, „Evaluările produselor” apare la „Descoperă suplimente”, (neactivat; pentru Judge.me nu e nevoie de formular, vezi §2) | Notele Judge.me **nu ajung** în Google Shopping. De aceea caruselele de produse nu ne arată stelele |
 | Google Customer Reviews | Neactivat în Merchant Center | Ar pune un sondaj pe pagina de mulțumire de la checkout; regula „nu intra în checkout” → doar cu acordul proprietarului, nu e în propunere |
 | Insigna „recenzii verificate” Judge.me | Oprită (`trust_badge.enabled: false`) | Poate rămâne oprită (nu schimbăm designul) |
 | Pagina publică Judge.me a magazinului | `judge.me/reviews/stores/prime-supplements` dă 404 | Profilul public Judge.me nu e activ |
 | Trustpilot pe primesupplements.ro | Nu există pagină („Whoops! The page … could not be found”) | Profilul îl creează proprietarul (vezi 03) |
 
-## 2. Stelele în Google Shopping – ce trebuie făcut
-Conform ajutorului Judge.me, trimiterea în Google cere:
-1. **Planul Judge.me Awesome.** Cupoanele sunt pornite, iar ele sunt o funcție Awesome, deci planul e probabil deja Awesome. Se confirmă cu textul de la §3.
-2. **Minimum 50 de recenzii eligibile la produse.** Avem 329.
-3. **Feedul de produse deja în Merchant Center.** Îl avem: Simprosys, 428 de produse aprobate.
-4. **Formularul Google „exprimarea interesului” pentru Evaluările produselor**, trimis din Merchant Center → Suplimente → „Evaluările produselor”. Îl trimite proprietarul, pentru că acceptă condițiile programului Google.
-5. În Judge.me: **Integrations → Google Shopping**, varianta prin API (recomandată de Judge.me). Recenziile sunt trimise automat printr-un cont Merchant Center administrat de Judge.me.
-6. După aprobare (de obicei câteva săptămâni), recenziile apar în Merchant Center → Analiză → Recenzii despre produse. Abia apoi apar stelele în Shopping.
+## 2. Stelele în Google Shopping – ce trebuie făcut (corectat 23.10, după ghidul Judge.me și formularul Google)
+**Formularul Google de „exprimare a interesului” NU se completează.** Pentru cine folosește un agregator aprobat, Google trimite înapoi la agregator: „Contactați-vă partenerul și solicitați-i să trimită feedul direct la Google pentru dvs.” Judge.me e partener Google aprobat, deci totul pornește din Judge.me.
 
-Potrivirea produselor se face după GTIN. Codurile EAN ale produselor Prime sunt deja completate în Shopify (ex. 6421766015437), deci potrivirea ar trebui să meargă.
+Condiții:
+1. **Planul Judge.me Awesome.** Cupoanele sunt pornite, iar ele sunt o funcție Awesome, deci planul e probabil deja Awesome.
+2. **Minimum 50 de recenzii eligibile la produse.** Avem 329 la produse; numărul exact eligibil îl arată Judge.me.
+3. **Feedul de produse deja în Merchant Center.** Îl avem: Simprosys, 428 de produse aprobate.
+
+Pași în Judge.me (**Settings → Google, SEO and AI → Google Shopping**):
+1. „Review eligibility summary”: câte recenzii sunt eligibile.
+2. „Set up your feed” → bifa „I confirm I've submitted my product feed” → Confirm.
+3. „Edit your feed”, cu setările recomandate:
+   - Add GTIN in the feed: **da** (EAN-urile sunt în Shopify, ex. 6421766015437);
+   - Add MPN in the feed: **nu** (SKU-urile noastre sunt tot EAN-uri);
+   - link format: **https://**;
+   - Reviewer name format: **Shorten last name (Ion P.)**;
+   - Include review photos: **da**;
+   - Include reviews for out-of-store products: **nu**;
+   - Include reviews containing personal information: **nu**;
+   - Apply profanity filter: **da**;
+   - Include product groups reviews: implicit.
+4. Jos: **Submit feed** → confirmare. Pasul acesta îl face proprietarul, sau eu, cu „da”-ul lui explicit.
+5. Google procesează în ~10 zile. Verificarea se face pe shopping.google.com (ex. „prime whey 2 kg prime supplements”), nu în Merchant Center-ul nostru: recenziile merg într-un cont Merchant Center administrat de Judge.me.
+
+**De știut înainte de „Submit feed” (ireversibil):**
+- O recenzie trimisă la Google **nu mai poate fi ștearsă de acolo**, nici din Judge.me, nici de Judge.me.
+- Se trimit și recenziile ascunse, arhivate sau în așteptare, nu doar cele publicate. Se trimit și cele neverificate. Nu se trimit doar cele fără text și cele marcate ca spam de filtrul automat.
+- Recenziile care au primit cuponul de 12 % sunt marcate automat la Google ca „incentivized”. E cerința Google și nu se poate schimba.
+- Recomandare: înainte de trimitere, proprietarul se uită o dată prin recenziile ascunse sau în așteptare din Judge.me.
 
 ## 3. Text pentru extensia Chrome (doar citire), pentru ce n-am putut vedea
 

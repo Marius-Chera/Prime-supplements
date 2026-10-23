@@ -114,3 +114,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 23.10: tema „Prime – banner fără suprapuneri (23.10)” publicată de proprietar și verificată live pe telefon: bara de cookie-uri nu mai e acoperită de bula WhatsApp sau de pop-up-ul theMarketer; după alegere ele revin, iar Clarity respectă refuzul.
 - 23.10: text pentru extensie pregătit (theMarketer doar după acord: căutarea setării de consimțământ în aplicația Shopify și în app.themarketer.com, oprirea web push, altfel mesajul către suport / iam@themarketer.com). COOKIES-CLARITY-2026-10-23.md §11.
 - 23.10: propunerea politicii de cookie-uri actualizată după decizia proprietarului: UpPromote are o secțiune separată („funcționează de la prima vizită”, doar pentru atribuirea comisionului afiliaților). Publicarea așteaptă aprobarea textului și rezolvarea theMarketer (D4).
+- 23.10: textul nou al politicii de cookie-uri aprobat de proprietar; se publică după rezolvarea theMarketer (D4).

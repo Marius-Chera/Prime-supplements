@@ -159,3 +159,15 @@ Am verificat primele 30 de rezultate. Locul Prime e cel găsit în pagină; „�
 - **Bing AI Performance (Copilot și parteneri, 3 luni): 801 citări.** 59 % vin din întrebarea „prime supplements”.
   - Paginile citate: prima pagină (358), `/collections/frontpage` (172; colecție tehnică ce n-ar trebui să apară), Prime Whey Go (63), Creatine Ready To Go (40), colecția Creatină (12), apoi articole de blog, inclusiv duplicate `/ro-hu/`.
   - Crema de orez, Prime Whey 2 kg și Creapure® nu sunt citate.
+
+## 11. Completare 23.10 – Bing configurat complet, reindexare cerută
+- **Trimitere URL (Bing):** 20 de adrese trimise azi (cele 17 categorii cu ghid nou, plus Prime Whey 2 kg, Prime Whey 1 kg și Pure Isolate). Limita zilnică e 10.000.
+- **IndexNow:** Shopify trimite deja automat către Bing fiecare modificare (531 de adrese din aprilie 2026). Afirmația din auditul de pe 12.10 (TECH, „Shopify nu trimite IndexNow nativ”) nu mai e valabilă; nu e nevoie de aplicație.
+- **Site Scan (Bing):** scanarea „Scanare completa 23.10.2026” a fost pornită pe 1.000 de pagini, fără subdomenii. Rezultatul vine pe contact@primesupplements.ro și în Bing Webmaster → Site Scan.
+- **Inspectare URL (Bing), /collections/crema-de-orez:** indexată, „poate apărea în Bing”. O notificare minoră: atributul alt lipsește la 2 imagini (antetul temei). Prin urmare, poziția slabă pe Bing nu vine din indexare, ci din autoritate (recenzii, linkuri, mențiuni).
+- **Recommendations (Bing):** încă nimic; site-ul a fost adăugat azi.
+- **Google Search Console:** reindexare cerută (coadă prioritară) pentru paginile principale; lista e în JURNAL.
+- **Rămân la decizia proprietarului** (conturi noi sau cod nou pe site):
+  1. **Microsoft Merchant Center**, gratuit: produsele în Bing Shopping și în Copilot. Cere cont Microsoft Advertising, pe care îl creează proprietarul; feedul se poate importa apoi din Google Merchant Center.
+  2. **Microsoft Clarity**, gratuit: hărți de clicuri și înregistrări de sesiuni. Adaugă un script pe site și trebuie trecut în politica de cookie-uri.
+  3. **Bing Places:** nu, din același motiv ca la Google (magazin doar online).

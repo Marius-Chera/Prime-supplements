@@ -26,3 +26,4 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 - E-mailurile de test merg la marius.chera@yahoo.com și adelina.chera@gmail.com.
 - Răspunsurile către proprietar sunt în română; textele pentru extensia Chrome se dau într-un bloc de cod (cu buton de copiere).
 - Orice îmbunătățire făcută se trece în JURNAL.md (pentru raportul lunar din ziua 2).
+- **Când ceva nu se poate face din aplicația de pe calculator** (de exemplu poze generate cu AI – cheia Gemini există doar în mediul cloud „Prime supplements” –, orice are nevoie de chei sau unelte care lipsesc pe PC), spune-i proprietarului din prima și dă-i textul gata de lipit pentru browser (claude.ai / extensie), în loc să încerci ocolișuri care pierd timp. Regulă cerută de proprietar pe 23.10.2026.

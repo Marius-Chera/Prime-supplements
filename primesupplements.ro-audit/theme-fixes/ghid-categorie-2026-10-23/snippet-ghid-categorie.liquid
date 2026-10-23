@@ -1,0 +1,20 @@
+{%- comment -%}
+  Ghidul de categorie (metafield custom.seo_text), afișat sub produse pe toate paginile de colecție,
+  doar pe prima pagină de rezultate. Nu afișează nimic dacă metafield-ul e gol. Adăugat 23.10.2026.
+{%- endcomment -%}
+{%- if collection and current_page == 1 -%}
+  {%- assign ghid_html = collection.metafields.custom.seo_text | metafield_tag -%}
+  {%- assign ghid_text = ghid_html | strip_html | strip -%}
+
+  {%- if ghid_text != blank -%}
+    <div class="container ghid-categorie" style="margin-block-start: var(--spacing-16, 4rem);">
+      <div class="rich-text justify-start" style="--rich-text-max-width: 100%;">
+        <div class="rich-text__wrapper">
+          <div class="prose justify-items-start text-start">
+            {{- ghid_html -}}
+          </div>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+{%- endif -%}

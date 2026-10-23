@@ -1,0 +1,32 @@
+{%- comment -%}
+  Cookie banner overlaps (2026-10-23, requested by the owner): on phones the theMarketer subscribe pop-up (full screen)
+  and the Dondy WhatsApp bubble (bottom-right) sat on top of the Pandectes cookie bar, so its buttons could not be
+  reached. Until the visitor has made a cookie choice (Shopify Customer Privacy API), the html element gets the class
+  "consent-pending" and both wait hidden; as soon as the choice is saved they appear again, exactly as before. Visitors
+  who already chose never get the class.
+{%- endcomment -%}
+<style>
+  .consent-pending #theMarketer-popup-backdrop,
+  .consent-pending #chat-bubble {
+    display: none !important;
+  }
+</style>
+<script>
+  (function () {
+    var root = document.documentElement;
+
+    document.addEventListener('visitorConsentCollected', function () {
+      root.classList.remove('consent-pending');
+    });
+
+    if (window.Shopify && window.Shopify.loadFeatures) {
+      window.Shopify.loadFeatures([{ name: 'consent-tracking-api', version: '0.1' }], function (error) {
+        var privacy = window.Shopify.customerPrivacy;
+        if (error || !privacy || !privacy.shouldShowBanner()) return;
+        if (privacy.currentVisitorConsent().analytics === '') {
+          root.classList.add('consent-pending');
+        }
+      });
+    }
+  })();
+</script>

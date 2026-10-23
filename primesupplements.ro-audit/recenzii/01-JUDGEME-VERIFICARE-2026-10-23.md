@@ -17,13 +17,13 @@ Strategia 4 „recenziile”, pasul 1. Nu am modificat nimic în Judge.me, Shopi
 | Galeria de poze a clienților | Pornită pe pagina de produs | Avem unde arăta pozele, dar aproape nu primim poze |
 | Limba widgetului | Magazinul pe română; o parte din texte sunt încă traduceri automate („Upload Pictures”, „Trimite Recenzie Verificată”) | Textele E10 se completează odată cu fluxul nou |
 | Date structurate pe produs | Pagina Prime Whey 2 kg are `AggregateRating` 4,77 (din tema noastră, din câmpurile Judge.me); JSON-LD-ul propriu Judge.me pentru produse e oprit | Corect, fără dublură. Stelele pot apărea la rezultatele de produs din Google |
-| **Stele în Google Shopping** | **Nu.** În Merchant Center, „Evaluările produselor” apare la „Descoperă suplimente”, (neactivat; pentru Judge.me nu e nevoie de formular, vezi §2) | Notele Judge.me **nu ajung** în Google Shopping. De aceea caruselele de produse nu ne arată stelele |
+| **Stele în Google Shopping** | **Da, feedul Judge.me e live din 10.04.2026** (corectat după raportul extensiei, recenzii/05). Programul nu apare în Merchant Center-ul nostru, pentru că Judge.me trimite recenziile prin contul lui centralizat | Stelele există. Lipsa din caruselele Google ține de poziția produselor, nu de stele |
 | Google Customer Reviews | Neactivat în Merchant Center | Ar pune un sondaj pe pagina de mulțumire de la checkout; regula „nu intra în checkout” → doar cu acordul proprietarului, nu e în propunere |
 | Insigna „recenzii verificate” Judge.me | Oprită (`trust_badge.enabled: false`) | Poate rămâne oprită (nu schimbăm designul) |
 | Pagina publică Judge.me a magazinului | `judge.me/reviews/stores/prime-supplements` dă 404 | Profilul public Judge.me nu e activ |
 | Trustpilot pe primesupplements.ro | Nu există pagină („Whoops! The page … could not be found”) | Profilul îl creează proprietarul (vezi 03) |
 
-## 2. Stelele în Google Shopping – ce trebuie făcut (corectat 23.10, după ghidul Judge.me și formularul Google)
+## 2. Stelele în Google Shopping (CORECTAT: feedul e deja live din 10.04.2026, vezi 05; mai jos rămân doar setările recomandate)
 **Formularul Google de „exprimare a interesului” NU se completează.** Pentru cine folosește un agregator aprobat, Google trimite înapoi la agregator: „Contactați-vă partenerul și solicitați-i să trimită feedul direct la Google pentru dvs.” Judge.me e partener Google aprobat, deci totul pornește din Judge.me.
 
 Condiții:

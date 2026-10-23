@@ -12,7 +12,7 @@ Scop: să urcăm în Google și în răspunsurile ChatGPT/Copilot prin dovezi in
 ## Ce trebuie să aprobe sau să facă proprietarul
 1. **Cuponul Judge.me de 12 % rămâne** (decizia proprietarului, 23.10). Îl evaluăm pe ~15.11, după 30 de zile de la pornire.
 2. **Fluxul de cerere de recenzie** (02): aprobare. Urmează testul la Marius și Adelina, apoi pornirea.
-3. **Stelele în Google Shopping:** fără formular Google. Pornim din Judge.me → Settings → Google, SEO and AI → Google Shopping (pașii și setările în 01 §2). „Submit feed” e ireversibil, deci îl apasă proprietarul sau eu, cu „da”-ul lui.
+3. **Stelele în Google Shopping: feedul Judge.me e deja live din 10.04.2026** (324 de recenzii eligibile). Rămân de corectat 3 setări ale feedului (https, fără produse scoase din magazin, fără recenzii cu date personale); textul pentru extensie e în 05.
 4. **Trustpilot:** creezi contul gratuit (pașii în 03), apoi decidem cum pleacă invitațiile și fraza din politica de confidențialitate.
 5. **SupliScout:** trimiți e-mailul din 03 de pe contact@primesupplements.ro.
 6. **Microsoft Merchant Center:** creezi contul Microsoft Advertising cu contact@primesupplements.ro (pașii în 04), fără campanii și fără buget.

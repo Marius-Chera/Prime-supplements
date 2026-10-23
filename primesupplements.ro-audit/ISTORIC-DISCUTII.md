@@ -75,3 +75,7 @@ Detaliile sunt în JURNAL.md (sursa principală).
 - Google Merchant Center: cont 5540809866, feed Simprosys (raport: `google/MERCHANT-CENTER-2026-10-23.md`).
 - Fotografii: `D:\Prime Supplements` (ședințe Evo Gym, Ana Savici, Mihai Diaconu, Constanța).
 - Teme: tema activă „Prime – tema activă (22.10)” ID 193996554615.
+
+### Adăugat 23.10 (după auditul de căutări)
+- **23.10 – căutări:** auditul `seo/AUDIT-CAUTARI-2026-10-23.md`. Bing Webmaster Tools a fost configurat pe contul Google **contact@primesupplements.ro**, care deține Search Console (nu primesupplementsro@gmail.com).
+- **23.10 – ghiduri de categorie:** proprietarul a cerut ghiduri conforme „peste tot”, ca să urcăm în căutări ca și concurenții. Am scris ghiduri pentru 17 categorii, iar proprietarul a publicat tema „Prime – PROBĂ ghiduri categorie (23.10)”, care e acum tema activă.

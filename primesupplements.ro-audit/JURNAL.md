@@ -116,3 +116,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 23.10: propunerea politicii de cookie-uri actualizată după decizia proprietarului: UpPromote are o secțiune separată („funcționează de la prima vizită”, doar pentru atribuirea comisionului afiliaților). Publicarea așteaptă aprobarea textului și rezolvarea theMarketer (D4).
 - 23.10: textul nou al politicii de cookie-uri aprobat de proprietar; se publică după rezolvarea theMarketer (D4).
 - 23.10: theMarketer nu are setare de consimțământ (verificat de proprietar cu extensia); text de e-mail pentru suport (iam@themarketer.com) dat proprietarului; termen de răspuns ~06.11.2026, apoi varianta din temă.
+- 23.10: proprietarul a trimis e-mailul către iam@themarketer.com (theMarketer doar după acord + oprirea web push). Se așteaptă răspunsul până pe 06.11.2026.

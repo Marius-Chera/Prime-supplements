@@ -150,3 +150,12 @@ Am verificat primele 30 de rezultate. Locul Prime e cel găsit în pagină; „�
 - După 11 căutări rapide, Google a cerut verificarea „nu sunt robot” în Brave. Nu am ocolit-o; restul căutărilor le-am făcut din browserul din aplicație, mai rar. Verificarea dispare singură.
 - Răspunsurile ChatGPT diferă de la o întrebare la alta; 5 întrebări arată tendința, nu o regulă.
 - Shopify nu împarte vizitele pe browser (Safari vs Chrome) prin conexiunea folosită. Am folosit împărțirea pe telefon și calculator.
+
+## 10. Completare 23.10 – Bing Webmaster Tools configurat
+- Cont Bing Webmaster Tools (Microsoft, contact@primesupplements.ro). Site-ul a fost importat din Search Console cu contul Google **contact@primesupplements.ro**, care deține proprietatea. Contul primesupplementsro@gmail.com nu are niciun site în Search Console și i s-a dat din greșeală acces doar-citire pentru Bing; accesul poate fi retras din Contul Google → Securitate → Aplicații terțe.
+- Sitemap trimis: https://primesupplements.ro/sitemap.xml (598 de adrese, în procesare). Bing mai știe și de sitemap-urile vechi `www.primesupplements.ro/sitemap.xml` (1.900 de adrese) și `b2b.primesupplements.ro/sitemap.xml`.
+- Search Console: sitemap-ul fusese deja trimis pe 13.10 (377 de pagini găsite). Mai există un RSS vechi de pe WooCommerce (`www.primesupplements.ro/sitemap.rss`) cu „Couldn't fetch”; e inofensiv.
+- **Bing, căutări (3 luni):** 82 de clicuri, 1.200 de afișări. Aproape toate sunt pe marcă („prime supplements”, „prime creatine”, „prime proteina”). Termenii generici nu apar.
+- **Bing AI Performance (Copilot și parteneri, 3 luni): 801 citări.** 59 % vin din întrebarea „prime supplements”.
+  - Paginile citate: prima pagină (358), `/collections/frontpage` (172; colecție tehnică ce n-ar trebui să apară), Prime Whey Go (63), Creatine Ready To Go (40), colecția Creatină (12), apoi articole de blog, inclusiv duplicate `/ro-hu/`.
+  - Crema de orez, Prime Whey 2 kg și Creapure® nu sunt citate.

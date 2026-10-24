@@ -75,3 +75,10 @@ Sarcina: trimiți DOUĂ contestații, câte una pe grup, cu motivul „Clasifica
 5. Nu trimite nicio altă contestație (rândul „Farmacie” e același produs cu grupul 2). Nu trimite de două ori același grup.
 6. Raportează: mesajul afișat după fiecare trimitere și starea nouă a celor două grupuri din „Detalii despre încălcarea politicii”.
 ```
+
+### Raportul extensiei (24.10): contestațiile TRIMISE
+- Grupul 1 („Conținut care instigă la ură”, 93 de haine MNX și Prime) și grupul 2 („Vitamine și suplimente”, 3 shakere și Glycerol Max Pump) au fost trimise, câte o dată, cu motivul „Clasificare incorectă” și cu confirmarea de conformitate bifată.
+- Mesajul Microsoft: „Ați remis cu succes ofertele atractive pentru revizuire. Poate dura până la patru ore pentru ca numărul de oferte să fie reflectat în rezumatul Centrului pentru comercianți.”
+- Panoul de contestație nu are câmp de comentariu, deci textele explicative nu s-au trimis.
+- Rândul „Farmacie” (1) e unul dintre cele 4 produse din grupul 2 („Vitamine și suplimente și încă 1”) și nu s-a contestat separat.
+- De verificat pe ~28.10: câte produse sunt active, starea celor 94 contestate, apariția pe Bing Shopping.

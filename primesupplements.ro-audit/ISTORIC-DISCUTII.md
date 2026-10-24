@@ -93,3 +93,4 @@ Detaliile sunt în JURNAL.md (sursa principală).
 
 ### 25.10.2026 – audit SEO complet (sesiune din aplicație)
 - Proprietarul a cerut un audit SEO complet, fără nicio modificare pe site, cu toate problemele, top 10 puncte de fixat pentru creștere organică în Google și în motoarele AI și comparația cu concurenții, plus un rezumat al îmbunătățirilor din primele 10 zile de lucru cu Claude. Raportul: `seo/AUDIT-SEO-COMPLET-2026-10-25.md`; nicio decizie luată încă – cele 10 puncte așteaptă răspunsul lui (în DE-FACUT pct. 13).
+- **25.10 – decizie:** problemele din auditul SEO se fixează **după Black Friday**, pe rând, în ordinea celor 20 de pași din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md` (start 1.12.2026; decembrie doar texte și setări, schimbările de structură din ianuarie). Până atunci site-ul nu se atinge.

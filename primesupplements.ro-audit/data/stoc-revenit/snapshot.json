@@ -1,5 +1,5 @@
 {
- "data": "2026-10-23",
+ "data": "2026-10-24",
  "produse_active": 119,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0.",
  "produse": {
@@ -20,7 +20,7 @@
    }
   },
   "citrus-bergamot": {
-   "totalInventory": 208,
+   "totalInventory": 207,
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
@@ -28,7 +28,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 1023,
+   "totalInventory": 1019,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -52,7 +52,7 @@
    "publishedAt": "2025-05-05"
   },
   "supliment-alimentar-chromium-picolinate-80-caps": {
-   "totalInventory": 21,
+   "totalInventory": 20,
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
@@ -104,19 +104,19 @@
    "publishedAt": "2025-05-05"
   },
   "coenzima-q10-80-caps": {
-   "totalInventory": 0,
+   "totalInventory": 3,
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 860,
+   "totalInventory": 858,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 87,
+   "totalInventory": 86,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 340,
+   "totalInventory": 338,
    "publishedAt": "2025-05-05",
    "variante": {
     "500g": 93,
@@ -198,7 +198,7 @@
    }
   },
   "energy-pump": {
-   "totalInventory": 550,
+   "totalInventory": 546,
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
@@ -218,11 +218,11 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-caju": {
-   "totalInventory": 6,
+   "totalInventory": 5,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 442,
+   "totalInventory": 443,
    "publishedAt": "2025-05-05",
    "variante": {
     "Blueberry Vanilla": 71,
@@ -235,7 +235,7 @@
    }
   },
   "prime-whey-2000g": {
-   "totalInventory": 271,
+   "totalInventory": 266,
    "publishedAt": "2025-05-05",
    "variante": {
     "Strawberry Cheesecake": 20,
@@ -296,7 +296,7 @@
    "publishedAt": "2025-05-05"
   },
   "fiber-blood-orange": {
-   "totalInventory": 100,
+   "totalInventory": 99,
    "publishedAt": "2025-06-02"
   },
   "prime-whey-go": {
@@ -317,7 +317,7 @@
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
-   "totalInventory": 68,
+   "totalInventory": 64,
    "publishedAt": "2026-03-08",
    "variante": {
     "Blue Moon Cutie": 38,
@@ -335,7 +335,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
-   "totalInventory": 67,
+   "totalInventory": 63,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
@@ -347,11 +347,11 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 49,
+   "totalInventory": 46,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 96,
+   "totalInventory": 91,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -439,7 +439,7 @@
    "productType": "Pachet"
   },
   "pachet-daily-fit-fiber-creatina-creapure": {
-   "totalInventory": 93,
+   "totalInventory": 91,
    "productType": "Pachet"
   },
   "pachet-duo-capsule-thermo-core-water-out": {
@@ -455,11 +455,11 @@
    "productType": "Pachet"
   },
   "pachet-starter-forta-prime-whey-2kg-creatina-creapure": {
-   "totalInventory": 241,
+   "totalInventory": 236,
    "productType": "Pachet"
   },
   "pachet-mic-dejun-proteic-prime-whey-2kg-crema-de-orez": {
-   "totalInventory": 161,
+   "totalInventory": 154,
    "productType": "Pachet"
   },
   "pachet-recuperare-eaa-glutamina-kyowa": {
@@ -475,11 +475,11 @@
    "productType": "Pachet"
   },
   "pachet-cura-de-iarna-3-vitamina-d3-k2": {
-   "totalInventory": 341,
+   "totalInventory": 339,
    "productType": "Pachet"
   },
   "pachet-duo-magneziu-2-magneziu-bisglicinat-300-mg": {
-   "totalInventory": 430,
+   "totalInventory": 429,
    "productType": "Pachet"
   },
   "pachet-iarna-complet-vitamina-d3-k2-magneziu-nac": {
@@ -491,7 +491,7 @@
    "productType": "Pachet"
   },
   "pachet-set-antrenament-hammer-maiou-pantaloni-trening": {
-   "totalInventory": 272,
+   "totalInventory": 270,
    "productType": "Pachet"
   },
   "t-shirt-drop-shoulder-muscle": {
@@ -539,7 +539,7 @@
    "categorie": "haine/accesorii"
   },
   "pantaloni-trening-barbati-hammer-3-0-prime-negri": {
-   "totalInventory": 98,
+   "totalInventory": 97,
    "categorie": "haine/accesorii"
   },
   "pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri": {

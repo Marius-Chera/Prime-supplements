@@ -1,5 +1,5 @@
 {
- "data": "2026-10-24",
+ "data": "2026-10-25",
  "produse_active": 119,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0.",
  "produse": {
@@ -12,11 +12,11 @@
    }
   },
   "baton-proteic-caramel-sarat": {
-   "totalInventory": 105,
+   "totalInventory": 98,
    "publishedAt": "2026-03-09",
    "variante": {
     "Cutie 12 buc": 47,
-    "55g": 58
+    "55g": 51
    }
   },
   "citrus-bergamot": {
@@ -80,7 +80,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 81,
+   "totalInventory": 80,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
@@ -222,7 +222,7 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 443,
+   "totalInventory": 441,
    "publishedAt": "2025-05-05",
    "variante": {
     "Blueberry Vanilla": 71,
@@ -235,7 +235,7 @@
    }
   },
   "prime-whey-2000g": {
-   "totalInventory": 266,
+   "totalInventory": 265,
    "publishedAt": "2025-05-05",
    "variante": {
     "Strawberry Cheesecake": 20,
@@ -313,7 +313,7 @@
    }
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 53,
+   "totalInventory": 52,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
@@ -359,7 +359,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-apricot-10g": {
-   "totalInventory": 179,
+   "totalInventory": 174,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-chocolate-10g": {
@@ -371,11 +371,11 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-energy-cranberry-10g": {
-   "totalInventory": 221,
+   "totalInventory": 216,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-forest-fruits-10g": {
-   "totalInventory": 80,
+   "totalInventory": 75,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-green-apple-10g": {
@@ -391,23 +391,23 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon": {
-   "totalInventory": 235,
+   "totalInventory": 232,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon-lime-10g": {
-   "totalInventory": 99,
+   "totalInventory": 94,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-mango-10g": {
-   "totalInventory": 3,
+   "totalInventory": 1,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-orange-10g": {
-   "totalInventory": 133,
+   "totalInventory": 128,
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-tropic-10-g": {
-   "totalInventory": 58,
+   "totalInventory": 53,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-watermelon-10g": {
@@ -423,7 +423,7 @@
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-sport-red-orange-10-g": {
-   "totalInventory": 67,
+   "totalInventory": 62,
    "publishedAt": "2026-07-24"
   },
   "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare": {
@@ -431,7 +431,7 @@
    "productType": "Pachet"
   },
   "prime-shaker-customised": {
-   "totalInventory": 17,
+   "totalInventory": 16,
    "publishedAt": "2026-05-05"
   },
   "pachet-pre-workout-power-nitrox-3d-creatina-creapure": {
@@ -455,7 +455,7 @@
    "productType": "Pachet"
   },
   "pachet-starter-forta-prime-whey-2kg-creatina-creapure": {
-   "totalInventory": 236,
+   "totalInventory": 235,
    "productType": "Pachet"
   },
   "pachet-mic-dejun-proteic-prime-whey-2kg-crema-de-orez": {
@@ -471,7 +471,7 @@
    "productType": "Pachet"
   },
   "pachet-starter-incepator-prime-whey-1kg-creapure-shaker": {
-   "totalInventory": 119,
+   "totalInventory": 112,
    "productType": "Pachet"
   },
   "pachet-cura-de-iarna-3-vitamina-d3-k2": {
@@ -499,11 +499,11 @@
    "categorie": "haine/accesorii"
   },
   "maiou-stringer": {
-   "totalInventory": 41,
+   "totalInventory": 40,
    "categorie": "haine/accesorii"
   },
   "maiou-stringer-white": {
-   "totalInventory": 15,
+   "totalInventory": 14,
    "categorie": "haine/accesorii"
   },
   "short-arnold-era": {
@@ -581,6 +581,14 @@
   "tricou-sala-suffer-to-dominate-bumbac-premium-negru": {
    "totalInventory": 1,
    "categorie": "haine/accesorii"
+  },
+  "mnx-classic-t-shirt-golden-era-2-0-white-red": {
+   "publishedAt": "2026-03-29",
+   "totalInventory": 10
+  },
+  "mnx-classic-t-shirt-golden-era-2-0-white-black": {
+   "publishedAt": "2026-03-29",
+   "totalInventory": 11
   }
  }
 }

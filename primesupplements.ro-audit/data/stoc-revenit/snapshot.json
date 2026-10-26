@@ -1,10 +1,10 @@
 {
- "data": "2026-10-25",
+ "data": "2026-10-26",
  "produse_active": 119,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0.",
  "produse": {
   "baton-proteic-capsuni": {
-   "totalInventory": 88,
+   "totalInventory": 86,
    "publishedAt": "2025-05-05",
    "variante": {
     "Cutie 12 buc": 25,
@@ -28,7 +28,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 1019,
+   "totalInventory": 1018,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -60,11 +60,11 @@
    "publishedAt": "2025-05-05"
   },
   "magnesium-citrate-80-caps": {
-   "totalInventory": 58,
+   "totalInventory": 57,
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 344,
+   "totalInventory": 341,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
@@ -80,7 +80,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 80,
+   "totalInventory": 79,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
@@ -104,19 +104,19 @@
    "publishedAt": "2025-05-05"
   },
   "coenzima-q10-80-caps": {
-   "totalInventory": 3,
+   "totalInventory": 2,
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 858,
+   "totalInventory": 855,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 86,
+   "totalInventory": 85,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 338,
+   "totalInventory": 337,
    "publishedAt": "2025-05-05",
    "variante": {
     "500g": 93,
@@ -124,7 +124,7 @@
    }
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 400,
+   "totalInventory": 397,
    "publishedAt": "2025-05-05",
    "variante": {
     "Peach Ice Tea": 98,
@@ -142,7 +142,7 @@
    }
   },
   "nitrox": {
-   "totalInventory": 180,
+   "totalInventory": 179,
    "publishedAt": "2025-05-05",
    "variante": {
     "Cherry": 57,
@@ -152,11 +152,11 @@
    }
   },
   "omega-3": {
-   "totalInventory": 4,
+   "totalInventory": 2,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
-   "totalInventory": 274,
+   "totalInventory": 273,
    "publishedAt": "2025-05-05",
    "variante": {
     "Chocolate": 87,
@@ -177,7 +177,7 @@
    }
   },
   "recovery-glutamin": {
-   "totalInventory": 291,
+   "totalInventory": 290,
    "publishedAt": "2025-05-05",
    "variante": {
     "Simplu": 67,
@@ -188,7 +188,7 @@
    }
   },
   "combat-pro": {
-   "totalInventory": 139,
+   "totalInventory": 138,
    "publishedAt": "2025-05-05",
    "variante": {
     "Forest Fruits": 26,
@@ -206,7 +206,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 48,
+   "totalInventory": 46,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -214,7 +214,7 @@
    "publishedAt": "2025-05-05"
   },
   "water-out-500-ml": {
-   "totalInventory": 139,
+   "totalInventory": 138,
    "publishedAt": "2025-05-05"
   },
   "unt-de-caju": {
@@ -222,7 +222,7 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 441,
+   "totalInventory": 437,
    "publishedAt": "2025-05-05",
    "variante": {
     "Blueberry Vanilla": 71,
@@ -235,7 +235,7 @@
    }
   },
   "prime-whey-2000g": {
-   "totalInventory": 265,
+   "totalInventory": 263,
    "publishedAt": "2025-05-05",
    "variante": {
     "Strawberry Cheesecake": 20,
@@ -313,7 +313,7 @@
    }
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 52,
+   "totalInventory": 51,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
@@ -327,7 +327,7 @@
    }
   },
   "crema-de-orez-fara-aroma": {
-   "totalInventory": 14,
+   "totalInventory": 13,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-blueberry-muffin": {
@@ -335,7 +335,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
-   "totalInventory": 63,
+   "totalInventory": 59,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
@@ -343,15 +343,15 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 6,
+   "totalInventory": 3,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 46,
+   "totalInventory": 44,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 91,
+   "totalInventory": 88,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {

@@ -61,7 +61,7 @@ Matematica „sutelor de clienți”: 300 de clienți la ușa B × 550 lei = 165
 5. **Rezultate**: toate transformările, cu poveste scurtă (vârstă, oraș, punct de plecare, durată).
 6. **Metoda** (Chera Protocol explicat): ce e diferit – nutriție pe bază de date, ajustări săptămânale, periodizare; fără jargon; aici intră și articolele (SEO: „pregătire concurs culturism”, „cum arăt ca un sportiv fără să concurez”, „de ce nu progresez la sală”).
 7. **Despre Marius**: povestea, Sassi/Nicholls/Tuor, FRCF, Prime (o mențiune, nu un link central – afaceri separate).
-8. **Evaluare gratuită** (pagina-cheie a funnel-ului): formular de 2 minute (obiectiv, ani de sală, poze opționale, buget) → răspuns pe WhatsApp cu recomandarea de ușă. Fiecare lead intră în inbox-ul de echipă.
+8. **Evaluare gratuită** (pagina-cheie a funnel-ului): date de bază (obiectiv, ani de sală, telefon) + **chestionarul de profil neuro** (40 de afirmații, 4 minute, model Braverman → neurotipurile Thibaudeau 1A/1B/2A/2B/3, cu întrebările noastre, nu copiate) → rezultatul pe loc (profil + 3 reguli de antrenament + 3 de nutriție + ușa recomandată) → lead-ul cu profilul în inbox-ul WhatsApp al echipei. Profilul decide șablonul de pornire al planului (5 de antrenament + 5 de nutriție), de unde antrenorul personalizează. Detalii și prima versiune a întrebărilor: `EVALUARE-NEUROTIP-2026-10-27.md` (27.10). Devine și argumentul nr. 1 al poziționării: „nu primești un plan generic; pornim de la profilul tău”.
 9. **Echipa** (când există): antrenorii Chera Protocol, fiecare cu rezultatele lui.
 10. Contact, legale (ca în planul tehnic).
 
@@ -81,6 +81,7 @@ Matematica „sutelor de clienți”: 300 de clienți la ușa B × 550 lei = 165
 5. Domeniul: reînnoim mariuschera.ro (dacă mai e al tău) sau luăm cheraprotocol.ro? Recomand **cheraprotocol.ro** ca brand al metodei + mariuschera.ro redirecționat spre el.
 6. Acordul scris al sportivilor pentru pozele înainte/după (un formular simplu, îl pregătesc eu).
 7. 3–4 testimoniale de la clienți care nu concurează (voce sau text pe WhatsApp, le editez eu).
+8. (27.10) Pentru evaluarea pe neurotipuri: confirmarea modelului și a mapării, regulile lui de antrenament și nutriție per tip, validarea celor 40 de întrebări pe 5–10 sportivi cu profil cunoscut – vezi `EVALUARE-NEUROTIP-2026-10-27.md` §7.
 
 ## 9. Ce NU facem
 - Nu ne poziționăm pe „slăbit”/„sănătate”/„sedentarism” în general: diluează dovezile și intrăm în piața cea mai aglomerată. Ușa B e pentru oameni care deja merg la sală.

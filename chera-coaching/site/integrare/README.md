@@ -41,3 +41,10 @@ Opțional în script: `NOTIFY_EMAIL` (e-mail la fiecare evaluare) și `WHATSAPP_
 - Pragurile: în `balance()` (15 și 22) și în `dominant()` (diferența ≤ 2 = profil mixt).
 - Ordinea afirmațiilor: amestecată determinist (`seededShuffle`); schimbă seed-ul ca să schimbi ordinea.
 - Numărul de afirmații pe ecran: `PER_PAGE`.
+
+## 6. PDF-ul completabil (câmpuri de formular)
+- Fișier: `site/CHESTIONAR-PROFIL-NEURO-completabil.pdf` (câmpuri de text, grupuri de selecție cu o singură alegere pe rând, bife de acord, fișa antrenorului; buton „Calculeaza scorul” care funcționează în Acrobat/Foxit, nu în Chrome/telefon). Salvarea: din aplicația de PDF (Acrobat Reader, Foxit, Chrome: descarcă/salvează; pe telefon: „Salvează” sau „Trimite” din vizualizator).
+- Regenerare după orice schimbare în `CHESTIONAR-PROFIL-NEURO-print.html`:
+  1. `chrome --headless=new --dump-dom <print.html>` → extrage blocul `<script id="rects">` în `site/tools/rects.json` (comanda exactă e în JURNAL 27.10).
+  2. `chrome --headless=new --print-to-pdf=CHESTIONAR-PROFIL-NEURO.pdf <print.html>`.
+  3. `cd site/tools && node make-fillable.mjs` (pdf-lib + fontkit, Arial încorporat pentru diacritice). `node_modules/` nu se comite.

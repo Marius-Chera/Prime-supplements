@@ -57,7 +57,7 @@
   tr:nth-child(even) td { background:var(--soft); }
   td.n { width:10mm; font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:12pt; color:var(--red); }
   td.c { text-align:center; }
-  .cb { display:inline-block; width:5mm; height:5mm; border:1.5px solid var(--ink); border-radius:1.2mm; vertical-align:middle; background:#fff; }
+  .cb { display:inline-block; width:5mm; height:5mm; border:1.5px solid var(--ink); border-radius:50%; vertical-align:middle; background:#fff; }
 
   /* choices */
   .choices { display:grid; grid-template-columns:1fr 1fr; gap:3mm 10mm; }
@@ -102,12 +102,12 @@
   <div class="stripe"></div>
   <div class="content">
     <div class="fields">
-      <div class="field"><label>Nume și prenume</label><i></i></div>
-      <div class="field"><label>Data</label><i></i></div>
-      <div class="field"><label>Telefon (WhatsApp)</label><i></i></div>
-      <div class="field"><label>E-mail</label><i></i></div>
-      <div class="field"><label>Oraș</label><i></i></div>
-      <div class="field"><label>Vârstă · Înălțime · Greutate</label><i></i></div>
+      <div class="field"><label>Nume și prenume</label><i data-text="nume"></i></div>
+      <div class="field"><label>Data</label><i data-text="data"></i></div>
+      <div class="field"><label>Telefon (WhatsApp)</label><i data-text="telefon"></i></div>
+      <div class="field"><label>E-mail</label><i data-text="email"></i></div>
+      <div class="field"><label>Oraș</label><i data-text="oras"></i></div>
+      <div class="field"><label>Vârstă · Înălțime · Greutate</label><i data-text="vig"></i></div>
     </div>
     <div class="tip"><b>Cum răspunzi</b> Fiecare afirmație are patru trepte, fără mijloc. Bifează o singură căsuță pe rând: ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău. Durează 6–8 minute. La final semnezi și trimiți chestionarul: poză pe WhatsApp sau e-mail.</div>
     <h2><span>Runda 1</span> · Natura ta</h2>
@@ -171,23 +171,23 @@
   <div class="content">
     <div class="block red">
       <h3 style="margin:0">Obiectivul tău · o singură bifă</h3>
-      <div class="choice"><span class="cb"></span><span>Vreau să urc pe scenă (sau concurez deja)</span></div>
-      <div class="choice"><span class="cb"></span><span>Vreau să arăt ca un sportiv, fără să concurez</span></div>
-      <div class="choice"><span class="cb"></span><span>Încep de la zero sau reiau după pauză</span></div>
+      <div class="choice"><span class="cb" data-group="obiectiv" data-value="scena"></span><span>Vreau să urc pe scenă (sau concurez deja)</span></div>
+      <div class="choice"><span class="cb" data-group="obiectiv" data-value="sportiv"></span><span>Vreau să arăt ca un sportiv, fără să concurez</span></div>
+      <div class="choice"><span class="cb" data-group="obiectiv" data-value="start"></span><span>Încep de la zero sau reiau după pauză</span></div>
     </div>
     <div class="choices">
       <div class="block"><h3 style="margin:0">Ani de sală</h3>
-        <div class="choice"><span class="cb"></span><span>sub 1 an</span></div><div class="choice"><span class="cb"></span><span>1–3 ani</span></div><div class="choice"><span class="cb"></span><span>3–5 ani</span></div><div class="choice"><span class="cb"></span><span>peste 5 ani</span></div></div>
+        <div class="choice"><span class="cb" data-group="ani" data-value="1"></span><span>sub 1 an</span></div><div class="choice"><span class="cb" data-group="ani" data-value="2"></span><span>1–3 ani</span></div><div class="choice"><span class="cb" data-group="ani" data-value="3"></span><span>3–5 ani</span></div><div class="choice"><span class="cb" data-group="ani" data-value="4"></span><span>peste 5 ani</span></div></div>
       <div class="block"><h3 style="margin:0">Somn pe noapte, în medie</h3>
-        <div class="choice"><span class="cb"></span><span>sub 6 ore</span></div><div class="choice"><span class="cb"></span><span>6–7 ore</span></div><div class="choice"><span class="cb"></span><span>7–8 ore</span></div><div class="choice"><span class="cb"></span><span>peste 8 ore</span></div></div>
+        <div class="choice"><span class="cb" data-group="somn" data-value="1"></span><span>sub 6 ore</span></div><div class="choice"><span class="cb" data-group="somn" data-value="2"></span><span>6–7 ore</span></div><div class="choice"><span class="cb" data-group="somn" data-value="3"></span><span>7–8 ore</span></div><div class="choice"><span class="cb" data-group="somn" data-value="4"></span><span>peste 8 ore</span></div></div>
       <div class="block"><h3 style="margin:0">Cafea sau energizante pe zi</h3>
-        <div class="choice"><span class="cb"></span><span>0</span></div><div class="choice"><span class="cb"></span><span>1–2</span></div><div class="choice"><span class="cb"></span><span>3 sau mai multe</span></div></div>
+        <div class="choice"><span class="cb" data-group="cafea" data-value="1"></span><span>0</span></div><div class="choice"><span class="cb" data-group="cafea" data-value="2"></span><span>1–2</span></div><div class="choice"><span class="cb" data-group="cafea" data-value="3"></span><span>3 sau mai multe</span></div></div>
       <div class="block"><h3 style="margin:0">Antrenamente pe săptămână, realist</h3>
-        <div class="choice"><span class="cb"></span><span>3</span></div><div class="choice"><span class="cb"></span><span>4</span></div><div class="choice"><span class="cb"></span><span>5</span></div><div class="choice"><span class="cb"></span><span>6</span></div></div>
+        <div class="choice"><span class="cb" data-group="zile" data-value="1"></span><span>3</span></div><div class="choice"><span class="cb" data-group="zile" data-value="2"></span><span>4</span></div><div class="choice"><span class="cb" data-group="zile" data-value="3"></span><span>5</span></div><div class="choice"><span class="cb" data-group="zile" data-value="4"></span><span>6</span></div></div>
     </div>
     <h3>Acorduri</h3>
-    <div class="agree"><span class="cb"></span><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de pe prima pagină, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></div>
-    <div class="agree"><span class="cb"></span><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></div>
+    <div class="agree"><span class="cb" data-check="acord_wa"></span><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de pe prima pagină, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></div>
+    <div class="agree"><span class="cb" data-check="acord_gdpr"></span><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></div>
     <div class="sign">
       <div><span><strong>Semnătura ta</strong></span></div>
       <div><span><strong>Marius Chera</strong> · antrenor, Chera Protocol · www.mariuschera.ro</span></div>
@@ -203,28 +203,28 @@
   <div class="stripe"></div>
   <div class="content">
     <h3>Runda 1 · Natura ta · suma pe scală (8–32)</h3>
-    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i></i></div><div><b>GABA</b><small>itemii 17–24</small><i></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i></i></div></div>
+    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i data-text="scor1"></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i data-text="scor2"></i></div><div><b>GABA</b><small>itemii 17–24</small><i data-text="scor3"></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i data-text="scor4"></i></div></div>
     <div class="map">
       <span><b>Dominantă</b> = scorul cel mai mare. Două scale la cel mult 2 puncte = profil mixt, se decide la prima discuție.</span>
       <span><b>Mapare</b> D → 1A sau 1B după itemii 33–36 (33+35 față de 34+36) · A → 2A, sau 2B dacă 38+40 &gt; 37+39 · G → 2B · S → 3.</span>
     </div>
     <h3>Runda 2 · Echilibrul tău acum · suma pe scală (8–32)</h3>
-    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i></i></div><div><b>GABA</b><small>itemii 17–24</small><i></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i></i></div></div>
+    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i data-text="scor5"></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i data-text="scor6"></i></div><div><b>GABA</b><small>itemii 17–24</small><i data-text="scor7"></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i data-text="scor8"></i></div></div>
     <div class="map">
       <span><b>8–14</b> în regulă · <b>15–21</b> de susținut (dietă + stil de viață) · <b>22–32</b> pe minus (dietă + suplimente + discuție).</span>
       <span><b>Toate patru ≥ 20</b> = oboseală generală: se verifică întâi somnul, caloriile și stimulentele, suplimentele vin după.</span>
     </div>
     <h3>Concluzia</h3>
     <div class="fields">
-      <div class="field"><label>Neurotip (1A · 1B · 2A · 2B · 3)</label><i></i></div>
-      <div class="field"><label>Deficit de lucru, 8 săptămâni</label><i></i></div>
-      <div class="field"><label>Ușa recomandată (Elite · Coaching · Programe)</label><i></i></div>
-      <div class="field"><label>Antrenor</label><i></i></div>
-      <div class="field"><label>Data primei discuții</label><i></i></div>
-      <div class="field"><label>Re-test la</label><i></i></div>
+      <div class="field"><label>Neurotip (1A · 1B · 2A · 2B · 3)</label><i data-text="neurotip"></i></div>
+      <div class="field"><label>Deficit de lucru, 8 săptămâni</label><i data-text="deficit"></i></div>
+      <div class="field"><label>Ușa recomandată (Elite · Coaching · Programe)</label><i data-text="usa"></i></div>
+      <div class="field"><label>Antrenor</label><i data-text="antrenor"></i></div>
+      <div class="field"><label>Data primei discuții</label><i data-text="data_discutie"></i></div>
+      <div class="field"><label>Re-test la</label><i data-text="retest"></i></div>
     </div>
     <h3>Observații</h3>
-    <div class="field"><i></i></div><div class="field"><i></i></div><div class="field"><i></i></div><div class="field"><i></i></div>
+    <div class="field"><i data-text="obs1"></i></div><div class="field"><i data-text="obs2"></i></div><div class="field"><i data-text="obs3"></i></div><div class="field"><i data-text="obs4"></i></div>
   </div>
   <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">7 / 7</span></div>
 </section>
@@ -246,8 +246,13 @@ const B=[
 const SRC={A,T,B};
 document.querySelectorAll("tbody[data-fill]").forEach(tb=>{
   const list=SRC[tb.dataset.fill], from=+tb.dataset.from, to=+tb.dataset.to, off=+tb.dataset.offset;
-  for(let i=from;i<to;i++){ const tr=document.createElement("tr"); tr.innerHTML=`<td class="n">${off+i+1}</td><td>${list[i]}</td>`+'<td class="c"><span class="cb"></span></td>'.repeat(4); tb.appendChild(tr); }
+  for(let i=from;i<to;i++){ const tr=document.createElement("tr"); tr.innerHTML=`<td class="n">${off+i+1}</td><td>${list[i]}</td>`+[1,2,3,4].map(v=>`<td class="c"><span class="cb" data-group="${tb.dataset.fill}${off+i+1}" data-value="${v}"></span></td>`).join(""); tb.appendChild(tr); }
 });
+/* extragere poziții pentru câmpurile PDF (tools/make-fillable.mjs, prin --dump-dom) */
+const pages=[...document.querySelectorAll(".page")];
+const rects=[];
+document.querySelectorAll("[data-text],[data-group],[data-check]").forEach(el=>{ const pg=el.closest(".page"); const pr=pg.getBoundingClientRect(), r=el.getBoundingClientRect(); rects.push({page:pages.indexOf(pg), kind:el.dataset.text?"text":(el.dataset.group?"radio":"check"), name:el.dataset.text||el.dataset.group||el.dataset.check, value:el.dataset.value||null, x:r.left-pr.left, y:r.top-pr.top, w:r.width, h:r.height, pw:pr.width, ph:pr.height}); });
+const holder=document.createElement("script"); holder.id="rects"; holder.type="application/json"; holder.textContent=JSON.stringify(rects); document.body.appendChild(holder);
 </script>
 </body>
 </html>

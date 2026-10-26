@@ -165,6 +165,12 @@ const articole = [
 // LOCAL=1: imaginile se iau din folderul local (pentru PDF – CDN-ul trimite WebP către Chrome și PDF-ul ar crește de 5 ori)
 const LOCAL = process.env.LOCAL === "1";
 const IMGDIR = `PORTOFOLIU-B2B-${DATA}-img`;
+// CLIENT=nutrafit: varianta pentru distribuitorul NUTRAFIT DISTRIBUTIONS S.R.L. (platformă B2B care revinde firmelor):
+// aceleași prețuri B2B Prime; preț recomandat Nutrafit = B2B + o treime din diferența până la prețul de raft final (fără TVA);
+// preț de raft final pentru magazinul care cumpără de la Nutrafit = prețul de site + 5,5 % (5–6 %), rotunjit la leu.
+const NUTRAFIT = process.env.CLIENT === "nutrafit";
+const CLIENT = { name: "NUTRAFIT DISTRIBUTIONS S.R.L.", cui: "RO46566904", reg: "J2022005085233", addr: "București, Sector 2, Calea Moșilor nr. 158, et. 4, camera 4, modul 652" };
+const RAFT_PLUS_FINAL = 0.055;
 const picList = [];
 const pic = (url, file) => { picList.push({ url, file }); return LOCAL ? `${IMGDIR}/${file}` : url; };
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -189,6 +195,16 @@ for (const g of groups) for (const it of g.items) {
   it.raft = Math.round(it.site * (1 + RAFT_PLUS));
   it.profitNet = (it.raft - it.b2bGross) / (1 + it.vat / 100);
   it.profitPct = (it.raft - it.b2bGross) / it.b2bGross * 100;
+  if (NUTRAFIT) {
+    const k = 1 + it.vat / 100;
+    it.raftF = Math.round(it.site * (1 + RAFT_PLUS_FINAL));      // raft final, cu TVA
+    const raftNet = it.raftF / k;
+    it.nf = Math.round(it.b2b + (raftNet - it.b2b) / 3);          // preț recomandat Nutrafit, fără TVA
+    it.nfGross = it.nf * k;
+    it.nfGain = it.nf - it.b2b; it.nfPct = it.nfGain / it.b2b * 100;
+    it.shopGain = raftNet - it.nf; it.shopPct = it.shopGain / it.nf * 100;
+    if (it.shopPct < 15) warnings.push(`Nutrafit: magazinul final rămâne sub 15 % la ${it.name} (${it.shopPct.toFixed(0)} %)`);
+  }
   count++;
 }
 for (const w of warnings) console.warn("! " + w);
@@ -199,7 +215,9 @@ const card = it => `
       <div class="cb">
         <h4>${esc(it.name)}</h4>
         <p>${esc(it.blurb)}</p>
-        <div class="pr"><span class="lbl">Preț site</span> <b>${lei0(it.site)} lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">${lei0(it.b2b)} lei</b> <small>fără TVA</small></div>
+        ${NUTRAFIT
+          ? `<div class="pr"><span class="lbl">B2B Prime</span> <b class="red">${lei0(it.b2b)} lei</b> <span class="sep">·</span> <span class="lbl">Nutrafit</span> <b>${lei0(it.nf)} lei</b> <small>fără TVA</small> <span class="sep">·</span> <span class="lbl">Raft</span> <b>${lei0(it.raftF)} lei</b></div>`
+          : `<div class="pr"><span class="lbl">Preț site</span> <b>${lei0(it.site)} lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">${lei0(it.b2b)} lei</b> <small>fără TVA</small></div>`}
       </div>
     </article>`;
 const cards = groups.map(g => `
@@ -209,7 +227,17 @@ const cards = groups.map(g => `
   ${g.items.length > 4 ? `<div class="cards">${g.items.slice(4).map(card).join("")}</div>` : ""}
 </section>`).join("");
 
-const rows = groups.map(g => `<tr class="grp"><td colspan="8">${esc(g.name)}</td></tr>` + g.items.map(it => `
+const rows = groups.map(g => `<tr class="grp"><td colspan="8">${esc(g.name)}</td></tr>` + g.items.map(it => NUTRAFIT ? `
+<tr>
+  <td>${esc(it.name)}</td>
+  <td class="num tva">${it.vat}%</td>
+  <td class="num"><s>${lei0(it.site)}</s></td>
+  <td class="num b">${lei0(it.b2b)}</td>
+  <td class="num raft">${lei0(it.nf)}</td>
+  <td class="num">${lei(it.nfGain)} <span class="tva">(${Math.round(it.nfPct)}%)</span></td>
+  <td class="num raft">${lei0(it.raftF)}</td>
+  <td class="num pct">${lei(it.shopGain)} <span class="tva">(${Math.round(it.shopPct)}%)</span></td>
+</tr>` : `
 <tr>
   <td>${esc(it.name)}</td>
   <td class="num tva">${it.vat}%</td>
@@ -226,7 +254,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portofoliu B2B – Prime Supplements</title>
+<title>${NUTRAFIT ? "Portofoliu B2B Nutrafit – Prime Supplements" : "Portofoliu B2B – Prime Supplements"}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -328,15 +356,29 @@ const html = `<!doctype html>
   <section class="hero">
     <img src="${IMGDIR}/hero.jpg" alt="Sportivă pregătindu-și micul dejun cu Prime Whey">
     <div>
-      <p class="kicker">Portofoliu de prezentare pentru parteneri</p>
+      ${NUTRAFIT ? `<p class="kicker">Portofoliu de prezentare pentru ${esc(CLIENT.name)}</p>
+      <h1>Produsele <span>Prime</span> pe platforma B2B Nutrafit</h1>
+      <p>Prime Supplements este un brand românesc de suplimente sportive, din Sibiu. Produsele sunt fabricate în Uniunea Europeană și acoperă tot ce cere un client de sală sau de magazin: proteine, creatină, aminoacizi, pre-workout, arzătoare, vitamine și minerale, alimente funcționale și accesorii.</p>
+      <p>Acest portofoliu este pregătit pentru <b>${esc(CLIENT.name)}</b> (CUI ${CLIENT.cui}, ${CLIENT.reg}; ${esc(CLIENT.addr)}), partener distribuitor care listează produsele Prime pe platforma sa B2B și le revinde sălilor, magazinelor și cabinetelor.</p>
+      <p><b>${count} produse</b> în lista B2B · prețuri B2B Prime neschimbate · preț recomandat de revânzare pentru Nutrafit și preț de raft final pentru clienții Nutrafit, ca politică comercială comună.</p>`
+      : `<p class="kicker">Portofoliu de prezentare pentru parteneri</p>
       <h1>Suplimente <span>Prime</span> pentru sala, magazinul sau cabinetul tău</h1>
       <p>Prime Supplements este un brand românesc de suplimente sportive, din Sibiu. Produsele sunt fabricate în Uniunea Europeană și acoperă tot ce cere un client de sală: proteine, creatină, aminoacizi, pre-workout, arzătoare, vitamine și minerale, alimente funcționale și accesorii.</p>
       <p>Vindem online pe primesupplements.ro și, prin agentul nostru de vânzări, sălilor de fitness, magazinelor și cabinetelor care vor un raft cu produse de calitate, marjă clară și livrare rapidă.</p>
-      <p><b>${count} produse</b> în lista B2B · livrare Cargus în 1–2 zile lucrătoare · raft și materiale de prezentare gratuite pentru parteneri.</p>
+      <p><b>${count} produse</b> în lista B2B · livrare Cargus în 1–2 zile lucrătoare · raft și materiale de prezentare gratuite pentru parteneri.</p>`}
     </div>
   </section>
 
-  <h2>De ce Prime pentru afacerea ta</h2>
+  ${NUTRAFIT ? `<h2>Politica comercială pe trei niveluri de preț</h2>
+  <div class="why">
+    <div><b>1. Preț B2B Prime</b>Prețul la care Nutrafit cumpără de la Prime, fără TVA. Este aceeași listă B2B pe care o avem cu toți partenerii; nu se schimbă.</div>
+    <div><b>2. Preț recomandat Nutrafit</b>Prețul la care Nutrafit revinde firmelor de pe platforma sa, fără TVA: prețul B2B Prime plus o treime din diferența până la prețul de raft final. Nutrafit păstrează astfel, de regulă, 8–17 % pe produs (mai puțin la unturi).</div>
+    <div><b>3. Preț de raft final</b>Prețul cu TVA la care magazinul, sala sau cabinetul vinde consumatorului: prețul de pe primesupplements.ro + 5–6 %, rotunjit la leu. Firma care cumpără de la Nutrafit rămâne, de regulă, cu 15–30 % pe produs (mai puțin la unturi).</div>
+    <div><b>De ce peste prețul de site</b>Site-ul Prime rămâne referința de preț pentru consumator; raftul partenerilor stă puțin peste el, ca nimeni din lanț să nu vândă sub site și fiecare verigă să aibă marja ei.</div>
+    <div><b>Promoțiile de pe site</b>Reducerile temporare de pe primesupplements.ro nu schimbă prețul de raft recomandat; baza este întotdeauna prețul întreg (cel tăiat). Volumele mari, pachetele și hainele: la cerere.</div>
+    <div><b>Brand vizibil</b>Peste 100 de articole de blog, rețele sociale active, ședințe foto profesionale și fișe de produs pe care Nutrafit le poate prelua pe platformă.</div>
+  </div>`
+  : `<h2>De ce Prime pentru afacerea ta</h2>
   <div class="why">
     <div><b>Marjă clară</b>Cumperi la prețul B2B, vinzi la prețul recomandat de raft (prețul de pe site + 2–3 %). Profitul fiecărui produs e în tabelul de la final.</div>
     <div><b>Raft și materiale gratuite</b>Stand/raft Prime, pliante, afișe și mostre pentru degustare, în limita stocului. Agentul vizitează lunar sălile partenere.</div>
@@ -344,7 +386,7 @@ const html = `<!doctype html>
     <div><b>Un singur furnizor</b>Peste 50 de produse, de la proteină și creatină la vitamine și batoane. Un raft complet dintr-o singură comandă.</div>
     <div><b>Brand vizibil</b>Site cu peste 100 de articole de blog, rețele sociale active, ședințe foto profesionale pe care le poți folosi în sală.</div>
     <div><b>Facturare simplă</b>Factură fiscală emisă de Prime Sport Supplements SRL (Oblio); avans sau ramburs la primele comenzi, apoi termen de plată de 14 zile.</div>
-  </div>
+  </div>`}
 
   <h2>Din blogul Prime</h2>
   <p class="sub">Peste 100 de articole pe primesupplements.ro/blogs/news explică fiecare produs, doza și momentul administrării, doar cu mențiuni autorizate în UE. Partenerii pot trimite clienților linkul articolului în loc să explice ei la recepție. Câteva exemple:</p>
@@ -356,8 +398,8 @@ const html = `<!doctype html>
   <p class="sub">${count} produse din lista B2B, pe categorii. Prețul de site este prețul întreg de pe primesupplements.ro; prețul B2B este în lei, fără TVA.</p>
   ${cards}
 
-  <h2 class="pb">Lista de prețuri B2B</h2>
-  <p class="sub">Valabilă de la ____.____.2026 · prețuri în lei · prețul de site este prețul întreg (tăiat) de pe primesupplements.ro la ${DATA.split("-").reverse().join(".")} · cota de TVA este trecută la fiecare produs</p>
+  <h2 class="pb">${NUTRAFIT ? "Lista de prețuri B2B și politica de preț Nutrafit" : "Lista de prețuri B2B"}</h2>
+  <p class="sub">Valabilă de la ____.____.2026 · prețuri în lei · prețul de site este prețul întreg (tăiat) de pe primesupplements.ro la ${DATA.split("-").reverse().join(".")} · cota de TVA este trecută la fiecare produs${NUTRAFIT ? " · prețurile B2B Prime și Nutrafit sunt fără TVA, prețul de raft final este cu TVA" : ""}</p>
 
   <div class="cond">
     <div><b>Comandă minimă</b>500 lei fără TVA</div>
@@ -370,7 +412,16 @@ const html = `<!doctype html>
 
   <table>
     <thead>
-      <tr>
+      ${NUTRAFIT ? `<tr>
+        <th>Produs</th>
+        <th class="num">TVA</th>
+        <th class="num">Preț site<br>(cu TVA)</th>
+        <th class="num">Preț B2B Prime<br>fără TVA</th>
+        <th class="num">Preț recomandat<br>Nutrafit, fără TVA</th>
+        <th class="num">Câștig Nutrafit<br>/ buc. (fără TVA)</th>
+        <th class="num">Preț raft final<br>(cu TVA)</th>
+        <th class="num">Câștig magazin<br>/ buc. (fără TVA)</th>
+      </tr>` : `<tr>
         <th>Produs</th>
         <th class="num">TVA</th>
         <th class="num">Preț site<br>(cu TVA)</th>
@@ -379,18 +430,23 @@ const html = `<!doctype html>
         <th class="num">Preț recomandat<br>la raft (cu TVA)</th>
         <th class="num">Profit / buc.<br>(fără TVA)</th>
         <th class="num">Profit %</th>
-      </tr>
+      </tr>`}
     </thead>
     <tbody>${rows}
     </tbody>
   </table>
 
-  <div class="legend">
+  ${NUTRAFIT ? `<div class="legend">
+    <div><b>Preț site</b> – prețul întreg de pe primesupplements.ro (cel tăiat când produsul e la ofertă); referința pentru tot lanțul.</div>
+    <div><b>Preț B2B Prime</b> – prețul la care Nutrafit cumpără de la Prime, fără TVA (cota din coloana TVA).</div>
+    <div><b>Preț recomandat Nutrafit</b> – prețul de revânzare către firmele de pe platforma Nutrafit, fără TVA: B2B Prime + o treime din diferența până la raft. Câștigul Nutrafit = diferența față de B2B Prime, în lei și ca procent din prețul de achiziție.</div>
+    <div><b>Preț raft final</b> – prețul de site + 5–6 %, rotunjit la leu, cu TVA, la care vinde magazinul sau sala. Câștigul magazinului = raftul fără TVA minus prețul Nutrafit, în lei și ca adaos la prețul de achiziție. Prețurile recomandate sunt orientative; fiecare firmă își stabilește liber prețul.</div>
+  </div>` : `<div class="legend">
     <div><b>Preț site</b> – prețul întreg de pe primesupplements.ro (cel tăiat când produsul e la ofertă).</div>
     <div><b>Preț B2B</b> – prețul la care cumpără partenerul, fără și cu TVA (cota din coloana TVA).</div>
     <div><b>Preț recomandat la raft</b> – prețul de site + 2–3 %, rotunjit la leu. Partenerul își stabilește liber prețul de vânzare.</div>
     <div><b>Profit</b> – diferența dintre prețul de raft și prețul B2B, fără TVA, în lei pe bucată și ca procent din prețul de achiziție (adaos comercial).</div>
-  </div>
+  </div>`}
   <p class="note">Prețuri pentru volume mari, îmbrăcăminte Prime și MNX, pachete și alte produse: la cerere, prin agent. Prețurile pot fi actualizate cu 15 zile înainte. Imaginile sunt orientative; aromele disponibile se confirmă la comandă.</p>
 
   <footer>
@@ -401,7 +457,7 @@ const html = `<!doctype html>
 </body>
 </html>`;
 
-const out = new URL(`./PORTOFOLIU-B2B-${DATA}.html`, import.meta.url);
+const out = new URL(NUTRAFIT ? `./PORTOFOLIU-B2B-NUTRAFIT-${DATA}.html` : `./PORTOFOLIU-B2B-${DATA}.html`, import.meta.url);
 writeFileSync(out, "﻿" + html, "utf8");
 writeFileSync(new URL("./data/portofoliu-imagini.json", import.meta.url), JSON.stringify(picList, null, 1));
 console.log(`scris ${out.pathname} – ${count} produse, ${warnings.length} avertismente`);

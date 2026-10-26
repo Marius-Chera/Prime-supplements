@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<title>Chestionar Profilul neuro Chera Protocol</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 16mm 14mm; }
+  :root { --ink:#17130f; --muted:#5c544b; --line:#cfc6b9; --accent:#b8831f; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.35; }
+  h1 { font-size: 22pt; margin: 0 0 2mm; letter-spacing: .02em; text-transform: uppercase; }
+  h2 { font-size: 14pt; margin: 0 0 3mm; text-transform: uppercase; letter-spacing: .04em; border-bottom: 2px solid var(--accent); padding-bottom: 1.5mm; }
+  h3 { font-size: 11pt; margin: 4mm 0 2mm; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  p { margin: 0 0 2.5mm; }
+  .head { display:flex; justify-content:space-between; align-items:flex-end; border-bottom: 1px solid var(--line); padding-bottom: 3mm; margin-bottom: 5mm; }
+  .brand { font-size: 13pt; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+  .brand b { color: var(--accent); }
+  .site { font-size: 10pt; color: var(--muted); }
+  .muted { color: var(--muted); }
+  .box { border: 1px solid var(--line); padding: 3mm 4mm; margin: 3mm 0; }
+  .fields { display:grid; grid-template-columns: 1fr 1fr; gap: 2mm 8mm; }
+  .field { display:flex; gap: 2mm; align-items: baseline; }
+  .field span { white-space: nowrap; }
+  .field i { flex:1; border-bottom: 1px solid var(--ink); height: 5mm; display:block; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 1.6mm 1.5mm; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { font-size: 8.5pt; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); text-align: left; font-weight: 600; }
+  th.c, td.c { text-align: center; width: 15mm; }
+  td.n { width: 8mm; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .cb { display:inline-block; width: 4.2mm; height: 4.2mm; border: 1.2px solid var(--ink); border-radius: 1px; vertical-align: middle; }
+  tr { break-inside: avoid; }
+  .part { break-inside: avoid-page; }
+  .page-break { break-before: page; }
+  .scale { font-size: 9pt; color: var(--muted); margin-bottom: 2mm; }
+  .score { display:grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .score div { border: 1px solid var(--line); padding: 2mm 3mm; }
+  .score b { display:block; font-size: 8.5pt; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .score i { display:block; height: 7mm; border-bottom: 1px solid var(--ink); }
+  .sign { display:grid; grid-template-columns: 1fr 1fr; gap: 10mm; margin-top: 8mm; }
+  .sign div { border-top: 1px solid var(--ink); padding-top: 2mm; font-size: 9.5pt; }
+  .legal { font-size: 8.5pt; color: var(--muted); margin-top: 5mm; border-top: 1px solid var(--line); padding-top: 2mm; }
+  .check { display:flex; gap: 2mm; align-items: flex-start; margin: 1.5mm 0; }
+  .check .cb { flex:none; margin-top: .6mm; }
+  .opts3 { display:grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 6mm; }
+  .footer { position: fixed; bottom: -10mm; left: 0; right: 0; font-size: 8pt; color: var(--muted); display:flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+<div class="footer"><span>Chera Protocol · Profilul neuro · v1 · 27.10.2026</span><span>www.mariuschera.ro</span></div>
+
+<div class="head">
+  <div>
+    <div class="brand">Chera <b>Protocol</b></div>
+    <h1>Chestionar: Profilul tău neuro</h1>
+    <p class="muted">Dopamină · Acetilcolină · GABA · Serotonină → tipul tău de antrenament, de dietă și suplimentele de echilibrare</p>
+  </div>
+  <div class="site">www.mariuschera.ro</div>
+</div>
+
+<div class="box">
+  <div class="fields">
+    <div class="field"><span>Nume și prenume:</span><i></i></div>
+    <div class="field"><span>Data:</span><i></i></div>
+    <div class="field"><span>Telefon (WhatsApp):</span><i></i></div>
+    <div class="field"><span>E-mail:</span><i></i></div>
+    <div class="field"><span>Oraș:</span><i></i></div>
+    <div class="field"><span>Vârstă / Înălțime / Greutate:</span><i></i></div>
+  </div>
+</div>
+
+<p><strong>Cum răspunzi.</strong> Fiecare afirmație are patru trepte, fără mijloc. Bifează o singură căsuță pe rând: ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău. Durează 6–8 minute. La final, semnează și trimite chestionarul (poză pe WhatsApp sau e-mail).</p>
+
+<!-- PARTEA A -->
+<div class="part">
+<h2>Runda 1 · Natura ta</h2>
+<p class="scale">1 = deloc · 2 = puțin · 3 = destul de mult · 4 = exact eu</p>
+<table>
+  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
+  <tbody id="tA"></tbody>
+</table>
+</div>
+
+<div class="part page-break">
+<h3>Departajare (completezi doar blocul indicat de antrenor sau, dacă îl faci singur, ambele)</h3>
+<p class="scale">1 = deloc · 2 = puțin · 3 = destul de mult · 4 = exact eu</p>
+<table>
+  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
+  <tbody id="tT"></tbody>
+</table>
+</div>
+
+<!-- PARTEA B -->
+<div class="part">
+<h2 style="margin-top:6mm">Runda 2 · Echilibrul tău acum (ultimele 4 săptămâni)</h2>
+<p class="scale">1 = aproape niciodată · 2 = uneori · 3 = des · 4 = aproape zilnic</p>
+<table>
+  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
+  <tbody id="tB"></tbody>
+</table>
+</div>
+
+<!-- PARTEA C -->
+<div class="part page-break">
+<h2>Runda 3 · Contextul tău</h2>
+<p><strong>Obiectivul tău</strong> (o singură bifă)</p>
+<div class="check"><span class="cb"></span><span>Vreau să urc pe scenă (sau concurez deja)</span></div>
+<div class="check"><span class="cb"></span><span>Vreau să arăt ca un sportiv, fără să concurez</span></div>
+<div class="check"><span class="cb"></span><span>Încep de la zero sau reiau după pauză</span></div>
+<div class="opts3" style="margin-top:3mm">
+  <div><p><strong>Ani de sală</strong></p>
+    <div class="check"><span class="cb"></span><span>sub 1 an</span></div><div class="check"><span class="cb"></span><span>1–3 ani</span></div><div class="check"><span class="cb"></span><span>3–5 ani</span></div><div class="check"><span class="cb"></span><span>peste 5 ani</span></div></div>
+  <div><p><strong>Somn pe noapte, în medie</strong></p>
+    <div class="check"><span class="cb"></span><span>sub 6 ore</span></div><div class="check"><span class="cb"></span><span>6–7 ore</span></div><div class="check"><span class="cb"></span><span>7–8 ore</span></div><div class="check"><span class="cb"></span><span>peste 8 ore</span></div></div>
+  <div><p><strong>Cafea sau energizante pe zi</strong></p>
+    <div class="check"><span class="cb"></span><span>0</span></div><div class="check"><span class="cb"></span><span>1–2</span></div><div class="check"><span class="cb"></span><span>3 sau mai multe</span></div></div>
+  <div><p><strong>Antrenamente pe săptămână, realist</strong></p>
+    <div class="check"><span class="cb"></span><span>3</span></div><div class="check"><span class="cb"></span><span>4</span></div><div class="check"><span class="cb"></span><span>5</span></div><div class="check"><span class="cb"></span><span>6</span></div></div>
+</div>
+
+<h3>Acorduri</h3>
+<div class="check"><span class="cb"></span><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de mai sus, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></div>
+<div class="check"><span class="cb"></span><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></div>
+
+<div class="sign">
+  <div>Semnătura ta</div>
+  <div><strong>Marius Chera</strong> · antrenor, Chera Protocol<br>www.mariuschera.ro</div>
+</div>
+
+<h3 style="margin-top:8mm">Doar pentru antrenor · scor</h3>
+<p class="scale">Runda 1 și Runda 2: suma pe fiecare scală (8–32). Runda 1: dominantă = cea mai mare; două scale la ≤ 2 puncte = profil mixt. Runda 2: 8–14 în regulă · 15–21 de susținut · 22–32 pe minus. Mapare: D → 1A/1B (itemii 33–36) · A → 2A (2B dacă 38+40 &gt; 37+39) · G → 2B · S → 3.</p>
+<p class="muted" style="font-size:9pt">Runda 1 · Natura: D = itemii 1–8 · A = 9–16 · G = 17–24 · S = 25–32</p>
+<div class="score"><div><b>Dopamină</b><i></i></div><div><b>Acetilcolină</b><i></i></div><div><b>GABA</b><i></i></div><div><b>Serotonină</b><i></i></div></div>
+<p class="muted" style="font-size:9pt;margin-top:3mm">Runda 2 · Echilibrul: D = itemii 1–8 · A = 9–16 · G = 17–24 · S = 25–32</p>
+<div class="score"><div><b>Dopamină</b><i></i></div><div><b>Acetilcolină</b><i></i></div><div><b>GABA</b><i></i></div><div><b>Serotonină</b><i></i></div></div>
+<div class="fields" style="margin-top:4mm">
+  <div class="field"><span>Neurotip:</span><i></i></div>
+  <div class="field"><span>Deficit de lucru (8 săpt.):</span><i></i></div>
+  <div class="field"><span>Ușa recomandată:</span><i></i></div>
+  <div class="field"><span>Antrenor:</span><i></i></div>
+</div>
+
+<p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Model inspirat de Braverman și de neurotipurile lui Christian Thibaudeau; întrebările și recomandările aparțin Chera Protocol. © Chera Coaching SRL.</p>
+</div>
+
+<script>
+const A=[
+ "Îmi place să concurez, chiar și la lucruri mărunte.","În sală vreau greutăți mari, nu serii lungi.","Mă plictisesc repede dacă antrenamentul e lung și repetitiv.","Iau decizii rapid și rar mă răzgândesc.","Am mai multă energie decât majoritatea celor din jur.","Prefer să conduc decât să fiu condus.","Presiunea și termenele scurte mă fac mai bun.","Un antrenament bun e scurt, greu și intens.",
+ "Învăț repede o mișcare nouă doar văzând-o.","Același program trei luni mă omoară; am nevoie de varietate.","Îmi plac aproape toate stilurile de antrenament.","Mă adaptez ușor la schimbări de program, orar sau dietă.","Îmi vin des idei noi; sunt creativ.","Vorbesc ușor cu oameni noi și mă simt bine în grup.","Când sunt entuziasmat, tind să fac prea mult.","Rețin ușor detalii și informații noi.",
+ "Sunt omul pe care se pot baza ceilalți; îmi țin promisiunile.","Prefer un program stabil, cu reguli clare, pe care îl urmez mult timp.","Rar mă enervez; sunt calm în situații tensionate.","Termin ce încep, chiar dacă durează.","Nu am nevoie de noutate ca să rămân motivat.","Obiceiurile și tradițiile îmi dau siguranță.","În sală prefer ritmul constant, nu exploziile de efort.","Mă simt bine când lucrurile sunt organizate dinainte.",
+ "Mă simt cel mai bine când totul e planificat și nimic nu se schimbă pe ultima sută.","Mă afectează ușor criticile sau tonul celorlalți.","Analizez mult înainte să iau o decizie.","Am nevoie de timp singur ca să mă încarc.","Când sunt stresat, îmi scade cheful de antrenament.","Mă simt mai calm după o masă consistentă cu carbohidrați.","Vreau să înțeleg „de ce” înainte să fac ceva.","Prefer progresul lent și sigur unui risc mare."];
+const T=[
+ "Prefer să ridic greu și lent (forță) decât să sar, să arunc sau să sprintez.","Mă atrag sporturile de viteză și coordonare, nu doar sala.","Exercițiile tehnice mă enervează; vreau bara și gata.","Îmi place să schimb des exercițiile, dar nu intensitatea.",
+ "Mă motivează cifrele și performanța: mai mult, mai greu.","Mă motivează senzația din mușchi și cum arăt în oglindă.","După o critică dură vreau să demonstrez că pot.","După o critică dură îmi pierd cheful o vreme."];
+const B=[
+ "Mă trezesc fără chef și îmi trebuie mult să pornesc.","Am nevoie de cafea sau energizante ca să funcționez.","Antrenamentul mi se pare o corvoadă, nu o plăcere.","Amân lucruri pe care știu că trebuie să le fac.","Îmi lipsește ambiția pe care o aveam.","Am poftă de dulce sau de stimulente după-amiaza.","Obosesc repede la efort, deși dorm suficient.","Mă simt „plat”: nici bine, nici rău.",
+ "Uit unde am pus lucrurile sau ce voiam să spun.","Îmi e greu să mă concentrez mai mult de 20 de minute.","Învăț mai greu lucruri noi decât înainte.","Mă simt „în ceață” mental.","Reacționez mai lent la antrenament (coordonare, tehnică).","Pierd firul când citesc sau ascult ceva mai lung.","Am pielea sau gura uscată, deși beau apă.","Mă simt dezorganizat, deși de obicei nu sunt.",
+ "Mă simt tensionat sau „pe nervi” fără motiv clar.","Adorm greu; mintea nu se oprește seara.","Mă enervez din lucruri mărunte.","Am mușchii încordați (ceafă, umeri, maxilar).","Mă trezesc noaptea și adorm greu la loc.","Am poftă de carbohidrați seara ca să mă liniștesc.","Mă simt copleșit când am multe de făcut.","Am palpitații sau respirație scurtă când sunt stresat.",
+ "Mă simt mai trist sau mai pesimist decât de obicei.","Mă trezesc prea devreme și nu mai adorm.","Am poftă mare de dulce sau de pâine și paste, mai ales seara.","Mă simt singur chiar și între oameni.","Iarna sau pe vreme închisă mă simt vizibil mai rău.","Mă îngrijorez mult, inclusiv pentru lucruri mici.","Mi-a scăzut interesul pentru lucruri care îmi plăceau.","Am dureri difuze (cap, spate) fără cauză clară."];
+function fill(id,list,offset){ const tb=document.getElementById(id); list.forEach((t,i)=>{ const tr=document.createElement("tr"); tr.innerHTML=`<td class="n">${offset+i+1}</td><td>${t}</td>`+'<td class="c"><span class="cb"></span></td>'.repeat(4); tb.appendChild(tr); }); }
+fill("tA",A,0); fill("tT",T,32); fill("tB",B,0);
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Contract de agent comercial – Prime Sport Supplements SRL × Trif E.E. Alexandru PFA
 
-Redactat pe 26.10.2026 la cererea proprietarului. Documentul editabil (Claude Docs): https://claude.ai/artifact/XNCfJ6JTeTFQXgmhpFuPhV. Anexele 1–4 sunt la final. Spațiile „____” se completează înainte de semnare (datele PFA, IBAN-uri, data, plafonul de combustibil, penalitatea de neconcurență). Prețurile B2B din Anexa 3 pentru produsele marcate „verifică” se confirmă cu costul din Oblio.
+Redactat pe 26.10.2026 la cererea proprietarului. Documentul editabil (Claude Docs): https://claude.ai/artifact/XNCfJ6JTeTFQXgmhpFuPhV. Anexele 1–4 sunt la final. Spațiile „____” se completează înainte de semnare (datele PFA, IBAN-uri, data, plafonul de combustibil, penalitatea de neconcurență). Prețurile B2B din Anexa 3 pornesc de la prețul întreg de pe site (cel tăiat), nu de la prețul promoțional; costurile produselor fără cost în Shopify se confirmă în Oblio.
 
 ---
 
@@ -259,76 +259,76 @@ Surse: Google Maps (căutările „săli de fitness în Sibiu”, „sala fitnes
 
 ## Anexa 3 – Lista de prețuri B2B (valabilă de la ____.____.2026)
 
-Prețul minim de mai jos este discountul maxim pe care Prime îl poate acorda sălilor și rămâne pe un profit net de cel puțin 15% după comisionul agentului de 5% și ~3% transport/ambalaj, pentru produsele cu cost cunoscut (Prime Whey 1 kg și 2 kg, Pure Isolate, Gainer, Cluster Bomb – costurile din Shopify). Toate prețurile B2B sunt în lei, **fără TVA** (se adaugă 11% la suplimente și alimente, 21% la accesorii); prețul de site este cel afișat pe primesupplements.ro la 26.10.2026, cu TVA.
+Prețul minim de mai jos este discountul maxim pe care Prime îl poate acorda sălilor și rămâne pe un profit net de cel puțin 15% după comisionul agentului de 5% și ~3% transport/ambalaj, pentru produsele cu cost cunoscut (Prime Whey 1 kg și 2 kg, Pure Isolate, Gainer, Cluster Bomb – costurile din Shopify). Toate prețurile B2B sunt în lei, **fără TVA** (se adaugă 11% la suplimente și alimente, 21% la accesorii); prețul de site este prețul întreg de pe primesupplements.ro la 26.10.2026 (cel negru, tăiat), cu TVA, nu prețul roșu promoțional; discountul B2B se aplică la prețul întreg.
 
 **Cum s-a calculat.** Pe site, din prețul de vânzare se pierd costuri care la B2B nu există: comisionul Netopia și comisionul Shopify pe plățile cu cardul (~2–3% pe o treime din comenzi), comisioanele afiliaților UpPromote, transportul gratuit de la 300 lei (~20 lei/colet), coletele ramburs refuzate (~4% din comenzile ramburs), reclamele și aplicațiile. În locul lor, la B2B intră doar comisionul agentului (5%) și transportul Cargus pe comenzi mari. Regula folosită:
 
 - **Nivel A** (proteine concentrate, creatină, aminoacizi, pre-workout, capsule, tincturi, batoane, creme de orez/ovăz, unturi, accesorii Prime): preț de listă B2B = prețul de site fără TVA **−30%**; preț minim = **−35%**. Verificat pe Prime Whey: la prețul minim rămân ~17% profit net după comision și transport.
 - **Nivel B** (Pure Isolate, cost mare): listă **−15%**, minim **−20%** (la −20% rămân ~16%; la −25% ar rămâne doar ~11%).
 - **Nivel C** (Gainer, Cluster Bomb): listă **−25%**, minim **−30%** (la −30% rămân ~19%; la −35% ar scădea sub 14%).
-- **Formula pentru orice produs**: preț minim fără TVA ≥ cost de achiziție ÷ 0,77 (0,77 = 1 − 5% comision − 3% transport − 15% profit minim). Produsele marcate „verifică” au prețul de site scăzut față de 2025 (unele chiar sub vechiul preț B2B), deci costul lor trebuie confirmat în Oblio înainte de semnare; dacă formula dă un preț mai mare, prețul minim se ridică la nivelul formulei.
+- **Formula pentru orice produs**: preț minim fără TVA ≥ cost de achiziție ÷ 0,77 (0,77 = 1 − 5% comision − 3% transport − 15% profit minim). Pentru produsele fără cost în Shopify (toate, în afara celor cinci de mai sus), costul se confirmă în Oblio înainte de semnare; dacă formula dă un preț mai mare, prețul minim se ridică la nivelul formulei. Comisionul agentului din tabel este 5% din prețul de listă B2B fără TVA; la un preț negociat sub listă, comisionul se calculează la prețul facturat.
 
 **Când se aplică fiecare preț** (art. 8.3): prețul de listă B2B la orice comandă de minimum 500 lei fără TVA; prețul minim doar la comenzi de minimum 2.000 lei fără TVA sau la clienți cu rulaj de peste 5.000 lei fără TVA în ultimele 3 luni; între cele două, agentul negociază liber. Transport gratuit de la 1.000 lei fără TVA; sub acest prag se refacturează costul Cargus. Hainele MNX, pachetele promoționale și băuturile Frutilu nu sunt în listă (se oferă doar la cerere, cu preț aprobat de Comitent). Coloana „Vechi B2B” este prețul de pe fostul magazin b2b.primesupplements.ro (2025, citit pe 26.10.2026 din products.json), ca reper.
 
-| Produs | Preț site cu TVA | Preț site fără TVA | Preț listă B2B (fără TVA) | Preț minim (fără TVA) | Discount maxim | Vechi B2B | Observații |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Prime Whey – proteină din zer, 1 kg | 215 | 194 | 136 | 126 | 35% | 139 | cost 94 |
-| Prime Whey – proteină din zer, 2 kg | 390 | 351 | 246 | 228 | 35% | 250 | cost 172 |
-| Izolat proteic Pure Isolate – 2 kg | 510 | 459 | 391 | 368 | 20% | 340 | cost 278 |
-| Prime Whey Go – cutie 15 plicuri x 30 g | 150 | 135 | 95 | 88 | 35% | 105 |  |
-| Gainer Emperor Mass – 3 kg | 390 | 351 | 264 | 246 | 30% | – | cost 178 |
-| Creatină Creapure® – 500 g | 180 | 162 | 114 | 105 | 35% | 123 |  |
-| Creatină Creapure® – 300 g | 115 | 104 | 73 | 67 | 35% | – |  |
-| Creatină monohidrată micronizată – 300 g | 98 | 88 | 62 | 57 | 35% | – |  |
-| Creatină Ready To Go – cutie 25 plicuri x 10 g | 110 | 99 | 69 | 64 | 35% | – |  |
-| Aminoacizi esențiali EAA – 500 g | 175 | 158 | 110 | 102 | 35% | 130 |  |
-| Recovery BCAA 4:1:1 – 500 g | 120 | 108 | 76 | 70 | 35% | 105 |  |
-| L-glutamină Kyowa® – 500 g | 165 | 149 | 104 | 97 | 35% | 130 |  |
-| Pre-workout Nitrox 3D – 500 g | 190 | 171 | 120 | 111 | 35% | 133 |  |
-| Pre-workout Nitrox No-Stim – 660 g | 205 | 185 | 129 | 120 | 35% | 144 |  |
-| Pre-workout Combat Pro – 500 g | 140 | 126 | 88 | 82 | 35% | 140 | preț site scăzut la vechiul B2B – verifică |
-| Pre-workout Combat Pro 2.0 – 660 g | 205 | 185 | 129 | 120 | 35% | 144 |  |
-| Cluster Bomb intra-workout – 1 kg | 220 | 198 | 149 | 139 | 30% | 140 | cost 101 |
-| Glycerol Max Pump – 500 g | 85 | 77 | 54 | 50 | 35% | 77 | verifică |
-| Energy Pump Shot – cutie 20 x 25 ml | 170 | 153 | 107 | 100 | 35% | 133 |  |
-| Fat Burning Booster Shot – cutie 20 x 25 ml | 170 | 153 | 107 | 100 | 35% | 133 |  |
-| Fiber – băutură cu fibre, 500 g | 130 | 117 | 82 | 76 | 35% | 78 |  |
-| Daily Vitamin Formula – 30 plicuri | 160 | 144 | 101 | 94 | 35% | 109 |  |
-| Thermo Core – 120 capsule | 115 | 104 | 73 | 67 | 35% | 81 |  |
-| Water Out – 120 capsule | 115 | 104 | 73 | 67 | 35% | 81 |  |
-| Water Out tinctură – 500 ml | 73 | 66 | 46 | 43 | 35% | 52 |  |
-| L-carnitină 1000 – 80 capsule | 100 | 90 | 63 | 59 | 35% | 70 |  |
-| Complete Collagen lichid – 500 ml | 132 | 119 | 83 | 77 | 35% | 118 | verifică |
-| Omega-3 – 80 capsule | 69 | 62 | 44 | 40 | 35% | 46 |  |
-| Vitamina D3 + K2 – 80 capsule | 75 | 68 | 47 | 44 | 35% | 49 |  |
-| Vitamina C 1000 mg – 80 capsule | 59 | 53 | 37 | 35 | 35% | 39 |  |
-| Magneziu bisglicinat 300 mg – 80 capsule | 70 | 63 | 44 | 41 | 35% | 55 |  |
-| Citrat de magneziu – 80 capsule | 54 | 49 | 34 | 32 | 35% | 49 | verifică |
-| Citrat de zinc 40 mg – 80 capsule | 55 | 50 | 35 | 32 | 35% | 39 |  |
-| Potassium Complex – 80 capsule | 67 | 60 | 42 | 39 | 35% | 47 |  |
-| Picolinat de crom – 80 capsule | 60 | 54 | 38 | 35 | 35% | 42 |  |
-| NAC 500 mg – 80 capsule | 59 | 53 | 37 | 35 | 35% | 60 | preț site sub vechiul B2B – verifică |
-| Taurină 1000 mg – 80 capsule | 50 | 45 | 32 | 29 | 35% | 35 |  |
-| Coenzima Q10 200 mg – 80 capsule | 25 | 23 | 16 | 15 | 35% | 67 | preț de site promoțional – de stabilit separat |
-| Ashwagandha KSM-66 – 80 capsule | 59 | 53 | 37 | 35 | 35% | 50 | verifică |
-| Citrus Bergamot – 80 capsule | 120 | 108 | 76 | 70 | 35% | 112 | verifică |
-| Turmeric cu piperină – 80 capsule | 76 | 68 | 48 | 45 | 35% | 67 | verifică |
-| Silimarină – 80 capsule | 85 | 77 | 54 | 50 | 35% | 74 | verifică |
-| Spirulină – 80 capsule | 60 | 54 | 38 | 35 | 35% | 53 | verifică |
-| Nattokinază – 60 capsule | 48 | 43 | 30 | 28 | 35% | 42 | verifică |
-| Testo Revive tinctură – 500 ml | 55 | 50 | 35 | 32 | 35% | 52 | verifică |
-| Cardio Calm tinctură – 500 ml | 55 | 50 | 35 | 32 | 35% | 52 | verifică |
-| Scorțișoară Ceylon bio – 200 g | 46 | 41 | 29 | 27 | 35% | 39 |  |
-| Batoane proteice – cutie 12 x 55 g (toate aromele) | 100 | 90 | 63 | 59 | 35% | 105 | preț site sub vechiul B2B – verifică |
-| Cremă de orez Creamy Rice – 1 kg (60–70 lei) | 65 | 59 | 41 | 38 | 35% | – |  |
-| Instant Oat Cream – 800 g | 65 | 59 | 41 | 38 | 35% | 46 |  |
-| Unt de arahide Prime Health – 600 g | 45 | 41 | 28 | 26 | 35% | 32 |  |
-| Unt de migdale Prime Health – 600 g | 92 | 83 | 58 | 54 | 35% | 63 |  |
-| Unt de caju Prime Health – 600 g | 50 | 45 | 32 | 29 | 35% | 43 |  |
-| Shaker Prime 500/600 ml | 30 | 25 | 17 | 16 | 35% | 27 | TVA 21% |
-| Prosop de sală Prime | 48 | 40 | 28 | 26 | 35% | – | TVA 21% |
+| Produs | Preț site cu TVA (prețul întreg, tăiat) | Preț B2B fără TVA | Preț B2B cu TVA | Comision agent 5% (fără TVA) | Preț minim fără TVA | Discount maxim | Vechi B2B | Observații |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Prime Whey – proteină din zer, 1 kg | 215 | 136 | 150.96 | 6.80 | 126 | 35% | 139 | cost 94 |
+| Prime Whey – proteină din zer, 2 kg | 390 | 246 | 273.06 | 12.30 | 228 | 35% | 250 | cost 172 |
+| Izolat proteic Pure Isolate – 2 kg | 510 | 391 | 434.01 | 19.55 | 368 | 20% | 340 | cost 278 |
+| Prime Whey Go – cutie 15 plicuri x 30 g | 150 | 95 | 105.45 | 4.75 | 88 | 35% | 105 |  |
+| Gainer Emperor Mass – 3 kg | 390 | 264 | 293.04 | 13.20 | 246 | 30% | – | cost 178 |
+| Creatină Creapure® – 500 g | 180 | 114 | 126.54 | 5.70 | 105 | 35% | 123 |  |
+| Creatină Creapure® – 300 g | 115 | 73 | 81.03 | 3.65 | 67 | 35% | – |  |
+| Creatină monohidrată micronizată – 300 g | 98 | 62 | 68.82 | 3.10 | 57 | 35% | – |  |
+| Creatină Ready To Go – cutie 25 plicuri x 10 g | 110 | 69 | 76.59 | 3.45 | 64 | 35% | – |  |
+| Aminoacizi esențiali EAA – 500 g | 185 | 117 | 129.87 | 5.85 | 108 | 35% | 130 |  |
+| Recovery BCAA 4:1:1 – 500 g | 150 | 95 | 105.45 | 4.75 | 88 | 35% | 105 |  |
+| L-glutamină Kyowa® – 500 g | 175 | 110 | 122.10 | 5.50 | 102 | 35% | 130 |  |
+| Pre-workout Nitrox 3D – 500 g | 190 | 120 | 133.20 | 6.00 | 111 | 35% | 133 |  |
+| Pre-workout Nitrox No-Stim – 660 g | 205 | 129 | 143.19 | 6.45 | 120 | 35% | 144 |  |
+| Pre-workout Combat Pro – 500 g | 170 | 107 | 118.77 | 5.35 | 100 | 35% | 140 |  |
+| Pre-workout Combat Pro 2.0 – 660 g | 205 | 129 | 143.19 | 6.45 | 120 | 35% | 144 |  |
+| Cluster Bomb intra-workout – 1 kg | 220 | 149 | 165.39 | 7.45 | 139 | 30% | 140 | cost 101 |
+| Glycerol Max Pump – 500 g | 110 | 69 | 76.59 | 3.45 | 64 | 35% | 77 |  |
+| Energy Pump Shot – cutie 20 x 25 ml | 190 | 120 | 133.20 | 6.00 | 111 | 35% | 133 |  |
+| Fat Burning Booster Shot – cutie 20 x 25 ml | 170 | 107 | 118.77 | 5.35 | 100 | 35% | 133 |  |
+| Fiber – băutură cu fibre, 500 g | 130 | 82 | 91.02 | 4.10 | 76 | 35% | 78 |  |
+| Daily Vitamin Formula – 30 plicuri | 160 | 101 | 112.11 | 5.05 | 94 | 35% | 109 |  |
+| Thermo Core – 120 capsule | 115 | 73 | 81.03 | 3.65 | 67 | 35% | 81 |  |
+| Water Out – 120 capsule | 115 | 73 | 81.03 | 3.65 | 67 | 35% | 81 |  |
+| Water Out tinctură – 500 ml | 73 | 46 | 51.06 | 2.30 | 43 | 35% | 52 |  |
+| L-carnitină 1000 – 80 capsule | 100 | 63 | 69.93 | 3.15 | 59 | 35% | 70 |  |
+| Complete Collagen lichid – 500 ml | 165 | 104 | 115.44 | 5.20 | 97 | 35% | 118 |  |
+| Omega-3 – 80 capsule | 69 | 44 | 48.84 | 2.20 | 40 | 35% | 46 |  |
+| Vitamina D3 + K2 – 80 capsule | 80 | 50 | 55.50 | 2.50 | 47 | 35% | 49 |  |
+| Vitamina C 1000 mg – 80 capsule | 59 | 37 | 41.07 | 1.85 | 35 | 35% | 39 |  |
+| Magneziu bisglicinat 300 mg – 80 capsule | 90 | 57 | 63.27 | 2.85 | 53 | 35% | 55 |  |
+| Citrat de magneziu – 80 capsule | 70 | 44 | 48.84 | 2.20 | 41 | 35% | 49 |  |
+| Citrat de zinc 40 mg – 80 capsule | 55 | 35 | 38.85 | 1.75 | 32 | 35% | 39 |  |
+| Potassium Complex – 80 capsule | 67 | 42 | 46.62 | 2.10 | 39 | 35% | 47 |  |
+| Picolinat de crom – 80 capsule | 60 | 38 | 42.18 | 1.90 | 35 | 35% | 42 |  |
+| NAC 500 mg – 80 capsule | 85 | 54 | 59.94 | 2.70 | 50 | 35% | 60 |  |
+| Taurină 1000 mg – 80 capsule | 50 | 32 | 35.52 | 1.60 | 29 | 35% | 35 |  |
+| Coenzima Q10 200 mg – 80 capsule | 95 | 60 | 66.60 | 3.00 | 56 | 35% | 67 | pe site azi 25 lei (promoție) |
+| Ashwagandha KSM-66 – 80 capsule | 80 | 50 | 55.50 | 2.50 | 47 | 35% | 50 |  |
+| Citrus Bergamot – 80 capsule | 160 | 101 | 112.11 | 5.05 | 94 | 35% | 112 |  |
+| Turmeric cu piperină – 80 capsule | 95 | 60 | 66.60 | 3.00 | 56 | 35% | 67 |  |
+| Silimarină – 80 capsule | 100 | 63 | 69.93 | 3.15 | 59 | 35% | 74 |  |
+| Spirulină – 80 capsule | 75 | 47 | 52.17 | 2.35 | 44 | 35% | 53 |  |
+| Nattokinază – 60 capsule | 60 | 38 | 42.18 | 1.90 | 35 | 35% | 42 |  |
+| Testo Revive tinctură – 500 ml | 73 | 46 | 51.06 | 2.30 | 43 | 35% | 52 |  |
+| Cardio Calm tinctură – 500 ml | 73 | 46 | 51.06 | 2.30 | 43 | 35% | 52 |  |
+| Scorțișoară Ceylon bio – 200 g | 55 | 35 | 38.85 | 1.75 | 32 | 35% | 39 |  |
+| Batoane proteice – cutie 12 x 55 g (toate aromele) | 155 | 98 | 108.78 | 4.90 | 91 | 35% | 105 |  |
+| Cremă de orez Creamy Rice – 1 kg (60–70 lei) | 65 | 41 | 45.51 | 2.05 | 38 | 35% | – |  |
+| Instant Oat Cream – 800 g | 65 | 41 | 45.51 | 2.05 | 38 | 35% | 46 |  |
+| Unt de arahide Prime Health – 600 g | 50 | 32 | 35.52 | 1.60 | 29 | 35% | 32 |  |
+| Unt de migdale Prime Health – 600 g | 92 | 58 | 64.38 | 2.90 | 54 | 35% | 63 |  |
+| Unt de caju Prime Health – 600 g | 90 | 57 | 63.27 | 2.85 | 53 | 35% | 43 |  |
+| Shaker Prime 500/600 ml | 35 | 20 | 24.20 | 1.00 | 19 | 35% | 27 | TVA 21% |
+| Prosop de sală Prime | 65 | 38 | 45.98 | 1.90 | 35 | 35% | – | TVA 21% |
 
-Varianta care se arată sălilor conține doar coloanele „Produs”, „Preț site” (ca preț recomandat de revânzare) și „Preț listă B2B”; coloanele de preț minim, cost și observații rămân între Comitent și Agent (art. 9.1).
+Varianta care se arată sălilor conține doar coloanele „Produs”, „Preț site” (ca preț recomandat de revânzare) și „Preț listă B2B”; coloanele de comision, preț minim, cost și observații rămân între Comitent și Agent (art. 9.1).
 
 Verificarea pe produsele cu cost cunoscut (lei, fără TVA, la prețul minim): Prime Whey 1 kg: 126 − 94 cost − 6,3 comision − 3,8 transport = 21,9 (17%); Prime Whey 2 kg: 228 − 172 − 11,4 − 6,8 = 37,8 (17%); Pure Isolate: 368 − 278 − 18,4 − 11 = 60,6 (16%); Gainer: 246 − 178 − 12,3 − 7,4 = 48,3 (20%); Cluster Bomb: 139 − 101 − 7 − 4,2 = 26,8 (19%).
 

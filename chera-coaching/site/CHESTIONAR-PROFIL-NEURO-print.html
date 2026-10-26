@@ -3,145 +3,231 @@
 <head>
 <meta charset="utf-8">
 <title>Chestionar Profilul neuro Chera Protocol</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap">
 <style>
-  @page { size: A4; margin: 16mm 14mm 16mm 14mm; }
-  :root { --ink:#17130f; --muted:#5c544b; --line:#cfc6b9; --accent:#b8831f; }
+  /* Layout: explicit A4 pages (210 x 297 mm), each with its own header band and footer, so nothing can overlap across page breaks. */
+  @page { size: A4; margin: 0; }
+  :root { --ink:#111111; --red:#e1251b; --red-dark:#b41a12; --paper:#ffffff; --soft:#f4f2f0; --mid:#8a8580; --line:#dcd8d3; }
   * { box-sizing: border-box; }
-  html, body { margin:0; padding:0; }
-  body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.35; }
-  h1 { font-size: 22pt; margin: 0 0 2mm; letter-spacing: .02em; text-transform: uppercase; }
-  h2 { font-size: 14pt; margin: 0 0 3mm; text-transform: uppercase; letter-spacing: .04em; border-bottom: 2px solid var(--accent); padding-bottom: 1.5mm; }
-  h3 { font-size: 11pt; margin: 4mm 0 2mm; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-  p { margin: 0 0 2.5mm; }
-  .head { display:flex; justify-content:space-between; align-items:flex-end; border-bottom: 1px solid var(--line); padding-bottom: 3mm; margin-bottom: 5mm; }
-  .brand { font-size: 13pt; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
-  .brand b { color: var(--accent); }
-  .site { font-size: 10pt; color: var(--muted); }
-  .muted { color: var(--muted); }
-  .box { border: 1px solid var(--line); padding: 3mm 4mm; margin: 3mm 0; }
-  .fields { display:grid; grid-template-columns: 1fr 1fr; gap: 2mm 8mm; }
-  .field { display:flex; gap: 2mm; align-items: baseline; }
-  .field span { white-space: nowrap; }
-  .field i { flex:1; border-bottom: 1px solid var(--ink); height: 5mm; display:block; }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { padding: 1.6mm 1.5mm; vertical-align: top; border-bottom: 1px solid var(--line); }
-  th { font-size: 8.5pt; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); text-align: left; font-weight: 600; }
-  th.c, td.c { text-align: center; width: 15mm; }
-  td.n { width: 8mm; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .cb { display:inline-block; width: 4.2mm; height: 4.2mm; border: 1.2px solid var(--ink); border-radius: 1px; vertical-align: middle; }
-  tr { break-inside: avoid; }
-  .part { break-inside: avoid-page; }
-  .page-break { break-before: page; }
-  .scale { font-size: 9pt; color: var(--muted); margin-bottom: 2mm; }
-  .score { display:grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
-  .score div { border: 1px solid var(--line); padding: 2mm 3mm; }
-  .score b { display:block; font-size: 8.5pt; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
-  .score i { display:block; height: 7mm; border-bottom: 1px solid var(--ink); }
-  .sign { display:grid; grid-template-columns: 1fr 1fr; gap: 10mm; margin-top: 8mm; }
-  .sign div { border-top: 1px solid var(--ink); padding-top: 2mm; font-size: 9.5pt; }
-  .legal { font-size: 8.5pt; color: var(--muted); margin-top: 5mm; border-top: 1px solid var(--line); padding-top: 2mm; }
-  .check { display:flex; gap: 2mm; align-items: flex-start; margin: 1.5mm 0; }
-  .check .cb { flex:none; margin-top: .6mm; }
-  .opts3 { display:grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 6mm; }
-  .footer { position: fixed; bottom: -10mm; left: 0; right: 0; font-size: 8pt; color: var(--muted); display:flex; justify-content: space-between; }
+  html, body { margin:0; padding:0; background:#555; }
+  body { font-family:"Barlow","Segoe UI",Arial,sans-serif; color:var(--ink); font-size:10.5pt; line-height:1.4; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page { width:210mm; height:297mm; background:var(--paper); position:relative; overflow:hidden; margin:0 auto 8mm; page-break-after:always; break-after:page; display:flex; flex-direction:column; }
+  .page:last-child { page-break-after:auto; break-after:auto; margin-bottom:0; }
+  @media print { html, body { background:none; } .page { margin:0; } }
+
+  /* header band */
+  .band { background:var(--ink); color:#fff; padding:9mm 14mm 7mm; display:flex; justify-content:space-between; align-items:flex-end; gap:8mm; }
+  .band .brand { font-family:"Barlow Condensed",Impact,sans-serif; font-weight:800; font-size:17pt; letter-spacing:.08em; text-transform:uppercase; line-height:1; }
+  .band .brand b { color:var(--red); }
+  .band .title { font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:26pt; line-height:1; text-transform:uppercase; margin-top:2.5mm; letter-spacing:.01em; }
+  .band .sub { color:#cfcac4; font-size:9.5pt; margin-top:2mm; }
+  .band .site { color:#fff; font-weight:600; font-size:10pt; white-space:nowrap; }
+  .band .round { text-align:right; }
+  .band .round small { display:block; color:var(--red); font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; letter-spacing:.14em; text-transform:uppercase; font-size:10pt; }
+  .band .round b { display:block; font-family:"Barlow Condensed",Impact,sans-serif; font-weight:800; font-size:30pt; line-height:1; }
+  .stripe { height:2.2mm; background:var(--red); }
+
+  .content { padding:8mm 14mm 6mm; flex:1; display:flex; flex-direction:column; gap:4mm; }
+  .foot { padding:0 14mm 7mm; display:flex; justify-content:space-between; align-items:center; font-size:8.5pt; color:var(--mid); border-top:1px solid var(--line); margin:0 14mm; padding:3mm 0 7mm; }
+  .foot b { color:var(--ink); }
+  .foot .pg { font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:11pt; color:var(--red); letter-spacing:.08em; }
+
+  h2 { font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:17pt; text-transform:uppercase; letter-spacing:.02em; margin:0; line-height:1.1; }
+  h2 span { color:var(--red); }
+  h3 { font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:12.5pt; text-transform:uppercase; letter-spacing:.06em; margin:2mm 0 1mm; color:var(--ink); }
+  p { margin:0; }
+  .lead { font-size:11pt; color:#3a3733; max-width:150mm; }
+  .note { font-size:9.5pt; color:var(--mid); }
+  .scale { display:flex; gap:3mm; flex-wrap:wrap; font-size:9pt; color:var(--ink); }
+  .scale span { background:var(--soft); border-radius:3mm; padding:1mm 3mm; }
+  .scale span b { color:var(--red); font-family:"Barlow Condensed",Impact,sans-serif; font-size:11pt; margin-right:1.2mm; }
+
+  /* fields */
+  .fields { display:grid; grid-template-columns:1fr 1fr; gap:3.5mm 8mm; }
+  .field { display:grid; gap:1mm; }
+  .field label { font-size:8.5pt; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--mid); }
+  .field i { display:block; height:7mm; border-bottom:1.3px solid var(--ink); }
+
+  /* items table */
+  table { width:100%; border-collapse:separate; border-spacing:0; }
+  th { font-family:"Barlow Condensed",Impact,sans-serif; font-size:10pt; letter-spacing:.08em; text-transform:uppercase; color:#fff; background:var(--ink); padding:2mm 2.5mm; text-align:left; font-weight:700; }
+  th.c { text-align:center; width:16mm; }
+  th:first-child { border-radius:2mm 0 0 0; } th:last-child { border-radius:0 2mm 0 0; }
+  td { padding:2.1mm 2.5mm; vertical-align:middle; font-size:10.5pt; }
+  tr:nth-child(even) td { background:var(--soft); }
+  td.n { width:10mm; font-family:"Barlow Condensed",Impact,sans-serif; font-weight:700; font-size:12pt; color:var(--red); }
+  td.c { text-align:center; }
+  .cb { display:inline-block; width:5mm; height:5mm; border:1.5px solid var(--ink); border-radius:1.2mm; vertical-align:middle; background:#fff; }
+
+  /* choices */
+  .choices { display:grid; grid-template-columns:1fr 1fr; gap:3mm 10mm; }
+  .choice { display:flex; gap:2.5mm; align-items:center; font-size:10.5pt; padding:1.2mm 0; }
+  .choice .cb { flex:none; }
+  .block { border:1.5px solid var(--line); border-radius:3mm; padding:4mm 5mm; display:grid; gap:2mm; }
+  .block.red { border-color:var(--red); }
+  .agree { display:flex; gap:3mm; align-items:flex-start; font-size:10pt; color:#3a3733; }
+  .agree .cb { flex:none; margin-top:.8mm; }
+
+  /* signature */
+  .sign { display:grid; grid-template-columns:1fr 1fr; gap:12mm; margin-top:4mm; }
+  .sign div { padding-top:12mm; }
+  .sign div span { display:block; border-top:1.3px solid var(--ink); padding-top:2mm; font-size:9.5pt; color:var(--mid); }
+  .sign div strong { color:var(--ink); font-size:11pt; }
+
+  /* score */
+  .score { display:grid; grid-template-columns:repeat(4,1fr); gap:3mm; }
+  .score div { border:1.5px solid var(--line); border-radius:2.5mm; padding:2.5mm 3mm; }
+  .score div b { display:block; font-family:"Barlow Condensed",Impact,sans-serif; font-size:10pt; letter-spacing:.08em; text-transform:uppercase; color:var(--red); }
+  .score div small { display:block; color:var(--mid); font-size:8pt; }
+  .score div i { display:block; height:9mm; }
+  .map { font-size:9.5pt; color:#3a3733; display:grid; gap:1mm; }
+  .map b { color:var(--red); }
+  .legal { font-size:8.5pt; color:var(--mid); line-height:1.35; }
+  .tip { background:var(--ink); color:#fff; border-radius:3mm; padding:4mm 5mm; font-size:10pt; }
+  .tip b { color:var(--red); text-transform:uppercase; font-family:"Barlow Condensed",Impact,sans-serif; letter-spacing:.08em; font-size:11pt; margin-right:2mm; }
 </style>
 </head>
 <body>
-<div class="footer"><span>Chera Protocol · Profilul neuro · v1 · 27.10.2026</span><span>www.mariuschera.ro</span></div>
 
-<div class="head">
-  <div>
-    <div class="brand">Chera <b>Protocol</b></div>
-    <h1>Chestionar: Profilul tău neuro</h1>
-    <p class="muted">Dopamină · Acetilcolină · GABA · Serotonină → tipul tău de antrenament, de dietă și suplimentele de echilibrare</p>
+<!-- ===== PAGINA 1 ===== -->
+<section class="page">
+  <div class="band">
+    <div>
+      <div class="brand">Chera <b>Protocol</b></div>
+      <div class="title">Profilul tău neuro</div>
+      <div class="sub">Dopamină · Acetilcolină · GABA · Serotonină → cum te antrenezi, cum mănânci, ce suplimente îți trebuie</div>
+    </div>
+    <div class="site">www.mariuschera.ro</div>
   </div>
-  <div class="site">www.mariuschera.ro</div>
-</div>
-
-<div class="box">
-  <div class="fields">
-    <div class="field"><span>Nume și prenume:</span><i></i></div>
-    <div class="field"><span>Data:</span><i></i></div>
-    <div class="field"><span>Telefon (WhatsApp):</span><i></i></div>
-    <div class="field"><span>E-mail:</span><i></i></div>
-    <div class="field"><span>Oraș:</span><i></i></div>
-    <div class="field"><span>Vârstă / Înălțime / Greutate:</span><i></i></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="fields">
+      <div class="field"><label>Nume și prenume</label><i></i></div>
+      <div class="field"><label>Data</label><i></i></div>
+      <div class="field"><label>Telefon (WhatsApp)</label><i></i></div>
+      <div class="field"><label>E-mail</label><i></i></div>
+      <div class="field"><label>Oraș</label><i></i></div>
+      <div class="field"><label>Vârstă · Înălțime · Greutate</label><i></i></div>
+    </div>
+    <div class="tip"><b>Cum răspunzi</b> Fiecare afirmație are patru trepte, fără mijloc. Bifează o singură căsuță pe rând: ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău. Durează 6–8 minute. La final semnezi și trimiți chestionarul: poză pe WhatsApp sau e-mail.</div>
+    <h2><span>Runda 1</span> · Natura ta</h2>
+    <div class="scale"><span><b>1</b>deloc</span><span><b>2</b>puțin</span><span><b>3</b>destul de mult</span><span><b>4</b>exact eu</span></div>
+    <table><thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="A" data-from="0" data-to="12" data-offset="0"></tbody></table>
   </div>
-</div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">1 / 7</span></div>
+</section>
 
-<p><strong>Cum răspunzi.</strong> Fiecare afirmație are patru trepte, fără mijloc. Bifează o singură căsuță pe rând: ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău. Durează 6–8 minute. La final, semnează și trimite chestionarul (poză pe WhatsApp sau e-mail).</p>
+<!-- ===== PAGINA 2 ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="sub" style="margin-top:3mm">Natura ta · continuare</div></div><div class="round"><small>Runda</small><b>1</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="scale"><span><b>1</b>deloc</span><span><b>2</b>puțin</span><span><b>3</b>destul de mult</span><span><b>4</b>exact eu</span></div>
+    <table><thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="A" data-from="12" data-to="28" data-offset="0"></tbody></table>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">2 / 7</span></div>
+</section>
 
-<!-- PARTEA A -->
-<div class="part">
-<h2>Runda 1 · Natura ta</h2>
-<p class="scale">1 = deloc · 2 = puțin · 3 = destul de mult · 4 = exact eu</p>
-<table>
-  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
-  <tbody id="tA"></tbody>
-</table>
-</div>
+<!-- ===== PAGINA 3 (nouă) ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="sub" style="margin-top:3mm">Natura ta · final și departajare</div></div><div class="round"><small>Runda</small><b>1</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="scale"><span><b>1</b>deloc</span><span><b>2</b>puțin</span><span><b>3</b>destul de mult</span><span><b>4</b>exact eu</span></div>
+    <table><thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="A" data-from="28" data-to="32" data-offset="0"></tbody></table>
+    <h3>Departajare · le completezi pe toate opt; antrenorul le folosește pe cele care contează pentru profilul tău</h3>
+    <table><thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="T" data-from="0" data-to="8" data-offset="32"></tbody></table>
+    <div class="tip" style="margin-top:auto"><b>Gata runda 1</b> Mai ai două runde scurte: cum te simți în ultimele 4 săptămâni și contextul tău. Nu te grăbi, nu există răspuns greșit.</div>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">3 / 7</span></div>
+</section>
 
-<div class="part page-break">
-<h3>Departajare (completezi doar blocul indicat de antrenor sau, dacă îl faci singur, ambele)</h3>
-<p class="scale">1 = deloc · 2 = puțin · 3 = destul de mult · 4 = exact eu</p>
-<table>
-  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
-  <tbody id="tT"></tbody>
-</table>
-</div>
+<!-- ===== PAGINA 4 ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="title" style="font-size:22pt">Echilibrul tău acum</div><div class="sub">Gândește-te la ultimele 4 săptămâni</div></div><div class="round"><small>Runda</small><b>2</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="scale"><span><b>1</b>aproape niciodată</span><span><b>2</b>uneori</span><span><b>3</b>des</span><span><b>4</b>aproape zilnic</span></div>
+    <table><thead><tr><th></th><th>În ultimele 4 săptămâni…</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="B" data-from="0" data-to="16" data-offset="0"></tbody></table>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">4 / 7</span></div>
+</section>
 
-<!-- PARTEA B -->
-<div class="part">
-<h2 style="margin-top:6mm">Runda 2 · Echilibrul tău acum (ultimele 4 săptămâni)</h2>
-<p class="scale">1 = aproape niciodată · 2 = uneori · 3 = des · 4 = aproape zilnic</p>
-<table>
-  <thead><tr><th></th><th>Afirmația</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead>
-  <tbody id="tB"></tbody>
-</table>
-</div>
+<!-- ===== PAGINA 4 ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="sub" style="margin-top:3mm">Echilibrul tău acum · continuare</div></div><div class="round"><small>Runda</small><b>2</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="scale"><span><b>1</b>aproape niciodată</span><span><b>2</b>uneori</span><span><b>3</b>des</span><span><b>4</b>aproape zilnic</span></div>
+    <table><thead><tr><th></th><th>În ultimele 4 săptămâni…</th><th class="c">1</th><th class="c">2</th><th class="c">3</th><th class="c">4</th></tr></thead><tbody data-fill="B" data-from="16" data-to="32" data-offset="0"></tbody></table>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">5 / 7</span></div>
+</section>
 
-<!-- PARTEA C -->
-<div class="part page-break">
-<h2>Runda 3 · Contextul tău</h2>
-<p><strong>Obiectivul tău</strong> (o singură bifă)</p>
-<div class="check"><span class="cb"></span><span>Vreau să urc pe scenă (sau concurez deja)</span></div>
-<div class="check"><span class="cb"></span><span>Vreau să arăt ca un sportiv, fără să concurez</span></div>
-<div class="check"><span class="cb"></span><span>Încep de la zero sau reiau după pauză</span></div>
-<div class="opts3" style="margin-top:3mm">
-  <div><p><strong>Ani de sală</strong></p>
-    <div class="check"><span class="cb"></span><span>sub 1 an</span></div><div class="check"><span class="cb"></span><span>1–3 ani</span></div><div class="check"><span class="cb"></span><span>3–5 ani</span></div><div class="check"><span class="cb"></span><span>peste 5 ani</span></div></div>
-  <div><p><strong>Somn pe noapte, în medie</strong></p>
-    <div class="check"><span class="cb"></span><span>sub 6 ore</span></div><div class="check"><span class="cb"></span><span>6–7 ore</span></div><div class="check"><span class="cb"></span><span>7–8 ore</span></div><div class="check"><span class="cb"></span><span>peste 8 ore</span></div></div>
-  <div><p><strong>Cafea sau energizante pe zi</strong></p>
-    <div class="check"><span class="cb"></span><span>0</span></div><div class="check"><span class="cb"></span><span>1–2</span></div><div class="check"><span class="cb"></span><span>3 sau mai multe</span></div></div>
-  <div><p><strong>Antrenamente pe săptămână, realist</strong></p>
-    <div class="check"><span class="cb"></span><span>3</span></div><div class="check"><span class="cb"></span><span>4</span></div><div class="check"><span class="cb"></span><span>5</span></div><div class="check"><span class="cb"></span><span>6</span></div></div>
-</div>
+<!-- ===== PAGINA 5 ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="title" style="font-size:22pt">Contextul tău</div><div class="sub">Ultimele întrebări, apoi semnătura</div></div><div class="round"><small>Runda</small><b>3</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <div class="block red">
+      <h3 style="margin:0">Obiectivul tău · o singură bifă</h3>
+      <div class="choice"><span class="cb"></span><span>Vreau să urc pe scenă (sau concurez deja)</span></div>
+      <div class="choice"><span class="cb"></span><span>Vreau să arăt ca un sportiv, fără să concurez</span></div>
+      <div class="choice"><span class="cb"></span><span>Încep de la zero sau reiau după pauză</span></div>
+    </div>
+    <div class="choices">
+      <div class="block"><h3 style="margin:0">Ani de sală</h3>
+        <div class="choice"><span class="cb"></span><span>sub 1 an</span></div><div class="choice"><span class="cb"></span><span>1–3 ani</span></div><div class="choice"><span class="cb"></span><span>3–5 ani</span></div><div class="choice"><span class="cb"></span><span>peste 5 ani</span></div></div>
+      <div class="block"><h3 style="margin:0">Somn pe noapte, în medie</h3>
+        <div class="choice"><span class="cb"></span><span>sub 6 ore</span></div><div class="choice"><span class="cb"></span><span>6–7 ore</span></div><div class="choice"><span class="cb"></span><span>7–8 ore</span></div><div class="choice"><span class="cb"></span><span>peste 8 ore</span></div></div>
+      <div class="block"><h3 style="margin:0">Cafea sau energizante pe zi</h3>
+        <div class="choice"><span class="cb"></span><span>0</span></div><div class="choice"><span class="cb"></span><span>1–2</span></div><div class="choice"><span class="cb"></span><span>3 sau mai multe</span></div></div>
+      <div class="block"><h3 style="margin:0">Antrenamente pe săptămână, realist</h3>
+        <div class="choice"><span class="cb"></span><span>3</span></div><div class="choice"><span class="cb"></span><span>4</span></div><div class="choice"><span class="cb"></span><span>5</span></div><div class="choice"><span class="cb"></span><span>6</span></div></div>
+    </div>
+    <h3>Acorduri</h3>
+    <div class="agree"><span class="cb"></span><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de pe prima pagină, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></div>
+    <div class="agree"><span class="cb"></span><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></div>
+    <div class="sign">
+      <div><span><strong>Semnătura ta</strong></span></div>
+      <div><span><strong>Marius Chera</strong> · antrenor, Chera Protocol · www.mariuschera.ro</span></div>
+    </div>
+    <p class="legal" style="margin-top:auto">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Model inspirat de Braverman și de neurotipurile lui Christian Thibaudeau; întrebările și recomandările aparțin Chera Protocol. © Chera Coaching SRL.</p>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">6 / 7</span></div>
+</section>
 
-<h3>Acorduri</h3>
-<div class="check"><span class="cb"></span><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de mai sus, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></div>
-<div class="check"><span class="cb"></span><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></div>
-
-<div class="sign">
-  <div>Semnătura ta</div>
-  <div><strong>Marius Chera</strong> · antrenor, Chera Protocol<br>www.mariuschera.ro</div>
-</div>
-
-<h3 style="margin-top:8mm">Doar pentru antrenor · scor</h3>
-<p class="scale">Runda 1 și Runda 2: suma pe fiecare scală (8–32). Runda 1: dominantă = cea mai mare; două scale la ≤ 2 puncte = profil mixt. Runda 2: 8–14 în regulă · 15–21 de susținut · 22–32 pe minus. Mapare: D → 1A/1B (itemii 33–36) · A → 2A (2B dacă 38+40 &gt; 37+39) · G → 2B · S → 3.</p>
-<p class="muted" style="font-size:9pt">Runda 1 · Natura: D = itemii 1–8 · A = 9–16 · G = 17–24 · S = 25–32</p>
-<div class="score"><div><b>Dopamină</b><i></i></div><div><b>Acetilcolină</b><i></i></div><div><b>GABA</b><i></i></div><div><b>Serotonină</b><i></i></div></div>
-<p class="muted" style="font-size:9pt;margin-top:3mm">Runda 2 · Echilibrul: D = itemii 1–8 · A = 9–16 · G = 17–24 · S = 25–32</p>
-<div class="score"><div><b>Dopamină</b><i></i></div><div><b>Acetilcolină</b><i></i></div><div><b>GABA</b><i></i></div><div><b>Serotonină</b><i></i></div></div>
-<div class="fields" style="margin-top:4mm">
-  <div class="field"><span>Neurotip:</span><i></i></div>
-  <div class="field"><span>Deficit de lucru (8 săpt.):</span><i></i></div>
-  <div class="field"><span>Ușa recomandată:</span><i></i></div>
-  <div class="field"><span>Antrenor:</span><i></i></div>
-</div>
-
-<p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Model inspirat de Braverman și de neurotipurile lui Christian Thibaudeau; întrebările și recomandările aparțin Chera Protocol. © Chera Coaching SRL.</p>
-</div>
+<!-- ===== PAGINA 6 ===== -->
+<section class="page">
+  <div class="band"><div><div class="brand">Chera <b>Protocol</b></div><div class="title" style="font-size:22pt">Fișa antrenorului</div><div class="sub">Se completează de antrenor, nu de sportiv</div></div><div class="round"><small>Scor</small><b>&nbsp;</b></div></div>
+  <div class="stripe"></div>
+  <div class="content">
+    <h3>Runda 1 · Natura ta · suma pe scală (8–32)</h3>
+    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i></i></div><div><b>GABA</b><small>itemii 17–24</small><i></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i></i></div></div>
+    <div class="map">
+      <span><b>Dominantă</b> = scorul cel mai mare. Două scale la cel mult 2 puncte = profil mixt, se decide la prima discuție.</span>
+      <span><b>Mapare</b> D → 1A sau 1B după itemii 33–36 (33+35 față de 34+36) · A → 2A, sau 2B dacă 38+40 &gt; 37+39 · G → 2B · S → 3.</span>
+    </div>
+    <h3>Runda 2 · Echilibrul tău acum · suma pe scală (8–32)</h3>
+    <div class="score"><div><b>Dopamină</b><small>itemii 1–8</small><i></i></div><div><b>Acetilcolină</b><small>itemii 9–16</small><i></i></div><div><b>GABA</b><small>itemii 17–24</small><i></i></div><div><b>Serotonină</b><small>itemii 25–32</small><i></i></div></div>
+    <div class="map">
+      <span><b>8–14</b> în regulă · <b>15–21</b> de susținut (dietă + stil de viață) · <b>22–32</b> pe minus (dietă + suplimente + discuție).</span>
+      <span><b>Toate patru ≥ 20</b> = oboseală generală: se verifică întâi somnul, caloriile și stimulentele, suplimentele vin după.</span>
+    </div>
+    <h3>Concluzia</h3>
+    <div class="fields">
+      <div class="field"><label>Neurotip (1A · 1B · 2A · 2B · 3)</label><i></i></div>
+      <div class="field"><label>Deficit de lucru, 8 săptămâni</label><i></i></div>
+      <div class="field"><label>Ușa recomandată (Elite · Coaching · Programe)</label><i></i></div>
+      <div class="field"><label>Antrenor</label><i></i></div>
+      <div class="field"><label>Data primei discuții</label><i></i></div>
+      <div class="field"><label>Re-test la</label><i></i></div>
+    </div>
+    <h3>Observații</h3>
+    <div class="field"><i></i></div><div class="field"><i></i></div><div class="field"><i></i></div><div class="field"><i></i></div>
+  </div>
+  <div class="foot"><span><b>Chera Protocol</b> · Profilul neuro · v2</span><span>www.mariuschera.ro</span><span class="pg">7 / 7</span></div>
+</section>
 
 <script>
 const A=[
@@ -157,8 +243,11 @@ const B=[
  "Uit unde am pus lucrurile sau ce voiam să spun.","Îmi e greu să mă concentrez mai mult de 20 de minute.","Învăț mai greu lucruri noi decât înainte.","Mă simt „în ceață” mental.","Reacționez mai lent la antrenament (coordonare, tehnică).","Pierd firul când citesc sau ascult ceva mai lung.","Am pielea sau gura uscată, deși beau apă.","Mă simt dezorganizat, deși de obicei nu sunt.",
  "Mă simt tensionat sau „pe nervi” fără motiv clar.","Adorm greu; mintea nu se oprește seara.","Mă enervez din lucruri mărunte.","Am mușchii încordați (ceafă, umeri, maxilar).","Mă trezesc noaptea și adorm greu la loc.","Am poftă de carbohidrați seara ca să mă liniștesc.","Mă simt copleșit când am multe de făcut.","Am palpitații sau respirație scurtă când sunt stresat.",
  "Mă simt mai trist sau mai pesimist decât de obicei.","Mă trezesc prea devreme și nu mai adorm.","Am poftă mare de dulce sau de pâine și paste, mai ales seara.","Mă simt singur chiar și între oameni.","Iarna sau pe vreme închisă mă simt vizibil mai rău.","Mă îngrijorez mult, inclusiv pentru lucruri mici.","Mi-a scăzut interesul pentru lucruri care îmi plăceau.","Am dureri difuze (cap, spate) fără cauză clară."];
-function fill(id,list,offset){ const tb=document.getElementById(id); list.forEach((t,i)=>{ const tr=document.createElement("tr"); tr.innerHTML=`<td class="n">${offset+i+1}</td><td>${t}</td>`+'<td class="c"><span class="cb"></span></td>'.repeat(4); tb.appendChild(tr); }); }
-fill("tA",A,0); fill("tT",T,32); fill("tB",B,0);
+const SRC={A,T,B};
+document.querySelectorAll("tbody[data-fill]").forEach(tb=>{
+  const list=SRC[tb.dataset.fill], from=+tb.dataset.from, to=+tb.dataset.to, off=+tb.dataset.offset;
+  for(let i=from;i<to;i++){ const tr=document.createElement("tr"); tr.innerHTML=`<td class="n">${off+i+1}</td><td>${list[i]}</td>`+'<td class="c"><span class="cb"></span></td>'.repeat(4); tb.appendChild(tr); }
+});
 </script>
 </body>
 </html>

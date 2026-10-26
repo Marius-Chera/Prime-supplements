@@ -29,8 +29,8 @@ Observație: nicio fabrică nu a fost găsită cu produsul exact (orez expandat 
 |---|---|---|---|---|---|---|
 | 1 | **Breakfast Food Production** (breakfast-cereals.ro) | RO, Herăști, Giurgiu | producător contract de cereale: expandare, extrudare, glazurare; are deja cereale cu proteină ridicată; FSSC 22000 (declarat); export GR, DE, AT, BG | office@breakfast-cereals.ro | +40 736 660 950 | candidat foarte bun; orezul nu e listat explicit |
 | 2 | **DOMA SRL** (domabt.ro) – fabrica din Botoșani | RO, Cătămărăști Deal nr. 95A, com. Mihai Eminescu, Botoșani (CUI RO7276241) | din 1995, specializată în cereale expandate din grâu și orez decorticat **cu arome și coloranți** (Pufido fructe/cacao/caramel, Pufidom, felii de orez expandat); 250 t/lună; FSSC 22000 + IFS Food; export IT, FR, ES, UK; produce pentru Lidl și Profi (ZF, 2018) | office@domabt.ro | +40 231 517 075 | cea mai apropiată de produsul dorit; aromele actuale sunt cu zahăr și coloranți, de adaptat |
-| 3 | **SanoVita SRL** | RO, Păușești-Măglași, Vâlcea | produce orez expandat (boabe, rondele, rondele glazurate cu cacao), cereale proteice cu cacao; IFS, FSSC 22000, ISO 22000; 2 centre de producție | info@sanovita.ro (B2B); online@sanovita.ro | +40 740 620 620 | private label nedeclarat pe site; de întrebat |
-| 4 | **Amylon SA (Feleacul)** | RO, Sibiu, Șos. Alba Iulia 70 | grup Boromir; linie de expandare: „Pufarine cu aromă de fructe” (arpacaș de grâu expandat aromat, 50–300 g); în același oraș cu Prime | office@amylon.ro | 0269 217 722 | expandează grâu, nu orez; de întrebat dacă pot trece pe orez |
+| 3 | **SanoVita SRL** | RO, Păușești-Măglași, Vâlcea | produce orez expandat (boabe, rondele, rondele glazurate cu cacao), cereale proteice cu cacao; IFS, FSSC 22000, ISO 22000; 2 centre de producție | office@sanovita.ro + comenzi@sanovita.ro (persoane juridice); online@sanovita.ro (merge). **info@sanovita.ro NU există** (respins 26.10) | +40 740 620 620 | private label nedeclarat pe site; de întrebat |
+| 4 | **Amylon SA (Feleacul)** | RO, Sibiu, Șos. Alba Iulia 70 | grup Boromir; linie de expandare: „Pufarine cu aromă de fructe” (arpacaș de grâu expandat aromat, 50–300 g); în același oraș cu Prime | **office@amylon.ro NU mai există** (respins 26.10); trimis la marius.moldovan@boromir.ro (director vânzări Boromir, adresă din 2017, neconfirmată) | 0269 217 722 | expandează grâu, nu orez; Amylon SA figurează radiată, terenul fabricii devine cartier (amylon.life, 2027–2036) – candidat slab, de sunat dacă nu răspunde |
 | 5 | **Nuhealth JSC – RiceUp!** | BG, Plovdiv | specialist în orez: orez expandat (Eat Smart), chipsuri și rondele de orez, protein chips, batoane zero zahăr; private label / OEM declarat; Bureau Veritas 97,95 p; vinde deja în RO (Sezamo) și HU | headexport@nuhealth.zone | +359 883 245 396 | potrivire bună pe orez și pe „fără zahăr” |
 | 6 | **Maga-Plus Kft.** | HU, Újfehértó (jud. Szabolcs, ~90 km de Satu Mare) | extrudare, expandare și drajare în regim de bérgyártás (contract); are orez expandat cu ciocolată; HACCP | magamagaplus@gmail.com | +36 30 998 5575 | firmă mică, flexibilă la MOQ; doar HACCP |
 
@@ -48,12 +48,12 @@ Trimise din Gmail (contul contact@, logat în browserul aplicației Claude), la 
 |---|---|---|---|
 | 1 | `emailuri/01-breakfast-food-production-RO.txt` | română | office@breakfast-cereals.ro |
 | 2 | `emailuri/02-doma-botosani-RO.txt` | română | office@domabt.ro |
-| 3 | `emailuri/03-sanovita-RO.txt` | română | info@sanovita.ro (CC online@sanovita.ro) |
-| 4 | `emailuri/04-amylon-feleacul-sibiu-RO.txt` | română | office@amylon.ro |
+| 3 | `emailuri/03-sanovita-RO.txt` | română | office@sanovita.ro (CC comenzi@sanovita.ro); prima trimitere la info@ respinsă, copia la online@ a ajuns |
+| 4 | `emailuri/04-amylon-feleacul-sibiu-RO.txt` | română | marius.moldovan@boromir.ro; prima trimitere la office@amylon.ro respinsă (adresă dezactivată) |
 | 5 | `emailuri/05-nuhealth-riceup-bulgaria-EN.txt` | engleză | headexport@nuhealth.zone (CC marketing@nuhealth.zone) |
 | 6 | `emailuri/06-maga-plus-hungary-EN.txt` | engleză | magamagaplus@gmail.com |
 
-Toate au CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Confirmate în folderul Trimise al contului contact@ (6 mesaje, 26.10, 23:36–23:40).
+Toate au CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Confirmate în folderul Trimise al contului contact@ (6 mesaje, 26.10, 23:36–23:40). Respingeri primite imediat: office@amylon.ro (525, adresă dezactivată) și info@sanovita.ro (550, adresa nu există); retrimise la 23:45–23:48 către office@sanovita.ro + comenzi@sanovita.ro și către marius.moldovan@boromir.ro, fără respingere în următoarele minute (o respingere târzie e posibilă; de verificat în Inbox).
 
 ## 4. Pași următori
 1. ~~Trimiterea celor 6 e-mailuri~~ – făcută pe 26.10.2026, 23:36–23:40. Răspunsurile vin pe contact@ (și în CC la Marius și Ovidiu).

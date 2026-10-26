@@ -49,3 +49,25 @@ Alternativa (dacă nu vrei redirect): ștergi înregistrarea CNAME `b2b` la furn
 
 ## Ce nu se poate face din aplicație
 Dezactivarea și domeniile cer contul de proprietar logat în browserul tău (Opera); eu nu am acces la el și nu fac pașii în locul tău. Pot verifica rezultatul (DNS, redirecturi, index) după fiecare pas.
+
+## Stare 26.10 (captură proprietar) și textul pentru extensie
+
+Setări → Plan arată „Store deactivates on Nov 14, 2026”: planul Basic e deja oprit, Shopify dezactivează magazinul automat pe 14.11. Nu există buton „Dezactivează magazinul”; nu se apasă „Reactivate plan”. Până la 14.11 storefront-ul e public. Textul de mai jos (dat proprietarului pe 26.10) face curățenia rămasă din adminul B2B prin extensia Chrome; CNAME-ul `b2b` se șterge de proprietar la furnizorul domeniului.
+
+```text
+Lucrezi în Shopify Admin al magazinului B2B: kuqr0h-en.myshopify.com (PRIME SPORT SUPPLEMENTS, adresa b2b.primesupplements.ro). NU în magazinul principal primesupplements1. Dacă tab-ul deschis nu e kuqr0h-en, oprește-te și spune-mi. Scop: magazinul B2B să dispară complet (se dezactivează automat pe 14.11.2026) și să nu mai apară în Google. Fă pașii în ordine și raportează la final ce ai găsit și ce ai schimbat.
+
+1. Setări → Plan: confirmă textul „Store deactivates on Nov 14, 2026”. NU apăsa „Reactivate plan”.
+2. Setări → Plăți → Shopify Payments: citește soldul (balance) și plățile în așteptare. Nu schimba nimic; doar raportează suma. Dacă e sold, îmi spui ca să actualizez eu datele contului.
+3. Setări → Facturare: raportează facturile neplătite (dacă sunt).
+4. Comenzi: filtrează „Unfulfilled” și „Unpaid”; raportează câte sunt (numere de comandă), nu le modifica.
+5. Comenzi → Export → All orders → CSV for Excel; Clienți → Export → All customers → CSV. Descarcă fișierele (cere-mi acordul la descărcare) și spune-mi unde sunt.
+6. Magazin online → Preferințe → „Restrict access to visitors with the password”: bifează, parola [PAROLA ALEASĂ DE MINE], mesaj: „Magazin închis. Pentru comenzi B2B: contact@primesupplements.ro, 0775 286 584.” Salvează. În aceeași pagină, dacă există, scoate codurile Google Analytics / Facebook Pixel.
+7. Setări → Aplicații și canale de vânzare: listează toate aplicațiile instalate și dezinstalează-le pe toate (confirmă fiecare dezinstalare). Raportează lista.
+8. Setări → Domenii: dacă b2b.primesupplements.ro e în listă, apasă pe el → Remove domain → confirmă. Rămâne doar kuqr0h-en.myshopify.com. Raportează.
+9. Setări → Canale de vânzare: dacă e conectat Google & YouTube sau alt canal, deconectează-l (confirmă).
+10. Verificare finală într-un tab privat: https://b2b.primesupplements.ro/products/creatina-creapure și https://kuqr0h-en.myshopify.com/products.json – ambele trebuie să ducă la pagina de parolă (sau să nu mai răspundă dacă am șters CNAME-ul). Raportează codul/rezultatul.
+11. Apoi deschide https://search.google.com/search-console (contul contact@primesupplements.ro): în lista de proprietăți, spune-mi dacă există una pentru b2b.primesupplements.ro. Nu cere eliminări (Removals) și nu șterge proprietatea; doar raportează.
+
+Raport final: starea înainte/după la fiecare pas, fără să scrii parola.
+```

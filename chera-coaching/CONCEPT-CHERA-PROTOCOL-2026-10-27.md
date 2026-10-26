@@ -87,3 +87,4 @@ Matematica „sutelor de clienți”: 300 de clienți la ușa B × 550 lei = 165
 - Nu ne poziționăm pe „slăbit”/„sănătate”/„sedentarism” în general: diluează dovezile și intrăm în piața cea mai aglomerată. Ușa B e pentru oameni care deja merg la sală.
 - Nu vindem Elite online cu buton de cumpărare: se aplică, Marius alege. Raritatea e parte din valoare.
 - Nu promitem nimic despre substanțe, nu publicăm date de sănătate ale clienților.
+9. (27.10) Poze: aprobat de proprietar – @marius.chera și @team_cheraprotocol. Preferabil originalele într-un folder local; pentru sportivi, acordul scris.

@@ -44,7 +44,7 @@ Alternativa (dacă nu vrei redirect): ștergi înregistrarea CNAME `b2b` la furn
 ## E. După
 
 14. **Search Console:** nimic de cerut (fără Removals). Proprietatea de domeniu `primesupplements.ro` acoperă și subdomeniul; dacă există o proprietate separată `b2b.primesupplements.ro`, o lași 2 luni ca să vezi scăderea, apoi o ștergi din GSC. Verificarea programată „Verificare GSC 23.11” urmărește oricum „b2b în index”.
-15. **Tema magazinului principal:** nu mai e nimic de făcut (linkurile B2B din footer scoase pe 17.10, pagina `inregistrare-b2b` ștearsă, redirect `/pages/inregistrare-b2b` → `/pages/contact` existent; blocul BSS din coș e inert).
+15. **Tema magazinului principal:** curățenia B2B (atributele BSS, CSS-ul și scriptul inlinat) a fost făcută pe 26.10 pe copia „Prime – fără B2B (26.10)” și pe tema de Black Friday (`backups/b2b-ungaria-cleanup-2026-10-26/changes.md`); tema live nu e atinsă. Rămâne la tine: publici copia „Prime – fără B2B (26.10)” sau aștepți publicarea temei de Black Friday pe 30.10 (o conține deja). Linkurile și pagina B2B sunt scoase din 17.10; redirectul `/pages/inregistrare-b2b` → `/pages/contact` rămâne.
 16. **Contractul agentului:** nimic de schimbat (Anexa 3 nu depinde de magazinul B2B).
 
 ## Ce nu se poate face din aplicație

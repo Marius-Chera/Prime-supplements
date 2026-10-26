@@ -1,0 +1,29 @@
+--- original/snippets__line-item.liquid	2026-10-26 17:09:34.750679900 +0200
++++ edited/snippets__line-item.liquid	2026-10-26 17:09:34.805528500 +0200
+@@ -26,7 +26,7 @@
+   endif
+ %}
+ 
+-<line-item class="line-item" bss-b2b-cart-item-key="{{ line_item.key }}">
++<line-item class="line-item">
+   {%- if line_item.image != blank -%}
+     <div class="line-item__media-wrapper">
+       {{- line_item.image | image_url: width: line_item.image.width | image_tag: loading: 'lazy', sizes: '(max-width: 740px) 80px, 96px', widths: '80,96,160,192', class: 'line-item__media rounded-xs' -}}
+@@ -35,7 +35,7 @@
+     </div>
+   {%- endif -%}
+ 
+-  <div class="line-item__info"> <div class='bss-b2b-qb-table'></div>
++  <div class="line-item__info">
+     <div class="v-stack gap-0.5">
+       {%- if line_item.url != blank -%}
+         <a href="{{ line_item.url }}" class="bold">
+@@ -45,7 +45,7 @@
+         <p class="bold">{{ line_item.product.title | default: line_item.title }}</p>
+       {%- endif -%}
+ 
+-      <span bss-b2b-item-original-price>{%- render 'price-list', line_item: line_item -%}</span>
++      <span>{%- render 'price-list', line_item: line_item -%}</span>
+     </div>
+ 
+     {%- unless line_item.product.has_only_default_variant or line_item.gift_card -%}

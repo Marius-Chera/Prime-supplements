@@ -1,0 +1,11 @@
+--- original/sections__cart-drawer.liquid	2026-10-26 17:09:34.738466500 +0200
++++ edited/sections__cart-drawer.liquid	2026-10-26 17:09:34.792995200 +0200
+@@ -113,7 +113,7 @@
+ 
+         <div class="h-stack gap-4 justify-between">
+           <span class="h5">{{ 'cart.general.total' | t }}</span>
+-          <span class="h5" bss-b2b-cart-total-price>{{- cart.total_price | money_with_currency -}}</span>
++          <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+         </div>
+ 
+         {%- if section.settings.show_shipping_text -%}

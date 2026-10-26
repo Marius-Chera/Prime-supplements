@@ -1,0 +1,29 @@
+--- original/sections__main-cart.liquid	2026-10-26 17:09:34.744196600 +0200
++++ edited/sections__main-cart.liquid	2026-10-26 17:09:34.798711600 +0200
+@@ -70,7 +70,7 @@
+                       </line-item-quantity>
+                     </td>
+ 
+-                    <td class="hidden align-center text-subdued text-end sm:table-cell" bss-b2b-cart-item-key="{{ line_item.key }}" bss-b2b-final-line-price>{{ line_item.final_line_price | money }}</td>
++                    <td class="hidden align-center text-subdued text-end sm:table-cell">{{ line_item.final_line_price | money }}</td>
+                   </tr>
+                 {%- endfor -%}
+               </tbody>
+@@ -108,7 +108,7 @@
+ 
+                       <div class="h-stack gap-4 justify-between">
+                         <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
+-                        <span class="text-subdued" bss-b2b-cart-total-price>{{ cart.items_subtotal_price | money }}</span>
++                        <span class="text-subdued">{{ cart.items_subtotal_price | money }}</span>
+                       </div>
+ 
+                       {% for discount_application in cart.cart_level_discount_applications %}
+@@ -123,7 +123,7 @@
+ 
+                       <div class="h-stack gap-4 justify-between">
+                         <span class="h5">{{ 'cart.general.total' | t }}</span>
+-                        <span class="h5" bss-b2b-cart-total-price>{{- cart.total_price | money_with_currency -}}</span>
++                        <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+                       </div>
+ 
+                       {%- if block.settings.show_shipping_text -%}

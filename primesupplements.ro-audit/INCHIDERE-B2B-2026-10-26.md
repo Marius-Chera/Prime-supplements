@@ -1,0 +1,51 @@
+# Închiderea completă a magazinului B2B (b2b.primesupplements.ro) – ghid pentru proprietar, 26.10.2026
+
+Decizie nouă (26.10, seara): magazinul B2B se **închide complet**, nu doar se pune parolă (înlocuiește E21 din `SETARI-VANZARI-2026-10-16.md` și întrebarea 1 din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md`). Vânzările B2B merg prin agent + Oblio (`agenti/`).
+
+Magazinul B2B este un magazin Shopify **separat**: admin `kuqr0h-en.myshopify.com`, adresa publică `b2b.primesupplements.ro`. Magazinul principal este `primesupplements1.myshopify.com`. Verifică în bara de adresă a browserului că ești în **kuqr0h-en** înainte de orice pas de mai jos. Dezactivarea se face doar din contul de **proprietar al magazinului** (store owner).
+
+## A. Înainte de închidere (în magazinul B2B)
+
+1. **Comenzi deschise.** Comenzi → filtrul „Neonorate” (Unfulfilled) și „Neplătite”. Dacă există, le rezolvi sau le anulezi înainte.
+2. **Export de date** (după dezactivare nu mai ai acces la admin):
+   - Comenzi → Exportă → „Toate comenzile” → CSV pentru Excel. Păstrezi fișierul în `D:\Prime Supplements\` (evidență contabilă).
+   - Clienți → Exportă → toți clienții → CSV (lista partenerilor B2B, de dat agentului / pentru anunț).
+   - Produse → Exportă (opțional; prețurile vechi B2B sunt deja salvate în Anexa 3 a contractului, coloana „Vechi B2B”).
+3. **Aplicații.** Setări → Aplicații și canale de vânzare → dezinstalezi fiecare aplicație (mai ales cele cu abonament). Shopify oprește facturarea aplicațiilor la dezactivare, dar abonamentele plătite în afara Shopify nu se opresc singure.
+4. **Facturi Shopify.** Setări → Facturare: nu trebuie să existe facturi neplătite; altfel dezactivarea e blocată.
+5. **Plăți.** Setări → Plăți: dacă e activ Shopify Payments, soldul rămas se plătește în continuare în contul bancar după dezactivare; nu schimba contul. Dacă e doar Netopia/ramburs, nimic de făcut.
+6. **Anunțul partenerilor.** Un e-mail scurt către clienții B2B cu cont: magazinul se închide, comenzile se dau la contact@primesupplements.ro / 0775 286 584 sau prin agent; facturare Oblio.
+
+## B. Eliberarea domeniului (în magazinul B2B)
+
+7. Setări → Domenii → apasă pe `b2b.primesupplements.ro` → **Elimină** (Remove domain). Confirmi. Domeniul `.myshopify.com` nu se poate șterge, rămâne.
+   De ce: cât timp domeniul e legat de magazinul B2B, nu poate fi conectat la magazinul principal (pasul 10).
+
+## C. Dezactivarea magazinului (în magazinul B2B)
+
+8. Setări → **Plan** → jos de tot, linkul **Dezactivează magazinul** (Deactivate store).
+   - Shopify îți oferă întâi „Pause and build” (abonament redus) – **refuzi**, alegi dezactivarea.
+   - Alegi motivul (de ex. „Închid afacerea / nu mai am nevoie de acest magazin”), introduci parola contului, confirmi.
+   - Primești e-mail de confirmare. Abonamentul se oprește; nu se mai facturează nimic de la data dezactivării.
+9. Verificare: în fereastră privată, `https://kuqr0h-en.myshopify.com` trebuie să arate pagina „This store is unavailable”.
+   Shopify păstrează datele o vreme și permite reactivarea din același cont (Setări → Plan), dar tratează pasul ca definitiv: nu te baza pe reactivare.
+
+## D. Redirectarea vechilor adrese spre magazinul principal (în magazinul principal, primesupplements1) – recomandat
+
+Google are ~110 adrese `b2b.primesupplements.ro/products/...` în index (raportul GSC din 26.10, A6) cu **aceleași handle-uri** ca produsele de pe site. Dacă domeniul rămâne mort, devin 404 și se pierd; dacă îl conectezi la magazinul principal, Shopify face automat **301** de la fiecare adresă veche la aceeași cale pe primesupplements.ro (ex. `/products/creatina-creapure` → `https://primesupplements.ro/products/creatina-creapure`).
+
+10. În adminul magazinului principal: Setări → Domenii → **Conectează domeniul existent** → scrii `b2b.primesupplements.ro` → Următorul.
+11. Shopify verifică DNS-ul: subdomeniul trebuie să aibă înregistrarea **CNAME `b2b` → `shops.myshopify.com`**. Înregistrarea există deja (așa mergea magazinul B2B); dacă Shopify spune că nu o găsește, o verifici/adaugi la furnizorul domeniului (serverele de nume kemo.services, același loc unde ai înregistrările CNAME pentru e-mail). Apoi „Verifică conexiunea”.
+12. După conectare, în lista Domenii, `b2b.primesupplements.ro` apare cu „Redirecționează către primesupplements.ro” (comportamentul implicit pentru domeniile secundare). Nu îl faci domeniu principal. Certificatul SSL se emite în până la 48 h.
+13. Verificare (fereastră privată): `https://b2b.primesupplements.ro/products/creatina-creapure` → ajunge pe `https://primesupplements.ro/products/creatina-creapure`. Spune-mi când ai făcut pasul 12: verific eu din aplicație toate cele 58 de adrese vechi cu `curl` și notez în jurnal.
+
+Alternativa (dacă nu vrei redirect): ștergi înregistrarea CNAME `b2b` la furnizorul domeniului; adresele vechi nu mai răspund deloc, Google le scoate din index în câteva săptămâni, fără transfer spre site.
+
+## E. După
+
+14. **Search Console:** nimic de cerut (fără Removals). Proprietatea de domeniu `primesupplements.ro` acoperă și subdomeniul; dacă există o proprietate separată `b2b.primesupplements.ro`, o lași 2 luni ca să vezi scăderea, apoi o ștergi din GSC. Verificarea programată „Verificare GSC 23.11” urmărește oricum „b2b în index”.
+15. **Tema magazinului principal:** nu mai e nimic de făcut (linkurile B2B din footer scoase pe 17.10, pagina `inregistrare-b2b` ștearsă, redirect `/pages/inregistrare-b2b` → `/pages/contact` existent; blocul BSS din coș e inert).
+16. **Contractul agentului:** nimic de schimbat (Anexa 3 nu depinde de magazinul B2B).
+
+## Ce nu se poate face din aplicație
+Dezactivarea și domeniile cer contul de proprietar logat în browserul tău (Opera); eu nu am acces la el și nu fac pașii în locul tău. Pot verifica rezultatul (DNS, redirecturi, index) după fiecare pas.

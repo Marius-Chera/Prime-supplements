@@ -1,0 +1,11 @@
+--- original/snippets__horizontal-product.liquid	2026-10-26 17:09:34.746492400 +0200
++++ edited/snippets__horizontal-product.liquid	2026-10-26 17:09:34.800010400 +0200
+@@ -33,7 +33,7 @@
+           <span class="reversed-link hover:show">{{ product.title }}</span>
+         </a>
+       {%- endif -%}
+-      <span bss-b2b-product-id="{{ product.id }}" bss-b2b-product-price>
++      <span>
+       {%- render 'price-list', product: product, size: 'sm' -%}
+       </span>
+     </div>

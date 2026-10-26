@@ -1,0 +1,34 @@
+--- original/layout__theme.liquid	2026-10-26 17:09:34.738466500 +0200
++++ edited/layout__theme.liquid	2026-10-26 17:09:34.792995200 +0200
+@@ -132,23 +132,6 @@
+     {%- render 'consent-overlays' -%}
+ 
+     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+-    {%- comment -%}Performance (2026-10-13): the 470-byte assets/bss-custom.css (BSS B2B app) is inlined, same rules in the same place, to save a render-blocking request. If the BSS app updates that file, copy the new rules here.{%- endcomment -%}
+-    <style>
+-      [bss-b2b-main-product-form] [bss-b2b-variant-price] span {
+-        font-size: var(--text-lg) !important;
+-      }
+-      cart-drawer:not([open]) [bss-b2b-item-original-price],
+-      cart-drawer:not([open]) [bss-b2b-final-line-price],
+-      cart-drawer:not([open]) [bss-b2b-cart-total-price] {
+-        display: none !important;
+-      }
+-
+-      .horizontal-product__info [bss-b2b-product-price] span {
+-        color: rgb(var(--text-color) / .7) !important;
+-        font-size: var(--text-sm) !important;
+-        line-height: 1.6 !important;
+-      }
+-    </style>
+     {%- comment -%}Performance (2026-10-13): size hints for two images that had neither width nor height (Lighthouse "unsized images"). "auto" keeps each image's own proportions once it has loaded, so nothing changes visually: the Judge.me carousel thumbnails already have an explicit height, the EU flag an explicit width (the flag file is square).{%- endcomment -%}
+     <style>
+       .jdgm-carousel-item__product-image,
+@@ -264,7 +247,6 @@
+         }
+       }
+     </style>
+-    <script src="{{ 'bss-custom.js' | asset_url }}" defer></script>
+   </head>
+ 
+   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">

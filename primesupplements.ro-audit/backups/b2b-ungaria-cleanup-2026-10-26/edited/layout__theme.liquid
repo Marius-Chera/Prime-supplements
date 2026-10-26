@@ -1,0 +1,284 @@
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing this theme as much as we did for
+  developing it. We have put a lot of work to make this theme as developer friendly as possible by offering you
+  hooks to integrate into critical parts of the theme. You will find the complete technical documentation (including
+  all events, dependencies...) in the "documentation.txt" file, located in the Assets folder.
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<!doctype html>
+
+<html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
+    <script>
+      if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+        document.querySelector('meta[name="viewport"]').content += ', maximum-scale=1.0';
+      }
+    </script>
+    <meta name="theme-color" content="{{ settings.header_background }}">
+    {%- comment -%}SEO (2026-10-12): charset/viewport first (charset must sit in the first 1024 bytes), title gets the brand suffix, utility/transactional pages are noindex. Accessibility (2026-10-13): maximum-scale is no longer sent by default, so Android users can pinch-zoom; the inline script above adds it back on iOS only, where Safari ignores it for pinch-zoom but uses it to avoid zooming in when an input smaller than 16px gets focus, so iOS behaves exactly as before.{%- endcomment -%}
+    {%- liquid
+      assign seo_title = page_title
+      if seo_title == blank
+        assign seo_title = shop.name
+      endif
+      assign has_brand = false
+      if seo_title contains 'Prime Supplements' or seo_title contains 'PRIME Supplements' or seo_title contains 'PRIME SUPPLEMENTS'
+        assign has_brand = true
+      endif
+      if request.page_type == 'index'
+        assign seo_title = 'Suplimente nutritive, proteine și creatină | Prime Supplements'
+      elsif has_brand == false and seo_title.size <= 40
+        assign seo_title = seo_title | append: ' | Prime Supplements'
+      endif
+      if current_page != 1
+        assign page_label = 'general.page' | t: page: current_page
+        assign seo_title = seo_title | append: ' – ' | append: page_label
+      endif
+      assign seo_description = page_description
+      if request.page_type == 'index'
+        assign seo_description = 'Magazin online de suplimente nutritive pentru sport: creatină, proteine din zer, pre-workout, aminoacizi, vitamine și echipament de sală MNX. Livrare rapidă în toată România.'
+      endif
+
+      assign noindex_page = false
+      assign utility_collections = 'all,cele-mai-vandute,lansate-recent,11-tva,frontpage,vendors,types' | split: ','
+      if request.page_type == 'collection' and utility_collections contains collection.handle
+        assign noindex_page = true
+      endif
+      if request.page_type == 'page' and page.handle == 'thank-you'
+        assign noindex_page = true
+      endif
+      if request.page_type == 'search' or request.page_type == 'cart' or request.page_type == 'password'
+        assign noindex_page = true
+      endif
+      if request.page_type contains 'customers/'
+        assign noindex_page = true
+      endif
+      comment
+        SEO (2026-10-13): tag-filtered listings (/collections/<handle>/<tag>, /blogs/news/tagged/<tag>) repeat the parent title and content.
+      endcomment
+      if current_tags != blank
+        if request.page_type == 'collection' or request.page_type == 'blog'
+          assign noindex_page = true
+        endif
+      endif
+      comment
+        SEO (2026-10-13): resources hidden with the seo.hidden metafield already get noindex,nofollow from Shopify; do not emit a second, conflicting robots tag for them.
+      endcomment
+      if request.page_type == 'collection' and collection.metafields.seo.hidden.value == 1
+        assign noindex_page = false
+      endif
+      if request.page_type == 'page' and page.metafields.seo.hidden.value == 1
+        assign noindex_page = false
+      endif
+    -%}
+    <title>{{ seo_title }}</title>
+
+    {%- if seo_description != blank -%}
+      <meta name="description" content="{{ seo_description | escape }}">
+    {%- endif -%}
+    {%- if noindex_page -%}
+      <meta name="robots" content="noindex, follow">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% render 'schema-organization' %}
+    {%- if request.page_type == 'page' -%}{% render 'schema-page' %}{%- endif -%}
+    <script src="{{ 'pandectes-rules.js' | file_url }}"></script>
+
+    {%- if settings.favicon -%}
+      {%- comment -%}rel="icon" (2026-10-13): apps look the favicon up with link[rel="icon"]; with "shortcut icon" the Pop Convert app could not find it and requested /null (a 404 in the console).{%- endcomment -%}
+      <link rel="icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties. Performance (2026-10-13): no preconnect to fonts.shopifycdn.com, theme fonts are served from the shop domain (/cdn/fonts), so that connection was never used.{%- endcomment -%}
+    <link rel="preconnect" href="https://cdn.shopify.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'fontify-fonts' -%}
+    {%- render 'social-meta-tags', seo_title: seo_title -%}
+    {%- comment -%}{%- render 'microdata-schema' -%}{%- endcomment -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    <script type="importmap">
+      {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
+      {
+        "imports": {
+          "vendor": "{{ 'vendor.min.js' | asset_url }}",
+          "theme": "{{ 'theme.js' | asset_url }}",
+          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        }
+      }
+    </script>
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+
+    {{ content_for_header }}
+    {%- comment -%}Consent (2026-10-23): Microsoft Clarity starts only after the visitor allows analytics cookies in the cookie banner (snippets/clarity-consent.liquid). The Clarity app embed is turned off in the theme settings, because it started Clarity before consent.{%- endcomment -%}
+    {%- render 'clarity-consent' -%}
+    {%- render 'consent-overlays' -%}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {%- comment -%}Performance (2026-10-13): size hints for two images that had neither width nor height (Lighthouse "unsized images"). "auto" keeps each image's own proportions once it has loaded, so nothing changes visually: the Judge.me carousel thumbnails already have an explicit height, the EU flag an explicit width (the flag file is square).{%- endcomment -%}
+    <style>
+      .jdgm-carousel-item__product-image,
+      .eu-label .eu-flag {
+        aspect-ratio: auto 1 / 1;
+      }
+    </style>
+    {%- comment -%}Accessibility (2026-10-13): text contrast and tap-target size in the Judge.me review widget and the Delivery Estimator message (Lighthouse "color-contrast" and "target-size"). Each text colour is the passing colour closest to the original (smallest CIEDE2000 difference, same hue, only darker) on the #f0f0f0 page background: grey #7b7b7b to #6d6d6d, red #ec1e24 to #dd011b, estimator red #e03e2d to #d02e21, medal values (diamond #4c8eda to #2270ba, bronze #a36710 to #9c6004). The "Scrie o recenzie" button uses the approved button red #e91d23. The pagination arrows get 1-2px more padding cancelled by an equal negative margin, so nothing moves on screen; each arrow just becomes a 24 x 24 px target. Judge.me loads its CSS after this block, so each selector is one class more specific than the Judge.me rule it overrides; !important only where Judge.me or the estimator set the colour inline. The two Judge.me links get the darker red through Judge.me's own colour variable, because Judge.me's hover, active and visited rules for them are more specific than a plain colour rule and would bring back #ec1e24.{%- endcomment -%}
+    <style>
+      .jdgm-review-widget .jdgm-histogram__frequency,
+      .jdgm-review-widget .jdgm-gallery-title,
+      .jdgm-review-widget .jdgm-rev__timestamp,
+      .jdgm-review-widget .jdgm-rev__location {
+        color: #6d6d6d;
+      }
+      .jdgm-review-widget .jdgm-rev__transparency-badge {
+        color: #6d6d6d !important;
+      }
+      .jdgm-review-widget .jdgm-medal[data-tier="diamond"] .jdgm-medal__value {
+        color: #2270ba;
+      }
+      .jdgm-review-widget .jdgm-medal[data-tier="bronze"] .jdgm-medal__value {
+        color: #9c6004;
+      }
+      .jdgm-review-widget {
+        --jdgm-write-review-bg-color: #e91d23;
+      }
+      .jdgm-review-widget .jdgm-link {
+        --jdgm-primary-color: #dd011b;
+      }
+      .jdgm-review-widget .jdgm-sort-dropdown-wrapper .jdgm-sort-dropdown,
+      .jdgm-review-widget .jdgm-rev__author {
+        color: #dd011b;
+      }
+      .jdgm-review-widget .jdgm-paginate__first-page,
+      .jdgm-review-widget .jdgm-paginate__prev-page,
+      .jdgm-review-widget .jdgm-paginate__next-page,
+      .jdgm-review-widget .jdgm-paginate__last-page {
+        padding-block: 5px;
+      }
+      .jdgm-review-widget .jdgm-paginate__first-page {
+        padding-inline-start: 6px;
+        margin-inline-start: -2px;
+      }
+      .jdgm-review-widget .jdgm-paginate__prev-page,
+      .jdgm-review-widget .jdgm-paginate__next-page {
+        padding-inline-start: 5px;
+        margin-inline-start: -1px;
+      }
+      .jdgm-review-widget .jdgm-paginate__last-page {
+        padding-inline-end: 5px;
+        margin-inline-end: -1px;
+      }
+      .estimator-message [style*="#e03e2d" i] {
+        color: #d02e21 !important;
+      }
+    </style>
+    {%- comment -%}
+      Accessibility (2026-10-13): owner-approved micro-changes ("Micro-schimbări care duc Accesibilitatea la 100", approved by the owner on 2026-10-13, phones first). Each rule is the smallest change that makes the Lighthouse/axe check pass; everything else on the page stays pixel-identical.
+      1. "În stoc" text and icon: #00a341 -> #007f2b (contrast 2.92 -> 4.53 on #f0f0f0, 3.33 -> 5.16 on white). Scoped to variant-inventory, so the theme Success colour (success banners, pickup availability) is unchanged.
+      2. Judge.me carousel reviewer names: opacity .6 -> .613 (#707070 -> #6d6d6d on #f0f0f0, 4.34 -> 4.54). Two classes, so this wins over the Judge.me stylesheet that loads later in the body; the app's gallery-theme rule (opacity 1) still wins where it applies.
+      3. Form labels inside the page content (comment form, contact form, account forms): opacity .5 -> .63 (comment form #858585 -> #696969 on #f0f0f0, 3.23 -> 4.82; contact form on the #e6e6e6 input 3.13 -> 4.67). The label colour is the text colour at this opacity, so a higher opacity can only raise contrast; the footer newsletter (outside main) is unchanged.
+      4. Footer ANPC logos: object-fit: contain keeps the logos' real proportions when the row is narrower than the logos (phones). The boxes keep their size, so nothing around them moves; on desktop, where the logos already have their real proportions, nothing changes.
+      5. Product gallery dots (shown below 1000px): gap 16px -> 18px, so neighbouring dots are 24px apart (WCAG 2.5.8 target spacing). The max-width + :has() rules keep 16px when the wider row would no longer fit on one line (e.g. 14 dots on screens narrower than 406px), so the dots never wrap onto a second row where they did not before.
+      The button red (#ec1e24 -> #e91d23, contrast 4.39 -> 4.50) is set in the theme settings and in the index/product templates, not here.
+    {%- endcomment -%}
+    <style>
+      variant-inventory .text-success {
+        color: rgb(0 127 43);
+      }
+      .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
+        opacity: .613;
+      }
+      main .floating-label {
+        opacity: .63;
+      }
+      .footer-anpc-logos img {
+        object-fit: contain;
+      }
+      @media screen and (max-width: 999px) {
+        .product-gallery .page-dots {
+          column-gap: 18px;
+        }
+      }
+      @media screen and (max-width: 333.98px) {
+        .product-gallery .page-dots:has(> :nth-child(11)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 357.98px) {
+        .product-gallery .page-dots:has(> :nth-child(12)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 381.98px) {
+        .product-gallery .page-dots:has(> :nth-child(13)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 405.98px) {
+        .product-gallery .page-dots:has(> :nth-child(14)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 429.98px) {
+        .product-gallery .page-dots:has(> :nth-child(15)) {
+          column-gap: 16px;
+        }
+      }
+      @media screen and (max-width: 453.98px) {
+        .product-gallery .page-dots:has(> :nth-child(16)) {
+          column-gap: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+
+      {%- if settings.cart_type == 'popover' -%}
+        <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type == 'customers/account' or request.page_type == 'customers/order' or request.page_type == 'customers/addresses' -%}
+      {%- section 'account-banner' -%}
+    {%- endif -%}
+
+    <main role="main" id="main" class="anchor">
+      {{ content_for_layout }}
+
+      {%- comment -%}
+      IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
+      added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
+      {%- endcomment -%}
+      {%- if request.page_type != 'password' -%}
+        {%- sections 'footer-group' -%}
+      {%- endif -%}
+    </main>
+
+    {%- render 'a11y-fixes' -%}
+  </body>
+</html>

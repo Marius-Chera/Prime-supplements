@@ -1,0 +1,11 @@
+--- original/sections__main-product.liquid	2026-10-26 17:09:34.746492400 +0200
++++ edited/sections__main-product.liquid	2026-10-26 17:09:34.800010400 +0200
+@@ -87,7 +87,7 @@
+             {%- endif -%}
+ 
+             <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
+-            <span bss-b2b-product-id="{{ product.id }}" bss-b2b-product-price bss-b2b-variant-price bss-b2b-variant-id="{{ product.selected_or_first_available_variant.id }}" bss-b2b-featured-product="true">{%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}</span>
++            <span>{%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}</span>
+           </div>
+ 
+           <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>

@@ -1,0 +1,20 @@
+--- original/snippets__product-info.liquid	2026-10-26 17:09:34.750679900 +0200
++++ edited/snippets__product-info.liquid	2026-10-26 17:09:34.805528500 +0200
+@@ -15,7 +15,7 @@
+ * context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
+ {%- endcomment -%}
+ 
+-<safe-sticky class="product-info" bss-b2b-main-product-form>
++<safe-sticky class="product-info">
+   {%- assign inside_block_group_context = false -%}
+   {%- assign current_block_group_name = '' -%}
+ 
+@@ -104,7 +104,7 @@
+           {%- if product.selected_or_first_available_variant != nil -%}
+             <div class="product-info__price">
+               <div class="rating-with-text">
+-                <span bss-b2b-product-id="{{ product.id }}" bss-b2b-product-price bss-b2b-variant-price bss-b2b-variant-id="{{ product.selected_or_first_available_variant.id }}" bss-b2b-featured-product="true">{%- render 'price-list', variant: product.selected_or_first_available_variant, size: 'lg' -%}</span>
++                <span>{%- render 'price-list', variant: product.selected_or_first_available_variant, size: 'lg' -%}</span>
+                 {%- render 'product-badges', types: 'sold_out, discount', product: product, context: 'product', class: 'product-info__badge-list' -%}
+ 
+                 {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}

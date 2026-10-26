@@ -1,0 +1,424 @@
+﻿<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rentabilitate B2B – Prime Supplements (intern)</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --black: #111; --grey: #666; --line: #e3e3e3; --bg: #f6f6f6; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; color: var(--black); font-family: Poppins, "Segoe UI", Arial, sans-serif; font-size: 11px; line-height: 1.4; }
+  .page { max-width: 1180px; margin: 0 auto; padding: 0 16px 24px; }
+  header { background: var(--black); color: #fff; padding: 12px 18px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid var(--red); border-radius: 0 0 6px 6px; }
+  header .brand { font-weight: 800; font-size: 20px; letter-spacing: 2px; text-transform: uppercase; } header .brand span { color: var(--red); }
+  header .meta { text-align: right; font-size: 10.5px; color: #ccc; } header .meta b { color: var(--red); }
+  h1 { font-size: 18px; text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 4px; }
+  .sub { color: var(--grey); margin: 0 0 10px; font-size: 10.5px; }
+  .kpi { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 10px 0 14px; }
+  .kpi div { background: var(--bg); border-top: 4px solid var(--red); padding: 8px 12px; border-radius: 0 0 6px 6px; }
+  .kpi b { display: block; text-transform: uppercase; font-size: 9.5px; letter-spacing: .6px; color: var(--red); } .kpi .v { font-size: 16px; font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; }
+  thead th { background: var(--black); color: #fff; text-align: left; padding: 6px 6px; font-size: 9px; text-transform: uppercase; letter-spacing: .4px; vertical-align: bottom; line-height: 1.2; }
+  thead th.num, td.num { text-align: right; white-space: nowrap; }
+  tbody td { padding: 4px 6px; border-bottom: 1px solid var(--line); }
+  td.b { font-weight: 700; } td.low { color: var(--red); font-weight: 700; } td.high { color: #1a7f37; font-weight: 700; }
+  tbody tr.tot td { background: #eee; font-weight: 700; }
+  th.grpL, td.grpL { border-left: 2px solid #999; }
+  .concl { margin-top: 14px; font-size: 11px; } .concl li { margin-bottom: 4px; }
+  .note { color: var(--grey); font-size: 10px; margin-top: 8px; }
+  @media print {
+    @page { size: A4 landscape; margin: 8mm; }
+    .page { max-width: none; padding: 0; }
+    header, thead th, tr.tot td, .kpi div { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    thead { display: table-header-group; } tr { break-inside: avoid; }
+    .concl { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="brand">Prime <span>Supplements</span></div>
+    <div class="meta"><b>DOCUMENT INTERN – nu se dă clienților</b><br>Rentabilitatea prețurilor B2B · 26.10.2026 · costuri Oblio (ultimul NIR), Anexa 3 a contractului agentului</div>
+  </header>
+
+  <h1>Cât câștigă Prime la fiecare produs B2B</h1>
+  <p class="sub">Toate sumele sunt în lei, pe bucată, fără TVA. <b>Profit Prime</b> = preț B2B − cost de achiziție (Oblio) − comision agent 5 % din prețul facturat. <b>După transport</b> scade și ~3 % pentru Cargus (doar la comenzile peste 1.000 lei fără TVA, unde transportul e gratuit). <b>Prețul de listă</b> este cel din portofoliu / lista pentru săli; <b>prețul minim</b> este discountul maxim pe care îl poate da agentul (comenzi peste 2.000 lei sau rulaj peste 5.000 lei / 3 luni). <b>Câștigul partenerului</b> este la prețul recomandat de raft (prețul de site + 2,5 %). Produsele sunt ordonate de la marja cea mai mică la cea mai mare. Nu sunt incluse costurile fixe (chirie, salarii, contabilitate) și ambalajul.</p>
+
+  <div class="kpi">
+    <div><b>Produse în listă</b><span class="v">55</span></div>
+    <div><b>Profit mediu la listă (coș 1 buc. din fiecare)</b><span class="v">33,1 %</span> 1.483,28 lei la 4.481,00 lei vânzare</div>
+    <div><b>Profit mediu la preț minim</b><span class="v">28,6 %</span> 1.194,48 lei la 4.177,00 lei vânzare</div>
+    <div><b>Produse sub 22 % la listă</b><span class="v">6</span> niciunul sub 15 % nici la minim</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Produs</th>
+        <th class="num">TVA</th>
+        <th class="num">Preț site<br>(cu TVA)</th>
+        <th class="num">Cost Oblio<br>fără TVA</th>
+        <th class="num grpL">Preț listă B2B<br>fără TVA</th>
+        <th class="num">Comision<br>5 %</th>
+        <th class="num">Profit Prime<br>la listă (lei)</th>
+        <th class="num">Profit %</th>
+        <th class="num">După transport<br>3 % (lei / %)</th>
+        <th class="num grpL">Preț minim<br>fără TVA</th>
+        <th class="num">Profit Prime<br>la minim (lei)</th>
+        <th class="num">Profit %</th>
+        <th class="num grpL">Preț raft<br>recomandat</th>
+        <th class="num">Câștig partener<br>(lei, fără TVA)</th>
+        <th class="num">Adaos<br>partener</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Unt de caju Prime Health – 600 g</td><td class="num">11%</td><td class="num">90</td><td class="num">54,80</td>
+        <td class="num b grpL">73</td><td class="num">3,65</td><td class="num b low">14,55</td><td class="num low">20%</td><td class="num">12,36 / 17%</td>
+        <td class="num b grpL">69</td><td class="num low">10,75</td><td class="num low">16%</td>
+        <td class="num grpL">92</td><td class="num">9,88</td><td class="num">14%</td>
+      </tr>
+      <tr>
+        <td>Izolat proteic Pure Isolate – 2 kg</td><td class="num">11%</td><td class="num">510</td><td class="num">292,48</td>
+        <td class="num b grpL">391</td><td class="num">19,55</td><td class="num b low">78,97</td><td class="num low">20%</td><td class="num">67,24 / 17%</td>
+        <td class="num b grpL">368</td><td class="num low">57,12</td><td class="num low">16%</td>
+        <td class="num grpL">523</td><td class="num">80,17</td><td class="num">21%</td>
+      </tr>
+      <tr>
+        <td>Prime Whey – proteină din zer, 1 kg</td><td class="num">21%</td><td class="num">215</td><td class="num">106,14</td>
+        <td class="num b grpL">142</td><td class="num">7,10</td><td class="num b low">28,76</td><td class="num low">20%</td><td class="num">24,50 / 17%</td>
+        <td class="num b grpL">133</td><td class="num low">20,21</td><td class="num low">15%</td>
+        <td class="num grpL">220</td><td class="num">39,82</td><td class="num">28%</td>
+      </tr>
+      <tr>
+        <td>Unt de migdale Prime Health – 600 g</td><td class="num">11%</td><td class="num">92</td><td class="num">52,00</td>
+        <td class="num b grpL">70</td><td class="num">3,50</td><td class="num b low">14,50</td><td class="num low">21%</td><td class="num">12,40 / 18%</td>
+        <td class="num b grpL">66</td><td class="num low">10,70</td><td class="num low">16%</td>
+        <td class="num grpL">94</td><td class="num">14,68</td><td class="num">21%</td>
+      </tr>
+      <tr>
+        <td>Instant Oat Cream – 800 g</td><td class="num">11%</td><td class="num">65</td><td class="num">30,42</td>
+        <td class="num b grpL">41</td><td class="num">2,05</td><td class="num b low">8,53</td><td class="num low">21%</td><td class="num">7,30 / 18%</td>
+        <td class="num b grpL">38</td><td class="num low">5,68</td><td class="num low">15%</td>
+        <td class="num grpL">67</td><td class="num">19,36</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Pre-workout Nitrox No-Stim – 660 g</td><td class="num">21%</td><td class="num">205</td><td class="num">87,56</td>
+        <td class="num b grpL">119</td><td class="num">5,95</td><td class="num b low">25,49</td><td class="num low">21%</td><td class="num">21,92 / 18%</td>
+        <td class="num b grpL">110</td><td class="num low">16,94</td><td class="num low">15%</td>
+        <td class="num grpL">210</td><td class="num">54,55</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Prime Whey – proteină din zer, 2 kg</td><td class="num">21%</td><td class="num">390</td><td class="num">196,94</td>
+        <td class="num b grpL">274</td><td class="num">13,70</td><td class="num b">63,36</td><td class="num">23%</td><td class="num">55,14 / 20%</td>
+        <td class="num b grpL">258</td><td class="num low">48,16</td><td class="num low">19%</td>
+        <td class="num grpL">400</td><td class="num">56,58</td><td class="num">21%</td>
+      </tr>
+      <tr>
+        <td>Gainer Emperor Mass – 3 kg</td><td class="num">11%</td><td class="num">390</td><td class="num">214,41</td>
+        <td class="num b grpL">299</td><td class="num">14,95</td><td class="num b">69,64</td><td class="num">23%</td><td class="num">60,67 / 20%</td>
+        <td class="num b grpL">281</td><td class="num low">52,54</td><td class="num low">19%</td>
+        <td class="num grpL">400</td><td class="num">61,36</td><td class="num">21%</td>
+      </tr>
+      <tr>
+        <td>Complete Collagen lichid – 500 ml</td><td class="num">21%</td><td class="num">165</td><td class="num">73,00</td>
+        <td class="num b grpL">102</td><td class="num">5,10</td><td class="num b">23,90</td><td class="num">23%</td><td class="num">20,84 / 20%</td>
+        <td class="num b grpL">95</td><td class="num low">17,25</td><td class="num low">18%</td>
+        <td class="num grpL">169</td><td class="num">37,67</td><td class="num">37%</td>
+      </tr>
+      <tr>
+        <td>Prosop de sală Prime</td><td class="num">21%</td><td class="num">65</td><td class="num">27,00</td>
+        <td class="num b grpL">38</td><td class="num">1,90</td><td class="num b">9,10</td><td class="num">24%</td><td class="num">7,96 / 21%</td>
+        <td class="num b grpL">35</td><td class="num low">6,25</td><td class="num low">18%</td>
+        <td class="num grpL">67</td><td class="num">17,37</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Cremă de orez Creamy Rice – 1 kg</td><td class="num">11%</td><td class="num">65</td><td class="num">35,36</td>
+        <td class="num b grpL">50</td><td class="num">2,50</td><td class="num b">12,14</td><td class="num">24%</td><td class="num">10,64 / 21%</td>
+        <td class="num b grpL">47</td><td class="num low">9,29</td><td class="num low">20%</td>
+        <td class="num grpL">67</td><td class="num">10,36</td><td class="num">21%</td>
+      </tr>
+      <tr>
+        <td>Citrus Bergamot – 80 capsule</td><td class="num">21%</td><td class="num">160</td><td class="num">69,91</td>
+        <td class="num b grpL">99</td><td class="num">4,95</td><td class="num b">24,14</td><td class="num">24%</td><td class="num">21,17 / 21%</td>
+        <td class="num b grpL">93</td><td class="num low">18,44</td><td class="num low">20%</td>
+        <td class="num grpL">164</td><td class="num">36,54</td><td class="num">37%</td>
+      </tr>
+      <tr>
+        <td>Pre-workout Combat Pro 2.0 – 660 g</td><td class="num">21%</td><td class="num">205</td><td class="num">95,80</td>
+        <td class="num b grpL">136</td><td class="num">6,80</td><td class="num b">33,40</td><td class="num">25%</td><td class="num">29,32 / 22%</td>
+        <td class="num b grpL">127</td><td class="num low">24,85</td><td class="num low">20%</td>
+        <td class="num grpL">210</td><td class="num">37,55</td><td class="num">28%</td>
+      </tr>
+      <tr>
+        <td>Cluster Bomb intra-workout – 1 kg</td><td class="num">21%</td><td class="num">220</td><td class="num">89,39</td>
+        <td class="num b grpL">127</td><td class="num">6,35</td><td class="num b">31,26</td><td class="num">25%</td><td class="num">27,45 / 22%</td>
+        <td class="num b grpL">118</td><td class="num low">22,71</td><td class="num low">19%</td>
+        <td class="num grpL">225</td><td class="num">58,95</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Creatină Creapure® – 500 g</td><td class="num">21%</td><td class="num">180</td><td class="num">72,76</td>
+        <td class="num b grpL">104</td><td class="num">5,20</td><td class="num b">26,04</td><td class="num">25%</td><td class="num">22,92 / 22%</td>
+        <td class="num b grpL">97</td><td class="num low">19,39</td><td class="num low">20%</td>
+        <td class="num grpL">184</td><td class="num">48,07</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Turmeric cu piperină – 80 capsule</td><td class="num">21%</td><td class="num">95</td><td class="num">36,69</td>
+        <td class="num b grpL">55</td><td class="num">2,75</td><td class="num b">15,56</td><td class="num">28%</td><td class="num">13,91 / 25%</td>
+        <td class="num b grpL">51</td><td class="num">11,76</td><td class="num">23%</td>
+        <td class="num grpL">97</td><td class="num">25,17</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Creatină Creapure® – 300 g</td><td class="num">21%</td><td class="num">115</td><td class="num">44,24</td>
+        <td class="num b grpL">67</td><td class="num">3,35</td><td class="num b">19,41</td><td class="num">29%</td><td class="num">17,40 / 26%</td>
+        <td class="num b grpL">62</td><td class="num">14,66</td><td class="num">24%</td>
+        <td class="num grpL">118</td><td class="num">30,52</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Scorțișoară Ceylon bio – 200 g</td><td class="num">11%</td><td class="num">55</td><td class="num">22,95</td>
+        <td class="num b grpL">35</td><td class="num">1,75</td><td class="num b">10,30</td><td class="num">29%</td><td class="num">9,25 / 26%</td>
+        <td class="num b grpL">32</td><td class="num">7,45</td><td class="num">23%</td>
+        <td class="num grpL">56</td><td class="num">15,45</td><td class="num">44%</td>
+      </tr>
+      <tr>
+        <td>Citrat de magneziu – 80 capsule</td><td class="num">21%</td><td class="num">70</td><td class="num">25,91</td>
+        <td class="num b grpL">40</td><td class="num">2,00</td><td class="num b">12,09</td><td class="num">30%</td><td class="num">10,89 / 27%</td>
+        <td class="num b grpL">38</td><td class="num">10,19</td><td class="num">27%</td>
+        <td class="num grpL">72</td><td class="num">19,50</td><td class="num">49%</td>
+      </tr>
+      <tr>
+        <td>L-carnitină 1000 – 80 capsule</td><td class="num">21%</td><td class="num">100</td><td class="num">36,36</td>
+        <td class="num b grpL">58</td><td class="num">2,90</td><td class="num b">18,74</td><td class="num">32%</td><td class="num">17,00 / 29%</td>
+        <td class="num b grpL">54</td><td class="num">14,94</td><td class="num">28%</td>
+        <td class="num grpL">102</td><td class="num">26,30</td><td class="num">45%</td>
+      </tr>
+      <tr>
+        <td>Silimarină – 80 capsule</td><td class="num">21%</td><td class="num">100</td><td class="num">35,82</td>
+        <td class="num b grpL">58</td><td class="num">2,90</td><td class="num b">19,28</td><td class="num">33%</td><td class="num">17,54 / 30%</td>
+        <td class="num b grpL">54</td><td class="num">15,48</td><td class="num">29%</td>
+        <td class="num grpL">102</td><td class="num">26,30</td><td class="num">45%</td>
+      </tr>
+      <tr>
+        <td>Omega-3 – 80 capsule</td><td class="num">21%</td><td class="num">69</td><td class="num">24,43</td>
+        <td class="num b grpL">40</td><td class="num">2,00</td><td class="num b">13,57</td><td class="num">34%</td><td class="num">12,37 / 31%</td>
+        <td class="num b grpL">37</td><td class="num">10,72</td><td class="num">29%</td>
+        <td class="num grpL">71</td><td class="num">18,68</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>L-glutamină Kyowa® – 500 g</td><td class="num">21%</td><td class="num">175</td><td class="num">61,22</td>
+        <td class="num b grpL">101</td><td class="num">5,05</td><td class="num b">34,73</td><td class="num">34%</td><td class="num">31,70 / 31%</td>
+        <td class="num b grpL">94</td><td class="num">28,08</td><td class="num">30%</td>
+        <td class="num grpL">179</td><td class="num">46,93</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Thermo Core – 120 capsule</td><td class="num">21%</td><td class="num">115</td><td class="num">40,10</td>
+        <td class="num b grpL">67</td><td class="num">3,35</td><td class="num b">23,55</td><td class="num">35%</td><td class="num">21,54 / 32%</td>
+        <td class="num b grpL">62</td><td class="num">18,80</td><td class="num">30%</td>
+        <td class="num grpL">118</td><td class="num">30,52</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Water Out tinctură – 500 ml</td><td class="num">21%</td><td class="num">73</td><td class="num">25,00</td>
+        <td class="num b grpL">42</td><td class="num">2,10</td><td class="num b">14,90</td><td class="num">35%</td><td class="num">13,64 / 32%</td>
+        <td class="num b grpL">39</td><td class="num">12,05</td><td class="num">31%</td>
+        <td class="num grpL">75</td><td class="num">19,98</td><td class="num">48%</td>
+      </tr>
+      <tr>
+        <td>Unt de arahide Prime Health – 600 g</td><td class="num">11%</td><td class="num">50</td><td class="num">18,90</td>
+        <td class="num b grpL">32</td><td class="num">1,60</td><td class="num b">11,50</td><td class="num">36%</td><td class="num">10,54 / 33%</td>
+        <td class="num b grpL">29</td><td class="num">8,65</td><td class="num">30%</td>
+        <td class="num grpL">51</td><td class="num">13,95</td><td class="num">44%</td>
+      </tr>
+      <tr>
+        <td>Nattokinază – 60 capsule</td><td class="num">21%</td><td class="num">60</td><td class="num">20,38</td>
+        <td class="num b grpL">35</td><td class="num">1,75</td><td class="num b">12,87</td><td class="num">37%</td><td class="num">11,82 / 34%</td>
+        <td class="num b grpL">32</td><td class="num">10,02</td><td class="num">31%</td>
+        <td class="num grpL">61</td><td class="num">15,41</td><td class="num">44%</td>
+      </tr>
+      <tr>
+        <td>Vitamina C 1000 mg – 80 capsule</td><td class="num">21%</td><td class="num">59</td><td class="num">19,78</td>
+        <td class="num b grpL">34</td><td class="num">1,70</td><td class="num b">12,52</td><td class="num">37%</td><td class="num">11,50 / 34%</td>
+        <td class="num b grpL">32</td><td class="num">10,62</td><td class="num">33%</td>
+        <td class="num grpL">60</td><td class="num">15,59</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Prime Whey Go – cutie 15 plicuri x 30 g</td><td class="num">21%</td><td class="num">150</td><td class="num">50,43</td>
+        <td class="num b grpL">87</td><td class="num">4,35</td><td class="num b">32,22</td><td class="num">37%</td><td class="num">29,61 / 34%</td>
+        <td class="num b grpL">81</td><td class="num">26,52</td><td class="num">33%</td>
+        <td class="num grpL">154</td><td class="num">40,27</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Water Out – 120 capsule</td><td class="num">21%</td><td class="num">115</td><td class="num">38,61</td>
+        <td class="num b grpL">67</td><td class="num">3,35</td><td class="num b">25,04</td><td class="num">37%</td><td class="num">23,03 / 34%</td>
+        <td class="num b grpL">62</td><td class="num">20,29</td><td class="num">33%</td>
+        <td class="num grpL">118</td><td class="num">30,52</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Recovery BCAA 4:1:1 – 500 g</td><td class="num">21%</td><td class="num">150</td><td class="num">49,73</td>
+        <td class="num b grpL">87</td><td class="num">4,35</td><td class="num b">32,92</td><td class="num">38%</td><td class="num">30,31 / 35%</td>
+        <td class="num b grpL">81</td><td class="num">27,22</td><td class="num">34%</td>
+        <td class="num grpL">154</td><td class="num">40,27</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Potassium Complex – 80 capsule</td><td class="num">21%</td><td class="num">67</td><td class="num">21,99</td>
+        <td class="num b grpL">39</td><td class="num">1,95</td><td class="num b">15,06</td><td class="num">39%</td><td class="num">13,89 / 36%</td>
+        <td class="num b grpL">36</td><td class="num">12,21</td><td class="num">34%</td>
+        <td class="num grpL">69</td><td class="num">18,02</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Shaker Prime 600 ml</td><td class="num">21%</td><td class="num">35</td><td class="num">11,21</td>
+        <td class="num b grpL">20</td><td class="num">1,00</td><td class="num b">7,79</td><td class="num">39%</td><td class="num">7,19 / 36%</td>
+        <td class="num b grpL">19</td><td class="num">6,84</td><td class="num">36%</td>
+        <td class="num grpL">36</td><td class="num">9,75</td><td class="num">49%</td>
+      </tr>
+      <tr>
+        <td>Taurină 1000 mg – 80 capsule</td><td class="num">21%</td><td class="num">50</td><td class="num">16,23</td>
+        <td class="num b grpL">29</td><td class="num">1,45</td><td class="num b">11,32</td><td class="num">39%</td><td class="num">10,45 / 36%</td>
+        <td class="num b grpL">27</td><td class="num">9,42</td><td class="num">35%</td>
+        <td class="num grpL">51</td><td class="num">13,15</td><td class="num">45%</td>
+      </tr>
+      <tr>
+        <td>Pre-workout Combat Pro – 500 g</td><td class="num">21%</td><td class="num">170</td><td class="num">54,27</td>
+        <td class="num b grpL">98</td><td class="num">4,90</td><td class="num b">38,83</td><td class="num">40%</td><td class="num">35,89 / 37%</td>
+        <td class="num b grpL">91</td><td class="num">32,18</td><td class="num">35%</td>
+        <td class="num grpL">174</td><td class="num">45,80</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Pre-workout Nitrox 3D – 500 g</td><td class="num">21%</td><td class="num">190</td><td class="num">58,55</td>
+        <td class="num b grpL">110</td><td class="num">5,50</td><td class="num b high">45,95</td><td class="num high">42%</td><td class="num">42,65 / 39%</td>
+        <td class="num b grpL">102</td><td class="num">38,35</td><td class="num">38%</td>
+        <td class="num grpL">195</td><td class="num">51,16</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Daily Vitamin Formula – 30 plicuri</td><td class="num">21%</td><td class="num">160</td><td class="num">49,46</td>
+        <td class="num b grpL">93</td><td class="num">4,65</td><td class="num b high">38,89</td><td class="num high">42%</td><td class="num">36,10 / 39%</td>
+        <td class="num b grpL">86</td><td class="num">32,24</td><td class="num">37%</td>
+        <td class="num grpL">164</td><td class="num">42,54</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Testo Revive tinctură – 500 ml</td><td class="num">21%</td><td class="num">73</td><td class="num">22,00</td>
+        <td class="num b grpL">42</td><td class="num">2,10</td><td class="num b high">17,90</td><td class="num high">43%</td><td class="num">16,64 / 40%</td>
+        <td class="num b grpL">39</td><td class="num">15,05</td><td class="num">39%</td>
+        <td class="num grpL">75</td><td class="num">19,98</td><td class="num">48%</td>
+      </tr>
+      <tr>
+        <td>Cardio Calm tinctură – 500 ml</td><td class="num">21%</td><td class="num">73</td><td class="num">22,00</td>
+        <td class="num b grpL">42</td><td class="num">2,10</td><td class="num b high">17,90</td><td class="num high">43%</td><td class="num">16,64 / 40%</td>
+        <td class="num b grpL">39</td><td class="num">15,05</td><td class="num">39%</td>
+        <td class="num grpL">75</td><td class="num">19,98</td><td class="num">48%</td>
+      </tr>
+      <tr>
+        <td>Citrat de zinc 40 mg – 80 capsule</td><td class="num">21%</td><td class="num">55</td><td class="num">16,49</td>
+        <td class="num b grpL">32</td><td class="num">1,60</td><td class="num b high">13,91</td><td class="num high">43%</td><td class="num">12,95 / 40%</td>
+        <td class="num b grpL">30</td><td class="num high">12,01</td><td class="num high">40%</td>
+        <td class="num grpL">56</td><td class="num">14,28</td><td class="num">45%</td>
+      </tr>
+      <tr>
+        <td>NAC 500 mg – 80 capsule</td><td class="num">21%</td><td class="num">85</td><td class="num">24,90</td>
+        <td class="num b grpL">49</td><td class="num">2,45</td><td class="num b high">21,65</td><td class="num high">44%</td><td class="num">20,18 / 41%</td>
+        <td class="num b grpL">46</td><td class="num high">18,80</td><td class="num high">41%</td>
+        <td class="num grpL">87</td><td class="num">22,90</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Fat Burning Booster Shot – cutie 20 x 25 ml</td><td class="num">21%</td><td class="num">170</td><td class="num">49,02</td>
+        <td class="num b grpL">98</td><td class="num">4,90</td><td class="num b high">44,08</td><td class="num high">45%</td><td class="num">41,14 / 42%</td>
+        <td class="num b grpL">91</td><td class="num high">37,43</td><td class="num high">41%</td>
+        <td class="num grpL">174</td><td class="num">45,80</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Batoane proteice – cutie 12 x 55 g</td><td class="num">11%</td><td class="num">155</td><td class="num">48,96</td>
+        <td class="num b grpL">98</td><td class="num">4,90</td><td class="num b high">44,14</td><td class="num high">45%</td><td class="num">41,20 / 42%</td>
+        <td class="num b grpL">91</td><td class="num high">37,49</td><td class="num high">41%</td>
+        <td class="num grpL">159</td><td class="num">45,24</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Coenzima Q10 200 mg – 80 capsule</td><td class="num">21%</td><td class="num">95</td><td class="num">27,26</td>
+        <td class="num b grpL">55</td><td class="num">2,75</td><td class="num b high">24,99</td><td class="num high">45%</td><td class="num">23,34 / 42%</td>
+        <td class="num b grpL">51</td><td class="num high">21,19</td><td class="num high">42%</td>
+        <td class="num grpL">97</td><td class="num">25,17</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Ashwagandha KSM-66 – 80 capsule</td><td class="num">21%</td><td class="num">80</td><td class="num">21,88</td>
+        <td class="num b grpL">46</td><td class="num">2,30</td><td class="num b high">21,82</td><td class="num high">47%</td><td class="num">20,44 / 44%</td>
+        <td class="num b grpL">43</td><td class="num high">18,97</td><td class="num high">44%</td>
+        <td class="num grpL">82</td><td class="num">21,77</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Spirulină – 80 capsule</td><td class="num">21%</td><td class="num">75</td><td class="num">20,34</td>
+        <td class="num b grpL">43</td><td class="num">2,15</td><td class="num b high">20,51</td><td class="num high">48%</td><td class="num">19,22 / 45%</td>
+        <td class="num b grpL">40</td><td class="num high">17,66</td><td class="num high">44%</td>
+        <td class="num grpL">77</td><td class="num">20,64</td><td class="num">48%</td>
+      </tr>
+      <tr>
+        <td>Energy Pump Shot – cutie 20 x 25 ml</td><td class="num">21%</td><td class="num">190</td><td class="num">50,33</td>
+        <td class="num b grpL">110</td><td class="num">5,50</td><td class="num b high">54,17</td><td class="num high">49%</td><td class="num">50,87 / 46%</td>
+        <td class="num b grpL">102</td><td class="num high">46,57</td><td class="num high">46%</td>
+        <td class="num grpL">195</td><td class="num">51,16</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Glycerol Max Pump – 500 g</td><td class="num">21%</td><td class="num">110</td><td class="num">28,87</td>
+        <td class="num b grpL">64</td><td class="num">3,20</td><td class="num b high">31,93</td><td class="num high">50%</td><td class="num">30,01 / 47%</td>
+        <td class="num b grpL">59</td><td class="num high">27,18</td><td class="num high">46%</td>
+        <td class="num grpL">113</td><td class="num">29,39</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Fiber – băutură cu fibre, 500 g</td><td class="num">11%</td><td class="num">130</td><td class="num">36,09</td>
+        <td class="num b grpL">82</td><td class="num">4,10</td><td class="num b high">41,81</td><td class="num high">51%</td><td class="num">39,35 / 48%</td>
+        <td class="num b grpL">76</td><td class="num high">36,11</td><td class="num high">48%</td>
+        <td class="num grpL">133</td><td class="num">37,82</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Picolinat de crom – 80 capsule</td><td class="num">21%</td><td class="num">60</td><td class="num">15,29</td>
+        <td class="num b grpL">35</td><td class="num">1,75</td><td class="num b high">17,96</td><td class="num high">51%</td><td class="num">16,91 / 48%</td>
+        <td class="num b grpL">32</td><td class="num high">15,11</td><td class="num high">47%</td>
+        <td class="num grpL">61</td><td class="num">15,41</td><td class="num">44%</td>
+      </tr>
+      <tr>
+        <td>Creatină monohidrată micronizată – 300 g</td><td class="num">21%</td><td class="num">98</td><td class="num">24,17</td>
+        <td class="num b grpL">57</td><td class="num">2,85</td><td class="num b high">29,98</td><td class="num high">53%</td><td class="num">28,27 / 50%</td>
+        <td class="num b grpL">53</td><td class="num high">26,18</td><td class="num high">49%</td>
+        <td class="num grpL">100</td><td class="num">25,64</td><td class="num">45%</td>
+      </tr>
+      <tr>
+        <td>Creatină Ready To Go – cutie 25 plicuri x 10 g</td><td class="num">21%</td><td class="num">110</td><td class="num">26,74</td>
+        <td class="num b grpL">64</td><td class="num">3,20</td><td class="num b high">34,06</td><td class="num high">53%</td><td class="num">32,14 / 50%</td>
+        <td class="num b grpL">59</td><td class="num high">29,31</td><td class="num high">50%</td>
+        <td class="num grpL">113</td><td class="num">29,39</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Magneziu bisglicinat 300 mg – 80 capsule</td><td class="num">21%</td><td class="num">90</td><td class="num">21,44</td>
+        <td class="num b grpL">52</td><td class="num">2,60</td><td class="num b high">27,96</td><td class="num high">54%</td><td class="num">26,40 / 51%</td>
+        <td class="num b grpL">48</td><td class="num high">24,16</td><td class="num high">50%</td>
+        <td class="num grpL">92</td><td class="num">24,03</td><td class="num">46%</td>
+      </tr>
+      <tr>
+        <td>Aminoacizi esențiali EAA – 500 g</td><td class="num">21%</td><td class="num">185</td><td class="num">42,78</td>
+        <td class="num b grpL">107</td><td class="num">5,35</td><td class="num b high">58,87</td><td class="num high">55%</td><td class="num">55,66 / 52%</td>
+        <td class="num b grpL">99</td><td class="num high">51,27</td><td class="num high">52%</td>
+        <td class="num grpL">190</td><td class="num">50,02</td><td class="num">47%</td>
+      </tr>
+      <tr>
+        <td>Vitamina D3 + K2 – 80 capsule</td><td class="num">21%</td><td class="num">80</td><td class="num">14,88</td>
+        <td class="num b grpL">46</td><td class="num">2,30</td><td class="num b high">28,82</td><td class="num high">63%</td><td class="num">27,44 / 60%</td>
+        <td class="num b grpL">43</td><td class="num high">25,97</td><td class="num high">60%</td>
+        <td class="num grpL">82</td><td class="num">21,77</td><td class="num">47%</td>
+      </tr>
+      <tr class="tot"><td>Total coș (1 buc. din fiecare)</td><td></td><td></td><td class="num">2.773,67</td><td class="num grpL">4.481,00</td><td class="num">224,05</td><td class="num">1.483,28</td><td class="num">33%</td><td class="num">1.348,85 / 30%</td><td class="num grpL">4.177,00</td><td class="num">1.194,48</td><td class="num">29%</td><td class="grpL" colspan="3"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="concl">
+    <b>Concluzii (26.10.2026)</b>
+    <ol>
+      <li><b>Toate cele 55 de produse sunt rentabile</b> și la listă, și la minim: nimic sub 15 % profit după comision (regula din Anexa 3); după transport, cele mai slabe rămân la 17 %.</li>
+      <li><b>Marjele cele mai subțiri în lei</b> (roșu): Instant Oat Cream 8,53, prosop 9,10, cremă de orez 12,14, unt de migdale 14,50, unt de caju 14,55 lei pe bucată. Sunt produse de completare a comenzii, nu de profit.</li>
+      <li><b>Banii vin din produsele mari</b>, chiar cu procent mic: Pure Isolate 78,97, Gainer 69,64, Prime Whey 2 kg 78,97 lei pe bucată la listă. Prime Whey 1 kg, cel mai vândut, lasă 28,76 lei la listă și 20,21 la minim: agentul nu coboară sub listă decât la volume reale.</li>
+      <li><b>Unt de caju și unt de migdale</b> sunt cazurile limită: 20–21 % pentru Prime și doar 14–21 % pentru partener, pentru că prețul de site e mic față de cost. Ori rămân „la cerere”, ori se urcă prețul de site.</li>
+      <li>Coloanele verzi (≥ 40 %) arată unde agentul are loc de negociere: capsule, creatină micronizată și Ready To Go, EAA, shot-uri, Fiber, batoane.</li>
+    </ol>
+  </div>
+  <p class="note">Sursa: agenti/PROFIT-B2B-2026-10-26.md (costuri Oblio pe NIR) și Anexa 3 din agenti/CONTRACT-AGENT-VANZARI-TRIF-2026-10-26.md; generat de agenti/build-rentabilitate-b2b.mjs.</p>
+</div>
+</body>
+</html>

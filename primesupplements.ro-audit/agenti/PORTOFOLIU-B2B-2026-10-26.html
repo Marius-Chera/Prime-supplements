@@ -1,0 +1,1215 @@
+﻿<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofoliu B2B – Prime Supplements</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --black: #111; --grey: #666; --line: #e3e3e3; --bg: #f6f6f6; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #fff; color: var(--black); font-family: Poppins, "Segoe UI", Arial, Helvetica, sans-serif; font-size: 13px; line-height: 1.5; }
+  img { display: block; max-width: 100%; }
+  .page { max-width: 1120px; margin: 0 auto; padding: 0 20px 30px; }
+  header { background: var(--black); color: #fff; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; border-bottom: 5px solid var(--red); border-radius: 0 0 6px 6px; }
+  header img { height: 42px; width: auto; }
+  header .meta { text-align: right; font-size: 11.5px; color: #ccc; line-height: 1.45; }
+  header .meta b { color: #fff; }
+  .hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: 24px; align-items: center; margin: 26px 0 10px; }
+  .hero img { width: 100%; height: 360px; object-fit: cover; border-radius: 8px; }
+  .kicker { color: var(--red); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 11.5px; margin: 0 0 6px; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0 0 12px; text-transform: uppercase; letter-spacing: .5px; }
+  h1 span { color: var(--red); }
+  .hero p { margin: 0 0 10px; font-size: 14px; }
+  h2 { font-size: 20px; text-transform: uppercase; letter-spacing: 1px; margin: 34px 0 6px; padding-left: 12px; border-left: 5px solid var(--red); }
+  .sub { color: var(--grey); margin: 0 0 14px; }
+  .why { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 14px 0 6px; }
+  .why div { background: var(--bg); border-top: 4px solid var(--red); padding: 12px 14px; border-radius: 0 0 6px 6px; }
+  .why b { display: block; text-transform: uppercase; font-size: 11px; letter-spacing: .8px; color: var(--red); margin-bottom: 4px; }
+  .arts { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .art { display: grid; grid-template-columns: 220px 1fr; gap: 14px; align-items: start; border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+  .art img { width: 220px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; background: #eee; }
+  .art h4 { margin: 0 0 4px; font-size: 14px; line-height: 1.3; }
+  .art p { margin: 0 0 6px; font-size: 12px; color: #333; }
+  .art a { font-size: 11px; color: var(--red); text-decoration: none; word-break: break-all; }
+  .grp h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 22px 0 10px; color: var(--black); background: var(--bg); padding: 7px 12px; border-left: 4px solid var(--red); }
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 12px; }
+  .keep { break-inside: avoid; page-break-inside: avoid; }
+  .card { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; background: #fff; }
+  .card .ph { background: #f2f2f2; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; }
+  .card .ph img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+  .card .cb { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .card h4 { margin: 0; font-size: 13px; line-height: 1.3; }
+  .card p { margin: 0; font-size: 11.5px; color: #333; flex: 1; }
+  .card .pr { font-size: 11.5px; border-top: 1px solid var(--line); padding-top: 7px; }
+  .card .pr .lbl { color: var(--grey); text-transform: uppercase; font-size: 9.5px; letter-spacing: .5px; }
+  .card .pr .sep { color: #bbb; margin: 0 4px; }
+  .card .pr small { color: var(--grey); }
+  .red { color: var(--red); }
+  .cond { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px 18px; background: var(--bg); padding: 12px 16px; border-left: 4px solid var(--red); margin: 0 0 16px; border-radius: 0 6px 6px 0; }
+  .cond div b { display: block; text-transform: uppercase; font-size: 10px; letter-spacing: .6px; color: var(--red); }
+  table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+  thead th { background: var(--black); color: #fff; text-align: left; padding: 8px 8px; font-size: 10px; text-transform: uppercase; letter-spacing: .5px; vertical-align: bottom; line-height: 1.25; }
+  thead th.num, td.num { text-align: right; white-space: nowrap; }
+  tbody td { padding: 5px 8px; border-bottom: 1px solid var(--line); }
+  tbody tr.grp td { background: #eee; font-weight: 700; text-transform: uppercase; font-size: 10.5px; letter-spacing: .5px; padding-top: 7px; }
+  td.b { font-weight: 700; color: var(--red); }
+  td.raft { font-weight: 600; }
+  td.pct { font-weight: 700; }
+  td.tva { color: var(--grey); font-size: 10.5px; }
+  td s { color: var(--black); }
+  .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; font-size: 11px; color: #333; margin: 12px 0 0; }
+  .legend b { color: var(--black); }
+  .note { margin-top: 10px; color: var(--grey); font-size: 10.5px; }
+  footer { margin-top: 26px; background: var(--black); color: #ddd; padding: 14px 20px; font-size: 11.5px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; border-radius: 6px; }
+  footer b { color: #fff; }
+  @media print {
+    @page { size: A4; margin: 9mm; }
+    html, body { font-size: 10.5px; }
+    .page { max-width: none; padding: 0; }
+    header, footer, thead th, tr.grp td, .why div, .cond, .grp h3 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .hero { grid-template-columns: 1fr 1fr; }
+    .hero img { height: 250px; }
+    .cards { grid-template-columns: repeat(4, 1fr); }
+    .card, .art, .why div, tr { break-inside: avoid; page-break-inside: avoid; }
+    .grp h3, h2 { break-after: avoid; page-break-after: avoid; }
+    .card .ph img { mix-blend-mode: normal; }
+    .card .ph { background: #fff; }
+    /* imaginile vin deja decupate de pe CDN (crop=center), ca PDF-ul să păstreze JPEG-ul original */
+    .hero img, .art img, .card .ph img { object-fit: fill; border-radius: 0; }
+    .pb { break-before: page; page-break-before: always; }
+    thead { display: table-header-group; }
+    a { color: inherit; text-decoration: none; }
+  }
+  @media screen and (max-width: 900px) {
+    .hero, .why, .cond { grid-template-columns: 1fr; }
+    .hero img { height: 240px; }
+    .art { grid-template-columns: 1fr; }
+    .art img { width: 100%; }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    header { flex-direction: column; align-items: flex-start; }
+    header .meta { text-align: left; }
+    .legend { grid-template-columns: 1fr; }
+  }
+  @media screen and (max-width: 520px) { .cards { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <img src="https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-site-alb.svg?v=1747640243" alt="Prime Supplements">
+    <div class="meta"><b>PRIME SPORT SUPPLEMENTS SRL</b> · CUI 46260823<br>Cisnădie, Str. Ioan Virgil Ispas 17A, jud. Sibiu<br>0775 286 584 · contact@primesupplements.ro · primesupplements.ro</div>
+  </header>
+
+  <section class="hero">
+    <img src="PORTOFOLIU-B2B-2026-10-26-img/hero.jpg" alt="Sportivă pregătindu-și micul dejun cu Prime Whey">
+    <div>
+      <p class="kicker">Portofoliu de prezentare pentru parteneri</p>
+      <h1>Suplimente <span>Prime</span> pentru sala, magazinul sau cabinetul tău</h1>
+      <p>Prime Supplements este un brand românesc de suplimente sportive, din Sibiu. Produsele sunt fabricate în Uniunea Europeană și acoperă tot ce cere un client de sală: proteine, creatină, aminoacizi, pre-workout, arzătoare, vitamine și minerale, alimente funcționale și accesorii.</p>
+      <p>Vindem online pe primesupplements.ro și, prin agentul nostru de vânzări, sălilor de fitness, magazinelor și cabinetelor care vor un raft cu produse de calitate, marjă clară și livrare rapidă.</p>
+      <p><b>55 produse</b> în lista B2B · livrare Cargus în 1–2 zile lucrătoare · raft și materiale de prezentare gratuite pentru parteneri.</p>
+    </div>
+  </section>
+
+  <h2>De ce Prime pentru afacerea ta</h2>
+  <div class="why">
+    <div><b>Marjă clară</b>Cumperi la prețul B2B, vinzi la prețul recomandat de raft (prețul de pe site + 2–3 %). Profitul fiecărui produs e în tabelul de la final.</div>
+    <div><b>Raft și materiale gratuite</b>Stand/raft Prime, pliante, afișe și mostre pentru degustare, în limita stocului. Agentul vizitează lunar sălile partenere.</div>
+    <div><b>Livrare rapidă</b>Comandă minimă 500 lei fără TVA; transport gratuit prin Cargus de la 1.000 lei fără TVA; livrare în 1–2 zile lucrătoare.</div>
+    <div><b>Un singur furnizor</b>Peste 50 de produse, de la proteină și creatină la vitamine și batoane. Un raft complet dintr-o singură comandă.</div>
+    <div><b>Brand vizibil</b>Site cu peste 100 de articole de blog, rețele sociale active, ședințe foto profesionale pe care le poți folosi în sală.</div>
+    <div><b>Facturare simplă</b>Factură fiscală emisă de Prime Sport Supplements SRL (Oblio); avans sau ramburs la primele comenzi, apoi termen de plată de 14 zile.</div>
+  </div>
+
+  <h2>Din blogul Prime</h2>
+  <p class="sub">Peste 100 de articole pe primesupplements.ro/blogs/news explică fiecare produs, doza și momentul administrării, doar cu mențiuni autorizate în UE. Partenerii pot trimite clienților linkul articolului în loc să explice ei la recepție. Câteva exemple:</p>
+  <div class="arts">
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-0.jpg" alt="Câtă proteină pe zi: calcul pe greutate și obiectiv"><div><h4>Câtă proteină pe zi: calcul pe greutate și obiectiv</h4><p>Un adult sedentar are nevoie de circa 0,8 g de proteine pe kilogram corp pe zi; cine se antrenează cu greutăți ajunge la 1,6–2,2 g/kg. Calculul e simplu: greutatea înmulțită cu ținta, împărțită pe 3–5 mese. Pudra proteică acoperă doar diferența care lipsește din mâncare – argumentul cu care recomanzi Prime Whey la raft.</p><a href="https://primesupplements.ro/blogs/news/cata-proteina-trebuie-zi-calcul-greutate-obiectiv">primesupplements.ro/blogs/news/cata-proteina-trebuie-zi-calcul-greutate-obiectiv</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-1.jpg" alt="Izolat vs concentrat proteic: merită diferența de preț?"><div><h4>Izolat vs concentrat proteic: merită diferența de preț?</h4><p>Izolatul are mai multe proteine și mai puțini carbohidrați și grăsimi la 100 g: Pure Isolate ajunge la 87 g proteine la 100 g și sub 1 g carbohidrați. Concentratul (Prime Whey) rămâne alegerea bună pentru buget, dacă lactatele sunt tolerate. Ambele se pot combina: izolatul după antrenament, concentratul în restul zilei.</p><a href="https://primesupplements.ro/blogs/news/izolat-vs-concentrat-proteic">primesupplements.ro/blogs/news/izolat-vs-concentrat-proteic</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-2.jpg" alt="Creapure® vs creatină monohidrată obișnuită: ce diferă"><div><h4>Creapure® vs creatină monohidrată obișnuită: ce diferă</h4><p>Creapure® este o marcă înregistrată de creatină monohidrată produsă în Germania; molecula și mențiunea autorizată în UE (3 g pe zi cresc performanța în eforturi scurte și intense) sunt aceleași. Diferențele se citesc pe etichetă: ingredientul declarat, doza, porțiile. Prime are ambele: Creapure® (300 și 500 g) și creatina micronizată de 300 g, la preț mai mic.</p><a href="https://primesupplements.ro/blogs/news/creapure-vs-creatina-monohidrata-obisnuita">primesupplements.ro/blogs/news/creapure-vs-creatina-monohidrata-obisnuita</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-3.jpg" alt="Când se ia creatina: înainte sau după antrenament?"><div><h4>Când se ia creatina: înainte sau după antrenament?</h4><p>Eticheta nu fixează un moment: contează doza zilnică (3–5 g la Creapure®), luată și în zilele fără antrenament. Cel mai bun moment este cel pe care clientul îl poate respecta zi de zi, cu apă sau în shake. Articolul dă trei rutine simple și cele cinci greșeli frecvente.</p><a href="https://primesupplements.ro/blogs/news/cand-se-ia-creatina-inainte-sau-dupa-antrenament">primesupplements.ro/blogs/news/cand-se-ia-creatina-inainte-sau-dupa-antrenament</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-4.jpg" alt="Gainer: ce este, cum funcționează și cine are nevoie de el"><div><h4>Gainer: ce este, cum funcționează și cine are nevoie de el</h4><p>Gainerul este o pudră cu proteine și carbohidrați pentru cei care nu reușesc să mănânce destule calorii. Se adaugă la mese, nu le înlocuiește. Pe etichetă contează proteina la 100 g și zaharurile: Emperor Mass are 39,7 g proteine la 100 g, raport aproape 1:1 cu carbohidrații, față de 15–25 % la gainerele obișnuite.</p><a href="https://primesupplements.ro/blogs/news/gainer-ce-este-cum-functioneaza-cine-are-nevoie">primesupplements.ro/blogs/news/gainer-ce-este-cum-functioneaza-cine-are-nevoie</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-5.jpg" alt="Magneziul la sportivi: cât iei și ce verifici pe etichetă"><div><h4>Magneziul la sportivi: cât iei și ce verifici pe etichetă</h4><p>Magneziul se alege după forma lui, cantitatea pe doza zilnică și procentul din VNR, nu după cifra mare de pe față. La Magneziul bisglicinat Prime Health, doza este 3 capsule pe zi (un flacon ajunge cam 26 de zile) și contribuie la funcționarea normală a sistemului muscular.</p><a href="https://primesupplements.ro/blogs/news/magneziu-sportivi-cat-iei-eticheta">primesupplements.ro/blogs/news/magneziu-sportivi-cat-iei-eticheta</a></div></article>
+    <article class="art"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/blog-6.jpg" alt="Vitamina D iarna: de ce scade și cum o menții"><div><h4>Vitamina D iarna: de ce scade și cum o menții</h4><p>Pielea produce vitamina D doar la soare, iar din noiembrie până în februarie soarele e prea jos. Nivelul real îl arată o analiză. Pe eticheta Vitamina D3 + K2 Prime, doza este o capsulă o dată la 2 zile, la o masă cu grăsimi. Produsul cu cea mai mare căutare din sezonul rece.</p><a href="https://primesupplements.ro/blogs/news/vitamina-d-iarna-scade-mentii">primesupplements.ro/blogs/news/vitamina-d-iarna-scade-mentii</a></div></article>
+  </div>
+
+  <h2>Produsele Prime</h2>
+  <p class="sub">55 produse din lista B2B, pe categorii. Prețul de site este prețul întreg de pe primesupplements.ro; prețul B2B este în lei, fără TVA.</p>
+  
+<section class="grp">
+  <div class="keep"><h3>Proteine și gainer</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-prime-whey-1000g.jpg" alt="Prime Whey – proteină din zer, 1 kg"></div>
+      <div class="cb">
+        <h4>Prime Whey – proteină din zer, 1 kg</h4>
+        <p>Concentrat proteic din zer, 33 de porții, 7 arome. Cel mai vândut produs Prime, baza oricărui raft de sală.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>215 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">142 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-prime-whey-2000g.jpg" alt="Prime Whey – proteină din zer, 2 kg"></div>
+      <div class="cb">
+        <h4>Prime Whey – proteină din zer, 2 kg</h4>
+        <p>Același Prime Whey în tubul mare de 2 kg, 66 de porții, cel mai bun preț pe porție pentru clienții fideli.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>390 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">274 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-pure-isolate-2000g.jpg" alt="Izolat proteic Pure Isolate – 2 kg"></div>
+      <div class="cb">
+        <h4>Izolat proteic Pure Isolate – 2 kg</h4>
+        <p>Izolat proteic din zer, cu conținut redus de lactoză, carbohidrați și grăsimi. Pentru definire și clienții pretențioși.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>510 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">391 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-prime-whey-go.jpg" alt="Prime Whey Go – cutie 15 plicuri x 30 g"></div>
+      <div class="cb">
+        <h4>Prime Whey Go – cutie 15 plicuri x 30 g</h4>
+        <p>Prime Whey la plic de 30 g, porție unică. Ideal la recepție, pentru vânzare la bucată sau ca mostră.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>150 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">87 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-emperor-mass_3000g.jpg" alt="Gainer Emperor Mass – 3 kg"></div>
+      <div class="cb">
+        <h4>Gainer Emperor Mass – 3 kg</h4>
+        <p>Gainer cu 40 % proteină, carbohidrați și creatină, 3 kg. Pentru clienții care vor masă și nu reușesc să mănânce destul.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>390 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">299 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div>
+</section>
+<section class="grp">
+  <div class="keep"><h3>Creatină</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-creatina-creapure.jpg" alt="Creatină Creapure® – 500 g"></div>
+      <div class="cb">
+        <h4>Creatină Creapure® – 500 g</h4>
+        <p>Creatină monohidrată Creapure®, produsă în Germania, 100 de porții de 5 g. Cel mai cunoscut brand de creatină din lume.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>180 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">104 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-creatina-creapure-300.jpg" alt="Creatină Creapure® – 300 g"></div>
+      <div class="cb">
+        <h4>Creatină Creapure® – 300 g</h4>
+        <p>Aceeași creatină Creapure®, în tubul de 300 g (60 de porții), la un preț de intrare mai mic.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>115 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">67 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-creatina-monohidrat-micronized-300g-fara-aroma.jpg" alt="Creatină monohidrată micronizată – 300 g"></div>
+      <div class="cb">
+        <h4>Creatină monohidrată micronizată – 300 g</h4>
+        <p>Creatină monohidrată micronizată, fără aromă, 60 de porții. Varianta accesibilă, cu cea mai bună marjă la raft.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>98 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">57 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-creatine-ready-to-go-plicuri-prime-supplements.jpg" alt="Creatină Ready To Go – cutie 25 plicuri x 10 g"></div>
+      <div class="cb">
+        <h4>Creatină Ready To Go – cutie 25 plicuri x 10 g</h4>
+        <p>Creatină efervescentă la plic, cu aromă, 25 de plicuri. Se vinde și la bucată, direct la recepție.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>110 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">64 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  
+</section>
+<section class="grp">
+  <div class="keep"><h3>Aminoacizi</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-eaa-aminoacizi-esentiali.jpg" alt="Aminoacizi esențiali EAA – 500 g"></div>
+      <div class="cb">
+        <h4>Aminoacizi esențiali EAA – 500 g</h4>
+        <p>Toți cei 9 aminoacizi esențiali, pudră aromată, 83 de porții. Pentru antrenament și recuperare.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>185 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">107 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-recovery-bcaa-500g.jpg" alt="Recovery BCAA 4:1:1 – 500 g"></div>
+      <div class="cb">
+        <h4>Recovery BCAA 4:1:1 – 500 g</h4>
+        <p>BCAA în raport 4:1:1, pudră aromată, 62 de porții. Produsul clasic de recuperare, cerut de clienți.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>150 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">87 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-recovery-glutamin.jpg" alt="L-glutamină Kyowa® – 500 g"></div>
+      <div class="cb">
+        <h4>L-glutamină Kyowa® – 500 g</h4>
+        <p>L-glutamină Kyowa Quality®, materie primă japoneză, 100 de porții de 5 g, cu sau fără aromă.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>175 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">101 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  
+</section>
+<section class="grp">
+  <div class="keep"><h3>Pre-workout, intra-workout și shot-uri</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-nitrox.jpg" alt="Pre-workout Nitrox 3D – 500 g"></div>
+      <div class="cb">
+        <h4>Pre-workout Nitrox 3D – 500 g</h4>
+        <p>Pre-workout complet cu cafeină, citrulină, beta-alanină și creatină, 500 g, 4 arome. Cel mai cerut pre-workout Prime.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>190 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">110 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-nitrox-no-stim.jpg" alt="Pre-workout Nitrox No-Stim – 660 g"></div>
+      <div class="cb">
+        <h4>Pre-workout Nitrox No-Stim – 660 g</h4>
+        <p>Pre-workout fără stimulente, pentru antrenamentele de seară și clienții sensibili la cafeină. 660 g.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>205 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">119 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-combat-pro.jpg" alt="Pre-workout Combat Pro – 500 g"></div>
+      <div class="cb">
+        <h4>Pre-workout Combat Pro – 500 g</h4>
+        <p>Pre-workout cu cafeină, formulă echilibrată, 500 g, 4 arome. Alternativa accesibilă la Nitrox 3D.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>170 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">98 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-combat-pro-2-0-660g-30-serv.jpg" alt="Pre-workout Combat Pro 2.0 – 660 g"></div>
+      <div class="cb">
+        <h4>Pre-workout Combat Pro 2.0 – 660 g</h4>
+        <p>Versiunea concentrată, 660 g, 30 de porții mari. Pentru sportivii avansați.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>205 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">136 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-cluster-bomb-1000g.jpg" alt="Cluster Bomb intra-workout – 1 kg"></div>
+      <div class="cb">
+        <h4>Cluster Bomb intra-workout – 1 kg</h4>
+        <p>Carbohidrați Cluster Dextrin® cu electroliți, 1 kg. Pentru antrenamentele lungi și sporturile de anduranță.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>220 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">127 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-glycerol-max-pump-500g-125-serv.jpg" alt="Glycerol Max Pump – 500 g"></div>
+      <div class="cb">
+        <h4>Glycerol Max Pump – 500 g</h4>
+        <p>Monostearat de glicerol pudră, 125 de porții. Se combină cu orice pre-workout.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>110 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">64 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-energy-pump.jpg" alt="Energy Pump Shot – cutie 20 x 25 ml"></div>
+      <div class="cb">
+        <h4>Energy Pump Shot – cutie 20 x 25 ml</h4>
+        <p>Pre-workout lichid în fiolă de 25 ml, cutie de 20. Se vinde la bucată la recepție, înainte de antrenament.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>190 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">110 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-fat-burning-booster.jpg" alt="Fat Burning Booster Shot – cutie 20 x 25 ml"></div>
+      <div class="cb">
+        <h4>Fat Burning Booster Shot – cutie 20 x 25 ml</h4>
+        <p>Shot lichid cu L-carnitină și cafeină, 25 ml, cutie de 20. Produs de impuls, rotație rapidă la frigiderul sălii.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>170 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">98 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div>
+</section>
+<section class="grp">
+  <div class="keep"><h3>Arzătoare și definire</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-thermo-core-120-caps.jpg" alt="Thermo Core – 120 capsule"></div>
+      <div class="cb">
+        <h4>Thermo Core – 120 capsule</h4>
+        <p>Capsule cu L-carnitină, ceai verde și cafeină, 120 de capsule (60 de porții).</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>115 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">67 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-water-out-120-caps.jpg" alt="Water Out – 120 capsule"></div>
+      <div class="cb">
+        <h4>Water Out – 120 capsule</h4>
+        <p>Extracte din plante (păpădie, urzică, coada-calului) în capsule, 120 de capsule. Cerut în perioadele de definire.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>115 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">67 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-water-out-500-ml.jpg" alt="Water Out tinctură – 500 ml"></div>
+      <div class="cb">
+        <h4>Water Out tinctură – 500 ml</h4>
+        <p>Aceeași formulă din plante, ca tinctură de 500 ml, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>73 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">42 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-l-carnitine-1000-80-caps.jpg" alt="L-carnitină 1000 – 80 capsule"></div>
+      <div class="cb">
+        <h4>L-carnitină 1000 – 80 capsule</h4>
+        <p>L-carnitină 1000 mg per capsulă, 80 de capsule. Unul dintre cele mai căutate suplimente la sală.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>100 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">58 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  
+</section>
+<section class="grp">
+  <div class="keep"><h3>Vitamine, minerale și plante</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-fiber-blood-orange.jpg" alt="Fiber – băutură cu fibre, 500 g"></div>
+      <div class="cb">
+        <h4>Fiber – băutură cu fibre, 500 g</h4>
+        <p>Băutură cu fibre solubile, aromă de portocală roșie, 50 de porții.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>130 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">82 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-daily-vitamin-formula.jpg" alt="Daily Vitamin Formula – 30 plicuri"></div>
+      <div class="cb">
+        <h4>Daily Vitamin Formula – 30 plicuri</h4>
+        <p>Multivitamine și minerale la plic, 30 de plicuri (o lună). Se vinde și la bucată.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>160 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">93 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-complete-collagen.jpg" alt="Complete Collagen lichid – 500 ml"></div>
+      <div class="cb">
+        <h4>Complete Collagen lichid – 500 ml</h4>
+        <p>Colagen hidrolizat lichid, 500 ml, gama Prime Health. Cerut de clientele sălilor și de persoanele active peste 40 de ani.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>165 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">102 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-omega-3.jpg" alt="Omega-3 – 80 capsule"></div>
+      <div class="cb">
+        <h4>Omega-3 – 80 capsule</h4>
+        <p>Ulei de pește cu EPA și DHA, 80 de capsule. Produs de bază, cu rotație constantă tot anul.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>69 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">40 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-vitamina-d3-k2.jpg" alt="Vitamina D3 + K2 – 80 capsule"></div>
+      <div class="cb">
+        <h4>Vitamina D3 + K2 – 80 capsule</h4>
+        <p>Vitamina D3 2000 UI cu K2, 80 de capsule. Cel mai căutat produs din toamnă până în primăvară.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>80 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">46 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-vitamin-c-1000-80-caps.jpg" alt="Vitamina C 1000 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>Vitamina C 1000 mg – 80 capsule</h4>
+        <p>Vitamina C 1000 mg, 80 de capsule. Preț mic, vânzare ușoară la recepție.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>59 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">34 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-magneziu-bisglicinat-80-caps.jpg" alt="Magneziu bisglicinat 300 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>Magneziu bisglicinat 300 mg – 80 capsule</h4>
+        <p>Magneziu bisglicinat (forma chelatată, bine tolerată), 80 de capsule, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>90 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">52 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-magnesium-citrate-80-caps.jpg" alt="Citrat de magneziu – 80 capsule"></div>
+      <div class="cb">
+        <h4>Citrat de magneziu – 80 capsule</h4>
+        <p>Citrat de magneziu, 80 de capsule. Varianta accesibilă de magneziu.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>70 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">40 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-zinc-citrate-80-caps.jpg" alt="Citrat de zinc 40 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>Citrat de zinc 40 mg – 80 capsule</h4>
+        <p>Citrat de zinc 40 mg, 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>55 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">32 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-potassium-complex-80-caps.jpg" alt="Potassium Complex – 80 capsule"></div>
+      <div class="cb">
+        <h4>Potassium Complex – 80 capsule</h4>
+        <p>Potasiu și magneziu în capsule, 80 de capsule. Pentru electroliți și perioadele cu transpirație intensă.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>67 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">39 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-supliment-alimentar-chromium-picolinate-80-caps.jpg" alt="Picolinat de crom – 80 capsule"></div>
+      <div class="cb">
+        <h4>Picolinat de crom – 80 capsule</h4>
+        <p>Picolinat de crom 200 µg, 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>60 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">35 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-nac-80-caps.jpg" alt="NAC 500 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>NAC 500 mg – 80 capsule</h4>
+        <p>N-acetilcisteină 500 mg, 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>85 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">49 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-taurine-80-caps.jpg" alt="Taurină 1000 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>Taurină 1000 mg – 80 capsule</h4>
+        <p>Taurină 1000 mg, 80 de capsule. Preț mic, produs de completare.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>50 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">29 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-coenzima-q10-80-caps.jpg" alt="Coenzima Q10 200 mg – 80 capsule"></div>
+      <div class="cb">
+        <h4>Coenzima Q10 200 mg – 80 capsule</h4>
+        <p>Coenzima Q10 200 mg per capsulă, 80 de capsule, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>95 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">55 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-ashwagandha-ksm-66.jpg" alt="Ashwagandha KSM-66 – 80 capsule"></div>
+      <div class="cb">
+        <h4>Ashwagandha KSM-66 – 80 capsule</h4>
+        <p>Extract de ashwagandha KSM-66® (cel mai studiat extract), 80 de capsule vegetale, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>80 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">46 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-citrus-bergamot.jpg" alt="Citrus Bergamot – 80 capsule"></div>
+      <div class="cb">
+        <h4>Citrus Bergamot – 80 capsule</h4>
+        <p>Extract de bergamotă Bergamonte® 500 mg, 80 de capsule vegetale, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>160 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">99 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-turmeric-extract-80-caps.jpg" alt="Turmeric cu piperină – 80 capsule"></div>
+      <div class="cb">
+        <h4>Turmeric cu piperină – 80 capsule</h4>
+        <p>Extract de turmeric cu piperină (pentru absorbție), 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>95 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">55 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-silimarina-80-caps.jpg" alt="Silimarină – 80 capsule"></div>
+      <div class="cb">
+        <h4>Silimarină – 80 capsule</h4>
+        <p>Extract de silimarină (armurariu), 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>100 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">58 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-spirulina-80-caps.jpg" alt="Spirulină – 80 capsule"></div>
+      <div class="cb">
+        <h4>Spirulină – 80 capsule</h4>
+        <p>Spirulină în capsule, 80 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>75 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">43 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-enzima-nattokinaza-80-caps.jpg" alt="Nattokinază – 60 capsule"></div>
+      <div class="cb">
+        <h4>Nattokinază – 60 capsule</h4>
+        <p>Enzimă nattokinază 100 mg, 60 de capsule.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>60 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">35 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-testo-revive-500-ml.jpg" alt="Testo Revive tinctură – 500 ml"></div>
+      <div class="cb">
+        <h4>Testo Revive tinctură – 500 ml</h4>
+        <p>Tinctură din plante (tribulus, maca, ginseng), 500 ml, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>73 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">42 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-cardio-calm-500-ml.jpg" alt="Cardio Calm tinctură – 500 ml"></div>
+      <div class="cb">
+        <h4>Cardio Calm tinctură – 500 ml</h4>
+        <p>Tinctură din plante (păducel, valeriană, roiniță), 500 ml, gama Prime Health.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>73 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">42 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-scortisoara-ceylon-bio-200g.jpg" alt="Scorțișoară Ceylon bio – 200 g"></div>
+      <div class="cb">
+        <h4>Scorțișoară Ceylon bio – 200 g</h4>
+        <p>Scorțișoară de Ceylon pudră, certificată bio, 200 g.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>55 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">35 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div>
+</section>
+<section class="grp">
+  <div class="keep"><h3>Alimente funcționale</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="Batoane proteice – cutie 12 x 55 g"></div>
+      <div class="cb">
+        <h4>Batoane proteice – cutie 12 x 55 g</h4>
+        <p>Prime Delicious Bar, baton proteic de 55 g, 4 arome, cutie de 12. Produsul de impuls numărul 1 la recepție.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>155 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">98 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-crema-de-orez-tort-de-ciocolata.jpg" alt="Cremă de orez Creamy Rice – 1 kg"></div>
+      <div class="cb">
+        <h4>Cremă de orez Creamy Rice – 1 kg</h4>
+        <p>Cremă de orez pregelatinizată, 1 kg, 22 de porții, 7 arome. Micul dejun și masa de dinainte de antrenament, gata în 1 minut.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>65 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">50 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-instant-oat-cream-800g-25-serv.jpg" alt="Instant Oat Cream – 800 g"></div>
+      <div class="cb">
+        <h4>Instant Oat Cream – 800 g</h4>
+        <p>Cremă de ovăz instant, 800 g, 25 de porții.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>65 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">41 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-unt-de-arahide.jpg" alt="Unt de arahide Prime Health – 600 g"></div>
+      <div class="cb">
+        <h4>Unt de arahide Prime Health – 600 g</h4>
+        <p>Unt de arahide 100 %, fără zahăr și ulei de palmier, 600 g.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>50 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">32 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-unt-de-migdale.jpg" alt="Unt de migdale Prime Health – 600 g"></div>
+      <div class="cb">
+        <h4>Unt de migdale Prime Health – 600 g</h4>
+        <p>Unt de migdale 100 %, 600 g.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>92 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">70 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-unt-de-caju.jpg" alt="Unt de caju Prime Health – 600 g"></div>
+      <div class="cb">
+        <h4>Unt de caju Prime Health – 600 g</h4>
+        <p>Unt de caju 100 %, 600 g.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>90 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">73 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div>
+</section>
+<section class="grp">
+  <div class="keep"><h3>Accesorii Prime</h3>
+  <div class="cards">
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-prime-shaker-customised.jpg" alt="Shaker Prime 600 ml"></div>
+      <div class="cb">
+        <h4>Shaker Prime 600 ml</h4>
+        <p>Shaker Prime de 600 ml, negru transparent, cu logo. Accesoriul care duce brandul în sală.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>30 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">20 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article>
+    <article class="card">
+      <div class="ph"><img loading="lazy" src="PORTOFOLIU-B2B-2026-10-26-img/produs-prosop-negru.jpg" alt="Prosop de sală Prime"></div>
+      <div class="cb">
+        <h4>Prosop de sală Prime</h4>
+        <p>Prosop de sală negru, 50 x 100 cm, cu logo Prime brodat.</p>
+        <div class="pr"><span class="lbl">Preț site</span> <b>65 lei</b> <span class="sep">·</span> <span class="lbl">B2B</span> <b class="red">38 lei</b> <small>fără TVA</small></div>
+      </div>
+    </article></div></div>
+  
+</section>
+
+  <h2 class="pb">Lista de prețuri B2B</h2>
+  <p class="sub">Valabilă de la ____.____.2026 · prețuri în lei · prețul de site este prețul întreg (tăiat) de pe primesupplements.ro la 26.10.2026 · cota de TVA este trecută la fiecare produs</p>
+
+  <div class="cond">
+    <div><b>Comandă minimă</b>500 lei fără TVA</div>
+    <div><b>Transport</b>Gratuit prin Cargus de la 1.000 lei fără TVA; sub acest prag, la cost</div>
+    <div><b>Livrare</b>1–2 zile lucrătoare de la confirmare, în limita stocului</div>
+    <div><b>Plată</b>Avans sau ramburs la primele 3 comenzi; apoi factură cu termen de 14 zile</div>
+    <div><b>Facturare</b>Factură fiscală emisă de Prime Sport Supplements SRL (Oblio)</div>
+    <div><b>Comenzi</b>Prin agent (telefon/WhatsApp) sau la contact@primesupplements.ro · 0775 286 584</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Produs</th>
+        <th class="num">TVA</th>
+        <th class="num">Preț site<br>(cu TVA)</th>
+        <th class="num">Preț B2B<br>fără TVA</th>
+        <th class="num">Preț B2B<br>cu TVA</th>
+        <th class="num">Preț recomandat<br>la raft (cu TVA)</th>
+        <th class="num">Profit / buc.<br>(fără TVA)</th>
+        <th class="num">Profit %</th>
+      </tr>
+    </thead>
+    <tbody><tr class="grp"><td colspan="8">Proteine și gainer</td></tr>
+<tr>
+  <td>Prime Whey – proteină din zer, 1 kg</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>215</s></td>
+  <td class="num b">142</td>
+  <td class="num">171,82</td>
+  <td class="num raft">220</td>
+  <td class="num">39,82</td>
+  <td class="num pct">28%</td>
+</tr>
+<tr>
+  <td>Prime Whey – proteină din zer, 2 kg</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>390</s></td>
+  <td class="num b">274</td>
+  <td class="num">331,54</td>
+  <td class="num raft">400</td>
+  <td class="num">56,58</td>
+  <td class="num pct">21%</td>
+</tr>
+<tr>
+  <td>Izolat proteic Pure Isolate – 2 kg</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>510</s></td>
+  <td class="num b">391</td>
+  <td class="num">434,01</td>
+  <td class="num raft">523</td>
+  <td class="num">80,17</td>
+  <td class="num pct">21%</td>
+</tr>
+<tr>
+  <td>Prime Whey Go – cutie 15 plicuri x 30 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>150</s></td>
+  <td class="num b">87</td>
+  <td class="num">105,27</td>
+  <td class="num raft">154</td>
+  <td class="num">40,27</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Gainer Emperor Mass – 3 kg</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>390</s></td>
+  <td class="num b">299</td>
+  <td class="num">331,89</td>
+  <td class="num raft">400</td>
+  <td class="num">61,36</td>
+  <td class="num pct">21%</td>
+</tr><tr class="grp"><td colspan="8">Creatină</td></tr>
+<tr>
+  <td>Creatină Creapure® – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>180</s></td>
+  <td class="num b">104</td>
+  <td class="num">125,84</td>
+  <td class="num raft">184</td>
+  <td class="num">48,07</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Creatină Creapure® – 300 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>115</s></td>
+  <td class="num b">67</td>
+  <td class="num">81,07</td>
+  <td class="num raft">118</td>
+  <td class="num">30,52</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Creatină monohidrată micronizată – 300 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>98</s></td>
+  <td class="num b">57</td>
+  <td class="num">68,97</td>
+  <td class="num raft">100</td>
+  <td class="num">25,64</td>
+  <td class="num pct">45%</td>
+</tr>
+<tr>
+  <td>Creatină Ready To Go – cutie 25 plicuri x 10 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>110</s></td>
+  <td class="num b">64</td>
+  <td class="num">77,44</td>
+  <td class="num raft">113</td>
+  <td class="num">29,39</td>
+  <td class="num pct">46%</td>
+</tr><tr class="grp"><td colspan="8">Aminoacizi</td></tr>
+<tr>
+  <td>Aminoacizi esențiali EAA – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>185</s></td>
+  <td class="num b">107</td>
+  <td class="num">129,47</td>
+  <td class="num raft">190</td>
+  <td class="num">50,02</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Recovery BCAA 4:1:1 – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>150</s></td>
+  <td class="num b">87</td>
+  <td class="num">105,27</td>
+  <td class="num raft">154</td>
+  <td class="num">40,27</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>L-glutamină Kyowa® – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>175</s></td>
+  <td class="num b">101</td>
+  <td class="num">122,21</td>
+  <td class="num raft">179</td>
+  <td class="num">46,93</td>
+  <td class="num pct">46%</td>
+</tr><tr class="grp"><td colspan="8">Pre-workout, intra-workout și shot-uri</td></tr>
+<tr>
+  <td>Pre-workout Nitrox 3D – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>190</s></td>
+  <td class="num b">110</td>
+  <td class="num">133,10</td>
+  <td class="num raft">195</td>
+  <td class="num">51,16</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Pre-workout Nitrox No-Stim – 660 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>205</s></td>
+  <td class="num b">119</td>
+  <td class="num">143,99</td>
+  <td class="num raft">210</td>
+  <td class="num">54,55</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Pre-workout Combat Pro – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>170</s></td>
+  <td class="num b">98</td>
+  <td class="num">118,58</td>
+  <td class="num raft">174</td>
+  <td class="num">45,80</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Pre-workout Combat Pro 2.0 – 660 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>205</s></td>
+  <td class="num b">136</td>
+  <td class="num">164,56</td>
+  <td class="num raft">210</td>
+  <td class="num">37,55</td>
+  <td class="num pct">28%</td>
+</tr>
+<tr>
+  <td>Cluster Bomb intra-workout – 1 kg</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>220</s></td>
+  <td class="num b">127</td>
+  <td class="num">153,67</td>
+  <td class="num raft">225</td>
+  <td class="num">58,95</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Glycerol Max Pump – 500 g</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>110</s></td>
+  <td class="num b">64</td>
+  <td class="num">77,44</td>
+  <td class="num raft">113</td>
+  <td class="num">29,39</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Energy Pump Shot – cutie 20 x 25 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>190</s></td>
+  <td class="num b">110</td>
+  <td class="num">133,10</td>
+  <td class="num raft">195</td>
+  <td class="num">51,16</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Fat Burning Booster Shot – cutie 20 x 25 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>170</s></td>
+  <td class="num b">98</td>
+  <td class="num">118,58</td>
+  <td class="num raft">174</td>
+  <td class="num">45,80</td>
+  <td class="num pct">47%</td>
+</tr><tr class="grp"><td colspan="8">Arzătoare și definire</td></tr>
+<tr>
+  <td>Thermo Core – 120 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>115</s></td>
+  <td class="num b">67</td>
+  <td class="num">81,07</td>
+  <td class="num raft">118</td>
+  <td class="num">30,52</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Water Out – 120 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>115</s></td>
+  <td class="num b">67</td>
+  <td class="num">81,07</td>
+  <td class="num raft">118</td>
+  <td class="num">30,52</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Water Out tinctură – 500 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>73</s></td>
+  <td class="num b">42</td>
+  <td class="num">50,82</td>
+  <td class="num raft">75</td>
+  <td class="num">19,98</td>
+  <td class="num pct">48%</td>
+</tr>
+<tr>
+  <td>L-carnitină 1000 – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>100</s></td>
+  <td class="num b">58</td>
+  <td class="num">70,18</td>
+  <td class="num raft">102</td>
+  <td class="num">26,30</td>
+  <td class="num pct">45%</td>
+</tr><tr class="grp"><td colspan="8">Vitamine, minerale și plante</td></tr>
+<tr>
+  <td>Fiber – băutură cu fibre, 500 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>130</s></td>
+  <td class="num b">82</td>
+  <td class="num">91,02</td>
+  <td class="num raft">133</td>
+  <td class="num">37,82</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Daily Vitamin Formula – 30 plicuri</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>160</s></td>
+  <td class="num b">93</td>
+  <td class="num">112,53</td>
+  <td class="num raft">164</td>
+  <td class="num">42,54</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Complete Collagen lichid – 500 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>165</s></td>
+  <td class="num b">102</td>
+  <td class="num">123,42</td>
+  <td class="num raft">169</td>
+  <td class="num">37,67</td>
+  <td class="num pct">37%</td>
+</tr>
+<tr>
+  <td>Omega-3 – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>69</s></td>
+  <td class="num b">40</td>
+  <td class="num">48,40</td>
+  <td class="num raft">71</td>
+  <td class="num">18,68</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Vitamina D3 + K2 – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>80</s></td>
+  <td class="num b">46</td>
+  <td class="num">55,66</td>
+  <td class="num raft">82</td>
+  <td class="num">21,77</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Vitamina C 1000 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>59</s></td>
+  <td class="num b">34</td>
+  <td class="num">41,14</td>
+  <td class="num raft">60</td>
+  <td class="num">15,59</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Magneziu bisglicinat 300 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>90</s></td>
+  <td class="num b">52</td>
+  <td class="num">62,92</td>
+  <td class="num raft">92</td>
+  <td class="num">24,03</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Citrat de magneziu – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>70</s></td>
+  <td class="num b">40</td>
+  <td class="num">48,40</td>
+  <td class="num raft">72</td>
+  <td class="num">19,50</td>
+  <td class="num pct">49%</td>
+</tr>
+<tr>
+  <td>Citrat de zinc 40 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>55</s></td>
+  <td class="num b">32</td>
+  <td class="num">38,72</td>
+  <td class="num raft">56</td>
+  <td class="num">14,28</td>
+  <td class="num pct">45%</td>
+</tr>
+<tr>
+  <td>Potassium Complex – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>67</s></td>
+  <td class="num b">39</td>
+  <td class="num">47,19</td>
+  <td class="num raft">69</td>
+  <td class="num">18,02</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Picolinat de crom – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>60</s></td>
+  <td class="num b">35</td>
+  <td class="num">42,35</td>
+  <td class="num raft">61</td>
+  <td class="num">15,41</td>
+  <td class="num pct">44%</td>
+</tr>
+<tr>
+  <td>NAC 500 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>85</s></td>
+  <td class="num b">49</td>
+  <td class="num">59,29</td>
+  <td class="num raft">87</td>
+  <td class="num">22,90</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Taurină 1000 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>50</s></td>
+  <td class="num b">29</td>
+  <td class="num">35,09</td>
+  <td class="num raft">51</td>
+  <td class="num">13,15</td>
+  <td class="num pct">45%</td>
+</tr>
+<tr>
+  <td>Coenzima Q10 200 mg – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>95</s></td>
+  <td class="num b">55</td>
+  <td class="num">66,55</td>
+  <td class="num raft">97</td>
+  <td class="num">25,17</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Ashwagandha KSM-66 – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>80</s></td>
+  <td class="num b">46</td>
+  <td class="num">55,66</td>
+  <td class="num raft">82</td>
+  <td class="num">21,77</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Citrus Bergamot – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>160</s></td>
+  <td class="num b">99</td>
+  <td class="num">119,79</td>
+  <td class="num raft">164</td>
+  <td class="num">36,54</td>
+  <td class="num pct">37%</td>
+</tr>
+<tr>
+  <td>Turmeric cu piperină – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>95</s></td>
+  <td class="num b">55</td>
+  <td class="num">66,55</td>
+  <td class="num raft">97</td>
+  <td class="num">25,17</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Silimarină – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>100</s></td>
+  <td class="num b">58</td>
+  <td class="num">70,18</td>
+  <td class="num raft">102</td>
+  <td class="num">26,30</td>
+  <td class="num pct">45%</td>
+</tr>
+<tr>
+  <td>Spirulină – 80 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>75</s></td>
+  <td class="num b">43</td>
+  <td class="num">52,03</td>
+  <td class="num raft">77</td>
+  <td class="num">20,64</td>
+  <td class="num pct">48%</td>
+</tr>
+<tr>
+  <td>Nattokinază – 60 capsule</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>60</s></td>
+  <td class="num b">35</td>
+  <td class="num">42,35</td>
+  <td class="num raft">61</td>
+  <td class="num">15,41</td>
+  <td class="num pct">44%</td>
+</tr>
+<tr>
+  <td>Testo Revive tinctură – 500 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>73</s></td>
+  <td class="num b">42</td>
+  <td class="num">50,82</td>
+  <td class="num raft">75</td>
+  <td class="num">19,98</td>
+  <td class="num pct">48%</td>
+</tr>
+<tr>
+  <td>Cardio Calm tinctură – 500 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>73</s></td>
+  <td class="num b">42</td>
+  <td class="num">50,82</td>
+  <td class="num raft">75</td>
+  <td class="num">19,98</td>
+  <td class="num pct">48%</td>
+</tr>
+<tr>
+  <td>Scorțișoară Ceylon bio – 200 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>55</s></td>
+  <td class="num b">35</td>
+  <td class="num">38,85</td>
+  <td class="num raft">56</td>
+  <td class="num">15,45</td>
+  <td class="num pct">44%</td>
+</tr><tr class="grp"><td colspan="8">Alimente funcționale</td></tr>
+<tr>
+  <td>Batoane proteice – cutie 12 x 55 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>155</s></td>
+  <td class="num b">98</td>
+  <td class="num">108,78</td>
+  <td class="num raft">159</td>
+  <td class="num">45,24</td>
+  <td class="num pct">46%</td>
+</tr>
+<tr>
+  <td>Cremă de orez Creamy Rice – 1 kg</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>65</s></td>
+  <td class="num b">50</td>
+  <td class="num">55,50</td>
+  <td class="num raft">67</td>
+  <td class="num">10,36</td>
+  <td class="num pct">21%</td>
+</tr>
+<tr>
+  <td>Instant Oat Cream – 800 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>65</s></td>
+  <td class="num b">41</td>
+  <td class="num">45,51</td>
+  <td class="num raft">67</td>
+  <td class="num">19,36</td>
+  <td class="num pct">47%</td>
+</tr>
+<tr>
+  <td>Unt de arahide Prime Health – 600 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>50</s></td>
+  <td class="num b">32</td>
+  <td class="num">35,52</td>
+  <td class="num raft">51</td>
+  <td class="num">13,95</td>
+  <td class="num pct">44%</td>
+</tr>
+<tr>
+  <td>Unt de migdale Prime Health – 600 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>92</s></td>
+  <td class="num b">70</td>
+  <td class="num">77,70</td>
+  <td class="num raft">94</td>
+  <td class="num">14,68</td>
+  <td class="num pct">21%</td>
+</tr>
+<tr>
+  <td>Unt de caju Prime Health – 600 g</td>
+  <td class="num tva">11%</td>
+  <td class="num"><s>90</s></td>
+  <td class="num b">73</td>
+  <td class="num">81,03</td>
+  <td class="num raft">92</td>
+  <td class="num">9,88</td>
+  <td class="num pct">14%</td>
+</tr><tr class="grp"><td colspan="8">Accesorii Prime</td></tr>
+<tr>
+  <td>Shaker Prime 600 ml</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>30</s></td>
+  <td class="num b">20</td>
+  <td class="num">24,20</td>
+  <td class="num raft">31</td>
+  <td class="num">5,62</td>
+  <td class="num pct">28%</td>
+</tr>
+<tr>
+  <td>Prosop de sală Prime</td>
+  <td class="num tva">21%</td>
+  <td class="num"><s>65</s></td>
+  <td class="num b">38</td>
+  <td class="num">45,98</td>
+  <td class="num raft">67</td>
+  <td class="num">17,37</td>
+  <td class="num pct">46%</td>
+</tr>
+    </tbody>
+  </table>
+
+  <div class="legend">
+    <div><b>Preț site</b> – prețul întreg de pe primesupplements.ro (cel tăiat când produsul e la ofertă).</div>
+    <div><b>Preț B2B</b> – prețul la care cumpără partenerul, fără și cu TVA (cota din coloana TVA).</div>
+    <div><b>Preț recomandat la raft</b> – prețul de site + 2–3 %, rotunjit la leu. Partenerul își stabilește liber prețul de vânzare.</div>
+    <div><b>Profit</b> – diferența dintre prețul de raft și prețul B2B, fără TVA, în lei pe bucată și ca procent din prețul de achiziție (adaos comercial).</div>
+  </div>
+  <p class="note">Prețuri pentru volume mari, îmbrăcăminte Prime și MNX, pachete și alte produse: la cerere, prin agent. Prețurile pot fi actualizate cu 15 zile înainte. Imaginile sunt orientative; aromele disponibile se confirmă la comandă.</p>
+
+  <footer>
+    <div><b>Comenzi B2B:</b> 0775 286 584 (și WhatsApp) · contact@primesupplements.ro</div>
+    <div><b>Produs în Uniunea Europeană</b> · primesupplements.ro</div>
+  </footer>
+</div>
+</body>
+</html>

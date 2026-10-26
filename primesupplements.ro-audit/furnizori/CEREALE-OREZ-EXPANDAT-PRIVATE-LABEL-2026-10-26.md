@@ -40,9 +40,9 @@ Rezerve (dacă 1–2 nu răspund):
 - **IRONCEREALS SRL (Mr. Iron)** – RO, București: brand românesc de cereale cu 30 % proteină (6 arome, fără zahăr); nu declară private label, dar poate spune cine le produce (+40 732 735 268).
 - Verificat și eliminat: Solaris Plant SRL (București, cod CAEN 8292 – ambalare, nu producție; adresa din Botoșani de pe un site de farmacie era a farmaciei), Feleacul Cluj (nu mai există, brandul e la Amylon Sibiu).
 
-## 3. E-mailurile, gata de trimis – câte un fișier pentru fiecare fabrică
+## 3. E-mailurile – TRIMISE pe 26.10.2026, 23:36–23:40, de pe contact@primesupplements.ro
 
-Le trimite proprietarul de pe contact@primesupplements.ro (din aplicație nu se pot trimite e-mailuri). Fiecare fișier are pe primele rânduri Către / CC / Subiect, apoi textul; se copiază în clientul de e-mail. Semnătura are deja telefonul public al Prime (0775 286 584). Nu se dezvăluie furnizorul actual al cremei de orez (regula din CLAUDE.md).
+Trimise din Gmail (contul contact@, logat în browserul aplicației Claude), la cererea proprietarului („trimite tu automat de pe contact@”), cu CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Fiecare fișier de mai jos e textul exact trimis (Către / CC / Subiect pe primele rânduri). Semnătura are telefonul public al Prime (0775 286 584). Nu s-a dezvăluit furnizorul actual al cremei de orez (regula din CLAUDE.md).
 
 | # | Fișier | Limbă | Către |
 |---|---|---|---|
@@ -53,10 +53,10 @@ Le trimite proprietarul de pe contact@primesupplements.ro (din aplicație nu se 
 | 5 | `emailuri/05-nuhealth-riceup-bulgaria-EN.txt` | engleză | headexport@nuhealth.zone (CC marketing@nuhealth.zone) |
 | 6 | `emailuri/06-maga-plus-hungary-EN.txt` | engleză | magamagaplus@gmail.com |
 
-Toate au CC marius.chera@yahoo.com, ca firul să rămână și acolo. Opțional, se atașează o poză cu tubul de Creamy Rice ca referință de brand.
+Toate au CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Confirmate în folderul Trimise al contului contact@ (6 mesaje, 26.10, 23:36–23:40).
 
 ## 4. Pași următori
-1. Proprietarul trimite cele 6 e-mailuri (de pe contact@, CC yahoo) și confirmă brief-ul (arome, îndulcitori, lot de test).
+1. ~~Trimiterea celor 6 e-mailuri~~ – făcută pe 26.10.2026, 23:36–23:40. Răspunsurile vin pe contact@ (și în CC la Marius și Ovidiu).
 2. Dacă până pe 02.11.2026 nu răspund cel puțin 3, se scrie la rezerve (OBST, Mr. Iron) și se sună la Cornexi.
 3. Răspunsurile se salvează aici (secțiunea 5) cu MOQ, preț, termen; fabrica se alege după mostre.
 4. După alegerea fabricii: nume de produs, design de etichetă (UE 1169/2011, fără mențiuni de sănătate neautorizate), fișă de produs Shopify.

@@ -40,7 +40,7 @@ La shot-uri fructul umple eticheta. Dar la capsule (zinc, D3+K2, magneziu, vitam
 
 **5. Ce vă rugăm să ne trimiteți în runda următoare**
 
-1. **Simularea pe cutia de shoturi** (14 × 25 ml), nu doar pe fiolă, în direcția de mai sus, pe cel puțin un produs (magneziu).
+1. **Simularea pe cutia de shoturi** (20 × 25 ml), nu doar pe fiolă, în direcția de mai sus, pe cel puțin un produs (magneziu).
 2. **Simulare orientativă pe 3–4 produse unul lângă altul, ca pe raft**: shot Magnesium, shot Collagen, borcan D3+K2, borcan Zinc, ca să vedem gama împreună și cum funcționează culorile. Nu trebuie finalizate; ne interesează sistemul.
 3. **Paleta de culori propusă pentru toată gama Health** (orientativ: Magneziu bisglicinat, Citrat de magneziu, Citrat de zinc, Vitamina D3 + K2, Vitamina C, Omega-3, NAC, Coenzima Q10, Ashwagandha KSM-66, Potassium Complex, Complete Collagen, Water Out, Daily Vitamin Formula, shoturile Energy Pump și Fat Burning Booster). Lista o confirmăm pe parcurs.
 4. **Un termen estimativ** pentru aceste simulări.

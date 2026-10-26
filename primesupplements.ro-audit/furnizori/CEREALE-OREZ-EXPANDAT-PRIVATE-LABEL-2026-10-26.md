@@ -23,7 +23,7 @@ Verificat în repo înainte: tema nu a mai fost discutată (nimic în ISTORIC, J
 
 Observație: nicio fabrică nu a fost găsită cu produsul exact (orez expandat aromat, fără zahăr, pentru shake). Toate au linii de expandare/extrudare și glazurare, deci produsul se dezvoltă la comandă. Nu s-a găsit niciun producător potrivit în Serbia, Ucraina sau Moldova.
 
-## 2. Cele 6 fabrici alese (4 România, 1 Bulgaria, 1 Ungaria)
+## 2. Primul val – cele 6 fabrici alese (4 România, 1 Bulgaria, 1 Ungaria)
 
 | # | Fabrică | Țară / loc | De ce | E-mail | Telefon | Cât de sigur |
 |---|---|---|---|---|---|---|
@@ -40,6 +40,18 @@ Rezerve (dacă 1–2 nu răspund):
 - **IRONCEREALS SRL (Mr. Iron)** – RO, București: brand românesc de cereale cu 30 % proteină (6 arome, fără zahăr); nu declară private label, dar poate spune cine le produce (+40 732 735 268).
 - Verificat și eliminat: Solaris Plant SRL (București, cod CAEN 8292 – ambalare, nu producție; adresa din Botoșani de pe un site de farmacie era a farmaciei), Feleacul Cluj (nu mai există, brandul e la Amylon Sibiu).
 
+## 2b. Al doilea val – încă 5 firme (26.10.2026, seara târziu, cerute de proprietar: „dacă mai ai și alte variante, încă 4–5”)
+
+| # | Fabrică | Țară / loc | De ce | E-mail | Telefon | Cât de sigur |
+|---|---|---|---|---|---|---|
+| 7 | **OBST S.A.** | PL, Chełm | cel mai mare private label de cereale extrudate din est: 6 linii GEA Pavan, ~3.500 t/an, IFS, membru PLMA; choco balls, honey rings, bio | info@obst.pl | +48 82 563 24 12; export Oksana Mironiuk +48 784 963 325 | foarte bun, dar probabil MOQ mare |
+| 8 | **Cerera foods** | LT, Kaunas (Neveronys) | private label cereale: produse expandate și extrudate, corn flakes fără zahăr, BRC + Halal; declară că adaptează compoziția nutrițională la cerere | jolita@cerera.com (șefa export) + CC kestutis@cerera.com (CCO) | +370 650 39506 | bun; adrese decodate de pe site, nu confirmate |
+| 9 | **Mulder Natural Foods** | BE, Roeselare | private label: cereale extrudate, co-extrudate, orez, expandate, fără gluten, bio; ambalaj personalizat | salesmnf@muldernaturalfoods.be | +32 51 70 82 82 | bun; distanță mare (transport) |
+| 10 | **IRONCEREALS SRL (Mr. Iron)** | RO, București | brand românesc de cereale 30 % proteină fără zahăr (6 arome); întrebat dacă produce sub marca clientului sau ne recomandă fabrica lor | contact@mriron.ro | +40 732 735 268 | incert: e brand, nu fabrică |
+| 11 | **H. & J. Brüggen KG** | DE, Lübeck (+ fabrică în Wilga, PL) | lider european de private label: cereale expandate (și din orez), extrudate, musli; IFS | info@brueggen.com (cer redirecționare la vânzări) | +49 451 3100-0 | foarte mare; MOQ probabil peste nevoile noastre, întrebat explicit minimul |
+
+Verificate și lăsate deoparte în valul 2: Cornexi (HU) – site „în mentenanță”, fără e-mail public; Biostyle (BG, Brestovitsa) – contract manufacturing 90 %, dar granola/batoane, fără e-mail găsit; Nagykun 2000 (HU) – cultivator de orez cu orez expandat propriu, fără e-mail găsit; TBM Łapsy (PL) – snacksuri de porumb; Pirifan (RO) – doar ambalator de musli; Mogador (CZ) – musli.
+
 ## 3. E-mailurile – TRIMISE pe 26.10.2026, 23:36–23:40, de pe contact@primesupplements.ro
 
 Trimise din Gmail (contul contact@, logat în browserul aplicației Claude), la cererea proprietarului („trimite tu automat de pe contact@”), cu CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Fiecare fișier de mai jos e textul exact trimis (Către / CC / Subiect pe primele rânduri). Semnătura are telefonul public al Prime (0775 286 584). Nu s-a dezvăluit furnizorul actual al cremei de orez (regula din CLAUDE.md).
@@ -52,6 +64,11 @@ Trimise din Gmail (contul contact@, logat în browserul aplicației Claude), la 
 | 4 | `emailuri/04-amylon-feleacul-sibiu-RO.txt` | română | marius.moldovan@boromir.ro; prima trimitere la office@amylon.ro respinsă (adresă dezactivată) |
 | 5 | `emailuri/05-nuhealth-riceup-bulgaria-EN.txt` | engleză | headexport@nuhealth.zone (CC marketing@nuhealth.zone) |
 | 6 | `emailuri/06-maga-plus-hungary-EN.txt` | engleză | magamagaplus@gmail.com |
+| 7 | `emailuri/07-obst-poland-EN.txt` | engleză | info@obst.pl – trimis 26.10, 23:55 |
+| 8 | `emailuri/08-cerera-lithuania-EN.txt` | engleză | jolita@cerera.com (CC kestutis@cerera.com) – trimis 26.10, 23:56 |
+| 9 | `emailuri/09-mulder-belgium-EN.txt` | engleză | salesmnf@muldernaturalfoods.be – trimis 26.10, 23:57 |
+| 10 | `emailuri/10-mr-iron-bucuresti-RO.txt` | română | contact@mriron.ro – trimis 26.10, 23:57 |
+| 11 | `emailuri/11-brueggen-germany-EN.txt` | engleză | info@brueggen.com – trimis 26.10, 23:58 |
 
 Toate au CC marius.chera@yahoo.com și ovidiu_pop00@yahoo.com. Confirmate în folderul Trimise al contului contact@ (6 mesaje, 26.10, 23:36–23:40). Respingeri primite imediat: office@amylon.ro (525, adresă dezactivată) și info@sanovita.ro (550, adresa nu există); retrimise la 23:45–23:48 către office@sanovita.ro + comenzi@sanovita.ro și către marius.moldovan@boromir.ro, fără respingere în următoarele minute (o respingere târzie e posibilă; de verificat în Inbox).
 

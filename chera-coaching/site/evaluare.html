@@ -88,7 +88,7 @@ ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
   <section id="s-intro" class="stack" style="padding-block:28px 0">
     <p class="eyebrow">Profilul neuro · 4 minute</p>
     <h1>Nu primești un plan generic. Pornim de la cum ești făcut.</h1>
-    <p class="lead">Trei runde scurte. Prima arată natura ta (dopamină, acetilcolină, GABA, serotonină) și tipul tău de antrenament. A doua arată ce e pe minus acum și ce ajustăm în dietă și suplimente. A treia e contextul tău. Rezultatul apare pe loc, apoi îți scrie un antrenor pe WhatsApp.</p>
+    <p class="lead">Trei runde scurte. Prima arată natura ta (dopamină, acetilcolină, GABA, serotonină) și tipul tău de antrenament. A doua arată ce e pe minus acum și ce ajustăm în dietă și suplimente. A treia e contextul tău. Rezultatul apare pe loc, apoi îți scriu eu, Marius, pe WhatsApp.</p>
     <div class="card">
       <h3>Cum răspunzi</h3>
       <p class="hint">Fiecare afirmație are patru trepte, fără mijloc: alege ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău; există doar profilul tău.</p>
@@ -136,7 +136,7 @@ ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
       <div class="field"><label for="f-phone">Telefon (WhatsApp)</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx"></div>
       <div class="field"><label for="f-email">E-mail</label><input id="f-email" type="email" autocomplete="email" placeholder="nume@exemplu.ro"></div>
     </div>
-    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de mai sus, de un antrenor Chera Protocol, cu rezultatul și planul de pornire.</span></label>
+    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de mai sus, de Marius Chera, cu rezultatul și planul de pornire.</span></label>
     <label class="check"><input type="checkbox" id="c-gdpr"><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></label>
     <p class="err" id="ctx-err" hidden></p>
     <div class="nav">
@@ -186,7 +186,7 @@ ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
 <script>
 /* ===== CONFIG (se completează la integrare) ===== */
 const CONFIG = {
-  WHATSAPP_NUMBER: "40757911908",      // numărul echipei, format internațional fără + (de înlocuit cu numărul dedicat)
+  WHATSAPP_NUMBER: "40757911908",      // numărul lui Marius pentru coaching, format internațional fără + (de înlocuit cu numărul dedicat)
   SHEET_ENDPOINT: "",                   // URL-ul Web App din Google Apps Script (vezi integrare/README); gol = nu trimite
   BRAND: "Chera Protocol"
 };
@@ -242,11 +242,11 @@ const DEFICIT = {
    life:["Respirație lentă 5 minute seara.","Plimbare zilnică, mai puține stimulente.","Antrenamentul nu mai târziu de ora 20."],warn:"Ashwagandha: nu la probleme de tiroidă fără aviz. Taurina și magneziul în doze mari pot da scaune moi."},
  S:{name:"serotonina",diet:["Carbohidrați la cină.","Surse de triptofan: curcan, ouă, lactate, banane, ovăz.","Mese regulate; fără low-carb și fără post prelungit."],
    supp:["Vitamina D3 2.000–4.000 UI cu K2","Omega-3 2 g","Magneziu bisglicinat 300 mg","Complex B","Șofran 30 mg"],
-   life:["Lumină naturală dimineața, 20 de minute.","3 antrenamente moderate, nu epuizante.","Contact social și somn regulat."],warn:"Triptofanul sau 5-HTP se discută doar cu antrenorul, niciodată împreună cu medicamente pentru dispoziție."}
+   life:["Lumină naturală dimineața, 20 de minute.","3 antrenamente moderate, nu epuizante.","Contact social și somn regulat."],warn:"Triptofanul sau 5-HTP se discută doar cu mine, niciodată împreună cu medicamente pentru dispoziție."}
 };
 const DOORS = {
- scena:{title:"Ușa ta: Elite / Competiție",text:"Pregătire 1 la 1 cu Marius Chera, locuri limitate. Nu se cumpără cu un buton: aplici, iar Marius decide după prima discuție.",cta:"Aplică pentru Elite"},
- sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări, antrenorul tău pe WhatsApp în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul"},
+ scena:{title:"Ușa ta: Elite / Competiție",text:"Pregătire de concurs cu mine, 1 la 1, locuri limitate. Nu se cumpără cu un buton: aplici, iar eu decid după prima discuție.",cta:"Aplică pentru Elite"},
+ sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări făcute de mine, eu pe WhatsApp, răspuns în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul"},
  start:{title:"Ușa ta: Programele + un antrenor la un mesaj distanță",text:"Pornești cu un program digital potrivit profilului tău, iar când vrei ajustări, treci la coaching cu prețul programului dedus.",cta:"Vezi programele"}
 };
 
@@ -349,17 +349,17 @@ function buildResult(){
   $("r-sub").textContent = bal.level==="ok" ? `Natura ta e dominată de ${SCALE_NAME[nt.dom.top].toLowerCase()}, iar echilibrul tău de acum e bun. Planul pleacă direct din profil.` : `Natura ta e dominată de ${SCALE_NAME[nt.dom.top].toLowerCase()}; acum ai ${DEFICIT[bal.top].name} ${bal.level==="crit"?"pe minus":"de susținut"}. Primele 8 săptămâni ajustăm asta.`;
   scorecard($("r-scoresA"),nt.scores,nt.dom.top);
   $("r-mixed").hidden = !nt.dom.mixed;
-  if(nt.dom.mixed) $("r-mixed").textContent = `Profil mixt: ${SCALE_NAME[nt.dom.top]} și ${SCALE_NAME[nt.dom.second]} sunt la cel mult 2 puncte. Antrenorul confirmă tipul la prima discuție.`;
+  if(nt.dom.mixed) $("r-mixed").textContent = `Profil mixt: ${SCALE_NAME[nt.dom.top]} și ${SCALE_NAME[nt.dom.second]} sunt la cel mult 2 puncte. Confirm eu tipul la prima discuție.`;
   li($("r-who"),T.who); li($("r-train"),T.train); li($("r-diet"),T.diet);
   scorecard($("r-scoresB"),bal.scores,bal.level==="ok"?null:bal.top);
   const rb=$("r-balance"); rb.innerHTML="";
-  if(bal.allHigh){ rb.innerHTML=`<p><span class="pill crit">oboseală generală</span></p><p>Toate cele patru scale sunt ridicate. De obicei nu e un dezechilibru specific, ci somn puțin, deficit caloric prea mare sau prea multe stimulente. Antrenorul verifică întâi aceste trei lucruri; suplimentele vin după.</p>`; }
+  if(bal.allHigh){ rb.innerHTML=`<p><span class="pill crit">oboseală generală</span></p><p>Toate cele patru scale sunt ridicate. De obicei nu e un dezechilibru specific, ci somn puțin, deficit caloric prea mare sau prea multe stimulente. Verific eu întâi aceste trei lucruri; suplimentele vin după.</p>`; }
   else if(bal.level==="ok"){ rb.innerHTML=`<p><span class="pill ok">echilibru bun</span></p><p>Nimic de corectat acum. Rămâne dieta de bază a profilului tău și re-testăm la 8 săptămâni.</p>`; }
   else{
     const D=DEFICIT[bal.top];
     rb.innerHTML=`<p><span class="pill ${bal.level}">${D.name}: ${bal.level==="crit"?"pe minus":"de susținut"}</span></p>
       <h3>Ajustări în dietă</h3><ul class="list" id="rb-diet"></ul>
-      ${bal.level==="crit"?`<h3>Suplimente de stabilizare, 8 săptămâni</h3><ul class="list" id="rb-supp"></ul>`:`<p class="hint">La acest nivel, dieta și stilul de viață sunt de ajuns; suplimentele le decide antrenorul la prima discuție.</p>`}
+      ${bal.level==="crit"?`<h3>Suplimente de stabilizare, 8 săptămâni</h3><ul class="list" id="rb-supp"></ul>`:`<p class="hint">La acest nivel, dieta și stilul de viață sunt de ajuns; suplimentele le decid eu la prima discuție.</p>`}
       <h3>Stil de viață</h3><ul class="list" id="rb-life"></ul>
       <p class="hint">${D.warn}</p>`;
     li($("rb-diet"),D.diet); if(bal.level==="crit") li($("rb-supp"),D.supp); li($("rb-life"),D.life);
@@ -368,7 +368,7 @@ function buildResult(){
   $("r-door").innerHTML=`<p class="eyebrow">Recomandarea noastră</p><h2>${door.title}</h2><p>${door.text}</p><p class="hint">Butonul se activează când magazinul e lansat; până atunci, pasul următor e WhatsApp.</p>`;
   const msg = `Salut! Am făcut evaluarea Chera Protocol. Profil: ${code}. Sunt ${state.ctx.name||""}, ${state.ctx.city||""}, obiectiv: ${goal}. Scoruri natura D${nt.scores.D} A${nt.scores.A} G${nt.scores.G} S${nt.scores.S}; echilibru D${bal.scores.D} A${bal.scores.A} G${bal.scores.G} S${bal.scores.S}.`;
   $("r-wacode").textContent = msg;
-  $("r-sendtext").textContent = `Un antrenor îți scrie pe WhatsApp la ${state.ctx.phone}. Dacă vrei să-i scrii tu primul, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`;
+  $("r-sendtext").textContent = `Îți scriu eu pe WhatsApp la ${state.ctx.phone}. Dacă vrei să-mi scrii tu primul, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`;
   $("r-walink").href = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   state.result={code,type:nt.type,dom:nt.dom.top,mixed:nt.dom.mixed,scoresA:nt.scores,scoresB:bal.scores,deficit:defCode,level:bal.level,allHigh:bal.allHigh};
   save();
@@ -376,10 +376,10 @@ function buildResult(){
 }
 async function submit(){
   const st=$("r-sendstatus");
-  if(!CONFIG.SHEET_ENDPOINT){ st.textContent="Rezultatul e salvat pe acest dispozitiv. Trimiterea către echipă se activează la lansare."; return; }
+  if(!CONFIG.SHEET_ENDPOINT){ st.textContent="Rezultatul e salvat pe acest dispozitiv. Trimiterea către mine se activează la lansare."; return; }
   const payload={ts:new Date().toISOString(),...state.ctx,...state.result,ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
-  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent="Rezultatul a ajuns la echipă. Îți scriem pe WhatsApp în cel mult 24 de ore."; }
-  catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite textul de mai jos pe WhatsApp și preluăm noi."; }
+  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent="Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore."; }
+  catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite-mi textul de mai jos pe WhatsApp și îl preiau eu."; }
 }
 
 /* ===== CONTEXT FORM ===== */

@@ -1,5 +1,7 @@
 # Chera Coaching SRL – plan pentru site-ul de online coaching + programe de antrenament
 
+> **ACTUALIZARE 27.10.2026:** Marius antrenează singur, fără alți antrenori (vezi CONCEPT). În §5.2, „angajatul” din inbox-ul WhatsApp poate exista doar pentru logistică (plăți, programări, documente), nu pentru coaching; dacă proprietarul renunță la el, planul Wati Growth cu un singur utilizator (sau chiar aplicația WhatsApp Business simplă, fără API) e suficient la început.
+
 Data: 26.10.2026. Afacere separată de Prime Supplements (altă firmă, alt site, alt magazin Shopify). Stare: plan propus, în așteptarea confirmării proprietarului. Când începe lucrul, folderul primește repo propriu.
 
 ## 0. Ce s-a cerut

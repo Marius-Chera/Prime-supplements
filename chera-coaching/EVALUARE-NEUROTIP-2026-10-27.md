@@ -1,5 +1,7 @@
 # Evaluarea Chera Protocol – profilul neuro (dopamină · acetilcolină · GABA · serotonină)
 
+> **ACTUALIZARE 27.10.2026:** peste tot unde scrie „antrenorul” se citește „Marius”: el face evaluarea finală, planul și ajustările, fără alți antrenori. Textele de pe site și din PDF sunt la persoana întâi singular.
+
 Data: 27.10.2026 (v2, după cererea proprietarului: chestionarul să identifice tipul de antrenament, tipul de dietă și suplimentele necesare pentru stabilizarea raportului dopamină / serotonină / acetilcolină / GABA). Model: Braverman (natură + deficit) → neurotipurile lui Christian Thibaudeau (1A, 1B, 2A, 2B, 3) → protocoalele de nutriție/suplimentare promovate pe T-Nation (Thibaudeau, Poliquin). Stare: de validat de proprietar (el știe metoda; eu structurez și scriu).
 
 ## 1. Ce livrează evaluarea (pentru client și pentru antrenor)

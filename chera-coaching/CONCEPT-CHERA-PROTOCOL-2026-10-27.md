@@ -1,5 +1,7 @@
 # Chera Protocol – ideea principală a site-ului (problema, poziționarea, structura)
 
+> **ACTUALIZARE 27.10.2026 (decizia proprietarului):** Marius antrenează personal pe toată lumea. NU există și nu vor exista alți antrenori sau asistenți de coaching; tot site-ul vorbește la persoana întâi singular („eu îți fac planul, eu îți răspund”). Ca urmare: (1) în tabelul din §4 coloana „Cine livrează” = Marius la toate ușile; (2) matematica „sutelor” din §5 cu 4 antrenori NU se mai aplică – capacitatea reală e ~100–120 de clienți activi (20 min/săptămână fiecare), deci „sute de clienți” înseamnă listă de așteptare, prețuri mai mari și volum pe programele digitale (ușa C), nu echipă; (3) ușa A și ușa B se deosebesc prin obiectiv (scenă / fără scenă), nu prin cine antrenează; (4) pagina „Echipa” din §6.9 dispare; (5) §8.2 (primii antrenori) e anulat. Angajatul din planul tehnic pentru WhatsApp rămâne, dacă proprietarul îl vrea, doar pentru logistică (plăți, programări), niciodată pentru răspunsuri de coaching.
+
 Data: 27.10.2026. Cerința proprietarului: „vreau să ne adresăm tuturor persoanelor legate de online coaching; am micro-nișa sportivilor de performanță; identifică problema pe care o putem rezolva la nivel de țară ca să avem sute de clienți și structurează întreaga idee de site în jurul ei + sportivii de performanță pe care îi am deja”. Stare: propunere, de validat de proprietar. Completează `PLAN-SITE-COACHING-2026-10-26.md` (tehnic) – acest fișier e despre CE vindem și CUI.
 
 ## 1. Ce am găsit (27.10, din browserul aplicației)

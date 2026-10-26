@@ -28,8 +28,8 @@ Lungime: 900–1.400 de cuvinte, 5–7 minute de citit. O poză din arhiva lui M
 | # | Titlu (propunere) | Inspirație | Unghiul lui Marius |
 |---|---|---|---|
 | 1 | De ce nu progresezi la sală, deși faci „totul bine” (SCRIS) | Thibaudeau, neurotipuri | trei sportivi, același program, trei rezultate |
-| 2 | Carbohidrații seara: cui îi ajută și cui îi strică | Thibaudeau, nutriție pe neurotip | cum mut carbohidrații la cină la tipul 3 și îi scot la 1A |
-| 3 | Sportivul care nu suportă să fie corectat | neurotip 2B/3, feedback | cum vorbesc diferit cu doi sportivi la fel de buni |
+| 2 | Carbohidrații seara: cui îi ajută și cui îi strică (SCRIS) | Thibaudeau, nutriție pe neurotip | cum mut carbohidrații la cină la tipul 3 și îi scot la 1A |
+| 3 | Sportivul care nu suportă să fie corectat (SCRIS) | neurotip 2B/3, feedback | cum vorbesc diferit cu doi sportivi la fel de buni |
 | 4 | Peak week: ce fac și ce nu mai fac de 5 ani | T-Nation, contest prep | greșelile din primele pregătiri, ce am învățat lângă Sassi/Nicholls |
 | 5 | Volum sau intensitate? Răspunsul depinde de cine ești | Thibaudeau, program design | tipul 1A arde la volum, tipul 2A arde la monotonie |
 | 6 | Suplimentele pe care le cer sportivilor mei și cele pe care le interzic | Poliquin/Braverman, suplimentare | lista scurtă pe deficit: magneziu, teanină, tirozină, când și de ce |

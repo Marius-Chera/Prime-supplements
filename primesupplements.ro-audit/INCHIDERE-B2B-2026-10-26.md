@@ -1,6 +1,6 @@
 # Închiderea completă a magazinului B2B (b2b.primesupplements.ro) – ghid pentru proprietar, 26.10.2026
 
-Decizie nouă (26.10, seara): magazinul B2B se **închide complet**, nu doar se pune parolă (înlocuiește E21 din `SETARI-VANZARI-2026-10-16.md` și întrebarea 1 din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md`). Vânzările B2B merg prin agent + Oblio (`agenti/`).
+Decizie nouă (26.10, seara): magazinul B2B se **închide complet**; **fără redirect** – proprietarul șterge înregistrarea CNAME `b2b` de la furnizorul domeniului (secțiunea D rămâne doar ca variantă respinsă), nu doar se pune parolă (înlocuiește E21 din `SETARI-VANZARI-2026-10-16.md` și întrebarea 1 din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md`). Vânzările B2B merg prin agent + Oblio (`agenti/`).
 
 Magazinul B2B este un magazin Shopify **separat**: admin `kuqr0h-en.myshopify.com`, adresa publică `b2b.primesupplements.ro`. Magazinul principal este `primesupplements1.myshopify.com`. Verifică în bara de adresă a browserului că ești în **kuqr0h-en** înainte de orice pas de mai jos. Dezactivarea se face doar din contul de **proprietar al magazinului** (store owner).
 

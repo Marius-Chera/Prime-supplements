@@ -1,0 +1,274 @@
+﻿<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Prime Supplements – brand presentation for Mega Image</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --ink: #111; --grey: #666; --line: #e6e6e6; --bg: #f5f5f5; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; color: var(--ink); font-family: Poppins, "Segoe UI", Arial, sans-serif; }
+  img { display: block; }
+  .slide { position: relative; width: 297mm; height: 167mm; overflow: hidden; background: #fff; padding: 13mm 16mm 12mm; break-after: page; page-break-after: always; }
+  .slide:last-child { break-after: auto; page-break-after: auto; }
+  .foot { position: absolute; left: 16mm; bottom: 5mm; font-size: 8pt; color: #9a9a9a; letter-spacing: .3px; }
+  .cover .foot { color: rgba(255,255,255,.8); }
+  .kicker { color: var(--red); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 9pt; margin: 0 0 3mm; }
+  h1 { font-size: 32pt; line-height: 1.1; margin: 0 0 5mm; font-weight: 800; letter-spacing: -.3px; }
+  h1 span { color: var(--red); }
+  h2 { font-size: 24pt; line-height: 1.12; margin: 0 0 3mm; font-weight: 800; }
+  h3 { font-size: 9pt; text-transform: uppercase; letter-spacing: 1.5px; color: var(--red); margin: 6mm 0 1.5mm; }
+  p { font-size: 11pt; line-height: 1.5; margin: 0 0 2.5mm; color: #333; }
+  p.sub { color: var(--grey); max-width: 230mm; }
+  p.small { font-size: 9pt; color: var(--grey); margin-top: 5mm; }
+  .lead { font-size: 13pt; font-weight: 300; }
+  .kw { font-size: 15pt; font-weight: 700; color: var(--ink); margin-top: 5mm; }
+  .kw.center { text-align: center; margin-top: 4mm; }
+  .head { margin-bottom: 5mm; }
+  .photo { object-fit: cover; width: 100%; height: 100%; border-radius: 3mm; }
+  .photo.full { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 0; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.35) 55%, rgba(0,0,0,.1) 100%); }
+  .shade.dark { background: rgba(0,0,0,.6); }
+  .logo { height: 14mm; width: auto; }
+  .tl { position: absolute; left: 16mm; top: 13mm; }
+  .cover-text { position: absolute; left: 16mm; bottom: 22mm; max-width: 175mm; color: #fff; }
+  .cover-text h1, .cover-text p { color: #fff; }
+  .cover-text .kicker { color: #ff6b6f; }
+  .cover-text.center { left: 0; right: 0; top: 50%; bottom: auto; transform: translateY(-50%); text-align: center; max-width: none; display: flex; flex-direction: column; align-items: center; }
+  .cover-text.center .logo { height: 16mm; margin-bottom: 8mm; }
+  .end h1 { font-size: 30pt; }
+  /* split */
+  .split { display: grid; grid-template-columns: 1fr 1.15fr; gap: 12mm; }
+  .col { min-height: 0; height: 128mm; }
+  .col.text { display: flex; flex-direction: column; justify-content: center; }
+  .col.id { display: flex; flex-direction: column; justify-content: center; gap: 7mm; }
+  .photo.tall { height: 100%; }
+  .facts { list-style: none; padding: 0; margin: 4mm 0 0; }
+  .facts li { font-size: 10.5pt; margin-bottom: 2.5mm; padding-left: 6mm; position: relative; color: #333; }
+  .facts li::before { content: ""; position: absolute; left: 0; top: 2mm; width: 3mm; height: 3mm; background: var(--red); border-radius: 50%; }
+  .facts b { color: var(--ink); }
+  .list { margin: 0; padding-left: 5mm; }
+  .list li { font-size: 10.5pt; margin-bottom: 1.5mm; color: #333; }
+  .logobox { background: var(--ink); padding: 8mm; border-radius: 3mm; display: flex; justify-content: center; }
+  .logobox .logo { height: 18mm; }
+  .swatches { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .swatches div { display: flex; flex-direction: column; font-size: 10pt; font-weight: 600; }
+  .swatches i { width: 12mm; height: 12mm; border-radius: 50%; display: block; margin-bottom: 1.5mm; }
+  .swatches small { font-weight: 400; color: var(--grey); font-size: 8.5pt; }
+  .type { display: flex; align-items: center; gap: 6mm; border-top: 1px solid var(--line); padding-top: 4mm; }
+  .type b { font-size: 32pt; font-weight: 800; }
+  .type span { font-size: 9pt; color: var(--grey); line-height: 1.4; }
+  /* grids */
+  .grid { display: grid; gap: 5mm; }
+  .grid.g4 { grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); height: 104mm; }
+  .grid.g4.small { height: 42mm; grid-template-rows: 1fr; margin-top: 5mm; }
+  .cell { display: flex; flex-direction: column; min-height: 0; }
+  .cell .ph { flex: 1; min-height: 0; background: var(--bg); border-radius: 3mm; display: flex; align-items: center; justify-content: center; padding: 3mm; }
+  .cell .ph img { max-width: 100%; max-height: 100%; width: auto; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+  .cell label { font-size: 9.5pt; text-align: center; margin-top: 1.5mm; font-weight: 700; line-height: 1.2; }
+  .cell small { font-size: 8pt; color: var(--grey); text-align: center; }
+  /* trio / duo */
+  .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; height: 96mm; }
+  .caption { font-size: 9.5pt; color: var(--grey); margin-top: 4mm; }
+  .two { display: grid; grid-template-columns: 1.2fr 1fr; gap: 12mm; height: 132mm; }
+  .two .text { display: flex; flex-direction: column; justify-content: center; }
+  .bars { display: grid; grid-template-columns: 1.35fr 1fr; gap: 10mm; }
+  .bars .right { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; height: 132mm; }
+  .bars .left { display: flex; flex-direction: column; justify-content: center; }
+  /* moodboard */
+  .collage { display: grid; grid-template-columns: 1.5fr 1fr 1fr; grid-template-rows: repeat(3, 36mm); gap: 4mm; }
+  .collage .big { grid-row: 1 / 4; height: 116mm; }
+  .collage .big .photo { height: 100%; }
+  .collage > .photo { height: 36mm; }
+  /* why */
+  .why { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+  .why div { background: var(--bg); border-top: 3px solid var(--red); padding: 5mm 6mm; border-radius: 0 0 3mm 3mm; font-size: 10pt; line-height: 1.45; color: #333; min-height: 46mm; }
+  .why b { display: block; text-transform: uppercase; font-size: 9pt; letter-spacing: .8px; color: var(--ink); margin-bottom: 2mm; }
+  @media print { @page { size: 297mm 167mm; margin: 0; } * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .cell .ph img { mix-blend-mode: normal; } .cell .ph { background: #fff; border: 1px solid var(--line); } }
+  @media screen { body { background: #777; padding: 10mm; } .slide { margin: 0 auto 10mm; box-shadow: 0 4px 24px rgba(0,0,0,.3); } }
+</style></head>
+<body>
+<section class="slide cover">
+    <img class="photo full" src="PREZENTARE-PRIME-MEGA-IMAGE-img/sala-kettlebell.jpg" alt="">
+    <div class="shade"></div>
+    <div class="tl"><img class="logo" src="PREZENTARE-PRIME-MEGA-IMAGE-img/logo-prime-alb.svg" alt="Prime Supplements"></div>
+    <div class="cover-text">
+      <p class="kicker">Brand presentation for Mega Image</p>
+      <h1>Sports nutrition <span>from Romania</span>,<br>for every day.</h1>
+      <p class="lead">Prime Supplements: protein, creatine, protein bars and functional foods, made in the European Union.</p>
+    </div>
+    <div class="foot">Prime Sport Supplements SRL · Sibiu, Romania · primesupplements.ro</div>
+  </section>
+<section class="slide split">
+    <div class="col"><img class="photo tall" src="PREZENTARE-PRIME-MEGA-IMAGE-img/ai-bucatarie.jpg" alt=""></div>
+    <div class="col text">
+      <p class="kicker">Who we are</p>
+      <h2>A Romanian sports nutrition brand from Sibiu.</h2>
+      <p>Prime Supplements was born in the weight room and grew online, on primesupplements.ro, and in gyms across Romania. The products are made in the European Union, with Romanian labels and only EU-authorised health claims.</p>
+      <ul class="facts">
+        <li><b>55+</b> products: protein, creatine, amino acids, pre-workout, vitamins and minerals, functional foods, accessories</li>
+        <li><b>100+</b> blog articles explaining each product, the dose and when to take it</li>
+        <li><b>Partner gyms</b> with a Prime shelf and a dedicated sales agent</li>
+        <li><b>Active community</b> on Instagram, Facebook, TikTok and YouTube</li>
+      </ul>
+    </div>
+    <div class="foot">02 · Who we are</div>
+  </section>
+<section class="slide split">
+    <div class="col id">
+      <div class="logobox"><img class="logo" src="PREZENTARE-PRIME-MEGA-IMAGE-img/logo-prime-alb.svg" alt="Prime Supplements"></div>
+      <div class="swatches">
+        <div><i style="background:#111"></i>Black<small>premium background, packaging</small></div>
+        <div><i style="background:#ec1e24"></i>Prime red<small>accent, energy</small></div>
+        <div><i style="background:#fff;border:1px solid #ddd"></i>White<small>clarity, Prime Health range</small></div>
+        <div><i style="background:#2e7d32"></i>Green<small>Prime Health range (wellness)</small></div>
+      </div>
+      <div class="type"><b>Aa</b><span>Poppins · bold uppercase headlines, regular body text. The same family on the website, e-mails and shelf materials.</span></div>
+    </div>
+    <div class="col text">
+      <p class="kicker">Brand identity</p>
+      <h2>Direct, athletic, trustworthy.</h2>
+      <h3>Positioning</h3>
+      <p>European-quality supplements, explained in plain language, with a fair balance between quality and accessibility. For people who train and for people who simply want to eat better.</p>
+      <h3>Tone of voice</h3>
+      <p>We speak clearly, without empty promises: what the product contains, how much to take and when. Only EU-authorised health claims.</p>
+      <p class="kw">Performance. Clarity. Accessible.</p>
+    </div>
+    <div class="foot">03 · Brand identity</div>
+  </section>
+<section class="slide grid-page">
+    <div class="head"><p class="kicker">Core products</p><h2>The core range: what every athlete looks for.</h2><p class="sub">Protein, creatine, amino acids and pre-workout. The products the brand started with and our best sellers.</p></div>
+    <div class="grid g4">
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-prime-whey-1000g.jpg" alt="Prime Whey"></div><label>Prime Whey</label><small>whey protein concentrate, 7 flavours</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-pure-isolate-2000g.jpg" alt="Pure Isolate"></div><label>Pure Isolate</label><small>whey protein isolate</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-creatina-creapure.jpg" alt="Creatine Creapure®"></div><label>Creatine Creapure®</label><small>creatine monohydrate, made in Germany</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-eaa-aminoacizi-esentiali.jpg" alt="EAA"></div><label>EAA</label><small>essential amino acids</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-nitrox.jpg" alt="Nitrox 3D"></div><label>Nitrox 3D</label><small>pre-workout</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-emperor-mass_3000g.jpg" alt="Emperor Mass"></div><label>Emperor Mass</label><small>gainer with 40 % protein</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-recovery-bcaa-500g.jpg" alt="Recovery BCAA"></div><label>Recovery BCAA</label><small>4:1:1 amino acids</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-creatina-monohidrat-micronized-300g-fara-aroma.jpg" alt="Micronised creatine"></div><label>Micronised creatine</label><small>unflavoured, 300 g</small></div>
+    </div>
+    <div class="foot">04 · Core products</div>
+  </section>
+<section class="slide trio">
+    <div class="head"><p class="kicker">The brand in action</p><h2>Made in the gym, tested by athletes.</h2></div>
+    <div class="three">
+      <img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/sala-ramat.jpg" alt="">
+      <img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/sala-nostim.jpg" alt="">
+      <img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/ai-sala.jpg" alt="">
+    </div>
+    <p class="caption">Our own photo shoots, in partner gyms. Materials available for shelves, posters and in-store communication.</p>
+    <div class="foot">05 · Photo shoots</div>
+  </section>
+<section class="slide grid-page">
+    <div class="head"><p class="kicker">Small formats, shelf-ready</p><h2>Single serving, impulse purchase.</h2><p class="sub">Prime products designed for the neighbourhood shelf: sachet, shot, bar. Sold by the piece, no explanation needed, picked up on the way home.</p></div>
+    <div class="grid g4">
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-prime-whey-go.jpg" alt="Prime Whey Go"></div><label>Prime Whey Go</label><small>whey protein sachet, 30 g</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-creatine-ready-to-go-plicuri-prime-supplements.jpg" alt="Creatine Ready To Go"></div><label>Creatine Ready To Go</label><small>effervescent sachet, 10 g</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-energy-pump.jpg" alt="Energy Pump Shot"></div><label>Energy Pump Shot</label><small>liquid pre-workout, 25 ml shot</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-fat-burning-booster.jpg" alt="Fat Burning Booster Shot"></div><label>Fat Burning Booster Shot</label><small>25 ml shot</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="Prime Delicious Bar"></div><label>Prime Delicious Bar</label><small>protein bar, 55 g</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-daily-vitamin-formula.jpg" alt="Daily Vitamin Formula"></div><label>Daily Vitamin Formula</label><small>vitamins and minerals in sachets</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-crema-de-orez-tort-de-ciocolata.jpg" alt="Creamy Rice"></div><label>Creamy Rice</label><small>cream of rice, 1 kg</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-prime-shaker-customised.jpg" alt="Shaker Prime"></div><label>Shaker Prime</label><small>600 ml</small></div>
+    </div>
+    <div class="foot">06 · Small formats</div>
+  </section>
+<section class="slide duo">
+    <div class="two">
+      <img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/batoane-fiole.jpg" alt="">
+      <div class="text">
+        <p class="kicker">Small formats</p>
+        <h2>From the checkout straight into the gym bag.</h2>
+        <p>Prime bars, shots and sachets come individually packed, with a barcode on every unit and a long shelf life. They work on the shelf, at the checkout or in the drinks fridge.</p>
+        <p>Every product has a page on primesupplements.ro with the full composition and a blog article explaining how to use it.</p>
+      </div>
+    </div>
+    <div class="foot">07 · Small formats</div>
+  </section>
+<section class="slide bars">
+    <div class="left">
+      <p class="kicker">Protein bars & high-protein</p>
+      <h2>Prime Delicious Bar: protein to go.</h2>
+      <p>A 55 g protein bar in four flavours: strawberry, salted caramel, coconut and caramel, chocolate and forest fruits. The snack for after training, for the office or for the road.</p>
+      <div class="grid g4 small">
+        <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-baton-proteic-capsuni.jpg" alt="Strawberry"></div><label>Strawberry</label></div>
+        <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-baton-proteic-caramel-sarat.jpg" alt="Salted caramel"></div><label>Salted caramel</label></div>
+        <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-baton-proteic-cocos-si-caramel.jpg" alt="Coconut and caramel"></div><label>Coconut and caramel</label></div>
+        <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="Chocolate and forest fruits"></div><label>Chocolate and forest fruits</label></div>
+      </div>
+    </div>
+    <div class="right"><img class="photo tall" src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-bar-1.jpg" alt=""><img class="photo tall" src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-bar-5.jpg" alt=""></div>
+    <div class="foot">08 · Protein bars</div>
+  </section>
+<section class="slide grid-page">
+    <div class="head"><p class="kicker">High-protein and conscious eating</p><h2>A high-protein breakfast, ready in one minute.</h2><p class="sub">Functional foods for people who want to eat better, not only train: cream of rice, oat cream, 100 % nut butters, fibre, vitamins.</p></div>
+    <div class="grid g4">
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-crema-de-orez-tort-de-ciocolata.jpg" alt="Creamy Rice"></div><label>Creamy Rice</label><small>cream of rice, 7 flavours</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-instant-oat-cream-800g-25-serv.jpg" alt="Instant Oat Cream"></div><label>Instant Oat Cream</label><small>oat cream</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-unt-de-arahide.jpg" alt="Peanut butter"></div><label>Peanut butter</label><small>100 % peanuts, Prime Health</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-unt-de-migdale.jpg" alt="Almond butter"></div><label>Almond butter</label><small>100 % almonds, Prime Health</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-fiber-blood-orange.jpg" alt="Fiber"></div><label>Fiber</label><small>fibre drink</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-vitamina-d3-k2.jpg" alt="Vitamin D3 + K2"></div><label>Vitamin D3 + K2</label><small>Prime Health</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-omega-3.jpg" alt="Omega-3"></div><label>Omega-3</label><small>fish oil</small></div>
+      <div class="cell"><div class="ph"><img src="PREZENTARE-PRIME-MEGA-IMAGE-img/produs-magneziu-bisglicinat-80-caps.jpg" alt="Magnesium bisglycinate"></div><label>Magnesium bisglycinate</label><small>Prime Health</small></div>
+    </div>
+    <div class="foot">09 · High-protein and Prime Health</div>
+  </section>
+<section class="slide mood">
+    <div class="collage">
+      <div class="big"><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/exterior-whey.jpg" alt=""></div>
+      <img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/ai-whey-duo.jpg" alt=""><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-capsule.jpg" alt=""><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/prime-health.jpg" alt=""><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/ai-urban.jpg" alt=""><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-shaker.jpg" alt=""><img class="photo " src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-nitrox.jpg" alt="">
+    </div>
+    <p class="kw center">Sport. Kitchen. Everyday. Community.</p>
+    <div class="foot">10 · Visual story</div>
+  </section>
+<section class="slide why-page">
+    <div class="head"><p class="kicker">Partnership</p><h2>Why Prime on Mega Image shelves.</h2></div>
+    <div class="why">
+      <div><b>Romanian brand with a community</b>Customers who already look for us online and in gyms; the blog and social media drive demand to the shelf.</div>
+      <div><b>A full range from one source</b>From bars and sachets to protein, creatine and vitamins: a sports nutrition shelf from a single supplier.</div>
+      <div><b>Retail formats</b>Individually packed products with barcodes, Romanian labels and a long shelf life. Ready to list, no adaptation needed.</div>
+      <div><b>Marketing support</b>Professional photo shoots, product sheets, blog articles, social media campaigns and shelf materials.</div>
+      <div><b>Simple logistics</b>Stock in Sibiu, Cargus delivery in 1–2 working days, e-invoicing, orders and replenishment through one dedicated contact.</div>
+      <div><b>Compliance</b>Products made in the European Union, notified food supplements, only EU-authorised health claims.</div>
+    </div>
+    <div class="foot">11 · Why Prime</div>
+  </section>
+<section class="slide split">
+    <div class="col text">
+      <p class="kicker">Listing proposal</p>
+      <h2>Two steps, one shelf.</h2>
+      <h3>Step 1 · the impulse shelf, by the checkout</h3>
+      <ul class="list">
+        <li>Prime Delicious Bar, 4 flavours</li>
+        <li>Prime Whey Go, 30 g sachet</li>
+        <li>Creatine Ready To Go, 10 g sachet</li>
+        <li>Energy Pump Shot and Fat Burning Booster Shot, 25 ml</li>
+        <li>Shaker Prime 600 ml</li>
+      </ul>
+      <h3>Step 2 · the sports nutrition shelf</h3>
+      <ul class="list">
+        <li>Prime Whey 1 kg, Creatine Creapure® 300 g</li>
+        <li>Creamy Rice 1 kg, peanut and almond butter</li>
+        <li>Vitamin D3 + K2, Magnesium bisglycinate, Omega-3</li>
+      </ul>
+      <p class="small">The assortment adapts to the store format; commercial terms are discussed separately.</p>
+    </div>
+    <div class="col"><img class="photo tall" src="PREZENTARE-PRIME-MEGA-IMAGE-img/plaja-nitrox.jpg" alt=""></div>
+    <div class="foot">12 · Listing proposal</div>
+  </section>
+<section class="slide cover end">
+    <img class="photo full" src="PREZENTARE-PRIME-MEGA-IMAGE-img/ai-urban.jpg" alt="">
+    <div class="shade dark"></div>
+    <div class="cover-text center">
+      <img class="logo" src="PREZENTARE-PRIME-MEGA-IMAGE-img/logo-prime-alb.svg" alt="Prime Supplements">
+      <h1>Let's bring sports nutrition<br><span>closer to home.</span></h1>
+      <p class="lead">Marius Chera · Prime Sport Supplements SRL · Cisnădie, Sibiu County, Romania<br>0775 286 584 · contact@primesupplements.ro · primesupplements.ro</p>
+    </div>
+    <div class="foot">Made in the European Union · VAT no. RO46260823</div>
+  </section>
+<script>
+  // ?slide=N: afișează doar slide-ul N (pentru capturi de verificare cu Chrome headless --screenshot)
+  const n = +new URLSearchParams(location.search).get("slide");
+  if (n) { document.body.style.cssText = "background:#fff;padding:0;margin:0"; document.querySelectorAll(".slide").forEach((s, i) => { if (i + 1 !== n) s.remove(); else s.style.margin = "0"; }); }
+</script>
+</body></html>

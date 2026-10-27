@@ -4,6 +4,8 @@
 import { writeFileSync } from "node:fs";
 
 const DATA = "2026-10-27";
+const EN = process.env.LANG_DECK === "en"; // LANG_DECK=en: versiunea în engleză (28.10.2026)
+const L = (ro, en) => EN ? en : ro;
 const IMG = "PREZENTARE-PRIME-MEGA-IMAGE-img";
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const prod = (file, name, sub) => `<div class="cell"><div class="ph"><img src="${IMG}/produs-${file}.jpg" alt="${esc(name)}"></div><label>${esc(name)}</label>${sub ? `<small>${esc(sub)}</small>` : ""}</div>`;
@@ -18,28 +20,28 @@ const slides = [
     <div class="shade"></div>
     <div class="tl">${logoW}</div>
     <div class="cover-text">
-      <p class="kicker">Prezentare de brand pentru Mega Image</p>
-      <h1>Nutriție sportivă <span>din România</span>,<br>pentru fiecare zi.</h1>
-      <p class="lead">Prime Supplements: proteine, creatină, batoane proteice și alimente funcționale, fabricate în Uniunea Europeană.</p>
+      <p class="kicker">${L("Prezentare de brand pentru Mega Image", "Brand presentation for Mega Image")}</p>
+      <h1>${L("Nutriție sportivă <span>din România</span>,<br>pentru fiecare zi.", "Sports nutrition <span>from Romania</span>,<br>for every day.")}</h1>
+      <p class="lead">${L("Prime Supplements: proteine, creatină, batoane proteice și alimente funcționale, fabricate în Uniunea Europeană.", "Prime Supplements: protein, creatine, protein bars and functional foods, made in the European Union.")}</p>
     </div>
-    <div class="foot">Prime Sport Supplements SRL · Sibiu · primesupplements.ro</div>
+    <div class="foot">${L("Prime Sport Supplements SRL · Sibiu · primesupplements.ro", "Prime Sport Supplements SRL · Sibiu, Romania · primesupplements.ro")}</div>
   </section>`,
 
   // 2 Cine suntem
   `<section class="slide split">
     <div class="col">${photo("ai-bucatarie.jpg", "tall")}</div>
     <div class="col text">
-      <p class="kicker">Cine suntem</p>
-      <h2>Un brand românesc de suplimente sportive, din Sibiu.</h2>
-      <p>Prime Supplements s-a născut în sala de forță și a crescut online, pe primesupplements.ro, și în sălile de fitness din țară. Produsele sunt fabricate în Uniunea Europeană, cu etichete în limba română și doar cu mențiuni de sănătate autorizate în UE.</p>
+      <p class="kicker">${L("Cine suntem</p>", "Who we are</p>")}
+      <h2>${L("Un brand românesc de suplimente sportive, din Sibiu.", "A Romanian sports nutrition brand from Sibiu.")}</h2>
+      <p>${L("Prime Supplements s-a născut în sala de forță și a crescut online, pe primesupplements.ro, și în sălile de fitness din țară. Produsele sunt fabricate în Uniunea Europeană, cu etichete în limba română și doar cu mențiuni de sănătate autorizate în UE.", "Prime Supplements was born in the weight room and grew online, on primesupplements.ro, and in gyms across Romania. The products are made in the European Union, with Romanian labels and only EU-authorised health claims.")}</p>
       <ul class="facts">
-        <li><b>55+</b> produse: proteine, creatină, aminoacizi, pre-workout, vitamine și minerale, alimente funcționale, accesorii</li>
-        <li><b>100+</b> articole de blog care explică fiecare produs, doza și momentul administrării</li>
-        <li><b>Săli partenere</b> cu raft Prime și agent de vânzări dedicat</li>
-        <li><b>Comunitate</b> activă pe Instagram, Facebook, TikTok și YouTube</li>
+        <li>${L("<b>55+</b> produse: proteine, creatină, aminoacizi, pre-workout, vitamine și minerale, alimente funcționale, accesorii", "<b>55+</b> products: protein, creatine, amino acids, pre-workout, vitamins and minerals, functional foods, accessories")}</li>
+        <li>${L("<b>100+</b> articole de blog care explică fiecare produs, doza și momentul administrării", "<b>100+</b> blog articles explaining each product, the dose and when to take it")}</li>
+        <li>${L("<b>Săli partenere</b> cu raft Prime și agent de vânzări dedicat", "<b>Partner gyms</b> with a Prime shelf and a dedicated sales agent")}</li>
+        <li>${L("<b>Comunitate</b> activă pe Instagram, Facebook, TikTok și YouTube", "<b>Active community</b> on Instagram, Facebook, TikTok and YouTube")}</li>
       </ul>
     </div>
-    <div class="foot">02 · Cine suntem</div>
+    <div class="foot">${L("02 · Cine suntem", "02 · Who we are")}</div>
   </section>`,
 
   // 3 Brand identity
@@ -47,67 +49,67 @@ const slides = [
     <div class="col id">
       <div class="logobox">${logoW}</div>
       <div class="swatches">
-        <div><i style="background:#111"></i>Negru<small>fundal premium, ambalaje</small></div>
-        <div><i style="background:#ec1e24"></i>Roșu Prime<small>accent, energie</small></div>
-        <div><i style="background:#fff;border:1px solid #ddd"></i>Alb<small>claritate, gama Prime Health</small></div>
-        <div><i style="background:#2e7d32"></i>Verde<small>gama Prime Health (sănătate)</small></div>
+        <div><i style="background:#111"></i>${L("Negru<small>fundal premium, ambalaje</small>", "Black<small>premium background, packaging</small>")}</div>
+        <div><i style="background:#ec1e24"></i>${L("Roșu Prime<small>accent, energie</small>", "Prime red<small>accent, energy</small>")}</div>
+        <div><i style="background:#fff;border:1px solid #ddd"></i>${L("Alb<small>claritate, gama Prime Health</small>", "White<small>clarity, Prime Health range</small>")}</div>
+        <div><i style="background:#2e7d32"></i>${L("Verde<small>gama Prime Health (sănătate)</small>", "Green<small>Prime Health range (wellness)</small>")}</div>
       </div>
-      <div class="type"><b>Aa</b><span>Poppins · titluri bold, majuscule, text curent regular. Aceeași familie pe site, e-mail și materiale de raft.</span></div>
+      <div class="type"><b>Aa</b><span>${L("Poppins · titluri bold, majuscule, text curent regular. Aceeași familie pe site, e-mail și materiale de raft.", "Poppins · bold uppercase headlines, regular body text. The same family on the website, e-mails and shelf materials.")}</span></div>
     </div>
     <div class="col text">
       <p class="kicker">Brand identity</p>
-      <h2>Direct, sportiv, de încredere.</h2>
-      <h3>Poziționare</h3>
-      <p>Suplimente de calitate europeană, explicate pe înțelesul tuturor, la un raport corect între calitate și accesibilitate. Pentru cei care fac sport și pentru cei care vor doar să mănânce mai bine.</p>
+      ${L("<h2>Direct, sportiv, de încredere.</h2>", "<h2>Direct, athletic, trustworthy.</h2>")}
+      ${L("<h3>Poziționare</h3>", "<h3>Positioning</h3>")}
+      <p>${L("Suplimente de calitate europeană, explicate pe înțelesul tuturor, la un raport corect între calitate și accesibilitate. Pentru cei care fac sport și pentru cei care vor doar să mănânce mai bine.", "European-quality supplements, explained in plain language, with a fair balance between quality and accessibility. For people who train and for people who simply want to eat better.")}</p>
       <h3>Tone of voice</h3>
-      <p>Vorbim clar, fără promisiuni goale: ce conține produsul, cât iei și când. Mențiuni de sănătate doar cele autorizate în UE.</p>
-      <p class="kw">Performanță. Claritate. Accesibil.</p>
+      <p>${L("Vorbim clar, fără promisiuni goale: ce conține produsul, cât iei și când. Mențiuni de sănătate doar cele autorizate în UE.", "We speak clearly, without empty promises: what the product contains, how much to take and when. Only EU-authorised health claims.")}</p>
+      <p class="kw">${L("Performanță. Claritate. Accesibil.", "Performance. Clarity. Accessible.")}</p>
     </div>
     <div class="foot">03 · Brand identity</div>
   </section>`,
 
   // 4 Gama de bază
   `<section class="slide grid-page">
-    <div class="head"><p class="kicker">Produse de bază</p><h2>Gama de bază: ce caută orice sportiv.</h2><p class="sub">Proteine, creatină, aminoacizi și pre-workout. Produsele cu care a pornit brandul și care se vând cel mai bine.</p></div>
+    <div class="head"><p class="kicker">${L("Produse de bază</p><h2>Gama de bază: ce caută orice sportiv.</h2><p class=\"sub\">Proteine, creatină, aminoacizi și pre-workout. Produsele cu care a pornit brandul și care se vând cel mai bine.</p>", "Core products</p><h2>The core range: what every athlete looks for.</h2><p class=\"sub\">Protein, creatine, amino acids and pre-workout. The products the brand started with and our best sellers.</p>")}</div>
     <div class="grid g4">
-      ${prod("prime-whey-1000g", "Prime Whey", "concentrat proteic din zer, 7 arome")}
-      ${prod("pure-isolate-2000g", "Pure Isolate", "izolat proteic din zer")}
-      ${prod("creatina-creapure", "Creatină Creapure®", "creatină monohidrată, Germania")}
-      ${prod("eaa-aminoacizi-esentiali", "EAA", "aminoacizi esențiali")}
+      ${prod("prime-whey-1000g", "Prime Whey", L("concentrat proteic din zer, 7 arome", "whey protein concentrate, 7 flavours"))}
+      ${prod("pure-isolate-2000g", "Pure Isolate", L("izolat proteic din zer", "whey protein isolate"))}
+      ${prod("creatina-creapure", L("Creatină Creapure®", "Creatine Creapure®"), L("creatină monohidrată, Germania", "creatine monohydrate, made in Germany"))}
+      ${prod("eaa-aminoacizi-esentiali", "EAA", L("aminoacizi esențiali", "essential amino acids"))}
       ${prod("nitrox", "Nitrox 3D", "pre-workout")}
-      ${prod("emperor-mass_3000g", "Emperor Mass", "gainer cu 40 % proteină")}
-      ${prod("recovery-bcaa-500g", "Recovery BCAA", "aminoacizi 4:1:1")}
-      ${prod("creatina-monohidrat-micronized-300g-fara-aroma", "Creatină micronizată", "fără aromă, 300 g")}
+      ${prod("emperor-mass_3000g", "Emperor Mass", L("gainer cu 40 % proteină", "gainer with 40 % protein"))}
+      ${prod("recovery-bcaa-500g", "Recovery BCAA", L("aminoacizi 4:1:1", "4:1:1 amino acids"))}
+      ${prod("creatina-monohidrat-micronized-300g-fara-aroma", L("Creatină micronizată", "Micronised creatine"), L("fără aromă, 300 g", "unflavoured, 300 g"))}
     </div>
-    <div class="foot">04 · Produse de bază</div>
+    <div class="foot">${L("04 · Produse de bază", "04 · Core products")}</div>
   </section>`,
 
   // 5 În sală
   `<section class="slide trio">
-    <div class="head"><p class="kicker">Brandul în acțiune</p><h2>Făcut în sală, testat de sportivi.</h2></div>
+    <div class="head"><p class="kicker">${L("Brandul în acțiune</p><h2>Făcut în sală, testat de sportivi.</h2>", "The brand in action</p><h2>Made in the gym, tested by athletes.</h2>")}</div>
     <div class="three">
       ${photo("sala-ramat.jpg")}
       ${photo("sala-nostim.jpg")}
       ${photo("ai-sala.jpg")}
     </div>
-    <p class="caption">Ședințe foto proprii, în săli partenere. Materiale disponibile pentru raft, afișe și comunicare în magazin.</p>
-    <div class="foot">05 · Ședințe foto</div>
+    <p class="caption">${L("Ședințe foto proprii, în săli partenere. Materiale disponibile pentru raft, afișe și comunicare în magazin.", "Our own photo shoots, in partner gyms. Materials available for shelves, posters and in-store communication.")}</p>
+    <div class="foot">${L("05 · Ședințe foto", "05 · Photo shoots")}</div>
   </section>`,
 
   // 6 Formate mici
   `<section class="slide grid-page">
-    <div class="head"><p class="kicker">Formate mici, gata de raft</p><h2>Porție unică, cumpărare de impuls.</h2><p class="sub">Produsele Prime gândite pentru raftul de lângă casă: plic, fiolă, baton. Se vând la bucată, nu cer explicații și intră în coș în drum spre casă.</p></div>
+    <div class="head"><p class="kicker">${L("Formate mici, gata de raft</p><h2>Porție unică, cumpărare de impuls.</h2><p class=\"sub\">Produsele Prime gândite pentru raftul de lângă casă: plic, fiolă, baton. Se vând la bucată, nu cer explicații și intră în coș în drum spre casă.</p>", "Small formats, shelf-ready</p><h2>Single serving, impulse purchase.</h2><p class=\"sub\">Prime products designed for the neighbourhood shelf: sachet, shot, bar. Sold by the piece, no explanation needed, picked up on the way home.</p>")}</div>
     <div class="grid g4">
-      ${prod("prime-whey-go", "Prime Whey Go", "proteină la plic, 30 g")}
-      ${prod("creatine-ready-to-go-plicuri-prime-supplements", "Creatină Ready To Go", "plic efervescent, 10 g")}
-      ${prod("energy-pump", "Energy Pump Shot", "pre-workout lichid, fiolă 25 ml")}
-      ${prod("fat-burning-booster", "Fat Burning Booster Shot", "fiolă 25 ml")}
-      ${prod("baton-proteic-ciocolata-fructe-de-padure", "Prime Delicious Bar", "baton proteic, 55 g")}
-      ${prod("daily-vitamin-formula", "Daily Vitamin Formula", "vitamine și minerale la plic")}
-      ${prod("crema-de-orez-tort-de-ciocolata", "Creamy Rice", "cremă de orez, 1 kg")}
+      ${prod("prime-whey-go", "Prime Whey Go", L("proteină la plic, 30 g", "whey protein sachet, 30 g"))}
+      ${prod("creatine-ready-to-go-plicuri-prime-supplements", L("Creatină Ready To Go", "Creatine Ready To Go"), L("plic efervescent, 10 g", "effervescent sachet, 10 g"))}
+      ${prod("energy-pump", "Energy Pump Shot", L("pre-workout lichid, fiolă 25 ml", "liquid pre-workout, 25 ml shot"))}
+      ${prod("fat-burning-booster", "Fat Burning Booster Shot", L("fiolă 25 ml", "25 ml shot"))}
+      ${prod("baton-proteic-ciocolata-fructe-de-padure", "Prime Delicious Bar", L("baton proteic, 55 g", "protein bar, 55 g"))}
+      ${prod("daily-vitamin-formula", "Daily Vitamin Formula", L("vitamine și minerale la plic", "vitamins and minerals in sachets"))}
+      ${prod("crema-de-orez-tort-de-ciocolata", "Creamy Rice", L("cremă de orez, 1 kg", "cream of rice, 1 kg"))}
       ${prod("prime-shaker-customised", "Shaker Prime", "600 ml")}
     </div>
-    <div class="foot">06 · Formate mici</div>
+    <div class="foot">${L("06 · Formate mici", "06 · Small formats")}</div>
   </section>`,
 
   // 7 Formate mici lifestyle
@@ -115,46 +117,46 @@ const slides = [
     <div class="two">
       ${photo("batoane-fiole.jpg")}
       <div class="text">
-        <p class="kicker">Formate mici</p>
-        <h2>De la casa de marcat direct în geanta de sală.</h2>
-        <p>Batoanele, fiolele și plicurile Prime au ambalaj individual, cod de bare pe fiecare bucată și termen de valabilitate lung. Se expun la raft, la casă sau în frigiderul de băuturi.</p>
-        <p>Fiecare produs are pe primesupplements.ro o pagină cu compoziția completă și un articol de blog care explică folosirea.</p>
+        <p class="kicker">${L("Formate mici</p>", "Small formats</p>")}
+        ${L("<h2>De la casa de marcat direct în geanta de sală.</h2>", "<h2>From the checkout straight into the gym bag.</h2>")}
+        <p>${L("Batoanele, fiolele și plicurile Prime au ambalaj individual, cod de bare pe fiecare bucată și termen de valabilitate lung. Se expun la raft, la casă sau în frigiderul de băuturi.", "Prime bars, shots and sachets come individually packed, with a barcode on every unit and a long shelf life. They work on the shelf, at the checkout or in the drinks fridge.")}</p>
+        <p>${L("Fiecare produs are pe primesupplements.ro o pagină cu compoziția completă și un articol de blog care explică folosirea.", "Every product has a page on primesupplements.ro with the full composition and a blog article explaining how to use it.")}</p>
       </div>
     </div>
-    <div class="foot">07 · Formate mici</div>
+    <div class="foot">${L("07 · Formate mici", "07 · Small formats")}</div>
   </section>`,
 
   // 8 Batoane
   `<section class="slide bars">
     <div class="left">
-      <p class="kicker">Batoane proteice & high-protein</p>
-      <h2>Prime Delicious Bar: proteină la pachet.</h2>
-      <p>Baton proteic de 55 g, în patru arome: căpșuni, caramel sărat, cocos și caramel, ciocolată și fructe de pădure. Gustarea pentru după antrenament, pentru birou sau pentru drum.</p>
+      <p class="kicker">${L("Batoane proteice & high-protein</p>", "Protein bars & high-protein</p>")}
+      ${L("<h2>Prime Delicious Bar: proteină la pachet.</h2>", "<h2>Prime Delicious Bar: protein to go.</h2>")}
+      <p>${L("Baton proteic de 55 g, în patru arome: căpșuni, caramel sărat, cocos și caramel, ciocolată și fructe de pădure. Gustarea pentru după antrenament, pentru birou sau pentru drum.", "A 55 g protein bar in four flavours: strawberry, salted caramel, coconut and caramel, chocolate and forest fruits. The snack for after training, for the office or for the road.")}</p>
       <div class="grid g4 small">
-        ${prod("baton-proteic-capsuni", "Căpșuni")}
-        ${prod("baton-proteic-caramel-sarat", "Caramel sărat")}
-        ${prod("baton-proteic-cocos-si-caramel", "Cocos și caramel")}
-        ${prod("baton-proteic-ciocolata-fructe-de-padure", "Ciocolată și fructe de pădure")}
+        ${prod("baton-proteic-capsuni", L("Căpșuni", "Strawberry"))}
+        ${prod("baton-proteic-caramel-sarat", L("Caramel sărat", "Salted caramel"))}
+        ${prod("baton-proteic-cocos-si-caramel", L("Cocos și caramel", "Coconut and caramel"))}
+        ${prod("baton-proteic-ciocolata-fructe-de-padure", L("Ciocolată și fructe de pădure", "Chocolate and forest fruits"))}
       </div>
     </div>
     <div class="right">${photo("plaja-bar-1.jpg", "tall")}${photo("plaja-bar-5.jpg", "tall")}</div>
-    <div class="foot">08 · Batoane proteice</div>
+    <div class="foot">${L("08 · Batoane proteice", "08 · Protein bars")}</div>
   </section>`,
 
   // 9 High-protein / alimentație conștientă
   `<section class="slide grid-page">
-    <div class="head"><p class="kicker">High-protein și alimentație conștientă</p><h2>Micul dejun proteic, gata într-un minut.</h2><p class="sub">Alimente funcționale pentru cei care vor să mănânce mai bine, nu doar să se antreneze: cremă de orez, cremă de ovăz, unturi 100 % din nuci și semințe, fibre, vitamine.</p></div>
+    <div class="head"><p class="kicker">${L("High-protein și alimentație conștientă</p><h2>Micul dejun proteic, gata într-un minut.</h2><p class=\"sub\">Alimente funcționale pentru cei care vor să mănânce mai bine, nu doar să se antreneze: cremă de orez, cremă de ovăz, unturi 100 % din nuci și semințe, fibre, vitamine.</p>", "High-protein and conscious eating</p><h2>A high-protein breakfast, ready in one minute.</h2><p class=\"sub\">Functional foods for people who want to eat better, not only train: cream of rice, oat cream, 100 % nut butters, fibre, vitamins.</p>")}</div>
     <div class="grid g4">
-      ${prod("crema-de-orez-tort-de-ciocolata", "Creamy Rice", "cremă de orez, 7 arome")}
-      ${prod("instant-oat-cream-800g-25-serv", "Instant Oat Cream", "cremă de ovăz")}
-      ${prod("unt-de-arahide", "Unt de arahide", "100 % arahide, Prime Health")}
-      ${prod("unt-de-migdale", "Unt de migdale", "100 % migdale, Prime Health")}
-      ${prod("fiber-blood-orange", "Fiber", "băutură cu fibre")}
-      ${prod("vitamina-d3-k2", "Vitamina D3 + K2", "Prime Health")}
-      ${prod("omega-3", "Omega-3", "ulei de pește")}
-      ${prod("magneziu-bisglicinat-80-caps", "Magneziu bisglicinat", "Prime Health")}
+      ${prod("crema-de-orez-tort-de-ciocolata", "Creamy Rice", L("cremă de orez, 7 arome", "cream of rice, 7 flavours"))}
+      ${prod("instant-oat-cream-800g-25-serv", "Instant Oat Cream", L("cremă de ovăz", "oat cream"))}
+      ${prod("unt-de-arahide", L("Unt de arahide", "Peanut butter"), L("100 % arahide, Prime Health", "100 % peanuts, Prime Health"))}
+      ${prod("unt-de-migdale", L("Unt de migdale", "Almond butter"), L("100 % migdale, Prime Health", "100 % almonds, Prime Health"))}
+      ${prod("fiber-blood-orange", "Fiber", L("băutură cu fibre", "fibre drink"))}
+      ${prod("vitamina-d3-k2", L("Vitamina D3 + K2", "Vitamin D3 + K2"), "Prime Health")}
+      ${prod("omega-3", "Omega-3", L("ulei de pește", "fish oil"))}
+      ${prod("magneziu-bisglicinat-80-caps", L("Magneziu bisglicinat", "Magnesium bisglycinate"), "Prime Health")}
     </div>
-    <div class="foot">09 · High-protein și Prime Health</div>
+    <div class="foot">${L("09 · High-protein și Prime Health", "09 · High-protein and Prime Health")}</div>
   </section>`,
 
   // 10 Moodboard
@@ -163,47 +165,47 @@ const slides = [
       <div class="big">${photo("exterior-whey.jpg")}</div>
       ${photo("ai-whey-duo.jpg")}${photo("plaja-capsule.jpg")}${photo("prime-health.jpg")}${photo("ai-urban.jpg")}${photo("plaja-shaker.jpg")}${photo("plaja-nitrox.jpg")}
     </div>
-    <p class="kw center">Sport. Bucătărie. Cotidian. Comunitate.</p>
+    <p class="kw center">${L("Sport. Bucătărie. Cotidian. Comunitate.", "Sport. Kitchen. Everyday. Community.")}</p>
     <div class="foot">10 · Visual story</div>
   </section>`,
 
   // 11 De ce Prime la Mega Image
   `<section class="slide why-page">
-    <div class="head"><p class="kicker">Parteneriat</p><h2>De ce Prime pe rafturile Mega Image.</h2></div>
+    <div class="head"><p class="kicker">${L("Parteneriat</p><h2>De ce Prime pe rafturile Mega Image.</h2>", "Partnership</p><h2>Why Prime on Mega Image shelves.</h2>")}</div>
     <div class="why">
-      <div><b>Brand românesc, cu comunitate</b>Clienți care ne caută deja online și în săli; blogul și rețelele sociale aduc cererea spre raft.</div>
-      <div><b>Gamă completă dintr-o sursă</b>De la baton și plic la proteină, creatină și vitamine: un raft de nutriție sportivă cu un singur furnizor.</div>
-      <div><b>Formate de retail</b>Produse cu ambalaj individual, cod de bare, etichetă în română, termen lung. Gata de listare, fără adaptări.</div>
-      <div><b>Suport de marketing</b>Ședințe foto profesionale, fișe de produs, articole de blog, campanii pe social media și materiale la raft.</div>
-      <div><b>Logistică simplă</b>Stoc în Sibiu, livrare Cargus în 1–2 zile lucrătoare, facturare electronică, comenzi și reaprovizionare printr-o persoană dedicată.</div>
-      <div><b>Conformitate</b>Produse fabricate în Uniunea Europeană, suplimente notificate, mențiuni de sănătate doar cele autorizate în UE.</div>
+      <div>${L("<b>Brand românesc, cu comunitate</b>Clienți care ne caută deja online și în săli; blogul și rețelele sociale aduc cererea spre raft.", "<b>Romanian brand with a community</b>Customers who already look for us online and in gyms; the blog and social media drive demand to the shelf.")}</div>
+      <div>${L("<b>Gamă completă dintr-o sursă</b>De la baton și plic la proteină, creatină și vitamine: un raft de nutriție sportivă cu un singur furnizor.", "<b>A full range from one source</b>From bars and sachets to protein, creatine and vitamins: a sports nutrition shelf from a single supplier.")}</div>
+      <div>${L("<b>Formate de retail</b>Produse cu ambalaj individual, cod de bare, etichetă în română, termen lung. Gata de listare, fără adaptări.", "<b>Retail formats</b>Individually packed products with barcodes, Romanian labels and a long shelf life. Ready to list, no adaptation needed.")}</div>
+      <div>${L("<b>Suport de marketing</b>Ședințe foto profesionale, fișe de produs, articole de blog, campanii pe social media și materiale la raft.", "<b>Marketing support</b>Professional photo shoots, product sheets, blog articles, social media campaigns and shelf materials.")}</div>
+      <div>${L("<b>Logistică simplă</b>Stoc în Sibiu, livrare Cargus în 1–2 zile lucrătoare, facturare electronică, comenzi și reaprovizionare printr-o persoană dedicată.", "<b>Simple logistics</b>Stock in Sibiu, Cargus delivery in 1–2 working days, e-invoicing, orders and replenishment through one dedicated contact.")}</div>
+      <div>${L("<b>Conformitate</b>Produse fabricate în Uniunea Europeană, suplimente notificate, mențiuni de sănătate doar cele autorizate în UE.", "<b>Compliance</b>Products made in the European Union, notified food supplements, only EU-authorised health claims.")}</div>
     </div>
-    <div class="foot">11 · De ce Prime</div>
+    <div class="foot">${L("11 · De ce Prime", "11 · Why Prime")}</div>
   </section>`,
 
   // 12 Propunere de sortiment
   `<section class="slide split">
     <div class="col text">
-      <p class="kicker">Propunere de listare</p>
-      <h2>Două trepte, un singur raft.</h2>
-      <h3>Treapta 1 · raftul de impuls, lângă casă</h3>
+      <p class="kicker">${L("Propunere de listare</p>", "Listing proposal</p>")}
+      ${L("<h2>Două trepte, un singur raft.</h2>", "<h2>Two steps, one shelf.</h2>")}
+      ${L("<h3>Treapta 1 · raftul de impuls, lângă casă</h3>", "<h3>Step 1 · the impulse shelf, by the checkout</h3>")}
       <ul class="list">
-        <li>Prime Delicious Bar, 4 arome</li>
-        <li>Prime Whey Go, plic 30 g</li>
-        <li>Creatină Ready To Go, plic 10 g</li>
-        <li>Energy Pump Shot și Fat Burning Booster Shot, fiole 25 ml</li>
+        ${L("<li>Prime Delicious Bar, 4 arome</li>", "<li>Prime Delicious Bar, 4 flavours</li>")}
+        ${L("<li>Prime Whey Go, plic 30 g</li>", "<li>Prime Whey Go, 30 g sachet</li>")}
+        ${L("<li>Creatină Ready To Go, plic 10 g</li>", "<li>Creatine Ready To Go, 10 g sachet</li>")}
+        ${L("<li>Energy Pump Shot și Fat Burning Booster Shot, fiole 25 ml</li>", "<li>Energy Pump Shot and Fat Burning Booster Shot, 25 ml</li>")}
         <li>Shaker Prime 600 ml</li>
       </ul>
-      <h3>Treapta 2 · raftul de nutriție sportivă</h3>
+      ${L("<h3>Treapta 2 · raftul de nutriție sportivă</h3>", "<h3>Step 2 · the sports nutrition shelf</h3>")}
       <ul class="list">
-        <li>Prime Whey 1 kg, Creatină Creapure® 300 g</li>
-        <li>Creamy Rice 1 kg, unt de arahide și de migdale</li>
-        <li>Vitamina D3 + K2, Magneziu bisglicinat, Omega-3</li>
+        ${L("<li>Prime Whey 1 kg, Creatină Creapure® 300 g</li>", "<li>Prime Whey 1 kg, Creatine Creapure® 300 g</li>")}
+        ${L("<li>Creamy Rice 1 kg, unt de arahide și de migdale</li>", "<li>Creamy Rice 1 kg, peanut and almond butter</li>")}
+        ${L("<li>Vitamina D3 + K2, Magneziu bisglicinat, Omega-3</li>", "<li>Vitamin D3 + K2, Magnesium bisglycinate, Omega-3</li>")}
       </ul>
-      <p class="small">Sortimentul se adaptează pe format de magazin; condițiile comerciale se discută separat.</p>
+      <p class="small">${L("Sortimentul se adaptează pe format de magazin; condițiile comerciale se discută separat.", "The assortment adapts to the store format; commercial terms are discussed separately.")}</p>
     </div>
     <div class="col">${photo("plaja-nitrox.jpg", "tall")}</div>
-    <div class="foot">12 · Propunere de listare</div>
+    <div class="foot">${L("12 · Propunere de listare", "12 · Listing proposal")}</div>
   </section>`,
 
   // 13 Închidere
@@ -212,16 +214,16 @@ const slides = [
     <div class="shade dark"></div>
     <div class="cover-text center">
       ${logoW}
-      <h1>Hai să aducem nutriția sportivă<br><span>mai aproape de casă.</span></h1>
-      <p class="lead">Marius Chera · Prime Sport Supplements SRL · Cisnădie, jud. Sibiu<br>0775 286 584 · contact@primesupplements.ro · primesupplements.ro</p>
+      <h1>${L("Hai să aducem nutriția sportivă<br><span>mai aproape de casă.</span>", "Let's bring sports nutrition<br><span>closer to home.</span>")}</h1>
+      <p class="lead">${L("Marius Chera · Prime Sport Supplements SRL · Cisnădie, jud. Sibiu<br>", "Marius Chera · Prime Sport Supplements SRL · Cisnădie, Sibiu County, Romania<br>")}0775 286 584 · contact@primesupplements.ro · primesupplements.ro</p>
     </div>
-    <div class="foot">Produs în Uniunea Europeană · CUI 46260823</div>
+    <div class="foot">${L("Produs în Uniunea Europeană · CUI 46260823", "Made in the European Union · VAT no. RO46260823")}</div>
   </section>`,
 ];
 
 const html = `<!doctype html>
-<html lang="ro"><head><meta charset="utf-8">
-<title>Prime Supplements – prezentare de brand pentru Mega Image</title>
+<html lang="${EN ? "en" : "ro"}"><head><meta charset="utf-8">
+<title>${L("Prime Supplements – prezentare de brand pentru Mega Image", "Prime Supplements – brand presentation for Mega Image")}</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root { --red: #ec1e24; --ink: #111; --grey: #666; --line: #e6e6e6; --bg: #f5f5f5; }
@@ -315,5 +317,5 @@ ${slides.join("\n")}
 </script>
 </body></html>`;
 
-writeFileSync(new URL(`./PREZENTARE-PRIME-MEGA-IMAGE-${DATA}.html`, import.meta.url), "﻿" + html, "utf8");
+writeFileSync(new URL(EN ? `./PREZENTARE-PRIME-MEGA-IMAGE-EN-${DATA}.html` : `./PREZENTARE-PRIME-MEGA-IMAGE-${DATA}.html`, import.meta.url), "﻿" + html, "utf8");
 console.log("scris, slide-uri:", slides.length);

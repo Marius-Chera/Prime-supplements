@@ -245,3 +245,6 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .media-link .meta{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
 .media-link b{font-family:var(--display);font-size:22px;line-height:1.1;text-transform:uppercase}
 .media-link .go{color:var(--red);font-weight:600;font-size:14px}
+
+.list.supp li{margin-bottom:10px}
+.list.supp .hint{display:block;margin-top:2px}

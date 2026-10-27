@@ -19,7 +19,7 @@ Codul din acest folder e o temă Shopify completă (Online Store 2.0): pagina pr
   | Chera Protocol Coaching · 1 lună | `chera-protocol-coaching-1-luna` | 990 lei | serviciu, fără expediere, cantitate 1 | metafield `chera.single_qty` = true |
   | Chera Protocol Coaching · 3 luni | `chera-protocol-coaching-3-luni` | 2.500 lei | serviciu | |
   | Pregătire de concurs · prima lună | `pregatire-de-concurs-prima-luna` | 1.500 lei | serviciu | descrierea: planul complet + video call 15 min |
-  | Programele digitale (3–5) | `program-…` | 150–400 lei | digital, livrat cu Digital Downloads | |
+  | Programele digitale (3–5) | `program-…` | 200–400 lei | digital, livrat cu Digital Downloads | |
   La fiecare: „This is a physical product” debifat; metafield-uri (opționale, afișate de temă): `chera.tag` (eyebrow), `chera.price_note`, `chera.includes` (text bogat), `chera.subtitle`.
 - **Setări → Conturi de client**: „Obligatoriu” la checkout; conturi noi (cod pe e-mail). **Setări → Checkout**: telefonul obligatoriu.
 

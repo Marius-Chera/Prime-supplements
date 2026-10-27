@@ -149,6 +149,7 @@ function balance(){
   return {scores:sc,sorted:e,top:e[0][0],topVal:e[0][1],level:level(e[0][1]),allHigh};
 }
 function li(list,arr){ list.innerHTML=""; arr.forEach(t=>{ const l=document.createElement("li"); l.textContent=t; list.appendChild(l); }); }
+function suppList(el,arr){ el.innerHTML=""; (arr||[]).forEach(x=>{ const l=document.createElement("li"); if(typeof x==="string"){ l.textContent=x; } else { l.innerHTML=`<b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span>`; } el.appendChild(l); }); }
 function scorecard(el,sc,top){ el.innerHTML=""; ["D","A","G","S"].forEach(k=>{ const d=document.createElement("div"); d.className="s"+(k===top?" lead-s":""); d.innerHTML=`<small>${SCALE_NAME[k]}</small><b>${sc[k]}</b>`; el.appendChild(d); }); }
 
 function buildResult(){
@@ -161,19 +162,22 @@ function buildResult(){
   scorecard($("r-scoresA"),nt.scores,nt.dom.top);
   $("r-mixed").hidden = !nt.dom.mixed;
   if(nt.dom.mixed) $("r-mixed").textContent = `Profil mixt: ${SCALE_NAME[nt.dom.top]} și ${SCALE_NAME[nt.dom.second]} sunt la cel mult 2 puncte. Confirm eu tipul la prima discuție.`;
-  li($("r-who"),T.who); li($("r-train"),T.train); li($("r-diet"),T.diet);
+  const XX=window.CHERA_EXT||{}, EE=(XX.types||{})[nt.type]||{}, MM=(XX.more||{})[nt.type]||{};
+  li($("r-who"),[...T.who,...(MM.who||[])]);
+  li($("r-train"),[...T.train,...(EE.train||[]),...(MM.train||[])]);
+  li($("r-diet"),[...T.diet,...(EE.diet||[]),...(MM.diet||[])]);
   scorecard($("r-scoresB"),bal.scores,bal.level==="ok"?null:bal.top);
   const rb=$("r-balance"); rb.innerHTML="";
   if(bal.allHigh){ rb.innerHTML=`<p><span class="pill crit">oboseală generală</span></p><p>Toate cele patru scale sunt ridicate. De obicei nu e un dezechilibru specific, ci somn puțin, deficit caloric prea mare sau prea multe stimulente. Verific eu întâi aceste trei lucruri; suplimentele vin după.</p>`; }
   else if(bal.level==="ok"){ rb.innerHTML=`<p><span class="pill ok">echilibru bun</span></p><p>Nimic de corectat acum. Rămâne dieta de bază a profilului tău și re-testăm la 8 săptămâni.</p>`; }
   else{
-    const D=DEFICIT[bal.top];
+    const D=Object.assign({},DEFICIT[bal.top],((window.CHERA_EXT||{}).deficitFull||{})[bal.top]||{});
     rb.innerHTML=`<p><span class="pill ${bal.level}">${D.name}: ${bal.level==="crit"?"pe minus":"de susținut"}</span></p>
       <h3>Ajustări în dietă</h3><ul class="list" id="rb-diet"></ul>
-      ${bal.level==="crit"?`<h3>Suplimente de stabilizare, 8 săptămâni</h3><ul class="list" id="rb-supp"></ul>`:`<p class="hint">La acest nivel, dieta și stilul de viață sunt de ajuns; suplimentele le decid eu la prima discuție.</p>`}
+      <h3>${bal.level==="crit"?"Suplimente de stabilizare, 8 săptămâni":"Suplimente de susținere (le confirm eu la prima discuție)"}</h3><ul class="list supp" id="rb-supp"></ul>
       <h3>Stil de viață</h3><ul class="list" id="rb-life"></ul>
       <p class="hint">${D.warn}</p>`;
-    li($("rb-diet"),D.diet); if(bal.level==="crit") li($("rb-supp"),D.supp); li($("rb-life"),D.life);
+    li($("rb-diet"),D.diet); suppList($("rb-supp"),D.supp); li($("rb-life"),D.life);
   }
   renderExt(nt.type, bal, goal);
   const door=DOORS[goal]||DOORS.sportiv;
@@ -197,13 +201,14 @@ function renderExt(type, bal, goal){
   const ul=a=>"<ul class=\"list\">"+a.map(t=>"<li>"+t+"</li>").join("")+"</ul>";
   const card=(eb,h,body)=>`<div class="card">${eb?`<p class="eyebrow">${eb}</p>`:""}<h3>${h}</h3>${body}</div>`;
   let h=card("Profilul tău, pe larg","Ce înseamnă asta în sală",`<p>${E.intro}</p>`);
-  h+=card("Antrenament","Cum te antrenezi ca să crești",ul(E.train)+`<h3 style="margin-top:14px">O săptămână-tip</h3>`+ul(E.split));
-  h+=card("Nutriție","Cum mănânci pe profilul tău",ul(E.diet)+`<p class="hint">${X.carbtest}</p>`);
-  h+=card("Exemplu","O zi de mâncare pe profilul tău",ul(E.day||[])+`<p class="hint">${X.dayNote}</p>`);
+  h+=card("Antrenament","O săptămână-tip pe profilul tău",ul(E.split));
+    h+=card("Exemplu","O zi de mâncare pe profilul tău",ul(E.day||[])+`<p class="hint">${X.dayNote}</p><p class="hint">${X.carbtest}</p>`);
   h+=card("Faze","Definire și masă musculară",`<h3>La definire</h3>${ul(E.cut)}<h3 style="margin-top:14px">La masă musculară</h3>${ul(E.bulk)}`);
   if(bal.level!=="ok" && !bal.allHigh && X.deficit[bal.top]){ const D=X.deficit[bal.top]; h+=card("Echilibrul tău acum","De ce contează "+DEFICIT[bal.top].name+" la sală",`<p>${D.why}</p><h3 style="margin-top:14px">Ce schimbăm în antrenament</h3>${ul(D.train)}`); }
   h+=card("Atenție","Greșelile pe care le văd des la profilul tău",ul(E.mistakes));
-  h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(E.mind)+`<h3 style="margin-top:14px">Suplimentele de bază pentru profilul tău</h3>`+ul(E.supp));
+  h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(E.mind));
+  const M=(X.more||{})[type]||{}; const sl=a=>"<ul class=\"list supp\">"+(a||[]).map(x=>`<li><b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span></li>`).join("")+"</ul>";
+  h+=card("Suplimente","Stack-ul pentru profilul tău",sl(M.stack||[])+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(X.base)+`<p class="hint">Dozele sunt orientative, pentru adulți sănătoși. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
   h+=card("Obiectivul tău",G.title,ul(G.items));
   h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(X.start4));
   box.innerHTML=h;

@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# Cartea lui Marius (nepublicata) - doar local, repo-ul e public
+chera-coaching/carte/privat/

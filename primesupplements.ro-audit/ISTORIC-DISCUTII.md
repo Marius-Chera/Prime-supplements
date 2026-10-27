@@ -167,3 +167,5 @@ Detaliile sunt în JURNAL.md (sursa principală).
 
 ## 27.10.2026 seara – Chera Coaching: feed Instagram pe site
 Proprietarul a cerut feed „live” cu transformările de pe @team_cheraprotocol în secțiunea Rezultate (încă 20 la cerere, apoi link spre profil). Decizie: **fără aplicație de feed Instagram și fără API Instagram** – proprietarul nu se poate conecta la Instagram din aceste instrumente („aceeași poveste”). Alternativa agreată de propus: galeria „Rezultate” din temă (pozele deja urcate în Files: chera-galerie-01…85) cu buton „Vezi mai multe” (încă 20) și, la final, buton spre instagram.com/team_cheraprotocol; pozele noi se adaugă în Files, fără Instagram.
+
+- 27.10.2026 seara (Chera): restructurarea galeriei „Rezultate” cu pozele de pe telefon (arhiva chera-poze-site.zip, chera-galerie-57…138) e AMÂNATĂ la cererea proprietarului („ne ocupăm altă dată de poze, deocamdată e ok așa”). Galeria rămâne cum e.

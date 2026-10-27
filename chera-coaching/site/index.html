@@ -58,6 +58,12 @@ nav ul a{color:var(--fg-2);text-decoration:none}
 .mosaic{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .mosaic img{aspect-ratio:3/4}
 .avatar{width:56px;height:56px;border-radius:50%;border:2px solid var(--red);object-fit:cover}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:860px){.gallery{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:480px){.gallery{grid-template-columns:repeat(2,1fr);gap:8px}}
+.gallery figure{margin:0;display:grid;gap:6px;min-width:0}
+.gallery img{display:block;width:100%;height:auto;max-width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px}
+.gallery figcaption{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2)}
 .articles{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 @media (max-width:860px){.articles{grid-template-columns:1fr}}
 .art{display:grid;gap:10px;padding:22px;border:1px solid var(--line);border-radius:8px;min-width:0;align-content:start}
@@ -214,15 +220,22 @@ footer a{color:var(--fg-2)}
 <section class="band" id="rezultate" style="padding-top:0">
   <div class="in stack" style="gap:28px">
     <div class="stack"><p class="eyebrow">Rezultate</p><h2>Oameni pe care i-am antrenat</h2><p class="muted">Competitori și oameni care nu au concurat niciodată. Fiecare cu acordul lui.</p></div>
-    <div class="grid">
-      <div class="res"><img src="img/arcas-sergiu-2026-10-22.jpg" width="486" height="640" alt="Arcaș Sergiu pe scenă la NPC Worldwide"><b>Arcaș Sergiu</b><small>Scenă NPC Worldwide · pregătit de mine</small></div>
-      <div class="res"><img src="img/duplea-bogdan-2026-09-03.jpg" width="480" height="640" alt="Duplea Bogdan pe scenă la Olympia Amateur Eastern Europe"><b>Duplea Bogdan</b><small>Olympia Amateur Eastern Europe · pregătit de mine</small></div>
-      <div class="res"><img src="img/homa-mehman-2025-11-16.jpg" width="480" height="640" alt="Homa Mehman pe scenă la Muscle Fest Pro-Am"><b>Homa Mehman</b><small>Muscle Fest Pro-Am · pregătit de mine</small></div>
-      <div class="res"><img src="img/sergiu-faur-2025-12-29.jpg" width="480" height="640" alt="Sergiu Faur pe scenă la Fashion Street Fitparade, Classic Pro Qualifier"><b>Sergiu Faur</b><small>Classic Pro Qualifier · pregătit de mine</small></div>
-      <div class="res"><img src="img/tomoroga-tiberiu-2026-10-20.jpg" width="512" height="640" alt="Tomoroga Tiberiu, poză de spate în sală"><b>Tomoroga Tiberiu</b><small>Pregătire de concurs · 2026</small></div>
-      <div class="res"><img src="img/daniel-2026-08-24.jpg" width="480" height="640" alt="Daniel cu două medalii, în culisele unui concurs"><b>Daniel</b><small>Două medalii la același concurs · pregătit de mine</small></div>
+    <div class="gallery" id="gallery">
+      <figure><img src="img/arcas-sergiu-2026-10-22.jpg" width="486" height="640" alt="Arcaș Sergiu pe scenă la NPC Worldwide" loading="lazy"><figcaption>Arcaș Sergiu · NPC Worldwide</figcaption></figure>
+      <figure><img src="img/duplea-bogdan-2026-09-03.jpg" width="480" height="640" alt="Duplea Bogdan pe scenă la Olympia Amateur Eastern Europe" loading="lazy"><figcaption>Duplea Bogdan · Olympia Amateur</figcaption></figure>
+      <figure><img src="img/homa-mehman-2025-11-16.jpg" width="480" height="640" alt="Homa Mehman pe scenă la Muscle Fest Pro-Am" loading="lazy"><figcaption>Homa Mehman · Muscle Fest Pro-Am</figcaption></figure>
+      <figure><img src="img/sergiu-faur-2025-12-29.jpg" width="480" height="640" alt="Sergiu Faur pe scenă, Classic Pro Qualifier" loading="lazy"><figcaption>Sergiu Faur · Classic Pro Qualifier</figcaption></figure>
+      <figure><img src="img/amir-abu-2026-10-22.jpg" width="480" height="640" alt="Amir Abu pe scenă" loading="lazy"><figcaption>Amir Abu · pe scenă</figcaption></figure>
+      <figure><img src="img/tomoroga-tiberiu-2026-10-20.jpg" width="512" height="640" alt="Tomoroga Tiberiu, poză de spate în sală" loading="lazy"><figcaption>Tomoroga Tiberiu · pregătire</figcaption></figure>
+      <figure><img src="img/daniel-2026-08-24.jpg" width="480" height="640" alt="Daniel cu două medalii, în culisele unui concurs" loading="lazy"><figcaption>Daniel · două medalii</figcaption></figure>
+      <figure><img src="img/andreibty-2026-10-25.jpg" width="512" height="640" alt="Andrei cu trofeul și medalia de campion" loading="lazy"><figcaption>Andrei · campion, cu trofeul</figcaption></figure>
+      <figure hidden><img src="img/stanciu-tudor-2026-09-04.jpg" width="480" height="640" alt="Stanciu Tudor în sală" loading="lazy"><figcaption>Stanciu Tudor · în sală</figcaption></figure>
+      <figure hidden><img src="img/tomoroga-tiberiu-2026-02-23.jpg" width="539" height="640" alt="Tomoroga Tiberiu pe scenă" loading="lazy"><figcaption>Tomoroga Tiberiu · pe scenă</figcaption></figure>
+      <figure hidden><img src="img/homa-mehman-2026-10-23.jpg" width="480" height="640" alt="Homa Mehman în sală" loading="lazy"><figcaption>Homa Mehman · în sală</figcaption></figure>
+      <figure hidden><img src="img/diaconu-mihai-2026-10-23.jpg" width="515" height="640" alt="Diaconu Mihai în sală" loading="lazy"><figcaption>Diaconu Mihai · în sală</figcaption></figure>
+      <figure hidden><img src="img/homa-mehman-2026-10-26.jpg" width="361" height="640" alt="Homa Mehman în sală, în pregătire" loading="lazy"><figcaption>Homa Mehman · în pregătire</figcaption></figure>
     </div>
-    <p class="muted">Pozele sunt de la concursurile sportivilor mei. Transformările celor care nu au concurat niciodată le adaug pe măsură ce îmi dau acordul să le arăt.</p>
+    <div class="row"><button class="btn ghost" id="gallery-more" type="button">Vezi toate pozele</button><span class="muted">Aici sunt doar o parte. Adaug în fiecare săptămână, cu acordul fiecăruia.</span></div>
   </div>
 </section>
 
@@ -304,3 +317,6 @@ footer a{color:var(--fg-2)}
   <div class="row" style="gap:18px"><a href="#">Termeni și condiții</a><a href="#">Politica de confidențialitate</a><a href="#">Politica de retur</a><a href="#">ANPC</a><a href="#">SOL</a></div>
   <p>Chera Coaching SRL · CUI, J, sediul se completează · Chera Protocol este un program de antrenament și nutriție; nu înlocuiește consultul medical.</p>
 </div></footer>
+<script>
+(function(){var b=document.getElementById("gallery-more"),g=document.getElementById("gallery");if(!b||!g)return;b.addEventListener("click",function(){var hid=g.querySelectorAll("figure[hidden]");if(hid.length){hid.forEach(function(f){f.hidden=false});b.textContent="Arată mai puține";}else{g.querySelectorAll("figure").forEach(function(f,i){if(i>=8)f.hidden=true});b.textContent="Vezi toate pozele";}});})();
+</script>

@@ -282,3 +282,13 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .ft-bottom p{margin:0}
 @media (max-width:960px){.ft-main{grid-template-columns:repeat(2,1fr)}.ft-brand{grid-column:1/-1}}
 @media (max-width:520px){.ft-main{grid-template-columns:1fr 1fr;gap:28px 20px;padding-block:44px 28px}.ft-note{margin:0;text-align:left}.ft-cta .in{padding-block:34px}.ft-cta .btn{width:100%}}
+
+/* Hero: titlu mai mic, poză mare cu ramă roșie decalată */
+.hero{padding-block:64px}
+.hero .in{grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(38px,4.9vw,66px);line-height:.98}
+.hero .lead{font-size:clamp(17px,1.6vw,19px);max-width:44ch}
+.hero .fig{margin-right:18px}
+.hero .fig img{border-radius:10px;box-shadow:18px 18px 0 -2px var(--bg),18px 18px 0 0 var(--red)}
+.hero .fig figcaption{margin-top:18px}
+@media (max-width:860px){.hero .in{gap:36px}.hero .fig{margin-right:12px}.hero .fig img{box-shadow:12px 12px 0 -2px var(--bg),12px 12px 0 0 var(--red)}}

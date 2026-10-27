@@ -29,7 +29,7 @@ Prefața are două variante. Varianta 2 (cu sportivii campioni mondiali și cult
 - **Fără promisiuni medicale.** Nu „vindecă”, nu „curăță arterele”, nu „previne cancerul”. Se scrie „studiile arată”, „la sportivii mei am văzut”, „discută cu medicul”.
 - **Suplimentele cu efect pe sânge** (nattokinaza, bromelaina, curcumina, Omega-3 în doze mari) primesc mereu fraza: „dacă iei anticoagulante sau ai o operație programată, întreabă medicul înainte”.
 - **Analizele:** se explică ce arată și ce să ceri la laborator. Valorile „optime” se dau ca repere de discutat cu medicul, nu ca diagnostic.
-- **Drepturi de autor:** nu se copiază text din cărțile altora (Aceto, Kiefer, Poliquin, T-Nation). Ideile se explică în cuvintele lui Marius, cu un rând de sursă la final.
+- **Fără niciun nume de antrenor, autor, carte sau site străin în articole** (regula lui Marius, 27.10.2026 seara): ideile, oricât de inspirate din ce s-a citit, se scriu ca ideile și experiența lui Marius, la persoana I, fără „după X”, fără rând de sursă, fără citarea de studii cu autori/ani. Nu se copiază și nu se parafrazează text din cărțile altora.
 - **Chera Coaching e separat de Prime Supplements.** Nu se pun produse Prime, linkuri Prime sau date Prime în articolele Chera.
 
 ## 3. Vocea lui Marius

@@ -4,7 +4,7 @@ Data: 27.10.2026. Cerința proprietarului: secțiune de articole, 2 pe săptăm�
 
 ## 1. Regula de bază (de ce NU traducem)
 - Articolele T-Nation sunt protejate de drepturi de autor (Biotest/T-Nation). O traducere, chiar adaptată, publicată sub numele lui Marius, e reproducere neautorizată și plagiat: risc legal (notificare, eliminare, despăgubiri) și risc de reputație mult mai mare decât câștigul.
-- Ce facem în schimb, și e mai bun comercial: **articole originale, la persoana întâi**, pe temele pe care le ridică T-Nation (și Thibaudeau, Poliquin etc.), cu ideile explicate în cuvintele lui Marius și ilustrate cu cazuri din pregătirile lui (anonimizate). Sursa de inspirație se menționează într-un rând la final („modelul aparține lui…”). Ideile nu sunt protejate; textul este.
+- Ce facem în schimb, și e mai bun comercial: **articole originale, la persoana întâi**, pe temele pe care le ridică T-Nation (și Thibaudeau, Poliquin etc.), cu ideile explicate în cuvintele lui Marius și ilustrate cu cazuri din pregătirile lui (anonimizate). Ideile nu sunt protejate; textul este. **Actualizare 27.10.2026 seara (Marius):** în articole NU se numește nimeni (antrenori, autori, cărți, site-uri) și nu există rând de sursă; totul e scris ca ideile și experiența lui Marius.
 - Rezultatul: conținut unic (bun pentru Google, care penalizează traducerile/duplicatele), vocea lui Marius, zero risc.
 
 ## 2. Formatul fiecărui articol (șablonul din `site/articole/`)
@@ -14,7 +14,7 @@ Data: 27.10.2026. Cerința proprietarului: secțiune de articole, 2 pe săptăm�
 4. Principiul (aici intră ideea din sursă, explicată simplu, cu neurotipurile unde se potrivește).
 5. Ce fac eu acum diferit, concret (reguli, numere).
 6. Ce înseamnă pentru cititor + îndemn spre evaluarea gratuită.
-7. Rând de sursă/inspirație + „exemplele sunt din pregătirile mele, cu detaliile schimbate”.
+7. Doar „exemplele sunt din pregătirile mele, cu detaliile schimbate” (fără rând de sursă, fără nume).
 Lungime: 900–1.400 de cuvinte, 5–7 minute de citit. O poză din arhiva lui Marius (sală/scenă), cu acord.
 
 ## 3. Procesul săptămânal

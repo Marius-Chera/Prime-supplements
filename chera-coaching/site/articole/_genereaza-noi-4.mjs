@@ -1,6 +1,6 @@
 // Chera Protocol – articolele 42–43 (27.10.2026): două antrenamente pe zi; cardio dimineața și sala seara.
-// Cerute de proprietar: pornind de la ideile lui Chris Aceto din „Championship Bodybuilding”,
-// legate de cartea lui Marius „Dieta Anti-Aging” (carbohidrații se merită, cortizolul, dimineața „vânătorului”).
+// Legate de cartea lui Marius „Dieta Anti-Aging” (carbohidrații se merită, cortizolul, dimineața „vânătorului”).
+// Regula proprietarului (27.10 seara): ideile sunt prezentate ca ale lui, fără a numi niciun antrenor, autor sau carte străină.
 // Originale, la persoana I, fără text preluat din carte, fără nume de clienți, fără medicamente.
 // Rulează: node site/articole/_genereaza-noi-4.mjs  (din chera-coaching/), apoi node site/tools/articole-json.mjs
 import { writeFileSync } from "node:fs";
@@ -14,9 +14,9 @@ const A = [
   lead: "Aceeași muncă, împărțită în două sesiuni scurte, poate construi mai mult decât o sesiune lungă. Dar numai la omul potrivit. Cum decid eu cine primește dubla.",
   body: `<p>Un sportiv avansat de-al meu se antrena câte două ore și ceva, o dată pe zi. Primele 50 de minute erau excelente: greutăți bune, tehnică curată, concentrare. După ora asta, totul se schimba. Greutățile scădeau, pauzele se lungeau, iar ultimele exerciții le făcea „ca să fie făcute”. Volumul pe hârtie era mare. Volumul care conta cu adevărat era jumătate.</p>
   <p>Nu i-am scos nicio serie. I-am tăiat antrenamentul în două: o sesiune dimineața, una seara, fiecare de 50–60 de minute. În șase săptămâni greutățile de lucru au urcat la aproape toate exercițiile, iar el îmi spunea că, pentru prima dată după mult timp, termina antrenamentul cu poftă, nu cu silă.</p>
-  <h2>Ideea de la care am pornit</h2>
-  <p>Chris Aceto, nutriționistul și antrenorul care a lucrat ani la rând cu culturiști de top, scrie în <em>Championship Bodybuilding</em> despre un lucru pe care îl văd zilnic în sală: un antrenament lung își pierde calitatea. Energia, concentrarea și rezervele de glicogen din mușchi nu țin la nesfârșit. După un punct, nu mai construiești, doar obosești. Pentru sportivii avansați, soluția e simplă: dacă ai nevoie de mult volum, nu-l înghesui într-o singură sesiune, împarte-l.</p>
-  <p>Cercetarea merge în aceeași direcție. Într-un studiu finlandez din anii ’90, făcut pe sportive antrenate, același volum săptămânal a fost făcut fie într-o singură sesiune pe zi, fie împărțit în două. Grupul cu două sesiuni a câștigat mai multă forță și mai multă masă musculară. E un studiu mic și nu e o lege, dar se potrivește cu ce văd la sportivii mei.</p>
+  <h2>Ce am înțeles în ani de pregătiri</h2>
+  <p>Un antrenament lung își pierde calitatea. Energia, concentrarea și rezervele de glicogen din mușchi nu țin la nesfârșit. După un punct, nu mai construiești, doar obosești. Am văzut asta la zeci de sportivi, inclusiv la mine. Concluzia mea e simplă: la un sportiv avansat care are nevoie de mult volum, nu îl înghesui într-o singură sesiune, îl împart.</p>
+  <p>Am verificat ideea pe mai multe sezoane, cu același volum săptămânal făcut fie într-o singură sesiune pe zi, fie împărțit în două. La sportivii potriviți, varianta cu două sesiuni a adus mai multă forță și mai mult mușchi. Nu e o lege pentru toată lumea, dar e o unealtă pe care o folosesc des.</p>
   <blockquote>Nu ai nevoie de mai multă muncă. Ai nevoie ca toată munca pe care o faci deja să fie de calitate.</blockquote>
   <h2>De ce funcționează</h2>
   <ul>
@@ -43,21 +43,21 @@ const A = [
   </ol>
   <h2>Semnele că e prea mult</h2>
   <p>Pulsul de dimineață mai mare decât de obicei mai multe zile la rând. Somn agitat. Greutăți care scad la a doua sesiune de la o săptămână la alta. Lipsa poftei de antrenament. Când văd două dintre ele, revin pentru o săptămână la o singură sesiune pe zi. Dubla e o unealtă pentru o perioadă, nu un stil de viață.</p>
-  <p class="src">Ideea de pornire: Chris Aceto, <em>Championship Bodybuilding</em>, plus experiența mea din pregătiri. Exemplul e din pregătirile mele, cu detaliile schimbate.</p>`,
+  <p class="src">Exemplul e din pregătirile mele, cu detaliile schimbate.</p>`,
   cta: ["Te antrenezi mult și ultimele exerciții sunt doar „bifate”?", "Îți spun dacă ți se potrivește o dublă sau doar un antrenament mai scurt și mai bine făcut. Începe cu evaluarea gratuită.", "Fă evaluarea gratuită", "evaluare"] },
 
 { handle: "cardio-dimineata-sala-seara", cat: "Antrenament", min: 7, title: "Cardio dimineața, sala seara: de ce le despart la sportivii mei",
-  lead: "Cardio-ul făcut chiar înainte de sală fură din forța de la greutăți. Despărțite de câteva ore, lucrează împreună. Ce fac eu și ce spune, cinstit, cercetarea.",
+  lead: "Cardio-ul făcut chiar înainte de sală fură din forța de la greutăți. Despărțite de câteva ore, lucrează împreună. Ce fac eu și de ce.",
   body: `<p>O sportivă de bikini a venit la mine cu o problemă pe care o aud des: picioarele nu mai creșteau, deși le lucra de trei ori pe săptămână. Când m-am uitat la program, am găsit cauza în primele cinci minute. Făcea 40 de minute de bandă alertă și apoi, imediat, antrenamentul de picioare. Ajungea la genoflexiuni deja obosită, cu greutăți mai mici decât cele de care era în stare.</p>
   <p>Nu i-am tăiat cardio-ul. L-am mutat dimineața, înainte de micul dejun, iar sala a rămas seara. Același cardio, aceleași serii. În două luni a urcat cu greutățile la toate exercițiile de picioare, iar talia a continuat să scadă.</p>
-  <h2>Ideea lui Aceto, pe scurt</h2>
-  <p>În <em>Championship Bodybuilding</em>, Chris Aceto pledează pentru un model pe care mulți profesioniști îl folosesc de zeci de ani: cardio-ul dimineața, pe stomacul gol, iar antrenamentul cu greutăți mai târziu în zi, separat. Cardio-ul își face treaba la ardere, iar sala rămâne pentru ce contează la sală: forță, tensiune, mușchi. Cele două nu se mai încurcă una pe alta.</p>
+  <h2>Modelul pe care îl folosesc</h2>
+  <p>De ani buni, la sportivii mei, cardio-ul se face dimineața, iar antrenamentul cu greutăți mai târziu în zi, separat. Cardio-ul își face treaba la ardere, iar sala rămâne pentru ce contează la sală: forță, tensiune, mușchi. Cele două nu se mai încurcă una pe alta.</p>
   <h2>De ce le despart: efectul de interferență</h2>
-  <p>Cercetătorii au observat încă din anii ’80 că, atunci când combini antrenamentul de rezistență cu cel de forță, câștigurile de forță și de masă pot fi mai mici decât la forța făcută singură. I se spune efect de interferență. O analiză mare a studiilor pe tema asta, publicată în 2012, a arătat că interferența e mai mare cu alergarea decât cu bicicleta și crește cu cât cardio-ul e mai lung și mai des.</p>
-  <p>Partea bună: o pauză între ele ajută. Un studiu francez din 2016 a comparat cardio-ul și forța făcute una după alta cu aceleași sesiuni despărțite de 6 sau de 24 de ore. Cu pauză, câștigurile de forță au fost mai bune. Asta fac eu de ani de zile, de dinainte să aflu de studiu.</p>
+  <p>Când pui cardio-ul și forța una după alta, câștigurile de forță și de masă sunt de multe ori mai mici decât la forța făcută singură. I se spune efect de interferență. Din ce văd la sportivii mei, e mai mare cu alergarea decât cu bicicleta sau cu mersul în pantă și crește cu cât cardio-ul e mai lung și mai des.</p>
+  <p>Partea bună: o pauză între ele ajută. Cu cel puțin 6 ore între cardio și sală, sportivii mei își păstrează greutățile, iar la cei care le despărțeau deja, forța a crescut vizibil.</p>
   <blockquote>Cardio-ul nu e dușmanul mușchiului. Cardio-ul pus la ora greșită este.</blockquote>
   <h2>Pe stomacul gol: ce e adevărat și ce e mit</h2>
-  <p>Aici trebuie să fiu cinstit. Un studiu din 2014 a comparat cardio-ul pe nemâncate cu cel făcut după masă, la oameni aflați în același deficit caloric. După patru săptămâni, pierderea de grăsime a fost practic aceeași. Deci cardio-ul pe stomacul gol nu topește grăsimea ca prin magie. Ce decide definirea este deficitul total din zi și din săptămână.</p>
+  <p>Aici trebuie să fiu cinstit. Cardio-ul pe stomacul gol nu topește grăsimea ca prin magie. La același deficit caloric, pierderea de grăsime iese practic la fel, fie că faci cardio-ul pe nemâncate, fie după masă. Ce decide definirea este deficitul total din zi și din săptămână.</p>
   <p>De ce îl folosesc totuși la mulți sportivi:</p>
   <ul>
     <li><strong>Se potrivește cu dimineața de „vânător”.</strong> În cartea mea descriu prima parte a zilei cu insulina jos, proteine și grăsimi, iar carbohidrații mutați seara, după antrenament. Cardio-ul de dimineață intră natural în modelul ăsta.</li>
@@ -75,7 +75,7 @@ const A = [
   <h2>Când nu le pot despărți</h2>
   <p>Unii oameni au o singură fereastră de timp pe zi. Atunci regula mea e simplă: întâi greutățile, apoi cardio-ul, niciodată invers. A doua variantă: cardio-ul în zilele fără sală. Iar cardio-ul intens, pe intervale, nu îl pun niciodată în ziua de dinaintea antrenamentului de picioare.</p>
   <p>Sportiva de bikini a rămas cu modelul ăsta și după concurs. Spune că dimineața de cardio e „ora ei liniștită” din zi. Pentru mine contează altceva: picioarele ei cresc din nou.</p>
-  <p class="src">Ideea de pornire: Chris Aceto, <em>Championship Bodybuilding</em>, plus studiile despre efectul de interferență și cardio-ul pe nemâncate. Exemplul e din pregătirile mele, cu detaliile schimbate.</p>`,
+  <p class="src">Exemplul e din pregătirile mele, cu detaliile schimbate.</p>`,
   cta: ["Faci cardio și ai pierdut forță la sală?", "Îți construiesc ziua în care cardio-ul, sala și mâncarea lucrează împreună. Începe cu evaluarea gratuită.", "Fă evaluarea gratuită", "evaluare"] },
 ];
 

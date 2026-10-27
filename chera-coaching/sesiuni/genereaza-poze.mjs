@@ -21,7 +21,7 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
 for (const s of cfg.sesiuni) {
   const photo = `https://bp66vh-bq.myshopify.com/cdn/shop/files/${s.poza.fisier}?width=1200`;
   const name = s.poza.nume;
-  const size = name.length > 14 ? 150 : 180;
+  const size = name.length > 16 ? 130 : name.length > 14 ? 150 : 180;
   const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:BC;src:url("${font("BarlowCondensed-ExtraBold.ttf")}")}
 @font-face{font-family:BCB;src:url("${font("BarlowCondensed-Bold.ttf")}")}
@@ -47,11 +47,11 @@ body{position:relative;color:#f5f1ec;font-family:B,sans-serif}
 <div class="logo">${stamp}</div>
 <div class="mid"><div class="eye">Sesiune individuală</div><div class="name">${esc(name)}</div><div class="rule"></div>
 <div class="sub">${esc(s.poza.sub)}<br>Alegi ziua și ora, plătești online</div>
-<div class="foot"><span>Rezervare în calendar</span><b>${s.pret} lei</b></div></div>
+<div class="foot"><span>Rezervare în calendar</span><b>${s.durataMinute || cfg.durataMinute} min</b></div></div>
 </body></html>`;
   const hp = join(TMP, `sesiune-${s.handle}.html`);
   writeFileSync(hp, html);
-  const png = join(OUT, `sesiune-${s.handle}.png`);
+  const png = join(OUT, `sesiune-${s.handle}${cfg.pozaSufix || ""}.png`); // fără preț pe poză: prețul se schimbă din admin
   execFileSync(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1", "--allow-file-access-from-files",
     "--window-size=1200,1500", "--virtual-time-budget=8000", `--screenshot=${png}`, pathToFileURL(hp).href], { stdio: "ignore" });
   console.log(png);

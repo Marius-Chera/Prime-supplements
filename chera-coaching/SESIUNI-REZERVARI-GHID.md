@@ -1,7 +1,7 @@
 # Sesiuni cu rezervare – ghid pentru Marius (27.10.2026)
 
-Pe site sunt 3 sesiuni cu calendar și plată: **Posing live · Sibiu** (400 lei), **Posing online** (250 lei, video call WhatsApp), **Consultație video** (500 lei). Toate durează 30 de minute.
-Pagini: `/products/posing-live-sibiu`, `/products/posing-online`, `/products/consultatie-video` (și cardurile din „Sesiuni individuale” de pe prima pagină).
+Pe site sunt 4 sesiuni cu calendar și plată (prețuri din 28.10.2026): **Posing live · Sibiu** (300 lei / 30 min), **Antrenament 1 la 1 · Sibiu** (350 lei / 90 min), **Posing online** (200 lei / 30 min, video call WhatsApp), **Consultație video** (400 lei / 30 min). Sesiunile live sunt la **Evo Gym Health and Spa, Strada Sălajului, Sibiu**.
+Pagini: `/products/posing-live-sibiu`, `/products/antrenament-1-la-1-sibiu`, `/products/posing-online`, `/products/consultatie-video` și cele 4 carduri din „Sesiuni individuale” de pe prima pagină. Prețul de pe carduri vine direct din produs: îl schimbi doar în produs (sau în `program-sesiuni.json` + import cu `--complet`).
 
 ## Cum funcționează
 - Fiecare oră liberă e o **variantă** a produsului, cu titlul „AAAA-LL-ZZ OO:MM” (ex. `2026-11-03 10:00`) și **stoc 1**.
@@ -12,14 +12,15 @@ Pagini: `/products/posing-live-sibiu`, `/products/posing-online`, `/products/con
 ## Programul implicit (îl poți schimba)
 Ferestrele nu se suprapun, ca să nu poți fi rezervat la aceeași oră pe două sesiuni:
 
-| Sesiune | Zile | Ore de început | Pe 4 săptămâni |
+| Sesiune | Zile | Ore de început | Pe 5 săptămâni |
 |---|---|---|---|
-| Posing live · Sibiu | marți, joi 17:00–19:00 · sâmbătă 10:00–12:00 | 17:00, 17:30, 18:00, 18:30 / 10:00 … 11:30 | 48 |
-| Posing online | luni–vineri 10:00–13:00 | 10:00 … 12:30 | 120 |
-| Consultație video | luni–vineri 14:00–17:00 | 14:00 … 16:30 | 120 |
+| Posing live · Sibiu | marți, joi 17:00–19:00 · sâmbătă 10:00–12:00 | 17:00, 17:30, 18:00, 18:30 / 10:00 … 11:30 | 56 |
+| Antrenament 1 la 1 · Sibiu (90 min) | luni, miercuri, vineri 17:00–20:00 · sâmbătă 12:00–13:30 | 17:00, 18:30 / 12:00 | 33 |
+| Posing online | luni–vineri 10:00–13:00 | 10:00 … 12:30 | 138 |
+| Consultație video | luni–vineri 14:00–17:00 | 14:00 … 16:30 | 138 |
 
-Zile libere sărite automat: 30.11, 1.12, 24–26.12, 1–2.01. Intervalele create acum: **29.10 – 25.11.2026** (Posing online: până pe 2.12, după testul de reimport).
-Programul stă în `chera-coaching/sesiuni/program-sesiuni.json` (zile `l, ma, mi, j, v, s, d`; „10:00-13:00” = sesiuni care încep la 10:00 … 12:30).
+Zile libere sărite automat: 30.11, 1.12, 24–26.12, 1–2.01. Intervalele create acum: **29.10 – 2.12.2026**.
+Programul stă în `chera-coaching/sesiuni/program-sesiuni.json` (zile `l, ma, mi, j, v, s, d`; „10:00-13:00” = sesiuni care încep la 10:00 … 12:30; la antrenament durata și pasul sunt 90 de minute). Tot acolo sunt prețul, descrierea, durata (metafield `chera.durata`) și întrebarea din formular (`chera.intrebare`), care intră în produs la importul cu `--complet`. SKU-uri: `PLS-` posing live, `ANT-` antrenament, `PON-` posing online, `CON-` consultație.
 
 ## Unde vezi programările
 - **Admin → Orders**: la fiecare comandă, pe linia produsului apar data și ora (titlul variantei, ex. „Posing online · 2026-11-03 10:00”) plus:
@@ -66,7 +67,8 @@ Prima creare (deja făcută) s-a făcut cu `--complet` (titlu, descriere, poză,
 - O aplicație de programări (Calendly-like în Shopify) nu e necesară acum; dacă volumul crește mult, alegem una doar cu acordul tău.
 
 ## Înainte de lansare (de făcut de tine)
-- **Adresa sălii din Sibiu**: pe pagina „Posing live” scrie acum „Sala ________, Sibiu”. Online Store → Themes → Customize → Theme settings → „Adresa pentru sesiunile live din Sibiu”.
+- Adresa sălii (Evo Gym Health and Spa, Strada Sălajului, Sibiu) e pusă în setările temei (Customize → Theme settings → „Adresa pentru sesiunile live din Sibiu”), pe 28.10.2026.
+- **Intrarea la sală** pentru client (abonament/bilet la Evo Gym) nu e menționată pe site; spune-mi dacă e inclusă în preț sau trebuie scrisă.
 - Reimportul cu Overwrite a fost testat (vezi mai sus).
 - **Plata reală (Netopia)** nu e încă activă. Pentru un test cap-coadă cu plată de test: Settings → Payments → „See all other providers” → **(for testing) Bogus Gateway** → Activate. La checkout: card `1`, nume oarecare, dată viitoare, CVV `111` (numere de test publicate de Shopify, nu un card real). Dezactivezi Bogus Gateway după test.
 - La checkout magazinul cere **contul clientului** (login cu e-mail); e bine așa, pentru că „Sesiunile mele” apare în cont.

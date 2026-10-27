@@ -70,7 +70,7 @@ p{margin:0}
 .cause{display:grid;gap:10px;padding-top:18px;border-top:3px solid var(--red);min-width:0}
 .cause h3{font-size:24px}
 .doors{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-@media (max-width:860px){.doors{grid-template-columns:1fr}}
+.doors:has(>.door:nth-child(4)){grid-template-columns:repeat(4,1fr)}@media (max-width:1180px){.doors:has(>.door:nth-child(4)){grid-template-columns:repeat(2,1fr)}}@media (max-width:860px){.doors,.doors:has(>.door:nth-child(4)){grid-template-columns:1fr}}
 .door{background:var(--paper-2);border:1px solid var(--paper-line);border-radius:8px;padding:28px 24px;display:grid;gap:14px;align-content:start;min-width:0}
 .door.main{background:var(--paper-fg);color:var(--paper);border-color:var(--paper-fg)}
 .door .tag{font-family:var(--display);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700}

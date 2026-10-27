@@ -321,10 +321,10 @@
             "title": "Sesiune de posing",
             "text": "Lucrăm față în față la pozele obligatorii, tranziții și prezentare, pe categoria ta.",
             "bullets": "Față în față, în Sibiu\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
-            "price": "400 lei",
+            "price": "300 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-live-sibiu"
+            "url": "/products/posing-live-sibiu", "product": "posing-live-sibiu"
           }
         },
         "sesiuni_2": {
@@ -334,10 +334,10 @@
             "title": "Posing pe video call",
             "text": "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.",
             "bullets": "Pe WhatsApp, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
-            "price": "250 lei",
+            "price": "200 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-online"
+            "url": "/products/posing-online", "product": "posing-online"
           }
         },
         "sesiuni_3": {
@@ -350,12 +350,12 @@
             "price": "500 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/consultatie-video"
+            "url": "/products/consultatie-video", "product": "consultatie-video" } }, "sesiuni_4": { "type": "session", "settings": { "tag": "Live · Sibiu", "title": "Antrenament 1 la 1", "text": "Te antrenez eu, în sală, la Evo Gym Health and Spa din Sibiu: tehnică, intensitate și ce schimbi la antrenamentele tale.", "bullets": "Față în față, la Evo Gym Sibiu\nTehnică, intensitate, plan\nRezervi și plătești online", "price": "350 lei", "price_note": "/ 90 de minute", "cta": "Alege data", "url": "/products/antrenament-1-la-1-sibiu", "product": "antrenament-1-la-1-sibiu"
           }
         }
       },
       "block_order": [
-        "sesiuni_1",
+        "sesiuni_1", "sesiuni_4",
         "sesiuni_2",
         "sesiuni_3"
       ]

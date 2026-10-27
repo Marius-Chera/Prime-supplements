@@ -73,7 +73,7 @@ if (exportPath) {
 }
 
 const cols = complet
-  ? ["URL handle", "Title", "Description", "Vendor", "Type", "Tags", "Published on online store", "Status", "SKU", "Option1 name", "Option1 value", "Price", "Inventory tracker", "Inventory quantity", "Continue selling when out of stock", "Weight value (grams)", "Requires shipping", "Fulfillment service", "Product image URL", "Image position", "Image alt text", "SEO title", "SEO description"]
+  ? ["URL handle", "Title", "Description", "Vendor", "Type", "Tags", "Published on online store", "Status", "SKU", "Option1 name", "Option1 value", "Price", "Inventory tracker", "Inventory quantity", "Continue selling when out of stock", "Weight value (grams)", "Requires shipping", "Fulfillment service", "Product image URL", "Image position", "Image alt text", "SEO title", "SEO description", "Durata (minute) (product.metafields.chera.durata)", "Întrebare sesiune (product.metafields.chera.intrebare)"]
   : ["URL handle", "Title", "SKU", "Option1 name", "Option1 value", "Price", "Inventory tracker", "Inventory quantity", "Continue selling when out of stock", "Requires shipping", "Fulfillment service"];
 const lines = [cols.join(",")];
 let errors = 0;
@@ -89,7 +89,7 @@ for (const s of cfg.sesiuni) {
     const zi = ZILE[new Date(d + "T00:00:00Z").getUTCDay()];
     for (const fereastra of s.program[zi] || []) {
       const [a, b] = fereastra.split("-").map(toMin);
-      for (let m = a; m + cfg.durataMinute <= b; m += cfg.pasMinute) {
+      for (let m = a; m + (s.durataMinute || cfg.durataMinute) <= b; m += s.pasMinute || cfg.pasMinute) {
         const v = `${d} ${fromMin(m)}`;
         if (v > NOW && !slots.has(v)) slots.set(v, 1);
       }
@@ -116,8 +116,9 @@ for (const s of cfg.sesiuni) {
       Object.assign(r, { Title: s.titlu, "Option1 name": "Data și ora" });
       if (complet) Object.assign(r, {
         Description: s.descriere, Vendor: "Chera Protocol", Type: s.tip, Tags: s.tags, "Published on online store": "true", Status: "active",
-        "Product image URL": STORE_CDN + `sesiune-${s.handle}.png`, "Image position": 1, "Image alt text": `${s.titlu} – sesiune cu Marius Chera`,
+        "Product image URL": STORE_CDN + `sesiune-${s.handle}${cfg.pozaSufix || ""}.png`, "Image position": 1, "Image alt text": `${s.titlu} – sesiune cu Marius Chera`,
         "SEO title": s.seoTitlu, "SEO description": s.seoDescriere,
+        "Durata (minute) (product.metafields.chera.durata)": s.durataMinute || cfg.durataMinute, "Întrebare sesiune (product.metafields.chera.intrebare)": s.intrebare || "",
       });
     }
     lines.push(cols.map((c) => cell(r[c])).join(","));

@@ -60,7 +60,7 @@
         "type": "text",
         "id": "sibiu_address",
         "label": "Adresa pentru sesiunile live din Sibiu",
-        "default": "Sala ________, Sibiu"
+        "default": "Evo Gym Health and Spa, Strada Sălajului, Sibiu"
       },
       {
         "type": "header",

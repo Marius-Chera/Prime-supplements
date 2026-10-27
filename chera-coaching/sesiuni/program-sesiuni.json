@@ -1,47 +1,149 @@
 {
-  "_info": "Programul implicit al sesiunilor Chera Protocol (27.10.2026). Orele sunt ora României. Ferestrele NU se suprapun între produse, ca să nu poți fi rezervat la aceeași oră pe două sesiuni diferite. Schimbi aici zilele/orele, apoi rulezi genereaza-intervale.mjs (vezi ../SESIUNI-REZERVARI-GHID.md). Zile: l, ma, mi, j, v, s, d. Interval „10:00-13:00” = sesiuni care încep la 10:00, 10:30 … 12:30.",
+  "_info": "Programul implicit al sesiunilor Chera Protocol (27.10.2026). Orele sunt ora României. Ferestrele NU se suprapun între produse, ca să nu poți fi rezervat la aceeași oră pe două sesiuni diferite. Schimbi aici zilele/orele, apoi rulezi genereaza-intervale.mjs (vezi ../SESIUNI-REZERVARI-GHID.md). Zile: l, ma, mi, j, v, s, d. Interval „10:00-13:00” = sesiuni care încep la 10:00, 10:30 … 12:30 (pasul și durata implicite: 30 min; la antrenament 90 min, deci „17:00-20:00” = 17:00 și 18:30).",
   "pasMinute": 30,
   "durataMinute": 30,
-  "zileLibere": ["2026-11-30", "2026-12-01", "2026-12-24", "2026-12-25", "2026-12-26", "2027-01-01", "2027-01-02"],
+  "zileLibere": [
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-26",
+    "2027-01-01",
+    "2027-01-02"
+  ],
   "sesiuni": [
     {
       "handle": "posing-live-sibiu",
       "titlu": "Posing live · Sibiu",
-      "pret": 400,
+      "pret": 300,
       "sku": "PLS",
       "tip": "Live · Sibiu",
       "tags": "sesiune",
-      "program": { "ma": ["17:00-19:00"], "j": ["17:00-19:00"], "s": ["10:00-12:00"] },
-      "descriere": "<p>Lucrăm față în față, în Sibiu, la pozele obligatorii, la tranziții și la prezentarea pe scenă, pe categoria ta. Te corectez pe loc, unghi cu unghi: picioare, talie, lat, respirație, privire.</p><p>Pleci cu pozele filmate și cu exact ce ai de exersat până la concurs. 30 de minute.</p>",
+      "program": {
+        "ma": [
+          "17:00-19:00"
+        ],
+        "j": [
+          "17:00-19:00"
+        ],
+        "s": [
+          "10:00-12:00"
+        ]
+      },
+      "descriere": "<p>Lucrăm față în față, la Evo Gym Health and Spa din Sibiu (Strada Sălajului), la pozele obligatorii, la tranziții și la prezentarea pe scenă, pe categoria ta. Te corectez pe loc, unghi cu unghi: picioare, talie, lat, respirație, privire.</p><p>Pleci cu pozele filmate și cu exact ce ai de exersat până la concurs. 30 de minute.</p>",
       "seoTitlu": "Sesiune de posing live în Sibiu cu Marius Chera | Chera Protocol",
-      "seoDescriere": "Posing față în față în Sibiu: pozele obligatorii, tranziții și prezentare pe categoria ta. 30 de minute, 400 lei. Alegi ziua și ora și plătești online.",
-      "poza": { "fisier": "chera-galerie-81.jpg", "nume": "Posing live", "sub": "Față în față, în Sibiu · 30 de minute" }
+      "seoDescriere": "Posing față în față la Evo Gym Sibiu: pozele obligatorii, tranziții și prezentare pe categoria ta. 30 de minute, 300 lei. Alegi ziua și ora și plătești online.",
+      "poza": {
+        "fisier": "chera-galerie-81.jpg",
+        "nume": "Posing live",
+        "sub": "Evo Gym, Sibiu · 30 de minute"
+      },
+      "durataMinute": 30,
+      "intrebare": "Categoria, data concursului și ce vrei să lucrăm"
+    },
+    {
+      "handle": "antrenament-1-la-1-sibiu",
+      "titlu": "Antrenament 1 la 1 · Sibiu",
+      "pret": 350,
+      "sku": "ANT",
+      "tip": "Live · Sibiu",
+      "tags": "sesiune",
+      "durataMinute": 90,
+      "pasMinute": 90,
+      "intrebare": "Ce obiectiv ai și ce vrei să lucrăm la antrenament?",
+      "program": {
+        "l": [
+          "17:00-20:00"
+        ],
+        "mi": [
+          "17:00-20:00"
+        ],
+        "v": [
+          "17:00-20:00"
+        ],
+        "s": [
+          "12:00-13:30"
+        ]
+      },
+      "descriere": "<p>Te antrenez eu, față în față, la Evo Gym Health and Spa din Sibiu (Strada Sălajului). 90 de minute în care lucrăm împreună, exercițiu cu exercițiu: îți corectez tehnica, îți arăt cât de aproape de eșec trebuie să mergi și cum să simți mușchiul pe care îl lucrezi.</p><p>Îmi spui obiectivul tău și ce te încurcă acum; pleci cu ce trebuie să schimbi la antrenamentele tale de mai departe. 90 de minute.</p>",
+      "seoTitlu": "Antrenament personal 1 la 1 în Sibiu cu Marius Chera | Chera Protocol",
+      "seoDescriere": "Antrenament 1 la 1 cu Marius Chera la Evo Gym Health and Spa, Sibiu: tehnică, intensitate și plan pentru obiectivul tău. 90 de minute, 350 lei.",
+      "poza": {
+        "fisier": "chera-galerie-82.jpg",
+        "nume": "Antrenament 1 la 1",
+        "sub": "Cu mine, în sală · Evo Gym, Sibiu · 90 de minute"
+      }
     },
     {
       "handle": "posing-online",
       "titlu": "Posing online",
-      "pret": 250,
+      "pret": 200,
       "sku": "PON",
       "tip": "Online · WhatsApp",
       "tags": "sesiune, online",
-      "program": { "l": ["10:00-13:00"], "ma": ["10:00-13:00"], "mi": ["10:00-13:00"], "j": ["10:00-13:00"], "v": ["10:00-13:00"] },
+      "program": {
+        "l": [
+          "10:00-13:00"
+        ],
+        "ma": [
+          "10:00-13:00"
+        ],
+        "mi": [
+          "10:00-13:00"
+        ],
+        "j": [
+          "10:00-13:00"
+        ],
+        "v": [
+          "10:00-13:00"
+        ]
+      },
       "descriere": "<p>Aceeași sesiune de posing, pe video call WhatsApp, de oriunde ai fi. Te sun eu la ora rezervată, îți pui telefonul să te prindă din cap până în picioare și lucrăm pozele obligatorii, tranzițiile și prezentarea, pe categoria ta.</p><p>Te corectez în timp real și îți spun ce ai de exersat până data viitoare. 30 de minute.</p>",
       "seoTitlu": "Sesiune de posing online pe video call | Chera Protocol",
-      "seoDescriere": "Posing pe video call WhatsApp cu Marius Chera: pozele obligatorii, tranziții și prezentare, corectate în timp real. 30 de minute, 250 lei.",
-      "poza": { "fisier": "chera-galerie-76.jpg", "nume": "Posing online", "sub": "Video call WhatsApp · 30 de minute" }
+      "seoDescriere": "Posing pe video call WhatsApp cu Marius Chera: pozele obligatorii, tranziții și prezentare, corectate în timp real. 30 de minute, 200 lei.",
+      "poza": {
+        "fisier": "chera-galerie-76.jpg",
+        "nume": "Posing online",
+        "sub": "Video call WhatsApp · 30 de minute"
+      },
+      "durataMinute": 30,
+      "intrebare": "Categoria, data concursului și ce vrei să lucrăm"
     },
     {
       "handle": "consultatie-video",
       "titlu": "Consultație video",
-      "pret": 500,
+      "pret": 400,
       "sku": "CON",
       "tip": "Online · WhatsApp",
       "tags": "sesiune, online",
-      "program": { "l": ["14:00-17:00"], "ma": ["14:00-17:00"], "mi": ["14:00-17:00"], "j": ["14:00-17:00"], "v": ["14:00-17:00"] },
+      "program": {
+        "l": [
+          "14:00-17:00"
+        ],
+        "ma": [
+          "14:00-17:00"
+        ],
+        "mi": [
+          "14:00-17:00"
+        ],
+        "j": [
+          "14:00-17:00"
+        ],
+        "v": [
+          "14:00-17:00"
+        ]
+      },
       "descriere": "<p>Îmi pui întrebările care te frământă: peak week, suplimente, plan de antrenament, dietă, progres blocat, pregătirea de concurs. Îmi scrii dinainte ce vrei să discutăm, ca să folosim fiecare minut.</p><p>Te sun eu pe WhatsApp la ora rezervată. 30 de minute, doar tu și cu mine.</p>",
       "seoTitlu": "Consultație video cu Marius Chera | Chera Protocol",
-      "seoDescriere": "Consultație video pe WhatsApp, 30 de minute: peak week, suplimente, plan, dietă, progres blocat. 500 lei. Alegi ziua și ora și plătești online.",
-      "poza": { "fisier": "chera-galerie-83.jpg", "nume": "Consultație video", "sub": "Pe WhatsApp, cu mine · 30 de minute" }
+      "seoDescriere": "Consultație video pe WhatsApp, 30 de minute: peak week, suplimente, plan, dietă, progres blocat. 400 lei. Alegi ziua și ora și plătești online.",
+      "poza": {
+        "fisier": "chera-galerie-83.jpg",
+        "nume": "Consultație video",
+        "sub": "Pe WhatsApp, cu mine · 30 de minute"
+      },
+      "durataMinute": 30,
+      "intrebare": "Ce vrei să discutăm? Scrie-mi întrebările dinainte."
     }
-  ]
+  ],
+  "pozaSufix": "-v2"
 }

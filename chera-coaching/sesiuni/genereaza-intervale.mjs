@@ -4,8 +4,8 @@
 //
 // Prima creare (produse noi, cu descriere, poză, SEO):
 //   node sesiuni/genereaza-intervale.mjs --complet --de-la 2026-10-29 --saptamani 4
-// Adaugi săptămâni noi (păstrează orele vândute/blocate din exportul adminului):
-//   node sesiuni/genereaza-intervale.mjs --export "C:\...\products_export.csv" --saptamani 6
+// Adaugi săptămâni noi (păstrează orele vândute/blocate din Admin → Products → Inventory → Export, sau Products → Export):
+//   node sesiuni/genereaza-intervale.mjs --export "C:\Users\mariu\Downloads\inventory_export.csv" --saptamani 5
 // Opțiuni: --doar <handle>  (un singur produs), --out <fișier.csv>
 // Import: Admin → Products → Import → fișierul → bifat „Overwrite products with matching handles”.
 // Ghid complet: ../SESIUNI-REZERVARI-GHID.md
@@ -66,7 +66,7 @@ if (exportPath) {
   for (const r of parseCsv(readFileSync(exportPath, "utf8"))) {
     const h = pick(r, "URL handle", "Handle", "handle");
     const v = pick(r, "Option1 value", "Option1 Value", "interval");
-    const q = pick(r, "Inventory quantity", "Variant Inventory Qty", "stoc");
+    const q = pick(r, "Inventory quantity", "Variant Inventory Qty", "Available", "Available (not editable)", "On hand", "On hand (current)", "stoc");
     if (!h || !/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/.test(v)) continue;
     (existing[h] ||= new Map()).set(v, q === "" ? 1 : Math.max(0, Math.min(1, Number(q))));
   }

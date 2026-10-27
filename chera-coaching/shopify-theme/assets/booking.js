@@ -1,7 +1,6 @@
 /* Chera Protocol – calendarul de rezervare pentru sesiuni.
    Fiecare variantă a produsului = un interval liber, cu titlul „AAAA-LL-ZZ OO:MM” (ex. 2026-11-06 18:00), stoc 1.
-   După plată stocul devine 0 și intervalul dispare din calendar. Orele sunt ora României (și pentru clienții din alt fus orar);
-   intervalele care încep în mai puțin de data-min-ore ore (implicit 12) nu se mai arată. */
+   După plată stocul devine 0 și intervalul dispare din calendar. */
 (function () {
   var root = document.getElementById("booking");
   if (!root) return;
@@ -26,17 +25,8 @@
   }
   function key(d) { return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
   function label(d) { return cap(DAYS[d.getDay()]) + ", " + d.getDate() + " " + MONTHS[d.getMonth()] + " " + d.getFullYear() + ", ora " + pad(d.getHours()) + ":" + pad(d.getMinutes()) + " (ora României)"; }
-  // ora curentă din România, ca dată „locală” comparabilă cu intervalele
-  function nowRo() {
-    try {
-      var p = {};
-      new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Bucharest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
-        .formatToParts(new Date()).forEach(function (x) { p[x.type] = x.value; });
-      return new Date(+p.year, p.month - 1, +p.day, +p.hour, +p.minute);
-    } catch (e) { return new Date(); }
-  }
-  var minOre = Number(root.getAttribute("data-min-ore") || 12);
-  var now = new Date(nowRo().getTime() + minOre * 3600000);
+
+  function nowRo() { try { var p = {}; new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Bucharest", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).forEach(function (x) { p[x.type] = x.value; }); return new Date(+p.year, p.month - 1, +p.day, +p.hour, +p.minute); } catch (e) { return new Date(); } } var now = new Date(nowRo().getTime() + Number(root.getAttribute("data-min-ore") || 12) * 3600000); // ora României + preaviz minim (data-min-ore, implicit 12 h)
   var items = slots
     .filter(function (s) { return s.a !== false; })
     .map(function (s) { return { id: s.id, t: s.t, d: parse(s.t) }; })

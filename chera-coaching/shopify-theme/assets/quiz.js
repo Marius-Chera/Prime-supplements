@@ -148,6 +148,8 @@ function balance(){
   const allHigh=Object.values(sc).every(v=>v>=20);
   return {scores:sc,sorted:e,top:e[0][0],topVal:e[0][1],level:level(e[0][1]),allHigh};
 }
+/* concluziile: păstrez primele ~60% din fiecare listă (cerut de Marius: concluziile cu ~30% mai scurte în total); cele mai importante sunt primele */
+const KEEP=0.6, cut=a=>(a||[]).slice(0,Math.max(1,Math.round((a||[]).length*KEEP)));
 function li(list,arr){ list.innerHTML=""; arr.forEach(t=>{ const l=document.createElement("li"); l.textContent=t; list.appendChild(l); }); }
 function suppList(el,arr){ el.innerHTML=""; (arr||[]).forEach(x=>{ const l=document.createElement("li"); if(typeof x==="string"){ l.textContent=x; } else { l.innerHTML=`<b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span>`; } el.appendChild(l); }); }
 function scorecard(el,sc,top){ el.innerHTML=""; ["D","A","G","S"].forEach(k=>{ const d=document.createElement("div"); d.className="s"+(k===top?" lead-s":""); d.innerHTML=`<small>${SCALE_NAME[k]}</small><b>${sc[k]}</b>`; el.appendChild(d); }); }
@@ -163,9 +165,9 @@ function buildResult(){
   $("r-mixed").hidden = !nt.dom.mixed;
   if(nt.dom.mixed) $("r-mixed").textContent = `Profil mixt: ${SCALE_NAME[nt.dom.top]} și ${SCALE_NAME[nt.dom.second]} sunt la cel mult 2 puncte. Confirm eu tipul la prima discuție.`;
   const XX=window.CHERA_EXT||{}, EE=(XX.types||{})[nt.type]||{}, MM=(XX.more||{})[nt.type]||{};
-  li($("r-who"),[...T.who,...(MM.who||[])]);
-  li($("r-train"),[...T.train,...(EE.train||[]),...(MM.train||[])]);
-  li($("r-diet"),[...T.diet,...(EE.diet||[]),...(MM.diet||[])]);
+  li($("r-who"),cut([...T.who,...(MM.who||[])]));
+  li($("r-train"),cut([...T.train,...(EE.train||[]),...(MM.train||[])]));
+  li($("r-diet"),cut([...T.diet,...(EE.diet||[]),...(MM.diet||[])]));
   scorecard($("r-scoresB"),bal.scores,bal.level==="ok"?null:bal.top);
   const rb=$("r-balance"); rb.innerHTML="";
   if(bal.allHigh){ rb.innerHTML=`<p><span class="pill crit">oboseală generală</span></p><p>Toate cele patru scale sunt ridicate. De obicei nu e un dezechilibru specific, ci somn puțin, deficit caloric prea mare sau prea multe stimulente. Verific eu întâi aceste trei lucruri; suplimentele vin după.</p>`; }
@@ -177,7 +179,7 @@ function buildResult(){
       <h3>${bal.level==="crit"?"Suplimente de stabilizare, 8 săptămâni":"Suplimente de susținere (le confirm eu la prima discuție)"}</h3><ul class="list supp" id="rb-supp"></ul>
       <h3>Stil de viață</h3><ul class="list" id="rb-life"></ul>
       <p class="hint">${D.warn}</p>`;
-    li($("rb-diet"),D.diet); suppList($("rb-supp"),D.supp); li($("rb-life"),D.life);
+    li($("rb-diet"),cut(D.diet)); suppList($("rb-supp"),cut(D.supp)); li($("rb-life"),cut(D.life));
   }
   renderExt(nt.type, bal, goal);
   const door=DOORS[goal]||DOORS.sportiv;
@@ -203,14 +205,14 @@ function renderExt(type, bal, goal){
   let h=card("Profilul tău, pe larg","Ce înseamnă asta în sală",`<p>${E.intro}</p>`);
   h+=card("Antrenament","O săptămână-tip pe profilul tău",ul(E.split));
     h+=card("Exemplu","O zi de mâncare pe profilul tău",ul(E.day||[])+`<p class="hint">${X.dayNote}</p><p class="hint">${X.carbtest}</p>`);
-  h+=card("Faze","Definire și masă musculară",`<h3>La definire</h3>${ul(E.cut)}<h3 style="margin-top:14px">La masă musculară</h3>${ul(E.bulk)}`);
-  if(bal.level!=="ok" && !bal.allHigh && X.deficit[bal.top]){ const D=X.deficit[bal.top]; h+=card("Echilibrul tău acum","De ce contează "+DEFICIT[bal.top].name+" la sală",`<p>${D.why}</p><h3 style="margin-top:14px">Ce schimbăm în antrenament</h3>${ul(D.train)}`); }
-  h+=card("Atenție","Greșelile pe care le văd des la profilul tău",ul(E.mistakes));
-  h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(E.mind));
+  h+=card("Faze","Definire și masă musculară",`<h3>La definire</h3>${ul(cut(E.cut))}<h3 style="margin-top:14px">La masă musculară</h3>${ul(cut(E.bulk))}`);
+  if(bal.level!=="ok" && !bal.allHigh && X.deficit[bal.top]){ const D=X.deficit[bal.top]; h+=card("Echilibrul tău acum","De ce contează "+DEFICIT[bal.top].name+" la sală",`<p>${D.why}</p><h3 style="margin-top:14px">Ce schimbăm în antrenament</h3>${ul(cut(D.train))}`); }
+  h+=card("Atenție","Greșelile pe care le văd des la profilul tău",ul(cut(E.mistakes)));
+  h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(cut(E.mind)));
   const M=(X.more||{})[type]||{}; const sl=a=>"<ul class=\"list supp\">"+(a||[]).map(x=>`<li><b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span></li>`).join("")+"</ul>";
-  h+=card("Suplimente","Stack-ul pentru profilul tău",sl(M.stack||[])+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(X.base)+`<p class="hint">Dozele sunt orientative, pentru adulți sănătoși. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
-  h+=card("Obiectivul tău",G.title,ul(G.items));
-  h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(X.start4));
+  h+=card("Suplimente","Stack-ul pentru profilul tău",sl(cut(M.stack))+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(cut(X.base))+`<p class="hint">Dozele sunt orientative, pentru adulți sănătoși. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
+  h+=card("Obiectivul tău",G.title,ul(cut(G.items)));
+  h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(cut(X.start4)));
   box.innerHTML=h;
 }
 async function submit(){

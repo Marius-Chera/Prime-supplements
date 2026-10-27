@@ -227,7 +227,7 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .brand-mark{height:34px;width:34px;flex:none}
 .site-footer .brand-mark{height:28px;width:28px}
 
-/* logo: ștampila pe un rând */
-.brand-stamp{height:40px;width:auto;display:block}
-.site-footer .brand-stamp{height:34px}
-@media (max-width:480px){.brand-stamp{height:32px}}
+/* logo: ștampila (varianta 5, aleasă de Marius) */
+.brand-stamp{height:64px;width:auto;display:block}
+.site-footer .brand-stamp{height:110px}
+@media (max-width:480px){.brand-stamp{height:52px}}

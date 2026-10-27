@@ -199,3 +199,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Din propunerile din `chera-coaching/IDEI-INSTRUMENTE-GRATUITE-2026-10-28.md` proprietarul a ales „neapărat” **punctul 2 („Cât de departe ești de scenă?”) și punctul 5 („Revizuirea progresului la 4 săptămâni”)**.
 - **Decizie:** „Cât de departe ești de scenă?” **NU dă rezultat instant** (cerința proprietarului): sportivul trimite datele, măsurătorile și 3 poze, iar Marius răspunde în max. 48 h cu răspunsul lui + sugestii. Calculul automat (% grăsime US Navy, greutatea de scenă pe categorie, săptămâni de definire, data de start, verdict) apare doar în e-mailul lui Marius, ca punct de plecare.
 - Revizuirea progresului: tot cu răspuns în 48 h; ritmul (kg și %/săptămână față de ținta obiectivului) calculat doar pentru Marius.
+
+### 28.10.2026 – Pozele site-ului Chera și butonul de evaluare
+- Marius: nicio poză dublată pe site, aspect estetic; la „Rezultate” întâi sportivii cu cardul Pro, apoi cei cu medalii la gât. Decizie aplicată: fiecare poză apare o singură dată pe tot site-ul (galerie, coperte, hero, „Despre”); planul în `chera-coaching/poze-site-plan.json`. Pozele originale rămân doar local (folder ignorat de git, repo public).
+- Marius: butonul cu evaluarea gratuită să apară o singură dată la fiecare articol, inclusiv la cele viitoare → caseta generală din șablon scoasă; rămâne caseta proprie a articolului.

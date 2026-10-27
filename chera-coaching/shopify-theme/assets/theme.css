@@ -226,3 +226,8 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .brand{display:inline-flex;align-items:center;gap:10px}
 .brand-mark{height:34px;width:34px;flex:none}
 .site-footer .brand-mark{height:28px;width:28px}
+
+/* logo: ștampila pe un rând */
+.brand-stamp{height:40px;width:auto;display:block}
+.site-footer .brand-stamp{height:34px}
+@media (max-width:480px){.brand-stamp{height:32px}}

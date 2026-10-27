@@ -87,3 +87,17 @@ Regula: cont obligatoriu ca să plătești; cât ești client plătitor și loga
 5. **Notificările înainte** (automat, WhatsApp + e-mail): cu 7 zile înainte („mai ai o săptămână, reînnoiește aici”), cu 3 zile, cu 1 zi, și în ziua expirării („accesul se închide azi; dacă reînnoiești, continuăm de unde am rămas”). Pentru plata cu reînnoire automată (dacă Netopia o suportă), notificarea cu 3 zile înainte e „plata se face automat pe [data]; dacă vrei să oprești, scrie-mi”.
 6. **Perioadă de grație**: 3 zile după expirare accesul rămâne (ca să nu pierdem oameni din cauza unei plăți întârziate), apoi se închide. Setabilă.
 7. **Excepții manuale**: Marius poate prelungi `chera.expira` din panoul Shopify (ex. pauză medicală) și totul se reactivează instant, inclusiv pe WhatsApp.
+
+## 10. Variantele ieftine (proprietarul, 27.10 seara: „80–160 pe lună e prea scump”)
+**Varianta A – gratuită (recomandată pentru start):** aplicația **WhatsApp Business** (gratuită) pe numărul nou al firmei. Pe telefon e o aplicație separată de WhatsApp-ul personal; pe calculator, WhatsApp Desktop sau web. Cost: doar SIM-ul (~5 €/lună).
+- Separarea de personal: alt număr, altă aplicație; conversațiile personale nu apar niciodată.
+- Doar plătitorii: numărul apare doar în contul de client pe site (butonul există deja în temă, vizibil doar cu abonament activ) și în e-mailul de după plată. Butonul deschide WhatsApp cu text precompletat („Sunt [nume], pachetul [X], expiră [data]”), deci știi din primul mesaj cine e.
+- Etichete gratuite în WhatsApp Business: „Client activ”, „Concurs”, „Expiră curând”, „Expirat”; filtrul pe etichetă arată doar clienții activi.
+- Mesaj automat de întâmpinare și de absență: cine scrie fără să fie client primește linkul de evaluare/plată.
+- Răspunsuri rapide (/plan, /poze, /analize) pentru textele care se repetă.
+- Memento-urile de expirare (7/3/1 zile) pe e-mail, din Shopify Flow (gratuit), nu pe WhatsApp.
+- Ce pierzi față de Respond.io: mesajul de bun venit și memento-urile pe WhatsApp nu pleacă singure; etichetele le pui tu (un click la primul mesaj); un singur telefon principal + până la 4 dispozitive legate.
+
+**Varianta B – ~10–20 €/lună, cu automatizări:** **Chatwoot** (inbox open-source) găzduit pe un server mic (~5–10 €/lună) + **WhatsApp Cloud API** direct de la Meta. Răspunsurile la mesajele clienților sunt gratuite; plătești doar mesajele-șablon trimise de tine (memento, bun venit), câțiva euro pe lună la 100 de clienți. Reguli și etichete automate, aplicație de telefon, legătură cu Shopify prin webhook. Cere 1–2 zile de setare și întreținere (actualizări); numărul nu mai merge în aplicația WhatsApp.
+
+**Drumul propus:** A de acum (costă 0, merge din prima zi); B când vrei mesajele automate pe WhatsApp. Respond.io rămâne doar dacă angajezi pe cineva pentru logistică.

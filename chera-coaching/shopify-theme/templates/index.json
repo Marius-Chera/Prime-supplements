@@ -187,7 +187,8 @@
     "rezultate": {
       "type": "rezultate",
       "settings": {
-        "poze": "chera-galerie-57.jpg|\nchera-galerie-58.jpg|\nchera-galerie-71.jpg|\nchera-galerie-70.jpg|\nchera-galerie-68.jpg|\nchera-galerie-69.jpg|\nchera-galerie-62.jpg|\nchera-galerie-60.jpg|\nchera-galerie-72.jpg|\nchera-galerie-73.jpg|\nchera-galerie-74.jpg|\nchera-galerie-75.jpg|\nchera-galerie-77.jpg|\nchera-galerie-76.jpg|\nchera-galerie-78.jpg|\nchera-galerie-63.jpg|\nchera-galerie-64.jpg|\nchera-galerie-65.jpg|\nchera-galerie-66.jpg|\nchera-galerie-67.jpg|\nchera-galerie-79.jpg|\nchera-galerie-80.jpg|\nchera-galerie-81.jpg|\nchera-galerie-82.jpg|\nchera-galerie-83.jpg|\nchera-galerie-84.jpg|\nchera-galerie-85.jpg|"
+        "visible": 12,
+        "poze": "chera-foto-093.jpg|\nchera-foto-054.jpg|\nchera-foto-199.jpg|\nchera-foto-074.jpg|\nchera-foto-113.jpg|\nchera-foto-031.jpg|\nchera-foto-188.jpg|\nchera-foto-116.jpg|\nchera-foto-143.jpg|\nchera-foto-075.jpg|\nchera-foto-196.jpg|\nchera-foto-009.jpg|\nchera-foto-186.jpg|\nchera-foto-202.jpg|\nchera-foto-155.jpg|\nchera-foto-213.jpg|\nchera-foto-067.jpg|\nchera-foto-090.jpg|\nchera-foto-228.jpg|\nchera-foto-246.jpg|\nchera-foto-010.jpg|\nchera-foto-242.jpg|\nchera-foto-064.jpg|\nchera-foto-137.jpg|\nchera-foto-123.jpg|\nchera-foto-139.jpg|\nchera-foto-245.jpg|\nchera-foto-125.jpg|\nchera-foto-180.jpg|\nchera-foto-121.jpg|\nchera-foto-127.jpg|\nchera-foto-014.jpg|\nchera-foto-274.jpg|\nchera-foto-028.jpg|\nchera-foto-130.jpg|\nchera-foto-118.jpg|\nchera-foto-061.jpg|\nchera-foto-211.jpg|\nchera-foto-177.jpg|\nchera-foto-058.jpg|\nchera-foto-076.jpg|\nchera-foto-038.jpg|\nchera-foto-001.jpg|\nchera-foto-096.jpg|\nchera-foto-024.jpg|\nchera-foto-029.jpg|\nchera-foto-040.jpg|"
       }
     },
     "testimoniale": {
@@ -324,7 +325,8 @@
             "price": "300 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-live-sibiu", "product": "posing-live-sibiu"
+            "url": "/products/posing-live-sibiu",
+            "product": "posing-live-sibiu"
           }
         },
         "sesiuni_2": {
@@ -337,7 +339,8 @@
             "price": "200 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-online", "product": "posing-online"
+            "url": "/products/posing-online",
+            "product": "posing-online"
           }
         },
         "sesiuni_3": {
@@ -350,12 +353,28 @@
             "price": "500 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/consultatie-video", "product": "consultatie-video" } }, "sesiuni_4": { "type": "session", "settings": { "tag": "Live · Sibiu", "title": "Antrenament 1 la 1", "text": "Te antrenez eu, în sală, la Evo Gym Health and Spa din Sibiu: tehnică, intensitate și ce schimbi la antrenamentele tale.", "bullets": "Față în față, la Evo Gym Sibiu\nTehnică, intensitate, plan\nRezervi și plătești online", "price": "350 lei", "price_note": "/ 90 de minute", "cta": "Alege data", "url": "/products/antrenament-1-la-1-sibiu", "product": "antrenament-1-la-1-sibiu"
+            "url": "/products/consultatie-video",
+            "product": "consultatie-video"
+          }
+        },
+        "sesiuni_4": {
+          "type": "session",
+          "settings": {
+            "tag": "Live · Sibiu",
+            "title": "Antrenament 1 la 1",
+            "text": "Te antrenez eu, în sală, la Evo Gym Health and Spa din Sibiu: tehnică, intensitate și ce schimbi la antrenamentele tale.",
+            "bullets": "Față în față, la Evo Gym Sibiu\nTehnică, intensitate, plan\nRezervi și plătești online",
+            "price": "350 lei",
+            "price_note": "/ 90 de minute",
+            "cta": "Alege data",
+            "url": "/products/antrenament-1-la-1-sibiu",
+            "product": "antrenament-1-la-1-sibiu"
           }
         }
       },
       "block_order": [
-        "sesiuni_1", "sesiuni_4",
+        "sesiuni_1",
+        "sesiuni_4",
         "sesiuni_2",
         "sesiuni_3"
       ]

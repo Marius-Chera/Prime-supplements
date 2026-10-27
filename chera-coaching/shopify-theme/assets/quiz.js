@@ -56,9 +56,9 @@ const DEFICIT = {
    life:["Lumină naturală dimineața, 20 de minute.","3 antrenamente moderate, nu epuizante.","Contact social și somn regulat."],warn:"Triptofanul sau 5-HTP se discută doar cu mine, niciodată împreună cu medicamente pentru dispoziție."}
 };
 const DOORS = {
- scena:{title:"Ușa ta: Pregătire de concurs",text:"Plătești prima lună (1.500 lei), care include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări. În 48 de ore avem un video call de 15 minute, eu și tu, în care alegem competițiile și stabilim plata pentru întreg sezonul. Locuri limitate.",cta:"Începe pregătirea"},
- sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări făcute de mine, eu pe WhatsApp, răspuns în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul"},
- start:{title:"Ușa ta: Programele + un antrenor la un mesaj distanță",text:"Pornești cu un program digital potrivit profilului tău, iar când vrei ajustări, treci la coaching cu prețul programului dedus.",cta:"Vezi programele"}
+ scena:{title:"Ușa ta: Pregătire de concurs",text:"Plătești prima lună (1.500 lei), care include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări. În 48 de ore avem un video call de 15 minute, eu și tu, în care alegem competițiile și stabilim plata pentru întreg sezonul. Locuri limitate.",cta:"Începe pregătirea",url:"/products/pregatire-de-concurs-prima-luna"},
+ sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări făcute de mine, eu pe WhatsApp, răspuns în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul",url:"/products/chera-protocol-coaching-1-luna"},
+ start:{title:"Ușa ta: Programele + un antrenor la un mesaj distanță",text:"Pornești cu un program digital potrivit profilului tău, iar când vrei ajustări, treci la coaching cu prețul programului dedus.",cta:"Vezi programele",url:"/collections/programe"}
 };
 
 /* ===== STATE ===== */
@@ -175,8 +175,9 @@ function buildResult(){
       <p class="hint">${D.warn}</p>`;
     li($("rb-diet"),D.diet); if(bal.level==="crit") li($("rb-supp"),D.supp); li($("rb-life"),D.life);
   }
+  renderExt(nt.type, bal, goal);
   const door=DOORS[goal]||DOORS.sportiv;
-  $("r-door").innerHTML=`<p class="eyebrow">Recomandarea noastră</p><h2>${door.title}</h2><p>${door.text}</p><p class="hint">Butonul se activează când magazinul e lansat; până atunci, pasul următor e WhatsApp.</p>`;
+  $("r-door").innerHTML=`<p class="eyebrow">Recomandarea mea</p><h2>${door.title}</h2><p>${door.text}</p><a class="btn" href="${door.url}">${door.cta}</a>`;
   const msg = `Salut! Am făcut evaluarea Chera Protocol. Profil: ${code}. Sunt ${state.ctx.name||""}, ${state.ctx.city||""}, obiectiv: ${goal}. Scoruri natura D${nt.scores.D} A${nt.scores.A} G${nt.scores.G} S${nt.scores.S}; echilibru D${bal.scores.D} A${bal.scores.A} G${bal.scores.G} S${bal.scores.S}.`;
   $("r-wacode").textContent = msg;
   $("r-sendtext").textContent = state.ctx.channel==="email"
@@ -189,12 +190,49 @@ function buildResult(){
   save();
   submit();
 }
+/* concluziile extinse (texte în assets/quiz-rezultat.js) */
+function renderExt(type, bal, goal){
+  const X=window.CHERA_EXT, box=$("r-ext"); if(!X||!box) return;
+  const E=X.types[type]||X.types["2A"], G=X.goals[goal]||X.goals.sportiv;
+  const ul=a=>"<ul class=\"list\">"+a.map(t=>"<li>"+t+"</li>").join("")+"</ul>";
+  const card=(eb,h,body)=>`<div class="card">${eb?`<p class="eyebrow">${eb}</p>`:""}<h3>${h}</h3>${body}</div>`;
+  let h=card("Profilul tău, pe larg","Ce înseamnă asta în sală",`<p>${E.intro}</p>`);
+  h+=card("Antrenament","Cum te antrenezi ca să crești",ul(E.train)+`<h3 style="margin-top:14px">O săptămână-tip</h3>`+ul(E.split));
+  h+=card("Nutriție","Cum mănânci pe profilul tău",ul(E.diet)+`<p class="hint">${X.carbtest}</p>`);
+  h+=card("Exemplu","O zi de mâncare pe profilul tău",ul(E.day||[])+`<p class="hint">${X.dayNote}</p>`);
+  h+=card("Faze","Definire și masă musculară",`<h3>La definire</h3>${ul(E.cut)}<h3 style="margin-top:14px">La masă musculară</h3>${ul(E.bulk)}`);
+  if(bal.level!=="ok" && !bal.allHigh && X.deficit[bal.top]){ const D=X.deficit[bal.top]; h+=card("Echilibrul tău acum","De ce contează "+DEFICIT[bal.top].name+" la sală",`<p>${D.why}</p><h3 style="margin-top:14px">Ce schimbăm în antrenament</h3>${ul(D.train)}`); }
+  h+=card("Atenție","Greșelile pe care le văd des la profilul tău",ul(E.mistakes));
+  h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(E.mind)+`<h3 style="margin-top:14px">Suplimentele de bază pentru profilul tău</h3>`+ul(E.supp));
+  h+=card("Obiectivul tău",G.title,ul(G.items));
+  h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(X.start4));
+  box.innerHTML=h;
+}
 async function submit(){
   const st=$("r-sendstatus");
-  if(!CONFIG.SHEET_ENDPOINT){ st.textContent="Rezultatul e salvat pe acest dispozitiv. Trimiterea către mine se activează la lansare."; return; }
+  if(!CONFIG.SHEET_ENDPOINT){ return submitContact(st); }
   const payload={ts:new Date().toISOString(),...state.ctx,...state.result,summary:state.summary||"",ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
   try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = state.ctx.channel==="email" ? "Rezultatul a ajuns la mine și ți l-am trimis și pe e-mail. Îți scriu cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore."; }
   catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite-mi textul de mai jos pe WhatsApp și îl preiau eu."; }
+}
+
+/* fără receptor Google: trimit prin formularul de contact Shopify (ajunge pe e-mailul magazinului) */
+async function submitContact(st){
+  const c=state.ctx, r=state.result, f=new FormData();
+  f.append("form_type","contact"); f.append("utf8","✓");
+  f.append("contact[email]",c.email); f.append("contact[name]",c.name);
+  f.append("contact[Telefon]",c.phone); f.append("contact[Oraș]",c.city||"-");
+  f.append("contact[Subiect]",`Evaluare gratuită · PROFIL ${r.code} · ${c.name}`);
+  f.append("contact[Răspuns pe]",c.channel==="email"?"e-mail":"WhatsApp");
+  f.append("contact[Context]",`obiectiv: ${c.goal} · ani de sală: ${c.years} · somn: ${c.sleep} · cafea: ${c.caffeine} · antrenamente/săpt: ${c.days}`);
+  f.append("contact[body]",(state.summary||"")+`
+
+Scoruri natura D${r.scoresA.D} A${r.scoresA.A} G${r.scoresA.G} S${r.scoresA.S} · echilibru D${r.scoresB.D} A${r.scoresB.A} G${r.scoresB.G} S${r.scoresB.S}`);
+  try{
+    const res=await fetch("/contact",{method:"POST",body:f,credentials:"same-origin"});
+    if(!res.ok || /challenge/.test(res.url)) throw new Error("challenge");
+    st.textContent = c.channel==="email" ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore.";
+  }catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp."; }
 }
 
 /* ===== CONTEXT FORM ===== */
@@ -205,7 +243,7 @@ function validateCtx(){
   const errs=[];
   if(!goalVal) errs.push("alege obiectivul");
   if(!channelVal) errs.push("alege unde vrei răspunsul");
-  if(channelVal==="email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($("f-email").value.trim())) errs.push("o adresă de e-mail validă");
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($("f-email").value.trim())) errs.push("o adresă de e-mail validă");
   ["f-years","f-sleep","f-caf","f-days"].forEach(id=>{ if(!$(id).value) errs.push($(id).previousElementSibling.textContent.toLowerCase()); });
   if(!$("f-name").value.trim()) errs.push("prenumele");
   const ph=$("f-phone").value.replace(/[^\d+]/g,"");

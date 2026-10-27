@@ -86,6 +86,21 @@
     </div>
     {% endif %}
 
+    {%- capture chera_programe -%}
+      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' -%}{%- for line in order.line_items -%}{%- if line.product.metafields.chera.pdf != blank -%}
+        <div class="row between" style="padding-block:10px;border-bottom:1px solid var(--line)">
+          <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">cumpărat pe {{ order.created_at | date: '%d.%m.%Y' }}</div></div>
+          <a class="btn btn-sm" href="{{ line.product.metafields.chera.pdf }}" target="_blank" rel="noopener">Descarcă PDF</a>
+        </div>
+      {%- endif -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
+    {%- endcapture -%}
+    {% if chera_programe != blank %}
+    <div class="stack" style="gap:6px">
+      <h3>Programele mele</h3>
+      {{ chera_programe }}
+    </div>
+    {% endif %}
+
     <div class="stack" style="gap:12px">
       <h3>{{ 'customer.account.orders' | t }}</h3>
       {% if customer.orders.size > 0 %}

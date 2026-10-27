@@ -1,0 +1,61 @@
+{%- assign videos = section.blocks | where: 'type', 'video' -%}
+{%- assign links = section.blocks | where: 'type', 'articol' -%}
+{%- if section.blocks.size > 0 or request.design_mode -%}
+<section class="band" id="media">
+  <div class="in stack" style="gap:28px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2>{% if section.settings.text != blank %}<p class="lead muted">{{ section.settings.text }}</p>{% endif %}</div>
+
+    {%- if videos.size > 0 -%}
+    <div class="media-videos">
+      {%- for block in videos -%}
+        {%- assign yt = block.settings.youtube | split: 'v=' | last | split: '&' | first | split: 'youtu.be/' | last | split: '?' | first | split: '/shorts/' | last | split: '/embed/' | last -%}
+        <figure class="media-video" {{ block.shopify_attributes }}>
+          <div class="media-frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ yt }}" title="{{ block.settings.titlu | escape }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          {%- if block.settings.titlu != blank -%}<figcaption><b>{{ block.settings.titlu }}</b>{% if block.settings.sursa != blank %}<span class="muted"> · {{ block.settings.sursa }}</span>{% endif %}</figcaption>{%- endif -%}
+        </figure>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if links.size > 0 -%}
+    <div class="media-links">
+      {%- for block in links -%}
+        <a class="media-link" href="{{ block.settings.url }}" target="_blank" rel="noopener" {{ block.shopify_attributes }}>
+          <span class="meta">{{ block.settings.sursa }}{% if block.settings.data != blank %} · {{ block.settings.data }}{% endif %}</span>
+          <b>{{ block.settings.titlu }}</b>
+          <span class="go">Citește →</span>
+        </a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size == 0 -%}<p class="muted">Adaugă din stânga un bloc „Video YouTube” sau „Articol / emisiune”. Secțiunea apare pe site doar după ce are cel puțin un bloc.</p>{%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Apariții media",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Apariții media" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Unde am mai vorbit despre asta" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Interviuri, podcasturi și articole în care am vorbit despre pregătire, concursuri și sportivii mei." }
+  ],
+  "blocks": [
+    { "type": "video", "name": "Video YouTube", "settings": [
+      { "type": "text", "id": "youtube", "label": "Link YouTube", "info": "Lipește linkul clipului (youtube.com/watch?v=…, youtu.be/… sau /shorts/…)" },
+      { "type": "text", "id": "titlu", "label": "Titlu" },
+      { "type": "text", "id": "sursa", "label": "Canal / emisiune" }
+    ]},
+    { "type": "articol", "name": "Articol / emisiune", "settings": [
+      { "type": "url", "id": "url", "label": "Link" },
+      { "type": "text", "id": "titlu", "label": "Titlu" },
+      { "type": "text", "id": "sursa", "label": "Publicație" },
+      { "type": "text", "id": "data", "label": "Data (ex. 03.2025)" }
+    ]}
+  ],
+  "max_blocks": 30,
+  "presets": [{ "name": "Apariții media" }]
+}
+{% endschema %}

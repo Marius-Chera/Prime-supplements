@@ -1,0 +1,50 @@
+[
+ {
+  "key": "BIKINI",
+  "handle": "program-bikini-fesieri",
+  "title": "Program Bikini",
+  "sub": "Fesieri de 3 ori pe săptămână · 6 zile",
+  "level": "Intermediar–avansat",
+  "intro": "E programul pe care îl folosesc cu fetele de bikini în offseason. Fesierii se lucrează de trei ori pe săptămână, fiecare zi cu 8 exerciții și alt accent: lanțul posterior luni, fesier și femural miercuri, fesier mediu și superior vineri. Umerii și spatele construiesc forma în V, iar sâmbăta închizi săptămâna cu circuit pentru partea de sus, abdomen și vacuum pentru talie."
+ },
+ {
+  "key": "CLASSIC",
+  "handle": "program-classic-physique-avansati",
+  "title": "Program Classic Physique",
+  "sub": "Avansați · sistem 3+1+2+1",
+  "level": "Avansat",
+  "intro": "Sistemul 3+1+2+1 pe care îl folosesc cu sportivii de Classic Physique: trei zile de antrenament, una de pauză, două de antrenament, una de pauză, apoi o iei de la capăt. Lucrăm ce se judecă pe scenă: spate gros și lat, umeri plini, piept superior și picioare cu volum, fără să pierzi talia. Ai inclus vacuum în fiecare dimineață și rutina de posing pentru cele 5 poze obligatorii."
+ },
+ {
+  "key": "MENS",
+  "handle": "program-mens-physique",
+  "title": "Program Men's Physique",
+  "sub": "Spate lat, umeri plini, talie mică · 5 zile",
+  "level": "Intermediar–avansat",
+  "intro": "Program de 5 zile pentru Men's Physique, construit pe ce vede arbitrul în boardshorts: lățimea spatelui, deltoidul lateral, pieptul superior și talia. Spatele se lucrează de două ori pe săptămână, o dată pe lățime și o dată pe grosime, iar umerii la fel. Picioarele rămân într-o singură zi, cât să fie proporționale."
+ },
+ {
+  "key": "SPLIT6",
+  "handle": "program-bodybuilding-avansat",
+  "title": "Program Bodybuilding Avansat",
+  "sub": "Pull · Push · Femural · Piept-umeri · Cvadriceps",
+  "level": "Avansat (peste 3 ani de sală)",
+  "intro": "Split de 5 zile pentru cei care au trecut de primii ani de sală și nu mai cresc doar adăugând serii. Volumul e moderat, intensitatea mare: pre-exhaust, rest pause, drop seturi mecanice și serii 6-12-25. Fiecare grupă mare are exercițiul ei de bază, unde urmărești progresia de la o săptămână la alta."
+ },
+ {
+  "key": "HIT",
+  "handle": "program-intensitate-maxima",
+  "title": "Program Intensitate Maximă",
+  "sub": "Volum redus · o serie de lucru dusă la capăt",
+  "level": "Intermediar–avansat",
+  "intro": "Pentru cei care au stagnat pe volum mare sau au puțin timp. La fiecare exercițiu faci încălzirea, apoi o singură serie de lucru dusă până la epuizare, cu tempo controlat și pauze lungi. Antrenamentele sunt scurte, dar fiecare serie contează. Notează greutățile: dacă nu urci în greutate sau repetări de la o săptămână la alta, nu ai mers destul de departe pe seria de lucru."
+ },
+ {
+  "key": "HIPERTROFIE5",
+  "handle": "program-hipertrofie-5-zile",
+  "title": "Program Hipertrofie",
+  "sub": "5 zile · masă musculară",
+  "level": "Intermediar",
+  "intro": "Program de 5 zile pentru masă musculară: piept, spate, umeri, picioare și o a doua zi de spate cu biceps. Folosește tehnici care cresc intensitatea fără să lungească antrenamentul: myo-reps, superserii, drop seturi mecanice și rest pause. E un program bun după primul an de sală, când vrei să construiești mai mult decât bazele."
+ }
+]

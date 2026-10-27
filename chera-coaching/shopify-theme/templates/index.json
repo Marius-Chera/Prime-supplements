@@ -32,8 +32,8 @@
         "proof_4": {
           "type": "item",
           "settings": {
-            "value": "48+",
-            "label": "serii de clienți online"
+            "value": "100+",
+            "label": "clienți online"
           }
         },
         "proof_5": {
@@ -358,6 +358,10 @@
         "sesiuni_2",
         "sesiuni_3"
       ]
+    },
+    "aparitii_media": {
+      "type": "aparitii-media",
+      "settings": {}
     }
   },
   "order": [
@@ -371,6 +375,7 @@
     "testimoniale",
     "garantie",
     "despre",
+    "aparitii_media",
     "articole",
     "intrebari",
     "evaluare_cta"

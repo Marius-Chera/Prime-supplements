@@ -1,0 +1,12 @@
+<section class="band"><div class="in stack" style="gap:24px">
+  <h1 style="font-size:clamp(36px,6vw,64px)">{{ 'general.search.title' | t }}</h1>
+  <form action="{{ routes.search_url }}" method="get" class="row"><input type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'general.search.placeholder' | t }}" style="flex:1;min-width:200px;padding:12px;border:1px solid var(--line);border-radius:6px;background:var(--bg-2);color:var(--fg);font:16px var(--body)"><button class="btn btn-sm" type="submit">{{ 'general.search.title' | t }}</button></form>
+  {% if search.performed %}
+    {% if search.results_count == 0 %}<p class="muted">{{ 'general.search.no_results' | t: terms: search.terms }}</p>{% else %}
+    {% paginate search.results by 12 %}
+    <div class="articles">{% for item in search.results %}<article class="art"><span class="meta">{{ item.object_type }}</span><h3><a href="{{ item.url }}">{{ item.title }}</a></h3><p>{{ item.content | strip_html | truncatewords: 24 }}</p></article>{% endfor %}</div>
+    {% if paginate.pages > 1 %}<div class="row">{% if paginate.previous %}<a class="btn ghost btn-sm" href="{{ paginate.previous.url }}">{{ 'general.pagination.previous' | t }}</a>{% endif %}{% if paginate.next %}<a class="btn ghost btn-sm" href="{{ paginate.next.url }}">{{ 'general.pagination.next' | t }}</a>{% endif %}</div>{% endif %}
+    {% endpaginate %}{% endif %}
+  {% endif %}
+</div></section>
+{% schema %}{ "name": "Căutare", "settings": [] }{% endschema %}

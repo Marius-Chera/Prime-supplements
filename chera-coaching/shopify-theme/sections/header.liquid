@@ -1,0 +1,30 @@
+<nav class="site-nav" id="site-nav">
+  <div class="in">
+    <a class="brand" href="{{ routes.root_url }}">Chera <b>Protocol</b></a>
+    <ul class="nav-links">
+      {% for link in section.settings.menu.links %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <div class="nav-actions">
+      {% if customer %}
+        <a class="nav-account" href="{{ routes.account_url }}">{{ 'customer.account.title' | t }}</a>
+      {% else %}
+        <a class="nav-account" href="{{ routes.account_login_url }}">{{ 'customer.login.title' | t }}</a>
+      {% endif %}
+      <a class="nav-cart" href="{{ routes.cart_url }}" aria-label="{{ 'general.cart.title' | t }}">Coș{% if cart.item_count > 0 %} ({{ cart.item_count }}){% endif %}</a>
+      <a class="btn btn-sm" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a>
+    </div>
+  </div>
+</nav>
+
+{% schema %}
+{
+  "name": "Antet",
+  "settings": [
+    { "type": "link_list", "id": "menu", "label": "Meniu", "default": "main-menu" },
+    { "type": "text", "id": "cta_label", "label": "Buton", "default": "Evaluare gratuită" },
+    { "type": "url", "id": "cta_url", "label": "Link buton", "default": "/pages/evaluare" }
+  ]
+}
+{% endschema %}

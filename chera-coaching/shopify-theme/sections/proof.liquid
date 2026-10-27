@@ -1,0 +1,26 @@
+<section class="band tight">
+  <div class="in">
+    <div class="proof">
+      {% for block in section.blocks %}<div {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }}</small></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Bara de dovezi",
+  "max_blocks": 6,
+  "blocks": [{ "type": "item", "name": "Cifră", "settings": [
+    { "type": "text", "id": "value", "label": "Valoare", "default": "10" },
+    { "type": "text", "id": "label", "label": "Etichetă", "default": "carduri IFBB Pro" }
+  ]}],
+  "presets": [{ "name": "Bara de dovezi", "blocks": [
+    { "type": "item", "settings": { "value": "10", "label": "carduri IFBB Pro" } },
+    { "type": "item", "settings": { "value": "223", "label": "locuri 1" } },
+    { "type": "item", "settings": { "value": "26", "label": "victorii NPC Pro Qualifier" } },
+    { "type": "item", "settings": { "value": "48+", "label": "serii de clienți online" } },
+    { "type": "item", "settings": { "value": "16+", "label": "ani de antrenorat" } },
+    { "type": "item", "settings": { "value": "FRCF", "label": "antrenor certificat" } }
+  ]}]
+}
+{% endschema %}

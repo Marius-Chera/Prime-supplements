@@ -1,0 +1,31 @@
+<section class="band paper">
+  <div class="in stack" style="gap:32px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2></div>
+    <div class="quotes">
+      {% for block in section.blocks %}<div class="quote" {{ block.shopify_attributes }}><p>„{{ block.settings.text }}”</p><b>{{ block.settings.who }}</b>{% if block.settings.note != blank %}<small>{{ block.settings.note }}</small>{% endif %}</div>{% endfor %}
+    </div>
+    <p class="muted">{{ section.settings.note }}</p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Testimoniale",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Ce spun sportivii mei" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "În cuvintele lor" },
+    { "type": "text", "id": "note", "label": "Notă", "default": "Urmează și cuvintele celor care nu au urcat niciodată pe scenă. Au la fel de multe de spus." }
+  ],
+  "blocks": [{ "type": "quote", "name": "Testimonial", "settings": [
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "text", "id": "who", "label": "Cine" },
+    { "type": "text", "id": "note", "label": "Notă" }
+  ]}],
+  "presets": [{ "name": "Testimoniale", "blocks": [
+    { "type": "quote", "settings": { "text": "După un an de muncă cu Marius am câștigat cardul Pro. Am venit la el cu un vis și cu zero încredere că e realizabil. M-a trecut prin cele mai grele perioade ale pregătirii, mi-a răspuns de fiecare dată când comunicarea trebuia să fie la secundă și nu mi-a vândut niciodată iluzii. Îl consider antrenorul numărul 1. Dacă vrei un om care să-ți ridice standardele, lucrează cu el.", "who": "Sportiv IFBB Pro" } },
+    { "type": "quote", "settings": { "text": "Marius nu este doar un simplu antrenor, ci omul care fabrică din noi atleți profesioniști, dornici să lupte pentru visul lor.", "who": "Sportiv de performanță" } },
+    { "type": "quote", "settings": { "text": "Omul pentru care conceptul de mediocritate dispare încă din prima discuție. Nu spun că e ușor, dar Marius Chera este omul care te poate călăuzi să depășești totul.", "who": "Sportiv de performanță" } },
+    { "type": "quote", "settings": { "text": "Atât timp cât nu vrei vrăjeală și să auzi chestii nerealiste, trebuie să lucrezi cu Marius Chera.", "who": "Sportiv de performanță" } }
+  ]}]
+}
+{% endschema %}

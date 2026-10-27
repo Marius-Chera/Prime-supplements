@@ -1,0 +1,24 @@
+<section class="band">
+  <div class="in narrow stack" style="gap:24px;max-width:480px">
+    <h1 style="font-size:clamp(34px,5vw,52px)">{{ 'customer.login.title' | t }}</h1>
+    <p class="muted">Contul tău e locul unde ai planul, check-in-ul și WhatsApp-ul meu.</p>
+    {% form 'customer_login', class: 'stack' %}
+      {{ form.errors | default_errors }}
+      <div class="field"><label for="CustomerEmail">{{ 'customer.login.email' | t }}</label><input id="CustomerEmail" type="email" name="customer[email]" autocomplete="email" required></div>
+      <div class="field"><label for="CustomerPassword">{{ 'customer.login.password' | t }}</label><input id="CustomerPassword" type="password" name="customer[password]" autocomplete="current-password" required></div>
+      <div class="row"><button class="btn" type="submit">{{ 'customer.login.submit' | t }}</button><a href="#recover" class="muted">{{ 'customer.login.forgot' | t }}</a></div>
+      <p class="muted">{{ 'customer.login.create' | t }}: <a href="{{ routes.account_register_url }}">{{ 'customer.register.title' | t }}</a></p>
+    {% endform %}
+    <div id="recover" class="card">
+      <h3>{{ 'customer.recover.title' | t }}</h3>
+      <p class="muted">{{ 'customer.recover.text' | t }}</p>
+      {% form 'recover_customer_password', class: 'stack' %}
+        {{ form.errors | default_errors }}
+        {% if form.posted_successfully? %}<p class="ok">{{ 'customer.recover.success' | t }}</p>{% endif %}
+        <div class="field"><label for="RecoverEmail">{{ 'customer.login.email' | t }}</label><input id="RecoverEmail" type="email" name="email" required></div>
+        <button class="btn ghost btn-sm" type="submit">{{ 'customer.recover.submit' | t }}</button>
+      {% endform %}
+    </div>
+  </div>
+</section>
+{% schema %}{ "name": "Login", "settings": [] }{% endschema %}

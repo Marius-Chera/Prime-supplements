@@ -1,0 +1,21 @@
+:root{--bg:#0e0d0d;--fg:#f5f1ec;--fg-2:#b5aea6;--line:#2d2a28;--red:#e1251b;--display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;--body:"Barlow","Segoe UI",Helvetica,Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.65}
+.in{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+nav{border-bottom:1px solid var(--line)}
+nav .in{display:flex;justify-content:space-between;align-items:center;padding-block:14px}
+.brand{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--fg)}
+.brand b{color:var(--red)}
+.btn{background:var(--red);color:#fff;text-decoration:none;padding:12px 18px;border-radius:4px;font:600 14px var(--body);text-transform:uppercase;letter-spacing:.08em}
+header.art{padding-block:56px 24px;display:grid;gap:14px}
+.eyebrow{font-family:var(--display);font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:700}
+h1{font-family:var(--display);font-size:clamp(38px,7vw,64px);line-height:1.02;margin:0;text-transform:uppercase;text-wrap:balance}
+.by{display:flex;gap:12px;align-items:center;color:var(--fg-2);font-size:15px}
+.by img{width:44px;height:44px;border-radius:50%;border:2px solid var(--red);object-fit:cover}
+article{padding-block:16px 64px;display:grid;gap:22px}
+article h2{font-family:var(--display);font-size:30px;text-transform:uppercase;margin:24px 0 0;line-height:1.05}
+article p{margin:0}
+article ul,article ol{margin:0;padding-left:22px;display:grid;gap:8px}
+article blockquote{margin:0;padding:4px 0 4px 20px;border-left:3px solid var(--red);color:var(--fg-2);font-size:20px}
+.cta{border:1px solid var(--line);border-radius:8px;padding:24px;display:grid;gap:12px;margin-top:16px}
+.cta h3{font-family:var(--display);font-size:26px;text-transform:uppercase;margin:0}

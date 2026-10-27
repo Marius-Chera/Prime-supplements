@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="in">
+    <div class="row between"><a class="brand" href="{{ routes.root_url }}">Chera <b>Protocol</b></a><span>{{ settings.site_label }}</span></div>
+    <div class="row">
+      {% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}
+      <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC</a>
+      <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">SOL</a>
+      {% if settings.instagram != blank %}<a href="https://www.instagram.com/{{ settings.instagram }}/" target="_blank" rel="noopener">Instagram</a>{% endif %}
+    </div>
+    <p>{{ settings.company }} · {{ settings.company_details }} · {{ section.settings.legal_note }}</p>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Subsol",
+  "settings": [
+    { "type": "link_list", "id": "menu", "label": "Meniu legal", "default": "footer" },
+    { "type": "text", "id": "legal_note", "label": "Notă", "default": "Chera Protocol este un program de antrenament și nutriție; nu înlocuiește consultul medical." }
+  ]
+}
+{% endschema %}

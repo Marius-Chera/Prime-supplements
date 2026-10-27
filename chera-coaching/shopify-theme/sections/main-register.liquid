@@ -1,0 +1,19 @@
+<section class="band">
+  <div class="in narrow stack" style="gap:24px;max-width:520px">
+    <h1 style="font-size:clamp(34px,5vw,52px)">{{ 'customer.register.title' | t }}</h1>
+    <p class="muted">Contul e obligatoriu ca să plătești și ca să ai acces la planul tău și la WhatsApp-ul meu.</p>
+    {% form 'create_customer', class: 'stack' %}
+      {{ form.errors | default_errors }}
+      <div class="grid2">
+        <div class="field"><label for="RegisterFirstName">{{ 'customer.register.first_name' | t }}</label><input id="RegisterFirstName" type="text" name="customer[first_name]" autocomplete="given-name" required></div>
+        <div class="field"><label for="RegisterLastName">{{ 'customer.register.last_name' | t }}</label><input id="RegisterLastName" type="text" name="customer[last_name]" autocomplete="family-name" required></div>
+      </div>
+      <div class="field"><label for="RegisterEmail">{{ 'customer.register.email' | t }}</label><input id="RegisterEmail" type="email" name="customer[email]" autocomplete="email" required></div>
+      <div class="field"><label for="RegisterPassword">{{ 'customer.register.password' | t }}</label><input id="RegisterPassword" type="password" name="customer[password]" autocomplete="new-password" required></div>
+      <label class="check"><input type="checkbox" name="customer[accepts_marketing]"><span>Vreau să primesc articolele și noutățile pe e-mail.</span></label>
+      <button class="btn" type="submit">{{ 'customer.register.submit' | t }}</button>
+      <p class="muted">{{ 'customer.register.have' | t }} <a href="{{ routes.account_login_url }}">{{ 'customer.login.title' | t }}</a></p>
+    {% endform %}
+  </div>
+</section>
+{% schema %}{ "name": "Înregistrare", "settings": [] }{% endschema %}

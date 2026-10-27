@@ -1,0 +1,34 @@
+<section class="band" id="metoda">
+  <div class="in stack" style="gap:40px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
+    <div class="steps">
+      {% for block in section.blocks %}<div class="step" {{ block.shopify_attributes }}><h3>{{ block.settings.title }}</h3><p class="muted">{{ block.settings.text }}</p></div>{% endfor %}
+    </div>
+    <div class="row"><a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a><span class="muted">{{ section.settings.cta_note }}</span></div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Metoda",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Cum lucrez" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Nu primești un plan generic. Pornesc de la cum ești făcut." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Primul pas e profilul tău neuro: dopamină, acetilcolină, GABA, serotonină. El îmi spune cum te antrenezi, cum mănânci și ce suplimente îți trebuie. De acolo, personalizez eu săptămână de săptămână." },
+    { "type": "text", "id": "cta_label", "label": "Buton", "default": "Fă evaluarea gratuită" },
+    { "type": "url", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" },
+    { "type": "text", "id": "cta_note", "label": "Notă", "default": "Fără card, fără obligații." }
+  ],
+  "max_blocks": 4,
+  "blocks": [{ "type": "step", "name": "Pas", "settings": [
+    { "type": "text", "id": "title", "label": "Titlu" },
+    { "type": "textarea", "id": "text", "label": "Text" }
+  ]}],
+  "presets": [{ "name": "Metoda", "blocks": [
+    { "type": "step", "settings": { "title": "Evaluarea", "text": "4 minute, 72 de afirmații. Afli profilul tău și ușa potrivită. Pe loc, gratuit." } },
+    { "type": "step", "settings": { "title": "Planul în 48 de ore", "text": "Îți scriu eu antrenamentul și nutriția, pornind din profilul tău, ajustate la obiectiv, orar și ani de sală." } },
+    { "type": "step", "settings": { "title": "Check-in săptămânal", "text": "Poze, cântar, un formular scurt. Le văd eu și ajustez. Pe WhatsApp, răspuns în 24 de ore." } },
+    { "type": "step", "settings": { "title": "Re-test la 8 săptămâni", "text": "Măsurăm din nou echilibrul. Ce a fost pe minus se corectează, suplimentele se opresc când nu mai sunt necesare." } }
+  ]}]
+}
+{% endschema %}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Chera Protocol",
+    "theme_version": "1.0.0",
+    "theme_author": "Chera Coaching SRL",
+    "theme_documentation_url": "https://www.mariuschera.ro",
+    "theme_support_url": "https://www.mariuschera.ro"
+  },
+  {
+    "name": "Chera Protocol",
+    "settings": [
+      { "type": "header", "content": "WhatsApp și evaluare" },
+      { "type": "text", "id": "whatsapp_number", "label": "Numărul de WhatsApp (format internațional, fără +)", "default": "40757911908", "info": "Apare DOAR clienților plătitori logați și în rezultatul evaluării. Nu e afișat public." },
+      { "type": "text", "id": "eval_endpoint", "label": "URL receptor evaluare (Google Apps Script Web App)", "info": "Gol = evaluarea afișează rezultatul fără să îl trimită." },
+      { "type": "text", "id": "checkin_endpoint", "label": "URL receptor check-in (poate fi același script)" },
+      { "type": "header", "content": "Acces condiționat de plată" },
+      { "type": "range", "id": "grace_days", "label": "Zile de grație după expirare", "min": 0, "max": 14, "step": 1, "default": 3 },
+      { "type": "text", "id": "coaching_handles", "label": "Handle-urile produselor de coaching (separate prin virgulă)", "default": "chera-protocol-coaching-1-luna,chera-protocol-coaching-3-luni,pregatire-de-concurs-prima-luna", "info": "Comenzile cu aceste produse dau acces la zona clientului." },
+      { "type": "header", "content": "Identitate" },
+      { "type": "image_picker", "id": "favicon", "label": "Favicon (64×64)" },
+      { "type": "text", "id": "instagram", "label": "Instagram (fără @)", "default": "marius.chera" },
+      { "type": "text", "id": "site_label", "label": "Domeniul afișat în subsol", "default": "www.mariuschera.ro" },
+      { "type": "header", "content": "Culori" },
+      { "type": "color", "id": "color_accent", "label": "Roșu", "default": "#e1251b" },
+      { "type": "color", "id": "color_bg", "label": "Fundal", "default": "#0e0d0d" },
+      { "type": "color", "id": "color_fg", "label": "Text", "default": "#f5f1ec" },
+      { "type": "header", "content": "Date firmă (subsol)" },
+      { "type": "text", "id": "company", "label": "Firma", "default": "Chera Coaching SRL" },
+      { "type": "text", "id": "company_details", "label": "CUI, J, sediul", "default": "CUI ________ · J__/____/____ · sediul: ________" }
+    ]
+  }
+]

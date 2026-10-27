@@ -1,0 +1,45 @@
+<section class="band"><div class="in narrow stack" style="gap:24px">
+  <p><a href="{{ routes.account_url }}">← {{ 'customer.account.title' | t }}</a></p>
+  <h1 style="font-size:clamp(30px,5vw,48px)">{{ 'customer.addresses.title' | t }}</h1>
+  {% for address in customer.addresses %}
+    <div class="card">
+      {% if address == customer.default_address %}<span class="pill ok">{{ 'customer.addresses.default' | t }}</span>{% endif %}
+      {{ address | format_address }}
+      <div class="row"><a class="btn ghost btn-sm" href="#edit-{{ address.id }}">{{ 'customer.addresses.edit' | t }}</a>
+      {% form 'customer_address', address %}<button class="btn ghost btn-sm" type="submit" formmethod="post" name="_method" value="delete" onclick="return confirm('Ștergi adresa?')">{{ 'customer.addresses.delete' | t }}</button>{% endform %}</div>
+      <div id="edit-{{ address.id }}">
+      {% form 'customer_address', address, class: 'stack' %}
+        <div class="grid2">
+          <div class="field"><label>{{ 'customer.register.first_name' | t }}</label><input type="text" name="address[first_name]" value="{{ form.first_name }}"></div>
+          <div class="field"><label>{{ 'customer.register.last_name' | t }}</label><input type="text" name="address[last_name]" value="{{ form.last_name }}"></div>
+          <div class="field"><label>Adresă</label><input type="text" name="address[address1]" value="{{ form.address1 }}"></div>
+          <div class="field"><label>Oraș</label><input type="text" name="address[city]" value="{{ form.city }}"></div>
+          <div class="field"><label>Județ</label><input type="text" name="address[province]" value="{{ form.province }}"></div>
+          <div class="field"><label>Cod poștal</label><input type="text" name="address[zip]" value="{{ form.zip }}"></div>
+          <div class="field"><label>Țară</label><select name="address[country]" data-default="{{ form.country }}">{{ all_country_option_tags }}</select></div>
+          <div class="field"><label>Telefon</label><input type="tel" name="address[phone]" value="{{ form.phone }}"></div>
+        </div>
+        <label class="check"><input type="checkbox" name="address[default]" {% if address == customer.default_address %}checked{% endif %}><span>{{ 'customer.addresses.default' | t }}</span></label>
+        <button class="btn btn-sm" type="submit">{{ 'customer.addresses.save' | t }}</button>
+      {% endform %}
+      </div>
+    </div>
+  {% endfor %}
+  <div class="card">
+    <h3>{{ 'customer.addresses.add' | t }}</h3>
+    {% form 'customer_address', customer.new_address, class: 'stack' %}
+      <div class="grid2">
+        <div class="field"><label>{{ 'customer.register.first_name' | t }}</label><input type="text" name="address[first_name]"></div>
+        <div class="field"><label>{{ 'customer.register.last_name' | t }}</label><input type="text" name="address[last_name]"></div>
+        <div class="field"><label>Adresă</label><input type="text" name="address[address1]"></div>
+        <div class="field"><label>Oraș</label><input type="text" name="address[city]"></div>
+        <div class="field"><label>Județ</label><input type="text" name="address[province]"></div>
+        <div class="field"><label>Cod poștal</label><input type="text" name="address[zip]"></div>
+        <div class="field"><label>Țară</label><select name="address[country]" data-default="Romania">{{ all_country_option_tags }}</select></div>
+        <div class="field"><label>Telefon</label><input type="tel" name="address[phone]"></div>
+      </div>
+      <label class="check"><input type="checkbox" name="address[default]"><span>{{ 'customer.addresses.default' | t }}</span></label>
+      <button class="btn btn-sm" type="submit">{{ 'customer.addresses.save' | t }}</button>
+    {% endform %}
+  </div>
+</div></section>

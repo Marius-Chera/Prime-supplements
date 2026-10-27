@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "hero": { "type": "hero", "settings": {} },
+    "proof": { "type": "proof", "settings": {} },
+    "problema": { "type": "problema", "settings": {} },
+    "usi": { "type": "usi", "settings": {} },
+    "metoda": { "type": "metoda", "settings": {} },
+    "rezultate": { "type": "rezultate", "settings": {} },
+    "testimoniale": { "type": "testimoniale", "settings": {} },
+    "garantie": { "type": "garantie", "settings": {} },
+    "despre": { "type": "despre", "settings": {} },
+    "articole": { "type": "articole", "settings": {} },
+    "intrebari": { "type": "intrebari", "settings": {} },
+    "evaluare_cta": { "type": "evaluare-cta", "settings": {} }
+  },
+  "order": ["hero", "proof", "problema", "usi", "metoda", "rezultate", "testimoniale", "garantie", "despre", "articole", "intrebari", "evaluare_cta"]
+}

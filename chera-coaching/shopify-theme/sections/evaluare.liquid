@@ -1,0 +1,112 @@
+<section class="band" style="padding-top:24px">
+<div class="in narrow quiz">
+  
+  <!-- INTRO -->
+  <section id="s-intro" class="stack" style="padding-block:28px 0">
+    <p class="eyebrow">Profilul neuro · 4 minute</p>
+    <h1>Nu primești un plan generic. Pornim de la cum ești făcut.</h1>
+    <p class="lead">Trei runde scurte. Prima arată natura ta (dopamină, acetilcolină, GABA, serotonină) și tipul tău de antrenament. A doua arată ce e pe minus acum și ce ajustăm în dietă și suplimente. A treia e contextul tău. Rezultatul apare pe loc, apoi îți scriu eu, Marius, pe WhatsApp.</p>
+    <div class="card">
+      <h3>Cum răspunzi</h3>
+      <p class="hint">Fiecare afirmație are patru trepte, fără mijloc: alege ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău; există doar profilul tău.</p>
+    </div>
+    <div class="nav"><span></span><button class="btn" id="btn-start" type="button">Începe evaluarea</button></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="s-quiz" hidden>
+    <div class="progress">
+      <div class="meta"><span id="p-round">Runda 1 · Natura ta</span><span id="p-count">0 / 72</span></div>
+      <div class="bar"><i id="p-fill"></i></div>
+    </div>
+    <p class="hint" id="round-hint"></p>
+    <div id="items"></div>
+    <p class="err" id="quiz-err" hidden>Răspunde la toate afirmațiile de pe ecran ca să continui.</p>
+    <div class="nav">
+      <button class="btn secondary" id="btn-back" type="button">Înapoi</button>
+      <button class="btn" id="btn-next" type="button">Continuă</button>
+    </div>
+  </section>
+
+  <!-- CONTEXT + CONTACT -->
+  <section id="s-context" hidden class="stack">
+    <div class="progress">
+      <div class="meta"><span>Runda 3 · Contextul tău</span><span>ultimul pas</span></div>
+      <div class="bar"><i style="width:96%"></i></div>
+    </div>
+    <h2>Ultimele întrebări, apoi rezultatul</h2>
+    <div class="field"><label>Obiectivul tău</label>
+      <div class="choice" role="radiogroup" id="f-goal">
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="scena">Vreau să urc pe scenă (sau concurez deja)</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="sportiv">Vreau să arăt ca un sportiv, fără să concurez</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="start">Încep de la zero sau reiau după pauză</button>
+      </div></div>
+    <div class="grid2">
+      <div class="field"><label for="f-years">Ani de sală</label><select id="f-years"><option value="">alege</option><option>sub 1 an</option><option>1–3 ani</option><option>3–5 ani</option><option>peste 5 ani</option></select></div>
+      <div class="field"><label for="f-sleep">Somn pe noapte, în medie</label><select id="f-sleep"><option value="">alege</option><option>sub 6 ore</option><option>6–7 ore</option><option>7–8 ore</option><option>peste 8 ore</option></select></div>
+      <div class="field"><label for="f-caf">Cafea sau energizante pe zi</label><select id="f-caf"><option value="">alege</option><option>0</option><option>1–2</option><option>3 sau mai multe</option></select></div>
+      <div class="field"><label for="f-days">Antrenamente pe săptămână, realist</label><select id="f-days"><option value="">alege</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="f-name">Prenume</label><input id="f-name" autocomplete="given-name" placeholder="Andrei"></div>
+      <div class="field"><label for="f-city">Oraș</label><input id="f-city" autocomplete="address-level2" placeholder="Cluj-Napoca"></div>
+      <div class="field"><label for="f-phone">Telefon (WhatsApp)</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx"></div>
+      <div class="field"><label for="f-email">E-mail</label><input id="f-email" type="email" autocomplete="email" placeholder="nume@exemplu.ro"></div>
+    </div>
+    <div class="field"><label>Unde vrei să primești răspunsul meu?</label>
+      <div class="choice" role="radiogroup" id="f-channel">
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="whatsapp">Pe WhatsApp, la numărul de mai sus</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="email">Pe e-mail, la adresa de mai sus</button>
+      </div></div>
+    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat de Marius Chera, pe canalul ales mai sus, cu rezultatul și planul de pornire.</span></label>
+    <label class="check"><input type="checkbox" id="c-gdpr"><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></label>
+    <p class="err" id="ctx-err" hidden></p>
+    <div class="nav">
+      <button class="btn secondary" id="btn-back2" type="button">Înapoi</button>
+      <button class="btn" id="btn-result" type="button">Vezi rezultatul</button>
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="s-result" hidden class="stack">
+    <div class="result-head">
+      <p class="code" id="r-code">PROFIL 2A-S</p>
+      <h1 id="r-title">Ești Cameleonul</h1>
+      <p class="lead" id="r-sub"></p>
+    </div>
+    <div class="card">
+      <p class="eyebrow">Runda 1 · Natura ta (scor 8–32 pe scală)</p>
+      <div class="scorecard" id="r-scoresA"></div>
+      <p class="hint" id="r-mixed" hidden></p>
+    </div>
+    <div class="card">
+      <h3>Cum ești</h3><ul class="list" id="r-who"></ul>
+    </div>
+    <div class="card">
+      <h3>Cum te antrenezi</h3><ul class="list" id="r-train"></ul>
+    </div>
+    <div class="card">
+      <h3>Cum mănânci</h3><ul class="list" id="r-diet"></ul>
+    </div>
+    <div class="card">
+      <p class="eyebrow">Runda 2 · Echilibrul tău acum (scor 8–32; peste 21 = pe minus)</p>
+      <div class="scorecard" id="r-scoresB"></div>
+      <div id="r-balance" class="stack"></div>
+    </div>
+    <div class="door" id="r-door"></div>
+    <div class="card" id="r-send">
+      <h3>Pasul următor</h3>
+      <p id="r-sendtext"></p>
+      <div class="code-box" id="r-wacode"></div>
+      <p class="hint" id="r-sendstatus"></p>
+      <a class="btn" id="r-walink" href="#" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>
+    </div>
+    <p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Pornește, orientativ, de la modelul Braverman al celor patru neurotransmițători.</p>
+  </section>
+</div>
+{{ "quiz.js" | asset_url | script_tag }}
+
+</section>
+{% schema %}
+{ "name": "Evaluare (profil neuro)", "settings": [ { "type": "paragraph", "content": "Numărul de WhatsApp și receptorul se setează în Setări temă → Chera Protocol. Întrebările și textele rezultatului sunt în assets/quiz.js." } ], "presets": [ { "name": "Evaluare (profil neuro)" } ] }
+{% endschema %}

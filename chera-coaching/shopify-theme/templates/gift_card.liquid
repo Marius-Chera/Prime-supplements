@@ -1,0 +1,10 @@
+{% layout none %}<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ 'gift_cards.issued.title' | t }}</title>{{ content_for_header }}{{ 'theme.css' | asset_url | stylesheet_tag }}</head>
+<body><section class="band"><div class="in narrow stack center" style="gap:16px;padding-block:60px">
+  <a class="brand" href="/">Chera <b>Protocol</b></a>
+  <h1 style="font-size:clamp(30px,5vw,48px)">{{ 'gift_cards.issued.title' | t }}</h1>
+  <p class="lead muted">{{ 'gift_cards.issued.subtext' | t: value: gift_card.initial_value | money }}</p>
+  <p class="price-big">{{ gift_card.code | format_code }}</p>
+  <p class="muted">{{ 'gift_cards.issued.code' | t }} · {{ gift_card.balance | money }}</p>
+  <a class="btn" href="{{ shop.url }}">{{ shop.name }}</a>
+</div></section></body></html>

@@ -1,0 +1,6 @@
+<a class="product-card" href="{{ product.url }}">
+  {% if product.featured_image != blank %}{{ product.featured_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: product.title }}{% else %}<div class="placeholder" style="aspect-ratio:4/5">{{ product.title }}</div>{% endif %}
+  <b>{{ product.title }}</b>
+  <span class="price">{{ product.price | money }}{% if product.compare_at_price > product.price %} <s class="muted">{{ product.compare_at_price | money }}</s>{% endif %}</span>
+  {% if product.metafields.chera.subtitle != blank %}<span class="muted" style="font-size:14px">{{ product.metafields.chera.subtitle }}</span>{% endif %}
+</a>

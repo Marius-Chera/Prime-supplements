@@ -1,0 +1,19 @@
+<section class="band red">
+  <div class="in stack" style="gap:16px">
+    <p class="eyebrow">{{ section.settings.eyebrow }}</p>
+    <h2>{{ section.settings.title }}</h2>
+    <p class="lead">{{ section.settings.text }}</p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Garanția",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Garanția mea" },
+    { "type": "textarea", "id": "title", "label": "Titlu", "default": "12 săptămâni. Schimbare vizibilă în poze. Altfel continui gratuit cu tine până apare." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Condiția e una singură: check-in-urile trimise la timp. Dacă tu faci partea ta și rezultatul nu apare, continui pe banii mei." }
+  ],
+  "presets": [{ "name": "Garanția" }]
+}
+{% endschema %}

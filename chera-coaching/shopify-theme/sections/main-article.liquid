@@ -1,0 +1,35 @@
+<section>
+  <div class="in narrow">
+    <header class="article-head">
+      <p class="eyebrow">{% if article.tags.size > 0 %}{{ article.tags | first }} · {% endif %}{{ article.published_at | date: "%d.%m.%Y" }}</p>
+      <h1 style="font-size:clamp(38px,7vw,64px)">{{ article.title }}</h1>
+      <div class="by">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 88 | image_tag: alt: 'Marius Chera' }}{% endif %}<span>{{ section.settings.byline }}</span></div>
+    </header>
+    {% if article.image != blank and section.settings.show_image %}<p>{{ article.image | image_url: width: 1400 | image_tag: loading: 'eager', alt: article.title }}</p>{% endif %}
+    <div class="rte">
+      {{ article.content }}
+      {% if section.settings.cta_title != blank %}
+      <div class="cta-box">
+        <h3>{{ section.settings.cta_title }}</h3>
+        <p>{{ section.settings.cta_text }}</p>
+        <a class="btn" href="{{ section.settings.cta_url }}" style="justify-self:start">{{ section.settings.cta_label }}</a>
+      </div>
+      {% endif %}
+    </div>
+    <p style="padding-bottom:48px"><a href="{{ blog.url }}">← {{ 'blog.all' | t }}</a></p>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Articol",
+  "settings": [
+    { "type": "image_picker", "id": "avatar", "label": "Avatar autor" },
+    { "type": "text", "id": "byline", "label": "Autor", "default": "Marius Chera · antrenor, 10 IFBB Pro pregătiți" },
+    { "type": "checkbox", "id": "show_image", "label": "Arată poza articolului", "default": true },
+    { "type": "text", "id": "cta_title", "label": "Titlu îndemn", "default": "Află cum ești făcut" },
+    { "type": "textarea", "id": "cta_text", "label": "Text îndemn", "default": "Evaluarea e gratuită și durează 4 minute. Primești profilul tău, cum te antrenezi, cum mănânci și ce suplimente îți trebuie. Apoi îți scriu eu pe WhatsApp." },
+    { "type": "text", "id": "cta_label", "label": "Buton", "default": "Fă evaluarea gratuită" },
+    { "type": "url", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" }
+  ]
+}
+{% endschema %}

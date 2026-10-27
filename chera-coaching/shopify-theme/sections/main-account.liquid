@@ -1,0 +1,92 @@
+{% render 'chera-access' %}
+<section class="band">
+  <div class="in stack" style="gap:28px">
+    <div class="row between">
+      <div><p class="eyebrow">{{ 'customer.account.title' | t }}</p><h1 style="font-size:clamp(34px,5vw,52px)">Salut, {{ customer.first_name | default: customer.email }}</h1></div>
+      <a class="btn ghost btn-sm" href="{{ routes.account_logout_url }}">{{ 'customer.account.logout' | t }}</a>
+    </div>
+
+    {% if chera_active %}
+      <div class="card red">
+        <div class="row between">
+          <div><p class="eyebrow">Chera Protocol · {{ chera_pachet | replace: '-', ' ' | capitalize }}</p>
+            <p>Abonamentul tău e activ până pe <strong>{{ chera_expira | date: '%d.%m.%Y' }}</strong>{% if chera_days_left <= 7 %} · <span class="pill warn">mai ai {{ chera_days_left }} zile</span>{% else %} · <span class="pill ok">activ</span>{% endif %}</p></div>
+          <a class="btn btn-sm" href="https://wa.me/{{ settings.whatsapp_number }}?text={{ 'Salut, Marius! Sunt ' | append: customer.first_name | append: ' ' | append: customer.last_name | url_encode }}" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>
+        </div>
+        {% if chera_days_left <= 7 %}<p class="muted">Ca să continuăm fără pauză, reînnoiește înainte de {{ chera_expira | date: '%d.%m.%Y' }}. <a href="{{ section.settings.renew_url }}">Reînnoiește acum</a>.</p>{% endif %}
+      </div>
+
+      <div class="grid2" style="gap:20px;align-items:start">
+        <div class="card">
+          <h3>Planul meu</h3>
+          {% if customer.metafields.chera.plan_url != blank %}
+            <p>Ultima versiune a planului tău de antrenament și nutriție.</p>
+            <a class="btn ghost btn-sm" href="{{ customer.metafields.chera.plan_url }}" target="_blank" rel="noopener">Deschide planul</a>
+          {% else %}
+            <p class="muted">Planul tău apare aici în cel mult 48 de ore de la plată. Până atunci, îți scriu eu pe WhatsApp.</p>
+          {% endif %}
+          {% if customer.metafields.chera.profil != blank %}<p>Profilul tău neuro: <strong>{{ customer.metafields.chera.profil }}</strong> · <a href="/pages/evaluare">Re-test</a></p>{% else %}<p><a href="/pages/evaluare">Fă-ți profilul neuro</a> dacă nu l-ai făcut încă.</p>{% endif %}
+          {% if chera_pachet contains 'concurs' %}
+            <h3 style="margin-top:8px">Pregătire de concurs</h3>
+            <p class="muted">Video call de 15 minute după prima plată: {% if section.settings.call_url != blank %}<a href="{{ section.settings.call_url }}" target="_blank" rel="noopener">alege un interval</a>{% else %}îți trimit eu linkul pe WhatsApp{% endif %}. Lista de analize și acordul pentru poze le primești în plan.</p>
+          {% endif %}
+        </div>
+
+        <div class="card">
+          <h3>Check-in săptămânal</h3>
+          <form id="checkin-form" class="stack" style="gap:12px" data-endpoint="{{ settings.checkin_endpoint }}">
+            <div class="grid2">
+              <div class="field"><label for="ci-weight">Greutate (kg)</label><input id="ci-weight" name="weight" type="number" step="0.1" inputmode="decimal" required></div>
+              <div class="field"><label for="ci-sleep">Somn (ore/noapte, medie)</label><input id="ci-sleep" name="sleep" type="text" placeholder="7"></div>
+              <div class="field"><label for="ci-energy">Energie (1–10)</label><input id="ci-energy" name="energy" type="number" min="1" max="10"></div>
+              <div class="field"><label for="ci-adh">Aderență la plan (1–10)</label><input id="ci-adh" name="adherence" type="number" min="1" max="10"></div>
+            </div>
+            <div class="field"><label for="ci-notes">Observații</label><textarea id="ci-notes" name="notes" rows="3" placeholder="Cum a mers săptămâna, ce a fost greu, ce întrebări ai"></textarea></div>
+            <p class="muted" style="font-size:14px">Pozele (față, lateral, spate) le trimiți pe WhatsApp după ce apeși „Trimite”.</p>
+            <div class="row"><button class="btn btn-sm" type="submit">Trimite check-in-ul</button><a class="btn ghost btn-sm" id="checkin-wa" href="#" target="_blank" rel="noopener" hidden>Trimite pozele pe WhatsApp</a></div>
+            <p id="checkin-status" class="muted" style="font-size:14px"></p>
+          </form>
+        </div>
+      </div>
+    {% elsif chera_expira != blank %}
+      <div class="card red">
+        <p class="eyebrow">Chera Protocol</p>
+        <h3>Abonamentul tău a expirat pe {{ chera_expira | date: '%d.%m.%Y' }}</h3>
+        <p class="muted">Planul și WhatsApp-ul se reactivează în momentul în care reînnoiești. Continuăm exact de unde am rămas.</p>
+        <a class="btn" href="{{ section.settings.renew_url }}" style="justify-self:start">Reînnoiește</a>
+      </div>
+    {% else %}
+      <div class="card">
+        <p class="eyebrow">Chera Protocol</p>
+        <h3>Încă nu ai un pachet activ</h3>
+        <p class="muted">Începe cu evaluarea gratuită, apoi alege ușa ta. După plată, aici apar planul, check-in-ul și WhatsApp-ul meu.</p>
+        <div class="row"><a class="btn" href="/pages/evaluare">Fă evaluarea</a><a class="btn ghost" href="{{ section.settings.renew_url }}">Vezi pachetele</a></div>
+      </div>
+    {% endif %}
+
+    <div class="stack" style="gap:12px">
+      <h3>{{ 'customer.account.orders' | t }}</h3>
+      {% if customer.orders.size > 0 %}
+      <div style="overflow-x:auto"><table class="table">
+        <thead><tr><th>Comanda</th><th>Data</th><th>Produs</th><th>Plată</th><th>Total</th></tr></thead>
+        <tbody>{% for order in customer.orders %}<tr><td><a href="{{ order.customer_url }}">{{ order.name }}</a></td><td>{{ order.created_at | date: '%d.%m.%Y' }}</td><td>{{ order.line_items | map: 'title' | join: ', ' }}</td><td>{{ order.financial_status_label }}</td><td>{{ order.total_price | money }}</td></tr>{% endfor %}</tbody>
+      </table></div>
+      {% else %}<p class="muted">{{ 'customer.account.no_orders' | t }}</p>{% endif %}
+    </div>
+
+    <div class="stack" style="gap:8px">
+      <h3>{{ 'customer.account.details' | t }}</h3>
+      <p class="muted">{{ customer.name }} · {{ customer.email }}{% if customer.phone != blank %} · {{ customer.phone }}{% endif %} · <a href="{{ routes.account_addresses_url }}">{{ 'customer.addresses.title' | t }}</a></p>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contul clientului",
+  "settings": [
+    { "type": "url", "id": "renew_url", "label": "Link reînnoire / pachete", "default": "/collections/coaching" },
+    { "type": "url", "id": "call_url", "label": "Link programare video call (Calendly etc.)" }
+  ]
+}
+{% endschema %}

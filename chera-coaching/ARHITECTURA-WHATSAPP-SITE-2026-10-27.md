@@ -77,3 +77,13 @@ Niciun client nu plătește din nou pentru luna în curs: expirarea lor se setea
 
 ## 8. Opțiunea „fără SaaS” (mai târziu)
 Dacă vrei să nu depinzi de Respond.io: un „Chera Protocol Hub” propriu pe app.mariuschera.ro (WhatsApp Cloud API direct de la Meta, inbox propriu, zona clientului, check-in-uri, toate într-o aplicație a ta). Costă doar găzduirea (~20 $/lună) + mesajele Meta, dar cere 3–4 săptămâni de construcție și întreținere continuă. Are sens după ce procesul e stabil cu Respond.io, nu înainte.
+
+## 9. Accesul condiționat de plată (cerința proprietarului, 27.10)
+Regula: cont obligatoriu ca să plătești; cât ești client plătitor și logat, ai acces la WhatsApp și la zona ta; când nu mai plătești, accesul dispare automat, după câteva notificări.
+1. **Contul e obligatoriu la checkout** (Setări → Conturi de client → „Obligatoriu”). Clientul se autentifică cu cod pe e-mail; comanda se leagă de cont.
+2. **La plată**, Shopify Flow scrie pe client două câmpuri: `chera.pachet` (coaching-1l / coaching-3l / concurs) și `chera.expira` (data plății + 30 sau 90 de zile; pentru concurs, data stabilită în call). Aceleași valori merg în inbox (eticheta și câmpul de expirare al contactului).
+3. **Pe site**, secțiunea Chera Protocol din cont (planul, check-in-ul, butonul WhatsApp, documentele) se afișează doar dacă `chera.expira` ≥ azi. Altfel, clientul vede un singur lucru: „Abonamentul tău a expirat pe [data]. Reînnoiește ca să continuăm.” + butonul de plată. (Shopify nu șterge conturi automat și nu e nevoie: accesul la conținut e condiționat de dată, ceea ce e exact efectul cerut.)
+4. **Pe WhatsApp**, la expirare contactul primește eticheta `expirat`: mesajele lui noi primesc răspuns automat cu linkul de reînnoire și conversația se închide; nu mai apare în vederile lui Marius până plătește din nou. La plată, eticheta dispare și conversația se redeschide cu istoricul intact.
+5. **Notificările înainte** (automat, WhatsApp + e-mail): cu 7 zile înainte („mai ai o săptămână, reînnoiește aici”), cu 3 zile, cu 1 zi, și în ziua expirării („accesul se închide azi; dacă reînnoiești, continuăm de unde am rămas”). Pentru plata cu reînnoire automată (dacă Netopia o suportă), notificarea cu 3 zile înainte e „plata se face automat pe [data]; dacă vrei să oprești, scrie-mi”.
+6. **Perioadă de grație**: 3 zile după expirare accesul rămâne (ca să nu pierdem oameni din cauza unei plăți întârziate), apoi se închide. Setabilă.
+7. **Excepții manuale**: Marius poate prelungi `chera.expira` din panoul Shopify (ex. pauză medicală) și totul se reactivează instant, inclusiv pe WhatsApp.

@@ -1,0 +1,28 @@
+<section class="band" id="problema">
+  <div class="in stack" style="gap:40px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2></div>
+    <div class="causes">
+      {% for block in section.blocks %}<div class="cause" {{ block.shopify_attributes }}><h3>{{ block.settings.title }}</h3><p class="muted">{{ block.settings.text }}</p></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Problema",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "De ce nu se vede" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Informația e gratuită. Rezultatul nu." }
+  ],
+  "max_blocks": 3,
+  "blocks": [{ "type": "cause", "name": "Cauză", "settings": [
+    { "type": "text", "id": "title", "label": "Titlu" },
+    { "type": "textarea", "id": "text", "label": "Text" }
+  ]}],
+  "presets": [{ "name": "Problema", "blocks": [
+    { "type": "cause", "settings": { "title": "Nimeni nu te urmărește", "text": "Știi deja „proteine, deficit, progresie”. Ce-ți lipsește e un sistem și cineva care se uită în fiecare săptămână la pozele și la cântarul tău și ajustează. La mine, acel cineva sunt eu." } },
+    { "type": "cause", "settings": { "title": "Metoda de performanță nu ajunge la tine", "text": "Ce fac pentru un IFBB Pro, periodizare, ajustări săptămânale, nutriție exactă, rămâne de obicei la 100–200 de competitori din țară. Restul primesc un PDF generic. Eu îți dau același lucru pe care îl dau sportivilor mei." } },
+    { "type": "cause", "settings": { "title": "Ai fost ars deja", "text": "„Antrenor” e oricine cu abdomen. Ai plătit o dată, de două ori, și nu mai ai încredere. De aceea aici totul pornește de la dovezi și se termină cu garanție." } }
+  ]}]
+}
+{% endschema %}

@@ -1,0 +1,25 @@
+{
+  "general": {
+    "accessibility": { "skip": "Sari la conținut" },
+    "pagination": { "page": "Pagina {{ page }}", "next": "Următoarea", "previous": "Anterioara" },
+    "cart": { "title": "Coș", "empty": "Coșul tău e gol.", "checkout": "Plătește", "update": "Actualizează", "remove": "Șterge", "subtotal": "Subtotal", "continue": "Înapoi la site" },
+    "search": { "title": "Caută", "placeholder": "Ce cauți?", "no_results": "Nimic pentru „{{ terms }}”." },
+    "404": { "title": "Pagina nu există", "text": "Linkul e greșit sau pagina a fost mutată.", "back": "Înapoi acasă" },
+    "password": { "title": "În curând", "text": "Site-ul se deschide în curând. Până atunci, îmi scrii pe Instagram." }
+  },
+  "product": {
+    "add_to_cart": "Adaugă în coș", "sold_out": "Indisponibil", "quantity": "Cantitate", "buy_now": "Cumpără acum"
+  },
+  "blog": { "read_more": "Citește", "by": "de", "all": "Toate articolele" },
+  "customer": {
+    "account": { "title": "Contul meu", "orders": "Comenzile mele", "details": "Datele mele", "logout": "Ieși din cont", "no_orders": "Nu ai nicio comandă încă." },
+    "login": { "title": "Intră în cont", "email": "E-mail", "password": "Parolă", "submit": "Intră", "forgot": "Ai uitat parola?", "create": "Fă-ți cont", "guest": "Continuă ca vizitator" },
+    "register": { "title": "Fă-ți cont", "first_name": "Prenume", "last_name": "Nume", "email": "E-mail", "password": "Parolă", "submit": "Creează contul", "have": "Ai deja cont?" },
+    "recover": { "title": "Recuperează parola", "text": "Îți trimitem un link pe e-mail.", "submit": "Trimite", "cancel": "Renunță", "success": "Verifică e-mailul." },
+    "reset": { "title": "Parolă nouă", "password": "Parolă", "confirm": "Confirmă parola", "submit": "Salvează" },
+    "activate": { "title": "Activează contul", "submit": "Activează", "decline": "Refuză" },
+    "order": { "title": "Comanda {{ name }}", "date": "Plasată pe {{ date }}", "product": "Produs", "quantity": "Cantitate", "total": "Total" },
+    "addresses": { "title": "Adrese", "add": "Adaugă adresă", "edit": "Editează", "delete": "Șterge", "default": "Adresă implicită", "save": "Salvează", "cancel": "Renunță" }
+  },
+  "gift_cards": { "issued": { "title": "Card cadou", "subtext": "Iată cardul tău cadou de {{ value }}", "code": "Cod" } }
+}

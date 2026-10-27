@@ -1,0 +1,10 @@
+<section class="band"><div class="in narrow stack" style="gap:20px">
+  <p><a href="{{ routes.account_url }}">← {{ 'customer.account.title' | t }}</a></p>
+  <h1 style="font-size:clamp(30px,5vw,48px)">{{ 'customer.order.title' | t: name: order.name }}</h1>
+  <p class="muted">{{ 'customer.order.date' | t: date: order.created_at | date: '%d.%m.%Y' }} · {{ order.financial_status_label }}</p>
+  <div style="overflow-x:auto"><table class="table">
+    <thead><tr><th>{{ 'customer.order.product' | t }}</th><th>{{ 'customer.order.quantity' | t }}</th><th>{{ 'customer.order.total' | t }}</th></tr></thead>
+    <tbody>{% for line in order.line_items %}<tr><td>{{ line.title }}</td><td>{{ line.quantity }}</td><td>{{ line.final_line_price | money }}</td></tr>{% endfor %}</tbody>
+    <tfoot><tr><td colspan="2"><strong>{{ 'customer.order.total' | t }}</strong></td><td><strong>{{ order.total_price | money }}</strong></td></tr></tfoot>
+  </table></div>
+</div></section>

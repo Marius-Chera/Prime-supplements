@@ -1,0 +1,5 @@
+<section class="band"><div class="in stack" style="gap:28px">
+  <h1 style="font-size:clamp(36px,6vw,64px)">Pachete și programe</h1>
+  <div class="product-grid">{% for collection in collections %}<a class="product-card" href="{{ collection.url }}">{% if collection.image != blank %}{{ collection.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: collection.title }}{% else %}<div class="placeholder" style="aspect-ratio:4/5">{{ collection.title }}</div>{% endif %}<b>{{ collection.title }}</b></a>{% endfor %}</div>
+</div></section>
+{% schema %}{ "name": "Lista colecțiilor", "settings": [] }{% endschema %}

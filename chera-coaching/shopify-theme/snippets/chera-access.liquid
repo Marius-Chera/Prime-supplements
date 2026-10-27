@@ -1,0 +1,40 @@
+{%- comment -%}
+  Calculează accesul clientului la zona Chera Protocol.
+  Sursa de adevăr: metafield-ul customer.metafields.chera.expira (dată, setată de Shopify Flow la plată).
+  Fallback (până există Flow): ultima comandă plătită cu un produs de coaching + 30/90 de zile.
+  Rezultat: variabilele chera_active (true/false), chera_expira (dată sau blank), chera_pachet, chera_days_left.
+{%- endcomment -%}
+{%- assign chera_active = false -%}
+{%- assign chera_expira = customer.metafields.chera.expira -%}
+{%- assign chera_pachet = customer.metafields.chera.pachet -%}
+{%- assign coaching_handles = settings.coaching_handles | split: ',' -%}
+{%- if chera_expira == blank -%}
+  {%- for order in customer.orders -%}
+    {%- if order.financial_status == 'paid' -%}
+      {%- for line in order.line_items -%}
+        {%- for h in coaching_handles -%}
+          {%- assign hh = h | strip -%}
+          {%- if line.product.handle == hh -%}
+            {%- assign days = 30 -%}
+            {%- if hh contains '3-luni' -%}{%- assign days = 90 -%}{%- endif -%}
+            {%- assign secs = days | times: 86400 -%}
+            {%- assign exp = order.created_at | date: '%s' | plus: secs -%}
+            {%- assign exp_now = chera_expira | date: '%s' | default: 0 -%}
+            {%- if exp > exp_now -%}
+              {%- assign chera_expira = exp | date: '%Y-%m-%d' -%}
+              {%- assign chera_pachet = hh -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if chera_expira != blank -%}
+  {%- assign grace = settings.grace_days | times: 86400 -%}
+  {%- assign exp_s = chera_expira | date: '%s' | plus: grace -%}
+  {%- assign now_s = 'now' | date: '%s' -%}
+  {%- assign left = chera_expira | date: '%s' | minus: now_s | divided_by: 86400 -%}
+  {%- assign chera_days_left = left -%}
+  {%- if exp_s > now_s -%}{%- assign chera_active = true -%}{%- endif -%}
+{%- endif -%}

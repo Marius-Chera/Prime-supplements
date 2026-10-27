@@ -1,0 +1,35 @@
+{% assign blog = blogs[section.settings.blog] %}
+<section class="band" id="articole">
+  <div class="in stack" style="gap:28px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
+    {% if blog != blank and blog.articles_count > 0 %}
+    <div class="articles">
+      {% for article in blog.articles limit: section.settings.limit %}
+        <article class="art">
+          {% if article.image != blank %}<a href="{{ article.url }}">{{ article.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: article.title }}</a>{% endif %}
+          <span class="meta">{{ article.published_at | date: "%d.%m.%Y" }}{% if article.tags.size > 0 %} · {{ article.tags | first }}{% endif %}</span>
+          <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
+          <p>{{ article.excerpt_or_content | strip_html | truncatewords: 28 }}</p>
+        </article>
+      {% endfor %}
+    </div>
+    <div class="row"><a class="btn ghost" href="{{ blog.url }}">{{ 'blog.all' | t }}</a></div>
+    {% else %}
+    <p class="muted">Articolele apar aici după ce sunt publicate în blogul „{{ section.settings.blog }}”.</p>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Articole",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Articole" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Ce am învățat pregătind sportivi" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Două articole pe săptămână, scrise de mine, din ce văd în fiecare zi la sportivii pe care îi antrenez. Fără teorie goală." },
+    { "type": "blog", "id": "blog", "label": "Blog", "default": "articole" },
+    { "type": "range", "id": "limit", "label": "Câte articole", "min": 3, "max": 12, "step": 1, "default": 6 }
+  ],
+  "presets": [{ "name": "Articole" }]
+}
+{% endschema %}

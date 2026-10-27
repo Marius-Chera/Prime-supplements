@@ -1,0 +1,46 @@
+<section class="band paper" id="usi">
+  <div class="in stack" style="gap:36px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
+    <div class="doors">
+      {% for block in section.blocks %}
+        {% assign product = all_products[block.settings.product] %}
+        <div class="door{% if block.settings.main %} main{% endif %}" {{ block.shopify_attributes }}>
+          <span class="tag">{{ block.settings.tag }}</span><h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+          <ul>{% assign items = block.settings.bullets | newline_to_br | split: '<br />' %}{% for it in items %}<li>{{ it | strip }}</li>{% endfor %}</ul>
+          <p class="price">{% if product != blank and block.settings.price == blank %}{{ product.price | money }}{% else %}{{ block.settings.price }}{% endif %}<small> {{ block.settings.price_note }}</small></p>
+          {% if product != blank %}<a class="btn{% unless block.settings.main %} ghost{% endunless %}" href="{{ product.url }}">{{ block.settings.cta }}</a>{% else %}<a class="btn{% unless block.settings.main %} ghost{% endunless %}" href="{{ block.settings.url }}">{{ block.settings.cta }}</a>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Trei uși",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Cu cine lucrez" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Trei uși. Aceeași metodă. Același antrenor: eu." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Nu lucrez prin alți antrenori. Fiecare plan, fiecare check-in și fiecare mesaj trec prin mine. De aceea locurile sunt limitate. Nu știi care ușă e a ta? Evaluarea gratuită ți-o spune în 4 minute." }
+  ],
+  "max_blocks": 3,
+  "blocks": [{ "type": "door", "name": "Ușă", "settings": [
+    { "type": "text", "id": "tag", "label": "Etichetă" },
+    { "type": "text", "id": "title", "label": "Titlu" },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "textarea", "id": "bullets", "label": "Puncte (unul pe rând)" },
+    { "type": "product", "id": "product", "label": "Produs (prețul și linkul vin de aici)" },
+    { "type": "text", "id": "price", "label": "Preț afișat manual (dacă nu e produs)" },
+    { "type": "text", "id": "price_note", "label": "Notă preț" },
+    { "type": "text", "id": "cta", "label": "Buton" },
+    { "type": "url", "id": "url", "label": "Link (dacă nu e produs)" },
+    { "type": "checkbox", "id": "main", "label": "Ușa principală (fundal negru)", "default": false }
+  ]}],
+  "presets": [{ "name": "Trei uși", "blocks": [
+    { "type": "door", "settings": { "tag": "Ușa A · Competiție", "title": "Pregătire de concurs", "text": "Pentru cine concurează sau vrea să concureze: NPC, IFBB, FRCF, INBA. Plătești prima lună, iar în 48 de ore avem un video call de 15 minute, eu și tu, în care discutăm tot: obiectivul, competițiile pe care le alegem și plata pentru întreg sezonul.", "bullets": "Prima lună include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări\nVideo call de 15 minute cu mine după prima plată, obligatorie ca să ajungi la el\nPlata pe sezon o stabilim în call, după competițiile alese\nLocuri limitate pe sezon", "price": "1.500 lei", "price_note": "prima lună · sezonul se stabilește în call", "cta": "Începe pregătirea", "url": "/pages/evaluare" } },
+    { "type": "door", "settings": { "tag": "Ușa B · Performanță fără scenă", "title": "Chera Protocol Coaching", "text": "Pentru cine are 1–5 ani de sală, e serios și e blocat. Plan de antrenament și nutriție construit pe profilul tău neuro, check-in săptămânal, eu pe WhatsApp, răspuns în 24 de ore.", "bullets": "Profil neuro + plan în 48 de ore\nCheck-in săptămânal: poze, cântar, ajustări făcute de mine\nMinimum 12 săptămâni, cu garanție", "price": "990 lei", "price_note": "/ lună · 2.500 lei / 3 luni", "cta": "Începe coaching-ul", "url": "/pages/evaluare", "main": true } },
+    { "type": "door", "settings": { "tag": "Ușa C · Start singur", "title": "Programele mele", "text": "Programe digitale de 8–16 săptămâni, PDF + video, scrise de mine pentru fiecare profil. Când vrei ajustări, treci la coaching cu prețul programului dedus.", "bullets": "Masă musculară · Definire · Pregătire de concurs\nLivrare imediată după plată\nUpgrade oricând", "price": "150–400 lei", "price_note": "o dată", "cta": "Vezi programele", "url": "/collections/programe" } }
+  ]}]
+}
+{% endschema %}

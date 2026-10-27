@@ -1,0 +1,6 @@
+{
+  "sections": {
+    "evaluare": { "type": "evaluare", "settings": {} }
+  },
+  "order": ["evaluare"]
+}

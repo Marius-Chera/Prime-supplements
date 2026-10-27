@@ -1,0 +1,35 @@
+<section class="band" id="rezultate" style="padding-top:0">
+  <div class="in stack" style="gap:28px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="muted">{{ section.settings.text }}</p></div>
+    <div class="gallery" data-gallery>
+      {% for block in section.blocks %}
+        <figure {{ block.shopify_attributes }}{% if forloop.index > section.settings.visible %} hidden{% endif %}>
+          {% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', alt: block.settings.caption }}{% else %}<div class="placeholder">Poză</div>{% endif %}
+          <figcaption>{{ block.settings.caption }}</figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+    {% if section.blocks.size > section.settings.visible %}
+    <div class="row"><button class="btn ghost" type="button" data-gallery-more data-more="Vezi toate pozele" data-less="Arată mai puține">Vezi toate pozele</button><span class="muted">{{ section.settings.note }}</span></div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Rezultate (galerie)",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Rezultate" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Oameni pe care i-am antrenat" },
+    { "type": "text", "id": "text", "label": "Text", "default": "Competitori și oameni care nu au concurat niciodată. Fiecare cu acordul lui." },
+    { "type": "range", "id": "visible", "label": "Poze vizibile înainte de „Vezi toate”", "min": 4, "max": 24, "step": 4, "default": 8 },
+    { "type": "text", "id": "note", "label": "Notă", "default": "Aici sunt doar o parte. Adaug în fiecare săptămână, cu acordul fiecăruia." }
+  ],
+  "max_blocks": 80,
+  "blocks": [{ "type": "photo", "name": "Poză", "settings": [
+    { "type": "image_picker", "id": "image", "label": "Poză (4:5)" },
+    { "type": "text", "id": "caption", "label": "Legendă", "default": "Nume · concurs" }
+  ]}],
+  "presets": [{ "name": "Rezultate (galerie)" }]
+}
+{% endschema %}

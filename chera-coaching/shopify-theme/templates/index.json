@@ -363,6 +363,21 @@
     "aparitii_media": {
       "type": "aparitii-media",
       "settings": {}
+    },
+    "programe": {
+      "type": "sesiuni",
+      "settings": {
+        "anchor": "programe",
+        "style": "dark",
+        "eyebrow": "Programe de antrenament · 200 lei",
+        "title": "Programele mele, gata de descărcat",
+        "text": "Aceleași programe pe care le dau sportivilor mei, scrise pe zile, cu exerciții, serii, repetări, tempo și tehnici de intensitate. Plătești, descarci PDF-ul din contul tău și începi mâine. Fără coaching, fără așteptare.",
+        "collection": "programe",
+        "cta_label": "Vezi toate programele",
+        "cta_url": "/collections/programe"
+      },
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [
@@ -370,6 +385,7 @@
     "proof",
     "problema",
     "usi",
+    "programe",
     "sesiuni",
     "metoda",
     "rezultate",

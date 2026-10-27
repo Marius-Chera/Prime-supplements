@@ -1,6 +1,11 @@
-<section class="band paper" id="sesiuni" style="padding-top:0">
+{%- assign col = collections[section.settings.collection] -%}
+<section class="band{% if section.settings.style == 'dark' %}{% else %} paper{% endif %}" id="{{ section.settings.anchor | default: 'sesiuni' }}"{% if section.settings.style != 'dark' %} style="padding-top:0"{% endif %}>
   <div class="in stack" style="gap:32px">
     <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
+    {%- if col != blank and col.products.size > 0 -%}
+    <div class="product-grid">{% for product in col.products limit: 6 %}{% render 'product-card', product: product %}{% endfor %}</div>
+    {%- endif -%}
+    {%- if section.blocks.size > 0 -%}
     <div class="doors">
       {% for block in section.blocks %}
         {% assign product = all_products[block.settings.product] %}
@@ -13,16 +18,23 @@
         </div>
       {% endfor %}
     </div>
+    {%- endif -%}
+    {%- if section.settings.cta_label != blank -%}<div class="row"><a class="btn" href="{{ section.settings.cta_url | default: col.url }}">{{ section.settings.cta_label }} →</a></div>{%- endif -%}
   </div>
 </section>
 
 {% schema %}
 {
-  "name": "Sesiuni individuale",
+  "name": "Sesiuni / produse",
   "settings": [
     { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Sesiuni individuale" },
     { "type": "text", "id": "title", "label": "Titlu", "default": "O jumătate de oră cu mine, pe ce ai nevoie" },
-    { "type": "textarea", "id": "text", "label": "Text", "default": "Alegi ziua și ora din calendarul meu, plătești cu cardul și locul e al tău." }
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Alegi ziua și ora din calendarul meu, plătești cu cardul și locul e al tău." },
+    { "type": "text", "id": "anchor", "label": "Ancoră (id pentru linkuri din meniu)", "default": "sesiuni" },
+    { "type": "select", "id": "style", "label": "Fundal", "options": [{ "value": "paper", "label": "Alb" }, { "value": "dark", "label": "Negru" }], "default": "paper" },
+    { "type": "collection", "id": "collection", "label": "Colecție de produse (afișează grila de produse)" },
+    { "type": "text", "id": "cta_label", "label": "Buton final (opțional)" },
+    { "type": "text", "id": "cta_url", "label": "Link buton final" }
   ],
   "max_blocks": 6,
   "blocks": [{ "type": "session", "name": "Sesiune", "settings": [

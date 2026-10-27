@@ -87,10 +87,10 @@
     {% endif %}
 
     {%- capture chera_programe -%}
-      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' -%}{%- for line in order.line_items -%}{%- if line.product.metafields.chera.pdf != blank -%}
+      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' -%}{%- for line in order.line_items -%}{%- if line.product.tags contains 'program-digital' or line.product.metafields.chera.pdf != blank -%}{%- assign pdf_url = line.product.metafields.chera.pdf | default: '' -%}{%- if pdf_url == blank -%}{%- assign pdf_url = line.product.handle | append: '.pdf' | file_url -%}{%- endif -%}
         <div class="row between" style="padding-block:10px;border-bottom:1px solid var(--line)">
           <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">cumpărat pe {{ order.created_at | date: '%d.%m.%Y' }}</div></div>
-          <a class="btn btn-sm" href="{{ line.product.metafields.chera.pdf }}" target="_blank" rel="noopener">Descarcă PDF</a>
+          <a class="btn btn-sm" href="{{ pdf_url }}" target="_blank" rel="noopener">Descarcă PDF</a>
         </div>
       {%- endif -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
     {%- endcapture -%}

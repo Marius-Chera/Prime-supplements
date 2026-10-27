@@ -8,19 +8,19 @@
           {%- assign shown = shown | plus: 1 -%}
           <figure {{ block.shopify_attributes }}{% if shown > section.settings.visible %} hidden{% endif %}>
             {% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', alt: block.settings.caption }}{% else %}<div class="placeholder">Poză</div>{% endif %}
-            <figcaption>{{ block.settings.caption }}</figcaption>
+            {% if block.settings.caption != blank %}<figcaption>{{ block.settings.caption }}</figcaption>{% endif %}
           </figure>
         {%- endfor -%}
       {%- else -%}
-        {%- assign rows = section.settings.files | newline_to_br | split: '<br />' -%}
+        {%- assign rows = section.settings.poze | newline_to_br | split: '<br />' -%}
         {%- for row in rows -%}
           {%- assign row = row | strip -%}
           {%- if row == blank -%}{%- continue -%}{%- endif -%}
           {%- assign parts = row | split: '|' -%}
           {%- assign shown = shown | plus: 1 -%}
           <figure{% if shown > section.settings.visible %} hidden{% endif %}>
-            <img src="{{ parts[0] | strip | file_url }}" alt="{{ parts[1] | strip | escape }}" loading="lazy" width="480" height="600">
-            <figcaption>{{ parts[1] | strip }}</figcaption>
+            <img src="{{ parts[0] | strip | file_url }}" alt="{{ parts[1] | default: section.settings.title | strip | escape }}" loading="lazy" width="480" height="600">
+            {%- assign cap = parts[1] | strip -%}{% if cap != blank %}<figcaption>{{ cap }}</figcaption>{% endif %}
           </figure>
         {%- endfor -%}
       {%- endif -%}
@@ -28,8 +28,21 @@
     {% if shown > section.settings.visible %}
     <div class="row"><button class="btn ghost" type="button" data-gallery-more data-more="Vezi toate pozele" data-less="Arată mai puține">Vezi toate pozele</button><span class="muted">{{ section.settings.note }}</span></div>
     {% endif %}
+    {% if section.settings.insta_url != blank %}
+    <div class="insta-cta">
+      <p>{{ section.settings.insta_text }}</p>
+      <a class="btn" href="{{ section.settings.insta_url }}" target="_blank" rel="noopener">{{ section.settings.insta_label }}</a>
+    </div>
+    {% endif %}
   </div>
 </section>
+
+<style>
+  #rezultate .insta-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;padding:22px 24px;border:1px solid rgba(255,255,255,.12);border-left:3px solid var(--red);background:rgba(255,255,255,.03)}
+  #rezultate .insta-cta p{margin:0;max-width:60ch;color:var(--fg-2)}
+  #rezultate .insta-cta .btn{flex:none}
+  @media (max-width:600px){#rezultate .insta-cta{padding:18px 16px}#rezultate .insta-cta .btn{width:100%;text-align:center}}
+</style>
 
 {% schema %}
 {
@@ -39,8 +52,12 @@
     { "type": "text", "id": "title", "label": "Titlu", "default": "Oameni pe care i-am antrenat" },
     { "type": "text", "id": "text", "label": "Text", "default": "Competitori și oameni care nu au concurat niciodată. Fiecare cu acordul lui." },
     { "type": "range", "id": "visible", "label": "Poze vizibile înainte de „Vezi toate”", "min": 4, "max": 24, "step": 4, "default": 8 },
-    { "type": "textarea", "id": "files", "label": "Poze din Content → Files (un rând: nume-fișier.jpg|legendă)", "info": "Se folosesc când nu există blocuri de poză." },
-    { "type": "text", "id": "note", "label": "Notă", "default": "Aici sunt doar o parte. Adaug în fiecare săptămână, cu acordul fiecăruia." }
+    { "type": "textarea", "id": "poze", "label": "Poze din Content → Files (un rând: nume-fișier.jpg|legendă)", "info": "Se folosesc când nu există blocuri de poză. Legenda e opțională.", "default": "chera-galerie-57.jpg|\nchera-galerie-58.jpg|\nchera-galerie-71.jpg|\nchera-galerie-70.jpg|\nchera-galerie-68.jpg|\nchera-galerie-69.jpg|\nchera-galerie-62.jpg|\nchera-galerie-60.jpg|\nchera-galerie-72.jpg|\nchera-galerie-73.jpg|\nchera-galerie-74.jpg|\nchera-galerie-75.jpg|\nchera-galerie-77.jpg|\nchera-galerie-76.jpg|\nchera-galerie-78.jpg|\nchera-galerie-63.jpg|\nchera-galerie-64.jpg|\nchera-galerie-65.jpg|\nchera-galerie-66.jpg|\nchera-galerie-67.jpg|\nchera-galerie-79.jpg|\nchera-galerie-80.jpg|\nchera-galerie-81.jpg|\nchera-galerie-82.jpg|\nchera-galerie-83.jpg|\nchera-galerie-84.jpg|\nchera-galerie-85.jpg|" },
+    { "type": "text", "id": "note", "label": "Notă", "default": "Aici sunt doar o parte. Adaug în fiecare săptămână, cu acordul fiecăruia." },
+    { "type": "header", "content": "Caseta Instagram (sub galerie)" },
+    { "type": "textarea", "id": "insta_text", "label": "Text", "default": "Aici e doar o parte din sportivii mei. Mai multe transformări, pregătiri și rezultate de pe scenă găsești pe Instagram, la @team_cheraprotocol." },
+    { "type": "text", "id": "insta_label", "label": "Text buton", "default": "Vezi mai multe pe Instagram →" },
+    { "type": "text", "id": "insta_url", "label": "Link", "default": "https://www.instagram.com/team_cheraprotocol/" }
   ],
   "max_blocks": 50,
   "blocks": [{ "type": "photo", "name": "Poză", "settings": [

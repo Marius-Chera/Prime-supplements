@@ -1,4 +1,4 @@
-{% assign blog = blogs[section.settings.blog] %}
+{%- assign blog = blogs[section.settings.blog] -%}{%- if blog == blank -%}{%- assign blog = blogs.articole -%}{%- endif -%}
 <section class="band" id="articole">
   <div class="in stack" style="gap:28px">
     <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
@@ -27,7 +27,7 @@
     { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Articole" },
     { "type": "text", "id": "title", "label": "Titlu", "default": "Ce am învățat pregătind sportivi" },
     { "type": "textarea", "id": "text", "label": "Text", "default": "Două articole pe săptămână, scrise de mine, din ce văd în fiecare zi la sportivii pe care îi antrenez. Fără teorie goală." },
-    { "type": "blog", "id": "blog", "label": "Blog", "default": "articole" },
+    { "type": "blog", "id": "blog", "label": "Blog (gol = blogul „articole”)" },
     { "type": "range", "id": "limit", "label": "Câte articole", "min": 3, "max": 12, "step": 1, "default": 6 }
   ],
   "presets": [{ "name": "Articole" }]

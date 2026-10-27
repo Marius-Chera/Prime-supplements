@@ -6,27 +6,228 @@
     },
     "proof": {
       "type": "proof",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "proof_1": {
+          "type": "item",
+          "settings": {
+            "value": "10",
+            "label": "carduri IFBB Pro"
+          }
+        },
+        "proof_2": {
+          "type": "item",
+          "settings": {
+            "value": "223",
+            "label": "locuri 1"
+          }
+        },
+        "proof_3": {
+          "type": "item",
+          "settings": {
+            "value": "26",
+            "label": "victorii NPC Pro Qualifier"
+          }
+        },
+        "proof_4": {
+          "type": "item",
+          "settings": {
+            "value": "48+",
+            "label": "serii de clienți online"
+          }
+        },
+        "proof_5": {
+          "type": "item",
+          "settings": {
+            "value": "16+",
+            "label": "ani de antrenorat"
+          }
+        },
+        "proof_6": {
+          "type": "item",
+          "settings": {
+            "value": "FRCF",
+            "label": "antrenor certificat"
+          }
+        }
+      },
+      "block_order": [
+        "proof_1",
+        "proof_2",
+        "proof_3",
+        "proof_4",
+        "proof_5",
+        "proof_6"
+      ]
     },
     "problema": {
       "type": "problema",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "problema_1": {
+          "type": "cause",
+          "settings": {
+            "title": "Nimeni nu te urmărește",
+            "text": "Știi deja „proteine, deficit, progresie”. Ce-ți lipsește e un sistem și cineva care se uită în fiecare săptămână la pozele și la cântarul tău și ajustează. La mine, acel cineva sunt eu."
+          }
+        },
+        "problema_2": {
+          "type": "cause",
+          "settings": {
+            "title": "Metoda de performanță nu ajunge la tine",
+            "text": "Ce fac pentru un IFBB Pro, periodizare, ajustări săptămânale, nutriție exactă, rămâne de obicei la 100–200 de competitori din țară. Restul primesc un PDF generic. Eu îți dau același lucru pe care îl dau sportivilor mei."
+          }
+        },
+        "problema_3": {
+          "type": "cause",
+          "settings": {
+            "title": "Ai fost ars deja",
+            "text": "„Antrenor” e oricine cu abdomen. Ai plătit o dată, de două ori, și nu mai ai încredere. De aceea aici totul pornește de la dovezi și se termină cu garanție."
+          }
+        }
+      },
+      "block_order": [
+        "problema_1",
+        "problema_2",
+        "problema_3"
+      ]
     },
     "usi": {
       "type": "usi",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "usi_1": {
+          "type": "door",
+          "settings": {
+            "tag": "Ușa A · Competiție",
+            "title": "Pregătire de concurs",
+            "text": "Pentru cine concurează sau vrea să concureze: NPC, IFBB, FRCF, INBA. Plătești prima lună, iar în 48 de ore avem un video call de 15 minute, eu și tu, în care discutăm tot: obiectivul, competițiile pe care le alegem și plata pentru întreg sezonul.",
+            "bullets": "Prima lună include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări\nVideo call de 15 minute cu mine după prima plată, obligatorie ca să ajungi la el\nPlata pe sezon o stabilim în call, după competițiile alese\nLocuri limitate pe sezon",
+            "price": "1.500 lei",
+            "price_note": "prima lună · sezonul se stabilește în call",
+            "cta": "Începe pregătirea",
+            "url": "/pages/evaluare"
+          }
+        },
+        "usi_2": {
+          "type": "door",
+          "settings": {
+            "tag": "Ușa B · Performanță fără scenă",
+            "title": "Chera Protocol Coaching",
+            "text": "Pentru cine are 1–5 ani de sală, e serios și e blocat. Plan de antrenament și nutriție construit pe profilul tău neuro, check-in săptămânal, eu pe WhatsApp, răspuns în 24 de ore.",
+            "bullets": "Profil neuro + plan în 48 de ore\nCheck-in săptămânal: poze, cântar, ajustări făcute de mine\nMinimum 12 săptămâni, cu garanție",
+            "price": "990 lei",
+            "price_note": "/ lună · 2.500 lei / 3 luni",
+            "cta": "Începe coaching-ul",
+            "url": "/pages/evaluare",
+            "main": true
+          }
+        },
+        "usi_3": {
+          "type": "door",
+          "settings": {
+            "tag": "Ușa C · Start singur",
+            "title": "Programul meu personalizat",
+            "text": "Completezi un formular scurt: înălțime, greutate, scop, experiența de sală și poze. Plătești, iar eu îți construiesc programul pe datele tale: antrenament, dietă și suplimente.",
+            "bullets": "Formular înainte de plată, cu poze\nAntrenament, dietă și suplimente scrise de mine\nUpgrade la coaching cu prețul programului dedus",
+            "price": "150–400 lei",
+            "price_note": "o dată",
+            "cta": "Completează formularul",
+            "url": "/collections/programe"
+          }
+        }
+      },
+      "block_order": [
+        "usi_1",
+        "usi_2",
+        "usi_3"
+      ]
     },
     "metoda": {
       "type": "metoda",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "metoda_1": {
+          "type": "step",
+          "settings": {
+            "title": "Evaluarea",
+            "text": "4 minute, 72 de afirmații. Afli profilul tău și ușa potrivită. Pe loc, gratuit."
+          }
+        },
+        "metoda_2": {
+          "type": "step",
+          "settings": {
+            "title": "Planul în 48 de ore",
+            "text": "Îți scriu eu antrenamentul și nutriția, pornind din profilul tău, ajustate la obiectiv, orar și ani de sală."
+          }
+        },
+        "metoda_3": {
+          "type": "step",
+          "settings": {
+            "title": "Check-in săptămânal",
+            "text": "Poze, cântar, un formular scurt. Le văd eu și ajustez. Pe WhatsApp, răspuns în 24 de ore."
+          }
+        },
+        "metoda_4": {
+          "type": "step",
+          "settings": {
+            "title": "Re-test la 8 săptămâni",
+            "text": "Măsurăm din nou echilibrul. Ce a fost pe minus se corectează, suplimentele se opresc când nu mai sunt necesare."
+          }
+        }
+      },
+      "block_order": [
+        "metoda_1",
+        "metoda_2",
+        "metoda_3",
+        "metoda_4"
+      ]
     },
     "rezultate": {
       "type": "rezultate",
-      "settings": {}
+      "settings": {
+        "files": "chera-galerie-01.jpg|Stanciu Tudor\nchera-galerie-02.jpg|Stanciu Tudor\nchera-galerie-03.jpg|Stanciu Tudor\nchera-galerie-04.jpg|Stanciu Tudor\nchera-galerie-05.jpg|Stanciu Tudor\nchera-galerie-06.jpg|Stanciu Tudor\nchera-galerie-07.jpg|Duplea Bogdan\nchera-galerie-08.jpg|Duplea Bogdan\nchera-galerie-09.jpg|Duplea Bogdan\nchera-galerie-10.jpg|Duplea Bogdan\nchera-galerie-11.jpg|Tomoroga Tiberiu\nchera-galerie-12.jpg|Tomoroga Tiberiu\nchera-galerie-13.jpg|Sergiu Faur\nchera-galerie-14.jpg|Sergiu Faur\nchera-galerie-15.jpg|Sergiu Faur\nchera-galerie-16.jpg|Homa Mehman\nchera-galerie-17.jpg|Homa Mehman\nchera-galerie-18.jpg|Homa Mehman\nchera-galerie-19.jpg|Arcaș Sergiu Nicolae\nchera-galerie-20.jpg|Arcaș Sergiu Nicolae\nchera-galerie-21.jpg|Arcaș Sergiu Nicolae\nchera-galerie-22.jpg|Arcaș Sergiu Nicolae\nchera-galerie-23.jpg|Arcaș Sergiu Nicolae\nchera-galerie-24.jpg|Arcaș Sergiu Nicolae\nchera-galerie-25.jpg|Arcaș Sergiu Nicolae\nchera-galerie-26.jpg|D A N I E L\nchera-galerie-27.jpg|D A N I E L\nchera-galerie-28.jpg|D A N I E L\nchera-galerie-29.jpg|D A N I E L\nchera-galerie-30.jpg|Crina Andreea\nchera-galerie-31.jpg|Crina Andreea\nchera-galerie-32.jpg|Daria Maria\nchera-galerie-33.jpg|Daria Maria\nchera-galerie-34.jpg|Daria Maria\nchera-galerie-35.jpg|Daria Maria\nchera-galerie-36.jpg|Daria Maria\nchera-galerie-37.jpg|Daria Maria\nchera-galerie-38.jpg|AndreiBTY\nchera-galerie-39.jpg|AndreiBTY\nchera-galerie-40.jpg|AndreiBTY\nchera-galerie-41.jpg|AndreiBTY\nchera-galerie-42.jpg|AndreiBTY\nchera-galerie-43.jpg|AndreiBTY\nchera-galerie-44.jpg|Diaconu Mihai\nchera-galerie-45.jpg|Amir Abu\nchera-galerie-46.jpg|Amir Abu\nchera-galerie-47.jpg|Amir Abu\nchera-galerie-48.jpg|Stefan\nchera-galerie-49.jpg|Stefan\nchera-galerie-50.jpg|Amir Abu\nchera-galerie-51.jpg|Marius cu sportivii lui\nchera-galerie-52.jpg|Tomoroga Tiberiu\nchera-galerie-53.jpg|Crina Andreea\nchera-galerie-54.jpg|Marius cu sportivii lui\nchera-galerie-55.jpg|Tomoroga Tiberiu\nchera-galerie-56.jpg|Sergiu Faur"
+      }
     },
     "testimoniale": {
       "type": "testimoniale",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "testimoniale_1": {
+          "type": "quote",
+          "settings": {
+            "text": "După un an de muncă cu Marius am câștigat cardul Pro. Am venit la el cu un vis și cu zero încredere că e realizabil. M-a trecut prin cele mai grele perioade ale pregătirii, mi-a răspuns de fiecare dată când comunicarea trebuia să fie la secundă și nu mi-a vândut niciodată iluzii. Îl consider antrenorul numărul 1. Dacă vrei un om care să-ți ridice standardele, lucrează cu el.",
+            "who": "Sportiv IFBB Pro"
+          }
+        },
+        "testimoniale_2": {
+          "type": "quote",
+          "settings": {
+            "text": "Marius nu este doar un simplu antrenor, ci omul care fabrică din noi atleți profesioniști, dornici să lupte pentru visul lor.",
+            "who": "Sportiv de performanță"
+          }
+        },
+        "testimoniale_3": {
+          "type": "quote",
+          "settings": {
+            "text": "Omul pentru care conceptul de mediocritate dispare încă din prima discuție. Nu spun că e ușor, dar Marius Chera este omul care te poate călăuzi să depășești totul.",
+            "who": "Sportiv de performanță"
+          }
+        },
+        "testimoniale_4": {
+          "type": "quote",
+          "settings": {
+            "text": "Atât timp cât nu vrei vrăjeală și să auzi chestii nerealiste, trebuie să lucrezi cu Marius Chera.",
+            "who": "Sportiv de performanță"
+          }
+        }
+      },
+      "block_order": [
+        "testimoniale_1",
+        "testimoniale_2",
+        "testimoniale_3",
+        "testimoniale_4"
+      ]
     },
     "garantie": {
       "type": "garantie",
@@ -42,7 +243,67 @@
     },
     "intrebari": {
       "type": "intrebari",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "intrebari_1": {
+          "type": "qa",
+          "settings": {
+            "q": "Trebuie să concurez ca să lucrez cu tine?",
+            "a": "Nu. Ușa B, Chera Protocol Coaching, e pentru oameni care nu concurează și nici nu vor. Aceeași metodă, aplicată la obiectivul tău."
+          }
+        },
+        "intrebari_2": {
+          "type": "qa",
+          "settings": {
+            "q": "Cine îmi face planul și cine îmi răspunde?",
+            "a": "Eu, Marius. Nu am alți antrenori și nu am asistenți care să răspundă în locul meu. Fiecare plan, fiecare check-in și fiecare mesaj sunt ale mele. De aceea locurile sunt limitate."
+          }
+        },
+        "intrebari_3": {
+          "type": "qa",
+          "settings": {
+            "q": "Ce e profilul neuro și de ce contează?",
+            "a": "Un chestionar de 4 minute, construit de mine din ce am văzut la sportivii mei, pornind orientativ de la modelul Braverman al celor patru neurotransmițători, care arată cum ești făcut: cât de mult ai nevoie de intensitate, varietate, rutină sau calm. Pe baza lui aleg stilul de antrenament, distribuția carbohidraților și suplimentele. Nu e un test medical."
+          }
+        },
+        "intrebari_4": {
+          "type": "qa",
+          "settings": {
+            "q": "Cum comunicăm?",
+            "a": "Pe WhatsApp, direct cu mine, din contul tău de pe site. Răspund în cel mult 24 de ore în zilele lucrătoare. Check-in-ul săptămânal se face printr-un formular scurt plus poze și cântar."
+          }
+        },
+        "intrebari_5": {
+          "type": "qa",
+          "settings": {
+            "q": "Ce se întâmplă când expiră abonamentul?",
+            "a": "Primești de la mine mesaj cu 7, 3 și o zi înainte. Dacă nu reînnoiești, accesul la planul tău și la WhatsApp se închide automat după 3 zile de grație. Când reînnoiești, continuăm exact de unde am rămas."
+          }
+        },
+        "intrebari_6": {
+          "type": "qa",
+          "settings": {
+            "q": "Cât durează până se vede?",
+            "a": "Prima schimbare vizibilă în poze apare de obicei în 4–6 săptămâni. Garanția e la 12."
+          }
+        },
+        "intrebari_7": {
+          "type": "qa",
+          "settings": {
+            "q": "Ce se întâmplă cu datele mele?",
+            "a": "Răspunsurile la evaluare și pozele de check-in le folosesc doar pentru planul tău și le păstrez cât ești client, plus 12 luni. Nu public nimic fără acordul tău scris."
+          }
+        }
+      },
+      "block_order": [
+        "intrebari_1",
+        "intrebari_2",
+        "intrebari_3",
+        "intrebari_4",
+        "intrebari_5",
+        "intrebari_6",
+        "intrebari_7"
+      ]
     },
     "evaluare_cta": {
       "type": "evaluare-cta",
@@ -50,7 +311,53 @@
     },
     "sesiuni": {
       "type": "sesiuni",
-      "settings": {}
+      "settings": {},
+      "blocks": {
+        "sesiuni_1": {
+          "type": "session",
+          "settings": {
+            "tag": "Live · Sibiu",
+            "title": "Sesiune de posing",
+            "text": "Lucrăm față în față la pozele obligatorii, tranziții și prezentare, pe categoria ta.",
+            "bullets": "Față în față, în Sibiu\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
+            "price": "400 lei",
+            "price_note": "/ 30 de minute",
+            "cta": "Alege data",
+            "url": "/products/posing-live-sibiu"
+          }
+        },
+        "sesiuni_2": {
+          "type": "session",
+          "settings": {
+            "tag": "Online",
+            "title": "Posing pe video call",
+            "text": "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.",
+            "bullets": "Pe WhatsApp, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
+            "price": "250 lei",
+            "price_note": "/ 30 de minute",
+            "cta": "Alege data",
+            "url": "/products/posing-online"
+          }
+        },
+        "sesiuni_3": {
+          "type": "session",
+          "settings": {
+            "tag": "Online",
+            "title": "Consultație video",
+            "text": "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.",
+            "bullets": "Pe video call WhatsApp, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online",
+            "price": "400 lei",
+            "price_note": "/ 30 de minute",
+            "cta": "Alege data",
+            "url": "/products/consultatie-video"
+          }
+        }
+      },
+      "block_order": [
+        "sesiuni_1",
+        "sesiuni_2",
+        "sesiuni_3"
+      ]
     }
   },
   "order": [

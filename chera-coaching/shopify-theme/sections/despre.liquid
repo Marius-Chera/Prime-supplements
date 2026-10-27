@@ -1,10 +1,10 @@
 <section class="band about" id="despre">
   <div class="in">
     <div class="mosaic">
-      {% for block in section.blocks limit: 4 %}{% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: block.settings.alt }}{% endif %}{% endfor %}
+      {% if section.blocks.size > 0 %}{% for block in section.blocks limit: 4 %}{% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: block.settings.alt }}{% endif %}{% endfor %}{% else %}{% assign mf = section.settings.mosaic_files | split: ',' %}{% for f in mf limit: 4 %}<img src="{{ f | strip | file_url }}" alt="Sportiv pregătit de Marius Chera" loading="lazy" width="480" height="640">{% endfor %}{% endif %}
     </div>
     <div class="stack">
-      <div class="row" style="gap:12px">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 120 | image_tag: class: 'avatar', alt: 'Marius Chera' }}{% endif %}<p class="eyebrow" style="margin:0">{{ section.settings.eyebrow }}</p></div>
+      <div class="row" style="gap:12px">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 120 | image_tag: class: 'avatar', alt: 'Marius Chera' }}{% elsif section.settings.avatar_file != blank %}<img class="avatar" src="{{ section.settings.avatar_file | file_url }}" alt="Marius Chera" width="56" height="56">{% endif %}<p class="eyebrow" style="margin:0">{{ section.settings.eyebrow }}</p></div>
       <h2>{{ section.settings.title }}</h2>
       {{ section.settings.text }}
     </div>
@@ -18,7 +18,9 @@
     { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Despre mine" },
     { "type": "text", "id": "title", "label": "Titlu", "default": "16 ani de antrenorat. Primul antrenor român cu sportivi la Cardul Pro." },
     { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Am început culturismul la 17 ani și m-am format alături de Mauro Sassi, Chad Nicholls și Patrick Tuor. Sunt antrenor certificat FRCF și absolvent de facultate de sport. Am pregătit sportivi de la primul lor concurs până la IFBB Pro, și sute de oameni care nu au urcat niciodată pe scenă, dar arată ca și cum ar putea.</p><p>Chera Protocol e tot ce am învățat în acești ani, pus într-un sistem pe care îl poate urma oricine e serios: evaluare, plan, check-in, ajustare. Și o regulă de la care nu mă abat: nu dau pe nimeni pe mâna altcuiva. Dacă lucrezi cu mine, lucrezi cu mine.</p>" },
-    { "type": "image_picker", "id": "avatar", "label": "Avatar" }
+    { "type": "image_picker", "id": "avatar", "label": "Avatar" },
+    { "type": "text", "id": "avatar_file", "label": "Sau avatarul din Content → Files", "default": "chera-avatar.jpg" },
+    { "type": "text", "id": "mosaic_files", "label": "Sau pozele mozaicului din Content → Files (separate prin virgulă)", "default": "chera-despre-1.jpg,chera-despre-2.jpg,chera-despre-3.jpg,chera-despre-4.jpg" }
   ],
   "max_blocks": 4,
   "blocks": [{ "type": "photo", "name": "Poză mozaic", "settings": [

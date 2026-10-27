@@ -3,7 +3,7 @@
     <header class="article-head">
       <p class="eyebrow">{% if article.tags.size > 0 %}{{ article.tags | first }} · {% endif %}{{ article.published_at | date: "%d.%m.%Y" }}</p>
       <h1 style="font-size:clamp(38px,7vw,64px)">{{ article.title }}</h1>
-      <div class="by">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 88 | image_tag: alt: 'Marius Chera' }}{% endif %}<span>{{ section.settings.byline }}</span></div>
+      <div class="by">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 88 | image_tag: alt: 'Marius Chera' }}{% else %}<img src="{{ 'chera-avatar.jpg' | file_url }}" alt="Marius Chera" width="44" height="44">{% endif %}<span>{{ section.settings.byline }}</span></div>
     </header>
     {% if article.image != blank and section.settings.show_image %}<p>{{ article.image | image_url: width: 1400 | image_tag: loading: 'eager', alt: article.title }}</p>{% endif %}
     <div class="rte">
@@ -29,7 +29,7 @@
     { "type": "text", "id": "cta_title", "label": "Titlu îndemn", "default": "Află cum ești făcut" },
     { "type": "textarea", "id": "cta_text", "label": "Text îndemn", "default": "Evaluarea e gratuită și durează 4 minute. Primești profilul tău, cum te antrenezi, cum mănânci și ce suplimente îți trebuie. Apoi îți scriu eu pe WhatsApp." },
     { "type": "text", "id": "cta_label", "label": "Buton", "default": "Fă evaluarea gratuită" },
-    { "type": "url", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" }
+    { "type": "text", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" }
   ]
 }
 {% endschema %}

@@ -8,6 +8,8 @@
     </div>
     {% if section.settings.image != blank %}
       <figure class="fig">{{ section.settings.image | image_url: width: 1000 | image_tag: loading: 'eager', alt: section.settings.caption }}<figcaption>{{ section.settings.caption }}</figcaption></figure>
+    {% elsif section.settings.image_file != blank %}
+      <figure class="fig"><img src="{{ section.settings.image_file | file_url }}" alt="{{ section.settings.caption | escape }}" width="640" height="800"><figcaption>{{ section.settings.caption }}</figcaption></figure>
     {% else %}
       <div class="placeholder">Poză: Marius cu un sportiv la cardul IFBB Pro</div>
     {% endif %}
@@ -23,10 +25,11 @@
     { "type": "textarea", "id": "title", "label": "Titlu", "default": "România are mai multe săli ca niciodată. Majoritatea oamenilor din ele arată la fel ca acum doi ani." },
     { "type": "textarea", "id": "text", "label": "Text", "default": "Chera Protocol este metoda cu care am făcut 10 IFBB Pro, aplicată la tine. Eu îți fac planul, eu îl ajustez, eu îți răspund. Fie că vrei să urci pe scenă, fie doar să arăți ca unul care ar putea." },
     { "type": "text", "id": "cta_label", "label": "Buton 1", "default": "Fă evaluarea gratuită" },
-    { "type": "url", "id": "cta_url", "label": "Link 1", "default": "/pages/evaluare" },
+    { "type": "text", "id": "cta_url", "label": "Link 1", "default": "/pages/evaluare" },
     { "type": "text", "id": "cta2_label", "label": "Buton 2", "default": "Vezi rezultatele" },
-    { "type": "url", "id": "cta2_url", "label": "Link 2", "default": "/#rezultate" },
+    { "type": "text", "id": "cta2_url", "label": "Link 2", "default": "/#rezultate" },
     { "type": "image_picker", "id": "image", "label": "Poză" },
+    { "type": "text", "id": "image_file", "label": "Sau numele pozei din Content → Files", "default": "chera-hero.jpg" },
     { "type": "text", "id": "caption", "label": "Legendă", "default": "Încă un card IFBB Pro pentru un sportiv pregătit de mine" }
   ],
   "presets": [{ "name": "Hero" }]

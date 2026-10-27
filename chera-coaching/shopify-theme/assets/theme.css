@@ -229,7 +229,7 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 
 /* logo: ștampila (varianta 5, aleasă de Marius) */
 .brand-stamp{height:64px;width:auto;display:block}
-.site-footer .brand-stamp{height:110px}
+.site-footer .brand-stamp{height:96px}
 @media (max-width:480px){.brand-stamp{height:52px}}
 
 /* Apariții media */
@@ -248,3 +248,37 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 
 .list.supp li{margin-bottom:10px}
 .list.supp .hint{display:block;margin-top:2px}
+
+/* Subsol */
+.site-footer{position:relative;overflow:hidden;background:var(--bg);border-top:1px solid var(--line);color:var(--fg-2);font-size:15px}
+.ft-cta{background:var(--red);color:var(--red-fg)}
+.ft-cta .in{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-block:44px}
+.ft-cta .eyebrow{color:var(--red-fg);opacity:.85}
+.ft-cta h2{margin:6px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(32px,4.4vw,54px);line-height:.95;text-transform:uppercase;color:#fff;max-width:16ch}
+.ft-cta .btn{background:var(--bg);color:var(--fg)}
+.ft-cta .btn:hover{background:#000}
+.ft-main{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:40px;padding-block:64px 40px}
+.ft-brand{display:grid;gap:18px;align-content:start}
+.ft-brand p{margin:0;max-width:34ch;line-height:1.6}
+.ft-social{display:flex;gap:10px}
+.ft-social a{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;color:var(--fg);transition:border-color .2s,background .2s}
+.ft-social a:hover{border-color:var(--red);background:var(--red)}
+.ft-social svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round}
+.ft-social svg .dot{fill:currentColor;stroke:none}
+.ft-col{display:grid;gap:11px;align-content:start;min-width:0}
+.ft-col h3{margin:0 0 6px;font-family:var(--display);font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--fg)}
+.ft-col a{color:var(--fg-2);text-decoration:none;transition:color .2s}
+.ft-col a:hover{color:var(--fg)}
+.ft-col a::before{content:"";display:inline-block;width:0;height:2px;margin-right:0;background:var(--red);vertical-align:middle;transition:width .2s,margin .2s}
+.ft-col a:hover::before{width:10px;margin-right:8px}
+.ft-badges{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding-block:24px;border-top:1px solid var(--line)}
+.ft-badge{display:grid;gap:2px;padding:9px 14px;border:1px solid var(--line);border-radius:6px;color:var(--fg);text-decoration:none;font-size:13px;font-weight:600;line-height:1.2}
+.ft-badge small{font-size:11px;font-weight:400;color:var(--fg-2);text-transform:uppercase;letter-spacing:.08em}
+.ft-badge:hover{border-color:var(--red)}
+.ft-note{margin:0 0 0 auto;font-size:13px;max-width:44ch;text-align:right}
+.ft-word{font-family:var(--display);font-weight:800;font-size:clamp(64px,15.5vw,230px);line-height:.8;letter-spacing:-.01em;text-align:center;white-space:nowrap;color:transparent;-webkit-text-stroke:1px #2f2b29;user-select:none;margin-top:8px;transform:translateY(12%)}
+.ft-bottom{position:relative;background:#080707;border-top:1px solid var(--line)}
+.ft-bottom .in{display:flex;justify-content:space-between;gap:8px 24px;flex-wrap:wrap;padding-block:18px;font-size:13px}
+.ft-bottom p{margin:0}
+@media (max-width:960px){.ft-main{grid-template-columns:repeat(2,1fr)}.ft-brand{grid-column:1/-1}}
+@media (max-width:520px){.ft-main{grid-template-columns:1fr 1fr;gap:28px 20px;padding-block:44px 28px}.ft-note{margin:0;text-align:left}.ft-cta .in{padding-block:34px}.ft-cta .btn{width:100%}}

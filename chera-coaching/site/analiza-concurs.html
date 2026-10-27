@@ -1,0 +1,450 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analiza de concurs – prototip</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../shopify-theme/assets/theme.css"><script>
+/* simulare: coșul întoarce un link fals, FormSubmit și formularul de contact răspund OK (nimic nu pleacă) */
+window.CHERA={whatsapp:"40757911908",customer:null};
+const _f=window.fetch;window.fetch=async(u,o)=>{await new Promise(r=>setTimeout(r,300));
+ if(u==="/cart/add.js"){const k=[...o.body.keys()].find(x=>x.startsWith("properties"));return new Response(JSON.stringify({key:"k"+Date.now(),properties:{[k.slice(11,-1)]:"https://cdn.shopify.com/prototip/"+o.body.get(k).name}}),{status:200});}
+ if(String(u).startsWith("https://formsubmit.co/")){window.__LAST_MAIL=JSON.parse(o.body);return new Response(JSON.stringify({success:"true"}),{status:200});}
+ if(u==="/cart/change.js")return new Response("{}",{status:200});
+ if(u==="/contact"){window.__LAST_CONTACT=Object.fromEntries(o.body.entries());return new Response("ok",{status:200});}
+ return _f(u,o);};
+</script></head><body><main>
+
+
+
+<style>
+.ac{max-width:760px}
+.ac h1{font-size:clamp(40px,6vw,64px);line-height:.96}
+.ac h2{font-size:clamp(28px,4vw,38px)}
+.ac .lead{font-size:18px;color:var(--fg-2);max-width:60ch;margin:0}
+.ac .free{display:flex;flex-wrap:wrap;gap:8px 0;font-family:var(--display);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.ac .free span{display:inline-flex;align-items:center}
+.ac .free b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.ac .free span+span::before{content:"";width:5px;height:5px;background:var(--red);margin-inline:16px}
+.ac .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.ac .steps3>div{border-top:3px solid var(--red);padding-top:12px;display:grid;gap:6px;font-size:15px;color:var(--fg-2)}
+.ac .steps3 b{font-family:var(--display);font-size:20px;text-transform:uppercase;color:var(--fg)}
+.ac .steps3 b::before{counter-increment:s;content:counter(s,decimal-leading-zero) " ";color:var(--red)}
+.ac .field textarea{min-height:110px;resize:vertical}
+.ac .field small{font-size:13px;color:var(--fg-2)}
+.ac .field input,.ac .field select,.ac .field textarea,.ac .card,.ac .btn,.ac .opt,.ac .note,.ac .code-box{border-radius:0}
+.ac .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ac .drop{display:grid;place-items:center;gap:6px;text-align:center;border:1.5px dashed var(--line);padding:28px 16px;cursor:pointer;background:var(--bg-2)}
+.ac .drop:hover,.ac .drop.over{border-color:var(--red)}
+.ac .drop b{font-family:var(--display);font-size:22px;text-transform:uppercase}
+.ac .drop input{position:absolute;width:1px;height:1px;opacity:0}
+.ac .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ac .thumb{position:relative;aspect-ratio:3/4;background:var(--bg-2);border:1px solid var(--line);overflow:hidden}
+.ac .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ac .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(14,13,13,.82);color:var(--fg-2)}
+.ac .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(14,13,13,.85);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ac .thumb.big{outline:2px solid var(--warn)}
+.ac .day{border:1px solid var(--line);background:var(--bg-2);padding:14px;display:grid;gap:10px}
+.ac .day h3{font-size:20px}
+.ac .day h3 span{color:var(--red)}
+.ac .day .cells{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;align-items:end}
+.ac .day .field label{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--fg-2)}
+.ac .day .field input{padding:10px;font-size:15px}
+.ac .btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}
+.ac .sending{display:grid;gap:8px}
+.ac .done-code{font-family:var(--display);font-size:clamp(34px,6vw,52px);letter-spacing:.06em;color:var(--red);line-height:1}
+.ac .warnbox{border:1.5px solid var(--warn);padding:14px;display:grid;gap:8px}
+@media (max-width:760px){.ac .day .cells{grid-template-columns:1fr 1fr}.ac .day .cells .field:last-child{grid-column:1/-1}.ac .steps3,.ac .grid3{grid-template-columns:1fr}.ac .thumbs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.ac .nav .btn{flex:1}.ac .free{gap:6px 20px}.ac .free span+span::before{display:none}}
+</style>
+
+<section class="band" style="padding-top:24px">
+<div class="in narrow quiz ac" id="ac-root" data-variant="PROTOTIP" data-mail="marius.chera@yahoo.com">
+
+  <!-- 0 · INTRO -->
+  <section data-step="0" class="stack" style="padding-block:28px 0;gap:22px">
+    <p class="eyebrow">Gratuit · pentru cine a fost pe scenă</p>
+    <h1>Analiza de concurs</h1>
+    <p class="lead">Ai urcat pe scenă și vrei să știi ce a mers și ce nu? Îmi trimiți pozele de pe scenă, dieta, antrenamentul și cum ai făcut ultimele zile. Mă uit eu la tot și în maximum 48 de ore îți spun ce a fost corect, ce a fost greșit și ce schimbi la următorul concurs.</p>
+    <div class="free"><span><b>0</b> lei</span><span><b>48 h</b> răspunsul meu</span><span><b>5–8</b> poze HD</span></div>
+    <div class="steps3">
+      <div><b>Îmi trimiți tot</b>Pozele de pe scenă, dieta, antrenamentul, ultima săptămână zi cu zi și ce crezi tu că a mers și ce nu.</div>
+      <div><b>Mă uit eu</b>Citesc tot și compar cu pozele: unde ai fost plat, apos, prea gras sau prea tras, și de ce.</div>
+      <div><b>Îți răspund</b>În maximum 48 de ore, pe WhatsApp sau pe e-mail: ce a fost corect, ce a fost greșit și ce ai de schimbat.</div>
+    </div>
+    <div class="card">
+      <h3>Ce să ai la îndemână</h3>
+      <ul class="list">
+        <li>Pozele de pe scenă în calitate mare (originalele de la fotograf, nu capturi de pe Instagram): față, lateral, spate și pozele obligatorii ale categoriei tale.</li>
+        <li>Dieta din pregătire: mesele, cantitățile, cum s-a schimbat de la început până în ultimele săptămâni.</li>
+        <li>Antrenamentul, cardio-ul și suplimentele.</li>
+        <li>Ultimele 7 zile înainte de concurs: apă, sare, carbohidrați, antrenament, somn, plus ziua concursului.</li>
+      </ul>
+      <p class="hint">Durează 10–15 minute. Ce scrii rămâne salvat pe acest telefon sau calculator până trimiți, așa că poți reveni.</p>
+    </div>
+    <div class="nav"><span></span><button class="btn" type="button" data-go="1">Începe analiza</button></div>
+  </section>
+
+  <!-- PROGRES -->
+  <div class="progress" id="ac-progress" hidden>
+    <div class="meta"><span id="ac-step-name">Pasul 1 · Concursul</span><span id="ac-step-count">1 / 5</span></div>
+    <div class="bar"><i id="ac-fill"></i></div>
+  </div>
+
+  <!-- 1 · CONCURSUL -->
+  <section data-step="1" data-name="Concursul și tu" class="stack" hidden>
+    <h2>Concursul și tu</h2>
+    <div class="grid2">
+      <div class="field"><label for="ac-name">Nume și prenume</label><input id="ac-name" data-k="Nume" autocomplete="name" required></div>
+      <div class="field"><label for="ac-city">Oraș</label><input id="ac-city" data-k="Oraș" autocomplete="address-level2"></div>
+      <div class="field"><label for="ac-phone">Telefon (WhatsApp)</label><input id="ac-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
+      <div class="field"><label for="ac-email">E-mail</label><input id="ac-email" data-k="E-mail" type="email" autocomplete="email" placeholder="nume@exemplu.ro" required></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="ac-cat">Categoria</label>
+        <select id="ac-cat" data-k="Categoria" required><option value="">alege</option><option>Bikini</option><option>Wellness</option><option>Fitness / Body fitness</option><option>Figure</option><option>Women's Physique</option><option>Men's Physique</option><option>Classic Physique</option><option>Culturism (bodybuilding)</option><option>Altă categorie</option></select></div>
+      <div class="field"><label for="ac-date">Data concursului</label><input id="ac-date" data-k="Data concursului" type="date" required></div>
+      <div class="field"><label for="ac-comp">Concursul</label><input id="ac-comp" data-k="Concursul" placeholder="numele sau federația, ex. Cupa X, național" required></div>
+      <div class="field"><label for="ac-place">Rezultatul</label><input id="ac-place" data-k="Rezultatul" placeholder="ex. locul 4, finală, fără clasare"></div>
+    </div>
+    <div class="grid3">
+      <div class="field"><label for="ac-age">Vârstă</label><input id="ac-age" data-k="Vârstă" type="number" min="14" max="80" inputmode="numeric" required></div>
+      <div class="field"><label for="ac-height">Înălțime (cm)</label><input id="ac-height" data-k="Înălțime (cm)" type="number" min="130" max="230" inputmode="numeric" required></div>
+      <div class="field"><label for="ac-weeks">Pregătirea (săptămâni)</label><input id="ac-weeks" data-k="Durata pregătirii (săpt.)" type="number" min="1" max="60" inputmode="numeric" required></div>
+      <div class="field"><label for="ac-w0">Greutate la început (kg)</label><input id="ac-w0" data-k="Greutate la început (kg)" type="number" step="0.1" inputmode="decimal" required></div>
+      <div class="field"><label for="ac-w1">Greutate pe scenă (kg)</label><input id="ac-w1" data-k="Greutate pe scenă (kg)" type="number" step="0.1" inputmode="decimal" required></div>
+      <div class="field"><label for="ac-nth">Al câtelea concurs</label><select id="ac-nth" data-k="Al câtelea concurs" required><option value="">alege</option><option>Primul</option><option>Al 2-lea sau al 3-lea</option><option>Peste 3</option></select></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="ac-coach">Cu cine te-ai pregătit</label><select id="ac-coach" data-k="Pregătit cu" required><option value="">alege</option><option>Singur(ă)</option><option>Cu antrenor, față în față</option><option>Cu antrenor, online</option></select></div>
+      <div class="field"><label for="ac-neuro">Profilul neuro (dacă l-ai făcut)</label><input id="ac-neuro" data-k="Profil neuro" placeholder="ex. 2A-S"></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="0">Înapoi</button><button class="btn" type="button" data-next="2">Continuă</button></div>
+  </section>
+
+  <!-- 2 · POZELE -->
+  <section data-step="2" data-name="Pozele de pe scenă" class="stack" hidden>
+    <h2>Pozele de pe scenă</h2>
+    <p class="muted">Între 5 și 8 poze, cât mai mari: originalele de la fotograful concursului sau poze făcute cu telefonul de aproape. Față, lateral, spate și pozele obligatorii ale categoriei. Dacă ai și poze din dimineața concursului sau din ziua dinainte, pune-le: îmi spun mult. Le văd doar eu.</p>
+    <label class="drop" id="ac-drop">
+      <input type="file" id="ac-files" accept="image/*" multiple>
+      <b>Alege pozele</b>
+      <span class="muted" style="font-size:14px">sau trage-le aici · JPG, PNG, HEIC · până la 20 MB fiecare</span>
+    </label>
+    <div class="thumbs" id="ac-thumbs"></div>
+    <p class="hint" id="ac-files-info">0 poze alese.</p>
+    <div class="field"><label for="ac-album">Link spre album (opțional)</label><input id="ac-album" data-k="Link album" type="url" placeholder="Google Drive, WeTransfer sau galeria fotografului"><small>Pentru pozele peste 20 MB sau dacă ai mai mult de 8, pune aici linkul.</small></div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="1">Înapoi</button><button class="btn" type="button" data-next="3">Continuă</button></div>
+  </section>
+
+  <!-- 3 · PREGĂTIREA -->
+  <section data-step="3" data-name="Pregătirea" class="stack" hidden>
+    <h2>Pregătirea</h2>
+    <p class="muted">Cu cât scrii mai concret (grame, ore, zile), cu atât îți pot spune mai precis ce a funcționat. Poți lipi și dieta sau programul primit de la antrenor.</p>
+    <div class="field"><label for="ac-diet">Dieta</label><textarea id="ac-diet" data-k="Dieta" rows="6" required placeholder="Mesele dintr-o zi obișnuită, cu cantități. Cum s-a schimbat de la început până în ultimele 4 săptămâni (ce ai tăiat, când)."></textarea></div>
+    <div class="grid2">
+      <div class="field"><label for="ac-macro0">Calorii / macro la început</label><input id="ac-macro0" data-k="Macro la început" placeholder="ex. 2.400 kcal · P 220 · C 250 · G 60"></div>
+      <div class="field"><label for="ac-macro1">Calorii / macro la final</label><input id="ac-macro1" data-k="Macro la final" placeholder="ex. 1.700 kcal · P 230 · C 120 · G 40"></div>
+    </div>
+    <div class="field"><label for="ac-refeed">Refeed-uri, mese libere, cicluri de carbohidrați</label><textarea id="ac-refeed" data-k="Refeed / cicluri carbo" rows="3" placeholder="Cât de des, ce mâncai în ziua aia, cum arătai a doua zi."></textarea></div>
+    <div class="field"><label for="ac-train">Antrenamentul</label><textarea id="ac-train" data-k="Antrenament" rows="5" required placeholder="Split-ul, câte zile, exercițiile principale, seriile, cât de greu; ce ai schimbat spre final."></textarea></div>
+    <div class="field"><label for="ac-cardio">Cardio și pași</label><textarea id="ac-cardio" data-k="Cardio și pași" rows="3" required placeholder="Ce fel, câte minute, de câte ori pe săptămână, pași pe zi; la început și la final."></textarea></div>
+    <div class="field"><label for="ac-supp">Suplimente</label><textarea id="ac-supp" data-k="Suplimente" rows="3" placeholder="Ce, cât și când."></textarea><small>Doar suplimente alimentare. Nu comentez și nu recomand medicamente, diuretice sau substanțe interzise.</small></div>
+    <div class="grid2">
+      <div class="field"><label for="ac-sleep">Somnul în pregătire</label><select id="ac-sleep" data-k="Somn în pregătire"><option value="">alege</option><option>sub 6 ore</option><option>6–7 ore</option><option>7–8 ore</option><option>peste 8 ore</option></select></div>
+      <div class="field"><label for="ac-hunger">Foamea și energia spre final</label><select id="ac-hunger" data-k="Foame / energie la final"><option value="">alege</option><option>Bine, am dus ușor</option><option>Greu, dar am dus</option><option>Foarte greu, am cedat uneori</option></select></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="2">Înapoi</button><button class="btn" type="button" data-next="4">Continuă</button></div>
+  </section>
+
+  <!-- 4 · PEAK WEEK -->
+  <section data-step="4" data-name="Ultimele 7 zile" class="stack" hidden>
+    <h2>Ultimele 7 zile și ziua concursului</h2>
+    <p class="muted">Aici se câștigă sau se pierde cel mai mult. Scrie cât îți amintești; dacă într-o zi n-ai schimbat nimic, scrie „ca de obicei”. Cantități aproximative sunt în regulă (ex. apă 5 l, sare normală, carbo 150 g).</p>
+    <div id="ac-days" class="stack" style="gap:10px"></div>
+    <div class="field"><label for="ac-showday">Ziua concursului, de la trezire până pe scenă</label><textarea id="ac-showday" data-k="Ziua concursului" rows="6" required placeholder="La ce oră te-ai trezit, ce ai mâncat și băut și la ce oră, cât ai băut până pe scenă, pump-up-ul, cum arătai dimineața față de seară, cât ai așteptat în culise."></textarea></div>
+    <div class="field"><label for="ac-mirror">Cum te-ai văzut în ultimele 2 zile</label><textarea id="ac-mirror" data-k="Cum arăta în ultimele 2 zile" rows="3" placeholder="Plin sau plat, uscat sau apos, vascularizat, cum s-a schimbat de la o zi la alta."></textarea></div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="3">Înapoi</button><button class="btn" type="button" data-next="5">Continuă</button></div>
+  </section>
+
+  <!-- 5 · CONCLUZIILE TALE + TRIMITERE -->
+  <section data-step="5" data-name="Părerea ta" class="stack" hidden>
+    <h2>Părerea ta, apoi trimiți</h2>
+    <div class="field"><label for="ac-good">Ce crezi că a mers bine</label><textarea id="ac-good" data-k="Ce a mers" rows="4" required></textarea></div>
+    <div class="field"><label for="ac-bad">Ce crezi că n-a mers</label><textarea id="ac-bad" data-k="Ce n-a mers" rows="4" required></textarea></div>
+    <div class="grid2">
+      <div class="field"><label for="ac-next">Următorul concurs</label><input id="ac-next" data-k="Următorul concurs" placeholder="ex. primăvara 2027 / nu știu încă"></div>
+      <div class="field"><label for="ac-ask">Ce vrei să afli de la mine</label><input id="ac-ask" data-k="Ce vrea să afle" placeholder="ex. de ce am fost plat pe scenă"></div>
+    </div>
+    <div class="field"><label>Unde vrei răspunsul meu</label>
+      <div class="choice" role="radiogroup" id="ac-channel">
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="WhatsApp">Pe WhatsApp, la numărul tău</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="e-mail">Pe e-mail, la adresa ta</button>
+      </div></div>
+    <label class="check"><input type="checkbox" id="ac-c1"><span>Sunt de acord ca Marius Chera să folosească datele și pozele mele doar pentru această analiză. Pozele se încarcă pe serverul magazinului (Shopify), iar datele ajung la Marius pe e-mail. Pozele nu se publică nicăieri fără acordul meu separat, scris. Datele se păstrează 12 luni dacă nu devin client, apoi se șterg la cerere sau automat.</span></label>
+    <label class="check"><input type="checkbox" id="ac-c2"><span>Sunt de acord să fiu contactat pe canalul ales mai sus cu analiza și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
+    <p class="note">Analiza e gratuită și nu te obligă la nimic. Nu este un consult medical și nu conține recomandări de medicamente. Primești răspunsul meu în maximum 48 de ore.</p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="4">Înapoi</button><button class="btn" type="button" id="ac-send">Trimite pentru analiză</button></div>
+  </section>
+
+  <!-- 6 · TRIMITERE / GATA -->
+  <section data-step="6" class="stack" hidden>
+    <div class="sending" id="ac-sending">
+      <h2>Trimit…</h2>
+      <p class="muted" id="ac-sendmsg">Încarc pozele.</p>
+      <div class="progress"><div class="bar"><i id="ac-upfill"></i></div></div>
+      <p class="hint">Nu închide pagina. Pozele mari pot dura câteva secunde fiecare.</p>
+    </div>
+    <div class="stack" id="ac-done" hidden>
+      <p class="eyebrow">Am primit analiza ta</p>
+      <p class="done-code" id="ac-code"></p>
+      <h2 id="ac-done-title">Mulțumesc. Îți răspund în maximum 48 de ore.</h2>
+      <p class="lead" id="ac-done-text"></p>
+      <div class="warnbox" id="ac-warn" hidden></div>
+      <div class="card">
+        <h3>Ce urmează</h3>
+        <ul class="list">
+          <li>Mă uit la poze lângă dietă și ultima săptămână și îți scriu ce a fost corect, ce a fost greșit și ce ai de schimbat.</li>
+          <li>Îți spun sincer ce variantă ți se potrivește: un program digital, coaching online sau pregătire de concurs cu mine.</li>
+          <li>Până atunci, dacă n-ai făcut-o, fă <a href="/pages/evaluare">evaluarea gratuită</a> (4 minute): mă ajută să-ți citesc mai bine pregătirea.</li>
+        </ul>
+      </div>
+      <a class="btn" id="ac-mail" href="#" hidden>Trimite-mi pozele pe e-mail</a>
+      <p class="hint" id="ac-mail-hint" hidden></p>
+    </div>
+  </section>
+
+  
+    <div hidden>
+      <span id="ac-cf-state" data-ok="1" data-err="1"></span>
+      <input type="hidden" name="contact[email]" id="ac-cf-email">
+      <input type="hidden" name="contact[name]" id="ac-cf-name">
+      <input type="hidden" name="contact[Telefon]" id="ac-cf-phone">
+      <input type="hidden" name="contact[Subiect]" id="ac-cf-subject">
+      <input type="hidden" name="contact[Răspuns pe]" id="ac-cf-channel">
+      <textarea name="contact[body]" id="ac-cf-body"></textarea>
+    </div>
+  
+
+  <p class="legal">Analiza de concurs Chera Protocol este o părere de antrenor despre formă, dietă, antrenament și ultima săptămână. Nu este un consult medical, nu pune diagnostice și nu conține recomandări de medicamente, diuretice sau substanțe interzise.</p>
+</div>
+</section>
+
+<script>
+(function(){
+  var root = document.getElementById("ac-root"); if(!root) return;
+  var VARIANT = root.getAttribute("data-variant");
+  var MAIL = root.getAttribute("data-mail") || "";
+  var DRAFT = "chera-analiza-v1", SENT = "chera-analiza-trimis";
+  var MAX = 20 * 1048576, MIN_P = 5, MAX_P = 8;
+  var $ = function(id){ return document.getElementById(id); };
+  var steps = [].slice.call(root.querySelectorAll("section[data-step]"));
+  var files = [], channel = null, cur = 0;
+
+  /* zilele de peak week */
+  var DAYS = [["7","Cu 7 zile înainte"],["6","Cu 6 zile înainte"],["5","Cu 5 zile înainte"],["4","Cu 4 zile înainte"],["3","Cu 3 zile înainte"],["2","Cu 2 zile înainte"],["1","Cu o zi înainte"]];
+  var CELLS = [["apa","Apă"],["sare","Sare / sodiu"],["carbo","Carbohidrați"],["antr","Antrenament"],["somn","Somn"]];
+  var PH = {apa:"ex. 6 l",sare:"ex. normală",carbo:"ex. 150 g",antr:"ex. full body + 20 min cardio",somn:"ex. 7 h"};
+  $("ac-days").innerHTML = DAYS.map(function(d){
+    return '<div class="day"><h3><span>Z-' + d[0] + '</span> · ' + d[1] + '</h3><div class="cells">' + CELLS.map(function(c){
+      var id = "ac-d" + d[0] + "-" + c[0];
+      return '<div class="field"><label for="' + id + '">' + c[1] + '</label><input id="' + id + '" data-day="Z-' + d[0] + '" data-cell="' + c[1] + '" placeholder="' + PH[c[0]] + '"></div>';
+    }).join("") + '</div></div>';
+  }).join("");
+
+  var fields = [].slice.call(root.querySelectorAll("input[id^='ac-'],select[id^='ac-'],textarea[id^='ac-']")).filter(function(el){ return el.type !== "file" && el.type !== "checkbox"; });
+
+  /* ciornă locală (fără poze) */
+  function saveDraft(){ try{ var d = {ch: channel}; fields.forEach(function(el){ if(el.value) d[el.id] = el.value; }); localStorage.setItem(DRAFT, JSON.stringify(d)); }catch(e){} }
+  function loadDraft(){ try{ var d = JSON.parse(localStorage.getItem(DRAFT) || "null"); if(!d) return; fields.forEach(function(el){ if(d[el.id] != null) el.value = d[el.id]; }); if(d.ch) setChannel(d.ch); }catch(e){} }
+  fields.forEach(function(el){ el.addEventListener("input", saveDraft); el.addEventListener("change", saveDraft); });
+  if(window.CHERA && window.CHERA.customer){ var cu = window.CHERA.customer; if(cu.email && !$("ac-email").value) $("ac-email").value = cu.email; if(cu.phone && !$("ac-phone").value) $("ac-phone").value = cu.phone; }
+
+  function setChannel(v){ channel = v; [].forEach.call($("ac-channel").querySelectorAll(".opt"), function(o){ o.setAttribute("aria-checked", o.getAttribute("data-v") === v ? "true" : "false"); }); }
+  [].forEach.call($("ac-channel").querySelectorAll(".opt"), function(b){ b.addEventListener("click", function(){ setChannel(b.getAttribute("data-v")); saveDraft(); }); });
+
+  /* CAPTCHA-ul Shopify se încarcă la primul focus pe formularul de contact; îl pornesc din timp */
+  function warmCaptcha(){ var el = $("ac-cf-email"); if(el) el.dispatchEvent(new FocusEvent("focusin", {bubbles: true})); }
+  function captchaReady(){ return new Promise(function(res){ var t = 0; (function w(){ if(window.hcaptcha || t > 40) return res(); t++; setTimeout(w, 250); })(); }); }
+
+  /* navigare */
+  function show(n){
+    cur = n;
+    steps.forEach(function(s){ s.hidden = +s.getAttribute("data-step") !== n; });
+    var p = $("ac-progress"); p.hidden = !(n >= 1 && n <= 5);
+    if(n >= 1 && n <= 5){ $("ac-step-name").textContent = "Pasul " + n + " · " + steps[n].getAttribute("data-name"); $("ac-step-count").textContent = n + " / 5"; $("ac-fill").style.width = (n * 20 - 10) + "%"; }
+    if(n === 5) warmCaptcha();
+    var top = root.getBoundingClientRect().top + window.scrollY - 90; window.scrollTo({top: Math.max(0, top), behavior: "smooth"});
+  }
+  function err(n, list){ var el = steps[n].querySelector("[data-err]"); if(list.length){ el.hidden = false; el.textContent = "Mai trebuie: " + list.join(", ") + "."; return false; } el.hidden = true; return true; }
+  function label(el){ var l = root.querySelector("label[for='" + el.id + "']"); return l ? l.textContent.toLowerCase() : el.id; }
+  function validate(n){
+    var e = [];
+    [].forEach.call(steps[n].querySelectorAll("[required]"), function(el){ if(!String(el.value).trim()) e.push(label(el)); });
+    if(n === 1){
+      var em = $("ac-email").value.trim(); if(em && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) e.push("o adresă de e-mail validă");
+      var ph = $("ac-phone").value.replace(/[^\d+]/g, ""); if(ph && !/^(\+?40|0)?7\d{8}$/.test(ph) && !/^\+\d{8,15}$/.test(ph)) e.push("un număr de telefon valid");
+    }
+    if(n === 2){ if(files.length < MIN_P) e.push("cel puțin " + MIN_P + " poze (ai ales " + files.length + ")"); }
+    if(n === 5){ if(!channel) e.push("unde vrei răspunsul"); if(!$("ac-c1").checked || !$("ac-c2").checked) e.push("cele două bife de acord"); }
+    return err(n, e);
+  }
+  [].forEach.call(root.querySelectorAll("[data-go]"), function(b){ b.addEventListener("click", function(){ show(+b.getAttribute("data-go")); }); });
+  [].forEach.call(root.querySelectorAll("[data-next]"), function(b){ b.addEventListener("click", function(){ if(validate(cur)) show(+b.getAttribute("data-next")); }); });
+
+  /* poze */
+  function mb(n){ return (n / 1048576).toFixed(1).replace(".", ",") + " MB"; }
+  function renderThumbs(){
+    $("ac-thumbs").innerHTML = "";
+    files.forEach(function(f, i){
+      var d = document.createElement("div"); d.className = "thumb" + (f.size > MAX ? " big" : "");
+      var img = document.createElement("img"); img.alt = "Poza " + (i + 1); img.src = URL.createObjectURL(f); img.onerror = function(){ img.remove(); };
+      var s = document.createElement("small"); s.textContent = (i + 1) + " · " + mb(f.size) + (f.size > MAX ? " · prea mare" : "");
+      var x = document.createElement("button"); x.type = "button"; x.setAttribute("aria-label", "Scoate poza " + (i + 1)); x.textContent = "×";
+      x.addEventListener("click", function(){ files.splice(i, 1); renderThumbs(); });
+      d.appendChild(img); d.appendChild(s); d.appendChild(x); $("ac-thumbs").appendChild(d);
+    });
+    var big = files.filter(function(f){ return f.size > MAX; }).length;
+    $("ac-files-info").textContent = files.length + (files.length === 1 ? " poză aleasă" : " poze alese") + " (minim " + MIN_P + ", maxim " + MAX_P + ")." + (big ? " " + (big === 1 ? "O poză depășește" : big + " poze depășesc") + " 20 MB: pune linkul spre album sau trimite-mi pozele mari pe e-mail după ce trimiți formularul." : "");
+  }
+  function addFiles(list){
+    var e = [];
+    [].slice.call(list).forEach(function(f){
+      if(!/^image\//.test(f.type) && !/\.(jpe?g|png|heic|heif|webp)$/i.test(f.name)) return e.push(f.name + " nu e o poză");
+      if(files.length >= MAX_P) return e.push("maxim " + MAX_P + " poze");
+      if(files.some(function(g){ return g.name === f.name && g.size === f.size; })) return;
+      files.push(f);
+    });
+    renderThumbs(); err(2, e.filter(function(v, i, a){ return a.indexOf(v) === i; }));
+  }
+  $("ac-files").addEventListener("change", function(){ addFiles(this.files); this.value = ""; });
+  var drop = $("ac-drop");
+  ["dragenter","dragover"].forEach(function(t){ drop.addEventListener(t, function(e){ e.preventDefault(); drop.classList.add("over"); }); });
+  ["dragleave","drop"].forEach(function(t){ drop.addEventListener(t, function(e){ e.preventDefault(); drop.classList.remove("over"); }); });
+  drop.addEventListener("drop", function(e){ if(e.dataTransfer && e.dataTransfer.files) addFiles(e.dataTransfer.files); });
+
+  /* încărcarea unei poze pe serverul Shopify prin coș, apoi linia se scoate */
+  function upload(f, i){
+    var fd = new FormData();
+    fd.append("id", VARIANT); fd.append("quantity", "1");
+    fd.append("properties[_Analiza concurs " + (i + 1) + "]", f, f.name || ("poza-" + (i + 1) + ".jpg"));
+    return fetch("/cart/add.js", {method: "POST", body: fd, headers: {"Accept": "application/json"}, credentials: "same-origin"})
+      .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function(j){
+        var url = j.properties && j.properties["_Analiza concurs " + (i + 1)];
+        var rm = fetch("/cart/change.js", {method: "POST", headers: {"Content-Type": "application/json", "Accept": "application/json"}, body: JSON.stringify({id: j.key, quantity: 0}), credentials: "same-origin"}).catch(function(){});
+        return rm.then(function(){ if(!url || !/^https?:/.test(url)) throw new Error("fără link"); return url; });
+      });
+  }
+
+  function code(){ var c = "", a = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; for(var i = 0; i < 4; i++) c += a[Math.floor(Math.random() * a.length)]; var d = new Date(); return "AC-" + String(d.getDate()).padStart(2, "0") + String(d.getMonth() + 1).padStart(2, "0") + "-" + c; }
+  function v(id){ return $(id).value.trim(); }
+  function block(title, ids){ return "== " + title + " ==\n" + ids.map(function(id){ var el = $(id); return el.getAttribute("data-k") + ": " + (el.value.trim() || "-"); }).join("\n"); }
+  function peak(){
+    return "== Ultimele 7 zile ==\n" + DAYS.map(function(d){
+      var parts = CELLS.map(function(c){ var x = $("ac-d" + d[0] + "-" + c[0]).value.trim(); return x ? c[1].toLowerCase() + ": " + x : ""; }).filter(Boolean);
+      return "Z-" + d[0] + " (" + d[1].toLowerCase() + "): " + (parts.join(" · ") || "-");
+    }).join("\n");
+  }
+
+  $("ac-send").addEventListener("click", function(){
+    if(!validate(5)) return;
+    var btn = this; btn.disabled = true;
+    var ref = code(), ok = [], bad = [];
+    var send = files.filter(function(f){ return f.size <= MAX; });
+    files.forEach(function(f, i){ if(f.size > MAX) bad.push((i + 1) + " (" + mb(f.size) + ", peste 20 MB)"); });
+    show(6); $("ac-done").hidden = true; $("ac-sending").hidden = false;
+    var chain = Promise.resolve();
+    send.forEach(function(f, i){
+      chain = chain.then(function(){
+        $("ac-sendmsg").textContent = "Încarc poza " + (i + 1) + " din " + send.length + " (" + mb(f.size) + ")…";
+        $("ac-upfill").style.width = Math.round(i / (send.length + 1) * 100) + "%";
+        return upload(f, i).then(function(u){ ok.push(u); }, function(e){ bad.push((files.indexOf(f) + 1) + " (" + (f.name || "poză") + ")"); });
+      });
+    });
+    chain.then(function(){
+      $("ac-sendmsg").textContent = "Trimit datele…"; $("ac-upfill").style.width = "92%";
+      var name = v("ac-name");
+      var body = [
+        "ANALIZA DE CONCURS · cod " + ref,
+        "Răspuns pe: " + channel,
+        "",
+        block("Concursul și sportivul", ["ac-name","ac-email","ac-phone","ac-city","ac-cat","ac-comp","ac-date","ac-place","ac-age","ac-height","ac-weeks","ac-w0","ac-w1","ac-nth","ac-coach","ac-neuro"]),
+        "",
+        "== Poze (" + ok.length + ") ==",
+        ok.map(function(u, i){ return (i + 1) + ". " + u; }).join("\n") || "-",
+        bad.length ? "NEURCATE (le trimite pe e-mail): " + bad.join(", ") : "",
+        "Link album: " + (v("ac-album") || "-"),
+        "",
+        block("Pregătirea", ["ac-diet","ac-macro0","ac-macro1","ac-refeed","ac-train","ac-cardio","ac-supp","ac-sleep","ac-hunger"]),
+        "",
+        peak(),
+        "",
+        block("Ziua concursului", ["ac-showday","ac-mirror"]),
+        "",
+        block("Părerea sportivului", ["ac-good","ac-bad","ac-next","ac-ask"])
+      ].join("\n");
+      var subject = "Analiza de concurs · " + ref + " · " + name + " · " + v("ac-cat");
+      var st = {ref: ref, first: name.split(" ")[0], channel: channel, ok: ok.length, bad: bad, subject: subject, body: body.slice(0, 1800), long: body.length > 1800};
+      /* 1. pe e-mail, prin FormSubmit (gratuit; adresa sau aliasul din setarea email_to).
+         FormSubmit răspunde uneori în 60–100 s: cererea pleacă cu keepalive (continuă și după ce pagina trece mai departe), aștept cel mult 10 s */
+      var fsBody = JSON.stringify({_subject: subject, _template: "box", _captcha: "false", _replyto: v("ac-email"), name: name, email: v("ac-email"), message: body});
+      var toMail = !MAIL ? Promise.resolve(false) : Promise.race([
+        fetch("https://formsubmit.co/ajax/" + encodeURIComponent(MAIL), {
+          method: "POST", headers: {"Content-Type": "application/json", "Accept": "application/json"}, body: fsBody, keepalive: fsBody.length < 60000
+        }).then(function(r){ return r.json(); }).then(function(j){ return String(j.success) === "true"; }),
+        new Promise(function(r){ setTimeout(function(){ r(false); }, 10000); })
+      ]).catch(function(){ return false; });
+      return toMail.then(function(mailOk){
+        st.mail = mailOk;
+        /* 2. copie prin formularul de contact Shopify (e-mailul magazinului); trimitere nativă, cu CAPTCHA-ul Shopify; pagina se reîncarcă */
+        var cf = $("ac-contact-form");
+        if(!cf){ done(st, mailOk); return; }
+        try{ sessionStorage.setItem(SENT, JSON.stringify(st)); }catch(e){}
+        if(mailOk){ try{ localStorage.removeItem(DRAFT); }catch(e){} }
+        $("ac-cf-email").value = v("ac-email"); $("ac-cf-name").value = name; $("ac-cf-phone").value = v("ac-phone");
+        $("ac-cf-subject").value = subject; $("ac-cf-channel").value = channel; $("ac-cf-body").value = body;
+        $("ac-sendmsg").textContent = "Aproape gata…"; $("ac-upfill").style.width = "96%";
+        warmCaptcha();
+        captchaReady().then(function(){ if(cf.requestSubmit) cf.requestSubmit(); else cf.submit(); });
+      });
+    });
+  });
+
+  function mailto(subject, text){ return "mailto:" + (/@/.test(MAIL) ? MAIL : "") + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(text); }
+  function done(st, sent){
+    show(6); $("ac-sending").hidden = true; $("ac-done").hidden = false; $("ac-code").textContent = st.ref;
+    var btn = $("ac-mail"), hint = $("ac-mail-hint");
+    if(sent){
+      try{ localStorage.removeItem(DRAFT); }catch(e){}
+      $("ac-done-text").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale și " + st.ok + (st.ok === 1 ? " poză" : " poze") + ". Îți răspund " + (st.channel === "e-mail" ? "pe e-mail" : "pe WhatsApp") + " în maximum 48 de ore. Păstrează codul de mai sus.";
+      if(st.bad && st.bad.length){
+        $("ac-warn").hidden = false; $("ac-warn").innerHTML = "<b>Unele poze n-au urcat: " + st.bad.join(", ") + ".</b><span>Trimite-mi-le pe e-mail ca atașament sau ca link (WeTransfer, Google Drive), cu codul " + st.ref + " în subiect.</span>";
+        btn.hidden = false; btn.textContent = "Trimite pozele lipsă pe e-mail";
+        btn.href = mailto(st.subject + " · poze lipsă", "Salut, Marius! Îți trimit pozele care n-au urcat pe site: " + st.bad.join(", ") + ".");
+      }
+    } else {
+      $("ac-done-title").textContent = "Mai e un pas: trimite-mi analiza pe e-mail.";
+      $("ac-done-text").textContent = "Nu am putut trimite automat formularul. Apasă butonul de mai jos: se deschide aplicația de e-mail cu datele tale și linkurile pozelor; trimite mesajul și îți răspund în maximum 48 de ore. Ce ai scris rămâne salvat pe acest dispozitiv.";
+      btn.hidden = false; btn.textContent = "Trimite pe e-mail"; btn.href = mailto(st.subject, st.body);
+      if(st.long){ hint.hidden = false; hint.textContent = "Textul e lung: dacă nu încape tot, copiază restul din formular în e-mail."; }
+    }
+    $("ac-upfill").style.width = "100%";
+  }
+
+  loadDraft();
+  var back = null; try{ back = JSON.parse(sessionStorage.getItem(SENT) || "null"); }catch(e){}
+  var cs = $("ac-cf-state"), posted = cs && cs.getAttribute("data-ok") === "1" || /[?&]contact_posted=true/.test(location.search), failed = cs && cs.getAttribute("data-err") === "1";
+  if(back && (posted || failed)){
+    try{ sessionStorage.removeItem(SENT); history.replaceState(null, "", location.pathname); }catch(e){}
+    done(back, posted || back.mail);
+    setTimeout(function(){ window.scrollTo({top: Math.max(0, root.getBoundingClientRect().top + window.scrollY - 90)}); }, 60);
+  }
+  else if(/[?&]start=1/.test(location.search)) show(1); else show(0);
+})();
+</script>
+
+
+</main></body></html>

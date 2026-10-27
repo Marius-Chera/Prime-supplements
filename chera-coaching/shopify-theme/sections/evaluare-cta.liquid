@@ -4,6 +4,10 @@
     <h2>{{ section.settings.title }}</h2>
     <p class="lead muted" style="max-width:56ch">{{ section.settings.text }}</p>
     <a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a>
+    {%- if section.settings.alt_label != blank -%}
+    <p class="muted" style="margin:6px 0 0;max-width:56ch">{{ section.settings.alt_text }}</p>
+    <a class="btn ghost" href="{{ section.settings.alt_url }}">{{ section.settings.alt_label }}</a>
+    {%- endif -%}
   </div>
 </section>
 
@@ -15,7 +19,11 @@
     { "type": "text", "id": "title", "label": "Titlu", "default": "Află profilul tău neuro și ușa potrivită" },
     { "type": "textarea", "id": "text", "label": "Text", "default": "4 minute, 72 de afirmații, rezultatul pe loc. Apoi îți scriu eu pe WhatsApp cu planul de pornire." },
     { "type": "text", "id": "cta_label", "label": "Buton", "default": "Începe evaluarea" },
-    { "type": "text", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" }
+    { "type": "text", "id": "cta_url", "label": "Link", "default": "/pages/evaluare" },
+    { "type": "header", "content": "Al doilea buton (Analiza de concurs)" },
+    { "type": "text", "id": "alt_text", "label": "Text", "default": "Ai fost deja pe scenă? Trimite-mi pozele și pregătirea și îți spun în 48 de ore ce a mers și ce nu. Gratuit." },
+    { "type": "text", "id": "alt_label", "label": "Buton (gol = ascuns)", "default": "Analiza de concurs gratuită" },
+    { "type": "text", "id": "alt_url", "label": "Link", "default": "/pages/analiza-concurs" }
   ],
   "presets": [{ "name": "Îndemn evaluare" }]
 }

@@ -1,0 +1,6 @@
+{
+  "sections": {
+    "analiza": { "type": "analiza-concurs", "settings": {} }
+  },
+  "order": ["analiza"]
+}

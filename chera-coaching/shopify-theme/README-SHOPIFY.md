@@ -67,3 +67,10 @@ Codul din acest folder e o temă Shopify completă (Online Store 2.0): pagina pr
 - **Telefonul la checkout:** la produsele fără livrare Shopify nu cere telefonul, așa că tema îl cere pe pagina produsului (coaching, sesiuni, program) și îl pune în comandă.
 - **Template-urile** (`evaluare`, `sesiune`, `program`) se aleg la pagină/produs după publicarea temei.
 - **De verificat la primul test:** încărcarea pozelor din formular (Shopify acceptă fișiere ca proprietăți de comandă; se testează cu o comandă de 1 leu după activarea Netopia).
+
+## 9. Analiza de concurs (27.10, gratuit, /pages/analiza-concurs)
+- Secțiunea `sections/analiza-concurs.liquid` + șablonul `templates/page.analiza-concurs.json`; pagina „Analiza de concurs” cu șablonul `analiza-concurs`.
+- Pozele (5–8, max. 20 MB fiecare) urcă pe serverul Shopify prin coș (proprietate de tip fișier pe produsul din setarea „Produsul folosit pentru încărcarea pozelor”, implicit `program-hipertrofie-5-zile`; produsul trebuie să fie activ). Linia din coș se scoate imediat; linkurile cdn.shopify.com rămân.
+- Datele + linkurile pozelor pleacă (1) prin FormSubmit la adresa din setarea „E-mailul care primește analizele” (implicit marius.chera@yahoo.com; după activare se poate pune aliasul FormSubmit) și (2) prin formularul de contact Shopify (nativ, cu hCaptcha) la e-mailul magazinului.
+- Formularul de contact Shopify NU mai acceptă trimiteri cu fetch (CAPTCHA): orice formular nou trebuie să folosească `{% form 'contact' %}` + submit nativ (requestSubmit), iar hCaptcha se încarcă doar după focus pe un câmp al formularului.
+- Intrări: butonul secundar din `evaluare-cta.liquid` (setările alt_*), cardul din `main-product.liquid` (produse cu „concurs” în handle), nota din `evaluare.liquid`.

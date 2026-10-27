@@ -18,6 +18,14 @@
           
         </div>
       {% endform %}
+      {%- if product.handle contains 'concurs' -%}
+      <div class="card red">
+        <p class="eyebrow">Gratuit · răspuns în 48 h</p>
+        <h3>Ai concurat deja? Începe cu analiza de concurs</h3>
+        <p class="muted" style="margin:0">Îmi trimiți pozele de pe scenă, dieta, antrenamentul și ultima săptămână. Îți spun ce a fost corect, ce a fost greșit și ce schimbăm la următorul concurs.</p>
+        <a class="btn ghost btn-sm" href="/pages/analiza-concurs" style="justify-self:start">Fă analiza de concurs</a>
+      </div>
+      {%- endif -%}
       {% if product.metafields.chera.includes != blank %}<div class="card"><h3>Ce include</h3><div class="rte" style="padding:0;font-size:16px">{{ product.metafields.chera.includes }}</div></div>{% endif %}
     </div>
   </div>

@@ -6,7 +6,6 @@
     },
     "proof": {
       "type": "proof",
-      "settings": {},
       "blocks": {
         "proof_1": {
           "type": "item",
@@ -59,11 +58,11 @@
         "proof_4",
         "proof_5",
         "proof_6"
-      ]
+      ],
+      "settings": {}
     },
     "problema": {
       "type": "problema",
-      "settings": {},
       "blocks": {
         "problema_1": {
           "type": "cause",
@@ -91,11 +90,11 @@
         "problema_1",
         "problema_2",
         "problema_3"
-      ]
+      ],
+      "settings": {}
     },
     "usi": {
       "type": "usi",
-      "settings": {},
       "blocks": {
         "usi_1": {
           "type": "door",
@@ -142,11 +141,11 @@
         "usi_1",
         "usi_2",
         "usi_3"
-      ]
+      ],
+      "settings": {}
     },
     "metoda": {
       "type": "metoda",
-      "settings": {},
       "blocks": {
         "metoda_1": {
           "type": "step",
@@ -182,18 +181,18 @@
         "metoda_2",
         "metoda_3",
         "metoda_4"
-      ]
+      ],
+      "settings": {}
     },
     "rezultate": {
       "type": "rezultate",
       "settings": {
-        "visible": 12,
-        "poze": "chera-foto-093.jpg|\nchera-foto-054.jpg|\nchera-foto-199.jpg|\nchera-foto-074.jpg|\nchera-foto-113.jpg|\nchera-foto-031.jpg|\nchera-foto-188.jpg|\nchera-foto-116.jpg|\nchera-foto-143.jpg|\nchera-foto-075.jpg|\nchera-foto-196.jpg|\nchera-foto-009.jpg|\nchera-foto-186.jpg|\nchera-foto-202.jpg|\nchera-foto-155.jpg|\nchera-foto-213.jpg|\nchera-foto-067.jpg|\nchera-foto-090.jpg|\nchera-foto-228.jpg|\nchera-foto-246.jpg|\nchera-foto-010.jpg|\nchera-foto-242.jpg|\nchera-foto-064.jpg|\nchera-foto-137.jpg|\nchera-foto-123.jpg|\nchera-foto-139.jpg|\nchera-foto-245.jpg|\nchera-foto-125.jpg|\nchera-foto-180.jpg|\nchera-foto-121.jpg|\nchera-foto-127.jpg|\nchera-foto-014.jpg|\nchera-foto-274.jpg|\nchera-foto-028.jpg|\nchera-foto-130.jpg|\nchera-foto-118.jpg|\nchera-foto-061.jpg|\nchera-foto-211.jpg|\nchera-foto-177.jpg|\nchera-foto-058.jpg|\nchera-foto-076.jpg|\nchera-foto-038.jpg|\nchera-foto-001.jpg|\nchera-foto-096.jpg|\nchera-foto-024.jpg|\nchera-foto-029.jpg|\nchera-foto-040.jpg|"
+        "poze": "chera-foto-093.jpg|\nchera-foto-054.jpg|\nchera-pro-card-a.webp|\nchera-pro-card-b.jpg|\nchera-foto-199.jpg|\nchera-foto-074.jpg|\nchera-foto-113.jpg|\nchera-foto-031.jpg|\nchera-foto-188.jpg|\nchera-foto-116.jpg|\nchera-foto-143.jpg|\nchera-foto-075.jpg|\nchera-foto-196.jpg|\nchera-foto-009.jpg|\nchera-foto-186.jpg|\nchera-foto-202.jpg|\nchera-foto-155.jpg|\nchera-foto-213.jpg|\nchera-foto-067.jpg|\nchera-foto-090.jpg|\nchera-foto-228.jpg|\nchera-foto-246.jpg|\nchera-foto-010.jpg|\nchera-foto-242.jpg|\nchera-foto-064.jpg|\nchera-foto-137.jpg|\nchera-foto-123.jpg|\nchera-foto-139.jpg|\nchera-foto-245.jpg|\nchera-foto-125.jpg|\nchera-foto-180.jpg|\nchera-foto-121.jpg|\nchera-foto-127.jpg|\nchera-foto-014.jpg|\nchera-foto-274.jpg|\nchera-foto-028.jpg|\nchera-foto-130.jpg|\nchera-foto-118.jpg|\nchera-foto-211.jpg|\nchera-foto-177.jpg|\nchera-foto-058.jpg|\nchera-foto-076.jpg|\nchera-foto-038.jpg|\nchera-foto-001.jpg|\nchera-foto-096.jpg|\nchera-foto-024.jpg|\nchera-foto-029.jpg|\nchera-foto-040.jpg|",
+        "visible": 12
       }
     },
     "testimoniale": {
       "type": "testimoniale",
-      "settings": {},
       "blocks": {
         "testimoniale_1": {
           "type": "quote",
@@ -229,7 +228,8 @@
         "testimoniale_2",
         "testimoniale_3",
         "testimoniale_4"
-      ]
+      ],
+      "settings": {}
     },
     "garantie": {
       "type": "garantie",
@@ -237,7 +237,9 @@
     },
     "despre": {
       "type": "despre",
-      "settings": {}
+      "settings": {
+        "mosaic_files": "chera-marius-scena-2014.png"
+      }
     },
     "articole": {
       "type": "articole",
@@ -245,7 +247,6 @@
     },
     "intrebari": {
       "type": "intrebari",
-      "settings": {},
       "blocks": {
         "intrebari_1": {
           "type": "qa",
@@ -305,7 +306,8 @@
         "intrebari_5",
         "intrebari_6",
         "intrebari_7"
-      ]
+      ],
+      "settings": {}
     },
     "evaluare_cta": {
       "type": "evaluare-cta",
@@ -313,7 +315,6 @@
     },
     "sesiuni": {
       "type": "sesiuni",
-      "settings": {},
       "blocks": {
         "sesiuni_1": {
           "type": "session",
@@ -322,11 +323,11 @@
             "title": "Sesiune de posing",
             "text": "Lucrăm față în față la pozele obligatorii, tranziții și prezentare, pe categoria ta.",
             "bullets": "Față în față, în Sibiu\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
+            "product": "posing-live-sibiu",
             "price": "300 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-live-sibiu",
-            "product": "posing-live-sibiu"
+            "url": "/products/posing-live-sibiu"
           }
         },
         "sesiuni_2": {
@@ -336,11 +337,11 @@
             "title": "Posing pe video call",
             "text": "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.",
             "bullets": "Pe WhatsApp, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
+            "product": "posing-online",
             "price": "200 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/posing-online",
-            "product": "posing-online"
+            "url": "/products/posing-online"
           }
         },
         "sesiuni_3": {
@@ -350,11 +351,11 @@
             "title": "Consultație video",
             "text": "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.",
             "bullets": "Pe video call WhatsApp, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online",
+            "product": "consultatie-video",
             "price": "500 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
-            "url": "/products/consultatie-video",
-            "product": "consultatie-video"
+            "url": "/products/consultatie-video"
           }
         },
         "sesiuni_4": {
@@ -364,11 +365,11 @@
             "title": "Antrenament 1 la 1",
             "text": "Te antrenez eu, în sală, la Evo Gym Health and Spa din Sibiu: tehnică, intensitate și ce schimbi la antrenamentele tale.",
             "bullets": "Față în față, la Evo Gym Sibiu\nTehnică, intensitate, plan\nRezervi și plătești online",
+            "product": "antrenament-1-la-1-sibiu",
             "price": "350 lei",
             "price_note": "/ 90 de minute",
             "cta": "Alege data",
-            "url": "/products/antrenament-1-la-1-sibiu",
-            "product": "antrenament-1-la-1-sibiu"
+            "url": "/products/antrenament-1-la-1-sibiu"
           }
         }
       },
@@ -377,29 +378,28 @@
         "sesiuni_4",
         "sesiuni_2",
         "sesiuni_3"
-      ]
-    },
-    "aparitii_media": {
-      "type": "aparitii-media",
+      ],
       "settings": {}
     },
     "programe": {
       "type": "sesiuni",
       "settings": {
-        "anchor": "programe",
-        "style": "dark",
         "eyebrow": "Programe de antrenament · 200 lei",
         "title": "Programele mele, gata de descărcat",
         "text": "Aceleași programe pe care le dau sportivilor mei, scrise pe zile, cu exerciții, serii, repetări, tempo și tehnici de intensitate. Plătești, descarci PDF-ul din contul tău și începi mâine. Fără coaching, fără așteptare.",
+        "anchor": "programe",
+        "style": "dark",
         "collection": "programe",
         "cta_label": "Vezi toate programele",
         "cta_url": "/collections/programe"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "instrumente": {
       "type": "instrumente",
+      "settings": {}
+    },
+    "aparitii_media": {
+      "type": "aparitii-media",
       "settings": {}
     }
   },

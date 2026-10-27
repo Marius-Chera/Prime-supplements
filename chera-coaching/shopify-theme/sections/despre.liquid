@@ -1,7 +1,8 @@
 <section class="band about" id="despre">
   <div class="in">
-    <div class="mosaic">
-      {% if section.blocks.size > 0 %}{% for block in section.blocks limit: 4 %}{% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: block.settings.alt }}{% endif %}{% endfor %}{% else %}{% assign mf = section.settings.mosaic_files | split: ',' %}{% for f in mf limit: 4 %}<img src="{{ f | strip | file_url }}" alt="Sportiv pregătit de Marius Chera" loading="lazy" width="480" height="640">{% endfor %}{% endif %}
+    {%- assign mf_count = section.settings.mosaic_files | split: ',' | size -%}
+    <div class="mosaic{% if section.blocks.size == 1 or section.blocks.size == 0 and mf_count == 1 %} single{% endif %}">
+      {% if section.blocks.size > 0 %}{% for block in section.blocks limit: 4 %}{% if block.settings.image != blank %}{{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: block.settings.alt }}{% endif %}{% endfor %}{% else %}{% assign mf = section.settings.mosaic_files | split: ',' %}{% for f in mf limit: 4 %}<img src="{{ f | strip | file_url }}" alt="{% if mf.size == 1 %}Marius Chera pe scenă{% else %}Sportiv pregătit de Marius Chera{% endif %}" loading="lazy" width="480" height="640">{% endfor %}{% endif %}
     </div>
     <div class="stack">
       <div class="row" style="gap:12px">{% if section.settings.avatar != blank %}{{ section.settings.avatar | image_url: width: 120 | image_tag: class: 'avatar', alt: 'Marius Chera' }}{% elsif section.settings.avatar_file != blank %}<img class="avatar" src="{{ section.settings.avatar_file | file_url }}" alt="Marius Chera" width="56" height="56">{% endif %}<p class="eyebrow" style="margin:0">{{ section.settings.eyebrow }}</p></div>

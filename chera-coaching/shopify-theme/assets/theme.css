@@ -103,6 +103,8 @@ p{margin:0}
 @media (max-width:860px){.about .in{grid-template-columns:1fr}}
 .mosaic{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .mosaic img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px}
+.mosaic.single{grid-template-columns:1fr;max-width:520px}
+.mosaic.single img{aspect-ratio:4/5;border-radius:0}
 .avatar{width:56px;height:56px;border-radius:50%;border:2px solid var(--red);object-fit:cover}
 details{border-top:1px solid var(--line);padding-block:14px}
 details:last-of-type{border-bottom:1px solid var(--line)}

@@ -18,7 +18,7 @@ Ferestrele nu se suprapun, ca să nu poți fi rezervat la aceeași oră pe două
 | Posing online | luni–vineri 10:00–13:00 | 10:00 … 12:30 | 120 |
 | Consultație video | luni–vineri 14:00–17:00 | 14:00 … 16:30 | 120 |
 
-Zile libere sărite automat: 30.11, 1.12, 24–26.12, 1–2.01. Intervalele create acum: **29.10 – 25.11.2026**.
+Zile libere sărite automat: 30.11, 1.12, 24–26.12, 1–2.01. Intervalele create acum: **29.10 – 25.11.2026** (Posing online: până pe 2.12, după testul de reimport).
 Programul stă în `chera-coaching/sesiuni/program-sesiuni.json` (zile `l, ma, mi, j, v, s, d`; „10:00-13:00” = sesiuni care încep la 10:00 … 12:30).
 
 ## Unde vezi programările
@@ -54,6 +54,8 @@ Pe calculator, în folderul `Prime-supplements`:
 3. Admin → Products → **Import** → fișierul → bifezi **„Overwrite products with matching handles”** → Upload → verifici numărul de produse/variante → Import.
 4. Verifici pe site că apar zilele noi și că orele vândute nu au reapărut.
 
+Testat pe 27.10.2026 pe „Posing online”: ora 30.10 10:00 pusă pe 0, reimport cu Overwrite și o săptămână în plus → 138 de ore, 137 libere, ora de test a rămas 0; descrierea, poza, eticheta, tipul și șablonul `sesiune` au rămas neschimbate; celelalte produse neatinse. Apoi ora de test a fost repusă pe 1.
+
 Dacă schimbi programul (alte zile/ore), modifici întâi `program-sesiuni.json`, apoi pașii 1–4.
 Prima creare (deja făcută) s-a făcut cu `--complet` (titlu, descriere, poză, SEO); pentru săptămâni noi NU folosi `--complet`, ca să nu-ți rescrie textele modificate în admin.
 
@@ -65,6 +67,7 @@ Prima creare (deja făcută) s-a făcut cu `--complet` (titlu, descriere, poză,
 
 ## Înainte de lansare (de făcut de tine)
 - **Adresa sălii din Sibiu**: pe pagina „Posing live” scrie acum „Sala ________, Sibiu”. Online Store → Themes → Customize → Theme settings → „Adresa pentru sesiunile live din Sibiu”.
+- Reimportul cu Overwrite a fost testat (vezi mai sus).
 - **Plata reală (Netopia)** nu e încă activă. Pentru un test cap-coadă cu plată de test: Settings → Payments → „See all other providers” → **(for testing) Bogus Gateway** → Activate. La checkout: card `1`, nume oarecare, dată viitoare, CVV `111` (numere de test publicate de Shopify, nu un card real). Dezactivezi Bogus Gateway după test.
 - La checkout magazinul cere **contul clientului** (login cu e-mail); e bine așa, pentru că „Sesiunile mele” apare în cont.
 - După testul tău: Orders → comanda de test → **Cancel order** cu „Restock items” bifat, ca ora să reapară în calendar.

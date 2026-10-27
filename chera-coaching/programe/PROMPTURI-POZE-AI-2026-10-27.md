@@ -17,3 +17,19 @@ Generează 6 fotografii separate, în același stil, pentru un site de coaching 
 
 ## După generare
 Salvează cele 6 imagini cu numele: `bikini.jpg`, `classic.jpg`, `mens.jpg`, `bodybuilding.jpg`, `intensitate.jpg`, `hipertrofie.jpg` și pune-le în `D:\Prime Supplements\chera-programe-ai\` (sau atașează-le în conversația din aplicația de pe calculator). De acolo le compun cu ștampila și le urc pe produse.
+
+## Text pentru extensia Claude din Brave (Gemini)
+
+Deschide https://gemini.google.com (sunt deja logat; dacă cere logare, oprește-te și spune-mi). Nu introduce parole, coduri sau date de card, nu cumpăra niciun abonament, nu accepta termeni noi fără să mă întrebi.
+
+1. Pornește o conversație nouă. Generează pe rând, câte un mesaj pentru fiecare, cele 6 imagini de mai jos. Fiecare mesaj începe cu stilul comun și continuă cu descrierea imaginii.
+   Stil comun: „Generează o fotografie realistă, format vertical 4:5, sală de forță întunecată, fundal aproape negru, o singură lumină laterală dură plus o lumină de contur roșie (#e1251b), contrast mare, granulație fină de film, profunzime mică de câmp. Fără niciun text, fără logo-uri sau mărci, fără fețe clar vizibile (persoana din spate, din profil în umbră sau cadrul tăiat sub ochi). Treimea de jos mai întunecată și goală.”
+   - bikini: o sportivă de fitness atletică, din spate-lateral, la hip thrust cu bara pe bancă, fesieri și umeri definiți, echipament sport negru simplu, lumină roșie de contur pe linia spatelui.
+   - classic: un culturist clasic, talie mică, umeri și pulpe pline, poza „front double biceps”, din trei sferturi, fața în umbră, pantaloni scurți de posing negri.
+   - mens: un sportiv cu spate foarte lat și talie mică, din spate, la tracțiuni la bară fixă, sus, lumina pe dorsali, boardshorts negri.
+   - bodybuilding: un culturist masiv, din spate, poza „back double biceps” sub un spot, densitate musculară mare, vene vizibile, ceață ușoară.
+   - intensitate: prim-plan cu mâini cu cretă pe o bară olimpică încărcată cu discuri negre, praf de cretă luminat de roșu, efort maxim.
+   - hipertrofie: un sportiv bine făcut, din profil în umbră, între serii, cu gantere grele lângă rastel, pompaj pe brațe și umeri, contur roșu.
+2. Dacă o imagine are text, logo-uri, o față clară sau mâini/degete deformate, cere-i lui Gemini s-o refacă (maximum 2 încercări).
+3. Descarcă fiecare imagine la rezoluția maximă (butonul de descărcare de pe imagine), în Downloads. Notează pentru fiecare numele fișierului descărcat și cărui program îi corespunde (bikini, classic, mens, bodybuilding, intensitate, hipertrofie).
+4. La final dă-mi lista: program → numele fișierului din Downloads.

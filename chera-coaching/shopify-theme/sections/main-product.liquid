@@ -11,8 +11,12 @@
           <div class="field"><label for="Variant">Opțiune</label><select id="Variant" name="id">{% for v in product.variants %}<option value="{{ v.id }}" {% unless v.available %}disabled{% endunless %}>{{ v.title }} · {{ v.price | money }}</option>{% endfor %}</select></div>
         {% else %}<input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">{% endif %}
         {% unless product.metafields.chera.single_qty %}<div class="qty field"><label for="Quantity">{{ 'product.quantity' | t }}</label><input id="Quantity" type="number" name="quantity" value="1" min="1"></div>{% else %}<input type="hidden" name="quantity" value="1">{% endunless %}
+        {%- if product.tags contains 'program-digital' -%}
+        <p class="note">După plată primești PDF-ul programului pe e-mail, la adresa cu care plătești{% if customer %} ({{ customer.email }}){% endif %}. Îl găsești oricând și în contul tău, la „Programele mele”.</p>
+        {%- else -%}
         <div class="field"><label for="ProductPhone">Telefon WhatsApp</label><input id="ProductPhone" name="properties[Telefon WhatsApp]" type="tel" inputmode="tel" value="{{ customer.phone }}" required placeholder="07xx xxx xxx"></div>
         {% unless customer %}<p class="note">Ca să plătești ai nevoie de un cont: îl faci în 30 de secunde la checkout. Acolo primești planul, check-in-ul și WhatsApp-ul meu.</p>{% endunless %}
+        {%- endif -%}
         <div class="row">
           <button class="btn" type="submit" name="add" {% unless product.available %}disabled{% endunless %}>{% if product.available %}{{ 'product.add_to_cart' | t }}{% else %}{{ 'product.sold_out' | t }}{% endif %}</button>
           

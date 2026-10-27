@@ -1,7 +1,7 @@
 <section class="band tight">
   <div class="in">
     <div class="proof">
-      {% for block in section.blocks %}{% if block.settings.url != blank %}<a class="proof-link" href="{{ block.settings.url }}" {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }} <span aria-hidden="true">→</span></small></a>{% else %}<div {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }}</small></div>{% endif %}{% endfor %}
+      {% for block in section.blocks %}{% if block.settings.url != blank %}<a class="proof-link" href="{{ block.settings.url }}" {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{% if block.settings.label != blank %}{{ block.settings.label }} {% endif %}<span aria-hidden="true">→</span></small></a>{% else %}<div {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }}</small></div>{% endif %}{% endfor %}
     </div>
   </div>
 </section>
@@ -21,7 +21,7 @@
     { "type": "item", "settings": { "value": "26", "label": "victorii NPC Pro Qualifier" } },
     { "type": "item", "settings": { "value": "100+", "label": "clienți online" } },
     { "type": "item", "settings": { "value": "16+", "label": "ani de antrenorat" } },
-    { "type": "item", "settings": { "value": "Certificări", "label": "vezi diplomele", "url": "/pages/certificari" } }
+    { "type": "item", "settings": { "value": "Certificări", "label": "", "url": "/pages/certificari" } }
   ]}]
 }
 {% endschema %}

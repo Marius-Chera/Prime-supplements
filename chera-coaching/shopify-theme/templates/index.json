@@ -47,7 +47,7 @@
           "type": "item",
           "settings": {
             "value": "Certificări",
-            "label": "vezi diplomele",
+            "label": "",
             "url": "/pages/certificari"
           }
         }

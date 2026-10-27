@@ -106,11 +106,26 @@
     <p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Pornește, orientativ, de la modelul Braverman al celor patru neurotransmițători.</p>
   </section>
 </div>
+{%- comment -%} trimiterea rezultatului: formularul de contact Shopify nativ (cu hCaptcha) + copie prin FormSubmit la e-mailul din setări {%- endcomment -%}
+{%- form 'contact', id: 'ev-contact-form' -%}
+  <div hidden>
+    <span id="ev-cf-state" data-ok="{% if form.posted_successfully? %}1{% endif %}" data-err="{% if form.errors %}1{% endif %}"></span>
+    <input type="hidden" name="contact[email]" id="ev-cf-email">
+    <input type="hidden" name="contact[name]" id="ev-cf-name">
+    <input type="hidden" name="contact[Telefon]" id="ev-cf-phone">
+    <input type="hidden" name="contact[Oraș]" id="ev-cf-city">
+    <input type="hidden" name="contact[Subiect]" id="ev-cf-subject">
+    <input type="hidden" name="contact[Răspuns pe]" id="ev-cf-channel">
+    <input type="hidden" name="contact[Context]" id="ev-cf-context">
+    <textarea name="contact[body]" id="ev-cf-body"></textarea>
+  </div>
+{%- endform -%}
+<div id="ev-cfg" data-mail="{{ section.settings.email_to | strip }}" hidden></div>
 {{ "quiz-rezultat.js" | asset_url | script_tag }}
 {{ "quiz-suplimente.js" | asset_url | script_tag }}
 {{ "quiz.js" | asset_url | script_tag }}
 
 </section>
 {% schema %}
-{ "name": "Evaluare (profil neuro)", "settings": [ { "type": "paragraph", "content": "Numărul de WhatsApp și receptorul se setează în Setări temă → Chera Protocol. Întrebările și textele rezultatului sunt în assets/quiz.js." } ], "presets": [ { "name": "Evaluare (profil neuro)" } ] }
+{ "name": "Evaluare (profil neuro)", "settings": [ { "type": "paragraph", "content": "Numărul de WhatsApp și receptorul se setează în Setări temă → Chera Protocol. Întrebările și textele rezultatului sunt în assets/quiz.js." }, { "type": "text", "id": "email_to", "label": "E-mailul care primește rezultatele (copie)", "default": "marius.chera@yahoo.com", "info": "Trimis prin FormSubmit (gratuit), pe lângă formularul de contact Shopify. După activare se poate pune aliasul FormSubmit." } ], "presets": [ { "name": "Evaluare (profil neuro)" } ] }
 {% endschema %}

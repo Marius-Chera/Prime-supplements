@@ -28,8 +28,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 
 ### Chera Coaching – deschis după 27.10 seara
 - [Marius] **Activează FormSubmit pentru Analiza de concurs:** Yahoo → Spam → „Action Required: Activate FormSubmit on …/pages/analiza-concurs” → ACTIVATE FORM; marchează „Nu e spam” (și viitoarele „Analiza de concurs · AC-…”). Apoi Claude pune aliasul FormSubmit în setarea secțiunii (email_to), ca adresa Yahoo să nu mai apară în pagină, și refacem un test.
-- [Claude] **Evaluarea gratuită nu trimite rezultatul pe e-mail**: `submitContact` din `assets/quiz.js` folosește fetch la /contact, refuzat acum de CAPTCHA-ul Shopify (400 „Missing CAPTCHA token”). De reparat ca la Analiza de concurs (formular contact nativ ascuns + focusin + requestSubmit) și, eventual, copie pe Yahoo prin FormSubmit.
-- [Marius] Meniul principal e plin (7 elemente): dacă vrei „Analiza de concurs” în meniu, alege ce element iese (ex. „Întrebări”).
+- ~~[Claude] Evaluarea gratuită nu trimite rezultatul pe e-mail~~ – **reparat pe 27.10 seara** (formular contact nativ cu hCaptcha + copie FormSubmit pe Yahoo; vezi JURNAL).
 - [Marius] Reautorizează conectorul Shopify (claude.ai → Setări → Conectori → Shopify) pe magazinul **bp66vh-bq**.
 - [Marius] Urcă `chera-coaching/chera-protocol-theme.zip` (Online Store → Themes → Import → Upload zip), testează în Preview /pages/evaluare, apoi Publish.
 - [Claude, sesiune nouă] Prin conector: blogul „articole” cu cele 20 de articole din `chera-coaching/articole-shopify.json`; colecția „Programe” + cele 6 produse la 200 lei din `chera-coaching/programe/programe.json` (digitale, fără livrare), PDF-urile din `programe/pdf/` urcate în Files și legate în metafield-ul `chera.pdf`; apoi conectorul înapoi pe Prime.

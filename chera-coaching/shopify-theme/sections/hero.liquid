@@ -5,7 +5,7 @@
       {%- assign t = section.settings.title | strip -%}{%- assign parts = t | split: '. ' -%}
       {%- if parts.size > 1 -%}{%- assign last = parts | last -%}{%- assign n = parts.size | minus: 1 -%}{%- assign first = parts | slice: 0, n | join: '. ' -%}<h1>{{ first }}. <span class="accent">{{ last }}</span></h1>{%- else -%}<h1>{{ t }}</h1>{%- endif -%}
       <p class="lead muted">{{ section.settings.text }}</p>
-      <div class="cta-row"><a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a><a class="link-arrow" href="{{ section.settings.cta2_url }}">{{ section.settings.cta2_label }} →</a></div>
+      <div class="cta-row"><a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a>{% if section.settings.cta3_label != blank %}<a class="btn" href="{{ section.settings.cta3_url }}">{{ section.settings.cta3_label }}</a>{% endif %}<a class="link-arrow" href="{{ section.settings.cta2_url }}">{{ section.settings.cta2_label }} →</a></div>
       <div class="proof-mini"><span><b>{{ section.settings.mini_1_v }}</b>{{ section.settings.mini_1 }}</span><span><b>{{ section.settings.mini_2_v }}</b>{{ section.settings.mini_2 }}</span><span><b>{{ section.settings.mini_3_v }}</b>{{ section.settings.mini_3 }}</span></div>
     </div>
     {% if section.settings.image != blank %}
@@ -28,6 +28,8 @@
     { "type": "textarea", "id": "text", "label": "Text", "default": "Chera Protocol este metoda cu care am făcut 10 IFBB Pro, aplicată la tine. Eu îți fac planul, eu îl ajustez, eu îți răspund. Fie că vrei să urci pe scenă, fie doar să arăți ca unul care ar putea." },
     { "type": "text", "id": "cta_label", "label": "Buton 1", "default": "Fă evaluarea gratuită" },
     { "type": "text", "id": "cta_url", "label": "Link 1", "default": "/pages/evaluare" },
+    { "type": "text", "id": "cta3_label", "label": "Buton roșu 2 (gol = ascuns)", "default": "Analiza de concurs gratuită" },
+    { "type": "text", "id": "cta3_url", "label": "Link buton roșu 2", "default": "/pages/analiza-concurs" },
     { "type": "text", "id": "cta2_label", "label": "Buton 2", "default": "Vezi rezultatele" },
     { "type": "text", "id": "cta2_url", "label": "Link 2", "default": "/#rezultate" },
     { "type": "text", "id": "mini_1_v", "label": "Dovadă 1 – cifră", "default": "10" },

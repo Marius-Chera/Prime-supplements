@@ -194,7 +194,6 @@ function buildResult(){
   $("r-walink").href = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   state.result={code,type:nt.type,dom:nt.dom.top,mixed:nt.dom.mixed,scoresA:nt.scores,scoresB:bal.scores,deficit:defCode,level:bal.level,allHigh:bal.allHigh};
   save();
-  submit();
 }
 /* concluziile extinse (texte în assets/quiz-rezultat.js) */
 function renderExt(type, bal, goal){
@@ -223,23 +222,35 @@ async function submit(){
   catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite-mi textul de mai jos pe WhatsApp și îl preiau eu."; }
 }
 
-/* fără receptor Google: trimit prin formularul de contact Shopify (ajunge pe e-mailul magazinului) */
+/* fără receptor Google: (1) copie pe e-mail prin FormSubmit (adresa din setarea secțiunii evaluare),
+   (2) formularul de contact Shopify nativ, cu hCaptcha (fetch la /contact e refuzat de CAPTCHA). Pagina se reîncarcă și reafișează rezultatul. */
+function contactParts(){
+  const c=state.ctx, r=state.result;
+  return {
+    subject:`Evaluare gratuită · PROFIL ${r.code} · ${c.name}`,
+    context:`obiectiv: ${c.goal} · ani de sală: ${c.years} · somn: ${c.sleep} · cafea: ${c.caffeine} · antrenamente/săpt: ${c.days}`,
+    body:(state.summary||"")+`\n\nScoruri natura D${r.scoresA.D} A${r.scoresA.A} G${r.scoresA.G} S${r.scoresA.S} · echilibru D${r.scoresB.D} A${r.scoresB.A} G${r.scoresB.G} S${r.scoresB.S}`
+  };
+}
 async function submitContact(st){
-  const c=state.ctx, r=state.result, f=new FormData();
-  f.append("form_type","contact"); f.append("utf8","✓");
-  f.append("contact[email]",c.email); f.append("contact[name]",c.name);
-  f.append("contact[Telefon]",c.phone); f.append("contact[Oraș]",c.city||"-");
-  f.append("contact[Subiect]",`Evaluare gratuită · PROFIL ${r.code} · ${c.name}`);
-  f.append("contact[Răspuns pe]",c.channel==="email"?"e-mail":"WhatsApp");
-  f.append("contact[Context]",`obiectiv: ${c.goal} · ani de sală: ${c.years} · somn: ${c.sleep} · cafea: ${c.caffeine} · antrenamente/săpt: ${c.days}`);
-  f.append("contact[body]",(state.summary||"")+`
-
-Scoruri natura D${r.scoresA.D} A${r.scoresA.A} G${r.scoresA.G} S${r.scoresA.S} · echilibru D${r.scoresB.D} A${r.scoresB.A} G${r.scoresB.G} S${r.scoresB.S}`);
-  try{
-    const res=await fetch("/contact",{method:"POST",body:f,credentials:"same-origin"});
-    if(!res.ok || /challenge/.test(res.url)) throw new Error("challenge");
-    st.textContent = c.channel==="email" ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore.";
-  }catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp."; }
+  const c=state.ctx, p=contactParts(), cf=$("ev-contact-form"), cfg=$("ev-cfg"), mail=cfg?(cfg.dataset.mail||"").trim():"";
+  const channel=c.channel==="email"?"e-mail":"WhatsApp";
+  st.textContent="Trimit rezultatul la mine…";
+  if(mail){
+    const fsBody=JSON.stringify({_subject:p.subject,_template:"box",_captcha:"false",_replyto:c.email,name:c.name,email:c.email,
+      message:`Telefon: ${c.phone}\nOraș: ${c.city||"-"}\nRăspuns pe: ${channel}\n${p.context}\n\n${p.body}`});
+    try{ fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}).catch(()=>{}); }catch(e){}
+  }
+  if(!cf){ st.textContent="Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp."; return; }
+  const set=(id,v)=>{ const el=$(id); if(el) el.value=v; };
+  set("ev-cf-email",c.email); set("ev-cf-name",c.name); set("ev-cf-phone",c.phone); set("ev-cf-city",c.city||"-");
+  set("ev-cf-subject",p.subject); set("ev-cf-channel",channel); set("ev-cf-context",p.context); set("ev-cf-body",p.body);
+  try{ sessionStorage.setItem("cp-neuro-sent","1"); }catch(e){}
+  /* hCaptcha-ul Shopify se încarcă la primul focus pe un câmp al formularului */
+  $("ev-cf-email").dispatchEvent(new FocusEvent("focusin",{bubbles:true}));
+  for(let i=0;i<40 && !window.hcaptcha;i++) await new Promise(r=>setTimeout(r,250));
+  await new Promise(r=>setTimeout(r,800));
+  if(cf.requestSubmit) cf.requestSubmit(); else cf.submit();
 }
 
 /* ===== CONTEXT FORM ===== */
@@ -266,8 +277,18 @@ $("btn-start").addEventListener("click",()=>{ state.phase="A"; state.page=0; sta
 $("btn-next").addEventListener("click",next);
 $("btn-back").addEventListener("click",back);
 $("btn-back2").addEventListener("click",()=>{ show("quiz"); renderPage(); });
-$("btn-result").addEventListener("click",()=>{ if(!validateCtx()) return; buildResult(); show("result"); });
+$("btn-result").addEventListener("click",()=>{ if(!validateCtx()) return; buildResult(); show("result"); submit(); });
 
 /* resume if the viewer left mid-quiz */
-if(state.result && state.ctx){ /* finished before: show intro, keep data */ }
+/* întoarcerea după formularul de contact Shopify: reafișez rezultatul cu starea trimiterii */
+let sentBack=false; try{ sentBack=sessionStorage.getItem("cp-neuro-sent")==="1"; }catch(e){}
+const cfState=$("ev-cf-state"), cfPosted=(cfState&&cfState.dataset.ok==="1")||/[?&]contact_posted=true/.test(location.search), cfFailed=!!(cfState&&cfState.dataset.err==="1");
+if(sentBack && state.result && state.ctx && (cfPosted||cfFailed)){
+  try{ sessionStorage.removeItem("cp-neuro-sent"); history.replaceState(null,"",location.pathname); }catch(e){}
+  buildResult(); show("result");
+  $("r-sendstatus").textContent = cfPosted
+    ? (state.ctx.channel==="email" ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore.")
+    : "Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp.";
+}
+else if(state.result && state.ctx){ /* finished before: show intro, keep data */ }
 else if(answeredCount()>0 && !state.result){ show("quiz"); renderPage(); }

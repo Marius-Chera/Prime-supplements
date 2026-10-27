@@ -1,3 +1,13 @@
+<style>
+  /* butoanele roșii din antet: text alb, clar (regula .nav-actions a le făcea gri) */
+  .nav-actions a.btn{color:#fff;font-weight:700;letter-spacing:.07em;white-space:nowrap}
+  .nav-actions a.btn:hover{background:#b81d15;color:#fff}
+  .site-nav .in{max-width:1320px}
+  .nav-links a,.nav-actions a{white-space:nowrap}
+  .nav-actions{gap:12px}
+  @media (max-width:1300px){.nav-links{gap:16px;font-size:14px}}
+  @media (max-width:1180px){.nav-actions .nav-cta2{display:none}}
+</style>
 <nav class="site-nav" id="site-nav">
   <div class="in">
     <a class="brand" href="{{ routes.root_url }}">{% render 'logo-stamp' %}</a>
@@ -14,6 +24,7 @@
       {% endif %}
       <a class="nav-cart" href="{{ routes.cart_url }}" aria-label="{{ 'general.cart.title' | t }}">Coș{% if cart.item_count > 0 %} ({{ cart.item_count }}){% endif %}</a>
       <a class="btn btn-sm" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a>
+      {%- if section.settings.cta2_label != blank -%}<a class="btn btn-sm nav-cta2" href="{{ section.settings.cta2_url }}">{{ section.settings.cta2_label }}</a>{%- endif -%}
     </div>
   </div>
 </nav>
@@ -24,7 +35,9 @@
   "settings": [
     { "type": "link_list", "id": "menu", "label": "Meniu", "default": "main-menu" },
     { "type": "text", "id": "cta_label", "label": "Buton", "default": "Evaluare gratuită" },
-    { "type": "text", "id": "cta_url", "label": "Link buton", "default": "/pages/evaluare" }
+    { "type": "text", "id": "cta_url", "label": "Link buton", "default": "/pages/evaluare" },
+    { "type": "text", "id": "cta2_label", "label": "Al doilea buton roșu (gol = ascuns)", "default": "Analiza de concurs" },
+    { "type": "text", "id": "cta2_url", "label": "Link al doilea buton", "default": "/pages/analiza-concurs" }
   ]
 }
 {% endschema %}

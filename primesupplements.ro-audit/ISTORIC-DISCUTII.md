@@ -188,3 +188,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
 ### 27.10.2026 seara – Articolele Chera nu numesc pe nimeni
 - Marius: „am zis doar să te inspiri și să scrii articolele ca și cum sunt scrise de mine cu ideile mele, fără să menționezi absolut pe nimeni”. Decizie permanentă: în articolele Chera Protocol nu apare niciun nume de antrenor, autor, carte străină, site sau publicație, fără rând de sursă și fără studii citate cu autori/ani; totul la persoana I, ca ideile și experiența lui Marius. Singura carte pomenită poate fi a lui („Dieta Anti-Aging”). Înlocuiește regula veche din planul editorial („rând de sursă la final”).
+
+### 27.10.2026 – Prezentare Prime pentru Mega Image
+- Proprietarul a lipit un brief de „portofoliu de prezentare de brand” (secțiuni: produse de bază, consumabile mici, batoane proteice, moodboard, fără prețuri) și a lămurit apoi că este prezentarea brandului Prime pentru a încerca listarea produselor la Mega Image. Livrat `agenti/PREZENTARE-PRIME-MEGA-IMAGE-2026-10-27.pdf`, 13 slide-uri, fără prețuri; propunerea de sortiment pe două trepte (impuls: batoane, Whey Go, Ready To Go, shot-uri, shaker; nutriție sportivă: Whey 1 kg, Creapure 300 g, Creamy Rice, unturi, D3+K2, magneziu, Omega-3). Condițiile comerciale rămân de discutat separat.

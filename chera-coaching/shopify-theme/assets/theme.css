@@ -221,3 +221,8 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .file-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 @media (max-width:520px){.file-row{grid-template-columns:1fr}}
 .field input[type=file]{padding:10px;font-size:14px}
+
+/* logo */
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand-mark{height:34px;width:34px;flex:none}
+.site-footer .brand-mark{height:28px;width:28px}

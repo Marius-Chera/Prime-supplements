@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="in">
-    <div class="row between"><a class="brand" href="{{ routes.root_url }}">Chera <b>Protocol</b></a><span>{{ settings.site_label }}</span></div>
+    <div class="row between"><a class="brand" href="{{ routes.root_url }}">{% render 'logo-mark' %}<span>Chera <b>Protocol</b></span></a><span>{{ settings.site_label }}</span></div>
     <div class="row">
       {% for link in section.settings.menu.links %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}
       <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC</a>

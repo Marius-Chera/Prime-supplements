@@ -136,7 +136,12 @@ ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
       <div class="field"><label for="f-phone">Telefon (WhatsApp)</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx"></div>
       <div class="field"><label for="f-email">E-mail</label><input id="f-email" type="email" autocomplete="email" placeholder="nume@exemplu.ro"></div>
     </div>
-    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat pe WhatsApp, la numărul de mai sus, de Marius Chera, cu rezultatul și planul de pornire.</span></label>
+    <div class="field"><label>Unde vrei să primești răspunsul meu?</label>
+      <div class="choice" role="radiogroup" id="f-channel">
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="whatsapp">Pe WhatsApp, la numărul de mai sus</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="email">Pe e-mail, la adresa de mai sus</button>
+      </div></div>
+    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat de Marius Chera, pe canalul ales mai sus, cu rezultatul și planul de pornire.</span></label>
     <label class="check"><input type="checkbox" id="c-gdpr"><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></label>
     <p class="err" id="ctx-err" hidden></p>
     <div class="nav">
@@ -179,7 +184,7 @@ ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
       <p class="hint" id="r-sendstatus"></p>
       <a class="btn" id="r-walink" href="#" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>
     </div>
-    <p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Model inspirat de Braverman și de neurotipurile lui Christian Thibaudeau; întrebările și recomandările aparțin Chera Protocol.</p>
+    <p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Pornește, orientativ, de la modelul Braverman al celor patru neurotransmițători.</p>
   </section>
 </div>
 
@@ -368,7 +373,11 @@ function buildResult(){
   $("r-door").innerHTML=`<p class="eyebrow">Recomandarea noastră</p><h2>${door.title}</h2><p>${door.text}</p><p class="hint">Butonul se activează când magazinul e lansat; până atunci, pasul următor e WhatsApp.</p>`;
   const msg = `Salut! Am făcut evaluarea Chera Protocol. Profil: ${code}. Sunt ${state.ctx.name||""}, ${state.ctx.city||""}, obiectiv: ${goal}. Scoruri natura D${nt.scores.D} A${nt.scores.A} G${nt.scores.G} S${nt.scores.S}; echilibru D${bal.scores.D} A${bal.scores.A} G${bal.scores.G} S${bal.scores.S}.`;
   $("r-wacode").textContent = msg;
-  $("r-sendtext").textContent = `Îți scriu eu pe WhatsApp la ${state.ctx.phone}. Dacă vrei să-mi scrii tu primul, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`;
+  $("r-sendtext").textContent = state.ctx.channel==="email"
+    ? `Îți trimit rezultatul și planul de pornire pe e-mail, la ${state.ctx.email}. Dacă vrei să-mi scrii și pe WhatsApp, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`
+    : `Îți scriu eu pe WhatsApp la ${state.ctx.phone}. Dacă vrei să-mi scrii tu primul, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`;
+  const txt=(id)=>[...document.querySelectorAll(`#${id} li`)].map(l=>"• "+l.textContent).join("\n");
+  state.summary = `PROFIL ${code} · ${T.name} (${nt.type})\n${$("r-sub").textContent}\n\nCUM EȘTI\n${txt("r-who")}\n\nCUM TE ANTRENEZI\n${txt("r-train")}\n\nCUM MĂNÂNCI\n${txt("r-diet")}\n\nECHILIBRUL TĂU ACUM\n${$("r-balance").innerText.trim()}\n\n${door.title.toUpperCase()}\n${door.text}`;
   $("r-walink").href = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   state.result={code,type:nt.type,dom:nt.dom.top,mixed:nt.dom.mixed,scoresA:nt.scores,scoresB:bal.scores,deficit:defCode,level:bal.level,allHigh:bal.allHigh};
   save();
@@ -377,24 +386,27 @@ function buildResult(){
 async function submit(){
   const st=$("r-sendstatus");
   if(!CONFIG.SHEET_ENDPOINT){ st.textContent="Rezultatul e salvat pe acest dispozitiv. Trimiterea către mine se activează la lansare."; return; }
-  const payload={ts:new Date().toISOString(),...state.ctx,...state.result,ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
-  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent="Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore."; }
+  const payload={ts:new Date().toISOString(),...state.ctx,...state.result,summary:state.summary||"",ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
+  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = state.ctx.channel==="email" ? "Rezultatul a ajuns la mine și ți l-am trimis și pe e-mail. Îți scriu cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore."; }
   catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite-mi textul de mai jos pe WhatsApp și îl preiau eu."; }
 }
 
 /* ===== CONTEXT FORM ===== */
-let goalVal = null;
+let goalVal = null, channelVal = null;
 $("f-goal").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{ goalVal=b.dataset.v; $("f-goal").querySelectorAll(".opt").forEach(o=>o.setAttribute("aria-checked","false")); b.setAttribute("aria-checked","true"); }));
+$("f-channel").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{ channelVal=b.dataset.v; $("f-channel").querySelectorAll(".opt").forEach(o=>o.setAttribute("aria-checked","false")); b.setAttribute("aria-checked","true"); }));
 function validateCtx(){
   const errs=[];
   if(!goalVal) errs.push("alege obiectivul");
+  if(!channelVal) errs.push("alege unde vrei răspunsul");
+  if(channelVal==="email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($("f-email").value.trim())) errs.push("o adresă de e-mail validă");
   ["f-years","f-sleep","f-caf","f-days"].forEach(id=>{ if(!$(id).value) errs.push($(id).previousElementSibling.textContent.toLowerCase()); });
   if(!$("f-name").value.trim()) errs.push("prenumele");
   const ph=$("f-phone").value.replace(/[^\d+]/g,"");
   if(!/^(\+?40|0)?7\d{8}$/.test(ph)) errs.push("un număr de telefon valid (07xx xxx xxx)");
   if(!$("c-wa").checked||!$("c-gdpr").checked) errs.push("cele două bife de acord");
   const el=$("ctx-err"); if(errs.length){ el.hidden=false; el.textContent="Mai trebuie: "+errs.join(", ")+"."; return false; } el.hidden=true;
-  state.ctx={goal:goalVal,years:$("f-years").value,sleep:$("f-sleep").value,caffeine:$("f-caf").value,days:$("f-days").value,name:$("f-name").value.trim(),city:$("f-city").value.trim(),phone:ph.replace(/^(\+?40|0)/,"0"),email:$("f-email").value.trim(),consentWa:true,consentGdpr:true};
+  state.ctx={goal:goalVal,channel:channelVal,years:$("f-years").value,sleep:$("f-sleep").value,caffeine:$("f-caf").value,days:$("f-days").value,name:$("f-name").value.trim(),city:$("f-city").value.trim(),phone:ph.replace(/^(\+?40|0)/,"0"),email:$("f-email").value.trim(),consentWa:true,consentGdpr:true};
   return true;
 }
 

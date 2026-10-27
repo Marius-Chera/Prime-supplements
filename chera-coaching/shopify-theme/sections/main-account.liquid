@@ -72,10 +72,10 @@
     {% endif %}
 
     {%- capture chera_sessions -%}
-      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' -%}{%- for line in order.line_items -%}{%- if line.product.template_suffix == 'sesiune' -%}
+      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' and order.cancelled == false -%}{%- for line in order.line_items -%}{%- if line.product.template_suffix == 'sesiune' -%}
         <div class="row between" style="padding-block:10px;border-bottom:1px solid var(--line)">
-          <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">{{ line.properties['Programare'] | default: line.variant.title }}</div></div>
-          <a class="btn ghost btn-sm" href="#" target="_blank" rel="noopener" data-gcal data-start="{{ line.variant.title }}" data-mins="{{ line.product.metafields.chera.durata | default: 30 }}" data-title="{{ line.product.title | escape }} · Chera Protocol" data-loc="{% if line.product.tags contains 'online' %}Video call WhatsApp{% else %}{{ settings.sibiu_address | escape }}{% endif %}">Adaugă în calendar</a>
+          <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">{{ line.properties['Programare'] | default: line.variant.title | default: line.title }}</div></div>
+          <a class="btn ghost btn-sm" href="#" target="_blank" rel="noopener" data-gcal data-start="{{ line.variant.title | default: line.title }}" data-mins="{{ line.product.metafields.chera.durata | default: 30 }}" data-title="{{ line.product.title | escape }} · Chera Protocol" data-loc="{% if line.product.tags contains 'online' %}Video call WhatsApp{% else %}{{ settings.sibiu_address | escape }}{% endif %}">Adaugă în calendar</a>
         </div>
       {%- endif -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
     {%- endcapture -%}

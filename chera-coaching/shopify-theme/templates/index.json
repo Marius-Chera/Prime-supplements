@@ -46,8 +46,9 @@
         "proof_6": {
           "type": "item",
           "settings": {
-            "value": "FRCF",
-            "label": "antrenor certificat"
+            "value": "Certificări",
+            "label": "vezi diplomele",
+            "url": "/pages/certificari"
           }
         }
       },
@@ -128,9 +129,9 @@
           "settings": {
             "tag": "Ușa C · Start singur",
             "title": "Programul meu personalizat",
-            "text": "Completezi un formular scurt: înălțime, greutate, scop, experiența de sală și poze. Plătești, iar eu îți construiesc programul pe datele tale: antrenament, dietă și suplimente.",
-            "bullets": "Formular înainte de plată, cu poze\nAntrenament, dietă și suplimente scrise de mine\nUpgrade la coaching cu prețul programului dedus",
-            "price": "200–400 lei",
+            "text": "Completezi evaluarea gratuită și un formular cu datele tale: înălțime, greutate, scop, experiența de sală și poze. Plătești o dată, iar eu îți scriu programul complet, 100% pe datele tale: antrenament, dietă și suplimente.",
+            "bullets": "Antrenament + dietă + suplimente, scrise de mine pe profilul tău din evaluare și pe formular\nFără consultanță săptămânală: primești programul și îl aplici singur\nVrei o actualizare? Îl cumperi din nou, cu datele noi\nUpgrade la coaching cu prețul programului dedus",
+            "price": "500 lei",
             "price_note": "o dată",
             "cta": "Completează formularul",
             "url": "/collections/programe"

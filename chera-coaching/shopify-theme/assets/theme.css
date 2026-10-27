@@ -283,12 +283,30 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 @media (max-width:960px){.ft-main{grid-template-columns:repeat(2,1fr)}.ft-brand{grid-column:1/-1}}
 @media (max-width:520px){.ft-main{grid-template-columns:1fr 1fr;gap:28px 20px;padding-block:44px 28px}.ft-note{margin:0;text-align:left}.ft-cta .in{padding-block:34px}.ft-cta .btn{width:100%}}
 
-/* Hero: titlu mai mic, poză mare cu ramă roșie decalată */
-.hero{padding-block:64px}
-.hero .in{grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.hero h1{font-size:clamp(38px,4.9vw,66px);line-height:.98}
-.hero .lead{font-size:clamp(17px,1.6vw,19px);max-width:44ch}
-.hero .fig{margin-right:18px}
-.hero .fig img{border-radius:10px;box-shadow:18px 18px 0 -2px var(--bg),18px 18px 0 0 var(--red)}
-.hero .fig figcaption{margin-top:18px}
-@media (max-width:860px){.hero .in{gap:36px}.hero .fig{margin-right:12px}.hero .fig img{box-shadow:12px 12px 0 -2px var(--bg),12px 12px 0 0 var(--red)}}
+/* Bara de dovezi: cardul-buton (Certificări) */
+.proof a.proof-link{text-decoration:none;color:inherit;background:var(--red);transition:background .2s}
+.proof a.proof-link b{color:#fff;font-size:30px;padding-top:5px}
+.proof a.proof-link small{color:#fff;opacity:.9}
+.proof a.proof-link:hover{background:#b81d15}
+
+/* Hero v3 (după raportul Dribbble): poză full-height fără ramă, topită în fundal; titlu cu accent roșu; un CTA principal + link; dovezi compacte */
+.hero{padding-block:0}
+.hero .in{grid-template-columns:1.05fr .95fr;gap:0;align-items:stretch;min-height:620px}
+.hero .stack{padding-block:72px 64px;padding-right:48px;align-self:center;gap:20px}
+.hero h1{font-size:clamp(40px,5.2vw,72px);line-height:.96;letter-spacing:0}
+.hero h1 .accent{color:var(--red)}
+.hero .lead{font-size:clamp(17px,1.5vw,19px);max-width:46ch}
+.hero .fig{position:relative;margin:0 calc(-1 * max(16px,(100vw - 1100px) / 2)) 0 0;min-height:420px}
+.hero .fig img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:0;aspect-ratio:auto;filter:contrast(1.06) saturate(.9)}
+.hero .fig::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--bg) 0,rgba(14,13,13,.6) 16%,transparent 48%),linear-gradient(180deg,transparent 55%,rgba(14,13,13,.9) 100%)}
+.hero .fig figcaption{position:absolute;left:28px;right:28px;bottom:24px;z-index:2;margin:0;color:var(--fg);font-size:12px}
+.hero .fig figcaption::before{content:"";display:inline-block;width:22px;height:2px;background:var(--red);vertical-align:middle;margin-right:10px}
+.hero .cta-row{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.hero .link-arrow{color:var(--fg);text-decoration:none;font:600 14px var(--body);text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid var(--line);padding-bottom:3px;transition:border-color .2s}
+.hero .link-arrow:hover{border-color:var(--red)}
+.hero .proof-mini{display:flex;flex-wrap:wrap;gap:10px 0;margin-top:10px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.hero .proof-mini span{display:inline-flex;align-items:center}
+.hero .proof-mini b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.hero .proof-mini span+span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);margin-inline:18px}
+.btn{border-radius:0}
+@media (max-width:860px){.hero .in{grid-template-columns:1fr;min-height:0}.hero .stack{padding:36px 0 48px;order:2}.hero .fig{order:1;min-height:0;aspect-ratio:4/5;margin:0 -16px}.hero .fig::before{background:linear-gradient(180deg,transparent 50%,var(--bg) 100%)}.hero .fig figcaption{bottom:18px;left:16px;right:16px}}

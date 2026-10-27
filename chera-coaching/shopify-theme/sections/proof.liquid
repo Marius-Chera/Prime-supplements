@@ -1,7 +1,7 @@
 <section class="band tight">
   <div class="in">
     <div class="proof">
-      {% for block in section.blocks %}<div {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }}</small></div>{% endfor %}
+      {% for block in section.blocks %}{% if block.settings.url != blank %}<a class="proof-link" href="{{ block.settings.url }}" {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }} <span aria-hidden="true">→</span></small></a>{% else %}<div {{ block.shopify_attributes }}><b>{{ block.settings.value }}</b><small>{{ block.settings.label }}</small></div>{% endif %}{% endfor %}
     </div>
   </div>
 </section>
@@ -12,7 +12,8 @@
   "max_blocks": 6,
   "blocks": [{ "type": "item", "name": "Cifră", "settings": [
     { "type": "text", "id": "value", "label": "Valoare", "default": "10" },
-    { "type": "text", "id": "label", "label": "Etichetă", "default": "carduri IFBB Pro" }
+    { "type": "text", "id": "label", "label": "Etichetă", "default": "carduri IFBB Pro" },
+    { "type": "text", "id": "url", "label": "Link (opțional: cardul devine buton)" }
   ]}],
   "presets": [{ "name": "Bara de dovezi", "blocks": [
     { "type": "item", "settings": { "value": "10", "label": "carduri IFBB Pro" } },
@@ -20,7 +21,7 @@
     { "type": "item", "settings": { "value": "26", "label": "victorii NPC Pro Qualifier" } },
     { "type": "item", "settings": { "value": "100+", "label": "clienți online" } },
     { "type": "item", "settings": { "value": "16+", "label": "ani de antrenorat" } },
-    { "type": "item", "settings": { "value": "FRCF", "label": "antrenor certificat" } }
+    { "type": "item", "settings": { "value": "Certificări", "label": "vezi diplomele", "url": "/pages/certificari" } }
   ]}]
 }
 {% endschema %}

@@ -2,9 +2,11 @@
   <div class="in">
     <div class="stack">
       <p class="eyebrow">{{ section.settings.eyebrow }}</p>
-      <h1>{{ section.settings.title }}</h1>
+      {%- assign t = section.settings.title | strip -%}{%- assign parts = t | split: '. ' -%}
+      {%- if parts.size > 1 -%}{%- assign last = parts | last -%}{%- assign n = parts.size | minus: 1 -%}{%- assign first = parts | slice: 0, n | join: '. ' -%}<h1>{{ first }}. <span class="accent">{{ last }}</span></h1>{%- else -%}<h1>{{ t }}</h1>{%- endif -%}
       <p class="lead muted">{{ section.settings.text }}</p>
-      <div class="row"><a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a><a class="btn ghost" href="{{ section.settings.cta2_url }}">{{ section.settings.cta2_label }}</a></div>
+      <div class="cta-row"><a class="btn" href="{{ section.settings.cta_url }}">{{ section.settings.cta_label }}</a><a class="link-arrow" href="{{ section.settings.cta2_url }}">{{ section.settings.cta2_label }} →</a></div>
+      <div class="proof-mini"><span><b>{{ section.settings.mini_1_v }}</b>{{ section.settings.mini_1 }}</span><span><b>{{ section.settings.mini_2_v }}</b>{{ section.settings.mini_2 }}</span><span><b>{{ section.settings.mini_3_v }}</b>{{ section.settings.mini_3 }}</span></div>
     </div>
     {% if section.settings.image != blank %}
       <figure class="fig">{{ section.settings.image | image_url: width: 1000 | image_tag: loading: 'eager', alt: section.settings.caption }}<figcaption>{{ section.settings.caption }}</figcaption></figure>
@@ -28,6 +30,12 @@
     { "type": "text", "id": "cta_url", "label": "Link 1", "default": "/pages/evaluare" },
     { "type": "text", "id": "cta2_label", "label": "Buton 2", "default": "Vezi rezultatele" },
     { "type": "text", "id": "cta2_url", "label": "Link 2", "default": "/#rezultate" },
+    { "type": "text", "id": "mini_1_v", "label": "Dovadă 1 – cifră", "default": "10" },
+    { "type": "text", "id": "mini_1", "label": "Dovadă 1 – text", "default": "carduri IFBB Pro" },
+    { "type": "text", "id": "mini_2_v", "label": "Dovadă 2 – cifră", "default": "223" },
+    { "type": "text", "id": "mini_2", "label": "Dovadă 2 – text", "default": "locuri 1" },
+    { "type": "text", "id": "mini_3_v", "label": "Dovadă 3 – cifră", "default": "100+" },
+    { "type": "text", "id": "mini_3", "label": "Dovadă 3 – text", "default": "clienți online" },
     { "type": "image_picker", "id": "image", "label": "Poză" },
     { "type": "text", "id": "image_file", "label": "Sau numele pozei din Content → Files", "default": "chera-galerie-61.jpg" },
     { "type": "text", "id": "caption", "label": "Legendă", "default": "Încă un card IFBB Pro pentru un sportiv pregătit de mine" }

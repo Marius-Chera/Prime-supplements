@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rezervă o sesiune · Chera Protocol</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/theme.css">
+</head>
+<body>
+<nav class="site-nav"><div class="in"><a class="brand" href="index.html">Chera <b>Protocol</b></a><a class="btn btn-sm" href="index.html#sesiuni">Toate sesiunile</a></div></nav>
+<section class="band product-page">
+  <div class="in">
+    <div class="stack" style="gap:18px">
+      <div class="row" id="type-switch" style="gap:8px">
+        <a class="btn ghost btn-sm" href="#posing-sibiu">Posing · Sibiu</a>
+        <a class="btn ghost btn-sm" href="#posing-online">Posing online</a>
+        <a class="btn ghost btn-sm" href="#consultatie">Consultație video</a>
+      </div>
+      <p class="eyebrow" id="s-tag"></p>
+      <h1 style="font-size:clamp(34px,5vw,56px)" id="s-title"></h1>
+      <p class="price-big"><span id="s-price"></span> <small style="font:500 14px var(--body);color:var(--fg-2)">· 30 de minute</small></p>
+      <p class="muted" id="s-text"></p>
+      <div class="card"><p id="s-where"></p><p class="muted">Locul e al tău în momentul plății. Dacă trebuie să mutăm sesiunea, scrie-mi pe WhatsApp.</p></div>
+      <p class="note">Pagină de test: intervalele din calendar sunt exemple. În magazin, ele sunt cele pe care le pui tu la dispoziție.</p>
+    </div>
+    <form class="stack" id="booking-form" data-demo="1">
+      <input type="hidden" id="booking-variant" value="">
+      <input type="hidden" id="booking-label" value="">
+      <h3>1. Alege ziua și ora</h3>
+      <script type="application/json" id="booking-slots">[]</script>
+      <div class="booking" id="booking"></div>
+      <p class="booking-summary" id="booking-summary" hidden></p>
+      <h3>2. Detalii</h3>
+      <div class="field"><label for="b-phone">Telefon WhatsApp</label><input id="b-phone" type="tel" inputmode="tel" placeholder="07xx xxx xxx"></div>
+      <div class="field"><label for="b-notes" id="s-question">Ce vrei să lucrăm în sesiune?</label><textarea id="b-notes" rows="3"></textarea></div>
+      <button class="btn" type="submit" id="booking-submit" data-idle="Alege data și ora" data-ready="Rezervă și plătește" disabled>Alege data și ora</button>
+    </form>
+  </div>
+</section>
+<script>
+(function () {
+  var T = {
+    "posing-sibiu": { tag: "Live · Sibiu", title: "Sesiune de posing", price: "400 lei", text: "Lucrăm față în față la pozele obligatorii, tranziții și prezentare, pe categoria ta.", where: "<strong>Unde:</strong> sala din Sibiu (adresa exactă apare aici în magazin).", q: "Ce vrei să lucrăm în sesiune?", hours: [[2, ["17:00", "17:30", "18:00"]], [4, ["17:00", "17:30", "18:00"]], [6, ["10:00", "10:30", "11:00"]]] },
+    "posing-online": { tag: "Online", title: "Posing pe video call", price: "250 lei", text: "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.", where: "<strong>Unde:</strong> pe video call WhatsApp. Te sun eu la ora rezervată, la numărul pe care mi-l lași.", q: "Ce vrei să lucrăm în sesiune?", hours: [[1, ["20:00", "20:30"]], [3, ["20:00", "20:30"]], [5, ["19:00"]]] },
+    "consultatie": { tag: "Online", title: "Consultație video", price: "400 lei", text: "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.", where: "<strong>Unde:</strong> pe video call WhatsApp. Te sun eu la ora rezervată, la numărul pe care mi-l lași.", q: "Ce vrei să discutăm? Scrie-mi întrebările dinainte.", hours: [[2, ["21:00"]], [4, ["21:00"]], [0, ["18:00", "18:30"]]] }
+  };
+  var k = (location.hash || "").replace("#", ""); if (!T[k]) k = "posing-sibiu";
+  var s = T[k];
+  document.getElementById("s-tag").textContent = s.tag;
+  document.getElementById("s-title").textContent = s.title;
+  document.getElementById("s-price").textContent = s.price;
+  document.getElementById("s-text").textContent = s.text;
+  document.getElementById("s-where").innerHTML = s.where;
+  document.getElementById("s-question").textContent = s.q;
+  document.getElementById("booking-submit").setAttribute("data-ready", "Rezervă și plătește " + s.price);
+  var slots = [], id = 1, d = new Date(); d.setHours(0, 0, 0, 0);
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  for (var i = 1; i <= 35; i++) {
+    var day = new Date(d.getTime() + i * 86400000);
+    s.hours.forEach(function (h) {
+      if (day.getDay() === h[0]) h[1].forEach(function (t) {
+        slots.push({ id: id++, t: day.getFullYear() + "-" + pad(day.getMonth() + 1) + "-" + pad(day.getDate()) + " " + t, a: Math.random() > 0.2 });
+      });
+    });
+  }
+  document.getElementById("booking-slots").textContent = JSON.stringify(slots);
+  document.querySelectorAll("#type-switch a").forEach(function (a) { if (a.getAttribute("href") === "#" + k) { a.classList.remove("ghost"); } a.addEventListener("click", function () { setTimeout(function () { location.reload(); }, 0); }); });
+})();
+</script>
+<script src="assets/booking.js"></script>
+</body>
+</html>

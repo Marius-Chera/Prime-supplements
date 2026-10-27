@@ -1,0 +1,76 @@
+<section class="band product-page">
+  <div class="in">
+    <div class="stack" style="gap:18px">
+      {% if product.featured_image != blank %}<div class="media">{{ product.featured_image | image_url: width: 1200 | image_tag: loading: 'eager', alt: product.title }}</div>{% endif %}
+      {% if product.metafields.chera.tag != blank %}<p class="eyebrow">{{ product.metafields.chera.tag }}</p>{% endif %}
+      <h1 style="font-size:clamp(34px,5vw,56px)">{{ product.title }}</h1>
+      <p class="price-big">{{ product.selected_or_first_available_variant.price | money }}</p>
+      <div class="rte" style="padding:0">{{ product.description }}</div>
+      <div class="card">
+        <h3>Cum funcționează</h3>
+        <ol style="margin:0;padding-left:20px;display:grid;gap:6px">
+          <li>Completezi formularul: datele tale, scopul, experiența de sală și trei poze.</li>
+          <li>Plătești cu cardul.</li>
+          <li>Primesc datele tale și îți construiesc programul: antrenament, dietă și suplimente.</li>
+          <li>Programul apare în contul tău de pe site și îți scriu pe WhatsApp când e gata.</li>
+        </ol>
+      </div>
+    </div>
+
+    {% form 'product', product, id: 'intake-form', class: 'stack intake' %}
+      <input type="hidden" name="return_to" value="/checkout">
+      <input type="hidden" name="quantity" value="1">
+
+      <h3>1. Ce program vrei</h3>
+      <div class="variant-cards">
+        {% for v in product.variants %}
+          <label class="variant-card"><input type="radio" name="id" value="{{ v.id }}" {% if v == product.selected_or_first_available_variant %}checked{% endif %} {% unless v.available %}disabled{% endunless %} required><b>{{ v.title }}</b><span class="price">{{ v.price | money }}</span></label>
+        {% endfor %}
+      </div>
+
+      <h3>2. Datele tale</h3>
+      <div class="grid2">
+        <div class="field"><label for="p-age">Vârstă</label><input id="p-age" name="properties[Vârstă]" type="number" min="14" max="80" required></div>
+        <div class="field"><label for="p-sex">Sex</label><select id="p-sex" name="properties[Sex]" required><option value="">alege</option><option>Bărbat</option><option>Femeie</option></select></div>
+        <div class="field"><label for="p-h">Înălțime (cm)</label><input id="p-h" name="properties[Înălțime (cm)]" type="number" min="130" max="230" required></div>
+        <div class="field"><label for="p-w">Greutate (kg)</label><input id="p-w" name="properties[Greutate (kg)]" type="number" step="0.1" min="35" max="220" required></div>
+      </div>
+      <div class="field"><label for="p-goal">Scopul tău</label>
+        <select id="p-goal" name="properties[Scop]" required><option value="">alege</option><option>Masă musculară</option><option>Definire / slăbire</option><option>Recompoziție: mai mult mușchi, mai puțină grăsime</option><option>Pregătire de concurs</option><option>Forță și performanță</option></select>
+      </div>
+
+      <h3>3. Experiența ta</h3>
+      <div class="grid2">
+        <div class="field"><label for="p-years">Ani de sală</label><select id="p-years" name="properties[Ani de sală]" required><option value="">alege</option><option>sub 1 an</option><option>1–3 ani</option><option>3–5 ani</option><option>peste 5 ani</option></select></div>
+        <div class="field"><label for="p-days">Antrenamente pe săptămână</label><select id="p-days" name="properties[Antrenamente pe săptămână]" required><option value="">alege</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div>
+      </div>
+      <div class="field"><label for="p-where">Unde te antrenezi</label><select id="p-where" name="properties[Unde te antrenezi]" required><option value="">alege</option><option>Sală complet echipată</option><option>Sală mică</option><option>Acasă</option></select></div>
+      <div class="field"><label for="p-exp">Cum te antrenezi acum</label><textarea id="p-exp" name="properties[Antrenamentul actual]" rows="3" placeholder="Split-ul, exercițiile principale, greutățile la exercițiile de bază" required></textarea></div>
+      <div class="field"><label for="p-inj">Accidentări sau dureri</label><textarea id="p-inj" name="properties[Accidentări]" rows="2" placeholder="Dacă nu ai, scrie „nu”"></textarea></div>
+      <div class="field"><label for="p-food">Ce mănânci într-o zi obișnuită și ce nu mănânci</label><textarea id="p-food" name="properties[Alimentație]" rows="3" required></textarea></div>
+      <div class="field"><label for="p-supp">Suplimente pe care le iei acum</label><textarea id="p-supp" name="properties[Suplimente actuale]" rows="2" placeholder="Dacă nu iei, scrie „niciunul”"></textarea></div>
+
+      <h3>4. Pozele tale</h3>
+      <p class="muted">Față, lateral și spate, în lumină bună, cu tot corpul în cadru. Le văd doar eu.</p>
+      <div class="file-row">
+        <div class="field"><label for="p-f1">Față</label><input id="p-f1" type="file" name="properties[Poză față]" accept="image/*" required></div>
+        <div class="field"><label for="p-f2">Lateral</label><input id="p-f2" type="file" name="properties[Poză lateral]" accept="image/*" required></div>
+        <div class="field"><label for="p-f3">Spate</label><input id="p-f3" type="file" name="properties[Poză spate]" accept="image/*" required></div>
+      </div>
+
+      <h3>5. Contact</h3>
+      <div class="grid2">
+        <div class="field"><label for="p-phone">Telefon WhatsApp</label><input id="p-phone" name="properties[Telefon WhatsApp]" type="tel" inputmode="tel" value="{{ customer.phone }}" required placeholder="07xx xxx xxx"></div>
+        <div class="field"><label for="p-neuro">Profilul tău neuro (dacă l-ai făcut)</label><input id="p-neuro" name="properties[Profil neuro]" type="text" placeholder="ex. 2A-S"></div>
+      </div>
+      <p class="muted" style="font-size:14px">Nu ți-ai făcut profilul? <a href="/pages/evaluare" target="_blank" rel="noopener">Evaluarea gratuită</a> durează 4 minute și mă ajută să-ți scriu programul mai precis.</p>
+      <label class="check"><input type="checkbox" name="properties[Acord date]" value="Da" required><span>Sunt de acord ca datele și pozele mele să fie folosite de Marius Chera doar pentru construirea programului meu.</span></label>
+      {% unless customer %}<p class="note">La plată îți faci contul în 30 de secunde. Programul îl primești acolo.</p>{% endunless %}
+      <button class="btn" type="submit" {% unless product.available %}disabled{% endunless %}>Continuă la plată</button>
+    {% endform %}
+  </div>
+</section>
+
+{% schema %}
+{ "name": "Program (formular înainte de plată)", "settings": [] }
+{% endschema %}

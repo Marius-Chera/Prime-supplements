@@ -1,0 +1,54 @@
+{%- liquid
+  assign is_online = false
+  if product.tags contains 'online'
+    assign is_online = true
+  endif
+  assign durata = product.metafields.chera.durata | default: 30
+-%}
+<section class="band product-page">
+  <div class="in">
+    <div class="stack" style="gap:18px">
+      {% if product.featured_image != blank %}<div class="media">{{ product.featured_image | image_url: width: 1200 | image_tag: loading: 'eager', alt: product.title }}</div>{% endif %}
+      {% if product.metafields.chera.tag != blank %}<p class="eyebrow">{{ product.metafields.chera.tag }}</p>{% endif %}
+      <h1 style="font-size:clamp(34px,5vw,56px)">{{ product.title }}</h1>
+      <p class="price-big">{{ product.price | money }} <small style="font:500 14px var(--body);color:var(--fg-2)">· {{ durata }} de minute</small></p>
+      <div class="rte" style="padding:0">{{ product.description }}</div>
+      <div class="card">
+        {% if is_online %}
+          <p><strong>Unde:</strong> pe video call WhatsApp. Te sun eu la ora rezervată, la numărul pe care mi-l lași.</p>
+        {% else %}
+          <p><strong>Unde:</strong> {{ settings.sibiu_address }}.</p>
+        {% endif %}
+        <p class="muted">Locul e al tău în momentul plății. Dacă trebuie să mutăm sesiunea, scrie-mi pe WhatsApp.</p>
+      </div>
+    </div>
+
+    {% form 'product', product, id: 'booking-form', class: 'stack' %}
+      <input type="hidden" name="return_to" value="/checkout">
+      <input type="hidden" name="quantity" value="1">
+      <input type="hidden" name="id" id="booking-variant" value="">
+      <input type="hidden" name="properties[Programare]" id="booking-label" value="">
+      <h3>1. Alege ziua și ora</h3>
+      <script type="application/json" id="booking-slots">[{% for v in product.variants %}{"id":{{ v.id }},"t":{{ v.title | json }},"a":{{ v.available }}}{% unless forloop.last %},{% endunless %}{% endfor %}]</script>
+      <div class="booking" id="booking"><p class="muted">Se încarcă calendarul…</p></div>
+      <p class="booking-summary" id="booking-summary" hidden></p>
+
+      <h3>2. Detalii</h3>
+      <div class="field">
+        <label for="b-phone">Telefon WhatsApp</label>
+        <input id="b-phone" name="properties[Telefon WhatsApp]" type="tel" inputmode="tel" autocomplete="tel" value="{{ customer.phone }}" {% if is_online %}required{% endif %} placeholder="07xx xxx xxx">
+      </div>
+      <div class="field">
+        <label for="b-notes">{{ product.metafields.chera.intrebare | default: 'Ce vrei să lucrăm în sesiune?' }}</label>
+        <textarea id="b-notes" name="properties[Ce vrei să discutăm]" rows="3"></textarea>
+      </div>
+      {% unless customer %}<p class="note">La plată îți faci contul în 30 de secunde. Rezervarea apare apoi în contul tău, cu buton de adăugare în calendar.</p>{% endunless %}
+      <button class="btn" type="submit" id="booking-submit" data-idle="Alege data și ora" data-ready="Rezervă și plătește {{ product.price | money_without_trailing_zeros }}" disabled>Alege data și ora</button>
+    {% endform %}
+  </div>
+</section>
+{{ 'booking.js' | asset_url | script_tag }}
+
+{% schema %}
+{ "name": "Sesiune (rezervare)", "settings": [] }
+{% endschema %}

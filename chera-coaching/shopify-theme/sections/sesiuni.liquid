@@ -1,0 +1,45 @@
+<section class="band paper" id="sesiuni" style="padding-top:0">
+  <div class="in stack" style="gap:32px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted">{{ section.settings.text }}</p></div>
+    <div class="doors">
+      {% for block in section.blocks %}
+        {% assign product = all_products[block.settings.product] %}
+        <div class="door" {{ block.shopify_attributes }}>
+          <span class="tag">{{ block.settings.tag }}</span><h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+          <ul>{% assign items = block.settings.bullets | newline_to_br | split: '<br />' %}{% for it in items %}<li>{{ it | strip }}</li>{% endfor %}</ul>
+          <p class="price">{% if product != blank %}{{ product.price | money_without_trailing_zeros }}{% else %}{{ block.settings.price }}{% endif %}<small> {{ block.settings.price_note }}</small></p>
+          <a class="btn ghost" href="{% if product != blank %}{{ product.url }}{% else %}{{ block.settings.url }}{% endif %}">{{ block.settings.cta }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Sesiuni individuale",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Sesiuni individuale" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "O jumătate de oră cu mine, pe ce ai nevoie" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Alegi ziua și ora din calendarul meu, plătești cu cardul și locul e al tău." }
+  ],
+  "max_blocks": 6,
+  "blocks": [{ "type": "session", "name": "Sesiune", "settings": [
+    { "type": "text", "id": "tag", "label": "Etichetă" },
+    { "type": "text", "id": "title", "label": "Titlu" },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "textarea", "id": "bullets", "label": "Puncte (unul pe rând)" },
+    { "type": "product", "id": "product", "label": "Produs (prețul și linkul vin de aici)" },
+    { "type": "text", "id": "price", "label": "Preț afișat manual (dacă nu e produs)" },
+    { "type": "text", "id": "price_note", "label": "Notă preț" },
+    { "type": "text", "id": "cta", "label": "Buton", "default": "Alege data" },
+    { "type": "url", "id": "url", "label": "Link (dacă nu e produs)" }
+  ]}],
+  "presets": [{ "name": "Sesiuni individuale", "blocks": [
+    { "type": "session", "settings": { "tag": "Live · Sibiu", "title": "Sesiune de posing", "text": "Lucrăm față în față la pozele obligatorii, tranziții și prezentare, pe categoria ta.", "bullets": "Față în față, în Sibiu\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online", "price": "400 lei", "price_note": "/ 30 de minute", "cta": "Alege data", "url": "/products/posing-live-sibiu" } },
+    { "type": "session", "settings": { "tag": "Online", "title": "Posing pe video call", "text": "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.", "bullets": "Pe WhatsApp, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online", "price": "250 lei", "price_note": "/ 30 de minute", "cta": "Alege data", "url": "/products/posing-online" } },
+    { "type": "session", "settings": { "tag": "Online", "title": "Consultație video", "text": "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.", "bullets": "Pe video call WhatsApp, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online", "price": "400 lei", "price_note": "/ 30 de minute", "cta": "Alege data", "url": "/products/consultatie-video" } }
+  ]}]
+}
+{% endschema %}

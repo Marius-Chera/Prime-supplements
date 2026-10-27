@@ -7,7 +7,7 @@
     {% for item in cart.items %}
       <div class="cart-line">
         {% if item.image != blank %}{{ item.image | image_url: width: 160 | image_tag: alt: item.title }}{% else %}<div></div>{% endif %}
-        <div><b style="font-family:var(--display);font-size:20px;text-transform:uppercase">{{ item.product.title }}</b>{% if item.variant.title != 'Default Title' %}<div class="muted">{{ item.variant.title }}</div>{% endif %}<div class="muted">{{ item.final_price | money }} × <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" style="width:60px;padding:6px;background:var(--bg-2);color:var(--fg);border:1px solid var(--line);border-radius:4px"> · <a href="{{ item.url_to_remove }}">{{ 'general.cart.remove' | t }}</a></div></div>
+        <div><b style="font-family:var(--display);font-size:20px;text-transform:uppercase">{{ item.product.title }}</b>{% if item.variant.title != 'Default Title' %}<div class="muted">{{ item.variant.title }}</div>{% endif %}{% for p in item.properties %}{% assign k0 = p.first | slice: 0 %}{% if p.last != blank and k0 != '_' %}<div class="muted" style="font-size:13px">{{ p.first }}: {% if p.last contains '/uploads/' %}<a href="{{ p.last }}" target="_blank" rel="noopener">fișier încărcat</a>{% else %}{{ p.last | truncate: 80 }}{% endif %}</div>{% endif %}{% endfor %}<div class="muted">{{ item.final_price | money }} × <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" style="width:60px;padding:6px;background:var(--bg-2);color:var(--fg);border:1px solid var(--line);border-radius:4px"> · <a href="{{ item.url_to_remove }}">{{ 'general.cart.remove' | t }}</a></div></div>
         <strong>{{ item.final_line_price | money }}</strong>
       </div>
     {% endfor %}

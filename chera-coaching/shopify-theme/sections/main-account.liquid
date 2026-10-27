@@ -55,6 +55,13 @@
         <p class="muted">Planul și WhatsApp-ul se reactivează în momentul în care reînnoiești. Continuăm exact de unde am rămas.</p>
         <a class="btn" href="{{ section.settings.renew_url }}" style="justify-self:start">Reînnoiește</a>
       </div>
+    {% elsif customer.metafields.chera.plan_url != blank %}
+      <div class="card red">
+        <p class="eyebrow">Programul tău</p>
+        <h3>Programul tău personalizat e gata</h3>
+        <p class="muted">Antrenament, dietă și suplimente, scrise de mine pe datele tale.</p>
+        <div class="row"><a class="btn" href="{{ customer.metafields.chera.plan_url }}" target="_blank" rel="noopener">Deschide programul</a><a class="btn ghost" href="{{ section.settings.renew_url }}">Treci la coaching</a></div>
+      </div>
     {% else %}
       <div class="card">
         <p class="eyebrow">Chera Protocol</p>
@@ -62,6 +69,21 @@
         <p class="muted">Începe cu evaluarea gratuită, apoi alege ușa ta. După plată, aici apar planul, check-in-ul și WhatsApp-ul meu.</p>
         <div class="row"><a class="btn" href="/pages/evaluare">Fă evaluarea</a><a class="btn ghost" href="{{ section.settings.renew_url }}">Vezi pachetele</a></div>
       </div>
+    {% endif %}
+
+    {%- capture chera_sessions -%}
+      {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' -%}{%- for line in order.line_items -%}{%- if line.product.template_suffix == 'sesiune' -%}
+        <div class="row between" style="padding-block:10px;border-bottom:1px solid var(--line)">
+          <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">{{ line.properties['Programare'] | default: line.variant.title }}</div></div>
+          <a class="btn ghost btn-sm" href="#" target="_blank" rel="noopener" data-gcal data-start="{{ line.variant.title }}" data-mins="{{ line.product.metafields.chera.durata | default: 30 }}" data-title="{{ line.product.title | escape }} · Chera Protocol" data-loc="{% if line.product.tags contains 'online' %}Video call WhatsApp{% else %}{{ settings.sibiu_address | escape }}{% endif %}">Adaugă în calendar</a>
+        </div>
+      {%- endif -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
+    {%- endcapture -%}
+    {% if chera_sessions != blank %}
+    <div class="stack" style="gap:6px">
+      <h3>Sesiunile mele</h3>
+      {{ chera_sessions }}
+    </div>
     {% endif %}
 
     <div class="stack" style="gap:12px">

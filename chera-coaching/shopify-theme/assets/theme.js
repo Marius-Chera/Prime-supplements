@@ -30,3 +30,18 @@
     });
   }
 })();
+
+/* „Adaugă în calendar” (Google Calendar) pentru sesiunile rezervate, din titlul variantei „AAAA-LL-ZZ OO:MM”. */
+(function () {
+  document.querySelectorAll("[data-gcal]").forEach(function (a) {
+    var m = String(a.getAttribute("data-start") || "").match(/(\d{4})-(\d{1,2})-(\d{1,2})\D+(\d{1,2})[:.](\d{2})/);
+    if (!m) { a.hidden = true; return; }
+    var mins = Number(a.getAttribute("data-mins")) || 30;
+    var s = new Date(Date.UTC(+m[1], m[2] - 1, +m[3], +m[4], +m[5]));
+    var e = new Date(s.getTime() + mins * 60000);
+    var f = function (d) { return d.toISOString().replace(/[-:]/g, "").slice(0, 15); };
+    a.href = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + encodeURIComponent(a.getAttribute("data-title") || "Sesiune Chera Protocol") +
+      "&dates=" + f(s) + "/" + f(e) + "&ctz=Europe/Bucharest&location=" + encodeURIComponent(a.getAttribute("data-loc") || "") +
+      "&details=" + encodeURIComponent("Sesiune cu Marius Chera. Detalii în contul tău de pe site.");
+  });
+})();

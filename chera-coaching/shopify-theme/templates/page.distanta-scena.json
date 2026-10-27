@@ -1,0 +1,6 @@
+{
+  "sections": {
+    "main": { "type": "distanta-scena", "settings": {} }
+  },
+  "order": ["main"]
+}

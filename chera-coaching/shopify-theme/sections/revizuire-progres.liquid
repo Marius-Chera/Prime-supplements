@@ -1,0 +1,228 @@
+{%- comment -%}
+  „Revizuirea progresului” – la 4 săptămâni (sau oricând) clientul de program / evaluare / coaching trimite cifrele și pozele
+  de acum (+ opțional de la început); Marius răspunde în 48 h. Ritmul (kg și % pe săptămână față de ținta obiectivului)
+  se calculează doar pentru e-mailul lui Marius. Motorul comun: assets/chera-instrument.js.
+{%- endcomment -%}
+{%- assign up = section.settings.upload_product -%}
+{%- if up == blank -%}{%- assign up = all_products['program-hipertrofie-5-zile'] -%}{%- endif -%}
+{%- if up == blank -%}{%- assign up = collections['programe'].products.first -%}{%- endif -%}
+<style>
+.ct{max-width:760px}
+.ct h1{font-size:clamp(40px,6vw,64px);line-height:.96}
+.ct h2{font-size:clamp(28px,4vw,38px)}
+.ct .lead{font-size:18px;color:var(--fg-2);max-width:60ch;margin:0}
+.ct .free{display:flex;flex-wrap:wrap;gap:8px 0;font-family:var(--display);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.ct .free span{display:inline-flex;align-items:center}
+.ct .free b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.ct .free span+span::before{content:"";width:5px;height:5px;background:var(--red);margin-inline:16px}
+.ct .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.ct .steps3>div{border-top:3px solid var(--red);padding-top:12px;display:grid;gap:6px;font-size:15px;color:var(--fg-2)}
+.ct .steps3 b{font-family:var(--display);font-size:20px;text-transform:uppercase;color:var(--fg)}
+.ct .steps3 b::before{counter-increment:s;content:counter(s,decimal-leading-zero) " ";color:var(--red)}
+.ct .field textarea{min-height:100px;resize:vertical}
+.ct .field small{font-size:13px;color:var(--fg-2)}
+.ct .field input,.ct .field select,.ct .field textarea,.ct .card,.ct .btn,.ct .opt,.ct .note,.ct .code-box{border-radius:0}
+.ct .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ct .drop{position:relative;display:grid;place-items:center;gap:6px;text-align:center;border:1.5px dashed var(--line);padding:24px 16px;cursor:pointer;background:var(--bg-2)}
+.ct .drop:hover,.ct .drop.over{border-color:var(--red)}
+.ct .drop b{font-family:var(--display);font-size:22px;text-transform:uppercase}
+.ct .drop input{position:absolute;width:1px;height:1px;opacity:0}
+.ct .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ct .thumb{position:relative;aspect-ratio:3/4;background:var(--bg-2);border:1px solid var(--line);overflow:hidden}
+.ct .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ct .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(14,13,13,.82);color:var(--fg-2)}
+.ct .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(14,13,13,.85);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ct .thumb.big{outline:2px solid var(--warn)}
+.ct .btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}
+.ct .done-code{font-family:var(--display);font-size:clamp(34px,6vw,52px);letter-spacing:.06em;color:var(--red);line-height:1}
+.ct .warnbox{border:1.5px solid var(--warn);padding:14px;display:grid;gap:8px}
+@media (max-width:760px){.ct .steps3,.ct .grid3{grid-template-columns:1fr}.ct .thumbs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.ct .nav .btn{flex:1}.ct .free{gap:6px 20px}.ct .free span+span::before{display:none}}
+</style>
+
+<section class="band" style="padding-top:24px">
+<div class="in narrow quiz ct" data-tool data-prefix="RP" data-title="Revizuirea progresului" data-variant="{{ up.selected_or_first_available_variant.id }}" data-mail="{{ section.settings.email_to | strip }}">
+
+  <!-- 0 · INTRO -->
+  <section data-step="0" class="stack" style="padding-block:28px 0;gap:22px">
+    <p class="eyebrow">{{ section.settings.eyebrow }}</p>
+    <h1>{{ section.settings.title }}</h1>
+    <p class="lead">{{ section.settings.lead }}</p>
+    <div class="free"><span><b>0</b> lei</span><span><b>48 h</b> răspunsul meu</span><span><b>4</b> săptămâni</span></div>
+    <div class="steps3">
+      <div><b>Îmi spui</b>Ce plan urmezi, de când, cât cântăreai la început și cât acum, cât de des te-ai antrenat și cât ai respectat dieta.</div>
+      <div><b>Îmi arăți</b>3 poze de acum (față, lateral, spate) și, dacă le ai, pozele de la început.</div>
+      <div><b>Îți răspund</b>În maximum 48 de ore: dacă mergi în direcția bună, ce schimbi în următoarele 4 săptămâni și ce să nu mai faci.</div>
+    </div>
+    <div class="nav"><span></span><button class="btn" type="button" data-go="1">Începe</button></div>
+  </section>
+
+  <div class="progress" data-progress hidden>
+    <div class="meta"><span data-step-name></span><span data-step-count></span></div>
+    <div class="bar"><i data-fill></i></div>
+  </div>
+
+  <!-- 1 · TU ȘI PLANUL -->
+  <section data-step="1" data-name="Tu și planul" class="stack" hidden>
+    <h2>Tu și planul tău</h2>
+    <div class="grid2">
+      <div class="field"><label for="rp-name">Nume și prenume</label><input id="rp-name" data-k="Nume" autocomplete="name" required></div>
+      <div class="field"><label for="rp-city">Oraș</label><input id="rp-city" data-k="Oraș" autocomplete="address-level2"></div>
+      <div class="field"><label for="rp-phone">Telefon (WhatsApp)</label><input id="rp-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
+      <div class="field"><label for="rp-email">E-mail</label><input id="rp-email" data-k="E-mail" type="email" autocomplete="email" placeholder="nume@exemplu.ro" required></div>
+    </div>
+    <div class="field"><label for="rp-plan">Ce plan urmezi</label>
+      <select id="rp-plan" data-k="Planul" required><option value="">alege</option>
+        {%- for p in collections['programe'].products -%}<option>{{ p.title | escape }}</option>{%- endfor -%}
+        <option>Programul meu personalizat</option><option>Planul de pornire din evaluarea gratuită</option><option>Coaching cu tine (sunt client)</option><option>Planul meu / de la alt antrenor</option>
+      </select></div>
+    <div class="grid2">
+      <div class="field"><label for="rp-start">Când ai început</label><input id="rp-start" data-k="Data de start" type="date" required></div>
+      <div class="field"><label for="rp-goal">Obiectivul</label><select id="rp-goal" data-k="Obiectiv" required><option value="">alege</option><option>Definire / slăbire</option><option>Masă musculară</option><option>Recompoziție (mai mult mușchi, mai puțină grăsime)</option><option>Pregătire de concurs</option><option>Forță</option></select></div>
+      <div class="field"><label for="rp-sex">Sex</label><select id="rp-sex" data-k="Sex" required><option value="">alege</option><option>Bărbat</option><option>Femeie</option></select></div>
+      <div class="field"><label for="rp-neuro">Profilul neuro (dacă l-ai făcut)</label><input id="rp-neuro" data-k="Profil neuro" placeholder="ex. 2A-S"></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="0">Înapoi</button><button class="btn" type="button" data-next="2">Continuă</button></div>
+  </section>
+
+  <!-- 2 · CIFRELE -->
+  <section data-step="2" data-name="Cifrele" class="stack" hidden>
+    <h2>Cifrele</h2>
+    <div class="grid2">
+      <div class="field"><label for="rp-w0">Greutatea la început (kg)</label><input id="rp-w0" data-k="Greutate la start (kg)" type="number" step="0.1" min="35" max="200" inputmode="decimal" required></div>
+      <div class="field"><label for="rp-w1">Greutatea acum (kg)</label><input id="rp-w1" data-k="Greutate acum (kg)" type="number" step="0.1" min="35" max="200" inputmode="decimal" required><small>Media ultimelor 3 dimineți, pe nemâncate, dacă o ai.</small></div>
+      <div class="field"><label for="rp-t0">Talia la început (cm)</label><input id="rp-t0" data-k="Talie la start (cm)" type="number" step="0.5" min="45" max="160" inputmode="decimal" placeholder="opțional"></div>
+      <div class="field"><label for="rp-t1">Talia acum (cm)</label><input id="rp-t1" data-k="Talie acum (cm)" type="number" step="0.5" min="45" max="160" inputmode="decimal" placeholder="opțional"></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="rp-sess">Antrenamente făcute pe săptămână, în medie</label><select id="rp-sess" data-k="Antrenamente/săpt. (real)" required><option value="">alege</option><option>sub 2</option><option>2–3</option><option>4</option><option>5</option><option>6 sau mai multe</option></select></div>
+      <div class="field"><label for="rp-diet">Cât ai respectat dieta</label><select id="rp-diet" data-k="Respectarea dietei" required><option value="">alege</option><option>sub 50%</option><option>50–75%</option><option>75–90%</option><option>peste 90%</option></select></div>
+      <div class="field"><label for="rp-str">Forța la exercițiile de bază</label><select id="rp-str" data-k="Forța" required><option value="">alege</option><option>Crește</option><option>Stagnează</option><option>Scade</option></select></div>
+      <div class="field"><label for="rp-sleep">Somnul</label><select id="rp-sleep" data-k="Somn" required><option value="">alege</option><option>sub 6 ore</option><option>6–7 ore</option><option>7–8 ore</option><option>peste 8 ore</option></select></div>
+      <div class="field"><label for="rp-energy">Energia și foamea</label><select id="rp-energy" data-k="Energie / foame" required><option value="">alege</option><option>Bine</option><option>Obosit(ă) uneori</option><option>Obosit(ă) des / foame mare</option></select></div>
+      <div class="field"><label for="rp-steps">Pași pe zi / cardio</label><input id="rp-steps" data-k="Pași / cardio" placeholder="ex. 8.000 pași, 2×20 min"></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="1">Înapoi</button><button class="btn" type="button" data-next="3">Continuă</button></div>
+  </section>
+
+  <!-- 3 · POZELE -->
+  <section data-step="3" data-name="Pozele" class="stack" hidden>
+    <h2>Pozele</h2>
+    <p class="muted" style="margin:0">Aceeași lumină, același loc și aceeași oră ca la pozele de la început, dacă se poate: față, lateral, spate, cu tot corpul în cadru. Le văd doar eu.</p>
+    <label class="drop" data-zone="acum" data-min="3" data-max="6" data-label="Poze de acum">
+      <input type="file" accept="image/*" multiple>
+      <b>Pozele de acum</b>
+      <span class="muted" style="font-size:14px">3–6 poze · până la 20 MB fiecare</span>
+    </label>
+    <div class="thumbs" data-thumbs="acum"></div>
+    <p class="hint" data-info="acum"></p>
+    <label class="drop" data-zone="start" data-min="0" data-max="3" data-label="Poze de la început">
+      <input type="file" accept="image/*" multiple>
+      <b>Pozele de la început</b>
+      <span class="muted" style="font-size:14px">opțional, până la 3 · ajută mult la comparație</span>
+    </label>
+    <div class="thumbs" data-thumbs="start"></div>
+    <p class="hint" data-info="start"></p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="2">Înapoi</button><button class="btn" type="button" data-next="4">Continuă</button></div>
+  </section>
+
+  <!-- 4 · PĂREREA TA + TRIMITERE -->
+  <section data-step="4" data-name="Părerea ta" class="stack" hidden>
+    <h2>Părerea ta, apoi trimiți</h2>
+    <div class="field"><label for="rp-good">Ce merge bine</label><textarea id="rp-good" data-k="Ce merge" rows="3" required></textarea></div>
+    <div class="field"><label for="rp-hard">Ce e greu sau nu merge</label><textarea id="rp-hard" data-k="Ce e greu" rows="3" required></textarea></div>
+    <div class="field"><label for="rp-ask">Ce vrei să afli de la mine</label><input id="rp-ask" data-k="Ce vrea să afle" placeholder="ex. mai scad caloriile? schimb programul?"></div>
+    <div class="field"><label>Unde vrei răspunsul meu</label>
+      <div class="choice" role="radiogroup" data-channel>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="WhatsApp">Pe WhatsApp, la numărul tău</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="e-mail">Pe e-mail, la adresa ta</button>
+      </div></div>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord ca Marius Chera să folosească datele și pozele mele doar pentru această revizuire. Pozele se încarcă pe serverul magazinului (Shopify), iar datele ajung la Marius pe e-mail; pozele nu se publică nicăieri fără acordul meu separat, scris. Datele se păstrează 12 luni dacă nu devin client.</span></label>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord să fiu contactat pe canalul ales mai sus cu răspunsul și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
+    <p class="note">Gratuit și fără obligații. Primești răspunsul meu în maximum 48 de ore. Nu este un consult medical.</p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="3">Înapoi</button><button class="btn" type="button" data-send>Trimite</button></div>
+  </section>
+
+  <!-- 5 · TRIMITERE / GATA -->
+  <section data-step="5" class="stack" hidden>
+    <div class="stack" data-sending style="gap:8px">
+      <h2>Trimit…</h2>
+      <p class="muted" data-sendmsg>Încarc pozele.</p>
+      <div class="progress"><div class="bar"><i data-upfill></i></div></div>
+      <p class="hint">Nu închide pagina. Pozele mari pot dura câteva secunde fiecare.</p>
+    </div>
+    <div class="stack" data-done hidden>
+      <p class="eyebrow">Am primit progresul tău</p>
+      <p class="done-code" data-code></p>
+      <h2 data-done-title>Mulțumesc. Îți răspund în maximum 48 de ore.</h2>
+      <p class="lead" data-done-text></p>
+      <div class="warnbox" data-warn hidden></div>
+      <div class="card">
+        <h3>Ce urmează</h3>
+        <ul class="list">
+          <li>Compar pozele și cifrele cu ritmul bun pentru obiectivul tău și îți spun dacă mergi în direcția bună.</li>
+          <li>Îți spun ce schimbi în următoarele 4 săptămâni: calorii, antrenament, cardio, somn.</li>
+          <li>Dacă ai nevoie de ajustări în fiecare săptămână, îți spun sincer când merită coachingul cu mine.</li>
+        </ul>
+      </div>
+      <a class="btn" data-mailbtn href="#" hidden>Trimite-mi pozele pe e-mail</a>
+      <a class="btn ghost" href="{{ section.settings.coaching_url }}">Vezi coachingul online</a>
+    </div>
+  </section>
+
+  {%- form 'contact', id: 'rp-contact-form' -%}
+    <div hidden>
+      <span data-cf-state data-ok="{% if form.posted_successfully? %}1{% endif %}" data-err="{% if form.errors %}1{% endif %}"></span>
+      <input type="hidden" name="contact[email]">
+      <input type="hidden" name="contact[name]">
+      <input type="hidden" name="contact[Telefon]">
+      <input type="hidden" name="contact[Subiect]">
+      <input type="hidden" name="contact[Răspuns pe]">
+      <textarea name="contact[body]"></textarea>
+    </div>
+  {%- endform -%}
+
+  <p class="legal">Revizuirea este părerea mea de antrenor despre progres, antrenament și alimentație. Nu este un consult medical și nu conține recomandări de medicamente.</p>
+</div>
+</section>
+
+<script>
+/* ritmul pe săptămână față de ținta obiectivului – doar pentru e-mailul lui Marius */
+window.CHERA_TOOL_EXTRA = function(get){
+  var n = function(id){ var v = parseFloat(get(id).replace(",", ".")); return isFinite(v) ? v : null; };
+  var w0 = n("rp-w0"), w1 = n("rp-w1"), t0 = n("rp-t0"), t1 = n("rp-t1"), goal = get("rp-goal");
+  var start = new Date(get("rp-start") + "T12:00:00"), today = new Date(); today.setHours(12, 0, 0, 0);
+  var days = Math.round((today - start) / 864e5), weeks = Math.max(days / 7, 1);
+  if(!w0 || !w1 || !isFinite(days)) return "Nu am putut calcula (date incomplete).";
+  var f = function(x, d){ return (x > 0 ? "+" : "") + x.toFixed(d == null ? 2 : d).replace(".", ","); };
+  var kgW = (w1 - w0) / weeks, pctW = kgW / w0 * 100;
+  var T = /Definire|concurs/.test(goal) ? [-1, -0.5, "−0,5…−1% pe săptămână"] : /Masă/.test(goal) ? [0.1, 0.5, "+0,1…+0,5% pe săptămână"] : /Recompoziție/.test(goal) ? [-0.4, 0.1, "−0,4…+0,1% pe săptămână, cu talia în scădere"] : [-0.2, 0.4, "−0,2…+0,4% pe săptămână"];
+  var verdict = pctW < T[0] ? (/Masă/.test(goal) ? "scade, deși obiectivul e masă" : "prea repede: risc de pierdere de mușchi și forță") : pctW > T[1] ? (/Masă/.test(goal) ? "prea repede: probabil și grăsime" : "prea încet / nu scade") : "în ritmul țintă";
+  return [
+    "Perioada: " + days + " zile (" + weeks.toFixed(1).replace(".", ",") + " săpt.) de la " + start.toLocaleDateString("ro-RO"),
+    "Greutate: " + w0 + " → " + w1 + " kg (" + f(w1 - w0, 1) + " kg) · " + f(kgW) + " kg/săpt. · " + f(pctW) + "%/săpt.",
+    t0 && t1 ? "Talie: " + t0 + " → " + t1 + " cm (" + f(t1 - t0, 1) + " cm)" : "Talie: necompletată",
+    "Ținta pentru „" + goal + "”: " + T[2] + " → " + verdict
+  ].join("\n");
+};
+</script>
+{{ 'chera-instrument.js' | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Revizuirea progresului",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Gratuit · la 4 săptămâni" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Revizuirea progresului" },
+    { "type": "textarea", "id": "lead", "label": "Text", "default": "Ai pornit cu un program de-al meu, cu planul din evaluare sau cu planul tău? La 4 săptămâni îmi trimiți cifrele și pozele de acum, iar în maximum 48 de ore îți spun dacă mergi în direcția bună și ce schimbi mai departe." },
+    { "type": "text", "id": "coaching_url", "label": "Link coaching", "default": "/products/chera-protocol-coaching-1-luna" },
+    { "type": "text", "id": "email_to", "label": "E-mailul care primește datele (copie)", "default": "marius.chera@yahoo.com", "info": "Trimis prin FormSubmit, pe lângă formularul de contact Shopify." },
+    { "type": "product", "id": "upload_product", "label": "Produsul folosit pentru încărcarea pozelor", "info": "Implicit program-hipertrofie-5-zile; trebuie să fie activ în Online Store." }
+  ],
+  "presets": [{ "name": "Revizuirea progresului" }]
+}
+{% endschema %}

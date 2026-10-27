@@ -397,11 +397,16 @@
       },
       "blocks": {},
       "block_order": []
+    },
+    "instrumente": {
+      "type": "instrumente",
+      "settings": {}
     }
   },
   "order": [
     "hero",
     "proof",
+    "instrumente",
     "problema",
     "usi",
     "programe",

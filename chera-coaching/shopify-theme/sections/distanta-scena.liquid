@@ -1,0 +1,253 @@
+{%- comment -%}
+  „Cât de departe ești de scenă?” – sportivul trimite datele, măsurătorile și 3–6 poze; răspunsul îl dă Marius în 48 h.
+  Calculul (% grăsime US Navy, greutatea de scenă pe categorie, săptămâni de definire, data de start) NU se arată pe pagină:
+  merge doar în e-mailul lui Marius, ca punct de plecare. Motorul comun: assets/chera-instrument.js.
+{%- endcomment -%}
+{%- assign up = section.settings.upload_product -%}
+{%- if up == blank -%}{%- assign up = all_products['program-hipertrofie-5-zile'] -%}{%- endif -%}
+{%- if up == blank -%}{%- assign up = collections['programe'].products.first -%}{%- endif -%}
+<style>
+.ct{max-width:760px}
+.ct h1{font-size:clamp(40px,6vw,64px);line-height:.96}
+.ct h2{font-size:clamp(28px,4vw,38px)}
+.ct .lead{font-size:18px;color:var(--fg-2);max-width:60ch;margin:0}
+.ct .free{display:flex;flex-wrap:wrap;gap:8px 0;font-family:var(--display);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.ct .free span{display:inline-flex;align-items:center}
+.ct .free b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.ct .free span+span::before{content:"";width:5px;height:5px;background:var(--red);margin-inline:16px}
+.ct .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.ct .steps3>div{border-top:3px solid var(--red);padding-top:12px;display:grid;gap:6px;font-size:15px;color:var(--fg-2)}
+.ct .steps3 b{font-family:var(--display);font-size:20px;text-transform:uppercase;color:var(--fg)}
+.ct .steps3 b::before{counter-increment:s;content:counter(s,decimal-leading-zero) " ";color:var(--red)}
+.ct .field textarea{min-height:100px;resize:vertical}
+.ct .field small{font-size:13px;color:var(--fg-2)}
+.ct .field input,.ct .field select,.ct .field textarea,.ct .card,.ct .btn,.ct .opt,.ct .note,.ct .code-box{border-radius:0}
+.ct .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ct .drop{position:relative;display:grid;place-items:center;gap:6px;text-align:center;border:1.5px dashed var(--line);padding:24px 16px;cursor:pointer;background:var(--bg-2)}
+.ct .drop:hover,.ct .drop.over{border-color:var(--red)}
+.ct .drop b{font-family:var(--display);font-size:22px;text-transform:uppercase}
+.ct .drop input{position:absolute;width:1px;height:1px;opacity:0}
+.ct .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ct .thumb{position:relative;aspect-ratio:3/4;background:var(--bg-2);border:1px solid var(--line);overflow:hidden}
+.ct .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ct .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(14,13,13,.82);color:var(--fg-2)}
+.ct .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(14,13,13,.85);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ct .thumb.big{outline:2px solid var(--warn)}
+.ct .btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}
+.ct .done-code{font-family:var(--display);font-size:clamp(34px,6vw,52px);letter-spacing:.06em;color:var(--red);line-height:1}
+.ct .warnbox{border:1.5px solid var(--warn);padding:14px;display:grid;gap:8px}
+@media (max-width:760px){.ct .steps3,.ct .grid3{grid-template-columns:1fr}.ct .thumbs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.ct .nav .btn{flex:1}.ct .free{gap:6px 20px}.ct .free span+span::before{display:none}}
+</style>
+
+<section class="band" style="padding-top:24px">
+<div class="in narrow quiz ct" data-tool data-prefix="SC" data-title="Cât de departe ești de scenă" data-variant="{{ up.selected_or_first_available_variant.id }}" data-mail="{{ section.settings.email_to | strip }}">
+
+  <!-- 0 · INTRO -->
+  <section data-step="0" class="stack" style="padding-block:28px 0;gap:22px">
+    <p class="eyebrow">{{ section.settings.eyebrow }}</p>
+    <h1>{{ section.settings.title }}</h1>
+    <p class="lead">{{ section.settings.lead }}</p>
+    <div class="free"><span><b>0</b> lei</span><span><b>48 h</b> răspunsul meu</span><span><b>5</b> minute</span></div>
+    <div class="steps3">
+      <div><b>Îmi spui</b>Concursul la care te gândești, categoria, măsurătorile și cum te antrenezi și mănânci acum.</div>
+      <div><b>Îmi arăți</b>3 poze de acum: față, lateral, spate. Din poze văd ce nu arată cântarul.</div>
+      <div><b>Îți răspund</b>În maximum 48 de ore: cât de departe ești, când trebuie să începi definirea și ce să faci până atunci.</div>
+    </div>
+    <div class="nav"><span></span><button class="btn" type="button" data-go="1">Începe</button></div>
+  </section>
+
+  <div class="progress" data-progress hidden>
+    <div class="meta"><span data-step-name></span><span data-step-count></span></div>
+    <div class="bar"><i data-fill></i></div>
+  </div>
+
+  <!-- 1 · CONCURSUL -->
+  <section data-step="1" data-name="Concursul și tu" class="stack" hidden>
+    <h2>Concursul și tu</h2>
+    <div class="grid2">
+      <div class="field"><label for="sc-name">Nume și prenume</label><input id="sc-name" data-k="Nume" autocomplete="name" required></div>
+      <div class="field"><label for="sc-city">Oraș</label><input id="sc-city" data-k="Oraș" autocomplete="address-level2"></div>
+      <div class="field"><label for="sc-phone">Telefon (WhatsApp)</label><input id="sc-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
+      <div class="field"><label for="sc-email">E-mail</label><input id="sc-email" data-k="E-mail" type="email" autocomplete="email" placeholder="nume@exemplu.ro" required></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="sc-sex">Sex</label><select id="sc-sex" data-k="Sex" required><option value="">alege</option><option>Bărbat</option><option>Femeie</option></select></div>
+      <div class="field"><label for="sc-cat">Categoria</label><select id="sc-cat" data-k="Categoria" required><option value="">alege întâi sexul</option></select></div>
+      <div class="field"><label for="sc-date">Data concursului (aproximativ e în regulă)</label><input id="sc-date" data-k="Data concursului" type="date" required></div>
+      <div class="field"><label for="sc-comp">Concursul (dacă știi)</label><input id="sc-comp" data-k="Concursul" placeholder="ex. Cupa X, naționalele"></div>
+      <div class="field"><label for="sc-first">Ai mai concurat?</label><select id="sc-first" data-k="A mai concurat" required><option value="">alege</option><option>Nu, ar fi primul</option><option>Da, o dată</option><option>Da, de mai multe ori</option></select></div>
+      <div class="field"><label for="sc-years">Ani de sală</label><select id="sc-years" data-k="Ani de sală" required><option value="">alege</option><option>sub 2 ani</option><option>2–4 ani</option><option>5–8 ani</option><option>peste 8 ani</option></select></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="0">Înapoi</button><button class="btn" type="button" data-next="2">Continuă</button></div>
+  </section>
+
+  <!-- 2 · CORPUL TĂU -->
+  <section data-step="2" data-name="Corpul tău acum" class="stack" hidden>
+    <h2>Corpul tău acum</h2>
+    <div class="grid3">
+      <div class="field"><label for="sc-age">Vârstă</label><input id="sc-age" data-k="Vârstă" type="number" min="14" max="80" inputmode="numeric" required></div>
+      <div class="field"><label for="sc-h">Înălțime (cm)</label><input id="sc-h" data-k="Înălțime (cm)" type="number" min="130" max="230" inputmode="numeric" required></div>
+      <div class="field"><label for="sc-w">Greutate (kg)</label><input id="sc-w" data-k="Greutate (kg)" type="number" step="0.1" min="35" max="200" inputmode="decimal" required></div>
+    </div>
+    <p class="hint">Cu centimetrul, dimineața, pe nemâncate, fără să tragi burta: talia la nivelul buricului, gâtul sub mărul lui Adam, șoldul (femei) în punctul cel mai lat al fesierilor.</p>
+    <div class="grid3">
+      <div class="field"><label for="sc-waist">Talie (cm)</label><input id="sc-waist" data-k="Talie (cm)" type="number" step="0.5" min="45" max="160" inputmode="decimal" required></div>
+      <div class="field"><label for="sc-neck">Gât (cm)</label><input id="sc-neck" data-k="Gât (cm)" type="number" step="0.5" min="25" max="60" inputmode="decimal" required></div>
+      <div class="field" id="sc-hip-f" hidden><label for="sc-hip">Șold (cm)</label><input id="sc-hip" data-k="Șold (cm)" type="number" step="0.5" min="60" max="170" inputmode="decimal"></div>
+    </div>
+    <div class="field"><label for="sc-bf">Procentul de grăsime, dacă îl știi (DEXA, InBody)</label><input id="sc-bf" data-k="% grăsime știut" type="number" step="0.1" min="3" max="50" inputmode="decimal" placeholder="opțional"></div>
+    <p class="muted" style="margin:0">Trei poze de acum, în lumină bună, cu tot corpul în cadru: față, lateral, spate (în costum de baie sau echipament de concurs, dacă ai). Le văd doar eu.</p>
+    <label class="drop" data-zone="acum" data-min="3" data-max="6" data-label="Poze de acum">
+      <input type="file" accept="image/*" multiple>
+      <b>Alege pozele</b>
+      <span class="muted" style="font-size:14px">sau trage-le aici · 3–6 poze · până la 20 MB fiecare</span>
+    </label>
+    <div class="thumbs" data-thumbs="acum"></div>
+    <p class="hint" data-info="acum"></p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="1">Înapoi</button><button class="btn" type="button" data-next="3">Continuă</button></div>
+  </section>
+
+  <!-- 3 · ANTRENAMENT ȘI DIETĂ -->
+  <section data-step="3" data-name="Cum te antrenezi și mănânci" class="stack" hidden>
+    <h2>Cum te antrenezi și mănânci acum</h2>
+    <div class="grid2">
+      <div class="field"><label for="sc-days">Antrenamente pe săptămână</label><select id="sc-days" data-k="Antrenamente pe săptămână" required><option value="">alege</option><option>2–3</option><option>4</option><option>5</option><option>6 sau mai multe</option></select></div>
+      <div class="field"><label for="sc-phase">Ce faci acum</label><select id="sc-phase" data-k="Faza acum" required><option value="">alege</option><option>Masă musculară</option><option>Mențin</option><option>Am început definirea</option><option>Nu țin nicio dietă anume</option></select></div>
+    </div>
+    <div class="field"><label for="sc-train">Antrenamentul</label><textarea id="sc-train" data-k="Antrenament" rows="3" required placeholder="Split-ul, exercițiile principale, cât de greu."></textarea></div>
+    <div class="field"><label for="sc-diet">Ce mănânci într-o zi obișnuită</label><textarea id="sc-diet" data-k="Dieta acum" rows="4" required placeholder="Mesele, cu cantități aproximative; calorii/macro dacă le știi."></textarea></div>
+    <div class="grid2">
+      <div class="field"><label for="sc-cardio">Cardio și pași pe zi</label><input id="sc-cardio" data-k="Cardio și pași" placeholder="ex. 20 min de 3 ori, 8.000 pași"></div>
+      <div class="field"><label for="sc-supp">Suplimente</label><input id="sc-supp" data-k="Suplimente" placeholder="ex. creatină, proteină"></div>
+    </div>
+    <div class="field"><label for="sc-block">Ce te oprește sau te îngrijorează</label><textarea id="sc-block" data-k="Ce îl oprește" rows="3" placeholder="ex. timpul, foamea, nu știu posing, n-am mai concurat"></textarea></div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="2">Înapoi</button><button class="btn" type="button" data-next="4">Continuă</button></div>
+  </section>
+
+  <!-- 4 · TRIMITERE -->
+  <section data-step="4" data-name="Trimite" class="stack" hidden>
+    <h2>Unde îți răspund</h2>
+    <div class="field"><label for="sc-ask">Ce vrei să afli de la mine</label><input id="sc-ask" data-k="Ce vrea să afle" placeholder="ex. pot fi gata în primăvară?"></div>
+    <div class="field"><label>Unde vrei răspunsul meu</label>
+      <div class="choice" role="radiogroup" data-channel>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="WhatsApp">Pe WhatsApp, la numărul tău</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="e-mail">Pe e-mail, la adresa ta</button>
+      </div></div>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord ca Marius Chera să folosească datele și pozele mele doar pentru acest răspuns. Pozele se încarcă pe serverul magazinului (Shopify), iar datele ajung la Marius pe e-mail; pozele nu se publică nicăieri fără acordul meu separat, scris. Datele se păstrează 12 luni dacă nu devin client.</span></label>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord să fiu contactat pe canalul ales mai sus cu răspunsul și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
+    <p class="note">Gratuit și fără obligații. Primești răspunsul meu în maximum 48 de ore: cât de departe ești de scenă, când începi definirea și ce să faci până atunci.</p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="3">Înapoi</button><button class="btn" type="button" data-send>Trimite</button></div>
+  </section>
+
+  <!-- 5 · TRIMITERE / GATA -->
+  <section data-step="5" class="stack" hidden>
+    <div class="stack" data-sending style="gap:8px">
+      <h2>Trimit…</h2>
+      <p class="muted" data-sendmsg>Încarc pozele.</p>
+      <div class="progress"><div class="bar"><i data-upfill></i></div></div>
+      <p class="hint">Nu închide pagina. Pozele mari pot dura câteva secunde fiecare.</p>
+    </div>
+    <div class="stack" data-done hidden>
+      <p class="eyebrow">Am primit datele tale</p>
+      <p class="done-code" data-code></p>
+      <h2 data-done-title>Mulțumesc. Îți răspund în maximum 48 de ore.</h2>
+      <p class="lead" data-done-text></p>
+      <div class="warnbox" data-warn hidden></div>
+      <div class="card">
+        <h3>Ce urmează</h3>
+        <ul class="list">
+          <li>Mă uit la poze lângă măsurători și îți spun cât de departe ești de condiția de scenă la categoria ta.</li>
+          <li>Îți dau data la care ar trebui să începi definirea și ce să faci până atunci (antrenament, mâncare, posing).</li>
+          <li>Îți spun sincer dacă ai nevoie de mine: pregătire de concurs, coaching online sau doar un program.</li>
+        </ul>
+      </div>
+      <a class="btn" data-mailbtn href="#" hidden>Trimite-mi pozele pe e-mail</a>
+      <a class="btn ghost" href="/pages/evaluare">Între timp: evaluarea gratuită (4 minute)</a>
+    </div>
+  </section>
+
+  {%- form 'contact', id: 'sc-contact-form' -%}
+    <div hidden>
+      <span data-cf-state data-ok="{% if form.posted_successfully? %}1{% endif %}" data-err="{% if form.errors %}1{% endif %}"></span>
+      <input type="hidden" name="contact[email]">
+      <input type="hidden" name="contact[name]">
+      <input type="hidden" name="contact[Telefon]">
+      <input type="hidden" name="contact[Subiect]">
+      <input type="hidden" name="contact[Răspuns pe]">
+      <textarea name="contact[body]"></textarea>
+    </div>
+  {%- endform -%}
+
+  <p class="legal">Răspunsul este părerea mea de antrenor despre formă și calendar. Nu este un consult medical și nu conține recomandări de medicamente sau substanțe interzise.</p>
+</div>
+</section>
+
+<script>
+/* categoriile pe sex + calculul pentru e-mailul lui Marius (sportivul nu îl vede) */
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var CATS = {
+    m: [["Culturism (bodybuilding)", 4.5, "4–5%"], ["Classic Physique", 5.5, "5–6%"], ["Men's Physique", 6.5, "6–7%"]],
+    f: [["Bikini", 12.5, "11–14%"], ["Wellness", 14, "13–15%"], ["Fitness / Body fitness", 11, "10–12%"], ["Figure", 10.5, "10–11%"], ["Women's Physique", 9.5, "9–10%"]]
+  };
+  function sx(){ var v = $("sc-sex").value; return v === "Femeie" ? "f" : v === "Bărbat" ? "m" : ""; }
+  function fill(){
+    var s = sx(), c = $("sc-cat"), keep = c.getAttribute("data-keep") || c.value;
+    c.innerHTML = '<option value="">' + (s ? "alege" : "alege întâi sexul") + '</option>' + (CATS[s] || []).map(function(x){ return '<option>' + x[0] + '</option>'; }).join("");
+    if(keep && [].some.call(c.options, function(o){ return o.value === keep; })) c.value = keep;
+    c.removeAttribute("data-keep");
+    $("sc-hip-f").hidden = s !== "f"; if(s === "f") $("sc-hip").setAttribute("required", ""); else $("sc-hip").removeAttribute("required");
+  }
+  $("sc-sex").addEventListener("change", fill);
+  /* ciorna se încarcă după acest script: păstrez categoria salvată */
+  try{ var d = JSON.parse(localStorage.getItem("chera-tool-SC") || "null"); if(d && d["sc-cat"]) $("sc-cat").setAttribute("data-keep", d["sc-cat"]); }catch(e){}
+  document.addEventListener("DOMContentLoaded", fill);
+  window.addEventListener("load", fill);
+
+  window.CHERA_TOOL_EXTRA = function(get){
+    var sex = sx(), list = CATS[sex] || [], cat = list.filter(function(x){ return x[0] === get("sc-cat"); })[0];
+    var n = function(id){ var v = parseFloat(get(id).replace(",", ".")); return isFinite(v) ? v : null; };
+    var h = n("sc-h"), w = n("sc-w"), bf = n("sc-bf"), src = "știut de sportiv";
+    if(bf == null){
+      var wa = n("sc-waist"), ne = n("sc-neck"), hi = n("sc-hip"); src = "estimat US Navy din talie/gât" + (sex === "f" ? "/șold" : "");
+      if(wa && ne && h && (sex === "m" || hi)) bf = sex === "m" ? 495 / (1.0324 - 0.19077 * Math.log10(wa - ne) + 0.15456 * Math.log10(h)) - 450 : 495 / (1.29579 - 0.35004 * Math.log10(wa + hi - ne) + 0.221 * Math.log10(h)) - 450;
+    }
+    if(!cat || !w || bf == null || !isFinite(bf)) return "Nu am putut calcula (date incomplete).";
+    var f = function(x, d){ return x.toFixed(d == null ? 1 : d).replace(".", ","); };
+    var day = function(dt){ return dt.toLocaleDateString("ro-RO", {day: "numeric", month: "long", year: "numeric"}); };
+    var t = cat[1], rate = sex === "m" ? 0.007 : 0.006, lbm = w * (1 - bf / 100), stage = Math.min(w, lbm * 0.98 / (1 - t / 100)), kg = Math.max(0, w - stage);
+    var cut = kg > 0.3 ? Math.ceil(Math.log(stage / w) / Math.log(1 - rate)) : 0, need = cut + 2;
+    var date = new Date(get("sc-date") + "T12:00:00"), today = new Date(); today.setHours(12, 0, 0, 0);
+    var avail = Math.floor((date - today) / 864e5 / 7), start = new Date(date.getTime() - need * 7 * 864e5);
+    var req = avail - 2 > 0 ? 1 - Math.pow(stage / w, 1 / (avail - 2)) : 1;
+    var verdict = avail < 0 ? "data e în trecut" : kg <= 0.3 ? "deja aproape de condiția de scenă (după estimare)" : avail <= 2 ? "prea aproape" : req > 0.01 ? "în urmă cu " + (need - avail) + " săptămâni (ritm necesar " + f(req * 100) + "%/săpt.)" : avail < need ? "strâns, trebuie să înceapă acum (" + f(req * 100) + "%/săpt.)" : avail - need <= 3 ? "în grafic, " + (avail - need) + " săpt. de rezervă" : "are timp: " + (avail - need) + " săpt. de construcție înainte de definire";
+    return [
+      "% grăsime: " + f(bf) + "% (" + src + "; eroare ±3–4 puncte)",
+      "Pe scenă la " + cat[0] + ": " + cat[2] + " → greutate de scenă ~" + f(stage) + " kg (masă slabă păstrată 98%), de dat jos ~" + f(kg) + " kg",
+      "Ritm " + f(rate * 100) + "%/săpt. (" + f(w * rate) + " kg acum, deficit mediu ~" + Math.round(w * rate * 7700 / 7 / 10) * 10 + " kcal/zi) → " + cut + " săpt. de definire + 2 de rezervă = " + need + " săpt.",
+      "Până la concurs: " + avail + " săpt. · start definire: " + day(start),
+      "Verdict orientativ: " + verdict
+    ].join("\n");
+  };
+})();
+</script>
+{{ 'chera-instrument.js' | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Cât de departe de scenă",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Gratuit · pentru cine vrea să concureze" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Cât de departe ești de scenă?" },
+    { "type": "textarea", "id": "lead", "label": "Text", "default": "Te gândești la un concurs? Îmi spui data, categoria, măsurătorile și cum te antrenezi acum și îmi trimiți 3 poze. În maximum 48 de ore îți răspund eu: cât de departe ești de condiția de scenă, în ce zi trebuie să începi definirea și ce să faci până atunci." },
+    { "type": "text", "id": "email_to", "label": "E-mailul care primește datele (copie)", "default": "marius.chera@yahoo.com", "info": "Trimis prin FormSubmit, pe lângă formularul de contact Shopify." },
+    { "type": "product", "id": "upload_product", "label": "Produsul folosit pentru încărcarea pozelor", "info": "Implicit program-hipertrofie-5-zile; trebuie să fie activ în Online Store." }
+  ],
+  "presets": [{ "name": "Cât de departe de scenă" }]
+}
+{% endschema %}

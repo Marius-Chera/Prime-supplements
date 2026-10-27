@@ -1,0 +1,66 @@
+{%- comment -%} Prima pagină: cele 4 instrumente gratuite (texte și linkuri în setări, cu valori implicite, ca să nu depindă de index.json). {%- endcomment -%}
+<style>
+.tools{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tool{border:1px solid var(--line);border-top:4px solid var(--red);background:var(--bg-2);padding:22px 20px;display:grid;gap:10px;align-content:start;min-width:0}
+.tool .tag{font-family:var(--display);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700}
+.tool h3{font-size:clamp(22px,2.2vw,26px)}
+.tool p{margin:0;color:var(--fg-2);font-size:15.5px}
+.tool .btn{justify-self:start;margin-top:6px;color:#fff}
+@media (max-width:1000px){.tools{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.tools{grid-template-columns:1fr}.tool .btn{justify-self:stretch}}
+</style>
+<section class="band" id="{{ section.settings.anchor }}">
+  <div class="in stack" style="gap:28px">
+    <div class="stack"><p class="eyebrow">{{ section.settings.eyebrow }}</p><h2>{{ section.settings.title }}</h2><p class="lead muted" style="max-width:62ch">{{ section.settings.text }}</p></div>
+    <div class="tools">
+      {%- for i in (1..4) -%}
+        {%- capture k_title -%}t{{ i }}_title{%- endcapture -%}{%- capture k_tag -%}t{{ i }}_tag{%- endcapture -%}{%- capture k_text -%}t{{ i }}_text{%- endcapture -%}{%- capture k_cta -%}t{{ i }}_cta{%- endcapture -%}{%- capture k_url -%}t{{ i }}_url{%- endcapture -%}
+        {%- if section.settings[k_title] != blank -%}
+        <div class="tool">
+          <span class="tag">{{ section.settings[k_tag] }}</span>
+          <h3>{{ section.settings[k_title] }}</h3>
+          <p>{{ section.settings[k_text] }}</p>
+          <a class="btn btn-sm" href="{{ section.settings[k_url] }}">{{ section.settings[k_cta] }}</a>
+        </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Instrumente gratuite",
+  "settings": [
+    { "type": "text", "id": "anchor", "label": "Ancoră", "default": "instrumente" },
+    { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Gratuit · fără obligații" },
+    { "type": "text", "id": "title", "label": "Titlu", "default": "Instrumentele mele gratuite" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Patru moduri de a afla unde ești, înainte să plătești ceva. La trei dintre ele îți răspund eu personal, în cel mult 48 de ore." },
+    { "type": "header", "content": "Instrumentul 1" },
+    { "type": "text", "id": "t1_tag", "label": "Etichetă", "default": "4 minute · rezultat pe loc" },
+    { "type": "text", "id": "t1_title", "label": "Titlu (gol = ascuns)", "default": "Evaluarea gratuită" },
+    { "type": "textarea", "id": "t1_text", "label": "Text", "default": "Profilul tău neuro: cum ești făcut, cum te antrenezi și cum mănânci ca să progresezi." },
+    { "type": "text", "id": "t1_cta", "label": "Buton", "default": "Fă evaluarea" },
+    { "type": "text", "id": "t1_url", "label": "Link", "default": "/pages/evaluare" },
+    { "type": "header", "content": "Instrumentul 2" },
+    { "type": "text", "id": "t2_tag", "label": "Etichetă", "default": "Vrei să concurezi · 48 h" },
+    { "type": "text", "id": "t2_title", "label": "Titlu (gol = ascuns)", "default": "Cât de departe ești de scenă?" },
+    { "type": "textarea", "id": "t2_text", "label": "Text", "default": "Îmi spui concursul, măsurătorile și îmi trimiți 3 poze. Îți spun cât mai ai și când începi definirea." },
+    { "type": "text", "id": "t2_cta", "label": "Buton", "default": "Află cât mai ai" },
+    { "type": "text", "id": "t2_url", "label": "Link", "default": "/pages/cat-de-departe-de-scena" },
+    { "type": "header", "content": "Instrumentul 3" },
+    { "type": "text", "id": "t3_tag", "label": "Etichetă", "default": "Ai concurat · 48 h" },
+    { "type": "text", "id": "t3_title", "label": "Titlu (gol = ascuns)", "default": "Analiza de concurs" },
+    { "type": "textarea", "id": "t3_text", "label": "Text", "default": "Pozele de pe scenă, dieta și ultima săptămână. Îți spun ce a fost corect, ce a fost greșit și ce schimbi." },
+    { "type": "text", "id": "t3_cta", "label": "Buton", "default": "Fă analiza" },
+    { "type": "text", "id": "t3_url", "label": "Link", "default": "/pages/analiza-concurs" },
+    { "type": "header", "content": "Instrumentul 4" },
+    { "type": "text", "id": "t4_tag", "label": "Etichetă", "default": "La 4 săptămâni · 48 h" },
+    { "type": "text", "id": "t4_title", "label": "Titlu (gol = ascuns)", "default": "Revizuirea progresului" },
+    { "type": "textarea", "id": "t4_text", "label": "Text", "default": "Urmezi un program sau planul din evaluare? Îmi trimiți cifrele și pozele și îți spun dacă mergi în direcția bună." },
+    { "type": "text", "id": "t4_cta", "label": "Buton", "default": "Trimite progresul" },
+    { "type": "text", "id": "t4_url", "label": "Link", "default": "/pages/revizuire-progres" }
+  ],
+  "presets": [{ "name": "Instrumente gratuite" }]
+}
+{% endschema %}

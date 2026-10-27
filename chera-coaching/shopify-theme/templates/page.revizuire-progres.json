@@ -1,0 +1,6 @@
+{
+  "sections": {
+    "main": { "type": "revizuire-progres", "settings": {} }
+  },
+  "order": ["main"]
+}

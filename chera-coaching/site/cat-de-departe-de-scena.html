@@ -1,0 +1,749 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cât de departe ești de scenă? – prototip</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
+<style>/* Chera Protocol – tema Shopify. Negru, roșu, Barlow. */
+:root{--bg:#0e0d0d;--bg-2:#181616;--fg:#f5f1ec;--fg-2:#b5aea6;--line:#2d2a28;--red:#e1251b;--red-fg:#fff;--paper:#fff;--paper-fg:#141212;--paper-2:#f4f1ee;--paper-line:#e2ddd7;--ok:#7fb57a;--warn:#e3a53a;--display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;--body:"Barlow","Segoe UI",Helvetica,Arial,sans-serif;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55}
+img{max-width:100%;height:auto}
+a{color:inherit}
+.skip{position:absolute;left:-999px;top:0;background:var(--red);color:#fff;padding:8px 12px}
+.skip:focus{left:16px;z-index:100}
+.in{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.in.narrow{max-width:720px}
+.band{padding-block:72px}
+.band.tight{padding-block:40px}
+.band.paper{background:var(--paper);color:var(--paper-fg)}
+.band.paper .muted{color:#5f5853}
+.band.red{background:var(--red);color:var(--red-fg)}
+.band.red .eyebrow{color:#fff}
+.muted{color:var(--fg-2)}
+h1,h2,h3{font-family:var(--display);line-height:1.02;margin:0;text-wrap:balance;text-transform:uppercase}
+h1{font-size:clamp(44px,8.5vw,92px);font-weight:800;letter-spacing:.005em}
+h2{font-size:clamp(34px,5.5vw,56px);font-weight:700}
+h3{font-size:26px;font-weight:700}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:700}
+.lead{font-size:clamp(18px,2.2vw,22px);max-width:62ch}
+.stack{display:grid;gap:20px}
+.row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.row.between{justify-content:space-between}
+.btn{appearance:none;border:0;border-radius:4px;padding:16px 26px;font:600 16px var(--body);text-transform:uppercase;letter-spacing:.08em;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--red);color:var(--red-fg)}
+.btn.ghost{background:transparent;color:inherit;border:1.5px solid currentColor}
+.btn.btn-sm{padding:12px 18px;font-size:14px}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.note{font-size:13px;color:var(--fg-2);border:1px dashed var(--line);border-radius:6px;padding:10px 14px}
+
+/* nav */
+.site-nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.site-nav .in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.brand{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--fg)}
+.brand b{color:var(--red)}
+.nav-links{list-style:none;margin:0;padding:0;display:flex;gap:22px;font-size:15px;font-weight:500}
+.nav-links a{color:var(--fg-2);text-decoration:none}
+.nav-actions{display:flex;gap:14px;align-items:center;font-size:14px}
+.nav-actions a{text-decoration:none;color:var(--fg-2)}
+@media (max-width:860px){.nav-links{display:none}.nav-account{display:none}}
+
+/* hero */
+.hero{padding-block:84px 56px;position:relative;overflow:hidden}
+.hero .in{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:end}
+@media (max-width:860px){.hero .in{grid-template-columns:1fr}}
+.hero .stripe{position:absolute;left:0;right:0;bottom:0;height:8px;background:var(--red);z-index:3}
+.fig{margin:0;display:grid;gap:8px;min-width:0}
+.fig img{display:block;width:100%;border-radius:6px;aspect-ratio:4/5;object-fit:cover}
+.fig figcaption{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-2)}
+.placeholder{aspect-ratio:4/5;border-radius:6px;background:linear-gradient(160deg,#2a2524,#121010);border:1px solid var(--line);display:grid;place-items:end start;padding:16px;color:var(--fg-2);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+
+/* proof */
+.proof{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.proof>*{padding:18px 14px;border-right:1px solid var(--line);display:grid;gap:4px;min-width:0}
+.proof>*:last-child{border-right:0}
+.proof b{font-family:var(--display);font-size:40px;line-height:1;font-variant-numeric:tabular-nums;color:var(--red)}
+.proof small{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
+@media (max-width:860px){.proof{grid-template-columns:repeat(3,1fr)}.proof>*:nth-child(3){border-right:0}.proof>*:nth-child(-n+3){border-bottom:1px solid var(--line)}}
+@media (max-width:480px){.proof{grid-template-columns:repeat(2,1fr)}.proof>*{border-bottom:1px solid var(--line)}.proof>*:nth-child(odd){border-right:1px solid var(--line)}.proof>*:nth-child(even){border-right:0}.proof>*:nth-child(3){border-right:1px solid var(--line)}}
+
+/* causes, doors, steps */
+.causes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width:860px){.causes{grid-template-columns:1fr}}
+.cause{display:grid;gap:10px;padding-top:18px;border-top:3px solid var(--red);min-width:0}
+.cause h3{font-size:24px}
+.doors{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.doors:has(>.door:nth-child(4)){grid-template-columns:repeat(4,1fr)}@media (max-width:1180px){.doors:has(>.door:nth-child(4)){grid-template-columns:repeat(2,1fr)}}@media (max-width:860px){.doors,.doors:has(>.door:nth-child(4)){grid-template-columns:1fr}}
+.door{background:var(--paper-2);border:1px solid var(--paper-line);border-radius:8px;padding:28px 24px;display:grid;gap:14px;align-content:start;min-width:0}
+.door.main{background:var(--paper-fg);color:var(--paper);border-color:var(--paper-fg)}
+.door .tag{font-family:var(--display);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700}
+.door ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:15.5px}
+.door .price{font-family:var(--display);font-size:30px;font-weight:700;line-height:1}
+.door .price small{font-family:var(--body);font-size:14px;font-weight:500;letter-spacing:0;text-transform:none;opacity:.75}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+@media (max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.steps{grid-template-columns:1fr}}
+.step{display:grid;gap:8px;min-width:0}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font-family:var(--display);font-size:52px;font-weight:800;line-height:1;color:var(--red)}
+.step h3{font-size:22px}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:860px){.gallery{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:480px){.gallery{grid-template-columns:repeat(2,1fr);gap:8px}}
+.gallery figure{margin:0;display:grid;gap:6px;min-width:0}
+.gallery img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px}
+.gallery figcaption{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2)}
+
+/* quotes, about, faq, articles */
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:860px){.quotes{grid-template-columns:1fr}}
+.quote{border-left:3px solid var(--red);padding:4px 0 4px 20px;display:grid;gap:10px;min-width:0}
+.quote p{font-size:17px}
+.quote b{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-size:15px}
+.quote small{color:#5f5853;font-size:13px}
+.about .in{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center}
+@media (max-width:860px){.about .in{grid-template-columns:1fr}}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mosaic img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px}
+.avatar{width:56px;height:56px;border-radius:50%;border:2px solid var(--red);object-fit:cover}
+details{border-top:1px solid var(--line);padding-block:14px}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-family:var(--display);font-size:22px;text-transform:uppercase;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--red);font-weight:700}
+details[open] summary::after{content:"–"}
+details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
+.articles{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:860px){.articles{grid-template-columns:1fr}}
+.art{display:grid;gap:10px;padding:22px;border:1px solid var(--line);border-radius:8px;min-width:0;align-content:start}
+.art .meta{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
+.art h3{font-size:24px}
+.art a{color:var(--fg);text-decoration:none}
+.art p{color:var(--fg-2);font-size:15.5px}
+.art img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:6px}
+
+/* article page */
+.article-head{padding-block:56px 24px;display:grid;gap:14px}
+.by{display:flex;gap:12px;align-items:center;color:var(--fg-2);font-size:15px}
+.by img{width:44px;height:44px;border-radius:50%;border:2px solid var(--red);object-fit:cover}
+.rte{font-size:18px;line-height:1.65;display:grid;gap:22px;padding-block:16px 64px}
+.rte h2{font-size:30px;margin:24px 0 0}
+.rte ul,.rte ol{margin:0;padding-left:22px;display:grid;gap:8px}
+.rte blockquote{margin:0;padding:4px 0 4px 20px;border-left:3px solid var(--red);color:var(--fg-2);font-size:20px}
+.rte img{border-radius:6px}
+.cta-box{border:1px solid var(--line);border-radius:8px;padding:24px;display:grid;gap:12px;margin-top:16px}
+.cta-box h3{font-size:26px}
+
+/* forms, account, cart, product */
+.field{display:grid;gap:6px}
+.field label{font-size:14px;font-weight:600}
+.field input,.field select,.field textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:6px;background:var(--bg-2);color:var(--fg);font:16px var(--body)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.grid2{grid-template-columns:1fr}}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--fg-2)}
+.check input{margin-top:4px;flex:none}
+.card{background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:12px}
+.card.red{border-color:var(--red)}
+.err{color:var(--red);font-size:14px}
+.ok{color:var(--ok);font-size:14px}
+.pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.pill.ok{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)}
+.pill.warn{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.pill.crit{background:color-mix(in srgb,var(--red) 18%,transparent);color:var(--red)}
+.table{width:100%;border-collapse:collapse;font-size:15px}
+.table th,.table td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.table th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:860px){.product-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.product-grid{grid-template-columns:1fr}}
+.product-card{display:grid;gap:10px;text-decoration:none;color:inherit;min-width:0}
+.product-card img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:6px;background:var(--bg-2)}
+.product-card b{font-family:var(--display);font-size:22px;text-transform:uppercase}
+.product-card .price{color:var(--red);font-weight:600}
+.product-page .in{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+@media (max-width:860px){.product-page .in{grid-template-columns:1fr}}
+.product-page .media img{border-radius:8px;width:100%}
+.price-big{font-family:var(--display);font-size:38px;font-weight:700;color:var(--red);line-height:1}
+.qty{display:flex;gap:8px;align-items:center}
+.qty input{width:80px}
+.cart-line{display:grid;grid-template-columns:80px 1fr auto;gap:16px;align-items:center;padding-block:14px;border-bottom:1px solid var(--line)}
+.cart-line img{width:80px;aspect-ratio:1;object-fit:cover;border-radius:6px}
+.center{text-align:center;justify-items:center}
+.legal{font-size:13px;color:var(--fg-2);border-top:1px solid var(--line);padding-block:16px}
+
+/* quiz (evaluare) */
+.quiz .progress{display:grid;gap:6px;padding-block:14px}
+.quiz .progress .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.quiz .progress .bar i{display:block;height:100%;background:var(--red);width:0;transition:width .25s}
+.quiz .progress .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--fg-2);font-variant-numeric:tabular-nums}
+.quiz .item{display:grid;gap:10px;padding-block:18px;border-bottom:1px solid var(--line)}
+.quiz .item .q{font-size:18px;font-weight:500}
+.quiz .item .n{font-family:var(--display);color:var(--fg-2);font-size:14px;letter-spacing:.08em}
+.quiz .opts{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.quiz .opt{border:1px solid var(--line);background:var(--bg-2);color:var(--fg);border-radius:6px;padding:10px 4px;font:500 13px var(--body);cursor:pointer;min-width:0;line-height:1.2}
+.quiz .opt span{display:block;font-family:var(--display);font-size:20px;line-height:1}
+.quiz .opt[aria-checked="true"]{background:var(--red);color:#fff;border-color:var(--red)}
+.quiz .choice{display:grid;gap:8px}
+.quiz .choice .opt{text-align:left;padding:12px 14px;font-size:16px}
+.quiz .nav{display:flex;justify-content:space-between;gap:12px;padding-block:20px;flex-wrap:wrap}
+.quiz .scorecard{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.quiz .scorecard .s{display:grid;gap:4px;padding:10px;border:1px solid var(--line);border-radius:6px;text-align:center}
+.quiz .scorecard .s b{font-family:var(--display);font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
+.quiz .scorecard .s small{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
+.quiz .scorecard .s.lead-s{border-color:var(--red)}
+.quiz ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
+.quiz .result-head{display:grid;gap:8px;padding-block:24px 8px}
+.quiz .result-head .code{font-family:var(--display);font-size:14px;letter-spacing:.2em;color:var(--red)}
+.quiz .door{border:2px solid var(--red);border-radius:10px;padding:20px;display:grid;gap:10px;background:transparent;color:inherit}
+.quiz .code-box{font:600 16px var(--body);background:var(--bg);border:1px dashed var(--line);border-radius:6px;padding:10px 12px;user-select:all;word-break:break-all}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.quiz .progress .bar i{transition:none}}
+
+/* sesiuni: calendar de rezervare */
+.booking{display:grid;gap:14px}
+.cal{border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:10px;max-width:440px}
+.cal-head{display:flex;justify-content:space-between;align-items:center;font-family:var(--display);font-size:20px;text-transform:uppercase;letter-spacing:.04em}
+.cal-nav{background:transparent;border:1px solid var(--line);color:var(--fg);border-radius:6px;width:38px;height:38px;font-size:20px;cursor:pointer}
+.cal-nav[disabled]{opacity:.3;cursor:default}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal-wd{font-size:12px;color:var(--fg-2);letter-spacing:.06em;padding-bottom:4px}
+.cal-day{display:grid;place-items:center;aspect-ratio:1;border-radius:6px;font:15px var(--body);color:var(--fg-2);opacity:.4;background:transparent;border:0;min-width:0}
+.cal-day.has{opacity:1;color:var(--fg);border:1.5px solid var(--red);cursor:pointer}
+.cal-day.has.on{background:var(--red);color:#fff}
+.cal-times{display:grid;gap:8px}
+.opt.time{border:1px solid var(--line);background:var(--bg-2);color:var(--fg);border-radius:6px;padding:10px 16px;font:600 16px var(--body);cursor:pointer}
+.opt.time.on{background:var(--red);border-color:var(--red);color:#fff}
+.booking-summary{font-weight:600;color:var(--fg)}
+
+/* programe: formular înainte de plată */
+.intake h3{font-size:22px;margin-top:8px}
+.variant-cards{display:grid;gap:8px}
+.variant-card{display:flex;gap:12px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer;background:var(--bg-2)}
+.variant-card input{accent-color:var(--red);width:18px;height:18px}
+.variant-card b{flex:1;font-weight:600}
+.variant-card .price{color:var(--red);font-weight:600}
+.file-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:520px){.file-row{grid-template-columns:1fr}}
+.field input[type=file]{padding:10px;font-size:14px}
+
+/* logo */
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand-mark{height:34px;width:34px;flex:none}
+.site-footer .brand-mark{height:28px;width:28px}
+
+/* logo: ștampila (varianta 5, aleasă de Marius) */
+.brand-stamp{height:64px;width:auto;display:block}
+.site-footer .brand-stamp{height:96px}
+@media (max-width:480px){.brand-stamp{height:52px}}
+
+/* Apariții media */
+.media-videos{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media (max-width:860px){.media-videos{grid-template-columns:1fr}}
+.media-video{margin:0;display:grid;gap:10px;min-width:0}
+.media-frame{position:relative;aspect-ratio:16/9;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--bg-2)}
+.media-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.media-links{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:860px){.media-links{grid-template-columns:1fr}}
+.media-link{display:grid;gap:8px;padding:20px;border:1px solid var(--line);border-radius:8px;color:var(--fg);text-decoration:none;min-width:0}
+.media-link:hover{border-color:var(--red)}
+.media-link .meta{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
+.media-link b{font-family:var(--display);font-size:22px;line-height:1.1;text-transform:uppercase}
+.media-link .go{color:var(--red);font-weight:600;font-size:14px}
+
+.list.supp li{margin-bottom:10px}
+.list.supp .hint{display:block;margin-top:2px}
+
+/* Subsol */
+.site-footer{position:relative;overflow:hidden;background:var(--bg);border-top:1px solid var(--line);color:var(--fg-2);font-size:15px}
+.ft-cta{background:var(--red);color:var(--red-fg)}
+.ft-cta .in{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-block:44px}
+.ft-cta .eyebrow{color:var(--red-fg);opacity:.85}
+.ft-cta h2{margin:6px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(32px,4.4vw,54px);line-height:.95;text-transform:uppercase;color:#fff;max-width:16ch}
+.ft-cta .btn{background:var(--bg);color:var(--fg)}
+.ft-cta .btn:hover{background:#000}
+.ft-main{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:40px;padding-block:64px 40px}
+.ft-brand{display:grid;gap:18px;align-content:start}
+.ft-brand p{margin:0;max-width:34ch;line-height:1.6}
+.ft-social{display:flex;gap:10px}
+.ft-social a{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;color:var(--fg);transition:border-color .2s,background .2s}
+.ft-social a:hover{border-color:var(--red);background:var(--red)}
+.ft-social svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round}
+.ft-social svg .dot{fill:currentColor;stroke:none}
+.ft-col{display:grid;gap:11px;align-content:start;min-width:0}
+.ft-col h3{margin:0 0 6px;font-family:var(--display);font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--fg)}
+.ft-col a{color:var(--fg-2);text-decoration:none;transition:color .2s}
+.ft-col a:hover{color:var(--fg)}
+.ft-col a::before{content:"";display:inline-block;width:0;height:2px;margin-right:0;background:var(--red);vertical-align:middle;transition:width .2s,margin .2s}
+.ft-col a:hover::before{width:10px;margin-right:8px}
+.ft-badges{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding-block:24px;border-top:1px solid var(--line)}
+.ft-badge{display:grid;gap:2px;padding:9px 14px;border:1px solid var(--line);border-radius:6px;color:var(--fg);text-decoration:none;font-size:13px;font-weight:600;line-height:1.2}
+.ft-badge small{font-size:11px;font-weight:400;color:var(--fg-2);text-transform:uppercase;letter-spacing:.08em}
+.ft-badge:hover{border-color:var(--red)}
+.ft-note{margin:0 0 0 auto;font-size:13px;max-width:44ch;text-align:right}
+.ft-word{font-family:var(--display);font-weight:800;font-size:clamp(64px,15.5vw,230px);line-height:.8;letter-spacing:-.01em;text-align:center;white-space:nowrap;color:transparent;-webkit-text-stroke:1px #2f2b29;user-select:none;margin-top:8px;transform:translateY(12%)}
+.ft-bottom{position:relative;background:#080707;border-top:1px solid var(--line)}
+.ft-bottom .in{display:flex;justify-content:space-between;gap:8px 24px;flex-wrap:wrap;padding-block:18px;font-size:13px}
+.ft-bottom p{margin:0}
+@media (max-width:960px){.ft-main{grid-template-columns:repeat(2,1fr)}.ft-brand{grid-column:1/-1}}
+@media (max-width:520px){.ft-main{grid-template-columns:1fr 1fr;gap:28px 20px;padding-block:44px 28px}.ft-note{margin:0;text-align:left}.ft-cta .in{padding-block:34px}.ft-cta .btn{width:100%}}
+
+/* Bara de dovezi: cardul-buton (Certificări) */
+.proof a.proof-link{text-decoration:none;color:inherit;background:var(--red);transition:background .2s}
+.proof a.proof-link b{color:#fff;font-size:30px;padding-top:5px}
+.proof a.proof-link small{color:#fff;opacity:.9}
+.proof a.proof-link:hover{background:#b81d15}
+
+/* Hero v3 (după raportul Dribbble): poză full-height fără ramă, topită în fundal; titlu cu accent roșu; un CTA principal + link; dovezi compacte */
+.hero{padding-block:0}
+.hero .in{grid-template-columns:1.05fr .95fr;gap:0;align-items:stretch;min-height:620px}
+.hero .stack{padding-block:72px 64px;padding-right:48px;align-self:center;gap:20px}
+.hero h1{font-size:clamp(40px,5.2vw,72px);line-height:.96;letter-spacing:0}
+.hero h1 .accent{color:var(--red)}
+.hero .lead{font-size:clamp(17px,1.5vw,19px);max-width:46ch}
+.hero .fig{position:relative;margin:0 calc(-1 * max(16px,(100vw - 1100px) / 2)) 0 0;min-height:420px}
+.hero .fig img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:0;aspect-ratio:auto;filter:contrast(1.06) saturate(.9)}
+.hero .fig::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--bg) 0,rgba(14,13,13,.6) 16%,transparent 48%),linear-gradient(180deg,transparent 55%,rgba(14,13,13,.9) 100%)}
+.hero .fig figcaption{position:absolute;left:28px;right:28px;bottom:24px;z-index:2;margin:0;color:var(--fg);font-size:12px}
+.hero .fig figcaption::before{content:"";display:inline-block;width:22px;height:2px;background:var(--red);vertical-align:middle;margin-right:10px}
+.hero .cta-row{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.hero .link-arrow{color:var(--fg);text-decoration:none;font:600 14px var(--body);text-transform:uppercase;letter-spacing:.1em;border-bottom:1px solid var(--line);padding-bottom:3px;transition:border-color .2s}
+.hero .link-arrow:hover{border-color:var(--red)}
+.hero .proof-mini{display:flex;flex-wrap:wrap;gap:10px 0;margin-top:10px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.hero .proof-mini span{display:inline-flex;align-items:center}
+.hero .proof-mini b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.hero .proof-mini span+span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);margin-inline:18px}
+.btn{border-radius:0}
+@media (max-width:860px){.hero .in{grid-template-columns:1fr;min-height:0}.hero .stack{padding:36px 0 48px;order:2}.hero .fig{order:1;min-height:0;aspect-ratio:4/5;margin:0 -16px}.hero .fig::before{background:linear-gradient(180deg,transparent 50%,var(--bg) 100%)}.hero .fig figcaption{bottom:18px;left:16px;right:16px}}
+</style><script>
+/* simulare: coșul întoarce un link fals, FormSubmit răspunde OK (nimic nu pleacă) */
+window.CHERA={whatsapp:"40757911908",customer:null};
+const _f=window.fetch;window.fetch=async(u,o)=>{await new Promise(r=>setTimeout(r,200));
+ if(u==="/cart/add.js"){const k=[...o.body.keys()].find(x=>x.startsWith("properties"));return new Response(JSON.stringify({key:"k"+Date.now(),properties:{[k.slice(11,-1)]:"https://cdn.shopify.com/prototip/"+o.body.get(k).name}}),{status:200});}
+ if(String(u).startsWith("https://formsubmit.co/")){window.__LAST_MAIL=JSON.parse(o.body);return new Response(JSON.stringify({success:"true"}),{status:200});}
+ if(u==="/cart/change.js")return new Response("{}",{status:200});
+ return _f(u,o);};
+</script></head><body><main>
+
+
+
+<style>
+.ct{max-width:760px}
+.ct h1{font-size:clamp(40px,6vw,64px);line-height:.96}
+.ct h2{font-size:clamp(28px,4vw,38px)}
+.ct .lead{font-size:18px;color:var(--fg-2);max-width:60ch;margin:0}
+.ct .free{display:flex;flex-wrap:wrap;gap:8px 0;font-family:var(--display);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-2)}
+.ct .free span{display:inline-flex;align-items:center}
+.ct .free b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
+.ct .free span+span::before{content:"";width:5px;height:5px;background:var(--red);margin-inline:16px}
+.ct .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.ct .steps3>div{border-top:3px solid var(--red);padding-top:12px;display:grid;gap:6px;font-size:15px;color:var(--fg-2)}
+.ct .steps3 b{font-family:var(--display);font-size:20px;text-transform:uppercase;color:var(--fg)}
+.ct .steps3 b::before{counter-increment:s;content:counter(s,decimal-leading-zero) " ";color:var(--red)}
+.ct .field textarea{min-height:100px;resize:vertical}
+.ct .field small{font-size:13px;color:var(--fg-2)}
+.ct .field input,.ct .field select,.ct .field textarea,.ct .card,.ct .btn,.ct .opt,.ct .note,.ct .code-box{border-radius:0}
+.ct .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ct .drop{position:relative;display:grid;place-items:center;gap:6px;text-align:center;border:1.5px dashed var(--line);padding:24px 16px;cursor:pointer;background:var(--bg-2)}
+.ct .drop:hover,.ct .drop.over{border-color:var(--red)}
+.ct .drop b{font-family:var(--display);font-size:22px;text-transform:uppercase}
+.ct .drop input{position:absolute;width:1px;height:1px;opacity:0}
+.ct .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ct .thumb{position:relative;aspect-ratio:3/4;background:var(--bg-2);border:1px solid var(--line);overflow:hidden}
+.ct .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ct .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(14,13,13,.82);color:var(--fg-2)}
+.ct .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(14,13,13,.85);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ct .thumb.big{outline:2px solid var(--warn)}
+.ct .btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}
+.ct .done-code{font-family:var(--display);font-size:clamp(34px,6vw,52px);letter-spacing:.06em;color:var(--red);line-height:1}
+.ct .warnbox{border:1.5px solid var(--warn);padding:14px;display:grid;gap:8px}
+@media (max-width:760px){.ct .steps3,.ct .grid3{grid-template-columns:1fr}.ct .thumbs{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.ct .nav .btn{flex:1}.ct .free{gap:6px 20px}.ct .free span+span::before{display:none}}
+</style>
+
+<section class="band" style="padding-top:24px">
+<div class="in narrow quiz ct" data-tool data-prefix="SC" data-title="Cât de departe ești de scenă" data-variant="PROTOTIP" data-mail="marius.chera@yahoo.com">
+
+  <!-- 0 · INTRO -->
+  <section data-step="0" class="stack" style="padding-block:28px 0;gap:22px">
+    <p class="eyebrow">Gratuit · pentru cine vrea să concureze</p>
+    <h1>Cât de departe ești de scenă?</h1>
+    <p class="lead">Te gândești la un concurs? Îmi spui data, categoria, măsurătorile și cum te antrenezi acum și îmi trimiți 3 poze. În maximum 48 de ore îți răspund eu: cât de departe ești de condiția de scenă, în ce zi trebuie să începi definirea și ce să faci până atunci.</p>
+    <div class="free"><span><b>0</b> lei</span><span><b>48 h</b> răspunsul meu</span><span><b>5</b> minute</span></div>
+    <div class="steps3">
+      <div><b>Îmi spui</b>Concursul la care te gândești, categoria, măsurătorile și cum te antrenezi și mănânci acum.</div>
+      <div><b>Îmi arăți</b>3 poze de acum: față, lateral, spate. Din poze văd ce nu arată cântarul.</div>
+      <div><b>Îți răspund</b>În maximum 48 de ore: cât de departe ești, când trebuie să începi definirea și ce să faci până atunci.</div>
+    </div>
+    <div class="nav"><span></span><button class="btn" type="button" data-go="1">Începe</button></div>
+  </section>
+
+  <div class="progress" data-progress hidden>
+    <div class="meta"><span data-step-name></span><span data-step-count></span></div>
+    <div class="bar"><i data-fill></i></div>
+  </div>
+
+  <!-- 1 · CONCURSUL -->
+  <section data-step="1" data-name="Concursul și tu" class="stack" hidden>
+    <h2>Concursul și tu</h2>
+    <div class="grid2">
+      <div class="field"><label for="sc-name">Nume și prenume</label><input id="sc-name" data-k="Nume" autocomplete="name" required></div>
+      <div class="field"><label for="sc-city">Oraș</label><input id="sc-city" data-k="Oraș" autocomplete="address-level2"></div>
+      <div class="field"><label for="sc-phone">Telefon (WhatsApp)</label><input id="sc-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
+      <div class="field"><label for="sc-email">E-mail</label><input id="sc-email" data-k="E-mail" type="email" autocomplete="email" placeholder="nume@exemplu.ro" required></div>
+    </div>
+    <div class="grid2">
+      <div class="field"><label for="sc-sex">Sex</label><select id="sc-sex" data-k="Sex" required><option value="">alege</option><option>Bărbat</option><option>Femeie</option></select></div>
+      <div class="field"><label for="sc-cat">Categoria</label><select id="sc-cat" data-k="Categoria" required><option value="">alege întâi sexul</option></select></div>
+      <div class="field"><label for="sc-date">Data concursului (aproximativ e în regulă)</label><input id="sc-date" data-k="Data concursului" type="date" required></div>
+      <div class="field"><label for="sc-comp">Concursul (dacă știi)</label><input id="sc-comp" data-k="Concursul" placeholder="ex. Cupa X, naționalele"></div>
+      <div class="field"><label for="sc-first">Ai mai concurat?</label><select id="sc-first" data-k="A mai concurat" required><option value="">alege</option><option>Nu, ar fi primul</option><option>Da, o dată</option><option>Da, de mai multe ori</option></select></div>
+      <div class="field"><label for="sc-years">Ani de sală</label><select id="sc-years" data-k="Ani de sală" required><option value="">alege</option><option>sub 2 ani</option><option>2–4 ani</option><option>5–8 ani</option><option>peste 8 ani</option></select></div>
+    </div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="0">Înapoi</button><button class="btn" type="button" data-next="2">Continuă</button></div>
+  </section>
+
+  <!-- 2 · CORPUL TĂU -->
+  <section data-step="2" data-name="Corpul tău acum" class="stack" hidden>
+    <h2>Corpul tău acum</h2>
+    <div class="grid3">
+      <div class="field"><label for="sc-age">Vârstă</label><input id="sc-age" data-k="Vârstă" type="number" min="14" max="80" inputmode="numeric" required></div>
+      <div class="field"><label for="sc-h">Înălțime (cm)</label><input id="sc-h" data-k="Înălțime (cm)" type="number" min="130" max="230" inputmode="numeric" required></div>
+      <div class="field"><label for="sc-w">Greutate (kg)</label><input id="sc-w" data-k="Greutate (kg)" type="number" step="0.1" min="35" max="200" inputmode="decimal" required></div>
+    </div>
+    <p class="hint">Cu centimetrul, dimineața, pe nemâncate, fără să tragi burta: talia la nivelul buricului, gâtul sub mărul lui Adam, șoldul (femei) în punctul cel mai lat al fesierilor.</p>
+    <div class="grid3">
+      <div class="field"><label for="sc-waist">Talie (cm)</label><input id="sc-waist" data-k="Talie (cm)" type="number" step="0.5" min="45" max="160" inputmode="decimal" required></div>
+      <div class="field"><label for="sc-neck">Gât (cm)</label><input id="sc-neck" data-k="Gât (cm)" type="number" step="0.5" min="25" max="60" inputmode="decimal" required></div>
+      <div class="field" id="sc-hip-f" hidden><label for="sc-hip">Șold (cm)</label><input id="sc-hip" data-k="Șold (cm)" type="number" step="0.5" min="60" max="170" inputmode="decimal"></div>
+    </div>
+    <div class="field"><label for="sc-bf">Procentul de grăsime, dacă îl știi (DEXA, InBody)</label><input id="sc-bf" data-k="% grăsime știut" type="number" step="0.1" min="3" max="50" inputmode="decimal" placeholder="opțional"></div>
+    <p class="muted" style="margin:0">Trei poze de acum, în lumină bună, cu tot corpul în cadru: față, lateral, spate (în costum de baie sau echipament de concurs, dacă ai). Le văd doar eu.</p>
+    <label class="drop" data-zone="acum" data-min="3" data-max="6" data-label="Poze de acum">
+      <input type="file" accept="image/*" multiple>
+      <b>Alege pozele</b>
+      <span class="muted" style="font-size:14px">sau trage-le aici · 3–6 poze · până la 20 MB fiecare</span>
+    </label>
+    <div class="thumbs" data-thumbs="acum"></div>
+    <p class="hint" data-info="acum"></p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="1">Înapoi</button><button class="btn" type="button" data-next="3">Continuă</button></div>
+  </section>
+
+  <!-- 3 · ANTRENAMENT ȘI DIETĂ -->
+  <section data-step="3" data-name="Cum te antrenezi și mănânci" class="stack" hidden>
+    <h2>Cum te antrenezi și mănânci acum</h2>
+    <div class="grid2">
+      <div class="field"><label for="sc-days">Antrenamente pe săptămână</label><select id="sc-days" data-k="Antrenamente pe săptămână" required><option value="">alege</option><option>2–3</option><option>4</option><option>5</option><option>6 sau mai multe</option></select></div>
+      <div class="field"><label for="sc-phase">Ce faci acum</label><select id="sc-phase" data-k="Faza acum" required><option value="">alege</option><option>Masă musculară</option><option>Mențin</option><option>Am început definirea</option><option>Nu țin nicio dietă anume</option></select></div>
+    </div>
+    <div class="field"><label for="sc-train">Antrenamentul</label><textarea id="sc-train" data-k="Antrenament" rows="3" required placeholder="Split-ul, exercițiile principale, cât de greu."></textarea></div>
+    <div class="field"><label for="sc-diet">Ce mănânci într-o zi obișnuită</label><textarea id="sc-diet" data-k="Dieta acum" rows="4" required placeholder="Mesele, cu cantități aproximative; calorii/macro dacă le știi."></textarea></div>
+    <div class="grid2">
+      <div class="field"><label for="sc-cardio">Cardio și pași pe zi</label><input id="sc-cardio" data-k="Cardio și pași" placeholder="ex. 20 min de 3 ori, 8.000 pași"></div>
+      <div class="field"><label for="sc-supp">Suplimente</label><input id="sc-supp" data-k="Suplimente" placeholder="ex. creatină, proteină"></div>
+    </div>
+    <div class="field"><label for="sc-block">Ce te oprește sau te îngrijorează</label><textarea id="sc-block" data-k="Ce îl oprește" rows="3" placeholder="ex. timpul, foamea, nu știu posing, n-am mai concurat"></textarea></div>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="2">Înapoi</button><button class="btn" type="button" data-next="4">Continuă</button></div>
+  </section>
+
+  <!-- 4 · TRIMITERE -->
+  <section data-step="4" data-name="Trimite" class="stack" hidden>
+    <h2>Unde îți răspund</h2>
+    <div class="field"><label for="sc-ask">Ce vrei să afli de la mine</label><input id="sc-ask" data-k="Ce vrea să afle" placeholder="ex. pot fi gata în primăvară?"></div>
+    <div class="field"><label>Unde vrei răspunsul meu</label>
+      <div class="choice" role="radiogroup" data-channel>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="WhatsApp">Pe WhatsApp, la numărul tău</button>
+        <button type="button" class="opt" role="radio" aria-checked="false" data-v="e-mail">Pe e-mail, la adresa ta</button>
+      </div></div>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord ca Marius Chera să folosească datele și pozele mele doar pentru acest răspuns. Pozele se încarcă pe serverul magazinului (Shopify), iar datele ajung la Marius pe e-mail; pozele nu se publică nicăieri fără acordul meu separat, scris. Datele se păstrează 12 luni dacă nu devin client.</span></label>
+    <label class="check"><input type="checkbox" data-consent><span>Sunt de acord să fiu contactat pe canalul ales mai sus cu răspunsul și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
+    <p class="note">Gratuit și fără obligații. Primești răspunsul meu în maximum 48 de ore: cât de departe ești de scenă, când începi definirea și ce să faci până atunci.</p>
+    <p class="err" data-err hidden></p>
+    <div class="nav"><button class="btn ghost" type="button" data-go="3">Înapoi</button><button class="btn" type="button" data-send>Trimite</button></div>
+  </section>
+
+  <!-- 5 · TRIMITERE / GATA -->
+  <section data-step="5" class="stack" hidden>
+    <div class="stack" data-sending style="gap:8px">
+      <h2>Trimit…</h2>
+      <p class="muted" data-sendmsg>Încarc pozele.</p>
+      <div class="progress"><div class="bar"><i data-upfill></i></div></div>
+      <p class="hint">Nu închide pagina. Pozele mari pot dura câteva secunde fiecare.</p>
+    </div>
+    <div class="stack" data-done hidden>
+      <p class="eyebrow">Am primit datele tale</p>
+      <p class="done-code" data-code></p>
+      <h2 data-done-title>Mulțumesc. Îți răspund în maximum 48 de ore.</h2>
+      <p class="lead" data-done-text></p>
+      <div class="warnbox" data-warn hidden></div>
+      <div class="card">
+        <h3>Ce urmează</h3>
+        <ul class="list">
+          <li>Mă uit la poze lângă măsurători și îți spun cât de departe ești de condiția de scenă la categoria ta.</li>
+          <li>Îți dau data la care ar trebui să începi definirea și ce să faci până atunci (antrenament, mâncare, posing).</li>
+          <li>Îți spun sincer dacă ai nevoie de mine: pregătire de concurs, coaching online sau doar un program.</li>
+        </ul>
+      </div>
+      <a class="btn" data-mailbtn href="#" hidden>Trimite-mi pozele pe e-mail</a>
+      <a class="btn ghost" href="/pages/evaluare">Între timp: evaluarea gratuită (4 minute)</a>
+    </div>
+  </section>
+
+  <form action="/contact" onsubmit="event.preventDefault();window.__POSTED=1">
+    <div hidden>
+      <span data-cf-state data-ok="1" data-err="1"></span>
+      <input type="hidden" name="contact[email]">
+      <input type="hidden" name="contact[name]">
+      <input type="hidden" name="contact[Telefon]">
+      <input type="hidden" name="contact[Subiect]">
+      <input type="hidden" name="contact[Răspuns pe]">
+      <textarea name="contact[body]"></textarea>
+    </div>
+  </form>
+
+  <p class="legal">Răspunsul este părerea mea de antrenor despre formă și calendar. Nu este un consult medical și nu conține recomandări de medicamente sau substanțe interzise.</p>
+</div>
+</section>
+
+<script>
+/* categoriile pe sex + calculul pentru e-mailul lui Marius (sportivul nu îl vede) */
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+  var CATS = {
+    m: [["Culturism (bodybuilding)", 4.5, "4–5%"], ["Classic Physique", 5.5, "5–6%"], ["Men's Physique", 6.5, "6–7%"]],
+    f: [["Bikini", 12.5, "11–14%"], ["Wellness", 14, "13–15%"], ["Fitness / Body fitness", 11, "10–12%"], ["Figure", 10.5, "10–11%"], ["Women's Physique", 9.5, "9–10%"]]
+  };
+  function sx(){ var v = $("sc-sex").value; return v === "Femeie" ? "f" : v === "Bărbat" ? "m" : ""; }
+  function fill(){
+    var s = sx(), c = $("sc-cat"), keep = c.getAttribute("data-keep") || c.value;
+    c.innerHTML = '<option value="">' + (s ? "alege" : "alege întâi sexul") + '</option>' + (CATS[s] || []).map(function(x){ return '<option>' + x[0] + '</option>'; }).join("");
+    if(keep && [].some.call(c.options, function(o){ return o.value === keep; })) c.value = keep;
+    c.removeAttribute("data-keep");
+    $("sc-hip-f").hidden = s !== "f"; if(s === "f") $("sc-hip").setAttribute("required", ""); else $("sc-hip").removeAttribute("required");
+  }
+  $("sc-sex").addEventListener("change", fill);
+  /* ciorna se încarcă după acest script: păstrez categoria salvată */
+  try{ var d = JSON.parse(localStorage.getItem("chera-tool-SC") || "null"); if(d && d["sc-cat"]) $("sc-cat").setAttribute("data-keep", d["sc-cat"]); }catch(e){}
+  document.addEventListener("DOMContentLoaded", fill);
+  window.addEventListener("load", fill);
+
+  window.CHERA_TOOL_EXTRA = function(get){
+    var sex = sx(), list = CATS[sex] || [], cat = list.filter(function(x){ return x[0] === get("sc-cat"); })[0];
+    var n = function(id){ var v = parseFloat(get(id).replace(",", ".")); return isFinite(v) ? v : null; };
+    var h = n("sc-h"), w = n("sc-w"), bf = n("sc-bf"), src = "știut de sportiv";
+    if(bf == null){
+      var wa = n("sc-waist"), ne = n("sc-neck"), hi = n("sc-hip"); src = "estimat US Navy din talie/gât" + (sex === "f" ? "/șold" : "");
+      if(wa && ne && h && (sex === "m" || hi)) bf = sex === "m" ? 495 / (1.0324 - 0.19077 * Math.log10(wa - ne) + 0.15456 * Math.log10(h)) - 450 : 495 / (1.29579 - 0.35004 * Math.log10(wa + hi - ne) + 0.221 * Math.log10(h)) - 450;
+    }
+    if(!cat || !w || bf == null || !isFinite(bf)) return "Nu am putut calcula (date incomplete).";
+    var f = function(x, d){ return x.toFixed(d == null ? 1 : d).replace(".", ","); };
+    var day = function(dt){ return dt.toLocaleDateString("ro-RO", {day: "numeric", month: "long", year: "numeric"}); };
+    var t = cat[1], rate = sex === "m" ? 0.007 : 0.006, lbm = w * (1 - bf / 100), stage = Math.min(w, lbm * 0.98 / (1 - t / 100)), kg = Math.max(0, w - stage);
+    var cut = kg > 0.3 ? Math.ceil(Math.log(stage / w) / Math.log(1 - rate)) : 0, need = cut + 2;
+    var date = new Date(get("sc-date") + "T12:00:00"), today = new Date(); today.setHours(12, 0, 0, 0);
+    var avail = Math.floor((date - today) / 864e5 / 7), start = new Date(date.getTime() - need * 7 * 864e5);
+    var req = avail - 2 > 0 ? 1 - Math.pow(stage / w, 1 / (avail - 2)) : 1;
+    var verdict = avail < 0 ? "data e în trecut" : kg <= 0.3 ? "deja aproape de condiția de scenă (după estimare)" : avail <= 2 ? "prea aproape" : req > 0.01 ? "în urmă cu " + (need - avail) + " săptămâni (ritm necesar " + f(req * 100) + "%/săpt.)" : avail < need ? "strâns, trebuie să înceapă acum (" + f(req * 100) + "%/săpt.)" : avail - need <= 3 ? "în grafic, " + (avail - need) + " săpt. de rezervă" : "are timp: " + (avail - need) + " săpt. de construcție înainte de definire";
+    return [
+      "% grăsime: " + f(bf) + "% (" + src + "; eroare ±3–4 puncte)",
+      "Pe scenă la " + cat[0] + ": " + cat[2] + " → greutate de scenă ~" + f(stage) + " kg (masă slabă păstrată 98%), de dat jos ~" + f(kg) + " kg",
+      "Ritm " + f(rate * 100) + "%/săpt. (" + f(w * rate) + " kg acum, deficit mediu ~" + Math.round(w * rate * 7700 / 7 / 10) * 10 + " kcal/zi) → " + cut + " săpt. de definire + 2 de rezervă = " + need + " săpt.",
+      "Până la concurs: " + avail + " săpt. · start definire: " + day(start),
+      "Verdict orientativ: " + verdict
+    ].join("\n");
+  };
+})();
+</script>
+<script>/* Chera Protocol – motorul comun al instrumentelor gratuite cu răspuns în 48 h
+   (Cât de departe ești de scenă, Revizuirea progresului). Analiza de concurs are codul ei, în secțiune.
+
+   Pagina: un element [data-tool] cu
+     data-prefix  cod de referință (ex. SC → SC-2810-K7QX)
+     data-title   numele instrumentului (apare în subiectul e-mailului)
+     data-variant varianta de produs pe care se încarcă pozele prin coș (linia se scoate imediat)
+     data-mail    e-mailul (sau aliasul FormSubmit) care primește copia
+   Pași: section[data-step="0..N"][data-name]; ultimul pas cu formular conține [data-send]; pasul N+1 = trimitere/gata.
+   Câmpuri: input/select/textarea cu id și data-k (eticheta din e-mail); [required] = obligatoriu.
+   Poze: .drop[data-zone][data-min][data-max][data-label] cu input[type=file], [data-thumbs=zonă], [data-info=zonă].
+   Canal: .choice[data-channel] .opt[data-v]; acorduri: input[data-consent].
+   Formularul de contact Shopify nativ:  în [data-tool] (cu hCaptcha; fetch la /contact e refuzat), [data-cf-state].
+   Calcule proprii: window.CHERA_TOOL_EXTRA = function(get){ return "text pentru e-mail"; } */
+(function(){
+  var root = document.querySelector("[data-tool]"); if(!root) return;
+  var P = root.getAttribute("data-prefix") || "CP", TITLE = root.getAttribute("data-title") || "Instrument";
+  var VARIANT = root.getAttribute("data-variant"), MAIL = (root.getAttribute("data-mail") || "").trim();
+  var DRAFT = "chera-tool-" + P, SENT = "chera-tool-sent-" + P, MAX = 20 * 1048576;
+  var q = function(s, el){ return (el || root).querySelector(s); }, qa = function(s, el){ return [].slice.call((el || root).querySelectorAll(s)); };
+  var steps = qa("section[data-step]").sort(function(a, b){ return a.getAttribute("data-step") - b.getAttribute("data-step"); });
+  var LAST = steps.length - 1, FORM_STEPS = LAST - 1; /* pasul 0 = intro, 1..FORM_STEPS = formular, LAST = trimitere */
+  var cur = 0, channel = null, zones = {};
+  var fields = qa("input[id],select[id],textarea[id]").filter(function(el){ return el.type !== "file" && el.type !== "checkbox" && !el.closest("form[action*='/contact']"); });
+  var get = function(id){ var el = document.getElementById(id); return el ? String(el.value).trim() : ""; };
+
+  /* ciornă locală (fără poze) */
+  function saveDraft(){ try{ var d = {ch: channel}; fields.forEach(function(el){ if(el.value) d[el.id] = el.value; }); localStorage.setItem(DRAFT, JSON.stringify(d)); }catch(e){} }
+  function loadDraft(){ try{ var d = JSON.parse(localStorage.getItem(DRAFT) || "null"); if(!d) return; fields.forEach(function(el){ if(d[el.id] != null) el.value = d[el.id]; }); if(d.ch) setChannel(d.ch); }catch(e){} }
+  fields.forEach(function(el){ el.addEventListener("input", saveDraft); el.addEventListener("change", saveDraft); });
+  if(window.CHERA && window.CHERA.customer){ var cu = window.CHERA.customer; var em = q("input[type=email]"), ph = q("input[type=tel]"); if(em && cu.email && !em.value) em.value = cu.email; if(ph && cu.phone && !ph.value) ph.value = cu.phone; }
+
+  function setChannel(v){ channel = v; qa("[data-channel] .opt").forEach(function(o){ o.setAttribute("aria-checked", o.getAttribute("data-v") === v ? "true" : "false"); }); }
+  qa("[data-channel] .opt").forEach(function(b){ b.addEventListener("click", function(){ setChannel(b.getAttribute("data-v")); saveDraft(); }); });
+
+  /* hCaptcha-ul Shopify se încarcă la primul focus pe un câmp al formularului de contact */
+  function warmCaptcha(){ var el = q("form[action*='/contact'] input[name='contact[email]']"); if(el) el.dispatchEvent(new FocusEvent("focusin", {bubbles: true})); }
+  function captchaReady(){ return new Promise(function(res){ var t = 0; (function w(){ if(window.hcaptcha || t > 40) return res(); t++; setTimeout(w, 250); })(); }); }
+
+  /* navigare */
+  function show(n){
+    cur = n;
+    steps.forEach(function(s, i){ s.hidden = i !== n; });
+    var p = q("[data-progress]");
+    if(p){ p.hidden = !(n >= 1 && n <= FORM_STEPS);
+      if(!p.hidden){ q("[data-step-name]", p).textContent = "Pasul " + n + " · " + steps[n].getAttribute("data-name"); q("[data-step-count]", p).textContent = n + " / " + FORM_STEPS; q("[data-fill]", p).style.width = Math.round((n - 0.5) / FORM_STEPS * 100) + "%"; } }
+    if(n === FORM_STEPS) warmCaptcha();
+    window.scrollTo({top: Math.max(0, root.getBoundingClientRect().top + window.scrollY - 90), behavior: "smooth"});
+  }
+  function err(n, list){ var el = q("[data-err]", steps[n]); if(!el) return !list.length; if(list.length){ el.hidden = false; el.textContent = "Mai trebuie: " + list.join(", ") + "."; return false; } el.hidden = true; return true; }
+  function label(el){ var l = q("label[for='" + el.id + "']"); return l ? l.textContent.toLowerCase() : el.id; }
+  function validate(n){
+    var e = [];
+    qa("[required]", steps[n]).forEach(function(el){ if(!String(el.value).trim()) e.push(label(el)); });
+    qa("input[type=email]", steps[n]).forEach(function(el){ var v = el.value.trim(); if(v && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) e.push("o adresă de e-mail validă"); });
+    qa("input[type=tel]", steps[n]).forEach(function(el){ var v = el.value.replace(/[^\d+]/g, ""); if(v && !/^(\+?40|0)?7\d{8}$/.test(v) && !/^\+\d{8,15}$/.test(v)) e.push("un număr de telefon valid"); });
+    qa(".drop[data-zone]", steps[n]).forEach(function(z){ var k = z.getAttribute("data-zone"), min = +(z.getAttribute("data-min") || 0), have = (zones[k] || []).length; if(have < min) e.push("cel puțin " + min + " poze la „" + z.getAttribute("data-label") + "” (ai " + have + ")"); });
+    if(q("[data-channel]", steps[n]) && !channel) e.push("unde vrei răspunsul");
+    if(qa("input[data-consent]", steps[n]).some(function(c){ return !c.checked; })) e.push("bifele de acord");
+    return err(n, e);
+  }
+  qa("[data-go]").forEach(function(b){ b.addEventListener("click", function(){ show(+b.getAttribute("data-go")); }); });
+  qa("[data-next]").forEach(function(b){ b.addEventListener("click", function(){ if(validate(cur)) show(+b.getAttribute("data-next")); }); });
+
+  /* poze */
+  function mb(n){ return (n / 1048576).toFixed(1).replace(".", ",") + " MB"; }
+  qa(".drop[data-zone]").forEach(function(z){
+    var k = z.getAttribute("data-zone"), max = +(z.getAttribute("data-max") || 8), min = +(z.getAttribute("data-min") || 0), input = q("input[type=file]", z);
+    zones[k] = [];
+    function render(){
+      var box = q("[data-thumbs='" + k + "']"); box.innerHTML = "";
+      zones[k].forEach(function(f, i){
+        var d = document.createElement("div"); d.className = "thumb" + (f.size > MAX ? " big" : "");
+        var img = document.createElement("img"); img.alt = "Poza " + (i + 1); img.src = URL.createObjectURL(f); img.onerror = function(){ img.remove(); };
+        var s = document.createElement("small"); s.textContent = (i + 1) + " · " + mb(f.size) + (f.size > MAX ? " · prea mare" : "");
+        var x = document.createElement("button"); x.type = "button"; x.setAttribute("aria-label", "Scoate poza " + (i + 1)); x.textContent = "×";
+        x.addEventListener("click", function(){ zones[k].splice(i, 1); render(); });
+        d.appendChild(img); d.appendChild(s); d.appendChild(x); box.appendChild(d);
+      });
+      var n = zones[k].length, big = zones[k].filter(function(f){ return f.size > MAX; }).length;
+      q("[data-info='" + k + "']").textContent = n + (n === 1 ? " poză aleasă" : " poze alese") + (min ? " (minim " + min + ", maxim " + max + ")" : " (maxim " + max + ")") + "." + (big ? " " + (big === 1 ? "O poză depășește" : big + " poze depășesc") + " 20 MB: micșoreaz-o sau trimite-mi-o pe e-mail după ce trimiți formularul." : "");
+    }
+    function add(list){
+      var e = [];
+      [].slice.call(list).forEach(function(f){
+        if(!/^image\//.test(f.type) && !/\.(jpe?g|png|heic|heif|webp)$/i.test(f.name)) return e.push(f.name + " nu e o poză");
+        if(zones[k].length >= max) return e.push("maxim " + max + " poze");
+        if(zones[k].some(function(g){ return g.name === f.name && g.size === f.size; })) return;
+        zones[k].push(f);
+      });
+      render(); var st = steps.indexOf(z.closest("section[data-step]")); err(st, e.filter(function(v, i, a){ return a.indexOf(v) === i; }));
+    }
+    input.addEventListener("change", function(){ add(this.files); this.value = ""; });
+    ["dragenter","dragover"].forEach(function(t){ z.addEventListener(t, function(e){ e.preventDefault(); z.classList.add("over"); }); });
+    ["dragleave","drop"].forEach(function(t){ z.addEventListener(t, function(e){ e.preventDefault(); z.classList.remove("over"); }); });
+    z.addEventListener("drop", function(e){ if(e.dataTransfer && e.dataTransfer.files) add(e.dataTransfer.files); });
+    render();
+  });
+
+  /* o poză urcă pe serverul Shopify prin coș, apoi linia se scoate */
+  function upload(f, key){
+    var fd = new FormData(), prop = "_" + TITLE + " " + key;
+    fd.append("id", VARIANT); fd.append("quantity", "1"); fd.append("properties[" + prop + "]", f, f.name || (key + ".jpg"));
+    return fetch("/cart/add.js", {method: "POST", body: fd, headers: {"Accept": "application/json"}, credentials: "same-origin"})
+      .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function(j){
+        var url = j.properties && j.properties[prop];
+        return fetch("/cart/change.js", {method: "POST", headers: {"Content-Type": "application/json", "Accept": "application/json"}, body: JSON.stringify({id: j.key, quantity: 0}), credentials: "same-origin"}).catch(function(){})
+          .then(function(){ if(!url || !/^https?:/.test(url)) throw new Error("fără link"); return url; });
+      });
+  }
+
+  function code(){ var c = "", a = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; for(var i = 0; i < 4; i++) c += a[Math.floor(Math.random() * a.length)]; var d = new Date(); return P + "-" + String(d.getDate()).padStart(2, "0") + String(d.getMonth() + 1).padStart(2, "0") + "-" + c; }
+  function blocks(){
+    return steps.slice(1, LAST).map(function(s){
+      var lines = qa("[data-k]", s).filter(function(el){ var h = el.closest("[hidden]"); return !h || h === s; }).map(function(el){ return el.getAttribute("data-k") + ": " + (String(el.value).trim() || "-"); });
+      return lines.length ? "== " + s.getAttribute("data-name") + " ==\n" + lines.join("\n") : "";
+    }).filter(Boolean).join("\n\n");
+  }
+  function nameOf(){ var el = q("[data-k][autocomplete=name]") || q("[data-k]"); return el ? el.value.trim() : ""; }
+  function emailOf(){ var el = q("input[type=email][data-k]"); return el ? el.value.trim() : ""; }
+  function phoneOf(){ var el = q("input[type=tel][data-k]"); return el ? el.value.trim() : ""; }
+
+  q("[data-send]").addEventListener("click", function(){
+    if(!validate(cur)) return;
+    var btn = this; btn.disabled = true;
+    var ref = code(), links = {}, bad = [], list = [];
+    Object.keys(zones).forEach(function(k){ var lab = q(".drop[data-zone='" + k + "']").getAttribute("data-label"); links[lab] = []; zones[k].forEach(function(f, i){ if(f.size > MAX) bad.push(lab + " " + (i + 1) + " (" + mb(f.size) + ")"); else list.push({f: f, lab: lab, key: k + "-" + (i + 1)}); }); });
+    show(LAST); q("[data-done]").hidden = true; q("[data-sending]").hidden = false;
+    var msg = q("[data-sendmsg]"), fill = q("[data-upfill]"), chain = Promise.resolve();
+    list.forEach(function(it, i){
+      chain = chain.then(function(){
+        msg.textContent = "Încarc poza " + (i + 1) + " din " + list.length + " (" + mb(it.f.size) + ")…"; fill.style.width = Math.round(i / (list.length + 1) * 100) + "%";
+        return upload(it.f, it.key).then(function(u){ links[it.lab].push(u); }, function(){ bad.push(it.lab + " (" + (it.f.name || "poză") + ")"); });
+      });
+    });
+    chain.then(function(){
+      msg.textContent = "Trimit datele…"; fill.style.width = "92%";
+      var extra = typeof window.CHERA_TOOL_EXTRA === "function" ? (function(){ try{ return window.CHERA_TOOL_EXTRA(get) || ""; }catch(e){ return ""; } })() : "";
+      var photos = Object.keys(links).map(function(lab){ return lab + ":\n" + (links[lab].map(function(u, i){ return "  " + (i + 1) + ". " + u; }).join("\n") || "  -"); }).join("\n");
+      var nPhotos = Object.keys(links).reduce(function(s, k){ return s + links[k].length; }, 0);
+      var body = [TITLE.toUpperCase() + " · cod " + ref, "Răspuns pe: " + (channel || "-"), "", blocks(),
+        Object.keys(links).length ? "\n== Poze (" + nPhotos + ") ==\n" + photos + (bad.length ? "\nNEURCATE (le trimite pe e-mail): " + bad.join(", ") : "") : "",
+        extra ? "\n== Calculul automat (doar pentru tine, nu l-a văzut sportivul) ==\n" + extra : ""].join("\n");
+      var name = nameOf(), subject = TITLE + " · " + ref + " · " + name;
+      var st = {ref: ref, first: name.split(" ")[0], channel: channel, n: nPhotos, bad: bad, subject: subject, body: body.slice(0, 1800), long: body.length > 1800};
+      if(MAIL){ var fsBody = JSON.stringify({_subject: subject, _template: "box", _captcha: "false", _replyto: emailOf(), name: name, email: emailOf(), message: body});
+        try{ fetch("https://formsubmit.co/ajax/" + encodeURIComponent(MAIL), {method: "POST", headers: {"Content-Type": "application/json", "Accept": "application/json"}, body: fsBody, keepalive: fsBody.length < 60000}).catch(function(){}); }catch(e){} }
+      var cf = q("form[action*='/contact']");
+      if(!cf){ done(st, false); return; }
+      var set = function(n, v){ var el = q("[name='" + n + "']", cf); if(el) el.value = v; };
+      set("contact[email]", emailOf()); set("contact[name]", name); set("contact[Telefon]", phoneOf()); set("contact[Subiect]", subject); set("contact[Răspuns pe]", channel || "-"); set("contact[body]", body);
+      try{ sessionStorage.setItem(SENT, JSON.stringify(st)); }catch(e){}
+      msg.textContent = "Aproape gata…"; fill.style.width = "96%";
+      warmCaptcha();
+      return captchaReady().then(function(){ return new Promise(function(r){ setTimeout(r, 800); }); }).then(function(){ if(cf.requestSubmit) cf.requestSubmit(); else cf.submit(); });
+    });
+  });
+
+  function mailto(subject, text){ return "mailto:" + (/@/.test(MAIL) ? MAIL : "") + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(text); }
+  function done(st, sent){
+    show(LAST); q("[data-sending]").hidden = true; q("[data-done]").hidden = false; q("[data-code]").textContent = st.ref;
+    var btn = q("[data-mailbtn]"), warn = q("[data-warn]");
+    if(sent){
+      try{ localStorage.removeItem(DRAFT); }catch(e){}
+      q("[data-done-text]").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale" + (st.n ? " și " + st.n + (st.n === 1 ? " poză" : " poze") : "") + ". Îți răspund " + (st.channel === "e-mail" ? "pe e-mail" : "pe WhatsApp") + " în maximum 48 de ore. Păstrează codul de mai sus.";
+      if(st.bad && st.bad.length && btn){
+        warn.hidden = false; warn.innerHTML = "<b>Unele poze n-au urcat: " + st.bad.join(", ") + ".</b><span>Trimite-mi-le pe e-mail ca atașament sau ca link, cu codul " + st.ref + " în subiect.</span>";
+        btn.hidden = false; btn.textContent = "Trimite pozele lipsă pe e-mail"; btn.href = mailto(st.subject + " · poze lipsă", "Salut, Marius! Îți trimit pozele care n-au urcat pe site: " + st.bad.join(", ") + ".");
+      }
+    } else {
+      q("[data-done-title]").textContent = "Mai e un pas: trimite-mi datele pe e-mail.";
+      q("[data-done-text]").textContent = "Nu am putut trimite automat formularul. Apasă butonul de mai jos: se deschide aplicația de e-mail cu datele tale; trimite mesajul și îți răspund în maximum 48 de ore. Ce ai scris rămâne salvat pe acest dispozitiv.";
+      if(btn){ btn.hidden = false; btn.textContent = "Trimite pe e-mail"; btn.href = mailto(st.subject, st.body); }
+    }
+    var f = q("[data-upfill]"); if(f) f.style.width = "100%";
+  }
+
+  loadDraft();
+  var back = null; try{ back = JSON.parse(sessionStorage.getItem(SENT) || "null"); }catch(e){}
+  var cs = q("[data-cf-state]"), posted = (cs && cs.getAttribute("data-ok") === "1") || /[?&]contact_posted=true/.test(location.search), failed = cs && cs.getAttribute("data-err") === "1";
+  if(back && (posted || failed)){
+    try{ sessionStorage.removeItem(SENT); history.replaceState(null, "", location.pathname); }catch(e){}
+    done(back, posted);
+    setTimeout(function(){ window.scrollTo({top: Math.max(0, root.getBoundingClientRect().top + window.scrollY - 90)}); }, 60);
+  }
+  else if(/[?&]start=1/.test(location.search)) show(1); else show(0);
+})();
+</script>
+
+
+</main></body></html>

@@ -203,3 +203,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 ### 28.10.2026 – Pozele site-ului Chera și butonul de evaluare
 - Marius: nicio poză dublată pe site, aspect estetic; la „Rezultate” întâi sportivii cu cardul Pro, apoi cei cu medalii la gât. Decizie aplicată: fiecare poză apare o singură dată pe tot site-ul (galerie, coperte, hero, „Despre”); planul în `chera-coaching/poze-site-plan.json`. Pozele originale rămân doar local (folder ignorat de git, repo public).
 - Marius: butonul cu evaluarea gratuită să apară o singură dată la fiecare articol, inclusiv la cele viitoare → caseta generală din șablon scoasă; rămâne caseta proprie a articolului.
+
+### 28.10.2026 – Contractele cu sportivii (afiliați)
+- Proprietarul a cerut refacerea contractelor cu sportivii: **la persoanele fizice comisionul strâns se dă doar sub formă de voucher, pe care fiecare sportiv îl activează din aplicația UpPromote Affiliates; doar la PFA și SRL se plătesc bani, după ce aceștia emit factură pentru comision**, cu formulare juridică corectă.
+- Livrat: 4 modele în `afiliati/contracte-sportivi/` (PF, PF probă, SRL-PFA, SRL-PFA probă). Alegeri făcute de Claude, de confirmat de proprietar: aprobarea comisionului în UpPromote până pe 15 (PF) / până pe 5 (PFA-SRL); plata facturii în 10 zile de la primire; la încetare soldul se poate folosi chiar sub pragul de 500 lei; penalitățile la PF tot în voucher; baza de calcul identică la toate (după reducere, fără transport, doar comenzi livrate, fără ofertele excluse în UpPromote).

@@ -2,7 +2,10 @@
   "sections": {
     "hero": {
       "type": "hero",
-      "settings": {}
+      "settings": {
+        "image_file": "chera-hero-doua-carduri-3.jpg",
+        "caption": "Încă două carduri IFBB Pro pentru doi sportivi pregătiți de mine"
+      }
     },
     "proof": {
       "type": "proof",

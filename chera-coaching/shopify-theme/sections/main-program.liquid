@@ -24,7 +24,7 @@
       <h3>1. Ce program vrei</h3>
       <div class="variant-cards">
         {% for v in product.variants %}
-          <label class="variant-card"><input type="radio" name="id" value="{{ v.id }}" {% if v == product.selected_or_first_available_variant %}checked{% endif %} {% unless v.available %}disabled{% endunless %} required><b>{{ v.title }}</b><span class="price">{{ v.price | money }}</span></label>
+          <label class="variant-card"><input type="radio" name="id" value="{{ v.id }}" {% if v == product.selected_or_first_available_variant %}checked{% endif %} {% unless v.available %}disabled{% endunless %} required><b>{% if v.title == 'Default Title' %}{{ product.title }}{% else %}{{ v.title }}{% endif %}</b><span class="price">{{ v.price | money }}</span></label>
         {% endfor %}
       </div>
 

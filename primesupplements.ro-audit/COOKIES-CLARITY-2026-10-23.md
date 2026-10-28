@@ -154,3 +154,8 @@ Clasificare propusă, în acord cu politica aprobată: theMarketer → Marketing
 ## 21. Decizia: așteptăm noua versiune theMarketer (27.10.2026)
 - Proprietarul: „Așteptăm noua versiune theMarketer; nota din politică rămâne până atunci.” Fără Pandectes Premium și fără varianta din temă.
 - Memento-ul din aplicația de pe calculator mutat de pe 06.11.2026 pe **05.01.2027, 9:00** („Memento 05.01: noua versiune theMarketer și acordul la cookie-uri”): verifică doar prin citire dacă theMarketer mai pornește înainte de acord și întreabă dacă se scoate nota din politică.
+
+## 22. theMarketer a lansat opțiunea de acord (28.10.2026)
+- Suportul theMarketer (28.10, 15:01): au actualizat pluginul theMarketer pentru Shopify; funcția se activează din Shopify → Edit theme → App embeds → theMarketer → bifarea opțiunii specifice; după activare, trackerul ține cont de consimțământ.
+- Verificat live pe 28.10: embed-ul `mktr_core` conține acum `mktrCheckConsent` (pornește doar dacă `Shopify.customerPrivacy.marketingAllowed()` sau la `visitorConsentCollected` cu `marketingAllowed`), dar opțiunea e oprită (în codul afișat apare `if (!false) { mktrStart(); return; }`), deci theMarketer încă pornește imediat. În `settings_data.json` al temei live, blocul `mktr_core` are `settings: {}` (Shopify a scos și blocul Clarity după dezinstalare).
+- Pasul următor: bifarea opțiunii în App embeds (text pentru extensie), apoi verificare live și scoaterea notei din politica de cookie-uri.

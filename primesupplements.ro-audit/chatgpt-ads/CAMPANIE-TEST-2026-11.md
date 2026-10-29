@@ -2,6 +2,8 @@
 
 Pregătit pe 29.10.2026, după ce proprietarul și-a creat contul pe ads.openai.com. Contextul (lansare, politică, costuri): `findings/CHATGPT-ADS-2026-10-29.md`.
 
+> **Actualizare 29.10.2026 (decizia proprietarului):** buget **total 420 lei pe toată campania** (media 30 lei/zi; Ads Manager nu acceptă buget zilnic sub 80 lei), CPC maxim **6,50 lei**, 2–15.11.2026. Campania „Prime – test ChatGPT Ads nov. 2026” e creată în Ads Manager ca **ciornă nepublicată**, cu toate cele 5 grupuri și 13 anunțuri de mai jos; campania creată automat la înscriere (350 lei/zi) a fost arhivată. Valorile de buget/CPC din §1 și §5 sunt înlocuite de acestea.
+
 ## 1. Pe scurt
 - **Campanie:** una singură, obiectiv **Clicks** (CPC), România, toate platformele (web, Android, iOS).
 - **Perioada:** luni **2.11 – duminică 15.11.2026** (14 zile). Se suprapune cu Black Friday (tema BF se publică pe 30.10, pachetele BF 30.10–15.11) – de aceea anunțurile **nu conțin prețuri**, ca să nu devină înșelătoare când prețul se schimbă.

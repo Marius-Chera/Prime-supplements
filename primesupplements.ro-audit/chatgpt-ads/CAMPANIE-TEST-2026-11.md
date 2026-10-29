@@ -104,3 +104,10 @@ Alternativă: proprietarul se loghează în ads.openai.com în browserul aplica�
 - Fără: imunitate, slăbit, ardere de grăsimi, detox, hormoni, boli, „tratează”, „vindecă”, „recuperare mai rapidă”, „energie”. Fără comparații cu alte branduri. Fără prețuri cât durează Black Friday.
 - Permis: ce conține, câte porții, arome, origine (Sibiu, fabricat în UE), livrare, „preț de pachet”.
 - Pozele: fără text medical, fără „înainte/după”, fără corpuri expuse.
+
+## 8. Rezultatul verificării (29.10.2026, după Publish)
+- Campania, cele 5 grupuri și cele 13 anunțuri sunt active; pornesc automat pe 2.11, se opresc pe 15.11, plafon total 420 lei.
+- **12 din 13 anunțuri: „Ad cannot serve in targeted countries”** – OpenAI le încadrează la „Dietary supplements”, permise doar în SUA (tabelul „Ads Policy Eligibility” din help.openai.com/en/articles/20001534).
+- **Eligibil: doar 3.3 „Mic dejun din orez, gust de desert”** → /collections/crema-de-orez.
+- Anunțul 2.1 a avut și o eroare de citire a paginii (landing page) – retrimis; oricum intră sub aceeași restricție de țară.
+- Opțiune: apel „Wrong policy category?” doar pentru 3.1 și 3.2 (cremă de orez = aliment). Pentru proteine, creatină, EAA și pachete un apel nu e corect: paginile și etichetele spun „supliment alimentar”.

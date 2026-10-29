@@ -111,3 +111,4 @@ Alternativă: proprietarul se loghează în ads.openai.com în browserul aplica�
 - **Eligibil: doar 3.3 „Mic dejun din orez, gust de desert”** → /collections/crema-de-orez.
 - Anunțul 2.1 a avut și o eroare de citire a paginii (landing page) – retrimis; oricum intră sub aceeași restricție de țară.
 - Opțiune: apel „Wrong policy category?” doar pentru 3.1 și 3.2 (cremă de orez = aliment). Pentru proteine, creatină, EAA și pachete un apel nu e corect: paginile și etichetele spun „supliment alimentar”.
+- **29.10: apel trimis** pentru 3.1 și 3.2 (cremă de orez), cu textul din JURNAL; ambele „review pending”. Dacă OpenAI le acceptă, campania va avea 3 anunțuri eligibile, toate cu crema de orez.

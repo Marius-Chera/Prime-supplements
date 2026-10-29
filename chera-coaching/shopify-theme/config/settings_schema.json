@@ -23,6 +23,12 @@
       },
       {
         "type": "text",
+        "id": "chat_url",
+        "label": "Linkul chatului din site (Chera Hub)",
+        "info": "Ex. /apps/chat. Când e completat, butonul din contul clientului devine „Chat cu Marius” și înlocuiește WhatsApp-ul. Gol = rămâne WhatsApp."
+      },
+      {
+        "type": "text",
         "id": "eval_endpoint",
         "label": "URL receptor evaluare (Google Apps Script Web App)",
         "info": "Gol = evaluarea afișează rezultatul fără să îl trimită."

@@ -21,12 +21,12 @@
       data.kind = "checkin"; data.ts = new Date().toISOString();
       if (window.CHERA && window.CHERA.customer) { data.customer_id = window.CHERA.customer.id; data.name = window.CHERA.customer.name; data.email = window.CHERA.customer.email; data.phone = window.CHERA.customer.phone; }
       var text = "Check-in " + new Date().toLocaleDateString("ro-RO") + "\nGreutate: " + (data.weight || "-") + " kg\nSomn: " + (data.sleep || "-") + "\nEnergie: " + (data.energy || "-") + "/10\nAderență: " + (data.adherence || "-") + "/10\nObservații: " + (data.notes || "-") + "\n(pozele le trimit aici, în WhatsApp)";
-      var wa = document.getElementById("checkin-wa");
+      var wa = document.getElementById("checkin-wa"); var chat = !wa;
       if (wa && window.CHERA && window.CHERA.whatsapp) { wa.href = "https://wa.me/" + window.CHERA.whatsapp + "?text=" + encodeURIComponent(text); wa.hidden = false; }
       var endpoint = form.dataset.endpoint || (window.CHERA && window.CHERA.endpoint) || "";
-      if (!endpoint) { st.textContent = "Check-in pregătit. Apasă butonul de WhatsApp ca să mi-l trimiți cu pozele."; st.className = "ok"; return; }
-      try { await fetch(endpoint, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify(data) }); st.textContent = "Check-in trimis. Pozele le trimiți pe WhatsApp cu butonul de mai jos."; st.className = "ok"; }
-      catch (err) { st.textContent = "Nu am putut trimite automat. Apasă butonul de WhatsApp și trimite-mi check-in-ul acolo."; st.className = "err"; }
+      if (!endpoint) { st.textContent = chat ? "Check-in pregătit. Trimite-mi cifrele și pozele în chat." : "Check-in pregătit. Apasă butonul de WhatsApp ca să mi-l trimiți cu pozele."; st.className = "ok"; return; }
+      try { await fetch(endpoint, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain" }, body: JSON.stringify(data) }); st.textContent = chat ? "Check-in trimis. Pozele le trimiți în chat, cu butonul de mai jos." : "Check-in trimis. Pozele le trimiți pe WhatsApp cu butonul de mai jos."; st.className = "ok"; }
+      catch (err) { st.textContent = chat ? "Nu am putut trimite automat. Scrie-mi check-in-ul în chat." : "Nu am putut trimite automat. Apasă butonul de WhatsApp și trimite-mi check-in-ul acolo."; st.className = "err"; }
     });
   }
 })();

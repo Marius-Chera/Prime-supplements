@@ -39,8 +39,8 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 - [Marius] Linkuri pentru „Apariții media” (YouTube, articole, podcasturi).
 ### Chera Hub – chat privat cu drafturi AI (plan aprobat 29.10, `chera-coaching/ARHITECTURA-CHAT-HUB-2026-10-29.md`)
 - [Marius, Etapa 0 – ~45 min] conturi gratuite: repo privat GitHub `chera-hub` (sau îi dă lui Claude dreptul să-l creeze cu `gh`); cont Cloudflare legat de GitHub; cont Resend; cheie Anthropic; aplicația Shopify custom cu App Proxy `/apps/chat`; secretele lipite în Cloudflare (lista în README-ul din `chera-hub/`); mariuschera.ro reconectat la Shopify.
-- [Claude] Etapele 1–6 din plan, pe rând, fiecare cu test pe marius.chera@yahoo.com + adelina.chera@gmail.com înainte de a merge mai departe; JURNAL la fiecare etapă.
-- [Claude, Etapa 2] tema: butonul WhatsApp din `main-account.liquid` → „Chat cu Marius” (`/apps/chat`); textele cu WhatsApp din cont trecute pe chat.
+- [Claude] ~~Etapele 1–2~~ scrise și testate local (29.10). Urmează Etapa 3 (notițe RAG + plan structurat), 4 (drafturi AI), 5 (învățare), 6 (lansare); fiecare cu test pe marius.chera@yahoo.com + adelina.chera@gmail.com; JURNAL la fiecare etapă.
+- [Claude, după deploy] tema live: urcă `settings_schema.json`, `main-account.liquid`, `theme.liquid`, `theme.js` din repo și pune `chat_url` = `/apps/chat` în Theme settings → Chera Protocol (până atunci contul rămâne pe WhatsApp); apasă ⚙ → „Înregistrează webhook-urile” în panoul admin; verifică service worker-ul/push pe telefonul lui Marius (iPhone: Adaugă pe ecranul principal).
 - Deschise (de decis de Marius pe parcurs): vede clientul „citit”? check-in-ul săptămânal se mută în chat? mesaj automat de absență când e în concediu (singurul mesaj automat, scris de el)?
 
 19. **Mega Image (27.10, `agenti/PREZENTARE-PRIME-MEGA-IMAGE-2026-10-27.pdf`):** proprietarul trimite prezentarea la Mega Image (achiziții / category manager suplimente); de pregătit, la cerere, fișa comercială separată (prețuri de listare, GTIN pe fiecare SKU din treapta 1, termen de valabilitate, dimensiuni ambalaj, logistică) și, dacă Mega Image cere, documentele de notificare a suplimentelor.

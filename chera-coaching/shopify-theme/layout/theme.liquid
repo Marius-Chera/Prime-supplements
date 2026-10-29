@@ -14,7 +14,7 @@
   {{ content_for_header }}
   {{ 'theme.css' | asset_url | stylesheet_tag }}
   <style>:root{--red:{{ settings.color_accent }};--bg:{{ settings.color_bg }};--fg:{{ settings.color_fg }}}</style>
-  <script>window.CHERA = { whatsapp: {{ settings.whatsapp_number | json }}, endpoint: {{ settings.eval_endpoint | json }}, customer: {% if customer %}{ id: {{ customer.id }}, name: {{ customer.first_name | json }}, email: {{ customer.email | json }}, phone: {{ customer.phone | json }} }{% else %}null{% endif %} };</script>
+  <script>window.CHERA = { endpoint: {{ settings.eval_endpoint | json }}, customer: {% if customer %}{ id: {{ customer.id }}, name: {{ customer.first_name | json }}, email: {{ customer.email | json }}, phone: {{ customer.phone | json }} }{% else %}null{% endif %} };</script>
 </head>
 <body class="template-{{ template.name }}{% if template.suffix %} template-{{ template.name }}-{{ template.suffix }}{% endif %}">
   <a class="skip" href="#MainContent">{{ 'general.accessibility.skip' | t }}</a>

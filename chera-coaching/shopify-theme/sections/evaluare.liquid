@@ -5,7 +5,7 @@
   <section id="s-intro" class="stack" style="padding-block:28px 0">
     <p class="eyebrow">Profilul neuro · 4 minute</p>
     <h1>Nu primești un plan generic. Pornim de la cum ești făcut.</h1>
-    <p class="lead">Trei runde scurte. Prima arată natura ta (dopamină, acetilcolină, GABA, serotonină) și tipul tău de antrenament. A doua arată ce e pe minus acum și ce ajustăm în dietă și suplimente. A treia e contextul tău. Rezultatul apare pe loc, apoi îți scriu eu, Marius, pe WhatsApp.</p>
+    <p class="lead">Trei runde scurte. Prima arată natura ta (dopamină, acetilcolină, GABA, serotonină) și tipul tău de antrenament. A doua arată ce e pe minus acum și ce ajustăm în dietă și suplimente. A treia e contextul tău. Rezultatul apare pe loc, apoi îți scriu eu, Marius, pe e-mail cu planul de pornire.</p>
     <div class="card">
       <h3>Cum răspunzi</h3>
       <p class="hint">Fiecare afirmație are patru trepte, fără mijloc: alege ce ți se potrivește cel mai des, nu ce ți-ar plăcea. Nu există răspuns bun sau rău; există doar profilul tău.</p>
@@ -51,15 +51,10 @@
     <div class="grid2">
       <div class="field"><label for="f-name">Prenume</label><input id="f-name" autocomplete="given-name" placeholder="Andrei"></div>
       <div class="field"><label for="f-city">Oraș</label><input id="f-city" autocomplete="address-level2" placeholder="Cluj-Napoca"></div>
-      <div class="field"><label for="f-phone">Telefon (WhatsApp)</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx"></div>
+      <div class="field"><label for="f-phone">Telefon</label><input id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx"></div>
       <div class="field"><label for="f-email">E-mail</label><input id="f-email" type="email" autocomplete="email" placeholder="nume@exemplu.ro"></div>
     </div>
-    <div class="field"><label>Unde vrei să primești răspunsul meu?</label>
-      <div class="choice" role="radiogroup" id="f-channel">
-        <button type="button" class="opt" role="radio" aria-checked="false" data-v="whatsapp">Pe WhatsApp, la numărul de mai sus</button>
-        <button type="button" class="opt" role="radio" aria-checked="false" data-v="email">Pe e-mail, la adresa de mai sus</button>
-      </div></div>
-    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat de Marius Chera, pe canalul ales mai sus, cu rezultatul și planul de pornire.</span></label>
+    <label class="check"><input type="checkbox" id="c-wa"><span>Sunt de acord să fiu contactat de Marius Chera, pe e-mail, cu rezultatul și planul de pornire.</span></label>
     <label class="check"><input type="checkbox" id="c-gdpr"><span>Sunt de acord ca răspunsurile mele să fie folosite pentru a-mi construi profilul și planul. Răspunsurile se păstrează 12 luni dacă nu devin client. Profilul nu este un test medical.</span></label>
     <p class="err" id="ctx-err" hidden></p>
     <div class="nav">
@@ -99,9 +94,9 @@
     <div class="card" id="r-send">
       <h3>Pasul următor</h3>
       <p id="r-sendtext"></p>
-      <div class="code-box" id="r-wacode"></div>
       <p class="hint" id="r-sendstatus"></p>
-      <a class="btn" id="r-walink" href="#" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>
+      <a class="btn" href="/customer_authentication/login?return_to=%2Fapps%2Fchat">Intră în cont și scrie-mi în chat</a>
+      <details><summary class="hint">Rezumatul tău (îl poți lipi în chat)</summary><div class="code-box" id="r-wacode"></div></details>
     </div>
     <p class="legal">Profilul neuro Chera Protocol este un profil de preferințe și de stare, folosit pentru a alege antrenamentul, nutriția și suplimentele. Nu măsoară neurotransmițători, nu diagnostichează și nu înlocuiește consultul medical. Dacă urmezi un tratament, în special pentru dispoziție, somn sau tiroidă, discută suplimentele cu medicul înainte. Pornește, orientativ, de la modelul Braverman al celor patru neurotransmițători.</p>
   </section>
@@ -127,5 +122,5 @@
 
 </section>
 {% schema %}
-{ "name": "Evaluare (profil neuro)", "settings": [ { "type": "paragraph", "content": "Numărul de WhatsApp și receptorul se setează în Setări temă → Chera Protocol. Întrebările și textele rezultatului sunt în assets/quiz.js." }, { "type": "text", "id": "email_to", "label": "E-mailul care primește rezultatele (copie)", "default": "marius.chera@yahoo.com", "info": "Trimis prin FormSubmit (gratuit), pe lângă formularul de contact Shopify. După activare se poate pune aliasul FormSubmit." } ], "presets": [ { "name": "Evaluare (profil neuro)" } ] }
+{ "name": "Evaluare (profil neuro)", "settings": [ { "type": "paragraph", "content": "Receptorul rezultatelor se setează în Setări temă → Chera Protocol; răspunsul merge pe e-mail și în chatul din cont. Întrebările și textele rezultatului sunt în assets/quiz.js." }, { "type": "text", "id": "email_to", "label": "E-mailul care primește rezultatele (copie)", "default": "marius.chera@yahoo.com", "info": "Trimis prin FormSubmit (gratuit), pe lângă formularul de contact Shopify. După activare se poate pune aliasul FormSubmit." } ], "presets": [ { "name": "Evaluare (profil neuro)" } ] }
 {% endschema %}

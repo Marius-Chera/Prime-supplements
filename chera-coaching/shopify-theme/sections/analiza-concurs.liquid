@@ -61,7 +61,7 @@
     <div class="steps3">
       <div><b>Îmi trimiți tot</b>Pozele de pe scenă, dieta, antrenamentul, ultima săptămână zi cu zi și ce crezi tu că a mers și ce nu.</div>
       <div><b>Mă uit eu</b>Citesc tot și compar cu pozele: unde ai fost plat, apos, prea gras sau prea tras, și de ce.</div>
-      <div><b>Îți răspund</b>În maximum 48 de ore, pe WhatsApp sau pe e-mail: ce a fost corect, ce a fost greșit și ce ai de schimbat.</div>
+      <div><b>Îți răspund</b>În maximum 48 de ore, pe e-mail sau în chatul din contul tău: ce a fost corect, ce a fost greșit și ce ai de schimbat.</div>
     </div>
     <div class="card">
       <h3>Ce să ai la îndemână</h3>
@@ -88,7 +88,7 @@
     <div class="grid2">
       <div class="field"><label for="ac-name">Nume și prenume</label><input id="ac-name" data-k="Nume" autocomplete="name" required></div>
       <div class="field"><label for="ac-city">Oraș</label><input id="ac-city" data-k="Oraș" autocomplete="address-level2"></div>
-      <div class="field"><label for="ac-phone">Telefon (WhatsApp)</label><input id="ac-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
+      <div class="field"><label for="ac-phone">Telefon</label><input id="ac-phone" data-k="Telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="07xx xxx xxx" required></div>
       <div class="field"><label for="ac-email">E-mail</label><input id="ac-email" data-k="E-mail" type="email" autocomplete="email" placeholder="nume@exemplu.ro" required></div>
     </div>
     <div class="grid2">
@@ -171,13 +171,8 @@
       <div class="field"><label for="ac-next">Următorul concurs</label><input id="ac-next" data-k="Următorul concurs" placeholder="ex. primăvara 2027 / nu știu încă"></div>
       <div class="field"><label for="ac-ask">Ce vrei să afli de la mine</label><input id="ac-ask" data-k="Ce vrea să afle" placeholder="ex. de ce am fost plat pe scenă"></div>
     </div>
-    <div class="field"><label>Unde vrei răspunsul meu</label>
-      <div class="choice" role="radiogroup" id="ac-channel">
-        <button type="button" class="opt" role="radio" aria-checked="false" data-v="WhatsApp">Pe WhatsApp, la numărul tău</button>
-        <button type="button" class="opt" role="radio" aria-checked="false" data-v="e-mail">Pe e-mail, la adresa ta</button>
-      </div></div>
     <label class="check"><input type="checkbox" id="ac-c1"><span>Sunt de acord ca Marius Chera să folosească datele și pozele mele doar pentru această analiză. Pozele se încarcă pe serverul magazinului (Shopify), iar datele ajung la Marius pe e-mail. Pozele nu se publică nicăieri fără acordul meu separat, scris. Datele se păstrează 12 luni dacă nu devin client, apoi se șterg la cerere sau automat.</span></label>
-    <label class="check"><input type="checkbox" id="ac-c2"><span>Sunt de acord să fiu contactat pe canalul ales mai sus cu analiza și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
+    <label class="check"><input type="checkbox" id="ac-c2"><span>Sunt de acord să fiu contactat pe e-mail cu analiza și, dacă e cazul, cu planul pe care mi-l recomanzi.</span></label>
     <p class="note">Analiza e gratuită și nu te obligă la nimic. Nu este un consult medical și nu conține recomandări de medicamente. Primești răspunsul meu în maximum 48 de ore.</p>
     <p class="err" data-err hidden></p>
     <div class="nav"><button class="btn ghost" type="button" data-go="4">Înapoi</button><button class="btn" type="button" id="ac-send">Trimite pentru analiză</button></div>
@@ -235,7 +230,7 @@
   var MAX = 20 * 1048576, MIN_P = 5, MAX_P = 8;
   var $ = function(id){ return document.getElementById(id); };
   var steps = [].slice.call(root.querySelectorAll("section[data-step]"));
-  var files = [], channel = null, cur = 0;
+  var files = [], channel = "e-mail", cur = 0;
 
   /* zilele de peak week */
   var DAYS = [["7","Cu 7 zile înainte"],["6","Cu 6 zile înainte"],["5","Cu 5 zile înainte"],["4","Cu 4 zile înainte"],["3","Cu 3 zile înainte"],["2","Cu 2 zile înainte"],["1","Cu o zi înainte"]];
@@ -256,8 +251,6 @@
   fields.forEach(function(el){ el.addEventListener("input", saveDraft); el.addEventListener("change", saveDraft); });
   if(window.CHERA && window.CHERA.customer){ var cu = window.CHERA.customer; if(cu.email && !$("ac-email").value) $("ac-email").value = cu.email; if(cu.phone && !$("ac-phone").value) $("ac-phone").value = cu.phone; }
 
-  function setChannel(v){ channel = v; [].forEach.call($("ac-channel").querySelectorAll(".opt"), function(o){ o.setAttribute("aria-checked", o.getAttribute("data-v") === v ? "true" : "false"); }); }
-  [].forEach.call($("ac-channel").querySelectorAll(".opt"), function(b){ b.addEventListener("click", function(){ setChannel(b.getAttribute("data-v")); saveDraft(); }); });
 
   /* CAPTCHA-ul Shopify se încarcă la primul focus pe formularul de contact; îl pornesc din timp */
   function warmCaptcha(){ var el = $("ac-cf-email"); if(el) el.dispatchEvent(new FocusEvent("focusin", {bubbles: true})); }
@@ -282,7 +275,7 @@
       var ph = $("ac-phone").value.replace(/[^\d+]/g, ""); if(ph && !/^(\+?40|0)?7\d{8}$/.test(ph) && !/^\+\d{8,15}$/.test(ph)) e.push("un număr de telefon valid");
     }
     if(n === 2){ if(files.length < MIN_P) e.push("cel puțin " + MIN_P + " poze (ai ales " + files.length + ")"); }
-    if(n === 5){ if(!channel) e.push("unde vrei răspunsul"); if(!$("ac-c1").checked || !$("ac-c2").checked) e.push("cele două bife de acord"); }
+    if(n === 5){ if(!$("ac-c1").checked || !$("ac-c2").checked) e.push("cele două bife de acord"); }
     return err(n, e);
   }
   [].forEach.call(root.querySelectorAll("[data-go]"), function(b){ b.addEventListener("click", function(){ show(+b.getAttribute("data-go")); }); });
@@ -413,7 +406,7 @@
     var btn = $("ac-mail"), hint = $("ac-mail-hint");
     if(sent){
       try{ localStorage.removeItem(DRAFT); }catch(e){}
-      $("ac-done-text").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale și " + st.ok + (st.ok === 1 ? " poză" : " poze") + ". Îți răspund " + (st.channel === "e-mail" ? "pe e-mail" : "pe WhatsApp") + " în maximum 48 de ore. Păstrează codul de mai sus.";
+      $("ac-done-text").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale și " + st.ok + (st.ok === 1 ? " poză" : " poze") + ". Îți răspund " + "pe e-mail" + " în maximum 48 de ore. Păstrează codul de mai sus.";
       if(st.bad && st.bad.length){
         $("ac-warn").hidden = false; $("ac-warn").innerHTML = "<b>Unele poze n-au urcat: " + st.bad.join(", ") + ".</b><span>Trimite-mi-le pe e-mail ca atașament sau ca link (WeTransfer, Google Drive), cu codul " + st.ref + " în subiect.</span>";
         btn.hidden = false; btn.textContent = "Trimite pozele lipsă pe e-mail";

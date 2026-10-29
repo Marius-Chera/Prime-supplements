@@ -12,7 +12,7 @@
       </div>
     {% endfor %}
     <div class="row between"><button class="btn ghost btn-sm" type="submit" name="update">{{ 'general.cart.update' | t }}</button><div><span class="muted">{{ 'general.cart.subtotal' | t }}</span> <strong class="price-big" style="font-size:28px">{{ cart.total_price | money }}</strong></div></div>
-    {% unless customer %}<p class="note">La checkout îți faci contul în 30 de secunde: acolo primești planul, check-in-ul și WhatsApp-ul meu.</p>{% endunless %}
+    {% unless customer %}<p class="note">La checkout îți faci contul în 30 de secunde: acolo primești planul, check-in-ul și chatul direct cu mine.</p>{% endunless %}
     <button class="btn" type="submit" name="checkout" style="justify-self:end">{{ 'general.cart.checkout' | t }}</button>
   </form>
   {% endif %}

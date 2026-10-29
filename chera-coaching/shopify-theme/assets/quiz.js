@@ -1,6 +1,6 @@
 /* Chera Protocol – evaluarea (profil neuro). Generat din site/evaluare.html; logica e identică. */
 /* ===== CONFIG (se completează la integrare) ===== */
-const CONFIG = { WHATSAPP_NUMBER: (window.CHERA && window.CHERA.whatsapp) || "", SHEET_ENDPOINT: (window.CHERA && window.CHERA.endpoint) || "", BRAND: "Chera Protocol" };
+const CONFIG = { SHEET_ENDPOINT: (window.CHERA && window.CHERA.endpoint) || "", BRAND: "Chera Protocol" };
 
 /* ===== RUNDA 1: natura (D/A/G/S) ===== */
 const A_ITEMS = [
@@ -57,7 +57,7 @@ const DEFICIT = {
 };
 const DOORS = {
  scena:{title:"Ușa ta: Pregătire de concurs",text:"Plătești prima lună (1.500 lei), care include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări. În 48 de ore avem un video call de 15 minute, eu și tu, în care alegem competițiile și stabilim plata pentru întreg sezonul. Locuri limitate.",cta:"Începe pregătirea",url:"/products/pregatire-de-concurs-prima-luna"},
- sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări făcute de mine, eu pe WhatsApp, răspuns în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul",url:"/products/chera-protocol-coaching-1-luna"},
+ sportiv:{title:"Ușa ta: Chera Protocol Coaching",text:"Plan de antrenament și nutriție construit pe profilul tău, check-in săptămânal cu poze și cântar, ajustări făcute de mine, chat direct cu mine în contul tău, răspuns în 24 de ore. Minimum 12 săptămâni, cu garanție.",cta:"Începe coaching-ul",url:"/products/chera-protocol-coaching-1-luna"},
  start:{title:"Ușa ta: Programele + un antrenor la un mesaj distanță",text:"Pornești cu un program digital potrivit profilului tău, iar când vrei ajustări, treci la coaching cu prețul programului dedus.",cta:"Vezi programele",url:"/collections/programe"}
 };
 
@@ -186,12 +186,9 @@ function buildResult(){
   $("r-door").innerHTML=`<p class="eyebrow">Recomandarea mea</p><h2>${door.title}</h2><p>${door.text}</p><a class="btn" href="${door.url}">${door.cta}</a>`;
   const msg = `Salut! Am făcut evaluarea Chera Protocol. Profil: ${code}. Sunt ${state.ctx.name||""}, ${state.ctx.city||""}, obiectiv: ${goal}. Scoruri natura D${nt.scores.D} A${nt.scores.A} G${nt.scores.G} S${nt.scores.S}; echilibru D${bal.scores.D} A${bal.scores.A} G${bal.scores.G} S${bal.scores.S}.`;
   $("r-wacode").textContent = msg;
-  $("r-sendtext").textContent = state.ctx.channel==="email"
-    ? `Îți trimit rezultatul și planul de pornire pe e-mail, la ${state.ctx.email}. Dacă vrei să-mi scrii și pe WhatsApp, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`
-    : `Îți scriu eu pe WhatsApp la ${state.ctx.phone}. Dacă vrei să-mi scrii tu primul, apasă butonul sau trimite textul de mai jos la +${CONFIG.WHATSAPP_NUMBER}.`;
+  $("r-sendtext").textContent = `Îți trimit rezultatul și planul de pornire pe e-mail, la ${state.ctx.email}, în cel mult 24 de ore. Dacă vrei să mergem mai departe, intră în cont cu același e-mail și scrie-mi în chat.`;
   const txt=(id)=>[...document.querySelectorAll(`#${id} li`)].map(l=>"• "+l.textContent).join("\n");
   state.summary = `PROFIL ${code} · ${T.name} (${nt.type})\n${$("r-sub").textContent}\n\nCUM EȘTI\n${txt("r-who")}\n\nCUM TE ANTRENEZI\n${txt("r-train")}\n\nCUM MĂNÂNCI\n${txt("r-diet")}\n\nECHILIBRUL TĂU ACUM\n${$("r-balance").innerText.trim()}\n\n${door.title.toUpperCase()}\n${door.text}`;
-  $("r-walink").href = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
   state.result={code,type:nt.type,dom:nt.dom.top,mixed:nt.dom.mixed,scoresA:nt.scores,scoresB:bal.scores,deficit:defCode,level:bal.level,allHigh:bal.allHigh};
   save();
 }
@@ -218,8 +215,8 @@ async function submit(){
   const st=$("r-sendstatus");
   if(!CONFIG.SHEET_ENDPOINT){ return submitContact(st); }
   const payload={ts:new Date().toISOString(),...state.ctx,...state.result,summary:state.summary||"",ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
-  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = state.ctx.channel==="email" ? "Rezultatul a ajuns la mine și ți l-am trimis și pe e-mail. Îți scriu cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore."; }
-  catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Trimite-mi textul de mai jos pe WhatsApp și îl preiau eu."; }
+  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore."; }
+  catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul de mai jos în chat, sau trimite-l pe e-mail."; }
 }
 
 /* fără receptor Google: (1) copie pe e-mail prin FormSubmit (adresa din setarea secțiunii evaluare),
@@ -234,14 +231,14 @@ function contactParts(){
 }
 async function submitContact(st){
   const c=state.ctx, p=contactParts(), cf=$("ev-contact-form"), cfg=$("ev-cfg"), mail=cfg?(cfg.dataset.mail||"").trim():"";
-  const channel=c.channel==="email"?"e-mail":"WhatsApp";
+  const channel="e-mail";
   st.textContent="Trimit rezultatul la mine…";
   if(mail){
     const fsBody=JSON.stringify({_subject:p.subject,_template:"box",_captcha:"false",_replyto:c.email,name:c.name,email:c.email,
       message:`Telefon: ${c.phone}\nOraș: ${c.city||"-"}\nRăspuns pe: ${channel}\n${p.context}\n\n${p.body}`});
     try{ fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}).catch(()=>{}); }catch(e){}
   }
-  if(!cf){ st.textContent="Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp."; return; }
+  if(!cf){ st.textContent="Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul în chat, sau trimite-l pe e-mail."; return; }
   const set=(id,v)=>{ const el=$(id); if(el) el.value=v; };
   set("ev-cf-email",c.email); set("ev-cf-name",c.name); set("ev-cf-phone",c.phone); set("ev-cf-city",c.city||"-");
   set("ev-cf-subject",p.subject); set("ev-cf-channel",channel); set("ev-cf-context",p.context); set("ev-cf-body",p.body);
@@ -256,11 +253,10 @@ async function submitContact(st){
 /* ===== CONTEXT FORM ===== */
 let goalVal = null, channelVal = null;
 $("f-goal").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{ goalVal=b.dataset.v; $("f-goal").querySelectorAll(".opt").forEach(o=>o.setAttribute("aria-checked","false")); b.setAttribute("aria-checked","true"); }));
-$("f-channel").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{ channelVal=b.dataset.v; $("f-channel").querySelectorAll(".opt").forEach(o=>o.setAttribute("aria-checked","false")); b.setAttribute("aria-checked","true"); }));
+channelVal="email";
 function validateCtx(){
   const errs=[];
   if(!goalVal) errs.push("alege obiectivul");
-  if(!channelVal) errs.push("alege unde vrei răspunsul");
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test($("f-email").value.trim())) errs.push("o adresă de e-mail validă");
   ["f-years","f-sleep","f-caf","f-days"].forEach(id=>{ if(!$(id).value) errs.push($(id).previousElementSibling.textContent.toLowerCase()); });
   if(!$("f-name").value.trim()) errs.push("prenumele");
@@ -287,8 +283,8 @@ if(sentBack && state.result && state.ctx && (cfPosted||cfFailed)){
   try{ sessionStorage.removeItem("cp-neuro-sent"); history.replaceState(null,"",location.pathname); }catch(e){}
   buildResult(); show("result");
   $("r-sendstatus").textContent = cfPosted
-    ? (state.ctx.channel==="email" ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore." : "Rezultatul a ajuns la mine. Îți scriu pe WhatsApp în cel mult 24 de ore.")
-    : "Nu am putut trimite rezultatul automat. Apasă butonul de mai jos și trimite-mi textul pe WhatsApp.";
+    ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore."
+    : "Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul în chat, sau trimite-l pe e-mail.";
 }
 else if(state.result && state.ctx){ /* finished before: show intro, keep data */ }
 else if(answeredCount()>0 && !state.result){ show("quiz"); renderPage(); }

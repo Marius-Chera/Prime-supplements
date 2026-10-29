@@ -12,7 +12,7 @@
         <div class="row between">
           <div><p class="eyebrow">Chera Protocol · {{ chera_pachet | replace: '-', ' ' | capitalize }}</p>
             <p>Abonamentul tău e activ până pe <strong>{{ chera_expira | date: '%d.%m.%Y' }}</strong>{% if chera_days_left <= 7 %} · <span class="pill warn">mai ai {{ chera_days_left }} zile</span>{% else %} · <span class="pill ok">activ</span>{% endif %}</p></div>
-          {% if chat_url != blank %}<a class="btn btn-sm" href="{{ chat_url }}">Chat cu Marius</a>{% else %}<a class="btn btn-sm" href="https://wa.me/{{ settings.whatsapp_number }}?text={{ 'Salut, Marius! Sunt ' | append: customer.first_name | append: ' ' | append: customer.last_name | url_encode }}" target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>{% endif %}
+          <a class="btn btn-sm" href="{{ chat_url }}">Chat cu Marius</a>
         </div>
         {% if chera_days_left <= 7 %}<p class="muted">Ca să continuăm fără pauză, reînnoiește înainte de {{ chera_expira | date: '%d.%m.%Y' }}. <a href="{{ section.settings.renew_url }}">Reînnoiește acum</a>.</p>{% endif %}
       </div>
@@ -24,12 +24,12 @@
             <p>Ultima versiune a planului tău de antrenament și nutriție.</p>
             <a class="btn ghost btn-sm" href="{{ customer.metafields.chera.plan_url }}" target="_blank" rel="noopener">Deschide planul</a>
           {% else %}
-            <p class="muted">Planul tău apare aici în cel mult 48 de ore de la plată. Până atunci, îți scriu eu {% if chat_url != blank %}în chat{% else %}pe WhatsApp{% endif %}.</p>
+            <p class="muted">Planul tău apare aici în cel mult 48 de ore de la plată. Până atunci, îți scriu eu în chat.</p>
           {% endif %}
           {% if customer.metafields.chera.profil != blank %}<p>Profilul tău neuro: <strong>{{ customer.metafields.chera.profil }}</strong> · <a href="/pages/evaluare">Re-test</a></p>{% else %}<p><a href="/pages/evaluare">Fă-ți profilul neuro</a> dacă nu l-ai făcut încă.</p>{% endif %}
           {% if chera_pachet contains 'concurs' %}
             <h3 style="margin-top:8px">Pregătire de concurs</h3>
-            <p class="muted">Video call de 15 minute după prima plată: {% if section.settings.call_url != blank %}<a href="{{ section.settings.call_url }}" target="_blank" rel="noopener">alege un interval</a>{% else %}îți trimit eu linkul {% if chat_url != blank %}în chat{% else %}pe WhatsApp{% endif %}{% endif %}. Lista de analize și acordul pentru poze le primești în plan.</p>
+            <p class="muted">Video call de 15 minute după prima plată: {% if section.settings.call_url != blank %}<a href="{{ section.settings.call_url }}" target="_blank" rel="noopener">alege un interval</a>{% else %}îți trimit eu linkul în chat{% endif %}. Lista de analize și acordul pentru poze le primești în plan.</p>
           {% endif %}
         </div>
 
@@ -43,8 +43,8 @@
               <div class="field"><label for="ci-adh">Aderență la plan (1–10)</label><input id="ci-adh" name="adherence" type="number" min="1" max="10"></div>
             </div>
             <div class="field"><label for="ci-notes">Observații</label><textarea id="ci-notes" name="notes" rows="3" placeholder="Cum a mers săptămâna, ce a fost greu, ce întrebări ai"></textarea></div>
-            <p class="muted" style="font-size:14px">Pozele (față, lateral, spate) le trimiți {% if chat_url != blank %}în chat{% else %}pe WhatsApp{% endif %} după ce apeși „Trimite”.</p>
-            <div class="row"><button class="btn btn-sm" type="submit">Trimite check-in-ul</button>{% if chat_url != blank %}<a class="btn ghost btn-sm" href="{{ chat_url }}">Trimite pozele în chat</a>{% else %}<a class="btn ghost btn-sm" id="checkin-wa" href="#" target="_blank" rel="noopener" hidden>Trimite pozele pe WhatsApp</a>{% endif %}</div>
+            <p class="muted" style="font-size:14px">Pozele (față, lateral, spate) le trimiți în chat după ce apeși „Trimite”.</p>
+            <div class="row"><button class="btn btn-sm" type="submit">Trimite check-in-ul</button><a class="btn ghost btn-sm" href="{{ chat_url }}">Trimite pozele în chat</a></div>
             <p id="checkin-status" class="muted" style="font-size:14px"></p>
           </form>
         </div>
@@ -53,7 +53,7 @@
       <div class="card red">
         <p class="eyebrow">Chera Protocol</p>
         <h3>Abonamentul tău a expirat pe {{ chera_expira | date: '%d.%m.%Y' }}</h3>
-        <p class="muted">Planul și {% if chat_url != blank %}chatul{% else %}WhatsApp-ul{% endif %} se reactivează în momentul în care reînnoiești. Continuăm exact de unde am rămas.</p>
+        <p class="muted">Planul și chatul se reactivează în momentul în care reînnoiești. Continuăm exact de unde am rămas.</p>
         <a class="btn" href="{{ section.settings.renew_url }}" style="justify-self:start">Reînnoiește</a>
       </div>
     {% elsif customer.metafields.chera.plan_url != blank %}
@@ -67,7 +67,7 @@
       <div class="card">
         <p class="eyebrow">Chera Protocol</p>
         <h3>Încă nu ai un pachet activ</h3>
-        <p class="muted">Începe cu evaluarea gratuită, apoi alege ușa ta. După plată, aici apar planul, check-in-ul și {% if chat_url != blank %}chatul cu mine{% else %}WhatsApp-ul meu{% endif %}.</p>
+        <p class="muted">Începe cu evaluarea gratuită, apoi alege ușa ta. După plată, aici apar planul, check-in-ul și chatul cu mine.</p>
         <div class="row"><a class="btn" href="/pages/evaluare">Fă evaluarea</a><a class="btn ghost" href="{{ section.settings.renew_url }}">Vezi pachetele</a></div>
       </div>
     {% endif %}
@@ -76,7 +76,7 @@
       {%- for order in customer.orders -%}{%- if order.financial_status == 'paid' and order.cancelled == false -%}{%- for line in order.line_items -%}{%- if line.product.template_suffix == 'sesiune' -%}
         <div class="row between" style="padding-block:10px;border-bottom:1px solid var(--line)">
           <div><b>{{ line.product.title }}</b><div class="muted" style="font-size:14px">{{ line.properties['Programare'] | default: line.variant.title | default: line.title }}</div></div>
-          <a class="btn ghost btn-sm" href="#" target="_blank" rel="noopener" data-gcal data-start="{{ line.variant.title | default: line.title }}" data-mins="{{ line.product.metafields.chera.durata | default: 30 }}" data-title="{{ line.product.title | escape }} · Chera Protocol" data-loc="{% if line.product.tags contains 'online' %}Video call WhatsApp{% else %}{{ settings.sibiu_address | escape }}{% endif %}">Adaugă în calendar</a>
+          <a class="btn ghost btn-sm" href="#" target="_blank" rel="noopener" data-gcal data-start="{{ line.variant.title | default: line.title }}" data-mins="{{ line.product.metafields.chera.durata | default: 30 }}" data-title="{{ line.product.title | escape }} · Chera Protocol" data-loc="{% if line.product.tags contains 'online' %}Video call{% else %}{{ settings.sibiu_address | escape }}{% endif %}">Adaugă în calendar</a>
         </div>
       {%- endif -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
     {%- endcapture -%}

@@ -117,7 +117,7 @@
           "settings": {
             "tag": "Ușa B · Performanță fără scenă",
             "title": "Chera Protocol Coaching",
-            "text": "Pentru cine are 1–5 ani de sală, e serios și e blocat. Plan de antrenament și nutriție construit pe profilul tău neuro, check-in săptămânal, eu pe WhatsApp, răspuns în 24 de ore.",
+            "text": "Pentru cine are 1–5 ani de sală, e serios și e blocat. Plan de antrenament și nutriție construit pe profilul tău neuro, check-in săptămânal, chat direct cu mine în contul tău, răspuns în 24 de ore.",
             "bullets": "Profil neuro + plan în 48 de ore\nCheck-in săptămânal: poze, cântar, ajustări făcute de mine\nMinimum 12 săptămâni, cu garanție",
             "price": "990 lei",
             "price_note": "/ lună · 2.500 lei / 3 luni",
@@ -168,7 +168,7 @@
           "type": "step",
           "settings": {
             "title": "Check-in săptămânal",
-            "text": "Poze, cântar, un formular scurt. Le văd eu și ajustez. Pe WhatsApp, răspuns în 24 de ore."
+            "text": "Poze, cântar și cifrele săptămânii, trimise din chatul tău. Le văd eu și ajustez. Răspuns în 24 de ore."
           }
         },
         "metoda_4": {
@@ -276,14 +276,14 @@
           "type": "qa",
           "settings": {
             "q": "Cum comunicăm?",
-            "a": "Pe WhatsApp, direct cu mine, din contul tău de pe site. Răspund în cel mult 24 de ore în zilele lucrătoare. Check-in-ul săptămânal se face printr-un formular scurt plus poze și cântar."
+            "a": "În chatul privat din contul tău de pe site, direct cu mine. Răspund în cel mult 24 de ore în zilele lucrătoare. Check-in-ul săptămânal îl trimiți tot din chat: cifrele, pozele și cântarul."
           }
         },
         "intrebari_5": {
           "type": "qa",
           "settings": {
             "q": "Ce se întâmplă când expiră abonamentul?",
-            "a": "Primești de la mine mesaj cu 7, 3 și o zi înainte. Dacă nu reînnoiești, accesul la planul tău și la WhatsApp se închide automat după 3 zile de grație. Când reînnoiești, continuăm exact de unde am rămas."
+            "a": "Primești de la mine mesaj cu 7, 3 și o zi înainte. Dacă nu reînnoiești, accesul la planul tău și la chat se închide automat după 3 zile de grație. Când reînnoiești, continuăm exact de unde am rămas."
           }
         },
         "intrebari_6": {
@@ -338,8 +338,8 @@
           "settings": {
             "tag": "Online",
             "title": "Posing pe video call",
-            "text": "Aceeași sesiune, pe video call WhatsApp. Te sun eu la ora rezervată.",
-            "bullets": "Pe WhatsApp, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
+            "text": "Aceeași sesiune, pe video call. Linkul îl primești în chat, înainte de ora rezervată.",
+            "bullets": "Pe video call, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
             "product": "posing-online",
             "price": "200 lei",
             "price_note": "/ 30 de minute",
@@ -353,7 +353,7 @@
             "tag": "Online",
             "title": "Consultație video",
             "text": "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.",
-            "bullets": "Pe video call WhatsApp, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online",
+            "bullets": "Pe video call, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online",
             "product": "consultatie-video",
             "price": "500 lei",
             "price_note": "/ 30 de minute",

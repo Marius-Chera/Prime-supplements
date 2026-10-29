@@ -21,11 +21,11 @@
       <div class="rte" style="padding:0">{{ product.description }}</div>
       <div class="card">
         {% if is_online %}
-          <p><strong>Unde:</strong> pe video call WhatsApp. Te sun eu la ora rezervată, la numărul pe care mi-l lași.</p>
+          <p><strong>Unde:</strong> pe video call. Linkul îl primești în chatul din contul tău, înainte de ora rezervată.</p>
         {% else %}
-          <p><strong>Unde:</strong> {{ settings.sibiu_address | default: 'în Sibiu; adresa sălii ți-o trimit pe WhatsApp după rezervare' }}.</p>
+          <p><strong>Unde:</strong> {{ settings.sibiu_address | default: 'în Sibiu; adresa sălii ți-o trimit în chat după rezervare' }}.</p>
         {% endif %}
-        <p class="muted">Orele sunt ora României. Locul e al tău în momentul plății. Dacă trebuie să mutăm sesiunea, scrie-mi pe WhatsApp.</p>
+        <p class="muted">Orele sunt ora României. Locul e al tău în momentul plății. Dacă trebuie să mutăm sesiunea, scrie-mi în chatul din contul tău.</p>
       </div>
     </div>
 
@@ -41,8 +41,8 @@
 
       <h3>2. Detalii</h3>
       <div class="field">
-        <label for="b-phone">Telefon WhatsApp</label>
-        <input id="b-phone" name="properties[Telefon WhatsApp]" type="tel" inputmode="tel" autocomplete="tel" value="{{ customer.phone }}" required placeholder="07xx xxx xxx">
+        <label for="b-phone">Telefon</label>
+        <input id="b-phone" name="properties[Telefon]" type="tel" inputmode="tel" autocomplete="tel" value="{{ customer.phone }}" required placeholder="07xx xxx xxx">
       </div>
       <div class="field">
         <label for="b-notes">{{ product.metafields.chera.intrebare | default: intrebare_def }}</label>

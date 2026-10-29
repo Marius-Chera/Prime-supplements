@@ -1,4 +1,3 @@
-{%- assign wa = settings.whatsapp_number -%}
 {%- comment -%} datele firmei: setarea temei, sau cele din subsol cât timp setarea are încă liniuțe {%- endcomment -%}
 {%- assign legal = settings.company_details -%}{%- if legal == blank or legal contains '__' -%}{%- assign legal = section.settings.company_line -%}{%- endif -%}
 <footer class="site-footer">
@@ -22,11 +21,6 @@
         {%- if settings.instagram != blank -%}
         <a href="https://www.instagram.com/{{ settings.instagram }}/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" class="dot"/></svg>
-        </a>
-        {%- endif -%}
-        {%- if wa != blank -%}
-        <a href="https://wa.me/{{ wa }}" target="_blank" rel="noopener" aria-label="WhatsApp">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19z"/><path d="M9 8.5c0 3.2 2.6 6 6 6.5l1.2-1.4-2-1-1 .8a5 5 0 0 1-2.4-2.4l.8-1-1-2z" class="dot"/></svg>
         </a>
         {%- endif -%}
       </div>
@@ -58,7 +52,7 @@
 
     <div class="ft-col">
       <h3>Contact</h3>
-      {%- if wa != blank -%}<a href="https://wa.me/{{ wa }}" target="_blank" rel="noopener">WhatsApp (după plată, pentru clienți)</a>{%- endif -%}
+      <a href="/apps/chat">Chatul meu (pentru clienți, din cont)</a>
       {%- if settings.instagram != blank -%}<a href="https://www.instagram.com/{{ settings.instagram }}/" target="_blank" rel="noopener">@{{ settings.instagram }}</a>{%- endif -%}
       {%- if section.settings.email != blank -%}<a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a>{%- endif -%}
       <span>{{ section.settings.city }}</span>

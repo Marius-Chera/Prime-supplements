@@ -12,20 +12,13 @@
     "settings": [
       {
         "type": "header",
-        "content": "WhatsApp și evaluare"
-      },
-      {
-        "type": "text",
-        "id": "whatsapp_number",
-        "label": "Numărul de WhatsApp (format internațional, fără +)",
-        "default": "40757911908",
-        "info": "Apare DOAR clienților plătitori logați și în rezultatul evaluării. Nu e afișat public."
+        "content": "Chat și evaluare"
       },
       {
         "type": "text",
         "id": "chat_url",
         "label": "Linkul chatului din site (Chera Hub)",
-        "info": "Ex. /apps/chat. Când e completat, butonul din contul clientului devine „Chat cu Marius” și înlocuiește WhatsApp-ul. Gol = rămâne WhatsApp."
+        "info": "Implicit /apps/chat (Chera Hub). Toate linkurile „Chat” din temă duc aici."
       },
       {
         "type": "text",

@@ -20,7 +20,7 @@
   var q = function(s, el){ return (el || root).querySelector(s); }, qa = function(s, el){ return [].slice.call((el || root).querySelectorAll(s)); };
   var steps = qa("section[data-step]").sort(function(a, b){ return a.getAttribute("data-step") - b.getAttribute("data-step"); });
   var LAST = steps.length - 1, FORM_STEPS = LAST - 1; /* pasul 0 = intro, 1..FORM_STEPS = formular, LAST = trimitere */
-  var cur = 0, channel = null, zones = {};
+  var cur = 0, channel = "e-mail", zones = {};
   var fields = qa("input[id],select[id],textarea[id]").filter(function(el){ return el.type !== "file" && el.type !== "checkbox" && !el.closest("form[action*='/contact']"); });
   var get = function(id){ var el = document.getElementById(id); return el ? String(el.value).trim() : ""; };
 
@@ -163,7 +163,7 @@
     var btn = q("[data-mailbtn]"), warn = q("[data-warn]");
     if(sent){
       try{ localStorage.removeItem(DRAFT); }catch(e){}
-      q("[data-done-text]").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale" + (st.n ? " și " + st.n + (st.n === 1 ? " poză" : " poze") : "") + ". Îți răspund " + (st.channel === "e-mail" ? "pe e-mail" : "pe WhatsApp") + " în maximum 48 de ore. Păstrează codul de mai sus.";
+      q("[data-done-text]").textContent = (st.first ? st.first + ", am" : "Am") + " primit datele tale" + (st.n ? " și " + st.n + (st.n === 1 ? " poză" : " poze") : "") + ". Îți răspund " + "pe e-mail" + " în maximum 48 de ore. Păstrează codul de mai sus.";
       if(st.bad && st.bad.length && btn){
         warn.hidden = false; warn.innerHTML = "<b>Unele poze n-au urcat: " + st.bad.join(", ") + ".</b><span>Trimite-mi-le pe e-mail ca atașament sau ca link, cu codul " + st.ref + " în subiect.</span>";
         btn.hidden = false; btn.textContent = "Trimite pozele lipsă pe e-mail"; btn.href = mailto(st.subject + " · poze lipsă", "Salut, Marius! Îți trimit pozele care n-au urcat pe site: " + st.bad.join(", ") + ".");

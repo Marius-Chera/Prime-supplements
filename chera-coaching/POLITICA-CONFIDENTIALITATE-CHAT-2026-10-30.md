@@ -1,12 +1,12 @@
 # Politica de confidențialitate – chatul Chera Protocol (text pentru pagina din site)
 
-Stare: propunere scrisă de Claude pe 30.10.2026, de verificat de Marius (și, înainte de lansare, de un avocat sau de contabilul firmei pentru datele firmei). Se publică în Shopify ca pagină `Politica de confidențialitate – chat` (Online Store → Pages) și se leagă din subsol și din caseta de consimțământ a chatului. Completează câmpurile dintre paranteze drepte.
+Stare: citită și aprobată de Marius pe 30.10.2026; publicată în Shopify ca pagina „Politica de confidențialitate – chat” (handle politica-confidentialitate-chat) și legată în meniul subsolului. Înainte de lansarea publică merită un ochi de avocat. Se publică în Shopify ca pagină `Politica de confidențialitate – chat` (Online Store → Pages) și se leagă din subsol și din caseta de consimțământ a chatului. Completează câmpurile dintre paranteze drepte.
 
 ---
 
 ## Cine prelucrează datele
 
-Chera Coaching SRL, [CUI], [sediul], e-mail: marius.chera@yahoo.com („noi”, „Marius”). Prelucrăm datele tale ca operator, pentru serviciul de coaching pe care l-ai cumpărat.
+Chera Coaching SRL, CUI 49666258, Calea Dumbrăvii 137A, Sc. A, Et. 1, Ap. 2, Sibiu, e-mail: marius.chera@yahoo.com („noi”, „Marius”). Prelucrăm datele tale ca operator, pentru serviciul de coaching pe care l-ai cumpărat.
 
 ## Ce date prelucrăm în chat
 
@@ -33,7 +33,7 @@ Pozele de progres, analizele și informațiile despre sănătate sunt **date din
 
 ## Cât le păstrăm
 
-Pe durata abonamentului și **[12] luni** după ultima plată, ca să putem continua de unde am rămas dacă revii. Apoi le ștergem. Poți cere ștergerea oricând, mai devreme.
+Pe durata abonamentului și **12 luni** după ultima plată, ca să putem continua de unde am rămas dacă revii. Apoi le ștergem. Poți cere ștergerea oricând, mai devreme.
 
 ## Drepturile tale
 
@@ -47,4 +47,4 @@ Acces doar din contul tău din magazin (cod pe e-mail); fiecare cerere e semnat�
 
 Serviciul e pentru persoane de peste 18 ani. Coaching-ul nu înlocuiește sfatul medical; pentru boli, medicamente, sarcină sau alte situații medicale, vorbește cu medicul tău.
 
-Ultima actualizare: [data publicării].
+Ultima actualizare: 30.10.2026.

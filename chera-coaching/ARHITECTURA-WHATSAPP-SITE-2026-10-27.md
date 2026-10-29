@@ -1,5 +1,7 @@
 # Chera Protocol – arhitectura WhatsApp + zona clientului, totul pe site
 
+> **Înlocuit pe 29.10.2026:** proprietarul a decis ca conversațiile de coaching să aibă loc în chat-ul din site, nu pe WhatsApp. §8 („fără SaaS”) și §10 sunt înlocuite de `ARHITECTURA-CHAT-HUB-2026-10-29.md`. §4 (zona clientului) și §9 (accesul condiționat de plată) rămân valabile; butonul WhatsApp din cont devine „Chat cu Marius”.
+
 Data: 27.10.2026. Context: Marius are deja ~100 de clienți activi, antrenează singur, vrea o implementare profesionistă în care totul (plată, acces, planul, check-in-urile, conversațiile) are loc pe site, iar el răspunde dintr-un singur loc, doar clienților. Înlocuiește §5 din PLAN-SITE-COACHING ca variantă definitivă.
 
 ## 1. Principiul

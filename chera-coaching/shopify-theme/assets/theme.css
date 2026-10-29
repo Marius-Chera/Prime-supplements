@@ -43,7 +43,8 @@ p{margin:0}
 .nav-links a{color:var(--fg-2);text-decoration:none}
 .nav-actions{display:flex;gap:14px;align-items:center;font-size:14px}
 .nav-actions a{text-decoration:none;color:var(--fg-2)}
-@media (max-width:860px){.nav-links{display:none}.nav-account{display:none}}
+@media (max-width:860px){.nav-links{display:none}}
+.nav-actions a.nav-account{color:var(--fg);font-weight:600}
 
 /* hero */
 .hero{padding-block:84px 56px;position:relative;overflow:hidden}

@@ -43,17 +43,13 @@ const TYPES = {
 };
 const DEFICIT = {
  D:{name:"dopamina",diet:["Mic dejun bogat în proteine (ouă, carne, pește); fără dulce dimineața.","Tirozină din alimente: brânzeturi, semințe de dovleac, curcan, migdale.","Carbohidrații mutați spre seară."],
-   supp:["L-tirozină 500–1.500 mg dimineața, pe stomacul gol","Complex B (cu B6)","Omega-3 (EPA/DHA) 2 g","Creatină 3–5 g","Rhodiola 200–400 mg dimineața"],
-   life:["Lumină și, dacă poți, antrenament dimineața.","Obiective scurte, cu victorii săptămânale.","Cafeina doar înainte de ora 14."],warn:"Tirozina nu se ia seara. Fără mucuna (L-dopa) fără aviz medical."},
+   life:["Lumină și, dacă poți, antrenament dimineața.","Obiective scurte, cu victorii săptămânale.","Cafeina doar înainte de ora 14."]},
  A:{name:"acetilcolina",diet:["Ouă întregi zilnic (2–4), ficat o dată pe săptămână, pește gras, nuci.","Lecitină și grăsimi bune; carbohidrați moderați."],
-   supp:["Citicolină 250–500 mg sau alpha-GPC 300–600 mg dimineața","Omega-3 cu DHA mare, 2 g","Acetil-L-carnitină 1–2 g","Fosfatidilserină 100–300 mg","Vitamina B5"],
-   life:["Somn 7–8 ore.","Exerciții de coordonare și tehnică în antrenament.","Fără multitasking în sală."],warn:"Huperzina A doar la recomandarea antrenorului, în cicluri scurte."},
+   life:["Somn 7–8 ore.","Exerciții de coordonare și tehnică în antrenament.","Fără multitasking în sală."]},
  G:{name:"GABA",diet:["Carbohidrați complecși seara (orez, cartof, ovăz).","Magneziu din alimente: verdețuri, semințe, cacao.","Fără cafeină după prânz și fără deficit caloric agresiv."],
-   supp:["Magneziu bisglicinat 300–400 mg seara","L-teanină 200 mg (și dimineața, cu cafeaua)","Taurină 1–3 g seara","Glicină 3 g înainte de culcare","Ashwagandha KSM-66 300–600 mg","ZMA ca alternativă seara"],
-   life:["Respirație lentă 5 minute seara.","Plimbare zilnică, mai puține stimulente.","Antrenamentul nu mai târziu de ora 20."],warn:"Ashwagandha: nu la probleme de tiroidă fără aviz. Taurina și magneziul în doze mari pot da scaune moi."},
+   life:["Respirație lentă 5 minute seara.","Plimbare zilnică, mai puține stimulente.","Antrenamentul nu mai târziu de ora 20."]},
  S:{name:"serotonina",diet:["Carbohidrați la cină.","Surse de triptofan: curcan, ouă, lactate, banane, ovăz.","Mese regulate; fără low-carb și fără post prelungit."],
-   supp:["Vitamina D3 2.000–4.000 UI cu K2","Omega-3 2 g","Magneziu bisglicinat 300 mg","Complex B","Șofran 30 mg"],
-   life:["Lumină naturală dimineața, 20 de minute.","3 antrenamente moderate, nu epuizante.","Contact social și somn regulat."],warn:"Triptofanul sau 5-HTP se discută doar cu mine, niciodată împreună cu medicamente pentru dispoziție."}
+   life:["Lumină naturală dimineața, 20 de minute.","3 antrenamente moderate, nu epuizante.","Contact social și somn regulat."]}
 };
 const DOORS = {
  scena:{title:"Ușa ta: Pregătire de concurs",text:"Plătești prima lună (1.500 lei), care include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări. În 48 de ore avem un video call de 15 minute, eu și tu, în care alegem competițiile și stabilim plata pentru întreg sezonul. Locuri limitate.",cta:"Începe pregătirea",url:"/products/pregatire-de-concurs-prima-luna"},
@@ -151,7 +147,6 @@ function balance(){
 /* concluziile: păstrez primele ~60% din fiecare listă (cerut de Marius: concluziile cu ~30% mai scurte în total); cele mai importante sunt primele */
 const KEEP=0.6, cut=a=>(a||[]).slice(0,Math.max(1,Math.round((a||[]).length*KEEP)));
 function li(list,arr){ list.innerHTML=""; arr.forEach(t=>{ const l=document.createElement("li"); l.textContent=t; list.appendChild(l); }); }
-function suppList(el,arr){ el.innerHTML=""; (arr||[]).forEach(x=>{ const l=document.createElement("li"); if(typeof x==="string"){ l.textContent=x; } else { l.innerHTML=`<b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span>`; } el.appendChild(l); }); }
 function scorecard(el,sc,top){ el.innerHTML=""; ["D","A","G","S"].forEach(k=>{ const d=document.createElement("div"); d.className="s"+(k===top?" lead-s":""); d.innerHTML=`<small>${SCALE_NAME[k]}</small><b>${sc[k]}</b>`; el.appendChild(d); }); }
 
 function buildResult(){
@@ -176,10 +171,9 @@ function buildResult(){
     const D=Object.assign({},DEFICIT[bal.top],((window.CHERA_EXT||{}).deficitFull||{})[bal.top]||{});
     rb.innerHTML=`<p><span class="pill ${bal.level}">${D.name}: ${bal.level==="crit"?"pe minus":"de susținut"}</span></p>
       <h3>Ajustări în dietă</h3><ul class="list" id="rb-diet"></ul>
-      <h3>${bal.level==="crit"?"Suplimente de stabilizare, 8 săptămâni":"Suplimente de susținere (le confirm eu la prima discuție)"}</h3><ul class="list supp" id="rb-supp"></ul>
       <h3>Stil de viață</h3><ul class="list" id="rb-life"></ul>
-      <p class="hint">${D.warn}</p>`;
-    li($("rb-diet"),cut(D.diet)); suppList($("rb-supp"),cut(D.supp)); li($("rb-life"),cut(D.life));
+      <p class="hint">Suplimentele pentru ${D.name} sunt în protocolul tău, mai jos, la „Suplimente”.</p>`;
+    li($("rb-diet"),cut(D.diet)); li($("rb-life"),cut(D.life));
   }
   renderExt(nt.type, bal, goal);
   const door=DOORS[goal]||DOORS.sportiv;
@@ -188,7 +182,7 @@ function buildResult(){
   $("r-wacode").textContent = msg;
   $("r-sendtext").textContent = `Îți trimit rezultatul și planul de pornire pe e-mail, la ${state.ctx.email}, în cel mult 24 de ore. Dacă vrei să mergem mai departe, intră în cont cu același e-mail și scrie-mi în chat.`;
   const txt=(id)=>[...document.querySelectorAll(`#${id} li`)].map(l=>"• "+l.textContent).join("\n");
-  state.summary = `PROFIL ${code} · ${T.name} (${nt.type})\n${$("r-sub").textContent}\n\nCUM EȘTI\n${txt("r-who")}\n\nCUM TE ANTRENEZI\n${txt("r-train")}\n\nCUM MĂNÂNCI\n${txt("r-diet")}\n\nECHILIBRUL TĂU ACUM\n${$("r-balance").innerText.trim()}\n\n${door.title.toUpperCase()}\n${door.text}`;
+  state.summary = `PROFIL ${code} · ${T.name} (${nt.type})\n${$("r-sub").textContent}\n\nCUM EȘTI\n${txt("r-who")}\n\nCUM TE ANTRENEZI\n${txt("r-train")}\n\nCUM MĂNÂNCI\n${txt("r-diet")}\n\nECHILIBRUL TĂU ACUM\n${$("r-balance").innerText.trim()}\n\n${state.protocolText||""}\n\n${door.title.toUpperCase()}\n${door.text}`;
   state.result={code,type:nt.type,dom:nt.dom.top,mixed:nt.dom.mixed,scoresA:nt.scores,scoresB:bal.scores,deficit:defCode,level:bal.level,allHigh:bal.allHigh};
   save();
 }
@@ -205,8 +199,10 @@ function renderExt(type, bal, goal){
   if(bal.level!=="ok" && !bal.allHigh && X.deficit[bal.top]){ const D=X.deficit[bal.top]; h+=card("Echilibrul tău acum","De ce contează "+DEFICIT[bal.top].name+" la sală",`<p>${D.why}</p><h3 style="margin-top:14px">Ce schimbăm în antrenament</h3>${ul(cut(D.train))}`); }
   h+=card("Atenție","Greșelile pe care le văd des la profilul tău",ul(cut(E.mistakes)));
   h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(cut(E.mind)));
-  const M=(X.more||{})[type]||{}; const sl=a=>"<ul class=\"list supp\">"+(a||[]).map(x=>`<li><b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span></li>`).join("")+"</ul>";
-  h+=card("Suplimente","Stack-ul pentru profilul tău",sl(cut(M.stack))+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(cut(X.base))+`<p class="hint">Dozele sunt orientative, pentru adulți sănătoși. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
+  const sl=a=>"<ul class=\"list supp\">"+(a||[]).map(x=>`<li><b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span></li>`).join("")+"</ul>";
+  const P=X.protocolFor(type,bal,state.ctx);
+  h+=card("Suplimente · doar pentru tine","Protocolul meu pentru profilul tău",`<p>${P.intro}</p><p class="hint">Am ținut cont de: ${P.facts.join(", ")}.</p>`+P.groups.map(g=>`<h3 style="margin-top:14px">${g.label}</h3>`+sl(g.rows)).join("")+ul(P.notes)+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(cut(X.base))+`<p class="hint">${P.warns.join(" ")} Dozele sunt orientative, pentru un adult sănătos de circa 80 kg; dacă ai sub 65 kg, iei limita de jos. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
+  state.protocolText=`SUPLIMENTELE TALE\n${P.intro}\n`+P.groups.map(g=>g.label.toUpperCase()+"\n"+g.rows.map(r=>`• ${r.n}: ${r.d}, ${r.t}`).join("\n")).join("\n")+"\n"+P.notes.map(n=>"• "+n).join("\n");
   h+=card("Obiectivul tău",G.title,ul(cut(G.items)));
   h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(cut(X.start4)));
   box.innerHTML=h;

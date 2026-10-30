@@ -197,6 +197,7 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .quiz .scorecard .s b{font-family:var(--display);font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
 .quiz .scorecard .s small{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-2)}
 .quiz .scorecard .s.lead-s{border-color:var(--red)}
+@media (max-width:480px){.quiz .scorecard{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .quiz ul.list{margin:0;padding-left:20px;display:grid;gap:6px}
 .quiz .result-head{display:grid;gap:8px;padding-block:24px 8px}
 .quiz .result-head .code{font-family:var(--display);font-size:14px;letter-spacing:.2em;color:var(--red)}

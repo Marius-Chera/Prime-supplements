@@ -1,13 +1,13 @@
-{%- comment -%} Prima pagină: cele 4 instrumente gratuite (texte și linkuri în setări, cu valori implicite, ca să nu depindă de index.json). {%- endcomment -%}
+{%- comment -%} Prima pagină: cele 3 instrumente gratuite (texte și linkuri în setări, cu valori implicite, ca să nu depindă de index.json). Instrumentul 2, „Cât de departe ești de scenă?”, e arhivat din 31.10.2026: titlul gol îl ascunde; ca să revină, îi pui titlul înapoi și publici pagina cat-de-departe-de-scena. {%- endcomment -%}
 <style>
-.tools{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .tool{border:1px solid var(--line);border-top:4px solid var(--red);background:var(--bg-2);padding:22px 20px;display:grid;gap:10px;align-content:start;min-width:0}
 .tool .tag{font-family:var(--display);font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:700}
 .tool h3{font-size:clamp(22px,2.2vw,26px)}
 .tool p{margin:0;color:var(--fg-2);font-size:15.5px}
 .tool .btn{justify-self:start;margin-top:6px;color:#fff}
-@media (max-width:1000px){.tools{grid-template-columns:1fr 1fr}}
-@media (max-width:560px){.tools{grid-template-columns:1fr}.tool .btn{justify-self:stretch}}
+@media (max-width:760px){.tools{grid-template-columns:1fr}}
+@media (max-width:560px){.tool .btn{justify-self:stretch}}
 </style>
 <section class="band" id="{{ section.settings.anchor }}">
   <div class="in stack" style="gap:28px">
@@ -35,16 +35,16 @@
     { "type": "text", "id": "anchor", "label": "Ancoră", "default": "instrumente" },
     { "type": "text", "id": "eyebrow", "label": "Supratitlu", "default": "Gratuit · fără obligații" },
     { "type": "text", "id": "title", "label": "Titlu", "default": "Instrumentele mele gratuite" },
-    { "type": "textarea", "id": "text", "label": "Text", "default": "Patru moduri de a afla unde ești, înainte să plătești ceva. La trei dintre ele îți răspund eu personal, în cel mult 48 de ore." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Trei moduri de a afla unde ești, înainte să plătești ceva. La două dintre ele îți răspund eu personal, în cel mult 48 de ore." },
     { "type": "header", "content": "Instrumentul 1" },
     { "type": "text", "id": "t1_tag", "label": "Etichetă", "default": "4 minute · rezultat pe loc" },
     { "type": "text", "id": "t1_title", "label": "Titlu (gol = ascuns)", "default": "Evaluarea gratuită" },
     { "type": "textarea", "id": "t1_text", "label": "Text", "default": "Profilul tău neuro: cum ești făcut, cum te antrenezi și cum mănânci ca să progresezi." },
     { "type": "text", "id": "t1_cta", "label": "Buton", "default": "Fă evaluarea" },
     { "type": "text", "id": "t1_url", "label": "Link", "default": "/pages/evaluare" },
-    { "type": "header", "content": "Instrumentul 2" },
+    { "type": "header", "content": "Instrumentul 2 (arhivat, titlu: Cât de departe ești de scenă?)" },
     { "type": "text", "id": "t2_tag", "label": "Etichetă", "default": "Vrei să concurezi · 48 h" },
-    { "type": "text", "id": "t2_title", "label": "Titlu (gol = ascuns)", "default": "Cât de departe ești de scenă?" },
+    { "type": "text", "id": "t2_title", "label": "Titlu (gol = ascuns)" },
     { "type": "textarea", "id": "t2_text", "label": "Text", "default": "Îmi spui concursul, măsurătorile și îmi trimiți 3 poze. Îți spun cât mai ai și când începi definirea." },
     { "type": "text", "id": "t2_cta", "label": "Buton", "default": "Află cât mai ai" },
     { "type": "text", "id": "t2_url", "label": "Link", "default": "/pages/cat-de-departe-de-scena" },

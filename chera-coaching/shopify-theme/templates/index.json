@@ -224,13 +224,45 @@
             "text": "Atât timp cât nu vrei vrăjeală și să auzi chestii nerealiste, trebuie să lucrezi cu Marius Chera.",
             "who": "Sportiv de performanță"
           }
+        },
+        "quote_r1": {
+          "type": "quote",
+          "settings": {
+            "text": "Sper să ți se întoarcă înzecit binele pe care mi l-ai făcut când m-ai făcut să intru și să rămân în pregătire într-un moment destul de delicat. Am reușit să rămân disciplinat, să nu cad psihic și să termin sezonul competițional cu capul sus.",
+            "who": "B., sportiv de performanță"
+          }
+        },
+        "quote_r2": {
+          "type": "quote",
+          "settings": {
+            "text": "Tu să știi că eu sunt activ ca sportiv datorită ție. Încă o dată, mulțumesc din suflet.",
+            "who": "B., sportiv de performanță"
+          }
+        },
+        "quote_r3": {
+          "type": "quote",
+          "settings": {
+            "text": "Îți mulțumesc foarte mult pentru tot și chiar mă bucur mult pentru decizia pe care am făcut-o, aceea de a începe colaborarea cu tine.",
+            "who": "A., sportivă de performanță"
+          }
+        },
+        "quote_r4": {
+          "type": "quote",
+          "settings": {
+            "text": "Mi-a plăcut mult cum a ieșit și am luat cea mai bună decizie să colaborez cu tine.",
+            "who": "H., clientă"
+          }
         }
       },
       "block_order": [
         "testimoniale_1",
         "testimoniale_2",
         "testimoniale_3",
-        "testimoniale_4"
+        "testimoniale_4",
+        "quote_r1",
+        "quote_r2",
+        "quote_r3",
+        "quote_r4"
       ],
       "settings": {}
     },

@@ -2,7 +2,7 @@
 
 Cererea lui Marius (31.10): „vreau să modifici tot designul site-ului în culori mai smooth, să nu mai fie așa țipătoare, culorile să fie mai premium, așa mi-au recomandat deja câțiva clienți care au intrat pe platformă; poți să te duci în direcția nuanțelor de pe WhatsApp”.
 
-Stadiu: **paleta e aplicată în repo (tema din `shopify-theme/`) și previzualizată pe site-ul real din browserul încorporat, fără să fie scrisă în tema live.** Publicarea se face doar după OK-ul lui Marius (regula „designul se schimbă doar cu aprobarea proprietarului”).
+Stadiu: **PUBLICATĂ pe tema live pe 31.10.2026, după OK-ul lui Marius dat în sesiune („Da, publică paleta smooth pe tema live Chera Protocol”).** Cele 11 fișiere din §3 au fost scrise prin Hub (`themeFilesUpsert`, tema `OnlineStoreTheme/207992029518`, 11 upserted, 0 erori), după ce versiunile live au fost verificate prin SHA-256 ca identice cu repo-ul dinainte de schimbare. Verificat pe site la desktop și 375 px.
 
 ## 1. Paleta (variabilele din `assets/theme.css`, `:root`)
 

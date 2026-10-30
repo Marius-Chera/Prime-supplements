@@ -1,0 +1,14 @@
+﻿{
+  "_nota": "Decupaje 4:5 (fracțiuni din poza rotită după EXIF) din folderul local 'poze site' (imageNNNNN = numărul din inventar, 28.10.2026). Literele = cei 10 sportivi cu card IFBB Pro găsiți pe 31.10.2026; M = Marius pe scenă la Romania Muscle Fest Pro-Am 2023 (poza 116). De confirmat cu Marius: A≠D și G≠J.",
+  "M": { "src": "image00116.jpeg", "x0": 0.20, "y0": 0.30, "x1": 0.74, "y1": 0.72, "nota": "Marius arată cardul Pro pe scenă (Romania Muscle Fest Pro-Am 2023)" },
+  "A": { "src": "image00093.jpeg", "x0": 0.00, "y0": 0.04, "x1": 1.00, "y1": 0.93, "nota": "culturist cu cardul portocaliu, trofeu și medalie – Romania Muscle Fest Pro-Am 2023" },
+  "B": { "src": "image00054.jpeg", "x0": 0.00, "y0": 0.08, "x1": 0.70, "y1": 0.78, "nota": "nr. 167, cardul roșu, Romania Muscle Fest / NPC Worldwide" },
+  "C": { "src": "image00199.jpeg", "x0": 0.03, "y0": 0.00, "x1": 0.97, "y1": 1.00, "nota": "bikini, medalie Olympia Amateur, cardul albastru ținut de Marius" },
+  "D": { "src": "image00074.jpeg", "x0": 0.05, "y0": 0.30, "x1": 0.72, "y1": 0.97, "nota": "nr. 224, medalie Olympia Amateur Eastern Europe, cardul roșu" },
+  "E": { "src": "image00031.jpeg", "x0": 0.00, "y0": 0.20, "x1": 1.00, "y1": 0.95, "nota": "nr. 27, men's physique, cardul albastru + trofeu, fundal Prime" },
+  "F": { "src": "image00143.jpeg", "x0": 0.30, "y0": 0.20, "x1": 0.95, "y1": 0.85, "nota": "ridică cardul roșu, Olympia Amateur Eastern Europe 2023" },
+  "G": { "src": "maruo card.jpg", "x0": 0.05, "y0": 0.15, "x1": 1.00, "y1": 0.96, "nota": "primește cardul albastru de la Marius, Muscle Contest (MAX Titanium)" },
+  "H": { "src": "hero-doua-carduri.png", "x0": 0.00, "y0": 0.25, "x1": 0.68, "y1": 0.93, "nota": "nr. 272, medalie Olympia Amateur, cardul verde (poza hero actuală, stânga)" },
+  "I": { "src": "hero-doua-carduri.png", "x0": 0.35, "y0": 0.22, "x1": 1.00, "y1": 0.87, "nota": "medalie Olympia Amateur, cardul verde (poza hero actuală, dreapta)" },
+  "J": { "src": "image00196.jpeg", "x0": 0.40, "y0": 0.15, "x1": 0.95, "y1": 0.70, "nota": "nr. 19 cu medalie, pe scări, cardul albastru ținut de Marius" }
+}

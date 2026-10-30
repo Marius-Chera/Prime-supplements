@@ -320,4 +320,4 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .hero .proof-mini b{color:var(--fg);font-size:22px;font-weight:800;margin-right:8px;letter-spacing:0}
 .hero .proof-mini span+span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--red);margin-inline:18px}
 .btn{border-radius:8px;transition:background .2s,color .2s}
-@media (max-width:860px){.hero .in{grid-template-columns:1fr;min-height:0}.hero .stack{padding:36px 0 48px;order:2}.hero .fig{order:1;min-height:0;aspect-ratio:4/5;margin:0 -16px}.hero .fig::before{background:linear-gradient(180deg,transparent 84%,var(--bg) 100%)}.hero .fig figcaption{bottom:18px;left:16px;right:16px}}
+@media (max-width:860px){.hero .in{grid-template-columns:1fr;min-height:0}.hero .stack{padding:36px 0 48px;order:2}.hero .fig{order:1;min-height:0;aspect-ratio:auto;margin:0 -16px}.hero .fig img{position:static;height:auto;aspect-ratio:4/5}.hero .fig::before{display:none}.hero .fig figcaption{position:static;margin:2px 16px 0;font-size:12px}}

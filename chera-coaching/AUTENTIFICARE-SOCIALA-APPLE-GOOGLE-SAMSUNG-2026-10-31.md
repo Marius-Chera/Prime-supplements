@@ -141,3 +141,28 @@ Dacă am porni **de la zero**, fără Shopify: **Supabase** ar fi alegerea mai p
 - Samsung Pay / Wallet / Knox – programe de parteneri: https://developer.samsung.com/pay/native/partner-onbarding.html, https://developer.samsung.com/wallet/onboarding.html, https://docs.samsungknox.com/dev/fundamentals/get-started
 - Supabase – Expo social sign-in quickstart: https://supabase.com/docs/guides/auth/quickstarts/with-expo-react-native-social-sign-in
 - Captură din adminul Chera Protocol (31.10): Authentication arată Shop (On), Google (Connect), Facebook (Connect); Apple nu apare.
+
+## 11. Stare implementare (31.10 → 1.11.2026, noaptea; OK-ul lui Marius pe plan dat pe 31.10 seara)
+**Hub (`chera-hub`, commit `d8adedf`, push făcut):**
+- migrația `0015_identity_links.sql`: tabelele `identity_links` (provider, subject, customer_id, email) și `auth_codes` (codurile pe e-mail, 10 min, max 5 încercări, max 3 coduri/e-mail/15 min) + coloanele `clients.phone`, `clients.profile_done_at`;
+- `src/app/oidc.ts`: verificarea tokenurilor Apple/Google cu cheile publice (JWKS, cache 1 h, reîncercare la rotirea cheilor), RS256, emitent, audiență, expirare, nonce (SHA-256), e-mail verificat / „Hide My Email”;
+- `src/app/native.ts`: regula de legare `decideLink` (legătura existentă → e-mail verificat + client Shopify → client nou / e-mail diferit → cod), clienții Shopify (căutare după e-mail, `customerCreate`, `customerUpdate` nume + telefon), codurile pe e-mail (Resend), `finishLogin` (sesiune Hub 30 zile, audit);
+- rute noi: `POST /app/auth/native`, `/app/auth/native/create`, `/app/auth/native/email`, `/app/auth/native/verify`; cu sesiune: `GET/POST /app/api/me/profile`, `GET/POST/DELETE /app/api/me/identities(/:provider)`, `POST /app/api/me/delete` (confirmare „STERG”; șterge tot din Hub și toate sesiunile; clientul Shopify rămâne, pentru comenzi); `GET /app/api/session` întoarce și `needsProfile`, `loginMethods`, `customer.phone`;
+- GDPR: ștergerea curăță și `identity_links`, `app_sessions`, `device_tokens`, `auth_codes`; cron nocturn: curățarea codurilor expirate; scope nou în cod: `write_customers`;
+- teste: `test/native.test.ts` (tokenuri semnate cu o cheie RSA de test: valid, audiență/nonce/expirare/emitent/cheie/semnătură greșite, `alg=none`, Google; regula de legare; normalizări) – 90 de teste trec, `tsc` curat. Audiențele acceptate: Apple = `app_apple_audiences` (implicit `ro.mariuschera.hub`) + `host.exp.Exponent` cât `app_allow_expo_go` e pornit; Google = setarea `app_google_client_ids` (goală → mesaj clar „neconfigurat”).
+- **Deploy + migrația live:** limita zilnică D1 (plan gratuit) era depășită la 01:30; un proces din aplicația Claude aplică migrațiile 0014 + 0015 pe live și face `wrangler deploy` imediat după resetarea de la 02:00 (00:00 UTC); rezultatul în JURNAL.
+
+**Aplicația (`chera-hub-app`, commit `1e290fc`, local – repo-ul GitHub privat nu e creat încă):**
+- `expo-apple-authentication` + `expo-crypto` instalate; `app.json`: `ios.usesAppleSignIn: true` + pluginul;
+- ecranul de login: **„ Continuă cu Apple”** (doar iPhone, nativ), **„G Continuă cu Google”** (deschide pagina de login a site-ului – Google apare acolo după §5A; nativ mai târziu, §5B), **„Intră cu e-mail (cod)”**; pe Android notă pentru Samsung → Google;
+- pașii când Hub-ul nu poate lega singur: „Nu am găsit un cont cu …” → *Sunt client nou, creează contul* / *Am deja cont cu alt e-mail* → e-mail → cod de 6 cifre;
+- `profile.tsx`: la prima intrare, prenume (obligatoriu), nume, telefon (07… → +40…), scrise și în Shopify; `settings.tsx`: profil, **Metode de conectare** (Apple: Adaugă / Deconectează; Google: „se leagă singur când intri cu Google pe pagina site-ului”), Descarcă datele mele (JSON, prin Share), politica, Ieși din cont, **Șterge contul** (scrii STERG); antetul chatului are „Setări” în loc de „Ieși”;
+- `tsc`, `expo lint`, `expo export --platform web` curate. **Netestat încă pe telefon** (Expo Go) – pasul următor, cu Marius.
+
+**Rămâne la Marius (în ordine):**
+1. **Shopify Dev Dashboard → Apps → Chera Hub → Versions → Create version** (formularul vine completat din v4-app-login): la **Scopes** pune exact
+   `read_customers,write_customers,read_orders,write_app_proxy,read_themes,write_themes,read_products,write_products,read_content,write_content,customer_read_customers`
+   (am încercat eu, dar schimbarea permisiunilor unei aplicații e blocată din aplicația Claude – e o acordare de permisiune, o faci tu), Version name `v5-write-customers` → **Release**. Apoi deschide o dată `https://chera-hub.chera-hub.workers.dev/auth` (logat în admin) și apasă **Install**, ca aplicația să primească `write_customers` (fără el, contul nou din aplicație și salvarea numelui/telefonului în Shopify dau eroare; login-ul clienților existenți merge și fără).
+2. **Google în Shopify** – §5A (independent de restul; ~30 min).
+3. **Testul în Expo Go** pe iPhone: `npx expo start` din aplicația Claude → scanezi codul → „Continuă cu Apple” (merge în Expo Go, fără cont Apple Developer; audiența `host.exp.Exponent` e acceptată cât `app_allow_expo_go` e pornit) → ecranul de profil → chat → Setări.
+4. Când vine contul Apple Developer: §5C; când ai clienții OAuth Google: §5B → Claude pune `app_google_client_ids` și activează Google nativ în aplicație.

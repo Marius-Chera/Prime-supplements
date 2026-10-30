@@ -23,7 +23,7 @@
 .ac .steps3 b::before{counter-increment:s;content:counter(s,decimal-leading-zero) " ";color:var(--red)}
 .ac .field textarea{min-height:110px;resize:vertical}
 .ac .field small{font-size:13px;color:var(--fg-2)}
-.ac .field input,.ac .field select,.ac .field textarea,.ac .card,.ac .btn,.ac .opt,.ac .note,.ac .code-box{border-radius:0}
+.ac .field input,.ac .field select,.ac .field textarea,.ac .card,.ac .btn,.ac .opt,.ac .note,.ac .code-box{border-radius:8px}
 .ac .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .ac .drop{display:grid;place-items:center;gap:6px;text-align:center;border:1.5px dashed var(--line);padding:28px 16px;cursor:pointer;background:var(--bg-2)}
 .ac .drop:hover,.ac .drop.over{border-color:var(--red)}
@@ -32,8 +32,8 @@
 .ac .thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
 .ac .thumb{position:relative;aspect-ratio:3/4;background:var(--bg-2);border:1px solid var(--line);overflow:hidden}
 .ac .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.ac .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(14,13,13,.82);color:var(--fg-2)}
-.ac .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(14,13,13,.85);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ac .thumb small{position:absolute;left:0;right:0;bottom:0;padding:4px 6px;font-size:11px;background:rgba(17,27,33,.72);color:#fff}
+.ac .thumb button{position:absolute;top:4px;right:4px;width:30px;height:30px;border:0;background:rgba(17,27,33,.8);color:#fff;font-size:18px;line-height:1;cursor:pointer}
 .ac .thumb.big{outline:2px solid var(--warn)}
 .ac .day{border:1px solid var(--line);background:var(--bg-2);padding:14px;display:grid;gap:10px}
 .ac .day h3{font-size:20px}

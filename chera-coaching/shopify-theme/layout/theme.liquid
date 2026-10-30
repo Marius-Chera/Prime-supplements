@@ -7,13 +7,13 @@
   {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
   <link rel="canonical" href="{{ canonical_url }}">
   {% if settings.favicon != blank %}<link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 64 }}">{% else %}<link rel="icon" type="image/png" href="{{ 'chera-favicon-64.png' | file_url }}"><link rel="apple-touch-icon" href="{{ 'chera-favicon-180.png' | file_url }}">{% endif %}
-  {%- assign chat_url = settings.chat_url | default: '/apps/chat' -%}{% if request.path contains chat_url %}<link rel="manifest" href="{{ chat_url }}/manifest.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Chera Chat"><meta name="theme-color" content="#0e0d0d">{% endif %}
+  {%- assign chat_url = settings.chat_url | default: '/apps/chat' -%}{% if request.path contains chat_url %}<link rel="manifest" href="{{ chat_url }}/manifest.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Chera Chat"><meta name="theme-color" content="#f0f2f5">{% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
   {{ content_for_header }}
   {{ 'theme.css' | asset_url | stylesheet_tag }}
-  <style>:root{--red:{{ settings.color_accent }};--bg:{{ settings.color_bg }};--fg:{{ settings.color_fg }}}</style>
+  {%- comment -%} Paleta e definită în assets/theme.css (31.10.2026, „smooth”); setările de culoare din Customize au fost scoase. {%- endcomment -%}
   <script>window.CHERA = { endpoint: {{ settings.eval_endpoint | json }}, customer: {% if customer %}{ id: {{ customer.id }}, name: {{ customer.first_name | json }}, email: {{ customer.email | json }}, phone: {{ customer.phone | json }} }{% else %}null{% endif %} };</script>
 </head>
 <body class="template-{{ template.name }}{% if template.suffix %} template-{{ template.name }}-{{ template.suffix }}{% endif %}">

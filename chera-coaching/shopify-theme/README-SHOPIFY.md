@@ -74,3 +74,6 @@ Codul din acest folder e o temă Shopify completă (Online Store 2.0): pagina pr
 - Datele + linkurile pozelor pleacă (1) prin FormSubmit la adresa din setarea „E-mailul care primește analizele” (implicit marius.chera@yahoo.com; după activare se poate pune aliasul FormSubmit) și (2) prin formularul de contact Shopify (nativ, cu hCaptcha) la e-mailul magazinului.
 - Formularul de contact Shopify NU mai acceptă trimiteri cu fetch (CAPTCHA): orice formular nou trebuie să folosească `{% form 'contact' %}` + submit nativ (requestSubmit), iar hCaptcha se încarcă doar după focus pe un câmp al formularului.
 - Intrări: butonul secundar din `evaluare-cta.liquid` (setările alt_*), cardul din `main-product.liquid` (produse cu „concurs” în handle), nota din `evaluare.liquid`.
+
+## 10. Paleta „smooth” (31.10.2026)
+Tema nu mai e neagră: fundal crem `#f3efe8`, text ink `#111b21`, antet/subsol `#f0f2f5`, accent roșu-cărămiziu `#a8322b`, verde `#00a884` doar la stări „ok”. Toate culorile stau în `assets/theme.css` (`:root`); setările de culoare din Customize au fost scoase (le suprascriau). Detalii, lista fișierelor și pașii de publicare/rollback: `../DESIGN-PALETA-SMOOTH-2026-10-31.md`.

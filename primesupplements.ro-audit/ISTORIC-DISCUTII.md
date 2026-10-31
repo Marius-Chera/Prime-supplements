@@ -252,3 +252,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - 1.11: Marius, anunțat că în poza principală cardul e ținut cu susul în jos: „Rămâne poza asta, cu tot cu cardul răsturnat.” Decizie finală; poza 113 rămâne imaginea principală, nemodificată.
 - 1.11: Marius: „asta cu cardul răsturnat este un trademark de al meu, să le dau peste nas la alții care m-au desconsiderat”. **Cardul ținut cu susul în jos e intenționat, semnul lui personal**: nu se corectează și nu se semnalează ca defect în poze sau montaje.
 - 1.11: motto-ul de pe imaginea principală: „M-au desconsiderat. Am răspuns cu 10 carduri IFBB Pro.” (cerut de Marius, legat de semnul lui cu cardul răsturnat).
+- 31.10 (noapte): Marius: renunță deocamdată la logarea cu Google; rămân e-mail + cod și Shop.

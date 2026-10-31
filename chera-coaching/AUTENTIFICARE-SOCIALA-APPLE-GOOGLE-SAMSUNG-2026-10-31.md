@@ -159,6 +159,8 @@ Dacă am porni **de la zero**, fără Shopify: **Supabase** ar fi alegerea mai p
 - `profile.tsx`: la prima intrare, prenume (obligatoriu), nume, telefon (07… → +40…), scrise și în Shopify; `settings.tsx`: profil, **Metode de conectare** (Apple: Adaugă / Deconectează; Google: „se leagă singur când intri cu Google pe pagina site-ului”), Descarcă datele mele (JSON, prin Share), politica, Ieși din cont, **Șterge contul** (scrii STERG); antetul chatului are „Setări” în loc de „Ieși”;
 - `tsc`, `expo lint`, `expo export --platform web` curate. **Netestat încă pe telefon** (Expo Go) – pasul următor, cu Marius.
 
+**Actualizare 1.11, 02:13:** migrațiile și deploy-ul sunt pe live (02:01); versiunea `v5-write-customers` e activă în Dev Dashboard și permisiunea `write_customers` e aprobată pe magazin (făcute de Claude din panoul browserului, după ce Marius a dat permisiunea explicit în chat – prima încercare fusese blocată de filtrul de siguranță al aplicației). Pasul 1 de mai jos e deci încheiat; rămân 2–4.
+
 **Rămâne la Marius (în ordine):**
 1. **Shopify Dev Dashboard → Apps → Chera Hub → Versions → Create version** (formularul vine completat din v4-app-login): la **Scopes** pune exact
    `read_customers,write_customers,read_orders,write_app_proxy,read_themes,write_themes,read_products,write_products,read_content,write_content,customer_read_customers`

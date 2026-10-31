@@ -104,10 +104,10 @@
           "settings": {
             "tag": "Ușa A · Competiție",
             "title": "Pregătire de concurs",
-            "text": "Pentru cine concurează sau vrea să concureze: NPC, IFBB, FRCF, INBA. Plătești prima lună, iar în 48 de ore avem un video call de 15 minute, eu și tu, în care discutăm tot: obiectivul, competițiile pe care le alegem și plata pentru întreg sezonul.",
-            "bullets": "Prima lună include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări\nVideo call de 15 minute cu mine după prima plată, obligatorie ca să ajungi la el\nPlata pe sezon o stabilim în call, după competițiile alese\nLocuri limitate pe sezon",
-            "price": "1.500 lei",
-            "price_note": "prima lună · sezonul se stabilește în call",
+            "text": "Pentru cine concurează sau vrea să concureze: NPC, IFBB, FRCF, INBA. Pregătirea costă 10.000 lei pe an. Prima plată e de 1.500 lei; apoi stabilim un apel telefonic în care ne înțelegem cum se face restul plății, în funcție de sezonul tău competițional.",
+            "bullets": "Prima plată de 1.500 lei include planul inițial complet: antrenament, dietă, lista de analize, suplimente și evaluări\nApel telefonic cu mine după prima plată: stabilim competițiile și cum se plătește restul, pe sezon\nLocuri limitate pe sezon",
+            "price": "10.000 lei",
+            "price_note": "pe an · prima plată 1.500 lei, restul stabilit la telefon, după sezon",
             "cta": "Începe pregătirea",
             "url": "/pages/evaluare"
           }

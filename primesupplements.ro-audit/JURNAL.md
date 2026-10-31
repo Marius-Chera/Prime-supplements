@@ -21,6 +21,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.10: analiză checkout-uri abandonate (50 în 3–19.10, ~11.200 lei; doar 28% abonați la e-mail).
 
 ### E-mail (theMarketer / Shopify)
+- 31.10: „stoc revenit” – ciorne theMarketer pentru Frutilu mango (6ae59460466bd6e97b081b0d, segment 6ae59423d7345e16050bcdf9) și Frutilu pepene roșu (6ae59488a8a349ecb80182ad, segment 6ae5942429215f0f2704fd82); teste trimise, neprogramate, în așteptarea confirmării stocului de către proprietar.
 - 19–21.10: coș abandonat (theMarketer): fluxul vechi oprit, înlocuit cu „Cart abandonment 2026”: e-mailul 2 nou („Bine de știut înainte să comanzi”, fără „Ultima șansă”, plus 3 produse pentru livrarea gratuită), salut fără prenume gol („Salut!”), fraza falsă „au împachetat deja” înlocuită cu „Produsele alese te așteaptă în coș”, filtru vechi corectat.
 - 15–16.10: audit theMarketer; 7 automatizări puse pe pauză (72% din e-mailurile automate, fără comenzi), păstrate Welcome și Coș abandonat; 3.080 de abonați sincronizați din Shopify; newsletter săptămânal de duminică.
 

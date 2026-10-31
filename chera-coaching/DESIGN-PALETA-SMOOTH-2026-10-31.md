@@ -51,8 +51,8 @@ Publicarea: din browserul încorporat, logat ca Marius la `https://bp66vh-bq.mys
 
 Rollback: aceleași 11 fișiere din commit-ul anterior (`git show <commit>^:chera-coaching/shopify-theme/<fișier>`), scrise la fel.
 
-## 4. Rămâne (în chera-hub, nu în temă)
-Pagina chatului (`/apps/chat`, randată de Worker ca `application/liquid` în layout-ul temei) își fixează singură în `client-page.ts` / `admin-page.ts` un `:root` negru (`--bg:#0e0d0d …`) peste `theme.css`; caseta de chat e deja „WhatsApp light”. După publicarea paletei, cadrul paginii de chat (în afara casetei) ar rămâne negru până se aliniază și acel `:root` la valorile de mai sus – de făcut în sesiunea Chera Hub.
+## 4. Pagina chatului (chera-hub)
+Pagina chatului (`/apps/chat`, `application/liquid`) se randează în layout-ul temei, deci a preluat paleta nouă automat; `:root`-ul negru din `client-page.ts` e doar în `wrapForDev` (previzualizarea locală), nu pe live. Pentru că pagina și caseta erau acum amândouă crem, pe 31.10 (cererea lui Marius: „părțile laterale ale blocului de chat o nuanță mai închisă sau un chenar care să îl delimiteze”) blocul de chat a primit în chera-hub chenar 1,5 px `#c9c1b5`, umbră și fundal `#efeae2` (fundalul WhatsApp, puțin mai închis decât pagina); lista de clienți și cardul de info din panou la fel; rândul activ din listă e deschis, cu dungă roșie, în loc de negru.
 
 ## 5. Previzualizarea (cum s-a făcut)
 Site-ul e cu parolă („În curând”), deci curl nu vede paginile; previzualizarea s-a făcut pe site-ul real din browserul încorporat: `theme.css` nou injectat ca `<style>` (CSS-ul ținut în `localStorage.cheraPreviewCss`, scriptul în `localStorage.cheraPreviewJs`), linia `:root` din layout scoasă, stilurile secțiunilor și culorile SVG ale logo-ului înlocuite în pagină. Capturile (desktop 1280 px și mobil 375 px) i-au fost trimise lui Marius în sesiune; nu se pun în repo (pozele sportivilor).

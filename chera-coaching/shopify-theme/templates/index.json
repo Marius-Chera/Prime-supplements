@@ -373,7 +373,7 @@
             "text": "Aceeași sesiune, pe video call. Linkul îl primești în chat, înainte de ora rezervată.",
             "bullets": "Pe video call, de oriunde\nPozele obligatorii, tranziții, prezentare\nRezervi și plătești online",
             "product": "posing-online",
-            "price": "200 lei",
+            "price": "300 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
             "url": "/products/posing-online"
@@ -387,7 +387,7 @@
             "text": "Întrebări și răspunsuri pe ce te frământă: peak week, suplimente, plan, nelămuriri.",
             "bullets": "Pe video call, cu mine\nPeak week, suplimente, plan, întrebări\nRezervi și plătești online",
             "product": "consultatie-video",
-            "price": "500 lei",
+            "price": "300 lei",
             "price_note": "/ 30 de minute",
             "cta": "Alege data",
             "url": "/products/consultatie-video"
@@ -401,7 +401,7 @@
             "text": "Te antrenez eu, în sală, la Evo Gym Health and Spa din Sibiu: tehnică, intensitate și ce schimbi la antrenamentele tale.",
             "bullets": "Față în față, la Evo Gym Sibiu\nTehnică, intensitate, plan\nRezervi și plătești online",
             "product": "antrenament-1-la-1-sibiu",
-            "price": "350 lei",
+            "price": "300 lei",
             "price_note": "/ 90 de minute",
             "cta": "Alege data",
             "url": "/products/antrenament-1-la-1-sibiu"
@@ -414,7 +414,9 @@
         "sesiuni_2",
         "sesiuni_3"
       ],
-      "settings": {}
+      "settings": {
+        "text": "Alegi ziua și ora din calendarul meu, plătești cu cardul și locul e al tău. Până acum am făcut aceste sesiuni gratuit, cu drag. Între timp programul mi s-a umplut și nu-mi mai permite să le țin așa, de aceea te rog să te programezi într-unul din intervalele disponibile. Toate sesiunile costă la fel: 300 lei."
+      }
     },
     "programe": {
       "type": "sesiuni",

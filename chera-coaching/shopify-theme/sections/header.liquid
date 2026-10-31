@@ -23,6 +23,7 @@
       {%- assign chat_url = settings.chat_url | default: '/apps/chat' -%}
       {% if customer %}
         <a class="nav-account" href="{{ chat_url }}">Chat</a>
+        <a class="nav-logout" href="{{ routes.account_logout_url }}">Ieșire</a>
       {% else %}
         <a class="nav-account" href="/customer_authentication/login?return_to={{ chat_url | url_encode }}">{{ 'customer.login.title' | t }}</a>
       {% endif %}

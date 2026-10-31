@@ -42,6 +42,7 @@
       <a href="/products/pregatire-de-concurs-prima-luna">Pregătire de concurs</a>
       <a href="/collections/programe">Programe · 200 lei</a>
       <a href="{{ routes.account_url }}">Contul meu</a>
+      {% if customer %}<a href="{{ routes.account_logout_url }}">Ieșire din cont</a>{% endif %}
     </nav>
 
     <nav class="ft-col" aria-label="Legal">

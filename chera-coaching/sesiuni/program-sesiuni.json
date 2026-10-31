@@ -44,7 +44,7 @@
     {
       "handle": "antrenament-1-la-1-sibiu",
       "titlu": "Antrenament 1 la 1 · Sibiu",
-      "pret": 350,
+      "pret": 300,
       "sku": "ANT",
       "tip": "Live · Sibiu",
       "tags": "sesiune",
@@ -77,7 +77,7 @@
     {
       "handle": "posing-online",
       "titlu": "Posing online",
-      "pret": 200,
+      "pret": 300,
       "sku": "PON",
       "tip": "Online · WhatsApp",
       "tags": "sesiune, online",
@@ -112,7 +112,7 @@
     {
       "handle": "consultatie-video",
       "titlu": "Consultație video",
-      "pret": 400,
+      "pret": 300,
       "sku": "CON",
       "tip": "Online · WhatsApp",
       "tags": "sesiune, online",

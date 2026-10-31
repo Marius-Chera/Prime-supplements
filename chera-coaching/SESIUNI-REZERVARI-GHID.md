@@ -1,6 +1,6 @@
 # Sesiuni cu rezervare – ghid pentru Marius (27.10.2026)
 
-Pe site sunt 4 sesiuni cu calendar și plată (prețuri din 28.10.2026): **Posing live · Sibiu** (300 lei / 30 min), **Antrenament 1 la 1 · Sibiu** (350 lei / 90 min), **Posing online** (200 lei / 30 min, video call WhatsApp), **Consultație video** (400 lei / 30 min). Sesiunile live sunt la **Evo Gym Health and Spa, Strada Sălajului, Sibiu**.
+Pe site sunt 4 sesiuni cu calendar și plată (prețuri din 1.11.2026 – toate 300 lei, decizia lui Marius): **Posing live · Sibiu** (300 lei / 30 min), **Antrenament 1 la 1 · Sibiu** (300 lei / 90 min), **Posing online** (300 lei / 30 min, video call în chat), **Consultație video** (300 lei / 30 min). Sesiunile live sunt la **Evo Gym Health and Spa, Strada Sălajului, Sibiu**.
 Pagini: `/products/posing-live-sibiu`, `/products/antrenament-1-la-1-sibiu`, `/products/posing-online`, `/products/consultatie-video` și cele 4 carduri din „Sesiuni individuale” de pe prima pagină. Prețul de pe carduri vine direct din produs: îl schimbi doar în produs (sau în `program-sesiuni.json` + import cu `--complet`).
 
 ## Cum funcționează

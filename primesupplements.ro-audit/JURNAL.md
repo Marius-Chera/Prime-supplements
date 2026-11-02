@@ -419,10 +419,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 31.10 (noapte): logarea cu Google pe Chera, pornită din Chrome la cererea lui Marius, oprită înainte de orice creare: Google Cloud blochează contul activ până la activarea verificării în doi pași, iar conturile din Chrome sunt ale Prime (primesupplementsro@gmail.com, contact@primesupplements.ro) sau ale Adelinei. Nu s-a creat nimic. De făcut de Marius: alege un cont Google pentru Chera, activează verificarea în doi pași, intră cu el în Chrome; apoi Claude continuă.
 - 31.10 (noapte): Marius: textul sesiunilor – „Peste 10 ani am ținut aceste sesiuni gratuit, cu drag.” în locul lui „Până acum…”; temă live + repo.
 
-<<<<<<< HEAD
 ## 2026-11-02
 - Raport lunar trimis pe 02.11.2026 („ce am îmbunătățit în octombrie 2026”, perioada 3.10–1.11) către cele 3 adrese, prin theMarketer.
-=======
 ## 2026-11-02 – Ghidul recepției pentru săli
 - 2.11: **ghid-portofoliu pentru recepțiile sălilor partenere**, cerut de proprietar: `agenti/GHID-RECEPTII-2026-11-02.html/.pdf` (A4 portret, 11 pagini, fără prețuri), generator `agenti/build-ghid-receptii.mjs`, imagini în `agenti/GHID-RECEPTII-img/`. Conținut: copertă (batoane + fiole), pagina „Trei întrebări și un raft bine așezat” (întrebările de la recepție, zonele de expunere, regulile casei), 15 produse pentru recepție cu poză, arome, pentru cine, când se ia, propoziția de spus la recepție și unde se expune (batoane cu cele 4 arome, Energy Pump și Fat Burning Shot, Creatină Ready To Go, Prime Whey Go, Prime Whey 1 kg, Creamy Rice cu cele 7 arome, creatină micronizată, Creapure, Nitrox 3D, EAA, Daily Vitamin Formula, Vitamina D3 + K2, Instant Oat Cream, shaker), întrebări frecvente cu răspunsuri sigure (doar mențiuni autorizate UE, fără sfaturi medicale) și contact de reaprovizionare. Prețurile de raft nu apar (le stabilește sala; lista B2B e documentul separat). Verificare pagină cu pagină prin Chrome headless `--screenshot` cu `?page=N`.
->>>>>>> b1cd2fe (Ghidul recepției pentru sălile partenere (2.11.2026))

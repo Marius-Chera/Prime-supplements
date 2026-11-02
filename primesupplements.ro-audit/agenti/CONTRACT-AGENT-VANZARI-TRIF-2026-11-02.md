@@ -1,9 +1,5 @@
 # Contract de agent comercial – Prime Sport Supplements SRL × Trif E.E. Alexandru PFA
 
-Versiunea din 2.11.2026 (înlocuiește versiunea din 26.10.2026). Datele celor două firme sunt luate din Oblio (fișa de furnizor a PFA-ului, datele firmei și conturile bancare Prime). Prețurile B2B și comisioanele din Anexele 3 și 4 pornesc de la costurile de achiziție din ultimele recepții (NIR) din Oblio și de la prețul întreg de pe primesupplements.ro. Documentul editabil: https://claude.ai/artifact/XNCfJ6JTeTFQXgmhpFuPhV. Rămân de completat la semnare: numărul și data contractului, plafonul lunar orientativ de combustibil (art. 6.1), autoturismul folosit și penalitatea de neconcurență (art. 9.5).
-
----
-
 ## CONTRACT DE AGENT COMERCIAL nr. ____ din ____.____.2026
 
 Încheiat în temeiul art. 2.072–2.095 din Codul civil (contractul de agenție), între:

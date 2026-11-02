@@ -1,0 +1,373 @@
+﻿<!doctype html>
+<html lang="ro"><head><meta charset="utf-8">
+<title>Ghidul recepției – Prime Supplements</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --ink: #111; --grey: #666; --line: #e6e6e6; --bg: #f5f5f5; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; color: var(--ink); font-family: Poppins, "Segoe UI", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; }
+  img { display: block; }
+  .page { position: relative; width: 210mm; min-height: 297mm; padding: 14mm 15mm 16mm; break-after: page; page-break-after: always; background: #fff; }
+  .page:last-child { break-after: auto; page-break-after: auto; }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 7mm; font-size: 7.5pt; color: #9a9a9a; display: flex; justify-content: space-between; }
+  .kicker { color: var(--red); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 8.5pt; margin: 0 0 2mm; }
+  h1 { font-size: 26pt; line-height: 1.1; margin: 0 0 4mm; font-weight: 800; }
+  h1 span { color: var(--red); }
+  h2 { font-size: 17pt; line-height: 1.15; margin: 0 0 1mm; font-weight: 800; }
+  h3 { font-size: 12pt; margin: 6mm 0 2mm; font-weight: 700; border-left: 4px solid var(--red); padding-left: 3mm; }
+  p { margin: 0 0 2mm; }
+  /* copertă */
+  .cover { padding: 0; overflow: hidden; height: 297mm; }
+  .cover img.hero { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .cover .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.15) 40%, rgba(0,0,0,.75) 100%); }
+  .cover .logo { position: absolute; left: 15mm; top: 14mm; height: 14mm; }
+  .cover .text { position: absolute; left: 15mm; right: 15mm; bottom: 22mm; color: #fff; }
+  .cover h1 { font-size: 34pt; color: #fff; }
+  .cover p { font-size: 12.5pt; font-weight: 300; color: #fff; max-width: 150mm; }
+  .cover .foot { color: rgba(255,255,255,.8); }
+  /* intro */
+  .steps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin: 3mm 0 2mm; }
+  .steps div { background: var(--bg); border-top: 3px solid var(--red); padding: 4mm; border-radius: 0 0 2mm 2mm; font-size: 9.5pt; }
+  .steps b { display: block; font-size: 9pt; text-transform: uppercase; letter-spacing: .6px; color: var(--red); margin-bottom: 1.5mm; }
+  .steps i { display: block; font-style: normal; font-weight: 800; font-size: 20pt; color: #ddd; line-height: 1; margin-bottom: 1mm; }
+  .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .zones div { border: 1px solid var(--line); border-radius: 2mm; padding: 4mm; font-size: 9.5pt; }
+  .zones b { display: block; color: var(--ink); margin-bottom: 1mm; }
+  ul.rules { margin: 0; padding-left: 5mm; font-size: 9.5pt; } ul.rules li { margin-bottom: 1.2mm; }
+  /* carduri produs */
+  .card { display: grid; grid-template-columns: 52mm 1fr; gap: 6mm; border: 1px solid var(--line); border-radius: 3mm; padding: 5mm; margin-bottom: 6mm; break-inside: avoid; page-break-inside: avoid; }
+  .card .pic { background: var(--bg); border-radius: 2mm; display: flex; align-items: center; justify-content: center; padding: 3mm; min-height: 52mm; }
+  .card .pic img { max-width: 100%; max-height: 60mm; object-fit: contain; mix-blend-mode: multiply; }
+  .card .tag { color: var(--red); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; font-size: 8pt; margin: 0 0 1mm; }
+  .card .sub { color: var(--grey); font-size: 9pt; margin-bottom: 2mm; }
+  .card .ce { font-size: 9.8pt; margin-bottom: 2.5mm; }
+  .arome { font-size: 9pt; background: var(--bg); padding: 2mm 3mm; border-radius: 1.5mm; margin-bottom: 2.5mm; }
+  .arome-img { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; margin-bottom: 2.5mm; }
+  .arome-img figure { margin: 0; text-align: center; font-size: 7.5pt; line-height: 1.2; }
+  .arome-img img { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: var(--bg); border-radius: 1.5mm; mix-blend-mode: multiply; }
+  dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 4mm; }
+  dl div { font-size: 8.8pt; }
+  dl .spui { grid-column: 1 / -1; background: #fff3f3; border-left: 3px solid var(--red); padding: 2mm 3mm; border-radius: 0 1.5mm 1.5mm 0; }
+  dt { font-weight: 700; text-transform: uppercase; font-size: 7.5pt; letter-spacing: .6px; color: var(--grey); }
+  .spui dt { color: var(--red); }
+  dd { margin: 0; }
+  /* FAQ */
+  .faq div { border-bottom: 1px solid var(--line); padding: 2.5mm 0; font-size: 9.5pt; }
+  .faq b { display: block; color: var(--ink); }
+  .contact { background: var(--ink); color: #ddd; padding: 5mm 6mm; border-radius: 2mm; margin-top: 6mm; font-size: 9.5pt; }
+  .contact b { color: #fff; }
+  @media print { @page { size: A4; margin: 0; } * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .card .pic img, .arome-img img { mix-blend-mode: normal; } .card .pic, .arome-img img { background: #fff; border: 1px solid var(--line); } }
+  @media screen { body { background: #777; padding: 10mm; } .page { margin: 0 auto 10mm; box-shadow: 0 4px 24px rgba(0,0,0,.3); } }
+</style></head>
+<body>
+
+<section class="page cover">
+  <img class="hero" src="GHID-RECEPTII-img/batoane-fiole.jpg" alt="">
+  <div class="shade"></div>
+  <img class="logo" src="GHID-RECEPTII-img/logo-prime-alb.svg" alt="Prime Supplements">
+  <div class="text">
+    <p class="kicker" style="color:#ff6b6f">Pentru sălile partenere</p>
+    <h1>Ghidul <span>recepției</span> Prime</h1>
+    <p>Ce produse ții la recepție, pentru cine sunt, când se iau și ce spui membrului în zece secunde. Batoane, shot-uri, plicuri și produsele mici care se vând singure.</p>
+  </div>
+  <div class="foot"><span>Prime Sport Supplements SRL · primesupplements.ro</span><span>Ediția 02.11.2026</span></div>
+</section>
+
+<section class="page">
+  <p class="kicker">Cum folosești ghidul</p>
+  <h1>Trei întrebări și un raft bine așezat.</h1>
+  <p>Recepția vinde cel mai mult când întreabă, nu când așteaptă. Fiecare produs din ghid are o propoziție gata de spus. Nu promitem efecte: spunem ce conține produsul, pentru cine e și când se ia.</p>
+  <h3>Cele trei întrebări de la recepție</h3>
+  <div class="steps">
+    <div><i>1</i><b>Ce antrenament faci azi?</b>Forță sau greu → creatină, pre-workout (fiolă sau Nitrox). Cardio sau clasă → Fat Burning Shot, EAA în sticla de apă.</div>
+    <div><i>2</i><b>Ai mâncat înainte / mănânci după?</b>Nu a mâncat → Creamy Rice sau baton acum. Nu are ce mânca după → baton, plic Prime Whey Go, shaker.</div>
+    <div><i>3</i><b>Ce iei deja?</b>Nimic → începe cu batonul și un plic. Proteină → creatină. Creatină → Creapure sau pre-workout. Toate → vitamine, D3 + K2 iarna.</div>
+  </div>
+  <h3>Unde se expune ce</h3>
+  <div class="zones">
+    <div><b>Tejghea, lângă casă (impuls)</b>Batoane, toate cele 4 arome, în cutia deschisă. Suport cu plicuri: Creatină Ready To Go și Prime Whey Go. Shakerul Prime.</div>
+    <div><b>Frigiderul de băuturi</b>Energy Pump Shot și Fat Burning Booster Shot, reci, pe raftul de la nivelul ochilor, lângă apă.</div>
+    <div><b>Raftul din spatele recepției (la vedere)</b>Prime Whey 1 kg (2–3 arome), Creamy Rice, Creatină Creapure și micronizată, Nitrox 3D, EAA, Instant Oat Cream.</div>
+    <div><b>La casă, sezonier</b>Toamnă–iarnă: Vitamina D3 + K2 și Daily Vitamin Formula, cu un afiș mic. Vară: shot-urile și EAA în față.</div>
+  </div>
+  <h3>Regulile casei</h3>
+  <ul class="rules">
+    <li>Mostra vinde tubul: plicul Prime Whey Go e mostra pentru Prime Whey 1 kg, fiola Energy Pump e mostra pentru Nitrox 3D.</li>
+    <li>Produsele cu cafeină (shot-uri, Nitrox 3D) nu se recomandă seara târziu, minorilor, femeilor însărcinate sau celor sensibili la cafeină.</li>
+    <li>Suplimentele nu înlocuiesc o alimentație variată. Nu promitem slăbire, masă sau rezultate; descriem produsul și doza de pe etichetă.</li>
+    <li>Cutia de batoane și suporturile de plicuri se reumplu în fiecare dimineață; un raft gol nu vinde.</li>
+    <li>Comenzile de reaprovizionare: prin agentul Prime sau la contact@primesupplements.ro · 0775 286 584.</li>
+  </ul>
+  <div class="foot"><span>Ghidul recepției Prime</span><span>2</span></div>
+</section>
+
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="Prime Delicious Bar"></div>
+  <div class="body">
+    <p class="tag">Vedeta recepției</p>
+    <h2>Prime Delicious Bar</h2>
+    <p class="sub">baton proteic, 55 g · cutie de 12</p>
+    <p class="ce">Baton proteic cu glazură, gustarea cu proteine pentru după antrenament sau pentru drum.</p>
+    <div class="arome-img"><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-capsuni.jpg" alt=""><figcaption>Căpșuni</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-caramel-sarat.jpg" alt=""><figcaption>Caramel sărat</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-cocos-si-caramel.jpg" alt=""><figcaption>Cocos și caramel</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt=""><figcaption>Ciocolată și fructe de pădure</figcaption></figure></div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Toți membrii, inclusiv cei care nu iau suplimente. Cel mai ușor produs de vândut la recepție.</dd></div>
+      <div><dt>Când se ia</dt><dd>După antrenament sau ca gustare între mese, când nu e timp de o masă.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Ai mâncat ceva după antrenament? Avem batonul Prime, cu proteine, în patru arome. Cel cu caramel sărat e preferatul sălii.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe tejghea, lângă casă, cu toate cele patru arome la vedere. Se reumple zilnic.</dd></div>
+    </dl>
+  </div>
+</article><h3>Cum se vând batoanele</h3><ul class="rules"><li>Cutia deschisă pe tejghea, cu toate aromele la vedere; o aromă lipsă = vânzări lipsă.</li><li>Întrebarea de aur după antrenament: „Ai mâncat ceva?”.</li><li>Pachet de 3 batoane pentru cei care vin de 3 ori pe săptămână.</li><li>Aroma de încercat prima dată: caramel sărat; pentru cei cărora nu le place dulcele: ciocolată și fructe de pădure.</li></ul><img src="GHID-RECEPTII-img/plaja-bar-5.jpg" alt="" style="width:100%;height:78mm;object-fit:cover;border-radius:3mm;margin-top:5mm"><div class="foot"><span>Ghidul recepției Prime</span><span>3</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-energy-pump.jpg" alt="Energy Pump Shot"></div>
+  <div class="body">
+    <p class="tag">Înainte de antrenament</p>
+    <h2>Energy Pump Shot</h2>
+    <p class="sub">pre-workout lichid, fiolă de 25 ml · cutie de 20</p>
+    <p class="ce">Pre-workout lichid cu cafeină, gata de băut, o fiolă = o porție. Nu are nevoie de shaker sau apă.</p>
+    <div class="arome"><b>Variantă:</b> Wild Berries (fructe de pădure)</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care vin obosiți la antrenament, seara după birou, sau cei care nu vor pudră.</dd></div>
+      <div><dt>Când se ia</dt><dd>Cu 15–20 de minute înainte de antrenament. Nu seara târziu (conține cafeină).</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Vii direct de la muncă? Ia o fiolă de Energy Pump, o bei aici, la recepție, și intri în sală.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>În frigiderul de băuturi (se bea rece) sau pe tejghea, lângă batoane.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-fat-burning-booster.jpg" alt="Fat Burning Booster Shot"></div>
+  <div class="body">
+    <p class="tag">Definire</p>
+    <h2>Fat Burning Booster Shot</h2>
+    <p class="sub">fiolă de 25 ml · cutie de 20</p>
+    <p class="ce">Shot lichid cu L-carnitină și cafeină, o fiolă = o porție, pentru perioadele de definire și antrenamentele cardio.</p>
+    <div class="arome"><b>Variantă:</b> Forest Fruits (fructe de pădure)</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care fac cardio, clasele de grup, cei în perioadă de slăbit (fără promisiuni: produsul însoțește antrenamentul, nu îl înlocuiește).</dd></div>
+      <div><dt>Când se ia</dt><dd>Înainte de cardio sau de antrenament. Nu seara târziu (conține cafeină).</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Faci cardio azi? Avem shotul cu L-carnitină, se bea înainte, direct din fiolă.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>În frigider, lângă Energy Pump. Cele două fiole se vând bine împreună.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>4</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatine-ready-to-go-plicuri-prime-supplements.jpg" alt="Creatină Ready To Go"></div>
+  <div class="body">
+    <p class="tag">La plic</p>
+    <h2>Creatină Ready To Go</h2>
+    <p class="sub">plic efervescent de 10 g · cutie de 25</p>
+    <p class="ce">Creatină monohidrată cu aromă, la plic efervescent: se dizolvă într-un pahar cu apă, fără pudră și fără măsură.</p>
+    <div class="arome"><b>Arome:</b> Blue Moon · Pink Madness</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care vor să încerce creatina fără să cumpere un tub, sau care au uitat creatina acasă.</dd></div>
+      <div><dt>Când se ia</dt><dd>Zilnic, 1 plic (3 g de creatină pe zi cresc performanța fizică în eforturi scurte și intense), inclusiv în zilele fără antrenament.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Iei creatină? Avem și la plic, un plic pe zi, se dizolvă în apă. Încearcă un plic azi, după antrenament.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Într-un suport de plicuri pe tejghea, lângă casă, cu ambele arome.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-whey-go.jpg" alt="Prime Whey Go"></div>
+  <div class="body">
+    <p class="tag">La plic</p>
+    <h2>Prime Whey Go</h2>
+    <p class="sub">proteină din zer la plic, 30 g · cutie de 15</p>
+    <p class="ce">Prime Whey în porție unică de 30 g: un plic, un shaker cu apă, shake-ul de după antrenament.</p>
+    <div class="arome"><b>Arome:</b> Chocolate Coconut · Bourbon Vanilla · Strawberry Cheesecake · White Chocolate Raspberry · Toffee Chocolate · Salted Caramel · Blueberry Vanilla</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii noi, care nu au încă proteină, și cei care vor să guste aromele înainte de tubul de 1 kg.</dd></div>
+      <div><dt>Când se ia</dt><dd>După antrenament sau ca gustare, oricând lipsește proteina din zi.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Nu ai proteină la tine? Un plic Prime Whey Go, îl pui în shaker cu apă și gata. Așa alegi și aroma pentru tubul mare.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Suport de plicuri pe tejghea, lângă creatina la plic. Shakerul Prime alături.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>5</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-whey-1000g.jpg" alt="Prime Whey 1 kg"></div>
+  <div class="body">
+    <p class="tag">Produsul de bază</p>
+    <h2>Prime Whey 1 kg</h2>
+    <p class="sub">concentrat proteic din zer, 33 de porții</p>
+    <p class="ce">Proteina din zer Prime, tubul de 1 kg. Proteinele contribuie la creșterea și menținerea masei musculare.</p>
+    <div class="arome"><b>Arome:</b> Blueberry Vanilla · Chocolate Coconut · Salted Caramel · Strawberry Cheesecake · Toffee Chocolate · White Chocolate Raspberry · Bourbon Vanilla</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Oricine se antrenează constant și nu ajunge la necesarul de proteine din mâncare. Produsul cu care pornesc cei mai mulți.</dd></div>
+      <div><dt>Când se ia</dt><dd>O porție (30 g) după antrenament sau în locul unei gustări; 1–2 porții pe zi, în funcție de mese.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Câtă proteină mănânci pe zi? Dacă nu ajungi la 1,6 g pe kilogram, un shake Prime Whey acoperă diferența. Ai 7 arome, îți dau un plic să guști.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raftul din spatele recepției, la vedere, 2–3 arome. Plicul Prime Whey Go e mostra lui.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-crema-de-orez-tort-de-ciocolata.jpg" alt="Creamy Rice"></div>
+  <div class="body">
+    <p class="tag">Mic dejun</p>
+    <h2>Creamy Rice</h2>
+    <p class="sub">cremă de orez, 1 kg, 22 de porții</p>
+    <p class="ce">Cremă de orez pregelatinizată: carbohidrați cu digestie ușoară, gata în un minut cu apă sau lapte, fără fiert.</p>
+    <div class="arome"><b>Arome:</b> Tort de ciocolată · Brioșă cu afine · Caramel sărat · Plăcintă cu cocos · Sirop de arțar · Biscuiți cu cremă · Fără aromă</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Cei care se antrenează dimineața, cei în perioadă de masă și oricine vrea un mic dejun rapid și sățios.</dd></div>
+      <div><dt>Când se ia</dt><dd>Micul dejun sau masa de dinainte de antrenament (cu 60–90 de minute înainte). Merge și cu un plic de Prime Whey în ea.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Ce mănânci înainte de antrenament? Crema de orez e gata într-un minut, o faci și la birou. Tort de ciocolată e cea mai cerută.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, lângă Prime Whey. Se vinde bine împreună cu proteina (mic dejun proteic).</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>6</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatina-monohidrat-micronized-300g-fara-aroma.jpg" alt="Creatină micronizată"></div>
+  <div class="body">
+    <p class="tag">Creatină</p>
+    <h2>Creatină micronizată</h2>
+    <p class="sub">creatină monohidrată fără aromă, 300 g, 60 de porții</p>
+    <p class="ce">Creatină monohidrată micronizată, fără aromă, se pune în shake sau în orice băutură. Varianta accesibilă de creatină.</p>
+    <div class="arome"><b>Variantă:</b> Fără aromă</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care vor creatina cea mai simplă, la cel mai bun preț pe porție, sau care o amestecă în proteină.</dd></div>
+      <div><dt>Când se ia</dt><dd>O măsură (5 g) pe zi, zilnic, în orice moment; nu contează ora, contează regularitatea.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Creatina e cel mai studiat supliment din sală: 3 g pe zi, în fiecare zi. Asta e varianta fără aromă, o pui în shake.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, lângă Creapure. Tubul alb iese în evidență între cele negre.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatina-creapure.jpg" alt="Creatină Creapure®"></div>
+  <div class="body">
+    <p class="tag">Creatină premium</p>
+    <h2>Creatină Creapure®</h2>
+    <p class="sub">creatină monohidrată Creapure®, 300 g sau 500 g</p>
+    <p class="ce">Creatină monohidrată de marcă Creapure®, produsă în Germania, cu puritate garantată de producător.</p>
+    <div class="arome"><b>Arome:</b> Fără aromă · 300 g (60 de porții) · Fără aromă · 500 g (100 de porții)</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care știu ce caută și întreabă de Creapure, sportivii de performanță, cei care vor „cea mai bună”.</dd></div>
+      <div><dt>Când se ia</dt><dd>3–5 g pe zi, zilnic, cu apă sau în shake, inclusiv în zilele fără antrenament.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Dacă vrei creatina cu cea mai bună reputație, Creapure e marca germană pe care o au toți profesioniștii. Aceeași creatină, puritate verificată.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, la nivelul ochilor. Tubul de 300 g e intrarea, cel de 500 g pentru fideli.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>7</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-nitrox.jpg" alt="Nitrox 3D"></div>
+  <div class="body">
+    <p class="tag">Înainte de antrenament</p>
+    <h2>Nitrox 3D</h2>
+    <p class="sub">pre-workout pudră, 500 g</p>
+    <p class="ce">Pre-workout complet, cu cafeină, citrulină, beta-alanină și creatină. O măsură în shaker cu apă, înainte de antrenament.</p>
+    <div class="arome"><b>Arome:</b> Cherry · Pineapple Mango · Passion Fruit · Strawberry Lime</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii avansați, cei care se antrenează greu și vor un pre-workout „adevărat”, nu doar o fiolă.</dd></div>
+      <div><dt>Când se ia</dt><dd>Cu 20–30 de minute înainte de antrenament. Nu seara târziu. Începătorii pornesc cu jumătate de măsură.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Fiola e pentru azi; dacă vrei pre-workout în fiecare zi, Nitrox 3D iese mai bine la porție și are patru arome.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, lângă shakere. Fiola Energy Pump de pe tejghea e mostra lui.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-eaa-aminoacizi-esentiali.jpg" alt="Aminoacizi EAA"></div>
+  <div class="body">
+    <p class="tag">Recuperare</p>
+    <h2>Aminoacizi EAA</h2>
+    <p class="sub">aminoacizi esențiali pudră, 500 g, 83 de porții</p>
+    <p class="ce">Toți cei nouă aminoacizi esențiali, pudră cu aromă de băutură răcoritoare. Se bea în timpul antrenamentului sau în locul sucului.</p>
+    <div class="arome"><b>Arome:</b> Peach Ice Tea · Blueberry · Strawberry &amp; Kiwi · Tropical</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Cei care se antrenează lung, cei care țin post intermitent și membrii care nu vor shake de proteine la sală.</dd></div>
+      <div><dt>Când se ia</dt><dd>În timpul antrenamentului (în sticla de apă) sau între mese.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Ce bei la antrenament? EAA e ca un suc, dar cu aminoacizi. Peach Ice Tea e aroma cu care nu dai greș.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, lângă Nitrox 3D.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>8</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-daily-vitamin-formula.jpg" alt="Daily Vitamin Formula"></div>
+  <div class="body">
+    <p class="tag">Zilnic</p>
+    <h2>Daily Vitamin Formula</h2>
+    <p class="sub">vitamine și minerale la plic, 30 de plicuri</p>
+    <p class="ce">Multivitamine și minerale la plic, o doză pe zi dizolvată în apă. O cutie = o lună.</p>
+    <div class="arome"><b>Variantă:</b> Plicuri de băut, cu aromă</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii care iau deja vitamine, cei care mănâncă pe fugă, sezonul rece.</dd></div>
+      <div><dt>Când se ia</dt><dd>Un plic pe zi, dimineața, cu apă.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Iei vitamine? Astea sunt la plic, un plic pe zi, cutia ține o lună. Se vând mult toamna.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft sau la casă, în sezonul rece, lângă Vitamina D3 + K2.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-vitamina-d3-k2.jpg" alt="Vitamina D3 + K2"></div>
+  <div class="body">
+    <p class="tag">Sezonul rece</p>
+    <h2>Vitamina D3 + K2</h2>
+    <p class="sub">80 de capsule, Prime Health</p>
+    <p class="ce">Vitamina D3 cu K2, o capsulă o dată la două zile. Vitamina D contribuie la funcționarea normală a sistemului imunitar și la menținerea sănătății oaselor.</p>
+    <div class="arome"><b>Variantă:</b> Capsule</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Toți membrii, din octombrie până în martie, când soarele nu ajunge. Produsul cu cea mai mare cerere din sezonul rece.</dd></div>
+      <div><dt>Când se ia</dt><dd>O capsulă la două zile, la o masă cu grăsimi.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Iarna nu ai de unde lua vitamina D de la soare. O capsulă la două zile, flaconul ține aproape jumătate de an.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>La casă, în sezonul rece, cu un mic afiș „Vitamina D pentru iarnă”.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>9</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-instant-oat-cream-800g-25-serv.jpg" alt="Instant Oat Cream"></div>
+  <div class="body">
+    <p class="tag">Mic dejun</p>
+    <h2>Instant Oat Cream</h2>
+    <p class="sub">cremă de ovăz instant, 800 g, 25 de porții</p>
+    <p class="ce">Ovăz instant măcinat fin, cu aromă: se face cu apă sau lapte, fără fiert, ca o cremă.</p>
+    <div class="arome"><b>Arome:</b> Chocolate · Cookie</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Cei care vor ovăz la micul dejun, dar nu au timp să-l fiarbă; alternativa la crema de orez.</dd></div>
+      <div><dt>Când se ia</dt><dd>Micul dejun sau masa de dinainte de antrenament.</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Mănânci ovăz dimineața? Ăsta e gata într-un minut, fără fiert, cu gust de ciocolată sau de biscuite.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe raft, lângă Creamy Rice.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-shaker-customised.jpg" alt="Shaker Prime"></div>
+  <div class="body">
+    <p class="tag">Accesoriu</p>
+    <h2>Shaker Prime</h2>
+    <p class="sub">600 ml, negru transparent</p>
+    <p class="ce">Shakerul Prime de 600 ml, cu sită, pentru proteină, creatină sau EAA.</p>
+    <div class="arome"><b>Variantă:</b> Negru transparent, logo Prime</div>
+    <dl>
+      <div><dt>Pentru cine</dt><dd>Membrii noi, cei care și-au uitat shakerul acasă, cei care cumpără primul tub de proteină.</dd></div>
+      <div><dt>Când se ia</dt><dd>La orice vânzare de pudră: „Ai shaker?”</dd></div>
+      <div class="spui"><dt>Ce spui la recepție</dt><dd>„Ai shaker? Îl iei pe-al nostru, 600 ml, cu sită, și ai și plicul de proteină pentru azi.”</dd></div>
+      <div><dt>Unde se expune</dt><dd>Pe tejghea, lângă plicuri, și pe raft, lângă tuburi. Duce brandul în sală.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Ghidul recepției Prime</span><span>10</span></div></section>
+<section class="page">
+  <p class="kicker">Întrebări frecvente la recepție</p>
+  <h1>Răspunsuri scurte, corecte.</h1>
+  <div class="faq">
+    <div><b>„Creatina îmi face rău la rinichi?”</b>La adulții sănătoși, 3–5 g pe zi este doza de pe etichetă și cea studiată. Cine are o afecțiune sau ia medicamente întreabă medicul. Nu dăm sfaturi medicale la recepție.</div>
+    <div><b>„Când se ia creatina, înainte sau după?”</b>Nu contează ora, contează zilnic. Cu apă sau în shake, și în zilele fără antrenament.</div>
+    <div><b>„Proteina îngrașă?”</b>Proteina e un aliment, nu un medicament: o porție de Prime Whey are cam cât un iaurt mare. Contează totalul zilei, nu shake-ul.</div>
+    <div><b>„Pot bea două fiole?”</b>O fiolă pe zi. Conțin cafeină; nu seara, nu cu cafea multă, nu la minori sau în sarcină.</div>
+    <div><b>„Batonul e bun pentru slăbit?”</b>E o gustare cu proteine, mai bună decât o napolitană. Slăbitul vine din total calorii și antrenament, nu dintr-un baton.</div>
+    <div><b>„Ce aromă e cea mai bună?”</b>La Prime Whey și Whey Go: Salted Caramel și Strawberry Cheesecake. La batoane: caramel sărat. La Creamy Rice: tort de ciocolată. La Nitrox: Cherry.</div>
+    <div><b>„Unde văd compoziția?”</b>Pe etichetă și pe primesupplements.ro, fiecare produs are pagina lui cu tabelul nutrițional și un articol din blog care explică folosirea.</div>
+    <div><b>„E produs în România?”</b>Brandul e românesc, din Sibiu; produsele sunt fabricate în Uniunea Europeană.</div>
+  </div>
+  <div class="contact"><b>Reaprovizionare și întrebări:</b> agentul Prime al sălii · contact@primesupplements.ro · 0775 286 584 (și WhatsApp) · primesupplements.ro<br>Prețurile de raft le stabilește sala; lista de prețuri B2B și prețurile recomandate sunt în documentul separat primit de la agent.</div>
+  <div class="foot"><span>Ghidul recepției Prime · Produs în Uniunea Europeană</span><span>11</span></div>
+</section>
+
+<script>
+  const n = +new URLSearchParams(location.search).get("page");
+  if (n) { document.body.style.cssText = "background:#fff;padding:0;margin:0"; document.querySelectorAll(".page").forEach((s, i) => { if (i + 1 !== n) s.remove(); else s.style.margin = "0"; }); }
+</script>
+</body></html>

@@ -12,3 +12,4 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-10-31 · Băutură instant Frutilu – pepene roșu · campanie 6ae59488a8a349ecb80182ad (ciornă) · segment 6ae5942429215f0f2704fd82 · ~26 destinatari (înainte de excluderi) · stoc 0→141
 - 2026-11-01 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă a scăzut la 9); nicio campanie pregătită.
 - 2026-11-02 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă a scăzut de la 9 la 7); nicio campanie pregătită.
+- 2026-11-03 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 7→6); nicio campanie pregătită.

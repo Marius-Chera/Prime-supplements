@@ -26,7 +26,9 @@ Prime Supplements. Pentru cei care nu se opresc.
 #primesupplements #primewhey #creatina #creapure #echitatie #disciplina
 ```
 
-## 2. Reel Eduard (Combat Pro 2.0 Mango) – joi 5.11.2026, 12:00
+## 2. Reel Eduard (Combat Pro 2.0 Mango) – ANULAT
+
+**3.11: proprietarul a cerut să nu se mai posteze; postarea a fost ștearsă din Zernio.** Textul rămâne doar ca referință.
 
 - Fișier: `D:\Prime Supplements\REELS\Reel Prime Eduard 2.mp4` (28 s, 1080×1920, fără text pe ecran). Nu s-a folosit Reel 1, pentru că are pe ecran un cod de reducere al sportivului din mai.
 - Zernio: post `6ae9f71c2178e266716915b0`. Coperta Instagram e la secunda 3 (cutia de Combat Pro 2.0).

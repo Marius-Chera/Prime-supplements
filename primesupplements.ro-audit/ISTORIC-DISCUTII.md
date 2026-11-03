@@ -259,4 +259,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Decizie derivată: lista B2B are un singur preț (cel de listă); „prețul minim” din 26.10 a fost scos din contract (rămâne doar intern, în `agenti/PROFIT-B2B-2026-10-26.md`). Comisionul rămâne datorat după încasarea facturii.
 
 ### 3.11.2026 – Reel-uri pe Instagram și Facebook prin Zernio
-- Proprietarul a cerut primele reel-uri din aplicația de pe calculator: clipul cu Kara azi la 20:00, cu colaborare pe Instagram cu @kara.vecerdea și @ovidiu_pop00, și reel-ul cu Eduard (Combat Pro 2.0) joi, 5.11, la 12:00. Descrierile le-a scris Claude, pe stilul brandului, doar cu mențiuni UE autorizate. Detalii: `social/2026-11-03-reels/texte.md`.
+- Proprietarul a cerut primele reel-uri din aplicația de pe calculator: clipul cu Kara azi la 20:00, cu colaborare pe Instagram cu @kara.vecerdea și @ovidiu_pop00, și reel-ul cu Eduard (Combat Pro 2.0) joi, 5.11, la 12:00. **Decizie ulterioară (3.11):** reel-ul cu Eduard nu se mai postează; a fost șters din Zernio. Descrierile le-a scris Claude, pe stilul brandului, doar cu mențiuni UE autorizate. Detalii: `social/2026-11-03-reels/texte.md`.

@@ -429,5 +429,5 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 2026-11-03 – Primele reel-uri prin Zernio
 - 3.11: **reel Kara (echitație, Prime Whey + Creatină Creapure®)** programat pe Instagram + Facebook azi la 20:00, cu colaboratori pe Instagram @kara.vecerdea și @ovidiu_pop00. Pe Facebook, colaborarea se poate face doar cu pagini, deci numele apare în text.
-- 3.11: **reel Eduard (Combat Pro 2.0 Mango)** programat pe Instagram + Facebook joi, 5.11, la 12:00.
+- 3.11: reel Eduard (Combat Pro 2.0 Mango) programat pentru joi, 5.11, la 12:00, apoi **anulat** la cererea proprietarului (șters din Zernio, nepublicat).
 - Texte, ID-uri Zernio și pașii tehnici (upload video prin URL presemnat, reel pe Facebook cu `contentType: "reel"`): `social/2026-11-03-reels/texte.md`.

@@ -1,26 +1,26 @@
 {
- "data": "2026-11-03",
+ "data": "2026-11-04",
  "produse_active": 119,
- "nota": "03.11: nicio revenire în stoc. Pachetele și îmbrăcămintea nu sunt actualizate (excluse din campanii). Se compară doar totalInventory.",
+ "nota": "04.11: nicio revenire în stoc. Pachetele și îmbrăcămintea nu sunt actualizate (excluse din campanii). Se compară doar totalInventory.",
  "produse": {
   "baton-proteic-capsuni": {
-   "totalInventory": 70,
+   "totalInventory": 68,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-caramel-sarat": {
-   "totalInventory": 78,
+   "totalInventory": 74,
    "publishedAt": "2026-03-09"
   },
   "citrus-bergamot": {
-   "totalInventory": 202,
+   "totalInventory": 194,
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
-   "totalInventory": 447,
+   "totalInventory": 441,
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 991,
+   "totalInventory": 986,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -36,7 +36,7 @@
    "publishedAt": "2025-05-05"
   },
   "thermo-core-120-caps": {
-   "totalInventory": 85,
+   "totalInventory": 84,
    "publishedAt": "2025-05-05"
   },
   "complete-collagen": {
@@ -48,15 +48,15 @@
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
-   "totalInventory": 90,
+   "totalInventory": 89,
    "publishedAt": "2025-05-05"
   },
   "magnesium-citrate-80-caps": {
-   "totalInventory": 52,
+   "totalInventory": 48,
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 335,
+   "totalInventory": 333,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
@@ -64,7 +64,7 @@
    "publishedAt": "2025-05-05"
   },
   "turmeric-extract-80-caps": {
-   "totalInventory": 37,
+   "totalInventory": 36,
    "publishedAt": "2025-05-05"
   },
   "zinc-citrate-80-caps": {
@@ -72,15 +72,15 @@
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 63,
+   "totalInventory": 59,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
-   "totalInventory": 43,
+   "totalInventory": 42,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-cocos-si-caramel": {
-   "totalInventory": 76,
+   "totalInventory": 72,
    "publishedAt": "2025-05-05"
   },
   "sapca-prime": {
@@ -96,27 +96,27 @@
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 831,
+   "totalInventory": 825,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 75,
+   "totalInventory": 74,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 284,
+   "totalInventory": 269,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 378,
+   "totalInventory": 367,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
-   "totalInventory": 113,
+   "totalInventory": 111,
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 174,
+   "totalInventory": 173,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
@@ -124,35 +124,35 @@
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
-   "totalInventory": 264,
+   "totalInventory": 254,
    "publishedAt": "2025-05-05"
   },
   "recovery-bcaa-500g": {
-   "totalInventory": 59,
+   "totalInventory": 58,
    "publishedAt": "2025-05-05"
   },
   "recovery-glutamin": {
-   "totalInventory": 276,
+   "totalInventory": 273,
    "publishedAt": "2025-05-05"
   },
   "combat-pro": {
-   "totalInventory": 124,
+   "totalInventory": 119,
    "publishedAt": "2025-05-05"
   },
   "energy-pump": {
-   "totalInventory": 523,
+   "totalInventory": 520,
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
-   "totalInventory": 446,
+   "totalInventory": 444,
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 41,
+   "totalInventory": 40,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
-   "totalInventory": 25,
+   "totalInventory": 24,
    "publishedAt": "2025-05-05"
   },
   "water-out-500-ml": {
@@ -164,19 +164,19 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 385,
+   "totalInventory": 364,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 196,
+   "totalInventory": 186,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 82,
+   "totalInventory": 80,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
-   "totalInventory": 45,
+   "totalInventory": 44,
    "publishedAt": "2025-05-05"
   },
   "combat-pro-2-0-660g-30-serv": {
@@ -184,7 +184,7 @@
    "publishedAt": "2025-05-05"
   },
   "instant-oat-cream-800g-25-serv": {
-   "totalInventory": 86,
+   "totalInventory": 82,
    "publishedAt": "2025-05-05"
   },
   "spirulina-80-caps": {
@@ -192,7 +192,7 @@
    "publishedAt": "2025-05-05"
   },
   "silimarina-80-caps": {
-   "totalInventory": 81,
+   "totalInventory": 78,
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
@@ -200,11 +200,11 @@
    "publishedAt": "2025-05-05"
   },
   "potassium-complex-80-caps": {
-   "totalInventory": 26,
+   "totalInventory": 25,
    "publishedAt": "2025-05-05"
   },
   "glycerol-max-pump-500g-125-serv": {
-   "totalInventory": 83,
+   "totalInventory": 82,
    "publishedAt": "2025-05-05"
   },
   "fiber-blood-orange": {
@@ -212,19 +212,19 @@
    "publishedAt": "2025-06-02"
   },
   "prime-whey-go": {
-   "totalInventory": 222,
+   "totalInventory": 220,
    "publishedAt": "2025-06-03"
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 30,
+   "totalInventory": 23,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
-   "totalInventory": 55,
+   "totalInventory": 54,
    "publishedAt": "2026-03-08"
   },
   "crema-de-orez-fara-aroma": {
-   "totalInventory": 6,
+   "totalInventory": 4,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-blueberry-muffin": {
@@ -232,11 +232,11 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
-   "totalInventory": 25,
+   "totalInventory": 14,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
-   "totalInventory": 56,
+   "totalInventory": 47,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
@@ -248,7 +248,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 32,
+   "totalInventory": 13,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -264,7 +264,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-cola-10g": {
-   "totalInventory": 87,
+   "totalInventory": 85,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-energy-cranberry-10g": {
@@ -272,15 +272,15 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-forest-fruits-10g": {
-   "totalInventory": 50,
+   "totalInventory": 49,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-green-apple-10g": {
-   "totalInventory": 100,
+   "totalInventory": 99,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-ice-tea-peach-10g": {
-   "totalInventory": 90,
+   "totalInventory": 89,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-ice-tea-lemon-10g": {
@@ -308,7 +308,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-watermelon-10g": {
-   "totalInventory": 136,
+   "totalInventory": 135,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-pineapple-10g": {
@@ -320,15 +320,15 @@
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-sport-red-orange-10-g": {
-   "totalInventory": 27,
+   "totalInventory": 26,
    "publishedAt": "2026-07-24"
   },
   "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare": {
-   "totalInventory": 16,
+   "totalInventory": 14,
    "publishedAt": "2026-10"
   },
   "prime-shaker-customised": {
-   "totalInventory": 10,
+   "totalInventory": 6,
    "publishedAt": "2026-05-05"
   },
   "maiou-stringer": {

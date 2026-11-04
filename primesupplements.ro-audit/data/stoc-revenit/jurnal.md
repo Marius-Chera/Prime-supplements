@@ -13,3 +13,4 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-01 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă a scăzut la 9); nicio campanie pregătită.
 - 2026-11-02 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă a scăzut de la 9 la 7); nicio campanie pregătită.
 - 2026-11-03 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 7→6); nicio campanie pregătită.
+- 2026-11-04 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 6→4); nicio campanie pregătită.

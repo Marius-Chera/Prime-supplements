@@ -431,3 +431,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 3.11: **reel Kara (echitație, Prime Whey + Creatină Creapure®)** programat pe Instagram + Facebook azi la 20:00, cu colaboratori pe Instagram @kara.vecerdea și @ovidiu_pop00. Pe Facebook, colaborarea se poate face doar cu pagini, deci numele apare în text.
 - 3.11: reel Eduard (Combat Pro 2.0 Mango) programat pentru joi, 5.11, la 12:00, apoi **anulat** la cererea proprietarului (șters din Zernio, nepublicat).
 - Texte, ID-uri Zernio și pașii tehnici (upload video prin URL presemnat, reel pe Facebook cu `contentType: "reel"`): `social/2026-11-03-reels/texte.md`.
+
+## 2026-11-05 – Raport creatină săptămânal
+- Raport creatină săptămânal rulat pe 5.11.2026 (săptămâna 26.10–01.11): comparație în `seo/creatina/raport-saptamanal/saptamani/2026-10-26/comparatie.md`.

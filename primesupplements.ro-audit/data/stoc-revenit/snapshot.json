@@ -1,7 +1,7 @@
 {
- "data": "2026-11-04",
+ "data": "2026-11-05",
  "produse_active": 119,
- "nota": "04.11: nicio revenire în stoc. Pachetele și îmbrăcămintea nu sunt actualizate (excluse din campanii). Se compară doar totalInventory.",
+ "nota": "05.11: nicio revenire în stoc. Pachetele și îmbrăcămintea nu sunt actualizate (excluse din campanii). Se compară doar totalInventory.",
  "produse": {
   "baton-proteic-capsuni": {
    "totalInventory": 68,
@@ -12,19 +12,19 @@
    "publishedAt": "2026-03-09"
   },
   "citrus-bergamot": {
-   "totalInventory": 194,
+   "totalInventory": 193,
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
-   "totalInventory": 441,
+   "totalInventory": 433,
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 986,
+   "totalInventory": 979,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
-   "totalInventory": 62,
+   "totalInventory": 61,
    "publishedAt": "2025-05-05"
   },
   "cardio-calm-500-ml": {
@@ -44,7 +44,7 @@
    "publishedAt": "2025-05-05"
   },
   "supliment-alimentar-chromium-picolinate-80-caps": {
-   "totalInventory": 15,
+   "totalInventory": 14,
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
@@ -56,7 +56,7 @@
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 333,
+   "totalInventory": 331,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
@@ -232,11 +232,11 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
-   "totalInventory": 14,
+   "totalInventory": 10,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
-   "totalInventory": 47,
+   "totalInventory": 44,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
@@ -248,7 +248,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 13,
+   "totalInventory": 4,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {

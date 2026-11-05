@@ -1,0 +1,69 @@
+{
+ "nota": "Verificator adversarial H1, lentila TIMING. Toate interogarile ShopifyQL/GraphQL rulate read-only pe 2026-11-05. Orele TIMESERIES hour sunt UTC (Europe/Bucharest = UTC+3 pana la 25.10, apoi UTC+2); zilele TIMESERIES day sunt in Europe/Bucharest, deci totalurile orare pe zi UTC nu coincid exact cu cele zilnice.",
+ "metafield_custom_label_0_reverificat": {
+  "query": "{ a: product(id: \"gid://shopify/Product/14971467268471\") { label: metafield(namespace: \"mm-google-shopping\", key: \"custom_label_0\") { value createdAt updatedAt } } b: product(id: \"gid://shopify/Product/15404872368503\") { ... } }",
+  "A_creatina-creapure": {"value": "marja-mare", "createdAt": "2026-10-18T22:04:13Z", "updatedAt": "2026-10-18T22:04:13Z"},
+  "B_micronizata": {"value": "marja-mare", "createdAt": "2026-10-18T22:04:29Z", "updatedAt": "2026-10-18T22:04:29Z"},
+  "ora_locala": "19.10.2026 01:04 Europe/Bucharest"
+ },
+ "magazin_cpc_google_orar_UTC": {
+  "query": "FROM sessions SHOW sessions TIMESERIES hour SINCE 2026-10-17 UNTIL 2026-10-20 WHERE utm_source = 'google' AND utm_medium = 'cpc'",
+  "17.10": {"00-06": [0,0,2,0,0,2,1], "07-11": [4,3,4,2,2], "12-23": [4,7,8,5,5,8,3,2,2,3,2,2], "suma_07-11": 15, "suma_12-23": 51},
+  "18.10": {"00-06": [1,1,2,2,1,6,2], "07-11": [1,11,5,6,2], "12-16": [3,6,7,10,6], "17-23": [1,3,2,0,1,0,0], "suma_07-11": 25, "suma_12-23": 39},
+  "19.10": {"00-06": [1,1,0,0,1,0,0], "07-11": [4,3,2,2,4], "12-23": [0,0,1,0,0,0,1,1,1,0,0,0], "suma_07-11": 15, "suma_12-23": 4},
+  "20.10": {"00-06": [1,0,0,0,0,1,1], "07-11": [3,1,1,0,0], "12-20": [4,0,0,3,1,4,0,2,0]},
+  "citire": "Ruptura este luni 19.10 intre 11:00 si 12:00 UTC (14:00-15:00 ora Romaniei), NU la 22:04 UTC 18.10 cand s-au scris etichetele. Dimineata de 19.10 (07-11 UTC) = 15 sesiuni, identic cu sambata 17.10 (15). Dupa-amiaza 19.10 = 4 fata de 51 (17.10) si 39 (18.10)."
+ },
+ "grup_marja-mare_exclus_9pagini_orar_UTC_18-20.10": {
+  "query": "FROM sessions SHOW sessions TIMESERIES hour SINCE 2026-10-18 UNTIL 2026-10-20 WHERE utm_campaign = 'Google Shopping' AND landing_page_path IN (9 pagini)",
+  "19.10_ore_cu_sesiuni": {"00": 1, "07": 3, "09": 1, "14": 1, "18": 1, "20": 1},
+  "20.10_ore_cu_sesiuni": {"05": 1, "08": 1, "09": 1, "12": 1, "15": 2, "19": 2}
+ },
+ "grup_volum_8pagini_orar_UTC_19-22.10": {
+  "query": "FROM sessions SHOW sessions TIMESERIES hour SINCE 2026-10-19 UNTIL 2026-10-22 WHERE utm_campaign = 'Google Shopping' AND landing_page_path IN (8 pagini volum)",
+  "19.10": {"04": 1, "08": 1, "10": 2, "11": 3, "19": 1, "dupa_12UTC": 1},
+  "20.10": {"00": 1, "06": 1, "07": 1, "12": 2, "15": 1, "17": 1, "total": 7},
+  "21.10": {"05": 1, "08": 1, "09": 1, "14": 1, "15": 1, "16": 5, "17": 2, "18": 1, "20": 1, "total": 14},
+  "22.10": {"total": 14},
+  "citire": "Grupul volum s-a oprit si el la 12:00 UTC 19.10 si a repornit vizibil miercuri 21.10 de la ~14:00-16:00 UTC (17:00-19:00 ora Romaniei). Grupul marja-mare/exclus nu a repornit."
+ },
+ "grup_marja-mare_exclus_9pagini_zilnic_17.08-04.11": {
+  "query": "FROM sessions SHOW sessions TIMESERIES day SINCE 2026-08-17 UNTIL 2026-11-04 WHERE utm_campaign = 'Google Shopping' AND landing_page_path IN (9 pagini)",
+  "inainte_17.08-18.10_63_zile": {"min": 2, "zile_cu_0": 0, "zile_cu_max_2": 1, "exemple_joase": "02.09=3, 04.09=2, 22.08=3, 30.08=4, 05.09=4, 07.10=7"},
+  "19-21.10": [8, 8, 4],
+  "22-31.10_10_zile": [2, 1, 0, 1, 2, 1, 0, 0, 0, 0],
+  "01-04.11": [5, 6, 2, 5],
+  "citire": "Nivelul 0-2/zi din 22-31.10 (6 zile cu 0 din 10) nu a aparut niciodata in cele 63 de zile dinainte (minim 2, nicio zi cu 0). Schimbare de regim, nu zgomot. Revenire partiala 01-04.11 dupa reducerile de pret din 30.10."
+ },
+ "magazin_cpc_google_zilnic_17.08-04.11": {
+  "query": "FROM sessions SHOW sessions TIMESERIES day SINCE 2026-08-17 UNTIL 2026-11-04 WHERE utm_source = 'google' AND utm_medium = 'cpc'",
+  "min_inainte": "9 (04.09)", "medie_06-11.10": 36.7, "15-18.10": [90, 84, 68, 85], "19-25.10": [23, 22, 23, 18, 18, 7, 21], "26.10-04.11": [16, 31, 14, 16, 15, 15, 27, 20, 19, 20],
+  "citire": "Saptamana 12-18.10 (438) este un varf anormal (zilnic 84-90 in 15-18.10 fata de 31-49 in 06-11.10). Nivelul de dupa (15-23/zi) este sub orice saptamana dinainte, dar cel mai apropiat de 31.08-06.09 (9-26/zi)."
+ },
+ "creapure_cpc_zilnic_21.09-18.10": {
+  "query": "FROM sessions SHOW sessions GROUP BY utm_medium TIMESERIES day SINCE 2026-09-21 UNTIL 2026-10-18 WHERE referrer_source = 'search' AND referrer_name = 'google' AND landing_page_path = '/products/creatina-creapure'",
+  "21-29.09": [2, 3, 4, 3, 4, 2, 4, 6, 4],
+  "30.09-14.10_15_zile": [1, 1, 3, 0, 0, 0, 1, 1, 0, 2, 2, 0, 2, 1, 1],
+  "15-18.10": [4, 4, 3, 6],
+  "citire": "Creapure cpc era deja la ~1/zi (15 sesiuni in 15 zile) in 30.09-14.10, fara nicio eticheta; a revenit 4 zile (15-18.10) odata cu varful de buget al magazinului, apoi a cazut. Media 'inainte' de 16/sapt. e umflata de aug-sept; fata de ultimele 2 saptamani dinainte (15, 6) caderea este 10 -> 3."
+ },
+ "alte_canale_cpc_zilnic": {
+  "query": "FROM sessions SHOW sessions GROUP BY utm_source TIMESERIES day SINCE 2026-10-06 UNTIL 2026-11-04 WHERE utm_medium = 'cpc'",
+  "facebook": "~1/zi pana la 17.10, 47 pe 18.10 (boost de o zi), 0 din 19.10",
+  "chatgpt": "13 (29.10), 11 (02.11), 10 (03.11), 15 (04.11) - canal nou, dupa JURNAL 29.10 'ChatGPT Ads'"
+ },
+ "test_eticheta_vs_categorie": {
+  "query": "FROM sessions SHOW sessions GROUP BY landing_page_path TIMESERIES week SINCE 2026-08-17 UNTIL 2026-11-01 WHERE utm_source = 'google' AND utm_medium = 'cpc' AND landing_page_path IN (15 handle-uri)",
+  "marja-mare_suplimente": {"fiber-blood-orange": "3,5,2,7,2,3,2,6 | 2 | 2,0", "eaa": "3,6,4,6,2,2,7,2 | 7 | 0,1", "magneziu-bisglicinat": "1,2,1,7,1,0,1,4 | 6 | 0,1", "l-carnitine": "1,4,1,0,3,2,1,0 | 1 | 0,0"},
+  "marja-mare_alimente_sau_whey": {"unt-de-arahide": "3,0,2,2,0,0,0,0 | 1 | 0,0 (deja ~0 inainte, neinformativ)", "prime-whey-go": "3,1,0,1,6,2,1,0 | 1 | 0,0 (slab)"},
+  "volum_supliment": {"magnesium-citrate-80-caps": "0,0,0,0,0,2,0,0 | 0 | 0,0 (neinformativ)"},
+  "volum_alimente": {"emperor-mass": "2,1,2,3,7,0,2,1 | 1 | 0,3", "cluster-bomb": "0 x8 | 0 | 1,3", "baton-proteic-capsuni": "2,2,0,0,0,0,1,0 | 1 | 2,1", "unt-de-migdale": "0,4,0,0,0,1,1,1 | 1 | 0,1"},
+  "exclus_haine": {"maiou-stringer": "7 (28.09), 7, 19 | 5 (19.10), 0", "mnx-hoodie": "0,0,1 | 3 | 1", "mnx-stringer-yellow": "0,0,3 | 1 | 1"},
+  "citire": "Linia marja-mare/volum coincide cu suplimente/alimente; produsele care ar separa eticheta de categorie au volume prea mici. 'exclus' a mai primit 9 clicuri in 19-25.10 -> excluderea nu a fost stricta/imediata."
+ },
+ "organic_4pagini_fara_UTM_zilnic": {
+  "sursa": "google-channel/q3-q12_shopping_cpc_queries.json q11 + q14-q16 q15 (recitite)",
+  "saptamanal": {"06-11.10": 2, "12-18.10": 6, "19-25.10": 9, "26.10-01.11": 4, "02-04.11_3zile": 13},
+  "citire": "Nicio treapta pe 19.10 in organic; treapta este exclusiv in cpc."
+ }
+}

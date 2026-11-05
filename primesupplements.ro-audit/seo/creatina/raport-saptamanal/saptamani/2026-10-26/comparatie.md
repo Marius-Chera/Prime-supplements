@@ -22,3 +22,15 @@ Media celor 2 săptămâni „după”: vizite Google pe cele 4 pagini 10,5; com
 Factori perturbatori din jurnal: articole noi despre creatină 23.10 (eticheta), 25.10 (creatină vs creatinină), 29.10 (contraindicații) și 03.11 (creatina pentru femei, după această săptămână); 31.10 recenzii noi pe site (nu pe paginile de creatină, conform istoricului git). Paginile Creapure®, micronizată, plicuri și colecția apar „actualizate” în Shopify pe 04–05.11; conținutul nu a fost verificat. Promoții, newslettere, prețuri și stoc nu au fost verificate în această rulare.
 
 Nu se poate măsura: pozițiile reale din Google.ro, afișările și clicurile (Search Console neconectat); sursa „search” din Shopify nu separă organicul de Shopping/reclame neetichetate.
+
+## Completare 05.11.2026, după diagnoză (`../../diagnoza-2026-11-05.md`)
+
+Cifra „vizite Google” de mai sus amestecă reclamele Google Shopping (`utm_medium=cpc`) cu organicul. Separate (interogarea Q2b, brut în `raw/q2b_pages_google_by_utm_medium.json`):
+
+| Cele 4 pagini | Înainte (8 săpt.) | 12–18.10 | 19–25.10 | 26.10–01.11 |
+|---|---|---|---|---|
+| Reclame Google Shopping (cpc) | 18,0 (7–25) | 29 | 4 | 4 |
+| Fără etichetă (organic, limită superioară) | 9,8 (2–16) | 6 | 9 | 4 |
+| Creapure®: reclame / fără etichetă | 16,1 / 2,9 | 21 / 3 | 3 / 7 | 3 / 2 |
+
+Din scăderea de ~17 vizite/săptămână, 14 (81 %) sunt reclame dispărute pe 19.10 (eveniment în contul Google Ads, pe tot magazinul); partea organică a rămas în intervalul „înainte” (2–16), iar pe Creapure® a crescut. Verdictul „sub minim” din tabelul de mai sus se referă la cifra amestecată și nu spune nimic despre SEO. Speculația cu reindexarea după comasarea articolelor a fost verificată și respinsă (vezi diagnoza). Prețuri și stoc, verificate ulterior: stoc Creapure® 52 + 208, micronizată 223 (fără rupturi); prețuri reduse din 30.10 (Creapure® 500 g 180 → 140 lei, 300 g → 90 lei, micronizată → 77 lei).

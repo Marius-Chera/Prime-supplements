@@ -55,9 +55,24 @@
   "ce": "Articol nou publicat: „La ce ajută creatina: mențiunea autorizată în UE, explicată”."
  },
  {
+  "data": "2026-10-18",
+  "pagina": "Creapure®, micronizată, plicuri (prețuri)",
+  "ce": "S-au încheiat două promoții: micronizata a revenit de la 93 la 98 lei (prețul de listă; 18.10), Creapure® 300 g de la 100 la 110 lei (19.10). Plicurile Ready to Go au costat 110 lei pe 17–19.10. Dovadă: prețurile unitare din vânzări (ShopifyQL pe zile) și prețurile barate din backup-ul din 15.10. Factor perturbator pentru comenzi și pentru licitația Google Shopping, nu pentru SEO."
+ },
+ {
   "data": "2026-10-19",
   "pagina": "Articole despre creatină",
   "ce": "Articol nou publicat: „Când se ia creatina: înainte sau după antrenament?”."
+ },
+ {
+  "data": "2026-10-19",
+  "pagina": "Toate produsele (Google Shopping)",
+  "ce": "La 01:04 (ora României; 22:03–22:05 UTC pe 18.10) pe toate produsele active a fost scris automat câmpul mm-google-shopping.custom_label_0 cu valorile „volum”, „marja-mare” sau „exclus”; Creapure®, micronizata și plicurile au primit „marja-mare”. Autorul (aplicație, Shopify Flow sau colaborator) nu e cunoscut și nu e notat nicăieri în repo; etichetarea se repetă automat pe produsele noi. Dovadă: createdAt al câmpului în Admin API."
+ },
+ {
+  "data": "2026-10-19",
+  "pagina": "Toate paginile de produs (Google Shopping)",
+  "ce": "Luni 19.10, între 14:00 și 15:00 (ora României), clicurile din reclamele Google Shopping (utm google/cpc) s-au oprit pe tot magazinul (85 pe 18.10 → 23 pe 19.10); au repornit miercuri 21.10 seara doar pentru produsele etichetate „volum”. Produsele „marja-mare”, inclusiv creatina, au avut 0–2 clicuri/zi până pe 31.10; relansare parțială din ~01.11, fără Creapure®. Reclamele Facebook (utm facebook/cpc) s-au oprit în aceeași zi. Nu e o schimbare pe paginile de creatină, dar explică 81 % din scăderea „vizitelor Google” din raport (vezi diagnoza-2026-11-05.md)."
  },
  {
   "data": "2026-10-20",
@@ -75,6 +90,11 @@
   "ce": "Articol nou publicat: „Eticheta creatinei: cum o citești și ce verifici”."
  },
  {
+  "data": "2026-10-23",
+  "pagina": "Tot site-ul",
+  "ce": "Publicate bannerul de cookie-uri cu „Refuz toate” (Pandectes) și Microsoft Clarity (backups/cookies-clarity-2026-10-23). Posibilă rupere mică și uniformă de serie în măsurarea sesiunilor; ruptura din Shopping e cu 4 zile înainte, deci nu e cauza ei."
+ },
+ {
   "data": "2026-10-25",
   "pagina": "Articole despre creatină",
   "ce": "Articol nou publicat: „Creatină sau creatinină: care este diferența”."
@@ -86,8 +106,13 @@
  },
  {
   "data": "2026-10-29",
-  "pagina": "Pagini de creatină (verificat doar în Shopify)",
-  "ce": "Shopify arată „actualizat” pe 28–29.10 la Creapure® (29.10), micronizată (28.10), plicuri Ready to Go (29.10) și colecția Creatină (29.10). Ce anume s-a schimbat nu a putut fi dovedit (nu există backup sau commit); de verificat la următorul raport."
+  "pagina": "Pagini de creatină (verificat în Shopify)",
+  "ce": "Shopify arată „actualizat” pe 28–29.10 la Creapure® (29.10), micronizată (28.10), plicuri Ready to Go (29.10) și colecția Creatină (29.10). Verificat pe 05.11 față de backup-urile din 15–16.10: titlurile SEO, meta descrierile, descrierile, alt-urile și câmpurile custom sunt identice; schimbările au fost de stoc și preț (plus publicarea temei), nu de conținut."
+ },
+ {
+  "data": "2026-10-30",
+  "pagina": "Creapure®, micronizată (prețuri)",
+  "ce": "Reduceri de preț odată cu tema „Prime – BLACK FRIDAY” (publicată 29.10 seara, conform JURNAL.md): Creapure® 500 g 180 → 140 lei (barat 180), 300 g 110 → 90 lei (barat 115), micronizată 98 → 77 lei (barat 98). Dovadă: prețurile unitare din vânzări și prețurile din Admin pe 05.11. Factor perturbator pentru comenzi."
  },
  {
   "data": "2026-11-03",
@@ -96,7 +121,7 @@
  },
  {
   "data": "2026-11-05",
-  "pagina": "Pagini de creatină (verificat doar în Shopify)",
-  "ce": "Shopify arată „actualizat” pe 04–05.11 la Creapure® (04.11), micronizată (05.11), plicuri (04.11) și colecție (05.11); conținutul nu a fost verificat în această rulare."
+  "pagina": "Pagini de creatină (verificat în Shopify)",
+  "ce": "Shopify arată „actualizat” pe 04–05.11 la Creapure® (04.11), micronizată (05.11), plicuri (04.11) și colecție (05.11). Verificat în aceeași zi: conținutul (SEO, descrieri, câmpuri custom, alt-uri) e identic cu backup-urile din 15–16.10; au fost sincronizări de stoc și prețuri."
  }
 ]

@@ -1,0 +1,165 @@
+{
+ "sursa": "Shopify Admin GraphQL (read-only) 2026-11-05 vs backups seo-creatina-2026-10-15/*.applied.json, titluri-creatina-2026-10-16, baseline.json content.now.*.admin",
+ "produse": {
+  "creatina-creapure": {
+   "seo_title_identic": true,
+   "seo_description_identic": true,
+   "descriptionHtml_identic": true,
+   "description_words": 626,
+   "metafields_custom_identice": [
+    "beneficii_cheie",
+    "despre_produs",
+    "ingrediente",
+    "detalii_produs",
+    "seo_produs",
+    "short_description",
+    "search_boost.queries"
+   ],
+   "metafield_updatedAt_ultim": "2026-10-15T23:03:47Z",
+   "metafield_nou_dupa_16_10": {
+    "mm-google-shopping.custom_label_0": {
+     "value": "marja-mare",
+     "updatedAt": "2026-10-18T22:04:13Z"
+    }
+   },
+   "alt_texte_identice": true,
+   "title_H1": "Creatină Creapure® monohidrată (schimbat 16.10, jurnalizat)",
+   "templateSuffix": null,
+   "tags": [
+    "Creatina",
+    "Suplimente"
+   ],
+   "status": "ACTIVE",
+   "updatedAt_acum": "2026-11-04T23:15:02Z",
+   "variante": [
+    {
+     "title": "500g/100serv",
+     "price_15_10": "180.00",
+     "compareAt_15_10": "180.00",
+     "price_acum": "140.00",
+     "compareAt_acum": "180.00",
+     "stoc": 52,
+     "variant_updatedAt": "2026-11-04T18:00:28Z",
+     "inventoryLevel_updatedAt": "2026-11-04T18:00:20Z"
+    },
+    {
+     "title": "300g/60serv",
+     "price_15_10": "100.00",
+     "compareAt_15_10": "110.00",
+     "price_acum": "90.00",
+     "compareAt_acum": "115.00",
+     "stoc": 208,
+     "variant_updatedAt": "2026-11-04T23:15:02Z",
+     "inventoryLevel_updatedAt": "2026-11-04T23:14:55Z"
+    }
+   ],
+   "evenimente_dupa_16_10": [
+    "2026-10-16T21:14:41Z published on Inbox (singurul eveniment)"
+   ]
+  },
+  "creatina-monohidrat-micronized-300g-fara-aroma": {
+   "seo_title_identic": true,
+   "seo_description_identic": true,
+   "descriptionHtml_identic": true,
+   "description_words": 777,
+   "metafields_custom_identice": [
+    "beneficii_cheie",
+    "despre_produs",
+    "ingrediente",
+    "detalii_produs",
+    "seo_produs",
+    "short_description",
+    "search_boost.queries"
+   ],
+   "metafield_updatedAt_ultim": "2026-10-15T23:10:18Z",
+   "metafield_nou_dupa_16_10": {
+    "mm-google-shopping.custom_label_0": {
+     "value": "marja-mare",
+     "updatedAt": "2026-10-18T22:04:29Z"
+    }
+   },
+   "alt_texte_identice": true,
+   "title_H1": "Creatină monohidrată micronizată fără aromă, 300 g (schimbat 16.10, jurnalizat)",
+   "templateSuffix": "creatina2",
+   "tags": [
+    "Creatina",
+    "Suplimente"
+   ],
+   "status": "ACTIVE",
+   "updatedAt_acum": "2026-11-05T12:30:53Z",
+   "variante": [
+    {
+     "title": "Default Title",
+     "price_15_10": "93.00",
+     "compareAt_15_10": "98.00",
+     "price_acum": "77.00",
+     "compareAt_acum": "98.00",
+     "stoc": 223,
+     "variant_updatedAt": "2026-11-05T12:30:54Z",
+     "inventoryLevel_updatedAt": "2026-11-05T12:30:31Z"
+    }
+   ],
+   "evenimente_dupa_16_10": [
+    "2026-10-16T21:14:49Z published on Inbox (singurul eveniment)"
+   ]
+  }
+ },
+ "colectie_creatina": {
+  "seo_title_identic": true,
+  "seo_description_identic": true,
+  "descriptionHtml_identic": true,
+  "description_words": 80,
+  "image_alt_identic": true,
+  "templateSuffix": "",
+  "sortOrder": "BEST_SELLING",
+  "productsCount": 5,
+  "tip": "CollectionConditionsSource (smart collection)",
+  "updatedAt_acum": "2026-11-05T12:44:52Z",
+  "metafields": {
+   "global.title_tag": "2026-10-15T14:37:36Z",
+   "global.description_tag": "2026-10-15T22:02:27Z",
+   "custom.hub_articles": "2026-10-15T23:14:58Z",
+   "custom.seo_text": "2026-10-23T09:31:48Z (272 cuvinte, ghid categorie – jurnalizat 23.10)"
+  }
+ },
+ "preturi_unitare_din_vanzari_ShopifyQL": {
+  "interogare": "FROM sales SHOW quantity_ordered, gross_sales GROUP BY product_id, product_variant_title WHERE product_id IN (...) TIMESERIES day SINCE 2026-10-12 UNTIL 2026-11-05; pret cu TVA = gross_sales/quantity*1.21",
+  "Creapure 500g": "180 lei pana la 19.10 (reduceri cod 20–29.10), 140 lei din 30.10",
+  "Creapure 300g": "100 lei pana la 15.10, 110 lei 19–22.10, 90 lei din 30.10",
+  "micronizata": "93 lei pana la 15.10, 98 lei din 18.10, 77 lei din 30.10",
+  "RTG cutie": "110 lei 17–19.10, 90 lei la 03.11"
+ },
+ "redirecturi": {
+  "total_creat": 186,
+  "pe_zile": {
+   "2025-05-05": 4,
+   "2026-03-03": 1,
+   "2026-03-08": 1,
+   "2026-10-12": 86,
+   "2026-10-13": 82,
+   "2026-10-18": 4,
+   "2026-10-26": 8
+  },
+  "bucle": 0,
+  "lanturi": [
+   "/products/pachet-nitrox3d-creatina-creapure%c2%ae -> /products/pachet-nitrox-3d-creatina-creapure -> /products/pachet-pre-workout-power-nitrox-3d-creatina-creapure (DRAFT)",
+   "/products/fiber-creatina-creapure%c2%ae -> /products/pachet-fiber-creatina-creapure -> /products/pachet-daily-fit-fiber-creatina-creapure (DRAFT)"
+  ],
+  "redirect_cu_sursa_pe_cele_4_pagini": 0,
+  "tinte_articole_toate_publicate": 21
+ },
+ "teme": {
+  "MAIN": "Prime – BLACK FRIDAY (se publică 30.10) din 2026-10-29T21:59:45Z",
+  "anterioare_live": "Impact (pana ~12.10) -> tema optimizata 12–16.10 (nu mai exista) -> Prime – tema activa (22.10) -> 23.10: PROBA ghiduri, Clarity, banner, Chat in stanga -> 29.10 BLACK FRIDAY",
+  "diferente_23_10_vs_BF": [
+   "layout/theme.liquid: scos CSS/JS BSS B2B (26.10)",
+   "sections/main-product.liquid: scoase atributele bss-b2b (26.10)",
+   "templates/product.json: low_inventory_threshold 5->10 (28.10)",
+   "templates/index.json: prima pagina BF (24.10)",
+   "config/settings_data.json (29.10 la publicare)"
+  ],
+  "robots_txt_liquid": "copie a robots.txt implicit Shopify + Content-Signal; nu blocheaza /products, /collections",
+  "noindex": "doar colectii utilitare (all, cele-mai-vandute...), search, cart, password, customers/, liste cu tag; nu creatina",
+  "ghid_categorie": "sections/ghid-categorie.liquid exista, dar niciun template collection*.json din tema live nu il include; templates/collection.json (folosit de /collections/creatina) nu refera custom.seo_text"
+ }
+}

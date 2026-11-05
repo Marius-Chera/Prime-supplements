@@ -1,0 +1,23 @@
+{
+ "note": "mm-google-shopping.custom_label_0 on active products. Read-only Admin GraphQL 2026-11-05. Metafield createdAt is UTC; 2026-10-18T22:04Z = 19.10.2026 01:04 Europe/Bucharest.",
+ "query_page1": "{ products(first: 100, query: \"status:active\") { pageInfo { hasNextPage endCursor } nodes { handle label: metafield(namespace: \"mm-google-shopping\", key: \"custom_label_0\") { value createdAt updatedAt } } } }",
+ "creation_window_observed": "all labels createdAt between 2026-10-18T22:03:58Z and 2026-10-18T22:04:44Z (batches of ~25 products 15 s apart = scripted/bulk write); some 'marja-mare' values updatedAt 2026-10-18T22:21:44Z",
+ "not_in_repo": "grep for custom_label / marja-mare over /home/user/Prime-supplements returned no file: the labels were not set by a recorded project session.",
+ "labels_creatine": {"creatina-creapure": "marja-mare (createdAt 2026-10-18T22:04:13Z)", "creatina-monohidrat-micronized-300g-fara-aroma": "marja-mare (2026-10-18T22:04:29Z)", "creatine-ready-to-go-plicuri-prime-supplements": "marja-mare (2026-10-18T22:04:29Z)"},
+ "labels_top_shopping_landing_pages": {
+  "fell_80-100pct_after_19.10": {"creatina-creapure": "marja-mare", "combat-pro": "marja-mare", "nitrox-no-stim": "marja-mare", "glycerol-max-pump-500g-125-serv": "marja-mare", "energy-pump": "exclus", "fat-burning-booster": "exclus", "pachet-mix-arome-...-set-degustare": "exclus"},
+  "held_or_rose_after_19.10": {"crema-de-orez-tort-de-ciocolata": "volum", "prime-whey-1000g": "volum", "crema-de-orez-fara-aroma": "volum", "scortisoara-ceylon-bio-200g": "volum", "instant-oat-cream-800g-25-serv": "volum", "crema-de-orez-caramel-sarat": "volum"},
+  "fell_but_less": {"prime-whey-2000g": "volum (51/wk -> 20/wk)", "pure-isolate-2000g": "volum (5.9/wk -> 3/wk)"}
+ },
+ "group_weekly_GoogleShopping_sessions": {
+  "query_A": "FROM sessions SHOW sessions TIMESERIES week SINCE 2026-08-17 UNTIL 2026-11-01 WHERE utm_campaign = 'Google Shopping' AND landing_page_path IN (9 marja-mare/exclus pages: creapure, micronizata, RTG, combat-pro, nitrox-no-stim, glycerol, energy-pump, fat-burning-booster, pachet-mix-arome)",
+  "A_marja-mare_exclus_9pages": [["2026-08-17",81],["2026-08-24",80],["2026-08-31",37],["2026-09-07",47],["2026-09-14",110],["2026-09-21",171],["2026-09-28",133],["2026-10-05",70],["2026-10-12",129],["2026-10-19",24],["2026-10-26",8]],
+  "query_B": "same WHERE with IN (8 volum pages: crema tort ciocolata, whey 1000g, crema fara aroma, scortisoara, instant oat cream, crema caramel sarat, whey 2000g, pure isolate)",
+  "B_volum_8pages": [["2026-08-17",49],["2026-08-24",59],["2026-08-31",52],["2026-09-07",86],["2026-09-14",93],["2026-09-21",69],["2026-09-28",138],["2026-10-05",131],["2026-10-12",199],["2026-10-19",80],["2026-10-26",99]]
+ },
+ "page1_raw_labels": {
+  "volum": ["baton-proteic-capsuni","baton-proteic-caramel-sarat","magnesium-citrate-80-caps","scortisoara-ceylon-bio-200g","baton-proteic-cocos-si-caramel","baton-proteic-ciocolata-fructe-de-padure","emperor-mass_3000g","pure-isolate-2000g","unt-de-migdale","unt-de-caju","prime-whey-1000g","prime-whey-2000g","cluster-bomb-1000g","instant-oat-cream-800g-25-serv"],
+  "marja-mare": ["citrus-bergamot","ashwagandha-ksm-66","vitamina-d3-k2","testo-revive-500-ml","cardio-calm-500-ml","water-out-120-caps","thermo-core-120-caps","complete-collagen","supliment-alimentar-chromium-picolinate-80-caps","l-carnitine-1000-80-caps","nac-80-caps","taurine-80-caps","turmeric-extract-80-caps","zinc-citrate-80-caps","vitamin-c-1000-80-caps","magneziu-bisglicinat-80-caps","daily-vitamin-formula","creatina-creapure","eaa-aminoacizi-esentiali","nitrox","omega-3","recovery-bcaa-500g","recovery-glutamin","combat-pro","unt-de-arahide","water-out-500-ml","nitrox-no-stim","combat-pro-2-0-660g-30-serv","spirulina-80-caps","silimarina-80-caps","enzima-nattokinaza-80-caps","potassium-complex-80-caps","glycerol-max-pump-500g-125-serv","fiber-blood-orange","prime-whey-go","creatina-monohidrat-micronized-300g-fara-aroma","creatine-ready-to-go-plicuri-prime-supplements"],
+  "exclus": ["sapca-prime","coenzima-q10-80-caps","t-shirt-drop-shoulder-muscle","maiou-stringer","maiou-stringer-white","short-arnold-era","centura-hardcore","energy-pump","fat-burning-booster","prosop-negru","hanorac-prime-squad","t-shirt-drop-shoulder-muscle-white","prime-bodybuilding-classic-pants","shaker-premium-accesorizat-500-ml","tricou-sala-suffer-to-dominate-bumbac-premium-negru","+ 33 MNX clothing handles"]
+ }
+}

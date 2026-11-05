@@ -53,6 +53,8 @@ If the harness saved a large answer to a file, use that file as stdin. File name
 |---|---|---|
 | Q1 | `q1_pages_by_source.json` | `FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate GROUP BY landing_page_path, referrer_source WHERE landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q2 | `q2_pages_search_by_engine.json` | `FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY landing_page_path, referrer_name WHERE referrer_source = 'search' AND landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
+| Q2b | `q2b_pages_google_by_utm_medium.json` | `FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY landing_page_path, utm_medium WHERE referrer_source = 'search' AND referrer_name = 'google' AND landing_page_path IN ('/products/creatina-creapure', '/products/creatina-monohidrat-micronized-300g-fara-aroma', '/collections/creatina', '/products/creatine-ready-to-go-plicuri-prime-supplements') TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
+| Q7b | `q7b_store_google_by_utm_medium.json` | `FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY utm_medium WHERE referrer_source = 'search' AND referrer_name = 'google' TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q3 | `q3_products_sales.json` | `FROM sales SHOW orders, quantity_ordered, net_items_sold, gross_sales, net_sales GROUP BY product_id WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q4 | `q4_products_by_order_source.json` | `FROM sales SHOW orders, quantity_ordered, gross_sales GROUP BY product_id, order_referrer_source WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q5 | `q5_creatine_distinct_orders.json` | `FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales WHERE product_id IN (14971467268471, 15404872368503, 15410672075127) TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
@@ -63,6 +65,25 @@ If the harness saved a large answer to a file, use that file as stdin. File name
 | Q9 | `q9_store_sales_total.json` | `FROM sales SHOW orders, quantity_ordered, gross_sales, net_sales, total_sales TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q10 | `q10_store_sessions_total.json` | `FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
 | Q11 | `q11_creatine_blog_sessions.json` | `FROM sessions SHOW sessions, sessions_that_completed_checkout GROUP BY referrer_source WHERE landing_page_path CONTAINS '/blogs/' AND landing_page_path CONTAINS 'creat' TIMESERIES week SINCE 2026-10-12 UNTIL {SUN}` |
+
+**Q2b / Q7b – why they exist (added 05.11.2026, see `diagnoza-2026-11-05.md`).** Shopify files every click that arrives with a Google referrer under `referrer_source = 'search'`, `referrer_name = 'google'`, *including* the Google Shopping ads, which carry `utm_source=google&utm_medium=cpc&utm_campaign=Google Shopping`. The `paid` source holds almost nothing (3 sessions in 8 weeks), so the earlier note "paid is tiny, therefore search is organic" was wrong. Split every "Google visits" figure on `utm_medium`:
+
+- `utm_medium = 'cpc'` → Google Shopping ads (a budget decision, not SEO). Report it as a confounder.
+- `utm_medium` empty → organic **upper bound** (it still contains free Shopping listings and any ad without UTM; the true organic figure comes only from Search Console).
+- Do not use `WHERE utm_source = ''`: it returns zero rows. Use `GROUP BY utm_medium` and read the empty value.
+
+Baseline split, 8 weeks 17.08–11.10, all 4 pages (sum = the 32, 32, 24, 17, 38, 40, 30, 9 of `baseline.json`):
+
+| | per week | mean | min–max |
+|---|---|---|---|
+| cpc (Shopping) | 23, 20, 11, 14, 25, 24, 20, 7 | 18,0 | 7–25 |
+| no UTM (organic, upper bound) | 9, 12, 13, 3, 13, 16, 10, 2 | 9,8 | 2–16 |
+| Creapure® cpc | 23, 20, 11, 14, 18, 22, 15, 6 | 16,1 | 6–23 |
+| Creapure® no UTM | 1, 5, 4, 2, 5, 4, 2, 0 | 2,9 | 0–5 |
+| store cpc | — | 205,8 | 109–312 |
+| store no UTM | — | 525,5 | 427–564 |
+
+Judge the SEO work only on the **no-UTM column** (rule: above 16/week on the 4 pages for 2–3 consecutive weeks). For micronizată and the collection (0–1 visits a day) report rolling 4-week sums, not single weeks. `baseline.json` stays as it is; the split lives here and in `baseline.md`.
 
 **Compare:**
 
@@ -80,6 +101,7 @@ The baseline numbers come from `baseline.json` and are never recomputed.
 
 1. For each week, the sum of Q6 sessions over all sources equals Q10 sessions.
 2. For each week, Q2 google sessions are ≤ Q1 search sessions.
+2b. For each week and page, the Q2b rows summed over `utm_medium` equal the Q2 google row; the Q7b rows summed equal the Q7 google row.
 3. **Drift check** (first run, then on the first Monday of each month): run Q1, Q5 and Q10 once more with `SINCE 2026-08-17 UNTIL 2026-10-11`. Save them in `$D/raw/drift/` and check the 8-week totals:
    - Q1 sessions = **621** (all 4 pages)
    - Q5 orders = **170**
@@ -202,7 +224,7 @@ The search tool is US-based, so never call these positions "poziția în Google.
 Write it in Romanian, with ș and ț (comma below). Include no personal data: no customer names, e-mails, order numbers or addresses. Use only aggregates.
 
 **Lead with:**
-1. Google visits to the 4 pages: baseline 27,8 per week, range 9–40.
+1. Google visits to the 4 pages, **split in two** (Q2b): organic upper bound (no UTM) baseline 9,8 per week, range 2–16; Google Shopping ads (cpc) baseline 18,0, range 7–25. The old combined figure (27,8, range 9–40) may be quoted for continuity, but the SEO verdict is made on the no-UTM column only.
 2. Their share of the store's Google visits: baseline 3,8 %, range 1,2–5,4 %. This share neutralises seasonality, promotions and newsletter spikes.
 3. Creatine orders: 21,3 per week (12–27), of which 8 came from search (4–14).
 4. Per product:
@@ -219,7 +241,8 @@ Write it in Romanian, with ș and ț (comma below). Include no personal data: no
 
 **What cannot be measured here** (repeat it briefly in each report):
 - Exact Google.ro positions, impressions and clicks: Search Console is not connected.
-- Shopify's "search" source cannot separate organic visits from untagged Google ads and free Shopping listings. Paid visits were only 3 in 8 weeks.
+- Shopify's "search/google" source contains the Google Shopping ads (tagged `utm_medium=cpc`; 65 % of the baseline on the 4 pages, 85 % on Creapure®). Q2b separates them. What remains ("no UTM") still cannot separate organic clicks from free Shopping listings and from any ad without UTM tags; the `paid` source is not a usable proxy (3 sessions in 8 weeks).
+- Google Ads / Merchant Center cannot be read from here: campaign structure, budgets, change history, product approval status and free-listing clicks are visible only to the owner in those accounts.
 - Sales cannot be attributed to the landing page, only to the referrer source of the order.
 
 ## 5. Files

@@ -1,0 +1,594 @@
+[
+ {
+  "serie": "4 pagini, search/google total (sarcina)",
+  "inainte": [
+   32,
+   32,
+   24,
+   17,
+   38,
+   40,
+   30,
+   9
+  ],
+  "dupa": [
+   13,
+   8
+  ],
+  "medie": 27.75,
+  "sd": 10.54,
+  "min_inainte": 9,
+  "max_inainte": 40,
+  "per_valoare": {
+   "13": {
+    "z": -1.4,
+    "p_normal_unilateral": 0.0808,
+    "p_negbin_X<=x": 0.0645,
+    "negbin_r": 9.24,
+    "p_poisson_X<=x": 0.001479
+   },
+   "8": {
+    "z": -1.87,
+    "p_normal_unilateral": 0.0305,
+    "p_negbin_X<=x": 0.0101,
+    "negbin_r": 9.24,
+    "p_poisson_X<=x": 1.1e-05
+   }
+  },
+  "suma_2_sapt_dupa": 21,
+  "sume_perechi_consecutive_inainte": [
+   64,
+   56,
+   41,
+   55,
+   78,
+   70,
+   39
+  ],
+  "z_suma_2_sapt_(independenta)": -2.31,
+  "p_normal_suma_2_sapt": 0.0103,
+  "frecventa_empirica_inainte_<=x": {
+   "13": "1/8",
+   "8": "0/8"
+  }
+ },
+ {
+  "serie": "4 pagini, componenta fara UTM (organic+free listings fara parametri)",
+  "inainte": [
+   9,
+   12,
+   13,
+   3,
+   13,
+   16,
+   10,
+   2
+  ],
+  "dupa": [
+   9,
+   4
+  ],
+  "medie": 9.75,
+  "sd": 4.95,
+  "min_inainte": 2,
+  "max_inainte": 16,
+  "per_valoare": {
+   "9": {
+    "z": -0.15,
+    "p_normal_unilateral": 0.4398,
+    "p_negbin_X<=x": 0.5343,
+    "negbin_r": 6.44,
+    "p_poisson_X<=x": 0.489571
+   },
+   "4": {
+    "z": -1.16,
+    "p_normal_unilateral": 0.1227,
+    "p_negbin_X<=x": 0.1299,
+    "negbin_r": 6.44,
+    "p_poisson_X<=x": 0.034353
+   }
+  },
+  "suma_2_sapt_dupa": 13,
+  "sume_perechi_consecutive_inainte": [
+   21,
+   25,
+   16,
+   16,
+   29,
+   26,
+   12
+  ],
+  "z_suma_2_sapt_(independenta)": -0.93,
+  "p_normal_suma_2_sapt": 0.1766,
+  "frecventa_empirica_inainte_<=x": {
+   "9": "3/8",
+   "4": "2/8"
+  }
+ },
+ {
+  "serie": "4 pagini, componenta google/cpc",
+  "inainte": [
+   23,
+   20,
+   11,
+   14,
+   25,
+   24,
+   20,
+   7
+  ],
+  "dupa": [
+   4,
+   4
+  ],
+  "medie": 18,
+  "sd": 6.59,
+  "min_inainte": 7,
+  "max_inainte": 25,
+  "per_valoare": {
+   "4": {
+    "z": -2.12,
+    "p_normal_unilateral": 0.0168,
+    "p_negbin_X<=x": 0.0043,
+    "negbin_r": 12.74,
+    "p_poisson_X<=x": 8.4e-05
+   }
+  },
+  "suma_2_sapt_dupa": 8,
+  "sume_perechi_consecutive_inainte": [
+   43,
+   31,
+   25,
+   39,
+   49,
+   44,
+   27
+  ],
+  "z_suma_2_sapt_(independenta)": -3.0,
+  "p_normal_suma_2_sapt": 0.0013,
+  "frecventa_empirica_inainte_<=x": {
+   "4": "0/8"
+  }
+ },
+ {
+  "serie": "Creapure, search/google total",
+  "inainte": [
+   24,
+   25,
+   15,
+   16,
+   23,
+   26,
+   17,
+   6
+  ],
+  "dupa": [
+   10,
+   5
+  ],
+  "medie": 19,
+  "sd": 6.8,
+  "min_inainte": 6,
+  "max_inainte": 26,
+  "per_valoare": {
+   "10": {
+    "z": -1.32,
+    "p_normal_unilateral": 0.0929,
+    "p_negbin_X<=x": 0.0899,
+    "negbin_r": 13.23,
+    "p_poisson_X<=x": 0.018322
+   },
+   "5": {
+    "z": -2.06,
+    "p_normal_unilateral": 0.0198,
+    "p_negbin_X<=x": 0.0065,
+    "negbin_r": 13.23,
+    "p_poisson_X<=x": 0.000154
+   }
+  },
+  "suma_2_sapt_dupa": 15,
+  "sume_perechi_consecutive_inainte": [
+   49,
+   40,
+   31,
+   39,
+   49,
+   43,
+   23
+  ],
+  "z_suma_2_sapt_(independenta)": -2.39,
+  "p_normal_suma_2_sapt": 0.0084,
+  "frecventa_empirica_inainte_<=x": {
+   "10": "1/8",
+   "5": "0/8"
+  }
+ },
+ {
+  "serie": "Creapure, google/cpc",
+  "inainte": [
+   23,
+   20,
+   11,
+   14,
+   18,
+   22,
+   15,
+   6
+  ],
+  "dupa": [
+   3,
+   3
+  ],
+  "medie": 16.12,
+  "sd": 5.79,
+  "min_inainte": 6,
+  "max_inainte": 23,
+  "per_valoare": {
+   "3": {
+    "z": -2.27,
+    "p_normal_unilateral": 0.0117,
+    "p_negbin_X<=x": 0.0024,
+    "negbin_r": 14.92,
+    "p_poisson_X<=x": 8.4e-05
+   }
+  },
+  "suma_2_sapt_dupa": 6,
+  "sume_perechi_consecutive_inainte": [
+   43,
+   31,
+   25,
+   32,
+   40,
+   37,
+   21
+  ],
+  "z_suma_2_sapt_(independenta)": -3.2,
+  "p_normal_suma_2_sapt": 0.0007,
+  "frecventa_empirica_inainte_<=x": {
+   "3": "0/8"
+  }
+ },
+ {
+  "serie": "Creapure, fara UTM",
+  "inainte": [
+   1,
+   5,
+   4,
+   2,
+   5,
+   4,
+   2,
+   0
+  ],
+  "dupa": [
+   7,
+   2
+  ],
+  "medie": 2.88,
+  "sd": 1.89,
+  "min_inainte": 0,
+  "max_inainte": 5,
+  "per_valoare": {
+   "7": {
+    "z": 2.19,
+    "p_normal_unilateral": 0.9857,
+    "p_negbin_X<=x": 0.981,
+    "negbin_r": 12.18,
+    "p_poisson_X<=x": 0.990578
+   },
+   "2": {
+    "z": -0.46,
+    "p_normal_unilateral": 0.3213,
+    "p_negbin_X<=x": 0.4733,
+    "negbin_r": 12.18,
+    "p_poisson_X<=x": 0.45177
+   }
+  },
+  "suma_2_sapt_dupa": 9,
+  "sume_perechi_consecutive_inainte": [
+   6,
+   9,
+   6,
+   7,
+   9,
+   6,
+   2
+  ],
+  "z_suma_2_sapt_(independenta)": 1.22,
+  "p_normal_suma_2_sapt": 0.8886,
+  "frecventa_empirica_inainte_<=x": {
+   "7": "8/8",
+   "2": "4/8"
+  }
+ },
+ {
+  "serie": "Magazin, search/google cpc",
+  "inainte": [
+   165,
+   169,
+   109,
+   175,
+   228,
+   261,
+   312,
+   227
+  ],
+  "dupa": [
+   102,
+   114
+  ],
+  "medie": 205.75,
+  "sd": 63.93,
+  "min_inainte": 109,
+  "max_inainte": 312,
+  "per_valoare": {
+   "102": {
+    "z": -1.62,
+    "p_normal_unilateral": 0.0523,
+    "p_negbin_X<=x": 0.0294,
+    "negbin_r": 10.91,
+    "p_poisson_X<=x": 0.0
+   },
+   "114": {
+    "z": -1.44,
+    "p_normal_unilateral": 0.0756,
+    "p_negbin_X<=x": 0.0544,
+    "negbin_r": 10.91,
+    "p_poisson_X<=x": 0.0
+   }
+  },
+  "suma_2_sapt_dupa": 216,
+  "sume_perechi_consecutive_inainte": [
+   334,
+   278,
+   284,
+   403,
+   489,
+   573,
+   539
+  ],
+  "z_suma_2_sapt_(independenta)": -2.16,
+  "p_normal_suma_2_sapt": 0.0153,
+  "frecventa_empirica_inainte_<=x": {
+   "102": "0/8",
+   "114": "1/8"
+  }
+ },
+ {
+  "serie": "Magazin, search/google fara UTM",
+  "inainte": [
+   517,
+   427,
+   534,
+   563,
+   546,
+   564,
+   551,
+   502
+  ],
+  "dupa": [
+   590,
+   717
+  ],
+  "medie": 525.5,
+  "sd": 45.29,
+  "min_inainte": 427,
+  "max_inainte": 564,
+  "per_valoare": {
+   "590": {
+    "z": 1.42,
+    "p_normal_unilateral": 0.9228,
+    "p_negbin_X<=x": 0.9209,
+    "negbin_r": 181.01,
+    "p_poisson_X<=x": 0.99734
+   },
+   "717": {
+    "z": 4.23,
+    "p_normal_unilateral": 1.0,
+    "p_negbin_X<=x": 0.9999,
+    "negbin_r": 181.01,
+    "p_poisson_X<=x": 1.0
+   }
+  },
+  "suma_2_sapt_dupa": 1307,
+  "sume_perechi_consecutive_inainte": [
+   944,
+   961,
+   1097,
+   1109,
+   1110,
+   1115,
+   1053
+  ],
+  "z_suma_2_sapt_(independenta)": 4.0,
+  "p_normal_suma_2_sapt": 1.0,
+  "frecventa_empirica_inainte_<=x": {
+   "590": "8/8",
+   "717": "8/8"
+  }
+ },
+ {
+  "serie": "9 pagini marja-mare/exclus, utm_campaign Google Shopping",
+  "inainte": [
+   81,
+   80,
+   37,
+   47,
+   110,
+   171,
+   133,
+   70
+  ],
+  "dupa": [
+   24,
+   8
+  ],
+  "medie": 91.12,
+  "sd": 44.78,
+  "min_inainte": 37,
+  "max_inainte": 171,
+  "per_valoare": {
+   "24": {
+    "z": -1.5,
+    "p_normal_unilateral": 0.067,
+    "p_negbin_X<=x": 0.0233,
+    "negbin_r": 4.34,
+    "p_poisson_X<=x": 0.0
+   },
+   "8": {
+    "z": -1.86,
+    "p_normal_unilateral": 0.0317,
+    "p_negbin_X<=x": 0.0008,
+    "negbin_r": 4.34,
+    "p_poisson_X<=x": 0.0
+   }
+  },
+  "suma_2_sapt_dupa": 32,
+  "sume_perechi_consecutive_inainte": [
+   161,
+   117,
+   84,
+   157,
+   281,
+   304,
+   203
+  ],
+  "z_suma_2_sapt_(independenta)": -2.37,
+  "p_normal_suma_2_sapt": 0.0088,
+  "frecventa_empirica_inainte_<=x": {
+   "24": "0/8",
+   "8": "0/8"
+  }
+ },
+ {
+  "serie": "8 pagini volum, utm_campaign Google Shopping",
+  "inainte": [
+   49,
+   59,
+   52,
+   86,
+   93,
+   69,
+   138,
+   131
+  ],
+  "dupa": [
+   80,
+   99
+  ],
+  "medie": 84.62,
+  "sd": 34.45,
+  "min_inainte": 49,
+  "max_inainte": 138,
+  "per_valoare": {
+   "80": {
+    "z": -0.13,
+    "p_normal_unilateral": 0.4466,
+    "p_negbin_X<=x": 0.504,
+    "negbin_r": 6.5,
+    "p_poisson_X<=x": 0.332205
+   },
+   "99": {
+    "z": 0.42,
+    "p_normal_unilateral": 0.6618,
+    "p_negbin_X<=x": 0.7051,
+    "negbin_r": 6.5,
+    "p_poisson_X<=x": 0.944131
+   }
+  },
+  "suma_2_sapt_dupa": 179,
+  "sume_perechi_consecutive_inainte": [
+   108,
+   111,
+   138,
+   179,
+   162,
+   207,
+   269
+  ],
+  "z_suma_2_sapt_(independenta)": 0.2,
+  "p_normal_suma_2_sapt": 0.5793,
+  "frecventa_empirica_inainte_<=x": {
+   "80": "4/8",
+   "99": "6/8"
+  }
+ },
+ {
+  "serie": "zilnic 9 pagini marja-mare/exclus (Google Shopping)",
+  "zile_12-18.10": [
+   18,
+   15,
+   17,
+   19,
+   21,
+   18,
+   21
+  ],
+  "zile_19-25.10": [
+   8,
+   8,
+   4,
+   2,
+   1,
+   0,
+   1
+  ],
+  "lambda_poisson_inainte": 18.43,
+  "p_poisson_X<=1_intr-o_zi": "1.93e-07",
+  "p_poisson_X<=8_intr-o_zi": "5.47e-03"
+ },
+ {
+  "serie": "zilnic 8 pagini volum (Google Shopping)",
+  "zile_12-18.10": [
+   25,
+   23,
+   19,
+   39,
+   31,
+   25,
+   37
+  ],
+  "zile_19-25.10": [
+   9,
+   7,
+   14,
+   14,
+   15,
+   7,
+   14
+  ],
+  "medie_inainte": 28.4,
+  "medie_dupa": 11.4,
+  "raport": 0.4
+ },
+ {
+  "serie": "cota din cpc magazin",
+  "marja-mare/exclus_9pag": {
+   "inainte_medie": 44.3,
+   "schimbare": 29.5,
+   "dupa_medie": 14.8
+  },
+  "volum_8pag": {
+   "inainte_medie": 41.1,
+   "schimbare": 45.4,
+   "dupa_medie": 82.9
+  },
+  "variatie_vs_sapt_schimbare": {
+   "magazin": -0.75,
+   "marja-mare/exclus": -0.88,
+   "volum": -0.55
+  },
+  "variatie_vs_medie_inainte": {
+   "magazin": -0.48,
+   "marja-mare/exclus": -0.82,
+   "volum": 0.06
+  }
+ },
+ {
+  "serie": "contrafactual Creapure cpc daca urma doar magazinul",
+  "creapure_cpc_asteptat_dupa_(16.1 x 108/205.8)": 8.4,
+  "observat": 3,
+  "4pag_cpc_asteptat_dupa_(18 x 108/205.8)": 9.4,
+  "observat_4pag": 4
+ }
+]

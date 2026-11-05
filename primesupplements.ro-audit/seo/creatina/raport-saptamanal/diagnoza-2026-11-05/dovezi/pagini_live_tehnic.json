@@ -1,0 +1,1010 @@
+{
+ "fetched_at": "2026-11-05",
+ "pages": {
+  "creatina-creapure": {
+   "handle": "creatina-creapure",
+   "expected_url": "https://primesupplements.ro/products/creatina-creapure",
+   "status_line": "HTTP/2 200 ",
+   "headers_select": {
+    "content-type": [
+     "text/html; charset=utf-8"
+    ],
+    "cache-control": [
+     "private, max-age=0, must-revalidate"
+    ],
+    "server": [
+     "cloudflare"
+    ],
+    "link": [
+     "</cart/56938509304183:1?ucp/version=2026-08-25>; rel=\"buy\"; payment=\"\", <https://cdn.shopify.com>; rel=\"preconnect\", <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin, <https://storefront-agent-server.shopify.ai>; rel=\"preconnect\", <//primesupplements.ro/cdn/shop/files/pandectes-rules.js?v=686457165062528870>; as=\"script\"; rel=\"preload\", <//primesupplements.ro/cdn/shop/t/15/assets/theme.css?v=18654040077085089121792864255>; as=\"style\"; rel=\"preload\", </.well-known/ucp>; rel=\"ucp\"; version=\"2026-08-25\""
+    ],
+    "content-language": [
+     "ro-RO"
+    ]
+   },
+   "html_lang": "ro",
+   "bot_page": false,
+   "title": "Creatină Creapure® monohidrată 300/500 g | Prime Supplements",
+   "title_len": 60,
+   "meta_description": "Creatină Creapure®: un singur ingredient, creatină monohidrată. Tub de 300 g sau 500 g (60 sau 100 de porții), 3–5 g pe zi. Brand listat pe creapure.com.",
+   "meta_description_len": 153,
+   "canonical": [
+    "https://primesupplements.ro/products/creatina-creapure"
+   ],
+   "canonical_equals_url": true,
+   "robots_meta": [],
+   "noindex_anywhere_in_head_meta": false,
+   "hreflang": [],
+   "h1": [
+    "Creatină Creapure® monohidrată"
+   ],
+   "h1_count": 1,
+   "h2_count": 5,
+   "h2_unique_count": 5,
+   "h2_unique": [
+    "S-ar putea să-ți placă",
+    "Customer Reviews",
+    "Cele mai vândute",
+    "Categorii populare",
+    "Creatină Creapure®: un singur ingredient, în tub de 300 g sau 500 g"
+   ],
+   "h3_count": 12,
+   "h3_unique_count": 11,
+   "h3_unique": [
+    "Pe scurt",
+    "Ingrediente",
+    "Detalii produs",
+    "Cantități declarate",
+    "Ce este Creapure® și cum verifici brandurile partenere din România",
+    "Cum o folosești: doza zilnică recomandată",
+    "Cât ține un tub de 300 g sau de 500 g",
+    "Pentru cine este",
+    "Creatina Creapure® față de celelalte formate Prime",
+    "Cu ce combini creatina Creapure® din gama Prime",
+    "Întrebări frecvente"
+   ],
+   "jsonld_blocks": 3,
+   "jsonld_parse_errors": 0,
+   "jsonld_types": [
+    "AggregateRating",
+    "Brand",
+    "BreadcrumbList",
+    "ContactPoint",
+    "Country",
+    "DefinedRegion",
+    "ImageObject",
+    "ListItem",
+    "MerchantReturnPolicy",
+    "MonetaryAmount",
+    "Offer",
+    "OfferShippingDetails",
+    "OnlineStore",
+    "Organization",
+    "Person",
+    "PostalAddress",
+    "Product",
+    "QuantitativeValue",
+    "ShippingDeliveryTime"
+   ],
+   "jsonld_type_counts": {
+    "Organization": 3,
+    "OnlineStore": 1,
+    "ImageObject": 1,
+    "PostalAddress": 1,
+    "Person": 1,
+    "Country": 1,
+    "ContactPoint": 1,
+    "Product": 1,
+    "Brand": 1,
+    "AggregateRating": 1,
+    "Offer": 2,
+    "MerchantReturnPolicy": 2,
+    "OfferShippingDetails": 2,
+    "MonetaryAmount": 2,
+    "DefinedRegion": 2,
+    "ShippingDeliveryTime": 2,
+    "QuantitativeValue": 4,
+    "BreadcrumbList": 1,
+    "ListItem": 3
+   },
+   "product_jsonld": [
+    {
+     "name": "Creatină Creapure® monohidrată",
+     "url": "https://primesupplements.ro/products/creatina-creapure",
+     "brand": "Prime Supplements",
+     "has_description": true,
+     "description_len": 3990,
+     "image_count": 2,
+     "has_aggregateRating": true,
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5.0",
+      "worstRating": "1.0",
+      "ratingCount": 18
+     },
+     "sku": null,
+     "gtin": null,
+     "mpn": null
+    }
+   ],
+   "offers": [
+    {
+     "type": "Offer",
+     "price": 140.0,
+     "priceCurrency": "RON",
+     "availability": "https://schema.org/InStock",
+     "url": "https://primesupplements.ro/products/creatina-creapure?variant=56938509304183",
+     "sku": "6421766015109",
+     "priceValidUntil": "2027-11-05",
+     "lowPrice": null,
+     "highPrice": null,
+     "offerCount": null
+    },
+    {
+     "type": "Offer",
+     "price": 90.0,
+     "priceCurrency": "RON",
+     "availability": "https://schema.org/InStock",
+     "url": "https://primesupplements.ro/products/creatina-creapure?variant=56938509336951",
+     "sku": "6421766064404",
+     "priceValidUntil": "2027-11-05",
+     "lowPrice": null,
+     "highPrice": null,
+     "offerCount": null
+    }
+   ],
+   "aggregate_rating": {
+    "ratingValue": "5.0",
+    "reviewCount": 18
+   },
+   "faq_jsonld": 0,
+   "faq_visible_questions": [
+    "Creapure® sau creatină monohidrată: care e diferența?",
+    "Câte grame de creatină Creapure® iei pe zi?",
+    "Trebuie să faci fază de încărcare cu creatina Creapure®?",
+    "Când iei creatina Creapure®: înainte sau după antrenament?",
+    "Creatina Creapure® 300 g sau 500 g: ce diferă?",
+    "Este creatina Creapure® și pentru femei?",
+    "Cine nu ar trebui să folosească creatina Creapure®?"
+   ],
+   "details_count": 6,
+   "breadcrumbs": [
+    [
+     [
+      "Pagina principală",
+      "https://primesupplements.ro/"
+     ],
+     [
+      "Creatină",
+      "https://primesupplements.ro/collections/creatina"
+     ],
+     [
+      "Creatină Creapure® monohidrată",
+      "https://primesupplements.ro/products/creatina-creapure"
+     ]
+    ]
+   ],
+   "itemlist_sizes": [],
+   "collectionpage": [],
+   "og": {
+    "og:type": [
+     "product"
+    ],
+    "og:title": [
+     "Creatină Creapure® monohidrată 300/500 g | Prime Supplements"
+    ],
+    "og:image": [
+     "https://primesupplements.ro/cdn/shop/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722&width=2048"
+    ],
+    "og:image:secure_url": [
+     "https://primesupplements.ro/cdn/shop/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722&width=2048"
+    ],
+    "og:image:width": [
+     "2048"
+    ],
+    "og:image:height": [
+     "2048"
+    ],
+    "og:description": [
+     "Creatină Creapure®: un singur ingredient, creatină monohidrată. Tub de 300 g sau 500 g (60 sau 100 de porții), 3–5 g pe zi. Brand listat pe creapure.com."
+    ],
+    "og:url": [
+     "https://primesupplements.ro/products/creatina-creapure"
+    ],
+    "og:site_name": [
+     "Prime Supplements"
+    ],
+    "og:locale": [
+     "ro_RO"
+    ],
+    "twitter:card": [
+     "summary_large_image"
+    ],
+    "twitter:title": [
+     "Creatină Creapure® monohidrată 300/500 g | Prime Supplements"
+    ],
+    "twitter:description": [
+     "Creatina Creapure® de la Prime Supplements este un supliment alimentar pentru adulți, sub formă de pulbere, cu un singur ingredient: creatină monohidrată (Creapure®). Creapure® este o marcă înregistrată de creatină monohidrată; pe fața tubului scrie „made of Creapure®”, iar Prime Supplements apare pe creapure.com ca brand partener Creapure® (România). Creatina este un compus care se găsește în mod natural în organism, mai ales în mușchi. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care efectuează exerciții fizice de mare intensitate. Doza zilnică recomandată este de 3–5 g de creatină; pe durata utilizării consumi suficiente lichide pe parcursul zilei și nu depășești doza zilnică recomandată. Pulberea nu are aromă, așa că o"
+    ],
+    "twitter:image": [
+     "https://primesupplements.ro/cdn/shop/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722&width=1200"
+    ],
+    "twitter:image:alt": [
+     "Creatină Creapure® Prime Supplements: tub negru de 500 g, 100 de porții, „made of Creapure®” pe eticheta din față"
+    ]
+   },
+   "words_all": 3605,
+   "words_main": 3327,
+   "words_main_unique": 559,
+   "has_main_tag": true,
+   "images_total": 28,
+   "images_empty_alt": 2,
+   "first_p_after_h1": "Creatina Creapure® de la Prime Supplements este un supliment alimentar pentru adulți, sub formă de pulbere, cu un singur ingredient: creatină monohidrată (Creapure®). Creapure® este o marcă înregistrată de creatină monohidrată; pe fața tubului scrie „made of Creapure®”, iar Prime Supplements apare pe creapure.com ca brand partener Creapure® (România).",
+   "kw_title": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "kw_h1": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "kw_first_p": {
+    "creatină": true,
+    "creatina": true,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "kw_meta": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "eu_claim_hits": {
+    "performanța fizică": 9,
+    "scurtă durată": 9,
+    "intensitate": 20,
+    "3 g": 14,
+    "exerciții repetate / exercițiilor fizice repetate": 0
+   },
+   "eu_claim_sentences": [
+    "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+    "Pe scurt Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+    "com (România) EAN: 6421766015109 (500 g), 6421766064404 (300 g) Brand: Prime Supplements Distribuie Distribuie Adaugă în coș Creatină Creapure® monohidrată Preț redus 140,00 lei Preț normal 180,00 lei Adaugă în coș Beneficii cheie Creatina crește performanța fizică în eforturi succesive din timpul e",
+    "com (România) EAN: 6421766015109 (500 g), 6421766064404 (300 g) Brand: Prime Supplements Beneficii cheie Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate."
+   ],
+   "risky_wording": {
+    "masă musculară": 0,
+    "forță": 0,
+    "crește forța": 0
+   },
+   "availability_text_hits": {
+    "stoc epuizat": 0,
+    "epuizat": 0,
+    "indisponibil": 0,
+    "în stoc": 1,
+    "adaugă în coș": 3,
+    "sold out": 0
+   },
+   "product_links_in_page": [
+    "/products/cluster-bomb-1000g",
+    "/products/creatina-creapure",
+    "/products/creatina-monohidrat-micronized-300g-fara-aroma",
+    "/products/creatine-ready-to-go-plicuri-prime-supplements",
+    "/products/eaa-aminoacizi-esentiali",
+    "/products/emperor-mass_3000g",
+    "/products/nitrox-no-stim",
+    "/products/prime-whey-1000g",
+    "/products/prime-whey-2000g",
+    "/products/pure-isolate-2000g",
+    "https://pinterest.com/pin/create/button/\n",
+    "https://twitter.com/intent/tweet\n",
+    "https://www.facebook.com/sharer.php\n",
+    "mailto:\n"
+   ],
+   "file_bytes": 461968,
+   "faq_visible": 7,
+   "faq_markup": "<p><strong>întrebare?</strong></p><p>răspuns</p> sub H3 „Întrebări frecvente”",
+   "black_friday_mentions": 13,
+   "compare_at_price_text": [],
+   "sale_price_text": [],
+   "summary_accordions": 6
+  },
+  "creatina-monohidrat-micronized-300g-fara-aroma": {
+   "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+   "expected_url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+   "status_line": "HTTP/2 200 ",
+   "headers_select": {
+    "content-type": [
+     "text/html; charset=utf-8"
+    ],
+    "cache-control": [
+     "private, max-age=0, must-revalidate"
+    ],
+    "server": [
+     "cloudflare"
+    ],
+    "link": [
+     "</cart/56825168396663:1?ucp/version=2026-08-25>; rel=\"buy\"; payment=\"\", <https://cdn.shopify.com>; rel=\"preconnect\", <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin, <https://storefront-agent-server.shopify.ai>; rel=\"preconnect\", <//primesupplements.ro/cdn/shop/files/pandectes-rules.js?v=686457165062528870>; as=\"script\"; rel=\"preload\", <//primesupplements.ro/cdn/shop/t/15/assets/theme.css?v=18654040077085089121792864255>; as=\"style\"; rel=\"preload\", </.well-known/ucp>; rel=\"ucp\"; version=\"2026-08-25\""
+    ],
+    "content-language": [
+     "ro-RO"
+    ]
+   },
+   "html_lang": "ro",
+   "bot_page": false,
+   "title": "Creatină monohidrată micronizată 300 g | Prime Supplements",
+   "title_len": 58,
+   "meta_description": "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient.",
+   "meta_description_len": 144,
+   "canonical": [
+    "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma"
+   ],
+   "canonical_equals_url": true,
+   "robots_meta": [],
+   "noindex_anywhere_in_head_meta": false,
+   "hreflang": [],
+   "h1": [
+    "Creatină monohidrată micronizată fără aromă, 300 g"
+   ],
+   "h1_count": 1,
+   "h2_count": 10,
+   "h2_unique_count": 9,
+   "h2_unique": [
+    "Pe scurt",
+    "Ingrediente",
+    "Detalii produs",
+    "CREATINĂMONOHIDRATĂ MICRONIZATĂ",
+    "S-ar putea să-ți placă",
+    "Customer Reviews",
+    "Cele mai vândute",
+    "Categorii populare",
+    "Creatină monohidrată micronizată fără aromă: 5000 mg pe porție, tub de 300 g"
+   ],
+   "h3_count": 13,
+   "h3_unique_count": 10,
+   "h3_unique": [
+    "Cantități declarate",
+    "Atenționări de pe etichetă",
+    "Ce este creatina",
+    "Ce înseamnă creatină micronizată",
+    "Cum o prepari și ce scrie pe etichetă despre încărcare și menținere",
+    "Cât ține tubul de 300 g",
+    "Cele trei formate Prime: ce diferă",
+    "Cu ce combini creatina micronizată din gama Prime",
+    "Creatina micronizată fără aromă, criteriu cu criteriu",
+    "Întrebări frecvente"
+   ],
+   "jsonld_blocks": 3,
+   "jsonld_parse_errors": 0,
+   "jsonld_types": [
+    "AggregateRating",
+    "Brand",
+    "BreadcrumbList",
+    "ContactPoint",
+    "Country",
+    "DefinedRegion",
+    "ImageObject",
+    "ListItem",
+    "MerchantReturnPolicy",
+    "MonetaryAmount",
+    "Offer",
+    "OfferShippingDetails",
+    "OnlineStore",
+    "Organization",
+    "Person",
+    "PostalAddress",
+    "Product",
+    "QuantitativeValue",
+    "ShippingDeliveryTime"
+   ],
+   "jsonld_type_counts": {
+    "Organization": 2,
+    "OnlineStore": 1,
+    "ImageObject": 1,
+    "PostalAddress": 1,
+    "Person": 1,
+    "Country": 1,
+    "ContactPoint": 1,
+    "Product": 1,
+    "Brand": 1,
+    "AggregateRating": 1,
+    "Offer": 1,
+    "MerchantReturnPolicy": 1,
+    "OfferShippingDetails": 1,
+    "MonetaryAmount": 1,
+    "DefinedRegion": 1,
+    "ShippingDeliveryTime": 1,
+    "QuantitativeValue": 2,
+    "BreadcrumbList": 1,
+    "ListItem": 3
+   },
+   "product_jsonld": [
+    {
+     "name": "Creatină monohidrată micronizată fără aromă, 300 g",
+     "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+     "brand": "Prime Supplements",
+     "has_description": true,
+     "description_len": 4899,
+     "image_count": 3,
+     "has_aggregateRating": true,
+     "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5.0",
+      "worstRating": "1.0",
+      "ratingCount": 3
+     },
+     "sku": "6421766064107",
+     "gtin": "6421766064107",
+     "mpn": null
+    }
+   ],
+   "offers": [
+    {
+     "type": "Offer",
+     "price": 77.0,
+     "priceCurrency": "RON",
+     "availability": "https://schema.org/InStock",
+     "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma?variant=56825168396663",
+     "sku": "6421766064107",
+     "priceValidUntil": "2027-11-05",
+     "lowPrice": null,
+     "highPrice": null,
+     "offerCount": null
+    }
+   ],
+   "aggregate_rating": {
+    "ratingValue": "5.0",
+    "reviewCount": 3
+   },
+   "faq_jsonld": 0,
+   "faq_visible_questions": [
+    "Câtă creatină se ia pe zi și cât are o porție?",
+    "Când se ia creatina: înainte sau după antrenament?",
+    "Ce gust are creatina micronizată fără aromă?",
+    "Este creatina și pentru femei?",
+    "Cine nu ar trebui să folosească creatina?",
+    "Creatina micronizată conține alergeni?",
+    "Cum păstrezi creatina și când expiră?"
+   ],
+   "details_count": 6,
+   "breadcrumbs": [
+    [
+     [
+      "Pagina principală",
+      "https://primesupplements.ro/"
+     ],
+     [
+      "Creatină",
+      "https://primesupplements.ro/collections/creatina"
+     ],
+     [
+      "Creatină monohidrată micronizată fără aromă, 300 g",
+      "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma"
+     ]
+    ]
+   ],
+   "itemlist_sizes": [],
+   "collectionpage": [],
+   "og": {
+    "og:type": [
+     "product"
+    ],
+    "og:title": [
+     "Creatină monohidrată micronizată 300 g | Prime Supplements"
+    ],
+    "og:image": [
+     "https://primesupplements.ro/cdn/shop/files/ALLMERCH-CREATINE300g1.jpg?v=1772583366&width=2048"
+    ],
+    "og:image:secure_url": [
+     "https://primesupplements.ro/cdn/shop/files/ALLMERCH-CREATINE300g1.jpg?v=1772583366&width=2048"
+    ],
+    "og:image:width": [
+     "2048"
+    ],
+    "og:image:height": [
+     "2069"
+    ],
+    "og:description": [
+     "Creatină monohidrată micronizată fără aromă: tub de 300 g, 60 de porții de 5 g, 5000 mg de creatină monohidrată pe porție, un singur ingredient."
+    ],
+    "og:url": [
+     "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma"
+    ],
+    "og:site_name": [
+     "Prime Supplements"
+    ],
+    "og:locale": [
+     "ro_RO"
+    ],
+    "twitter:card": [
+     "summary_large_image"
+    ],
+    "twitter:title": [
+     "Creatină monohidrată micronizată 300 g | Prime Supplements"
+    ],
+    "twitter:description": [
+     "Creatină monohidrată micronizată fără aromă de la Prime Supplements: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată (denumirea de pe etichetă). Tubul de 300 g are 60 de porții de 5 g și măsură de dozare inclusă; un singur ingredient, fără arome, îndulcitori sau coloranți. O porție de 5 g (½ măsură) furnizează 5000 mg de creatină monohidrată și se amestecă în 300–500 ml de apă. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține în condițiile unui consum zilnic de 3 g de creatină. Mențiunea se referă la adulții care efectuează exerciții fizice de mare intensitate. Eticheta descrie o fază de încărcare, calculată după greutatea corporală, și o perioadă de menținere (textul complet este în „Detalii produs”); urmezi eticheta și nu"
+    ],
+    "twitter:image": [
+     "https://primesupplements.ro/cdn/shop/files/ALLMERCH-CREATINE300g1.jpg?v=1772583366&width=1200"
+    ],
+    "twitter:image:alt": [
+     "Creatină monohidrată micronizată fără aromă Prime Supplements, tub alb de 300 g cu 60 de porții de 5 g, din față"
+    ]
+   },
+   "words_all": 4316,
+   "words_main": 4038,
+   "words_main_unique": 579,
+   "has_main_tag": true,
+   "images_total": 30,
+   "images_empty_alt": 2,
+   "first_p_after_h1": "Creatină monohidrată micronizată fără aromă de la Prime Supplements: supliment alimentar pentru adulți, sub formă de pulbere ce conține 100% creatină monohidrată (denumirea de pe etichetă). Tubul de 300 g are 60 de porții de 5 g și măsură de dozare inclusă; un singur ingredient, fără arome, îndulcitori sau coloranți.",
+   "kw_title": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": true
+   },
+   "kw_h1": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": true
+   },
+   "kw_first_p": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": true
+   },
+   "kw_meta": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": true
+   },
+   "eu_claim_hits": {
+    "performanța fizică": 8,
+    "scurtă durată": 8,
+    "intensitate": 19,
+    "3 g": 12,
+    "exerciții repetate / exercițiilor fizice repetate": 0
+   },
+   "eu_claim_sentences": [
+    "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+    "Pe scurt Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+    "Sibiu, România EAN: 6421766064107 Brand: Prime Supplements Distribuie Distribuie Adaugă în coș Creatină monohidrată micronizată fără aromă, 300 g Preț redus 77,00 lei Preț normal 98,00 lei Adaugă în coș Beneficii cheie Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor ",
+    "Sibiu, România EAN: 6421766064107 Brand: Prime Supplements Beneficii cheie Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate."
+   ],
+   "risky_wording": {
+    "masă musculară": 0,
+    "forță": 0,
+    "crește forța": 0
+   },
+   "availability_text_hits": {
+    "stoc epuizat": 0,
+    "epuizat": 0,
+    "indisponibil": 0,
+    "în stoc": 1,
+    "adaugă în coș": 3,
+    "sold out": 0
+   },
+   "product_links_in_page": [
+    "/products/cluster-bomb-1000g",
+    "/products/creatina-creapure",
+    "/products/creatina-monohidrat-micronized-300g-fara-aroma",
+    "/products/creatine-ready-to-go-plicuri-prime-supplements",
+    "/products/eaa-aminoacizi-esentiali",
+    "/products/emperor-mass_3000g",
+    "/products/nitrox-no-stim",
+    "/products/prime-whey-1000g",
+    "/products/prime-whey-2000g",
+    "/products/pure-isolate-2000g",
+    "https://pinterest.com/pin/create/button/\n",
+    "https://twitter.com/intent/tweet\n",
+    "https://www.facebook.com/sharer.php\n",
+    "mailto:\n"
+   ],
+   "file_bytes": 466194,
+   "faq_visible": 7,
+   "faq_markup": "<p><strong>întrebare?</strong></p><p>răspuns</p> sub H3 „Întrebări frecvente”",
+   "black_friday_mentions": 13,
+   "compare_at_price_text": [],
+   "sale_price_text": [],
+   "summary_accordions": 6
+  },
+  "creatina": {
+   "handle": "creatina",
+   "expected_url": "https://primesupplements.ro/collections/creatina",
+   "status_line": "HTTP/2 200 ",
+   "headers_select": {
+    "content-type": [
+     "text/html; charset=utf-8"
+    ],
+    "cache-control": [
+     "private, max-age=0, must-revalidate"
+    ],
+    "server": [
+     "cloudflare"
+    ],
+    "link": [
+     "<https://cdn.shopify.com>; rel=\"preconnect\", <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin, <https://storefront-agent-server.shopify.ai>; rel=\"preconnect\", <//primesupplements.ro/cdn/shop/files/pandectes-rules.js?v=686457165062528870>; as=\"script\"; rel=\"preload\", <//primesupplements.ro/cdn/shop/t/15/assets/theme.css?v=18654040077085089121792864255>; as=\"style\"; rel=\"preload\", </.well-known/ucp>; rel=\"ucp\"; version=\"2026-08-25\""
+    ],
+    "content-language": [
+     "ro-RO"
+    ]
+   },
+   "html_lang": "ro",
+   "bot_page": false,
+   "title": "Creatină monohidrată: pudră și plicuri | Prime Supplements",
+   "title_len": 58,
+   "meta_description": "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g.",
+   "meta_description_len": 153,
+   "canonical": [
+    "https://primesupplements.ro/collections/creatina"
+   ],
+   "canonical_equals_url": true,
+   "robots_meta": [],
+   "noindex_anywhere_in_head_meta": false,
+   "hreflang": [],
+   "h1": [
+    "Creatină"
+   ],
+   "h1_count": 1,
+   "h2_count": 5,
+   "h2_unique_count": 5,
+   "h2_unique": [
+    "Creatină monohidrată: ce formă alegi",
+    "Ce face creatina",
+    "Întrebări frecvente",
+    "Alte categorii",
+    "Ghiduri și sfaturi utile"
+   ],
+   "h3_count": 4,
+   "h3_unique_count": 4,
+   "h3_unique": [
+    "Câtă creatină se ia pe zi?",
+    "Creapure® sau micronizată?",
+    "Pudră sau plicuri?",
+    "Iau deja un pre-workout. Mai am nevoie de creatină?"
+   ],
+   "jsonld_blocks": 2,
+   "jsonld_parse_errors": 0,
+   "jsonld_types": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "ContactPoint",
+    "Country",
+    "ImageObject",
+    "ItemList",
+    "ListItem",
+    "OnlineStore",
+    "Organization",
+    "Person",
+    "PostalAddress"
+   ],
+   "jsonld_type_counts": {
+    "Organization": 1,
+    "OnlineStore": 1,
+    "ImageObject": 2,
+    "PostalAddress": 1,
+    "Person": 1,
+    "Country": 1,
+    "ContactPoint": 1,
+    "CollectionPage": 1,
+    "ItemList": 1,
+    "ListItem": 5,
+    "BreadcrumbList": 1
+   },
+   "product_jsonld": [],
+   "offers": [],
+   "aggregate_rating": null,
+   "faq_jsonld": 0,
+   "faq_visible_questions": [
+    "Câtă creatină se ia pe zi?",
+    "Creapure® sau micronizată?",
+    "Pudră sau plicuri?",
+    "Iau deja un pre-workout. Mai am nevoie de creatină?"
+   ],
+   "details_count": 5,
+   "breadcrumbs": [
+    [
+     [
+      "Pagina principală",
+      "https://primesupplements.ro/"
+     ],
+     [
+      "Creatină",
+      "https://primesupplements.ro/collections/creatina"
+     ]
+    ]
+   ],
+   "itemlist_sizes": [
+    3
+   ],
+   "collectionpage": [
+    {
+     "name": "Creatină",
+     "url": "https://primesupplements.ro/collections/creatina"
+    }
+   ],
+   "og": {
+    "og:type": [
+     "website"
+    ],
+    "og:title": [
+     "Creatină monohidrată: pudră și plicuri | Prime Supplements"
+    ],
+    "og:image": [
+     "https://primesupplements.ro/cdn/shop/collections/Creatina-Creapure-front.jpg?v=1792075056&width=2048"
+    ],
+    "og:image:secure_url": [
+     "https://primesupplements.ro/cdn/shop/collections/Creatina-Creapure-front.jpg?v=1792075056&width=2048"
+    ],
+    "og:image:width": [
+     "1500"
+    ],
+    "og:image:height": [
+     "1500"
+    ],
+    "og:description": [
+     "Creatină monohidrată în trei formate: creatină Creapure® 300 g sau 500 g, pudră micronizată fără aromă 300 g și plicuri efervescente Ready To Go de 10 g."
+    ],
+    "og:url": [
+     "https://primesupplements.ro/collections/creatina"
+    ],
+    "og:site_name": [
+     "Prime Supplements"
+    ],
+    "og:locale": [
+     "ro_RO"
+    ],
+    "twitter:card": [
+     "summary_large_image"
+    ],
+    "twitter:title": [
+     "Creatină monohidrată: pudră și plicuri | Prime Supplements"
+    ],
+    "twitter:description": [
+     "Creatină monohidrată Prime Supplements în trei formate, cu 5 g de creatină monohidrată per porție. Alege între creatină Creapure® la 300 g (60 de porții) sau 500 g (100 de porții), creatină monohidrată micronizată fără aromă la 300 g și plicuri efervescente Ready To Go de 10 g. Pudra din tuburi are un singur ingredient, iar conținutul plicului se dizolvă în 200–300 ml de apă. Suplimente alimentare pentru adulții care fac antrenamente de mare intensitate. Respectă doza de pe etichetă."
+    ],
+    "twitter:image": [
+     "https://primesupplements.ro/cdn/shop/collections/Creatina-Creapure-front.jpg?v=1792075056&width=1200"
+    ],
+    "twitter:image:alt": [
+     "Tub Creatine made of Creapure® 500 g (100 de porții), creatină monohidrată Prime Supplements, vedere din față"
+    ]
+   },
+   "words_all": 1092,
+   "words_main": 814,
+   "words_main_unique": 338,
+   "has_main_tag": true,
+   "images_total": 17,
+   "images_empty_alt": 2,
+   "first_p_after_h1": "Creatină monohidrată Prime Supplements în trei formate, cu 5 g de creatină monohidrată per porție. Alege între creatină Creapure® la 300 g (60 de porții) sau 500 g (100 de porții), creatină monohidrată micronizată fără aromă la 300 g și plicuri efervescente Ready To Go de 10 g.",
+   "kw_title": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": true
+   },
+   "kw_h1": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": false,
+    "monohidrat": false
+   },
+   "kw_first_p": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "kw_meta": {
+    "creatină": true,
+    "creatina": false,
+    "creapure": true,
+    "monohidrat": true
+   },
+   "eu_claim_hits": {
+    "performanța fizică": 1,
+    "scurtă durată": 1,
+    "intensitate": 2,
+    "3 g": 1,
+    "exerciții repetate / exercițiilor fizice repetate": 0
+   },
+   "eu_claim_sentences": [
+    "Ce face creatina Creatina crește performanța fizică în cazul exercițiilor succesive de scurtă durată și intensitate ridicată."
+   ],
+   "risky_wording": {
+    "masă musculară": 0,
+    "forță": 0,
+    "crește forța": 0
+   },
+   "availability_text_hits": {
+    "stoc epuizat": 0,
+    "epuizat": 0,
+    "indisponibil": 0,
+    "în stoc": 2,
+    "adaugă în coș": 0,
+    "sold out": 0
+   },
+   "product_links_in_page": [
+    "/products/creatina-creapure",
+    "/products/creatina-monohidrat-micronized-300g-fara-aroma",
+    "/products/creatine-ready-to-go-plicuri-prime-supplements"
+   ],
+   "file_bytes": 374175,
+   "faq_visible": 4,
+   "faq_markup": "<h3>întrebare?</h3><p>răspuns</p> sub H2 „Întrebări frecvente”",
+   "black_friday_mentions": 13,
+   "compare_at_price_text": [],
+   "sale_price_text": [],
+   "summary_accordions": 5
+  }
+ },
+ "robots_txt": {
+  "bytes": 2862,
+  "disallow_lines": [
+   "Disallow: /admin",
+   "Disallow: /cart/",
+   "Disallow: /*/cart/",
+   "Disallow: /checkout",
+   "Disallow: /*/checkout",
+   "Disallow: /checkouts/",
+   "Disallow: /*/checkouts/",
+   "Disallow: /orders",
+   "Disallow: /*/orders",
+   "Disallow: /account",
+   "Disallow: /*/account",
+   "Disallow: /91751383415",
+   "Disallow: /cdn/wpm/*.js",
+   "Disallow: /services",
+   "Disallow: /sf_*",
+   "Disallow: /cart.js",
+   "Disallow: /*/cart.js",
+   "Disallow: /recommendations/products",
+   "Disallow: /*/recommendations/products",
+   "Disallow: /collections/*sort_by*",
+   "Disallow: /*/collections/*sort_by*",
+   "Disallow: /collections/*+*",
+   "Disallow: /collections/*%2B*",
+   "Disallow: /collections/*%2b*",
+   "Disallow: /*/collections/*+*",
+   "Disallow: /*/collections/*%2B*",
+   "Disallow: /*/collections/*%2b*",
+   "Disallow: /collections/*filter*&*filter*",
+   "Disallow: /*/collections/*filter*&*filter*",
+   "Disallow: /blogs/*+*",
+   "Disallow: /blogs/*%2B*",
+   "Disallow: /blogs/*%2b*",
+   "Disallow: /*/blogs/*+*",
+   "Disallow: /*/blogs/*%2B*",
+   "Disallow: /*/blogs/*%2b*",
+   "Disallow: /*?*ls=*&ls=*",
+   "Disallow: /*?*ls%3*ls%3*",
+   "Disallow: /*?*oseid=*",
+   "Disallow: /*?*preview_theme_id=*",
+   "Disallow: /*?*preview_script_id=*",
+   "Disallow: /checkout",
+   "Disallow: /*/checkout",
+   "Disallow: /checkouts/",
+   "Disallow: /*/checkouts/",
+   "Disallow: /orders",
+   "Disallow: /*/orders",
+   "Disallow: /services",
+   "Disallow: /sf_*",
+   "Disallow: /91751383415",
+   "Disallow: /cdn/wpm/*.js"
+  ],
+  "sitemaps": [
+   "https://primesupplements.ro/sitemap.xml"
+  ],
+  "disallow_relevant_to_creatine": [
+   "Disallow: /recommendations/products",
+   "Disallow: /*/recommendations/products",
+   "Disallow: /collections/*sort_by*",
+   "Disallow: /*/collections/*sort_by*",
+   "Disallow: /collections/*+*",
+   "Disallow: /collections/*%2B*",
+   "Disallow: /collections/*%2b*",
+   "Disallow: /*/collections/*+*",
+   "Disallow: /*/collections/*%2B*",
+   "Disallow: /*/collections/*%2b*",
+   "Disallow: /collections/*filter*&*filter*",
+   "Disallow: /*/collections/*filter*&*filter*"
+  ]
+ },
+ "sitemap_index_locs": [
+  "https://primesupplements.ro/sitemap_agentic_discovery.xml",
+  "https://primesupplements.ro/sitemap_products_1.xml?from=14971464450423&to=15589241651575",
+  "https://primesupplements.ro/sitemap_pages_1.xml?from=691260457335&to=704861569399",
+  "https://primesupplements.ro/sitemap_collections_1.xml?from=670994334071&to=699470741879",
+  "https://primesupplements.ro/sitemap_blogs_1.xml",
+  "https://primesupplements.ro/sitemap_articles_1.xml"
+ ],
+ "sitemap_products_count": 213,
+ "sitemap_collections_count": 19,
+ "sitemap_creatine_pages": {
+  "creatina-creapure": {
+   "loc": "https://primesupplements.ro/products/creatina-creapure",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  "creatina-monohidrat-micronized-300g-fara-aroma": {
+   "loc": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  "creatine-ready-to-go-plicuri-prime-supplements": {
+   "loc": "https://primesupplements.ro/products/creatine-ready-to-go-plicuri-prime-supplements",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  "creatina (collection)": {
+   "loc": "https://primesupplements.ro/collections/creatina",
+   "lastmod": "2026-11-05T14:44:52+02:00",
+   "changefreq": "daily",
+   "images": 1
+  }
+ },
+ "sitemap_all_creat_entries": [
+  {
+   "loc": "https://primesupplements.ro/products/creatina-creapure",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/products/creatine-ready-to-go-plicuri-prime-supplements",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/products/pachet-pump-combat-pro-creatina-creapure%C2%AE-300-g-glycerol-max-pump",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/products/pachet-strength-creatina-creapure%C2%AE-500-g-magneziu-bisglicinat-vitamina-d3-k2",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/products/pachet-complet-2-kg-prime-whey-2-kg-creatina-creapure%C2%AE-300-g-aminoacizi-eaa",
+   "lastmod": "2026-11-05T14:59:17+02:00",
+   "changefreq": "daily",
+   "images": 1
+  },
+  {
+   "loc": "https://primesupplements.ro/collections/creatina",
+   "lastmod": "2026-11-05T14:44:52+02:00",
+   "changefreq": "daily",
+   "images": 1
+  }
+ ],
+ "duplicate_titles_among_3": [],
+ "note_metode": {
+  "words_main_unique": "calcul propriu (tokeni unici, lowercase) – NU e comparabil cu baseline (page_metrics.py lipsește din repo); words_main (toate cuvintele din <main>) este comparabil: baseline A 3339 / B 2734 / C 562.",
+  "faq_visible": "numărul de întrebări cu „?” în <strong> (produse) sau <h3> (colecție) în blocul „Întrebări frecvente”."
+ }
+}

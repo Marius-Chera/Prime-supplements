@@ -1,0 +1,220 @@
+{
+ "sursa": "interogari proprii 2026-11-05: FROM sessions SHOW sessions TIMESERIES day SINCE 2026-10-12 UNTIL 2026-11-04 WHERE utm_source='google' AND utm_medium='cpc' [AND landing_page_path IN (37 marja-mare | 21 volum)]; total din google-channel q9",
+ "zilnic": [
+  {
+   "zi": "12.10",
+   "total_cpc": 59,
+   "marja-mare_37pag": 17,
+   "volum_21pag": 28,
+   "rest(exclus+neetichetate)": 14
+  },
+  {
+   "zi": "13",
+   "total_cpc": 59,
+   "marja-mare_37pag": 17,
+   "volum_21pag": 29,
+   "rest(exclus+neetichetate)": 13
+  },
+  {
+   "zi": "14",
+   "total_cpc": 53,
+   "marja-mare_37pag": 12,
+   "volum_21pag": 24,
+   "rest(exclus+neetichetate)": 17
+  },
+  {
+   "zi": "15",
+   "total_cpc": 90,
+   "marja-mare_37pag": 16,
+   "volum_21pag": 46,
+   "rest(exclus+neetichetate)": 28
+  },
+  {
+   "zi": "16",
+   "total_cpc": 84,
+   "marja-mare_37pag": 16,
+   "volum_21pag": 39,
+   "rest(exclus+neetichetate)": 29
+  },
+  {
+   "zi": "17",
+   "total_cpc": 68,
+   "marja-mare_37pag": 9,
+   "volum_21pag": 26,
+   "rest(exclus+neetichetate)": 33
+  },
+  {
+   "zi": "18",
+   "total_cpc": 85,
+   "marja-mare_37pag": 10,
+   "volum_21pag": 38,
+   "rest(exclus+neetichetate)": 37
+  },
+  {
+   "zi": "19",
+   "total_cpc": 23,
+   "marja-mare_37pag": 8,
+   "volum_21pag": 9,
+   "rest(exclus+neetichetate)": 6
+  },
+  {
+   "zi": "20",
+   "total_cpc": 22,
+   "marja-mare_37pag": 5,
+   "volum_21pag": 10,
+   "rest(exclus+neetichetate)": 7
+  },
+  {
+   "zi": "21",
+   "total_cpc": 23,
+   "marja-mare_37pag": 1,
+   "volum_21pag": 14,
+   "rest(exclus+neetichetate)": 8
+  },
+  {
+   "zi": "22",
+   "total_cpc": 18,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 15,
+   "rest(exclus+neetichetate)": 3
+  },
+  {
+   "zi": "23",
+   "total_cpc": 18,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 16,
+   "rest(exclus+neetichetate)": 2
+  },
+  {
+   "zi": "24",
+   "total_cpc": 7,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 7,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "25",
+   "total_cpc": 21,
+   "marja-mare_37pag": 1,
+   "volum_21pag": 19,
+   "rest(exclus+neetichetate)": 1
+  },
+  {
+   "zi": "26",
+   "total_cpc": 16,
+   "marja-mare_37pag": 1,
+   "volum_21pag": 14,
+   "rest(exclus+neetichetate)": 1
+  },
+  {
+   "zi": "27",
+   "total_cpc": 31,
+   "marja-mare_37pag": 2,
+   "volum_21pag": 28,
+   "rest(exclus+neetichetate)": 1
+  },
+  {
+   "zi": "28",
+   "total_cpc": 14,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 14,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "29",
+   "total_cpc": 16,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 16,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "30",
+   "total_cpc": 15,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 14,
+   "rest(exclus+neetichetate)": 1
+  },
+  {
+   "zi": "31",
+   "total_cpc": 15,
+   "marja-mare_37pag": 0,
+   "volum_21pag": 15,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "01.11",
+   "total_cpc": 27,
+   "marja-mare_37pag": 8,
+   "volum_21pag": 19,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "02",
+   "total_cpc": 20,
+   "marja-mare_37pag": 12,
+   "volum_21pag": 8,
+   "rest(exclus+neetichetate)": 0
+  },
+  {
+   "zi": "03",
+   "total_cpc": 19,
+   "marja-mare_37pag": 6,
+   "volum_21pag": 12,
+   "rest(exclus+neetichetate)": 1
+  },
+  {
+   "zi": "04",
+   "total_cpc": 20,
+   "marja-mare_37pag": 11,
+   "volum_21pag": 9,
+   "rest(exclus+neetichetate)": 0
+  }
+ ],
+ "sume": {
+  "12-18.10": {
+   "total": 498,
+   "marja-mare": 97,
+   "volum": 230,
+   "rest": 171,
+   "cota_marja-mare_%": 19.5,
+   "cota_volum_%": 46.2,
+   "cota_rest_%": 34.3
+  },
+  "19-25.10": {
+   "total": 132,
+   "marja-mare": 15,
+   "volum": 90,
+   "rest": 27,
+   "cota_marja-mare_%": 11.4,
+   "cota_volum_%": 68.2,
+   "cota_rest_%": 20.5
+  },
+  "26.10-01.11": {
+   "total": 134,
+   "marja-mare": 11,
+   "volum": 120,
+   "rest": 3,
+   "cota_marja-mare_%": 8.2,
+   "cota_volum_%": 89.6,
+   "cota_rest_%": 2.2
+  },
+  "22-31.10 (10 zile)": {
+   "total": 171,
+   "marja-mare": 4,
+   "volum": 158,
+   "rest": 9,
+   "cota_marja-mare_%": 2.3,
+   "cota_volum_%": 92.4,
+   "cota_rest_%": 5.3
+  },
+  "01-04.11 (4 zile)": {
+   "total": 86,
+   "marja-mare": 37,
+   "volum": 48,
+   "rest": 1,
+   "cota_marja-mare_%": 43.0,
+   "cota_volum_%": 55.8,
+   "cota_rest_%": 1.2
+  }
+ }
+}

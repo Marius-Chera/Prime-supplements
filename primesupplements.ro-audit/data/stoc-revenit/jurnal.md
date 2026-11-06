@@ -15,3 +15,7 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-03 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 7→6); nicio campanie pregătită.
 - 2026-11-04 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 6→4); nicio campanie pregătită.
 - 2026-11-05 · Nicio revenire în stoc (toate produsele cu stoc 0 ieri au rămas la 0; crema de orez caramel sărat 14→10, tort de ciocolată 13→4); nicio campanie pregătită.
+- 2026-11-06 · Omega-3 (stoc 147, 169 comenzi/180 zile) · campanie 6aed7d663f2281628300bdde (ciornă, 07.11 10:00) · segment 6aed7d1eb579b469f1070a23 · ~85 destinatari (înainte de excluderi)
+- 2026-11-06 · Citrat de zinc 40 mg (stoc 154, 88 comenzi) · campanie 6aed7d9168fbf20afc0107f5 (ciornă) · segment 6aed7d1fe44d2e7a6805f224 · ~50 destinatari
+- 2026-11-06 · Nattokinază (stoc 97, 60 comenzi) · campanie 6aed7db31c0ab27fd1037f7f (ciornă) · segment 6aed7d21bb500abce40807bb · ~37 destinatari
+- 2026-11-06 · Frutilu mango (110) și pepene roșu (134): nu s-au refăcut, ciorne existente în theMarketer din 31.10 (6ae59460466bd6e97b081b0d, 6ae59488a8a349ecb80182ad), nemenționate în acest jurnal.

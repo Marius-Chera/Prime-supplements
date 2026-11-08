@@ -20,3 +20,4 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-06 · Nattokinază (stoc 97, 60 comenzi) · campanie 6aed7db31c0ab27fd1037f7f (ciornă) · segment 6aed7d21bb500abce40807bb · ~37 destinatari
 - 2026-11-06 · Frutilu mango (110) și pepene roșu (134): nu s-au refăcut, ciorne existente în theMarketer din 31.10 (6ae59460466bd6e97b081b0d, 6ae59488a8a349ecb80182ad), nemenționate în acest jurnal.
 - 2026-11-07 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez caramel sărat 6→0, fără aromă 3→2); nicio campanie pregătită.
+- 2026-11-08 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 2, set degustare Frutilu 7); nicio campanie pregătită.

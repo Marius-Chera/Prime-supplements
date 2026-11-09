@@ -116,13 +116,14 @@ Estimare: o sesiune lungă de lucru (pașii 1–8), plus 20–30 de minute cu Ma
 
 **Unde:** panoul tău, `bp66vh-bq.myshopify.com/apps/chat/admin` (mai târziu `mariuschera.ro/apps/chat/admin`), logat cu contul tău.
 
-1. **Alege clientul** din lista din stânga. În bara de sus a conversației apeși **„📋 Plan”** (scrie și versiunea curentă, ex. „Plan v3”, sau „(niciunul)” dacă nu are încă plan).
-2. **Scrie sau corectează textul** planului în caseta mare (secțiunile `## Mese`, `## Antrenament`, `## Suplimente`, `## Cardio`, `## Note`). La primul plan pornești de la model. Textul poate rămâne gol dacă planul e doar un fișier.
-3. **Adaugă fișiere** cu **„📎 Adaugă fișiere”**: PDF, poze, Word (.doc/.docx), Excel (.xls/.xlsx), max. 20 MB fiecare. Apar ca etichete sub text; **✕** le scoate din versiunea nouă. Fișierele versiunii anterioare apar deja (cu chenar punctat) și rămân dacă nu le scoți.
-4. **„Ce s-a schimbat și de ce”** (opțional): o propoziție; rămâne în istoric și o vede clientul sub „Ce s-a schimbat”.
-5. **„Trimite și în chat”** (bifă, opțional): planul pleacă și ca mesaj de la tine în conversație, cu fișierele atașate și linkul către pagina „Planul actual”. Poți scrie un mesaj scurt în căsuța care apare (ex. „Citeste cu atentie sectiunea Mese”).
-6. Apeși **„Salvează ca versiune nouă”**. Gata: clientul vede noua versiune la **„Planul actual”** (fila din chat + pagina `/apps/chat/plan` + linkul din antetul site-ului), iar după un minut primește **e-mail + notificare pe telefon** „Planul tău a fost actualizat” (la primul plan: „Planul tău e gata”). Mesajele vechi din chat cu planuri rămân acolo.
-7. **Istoricul:** lista „Istoric…” din dreapta casetei arată toate versiunile (dată, actuală/veche, câte fișiere, dacă a fost în chat, nota). Alegi una → îi vezi textul și fișierele; **„↗ Trimite din nou în chat”** o retrimite (cu mesaj opțional); dacă apeși „Salvează”, devine versiune nouă.
-8. **„Clientul vede istoricul”** (bifa mică din dreapta): oprită implicit → clientul vede doar versiunea curentă; pornită → vede sub plan și versiunile vechi (dată, notă, fișiere de descărcat). Se aplică la toți clienții.
+*(9.11 seara, decizia lui Marius: planul e DOAR text, fără fișiere atașate – secțiunea de fișiere a fost scoasă din panou și din paginile clientului.)*
 
-**Bine de știut:** fișierele sunt private (link doar din contul clientului, 10 minute, apoi se reface singur); Word/Excel se descarcă, PDF-urile și pozele se văd în pagină; AI-ul folosește doar textul planului, nu fișierele. Pe telefon totul e pe o coloană, cu butoane mari. Dacă vrei să schimbi doar o poză, deschizi planul, scoți poza veche cu ✕, adaugi una nouă și salvezi – textul rămâne.
+1. **Alege clientul** din lista din stânga. În bara de sus a conversației apeși **„📋 Plan”** (scrie și versiunea curentă, ex. „Plan v3”, sau „(niciunul)” dacă nu are încă plan).
+2. **Scrie sau corectează textul** planului în caseta mare, exact cum vrei să-l vadă clientul: rândurile scrise unul sub altul rămân împreună, un rând gol lasă spațiu, două rânduri goale lasă spațiu mare. Poți folosi și titluri cu `##` sau liste cu `-`, dar nu e nevoie.
+3. **„Ce s-a schimbat și de ce”** (opțional): o propoziție; rămâne în istoric și o vede clientul sub „Ce s-a schimbat”.
+4. **„Trimite și în chat”** (bifă, opțional): planul pleacă și ca mesaj de la tine în conversație, cu linkul către pagina „Planul actual”. Poți scrie un mesaj scurt în căsuța care apare (ex. „Citeste cu atentie sectiunea Mese”).
+5. Apeși **„Salvează ca versiune nouă”**. Gata: clientul vede noua versiune la **„Planul actual”** (fila din chat + pagina `/apps/chat/plan` + linkul din antetul site-ului), iar după un minut primește **e-mail + notificare pe telefon** „Planul tău a fost actualizat” (la primul plan: „Planul tău e gata”). Mesajele vechi din chat cu planuri rămân acolo.
+6. **Istoricul:** lista „Istoric…” din dreapta casetei arată toate versiunile (dată, actuală/veche, dacă a fost în chat, nota). Alegi una → îi vezi textul; **„↗ Trimite din nou în chat”** o retrimite (cu mesaj opțional); dacă apeși „Salvează”, devine versiune nouă.
+7. **„Clientul vede istoricul”** (bifa mică din dreapta): oprită implicit → clientul vede doar versiunea curentă; pornită → vede sub plan și versiunile vechi (dată, notă). Se aplică la toți clienților.
+
+**Check-in cu poze (9.11 seara):** în fila „Check-in” clientul are butonul **„📷 Adaugă poze”** (față, lateral, spate); cifrele și pozele ajung la tine în chat într-un singur mesaj.

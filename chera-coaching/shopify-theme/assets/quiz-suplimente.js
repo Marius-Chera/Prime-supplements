@@ -219,14 +219,14 @@ deficitFull: {
 
 /* ===== baza pentru toată lumea ===== */
 base: [
- {n:"Creatină Creapure (Prime Supplements)", d:"3–5 g", t:"zilnic, oricând", w:"Forță, volum muscular, recuperare. Nu trebuie încărcată și nu trebuie ciclată."},
- {n:"Prime Whey sau Pure Isolate (Prime Supplements)", d:"30–40 g", t:"când nu atingi proteinele din mâncare, de obicei după antrenament", w:"Comoditate; mâncarea rămâne baza."},
- {n:"Omega-3 (Prime Supplements)", d:"2 g EPA + DHA", t:"la mese", w:"Articulații, inflamație, inimă, creier."},
- {n:"Vitamina D3 + K2 (Prime Supplements)", d:"2.000 UI + 100 µg (doza finală după analize)", t:"dimineața", w:"Imunitate, oase, forță, dispoziție."},
- {n:"Magneziu bisglicinat 300 mg (Prime Supplements)", d:"1 capsulă (300 mg)", t:"seara", w:"Somn și recuperare; aproape toți sportivii pierd magneziu prin transpirație."},
- {n:"Potassium Complex (Prime Supplements) + un vârf de sare în sticlă", d:"3 capsule + 1 g sare", t:"în zilele cu antrenamente de peste 60 de minute", w:"Electroliți: performanță și fără crampe."},
- {n:"Daily Vitamin Formula (Prime Supplements)", d:"1 plic", t:"dimineața, cu mâncare", w:"Vitamine, minerale, colină și enzime: asigurare pe definire, când mănânci mai puțin."},
- {n:"Fiber (Prime Supplements)", d:"10 g (7,4 g fibre)", t:"înainte de masă, cu apă multă, departe de celelalte suplimente", w:"Dacă mănânci puține legume; digestie și sațietate pe definire."}
+ {p:["creatina"],n:"Creatină Creapure (Prime Supplements)", d:"3–5 g", t:"zilnic, oricând", w:"Forță, volum muscular, recuperare. Nu trebuie încărcată și nu trebuie ciclată."},
+ {p:["whey"],n:"Prime Whey sau Pure Isolate (Prime Supplements)", d:"30–40 g", t:"când nu atingi proteinele din mâncare, de obicei după antrenament", w:"Comoditate; mâncarea rămâne baza."},
+ {p:["omega3"],n:"Omega-3 (Prime Supplements)", d:"2 g EPA + DHA", t:"la mese", w:"Articulații, inflamație, inimă, creier."},
+ {p:["d3k2"],n:"Vitamina D3 + K2 (Prime Supplements)", d:"2.000 UI + 100 µg (doza finală după analize)", t:"dimineața", w:"Imunitate, oase, forță, dispoziție."},
+ {p:["magneziu"],n:"Magneziu bisglicinat 300 mg (Prime Supplements)", d:"1 capsulă (300 mg)", t:"seara", w:"Somn și recuperare; aproape toți sportivii pierd magneziu prin transpirație."},
+ {p:["potasiu"],n:"Potassium Complex (Prime Supplements) + un vârf de sare în sticlă", d:"3 capsule + 1 g sare", t:"în zilele cu antrenamente de peste 60 de minute", w:"Electroliți: performanță și fără crampe."},
+ {p:["multi"],n:"Daily Vitamin Formula (Prime Supplements)", d:"1 plic", t:"dimineața, cu mâncare", w:"Vitamine, minerale, colină și enzime: asigurare pe definire, când mănânci mai puțin."},
+ {p:["fiber"],n:"Fiber (Prime Supplements)", d:"10 g (7,4 g fibre)", t:"înainte de masă, cu apă multă, departe de celelalte suplimente", w:"Dacă mănânci puține legume; digestie și sațietate pe definire."}
 ]
 });
 
@@ -243,19 +243,19 @@ const MOMENTS=[["am","Dimineața"],["meal","La mese"],["pre","Înainte de antren
 
 const R={
  tirozina:{k:"tirozina",m:"am",n:"L-tirozină 500 mg (Swanson)",d:"500–1.500 mg (începi cu 500)",d2:"500 mg",t:"pe stomacul gol, niciodată seara",w:"Materia primă a dopaminei; o simți în zilele cu stres.",warn:"tirozina"},
- multi:{k:"multi",m:"am",n:"Daily Vitamin Formula (Prime Supplements)",d:"1 plic",t:"la prima masă",w:"Vitaminele B, colina și enzimele dintr-un singur plic: transformă ce mănânci în dopamină și serotonină."},
- ashwa:{k:"ashwa",m:"pm",n:"Ashwagandha KSM-66 (Prime Supplements)",d:"300–600 mg",t:"8 săptămâni, apoi 2–4 pauză",w:"Scade senzația de stres și oboseala de stres în perioadele grele.",warn:"ashwa"},
- alcar:{k:"alcar",m:"am",n:"L-carnitină 1000 (Prime Supplements)",d:"1–2 capsule",t:"pe stomacul gol",w:"Energie dimineața, când ești în ceață și nu vrei încă o cafea."},
+ multi:{k:"multi",m:"am",p:["multi"],n:"Daily Vitamin Formula (Prime Supplements)",d:"1 plic",t:"la prima masă",w:"Vitaminele B, colina și enzimele dintr-un singur plic: transformă ce mănânci în dopamină și serotonină."},
+ ashwa:{k:"ashwa",m:"pm",p:["ashwa"],n:"Ashwagandha KSM-66 (Prime Supplements)",d:"300–600 mg",t:"8 săptămâni, apoi 2–4 pauză",w:"Scade senzația de stres și oboseala de stres în perioadele grele.",warn:"ashwa"},
+ alcar:{k:"alcar",m:"am",p:["carnitina"],n:"L-carnitină 1000 (Prime Supplements)",d:"1–2 capsule",t:"pe stomacul gol",w:"Energie dimineața, când ești în ceață și nu vrei încă o cafea."},
  citicolina:{k:"colina",m:"am",n:"Citicolină 250 mg (Swanson)",d:"250–500 mg",t:"la aceeași oră în fiecare zi",w:"Colina de care ai nevoie pentru concentrare, memorie și conexiunea cu mușchiul."},
  gaba:{k:"gaba",m:"pm",n:"GABA 500 mg (Swanson)",d:"1 g",t:"înainte de somn",w:"Îl am de ani de zile în planuri, la cei care nu se pot opri seara."},
- zma:{k:"zma",m:"pm",n:"Citrat de zinc 40 mg (Prime Supplements)",d:"1 capsulă",t:"înainte de somn, pe stomacul gol, împreună cu magneziul de la bază",w:"Varianta mea de ZMA: zinc și magneziu seara, pentru somn și pentru un nivel normal de testosteron."},
+ zma:{k:"zma",m:"pm",p:["zinc"],n:"Citrat de zinc 40 mg (Prime Supplements)",d:"1 capsulă",t:"înainte de somn, pe stomacul gol, împreună cu magneziul de la bază",w:"Varianta mea de ZMA: zinc și magneziu seara, pentru somn și pentru un nivel normal de testosteron."},
  glicina:{k:"glicina",m:"pm",n:"Glicină (Swanson)",d:"3 g",t:"înainte de culcare",w:"Adormi mai ușor și dormi mai adânc, fără somnolență dimineața."},
  sofran:{k:"sofran",m:"am",n:"Extract de șofran 30 mg (Swanson)",d:"30 mg",t:"cu mâncare",w:"Dispoziție mai bună pe definire și iarna."},
- taurina:{k:"taurina",m:"am",n:"Taurină 1000 mg (Prime Supplements)",d:"1–2 capsule",t:"cu prima cafea",w:"Păstrezi cafeaua, fără agitație: taurina liniștește sistemul nervos."},
- glutamina:{k:"glutamina",m:"pm",n:"Recovery Glutamin Kyowa (Prime Supplements)",d:"10 g",t:"la ultima masă",w:"Recuperare simplă, fără să te agite."},
- eaa:{k:"eaa",m:"intra",n:"EAA (Prime Supplements)",d:"10 g",t:"pe durata antrenamentului",w:"Aminoacizii esențiali, pe durata efortului.",intra:1},
- intracarb:{k:"intracarb",m:"intra",n:"Cluster Bomb + EAA (Prime Supplements)",d:"o porție (30 g) + 6 g EAA",t:"pe durata antrenamentului",w:"Carbohidrați cu absorbție rapidă, aminoacizi și electroliți în timpul efortului.",intra:1},
- nostim:{k:"citrulina",m:"pre",n:"Nitrox No-Stim (Prime Supplements)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Pre-workout fără stimulente: citrulină, beta-alanină, creatină și citicolină."},
+ taurina:{k:"taurina",m:"am",p:["taurina"],n:"Taurină 1000 mg (Prime Supplements)",d:"1–2 capsule",t:"cu prima cafea",w:"Păstrezi cafeaua, fără agitație: taurina liniștește sistemul nervos."},
+ glutamina:{k:"glutamina",m:"pm",p:["glutamina"],n:"Recovery Glutamin Kyowa (Prime Supplements)",d:"10 g",t:"la ultima masă",w:"Recuperare simplă, fără să te agite."},
+ eaa:{k:"eaa",m:"intra",p:["eaa"],n:"EAA (Prime Supplements)",d:"10 g",t:"pe durata antrenamentului",w:"Aminoacizii esențiali, pe durata efortului.",intra:1},
+ intracarb:{k:"intracarb",m:"intra",p:["cluster","eaa"],n:"Cluster Bomb + EAA (Prime Supplements)",d:"o porție (30 g) + 6 g EAA",t:"pe durata antrenamentului",w:"Carbohidrați cu absorbție rapidă, aminoacizi și electroliți în timpul efortului.",intra:1},
+ nostim:{k:"citrulina",m:"pre",p:["nostim"],n:"Nitrox No-Stim (Prime Supplements)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Pre-workout fără stimulente: citrulină, beta-alanină, creatină și citicolină."},
 };
 const row=(base,over)=>Object.assign({},base,over||{});
 
@@ -268,18 +268,18 @@ const SECOND={D:"tirozina",A:"citicolina",G:"gaba",S:"sofran"};
 const TYPE={
  "1A":[
   row(R.nostim,{w:"Din planurile mele de forță: pompă și pauze mai eficiente, fără să te tureze."}),
-  {k:"turmeric",m:"meal",n:"Extract de turmeric cu piperină (Prime Supplements)",d:"1–2 capsule",t:"la prima masă",w:"Greutățile mari încarcă articulațiile; îl pun direct la prima masă."},
+  {k:"turmeric",m:"meal",p:["turmeric"],n:"Extract de turmeric cu piperină (Prime Supplements)",d:"1–2 capsule",t:"la prima masă",w:"Greutățile mari încarcă articulațiile; îl pun direct la prima masă."},
   row(R.eaa,{n:"EAA (Prime Supplements) + un vârf de sare",d:"10 g + 1 g",t:"în apă, pe durata antrenamentului",w:"Antrenamente scurte: fără carbohidrați, doar aminoacizi.",warn:"sare"}),
-  {k:"cafeina",m:"pre",n:"Nitrox 3D (Prime Supplements)",d:"o porție (20 g)",t:"doar în ziua cu exercițiul principal, în locul pre-ului fără stimulente",w:"Pre-workout cu 200 mg de cafeină: păstrez cafeina pentru ziua cea mai grea, ca să rămână eficientă.",stim:1},
+  {k:"cafeina",m:"pre",p:["nitrox3d"],n:"Nitrox 3D (Prime Supplements)",d:"o porție (20 g)",t:"doar în ziua cu exercițiul principal, în locul pre-ului fără stimulente",w:"Pre-workout cu 200 mg de cafeină: păstrez cafeina pentru ziua cea mai grea, ca să rămână eficientă.",stim:1},
   R.zma
  ],
  "1B":[
   row(R.nostim,{w:"Beta-alanina și citrulina din el sunt pentru eforturile de 30 de secunde – 4 minute. Furnicăturile sunt normale."}),
   row(R.intracarb,{w:"Faci mult și mănânci puțin: așa nu cazi la jumătate."}),
-  {k:"colagen",m:"pre",n:"Complete Collagen (Prime Supplements)",d:"15–30 ml (6–12 g colagen, cu vitamina C)",t:"cu 30–60 de minute înainte",w:"Pentru tendoane, punctul tău slab la sărituri și viteză."},
-  {k:"glicerol",m:"pre",n:"Glycerol Max Pump (Prime Supplements)",d:"4 g",t:"cu 30 de minute înainte, cu 500 ml de apă",w:"Îl pun la cei care transpiră mult și fac efort repetat: ține apa în mușchi.",adv:1},
-  {k:"potasiu",m:"meal",n:"Potassium Complex (Prime Supplements)",d:"3 capsule (324 mg potasiu)",t:"împărțite la prima și la ultima masă",w:"Potasiul îl pierzi prin transpirație; lipsa lui se simte la crampe."},
-  {k:"cafeina",m:"pre",n:"Energy Pump Shot (Prime Supplements)",d:"o fiolă (25 ml)",t:"doar înainte de sport sau de sprinturi",w:"Shot cu 100 mg de cafeină și citrulină: viteză de reacție, fără doze mari.",stim:1}
+  {k:"colagen",m:"pre",p:["colagen"],n:"Complete Collagen (Prime Supplements)",d:"15–30 ml (6–12 g colagen, cu vitamina C)",t:"cu 30–60 de minute înainte",w:"Pentru tendoane, punctul tău slab la sărituri și viteză."},
+  {k:"glicerol",m:"pre",p:["glicerol"],n:"Glycerol Max Pump (Prime Supplements)",d:"4 g",t:"cu 30 de minute înainte, cu 500 ml de apă",w:"Îl pun la cei care transpiră mult și fac efort repetat: ține apa în mușchi.",adv:1},
+  {k:"potasiu",m:"meal",p:["potasiu"],n:"Potassium Complex (Prime Supplements)",d:"3 capsule (324 mg potasiu)",t:"împărțite la prima și la ultima masă",w:"Potasiul îl pierzi prin transpirație; lipsa lui se simte la crampe."},
+  {k:"cafeina",m:"pre",p:["energyshot"],n:"Energy Pump Shot (Prime Supplements)",d:"o fiolă (25 ml)",t:"doar înainte de sport sau de sprinturi",w:"Shot cu 100 mg de cafeină și citrulină: viteză de reacție, fără doze mari.",stim:1}
  ],
  "2A":[
   row(R.nostim,{w:"Pre-ul din cele mai multe planuri ale mele de fizic."}),
@@ -296,7 +296,7 @@ const TYPE={
   row(R.taurina,{w:"Păstrezi cafeaua de dimineață, fără agitație."})
  ],
  "3":[
-  {k:"shake",m:"am",n:"Shake-ul de la trezire",d:"500 ml apă călduță, o lămâie, 1 g sare, 10 g Recovery Glutamin Kyowa (Prime Supplements)",t:"cu 30 de minute înainte de masa 1",w:"La tine contează și ritualul fix, nu doar ce e în pahar.",warn:"sare"},
+  {k:"shake",m:"am",p:["glutamina"],n:"Shake-ul de la trezire",d:"500 ml apă călduță, o lămâie, 1 g sare, 10 g Recovery Glutamin Kyowa (Prime Supplements)",t:"cu 30 de minute înainte de masa 1",w:"La tine contează și ritualul fix, nu doar ce e în pahar.",warn:"sare"},
   row(R.nostim,{w:"Cel mai simplu pre din planurile mele: nimic care să te tureze."}),
   row(R.glicina,{t:"la aceeași oră, înainte de culcare",w:"Somnul e primul lucru pe care îl protejez la tine."}),
   row(R.eaa,{w:"Recuperarea ta e mai lentă decât a altora."}),
@@ -307,12 +307,12 @@ const TYPE={
 /* obiectivul */
 const GOAL={
  scena:[
-  {k:"crom",m:"meal",n:"Picolinat de crom (Prime Supplements)",d:"200 µg",t:"la mesele cu mulți carbohidrați",w:"Vreau fiecare gram de carbohidrați în mușchi; îl am în planurile de concurs.",warn:"glicemie"},
-  {k:"ficat",m:"meal",n:"Extract de silimarină + NAC (Prime Supplements)",d:"1–2 capsule + 500–1.000 mg",t:"la masa 2",w:"Susținere pentru ficat: pe pregătire el duce tot."},
+  {k:"crom",m:"meal",p:["crom"],n:"Picolinat de crom (Prime Supplements)",d:"200 µg",t:"la mesele cu mulți carbohidrați",w:"Vreau fiecare gram de carbohidrați în mușchi; îl am în planurile de concurs.",warn:"glicemie"},
+  {k:"ficat",m:"meal",p:["silimarina","nac"],n:"Extract de silimarină + NAC (Prime Supplements)",d:"1–2 capsule + 500–1.000 mg",t:"la masa 2",w:"Susținere pentru ficat: pe pregătire el duce tot."},
   row(R.multi,{m:"meal",t:"la masa mare",w:"Enzimele din el decid cât folosești din ce mănânci."})
  ],
  sportiv:[
-  {k:"vitc",m:"meal",n:"Vitamina C 1000 mg (Prime Supplements)",d:"1 g",t:"la prima masă",w:"O am în aproape toate planurile de fizic: recuperare și imunitate."},
+  {k:"vitc",m:"meal",p:["vitc"],n:"Vitamina C 1000 mg (Prime Supplements)",d:"1 g",t:"la prima masă",w:"O am în aproape toate planurile de fizic: recuperare și imunitate."},
   R.zma
  ],
  start:[
@@ -325,7 +325,7 @@ const CTX={
  sleep:(s)=>row(R.glicina,{w:`Dormi ${s}. Asta repar înainte de orice altceva.`}),
  caf:row(R.taurina,{d:"2 capsule",w:"Bei 3 sau mai multe cafele pe zi: pun taurina la prima și tai una după-amiaza."}),
  days:(n)=>row(R.glutamina,{d:"10–20 g",w:`La ${n} antrenamente pe săptămână limita ta e recuperarea, nu efortul.`}),
- years:{k:"leucina",m:"intra",n:"Recovery BCAA 4:1:1 (Prime Supplements)",d:"10 g",t:"în sticla de antrenament",w:"După atâția ani, corpul cere un semnal mai puternic de leucină ca să mai construiască.",adv:1,intra:1}
+ years:{k:"leucina",m:"intra",p:["bcaa"],n:"Recovery BCAA 4:1:1 (Prime Supplements)",d:"10 g",t:"în sticla de antrenament",w:"După atâția ani, corpul cere un semnal mai puternic de leucină ca să mai construiască.",adv:1,intra:1}
 };
 
 /* ce spun eu despre combinația de rezultate: neurotip + neurotransmițătorul pe minus (0 = echilibru bun) */
@@ -375,6 +375,59 @@ const DEF_WARN={
  G:"Combinațiile sedative nu se iau cu alcool sau cu somnifere.",
  S:"Triptofanul sau 5-HTP se discută doar cu mine și niciodată împreună cu antidepresive, medicamente pentru migrenă (triptani) sau tramadol. Dacă tristețea durează peste două săptămâni sau ai gânduri negre, vorbește cu un medic sau cu un psiholog."
 };
+
+/* ===== coșul pregătit la Prime Supplements (10.11.2026, cererea lui Marius: buton „Cumpără suplimentele necesare”) =====
+   Linkul e un „cart permalink” Shopify: /cart/ID:1,ID:1?discount=COD duce direct în pagina de comandă, cu produsele și reducerea aplicate.
+   Cheie de produs → [handle, id-ul variantei preferate, eticheta din listă, (opțional) numele scurt – la produsele ale căror variante sunt mărimi, nu arome:
+   eticheta spune deja mărimea, iar numele scurt + titlul variantei se folosesc doar dacă se ia altă variantă decât cea preferată]. La produsele cu arome, varianta preferată e aroma cu cel mai mare stoc
+   la 10.11.2026; la afișare se verifică stocul pe primesupplements.ro și, dacă aroma lipsește, se ia prima disponibilă. Codul chera10 există în magazin
+   din 23.05.2025 (10%, colecția „Eligibile coduri reducere”, în care sunt toate produsele de mai jos). */
+const SHOP={url:"https://primesupplements.ro",code:"CHERA10",utm:"utm_source=chera-protocol&utm_medium=evaluare&utm_campaign=protocol-suplimente",p:{
+ nostim:["nitrox-no-stim",55180000756087,"Nitrox No-Stim"],
+ nitrox3d:["nitrox",55179991908727,"Nitrox 3D"],
+ energyshot:["energy-pump",55179995349367,"Energy Pump Shot, cutie de 20 de fiole","Energy Pump Shot"],
+ cluster:["cluster-bomb-1000g",55180000493943,"Cluster Bomb"],
+ eaa:["eaa-aminoacizi-esentiali",55179991515511,"EAA"],
+ glutamina:["recovery-glutamin",55179992662391,"Recovery Glutamin Kyowa"],
+ bcaa:["recovery-bcaa-500g",55179992498551,"Recovery BCAA 4:1:1"],
+ turmeric:["turmeric-extract-80-caps",55179986272631,"Extract de turmeric cu piperină"],
+ colagen:["complete-collagen",55179985879415,"Complete Collagen"],
+ glicerol:["glycerol-max-pump-500g-125-serv",55180002754935,"Glycerol Max Pump"],
+ potasiu:["potassium-complex-80-caps",55180002722167,"Potassium Complex"],
+ zinc:["zinc-citrate-80-caps",55179986305399,"Citrat de zinc 40 mg"],
+ ashwa:["ashwagandha-ksm-66",55179979555191,"Ashwagandha KSM-66"],
+ crom:["supliment-alimentar-chromium-picolinate-80-caps",55179986043255,"Picolinat de crom"],
+ silimarina:["silimarina-80-caps",55180002132343,"Extract de silimarină"],
+ nac:["nac-80-caps",55179986207095,"NAC"],
+ vitc:["vitamin-c-1000-80-caps",55179986502007,"Vitamina C 1000 mg"],
+ multi:["daily-vitamin-formula",55179991286135,"Daily Vitamin Formula"],
+ carnitina:["l-carnitine-1000-80-caps",55179986108791,"L-carnitină 1000"],
+ taurina:["taurine-80-caps",55179986239863,"Taurină 1000 mg"],
+ creatina:["creatina-creapure",56938509336951,"Creatină Creapure 300 g","Creatină Creapure"],
+ whey:["prime-whey-1000g",55179999838583,"Prime Whey 1 kg"],
+ omega3:["omega-3",55179991974263,"Omega-3"],
+ d3k2:["vitamina-d3-k2",55179979587959,"Vitamina D3 + K2"],
+ magneziu:["magneziu-bisglicinat-80-caps",55179991089527,"Magneziu bisglicinat 300 mg"],
+ fiber:["fiber-blood-orange",55274318004599,"Fiber"]
+}};
+/* rânduri de protocol → cheile de produs, fără dubluri, în ordinea din protocol */
+function cartKeys(rows){ const out=[]; (rows||[]).forEach(r=>(r.p||[]).forEach(k=>{ if(SHOP.p[k]&&out.indexOf(k)<0) out.push(k); })); return out; }
+function cartUrl(ids){ return ids.length ? SHOP.url+"/cart/"+ids.map(id=>id+":1").join(",")+"?discount="+SHOP.code+"&"+SHOP.utm : ""; }
+/* coșul fără nicio cerere în rețea: variantele preferate */
+function cartStatic(keys){ const items=(keys||[]).filter(k=>SHOP.p[k]).map(k=>({k,label:SHOP.p[k][2],id:SHOP.p[k][1],variant:"",price:null})); return {url:cartUrl(items.map(x=>x.id)),items,missing:[],total:null,net:null}; }
+/* coșul verificat pe magazin: aroma preferată dacă e pe stoc, altfel prima disponibilă; produsele fără stoc ies din coș și sunt anunțate */
+async function cartLive(keys){
+ const res=await Promise.all((keys||[]).filter(k=>SHOP.p[k]).map(async k=>{ const [handle,pref,label,short]=SHOP.p[k];
+  try{ const ctl=typeof AbortController!=="undefined"?new AbortController():null, tm=ctl?setTimeout(()=>ctl.abort(),6000):0;
+   const r=await fetch(SHOP.url+"/products/"+handle+".js",{credentials:"omit",signal:ctl?ctl.signal:undefined}); if(tm) clearTimeout(tm);
+   if(!r.ok) throw new Error("http "+r.status);
+   const vs=(await r.json()).variants||[], v=vs.find(x=>x.id===pref&&x.available)||vs.find(x=>x.available);
+   const vt=String(v&&v.title||"").replace(/&amp;/g,"&");
+   return v ? {k,label:(short&&v.id!==pref)?short:label,id:v.id,variant:short?(v.id!==pref?vt:""):(vs.length>1?vt:""),price:Number(v.price)||0,ok:true} : {k,label,ok:false};
+  }catch(e){ return {k,label,id:pref,variant:"",price:null,ok:true}; } }));
+ const items=res.filter(x=>x.ok), missing=res.filter(x=>!x.ok).map(x=>x.label), priced=items.length>0&&items.every(x=>x.price!=null);
+ return {url:cartUrl(items.map(x=>x.id)),items,missing,total:priced?items.reduce((t,x)=>t+x.price,0):null,net:priced?items.reduce((t,x)=>t+Math.round(x.price*0.9),0):null};
+}
 
 function protocolFor(type,bal,ctx){
  const def=(bal.allHigh||bal.level==="ok")?"0":bal.top, crit=bal.level==="crit", sens=(type==="2B"||type==="3");
@@ -430,13 +483,14 @@ function protocolFor(type,bal,ctx){
   notes.push("Pe definire adaug 3 g de L-carnitină (L-carnitină 1000, Prime Supplements) înainte de cardio"+crom+".");
   if(crom) warnKeys.push("glicemie");
  }
- notes.push(picked.some(r=>/\(Swanson\)/.test(r.n)) ? "Produsele Prime Supplements le comanzi de pe primesupplements.ro; cele de la Swanson le găsești la distribuitorii Swanson din România sau în farmaciile online." : "Produsele Prime Supplements le comanzi de pe primesupplements.ro.");
+ notes.push(picked.some(r=>/\(Swanson\)/.test(r.n)) ? "Produsele Prime Supplements le comanzi de pe primesupplements.ro, cu butonul de mai jos (10% reducere); cele de la Swanson le găsești la distribuitorii Swanson din România sau în farmaciile online." : "Produsele Prime Supplements le comanzi de pe primesupplements.ro, cu butonul de mai jos (10% reducere).");
  const warns=[...new Set(warnKeys)].map(k=>WARN[k]);
  warns.unshift(`Dacă iei anticoagulante sau ai o operație programată, întreabă medicul înainte de omega-3${seen.turmeric?" și de turmeric":""}.`);
  if(def!=="0") warns.push(DEF_WARN[def]);
 
  const facts=[c.sleep?"somn "+c.sleep:"",c.caffeine?(caf0?"fără cafea":"cafea: "+c.caffeine+" pe zi"):"",c.days?c.days+" antrenamente pe săptămână":"",c.years?"în sală de "+c.years:""].filter(Boolean);
- return {intro:bal.allHigh?ALL_HIGH:((COMBO[type]||COMBO["2A"])[def]),facts,groups,notes,warns,count:picked.length};
+ return {intro:bal.allHigh?ALL_HIGH:((COMBO[type]||COMBO["2A"])[def]),facts,groups,notes,warns,count:picked.length,cart:cartKeys(groups.reduce((a,g)=>a.concat(g.rows),[]))};
 }
 window.CHERA_EXT.protocolFor=protocolFor;
+window.CHERA_EXT.shop={code:SHOP.code,keysOf:cartKeys,build:cartStatic,live:cartLive};
 })();

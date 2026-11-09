@@ -222,6 +222,13 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .quiz .think-step.done .val{opacity:1;transform:none}
 @keyframes think-pulse{0%,100%{transform:scale(.55);opacity:.45}50%{transform:scale(1);opacity:1}}
 .quiz .think #t-foot{overflow-wrap:anywhere}
+/* evaluare: caseta „Cumpără suplimentele necesare” (coș pregătit, 10.11.2026) */
+.quiz .buy{display:grid;gap:10px;margin-top:16px;padding:18px;border:2px solid var(--red);border-radius:10px;justify-items:start}
+.quiz .buy details{width:100%}
+.quiz .buy details summary{cursor:pointer}
+.quiz .buy details ul{margin-top:8px}
+.quiz .buy .btn{text-align:center}
+@media (max-width:480px){.quiz .buy .btn{width:100%}}
 /* prenume lungi (ex. „Alexandru-Constantin”) în titlurile mari: se rup în loc să iasă din ecran pe telefon */
 .quiz .result-head h1,.quiz .think-head h2{overflow-wrap:anywhere}
 @media (max-width:480px){.quiz .think-step{grid-template-columns:24px 1fr;row-gap:2px}.quiz .think-step .val{grid-column:2;text-align:left;min-height:1.55em}}

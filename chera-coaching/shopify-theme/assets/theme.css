@@ -228,6 +228,8 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .quiz .buy details summary{cursor:pointer}
 .quiz .buy details ul{margin-top:8px}
 .quiz .buy .btn{text-align:center}
+.quiz .buy .btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+.quiz .buy select{max-width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg-2);color:var(--fg);font:15px var(--body)}
 @media (max-width:480px){.quiz .buy .btn{width:100%}}
 /* prenume lungi (ex. „Alexandru-Constantin”) în titlurile mari: se rup în loc să iasă din ecran pe telefon */
 .quiz .result-head h1,.quiz .think-head h2{overflow-wrap:anywhere}

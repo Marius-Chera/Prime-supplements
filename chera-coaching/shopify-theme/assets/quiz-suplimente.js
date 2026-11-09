@@ -413,20 +413,34 @@ const SHOP={url:"https://primesupplements.ro",code:"CHERA10",utm:"utm_source=che
 /* rânduri de protocol → cheile de produs, fără dubluri, în ordinea din protocol */
 function cartKeys(rows){ const out=[]; (rows||[]).forEach(r=>(r.p||[]).forEach(k=>{ if(SHOP.p[k]&&out.indexOf(k)<0) out.push(k); })); return out; }
 function cartUrl(ids){ return ids.length ? SHOP.url+"/cart/"+ids.map(id=>id+":1").join(",")+"?discount="+SHOP.code+"&"+SHOP.utm : ""; }
-/* coșul fără nicio cerere în rețea: variantele preferate */
-function cartStatic(keys){ const items=(keys||[]).filter(k=>SHOP.p[k]).map(k=>({k,label:SHOP.p[k][2],id:SHOP.p[k][1],variant:"",price:null})); return {url:cartUrl(items.map(x=>x.id)),items,missing:[],total:null,net:null}; }
-/* coșul verificat pe magazin: aroma preferată dacă e pe stoc, altfel prima disponibilă; produsele fără stoc ies din coș și sunt anunțate */
-async function cartLive(keys){
- const res=await Promise.all((keys||[]).filter(k=>SHOP.p[k]).map(async k=>{ const [handle,pref,label,short]=SHOP.p[k];
-  try{ const ctl=typeof AbortController!=="undefined"?new AbortController():null, tm=ctl?setTimeout(()=>ctl.abort(),6000):0;
-   const r=await fetch(SHOP.url+"/products/"+handle+".js",{credentials:"omit",signal:ctl?ctl.signal:undefined}); if(tm) clearTimeout(tm);
-   if(!r.ok) throw new Error("http "+r.status);
-   const vs=(await r.json()).variants||[], v=vs.find(x=>x.id===pref&&x.available)||vs.find(x=>x.available);
-   const vt=String(v&&v.title||"").replace(/&amp;/g,"&");
-   return v ? {k,label:(short&&v.id!==pref)?short:label,id:v.id,variant:short?(v.id!==pref?vt:""):(vs.length>1?vt:""),price:Number(v.price)||0,ok:true} : {k,label,ok:false};
-  }catch(e){ return {k,label,id:pref,variant:"",price:null,ok:true}; } }));
- const items=res.filter(x=>x.ok), missing=res.filter(x=>!x.ok).map(x=>x.label), priced=items.length>0&&items.every(x=>x.price!=null);
+/* ce știm de pe magazin, pe durata paginii: cheie → {vs:[variante]} sau {gone:true} (produsul nu mai există: 404/410).
+   Un id de variantă care nu mai există strică TOT linkul de coș (Shopify răspunde 410), de aceea produsul dispărut iese din coș, nu rămâne pe varianta preferată. */
+const LIVE={};
+const vtitle=v=>String(v&&v.title||"").replace(/&amp;/g,"&");
+/* un produs din coș: varianta aleasă de client (pick) sau cea preferată, dacă e pe stoc; altfel prima disponibilă; fără stoc → ok:false */
+function cartItem(k,pick){
+ const m=SHOP.p[k], pref0=m[1], label=m[2], short=m[3], L=LIVE[k], want=(pick&&pick[k])||pref0;
+ if(!L) return {k,label,name:short||label,id:pref0,variant:"",price:null,opts:[],ok:true};
+ if(L.gone) return {k,label:short||label,ok:false};
+ const av=L.vs.filter(x=>x.available), v=av.find(x=>x.id===want)||av.find(x=>x.id===pref0)||av[0];
+ if(!v) return {k,label:short||label,ok:false};
+ return {k,label:(short&&v.id!==pref0)?short:label,name:short||label,id:v.id,variant:short?(v.id!==pref0?vtitle(v):""):(L.vs.length>1?vtitle(v):""),price:Number(v.price)||0,opts:av.length>1?av.map(x=>[x.id,vtitle(x)]):[],ok:true};
+}
+/* coșul din ce știm acum, fără nicio cerere în rețea (înainte de verificare: variantele preferate, fără total) */
+function cartStatic(keys,pick){
+ const res=(keys||[]).filter(k=>SHOP.p[k]).map(k=>cartItem(k,pick)), items=res.filter(x=>x.ok), missing=res.filter(x=>!x.ok).map(x=>x.label), priced=items.length>0&&items.every(x=>x.price!=null);
  return {url:cartUrl(items.map(x=>x.id)),items,missing,total:priced?items.reduce((t,x)=>t+x.price,0):null,net:priced?items.reduce((t,x)=>t+Math.round(x.price*0.9),0):null};
+}
+/* coșul verificat pe magazin: cere doar produsele încă neverificate; la pană de rețea produsul rămâne pe varianta preferată (fără total) */
+async function cartLive(keys,pick){
+ await Promise.all((keys||[]).filter(k=>SHOP.p[k]&&!LIVE[k]).map(async k=>{
+  try{ const ctl=typeof AbortController!=="undefined"?new AbortController():null, tm=ctl?setTimeout(()=>ctl.abort(),6000):0;
+   const r=await fetch(SHOP.url+"/products/"+SHOP.p[k][0]+".js",{credentials:"omit",signal:ctl?ctl.signal:undefined}); if(tm) clearTimeout(tm);
+   if(r.status===404||r.status===410){ LIVE[k]={gone:true}; return; }
+   if(!r.ok) throw new Error("http "+r.status);
+   const vs=(await r.json()).variants; if(Array.isArray(vs)) LIVE[k]={vs};
+  }catch(e){} }));
+ return cartStatic(keys,pick);
 }
 
 function protocolFor(type,bal,ctx){
@@ -470,7 +484,7 @@ function protocolFor(type,bal,ctx){
  const groups=MOMENTS.map(([m,label])=>({label,rows:picked.filter(r=>r.m===m)})).filter(g=>g.rows.length);
 
  const notes=[];
- if(def!=="0") notes.push(crit?"Le iei 8 săptămâni, apoi refacem testul.":"Scorul e la limită: le confirm eu la prima discuție, înainte să le cumperi.");
+ if(def!=="0") notes.push(crit?"Le iei 8 săptămâni, apoi refacem testul.":"Scorul e la limită: la prima discuție verific eu dacă le păstrezi pe toate. Dacă preferi să aștepți confirmarea mea, comanzi după ce vorbim.");
  if(sens) notes.push("Introduci câte un produs la 3–4 zile, ca să vezi ce simți.");
  if((type==="1A"||type==="1B")&&stimOff) notes.push(caf0?"Nu bei cafea și nu te pun eu să începi: pre-ul tău rămâne fără stimulente.":(def==="G"?"Am scos cafeina din pre-ul tău cât timp GABA e pe minus.":((def==="D"||def==="S")?"Am scos cafeina din pre-ul tău până îți revine echilibrul.":(caf3?"Am scos cafeina din pre-ul tău: bei deja destulă.":"Am scos cafeina din pre-ul tău până când dormi peste 7 ore."))));
  const hasPeri=groups.some(g=>g.rows[0].m==="pre"||g.rows[0].m==="intra");
@@ -492,5 +506,5 @@ function protocolFor(type,bal,ctx){
  return {intro:bal.allHigh?ALL_HIGH:((COMBO[type]||COMBO["2A"])[def]),facts,groups,notes,warns,count:picked.length,cart:cartKeys(groups.reduce((a,g)=>a.concat(g.rows),[]))};
 }
 window.CHERA_EXT.protocolFor=protocolFor;
-window.CHERA_EXT.shop={code:SHOP.code,keysOf:cartKeys,build:cartStatic,live:cartLive};
+window.CHERA_EXT.shop={code:SHOP.code,keysOf:cartKeys,build:cartStatic,live:cartLive,forget:()=>{ Object.keys(LIVE).forEach(k=>delete LIVE[k]); }};
 })();

@@ -201,7 +201,7 @@ function renderExt(type, bal, goal){
   h+=card("Cum lucrăm","Ce ai nevoie de la mine",ul(cut(E.mind)));
   const sl=a=>"<ul class=\"list supp\">"+(a||[]).map(x=>`<li><b>${x.n}</b> · ${x.d} · <i>${x.t}</i><br><span class="hint">${x.w}</span></li>`).join("")+"</ul>";
   const P=X.protocolFor(type,bal,state.ctx);
-  h+=card("Suplimente · doar pentru tine","Protocolul meu pentru profilul tău",`<p>${P.intro}</p><p class="hint">Am ținut cont de: ${P.facts.join(", ")}.</p>`+P.groups.map(g=>`<h3 style="margin-top:14px">${g.label}</h3>`+sl(g.rows)).join("")+ul(P.notes)+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(cut(X.base))+((X.shop&&(P.cart||[]).length)?`<div class="buy" id="r-buy-box"><p class="eyebrow">Comanda, gata pregătită</p><a class="btn" id="r-buy" href="${X.shop.build(P.cart).url}" target="_blank" rel="noopener">Cumpără suplimentele necesare</a><p class="hint">Se deschide comanda pe primesupplements.ro, cu produsele Prime Supplements din protocolul tău deja în coș și cu reducerea de 10% (cod ${X.shop.code}) aplicată. Completezi doar datele de livrare.</p><label class="check"><input type="checkbox" id="r-buy-base"><span>Adaugă și suplimentele de bază (creatină, proteină, omega-3, D3 + K2, magneziu)</span></label><details><summary class="hint" id="r-buy-count">Ce e în coș</summary><ul class="list" id="r-buy-list"></ul><p class="hint">La produsele cu arome am ales eu aroma; o vezi în listă.</p></details><p class="hint" id="r-buy-sum"></p>${P.groups.some(g=>g.rows.some(r=>/\(Swanson\)/.test(r.n)))?`<p class="hint">Produsele de la Swanson nu sunt în această comandă; le iei separat.</p>`:""}</div>`:"")+`<p class="hint">${P.warns.join(" ")} Dozele sunt orientative, pentru un adult sănătos de circa 80 kg; dacă ai sub 65 kg, iei limita de jos. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
+  h+=card("Suplimente · doar pentru tine","Protocolul meu pentru profilul tău",`<p>${P.intro}</p><p class="hint">Am ținut cont de: ${P.facts.join(", ")}.</p>`+P.groups.map(g=>`<h3 style="margin-top:14px">${g.label}</h3>`+sl(g.rows)).join("")+ul(P.notes)+`<h3 style="margin-top:14px">Baza, pentru oricine se antrenează serios</h3>`+sl(cut(X.base))+((X.shop&&(P.cart||[]).length)?`<div class="buy" id="r-buy-box"><p class="eyebrow">Comanda, gata pregătită</p><a class="btn" id="r-buy" href="${X.shop.build(P.cart).url}" target="_blank" rel="noopener">Cumpără suplimentele necesare</a><p class="hint">Se deschide comanda pe primesupplements.ro, cu produsele Prime Supplements din protocolul tău deja în coș și cu reducerea de 10% (cod ${X.shop.code}) aplicată. Completezi doar datele de livrare.</p><label class="check"><input type="checkbox" id="r-buy-base"><span>Adaugă și suplimentele de bază (creatină, proteină, omega-3, D3 + K2, magneziu)</span></label><details open><summary class="hint" id="r-buy-count">Ce e în coș</summary><ul class="list" id="r-buy-list"></ul><p class="hint">La produsele cu arome am ales eu una; o poți schimba aici, înainte să apeși butonul.</p></details><p class="hint" id="r-buy-sum"></p><p class="hint">Dacă ai deja produse în coșul de pe primesupplements.ro, comanda aceasta le înlocuiește.</p>${P.groups.some(g=>g.rows.some(r=>/\(Swanson\)/.test(r.n)))?`<p class="hint">Produsele de la Swanson nu sunt în această comandă; le iei separat.</p>`:""}</div>`:"")+`<p class="hint">${P.warns.join(" ")} Dozele sunt orientative, pentru un adult sănătos de circa 80 kg; dacă ai sub 65 kg, iei limita de jos. Dacă iei medicamente, ai o boală cronică sau ești însărcinată, suplimentele le discuți întâi cu medicul. Profilul nu e un test medical.</p>`);
   state.protocolText=`SUPLIMENTELE TALE\n${P.intro}\n`+P.groups.map(g=>g.label.toUpperCase()+"\n"+g.rows.map(r=>`• ${r.n}: ${r.d}, ${r.t}`).join("\n")).join("\n")+"\n"+P.notes.map(n=>"• "+n).join("\n")+((X.shop&&(P.cart||[]).length)?"\nCOȘ PREGĂTIT (Prime Supplements, cod "+X.shop.code+"): "+X.shop.build(P.cart).url:"");
   h+=card("Obiectivul tău",G.title,ul(cut(G.items)));
   h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(cut(X.start4)));
@@ -209,16 +209,33 @@ function renderExt(type, bal, goal){
   /* butonul „Cumpără suplimentele necesare”: linkul pornește cu variantele preferate, apoi e verificat pe magazin (stoc, arome, total) */
   const S=X.shop, buy=$("r-buy");
   if(S&&buy){
-    const own=P.cart||[], base=S.keysOf(cut(X.base)).filter(k=>own.indexOf(k)<0), chk=$("r-buy-base");
-    const lei=b=>(b/100).toFixed(2).replace(".",",").replace(/,00$/,"");
+    const own=P.cart||[], base=S.keysOf(cut(X.base)).filter(k=>own.indexOf(k)<0), chk=$("r-buy-base"), pick={};
+    const lei=b=>{ const v=(b/100).toFixed(2).split("."); return v[0].replace(/\B(?=(\d{3})+$)/g,".")+(v[1]==="00"?"":","+v[1]); };
     let seq=0;
+    const keysNow=()=>own.concat(chk&&chk.checked?base:[]);
     const paint=c=>{
-      buy.href=c.url; const list=$("r-buy-list"); list.innerHTML="";
-      c.items.forEach(it=>{ const l=document.createElement("li"); l.textContent=it.label+(it.variant?" · "+it.variant:""); list.appendChild(l); });
-      $("r-buy-count").textContent=`Ce e în coș (${c.items.length} ${c.items.length===1?"produs":"produse"})`;
-      $("r-buy-sum").textContent=(c.total!=null?`Produse: ${lei(c.net)} lei cu reducerea de 10% (în loc de ${lei(c.total)} lei). Transportul îl vezi în pagina de comandă. `:"")+(c.missing.length?`Acum nu ${c.missing.length===1?"e":"sunt"} pe stoc: ${c.missing.join(", ")}; ${c.missing.length===1?"îl":"le"} comanzi când ${c.missing.length===1?"revine":"revin"}.`:"");
+      const n=c.items.length, list=$("r-buy-list"); list.innerHTML="";
+      /* fără niciun produs pe stoc nu există link de coș: butonul se oprește, nu duce spre o pagină goală */
+      if(n){ buy.href=c.url; buy.removeAttribute("aria-disabled"); } else { buy.removeAttribute("href"); buy.setAttribute("aria-disabled","true"); }
+      c.items.forEach(it=>{
+        const l=document.createElement("li");
+        if(it.opts&&it.opts.length>1){
+          /* clientul își alege varianta (aroma sau mărimea); în pagina de comandă nu se mai poate schimba */
+          l.appendChild(document.createTextNode(it.name+" · "));
+          const sel=document.createElement("select"); sel.setAttribute("aria-label","Varianta pentru "+it.name);
+          it.opts.forEach(o=>{ const op=document.createElement("option"); op.value=String(o[0]); op.textContent=o[1]; if(o[0]===it.id) op.selected=true; sel.appendChild(op); });
+          sel.addEventListener("change",()=>{ pick[it.k]=Number(sel.value); refresh(); });
+          l.appendChild(sel);
+        } else l.textContent=it.label+(it.variant?" · "+it.variant:"");
+        list.appendChild(l);
+      });
+      $("r-buy-count").textContent=`Ce e în coș (${n} ${n===1?"produs":"produse"})`;
+      const m=c.missing.length;
+      $("r-buy-sum").textContent=(c.total!=null?`Produse: ${lei(c.net)} lei cu reducerea de 10% (în loc de ${lei(c.total)} lei). Transportul îl vezi în pagina de comandă. `:"")
+        +(m?(m===1?`Un produs nu e acum în stoc și nu l-am pus în coș: ${c.missing[0]}. Îl comanzi când revine.`:`${m} produse nu sunt acum în stoc și nu le-am pus în coș: ${c.missing.join("; ")}. Le comanzi când revin.`):"");
     };
-    const refresh=()=>{ const keys=own.concat(chk&&chk.checked?base:[]), my=++seq; paint(S.build(keys)); S.live(keys).then(c=>{ if(my===seq&&c.items.length) paint(c); }).catch(()=>{}); };
+    /* întâi ce știm deja (produsele verificate rămân verificate la bifare), apoi verificarea pe magazin pentru ce e nou */
+    const refresh=()=>{ const keys=keysNow(), my=++seq; paint(S.build(keys,pick)); S.live(keys,pick).then(c=>{ if(my===seq) paint(c); }).catch(()=>{}); };
     if(chk) chk.addEventListener("change",refresh);
     refresh();
   }

@@ -222,6 +222,8 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .quiz .think-step.done .val{opacity:1;transform:none}
 @keyframes think-pulse{0%,100%{transform:scale(.55);opacity:.45}50%{transform:scale(1);opacity:1}}
 .quiz .think #t-foot{overflow-wrap:anywhere}
+/* prenume lungi (ex. „Alexandru-Constantin”) în titlurile mari: se rup în loc să iasă din ecran pe telefon */
+.quiz .result-head h1,.quiz .think-head h2{overflow-wrap:anywhere}
 @media (max-width:480px){.quiz .think-step{grid-template-columns:24px 1fr;row-gap:2px}.quiz .think-step .val{grid-column:2;text-align:left;min-height:1.55em}}
 @media (prefers-reduced-motion:reduce){.quiz .think-step.on .dot::after{animation:none}.quiz .think-step .val{transition:none;transform:none}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.quiz .progress .bar i{transition:none}}

@@ -117,3 +117,6 @@ Pentru aplicația mobilă aceleași valori intră în `Colors` (`background #f3e
 - **Poză/logo coach în antet**: imaginea trebuie urcată în Shopify Files (prin Claude in Chrome, ca la hero) – nu pot genera eu poza; se folosește una existentă.
 - **„Dark mode automat”** nu e în brief; dacă îl vrea mai târziu, token-urile îl fac ușor (`prefers-color-scheme`).
 - **Meniul contului Shopify** (`/account`) rămâne al Shopify (conturi noi) – „Contul meu” din meniul nostru duce acolo, ca azi.
+
+## 9. Implementat (9.11.2026, seara) – LIVE
+Marius a confirmat „Da, site-ul întâi”; restul întrebărilor din §7 au rămas pe implicit (alb cald, bulele clientului pe roșu brand, litera „M” până la poză, ordinea Chat · Planul actual · Check-in · Contul meu cu „Ieșire din cont” în Contul meu și în meniul lateral, status „Online” / „Răspunde de obicei în câteva ore”). În plus, la cererea lui din sesiunea paralelă: **Aspect Auto / Zi / Noapte** în „Contul meu” (ca pe Telegram/WhatsApp) și **planul doar text** (fără fișiere). Codul: `chera-hub` main `ba0d4ff`, deploy `f4929ac1`; detalii în JURNAL (9.11, „redesign-ul zonei de client, LIVE”). Token-urile finale sunt în `src/ui/client-page.ts` (`DESIGN_TOKENS_CSS`), inclusiv setul pentru noapte (`html.ch-dark`). Neimplementat încă: poza în antet (lipsește URL-ul), aplicația mobilă, „obiectivul” în cardul planului (nu există câmp).

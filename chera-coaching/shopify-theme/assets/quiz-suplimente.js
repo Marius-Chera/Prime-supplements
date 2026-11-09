@@ -224,9 +224,9 @@ base: [
  {n:"Omega-3", d:"2 g EPA + DHA", t:"la mese", w:"Articulații, inflamație, inimă, creier."},
  {n:"Vitamina D3 + K2", d:"2.000 UI + 100 µg (doza finală după analize)", t:"dimineața", w:"Imunitate, oase, forță, dispoziție."},
  {n:"Magneziu bisglicinat", d:"200–400 mg", t:"seara", w:"Somn și recuperare; aproape toți sportivii pierd magneziu prin transpirație."},
- {n:"Electroliți", d:"după cât transpiri", t:"în timpul antrenamentelor de peste 60 de minute", w:"Performanță și fără crampe."},
- {n:"Multivitamine și minerale", d:"1 doză", t:"dimineața, cu mâncare", w:"Asigurare pe definire, când mănânci mai puțin."},
- {n:"Fibre (psyllium)", d:"5–10 g", t:"cu apă multă, departe de suplimente", w:"Dacă mănânci puține legume; digestie și sațietate pe definire."}
+ {n:"Electroliți: potasiu + magneziu (citrat) în capsule, plus un vârf de sare în sticlă", d:"3 capsule + 1 g sare", t:"în zilele cu antrenamente de peste 60 de minute", w:"Performanță și fără crampe."},
+ {n:"Complex de vitamine și minerale (plic zilnic)", d:"1 plic", t:"dimineața, cu mâncare", w:"Asigurare pe definire, când mănânci mai puțin."},
+ {n:"Fibre (inulină, acacia, glucomanan)", d:"10 g (7,4 g fibre)", t:"înainte de masă, cu apă multă, departe de celelalte suplimente", w:"Dacă mănânci puține legume; digestie și sațietate pe definire."}
 ]
 });
 
@@ -234,6 +234,9 @@ base: [
    Pornește din planurile lui reale (notițele din Chera Hub) și din suplimentele de stabilizare. Fără medicamente pe rețetă, fără doping, fără 5-HTP/triptofan.
    Se compune din: neurotip + neurotransmițătorul pe minus (și nivelul) + obiectiv + somn, cafea, zile de antrenament, ani de sală.
    Nu conține nimic din lista de bază (creatină, proteină, omega-3, D3 + K2, magneziu).
+   9.11.2026 (cererea lui Marius): fiecare rând e un produs care există la Prime Supplements (descris generic, fără nume de firmă pe site)
+   sau, unde Prime nu are produsul, un supliment din gama Swanson (tirozină, complex B activ, rhodiola, ALCAR, citicolină, Alpha-GPC, B5,
+   GABA, glicină, șofran, inozitol, fosfatidilserină, L-teanină, beta-alanină, enzime digestive, acid alfa-lipoic). Fără bicarbonat, fără potasiu gluconat.
    Format rând: {k: cheie unică, m: moment, n: nume, d: doză, d2: doză la 2B/3, t: când, w: de ce, stim, adv: nu la începători, intra: cade la 3 antrenamente, warn}. */
 (function(){
 const MOMENTS=[["am","Dimineața"],["meal","La mese"],["pre","Înainte de antrenament"],["intra","În timpul antrenamentului"],["post","După antrenament"],["pm","Seara"]];
@@ -247,7 +250,7 @@ const R={
  alphagpc:{k:"colina",m:"pre",n:"Alpha-GPC",d:"300–600 mg",t:"cu 45–60 de minute înainte",w:"Varianta mea pentru forță: se simte la conexiunea cu bara."},
  b5:{k:"b5",m:"am",n:"Vitamina B5",d:"250–500 mg",t:"cu mâncare",w:"Cofactor direct pentru acetilcolină."},
  gaba:{k:"gaba",m:"pm",n:"GABA",d:"1 g",t:"înainte de somn",w:"Îl am de ani de zile în planuri, la cei care nu se pot opri seara."},
- zma:{k:"zma",m:"pm",n:"ZMA",d:"3 capsule",t:"înainte de somn, pe stomacul gol",w:"Cât timp îl iei, magneziul de la bază scade la jumătate."},
+ zma:{k:"zma",m:"pm",n:"Zinc (citrat, 40 mg)",d:"1 capsulă",t:"înainte de somn, pe stomacul gol, împreună cu magneziul de la bază",w:"Varianta mea de ZMA: zinc și magneziu seara, pentru somn și pentru un nivel normal de testosteron."},
  glicina:{k:"glicina",m:"pm",n:"Glicină",d:"3 g",t:"înainte de culcare",w:"Adormi mai ușor și dormi mai adânc, fără somnolență dimineața."},
  ashwa:{k:"ashwa",m:"pm",n:"Ashwagandha (KSM-66)",d:"300–600 mg",t:"8 săptămâni, apoi 2–4 pauză",w:"Scade senzația de stres în perioadele grele.",warn:"ashwa"},
  sofran:{k:"sofran",m:"am",n:"Șofran (extract standardizat)",d:"30 mg",t:"cu mâncare",w:"Dispoziție mai bună pe definire și iarna."},
@@ -262,39 +265,39 @@ const SECOND={D:"tirozina",A:"citicolina",G:"gaba",S:"sofran"};
 /* neurotipul: mai ales ce faci în jurul antrenamentului, în ordinea priorității */
 const TYPE={
  "1A":[
-  {k:"citrulina",m:"pre",n:"Citrulină malat + suc de rodie",d:"5 g + un pahar",t:"la masa de dinaintea sălii",w:"Din planurile mele de forță: pompă și pauze mai eficiente."},
-  {k:"turmeric",m:"meal",n:"Turmeric (curcumin)",d:"2–3 g",t:"în omleta de dimineață",w:"Greutățile mari încarcă articulațiile; îl pun direct în prima masă."},
-  {k:"eaa",m:"intra",n:"EAA + sare roz",d:"10 g + 1 g",t:"în apă, pe durata antrenamentului",w:"Antrenamente scurte: fără carbohidrați, doar aminoacizi.",intra:1,warn:"sare"},
-  {k:"cafeina",m:"pre",n:"Cafeină",d:"200 mg",t:"doar în ziua cu exercițiul principal",w:"O păstrez pentru ziua cea mai grea, ca să rămână eficientă.",stim:1},
-  {k:"zma",m:"pm",n:"ZMA",d:"3 capsule",t:"înainte de somn, pe stomacul gol",w:"Cât timp îl iei, magneziul de la bază scade la jumătate."}
+  {k:"citrulina",m:"pre",n:"Pre-workout fără stimulente (citrulină, beta-alanină, creatină, citicolină)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Din planurile mele de forță: pompă și pauze mai eficiente, fără să te tureze."},
+  {k:"turmeric",m:"meal",n:"Extract de turmeric cu piperină",d:"1–2 capsule",t:"la prima masă",w:"Greutățile mari încarcă articulațiile; îl pun direct la prima masă."},
+  {k:"eaa",m:"intra",n:"EAA (aminoacizi esențiali) + un vârf de sare",d:"10 g + 1 g",t:"în apă, pe durata antrenamentului",w:"Antrenamente scurte: fără carbohidrați, doar aminoacizi.",intra:1,warn:"sare"},
+  {k:"cafeina",m:"pre",n:"Pre-workout cu cafeină (200 mg) și citrulină",d:"o porție (20 g)",t:"doar în ziua cu exercițiul principal, în locul pre-ului fără stimulente",w:"Păstrez cafeina pentru ziua cea mai grea, ca să rămână eficientă.",stim:1},
+  R.zma
  ],
  "1B":[
   {k:"beta",m:"pre",n:"Beta-alanină",d:"3–4 g",t:"împărțit în 2 prize",w:"Pentru eforturile de 30 de secunde – 4 minute. Furnicăturile sunt normale.",adv:1},
-  {k:"intracarb",m:"intra",n:"Cluster dextrin + EAA",d:"25 g + 10 g",t:"pe durata antrenamentului",w:"Faci mult și mănânci puțin: așa nu cazi la jumătate.",intra:1},
-  {k:"colagen",m:"pre",n:"Colagen + vitamina C",d:"10–15 g + 50 mg",t:"cu 30–60 de minute înainte",w:"Pentru tendoane, punctul tău slab la sărituri și viteză."},
-  {k:"bicarb",m:"intra",n:"Bicarbonat de sodiu + sare roz",d:"1 g + 1 g",t:"în sticla de antrenament",w:"Îl pun la cei care transpiră mult și fac efort repetat.",adv:1,intra:1,warn:"sare"},
-  {k:"potasiu",m:"meal",n:"Potasiu gluconat",d:"2 × 99 mg",t:"la prima și la ultima masă",w:"Îl pierzi prin transpirație; lipsa lui se simte la crampe."},
-  {k:"cafeina",m:"pre",n:"Cafeină",d:"100–200 mg",t:"doar înainte de sport sau de sprinturi",w:"Viteză de reacție; nu ai nevoie de doze mari.",stim:1}
+  {k:"intracarb",m:"intra",n:"Intra-workout cu dextrină ciclică (Cluster Dextrin), aminoacizi esențiali și electroliți",d:"o porție (30 g) + 6 g EAA",t:"pe durata antrenamentului",w:"Faci mult și mănânci puțin: așa nu cazi la jumătate.",intra:1},
+  {k:"colagen",m:"pre",n:"Colagen hidrolizat lichid cu vitamina C",d:"15–30 ml (6–12 g colagen)",t:"cu 30–60 de minute înainte",w:"Pentru tendoane, punctul tău slab la sărituri și viteză."},
+  {k:"glicerol",m:"pre",n:"Glicerol (monostearat) pentru hidratare",d:"4 g",t:"cu 30 de minute înainte, cu 500 ml de apă",w:"Îl pun la cei care transpiră mult și fac efort repetat: ține apa în mușchi.",adv:1},
+  {k:"potasiu",m:"meal",n:"Potasiu + magneziu (citrat) în capsule",d:"3 capsule (324 mg potasiu)",t:"împărțite la prima și la ultima masă",w:"Potasiul îl pierzi prin transpirație; lipsa lui se simte la crampe."},
+  {k:"cafeina",m:"pre",n:"Shot pre-workout lichid cu cafeină (100 mg) și citrulină",d:"o fiolă (25 ml)",t:"doar înainte de sport sau de sprinturi",w:"Viteză de reacție; nu ai nevoie de doze mari.",stim:1}
  ],
  "2A":[
-  {k:"citrulina",m:"pre",n:"Citrulină malat + beta-alanină",d:"5 g + 3 g",t:"cu 30 de minute înainte",w:"Pre-ul din cele mai multe planuri ale mele de fizic."},
+  {k:"citrulina",m:"pre",n:"Pre-workout fără stimulente (citrulină, beta-alanină, creatină, citicolină)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Pre-ul din cele mai multe planuri ale mele de fizic."},
   {k:"enzime",m:"meal",n:"Enzime digestive",d:"1–2 capsule",t:"la jumătatea mesei mari",w:"Mănânci variat și mult; așa folosești ce mănânci."},
-  {k:"eaa",m:"intra",n:"EAA",d:"10–15 g",t:"pe durata antrenamentului",w:"Recuperare când entuziasmul te duce la volum mare.",intra:1},
-  {k:"glutamina",m:"pm",n:"Glutamină",d:"10 g",t:"la ultima masă",w:"O dau tuturor celor care fac volum mare."},
+  {k:"eaa",m:"intra",n:"EAA (aminoacizi esențiali)",d:"10–15 g",t:"pe durata antrenamentului",w:"Recuperare când entuziasmul te duce la volum mare.",intra:1},
+  {k:"glutamina",m:"pm",n:"L-glutamină",d:"10 g",t:"la ultima masă",w:"O dau tuturor celor care fac volum mare."},
   {k:"colina",m:"am",n:"Citicolină",d:"250 mg",t:"în zilele cu mult lucru mental",w:"Profilul tău trăiește din acetilcolină."}
  ],
  "2B":[
-  {k:"citrulina",m:"pre",n:"Citrulină malat + arginină lichidă",d:"7 g + 10 ml",t:"cu 30 de minute înainte, fără cafeină",w:"Pre-ul meu de pompă, fără stimulente, pentru cei care dorm prost după cafea."},
-  {k:"intracarb",m:"intra",n:"Cluster dextrin + EAA",d:"25 g + 10 g",t:"pe durata antrenamentului",w:"Carbohidrații din timpul efortului țin cortizolul mai jos.",intra:1},
+  {k:"citrulina",m:"pre",n:"Pre-workout fără stimulente (citrulină, beta-alanină, creatină, citicolină)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Pre-ul meu de pompă, fără stimulente, pentru cei care dorm prost după cafea."},
+  {k:"intracarb",m:"intra",n:"Intra-workout cu dextrină ciclică (Cluster Dextrin), aminoacizi esențiali și electroliți",d:"o porție (30 g) + 6 g EAA",t:"pe durata antrenamentului",w:"Carbohidrații din timpul efortului țin cortizolul mai jos.",intra:1},
   {k:"gaba",m:"pm",n:"GABA",d:"1 g",t:"la ultima masă",w:"Seara mea standard, când stresul de peste zi trece în noapte."},
   {k:"ps",m:"pm",n:"Fosfatidilserină",d:"200 mg",t:"în zilele cu antrenamente dure",w:"Tamponează cortizolul după efort."},
   {k:"teanina",m:"am",n:"L-teanină",d:"100–200 mg",t:"cu cafeaua de dimineață",w:"Păstrezi cafeaua, fără agitație."}
  ],
  "3":[
-  {k:"shake",m:"am",n:"Shake-ul de la trezire",d:"500 ml apă călduță, o lămâie, 1 g sare roz, 10 g glutamină",t:"cu 30 de minute înainte de masa 1",w:"La tine contează și ritualul fix, nu doar ce e în pahar.",warn:"sare"},
-  {k:"citrulina",m:"pre",n:"Citrulină malat",d:"4 g",t:"cu 30 de minute înainte",w:"Cel mai simplu pre din planurile mele: nimic care să te tureze."},
+  {k:"shake",m:"am",n:"Shake-ul de la trezire",d:"500 ml apă călduță, o lămâie, 1 g sare, 10 g L-glutamină",t:"cu 30 de minute înainte de masa 1",w:"La tine contează și ritualul fix, nu doar ce e în pahar.",warn:"sare"},
+  {k:"citrulina",m:"pre",n:"Pre-workout fără stimulente (citrulină, beta-alanină, creatină, citicolină)",d:"o porție (22 g)",t:"cu 20–30 de minute înainte",w:"Cel mai simplu pre din planurile mele: nimic care să te tureze."},
   {k:"glicina",m:"pm",n:"Glicină",d:"3 g",t:"la aceeași oră, înainte de culcare",w:"Somnul e primul lucru pe care îl protejez la tine."},
-  {k:"eaa",m:"intra",n:"EAA",d:"10 g",t:"pe durata antrenamentului",w:"Recuperarea ta e mai lentă decât a altora.",intra:1},
+  {k:"eaa",m:"intra",n:"EAA (aminoacizi esențiali)",d:"10 g",t:"pe durata antrenamentului",w:"Recuperarea ta e mai lentă decât a altora.",intra:1},
   {k:"enzime",m:"meal",n:"Enzime digestive",d:"1 capsulă",t:"la jumătatea mesei mari",w:"Când ești stresat, digestia se oprește prima."}
  ]
 };
@@ -303,14 +306,15 @@ const TYPE={
 const GOAL={
  scena:[
   {k:"crom",m:"meal",n:"Crom picolinat + acid alfa-lipoic",d:"200 mg + 300 mg",t:"la mesele cu mulți carbohidrați",w:"Vreau fiecare gram de carbohidrați în mușchi; îl am în planurile de concurs.",warn:"glicemie"},
-  {k:"ficat",m:"meal",n:"Silimarină + NAC",d:"1.000 mg + 600 mg",t:"la masa 2",w:"Susținere pentru ficat: pe pregătire el duce tot."},
+  {k:"ficat",m:"meal",n:"Extract de silimarină + NAC (N-acetilcisteină)",d:"1–2 capsule + 500–1.000 mg",t:"la masa 2",w:"Susținere pentru ficat: pe pregătire el duce tot."},
   {k:"enzime",m:"meal",n:"Enzime digestive",d:"2 capsule",t:"la jumătatea meselor mari",w:"Digestia decide cât folosești din ce mănânci."}
  ],
  sportiv:[
-  {k:"vitc",m:"meal",n:"Vitamina C + zinc picolinat",d:"1 g + 22 mg",t:"la prima masă",w:"Le am în aproape toate planurile de fizic: recuperare și imunitate."}
+  {k:"vitc",m:"meal",n:"Vitamina C",d:"1 g",t:"la prima masă",w:"O am în aproape toate planurile de fizic: recuperare și imunitate."},
+  R.zma
  ],
  start:[
-  {k:"multi",m:"meal",n:"Complex de vitamine și minerale",d:"1 doză",t:"la prima masă",w:"Primul lucru pe care îl dau cuiva care pornește: dieta nouă are goluri."}
+  {k:"multi",m:"meal",n:"Complex de vitamine și minerale (plic zilnic)",d:"1 plic",t:"la prima masă",w:"Primul lucru pe care îl dau cuiva care pornește: dieta nouă are goluri."}
  ]
 };
 
@@ -318,8 +322,8 @@ const GOAL={
 const CTX={
  sleep:(s)=>({k:"glicina",m:"pm",n:"Glicină",d:"3 g",t:"înainte de culcare",w:`Dormi ${s}. Asta repar înainte de orice altceva.`}),
  caf:{k:"teanina",m:"am",n:"L-teanină",d:"200 mg",t:"cu prima cafea",w:"Bei 3 sau mai multe cafele pe zi: pun asta la prima și tai una după-amiaza."},
- days:(n)=>({k:"glutamina",m:"pm",n:"Glutamină",d:"10–20 g",t:"la ultima masă",w:`La ${n} antrenamente pe săptămână limita ta e recuperarea, nu efortul.`}),
- years:{k:"leucina",m:"intra",n:"Leucină",d:"5 g",t:"în sticla de antrenament",w:"După atâția ani, corpul cere un semnal mai puternic ca să mai construiască.",adv:1,intra:1}
+ days:(n)=>({k:"glutamina",m:"pm",n:"L-glutamină",d:"10–20 g",t:"la ultima masă",w:`La ${n} antrenamente pe săptămână limita ta e recuperarea, nu efortul.`}),
+ years:{k:"leucina",m:"intra",n:"BCAA 4:1:1 (bogat în leucină)",d:"10 g",t:"în sticla de antrenament",w:"După atâția ani, corpul cere un semnal mai puternic de leucină ca să mai construiască.",adv:1,intra:1}
 };
 
 /* ce spun eu despre combinația de rezultate: neurotip + neurotransmițătorul pe minus (0 = echilibru bun) */
@@ -361,7 +365,7 @@ const WARN={
  tirozina:"Tirozina nu se ia dacă iei medicamente pentru tiroidă, antidepresive de tip IMAO sau ai tensiune mare necontrolată.",
  ashwa:"Ashwagandha nu se ia la hipertiroidie, în sarcină sau cu sedative fără aviz medical.",
   glicemie:"Cromul și acidul alfa-lipoic nu se iau peste medicamente pentru glicemie fără aviz medical.",
- sare:"La tensiune mare, fără sare sau bicarbonat adăugat."
+ sare:"La tensiune mare, fără sare adăugată."
 };
 const DEF_WARN={
  D:"Fără mucuna (L-dopa) și fără stimulente puternice fără aviz medical. Dacă lipsa de chef durează peste 2–3 săptămâni sau vine cu tristețe, vorbește cu un medic.",
@@ -400,8 +404,10 @@ function protocolFor(type,bal,ctx){
  /* 3. neurotipul, 4. obiectivul, apoi restul neurotipului până la plafon */
  const typeRows=TYPE[type]||TYPE["2A"];
  typeRows.filter(allowed).slice(0,2).forEach(add);
- if(!bal.allHigh) (GOAL[c.goal]||[]).slice(0,scena?2:1).forEach(add);
+ if(!bal.allHigh) (GOAL[c.goal]||[]).slice(0,(scena||c.goal==="sportiv")?2:1).forEach(add);
  typeRows.forEach(add);
+ /* niciodată sub 4 rânduri: completez cu recuperare (toate la Prime sau Swanson) */
+ if(picked.length<4) [R.glicina,{k:"glutamina",m:"pm",n:"L-glutamină",d:"10 g",t:"la ultima masă",w:"Recuperare simplă, fără să te agite."},R.zma].forEach(add);
  const groups=MOMENTS.map(([m,label])=>({label,rows:picked.filter(r=>r.m===m)})).filter(g=>g.rows.length);
 
  const notes=[];
@@ -409,12 +415,13 @@ function protocolFor(type,bal,ctx){
  if(sens) notes.push("Introduci câte un produs la 3–4 zile, ca să vezi ce simți.");
  if((type==="1A"||type==="1B")&&stimOff) notes.push(caf0?"Nu bei cafea și nu te pun eu să începi: pre-ul tău rămâne fără stimulente.":(def==="G"?"Am scos cafeina din pre-ul tău cât timp GABA e pe minus.":((def==="D"||def==="S")?"Am scos cafeina din pre-ul tău până îți revine echilibrul.":(caf3?"Am scos cafeina din pre-ul tău: bei deja destulă.":"Am scos cafeina din pre-ul tău până când dormi peste 7 ore."))));
  const hasPeri=groups.some(g=>g.rows[0].m==="pre"||g.rows[0].m==="intra");
+ if(seen.citrulina) notes.push("Pre-ul are deja creatină: în zilele în care îl iei, sari peste creatina de la bază.");
  if(days<=3&&!seen.eaa&&!seen.intracarb) notes.push("La 3 antrenamente pe săptămână nu-ți trebuie nimic în timpul lor: apă e destul.");
  else if(hasPeri) notes.push("În zilele de pauză sari peste „înainte” și „în timpul”.");
  const warnKeys=picked.map(r=>r.warn).filter(Boolean);
  if(c.goal!=="start"&&!bal.allHigh){
   const crom=seen.crom?"":"; pe masă, crom 200 mg cu acid alfa-lipoic 300 mg la mesele cu mulți carbohidrați";
-  notes.push("Pe definire adaug 3 g de carnitină înainte de cardio"+crom+".");
+  notes.push("Pe definire adaug 3 g de L-carnitină (3 capsule) înainte de cardio"+crom+".");
   if(crom) warnKeys.push("glicemie");
  }
  const warns=[...new Set(warnKeys)].map(k=>WARN[k]);

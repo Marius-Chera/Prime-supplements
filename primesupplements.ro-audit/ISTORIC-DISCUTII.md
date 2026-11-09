@@ -260,3 +260,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
 ### 3.11.2026 – Reel-uri pe Instagram și Facebook prin Zernio
 - Proprietarul a cerut primele reel-uri din aplicația de pe calculator: clipul cu Kara azi la 20:00, cu colaborare pe Instagram cu @kara.vecerdea și @ovidiu_pop00, și reel-ul cu Eduard (Combat Pro 2.0) joi, 5.11, la 12:00. **Decizie ulterioară (3.11):** reel-ul cu Eduard nu se mai postează; a fost șters din Zernio. Descrierile le-a scris Claude, pe stilul brandului, doar cu mențiuni UE autorizate. Detalii: `social/2026-11-03-reels/texte.md`.
+
+### 9.11.2026 – Verificarea GSC programată (automată, fără proprietar)
+- Rulare automată, doar citire; raportul în `google/GSC-VERIFICARE-2026-11-09.md`. Punctul 7 din sarcină (cheia Ads + Admin contact@ + legătura Ads ↔ GSC) era deja rezolvat pe 26.10 seara, deci s-a verificat doar că apare în Associations (da).
+- Nou, nedecis: pachetele Reduceri (12) sunt în Draft pe durata Black Friday și dau 404 în Google; tricoul „Made of Iron” a dispărut din catalog. După 15.11 proprietarul alege: reactivare sau 13 redirecturi 301. Nu s-a atins niciun status de produs.
+- Tehnic: autentificarea Google din browserul încorporat nu a persistat (cerea parola); Search Console, GA4 și Ads s-au citit din Chrome cu `authuser=1`. În Chrome, listbox-ul „rows per page” și drilldown-urile acceptă clicuri JS; URL Inspection merge prin caseta „Inspect any URL” (URL-ul direct `/inspect?id=` dă 404).

@@ -67,7 +67,7 @@ function seededShuffle(arr,seed){ const a=arr.map((x,i)=>[x,i]); let s=seed; con
 if(!state.order.A.length){ state.order.A=seededShuffle(A_ITEMS,7); state.order.B=seededShuffle(B_ITEMS,11); }
 
 const $=id=>document.getElementById(id);
-const sections={intro:$("s-intro"),quiz:$("s-quiz"),context:$("s-context"),result:$("s-result")};
+const sections={intro:$("s-intro"),quiz:$("s-quiz"),context:$("s-context"),think:$("s-think"),result:$("s-result")};
 function show(name){ Object.entries(sections).forEach(([k,el])=>el.hidden=(k!==name)); window.scrollTo({top:0,behavior:"auto"}); }
 
 function sumScale(items,ans,key){ let t=0; items.forEach((it,i)=>{ if(it[0]===key) t+=(ans[i]||0); }); return t; }
@@ -207,12 +207,50 @@ function renderExt(type, bal, goal){
   h+=card("Pasul 1","Primele 4 săptămâni cu mine",ul(cut(X.start4)));
   box.innerHTML=h;
 }
+/* ===== AȘTEPTAREA (~15 s): rezultatul nu apare instant. Pașii se bifează pe rând, cu valori reale din profil.
+   Momentul de start stă în sessionStorage, ca timpul să rămână același și după ce formularul de contact Shopify reîncarcă pagina. ===== */
+const THINK_MS=15000, THINK_KEY="cp-neuro-think";
+const SENT_TXT="Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore.";
+const FAIL_TXT="Rezultatul nu a ajuns la mine. Intră în cont și lipește-mi rezumatul de mai jos în chat, sau trimite-mi-l pe e-mail.";
+const WAIT_TXT="Dacă în 24 de ore nu primești e-mailul meu, intră în cont și lipește-mi rezumatul de mai jos în chat.";
+/* stocarea din browser poate fi blocată (date de site blocate, mod privat vechi): atunci o reîncărcare a paginii ar pierde rezultatul */
+function storageOk(){ try{ sessionStorage.setItem("cp-neuro-probe","1"); const ok=sessionStorage.getItem("cp-neuro-probe")==="1"; sessionStorage.removeItem("cp-neuro-probe"); return ok; }catch(e){ return false; } }
+const THINK_STEPS=[[1600,"Răspunsurile tale"],[4300,"Natura ta: cele patru scale"],[6900,"Tipul tău de antrenament"],[9500,"Echilibrul tău acum"],[12100,"Dieta și suplimentele"],[14300,"Primele 4 săptămâni cu mine"]];
+let thinkTimer=null;
+function thinkValues(){
+  const r=state.result||{}, n=answeredCount();
+  const bal = r.allHigh ? "oboseală generală" : (r.level==="ok" ? "bun" : `${(DEFICIT[r.deficit]||{}).name||""} ${r.level==="crit"?"pe minus":"de susținut"}`.trim());
+  return [`${n} citite`, SCALE_NAME[r.dom]||"", "stabilit", bal, "pe profilul tău", "gata"];
+}
+function startThink(onDone){
+  if(thinkTimer){ clearInterval(thinkTimer); thinkTimer=null; }
+  let t0=0; try{ t0=Number(sessionStorage.getItem(THINK_KEY))||0; }catch(e){}
+  const now=Date.now();
+  if(!t0 || now-t0<0 || now-t0>3600000){ t0=now; try{ sessionStorage.setItem(THINK_KEY,String(t0)); }catch(e){} }
+  const vals=thinkValues(), list=$("t-steps"), c=state.ctx||{};
+  if($("t-title")) $("t-title").textContent = (c.name ? c.name+", îți " : "Îți ") + "pregătesc profilul.";
+  if($("t-foot")) $("t-foot").textContent = c.email ? `Rezultatul apare aici, pe ecran, și îl primești și pe e-mail, la ${c.email}.` : "Rezultatul apare aici, pe ecran.";
+  if(list){ list.innerHTML=""; THINK_STEPS.forEach(([,label],i)=>{ const li=document.createElement("li"); li.className="think-step";
+    li.innerHTML='<span class="dot" aria-hidden="true"><svg viewBox="0 0 12 12" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6.5l2.6 2.5L10 3.5"/></svg></span><span class="label"></span><span class="val"></span>';
+    li.querySelector(".label").textContent=label; li.dataset.val=vals[i]||""; list.appendChild(li); }); }
+  const setText=(el,txt)=>{ if(el && el.textContent!==txt) el.textContent=txt; }; /* scriu doar la schimbare: #t-step e aria-live */
+  const tick=()=>{
+    const el=Date.now()-t0, p=Math.min(1,el/THINK_MS);
+    if($("t-fill")) $("t-fill").style.width=Math.round(100*(1-Math.pow(1-p,1.6)))+"%";
+    let cur=0;
+    THINK_STEPS.forEach(([at],i)=>{ const li=list&&list.children[i]; if(!li) return; const done=el>=at, on=!done&&(i===0||el>=THINK_STEPS[i-1][0]);
+      li.classList.toggle("done",done); li.classList.toggle("on",on); setText(li.querySelector(".val"), done ? li.dataset.val : (on ? "…" : "")); if(done||on) cur=i+1; });
+    setText($("t-step"), el>=THINK_MS ? "gata" : `pasul ${Math.max(1,cur)} din ${THINK_STEPS.length}`);
+    if(el>=THINK_MS){ clearInterval(thinkTimer); thinkTimer=null; try{ sessionStorage.removeItem(THINK_KEY); }catch(e){} onDone(); }
+  };
+  show("think"); thinkTimer=setInterval(tick,100); tick();
+}
 async function submit(){
   const st=$("r-sendstatus");
   if(!CONFIG.SHEET_ENDPOINT){ return submitContact(st); }
   const payload={ts:new Date().toISOString(),...state.ctx,...state.result,summary:state.summary||"",ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
-  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore."; }
-  catch(e){ st.textContent="Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul de mai jos în chat, sau trimite-l pe e-mail."; }
+  try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = SENT_TXT; }
+  catch(e){ st.textContent=FAIL_TXT; }
 }
 
 /* fără receptor Google: (1) copie pe e-mail prin FormSubmit (adresa din setarea secțiunii evaluare),
@@ -229,12 +267,17 @@ async function submitContact(st){
   const c=state.ctx, p=contactParts(), cf=$("ev-contact-form"), cfg=$("ev-cfg"), mail=cfg?(cfg.dataset.mail||"").trim():"";
   const channel="e-mail";
   st.textContent="Trimit rezultatul la mine…";
+  let fsReq=null;
   if(mail){
     const fsBody=JSON.stringify({_subject:p.subject,_template:"box",_captcha:"false",_replyto:c.email,name:c.name,email:c.email,
       message:`Telefon: ${c.phone}\nOraș: ${c.city||"-"}\nRăspuns pe: ${channel}\n${p.context}\n\n${p.body}`});
-    try{ fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}).catch(()=>{}); }catch(e){}
+    try{ fsReq=fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}); fsReq.catch(()=>{}); }catch(e){ fsReq=null; }
   }
-  if(!cf){ st.textContent="Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul în chat, sau trimite-l pe e-mail."; return; }
+  /* fără formular sau fără stocare în browser: reîncărcarea făcută de formularul Shopify ar pierde rezultatul, deci rămâne doar copia prin FormSubmit */
+  if(!cf || !storageOk()){
+    let ok=false; try{ const r=fsReq && await fsReq; ok=!!(r&&r.ok); }catch(e){}
+    st.textContent = ok ? SENT_TXT : FAIL_TXT; return;
+  }
   const set=(id,v)=>{ const el=$(id); if(el) el.value=v; };
   set("ev-cf-email",c.email); set("ev-cf-name",c.name); set("ev-cf-phone",c.phone); set("ev-cf-city",c.city||"-");
   set("ev-cf-subject",p.subject); set("ev-cf-channel",channel); set("ev-cf-context",p.context); set("ev-cf-body",p.body);
@@ -244,6 +287,8 @@ async function submitContact(st){
   for(let i=0;i<40 && !window.hcaptcha;i++) await new Promise(r=>setTimeout(r,250));
   await new Promise(r=>setTimeout(r,800));
   if(cf.requestSubmit) cf.requestSubmit(); else cf.submit();
+  /* dacă verificarea hCaptcha e închisă sau nu se termină, pagina nu se mai reîncarcă: după 25 s arăt varianta de rezervă */
+  setTimeout(()=>{ try{ sessionStorage.removeItem("cp-neuro-sent"); }catch(e){} st.textContent=FAIL_TXT; },25000);
 }
 
 /* ===== CONTEXT FORM ===== */
@@ -269,18 +314,19 @@ $("btn-start").addEventListener("click",()=>{ state.phase="A"; state.page=0; sta
 $("btn-next").addEventListener("click",next);
 $("btn-back").addEventListener("click",back);
 $("btn-back2").addEventListener("click",()=>{ show("quiz"); renderPage(); });
-$("btn-result").addEventListener("click",()=>{ if(!validateCtx()) return; buildResult(); show("result"); submit(); });
+$("btn-result").addEventListener("click",()=>{ if(!validateCtx()) return; buildResult(); try{ sessionStorage.removeItem(THINK_KEY); }catch(e){} startThink(()=>show("result")); submit(); });
 
 /* resume if the viewer left mid-quiz */
 /* întoarcerea după formularul de contact Shopify: reafișez rezultatul cu starea trimiterii */
-let sentBack=false; try{ sentBack=sessionStorage.getItem("cp-neuro-sent")==="1"; }catch(e){}
+let sentBack=false, thinkPending=false; try{ sentBack=sessionStorage.getItem("cp-neuro-sent")==="1"; thinkPending=!!sessionStorage.getItem(THINK_KEY); }catch(e){}
 const cfState=$("ev-cf-state"), cfPosted=(cfState&&cfState.dataset.ok==="1")||/[?&]contact_posted=true/.test(location.search), cfFailed=!!(cfState&&cfState.dataset.err==="1");
-if(sentBack && state.result && state.ctx && (cfPosted||cfFailed)){
+/* și o reîncărcare în timpul așteptării (F5, Înapoi, verificare hCaptcha abandonată): rezultatul e deja calculat și nu se pierde */
+if(state.result && state.ctx && (sentBack || thinkPending)){
   try{ sessionStorage.removeItem("cp-neuro-sent"); history.replaceState(null,"",location.pathname); }catch(e){}
-  buildResult(); show("result");
-  $("r-sendstatus").textContent = cfPosted
-    ? "Rezultatul a ajuns la mine. Îți scriu pe e-mail cu planul de pornire în cel mult 24 de ore."
-    : "Nu am putut trimite rezultatul automat. Intră în cont și lipește-mi rezumatul în chat, sau trimite-l pe e-mail.";
+  buildResult();
+  const status = cfPosted ? SENT_TXT : (cfFailed ? FAIL_TXT : WAIT_TXT);
+  const finish=()=>{ show("result"); $("r-sendstatus").textContent=status; };
+  if(thinkPending) startThink(finish); else finish();
 }
 else if(state.result && state.ctx){ /* finished before: show intro, keep data */ }
 else if(answeredCount()>0 && !state.result){ show("quiz"); renderPage(); }

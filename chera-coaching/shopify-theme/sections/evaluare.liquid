@@ -63,6 +63,21 @@
     </div>
   </section>
 
+  <!-- AȘTEPTARE: rezultatul se construiește ~15 s (nu apare instant); pașii se bifează pe rând -->
+  <section id="s-think" hidden class="stack think">
+    <div class="progress">
+      <div class="meta"><span>Rezultatul tău</span><span id="t-step" aria-live="polite">pasul 1 din 6</span></div>
+      <div class="bar"><i id="t-fill"></i></div>
+    </div>
+    <div class="think-head">
+      <p class="eyebrow">Câteva secunde</p>
+      <h2 id="t-title">Îți pregătesc profilul.</h2>
+      <p class="lead">Trec prin răspunsurile tale, rundă cu rundă, și pun cap la cap profilul, dieta și suplimentele. Nu închide pagina.</p>
+    </div>
+    <ol class="think-steps" id="t-steps"></ol>
+    <p class="hint" id="t-foot"></p>
+  </section>
+
   <!-- RESULT -->
   <section id="s-result" hidden class="stack">
     <div class="result-head">

@@ -203,6 +203,27 @@ details p{padding-top:10px;max-width:70ch;color:var(--fg-2)}
 .quiz .result-head .code{font-family:var(--display);font-size:14px;letter-spacing:.2em;color:var(--red)}
 .quiz .door{border:2px solid var(--red);border-radius:10px;padding:20px;display:grid;gap:10px;background:transparent;color:inherit}
 .quiz .code-box{font:600 16px var(--body);background:var(--bg);border:1px dashed var(--line);border-radius:6px;padding:10px 12px;user-select:all;word-break:break-all}
+/* evaluare: ecranul de așteptare (~15 s) până la rezultat */
+.quiz .think{padding-block:8px 24px}
+.quiz .think-head{display:grid;gap:10px}
+.quiz .think-head h2{font-size:clamp(30px,5vw,48px)}
+.quiz .think-steps{list-style:none;margin:0;padding:0;display:grid;border:1px solid var(--line);border-radius:14px;background:var(--bg-2);box-shadow:var(--shadow);overflow:hidden}
+.quiz .think-step{display:grid;grid-template-columns:24px 1fr auto;gap:14px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line);color:var(--fg-3);transition:color .3s}
+.quiz .think-step:last-child{border-bottom:0}
+.quiz .think-step .dot{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;position:relative;transition:background .3s,border-color .3s}
+.quiz .think-step .dot svg{width:12px;height:12px;opacity:0;transition:opacity .3s}
+.quiz .think-step.on,.quiz .think-step.done{color:var(--fg)}
+.quiz .think-step.on .dot{border-color:var(--red)}
+.quiz .think-step.on .dot::after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--red);animation:think-pulse 1s ease-in-out infinite}
+.quiz .think-step.done .dot{background:var(--red);border-color:var(--red)}
+.quiz .think-step.done .dot svg{opacity:1}
+.quiz .think-step .val{font-family:var(--display);font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--red);text-align:right;opacity:0;transform:translateY(4px);transition:opacity .4s,transform .4s}
+.quiz .think-step.on .val{opacity:.6;transform:none;color:var(--fg-2)}
+.quiz .think-step.done .val{opacity:1;transform:none}
+@keyframes think-pulse{0%,100%{transform:scale(.55);opacity:.45}50%{transform:scale(1);opacity:1}}
+.quiz .think #t-foot{overflow-wrap:anywhere}
+@media (max-width:480px){.quiz .think-step{grid-template-columns:24px 1fr;row-gap:2px}.quiz .think-step .val{grid-column:2;text-align:left;min-height:1.55em}}
+@media (prefers-reduced-motion:reduce){.quiz .think-step.on .dot::after{animation:none}.quiz .think-step .val{transition:none;transform:none}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.quiz .progress .bar i{transition:none}}
 
 /* sesiuni: calendar de rezervare */

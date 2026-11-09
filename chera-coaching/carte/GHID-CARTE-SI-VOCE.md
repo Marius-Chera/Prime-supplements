@@ -46,3 +46,6 @@ Se aplică la orice răspuns automat (comentarii, mesaje, e-mail, rezultatul eva
 3. Nu se promite un program, un preț sau o dată în afara celor de pe site (coaching 990 lei/lună, 2.500 lei/3 luni; programe 200 lei; sesiuni 250/400/500 lei).
 4. Tonul e al lui Marius: „eu”, „la sportivii mei”. Când nu știi, scrii „îi transmit lui Marius și revine el personal”.
 5. Nu se salvează în repo date personale ale celor care scriu.
+
+## 5. Stadiul cărții (actualizat 09.11.2026)
+Manuscrisul complet v1 există local: introducere, 21 de capitole (ultimele patru despre neurotransmițători și cele cinci profiluri neuro, aliniate cu evaluarea de pe site), anexe și bibliografie cu 291 de surse verificate în PubMed. Fișierele: `carte/privat/capitole/`, `carte/privat/cercetare/` (dosare pe autori), `carte/privat/build/` (PDF și scripturile de construcție). În carte nu apar nume de antrenori sau autori străini (ideile sunt scrise ca ale lui Marius), iar medicamentele (metformin, SGLT2) apar doar într-o casetă „discuție pentru medic”. Sesiunile din cloud nu văd aceste fișiere; pentru articole se folosește în continuare acest ghid și coada de teme.

@@ -21,3 +21,4 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-06 · Frutilu mango (110) și pepene roșu (134): nu s-au refăcut, ciorne existente în theMarketer din 31.10 (6ae59460466bd6e97b081b0d, 6ae59488a8a349ecb80182ad), nemenționate în acest jurnal.
 - 2026-11-07 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez caramel sărat 6→0, fără aromă 3→2); nicio campanie pregătită.
 - 2026-11-08 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 2, set degustare Frutilu 7); nicio campanie pregătită.
+- 2026-11-09 · Nicio revenire în stoc (doar haine MNX/Prime au crescut de la 0 la ≥10, excluse; crema de orez rămâne la 0–20, set degustare Frutilu 7); nicio campanie pregătită.

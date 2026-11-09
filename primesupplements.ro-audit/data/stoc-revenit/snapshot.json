@@ -1,5 +1,5 @@
 {
- "data": "2026-11-08",
+ "data": "2026-11-09",
  "produse_active": 201,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi.",
  "produse": {
@@ -16,11 +16,11 @@
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
-   "totalInventory": 424,
+   "totalInventory": 422,
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 969,
+   "totalInventory": 965,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -56,7 +56,7 @@
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 328,
+   "totalInventory": 327,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
@@ -68,11 +68,11 @@
    "publishedAt": "2025-05-05"
   },
   "zinc-citrate-80-caps": {
-   "totalInventory": 151,
+   "totalInventory": 149,
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 51,
+   "totalInventory": 49,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
@@ -92,19 +92,19 @@
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 794,
+   "totalInventory": 789,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 67,
+   "totalInventory": 63,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 247,
+   "totalInventory": 245,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 352,
+   "totalInventory": 351,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
@@ -112,27 +112,27 @@
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 168,
+   "totalInventory": 167,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
-   "totalInventory": 143,
+   "totalInventory": 142,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
-   "totalInventory": 349,
+   "totalInventory": 350,
    "publishedAt": "2025-05-05"
   },
   "recovery-bcaa-500g": {
-   "totalInventory": 58,
+   "totalInventory": 57,
    "publishedAt": "2025-05-05"
   },
   "recovery-glutamin": {
-   "totalInventory": 271,
+   "totalInventory": 270,
    "publishedAt": "2025-05-05"
   },
   "combat-pro": {
-   "totalInventory": 110,
+   "totalInventory": 109,
    "publishedAt": "2025-05-05"
   },
   "energy-pump": {
@@ -148,7 +148,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 38,
+   "totalInventory": 34,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -160,19 +160,19 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 343,
+   "totalInventory": 344,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 606,
+   "totalInventory": 603,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 126,
+   "totalInventory": 125,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
-   "totalInventory": 43,
+   "totalInventory": 42,
    "publishedAt": "2025-05-05"
   },
   "combat-pro-2-0-660g-30-serv": {
@@ -192,11 +192,11 @@
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
-   "totalInventory": 91,
+   "totalInventory": 90,
    "publishedAt": "2025-05-05"
   },
   "potassium-complex-80-caps": {
-   "totalInventory": 25,
+   "totalInventory": 24,
    "publishedAt": "2025-05-05"
   },
   "glycerol-max-pump-500g-125-serv": {
@@ -212,7 +212,7 @@
    "publishedAt": "2025-06-03"
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 221,
+   "totalInventory": 222,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
@@ -224,7 +224,7 @@
    "publishedAt": "2026-05-05"
   },
   "crema-de-orez-fara-aroma": {
-   "totalInventory": 2,
+   "totalInventory": 1,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-blueberry-muffin": {
@@ -236,7 +236,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
-   "totalInventory": 26,
+   "totalInventory": 20,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {

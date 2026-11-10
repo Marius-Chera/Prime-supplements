@@ -1,0 +1,744 @@
+﻿<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Prime Supplements – International distribution portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --ink: #111; --grey: #666; --line: #e4e4e4; --bg: #f3f3f3; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; color: var(--ink); font-family: Poppins, "Segoe UI", Arial, sans-serif; font-size: 9.6pt; line-height: 1.5; }
+  img { display: block; }
+  .page { position: relative; width: 210mm; height: 297mm; padding: 15mm 15mm 16mm; overflow: hidden; break-after: page; page-break-after: always; background: #fff; }
+  .page:last-of-type { break-after: auto; page-break-after: auto; }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 7mm; font-size: 7.4pt; color: #9a9a9a; display: flex; justify-content: space-between; letter-spacing: .2px; }
+  .foot.dark { color: rgba(255,255,255,.75); }
+  .kicker { color: var(--red); text-transform: uppercase; letter-spacing: 2.2px; font-weight: 700; font-size: 8pt; margin: 0 0 2mm; }
+  h1 { font-size: 23pt; line-height: 1.12; margin: 0 0 4mm; font-weight: 800; letter-spacing: -.3px; }
+  h1 span { color: var(--red); }
+  h2 { font-size: 14pt; line-height: 1.2; margin: 0 0 1mm; font-weight: 800; }
+  h3 { font-size: 9pt; text-transform: uppercase; letter-spacing: 1.4px; margin: 5.5mm 0 2mm; font-weight: 700; border-left: 3px solid var(--red); padding-left: 2.5mm; }
+  h4 { font-size: 9.8pt; margin: 0; font-weight: 700; line-height: 1.25; }
+  p { margin: 0 0 2mm; }
+  p.big { font-size: 11pt; line-height: 1.5; color: #222; margin-bottom: 3mm; }
+  p.sub { color: var(--grey); font-size: 10.5pt; margin: 0; }
+  .size { color: var(--grey); font-size: 8.2pt; margin: 0 0 1.2mm; display: block; }
+  .tnote { color: var(--grey); font-size: 7.8pt; margin-top: 2mm; }
+  .ph { width: 100%; object-fit: cover; border-radius: 2.5mm; }
+  mark.todo { background: #ffe14d; color: #111; font-weight: 600; padding: 0 1.2mm; border-radius: 1mm; font-size: .92em; }
+  /* cover */
+  .cover { padding: 0; color: #fff; background: #111; }
+  .cover .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .cover .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.05) 32%, rgba(0,0,0,.25) 52%, rgba(0,0,0,.92) 80%); }
+  .cover .shade.full { background: rgba(0,0,0,.78); }
+  .cover .logo { position: absolute; left: 15mm; top: 15mm; height: 15mm; }
+  .cover .ctxt { position: absolute; left: 15mm; right: 15mm; bottom: 24mm; }
+  .cover h1 { font-size: 44pt; text-transform: uppercase; color: #fff; letter-spacing: -.5px; line-height: 1.02; margin-bottom: 6mm; }
+  .cover .kicker { color: #ff6b6f; font-size: 9pt; }
+  .cover .lead { font-size: 12.5pt; font-weight: 300; max-width: 150mm; color: #fff; }
+  .end h1 { font-size: 34pt; }
+  .end .ctxt { top: 62mm; bottom: auto; }
+  .contact { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 8mm; margin-top: 9mm; border-top: 1px solid rgba(255,255,255,.25); padding-top: 6mm; font-size: 11pt; }
+  .contact b { display: block; color: #ff6b6f; text-transform: uppercase; font-size: 7.6pt; letter-spacing: 1.4px; margin-bottom: .5mm; }
+  .legal { margin-top: 10mm; font-size: 8.6pt; color: rgba(255,255,255,.75); }
+  /* layout */
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; align-items: start; }
+  .two.t60 { grid-template-columns: 1.08fr 1fr; margin-top: 5mm; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin: 6mm 0 1mm; }
+  .facts div { background: var(--ink); color: #fff; border-radius: 2mm; padding: 3mm 4mm; }
+  .facts b { display: block; font-size: 17pt; font-weight: 800; color: #fff; line-height: 1.1; }
+  .facts span { font-size: 7.8pt; color: #cfcfcf; }
+  .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 3mm; }
+  .values div { background: var(--bg); border-top: 3px solid var(--red); border-radius: 0 0 2mm 2mm; padding: 3.5mm 4mm; font-size: 8.8pt; }
+  .values b { display: block; text-transform: uppercase; letter-spacing: 1px; font-size: 8.6pt; margin-bottom: 1mm; }
+  .founder { margin-top: 4mm; border: 1px solid var(--line); border-radius: 2.5mm; padding: 4mm 5mm; }
+  .founder p:last-child { margin: 0; }
+  .why { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 4mm; }
+  .why div { border: 1px solid var(--line); border-radius: 2.5mm; padding: 4mm 5mm 4mm 15mm; position: relative; font-size: 8.8pt; min-height: 39mm; }
+  .why i { position: absolute; left: 4.5mm; top: 3.5mm; font-style: normal; font-weight: 800; font-size: 15pt; color: var(--red); }
+  .why b { display: block; font-size: 10pt; margin-bottom: 1mm; }
+  /* best sellers */
+  .bs3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-top: 5mm; }
+  .bs3 > div { border: 1px solid var(--line); border-radius: 2.5mm; padding: 4mm; text-align: center; }
+  .bsimg { border-radius: 2mm; height: 58mm; margin-bottom: 3mm; overflow: hidden; }
+  .shot { display: block; width: 100%; height: 100%; overflow: hidden; border-radius: inherit; }
+  .shot img { width: 100%; height: 100%; object-fit: contain; }
+  .bs3 b { display: block; font-size: 13pt; font-weight: 800; text-transform: uppercase; }
+  .bs3 span { font-size: 8.4pt; color: var(--grey); }
+  ol.rank { list-style: none; counter-reset: r; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm 8mm; }
+  ol.rank li { counter-increment: r; display: flex; align-items: baseline; gap: 3mm; border-bottom: 1px solid var(--line); padding: 2mm 0; }
+  ol.rank li::before { content: counter(r); font-weight: 800; font-size: 15pt; color: var(--red); width: 7mm; }
+  ol.rank b { font-size: 10pt; } ol.rank span { color: var(--grey); font-size: 8.2pt; margin-left: auto; }
+  .bshead { border-bottom: 3px solid var(--ink); padding-bottom: 3.5mm; margin-bottom: 5mm; }
+  .bshead h1 { font-size: 27pt; text-transform: uppercase; margin-bottom: 1mm; }
+  .hero2 { display: grid; grid-template-columns: 1fr 62mm; gap: 5mm; }
+  .prodshot { border-radius: 2.5mm; height: 78mm; overflow: hidden; }
+  ul.ticks { list-style: none; margin: 0; padding: 0; }
+  ul.ticks li { position: relative; padding-left: 5mm; margin-bottom: 1.6mm; }
+  ul.ticks li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 2.2mm; height: 2.2mm; background: var(--red); border-radius: 50%; }
+  table.nutri { width: 100%; border-collapse: collapse; font-size: 8.6pt; }
+  table.nutri th { background: var(--ink); color: #fff; text-align: right; padding: 1.6mm 2.5mm; font-size: 7.4pt; text-transform: uppercase; letter-spacing: .5px; font-weight: 600; }
+  table.nutri th:first-child, table.nutri td:first-child { text-align: left; }
+  table.nutri td { padding: 1.3mm 2.5mm; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  table.nutri tr.sub td:first-child { padding-left: 6mm; color: var(--grey); }
+  table.nutri.wide { font-size: 8.2pt; } table.nutri.wide th { font-size: 6.8pt; padding: 1.6mm 1.5mm; white-space: normal; line-height: 1.2; } table.nutri.wide td { padding: 1.5mm 1.5mm; }
+  dl.spec { margin: 4mm 0 0; }
+  dl.spec div { display: grid; grid-template-columns: 24mm 1fr; gap: 3mm; border-top: 1px solid var(--line); padding: 1.6mm 0; font-size: 8.4pt; }
+  dl.spec dt { font-weight: 700; text-transform: uppercase; font-size: 7.2pt; letter-spacing: .6px; color: var(--grey); padding-top: .4mm; }
+  dl.spec dd { margin: 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 1.6mm; }
+  .chips span { border: 1px solid var(--ink); border-radius: 10mm; padding: .7mm 3mm; font-size: 8.2pt; font-weight: 500; }
+  .formats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+  .formats > div { border: 1px solid var(--line); border-radius: 2.5mm; padding: 4mm; font-size: 8.8pt; }
+  .formats b { font-size: 12pt; font-weight: 800; display: block; }
+  .fimg { border-radius: 2mm; height: 60mm; margin-bottom: 3mm; overflow: hidden; }
+  .rflav { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2.5mm; }
+  .rflav figure, .gear figure { margin: 0; text-align: center; font-size: 7.8pt; font-weight: 600; line-height: 1.25; }
+  .rflav figure div { border-radius: 2mm; height: 40mm; margin-bottom: 1.5mm; overflow: hidden; border: 1px solid var(--line); }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .dcard { border: 1px solid var(--line); border-radius: 2.5mm; padding: 5mm; font-size: 8.8pt; }
+  .dimg { border-radius: 2mm; height: 56mm; margin-bottom: 4mm; overflow: hidden; border: 1px solid var(--line); }
+  .dcard h3 { margin-top: 4mm; }
+  .claim { margin-top: 5mm; background: var(--bg); border-left: 3px solid var(--red); padding: 3mm 4mm; font-size: 8.4pt; color: #333; }
+  /* stacks */
+  .stacks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4mm; margin-top: 4mm; }
+  .stack { border: 1px solid var(--line); border-radius: 2.5mm; padding: 3.5mm; font-size: 8.2pt; }
+  .stack b { font-size: 11pt; font-weight: 800; text-transform: uppercase; display: block; }
+  .stack p:last-child { margin: 0; }
+  .simgs { height: 20mm; display: flex; align-items: center; justify-content: flex-start; gap: 1mm; margin-bottom: 2.5mm; }
+  .simgs .shot { width: 14mm; height: 20mm; border-radius: 1.5mm; flex: none; }
+  .simgs i { font-style: normal; font-weight: 800; color: var(--red); font-size: 9pt; }
+  /* catalogue */
+  h3.cat { background: var(--ink); color: #fff; border: 0; padding: 1.6mm 3.5mm; border-radius: 1.5mm; margin: 4mm 0 2.5mm; letter-spacing: 1.6px; }
+  .cgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm; }
+  .ccard { display: grid; grid-template-columns: 23mm 1fr; gap: 3mm; border: 1px solid var(--line); border-radius: 2mm; padding: 2mm; font-size: 7.8pt; line-height: 1.38; align-items: start; }
+  .ccard p { margin: 0 0 .8mm; } .ccard .size { font-size: 7.4pt; margin-bottom: .8mm; }
+  .cimg { border-radius: 1.5mm; height: 23mm; overflow: hidden; }
+  .ccard.wide { grid-column: 1 / -1; grid-template-columns: 94mm 1fr; }
+  .cimgs { border-radius: 1.5mm; height: 23mm; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1mm; overflow: hidden; }
+  .stk { color: var(--grey); font-size: 7.4pt; } .stk b { color: var(--red); }
+  .gear { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3.5mm; margin-top: 5mm; }
+  .gear figure div { border-radius: 2mm; height: 40mm; margin-bottom: 1.5mm; overflow: hidden; border: 1px solid var(--line); }
+  /* partnership */
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; }
+  .steps div { background: var(--bg); border-radius: 2mm; padding: 3.5mm 4mm; font-size: 8.4pt; }
+  .steps i { font-style: normal; font-weight: 800; font-size: 16pt; color: var(--red); display: block; line-height: 1; margin-bottom: 1mm; }
+  .steps b { display: block; font-size: 9.4pt; }
+  table.terms { width: 100%; border-collapse: collapse; font-size: 8.8pt; }
+  table.terms td { border-bottom: 1px solid var(--line); padding: 1.7mm 0; }
+  table.terms td:last-child { text-align: right; }
+  @media print { @page { size: A4; margin: 0; } * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+  @media screen { body { background: #777; padding: 10mm; } .page { margin: 0 auto 10mm; box-shadow: 0 4px 24px rgba(0,0,0,.3); } }
+</style></head>
+<body>
+<section class="page cover">
+  <img class="bg" src="img/sala-whey-nitrox3d.jpg" alt="">
+  <div class="shade"></div>
+  <img class="logo" src="img/logo-prime-alb.svg" alt="Prime Supplements">
+  <div class="ctxt">
+    <p class="kicker">International distribution portfolio</p>
+    <h1>Hardcore<br>Sports <span>Nutrition</span></h1>
+    <p class="lead">Prime Supplements is a Romanian sports nutrition brand: protein, creatine, cream of rice and a complete range made in the European Union.</p>
+  </div>
+  <div class="foot dark"><span>PRIME SPORT SUPPLEMENTS SRL · Sibiu County, Romania · primesupplements.ro</span><span>Edition November 2026</span></div>
+</section>
+<section class="page">
+  <p class="kicker">About the brand</p>
+  <h1>Built in competitive bodybuilding, <span>made for every athlete.</span></h1>
+  <div class="two">
+    <div>
+      <p class="big">Prime Supplements was founded in 2022 in Sibiu County, Romania. Our mission is to educate, inspire and improve the performance of athletes.</p>
+      <p>The supplements are created to support athletes up to the highest level of performance. The ranges serve both people who train and want healthy, adapted nutrition, and competitive athletes.</p>
+      <p>We analyse demand, athletes' needs and raw materials, and we raise quality. That is how we work towards our mission: to set a new standard on the supplement market, to support athletes on their way to performance and to offer products adapted to their nutritional needs.</p>
+    </div>
+    <img class="ph" src="img/sala-kettlebell.jpg" alt="Prime Whey in the gym" style="height:66mm">
+  </div>
+  <div class="facts">
+    <div><b>2022</b><span>Year founded</span></div>
+    <div><b>Romania</b><span>Cisnădie, Sibiu County</span></div>
+    <div><b>61</b><span>supplements and functional foods in the range</span></div>
+    <div><b>EU</b><span>Made in the European Union</span></div>
+  </div>
+  <h3>Hardcore Sports Nutrition</h3>
+  <p>Hardcore Sports Nutrition is the motto on every label and the mindset behind the company. The formulas, with their micro- and macronutrients, were designed after many years of study and experience in competitive bodybuilding. For us it is not only a motto that pushed us to look for the right balance in our products: it is a mindset that pushes anyone to exceed their own condition through devotion to their goal, supported by the balance between nutrition and training.</p>
+  <div class="values">
+    <div><b>Educate</b>Clear labels and a product blog that explains what each product contains, how much to take and when.</div>
+    <div><b>Inspire</b>A brand that comes from the gym floor and speaks the language of people who train.</div>
+    <div><b>Perform</b>Formulas adapted to what athletes need before, during and after training.</div>
+  </div>
+  <div class="founder">
+    <div>
+      <p class="kicker">The founder</p>
+      <h3 style="margin-top:0;border:0;padding:0">Marius Chera</h3>
+      <p>Marius Chera founded Prime Supplements in 2022. He is one of the best-known bodybuilding coaches in Romania and the first Romanian coach to have prepared athletes who earned the PRO card within the NPC organisation. His experience in bodybuilding is the basis on which the products were optimised: the range he recommends to bodybuilders throughout their preparation is the Prime Supplements range.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>2</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Why Prime Supplements</p>
+  <h1>Quality you can read <span>on the label.</span></h1>
+  <p class="big">We work with leading suppliers in the supplement industry. Beyond processing technology and raw materials, we take pride in the recipes themselves.</p>
+  <div class="why">
+    <div><i>01</i><b>Formulas shaped by bodybuilding</b>Developed together with our founder and adapted to what bodybuilders need before, during and after training, all day long, with a reduced content of excipients.</div>
+    <div><i>02</i><b>Named, branded ingredients</b>Creapure® creatine, Kyowa® L-glutamine, KSM-66® ashwagandha, Cluster Dextrin®, Bergamonte®, Peptan® collagen, DigeZyme® and EnXtra® are declared by name on our labels. Prime Supplements is listed on creapure.com as a Creapure® partner brand for Romania.</div>
+    <div><i>03</i><b>Documented quality</b>Products are made in the European Union; Prime Whey is produced in an ISO and HACCP certified facility. As stated on our website, raw material quality is backed by national and international certifications such as TÜV, IFS, HALAL and Cologne List for Athletes. <mark class="todo">[DE COMPLETAT: certificate copies]</mark></div>
+    <div><i>04</i><b>Transparent labels</b>Every active ingredient is declared with its amount per serving, next to a full nutrition table. We use only health claims authorised in the EU. Packaging carries Romanian and English text. <mark class="todo">[DE COMPLETAT: other label languages]</mark></div>
+    <div><i>05</i><b>One brand, a complete range</b>61 supplements and functional foods plus accessories and gym wear: from 10 g sachets and 25 ml shots to 3 kg tubs. A distributor can build a full sports nutrition shelf from a single partner.</div>
+    <div><i>06</i><b>Proven on the home market</b>The best sellers in this portfolio are ranked from the sales of our own online store. The brand is supported by professional photo shoots, detailed product pages and an educational blog.</div>
+  </div>
+  <h3>What the end customer gets</h3>
+  <div class="values">
+    <div><b>Taste and choice</b>Seven flavours of Prime Whey, seven of Creamy Rice, seven of Pure Isolate.</div>
+    <div><b>Formats for every habit</b>Single-serve sachets and shots for the gym bag, 1 kg tubs to start, 2–3 kg tubs for daily users.</div>
+    <div><b>Clear directions</b>Serving size, number of servings and directions for use on every product.</div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>3</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Best sellers</p>
+  <h1>Three product lines <span>lead our sales.</span></h1>
+  <p class="big">Protein, cream of rice and creatine are the core of the brand. The next pages present each line in detail; the rest of the range follows as a compact catalogue.</p>
+  <div class="bs3">
+    <div><div class="bsimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.5)"></span></div><b>Protein</b><span>Prime Whey 1 kg and 2 kg, Prime Whey Go sachets, Pure Isolate 2 kg</span></div>
+    <div><div class="bsimg"><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-tort-de-ciocolata.jpg" alt="" style="transform:scale(1.15)"></span></div><b>Cream of Rice</b><span>Prime Creamy Rice 1 kg in seven flavours</span></div>
+    <div><div class="bsimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-creapure.jpg" alt="" style="transform:scale(1.5)"></span></div><b>Creatine</b><span>Creapure® 300 g and 500 g, micronised 300 g, Ready To Go sachets</span></div>
+  </div>
+  <h3>Top sellers in our online store</h3>
+  <ol class="rank">
+    <li><b>Prime Whey 2 kg</b><span>whey protein concentrate</span></li>
+    <li><b>Prime Whey 1 kg</b><span>whey protein concentrate</span></li>
+    <li><b>Prime Delicious Bar, Strawberry</b><span>protein bar 55 g</span></li>
+    <li><b>Creatine Creapure®</b><span>creatine monohydrate</span></li>
+    <li><b>Creamy Rice, Chocolate Cake</b><span>cream of rice 1 kg</span></li>
+    <li><b>Creamy Rice, Coconut Cream Pie</b><span>cream of rice 1 kg</span></li>
+  </ol>
+  <p class="tnote">Ranking by units sold on primesupplements.ro in the 12 months to 10 November 2026 (Shopify Analytics). Six of the seven Creamy Rice flavours are in the top 20.</p>
+  <img class="ph" src="img/batoane-fiole.jpg" alt="" style="height:60mm;margin-top:5mm;object-position:50% 60%">
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>4</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Protein</p><h1>Prime Whey</h1><p class="sub">Whey protein concentrate · our best-selling product</p></div>
+  <div class="hero2">
+    <img class="ph" src="img/ai-whey-duo.jpg" alt="Prime Whey" style="height:78mm">
+    <div class="prodshot"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.5)"></span></div>
+  </div>
+  <div class="two t60">
+    <div>
+      <p class="big">Prime Whey is a whey protein concentrate powder with added glycine and L-lysine, with flavours and sweeteners. One 30 g scoop provides around 24 g of protein.</p>
+      <h3>Key benefits</h3>
+      <ul class="ticks">
+        <li>Protein contributes to a growth in muscle mass.</li>
+        <li>Protein contributes to the maintenance of muscle mass.</li>
+        <li>Protein contributes to the maintenance of normal bones.</li>
+        <li>Around 24 g of protein and about 120 kcal per 30 g serving; each flavour has its own nutrition table and amino acid profile printed on the tub.</li>
+        <li>Seven flavours, the same across the 1 kg tub, the 2 kg tub and the single-serve sachet.</li>
+      </ul>
+      <h3>Directions for use</h3>
+      <p>Mix one scoop (30 g) with 150–200 ml of water or milk in a shaker. The label recommends 1–4 servings a day, depending on protein needs.</p>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Nutrition declaration</h3>
+      <table class="nutri"><thead><tr><th></th><th>per 30 g serving</th><th>per 100 g</th></tr></thead><tbody><tr><td>Energy</td><td>504.0 kJ / 120.6 kcal</td><td>1680.0 kJ / 401.9 kcal</td></tr><tr><td>Fat</td><td>2.0 g</td><td>6.6 g</td></tr><tr class="sub"><td>of which saturates</td><td>1.1 g</td><td>3.5 g</td></tr><tr><td>Carbohydrate</td><td>1.3 g</td><td>4.4 g</td></tr><tr class="sub"><td>of which sugars</td><td>1.3 g</td><td>4.4 g</td></tr><tr><td>Fibre</td><td>0 g</td><td>0 g</td></tr><tr><td><b>Protein</b></td><td><b>24.4 g</b></td><td><b>81.3 g</b></td></tr><tr><td>Salt</td><td>0.12 g</td><td>0.39 g</td></tr></tbody></table><p class="tnote">Blueberry Vanilla, 1 kg tub. Other flavours have their own table, with close values (around 23–24 g protein per serving).</p>
+      <dl class="spec"><div><dt>Ingredients</dt><dd>Whey protein concentrate, glycine, L-lysine, flavours, sweeteners (sucralose, acesulfame-K). The list varies slightly by flavour.</dd></div><div><dt>Allergens</dt><dd>Milk (whey). Made in a facility that also processes egg, soy and wheat.</dd></div><div><dt>Origin</dt><dd>Made in the EU, in an ISO and HACCP certified facility.</dd></div></dl>
+    </div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>5</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Protein</p><h1>Prime Whey: three formats, seven flavours</h1></div>
+  <div class="formats">
+    <div><div class="fimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.5)"></span></div><b>Prime Whey 2 kg</b><span class="size">2000 g · 66 servings of 30 g</span><p>The large tub for people who take protein almost daily and have found their flavour. Our number one product by units sold.</p></div>
+    <div><div class="fimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-1000g.jpg" alt="" style="transform:scale(1.5)"></span></div><b>Prime Whey 1 kg</b><span class="size">1000 g · 33 servings of 30 g</span><p>Suited to a first order, to trying a new flavour, or to people who take protein only on training days. About one month at one serving a day.</p></div>
+    <div><div class="fimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-go.jpg" alt="" style="transform:scale(1.4)"></span></div><b>Prime Whey Go</b><span class="size">30 g sachet · single or box of 15</span><p>Prime Whey in a single-serve sachet for the gym, the office or travel: no tub and no scoop to carry. The powder provides 82 g of protein per 100 g. <mark class="todo">[DE COMPLETAT: nutrition per sachet]</mark></p></div>
+  </div>
+  <h3>Flavours</h3>
+  <div class="chips"><span>Blueberry Vanilla</span><span>Bourbon Vanilla</span><span>Chocolate Coconut</span><span>Salted Caramel</span><span>Strawberry Cheesecake</span><span>Toffee Chocolate</span><span>White Chocolate Raspberry</span></div>
+  <div class="two" style="margin-top:6mm">
+    <div>
+      <h3 style="margin-top:0">Who it is for</h3>
+      <ul class="ticks">
+        <li>Adults who train regularly and do not reach their protein needs from food alone.</li>
+        <li>New customers: the 1 kg tub and the sachet are the entry point to the brand.</li>
+        <li>Daily users: the 2 kg tub gives 66 servings.</li>
+        <li>Retail and gym counters: the sachet sells by the piece and works as a sample for the tubs.</li>
+      </ul>
+      <p class="tnote">Food supplement. Not recommended for children or for women during pregnancy or breastfeeding. Do not exceed the recommended daily dose.</p>
+    </div>
+    <img class="ph" src="img/sala-ramat.jpg" alt="" style="height:70mm">
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>6</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Protein</p><h1>Pure Isolate</h1><p class="sub">Microfiltered whey protein isolate · 2 kg · 74 servings</p></div>
+  <div class="hero2">
+    <img class="ph" src="img/blog-isolate.jpg" alt="Pure Isolate" style="height:70mm">
+    <div class="prodshot"><span class="shot" style="background:#f2f2f2"><img src="img/p-pure-isolate-2000g.jpg" alt="" style="transform:scale(1.5)"></span></div>
+  </div>
+  <div class="two t60">
+    <div>
+      <p class="big">Pure Isolate is the only isolate in the Prime range: microfiltered whey protein isolate with the Digezyme® enzyme complex. A 27 g serving provides 23.5 g of protein and 97.3 kcal.</p>
+      <h3>Key benefits</h3>
+      <ul class="ticks">
+        <li>87.0 g of protein per 100 g; 23.5 g per 27 g serving.</li>
+        <li>Per 100 g: 0.96 g carbohydrates and 0.96 g fat.</li>
+        <li>Protein contributes to a growth in muscle mass and to the maintenance of muscle mass and of normal bones.</li>
+        <li>Contains Digezyme® enzyme complex: 40.5 mg per serving.</li>
+        <li>Seven flavours; Caffè Latte, Chocolate and Strawberry are exclusive to Pure Isolate.</li>
+      </ul>
+      <h3>Directions for use</h3>
+      <p>Mix one 27 g serving with water or milk, after training or during the day.</p>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Nutrition declaration</h3>
+      <table class="nutri"><thead><tr><th></th><th>per 27 g serving</th><th>per 100 g</th></tr></thead><tbody><tr><td>Energy</td><td>406.8 kJ / 97.3 kcal</td><td>1506.5 kJ / 360.4 kcal</td></tr><tr><td><b>Protein</b></td><td><b>23.5 g</b></td><td><b>87.0 g</b></td></tr><tr><td>Carbohydrate</td><td>0.26 g</td><td>0.96 g</td></tr><tr class="sub"><td>of which sugars</td><td>0.26 g</td><td>0.96 g</td></tr><tr><td>Fat</td><td>0.26 g</td><td>0.96 g</td></tr><tr><td>Fibre</td><td>0 g</td><td>0 g</td></tr><tr><td>Sodium</td><td>0.04 g</td><td>0.14 g</td></tr><tr><td>Digezyme®</td><td>40.5 mg</td><td>150 mg</td></tr></tbody></table>
+      <h3>Flavours</h3>
+      <div class="chips"><span>Bourbon Vanilla</span><span>Caffè Latte</span><span>Chocolate</span><span>Salted Caramel</span><span>Strawberry</span><span>Strawberry Cheesecake</span><span>White Chocolate Raspberry</span></div>
+      <dl class="spec"><div><dt>Ingredients</dt><dd>Microfiltered whey protein isolate, cocoa (chocolate flavour), flavours, enzyme complex (Digezyme®), sweeteners (sucralose, acesulfame potassium), colour (carmine, strawberry flavour).</dd></div><div><dt>Allergens</dt><dd>Milk (whey).</dd></div><div><dt>Who it is for</dt><dd>Customers who want an isolate rather than a concentrate, with more protein and fewer carbohydrates and fats per serving.</dd></div></dl>
+    </div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>7</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Cream of Rice</p><h1>Prime Creamy Rice</h1><p class="sub">Instant cream of rice · 1 kg · 22 servings · seven flavours</p></div>
+  <img class="ph" src="img/rice-athlete.jpg" alt="Prime Creamy Rice" style="height:92mm;object-position:50% 30%">
+  <div class="two t60" style="margin-top:6mm">
+    <div>
+      <p class="big">Creamy Rice is an instant cream of rice: a powder based on pregelatinised rice flour. Because the starch is pregelatinised, it binds directly with cold liquid, with no cooking.</p>
+      <h3>Key benefits</h3>
+      <ul class="ticks">
+        <li>Ready without cooking: powder, cold water or milk, stir.</li>
+        <li>A food, not a food supplement: high in carbohydrates, with 32.6–35.1 g of carbohydrates and 155–166 kcal per 45 g serving.</li>
+        <li>Flavoured versions are made with no added sugars and contain naturally occurring sugars; sweeteners: sucralose and acesulfame-K.</li>
+        <li>The unflavoured version has a single ingredient: 100% pregelatinised rice flour.</li>
+        <li>Can be eaten as it is or added to smoothies and protein shakes, as stated on the label.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Directions for use</h3>
+      <p>Put one 45 g serving (1 scoop) in a bowl or shaker, add 150–200 ml of cold water or milk and stir until creamy. With 150 ml it is thicker, like a pudding; with 200 ml it is more fluid.</p>
+      <h3>Who it is for</h3>
+      <p>People who want a fast carbohydrate meal: breakfast, a snack or a dessert without cooking. Athletes who mix it with their protein shake. The unflavoured version is a neutral base for sweet or savoury recipes.</p>
+      <dl class="spec"><div><dt>Format</dt><dd>1 kg tub · 22 servings of 45 g · measuring scoop</dd></div><div><dt>Allergens</dt><dd>May contain traces of milk, egg, soy, wheat and fish. Coconut Cream Pie contains soy (lecithin).</dd></div><div><dt>On the tub</dt><dd>“Ready in seconds · Smooth, creamy texture · Fast carbs for instant energy”</dd></div></dl>
+    </div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>8</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Cream of Rice</p><h1>Seven flavours, one base</h1><p class="sub">Six of the seven flavours are among our 20 best-selling products.</p></div>
+  <div class="rflav"><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-tort-de-ciocolata.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Chocolate Cake</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-plactina-cu-cocos.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Coconut Cream Pie</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-biscuiti-cu-crema.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Cookie Cream</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-blueberry-muffin.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Blueberry Muffin</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-caramel-sarat.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Salted Caramel</figcaption></figure><figure><div><span class="shot" style="background:#fcfcfc"><img src="img/p-crema-de-orez-sirop-de-artar.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Maple Sugar</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-fara-aroma.jpg" alt="" style="transform:scale(1.12)"></span></div><figcaption>Natur (unflavoured)</figcaption></figure></div>
+  <h3>Nutrition declaration per 45 g serving (1 scoop)</h3>
+  <table class="nutri wide">
+    <thead><tr><th>Flavour</th><th>Energy</th><th>Fat</th><th>of which saturates</th><th>Carbohydrate</th><th>of which sugars</th><th>Fibre</th><th>Protein</th><th>Salt</th></tr></thead>
+    <tbody><tr><td><b>Chocolate Cake</b></td><td>155.8 kcal</td><td>0.65 g</td><td>0.25 g</td><td><b>32.6 g</b></td><td>0.3 g</td><td>1.4 g</td><td>4.2 g</td><td>0.15 g</td></tr><tr><td><b>Coconut Cream Pie</b></td><td>166.2 kcal</td><td>1.8 g</td><td>1.4 g</td><td><b>33.3 g</b></td><td>0.3 g</td><td>0.7 g</td><td>3.7 g</td><td>0.15 g</td></tr><tr><td><b>Cookie Cream</b></td><td>155.7 kcal</td><td>0.4 g</td><td>0.13 g</td><td><b>33.8 g</b></td><td>0.3 g</td><td>0.9 g</td><td>3.4 g</td><td>0.12 g</td></tr><tr><td><b>Blueberry Muffin</b></td><td>157.2 kcal</td><td>0.27 g</td><td>0.07 g</td><td><b>34.7 g</b></td><td>1.0 g</td><td>0.8 g</td><td>3.6 g</td><td>0.15 g</td></tr><tr><td><b>Salted Caramel</b></td><td>155.2 kcal</td><td>0.5 g</td><td>0.2 g</td><td><b>33.4 g</b></td><td>0.3 g</td><td>1.0 g</td><td>3.9 g</td><td>0.4 g</td></tr><tr><td><b>Maple Sugar</b></td><td>155.4 kcal</td><td>0.3 g</td><td>0.07 g</td><td><b>34.3 g</b></td><td>0.3 g</td><td>0.7 g</td><td>3.6 g</td><td>0.14 g</td></tr><tr><td><b>Natur (unflavoured)</b></td><td>158.8 kcal</td><td>0.3 g</td><td>0.07 g</td><td><b>35.1 g</b></td><td>0.3 g</td><td>0.7 g</td><td>3.6 g</td><td>0.0 g</td></tr></tbody>
+  </table>
+  <p class="tnote">Values from the nutrition declaration of each product. Per 100 g: 345–369 kcal depending on flavour.</p>
+  <div class="two" style="margin-top:5mm">
+    <div>
+      <h3 style="margin-top:0">Ingredients</h3>
+      <p><b>Flavoured:</b> pregelatinised rice flour, flavours, salt, sweeteners (sucralose, acesulfame-K); low-fat cocoa in Chocolate Cake, Cookie Cream and Salted Caramel; dried blueberry pieces (3%) in Blueberry Muffin; coconut milk powder and chocolate pieces (3%) in Coconut Cream Pie.</p>
+      <p><b>Natur:</b> pregelatinised rice flour (100%). No flavours, no sweeteners.</p>
+      <h3>Pairs with</h3>
+      <p>Prime Whey in the matching flavour (Salted Caramel exists in both ranges), Prime Health peanut and almond butter, fresh fruit.</p>
+    </div>
+    <img class="ph" src="img/blog-rice-recipes.jpg" alt="" style="height:66mm">
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>9</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Creatine</p><h1>Creatine Creapure®</h1><p class="sub">Creatine monohydrate · 300 g and 500 g · unflavoured</p></div>
+  <div class="hero2">
+    <img class="ph" src="img/blog-creapure-locker.jpg" alt="Creatine Creapure" style="height:78mm">
+    <div class="prodshot"><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-creapure.jpg" alt="" style="transform:scale(1.5)"></span></div>
+  </div>
+  <div class="two t60">
+    <div>
+      <p class="big">A food supplement powder with a single ingredient: micronised creatine monohydrate (Creapure®). “Made of Creapure®” is printed on the front of the tub, and Prime Supplements is listed on creapure.com as a Creapure® partner brand for Romania.</p>
+      <h3>Key benefits</h3>
+      <ul class="ticks">
+        <li>Creatine increases physical performance in successive bursts of short-term, high intensity exercise. The beneficial effect is obtained with a daily intake of 3 g of creatine.</li>
+        <li>One ingredient: no flavours, sweeteners or colours in the ingredient list.</li>
+        <li>Creapure® is a registered brand of creatine monohydrate, declared on the label.</li>
+        <li>Two sizes with the same ingredient: at 5 g a day, a tub lasts 60 or 100 days.</li>
+      </ul>
+      <h3>Who it is for</h3>
+      <p>Adults who do high intensity training and want a creatine with a named, verifiable raw material. Not recommended for people under 18 or for women during pregnancy and breastfeeding.</p>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Per serving</h3>
+      <table class="nutri"><thead><tr><th></th><th>per 5 g serving</th></tr></thead><tbody><tr><td><b>Creatine monohydrate (Creapure®)</b></td><td><b>5 g</b></td></tr><tr><td>Recommended daily dose</td><td>3–5 g of creatine</td></tr></tbody></table>
+      <h3>Sizes</h3>
+      <table class="nutri"><thead><tr><th></th><th>Servings</th><th>EAN</th></tr></thead><tbody><tr><td><b>300 g tub</b></td><td>60 × 5 g</td><td>6421766064404</td></tr><tr><td><b>500 g tub</b></td><td>100 × 5 g</td><td>6421766015109</td></tr></tbody></table>
+      <h3>Directions for use</h3>
+      <p>3–5 g of creatine a day, mixed in water or in a protein shake. Drink enough fluids during the day and do not exceed the recommended daily dose.</p>
+      <dl class="spec"><div><dt>Ingredients</dt><dd>Micronised creatine monohydrate (Creapure®).</dd></div><div><dt>Flavour</dt><dd>Unflavoured.</dd></div></dl>
+    </div>
+  </div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>10</span></div>
+</section>
+<section class="page bs">
+  <div class="bshead"><p class="kicker">Best seller · Creatine</p><h1>Creatine for every budget and habit</h1></div>
+  <div class="duo">
+    <div class="dcard">
+      <div class="dimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-monohidrat-micronized-300g-fara-aroma.jpg" alt="" style="transform:scale(1)"></span></div>
+      <h2>Micronised Creatine Monohydrate</h2>
+      <p class="size">300 g · 60 servings · unflavoured · scoop included</p>
+      <p>A powder that contains 100% creatine monohydrate: one ingredient, no flavours, sweeteners or colours. “Micronized” and “Unflavoured” are printed on the front of the tub.</p>
+      <table class="nutri"><thead><tr><th></th><th>per 5 g serving</th></tr></thead><tbody><tr><td><b>Creatine monohydrate</b></td><td><b>5,000 mg</b></td></tr></tbody></table>
+      <h3>Directions for use</h3>
+      <p>Mix 5 g (½ scoop) in 300–500 ml of water in a shaker, or add it to a protein shake. The label describes a loading phase based on body weight and a maintenance period.</p>
+      <h3>Who it is for</h3>
+      <p>Adults who do high intensity training and want the simplest form of creatine. Not recommended for children or for women during pregnancy or breastfeeding.</p>
+      <dl class="spec"><div><dt>Allergens</dt><dd>May contain traces of milk, egg, soy, gluten.</dd></div><div><dt>EAN</dt><dd>6421766064107</dd></div></dl>
+    </div>
+    <div class="dcard">
+      <div class="dimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-creatine-ready-to-go-plicuri-prime-supplements.jpg" alt="" style="transform:scale(1.1)"></span></div>
+      <h2>Creatine Ready To Go</h2>
+      <p class="size">10 g effervescent sachet · single or box of 25 (250 g)</p>
+      <p>Creatine in single-serve sachets for people who train away from home and do not want to measure powder. The effervescent formula dissolves in water.</p>
+      <table class="nutri"><thead><tr><th></th><th>per 10 g sachet</th></tr></thead><tbody><tr><td><b>Creatine monohydrate</b></td><td><b>5,000 mg</b></td></tr><tr><td>Vitamin C</td><td>200 mg (250% NRV)</td></tr></tbody></table>
+      <h3>Flavours</h3>
+      <div class="chips"><span>Blue Moon (blueberry)</span><span>Pink Madness (raspberry &amp; lime)</span></div>
+      <h3>Directions for use</h3>
+      <p>One sachet a day, dissolved in 200–300 ml of water, about 30–60 minutes before training. After 8 weeks of regular use, a 2–3 week break, as stated on the packaging.</p>
+      <h3>Who it is for</h3>
+      <p>Customers who want to try creatine without buying a tub; gym and retail counters, where it sells by the piece.</p>
+    </div>
+  </div>
+  <p class="claim">Creatine increases physical performance in successive bursts of short-term, high intensity exercise. The beneficial effect is obtained with a daily intake of 3 g of creatine. Vitamin C contributes to the normal function of the immune system.</p>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>11</span></div>
+</section>
+<section class="page">
+  <p class="kicker">How the range works together</p>
+  <h1>Stacks built around <span>the best sellers.</span></h1>
+  <p class="big">These combinations are sold as ready-made bundles on primesupplements.ro. For a distributor they are a simple way to grow basket size: every stack starts from Prime Whey, Creamy Rice or creatine.</p>
+  <div class="stacks">
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-1000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-eaa-aminoacizi-esentiali.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Start</b>
+      <p class="size">Prime Whey 1 kg + EAA</p>
+      <p>The entry stack: daily protein and an essential amino acid drink for training.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-creapure.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-eaa-aminoacizi-esentiali.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Complete</b>
+      <p class="size">Prime Whey 2 kg + Creapure® 300 g + EAA</p>
+      <p>Protein, creatine and essential amino acids: the three staples in one order.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-nitrox.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Mass</b>
+      <p class="size">Prime Whey 2 kg + Nitrox 3D</p>
+      <p>Protein for the day and a full pre-workout for the session.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-2000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-recovery-glutamin.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Recovery</b>
+      <p class="size">Prime Whey 2 kg + Glutamin Kyowa®</p>
+      <p>Whey protein paired with L-glutamine Kyowa®.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-nitrox.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-creapure.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Pre-Workout Power</b>
+      <p class="size">Nitrox 3D + Creapure® 500 g</p>
+      <p>Pre-workout plus daily Creapure® creatine.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-creatina-creapure.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-magneziu-bisglicinat-80-caps.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-vitamina-d3-k2.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Strength</b>
+      <p class="size">Creapure® 500 g + Magnesium Bisglycinate + Vitamin D3 + K2</p>
+      <p>Creatine with magnesium bisglycinate and vitamin D3 + K2.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-1000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-magneziu-bisglicinat-80-caps.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-vitamina-d3-k2.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Balance</b>
+      <p class="size">Prime Whey 1 kg + Magnesium Bisglycinate + Vitamin D3 + K2</p>
+      <p>Protein with magnesium and vitamin D3 + K2.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-1000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#f2f2f2"><img src="img/p-fiber-blood-orange.jpg" alt="" style="transform:scale(1.9)"></span></div>
+      <b>Fit</b>
+      <p class="size">Prime Whey 1 kg + Fiber</p>
+      <p>Protein and a fibre drink.</p>
+    </div>
+    <div class="stack">
+      <div class="simgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-prime-whey-1000g.jpg" alt="" style="transform:scale(1.9)"></span><i>+</i><span class="shot" style="background:#fefefe"><img src="img/p-crema-de-orez-tort-de-ciocolata.jpg" alt="" style="transform:scale(1.5)"></span></div>
+      <b>Protein breakfast</b>
+      <p class="size">Prime Whey + Creamy Rice</p>
+      <p>Creamy Rice is made to be mixed into protein shakes; matching flavours (e.g. Salted Caramel) exist in both ranges.</p><p class="size"><i>pairing from the product pages</i></p>
+    </div>
+  </div>
+  <p class="tnote">Other bundles on the site include Full Stack, Performance, Pump, Intra, Health, Cut, Focus and Energy.</p>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>12</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Full catalogue</p><h1>The rest of the range, <span>in brief.</span></h1><p class="big">All products are Prime Supplements branded. Quantities per serving are those declared on the product pages and labels.</p>
+  <h3 class="cat">Protein, gainer &amp; functional foods</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-emperor-mass_3000g.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Emperor Mass</h4><p class="size">Gainer · 3 kg · Chocolate, Strawberry</p><p>Gainer with 40% protein: 27.8 g protein and 29.0 g carbohydrates per 70 g serving, plus 1,750 mg creatine monohydrate, L-glutamine, BCAA 4:1:1 and Digezyme®.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-instant-oat-cream-800g-25-serv.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Instant Oat Cream</h4><p class="size">Oat cream · 800 g · Chocolate Cream, Cookie Cream</p><p>Instant cream made from oat flour. Add hot water or milk and let it hydrate for 1–3 minutes.</p><p class="stk">Stacks with: <b>Prime Whey</b></p></div>
+  </article>
+  <article class="ccard wide">
+    <div class="cimgs"><span class="shot" style="background:#f2f2f2"><img src="img/p-baton-proteic-capsuni.jpg" alt="" style="transform:scale(1.2)"></span><span class="shot" style="background:#f2f2f2"><img src="img/p-baton-proteic-caramel-sarat.jpg" alt="" style="transform:scale(1.2)"></span><span class="shot" style="background:#f2f2f2"><img src="img/p-baton-proteic-cocos-si-caramel.jpg" alt="" style="transform:scale(1.2)"></span><span class="shot" style="background:#f2f2f2"><img src="img/p-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="" style="transform:scale(1.2)"></span></div>
+    <div class="ctext"><h4>Prime Delicious Bar</h4><p class="size">Protein bar · 55 g · single bar or box of 12</p><p>20 g of protein in a 55 g bar, from whey protein concentrate, collagen peptides, soy protein isolate and whole milk powder. Four flavours: Strawberry, Salted Caramel, Coconut &amp; Caramel, Chocolate &amp; Forest Fruits. The strawberry bar is our third best-selling product by units.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-unt-de-arahide.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Peanut Butter</h4><p class="size">Prime Health · 600 g glass jar</p><p>100% roasted peanuts. No added sugar, salt, palm oil or preservatives. 26 g protein and 7 g fibre per 100 g.</p><p class="stk">Stacks with: <b>Creamy Rice</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-unt-de-migdale.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Almond Butter</h4><p class="size">Prime Health · 600 g glass jar</p><p>100% roasted almonds, nothing added. 21.2 g protein per 100 g.</p><p class="stk">Stacks with: <b>Creamy Rice</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-unt-de-caju.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Cashew Butter</h4><p class="size">Prime Health · 600 g glass jar</p><p>Cashew paste in a glass jar. 18 g protein per 100 g, 0 g salt.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-fiber-blood-orange.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Fiber</h4><p class="size">Fibre drink · 500 g · 50 servings · Blood Orange</p><p>Instant drink with 7.4 g fibre per 10 g serving, from inulin, acacia fibre, bamboo fibre, oat flour and glucomannan.</p><p class="stk">Stacks with: <b>Prime Whey</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-scortisoara-ceylon-bio-200g.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Organic Ceylon Cinnamon</h4><p class="size">Prime Health · 200 g</p><p>Ground Ceylon cinnamon from organic farming, single ingredient, in a kraft paper pouch.</p></div>
+  </article></div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>13</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Full catalogue</p>
+  <h3 class="cat">Amino acids</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-eaa-aminoacizi-esentiali.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>EAA</h4><p class="size">500 g · 83 servings · 4 flavours</p><p>Eight essential amino acids, 5,350 mg per 6 g serving, including 1,070 mg L-leucine. 0 g carbohydrates.</p><p class="stk">Stacks with: <b>Prime Whey</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-recovery-bcaa-500g.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Recovery BCAA 4:1:1</h4><p class="size">500 g · 62 servings · Cherry, Pear</p><p>7,100 mg BCAA per 8 g serving in a 4:1:1 ratio, with vitamin B6 (106% NRV).</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-recovery-glutamin.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Recovery Glutamin Kyowa®</h4><p class="size">500 g · unflavoured or 4 flavours</p><p>4,000 mg L-glutamine Kyowa® per serving. The unflavoured version has a single ingredient and 125 servings.</p><p class="stk">Stacks with: <b>Prime Whey</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-l-carnitine-1000-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>L-Carnitine 1000</h4><p class="size">80 capsules</p><p>1,000 mg L-carnitine tartrate per capsule, the only active ingredient.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-taurine-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Taurine 1000 mg</h4><p class="size">80 capsules</p><p>1,000 mg taurine per capsule.</p></div>
+  </article></div><h3 class="cat">Pre-workout &amp; intra-workout</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-nitrox.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Nitrox 3D</h4><p class="size">500 g · 25 servings · 4 flavours</p><p>Per 20 g serving: 6,000 mg L-citrulline, 4,420 mg arginine AKG, 2,000 mg tri-creatine citrate, 2,000 mg beta-alanine, 200 mg caffeine.</p><p class="stk">Stacks with: <b>Creatine Creapure®</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-nitrox-no-stim.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Nitrox No-Stim</h4><p class="size">Stimulant-free · 660 g · 30 servings</p><p>No caffeine and no synephrine in the ingredient list. Per 22 g serving: 4,000 mg BCAA 2:1:1, 3,753 mg L-citrulline, 2,200 mg creatine monohydrate.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-combat-pro.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Combat Pro</h4><p class="size">500 g · 22 servings · 4 flavours</p><p>Per 22 g serving: 7,000 mg L-citrulline, 4,000 mg beta-alanine, 4,000 mg L-arginine, 300 mg caffeine and 30 mg synephrine.</p><p class="stk">Stacks with: <b>Creatine Creapure®</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-combat-pro-2-0-660g-30-serv.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Combat Pro 2.0</h4><p class="size">660 g · 30 servings · 2 flavours</p><p>No caffeine in the ingredient list; contains 45 mg synephrine. Per 22 g serving: 5,600 mg L-citrulline, 3,900 mg beta-alanine.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-cluster-bomb-1000g.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Cluster Bomb</h4><p class="size">Intra-workout · 1 kg · 33 servings</p><p>Cluster Dextrin® drink: 19.9 g carbohydrates per 30 g serving, plus 2,400 mg each of EAA, creatine monohydrate and L-citrulline.</p><p class="stk">Stacks with: <b>EAA</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-glycerol-max-pump-500g-125-serv.jpg" alt="" style="transform:scale(1)"></span></div>
+    <div class="ctext"><h4>Glycerol Max Pump</h4><p class="size">500 g · 125 servings · unflavoured</p><p>Single ingredient: glycerol monostearate, 4,000 mg per 4 g serving.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-energy-pump.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Energy Pump Shot</h4><p class="size">25 ml vial · single or box of 20</p><p>Ready to drink. Per vial: 4,000 mg citrulline malate, 4,000 mg arginine AKG 2:1, 3,000 mg beta-alanine, 100 mg caffeine.</p></div>
+  </article></div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>14</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Full catalogue</p>
+  <h3 class="cat">Definition range</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-fat-burning-booster.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Fat Burning Booster Shot</h4><p class="size">25 ml vial · single or box of 20 · Forest Fruits</p><p>Per vial: 4,000 mg L-carnitine, green tea and green coffee extracts, 117.5 mg caffeine and 40 µg chromium (100% NRV).</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-thermo-core-120-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Thermo Core</h4><p class="size">120 capsules · 40 servings</p><p>Per 3 capsules: 1,125 mg L-carnitine, 618 mg green tea extract, citrus bioflavonoids, 45 mg synephrine and 50 µg chromium (125% NRV).</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-water-out-120-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Water Out</h4><p class="size">120 capsules · 40 servings</p><p>Per 3 capsules: 2,000 mg dry extracts from eight plants, with 375 mg potassium, 75 mg magnesium and 80 mg vitamin C (100% NRV).</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-water-out-500-ml.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Water Out tincture</h4><p class="size">Prime Health · 500 ml · 100 servings</p><p>Tincture of eight plants (1:6 hydroethanolic extract), 5 ml per serving. Contains 30% vol. alcohol.</p></div>
+  </article></div><h3 class="cat">Vitamins &amp; minerals</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-daily-vitamin-formula.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Daily Vitamin Formula</h4><p class="size">30 daily sachets</p><p>Each sachet holds five tablets and one capsule: 12 vitamins and 8 minerals with declared % NRV, plus DigeZyme® enzyme complex.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-vitamina-d3-k2.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Vitamin D3 + K2</h4><p class="size">Prime Health · 80 vegetable capsules</p><p>100 µg (4,000 IU) vitamin D3 and 100 µg vitamin K2 (MK-7) per capsule. One capsule every two days.</p><p class="stk">Stacks with: <b>Creatine Creapure®</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-vitamin-c-1000-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Vitamin C 1000 mg</h4><p class="size">80 capsules</p><p>1,000 mg vitamin C (ascorbic acid) per capsule, one capsule a day.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-omega-3.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Omega-3</h4><p class="size">80 softgels</p><p>Concentrated fish oil: 180 mg EPA and 120 mg DHA per softgel, with 3 mg vitamin E.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-magneziu-bisglicinat-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Magnesium Bisglycinate</h4><p class="size">Prime Health · 80 vegetable capsules</p><p>Two forms of magnesium per capsule: 300 mg magnesium bisglycinate and 100 mg magnesium malate.</p><p class="stk">Stacks with: <b>Prime Whey</b></p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-magnesium-citrate-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Magnesium Citrate</h4><p class="size">80 capsules · 40 servings</p><p>225 mg magnesium per capsule (60% NRV), from magnesium citrate and carbonate.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-zinc-citrate-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Zinc Citrate 40 mg</h4><p class="size">80 capsules</p><p>40 mg zinc from zinc citrate per capsule, one capsule a day.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-potassium-complex-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Potassium Complex</h4><p class="size">80 capsules</p><p>Per 3 capsules: 324 mg potassium and 240 mg magnesium, both from citrates.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-supliment-alimentar-chromium-picolinate-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Chromium Picolinate</h4><p class="size">80 capsules</p><p>200 µg chromium per capsule, from chromium picolinate.</p></div>
+  </article></div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>15</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Full catalogue</p>
+  <h3 class="cat">Health &amp; herbal · Prime Health</h3><div class="cgrid">
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-ashwagandha-ksm-66.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Ashwagandha KSM-66®</h4><p class="size">80 vegetable capsules</p><p>500 mg KSM-66® ashwagandha root extract per capsule, standardised to 5% withanolides.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-citrus-bergamot.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Citrus Bergamot</h4><p class="size">80 vegetable capsules</p><p>500 mg Bergamonte® bergamot fruit extract per capsule, standardised to 38% polyphenols.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-silimarina-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Silymarin</h4><p class="size">80 capsules</p><p>440 mg milk thistle seed extract per capsule, of which 352 mg silymarin.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-turmeric-extract-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Turmeric with Piperine</h4><p class="size">80 capsules</p><p>400 mg turmeric root extract (380 mg curcuminoids) and 5 mg piperine per capsule.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-spirulina-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Spirulina</h4><p class="size">80 capsules · 40 servings</p><p>600 mg spirulina powder per capsule, two capsules a day.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-coenzima-q10-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Coenzyme Q10 200 mg</h4><p class="size">80 vegetable capsules</p><p>200 mg coenzyme Q10 (ubiquinone) per capsule.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-nac-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>NAC 500 mg</h4><p class="size">80 capsules</p><p>500 mg N-acetylcysteine per capsule, one capsule a day.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-enzima-nattokinaza-80-caps.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Nattokinase</h4><p class="size">60 capsules</p><p>100 mg nattokinase per capsule, with a declared activity of 2,000 FU.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-complete-collagen.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Complete Collagen</h4><p class="size">Liquid · 500 ml</p><p>6 g hydrolysed bovine collagen (Peptan) per 15 ml dose, with plant extracts, aloe and vitamin C.</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-cardio-calm-500-ml.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Cardio Calm tincture</h4><p class="size">500 ml</p><p>Tincture of seven plants, including hawthorn, hibiscus and valerian (1:6 hydroethanolic extract, 30% vol. alcohol).</p></div>
+  </article>
+  <article class="ccard">
+    <div class="cimg"><span class="shot" style="background:#f2f2f2"><img src="img/p-testo-revive-500-ml.jpg" alt="" style="transform:scale(1.3)"></span></div>
+    <div class="ctext"><h4>Testo Revive tincture</h4><p class="size">500 ml · 100 teaspoons</p><p>Tincture with Korean ginseng and five other plants (1:6 hydroethanolic extract, 30% vol. alcohol).</p></div>
+  </article></div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>16</span></div>
+</section>
+<section class="page">
+  <p class="kicker">Full catalogue</p>
+  <h1>Accessories & <span>gym wear.</span></h1>
+  <p class="big">Prime-branded shakers, accessories and apparel that put the brand on the gym floor. Part of the apparel is made as the “Prime by MNX Sportswear” collection. Sizes and availability on request.</p>
+  <div class="gear"><figure><div><span class="shot" style="background:#dadcd6"><img src="img/p-prime-shaker-customised.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Shaker Prime 600 ml</figcaption></figure><figure><div><span class="shot" style="background:#f2f2f2"><img src="img/p-shaker-premium-accesorizat-500-ml.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Shaker with compartments 500 ml</figcaption></figure><figure><div><span class="shot" style="background:#fefefe"><img src="img/p-prosop-negru.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Gym towel 50 × 100 cm</figcaption></figure><figure><div><span class="shot" style="background:#f0f1f2"><img src="img/p-sapca-prime.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Prime cap</figcaption></figure><figure><div><span class="shot" style="background:#f2f2f2"><img src="img/p-centura-hardcore.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>“Hardcore” leather lifting belt</figcaption></figure><figure><div><span class="shot" style="background:#262621"><img src="img/p-hanorac-prime-squad.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Prime Squad zip hoodie</figcaption></figure><figure><div><span class="shot" style="background:#bcbcbd"><img src="img/p-pantaloni-trening-barbati-hammer-3-0-prime-negri.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Hammer 3.0 sweatpants</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Hammer 3.0 waffle shorts</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-tricou-oversized-barbati-hammer-3-0-prime-negru.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Hammer 3.0 oversized T-shirt</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-maieu-fitness-barbati-edge-prime-negru.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Edge tank top</figcaption></figure><figure><div><span class="shot" style="background:#1c1a12"><img src="img/p-maiou-stringer.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Stringer, black</figcaption></figure><figure><div><span class="shot" style="background:#20221f"><img src="img/p-maiou-stringer-white.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>“Fuel Your Prime” stringer</figcaption></figure><figure><div><span class="shot" style="background:#222424"><img src="img/p-t-shirt-drop-shoulder-muscle.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Drop Shoulder Muscle tee, black</figcaption></figure><figure><div><span class="shot" style="background:#171816"><img src="img/p-t-shirt-drop-shoulder-muscle-white.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Drop Shoulder Muscle tee, white</figcaption></figure><figure><div><span class="shot" style="background:#fafafb"><img src="img/p-tricou-sala-suffer-to-dominate-bumbac-premium-negru.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>“Suffer to Dominate” tee</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-tricou-gym-supradimensionat-lejer-burgundy-prime.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Oversized tee, burgundy</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-tricou-gym-supradimensionat-lejer-roz-pastel-prime.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Oversized tee, pastel pink</figcaption></figure><figure><div><span class="shot" style="background:#fbfbfb"><img src="img/p-tricou-sala-oversized-barbai-prime-galben-pastel.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Oversized tee, pastel yellow</figcaption></figure><figure><div><span class="shot" style="background:#ffffff"><img src="img/p-tricou-sala-oversized-barbai-prime-turcoaz-intense.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Oversized tee, turquoise</figcaption></figure><figure><div><span class="shot" style="background:#2f3133"><img src="img/p-prime-bodybuilding-classic-pants.jpg" alt="" style="transform:scale(1)"></span></div><figcaption>Bodybuilding Classic pants</figcaption></figure></div>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>17</span></div>
+</section>
+<section class="page">
+  <p class="kicker">B2B partnership</p>
+  <h1>Distribute Prime Supplements <span>in your market.</span></h1>
+  <div class="two">
+    <div>
+      <p class="big">We are looking for distribution partners who know their market and want a sports nutrition brand with a clear identity, a complete range and proven best sellers.</p>
+      <h3>What a partner gets</h3>
+      <ul class="ticks">
+        <li>One brand that covers protein, creatine, cream of rice, amino acids, pre-workout, vitamins, health products, bars and accessories.</li>
+        <li>Best sellers validated by our own online sales.</li>
+        <li>Product data ready to use: full composition, nutrition tables, directions for use and EAN codes.</li>
+        <li>Marketing assets: professional photo shoots, product images and educational blog content.</li>
+      </ul>
+    </div>
+    <img class="ph" src="img/sala-nostim-detaliu.jpg" alt="" style="height:86mm">
+  </div>
+  <h3>How we start</h3>
+  <div class="steps">
+    <div><i>1</i><b>Introduction</b>Tell us about your market, channels and the categories you are interested in.</div>
+    <div><i>2</i><b>Assortment</b>We agree a first selection, starting from the best sellers.</div>
+    <div><i>3</i><b>Documents & terms</b>We share product documentation and the commercial offer.</div>
+    <div><i>4</i><b>First order</b>We confirm quantities, labelling and delivery.</div>
+  </div>
+  <h3>Commercial terms</h3>
+  <table class="terms">
+    <tbody>
+      <tr><td>Distributor price list and currency</td><td><mark class="todo">[DE COMPLETAT: price list]</mark></td></tr>
+      <tr><td>Minimum order quantity</td><td><mark class="todo">[DE COMPLETAT: MOQ]</mark></td></tr>
+      <tr><td>Payment terms</td><td><mark class="todo">[DE COMPLETAT: payment terms]</mark></td></tr>
+      <tr><td>Lead time and delivery terms (Incoterms)</td><td><mark class="todo">[DE COMPLETAT: lead time, Incoterms]</mark></td></tr>
+      <tr><td>Shelf life at delivery</td><td><mark class="todo">[DE COMPLETAT: shelf life]</mark></td></tr>
+      <tr><td>Packaging units (pieces per carton, cartons per pallet)</td><td><mark class="todo">[DE COMPLETAT: logistics data]</mark></td></tr>
+      <tr><td>Territory and exclusivity</td><td><mark class="todo">[DE COMPLETAT: territory policy]</mark></td></tr>
+      <tr><td>Product documentation (specifications, certificates, notifications)</td><td><mark class="todo">[DE COMPLETAT: documentation pack]</mark></td></tr>
+      <tr><td>Samples</td><td><mark class="todo">[DE COMPLETAT: samples policy]</mark></td></tr>
+    </tbody>
+  </table>
+  <div class="foot"><span>Prime Supplements · International distribution portfolio</span><span>18</span></div>
+</section>
+<section class="page cover end">
+  <img class="bg" src="img/ai-urban.jpg" alt="">
+  <div class="shade full"></div>
+  <img class="logo" src="img/logo-prime-alb.svg" alt="Prime Supplements">
+  <div class="ctxt">
+    <p class="kicker">Get in touch</p>
+    <h1>Let's bring Prime<br>to <span>your market.</span></h1>
+    <p class="lead">Tell us about your market and the product lines you are interested in. We will come back with product documentation and the next steps.</p>
+    <div class="contact">
+      <div><b>E-mail</b>contact@primesupplements.ro</div>
+      <div><b>Phone / WhatsApp</b>+40 775 286 584</div>
+      <div><b>Website</b>primesupplements.ro</div>
+      <div><b>Export contact</b><mark class="todo">[DE COMPLETAT: name, role, languages]</mark></div>
+    </div>
+    <div class="contact">
+      <div><b>Instagram</b>instagram.com/primesupplements_ro</div>
+      <div><b>Facebook</b>facebook.com/primesupplementsro</div>
+      <div><b>TikTok</b>tiktok.com/@primesupplements.ro</div>
+      <div><b>YouTube</b>youtube.com/@primesupplementsro</div>
+    </div>
+    <p class="legal">PRIME SPORT SUPPLEMENTS SRL · Company ID (CUI) 46260823 · Trade Register J32/1155/2022<br>Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, Sibiu County, Romania</p>
+  </div>
+  <div class="foot dark"><span>Hardcore Sports Nutrition · Made in the European Union</span><span>19</span></div>
+</section>
+<script>
+  const n = +new URLSearchParams(location.search).get("page");
+  if (n) { document.body.style.cssText = "background:#fff;padding:0;margin:0"; document.querySelectorAll(".page").forEach((s, i) => { if (i + 1 !== n) s.remove(); else s.style.margin = "0"; }); }
+  // overflow check: report pages whose content is taller than the page (run with ?check=1)
+  if (new URLSearchParams(location.search).get("check")) { const o = []; document.querySelectorAll(".page").forEach((s, i) => { const last = [...s.children].filter(c => !c.classList.contains("foot") && !c.classList.contains("bg") && !c.classList.contains("shade")).pop(); if (last) { const b = last.getBoundingClientRect().bottom - s.getBoundingClientRect().top, lim = s.clientHeight - 15 * 3.7795; if (b > lim + 1) o.push((i + 1) + ":" + Math.round((b - lim) / 3.7795) + "mm"); } }); document.title = "OVERFLOW " + (o.join(" ") || "none"); }
+</script>
+</body></html>

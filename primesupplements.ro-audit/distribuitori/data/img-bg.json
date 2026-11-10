@@ -1,0 +1,412 @@
+﻿{
+    "p-baton-proteic-caramel-sarat":  {
+                                          "bg":  "#f2f2f2",
+                                          "w":  640,
+                                          "h":  640
+                                      },
+    "p-shaker-premium-accesorizat-500-ml":  {
+                                                "bg":  "#f2f2f2",
+                                                "w":  640,
+                                                "h":  640
+                                            },
+    "p-crema-de-orez-plactina-cu-cocos":  {
+                                              "bg":  "#fefefe",
+                                              "w":  640,
+                                              "h":  640
+                                          },
+    "p-creatina-monohidrat-micronized-300g-fara-aroma":  {
+                                                             "bg":  "#f2f2f2",
+                                                             "w":  640,
+                                                             "h":  647
+                                                         },
+    "p-pure-isolate-2000g":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-hanorac-prime-squad":  {
+                                  "bg":  "#262621",
+                                  "w":  640,
+                                  "h":  960
+                              },
+    "p-magnesium-citrate-80-caps":  {
+                                        "bg":  "#f2f2f2",
+                                        "w":  640,
+                                        "h":  640
+                                    },
+    "p-t-shirt-drop-shoulder-muscle-white":  {
+                                                 "bg":  "#171816",
+                                                 "w":  640,
+                                                 "h":  960
+                                             },
+    "p-glycerol-max-pump-500g-125-serv":  {
+                                              "bg":  "#f2f2f2",
+                                              "w":  640,
+                                              "h":  640
+                                          },
+    "p-nitrox":  {
+                     "bg":  "#f2f2f2",
+                     "w":  640,
+                     "h":  640
+                 },
+    "p-recovery-bcaa-500g":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-centura-hardcore":  {
+                               "bg":  "#f2f2f2",
+                               "w":  640,
+                               "h":  640
+                           },
+    "p-recovery-glutamin":  {
+                                "bg":  "#f2f2f2",
+                                "w":  640,
+                                "h":  640
+                            },
+    "p-fiber-blood-orange":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-prime-whey-1000g":  {
+                               "bg":  "#f2f2f2",
+                               "w":  640,
+                               "h":  640
+                           },
+    "p-l-carnitine-1000-80-caps":  {
+                                       "bg":  "#f2f2f2",
+                                       "w":  640,
+                                       "h":  640
+                                   },
+    "p-coenzima-q10-80-caps":  {
+                                   "bg":  "#f2f2f2",
+                                   "w":  640,
+                                   "h":  640
+                               },
+    "p-pantaloni-trening-barbati-hammer-3-0-prime-negri":  {
+                                                               "bg":  "#bcbcbd",
+                                                               "w":  640,
+                                                               "h":  960
+                                                           },
+    "p-turmeric-extract-80-caps":  {
+                                       "bg":  "#f2f2f2",
+                                       "w":  640,
+                                       "h":  640
+                                   },
+    "p-combat-pro":  {
+                         "bg":  "#f2f2f2",
+                         "w":  640,
+                         "h":  640
+                     },
+    "p-supliment-alimentar-chromium-picolinate-80-caps":  {
+                                                              "bg":  "#f2f2f2",
+                                                              "w":  640,
+                                                              "h":  640
+                                                          },
+    "p-maiou-stringer":  {
+                             "bg":  "#1c1a12",
+                             "w":  640,
+                             "h":  960
+                         },
+    "p-daily-vitamin-formula":  {
+                                    "bg":  "#f2f2f2",
+                                    "w":  640,
+                                    "h":  640
+                                },
+    "p-potassium-complex-80-caps":  {
+                                        "bg":  "#f2f2f2",
+                                        "w":  640,
+                                        "h":  640
+                                    },
+    "p-unt-de-arahide":  {
+                             "bg":  "#f2f2f2",
+                             "w":  640,
+                             "h":  640
+                         },
+    "p-energy-pump":  {
+                          "bg":  "#f2f2f2",
+                          "w":  640,
+                          "h":  640
+                      },
+    "p-scortisoara-ceylon-bio-200g":  {
+                                          "bg":  "#f2f2f2",
+                                          "w":  640,
+                                          "h":  640
+                                      },
+    "p-vitamin-c-1000-80-caps":  {
+                                     "bg":  "#f2f2f2",
+                                     "w":  640,
+                                     "h":  640
+                                 },
+    "p-prime-bodybuilding-classic-pants":  {
+                                               "bg":  "#2f3133",
+                                               "w":  640,
+                                               "h":  959
+                                           },
+    "p-instant-oat-cream-800g-25-serv":  {
+                                             "bg":  "#f2f2f2",
+                                             "w":  640,
+                                             "h":  640
+                                         },
+    "p-unt-de-caju":  {
+                          "bg":  "#f2f2f2",
+                          "w":  640,
+                          "h":  640
+                      },
+    "p-prime-shaker-customised":  {
+                                      "bg":  "#dadcd6",
+                                      "w":  640,
+                                      "h":  800
+                                  },
+    "p-fat-burning-booster":  {
+                                  "bg":  "#f2f2f2",
+                                  "w":  640,
+                                  "h":  640
+                              },
+    "p-prosop-negru":  {
+                           "bg":  "#fefefe",
+                           "w":  640,
+                           "h":  480
+                       },
+    "p-baton-proteic-capsuni":  {
+                                    "bg":  "#f2f2f2",
+                                    "w":  640,
+                                    "h":  640
+                                },
+    "p-crema-de-orez-sirop-de-artar":  {
+                                           "bg":  "#fcfcfc",
+                                           "w":  640,
+                                           "h":  640
+                                       },
+    "p-t-shirt-drop-shoulder-muscle":  {
+                                           "bg":  "#222424",
+                                           "w":  640,
+                                           "h":  960
+                                       },
+    "p-taurine-80-caps":  {
+                              "bg":  "#f2f2f2",
+                              "w":  640,
+                              "h":  640
+                          },
+    "p-sapca-prime":  {
+                          "bg":  "#f0f1f2",
+                          "w":  640,
+                          "h":  640
+                      },
+    "p-ashwagandha-ksm-66":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-prime-whey-2000g":  {
+                               "bg":  "#f2f2f2",
+                               "w":  640,
+                               "h":  640
+                           },
+    "p-crema-de-orez-blueberry-muffin":  {
+                                             "bg":  "#fefefe",
+                                             "w":  640,
+                                             "h":  640
+                                         },
+    "p-tricou-oversized-barbati-hammer-3-0-prime-negru":  {
+                                                              "bg":  "#fbfbfb",
+                                                              "w":  640,
+                                                              "h":  960
+                                                          },
+    "p-nac-80-caps":  {
+                          "bg":  "#f2f2f2",
+                          "w":  640,
+                          "h":  640
+                      },
+    "p-maieu-fitness-barbati-edge-prime-negru":  {
+                                                     "bg":  "#fbfbfb",
+                                                     "w":  640,
+                                                     "h":  960
+                                                 },
+    "p-prime-whey-go":  {
+                            "bg":  "#f2f2f2",
+                            "w":  640,
+                            "h":  640
+                        },
+    "p-maiou-stringer-white":  {
+                                   "bg":  "#20221f",
+                                   "w":  640,
+                                   "h":  960
+                               },
+    "p-eaa-aminoacizi-esentiali":  {
+                                       "bg":  "#f2f2f2",
+                                       "w":  640,
+                                       "h":  640
+                                   },
+    "p-testo-revive-500-ml":  {
+                                  "bg":  "#f2f2f2",
+                                  "w":  640,
+                                  "h":  640
+                              },
+    "p-enzima-nattokinaza-80-caps":  {
+                                         "bg":  "#f2f2f2",
+                                         "w":  640,
+                                         "h":  640
+                                     },
+    "p-crema-de-orez-biscuiti-cu-crema":  {
+                                              "bg":  "#fefefe",
+                                              "w":  640,
+                                              "h":  640
+                                          },
+    "p-silimarina-80-caps":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-baton-proteic-ciocolata-fructe-de-padure":  {
+                                                       "bg":  "#f2f2f2",
+                                                       "w":  640,
+                                                       "h":  640
+                                                   },
+    "p-tricou-sala-suffer-to-dominate-bumbac-premium-negru":  {
+                                                                  "bg":  "#fafafb",
+                                                                  "w":  640,
+                                                                  "h":  954
+                                                              },
+    "p-water-out-120-caps":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-tricou-gym-supradimensionat-lejer-roz-pastel-prime":  {
+                                                                 "bg":  "#fbfbfb",
+                                                                 "w":  640,
+                                                                 "h":  960
+                                                             },
+    "p-zinc-citrate-80-caps":  {
+                                   "bg":  "#f2f2f2",
+                                   "w":  640,
+                                   "h":  640
+                               },
+    "p-tricou-sala-oversized-barbai-prime-galben-pastel":  {
+                                                               "bg":  "#fbfbfb",
+                                                               "w":  640,
+                                                               "h":  960
+                                                           },
+    "p-tricou-gym-supradimensionat-lejer-burgundy-prime":  {
+                                                               "bg":  "#fbfbfb",
+                                                               "w":  640,
+                                                               "h":  960
+                                                           },
+    "p-emperor-mass_3000g":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-tricou-sala-oversized-barbai-prime-turcoaz-intense":  {
+                                                                 "bg":  "#ffffff",
+                                                                 "w":  640,
+                                                                 "h":  960
+                                                             },
+    "p-short-arnold-era":  {
+                               "bg":  "#4b5255",
+                               "w":  640,
+                               "h":  960
+                           },
+    "p-spirulina-80-caps":  {
+                                "bg":  "#f2f2f2",
+                                "w":  640,
+                                "h":  640
+                            },
+    "p-nitrox-no-stim":  {
+                             "bg":  "#f2f2f2",
+                             "w":  640,
+                             "h":  640
+                         },
+    "p-thermo-core-120-caps":  {
+                                   "bg":  "#f2f2f2",
+                                   "w":  640,
+                                   "h":  640
+                               },
+    "p-creatina-creapure":  {
+                                "bg":  "#f2f2f2",
+                                "w":  640,
+                                "h":  640
+                            },
+    "p-combat-pro-2-0-660g-30-serv":  {
+                                          "bg":  "#f2f2f2",
+                                          "w":  640,
+                                          "h":  640
+                                      },
+    "p-baton-proteic-cocos-si-caramel":  {
+                                             "bg":  "#f2f2f2",
+                                             "w":  640,
+                                             "h":  640
+                                         },
+    "p-crema-de-orez-fara-aroma":  {
+                                       "bg":  "#fefefe",
+                                       "w":  640,
+                                       "h":  640
+                                   },
+    "p-creatine-ready-to-go-plicuri-prime-supplements":  {
+                                                             "bg":  "#f2f2f2",
+                                                             "w":  640,
+                                                             "h":  640
+                                                         },
+    "p-magneziu-bisglicinat-80-caps":  {
+                                           "bg":  "#f2f2f2",
+                                           "w":  640,
+                                           "h":  640
+                                       },
+    "p-pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri":  {
+                                                                     "bg":  "#fbfbfb",
+                                                                     "w":  640,
+                                                                     "h":  960
+                                                                 },
+    "p-crema-de-orez-tort-de-ciocolata":  {
+                                              "bg":  "#fefefe",
+                                              "w":  640,
+                                              "h":  640
+                                          },
+    "p-complete-collagen":  {
+                                "bg":  "#f2f2f2",
+                                "w":  640,
+                                "h":  640
+                            },
+    "p-water-out-500-ml":  {
+                               "bg":  "#f2f2f2",
+                               "w":  640,
+                               "h":  640
+                           },
+    "p-omega-3":  {
+                      "bg":  "#f2f2f2",
+                      "w":  640,
+                      "h":  640
+                  },
+    "p-citrus-bergamot":  {
+                              "bg":  "#f2f2f2",
+                              "w":  640,
+                              "h":  640
+                          },
+    "p-unt-de-migdale":  {
+                             "bg":  "#f2f2f2",
+                             "w":  640,
+                             "h":  640
+                         },
+    "p-crema-de-orez-caramel-sarat":  {
+                                          "bg":  "#fefefe",
+                                          "w":  640,
+                                          "h":  640
+                                      },
+    "p-cluster-bomb-1000g":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-cardio-calm-500-ml":  {
+                                 "bg":  "#f2f2f2",
+                                 "w":  640,
+                                 "h":  640
+                             },
+    "p-vitamina-d3-k2":  {
+                             "bg":  "#f2f2f2",
+                             "w":  640,
+                             "h":  640
+                         }
+}

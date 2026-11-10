@@ -1,0 +1,4058 @@
+[
+ {
+  "handle": "eaa-aminoacizi-esentiali",
+  "title": "Aminoacizi esențiali EAA – tub de 500 g",
+  "productType": "Aminoacizi",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721",
+  "variants": [
+   {
+    "title": "Peach Ice Tea",
+    "price": 137,
+    "rrp": 175
+   },
+   {
+    "title": "Blueberry",
+    "price": 137,
+    "rrp": 175
+   },
+   {
+    "title": "Strawberry &amp; Kiwi",
+    "price": 137,
+    "rrp": 175
+   },
+   {
+    "title": "Tropical",
+    "price": 137,
+    "rrp": 175
+   }
+  ]
+ },
+ {
+  "handle": "recovery-bcaa-500g",
+  "title": "Aminoacizi Recovery BCAA 4:1:1 – 500 g",
+  "productType": "Aminoacizi",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Cherry",
+     "Pear"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717",
+  "variants": [
+   {
+    "title": "Cherry",
+    "price": 105,
+    "rrp": 120
+   },
+   {
+    "title": "Pear",
+    "price": 105,
+    "rrp": 120
+   }
+  ]
+ },
+ {
+  "handle": "ashwagandha-ksm-66",
+  "title": "Ashwagandha KSM-66 – 80 capsule",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_ASHWAGANDHA_80cabs_front.jpg?v=1749666737",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 50,
+    "rrp": 59
+   }
+  ]
+ },
+ {
+  "handle": "baton-proteic-capsuni",
+  "title": "Baton proteic căpșuni",
+  "productType": "Batoane proteice",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 12 buc x 55g",
+     "Baton 55g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_BATONPROTEIC_strawberry_front.jpg?v=1749666741",
+  "variants": [
+   {
+    "title": "Cutie 12 buc x 55g",
+    "price": 100,
+    "rrp": 100
+   },
+   {
+    "title": "Baton 55g",
+    "price": 8.5,
+    "rrp": 12.5
+   }
+  ]
+ },
+ {
+  "handle": "baton-proteic-caramel-sarat",
+  "title": "Baton proteic caramel sărat",
+  "productType": "Batoane proteice",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 12 buc x 55g",
+     "55g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_BATONPROTEIC_saltycaramel_front.jpg?v=1749666740",
+  "variants": [
+   {
+    "title": "Cutie 12 buc x 55g",
+    "price": 100,
+    "rrp": 100
+   },
+   {
+    "title": "55g",
+    "price": 8.5,
+    "rrp": 12.5
+   }
+  ]
+ },
+ {
+  "handle": "baton-proteic-ciocolata-fructe-de-padure",
+  "title": "Baton proteic ciocolată și fructe de pădure",
+  "productType": "Batoane proteice",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 12 buc x 55g",
+     "Baton 55g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_BATONPROTEIC_berries_front.jpg?v=1749666726",
+  "variants": [
+   {
+    "title": "Cutie 12 buc x 55g",
+    "price": 100,
+    "rrp": 100
+   },
+   {
+    "title": "Baton 55g",
+    "price": 8.5,
+    "rrp": 12.5
+   }
+  ]
+ },
+ {
+  "handle": "baton-proteic-cocos-si-caramel",
+  "title": "Baton proteic cocos și caramel",
+  "productType": "Batoane proteice",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 12 buc x 55g",
+     "Baton 55g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_BATONPROTEIC_coconut_front.jpg?v=1749666728",
+  "variants": [
+   {
+    "title": "Cutie 12 buc x 55g",
+    "price": 100,
+    "rrp": 100
+   },
+   {
+    "title": "Baton 55g",
+    "price": 8.5,
+    "rrp": 12.5
+   }
+  ]
+ },
+ {
+  "handle": "centura-hardcore",
+  "title": "Centură de culturism Prime „Hardcore” – piele albă",
+  "productType": "Accesorii sală",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "S",
+     "M"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_CENTURA_front_9231c9eb-4fcf-4eb1-81c5-523fed3b5e78.jpg?v=1749666711",
+  "variants": [
+   {
+    "title": "S",
+    "price": 150,
+    "rrp": 200
+   },
+   {
+    "title": "M",
+    "price": 150,
+    "rrp": 200
+   }
+  ]
+ },
+ {
+  "handle": "magnesium-citrate-80-caps",
+  "title": "Citrat de magneziu – 80 capsule",
+  "productType": "Minerale",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_MAGNESIUM_80caps_front.jpg?v=1749666732",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 54,
+    "rrp": 70
+   }
+  ]
+ },
+ {
+  "handle": "zinc-citrate-80-caps",
+  "title": "Citrat de zinc 40 mg – 80 de capsule",
+  "productType": "Minerale",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_ZINC_80caps_front.jpg?v=1749666730",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 55,
+    "rrp": 55
+   }
+  ]
+ },
+ {
+  "handle": "cluster-bomb-1000g",
+  "title": "Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Pineapple",
+     "Raspberry",
+     "Strawberry & Kiwi"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIMECLUSTER_Pineapple_1000g_front.jpg?v=1749666701",
+  "variants": [
+   {
+    "title": "Pineapple",
+    "price": 172,
+    "rrp": 220
+   },
+   {
+    "title": "Raspberry",
+    "price": 172,
+    "rrp": 220
+   },
+   {
+    "title": "Strawberry & Kiwi",
+    "price": 172,
+    "rrp": 220
+   }
+  ]
+ },
+ {
+  "handle": "coenzima-q10-80-caps",
+  "title": "Coenzima Q10 200 mg – 80 de capsule",
+  "productType": "Suplimente pentru sănătate",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_COENZIMAQ10_80cabs_front.jpg?v=1749666724",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 25,
+    "rrp": 95
+   }
+  ]
+ },
+ {
+  "handle": "complete-collagen",
+  "title": "Colagen hidrolizat lichid Complete Collagen – 500 ml",
+  "productType": "Colagen",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIMECOMPLETECOLLAGEN_500ml_front.jpg?v=1749666734",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 110,
+    "rrp": 132
+   }
+  ]
+ },
+ {
+  "handle": "creatina-creapure",
+  "title": "Creatină Creapure® monohidrată",
+  "productType": "Creatină",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "Creatine (Creapure®) 500g/100serv",
+     "Creatine (Creapure®) 300g/60serv"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722",
+  "variants": [
+   {
+    "title": "Creatine (Creapure®) 500g/100serv",
+    "price": 140,
+    "rrp": 180
+   },
+   {
+    "title": "Creatine (Creapure®) 300g/60serv",
+    "price": 90,
+    "rrp": 115
+   }
+  ]
+ },
+ {
+  "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+  "title": "Creatină monohidrată micronizată fără aromă, 300 g",
+  "productType": "Creatină",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH-CREATINE300g1.jpg?v=1772583366",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 77,
+    "rrp": 98
+   }
+  ]
+ },
+ {
+  "handle": "creatine-ready-to-go-plicuri-prime-supplements",
+  "title": "Creatină Ready To Go – plicuri efervescente 10 g",
+  "productType": "Creatină",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Blue Moon",
+     "Pink Madness"
+    ]
+   },
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 25 plicuri x 10g",
+     "Plic 10g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH-CREATINEBLUE1.jpg?v=1773012650",
+  "variants": [
+   {
+    "title": "Blue Moon / Cutie 25 plicuri x 10g",
+    "price": 90,
+    "rrp": 110
+   },
+   {
+    "title": "Blue Moon / Plic 10g",
+    "price": 4.4,
+    "rrp": 4.4
+   },
+   {
+    "title": "Pink Madness / Cutie 25 plicuri x 10g",
+    "price": 90,
+    "rrp": 110
+   },
+   {
+    "title": "Pink Madness / Plic 10g",
+    "price": 4.4,
+    "rrp": 4.4
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-biscuiti-cu-crema",
+  "title": "Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/5.jpg?v=1783002954",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 63,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-blueberry-muffin",
+  "title": "Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/1_f47496a8-b02a-4a4e-9bc0-dd301df6e1d6.jpg?v=1783002627",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 68,
+    "rrp": 70
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-caramel-sarat",
+  "title": "Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/2_eca46c98-8128-47b9-bd0a-569154ae236b.jpg?v=1783002750",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 63,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-fara-aroma",
+  "title": "Cremă de orez Prime Creamy Rice – fără aromă, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/3_7135988a-8c3d-41e7-893e-64e6da544bab.jpg?v=1783002081",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 58,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-plactina-cu-cocos",
+  "title": "Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/6.jpg?v=1783003005",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 68,
+    "rrp": 70
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-sirop-de-artar",
+  "title": "Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/4.jpg?v=1783002902",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 63,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "crema-de-orez-tort-de-ciocolata",
+  "title": "Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/7.jpg?v=1783003073",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 63,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "daily-vitamin-formula",
+  "title": "Daily Vitamin Formula – vitamine și minerale, 30 de plicuri",
+  "productType": "Vitamine",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH321.jpg?v=1781472575",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 125,
+    "rrp": 160
+   }
+  ]
+ },
+ {
+  "handle": "energy-pump",
+  "title": "Energy Pump Shot – pre-workout lichid, fiole de 25 ml",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Wild berries"
+    ]
+   },
+   {
+    "name": "Cantitate",
+    "values": [
+     "20 x 25ml",
+     "25ml"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_ENERGY_PUMP_wild_berries_25_ml_front_f144eb46-1c28-4634-be86-ebd144059a75.jpg?v=1749666710",
+  "variants": [
+   {
+    "title": "Wild berries / 20 x 25ml",
+    "price": 133,
+    "rrp": 170
+   },
+   {
+    "title": "Wild berries / 25ml",
+    "price": 9.5,
+    "rrp": 11
+   }
+  ]
+ },
+ {
+  "handle": "enzima-nattokinaza-80-caps",
+  "title": "Enzimă nattokinază – 60 de capsule",
+  "productType": "Suplimente pentru sănătate",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH6.png?v=1750406967",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 48,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "citrus-bergamot",
+  "title": "Extract de bergamotă Citrus Bergamot – 80 capsule",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_CITRUSBERGAMOT_80cabs_front.jpg?v=1749666739",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 100,
+    "rrp": 120
+   }
+  ]
+ },
+ {
+  "handle": "silimarina-80-caps",
+  "title": "Extract de silimarină – 80 de capsule",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH4.png?v=1750407217",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 70,
+    "rrp": 85
+   }
+  ]
+ },
+ {
+  "handle": "turmeric-extract-80-caps",
+  "title": "Extract de turmeric cu piperină – 80 de capsule",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_TURMERIC_80caps_front.jpg?v=1749666731",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 76,
+    "rrp": 95
+   }
+  ]
+ },
+ {
+  "handle": "fat-burning-booster",
+  "title": "Fat Burning Booster Shot – fiole de 25 ml",
+  "productType": "Arzătoare de grăsimi",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Forest Fruits"
+    ]
+   },
+   {
+    "name": "Cantitate",
+    "values": [
+     "20 x 25ml",
+     "25ml"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_FATBURNING_forestfruit_25ml_front.jpg?v=1749666709",
+  "variants": [
+   {
+    "title": "Forest Fruits / 20 x 25ml",
+    "price": 133,
+    "rrp": 170
+   },
+   {
+    "title": "Forest Fruits / 25ml",
+    "price": 9.5,
+    "rrp": 11
+   }
+  ]
+ },
+ {
+  "handle": "fiber-blood-orange",
+  "title": "Fiber – băutură cu fibre, aromă portocală roșie, 500 g",
+  "productType": "Fibre și digestie",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Orange"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH328.jpg?v=1781472245",
+  "variants": [
+   {
+    "title": "Orange",
+    "price": 109,
+    "rrp": 130
+   }
+  ]
+ },
+ {
+  "handle": "emperor-mass_3000g",
+  "title": "Gainer Emperor Mass – 40% proteină, 3 kg",
+  "productType": "Gainer",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Chocolate",
+     "Strawberry"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIMEEMPERORMASS_chocolate_3000g_front.jpg?v=1792077845",
+  "variants": [
+   {
+    "title": "Chocolate",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Strawberry",
+    "price": 369,
+    "rrp": 390
+   }
+  ]
+ },
+ {
+  "handle": "glycerol-max-pump-500g-125-serv",
+  "title": "Glycerol Max Pump – monostearat de glicerol, 500 g",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH.png?v=1750406694",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 75,
+    "rrp": 85
+   }
+  ]
+ },
+ {
+  "handle": "hanorac-prime-squad",
+  "title": "Hanorac Prime Squad cu glugă și fermoar – negru",
+  "productType": "Hanorace",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "XS",
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_36_43_1244.jpg?v=1749666708",
+  "variants": [
+   {
+    "title": "XS",
+    "price": 90,
+    "rrp": 240
+   },
+   {
+    "title": "S",
+    "price": 90,
+    "rrp": 240
+   },
+   {
+    "title": "M",
+    "price": 90,
+    "rrp": 240
+   },
+   {
+    "title": "L",
+    "price": 90,
+    "rrp": 240
+   },
+   {
+    "title": "XL",
+    "price": 90,
+    "rrp": 240
+   },
+   {
+    "title": "XXL",
+    "price": 90,
+    "rrp": 240
+   }
+  ]
+ },
+ {
+  "handle": "instant-oat-cream-800g-25-serv",
+  "title": "Instant Oat Cream – cremă de ovăz, 800 g",
+  "productType": "Cremă de orez și ovăz",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Chocolate",
+     "Cookie"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_INSTANTOATS_CookieCream_800g_front.jpg?v=1749666694",
+  "variants": [
+   {
+    "title": "Chocolate",
+    "price": 55,
+    "rrp": 65
+   },
+   {
+    "title": "Cookie",
+    "price": 55,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "pure-isolate-2000g",
+  "title": "Izolat proteic din zer Pure Isolate – 2 kg",
+  "productType": "Proteine",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Chocolate",
+     "Bourbon Vanilla",
+     "Salted Caramel",
+     "Strawberry",
+     "Strawberry Cheesecake",
+     "White Chocolate Raspberry",
+     "Caffè Latte"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIMEPUREISOLATE_bourbonvanilla_2000g_front.jpg?v=1792077844",
+  "variants": [
+   {
+    "title": "Chocolate",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "Bourbon Vanilla",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "Salted Caramel",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "Strawberry",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "Strawberry Cheesecake",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "White Chocolate Raspberry",
+    "price": 480,
+    "rrp": 510
+   },
+   {
+    "title": "Caffè Latte",
+    "price": 480,
+    "rrp": 510
+   }
+  ]
+ },
+ {
+  "handle": "l-carnitine-1000-80-caps",
+  "title": "L-carnitină 1000 – 80 capsule",
+  "productType": "Aminoacizi",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_LCARNITINE_80caps_front.jpg?v=1749666733",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 80,
+    "rrp": 100
+   }
+  ]
+ },
+ {
+  "handle": "recovery-glutamin",
+  "title": "L-glutamină Recovery Glutamin Kyowa® – 500 g",
+  "productType": "Aminoacizi",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Simplu",
+     "Raspberry",
+     "Blueberry",
+     "Cherry Lime",
+     "Pineapple Mango"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_RECOVERYGLUTAMIN_blueberry_500g_front.jpg?v=1749666716",
+  "variants": [
+   {
+    "title": "Simplu",
+    "price": 129,
+    "rrp": 165
+   },
+   {
+    "title": "Raspberry",
+    "price": 129,
+    "rrp": 165
+   },
+   {
+    "title": "Blueberry",
+    "price": 129,
+    "rrp": 165
+   },
+   {
+    "title": "Cherry Lime",
+    "price": 129,
+    "rrp": 165
+   },
+   {
+    "title": "Pineapple Mango",
+    "price": 129,
+    "rrp": 165
+   }
+  ]
+ },
+ {
+  "handle": "magneziu-bisglicinat-80-caps",
+  "title": "Magneziu bisglicinat 300 mg – 80 de capsule",
+  "productType": "Minerale",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_MAGNEZIU_80cabs_front.jpg?v=1749666723",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 55,
+    "rrp": 70
+   }
+  ]
+ },
+ {
+  "handle": "maieu-fitness-barbati-edge-prime-negru",
+  "title": "Maiou fitness bărbați Prime Edge – negru",
+  "productType": "Maiouri",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/187298_ochi_2c83928b-cd7a-4e2a-b4f9-d2a2199bf189.jpg?v=1789340448",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 110,
+    "rrp": 130
+   },
+   {
+    "title": "L/XL",
+    "price": 110,
+    "rrp": 130
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 110,
+    "rrp": 130
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 110,
+    "rrp": 130
+   }
+  ]
+ },
+ {
+  "handle": "maiou-stringer",
+  "title": "Maiou stringer Prime – negru",
+  "productType": "Maiouri",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "Culoare",
+    "values": [
+     "Negru"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_41_32_1268.jpg?v=1749666714",
+  "variants": [
+   {
+    "title": "S / Negru",
+    "price": 30,
+    "rrp": 60
+   },
+   {
+    "title": "M / Negru",
+    "price": 30,
+    "rrp": 60
+   },
+   {
+    "title": "L / Negru",
+    "price": 30,
+    "rrp": 60
+   },
+   {
+    "title": "XL / Negru",
+    "price": 30,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "maiou-stringer-white",
+  "title": "Maiou stringer Prime „Fuel Your Prime” – alb",
+  "productType": "Maiouri",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   },
+   {
+    "name": "Culoare",
+    "values": [
+     "Alb"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_29_30_1198.jpg?v=1749666713",
+  "variants": [
+   {
+    "title": "S / Alb",
+    "price": 30,
+    "rrp": 90
+   },
+   {
+    "title": "M / Alb",
+    "price": 30,
+    "rrp": 90
+   },
+   {
+    "title": "L / Alb",
+    "price": 30,
+    "rrp": 90
+   },
+   {
+    "title": "XL / Alb",
+    "price": 30,
+    "rrp": 90
+   }
+  ]
+ },
+ {
+  "handle": "nac-80-caps",
+  "title": "NAC – N-acetilcisteină 500 mg, 80 de capsule",
+  "productType": "Suplimente pentru sănătate",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_NAC_80caps_front.jpg?v=1749666732",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 52,
+    "rrp": 59
+   }
+  ]
+ },
+ {
+  "handle": "omega-3",
+  "title": "Omega-3 din ulei de pește – 80 de capsule",
+  "productType": "Omega-3",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_OMEGA_80caps_front.jpg?v=1749666719",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 55,
+    "rrp": 69
+   }
+  ]
+ },
+ {
+  "handle": "pachet-complet-2-kg-prime-whey-2-kg-creatina-creapure®-300-g-aminoacizi-eaa",
+  "title": "Pachet Complet 2 kg: Prime Whey 2 kg + Creatină Creapure® 300 g + Aminoacizi EAA",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla",
+     "Chocolate Coconut",
+     "Blueberry Vanilla",
+     "Salted Caramel"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-complet-2kg-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Strawberry Cheesecake / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Strawberry Cheesecake / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Strawberry Cheesecake / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Strawberry Cheesecake / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Toffee Chocolate / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Toffee Chocolate / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Toffee Chocolate / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Toffee Chocolate / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "White Chocolate Raspberry / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "White Chocolate Raspberry / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "White Chocolate Raspberry / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "White Chocolate Raspberry / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Bourbon Vanilla / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Bourbon Vanilla / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Bourbon Vanilla / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Bourbon Vanilla / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Chocolate Coconut / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Chocolate Coconut / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Chocolate Coconut / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Chocolate Coconut / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Blueberry Vanilla / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Blueberry Vanilla / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Blueberry Vanilla / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Blueberry Vanilla / Tropical",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Salted Caramel / Peach Ice Tea",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Salted Caramel / Blueberry",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Salted Caramel / Strawberry &amp; Kiwi",
+    "price": 596,
+    "rrp": 680
+   },
+   {
+    "title": "Salted Caramel / Tropical",
+    "price": 596,
+    "rrp": 680
+   }
+  ]
+ },
+ {
+  "handle": "pachet-cut-black-friday",
+  "title": "Pachet Cut: Thermo Core + Water Out + L-carnitină 1000",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-cut-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 259,
+    "rrp": 330
+   }
+  ]
+ },
+ {
+  "handle": "pachet-echilibru-1-kg-prime-whey-1-kg-magneziu-bisglicinat-vitamina-d3-k2",
+  "title": "Pachet Echilibru 1 kg: Prime Whey 1 kg + Magneziu bisglicinat + Vitamina D3 + K2",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Blueberry Vanilla",
+     "Chocolate Coconut",
+     "Salted Caramel",
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-echilibru-1kg-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Blueberry Vanilla",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "Chocolate Coconut",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "Salted Caramel",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "Strawberry Cheesecake",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "Toffee Chocolate",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "White Chocolate Raspberry",
+    "price": 315,
+    "rrp": 360
+   },
+   {
+    "title": "Bourbon Vanilla",
+    "price": 315,
+    "rrp": 360
+   }
+  ]
+ },
+ {
+  "handle": "pachet-energy-nitrox-no-stim-energy-pump-shot-cutie-20-fiole",
+  "title": "Pachet Energy: Nitrox No-Stim + Energy Pump Shot (cutie 20 fiole)",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-energy-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 303,
+    "rrp": 375
+   }
+  ]
+ },
+ {
+  "handle": "pachet-fit-1-kg-prime-whey-1-kg-fiber",
+  "title": "Pachet Fit 1 kg: Prime Whey 1 kg + Fiber",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Blueberry Vanilla",
+     "Chocolate Coconut",
+     "Salted Caramel",
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-fit-1kg-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Blueberry Vanilla",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "Chocolate Coconut",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "Salted Caramel",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "Strawberry Cheesecake",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "Toffee Chocolate",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "White Chocolate Raspberry",
+    "price": 309,
+    "rrp": 345
+   },
+   {
+    "title": "Bourbon Vanilla",
+    "price": 309,
+    "rrp": 345
+   }
+  ]
+ },
+ {
+  "handle": "pachet-focus-daily-vitamin-formula-ashwagandha-ksm-66-magneziu-bisglicinat",
+  "title": "Pachet Focus: Daily Vitamin Formula + Ashwagandha KSM-66 + Magneziu bisglicinat",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-focus-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 230,
+    "rrp": 289
+   }
+  ]
+ },
+ {
+  "handle": "pachet-full-stack-black-friday",
+  "title": "Pachet Full Stack: Prime Whey 1 kg + Creatină Creapure® 500 g + EAA",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Whey",
+    "values": [
+     "Blueberry Vanilla",
+     "Chocolate Coconut",
+     "Salted Caramel",
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-full-stack-black-friday.jpg?v=1792862064",
+  "variants": [
+   {
+    "title": "Blueberry Vanilla / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Blueberry Vanilla / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Blueberry Vanilla / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Blueberry Vanilla / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Chocolate Coconut / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Chocolate Coconut / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Chocolate Coconut / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Chocolate Coconut / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Salted Caramel / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Salted Caramel / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Salted Caramel / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Salted Caramel / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Strawberry Cheesecake / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Strawberry Cheesecake / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Strawberry Cheesecake / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Strawberry Cheesecake / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Toffee Chocolate / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Toffee Chocolate / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Toffee Chocolate / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Toffee Chocolate / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "White Chocolate Raspberry / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "White Chocolate Raspberry / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "White Chocolate Raspberry / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "White Chocolate Raspberry / Tropical",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Bourbon Vanilla / Peach Ice Tea",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Bourbon Vanilla / Blueberry",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Bourbon Vanilla / Strawberry &amp; Kiwi",
+    "price": 449,
+    "rrp": 570
+   },
+   {
+    "title": "Bourbon Vanilla / Tropical",
+    "price": 449,
+    "rrp": 570
+   }
+  ]
+ },
+ {
+  "handle": "pachet-health-black-friday",
+  "title": "Pachet Health: Magneziu + Omega-3 + Vitamina C + D3 K2",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-health-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 215,
+    "rrp": 273
+   }
+  ]
+ },
+ {
+  "handle": "pachet-intra-black-friday",
+  "title": "Pachet Intra: Cluster Bomb + EAA",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Cluster Bomb",
+    "values": [
+     "Pineapple",
+     "Raspberry",
+     "Strawberry & Kiwi"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-intra-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Pineapple / Peach Ice Tea",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Pineapple / Blueberry",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Pineapple / Strawberry &amp; Kiwi",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Pineapple / Tropical",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Raspberry / Peach Ice Tea",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Raspberry / Blueberry",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Raspberry / Strawberry &amp; Kiwi",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Raspberry / Tropical",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Strawberry & Kiwi / Peach Ice Tea",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Strawberry & Kiwi / Blueberry",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Strawberry & Kiwi / Strawberry &amp; Kiwi",
+    "price": 309,
+    "rrp": 395
+   },
+   {
+    "title": "Strawberry & Kiwi / Tropical",
+    "price": 309,
+    "rrp": 395
+   }
+  ]
+ },
+ {
+  "handle": "pachet-masa-2-kg-prime-whey-2-kg-nitrox-3d",
+  "title": "Pachet Masă 2 kg: Prime Whey 2 kg + Nitrox 3D",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla",
+     "Chocolate Coconut",
+     "Blueberry Vanilla",
+     "Salted Caramel"
+    ]
+   },
+   {
+    "name": "Aromă Nitrox 3D",
+    "values": [
+     "Cherry",
+     "Pineapple Mango",
+     "Passion fruit",
+     "Strawberry lime"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-masa-2kg-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Strawberry Cheesecake / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Strawberry Cheesecake / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Strawberry Cheesecake / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Strawberry Cheesecake / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Toffee Chocolate / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Toffee Chocolate / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Toffee Chocolate / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Toffee Chocolate / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "White Chocolate Raspberry / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "White Chocolate Raspberry / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "White Chocolate Raspberry / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "White Chocolate Raspberry / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Bourbon Vanilla / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Bourbon Vanilla / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Bourbon Vanilla / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Bourbon Vanilla / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Chocolate Coconut / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Chocolate Coconut / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Chocolate Coconut / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Chocolate Coconut / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Blueberry Vanilla / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Blueberry Vanilla / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Blueberry Vanilla / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Blueberry Vanilla / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Salted Caramel / Cherry",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Salted Caramel / Pineapple Mango",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Salted Caramel / Passion fruit",
+    "price": 517,
+    "rrp": 580
+   },
+   {
+    "title": "Salted Caramel / Strawberry lime",
+    "price": 517,
+    "rrp": 580
+   }
+  ]
+ },
+ {
+  "handle": "pachet-performance-black-friday",
+  "title": "Pachet Performance: Nitrox 3D + EAA + Creatină Creapure® 300 g",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Nitrox 3D",
+    "values": [
+     "Cherry",
+     "Pineapple Mango",
+     "Passion fruit",
+     "Strawberry lime"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-performance-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Cherry / Peach Ice Tea",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Cherry / Blueberry",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Cherry / Strawberry &amp; Kiwi",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Cherry / Tropical",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Pineapple Mango / Peach Ice Tea",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Pineapple Mango / Blueberry",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Pineapple Mango / Strawberry &amp; Kiwi",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Pineapple Mango / Tropical",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Passion fruit / Peach Ice Tea",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Passion fruit / Blueberry",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Passion fruit / Strawberry &amp; Kiwi",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Passion fruit / Tropical",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Strawberry lime / Peach Ice Tea",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Strawberry lime / Blueberry",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Strawberry lime / Strawberry &amp; Kiwi",
+    "price": 375,
+    "rrp": 480
+   },
+   {
+    "title": "Strawberry lime / Tropical",
+    "price": 375,
+    "rrp": 480
+   }
+  ]
+ },
+ {
+  "handle": "pachet-pre-workout-power-black-friday",
+  "title": "Pachet Pre-Workout Power: Nitrox 3D + Creatină Creapure® 500 g",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Nitrox 3D",
+    "values": [
+     "Cherry",
+     "Pineapple Mango",
+     "Passion fruit",
+     "Strawberry lime"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-pre-workout-power-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Cherry",
+    "price": 288,
+    "rrp": 370
+   },
+   {
+    "title": "Pineapple Mango",
+    "price": 288,
+    "rrp": 370
+   },
+   {
+    "title": "Passion fruit",
+    "price": 288,
+    "rrp": 370
+   },
+   {
+    "title": "Strawberry lime",
+    "price": 288,
+    "rrp": 370
+   }
+  ]
+ },
+ {
+  "handle": "pachet-proteina-prime-whey-2-kg-aminoacizi-eaa",
+  "title": "Pachet Proteină: Prime Whey 2 kg + Aminoacizi EAA",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla",
+     "Chocolate Coconut",
+     "Blueberry Vanilla",
+     "Salted Caramel"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-proteina-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Strawberry Cheesecake / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Strawberry Cheesecake / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Strawberry Cheesecake / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Strawberry Cheesecake / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Toffee Chocolate / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Toffee Chocolate / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Toffee Chocolate / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Toffee Chocolate / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "White Chocolate Raspberry / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "White Chocolate Raspberry / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "White Chocolate Raspberry / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "White Chocolate Raspberry / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Bourbon Vanilla / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Bourbon Vanilla / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Bourbon Vanilla / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Bourbon Vanilla / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Chocolate Coconut / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Chocolate Coconut / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Chocolate Coconut / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Chocolate Coconut / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Blueberry Vanilla / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Blueberry Vanilla / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Blueberry Vanilla / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Blueberry Vanilla / Tropical",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Salted Caramel / Peach Ice Tea",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Salted Caramel / Blueberry",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Salted Caramel / Strawberry &amp; Kiwi",
+    "price": 506,
+    "rrp": 565
+   },
+   {
+    "title": "Salted Caramel / Tropical",
+    "price": 506,
+    "rrp": 565
+   }
+  ]
+ },
+ {
+  "handle": "pachet-pump-combat-pro-creatina-creapure®-300-g-glycerol-max-pump",
+  "title": "Pachet Pump: Combat Pro + Creatină Creapure® 300 g + Glycerol Max Pump",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Combat Pro",
+    "values": [
+     "Forest Fruits",
+     "Mango",
+     "Mojito",
+     "Orange"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-pump-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Forest Fruits",
+    "price": 280,
+    "rrp": 340
+   },
+   {
+    "title": "Mango",
+    "price": 280,
+    "rrp": 340
+   },
+   {
+    "title": "Mojito",
+    "price": 280,
+    "rrp": 340
+   },
+   {
+    "title": "Orange",
+    "price": 280,
+    "rrp": 340
+   }
+  ]
+ },
+ {
+  "handle": "pachet-recovery-2-kg-prime-whey-2-kg-l-glutamina-kyowa®",
+  "title": "Pachet Recovery 2 kg: Prime Whey 2 kg + L-glutamină Kyowa®",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla",
+     "Chocolate Coconut",
+     "Blueberry Vanilla",
+     "Salted Caramel"
+    ]
+   },
+   {
+    "name": "Aromă L-glutamină",
+    "values": [
+     "Simplu",
+     "Raspberry",
+     "Blueberry",
+     "Cherry Lime",
+     "Pineapple Mango"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-recovery-2kg-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Strawberry Cheesecake / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Strawberry Cheesecake / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Strawberry Cheesecake / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Strawberry Cheesecake / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Strawberry Cheesecake / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Toffee Chocolate / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Toffee Chocolate / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Toffee Chocolate / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Toffee Chocolate / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Toffee Chocolate / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "White Chocolate Raspberry / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "White Chocolate Raspberry / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "White Chocolate Raspberry / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "White Chocolate Raspberry / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "White Chocolate Raspberry / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Bourbon Vanilla / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Bourbon Vanilla / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Bourbon Vanilla / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Bourbon Vanilla / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Bourbon Vanilla / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Chocolate Coconut / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Chocolate Coconut / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Chocolate Coconut / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Chocolate Coconut / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Chocolate Coconut / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Blueberry Vanilla / Simplu",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Blueberry Vanilla / Raspberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Blueberry Vanilla / Blueberry",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Blueberry Vanilla / Cherry Lime",
+    "price": 498,
+    "rrp": 555
+   },
+   {
+    "title": "Blueberry Vanilla / Pineapple Mango",
+    "price": 498,
+    "rrp": 555
+   }
+  ]
+ },
+ {
+  "handle": "pachet-recuperare-black-friday",
+  "title": "Pachet Recuperare: Aminoacizi EAA + L-glutamină Kyowa®",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   },
+   {
+    "name": "Aromă glutamină",
+    "values": [
+     "Simplu",
+     "Raspberry",
+     "Blueberry",
+     "Cherry Lime",
+     "Pineapple Mango"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-recuperare-black-friday.jpg?v=1792862063",
+  "variants": [
+   {
+    "title": "Peach Ice Tea / Simplu",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Peach Ice Tea / Raspberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Peach Ice Tea / Blueberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Peach Ice Tea / Cherry Lime",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Peach Ice Tea / Pineapple Mango",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Blueberry / Simplu",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Blueberry / Raspberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Blueberry / Blueberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Blueberry / Cherry Lime",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Blueberry / Pineapple Mango",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Strawberry &amp; Kiwi / Simplu",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Strawberry &amp; Kiwi / Raspberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Strawberry &amp; Kiwi / Blueberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Strawberry &amp; Kiwi / Cherry Lime",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Strawberry &amp; Kiwi / Pineapple Mango",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Tropical / Simplu",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Tropical / Raspberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Tropical / Blueberry",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Tropical / Cherry Lime",
+    "price": 265,
+    "rrp": 340
+   },
+   {
+    "title": "Tropical / Pineapple Mango",
+    "price": 265,
+    "rrp": 340
+   }
+  ]
+ },
+ {
+  "handle": "pachet-start-1-kg-prime-whey-1-kg-aminoacizi-eaa",
+  "title": "Pachet Start 1 kg: Prime Whey 1 kg + Aminoacizi EAA",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Aromă Prime Whey",
+    "values": [
+     "Blueberry Vanilla",
+     "Chocolate Coconut",
+     "Salted Caramel",
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla"
+    ]
+   },
+   {
+    "name": "Aromă EAA",
+    "values": [
+     "Peach Ice Tea",
+     "Blueberry",
+     "Strawberry &amp; Kiwi",
+     "Tropical"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-start-1kg-black-friday.jpg?v=1793314895",
+  "variants": [
+   {
+    "title": "Blueberry Vanilla / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Blueberry Vanilla / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Blueberry Vanilla / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Blueberry Vanilla / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Chocolate Coconut / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Chocolate Coconut / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Chocolate Coconut / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Chocolate Coconut / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Salted Caramel / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Salted Caramel / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Salted Caramel / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Salted Caramel / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Strawberry Cheesecake / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Strawberry Cheesecake / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Strawberry Cheesecake / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Strawberry Cheesecake / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Toffee Chocolate / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Toffee Chocolate / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Toffee Chocolate / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Toffee Chocolate / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "White Chocolate Raspberry / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "White Chocolate Raspberry / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "White Chocolate Raspberry / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "White Chocolate Raspberry / Tropical",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Bourbon Vanilla / Peach Ice Tea",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Bourbon Vanilla / Blueberry",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Bourbon Vanilla / Strawberry &amp; Kiwi",
+    "price": 337,
+    "rrp": 390
+   },
+   {
+    "title": "Bourbon Vanilla / Tropical",
+    "price": 337,
+    "rrp": 390
+   }
+  ]
+ },
+ {
+  "handle": "pachet-strength-creatina-creapure®-500-g-magneziu-bisglicinat-vitamina-d3-k2",
+  "title": "Pachet Strength: Creatină Creapure® 500 g + Magneziu bisglicinat + Vitamina D3 + K2",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-strength-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 255,
+    "rrp": 325
+   }
+  ]
+ },
+ {
+  "handle": "pachet-vitamine-magneziu-bisglicinat-vitamina-c-vitamina-d3-k2",
+  "title": "Pachet Vitamine: Magneziu bisglicinat + Vitamina C + Vitamina D3 + K2",
+  "productType": "Pachet",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/pachet-vitamine-black-friday.jpg?v=1793314894",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 161,
+    "rrp": 204
+   }
+  ]
+ },
+ {
+  "handle": "pantaloni-trening-barbati-hammer-3-0-prime-negri",
+  "title": "Pantaloni de trening bărbați Prime Hammer 3.0 – negri",
+  "productType": "Pantaloni de trening",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/PRIME-27.jpg?v=1789338538",
+  "variants": [
+   {
+    "title": "S",
+    "price": 170,
+    "rrp": 200
+   },
+   {
+    "title": "M",
+    "price": 170,
+    "rrp": 200
+   },
+   {
+    "title": "L",
+    "price": 170,
+    "rrp": 200
+   },
+   {
+    "title": "XL",
+    "price": 170,
+    "rrp": 200
+   }
+  ]
+ },
+ {
+  "handle": "prime-bodybuilding-classic-pants",
+  "title": "Pantaloni Prime Bodybuilding Classic – negri",
+  "productType": "Pantaloni",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_30_17_1208_36ce2d78-9dd4-4e5b-95c3-d248cdbfd900.jpg?v=1749666706",
+  "variants": [
+   {
+    "title": "M",
+    "price": 60,
+    "rrp": 60
+   },
+   {
+    "title": "L",
+    "price": 60,
+    "rrp": 60
+   },
+   {
+    "title": "XL",
+    "price": 60,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "short-arnold-era",
+  "title": "Pantaloni scurți Prime „Arnold Era” – negri",
+  "productType": "Pantaloni scurți",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "S",
+     "M"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_51_02_1312.jpg?v=1749666712",
+  "variants": [
+   {
+    "title": "S",
+    "price": 20,
+    "rrp": 50
+   },
+   {
+    "title": "M",
+    "price": 20,
+    "rrp": 50
+   }
+  ]
+ },
+ {
+  "handle": "pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri",
+  "title": "Pantaloni scurți waffle bărbați Prime Hammer 3.0 – negri",
+  "productType": "Pantaloni scurți",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "M",
+     "L",
+     "XL",
+     "2XL",
+     "3XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/174E1E0F-65E4-4D6C-9261-2EC8E985AF48.jpg?v=1789338967",
+  "variants": [
+   {
+    "title": "M",
+    "price": 150,
+    "rrp": 180
+   },
+   {
+    "title": "L",
+    "price": 150,
+    "rrp": 180
+   },
+   {
+    "title": "XL",
+    "price": 150,
+    "rrp": 180
+   },
+   {
+    "title": "2XL",
+    "price": 150,
+    "rrp": 180
+   },
+   {
+    "title": "3XL",
+    "price": 150,
+    "rrp": 180
+   }
+  ]
+ },
+ {
+  "handle": "supliment-alimentar-chromium-picolinate-80-caps",
+  "title": "Picolinat de crom – 80 capsule",
+  "productType": "Minerale",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_CHROMIUMPICOLINATE_80cabs_front.jpg?v=1749666733",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 60,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "potassium-complex-80-caps",
+  "title": "Potassium Complex – potasiu și magneziu, 80 de capsule",
+  "productType": "Minerale",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH3.png?v=1750406853",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 60,
+    "rrp": 67
+   }
+  ]
+ },
+ {
+  "handle": "combat-pro-2-0-660g-30-serv",
+  "title": "Pre-antrenament Combat Pro 2.0 – 660 g",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Mango",
+     "Forest Fruits"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH_3_24.jpg?v=1781472509",
+  "variants": [
+   {
+    "title": "Mango",
+    "price": 170,
+    "rrp": 205
+   },
+   {
+    "title": "Forest Fruits",
+    "price": 170,
+    "rrp": 205
+   }
+  ]
+ },
+ {
+  "handle": "nitrox-no-stim",
+  "title": "Pre-workout fără stimulente Nitrox No-Stim, 660 g",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Ice Blueberry"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH325.jpg?v=1781472449",
+  "variants": [
+   {
+    "title": "Ice Blueberry",
+    "price": 170,
+    "rrp": 205
+   }
+  ]
+ },
+ {
+  "handle": "prime-whey-go",
+  "title": "Prime Whey Go – proteină din zer, plicuri 30 g",
+  "productType": "Proteine",
+  "options": [
+   {
+    "name": "Flavor",
+    "values": [
+     "Chocolate Coconut",
+     "Bourbon Vanilla",
+     "Strawberry Cheesecake",
+     "White Chocolate Raspberry",
+     "Toffe Chocolate",
+     "Salted caramel",
+     "Blueberry Vanilla"
+    ]
+   },
+   {
+    "name": "Cantitate",
+    "values": [
+     "Cutie 15 buc x 30g",
+     "Plic 30g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALLMERCH7.png?v=1792077847",
+  "variants": [
+   {
+    "title": "Chocolate Coconut / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Chocolate Coconut / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "Bourbon Vanilla / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Bourbon Vanilla / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "Strawberry Cheesecake / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Strawberry Cheesecake / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "White Chocolate Raspberry / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "White Chocolate Raspberry / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "Toffe Chocolate / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Toffe Chocolate / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "Salted caramel / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Salted caramel / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   },
+   {
+    "title": "Blueberry Vanilla / Cutie 15 buc x 30g",
+    "price": 140,
+    "rrp": 150
+   },
+   {
+    "title": "Blueberry Vanilla / Plic 30g",
+    "price": 10,
+    "rrp": 10
+   }
+  ]
+ },
+ {
+  "handle": "prime-whey-1000g",
+  "title": "Prime Whey – proteină din zer, 1 kg",
+  "productType": "Proteine",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Blueberry Vanilla",
+     "Chocolate Coconut",
+     "Salted Caramel",
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844",
+  "variants": [
+   {
+    "title": "Blueberry Vanilla",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "Chocolate Coconut",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "Salted Caramel",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "Strawberry Cheesecake",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "Toffee Chocolate",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "White Chocolate Raspberry",
+    "price": 200,
+    "rrp": 215
+   },
+   {
+    "title": "Bourbon Vanilla",
+    "price": 200,
+    "rrp": 215
+   }
+  ]
+ },
+ {
+  "handle": "prime-whey-2000g",
+  "title": "Prime Whey – proteină din zer, 2 kg",
+  "productType": "Proteine",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Strawberry Cheesecake",
+     "Toffee Chocolate",
+     "White Chocolate Raspberry",
+     "Bourbon Vanilla",
+     "Chocolate Coconut",
+     "Blueberry Vanilla",
+     "Salted Caramel"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH_3_03.jpg?v=1792077790",
+  "variants": [
+   {
+    "title": "Strawberry Cheesecake",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Toffee Chocolate",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "White Chocolate Raspberry",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Bourbon Vanilla",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Chocolate Coconut",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Blueberry Vanilla",
+    "price": 369,
+    "rrp": 390
+   },
+   {
+    "title": "Salted Caramel",
+    "price": 369,
+    "rrp": 390
+   }
+  ]
+ },
+ {
+  "handle": "prosop-negru",
+  "title": "Prosop de sală Prime – negru, 50 x 100 cm",
+  "productType": "Accesorii sală",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/IMG_14951.jpg?v=1746429657",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 48,
+    "rrp": 65
+   }
+  ]
+ },
+ {
+  "handle": "sapca-prime",
+  "title": "Șapcă Prime – neagră, cu logo brodat",
+  "productType": "Șepci",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_SAPCA_front_aa6b88c1-f605-441b-a487-04f6032c7f71.jpg?v=1749666728",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 50,
+    "rrp": 70
+   }
+  ]
+ },
+ {
+  "handle": "scortisoara-ceylon-bio-200g",
+  "title": "Scorțișoară de Ceylon pudră bio – 200 g",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_SCORTISOARADECELYON_200g_front.jpg?v=1749666729",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 46,
+    "rrp": 46
+   }
+  ]
+ },
+ {
+  "handle": "prime-shaker-customised",
+  "title": "Shaker Prime 600 ml – negru transparent",
+  "productType": "Shakere",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/WhatsAppImage2026-04-29at12.41.28.jpg?v=1777974243",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 30,
+    "rrp": 30
+   }
+  ]
+ },
+ {
+  "handle": "shaker-premium-accesorizat-500-ml",
+  "title": "Shaker Prime cu compartimente, 500 ml",
+  "productType": "Shakere",
+  "options": [
+   {
+    "name": "Culoare",
+    "values": [
+     "Negru",
+     "Roșu"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_SHAKER_red_front.jpg?v=1749666704",
+  "variants": [
+   {
+    "title": "Negru",
+    "price": 28,
+    "rrp": 35
+   },
+   {
+    "title": "Roșu",
+    "price": 28,
+    "rrp": 35
+   }
+  ]
+ },
+ {
+  "handle": "spirulina-80-caps",
+  "title": "Spirulină Prime – 80 de capsule",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/ALL_MERCH5_1d54c4ef-a75d-49ff-8bb8-1df829824dae.png?v=1750407424",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 52,
+    "rrp": 60
+   }
+  ]
+ },
+ {
+  "handle": "combat-pro",
+  "title": "Supliment pre-antrenament Combat Pro cu cafeină – 500 g",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Forest Fruits",
+     "Mango",
+     "Mojito",
+     "Orange"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_COMBATPRO_ForestFruit_500g_front.jpg?v=1749666714",
+  "variants": [
+   {
+    "title": "Forest Fruits",
+    "price": 115,
+    "rrp": 140
+   },
+   {
+    "title": "Mango",
+    "price": 115,
+    "rrp": 140
+   },
+   {
+    "title": "Mojito",
+    "price": 115,
+    "rrp": 140
+   },
+   {
+    "title": "Orange",
+    "price": 115,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "nitrox",
+  "title": "Supliment pre-antrenament Nitrox 3D – 500 g",
+  "productType": "Pre-workout & intra-workout",
+  "options": [
+   {
+    "name": "Aroma",
+    "values": [
+     "Cherry",
+     "Pineapple Mango",
+     "Passion fruit",
+     "Strawberry lime"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_NITROX3D_Cherry_500g_front.jpg?v=1749666720",
+  "variants": [
+   {
+    "title": "Cherry",
+    "price": 148,
+    "rrp": 190
+   },
+   {
+    "title": "Pineapple Mango",
+    "price": 148,
+    "rrp": 190
+   },
+   {
+    "title": "Passion fruit",
+    "price": 148,
+    "rrp": 190
+   },
+   {
+    "title": "Strawberry lime",
+    "price": 148,
+    "rrp": 190
+   }
+  ]
+ },
+ {
+  "handle": "taurine-80-caps",
+  "title": "Taurină 1000 mg – 80 de capsule",
+  "productType": "Aminoacizi",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_TAURINE_80caps_front.jpg?v=1749666731",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 45,
+    "rrp": 50
+   }
+  ]
+ },
+ {
+  "handle": "thermo-core-120-caps",
+  "title": "Thermo Core – 120 capsule cu L-carnitină și ceai verde",
+  "productType": "Arzătoare de grăsimi",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_THERMOCORE_fatburner_120caps_front.jpg?v=1749666734",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 95,
+    "rrp": 115
+   }
+  ]
+ },
+ {
+  "handle": "cardio-calm-500-ml",
+  "title": "Tinctură din plante Cardio Calm – 500 ml",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_CARDIOCALM_500ml_front.jpg?v=1749666735",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 49,
+    "rrp": 55
+   }
+  ]
+ },
+ {
+  "handle": "testo-revive-500-ml",
+  "title": "Tinctură din plante Testo Revive – 500 ml",
+  "productType": "Suplimente din plante",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default Title"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_TESTOREVIVE_500ml_front.jpg?v=1749666736",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 49,
+    "rrp": 55
+   }
+  ]
+ },
+ {
+  "handle": "tricou-gym-supradimensionat-lejer-burgundy-prime",
+  "title": "Tricou Gym Supradimensionat & Lejer - Burgundy | Prime",
+  "productType": "",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01C2E001-1B83-43FE-80B6-4810B122ABC7.jpg?v=1792015939",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "L/XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 130,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "tricou-gym-supradimensionat-lejer-roz-pastel-prime",
+  "title": "Tricou Gym Supradimensionat & Lejer - Roz Pastel | Prime",
+  "productType": "",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/IMG_3667.jpg?v=1792064473",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "L/XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 130,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "t-shirt-drop-shoulder-muscle-white",
+  "title": "Tricou Prime Drop Shoulder Muscle – alb",
+  "productType": "Tricouri",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "M",
+     "L"
+    ]
+   },
+   {
+    "name": "Culoare",
+    "values": [
+     "Alb"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_16_28_29_2076.jpg?v=1749666708",
+  "variants": [
+   {
+    "title": "M / Alb",
+    "price": 50,
+    "rrp": 140
+   },
+   {
+    "title": "L / Alb",
+    "price": 50,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "t-shirt-drop-shoulder-muscle",
+  "title": "Tricou Prime Drop Shoulder Muscle – negru",
+  "productType": "Tricouri",
+  "options": [
+   {
+    "name": "Mărime",
+    "values": [
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/HILA_13_14_32_30_1212.jpg?v=1749666715",
+  "variants": [
+   {
+    "title": "M",
+    "price": 50,
+    "rrp": 140
+   },
+   {
+    "title": "L",
+    "price": 50,
+    "rrp": 140
+   },
+   {
+    "title": "XL",
+    "price": 50,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "tricou-sala-suffer-to-dominate-bumbac-premium-negru",
+  "title": "Tricou Prime Suffer to Dominate – negru",
+  "productType": "Tricouri",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL",
+     "XXL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/suffertodominatefront_f61b6747-a5f5-4273-81ae-721991dfa200.png?v=1774565821",
+  "variants": [
+   {
+    "title": "S",
+    "price": 60,
+    "rrp": 110
+   },
+   {
+    "title": "M",
+    "price": 60,
+    "rrp": 110
+   },
+   {
+    "title": "L",
+    "price": 60,
+    "rrp": 110
+   },
+   {
+    "title": "XL",
+    "price": 60,
+    "rrp": 110
+   },
+   {
+    "title": "XXL",
+    "price": 60,
+    "rrp": 110
+   }
+  ]
+ },
+ {
+  "handle": "tricou-sala-oversized-barbați-prime-galben-pastel",
+  "title": "Tricou Sală Oversized Bărbați Prime - Galben Pastel",
+  "productType": "",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/43735FAB-C38A-478D-AEFB-29AEB8515018.jpg?v=1792015591",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "L/XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 130,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "tricou-sala-oversized-barbați-prime-turcoaz-intense",
+  "title": "Tricou Sală Oversized Bărbați Prime - Turcoaz Intense",
+  "productType": "",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/AA6861A1-0EB7-4FBF-B485-3FA76EA64546.jpg?v=1792014509",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "L/XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 130,
+    "rrp": 140
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 130,
+    "rrp": 140
+   }
+  ]
+ },
+ {
+  "handle": "tricou-oversized-barbati-hammer-3-0-prime-negru",
+  "title": "Tricou supradimensionat bărbați Prime Hammer 3.0 – negru",
+  "productType": "Tricouri",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "S/M",
+     "L/XL",
+     "XXL/3XL",
+     "4XL/5XL"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/187297_ochi-1.jpg?v=1789339693",
+  "variants": [
+   {
+    "title": "S/M",
+    "price": 140,
+    "rrp": 160
+   },
+   {
+    "title": "L/XL",
+    "price": 140,
+    "rrp": 160
+   },
+   {
+    "title": "XXL/3XL",
+    "price": 140,
+    "rrp": 160
+   },
+   {
+    "title": "4XL/5XL",
+    "price": 140,
+    "rrp": 160
+   }
+  ]
+ },
+ {
+  "handle": "unt-de-arahide",
+  "title": "Unt de arahide Prime Health, 600 g",
+  "productType": "Unt de nuci și semințe",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "600g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_UNTDEARAHIDE_600g_front.jpg?v=1749666707",
+  "variants": [
+   {
+    "title": "600g",
+    "price": 40,
+    "rrp": 45
+   }
+  ]
+ },
+ {
+  "handle": "unt-de-migdale",
+  "title": "Unt de migdale Prime Health, 600 g",
+  "productType": "Unt de nuci și semințe",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "600g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_UNTDEMIGDALE_600g_front.jpg?v=1749666707",
+  "variants": [
+   {
+    "title": "600g",
+    "price": 85,
+    "rrp": 92
+   }
+  ]
+ },
+ {
+  "handle": "unt-de-caju",
+  "title": "Unt de caju Prime Health, 600 g",
+  "productType": "Unt de nuci și semințe",
+  "options": [
+   {
+    "name": "Cantitate",
+    "values": [
+     "600g"
+    ]
+   }
+  ],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_UNTDECAJU_600g_front.jpg?v=1749666705",
+  "variants": [
+   {
+    "title": "600g",
+    "price": 50,
+    "rrp": 90
+   }
+  ]
+ },
+ {
+  "handle": "vitamina-d3-k2",
+  "title": "Vitamina D3 + K2 – 80 capsule",
+  "productType": "Vitamine",
+  "options": [],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_D3_K2_80cabs_front.jpg?v=1749666736",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 60,
+    "rrp": 75
+   }
+  ]
+ },
+ {
+  "handle": "vitamin-c-1000-80-caps",
+  "title": "Vitamina C 1000 mg – 80 de capsule",
+  "productType": "Vitamine",
+  "options": [],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_VITAMINC_80caps_front.jpg?v=1749666730",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 46,
+    "rrp": 59
+   }
+  ]
+ },
+ {
+  "handle": "water-out-120-caps",
+  "title": "Water Out – 120 capsule cu extracte din plante",
+  "productType": "Arzătoare de grăsimi",
+  "options": [],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_WATEROUT_120caps_front.jpg?v=1749666735",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 95,
+    "rrp": 115
+   }
+  ]
+ },
+ {
+  "handle": "water-out-500-ml",
+  "title": "Water Out Prime Health – tinctură din plante, 500 ml",
+  "productType": "Arzătoare de grăsimi",
+  "options": [],
+  "img": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_WATEROUT_500ml_front.jpg?v=1749666705",
+  "variants": [
+   {
+    "title": "Default Title",
+    "price": 60,
+    "rrp": 73
+   }
+  ]
+ }
+]

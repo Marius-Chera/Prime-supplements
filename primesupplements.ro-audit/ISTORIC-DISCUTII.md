@@ -301,3 +301,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 ## 10.11.2026 – Chera Coaching: curs „Contest Preparation Coach”
 - Decizii ale lui Marius: curs video în română la 5.000 lei, pentru antrenori personali; 40–50 de ore; ritm propriu + sesiune live lunară + studiu de caz corectat personal; accent pe NPC / IFBB Pro League; examen și diplomă semnată de el. Se lucrează în etape: structura (aprobare) → câte un modul pe rând, la „următorul” → instrumente, examen, diplomă, pagină de vânzare, soluția tehnică de acces.
 - Structura propusă (neaprobată încă): `chera-coaching/curs-contest-prep/STRUCTURA-CURS-2026-11-10.md`.
+- 10.11 (seara): structura aprobată de Marius; se merge pe variantele implicite la cele 6 întrebări. Decizie de lucru: conținutul lecțiilor se ține doar local (`curs-contest-prep/privat/`, gitignored), ca la carte, fiindcă repo-ul e public. Modulul 1 scris; următorul modul la „următorul”.

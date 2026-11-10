@@ -297,3 +297,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
 ### 10.11.2026 – Evaluarea Chera: buton de cumpărare cu coș pregătit la Prime
 - Marius a cerut un buton „Cumpără suplimentele necesare” în rezultatul evaluării: duce direct în comanda de pe primesupplements.ro, cu produsele Prime din protocolul clientului și codul Chera10 (10%) aplicat. Decizii luate la implementare: în coș intră doar rândurile din protocolul personal (baza e opțională, cu bifă); o bucată din fiecare produs; aroma preferată e cea cu stocul cel mai mare, dar clientul o poate schimba din casetă; produsele Swanson nu intră în coș. Codul chera10 exista deja în magazin (mai 2025), nu s-a creat nimic. Nota de la scorurile „la limită” a fost reformulată ca să nu contrazică butonul.
+
+## 10.11.2026 – Chera Coaching: curs „Contest Preparation Coach”
+- Decizii ale lui Marius: curs video în română la 5.000 lei, pentru antrenori personali; 40–50 de ore; ritm propriu + sesiune live lunară + studiu de caz corectat personal; accent pe NPC / IFBB Pro League; examen și diplomă semnată de el. Se lucrează în etape: structura (aprobare) → câte un modul pe rând, la „următorul” → instrumente, examen, diplomă, pagină de vânzare, soluția tehnică de acces.
+- Structura propusă (neaprobată încă): `chera-coaching/curs-contest-prep/STRUCTURA-CURS-2026-11-10.md`.

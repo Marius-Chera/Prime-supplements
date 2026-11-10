@@ -11,13 +11,13 @@
 6. Adaugă rândurile în tabelele de mai jos și treci în `JURNAL.md`.
 
 ## Ce NU se urcă
-- Cadre cu persoane care nu mai colaborează cu Prime (vezi `email-marketing/design/DESIGN-EMAIL-PRIME.md`). La Evo Gym, până confirmă proprietarul cine sunt, nu s-au urcat cadre cu sportiva blondă în negru și cu sportiva în echipament alb.
+- Cadre cu persoane care nu mai colaborează cu Prime (vezi `email-marketing/design/DESIGN-EMAIL-PRIME.md`). Confirmat de proprietar pe 10.11.2026: sportiva blondă în negru de la Evo Gym este soția lui, Paula Adelina Chera, și colaborează cu Prime; cadrele cu sportiva în echipament alb se pot folosi și ele.
 - Poze de studio pe fond alb sau gri (`Poze jpg silviu popa produse studio`, `Hila poze noi 12 iunie`, `Produse noi hila`, `Creatina Micronizata + plicuri poze`, `Crema de orez poze`, `Randari Produse`): sunt pozele de produs de pe site, nu poze de ședință.
 - Haine (`MNX POZELE LOR`, `colectie noue Prime By MNX`, `tricouri colorate`, `Poze tricouri noi Geo`): nu sunt pentru articolele despre suplimente.
 - Costume de baie și cadre prea decoltate: nu se potrivesc cu tonul articolelor.
 
 ## Stare la 10.11.2026
-114 poze `sedinta-foto-*` în Shopify Files: 35 urcate pe 13–15.10 (10 din sală, 25 de la Constanța) și 79 urcate pe 10.11 (tabelele de mai jos).
+126 de poze `sedinta-foto-*` în Shopify Files: 35 urcate pe 13–15.10 (10 din sală, 25 de la Constanța) și 91 urcate pe 10.11 (tabelele de mai jos; ultimele 12 după confirmarea proprietarului).
 
 Produse care au acum poze de ședință și nu aveau: cremă de orez (Creamy Rice), creatină (Creatine Creapure), Cluster, Complete Collagen, Thermo Core, Combat Pro 2.0, EAA, Recovery, Silymarin, Spirulina, Potassium Complex, L-Carnitine, plicuri Prime Whey, Glycerol Max Pump cu sportiv. În plus, 8 cadre de antrenament fără produs (pentru articolele despre exerciții).
 
@@ -127,3 +127,20 @@ Produse care au acum poze de ședință și nu aveau: cremă de orez (Creamy Ric
 | `sedinta-foto-exterior-prime-whey-eaa-1.jpg` | `DSC09379.jpg` |
 | `sedinta-foto-exterior-vitamina-c-1.jpg` | `DSC09647.jpg` |
 | `sedinta-foto-plaja-sportiva-shaker-prime-1.jpg` | `DSC09715.jpg` |
+
+### Shooting foto evo gym – cadre urcate după confirmarea proprietarului (12)
+
+| Fișier în Shopify Files | Fișier sursă |
+|---|---|
+| `sedinta-foto-sala-cuplu-prime-whey-nitrox-3d-2.jpg` | `HILA_13_13_24_47_0746.jpg` |
+| `sedinta-foto-sala-cuplu-prime-whey-nitrox-3d-3.jpg` | `HILA_13_13_25_30_0764.jpg` |
+| `sedinta-foto-sala-nitrox-no-stim-5.jpg` | `HILA_13_12_29_40_0332.jpg` |
+| `sedinta-foto-sala-sportiva-instant-oats-banca-3.jpg` | `HILA_13_12_45_04_0447.jpg` |
+| `sedinta-foto-sala-sportiva-instant-oats-prime-health-1.jpg` | `HILA_13_12_43_04_0431.jpg` |
+| `sedinta-foto-sala-sportiva-instant-oats-prime-health-2.jpg` | `HILA_13_12_43_10_0436.jpg` |
+| `sedinta-foto-sala-sportiva-nitrox-3d-prime-whey-1.jpg` | `HILA_13_12_40_29_0407.jpg` |
+| `sedinta-foto-sala-sportiva-nitrox-3d-prime-whey-2.jpg` | `HILA_13_12_40_53_0418.jpg` |
+| `sedinta-foto-sala-sportiva-nitrox-no-stim-1.jpg` | `HILA_13_12_27_07_0316.jpg` |
+| `sedinta-foto-sala-sportiva-nitrox-no-stim-prime-whey-1.jpg` | `HILA_13_12_28_58_0323.jpg` |
+| `sedinta-foto-sala-sportiva-sac-box-nitrox-no-stim-1.jpg` | `HILA_13_13_41_58_0862.jpg` |
+| `sedinta-foto-sala-sportiva-sac-box-nitrox-no-stim-2.jpg` | `HILA_13_13_42_53_0875.jpg` |

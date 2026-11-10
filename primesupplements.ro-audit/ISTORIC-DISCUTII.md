@@ -305,3 +305,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
 ### 10.11.2026 – Portofoliu pentru distribuitori internaționali
 - Proprietarul a cerut un portofoliu complet în engleză pentru posibili distribuitori din toată lumea, cu date reale din Shopify și fără nimic inventat (ce lipsește se marchează `[DE COMPLETAT]`); best sellers detaliat pe proteine, cremă de orez și creatină, restul catalogului compact. Pe parcurs a precizat: scopul final este colaborarea B2B și, deocamdată, **fără prețuri** (doar prezentare pentru B2B internațional). Livrat `distribuitori/PRIME-SUPPLEMENTS-Distributor-Portfolio-EN-2026-11-10.pdf` (19 pagini). Decizii de conținut: tagline = „Hardcore Sports Nutrition” (motto-ul de pe site); certificările (ISO/HACCP, TÜV, IFS, HALAL, Cologne List) apar doar cum sunt formulate pe site și sunt de confirmat; clasamentul celor mai vândute apare fără cifre.
+
+### 10.11.2026 – Pozele pentru articole vin din D:\Prime Supplements
+- Proprietarul: „aici găsești multe poze pe care vreau să le folosești în articolele de pe site și să alegi poze de la ședințele foto; aici o să încarc mereu poze de la ședințele foto”. A cerut explicit și ședința Evo Gym și cea de la Constanța.
+- Decizie: `D:\Prime Supplements` e sursa permanentă; la fiecare ședință nouă Claude alege, urcă în Shopify Files ca `sedinta-foto-*` și ține evidența în `blog-automation/POZE-SEDINTE-FOTO.md`. Regulile de folosire în articole rămân cele din ghid (4c): prioritate pozelor reale, fără retuș pe persoane, aceeași poză cel mult o dată la 20 de articole.
+- Deschis: proprietarul să confirme dacă sportiva blondă în negru și sportiva în alb de la Evo Gym mai colaborează cu Prime (până atunci nu apar).

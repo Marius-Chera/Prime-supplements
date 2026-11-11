@@ -280,13 +280,41 @@ function startThink(onDone){
 }
 async function submit(){
   const st=$("r-sendstatus");
+  if(await submitHub(st)) return;
   if(!CONFIG.SHEET_ENDPOINT){ return submitContact(st); }
   const payload={ts:new Date().toISOString(),...state.ctx,...state.result,summary:state.summary||"",ansA:state.ansA,ansT:state.ansT,ansB:state.ansB,ua:navigator.userAgent};
   try{ await fetch(CONFIG.SHEET_ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}); st.textContent = SENT_TXT; }
   catch(e){ st.textContent=FAIL_TXT; }
 }
 
-/* fără receptor Google: (1) copie pe e-mail prin FormSubmit (adresa din setarea secțiunii evaluare),
+/* calea principală (11.11.2026): Chera Hub, prin App Proxy-ul Shopify (/apps/chat/evaluare/api). Hub-ul salvează evaluarea
+   (lista „Evaluări” din panou) și îi trimite lui Marius e-mail. Dacă Hub-ul nu răspunde, rămân rezervele de mai jos. */
+const HUB_EVAL_URL="/apps/chat/evaluare/api";
+async function submitHub(st){
+  const c=state.ctx, r=state.result, p=contactParts();
+  st.textContent="Trimit rezultatul la mine…";
+  const body=JSON.stringify({name:c.name,email:c.email,phone:c.phone,city:c.city||"",goal:c.goal,code:r.code,context:p.context,
+    scores:`natura D${r.scoresA.D} A${r.scoresA.A} G${r.scoresA.G} S${r.scoresA.S} · echilibru D${r.scoresB.D} A${r.scoresB.A} G${r.scoresB.G} S${r.scoresB.S}`,summary:state.summary||""});
+  try{
+    const res=await fetch(HUB_EVAL_URL,{method:"POST",credentials:"same-origin",headers:{"Content-Type":"application/json","Accept":"application/json"},body,keepalive:body.length<60000});
+    const j=await res.json().catch(()=>null);
+    if(res.ok && j && j.ok){
+      /* salvată în Hub, dar e-mailul n-a plecat: copia prin FormSubmit, ca rezervă */
+      if(!j.emailed && !j.duplicate) formSubmitCopy();
+      st.textContent=SENT_TXT; return true;
+    }
+  }catch(e){}
+  return false;
+}
+function formSubmitCopy(){
+  const c=state.ctx, p=contactParts(), cfg=$("ev-cfg"), mail=cfg?(cfg.dataset.mail||"").trim():"";
+  if(!mail) return null;
+  const fsBody=JSON.stringify({_subject:p.subject,_template:"box",_captcha:"false",_replyto:c.email,name:c.name,email:c.email,
+    message:`Telefon: ${c.phone}\nOraș: ${c.city||"-"}\nRăspuns pe: e-mail\n${p.context}\n\n${p.body}`});
+  try{ const req=fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}); req.catch(()=>{}); return req; }catch(e){ return null; }
+}
+
+/* rezerva, fără receptor Google: (1) copie pe e-mail prin FormSubmit (adresa din setarea secțiunii evaluare),
    (2) formularul de contact Shopify nativ, cu hCaptcha (fetch la /contact e refuzat de CAPTCHA). Pagina se reîncarcă și reafișează rezultatul. */
 function contactParts(){
   const c=state.ctx, r=state.result;
@@ -297,15 +325,10 @@ function contactParts(){
   };
 }
 async function submitContact(st){
-  const c=state.ctx, p=contactParts(), cf=$("ev-contact-form"), cfg=$("ev-cfg"), mail=cfg?(cfg.dataset.mail||"").trim():"";
+  const c=state.ctx, p=contactParts(), cf=$("ev-contact-form");
   const channel="e-mail";
   st.textContent="Trimit rezultatul la mine…";
-  let fsReq=null;
-  if(mail){
-    const fsBody=JSON.stringify({_subject:p.subject,_template:"box",_captcha:"false",_replyto:c.email,name:c.name,email:c.email,
-      message:`Telefon: ${c.phone}\nOraș: ${c.city||"-"}\nRăspuns pe: ${channel}\n${p.context}\n\n${p.body}`});
-    try{ fsReq=fetch("https://formsubmit.co/ajax/"+encodeURIComponent(mail),{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:fsBody,keepalive:fsBody.length<60000}); fsReq.catch(()=>{}); }catch(e){ fsReq=null; }
-  }
+  const fsReq=formSubmitCopy();
   /* fără formular sau fără stocare în browser: reîncărcarea făcută de formularul Shopify ar pierde rezultatul, deci rămâne doar copia prin FormSubmit */
   if(!cf || !storageOk()){
     let ok=false; try{ const r=fsReq && await fsReq; ok=!!(r&&r.ok); }catch(e){}

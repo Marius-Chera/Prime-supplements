@@ -1,0 +1,377 @@
+﻿<!doctype html>
+<html lang="hu"><head><meta charset="utf-8">
+<title>Recepciós kézikönyv – Prime Supplements</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --red: #ec1e24; --ink: #111; --grey: #666; --line: #e6e6e6; --bg: #f5f5f5; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; color: var(--ink); font-family: Poppins, "Segoe UI", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; }
+  img { display: block; }
+  .page { position: relative; width: 210mm; min-height: 297mm; padding: 14mm 15mm 16mm; break-after: page; page-break-after: always; background: #fff; }
+  .page:last-child { break-after: auto; page-break-after: auto; }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 7mm; font-size: 7.5pt; color: #9a9a9a; display: flex; justify-content: space-between; }
+  .kicker { color: var(--red); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 8.5pt; margin: 0 0 2mm; }
+  h1 { font-size: 26pt; line-height: 1.1; margin: 0 0 4mm; font-weight: 800; }
+  h1 span { color: var(--red); }
+  h2 { font-size: 17pt; line-height: 1.15; margin: 0 0 1mm; font-weight: 800; }
+  h3 { font-size: 12pt; margin: 6mm 0 2mm; font-weight: 700; border-left: 4px solid var(--red); padding-left: 3mm; }
+  p { margin: 0 0 2mm; }
+  /* copertă */
+  .cover { padding: 0; overflow: hidden; height: 297mm; }
+  .cover img.hero { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .cover .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.15) 40%, rgba(0,0,0,.75) 100%); }
+  .cover .logo { position: absolute; left: 15mm; top: 14mm; height: 14mm; }
+  .cover .text { position: absolute; left: 15mm; right: 15mm; bottom: 22mm; color: #fff; }
+  .cover h1 { font-size: 34pt; color: #fff; }
+  .cover p { font-size: 12.5pt; font-weight: 300; color: #fff; max-width: 150mm; }
+  .cover .foot { color: rgba(255,255,255,.8); }
+  /* intro */
+  .steps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin: 3mm 0 2mm; }
+  .steps div { background: var(--bg); border-top: 3px solid var(--red); padding: 4mm; border-radius: 0 0 2mm 2mm; font-size: 9.5pt; }
+  .steps b { display: block; font-size: 9pt; text-transform: uppercase; letter-spacing: .6px; color: var(--red); margin-bottom: 1.5mm; }
+  .steps i { display: block; font-style: normal; font-weight: 800; font-size: 20pt; color: #ddd; line-height: 1; margin-bottom: 1mm; }
+  .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .zones div { border: 1px solid var(--line); border-radius: 2mm; padding: 4mm; font-size: 9.5pt; }
+  .zones b { display: block; color: var(--ink); margin-bottom: 1mm; }
+  ul.rules { margin: 0; padding-left: 5mm; font-size: 9.5pt; } ul.rules li { margin-bottom: 1.2mm; }
+  /* carduri produs */
+  .card { display: grid; grid-template-columns: 52mm 1fr; gap: 6mm; border: 1px solid var(--line); border-radius: 3mm; padding: 5mm; margin-bottom: 6mm; break-inside: avoid; page-break-inside: avoid; }
+  .card .pic { background: var(--bg); border-radius: 2mm; display: flex; align-items: center; justify-content: center; padding: 3mm; min-height: 52mm; }
+  .card .pic img { max-width: 100%; max-height: 60mm; object-fit: contain; mix-blend-mode: multiply; }
+  .card .tag { color: var(--red); text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; font-size: 8pt; margin: 0 0 1mm; }
+  .card .sub { color: var(--grey); font-size: 9pt; margin-bottom: 2mm; }
+  .card .ce { font-size: 9.8pt; margin-bottom: 2.5mm; }
+  .arome { font-size: 9pt; background: var(--bg); padding: 2mm 3mm; border-radius: 1.5mm; margin-bottom: 2.5mm; }
+  .arome-img { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; margin-bottom: 2.5mm; }
+  .arome-img figure { margin: 0; text-align: center; font-size: 7.5pt; line-height: 1.2; }
+  .arome-img img { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: var(--bg); border-radius: 1.5mm; mix-blend-mode: multiply; }
+  dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 4mm; }
+  dl div { font-size: 8.8pt; }
+  dl .spui { grid-column: 1 / -1; background: #fff3f3; border-left: 3px solid var(--red); padding: 2mm 3mm; border-radius: 0 1.5mm 1.5mm 0; }
+  dt { font-weight: 700; text-transform: uppercase; font-size: 7.5pt; letter-spacing: .6px; color: var(--grey); }
+  .spui dt { color: var(--red); }
+  dd { margin: 0; }
+  /* FAQ */
+  .faq div { border-bottom: 1px solid var(--line); padding: 2.5mm 0; font-size: 9.5pt; }
+  .faq b { display: block; color: var(--ink); }
+  .contact { background: var(--ink); color: #ddd; padding: 5mm 6mm; border-radius: 2mm; margin-top: 6mm; font-size: 9.5pt; }
+  .contact b { color: #fff; }
+  @media print { @page { size: A4; margin: 0; } * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .card .pic img, .arome-img img { mix-blend-mode: normal; } .card .pic, .arome-img img { background: #fff; border: 1px solid var(--line); } }
+  @media screen { body { background: #777; padding: 10mm; } .page { margin: 0 auto 10mm; box-shadow: 0 4px 24px rgba(0,0,0,.3); } }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; align-items: start; }
+  .ph { width: 100%; object-fit: cover; border-radius: 2.5mm; }
+  p.big { font-size: 11pt; line-height: 1.5; color: #222; margin-bottom: 3mm; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin: 5mm 0 1mm; }
+  .facts div { background: var(--ink); color: #fff; border-radius: 2mm; padding: 3mm 4mm; }
+  .facts b { display: block; font-size: 16pt; font-weight: 800; color: #fff; line-height: 1.1; }
+  .facts span { font-size: 7.8pt; color: #cfcfcf; }
+  .values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 3mm; }
+  .values div { background: var(--bg); border-top: 3px solid var(--red); border-radius: 0 0 2mm 2mm; padding: 3.5mm 4mm; font-size: 8.8pt; }
+  .values b { display: block; text-transform: uppercase; letter-spacing: 1px; font-size: 8.6pt; margin-bottom: 1mm; }
+  .founder { margin-top: 4mm; border: 1px solid var(--line); border-radius: 2.5mm; padding: 4mm 5mm; font-size: 9.5pt; }
+  .founder p:last-child { margin: 0; }
+  .brand h1 { font-size: 22pt; } .brand p { font-size: 9.2pt; } .brand .founder { margin-top: 3mm; } .brand p.big { font-size: 10.6pt; } .brand .values div { font-size: 8.5pt; }
+  .how .steps div, .how .zones div, .how ul.rules { font-size: 8.9pt; } .how > p { font-size: 9.8pt; } .how h3 { margin-top: 5mm; }
+</style></head>
+<body>
+<section class="page cover">
+  <img class="hero" src="GHID-RECEPTII-img/batoane-fiole.jpg" alt="">
+  <div class="shade"></div>
+  <img class="logo" src="GHID-RECEPTII-img/logo-prime-alb.svg" alt="Prime Supplements">
+  <div class="text">
+    <p class="kicker" style="color:#ff6b6f">Partnertermeknek</p>
+    <h1>A Prime <span>recepciós</span> kézikönyv</h1>
+    <p>Mely termékeket tarts a recepción, kinek szólnak, mikor kell fogyasztani őket, és mit mondj a tagnak tíz másodperc alatt. Szeletek, shotok, tasakok és azok a kis termékek, amelyek maguktól fogynak.</p>
+  </div>
+  <div class="foot"><span>Prime Sport Supplements SRL · primesupplements.ro</span><span>Kiadás: 2026.11.11.</span></div>
+</section>
+<section class="page brand">
+  <p class="kicker">A márkáról</p>
+  <h1>A versenyszintű testépítésből született, <span>minden sportolónak.</span></h1>
+  <div class="two">
+    <div><p class="big">A Prime Supplements 2022-ben alakult Romániában, Szeben megyében. Küldetésünk, hogy tanítsuk és inspiráljuk a sportolókat, és javítsuk a teljesítményüket.</p><p>Étrend-kiegészítőink a legmagasabb teljesítményszintig támogatják a sportolókat. Termékcsaládjaink a versenysportolóknak és azoknak egyaránt szólnak, akik edzenek, és egészséges, testre szabott táplálkozásra vágynak.</p><p>Elemezzük a keresletet, a sportolók igényeit és az alapanyagokat, és folyamatosan emeljük a minőséget. Így dolgozunk a küldetésünkön: új mércét állítani az étrend-kiegészítők piacán, támogatni a sportolókat a csúcsteljesítmény felé vezető úton, és a táplálkozási igényeikhez igazított termékeket kínálni.</p></div>
+    <img class="ph" src="GHID-RECEPTII-img/sala-ramat.jpg" alt="" style="height:60mm">
+  </div>
+  <div class="facts"><div><b>2022</b><span>Az alapítás éve</span></div><div><b>Románia</b><span>Nagydisznód, Szeben megye</span></div><div><b>61</b><span>étrend-kiegészítő és funkcionális élelmiszer a kínálatban</span></div><div><b>EU</b><span>Az Európai Unióban gyártva</span></div></div>
+  <h3>Hardcore Sports Nutrition</h3>
+  <p>A Hardcore Sports Nutrition a mottónk és a cég mögötti szemlélet. A mikro- és makrotápanyagokat tartalmazó formulák a versenyszintű testépítésben szerzett sokéves tanulás és tapasztalat alapján készültek. Számunkra ez több egy mottónál, amely a termékeink megfelelő egyensúlyának keresésére ösztönzött: olyan szemlélet, amely bárkit arra sarkall, hogy a célja iránti elkötelezettséggel, a táplálkozás és az edzés egyensúlyára támaszkodva túllépjen a saját határain.</p>
+  <div class="values"><div><b>Tanítás</b>Világos címkék és termékblog, amely elmagyarázza, mit tartalmaz az egyes termék, mennyit és mikor kell fogyasztani belőle.</div><div><b>Inspiráció</b>Az edzőteremből jött márka, amely az edzők és az edzésre járók nyelvén beszél.</div><div><b>Teljesítmény</b>Formulák, amelyek a sportolók edzés előtti, alatti és utáni igényeihez igazodnak.</div></div>
+  <div class="founder"><p class="kicker">Az alapító</p><h3 style="margin-top:0;border:0;padding:0">Marius Chera</h3><p>Marius Chera 2022-ben alapította a Prime Supplements márkát. Románia egyik legismertebb testépítő edzője, és az első román edző, akinek felkészítésével sportolók PRO kártyát szereztek az NPC szervezetében. Testépítésben szerzett tapasztalata az alapja a termékek optimalizálásának: a versenyfelkészülés teljes ideje alatt a Prime Supplements termékeit ajánlja a testépítőknek.</p></div>
+  <div class="foot"><span>Prime recepciós kézikönyv</span><span>2</span></div>
+</section>
+<section class="page how">
+  <p class="kicker">Hogyan használd a kézikönyvet</p>
+  <h1>Három kérdés és egy jól berendezett polc.</h1>
+  <p>A recepció akkor ad el a legtöbbet, ha kérdez, nem ha vár. A kézikönyvben minden termékhez tartozik egy kimondásra kész mondat. Hatásokat nem ígérünk: elmondjuk, mit tartalmaz a termék, kinek szól, és mikor kell fogyasztani.</p>
+  <h3>A recepció három kérdése</h3>
+  <div class="steps"><div><i>1</i><b>Mit edzel ma?</b>Erősítés, nehéz edzés → kreatin, edzés előtti (ampulla vagy Nitrox). Kardió vagy csoportos óra → Fat Burning Shot, EAA a kulacsba.</div><div><i>2</i><b>Ettél előtte / eszel utána?</b>Nem evett → Creamy Rice vagy egy szelet most. Nincs mit ennie utána → szelet, Prime Whey Go tasak, shaker.</div><div><i>3</i><b>Mit szedsz már?</b>Semmit → kezdje a szelettel és egy tasakkal. Fehérjét → kreatin. Kreatint → Creapure vagy edzés előtti. Mindent → vitaminok, télen D3 + K2.</div></div>
+  <h3>Mi hova kerül</h3>
+  <div class="zones"><div><b>Pult, a kassza mellett (impulzusvásárlás)</b>Szeletek, mind a 4 íz, a nyitott dobozban. Tasaktartó: Creatine Ready To Go és Prime Whey Go. A Prime shaker.</div><div><b>Italhűtő</b>Energy Pump Shot és Fat Burning Booster Shot, hidegen, szemmagasságban, a víz mellett.</div><div><b>A recepció mögötti polc (jól látható)</b>Prime Whey 1 kg (2–3 íz), Creamy Rice, Creapure és mikronizált kreatin, Nitrox 3D, EAA, Instant Oat Cream.</div><div><b>A kasszánál, szezonálisan</b>Ősz–tél: D3 + K2-vitamin és Daily Vitamin Formula, egy kis felirattal. Nyár: a shotok és az EAA elöl.</div></div>
+  <h3>Házirend</h3>
+  <ul class="rules"><li>A minta eladja a dobozt: a Prime Whey Go tasak a Prime Whey 1 kg mintája, az Energy Pump ampulla a Nitrox 3D mintája.</li><li>A koffeintartalmú termékek (shotok, Nitrox 3D) nem ajánlottak késő este, kiskorúaknak, várandós nőknek és koffeinérzékenyeknek.</li><li>Az étrend-kiegészítők nem helyettesítik a változatos étrendet. Nem ígérünk fogyást, izomtömeget vagy eredményt; a terméket és a címkén szereplő adagot írjuk le.</li><li>A szeletes dobozt és a tasaktartókat minden reggel feltöltjük; az üres polc nem ad el.</li><li>Utánrendelés: a Prime üzletkötőn keresztül vagy a contact@primesupplements.ro címen · +40 775 286 584.</li></ul>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin-top:3mm"><img src="GHID-RECEPTII-img/sala-instant-oats.jpg" alt="" style="width:100%;height:26mm;object-fit:cover;border-radius:2mm"><img src="GHID-RECEPTII-img/sala-whey-nitrox3d.jpg" alt="" style="width:100%;height:26mm;object-fit:cover;border-radius:2mm"><img src="GHID-RECEPTII-img/sala-nostim-portret.jpg" alt="" style="width:100%;height:26mm;object-fit:cover;border-radius:2mm"></div>
+  <div class="foot"><span>Prime recepciós kézikönyv</span><span>3</span></div>
+</section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt="Prime Delicious Bar"></div>
+  <div class="body">
+    <p class="tag">A recepció sztárja</p>
+    <h2>Prime Delicious Bar</h2>
+    <p class="sub">fehérjeszelet, 55 g · 12 db-os doboz</p>
+    <p class="ce">Bevonatos fehérjeszelet: fehérjés nasi edzés után vagy útközben.</p>
+    <div class="arome-img"><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-capsuni.jpg" alt=""><figcaption>Eper</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-caramel-sarat.jpg" alt=""><figcaption>Sós karamell</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-cocos-si-caramel.jpg" alt=""><figcaption>Kókusz és karamell</figcaption></figure><figure><img src="GHID-RECEPTII-img/produs-baton-proteic-ciocolata-fructe-de-padure.jpg" alt=""><figcaption>Csokoládé és erdei gyümölcs</figcaption></figure></div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Minden tag, azok is, akik nem szednek étrend-kiegészítőt. A recepción a legkönnyebben eladható termék.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Edzés után vagy két étkezés között, amikor nincs idő egy rendes étkezésre.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Ettél valamit edzés után? Itt a Prime fehérjeszelet, négy ízben. A sós karamell a terem kedvence.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A pulton, a kassza mellett, mind a négy íz jól látható. Naponta feltölteni.</dd></div>
+    </dl>
+  </div>
+</article><h3>Hogyan adjuk el a szeleteket</h3><ul class="rules"><li>Nyitott doboz a pulton, minden íz jól látható; egy hiányzó íz kieső eladást jelent.</li><li>Az aranykérdés edzés után: „Ettél már valamit?”</li><li>3 szeletes csomag azoknak, akik hetente háromszor jönnek.</li><li>Elsőnek kipróbálandó íz: sós karamell; akik nem szeretik a túl édeset: csokoládé és erdei gyümölcs.</li></ul><img src="GHID-RECEPTII-img/plaja-bar-5.jpg" alt="" style="width:100%;height:78mm;object-fit:cover;border-radius:3mm;margin-top:5mm"><div class="foot"><span>Prime recepciós kézikönyv</span><span>4</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-energy-pump.jpg" alt="Energy Pump Shot"></div>
+  <div class="body">
+    <p class="tag">Edzés előtt</p>
+    <h2>Energy Pump Shot</h2>
+    <p class="sub">folyékony edzés előtti ital, 25 ml-es ampulla · 20 db-os doboz</p>
+    <p class="ce">Koffeintartalmú, ivásra kész edzés előtti ital: egy ampulla = egy adag. Nem kell hozzá shaker, sem víz.</p>
+    <div class="arome"><b>Változat:</b> Wild Berries (erdei gyümölcs)</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Azok a tagok, akik fáradtan érkeznek, este munka után, vagy akik nem szeretik a port.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>15–20 perccel edzés előtt. Késő este nem ajánlott (koffeint tartalmaz).</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Egyenesen a munkából jössz? Igyál meg itt a pultnál egy Energy Pump ampullát, és mehetsz edzeni.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>Az italhűtőben (hidegen a legjobb) vagy a pulton, a szeletek mellett.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-fat-burning-booster.jpg" alt="Fat Burning Booster Shot"></div>
+  <div class="body">
+    <p class="tag">Szálkásítás</p>
+    <h2>Fat Burning Booster Shot</h2>
+    <p class="sub">25 ml-es ampulla · 20 db-os doboz</p>
+    <p class="ce">Folyékony shot L-karnitinnel és koffeinnel, egy ampulla = egy adag, szálkásító időszakokra és kardióedzésekhez.</p>
+    <div class="arome"><b>Változat:</b> Forest Fruits (erdei gyümölcs)</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik kardióznak vagy csoportos órákra járnak, és akik fogyni szeretnének (ígéretek nélkül: a termék az edzést kíséri, nem helyettesíti).</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Kardió vagy edzés előtt. Késő este nem ajánlott (koffeint tartalmaz).</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Ma kardiózol? Van L-karnitines shotunk, előtte kell meginni, egyenesen az ampullából.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A hűtőben, az Energy Pump mellett. A két ampulla jól fogy együtt.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>5</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatine-ready-to-go-plicuri-prime-supplements.jpg" alt="Creatine Ready To Go"></div>
+  <div class="body">
+    <p class="tag">Tasakos</p>
+    <h2>Creatine Ready To Go</h2>
+    <p class="sub">10 g-os pezsgő tasak · 25 db-os doboz</p>
+    <p class="ce">Ízesített kreatin-monohidrát pezsgő tasakban: egy pohár vízben feloldódik, por és adagolókanál nélkül.</p>
+    <div class="arome"><b>Ízek:</b> Blue Moon · Pink Madness</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik doboz vásárlása nélkül szeretnék kipróbálni a kreatint, vagy otthon felejtették a sajátjukat.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Napi 1 tasak (a napi 3 g kreatin fokozza a fizikai teljesítményt rövid ideig tartó, nagy intenzitású, ismételt edzések során), a pihenőnapokon is.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Szedsz kreatint? Tasakban is van, napi egy, vízben oldódik. Próbálj ki egyet ma edzés után.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>Tasaktartóban a pulton, a kassza mellett, mindkét ízzel.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-whey-go.jpg" alt="Prime Whey Go"></div>
+  <div class="body">
+    <p class="tag">Tasakos</p>
+    <h2>Prime Whey Go</h2>
+    <p class="sub">tejsavófehérje tasakban, 30 g · 15 db-os doboz</p>
+    <p class="ce">Prime Whey 30 g-os egyadagos kiszerelésben: egy tasak, egy shaker víz, és kész az edzés utáni shake.</p>
+    <div class="arome"><b>Ízek:</b> Chocolate Coconut · Bourbon Vanilla · Strawberry Cheesecake · White Chocolate Raspberry · Toffee Chocolate · Salted Caramel · Blueberry Vanilla</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Új tagok, akiknek még nincs fehérjéjük, és akik az 1 kg-os doboz előtt szeretnék megkóstolni az ízeket.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Edzés után vagy nasiként, amikor a napból hiányzik a fehérje.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Nincs nálad fehérje? Egy Prime Whey Go tasak a shakerbe vízzel, és kész. Így a nagy dobozhoz is kiválaszthatod az ízt.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>Tasaktartóban a pulton, a kreatintasakok mellett. Mellé a Prime shaker.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>6</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-whey-1000g.jpg" alt="Prime Whey 1 kg"></div>
+  <div class="body">
+    <p class="tag">Az alaptermék</p>
+    <h2>Prime Whey 1 kg</h2>
+    <p class="sub">tejsavófehérje-koncentrátum, 33 adag</p>
+    <p class="ce">A Prime tejsavófehérje 1 kg-os dobozban. A fehérjék hozzájárulnak az izomtömeg növekedéséhez és fenntartásához.</p>
+    <div class="arome"><b>Ízek:</b> Blueberry Vanilla · Chocolate Coconut · Salted Caramel · Strawberry Cheesecake · Toffee Chocolate · White Chocolate Raspberry · Bourbon Vanilla</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Bárki, aki rendszeresen edz, és étkezésből nem fedezi a fehérjeszükségletét. A legtöbben ezzel kezdenek.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Egy adag (30 g) edzés után vagy nasi helyett; napi 1–2 adag, az étkezésektől függően.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Mennyi fehérjét eszel naponta? Ha nem éred el a testsúlykilogrammonkénti 1,6 g-ot, egy Prime Whey shake pótolja a hiányt. 7 íz van, adok egy tasakot kóstolni.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A recepció mögötti polcon, jól láthatóan, 2–3 íz. A Prime Whey Go tasak a mintája.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-crema-de-orez-tort-de-ciocolata.jpg" alt="Creamy Rice"></div>
+  <div class="body">
+    <p class="tag">Reggeli</p>
+    <h2>Creamy Rice</h2>
+    <p class="sub">rizskrém, 1 kg, 22 adag</p>
+    <p class="ce">Előzselatinizált rizskrém: könnyen emészthető szénhidrát, vízzel vagy tejjel egy perc alatt kész, főzés nélkül.</p>
+    <div class="arome"><b>Ízek:</b> Csokoládétorta · Áfonyás muffin · Sós karamell · Kókuszkrémes pite · Juharszirup · Kekszes krém · Ízesítetlen</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik reggel edzenek, akik tömegnövelő időszakban vannak, és bárki, aki gyors, laktató reggelit szeretne.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Reggelire vagy az edzés előtti étkezésként (60–90 perccel előtte). Egy tasak Prime Whey is keverhető bele.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Mit eszel edzés előtt? A rizskrém egy perc alatt kész, akár az irodában is. A csokoládétortás a legkeresettebb.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, a Prime Whey mellett. A fehérjével együtt jól fogy (fehérjés reggeli).</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>7</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatina-monohidrat-micronized-300g-fara-aroma.jpg" alt="Mikronizált kreatin"></div>
+  <div class="body">
+    <p class="tag">Kreatin</p>
+    <h2>Mikronizált kreatin</h2>
+    <p class="sub">ízesítetlen kreatin-monohidrát, 300 g, 60 adag</p>
+    <p class="ce">Mikronizált kreatin-monohidrát, ízesítetlen, shake-be vagy bármilyen italba keverhető. A kedvező árú kreatin.</p>
+    <div class="arome"><b>Változat:</b> Ízesítetlen</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik a legegyszerűbb kreatint szeretnék a legjobb adagonkénti áron, vagy a fehérjéjükbe keverik.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Napi egy adagolókanál (5 g), minden nap, bármikor; nem az időpont számít, hanem a rendszeresség.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„A kreatin a legtöbbet kutatott étrend-kiegészítő a teremben: napi 3 g, minden nap. Ez az ízesítetlen, a shake-edbe teszed.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, a Creapure mellett. A fehér doboz kitűnik a feketék közül.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-creatina-creapure.jpg" alt="Creapure® kreatin"></div>
+  <div class="body">
+    <p class="tag">Prémium kreatin</p>
+    <h2>Creapure® kreatin</h2>
+    <p class="sub">Creapure® kreatin-monohidrát, 300 g vagy 500 g</p>
+    <p class="ce">Creapure® márkájú kreatin-monohidrát, Németországban gyártva, a gyártó által garantált tisztasággal.</p>
+    <div class="arome"><b>Ízek:</b> Ízesítetlen · 300 g (60 adag) · Ízesítetlen · 500 g (100 adag)</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik tudják, mit keresnek, és Creapure-t kérnek, a versenysportolók, és akik „a legjobbat” akarják.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Napi 3–5 g, minden nap, vízzel vagy shake-ben, a pihenőnapokon is.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Ha a legjobb hírű kreatint szeretnéd: a Creapure az a német márka, amelyet a profik használnak. Ugyanaz a kreatin, ellenőrzött tisztaság.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, szemmagasságban. A 300 g-os doboz a belépő, az 500 g-os a visszatérő vásárlóknak.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>8</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-nitrox.jpg" alt="Nitrox 3D"></div>
+  <div class="body">
+    <p class="tag">Edzés előtt</p>
+    <h2>Nitrox 3D</h2>
+    <p class="sub">edzés előtti por, 500 g</p>
+    <p class="ce">Teljes értékű edzés előtti formula koffeinnel, citrullinnal, béta-alaninnal és kreatinnal. Egy adagolókanál egy shaker vízben, edzés előtt.</p>
+    <div class="arome"><b>Ízek:</b> Cherry · Pineapple Mango · Passion Fruit · Strawberry Lime</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Haladó tagok, akik keményen edzenek, és „igazi” edzés előtti terméket akarnak, nem csak egy ampullát.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>20–30 perccel edzés előtt. Késő este nem ajánlott. A kezdők fél adagolókanállal kezdjenek.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Az ampulla a mai napra jó; ha minden nap kell edzés előtti, a Nitrox 3D adagonként kedvezőbb, és négy íze van.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, a shakerek mellett. A pulton lévő Energy Pump ampulla a mintája.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-eaa-aminoacizi-esentiali.jpg" alt="EAA aminosavak"></div>
+  <div class="body">
+    <p class="tag">Regeneráció</p>
+    <h2>EAA aminosavak</h2>
+    <p class="sub">esszenciális aminosav por, 500 g, 83 adag</p>
+    <p class="ce">Mind a kilenc esszenciális aminosav, üdítő ízű por formájában. Edzés közben vagy üdítő helyett fogyasztható.</p>
+    <div class="arome"><b>Ízek:</b> Peach Ice Tea · Blueberry · Strawberry &amp; Kiwi · Tropical</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik hosszan edzenek, akik időszakos böjtöt tartanak, és akik a teremben nem kérnek fehérjeshake-et.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Edzés közben (a kulacsban) vagy étkezések között.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Mit iszol edzés közben? Az EAA olyan, mint egy üdítő, csak aminosavakkal. A Peach Ice Tea ízzel nem lehet mellényúlni.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, a Nitrox 3D mellett.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>9</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-daily-vitamin-formula.jpg" alt="Daily Vitamin Formula"></div>
+  <div class="body">
+    <p class="tag">Minden nap</p>
+    <h2>Daily Vitamin Formula</h2>
+    <p class="sub">vitaminok és ásványi anyagok tasakban, 30 tasak</p>
+    <p class="ce">Multivitamin és ásványi anyagok tasakban, napi egy adag vízben feloldva. Egy doboz = egy hónap.</p>
+    <div class="arome"><b>Változat:</b> Ízesített, vízben oldható tasakok</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik már szednek vitamint, akik rohanva étkeznek, és mindenki a hideg évszakban.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Napi egy tasak, reggel, vízzel.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Szedsz vitamint? Ez tasakos, napi egy, a doboz egy hónapig tart. Ősszel nagyon fogy.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon vagy a hideg évszakban a kasszánál, a D3 + K2-vitamin mellett.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-vitamina-d3-k2.jpg" alt="D3 + K2-vitamin"></div>
+  <div class="body">
+    <p class="tag">Hideg évszak</p>
+    <h2>D3 + K2-vitamin</h2>
+    <p class="sub">80 kapszula, Prime Health</p>
+    <p class="ce">D3-vitamin K2-vel, kétnaponta egy kapszula. A D-vitamin hozzájárul az immunrendszer normál működéséhez és a normál csontozat fenntartásához.</p>
+    <div class="arome"><b>Változat:</b> Kapszula</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Minden tag októbertől márciusig, amikor kevés a napfény. A hideg évszak legkeresettebb terméke.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Kétnaponta egy kapszula, zsiradékot tartalmazó étkezéshez.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Télen a napból nem jutsz elég D-vitaminhoz. Kétnaponta egy kapszula, az üveg majdnem fél évig tart.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A kasszánál a hideg évszakban, egy kis „D-vitamin télre” felirattal.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>10</span></div></section>
+<section class="page">
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-instant-oat-cream-800g-25-serv.jpg" alt="Instant Oat Cream"></div>
+  <div class="body">
+    <p class="tag">Reggeli</p>
+    <h2>Instant Oat Cream</h2>
+    <p class="sub">instant zabkrém, 800 g, 25 adag</p>
+    <p class="ce">Finomra őrölt, ízesített instant zab: vízzel vagy tejjel, főzés nélkül krémesre elkészíthető.</p>
+    <div class="arome"><b>Ízek:</b> Chocolate (csokoládé) · Cookie (keksz)</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Akik reggelire zabot ennének, de nincs idejük megfőzni; a rizskrém alternatívája.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Reggelire vagy az edzés előtti étkezésként.</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Zabot eszel reggel? Ez egy perc alatt kész, főzés nélkül, csokoládé vagy keksz ízben.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A polcon, a Creamy Rice mellett.</dd></div>
+    </dl>
+  </div>
+</article>
+<article class="card">
+  <div class="pic"><img src="GHID-RECEPTII-img/produs-prime-shaker-customised.jpg" alt="Prime shaker"></div>
+  <div class="body">
+    <p class="tag">Kiegészítő</p>
+    <h2>Prime shaker</h2>
+    <p class="sub">600 ml, áttetsző fekete</p>
+    <p class="ce">A 600 ml-es Prime shaker szűrőbetéttel, fehérjéhez, kreatinhoz vagy EAA-hoz.</p>
+    <div class="arome"><b>Változat:</b> Áttetsző fekete, Prime logóval</div>
+    <dl>
+      <div><dt>Kinek szól</dt><dd>Új tagok, akik otthon felejtették a shakerüket, és akik az első fehérjés dobozukat veszik.</dd></div>
+      <div><dt>Mikor fogyasszák</dt><dd>Minden porvásárlásnál: „Van shakered?”</dd></div>
+      <div class="spui"><dt>Mit mondj a recepción</dt><dd>„Van shakered? Vidd a miénket, 600 ml, szűrővel, és a mai fehérjetasak is megvan hozzá.”</dd></div>
+      <div><dt>Hol helyezd el</dt><dd>A pulton a tasakok mellett és a polcon a dobozok mellett. Viszi a márkát a teremben.</dd></div>
+    </dl>
+  </div>
+</article><div class="foot"><span>Prime recepciós kézikönyv</span><span>11</span></div></section>
+<section class="page">
+  <p class="kicker">Gyakori kérdések a recepción</p>
+  <h1>Rövid, helyes válaszok.</h1>
+  <div class="faq"><div><b>„Árt a kreatin a vesémnek?”</b>Egészséges felnőtteknél a napi 3–5 g a címkén szereplő és a vizsgált adag. Akinek betegsége van vagy gyógyszert szed, kérdezze meg az orvosát. A recepción nem adunk orvosi tanácsot.</div><div><b>„Edzés előtt vagy után kell bevenni a kreatint?”</b>Nem az időpont számít, hanem hogy minden nap. Vízzel vagy shake-ben, a pihenőnapokon is.</div><div><b>„Hízlal a fehérje?”</b>A fehérje élelmiszer, nem gyógyszer: egy adag Prime Whey nagyjából egy nagy joghurtnak felel meg. A nap teljes bevitele számít, nem egy shake.</div><div><b>„Ihatok két ampullát?”</b>Napi egy ampullát. Koffeint tartalmaznak: este nem, sok kávé mellett nem, kiskorúaknak és várandósság alatt nem.</div><div><b>„Jó a szelet fogyáshoz?”</b>Fehérjés nasi, jobb választás egy ostyánál. A fogyás az összes kalóriából és az edzésből jön, nem egy szeletből.</div><div><b>„Melyik íz a legjobb?”</b>Prime Whey és Whey Go: Salted Caramel és Strawberry Cheesecake. Szeletek: sós karamell. Creamy Rice: csokoládétorta. Nitrox: Cherry.</div><div><b>„Hol látom az összetételt?”</b>A címkén és a primesupplements.ro oldalon: minden terméknek saját oldala van tápértéktáblázattal, és egy blogcikk is elmagyarázza a használatát.</div><div><b>„Romániában készül?”</b>A márka román, Szebenből való; a termékek az Európai Unióban készülnek.</div></div>
+  <img src="GHID-RECEPTII-img/sala-nostim-detaliu.jpg" alt="" style="width:100%;height:52mm;object-fit:cover;border-radius:3mm;margin-top:5mm">
+  <div class="contact"><b>Utánrendelés és kérdések:</b> a terem Prime üzletkötője · contact@primesupplements.ro · +40 775 286 584 (WhatsAppon is) · primesupplements.ro<br>A polci árakat a terem határozza meg; a B2B árlista és az ajánlott fogyasztói árak az üzletkötőtől kapott külön dokumentumban szerepelnek.</div>
+  <div class="foot"><span>Prime recepciós kézikönyv · Az Európai Unióban gyártva</span><span>12</span></div>
+</section>
+<script>
+  const n = +new URLSearchParams(location.search).get("page");
+  if (location.search.includes("check")) addEventListener("load", () => { const mm = 297 * 96 / 25.4 + 2; document.body.setAttribute("data-check", [...document.querySelectorAll(".page")].map((s, i) => (i + 1) + ":" + Math.round(s.getBoundingClientRect().height) + (s.getBoundingClientRect().height > mm ? "!PREA-LUNG" : "")).join(" ")); });
+  if (n) { document.body.style.cssText = "background:#fff;padding:0;margin:0"; document.querySelectorAll(".page").forEach((s, i) => { if (i + 1 !== n) s.remove(); else s.style.margin = "0"; }); }
+</script>
+</body></html>

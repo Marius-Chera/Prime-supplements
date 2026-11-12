@@ -642,3 +642,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Făcut în consola API (`console.perplexity.ai`, contul proprietarului, din browserul aplicației): întrebările de profil, proiectul „Claude Code” (țara Romania), termenii API acceptați cu acordul proprietarului, cookie-uri doar necesare.
 - Oprit la plată: „Create API key” e blocat până se adaugă un card (10 $ credit gratuit afișat la adăugare). Nu s-a adăugat card, nu există cheie, nu s-a instalat nimic în Claude Code. Cost: zero.
 - Dacă se reia: card în consolă → cheie → `claude mcp add perplexity --scope user --env PERPLEXITY_API_KEY=… -- npx -y @perplexity-ai/mcp-server` (comanda e din memorie, de verificat în documentația Perplexity).
+
+## 2026-11-13 – Clip „4 conectori pentru Claude” (Perplexity, Firecrawl, Playwright, Composio): evaluat pentru Prime
+- Proprietarul a trimis un reel de 65 s (Clean Code Culture) care recomandă 4 conectori și a întrebat ce merită pentru vânzări. Citit din cadre și subtitrări (fără sunet).
+- Concluzie: niciunul nu crește direct vânzările. Playwright = avem deja (browserul aplicației, Claude in Chrome, chrome-devtools). Perplexity și Composio = dublează ce există (stand-by, vezi nota de mai sus). Firecrawl = singurul cu un folos nou (prețurile concurenței în masă), de probat pe nivelul gratuit doar dacă proprietarul vrea monitorizare regulată.
+- Recomandat în loc: punctele deja deschise din DE-FACUT care țin de vânzări (pct. 9 vizibilitate în căutări, pct. 10 recenzii, pct. 4 newslettere, Late Black Friday 24–28.11). Nimic instalat, nimic modificat.

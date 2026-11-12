@@ -15,7 +15,7 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 - Designul nu se schimbă fără aprobarea proprietarului.
 
 ## Reduceri și afiliați
-- Fără Black Friday. Nu se creează coduri de reducere noi (doar WELCOME5). Excepție cerută de proprietar pe 12.11.2026: campania „Late Black Friday” 24–28.11.2026 cu codul de 20 % din `LATE-BLACK-FRIDAY-2026-11-24.md`.
+- Fără Black Friday. Nu se creează coduri de reducere noi (doar WELCOME5). Excepție cerută de proprietar pe 12.11.2026: campania „Late Black Friday” 25–27.11.2026 cu codul `LATEBF20` (20 %) din `LATE-BLACK-FRIDAY-2026-11-24.md`.
 - Afiliații nu sunt împinși să promoveze pachetele din Reduceri (nu primesc comision acolo). Fără haine MNX în kiturile afiliaților.
 - Nu se afișează numărul total de afiliați.
 

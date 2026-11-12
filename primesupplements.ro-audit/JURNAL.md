@@ -631,3 +631,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Programate în theMarketer pe 13.11, decalat cu 30 de minute ca smart sending (24 h) să sară peste cine a primit deja o aromă și înainte de e-mailul de Black Friday de la 10:00: tort de ciocolată 08:00 (`6af566be82113a16b60eae84`, ~177), plăcintă cu cocos 08:30 (`6af566eaddbe1ee45c0f0877`, ~169), biscuiți cu cremă 09:00 (`6af56705ef1901b57e0486dd`, ~153). Destinatarii sunt înainte de excluderi.
 - Confirmarea a venit la 23:45, iar „trimite acum” pusese primul e-mail la 00:00; mutat pe 08:00 cu acordul proprietarului, înainte să plece.
 - Deschis: brioșă cu afine nu are e-mail (limita de 3 pe zi a rutinei); e-mailul 1 din Late Black Friday (24.11) trebuie reformulat pe 22.11, fiindcă revenirea a fost deja anunțată.
+
+## 2026-11-13 – E-mail „stoc revenit” și pentru crema de orez brioșă cu afine (ciornă)
+- La cererea proprietarului, pregătit al 4-lea e-mail „stoc revenit”: segment nou „S · Cremă orez brioșă cu afine · cumpărat 6 luni sau văzut 3 luni” (`6af6421f3720477efd0ec8b9`, ~121 destinatari înainte de excluderi) și ciorna `6af6425e2f4c80d4b30abdd2`, cu aceleași 8 excluderi și smart sending. Același design ca la celelalte 3 arome; date de pe pagina produsului (68 lei, 157,2 kcal pe porție, afine uscate 3 %).
+- Test trimis la Marius și Adelina. Neprogramat: așteaptă confirmarea proprietarului.
+- Observație: subsolul celor 3 e-mailuri programate pe 13.11 spune „Supliment alimentar…”, deși crema de orez e aliment; în e-mailul nou subsolul spune „Aliment, nu supliment alimentar”.

@@ -36,9 +36,9 @@ Fixate:
 - **Ciornele „stoc revenit” pentru crema de orez:** trimise pe 13.11 (12.11 seara).
 - **Pe ce se aplică codul:** tot magazinul, fără pachete = colecția „Eligibile coduri reducere (intern)” (13.11).
 - **Crema de orez în texte:** rămâne, o singură propoziție neutră („e din nou în stoc”, cu aromele în stoc), fără explicații (13.11).
+- **Afiliații:** nu le scriem nimic despre campanie (13.11).
 
-De fixat:
-- **D3 – Afiliații.** În cele 3 zile, 20 % bate codurile lor de 10 %. Opțional: un mesaj scurt către ei pe 25.11 dimineața. Nu e în plan dacă nu-l ceri.
+De fixat: textele, pe rând (începând cu e-mailul 1).
 
 ## 4. Codul de reducere (Shopify) – pornește singur pe 25.11
 
@@ -159,7 +159,7 @@ Vizual: carusel de 2 cadre în stilul alb al contului – (1) „LATE BLACK FRID
 
 ## 7. Pașii (în ordine; zilele le fixăm împreună)
 
-1. Fixăm D3 (afiliații) și textele.
+1. Fixăm textele, pe rând.
 2. Citesc stocul și verific că produsele din texte sunt în colecția „Eligibile coduri reducere (intern)”.
 3. Creez codul `LATEBF20` cu pornire pe 25.11 și citesc înapoi setările.
 4. Verific newsletterul din 22.11 (18:00) și postările de pe 25–27.11: nimic care să contrazică sau să anunțe campania.

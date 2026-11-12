@@ -1,6 +1,6 @@
 # Cremă de orez – 3 unghiuri de reclamă (13.11.2026)
 
-Cerut de proprietar pe 13.11.2026: 3 unghiuri de reclamă pentru crema de orez, făcute cu filmările și pozele proprii (fără clipuri generate cu AI). **Stare: propunere, nimic publicat, nimic filmat, niciun buget.**
+Cerut de proprietar pe 13.11.2026: 3 unghiuri de reclamă pentru crema de orez, făcute cu filmările și pozele proprii (fără clipuri generate cu AI). **Stare: propunere, nimic publicat, nimic filmat, niciun buget. Amânat de proprietar pe 13.11 („lasă unghiurile pe altă dată”); se reia doar la cererea lui.**
 
 ## 1. De la ce pornim (verificat pe 13.11)
 

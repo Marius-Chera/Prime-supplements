@@ -636,3 +636,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - La cererea proprietarului, pregătit al 4-lea e-mail „stoc revenit”: segment nou „S · Cremă orez brioșă cu afine · cumpărat 6 luni sau văzut 3 luni” (`6af6421f3720477efd0ec8b9`, ~121 destinatari înainte de excluderi) și ciorna `6af6425e2f4c80d4b30abdd2`, cu aceleași 8 excluderi și smart sending. Același design ca la celelalte 3 arome; date de pe pagina produsului (68 lei, 157,2 kcal pe porție, afine uscate 3 %).
 - Test trimis la Marius și Adelina; proprietarul a confirmat și e-mailul e programat pe 13.11 la 09:30 (după celelalte 3 arome, înainte de e-mailul de Black Friday de la 10:00).
 - Observație: subsolul celor 3 e-mailuri programate pe 13.11 spune „Supliment alimentar…”, deși crema de orez e aliment; în e-mailul nou subsolul spune „Aliment, nu supliment alimentar”.
+
+## 2026-11-13 – Conectare Claude ↔ Perplexity: lăsată în stand-by
+- Proprietarul a întrebat cum se leagă Claude de Perplexity. Nu există conector gata făcut în lista Claude; calea e serverul MCP oficial Perplexity (`@perplexity-ai/mcp-server`) cu o cheie API plătită pe consum, separat de abonamentul Perplexity Pro.
+- Făcut în consola API (`console.perplexity.ai`, contul proprietarului, din browserul aplicației): întrebările de profil, proiectul „Claude Code” (țara Romania), termenii API acceptați cu acordul proprietarului, cookie-uri doar necesare.
+- Oprit la plată: „Create API key” e blocat până se adaugă un card (10 $ credit gratuit afișat la adăugare). Nu s-a adăugat card, nu există cheie, nu s-a instalat nimic în Claude Code. Cost: zero.
+- Dacă se reia: card în consolă → cheie → `claude mcp add perplexity --scope user --env PERPLEXITY_API_KEY=… -- npx -y @perplexity-ai/mcp-server` (comanda e din memorie, de verificat în documentația Perplexity).

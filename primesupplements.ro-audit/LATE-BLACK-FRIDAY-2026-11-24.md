@@ -36,7 +36,7 @@ Fixate:
 - **Ciornele „stoc revenit” pentru crema de orez:** trimise pe 13.11 (12.11 seara).
 - **Pe ce se aplică codul:** tot magazinul, fără pachete = colecția „Eligibile coduri reducere (intern)” (13.11).
 - **Crema de orez în texte:** rămâne, o singură propoziție neutră („e din nou în stoc”, cu aromele în stoc), fără explicații (13.11).
-- **Afiliații:** nu le scriem nimic despre campanie (13.11).
+- **Afiliații:** nu le scriem nimic despre campanie; pe codul `LATEBF20` nu se împarte comision, campania o facem doar noi, pe canalele noastre (13.11). De verificat în UpPromote înainte de 25.11: comenzile venite pe linkul unui afiliat și plătite cu `LATEBF20` pot primi totuși comision prin urmărirea pe link.
 
 De fixat: textele, pe rând (începând cu e-mailul 1).
 

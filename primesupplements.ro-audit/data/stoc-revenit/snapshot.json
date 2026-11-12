@@ -1,26 +1,26 @@
 {
- "data": "2026-11-11",
+ "data": "2026-11-12",
  "produse_active": 214,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi.",
  "produse": {
   "baton-proteic-capsuni": {
-   "totalInventory": 57,
+   "totalInventory": 51,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-caramel-sarat": {
-   "totalInventory": 64,
+   "totalInventory": 60,
    "publishedAt": "2026-03-09"
   },
   "citrus-bergamot": {
-   "totalInventory": 189,
+   "totalInventory": 187,
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
-   "totalInventory": 418,
+   "totalInventory": 417,
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 960,
+   "totalInventory": 958,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -40,7 +40,7 @@
    "publishedAt": "2025-05-05"
   },
   "complete-collagen": {
-   "totalInventory": 19,
+   "totalInventory": 18,
    "publishedAt": "2025-05-05"
   },
   "supliment-alimentar-chromium-picolinate-80-caps": {
@@ -60,7 +60,7 @@
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
-   "totalInventory": 48,
+   "totalInventory": 47,
    "publishedAt": "2025-05-05"
   },
   "turmeric-extract-80-caps": {
@@ -68,7 +68,7 @@
    "publishedAt": "2025-05-05"
   },
   "zinc-citrate-80-caps": {
-   "totalInventory": 136,
+   "totalInventory": 135,
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
@@ -92,7 +92,7 @@
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 783,
+   "totalInventory": 775,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
@@ -100,11 +100,11 @@
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 234,
+   "totalInventory": 226,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 348,
+   "totalInventory": 344,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
@@ -112,11 +112,11 @@
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 165,
+   "totalInventory": 163,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
-   "totalInventory": 130,
+   "totalInventory": 124,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
@@ -228,7 +228,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-blueberry-muffin": {
-   "totalInventory": 0,
+   "totalInventory": 300,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
@@ -236,19 +236,19 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-sirop-de-artar": {
-   "totalInventory": 5,
+   "totalInventory": 0,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 0,
+   "totalInventory": 300,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 0,
+   "totalInventory": 300,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 0,
+   "totalInventory": 300,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -331,5 +331,6 @@
    "publishedAt": "?",
    "totalInventory": 2
   }
- }
+ },
+ "nota_2026_11_12": "Actualizat parțial: valorile produselor cheie și ale celor cu stoc 0; restul au rămas neschimbate (diferențe mici de stoc nu afectează regula >=10). Pachetele Black Friday/noi nu sunt urmărite."
 }

@@ -24,3 +24,7 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-09 · Nicio revenire în stoc (doar haine MNX/Prime au crescut de la 0 la ≥10, excluse; crema de orez rămâne la 0–20, set degustare Frutilu 7); nicio campanie pregătită.
 - 2026-11-10 · Nicio revenire în stoc (suplimentele cu stoc 0 ieri au rămas la 0; crema de orez fără aromă 0, sirop de arțar 16, set degustare Frutilu 6); nicio campanie pregătită.
 - 2026-11-11 · Nicio revenire în stoc (produsele cu stoc 0 ieri au rămas la 0; crema de orez sirop de arțar 16→5, set degustare Frutilu 5); nicio campanie pregătită.
+- 2026-11-12 · Cremă de orez tort de ciocolată (stoc 0→300, 448 comenzi/180 zile) · campanie 6af566be82113a16b60eae84 (ciornă, 13.11 10:00, neprogramată) · segment 6af56673ae69c575f20eec25 · ~177 destinatari (înainte de excluderi)
+- 2026-11-12 · Cremă de orez plăcintă cu cocos (stoc 0→300, 392 comenzi) · campanie 6af566eaddbe1ee45c0f0877 (ciornă) · segment 6af56674fdb1dddb6704ed18 · ~169 destinatari
+- 2026-11-12 · Cremă de orez biscuiți cu cremă (stoc 0→300, 334 comenzi) · campanie 6af56705ef1901b57e0486dd (ciornă) · segment 6af56676c05761b6c90c519c · ~153 destinatari
+- 2026-11-12 · Nepregătită (limita de 3/zi): cremă de orez brioșă cu afine (stoc 0→300, 283 comenzi). Atenție: stoc rotund de 300 la toate cele 4 arome, posibil număr provizoriu din Oblio.

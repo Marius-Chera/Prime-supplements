@@ -67,6 +67,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Repo-ul de lucru s-a mutat pe contul GitHub Marius-Chera: https://github.com/Marius-Chera/Prime-supplements (fork al vechiului mariuschera/Prime-supplements, același branch claude/install-claude-seo-ttv3h6, tot istoricul). Contul mariuschera (creat 12.10, cu e-mail necunoscut) nu mai e folosit; vechiul repo rămâne doar ca arhivă. Rutinele care scriu în repo (raport lunar „Ce am lucrat”, raport creatină, curățenia reactivării, Edu20) au fost actualizate cu noul repo.
 - GitHub conectat în claude.ai cu contul Marius-Chera și aplicația Claude instalată pe noul repo; o rulare de probă din cloud a confirmat citirea și scrierea (push de probă fără modificări).
 
+### E-mail (theMarketer) – 12.11
+- Rutina „stoc revenit”: reveniri cremă de orez tort de ciocolată, plăcintă cu cocos și biscuiți cu cremă (0→300); 3 segmente + 3 ciorne (13.11 10:00, neprogramate, teste trimise). Brioșa cu afine a revenit și ea, dar a rămas pentru altă zi (limita de 3). Detalii în data/stoc-revenit/jurnal.md.
+
 ### E-mail (theMarketer) – 06.11
 - Rutina „stoc revenit”: reveniri Omega-3, citrat de zinc 40 mg și nattokinază; 3 segmente + 3 ciorne de campanie (07.11 10:00, neprogramate, teste trimise). Detalii în data/stoc-revenit/jurnal.md.
 

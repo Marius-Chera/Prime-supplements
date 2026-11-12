@@ -634,5 +634,5 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 2026-11-13 – E-mail „stoc revenit” și pentru crema de orez brioșă cu afine (ciornă)
 - La cererea proprietarului, pregătit al 4-lea e-mail „stoc revenit”: segment nou „S · Cremă orez brioșă cu afine · cumpărat 6 luni sau văzut 3 luni” (`6af6421f3720477efd0ec8b9`, ~121 destinatari înainte de excluderi) și ciorna `6af6425e2f4c80d4b30abdd2`, cu aceleași 8 excluderi și smart sending. Același design ca la celelalte 3 arome; date de pe pagina produsului (68 lei, 157,2 kcal pe porție, afine uscate 3 %).
-- Test trimis la Marius și Adelina. Neprogramat: așteaptă confirmarea proprietarului.
+- Test trimis la Marius și Adelina; proprietarul a confirmat și e-mailul e programat pe 13.11 la 09:30 (după celelalte 3 arome, înainte de e-mailul de Black Friday de la 10:00).
 - Observație: subsolul celor 3 e-mailuri programate pe 13.11 spune „Supliment alimentar…”, deși crema de orez e aliment; în e-mailul nou subsolul spune „Aliment, nu supliment alimentar”.

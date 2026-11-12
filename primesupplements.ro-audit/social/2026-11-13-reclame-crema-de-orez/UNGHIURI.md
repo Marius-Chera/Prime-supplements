@@ -34,7 +34,7 @@ Cerut de proprietar pe 13.11.2026: 3 unghiuri de reclamă pentru crema de orez, 
 ## 2. Reguli respectate în toate cele 3
 - Doar date de etichetă. Fără afirmații de sănătate, fără „energie”, „masă musculară”, „slăbit”, „digestie ușoară”.
 - „Fără zaharuri adăugate” apare mereu împreună cu „conține zaharuri prezente în mod natural”.
-- Fără prețuri în reclamă (prețul se schimbă între 24 și 28.11, la Late Black Friday).
+- Fără prețuri în reclamă (prețul se schimbă la Late Black Friday, 25–27.11).
 - Fără furnizor sau fabrică. Fără coduri de reducere.
 - Destinație: `https://primesupplements.ro/collections/crema-de-orez` cu UTM (vezi §6).
 
@@ -137,7 +137,7 @@ Cerut de proprietar pe 13.11.2026: 3 unghiuri de reclamă pentru crema de orez, 
 2. **Unghiul 2** se filmează în aceeași sesiune (bolul e același).
 3. **Unghiul 3** după ce vine acordul lui Mihai și e refăcut cadrul final.
 
-Ca postări organice (reel pe Instagram și Facebook) pot pleca oricând. Ca reclame plătite: de decis de proprietar bugetul și dacă pornesc înainte de 24.11 sau odată cu Late Black Friday.
+Ca postări organice (reel pe Instagram și Facebook) pot pleca oricând. Ca reclame plătite: de decis de proprietar bugetul și dacă pornesc înainte de Late Black Friday (25–27.11) sau odată cu el.
 
 ## 8. Ce aștept de la proprietar
 1. Filmarea pentru unghiurile 1 și 2 (lista de cadre e în §3 și §4), pusă în `D:\Prime Supplements\Crema de orez\`.

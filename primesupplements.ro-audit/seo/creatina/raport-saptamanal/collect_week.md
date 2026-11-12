@@ -2,7 +2,9 @@
 
 Runbook for the weekly report on the creatine SEO project. If you follow it exactly, next week's numbers are computed the same way as the baseline. Never edit `baseline.json`. Each week goes in its own folder.
 
-Paths used below:
+**Update 12.11.2026:** the old scratchpad scripts are gone. `scripts/week_compare.py` in this folder replaces `save_answer.py` + `week_compare.py`: save the query rows in `saptamani/<MON>/raw/rezultate_shopifyql.json` (same keys as `saptamani/2026-11-02/raw/rezultate_shopifyql.json`) and run `python3 -I scripts/week_compare.py saptamani/<MON>/raw/rezultate_shopifyql.json`. It prints the sanity checks and the comparison table; `comparatie.md` is written by hand from it.
+
+Paths used below (historical):
 - `W` = `/tmp/claude-0/-home-user-Prime-supplements/a8ac683f-a811-5bab-8ad5-3c2925806713/scratchpad/creatina/weekly`
 - `S` = `$W/scripts`
 - `MON` = the Monday of the week that just ended (`YYYY-MM-DD`). `SUN` = MON + 6 days.

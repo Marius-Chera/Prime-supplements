@@ -615,3 +615,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Proprietarul a cerut o campanie de 5 zile (24–28.11) cu un cod de 20 %, o folosire per client; tema: scuze că am rămas fără cremă de orez de Black Friday. Canale: 2 e-mailuri (24 și 27.11), 1 SMS (24.11), 1 postare Instagram, 2 postări Facebook. Nimic nu se anunță până pe 24.11; totul se pregătește și se programează pe 22.11.
 - Planul complet (setările codului `LATE20`, calendar, texte, lista de pași pentru 22.11, decizii de confirmat, riscuri): `LATE-BLACK-FRIDAY-2026-11-24.md`.
 - Citit (fără modificări): stoc cremă de orez 1.158 kg în 4 arome, 3 arome fără stoc; 2.388 destinatari e-mail, 435 SMS; nimic programat în theMarketer pe 24–28.11.
+
+## 2026-11-12 – Raport creatină săptămânal
+- Raport creatină săptămânal rulat pe 12.11.2026 (săptămâna 02–08.11): prima săptămână cu cifre peste maximul „înainte” (18 vizite Google fără etichetă de reclamă pe cele 4 pagini, 41 de comenzi cu creatină), cu factori perturbatori (prețuri reduse, reel, coduri); încă neconfirmat. Comparația: `seo/creatina/raport-saptamanal/saptamani/2026-11-02/comparatie.md`; script nou de calcul în `seo/creatina/raport-saptamanal/scripts/week_compare.py`; jurnalul raportului live actualizat.

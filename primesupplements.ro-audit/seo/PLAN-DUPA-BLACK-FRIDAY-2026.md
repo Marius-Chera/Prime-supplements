@@ -157,8 +157,8 @@ Model: pagina Creapure de la Pro Nutrition (685 de recenzii, întrebări și ră
 - **Regula de siguranță:** un singur pas deschis la un moment dat; după fiecare pas, verificare live și o linie în `JURNAL.md`; la orice scădere de vânzări sau de poziții după un pas, ne întoarcem la backup.
 
 ## Ce aștept de la tine înainte de 1 decembrie (ca să nu pierdem zile atunci)
-1. Pasul 4: A (parolă) sau B (noindex) pentru B2B.
-2. Pasul 11: lista cu noile titluri de colecții – aprobare sau corecturi.
+1. ~~Pasul 4: A (parolă) sau B (noindex) pentru B2B.~~ Nu mai e necesar: magazinul B2B se închide pe 14.11.2026 (decizia din 26.10).
+2. ~~Pasul 11: lista cu noile titluri de colecții – aprobare sau corecturi.~~ **APROBAT de proprietar pe 13.11.2026** (cele 7 titluri, așa cum sunt la pasul 11); se aplică după 1.12, la rândul pasului 11 (ianuarie).
 3. Pasul 12: cele 6 colecții noi – da/nu și unde intră în meniu.
 4. Pasul 16: contul Trustpilot (îl creezi tu) și decizia pentru Compari/Skroutz.
 5. Pasul 18: linkurile oficiale YouTube și TikTok; dacă există documente pentru TUV/IFS/HALAL.

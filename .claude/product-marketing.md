@@ -1,6 +1,6 @@
 # Product Marketing Context – Prime Supplements
 
-**Document version:** v1
+**Document version:** v2 (adăugată vocea clientului din recenzii)
 **Last updated:** 2026-11-13
 **Valabil doar pentru:** primesupplements.ro. NU se folosește pentru Chera Coaching / Chera Hub (afacere separată).
 
@@ -17,7 +17,7 @@ Fiecare cifră are data și fișierul din care vine (căi relative la `primesupp
 **Prețuri de reper:** Prime Whey 2 kg 390 lei; Creapure® 300 g 115 lei (23.10, `seo/AUDIT-CAUTARI-2026-10-23.md`); cremă de orez 63–68 lei/kg (13.11). De verificat pe site înainte de folosire.
 
 ## Target Audience
-**Cine cumpără:** practicanți de sală și culturism din România. Profilul detaliat (vârstă, gen, motivații) NU e documentat; în theMarketer genul e necunoscut la toate contactele.
+**Cine cumpără:** practicanți de sală și culturism din România, mulți cu experiență (vorbesc despre pregătire de concurs, off-season, definire, zile de încărcare), dar și clienții antrenorilor și oameni care au gustat produsul într-o sală. Cumpără și femei, mai ales crema de orez. Sursa: analiza celor 343 de recenzii publice (`recenzii/06-ANALIZA-RECENZII-2026-11-13.md`); e un indiciu din recenzii, nu o statistică. Vârsta nu e documentată; în theMarketer genul e necunoscut la toate contactele.
 **Ce se știe din cifre** (30 de zile până la 16.10.2026, `SETARI-VANZARI-2026-10-16.md`): 566 comenzi; coș mediu 249,64 lei; conversie 4,21 %; 88 % din trafic pe mobil; 66,8 % plată ramburs; clienții care revin fac 58 % din comenzi (coș 296 lei față de 211 lei la cei noi); primul județ e Sibiu (15 %).
 **Liste:** 2.388 destinatari e-mail și 435 SMS (12.11, `LATE-BLACK-FRIDAY-2026-11-24.md`).
 **Jobs to be done:**
@@ -29,7 +29,13 @@ Fiecare cifră are data și fișierul din care vine (căi relative la `primesupp
 Nu se aplică (B2C). Pentru B2B: proprietari de săli (prin agent), distribuitori, lanțuri de retail/farmacii – vezi `agenti/` și `distribuitori/`.
 
 ## Problems & Pain Points
-Nu sunt documentate din vocea clientului. De completat din recenziile Judge.me (skillul `customer-research`) înainte de a scrie texte bazate pe „durerile” clientului.
+Din recenzii (`recenzii/06-ANALIZA-RECENZII-2026-11-13.md`), în ordinea greutății:
+- **Gustul altor produse:** prea dulci, artificiale, te saturi de ele după o cutie. La Prime laudă că „nu e prea dulce” și că are „gust chiar de vanilie”.
+- **Crema de orez a altora:** face cocoloașe, trebuie încălzită sau răcită. La Prime: „amesteci și este gata”, cu apă rece.
+- **Dieta e plictisitoare:** vor mâncare „curată” care să aibă gust de desert („am avut impresia că trișez”).
+- **Neîncredere în calitate:** de aceea contează marca ingredientului („Când vezi marca Creapure, ai spus tot”).
+- **Prețul la proteine:** vezi Objections.
+**Nedocumentat:** de ce au cumpărat prima dată și de ce pleacă cei care nu mai comandă.
 
 ## Competitive Landscape
 **Direct:** GymBeam, Nutriland, Pro Nutrition, Genius, Myprotein. Sunt mai ieftini la whey: Prime ~19,5 lei/100 g, GymBeam ~10 lei, Nutriland ~8 lei (25.10, `seo/AUDIT-SEO-COMPLET-2026-10-25.md`). La cremă de orez diferența e mică: Prime 63 lei/kg, GymBeam 61,80 lei/kg (13.11).
@@ -48,17 +54,36 @@ Nu sunt documentate din vocea clientului. De completat din recenziile Judge.me (
 ## Objections
 | Obiecție | Răspuns |
 |---|---|
-| „E mai scump decât GymBeam” | Ingrediente de marcă, formulă, gust; nu concurăm la prețul pe 100 g |
+| „Whey-ul s-a scumpit; îl luam cu 200 lei, acum e peste 330” (singura obiecție serioasă din recenzii; clienții numesc MyProtein, GymBeam, Vitabolic ca alternative) | Se explică deschis de ce costă cât costă: proteină pe 100 g, ce nu conține, gust. Fără preț „redus” lângă un preț crescut – e citit ca truc |
 | „Am 300 lei în coș, dar codul mă scoate sub transport gratuit” | Pragul de 300 lei se aplică după reducere (documentat în `SETARI-VANZARI`, D15) |
-| Altele | Nedocumentate – de scos din recenzii și din mesajele de pe WhatsApp |
+| „Pre-workoutul îmi dă mâncărime” | E efectul normal al unui ingredient; trebuie spus pe pagină dinainte |
+| „E mereu fără stoc” (cremă de orez, D3 + K2) | Înscriere la „anunță-mă când revine”; stocul produselor de top e prioritate |
+| „Mi-a venit comanda greșită / incompletă” (2 recenzii de 1 stea) | Rezolvare rapidă: când s-a rezolvat „cu mult bun simț”, clientul a dat 5 stele |
 
 **Anti-persona:** vânătorul de cel mai mic preț pe kilogram.
 
 ## Switching Dynamics
-Nedocumentat. Ipoteză (a asistentului, neverificată): clientul vine de la un brand mai ieftin, atras de recomandarea unui sportiv și de ingredientele de marcă; îl rețin obiceiul și prețul.
+Documentat doar la crema de orez (din recenzii):
+**Push:** cremele altor mărci (numite de clienți: Applied, Trained by JP, Vitabolic, Rice Dealer, Hipp) fac cocoloașe, cer încălzire sau au gust slab.
+**Pull:** se face cu apă rece, textură cremoasă, arome; recomandările văzute („am văzut multe recenzii bune și am decis să încerc”).
+**Habit / Anxiety:** nedocumentate.
+**Indiciu (încredere mică):** crema de orez aduce clientul, apoi descoperă restul catalogului („am venit pe site pentru crema de orez dar am rămas surprins câte produse de calitate am găsit”). De verificat în datele de comenzi.
+La celelalte produse: nedocumentat.
 
 ## Customer Language
-Nedocumentat. Termeni de căutare confirmați: „crema de orez”, „creatina creapure”, „whey 2 kg”. De completat cu citate din recenzii.
+Din recenziile publice Judge.me (citate exacte, cu greșelile lor; banca completă în `recenzii/06-ANALIZA-RECENZII-2026-11-13.md`).
+**Cum descriu ce le place:**
+- „se poate folosii apă rece , nu face cocoloașe , este cremoasă”
+- „Nu e nevoie de nimic decat de apa […] amesteci si este gata.”
+- „Dulce , dar nu indeajuns sa te saturi”
+- „Cand vezi marca Creapure, ai spus tot.”
+- „ideală în ovăz”
+- „Am avut impresia că trișez”
+**Words to use:** cremoasă, fără cocoloașe, se dizolvă ușor, nu e prea dulce, gust de…, își face treaba, la micul dejun, în ovăz.
+**Words to avoid:** „premium”, „formulă avansată”, „inovator” – clienții nu vorbesc așa.
+**Glossary:** „crema de orez”, „proteina”, „creatina”, „pre-workout”/„prew”, „intra-workout”, „izolat”; aromele le spun des în engleză (salted caramel, toffee chocolate, blueberry vanilla).
+**Termeni de căutare confirmați:** „crema de orez”, „creatina creapure”, „whey 2 kg”.
+**Nu se preiau:** efectele de sănătate pe care clienții le atribuie produselor (colesterol, ficat, somn) – nu sunt mențiuni autorizate în UE.
 
 ## Brand Voice
 **Tone:** direct, sobru, de companie cu echipă – nu brandul unei persoane. Semnătura: „Echipa Prime Supplements”.
@@ -73,7 +98,7 @@ Nedocumentat. Termeni de căutare confirmați: „crema de orez”, „creatina 
 **Imagini:** ce merge pe rețele sunt clipurile cu sportivi reali, nu conținutul generat (13.11, `JURNAL.md`).
 
 ## Proof Points
-**Recenzii:** Judge.me – 454 recenzii, nota 4,88, 255 verificate (23.10.2026).
+**Recenzii:** Judge.me – 454 recenzii, nota 4,88, 255 verificate (23.10.2026). Citite public pe 13.11.2026: 343 de recenzii de produs, 200 verificate, 325 cu 5 stele; 107 sunt la crema de orez. 138 din cele 143 neverificate au venit în patru luni (65 în iulie 2026) – proveniența lor e de lămurit cu proprietarul înainte de a le cita în reclame.
 **Autoritate:** fondatorul, antrenor de culturism cu sportivi care au obținut cardul PRO; Creapure® partener listat.
 **Sportivi și săli partenere:** există, dar se numesc public doar cu acordul lor.
 **Lipsesc:** Trustpilot, presă, documente de certificare.
@@ -119,4 +144,4 @@ Nedocumentat. Termeni de căutare confirmați: „crema de orez”, „creatina 
 Nu modifică stocul sau statusul produselor; nu umblă în Fluxsales și Primesupplements App; nu intră în checkout; în Oblio doar citește; nu schimbă designul; nu creează coduri; nu salvează date personale în repo. Orice e-mail se testează întâi la cele două adrese din `primesupplements.ro-audit/CLAUDE.md`. Modificările structurale pe site: doar de la 1.12.2026.
 
 ## De completat
-Profilul clientului și citate din recenzii; comisionul afiliaților; bugetele și ROAS-ul la reclame; rezultatele complete ale Black Friday 30.10–15.11 și ale testului ChatGPT Ads; ținta de venit pentru 2027; documentele de certificare.
+Vârsta clienților, motivul primei comenzi și motivul plecării (nu reies din recenzii); proveniența recenziilor neverificate; dacă Creapure® de 500 g mai există (recenziile laudă cantitatea); comisionul afiliaților; bugetele și ROAS-ul la reclame; rezultatele complete ale Black Friday 30.10–15.11 și ale testului ChatGPT Ads; ținta de venit pentru 2027; documentele de certificare.

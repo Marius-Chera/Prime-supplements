@@ -618,3 +618,11 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 2026-11-12 – Raport creatină săptămânal
 - Raport creatină săptămânal rulat pe 12.11.2026 (săptămâna 02–08.11): prima săptămână cu cifre peste maximul „înainte” (18 vizite Google fără etichetă de reclamă pe cele 4 pagini, 41 de comenzi cu creatină), cu factori perturbatori (prețuri reduse, reel, coduri); încă neconfirmat. Comparația: `seo/creatina/raport-saptamanal/saptamani/2026-11-02/comparatie.md`; script nou de calcul în `seo/creatina/raport-saptamanal/scripts/week_compare.py`; jurnalul raportului live actualizat.
+
+## 2026-11-12 – E-mailuri „stoc revenit” cremă de orez: programate pentru 13.11
+- Proprietarul a cerut trimiterea celor 3 ciorne pregătite de rutina „stoc revenit” (decizia D3 din planul Late Black Friday: se trimit acum, nu se așteaptă 24.11).
+- Verificat înainte: stoc real în Shopify (tort de ciocolată 293, plăcintă cu cocos 290, biscuiți cu cremă 291, brioșă cu afine 281), prețurile din e-mailuri = prețurile de pe site (63 / 68 / 63 lei), linkurile de produs corecte.
+- Teste trimise la Marius și Adelina (3 e-mailuri × 2 adrese); proprietarul a confirmat.
+- Programate în theMarketer pe 13.11, decalat cu 30 de minute ca smart sending (24 h) să sară peste cine a primit deja o aromă și înainte de e-mailul de Black Friday de la 10:00: tort de ciocolată 08:00 (`6af566be82113a16b60eae84`, ~177), plăcintă cu cocos 08:30 (`6af566eaddbe1ee45c0f0877`, ~169), biscuiți cu cremă 09:00 (`6af56705ef1901b57e0486dd`, ~153). Destinatarii sunt înainte de excluderi.
+- Confirmarea a venit la 23:45, iar „trimite acum” pusese primul e-mail la 00:00; mutat pe 08:00 cu acordul proprietarului, înainte să plece.
+- Deschis: brioșă cu afine nu are e-mail (limita de 3 pe zi a rutinei); e-mailul 1 din Late Black Friday (24.11) trebuie reformulat pe 22.11, fiindcă revenirea a fost deja anunțată.

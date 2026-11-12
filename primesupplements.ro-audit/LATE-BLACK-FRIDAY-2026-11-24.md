@@ -29,7 +29,7 @@ Vineri, 27.11, e Black Friday-ul internațional: campania îl prinde, iar e-mail
 
 - **D1 – Pe ce se aplică codul.** Recomand: colecția „Eligibile coduri reducere (intern)” (tot magazinul, fără pachete), ca toate celelalte coduri – textul spune „fă-ți proviziile”. Alternativa: doar crema de orez (cost mai mic, dar mesaj mai slab și doar 4 arome în stoc).
 - **D2 – Numele codului.** Recomand `LATE20` (scurt, ușor de tastat din SMS). Alternative: `LATEBF20`, `SCUZE20`.
-- **D3 – Ciornele „stoc revenit” pentru crema de orez (din 12.11).** Recomand să NU se trimită: ar anunța revenirea cu 11 zile înainte și cine cumpără acum la preț întreg vede 20 % pe 24.11. Revenirea se anunță o singură dată, în e-mailul 1.
+- **D3 – Ciornele „stoc revenit” pentru crema de orez (din 12.11).** **Decis pe 12.11 (seara): se trimit.** Proprietarul a cerut trimiterea; cele 3 e-mailuri (tort de ciocolată, plăcintă cu cocos, biscuiți cu cremă) sunt programate pe 13.11 la 08:00 / 08:30 / 09:00. Revenirea e deci deja anunțată acestor segmente: pe 22.11 e-mailul 1 se reformulează (accent pe scuze și pe cod, nu pe „a revenit”).
 - **D4 – Aromele fără stoc.** Dacă pe 22.11 cele 3 arome sunt tot la zero, textele spun „4 arome sunt din nou în stoc” și le numesc; nu promitem ce nu avem.
 - **D5 – Afiliații.** În cele 5 zile, 20 % bate codurile lor de 10 %, deci vor avea mai puține comenzi atribuite. Opțional: un mesaj scurt către ei pe 24.11 dimineața. Nu e în plan dacă nu-l ceri.
 

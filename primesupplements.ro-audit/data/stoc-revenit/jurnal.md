@@ -28,3 +28,4 @@ Format: data · produs · id campanie (ciornă) · id segment · destinatari est
 - 2026-11-12 · Cremă de orez plăcintă cu cocos (stoc 0→300, 392 comenzi) · campanie 6af566eaddbe1ee45c0f0877 (ciornă) · segment 6af56674fdb1dddb6704ed18 · ~169 destinatari
 - 2026-11-12 · Cremă de orez biscuiți cu cremă (stoc 0→300, 334 comenzi) · campanie 6af56705ef1901b57e0486dd (ciornă) · segment 6af56676c05761b6c90c519c · ~153 destinatari
 - 2026-11-12 · Nepregătită (limita de 3/zi): cremă de orez brioșă cu afine (stoc 0→300, 283 comenzi). Atenție: stoc rotund de 300 la toate cele 4 arome, posibil număr provizoriu din Oblio.
+- 2026-11-12 (seara) · Cele 3 ciorne cremă de orez: teste trimise la Marius și Adelina, apoi programate la cererea proprietarului pe 13.11 – tort de ciocolată 08:00, plăcintă cu cocos 08:30, biscuiți cu cremă 09:00. Stoc verificat în Shopify: 293 / 290 / 291 (brioșă cu afine 281, fără e-mail).

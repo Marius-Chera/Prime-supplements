@@ -595,3 +595,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 2026-11-11 – Ghidul recepției în engleză și maghiară
 - 11.11: la cererea proprietarului, **Ghidul recepției (2.11) tradus în engleză și maghiară**, fiecare cu o **pagină nouă de prezentare a brandului** (pagina 2), preluată din „About the brand” din portofoliul pentru distribuitori (10.11): fondat 2022, misiune, cifrele (2022, Cisnădie/Nagydisznód, 61 de suplimente și alimente funcționale, fabricat în UE), Hardcore Sports Nutrition, valori, fondatorul. Fișiere: `agenti/GHID-RECEPTII-EN-2026-11-11.html/.pdf` și `agenti/GHID-RECEPTII-HU-2026-11-11.html/.pdf` (câte 12 pagini A4, ~2,4 MB, copiate și pe desktop), generator `agenti/build-ghid-receptii-intl.mjs` (aceeași machetă și aceleași poze ca originalul; stilurile se citesc din `build-ghid-receptii.mjs`). Mențiunile de sănătate (proteine, vitamina D, creatină 3 g) folosesc formularea autorizată UE în fiecare limbă. Telefonul trecut în format internațional (+40 775 286 584). Fără prețuri, ca originalul. Verificat: înălțimea fiecărei pagini măsurată în Chrome headless (nimic nu iese din A4) și paginile cheie văzute ca imagine.
+
+## 2026-11-12 – Instalat pluginul ECC (affaan-m/ECC) în Claude Code
+- Adăugat în `C:\Users\mariu\.claude\settings.json` (nivel utilizator, toate proiectele): marketplace-ul `ecc` (github affaan-m/ECC) + `enabledPlugins: ecc@ecc` – echivalentul `/plugin marketplace add` + `/plugin install ecc@ecc` (comanda `claude` nu e în PATH pe PC).
+- ECC 2.2.3: 71 agenți, 314 skill-uri, comenzi `/ecc:*`, hook-uri care rulează `node` la fiecare unealtă. Se descarcă la pornirea unei sesiuni noi.
+- Dezinstalare: șterge cele două blocuri din settings.json (sau `"ecc@ecc": false`).

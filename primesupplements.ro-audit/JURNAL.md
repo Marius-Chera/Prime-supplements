@@ -600,3 +600,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Adăugat în `C:\Users\mariu\.claude\settings.json` (nivel utilizator, toate proiectele): marketplace-ul `ecc` (github affaan-m/ECC) + `enabledPlugins: ecc@ecc` – echivalentul `/plugin marketplace add` + `/plugin install ecc@ecc` (comanda `claude` nu e în PATH pe PC).
 - ECC 2.2.3: 71 agenți, 314 skill-uri, comenzi `/ecc:*`, hook-uri care rulează `node` la fiecare unealtă. Se descarcă la pornirea unei sesiuni noi.
 - Dezinstalare: șterge cele două blocuri din settings.json (sau `"ecc@ecc": false`).
+
+## 2026-11-12 – Instalat skill-urile Instagram (Jakeschincariol/instagram-agent-skill)
+- Copiate cele 13 skill-uri `ig-*` (ig-reel, ig-viral, ig-caption, ig-human, ig-carousel, ig-story, ig-profile, ig-plan, ig-comment, ig-reply, ig-dm, ig-repurpose, ig-audit) în `C:\Users\mariu\.claude\skills\` (commit d03c56b, MIT). Scripturile Python verificate: doar citesc/scriu fișiere locale, fără rețea.
+- Pe PC nu există Python, așa că în SKILL.md-uri `python3` a fost înlocuit cu `uv run --no-project python`. Testat: `hookscore.py` (ranking hook-uri) și `beats.py` (beat sheet temporizat) rulează corect.
+- `/ig-reel` apare doar în sesiunile noi. Pasul următor recomandat de autor: `~/.claude/instagram/voice.md` (vocea lui Marius pe cameră; se poate genera din 3 reel-uri proprii).

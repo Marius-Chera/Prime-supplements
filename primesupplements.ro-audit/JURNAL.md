@@ -605,3 +605,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Copiate cele 13 skill-uri `ig-*` (ig-reel, ig-viral, ig-caption, ig-human, ig-carousel, ig-story, ig-profile, ig-plan, ig-comment, ig-reply, ig-dm, ig-repurpose, ig-audit) în `C:\Users\mariu\.claude\skills\` (commit d03c56b, MIT). Scripturile Python verificate: doar citesc/scriu fișiere locale, fără rețea.
 - Pe PC nu există Python, așa că în SKILL.md-uri `python3` a fost înlocuit cu `uv run --no-project python`. Testat: `hookscore.py` (ranking hook-uri) și `beats.py` (beat sheet temporizat) rulează corect.
 - `/ig-reel` apare doar în sesiunile noi. Pasul următor recomandat de autor: `~/.claude/instagram/voice.md` (vocea lui Marius pe cameră; se poate genera din 3 reel-uri proprii).
+
+## 2026-11-12 – Plan „Late Black Friday” 24–28.11 (doar plan, nimic programat)
+- Proprietarul a cerut o campanie de 5 zile (24–28.11) cu un cod de 20 %, o folosire per client; tema: scuze că am rămas fără cremă de orez de Black Friday. Canale: 2 e-mailuri (24 și 27.11), 1 SMS (24.11), 1 postare Instagram, 2 postări Facebook. Nimic nu se anunță până pe 24.11; totul se pregătește și se programează pe 22.11.
+- Planul complet (setările codului `LATE20`, calendar, texte, lista de pași pentru 22.11, decizii de confirmat, riscuri): `LATE-BLACK-FRIDAY-2026-11-24.md`.
+- Citit (fără modificări): stoc cremă de orez 1.158 kg în 4 arome, 3 arome fără stoc; 2.388 destinatari e-mail, 435 SMS; nimic programat în theMarketer pe 24–28.11.

@@ -34,9 +34,9 @@ Fixate:
 - **Numele codului:** `LATEBF20` (13.11).
 - **Tonul:** fără scuze; „pentru cei care nu au apucat” (13.11).
 - **Ciornele „stoc revenit” pentru crema de orez:** trimise pe 13.11 (12.11 seara).
+- **Pe ce se aplică codul:** tot magazinul, fără pachete = colecția „Eligibile coduri reducere (intern)” (13.11).
 
 De fixat:
-- **D1 – Pe ce se aplică codul.** Recomand: colecția „Eligibile coduri reducere (intern)” (tot magazinul, fără pachete), ca toate celelalte coduri. Alternativa: doar crema de orez.
 - **D2 – Crema de orez în texte.** Acum apare o singură propoziție neutră („crema de orez e din nou în stoc”), fără explicații. Se poate scoate complet dacă vrei mesajul doar despre cod.
 - **D3 – Afiliații.** În cele 3 zile, 20 % bate codurile lor de 10 %. Opțional: un mesaj scurt către ei pe 25.11 dimineața. Nu e în plan dacă nu-l ceri.
 
@@ -46,7 +46,7 @@ De fixat:
 |---|---|
 | Cod | `LATEBF20` |
 | Tip | procent, 20 % |
-| Se aplică la | colecția „Eligibile coduri reducere (intern)” (D1) |
+| Se aplică la | colecția „Eligibile coduri reducere (intern)” – tot magazinul, fără pachete (fixat 13.11) |
 | Limită | o folosire per client (`appliesOncePerCustomer`); fără limită totală |
 | Comandă minimă | fără |
 | Combinări | nu se combină cu alte reduceri de produs sau de comandă (deci nu cu WELCOME5, afiliați, Judge.me); se combină cu transportul gratuit peste 300 lei |
@@ -159,7 +159,7 @@ Vizual: carusel de 2 cadre în stilul alb al contului – (1) „LATE BLACK FRID
 
 ## 7. Pașii (în ordine; zilele le fixăm împreună)
 
-1. Fixăm D1–D3 și textele.
+1. Fixăm D2–D3 și textele.
 2. Citesc stocul și verific că produsele din texte sunt în colecția „Eligibile coduri reducere (intern)”.
 3. Creez codul `LATEBF20` cu pornire pe 25.11 și citesc înapoi setările.
 4. Verific newsletterul din 22.11 (18:00) și postările de pe 25–27.11: nimic care să contrazică sau să anunțe campania.
@@ -178,6 +178,6 @@ Vizual: carusel de 2 cadre în stilul alb al contului – (1) „LATE BLACK FRID
 
 ## 9. Riscuri
 
-- **20 % pe tot magazinul** (D1): la produsele cu marjă mică reducerea poate mânca profitul. Dacă vrei, verific marja la cele mai vândute produse din colecția eligibilă înainte să creăm codul.
+- **20 % pe tot magazinul** (fixat 13.11): la produsele cu marjă mică reducerea poate mânca profitul. Dacă vrei, verific marja la cele mai vândute produse din colecția eligibilă înainte să creăm codul.
 - **Stocul de cremă de orez** (1.158 kg în 4 arome pe 12.11): dacă o păstrăm în texte, o verificăm înainte de fiecare trimitere.
 - **Zilele 25–27.11** sunt cele mai aglomerate din an în inbox (Black Friday internațional); deschiderile pot fi mai slabe decât la campania din 30.10.

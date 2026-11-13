@@ -370,3 +370,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Marius vrea aceleași subpagini (Analytics, Payments, Affiliates, Referrals, tot) și un panou de control pentru fiecare afiliat ca în aplicația veche: „să se simtă la fel când vor trece pe noua aplicație, nu vrem să îi zăpăcim cu schimbări mari”.
   - **Decis:** copiem structura, paginile și funcțiile UpPromote. Aspectul rămâne în culorile Prime, fără marca UpPromote.
   - **Ordinea:** inventarul complet prin extensia Chrome (text dat lui Marius), apoi paginile din Admin, apoi portalul afiliatului.
+
+### 14.11.2026 – Aplicație proprie de recenzii în locul Judge.me (amânată)
+- **Cererea:** Marius a întrebat dacă putem face o aplicație proprie „exact cu aceleași specificații și funcții” ca Judge.me, ca să nu mai plătim, legată și de recenziile Google.
+- **Ce i-am spus:** se poate (pe modelul Prime Afiliați), dar Judge.me (planul Awesome) costă doar ~15 $/lună. Stelele din Google Shopping vin prin feedul Judge.me (agregator aprobat, live din 10.04.2026). Cu aplicația proprie, feedul de recenzii ar trebui trimis direct din Merchant Center-ul nostru, cu riscul să pierdem stelele o vreme. „Recenziile Google” de pe Maps nu există la noi (fără Google Business Profile, neeligibil).
+- **Decis (Marius, 14.11):** „revenim cu proiectul ăsta după 20–25 decembrie”. Până atunci Judge.me rămâne neschimbat. La reluare: plan cu importul recenziilor, widgeturi, e-mailurile de cerere, cuponul de 12 %, feedul Google fără pierderea stelelor.

@@ -100,3 +100,5 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
       - (c) exportă din UpPromote afiliații, comisioanele și soldurile.
     - **Apoi Claude:** preia codurile, face comparația pe 60 de zile și importă datele.
     - **Urmează:** etapa 2 (scriptul `?ref=` din temă, portalul `/apps/afiliati`), etapa 3 (modul live, anunțul către afiliați, dezinstalarea UpPromote).
+
+31. **Recenzii – aplicația noastră în locul Judge.me (14.11, amânată de proprietar):** se reia **după 20–25.12.2026**. Atunci Claude face planul (import ~470 de recenzii, widgeturi pe produs/homepage, e-mailuri de cerere + memento + poză, cuponul de 12 %, moderare, metafield-urile `reviews.rating`, feedul de recenzii direct în Merchant Center fără să pierdem stelele din Google Shopping). Până atunci Judge.me rămâne cum e. Context: `recenzii/README.md`, `recenzii/01-JUDGEME-VERIFICARE-2026-10-23.md`.

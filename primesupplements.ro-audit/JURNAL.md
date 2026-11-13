@@ -803,3 +803,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 13.11 (19:45): **Marius a cerut aplicația „exact ca UpPromote”**: aceleași subpagini în admin (Analytics, Affiliates, Referrals, Payments…) și un panou al afiliatului care să se simtă la fel, ca sportivii să nu fie derutați.
   - Meniul UpPromote citit din Admin: Home, Programs, Affiliates, Referrals, Payments, Creators, Motivation, Displays, Outreach, Analytics, Settings, Pricing.
   - Panoul aplicației UpPromote rămâne alb în browserul din aplicație, iar Chrome-ul cu extensia nu a răspuns. Marius a primit textul pentru extensie (inventar complet, doar citire, fără date personale). Construcția paginilor se face după raportul extensiei.
+
+## 2026-11-14 – Recenzii: aplicație proprie în locul Judge.me, discutată și amânată
+- Verificat ce exista deja (`recenzii/`, audit, DE-FACUT): Judge.me pe planul Awesome (~15 $/lună), feedul către Google Shopping prin Judge.me live din 10.04.2026, fără Google Business Profile.
+- Proprietarul a decis să reluăm proiectul după 20–25.12.2026. Trecut în `DE-FACUT.md` (31) și `ISTORIC-DISCUTII.md`. Nimic schimbat în Judge.me sau Shopify.

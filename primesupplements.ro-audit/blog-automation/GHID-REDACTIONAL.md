@@ -309,8 +309,22 @@ Poză reală din ședința foto (opțional, 1–2 pe articol, vezi 4c):
 
 Culorile: text de accent `#a54f51`, fundaluri cu text alb `#b65b5d`, nuanța deschisă `#ea8a8a15` doar ca fundal decorativ. Toate trec contrastul WCAG AA. Imaginea articolelor din „Articole similare” este imaginea principală a acelor articole (câmpul `image.url`), verificată că există.
 
+
+## 6b. Punctajul articolului: SEO și AI (regula proprietarului, 13.11.2026)
+
+Fiecare articol nou primește două scoruri din 100, calculate automat **înainte de publicare** cu scriptul `scor-articol.mjs` (în Shopify Files: cel mai nou `blog-automatizare-scor-articol*.txt`; îl descarci cu curl și îl salvezi ca `scor.mjs`; în repo: `blog-automation/scor-articol.mjs`):
+- **SEO (Google):** titlu și title tag, meta descriere, cuvântul-cheie la început, lungime, H2 și cuprins, fără H1, linkuri interne (produs, colecție, articole), alt text, tabel, întrebări frecvente, caseta de autor, „Articole Similare”.
+- **AI (ChatGPT, Gemini, Copilot, Perplexity):** caseta „Pe scurt”, răspuns direct îngroșat, definiție clară, 3–6 studii PubMed, secțiunea „Surse”, **orice frază despre studii are link în același paragraf**, întrebări formulate ca întrebări reale, cifre concrete, link spre Regulamentul 432/2012 la mențiuni, fără cuvinte interzise.
+
+Rulare: `node scor.mjs articol.html meta.json` (meta.json: `{"title","seoTitle","seoDesc","keyword","imageAlt"}`). Rezultatul listează fiecare lipsă cu punctele pierdute.
+
+**Ținta e 100/100.** Dacă un scor e sub 100, repari lipsurile și recalculezi (cel mult 2 runde de reparații), apoi publici. Scorurile finale se salvează pe articol ca metafield-uri: `custom.scor_seo` (number_integer), `custom.scor_ai` (number_integer) și `custom.scor_lipsuri` (multi_line_text_field, lipsurile rămase sau „—”).
+
+**Învățare de la un articol la altul:** înainte să scrii, citește `custom.scor_seo`, `custom.scor_ai` și `custom.scor_lipsuri` la ultimele 10 articole (articles(first: 10, sortKey: ID, reverse: true) cu metafield-urile) și evită dinainte lipsurile care s-au repetat. Raportul rulării începe cu scorurile, de exemplu „Scor SEO 100/100 · Scor AI 95/100 (lipsă: …)”.
+
 ## 6. Verificare înainte de publicare (automatizarea o face la fiecare articol)
 
+0. Punctajul de la 6b calculat și, unde se poate, adus la 100/100 (scorurile salvate în metafield-uri).
 1. Toate linkurile interne există (produs ACTIVE, colecție, articole publicate, prin Admin API). Articolul are 3–6 linkuri PubMed diferite, fiecare PMID verificat (bibliotecă sau eutils), secțiunea „Surse” și niciun „studiile arată”, „cercetările arată” sau „conform studiilor” fără link în aceeași frază.
 2. Fără H1 în corp, fără `<script>`, fără linkuri inventate, fără prețuri, fără mențiuni de sănătate neautorizate (caută cuvintele interzise de la secțiunea 3, plus „sursă de”, „energie”, „fără gluten”, „somn”, „stres”, „crampe”, „refacere”, „rezultate”, „face efect” și verifică fiecare apariție după regulile de mai sus).
 3. Title tag ≤ 60 de caractere, meta description 140–155, handle unic, etichetele din calendar.

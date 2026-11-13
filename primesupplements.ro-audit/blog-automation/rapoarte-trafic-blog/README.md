@@ -28,3 +28,7 @@ Rutina cloud „Raport săptămânal trafic blog – de unde vin vizitatorii (AI
 | **Total** | **1.082** | | **10** | **3** |
 
 Pe tot site-ul, în aceeași perioadă, ChatGPT apare cu ~121 de vizite (`utm_source` chatgpt / chatgpt.com, inclusiv reclama ChatGPT), toate pe pagini de produs, niciuna pe blog. Gemini, Perplexity și Copilot nu apar încă.
+
+## Scorurile articolelor (adăugat 13.11.2026, la cererea proprietarului)
+
+În raportul de luni adaugi și o secțiune **„Scorurile articolelor din săptămână”**: pentru fiecare articol publicat în săptămâna raportată, citește metafield-urile `custom.scor_seo`, `custom.scor_ai` și `custom.scor_lipsuri` (articles(first: 20, sortKey: ID, reverse: true) { nodes { handle title publishedAt scorSeo: metafield(namespace:"custom", key:"scor_seo"){value} scorAi: metafield(namespace:"custom", key:"scor_ai"){value} lipsuri: metafield(namespace:"custom", key:"scor_lipsuri"){value} } }) și pune un tabel: articol, Scor SEO /100, Scor AI /100, ce a lipsit, vizite în săptămână. Spune media pe săptămână și dacă a crescut față de săptămâna anterioară (ținta e 100/100). Articolele fără metafield-uri (create înainte de 14.11.2026) apar cu „—”. Scriptul de punctaj e `blog-automation/scor-articol.mjs`.

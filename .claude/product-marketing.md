@@ -8,7 +8,7 @@ Fiecare cifră are data și fișierul din care vine (căi relative la `primesupp
 
 ## Product Overview
 **One-liner:** Suplimente sportive și alimente funcționale românești, formulate din culturismul de performanță („Hardcore Sports Nutrition”).
-**What it does:** Magazin online propriu (Shopify) + magazin fizic în Cisnădie, jud. Sibiu; vinde marca Prime și, în magazinul fizic, și alte branduri.
+**What it does:** Magazin online propriu (Shopify) + magazin fizic PrimeStore în Sibiu (Str. Rahovei nr. 45A; sediul firmei e în Cisnădie); vinde marca Prime și, în magazinul fizic, și alte branduri.
 **Product category:** proteine și gainer, cremă de orez și ovăz, creatină, aminoacizi, pre/intra-workout, vitamine și minerale, batoane, unturi, shoturi, băuturi Frutilu, accesorii, haine (MNX și Prime).
 **Product type:** e-commerce B2C cu produse fizice; canal secundar B2B (săli, distribuitori).
 **Business model:** vânzare directă, comandă unică (fără abonamente); fondat în 2022; fabricat în UE (`distribuitori/build-portfolio-distributors.mjs`).

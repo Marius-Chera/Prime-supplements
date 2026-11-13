@@ -61,3 +61,18 @@ Acceptați de proprietar pe 13.11.2026, după ce i-au fost rezumați:
 - Fișierele: `chatgpt-ads/profil-img/` (logo A/B/C, coperta 1/2). Logo-ul urcat este varianta A convertită în JPEG.
 - Tehnic: panoul de browser nu are încărcare de fișiere. Imaginea se ia de pe `raw.githubusercontent.com` (adresă cu SHA-ul commitului) cu `<img crossOrigin>`, se desenează pe canvas, se face `File` și se pune în `input#business-logo` / `input#business-cover` cu eveniment `change`. `fetch` e blocat de CSP. Logo-ul ca PNG a fost respins de două ori la „finalize” (503, „Business photo is unavailable or still being checked”); ca JPEG a trecut din prima.
 - De urmărit: la dimensiune mică textul din logo-ul A se citește greu; varianta C (doar simbolul) e rezerva.
+
+## 13.11.2026 (după-amiază) – „conectează tot” (cererea proprietarului: fără întrebări, totul legat de ChatGPT/OpenAI)
+Făcut:
+- **Politica de confidențialitate** (Shopify → Settings → Policies → Privacy policy): adăugat paragraful despre ChatGPT/OpenAI după paragraful cu partenerii de publicitate (aplicația oficială din Shopify; OpenAI poate avea acces la nume, e-mail, IP, browser/dispozitiv, comportament de navigare; politica OpenAI; transfer în SUA). Data „Ultima actualizare” = 13 noiembrie 2026. Verificat pe site. Conectorul Shopify nu are scope-ul `write_legal_policies`, deci s-a făcut din editorul din admin. Datele de acces vin din pagina aplicației (apps.shopify.com/chatgpt).
+- **Roboții OpenAI**: robots.txt nu îi blochează (un singur grup `*`, `Content-Signal: search=yes, ai-input=yes, ai-train=yes`); OAI-SearchBot, GPTBot, ChatGPT-User și OAI-AdsBot primesc 200 pe o pagină de produs.
+- Profilul are bifa albastră (identitate verificată).
+
+Blocat / de făcut:
+- **Catalogul de produse (Products → Add products)** cere **verificarea domeniului**. Prima „verificare prin Shopify” NU a verificat de fapt domeniul, iar „Connect” din aplicația Shopify (Business) revine tot la „Connect” (recenziile aplicației descriu aceeași problemă). Rămâne varianta DNS, la kemo.services (serverele de nume ale domeniului; fără acces din aplicație):
+  - Tip: `TXT` · Nume/host: `openai-business-profile.primesupplements.ro` (în panourile care adaugă singure domeniul: `openai-business-profile`) · Valoare: `openai-business-profile=Q3O8ITa1ogAwuRXGJa5KM0Ar1gX2UIPsf-Y0v_b0vrc`
+  - După adăugare: Business Hub → Products → Add products → Verify domain → Verify domain. Dacă valoarea a expirat, pagina dă una nouă.
+- **Agent builder**: „isn't available yet” în regiunea noastră.
+- **Ads → Connect** din aplicația Shopify (leagă Ads Manager de catalog și de pixel): nefăcut – acțiunea a fost blocată de sistemul de permisiuni al aplicației Claude; o poate apăsa proprietarul. Nu cheltuie bani în sine, dar instalează pixelul OpenAI (de trecut atunci și în politica de cookie-uri).
+- Telefonul firmei: cere cod prin SMS/apel pe 0775 286 584.
+- Logo: la dimensiune mică textul nu se citește; varianta C (simbolul) e în `profil-img/`.

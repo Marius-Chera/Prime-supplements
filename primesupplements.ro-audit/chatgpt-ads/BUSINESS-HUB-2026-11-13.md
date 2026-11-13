@@ -76,3 +76,9 @@ Blocat / de făcut:
 - **Ads → Connect** din aplicația Shopify (leagă Ads Manager de catalog și de pixel): nefăcut – acțiunea a fost blocată de sistemul de permisiuni al aplicației Claude; o poate apăsa proprietarul. Nu cheltuie bani în sine, dar instalează pixelul OpenAI (de trecut atunci și în politica de cookie-uri).
 - Telefonul firmei: cere cod prin SMS/apel pe 0775 286 584.
 - Logo: la dimensiune mică textul nu se citește; varianta C (simbolul) e în `profil-img/`.
+
+## 13.11.2026 (seara) – DNS pus de Kemo, dar valoarea s-a schimbat
+- Kemo a adăugat TXT-ul cu valoarea `...Q3O8ITa1og...` (vizibil pe 8.8.8.8, 1.1.1.1 și ns1.kemo.services).
+- Între timp cererea de verificare a expirat: la redeschidere din Products → Add products → Verify domain, OpenAI a creat o cerere nouă (`BusinessProfileOwnershipCase_b564603e15cc8197a2860156881180fa`) cu **valoare nouă**: `openai-business-profile=LIBkl10T7vdT2bxBpZetIdaxvErOPKKpwRcIrBwx8YM`. „Verify domain” → „We couldn't verify your domain”.
+- **Regulă:** după ce Kemo actualizează, verificarea se reia DIRECT pe linkul cererii, nu din Products (altfel se generează iar altă valoare):
+  `https://chatgpt.com/business-hub/bizprof_6cbdd94e3c088197879a2a777ffb34fe/verification/bizprof_6cbdd94e3c088197879a2a777ffb34fe~BusinessProfileOwnershipCase_b564603e15cc8197a2860156881180fa?section=contact`

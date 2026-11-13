@@ -30,7 +30,7 @@ Stare la 13.11: modul umbră merge (44/44 facturi identice cu aplicația veche),
 10. **Corectarea adresei** (ce făcea Fluxsales la 3 % din comenzi): județ/localitate/cod poștal din nomenclator, propuse cu un click.
 11. **Listă de pregătire (picking)**: produsele de scos din raft pentru lotul zilei, grupate pe SKU – PDF lângă etichete.
 12. **Comenzi suspecte** înainte de AWB: client cu refuzuri anterioare, telefon invalid, adresă incompletă, ramburs mare la client nou → semnalate, nu blocate.
-13. **Confirmare prin SMS/e-mail** înainte de expediere pentru rambursuri mari (reduce refuzurile).
+13. ~~Confirmare prin SMS/e-mail înainte de expediere pentru rambursuri mari~~ – **renunțat (Marius, 13.11)**: comenzile se confirmă deja pe WhatsApp.
 14. **Retururi**: AWB de retur din aplicație + factură storno.
 15. **e-Factura**: starea SPV a fiecărei facturi vizibilă în listă; alertă dacă una e respinsă.
 16. **Tablou de bord**: comenzi pe zi, timp până la expediere, cost transport/comandă, rata de refuz, ramburs în drum.

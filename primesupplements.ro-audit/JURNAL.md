@@ -810,3 +810,18 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 2026-11-14 – Aplicații plătite: ce putem înlocui cu aplicații proprii
 - Citită lista live a aplicațiilor (21 instalate). Sumele abonamentelor nu se pot citi prin API. Analiza e în `APLICATII-DE-CLONAT-2026-11-14.md`: ușor de înlocuit Delivery Estimator și butonul WhatsApp (snippet în temă); de evitat Pandectes și theMarketer; Simprosys nu înainte de Black Friday.
+- 14.11 (00:10–02:00): **Prime Afiliați „ca UpPromote”** (cerut de Marius pe 13.11), construit după `afiliati/INVENTAR-UPPROMOTE-DIN-DOCUMENTATIE-2026-11-13.md`.
+  - **Adminul:** meniul aplicației apare în bara din stânga a Shopify, exact ca la UpPromote: Acasă, Programe, Afiliați, Comenzi, Plăți, Motivare, Analiză, Setări.
+    - **Acasă:** carduri pe azi / 7 / 30 de zile și „de rezolvat”.
+    - **Programe:** procent sau sumă fixă pe comandă, program implicit.
+    - **Afiliați:** filtre, aprobare / refuz / activare, export. Fișa afiliatului are comision, promovare, profil, comenzi, plăți și „Vezi ca afiliat”.
+    - **Comenzi:** stări, filtre, detaliul comenzii (produse, totaluri, parcursul clientului), comision manual sau ajustare, export.
+    - **Plăți:** taburile De plătit (cu plată parțială), Cereri de plată și Plătite (anularea transferului).
+    - **Motivare:** materiale (kitul din noiembrie) și cupoane.
+    - **Analiză:** carduri, grafic pe zi / săptămână / lună, indicatori, comision pe stări, tip de atribuire, top 5 afiliați și produse, tabele pe afiliat și pe produs.
+    - **Setări:** general, comision, link și cupon, sincronizare, comparația cu UpPromote.
+  - **Portalul afiliatului** (`/apps/afiliati`, prin App Proxy): Panou (link, cod, statistici, grafic, sold, „Cere plata” / „Transformă în voucher”), Comisioane cu detaliu, Plăți, Materiale, Ghid, Setări, plus pagina de înscriere.
+  - **Teste și verificare:** 28 de teste trec. Verificat local și în adminul real.
+  - **Date reale, după recitirea pe 60 de zile:** 1.207 comenzi, 679 aduse de afiliați. Pe ultimele 30 de zile: 391 de comenzi, 145.713 lei vânzări eligibile.
+  - **Ce lipsește:** Marius trebuie să facă „Release” la versiunea `v2-portal-afiliati` în Dev Dashboard (App Proxy + `read_customers`) și să aprobe permisiunea; abia apoi portalul merge în site.
+  - **Risc notat pentru modul live:** 77 de afiliați au comision „aprobat” calculat de noi, dar o parte a fost deja plătită de UpPromote. Înainte de live trebuie o dată de pornire, iar tot ce e dinainte se marchează „plătit de UpPromote”.

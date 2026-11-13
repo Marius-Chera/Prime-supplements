@@ -16,6 +16,12 @@ Excepție față de decizia din 25.10 („reparațiile SEO după 1.12”): propr
 
 Toate: aceeași adresă și aceeași dată de publicare (nu apar ca postări noi), titlu SEO + meta descriere trimise împreună, backup în `backups/blog-pubmed-2026-11-13/`, sursele HTML în acest folder (`build.mjs` + `articole.mjs` → `<handle>.html`). Verificat live: titlul nou, poza OpenArt și linkurile PubMed apar pe pagina publică.
 
+## 1b. Ultimele 50 de articole aduse la 100/100 (13.11.2026, după-amiaza)
+
+Cererea proprietarului: „adu toate articolele ultimele 50 la 100 SEO + 100 AI”. Cele 50 de articole cele mai noi (13.11 → 16.10) au acum 100 SEO și 100 AI, cu 3–5 studii PubMed, secțiunea „Surse” și scorurile în metafield-uri; aceeași adresă și aceeași dată. Detalii și tabelul înainte/după: `SCORURI-ULTIMELE-50.md`. Orice articol din coada de la §5 publicat pe 16.10.2026 sau mai târziu (lista din `SCORURI-ULTIMELE-50.md`) e deja la 100/100 și se sare; rescrierile următoare continuă cu articolele mai vechi.
+
+Rămase de la acest lot: poza pentru `vitamina-d-imunitate-ce-spune-ue` (Gemini sau OpenArt, când există credite) și eticheta „hub:” afișată deasupra titlului (modificare de temă, DE-FACUT 29).
+
 ## 2. Cum nu se bat cap în cap rutina zilnică și rescrierile
 
 - **Articolele noi:** rutina zilnică publică în continuare 1 articol/zi la 09:00 (ora României). Din 13.11 ea citește ghidul nou (`blog-automatizare-ghid-redactional-2026-11-13.txt`) și biblioteca de surse (`blog-automatizare-surse-pubmed-2026-11-13.txt`) din Shopify Files: 3–6 surse PubMed verificate pe articol, secțiunea „Surse”, OpenArt ca primă opțiune pentru poză când există credite. Promptul rutinei din claude.ai se actualizează cu textul din `blog-automation/PROMPT-ROUTINE.md` (rutina nu apare în lista de rutine accesibilă din aplicația de pe calculator, deci proprietarul lipește textul).

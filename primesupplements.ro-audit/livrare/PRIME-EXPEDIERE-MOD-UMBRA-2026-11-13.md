@@ -52,7 +52,7 @@ Continuarea lui `PRELUARE-CONTROL-SI-APLICATIE-PROPRIE-2026-11-13.md` (§5, etap
 | 50012905 | Hanorac MNX XForce 2.0 – negru |
 | 70031304 | MNX Ribbed pants Hammer 2.0, white |
 
-Doar cele din ultimele 50 de comenzi; restul catalogului poate avea aceeași problemă. Nu am modificat produsele (regula: produsele și stocul doar cu acordul lui Marius).
+**Completate pe 13.11 (15:35–15:40), cu „da, completează tu” de la Marius**, din editorul în masă Shopify (conectorul Shopify dădea eroare): cele 4 arome Creamy Rice de mai sus 1,0 kg; **toate cele 19 produse Frutilu** (inclusiv aromele care nu erau în cele 50 de comenzi) 0,01 kg pe plic de 10 g, setul de 18 plicuri 0,18 kg; shakerele SHAKER-01, PRIME-SHAKER-CUSTOMISED și ACC-SHAKER-BOTTLE-PRIME-NEGRU 0,1 kg (cât au celelalte shakere din magazin); hanoracul MNX XForce 2.0 0,6 kg; pantalonii MNX Ribbed Hammer 2.0 alb și negru, toate cele 8 mărimi, 0,45 kg. **Shakerele și hainele au valori estimate**: dacă Marius le cântărește, le corectează în produs. Stocul și statusul produselor nu au fost atinse. Alte produse din catalog care nu au apărut în cele 50 de comenzi pot avea încă 0 kg: le vede raportul când apar într-o comandă.
 
 ## Rezultatul cu Oblio conectat (13.11, 15:30)
 Marius a conectat Oblio (firma PRIME SPORT SUPPLEMENTS S.R.L., seria PRS, gestiunea **PRIME SPORT SUPPLEMENTS ONLINE**, aleasă după ce am văzut-o pe facturile reale). Raportul pe 50 de comenzi: **44 de facturi verificate în Oblio, linie cu linie, 44 identice, 0 diferențe**; 3 neprocesate încă, 3 anulate.

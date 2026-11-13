@@ -44,12 +44,12 @@ Acceptați de proprietar pe 13.11.2026, după ce i-au fost rezumați:
 2. După aprobare: verificăm datele profilului (e-mail, logo, imagini), decidem dacă urcăm catalogul de produse.
 3. Lunar: citim statisticile (mențiuni, clicuri) – se leagă de măsurarea GEO-18.
 
-## 14.11.2026 – verificarea de identitate, prima încercare
+## 13.11.2026 (ziua) – verificarea de identitate, prima încercare
 - Proprietarul a parcurs pasul „Verify your business” în panoul de browser al aplicației Claude. Panoul blochează camera, deci captura actului nu e sigur că a mers.
 - Imediat după: mesaj „Your business verification is under review”; la „Check status” fereastra a revenit la „Continue verification”. Profilul e tot DRAFT, stare neclară.
 - Dacă trebuie reluată: se face în Chrome-ul proprietarului sau pe telefon (unde merge camera), nu în panoul aplicației.
 
-## 14.11.2026 – verificarea a trecut, profilul nu mai e ciornă
+## 13.11.2026 (ziua) – verificarea a trecut, profilul nu mai e ciornă
 - La reverificare, în Overview nu mai apar nici eticheta DRAFT, nici bannerul „Verify your identity”; a apărut butonul „Invite” și statisticile. Proprietarul nu mai găsea pe telefon pasul de verificare tocmai pentru că nu mai există. (Pagina nu afișează un text explicit „Verified”; de urmărit e-mailul de confirmare pe contact@.)
 - Primele statistici (Brand insights, 7 zile, date până la 12.11 UTC): **131 de mențiuni** (−40, −23,39 % față de cele 7 zile dinainte), **18 clicuri spre site**. Website access: „Access confirmed” (ultima actualizare 10.11.2026).
 - Top subiecte de descoperire (3–9.11): ingrediente și comparații de produse 54 (36,5 %); creatină 10 (6,8 %); comparații de formule 8 (5,4 %); reduceri, prețuri, disponibilitate 8 (5,4 %); rețete, porții, valori nutriționale 7 (4,7 %); altele 61 (41,2 %).

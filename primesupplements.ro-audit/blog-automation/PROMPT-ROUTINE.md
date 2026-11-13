@@ -1,5 +1,7 @@
 # Instrucțiunile automatizării (Routine)
 
+**ID-uri (verificate 13.11.2026):** principală „Blog Prime Supplements 1 articol pe zi” = `trig_014xGBXtqwQ5dBKSHabiPzL4` (zilnic 06:57, Sonnet, creează articolul de mâine la 09:00); rezervă „Blog Prime Supplements – rezervă (model mai ieftin)” = `trig_01RuJvkKnAcvcr7yAeWfLWJZ` (13:57 și 21:57). Nu apar în primele 20 din `RemoteTrigger list` (lista nu paginează); se citesc direct cu `get`. Pe 13.11 ambele au primit blocul „SOURCES AND IMAGES” (surse PubMed obligatorii, OpenArt prima opțiune la poză) prin `RemoteTrigger update`. Conectori: doar Shopify (OpenArt se adaugă când există credite).
+
 Routine: **Blog Prime Supplements 2 articole pe zi** · zilnic la 06:57, ora României (`CRON_TZ=Europe/Bucharest 57 6 * * *`) · o sesiune nouă la fiecare rulare · **conector necesar: Shopify** (adăugat de proprietar din interfață).
 
 Sesiunile automatizării nu au acces la repository: ghidul și calendarul sunt citite din **Shopify Files** (`blog-automatizare-ghid-redactional*.txt`, `blog-automatizare-calendar*.txt`). La o modificare, urcă în Files o versiune nouă cu același nume (Shopify poate adăuga un sufix); automatizarea folosește mereu fișierul cel mai nou.

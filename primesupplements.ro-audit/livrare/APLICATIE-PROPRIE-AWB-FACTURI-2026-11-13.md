@@ -10,6 +10,13 @@
 - D30: există două „Primesupplements App”; costul abonamentelor (E11) nu l-am văzut încă.
 - Volum: ~570 de comenzi pe lună; pachetele Shopify se desfac pe componente la facturarea în Oblio (verificat 15.10).
 
+## Verificare 13.11 (doar citire, istoricul comenzilor din Shopify)
+Pe ultimele 100 de comenzi (9–13.11):
+- **Primesupplements App face tot:** AWB Cargus, factura Oblio (etichetele `AWB_GENERATED`, `FACTURA-…`, `oblio-invoiced`), marcarea ca expediată și e-mailul de expediere către client.
+- **Fluxsales apare doar la 3 comenzi din 100**, cu un singur eveniment: „Fluxsales updated the shipping address”, la câteva secunde după plasarea comenzii (corectarea automată a adresei). Nicio factură, niciun AWB.
+- Concluzie: **în practică Fluxsales nu mai lucrează pentru noi**; aplicația folosită zilnic e Primesupplements App. Recomandarea de mai jos „adăugat în Fluxsales” se înlocuiește cu: al doilea curier se adaugă în aplicația care face efectiv AWB-urile (Primesupplements App), dacă îl suportă; altfel, aplicația proprie.
+- De aflat de Marius: cine a făcut și întreține Primesupplements App (Fluxsales sau alt programator), ce curieri suportă, și dacă Fluxsales mai e plătit (E11). Dacă Fluxsales se plătește doar pentru corectarea adresei, abonamentul e de discutat.
+
 ## Cât de greu e
 Tehnic: **mediu**. Toate sistemele au API-uri publice:
 - **Oblio**: API REST (e-mail + cheie API din Setări → Date firmă). Factură cu descărcare din gestiune, serie, TVA, trimitere în e-Factura, storno. Inclus în abonament.

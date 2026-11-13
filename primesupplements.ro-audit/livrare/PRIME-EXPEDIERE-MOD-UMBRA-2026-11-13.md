@@ -54,8 +54,13 @@ Continuarea lui `PRELUARE-CONTROL-SI-APLICATIE-PROPRIE-2026-11-13.md` (§5, etap
 
 Doar cele din ultimele 50 de comenzi; restul catalogului poate avea aceeași problemă. Nu am modificat produsele (regula: produsele și stocul doar cu acordul lui Marius).
 
+## Rezultatul cu Oblio conectat (13.11, 15:30)
+Marius a conectat Oblio (firma PRIME SPORT SUPPLEMENTS S.R.L., seria PRS, gestiunea **PRIME SPORT SUPPLEMENTS ONLINE**, aleasă după ce am văzut-o pe facturile reale). Raportul pe 50 de comenzi: **44 de facturi verificate în Oblio, linie cu linie, 44 identice, 0 diferențe**; 3 neprocesate încă, 3 anulate.
+- Formatul aplicației vechi (aflat din facturile reale): fiecare produs la **prețul întreg**, cu cantitatea, codul EAN și gestiunea, urmat de o linie **„Discount <titlul produsului>”** valorică pentru reducerea întregului rând (legată prin `refItems`); transportul ca linie separată; numele produsului pe factură îl pune Oblio din nomenclator după cod. Prime Expediere a fost schimbată să emită exact așa (înainte punea prețul deja redus: total identic, aspect diferit).
+- Cargus: cheia API nu se găsește în WebExpress; o dă agentul Cargus (sau portalul `urgentcargus.portal.azure-api.net`). Utilizatorul și parola le introduce Marius în Setări, împreună cu cheia.
+
 ## Ce urmează
-1. **Marius conectează Oblio** în Prime Expediere → Setări (e-mailul contului + cheia API din Oblio → Setări → Date cont), apoi rulăm din nou raportul: se compară și cu factura reală din Oblio, linie cu linie (coduri, prețuri, reducere pe linie separată sau nu, încasare). Abia atunci știm sigur că facturile ar ieși identice.
+1. ~~Oblio conectat~~ (13.11, 44/44 facturi identice).
 2. **Cargus**: când vin datele de la agent (cheie API + utilizator + parolă WebExpress), Marius le pune în Setări; verificăm punctul de ridicare și nomenclatorul de localități.
 3. Greutățile: Marius completează cele 19 produse în Shopify (sau aprobă să le completez eu).
 4. 15 minute cu cine procesează comenzile dimineața (ce butoane apasă, ce tipărește).

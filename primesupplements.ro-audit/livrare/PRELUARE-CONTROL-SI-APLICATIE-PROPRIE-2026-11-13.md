@@ -101,3 +101,10 @@ Etapa 1: 3–5 sesiuni de lucru. Etapele 2–3: ~2 săptămâni calendaristice, 
 3. **Datele de integrare Cargus** (cheie API UrgentOnline + utilizator): le ceri agentului tău Cargus, „pentru integrare proprie”.
 4. **Oblio** → Setări → API: le introduci tu în aplicație.
 5. Cine procesează comenzile dimineața: 15 minute să-mi arate cum lucrează azi (ce butoane apasă, ce tipărește).
+
+## 6. Pași făcuți (13.11, în browserul din aplicație, cu Marius)
+- **Cloudflare:** cont nou pe contact@primesupplements.ro (autentificare Google, aleasă de Marius); ID cont `74fe61db11fe75bb1e697db61733e6bd`. Gol deocamdată.
+- **GitHub:** repo privat `Marius-Chera/prime-expediere`, clonat local în `D:\Proiecte Claude\Prime Supplements\prime-expediere`, primul commit (README + .gitignore, fără chei).
+- **Shopify Dev Dashboard** (organizația „Prime Supplements”, contul lui Marius): aplicația **Prime Expediere**, ID `447134171137`, versiunea `v0-inregistrare` activă, **fără permisiuni și neinstalată** (doar rezervarea numelui). Adresa serverului și permisiunile vin într-o versiune următoare; instalarea o face Marius o singură dată, când e gata modul umbră.
+- Control: aplicația apare în Shopify Admin → Aplicații după instalare; tot (aplicația, codul, serverul) e pe conturile lui Marius / ale firmei.
+- Urmează: datele API de la Cargus (cerute de Marius agentului), apoi construcția modului umbră.

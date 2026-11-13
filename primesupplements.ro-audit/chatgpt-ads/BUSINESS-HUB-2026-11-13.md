@@ -55,3 +55,9 @@ Acceptați de proprietar pe 13.11.2026, după ce i-au fost rezumați:
 - Top subiecte de descoperire (3–9.11): ingrediente și comparații de produse 54 (36,5 %); creatină 10 (6,8 %); comparații de formule 8 (5,4 %); reduceri, prețuri, disponibilitate 8 (5,4 %); rețete, porții, valori nutriționale 7 (4,7 %); altele 61 (41,2 %).
 - Deschis: verificarea datelor din „Edit business info” (e-mailul de contact, logo/imagini), decizia despre catalog („Products”) și telefon, mențiunea OpenAI în politica de confidențialitate. „Agent builder” și „Reach more people” (reclame) neatinse.
 - 13.11 (ziua), datele citite din „Edit business details” (acum editabile): categoria și descrierea – corecte; Contact – site primesupplements.ro, e-mail contact@primesupplements.ro (există, deci e în ordine), telefon „Not added”; Delivery – livrare gratuită peste un minim, în RON; Returns – cu costuri, 14 zile. **Photos: goale** – lipsesc logo-ul (300 × 300 px recomandat) și imaginea de copertă (1200 × 400 px recomandat); JPEG, PNG, GIF, WebP.
+
+## 13.11.2026 – logo și copertă urcate în profil
+- Proprietarul a ales logo-ul A (logo complet pe fond negru) și coperta 1 (fotografia reală din sală, cu logo-ul alb în stânga). Ambele apar „Saved” în Edit business details → Photos și rămân după reîncărcare.
+- Fișierele: `chatgpt-ads/profil-img/` (logo A/B/C, coperta 1/2). Logo-ul urcat este varianta A convertită în JPEG.
+- Tehnic: panoul de browser nu are încărcare de fișiere. Imaginea se ia de pe `raw.githubusercontent.com` (adresă cu SHA-ul commitului) cu `<img crossOrigin>`, se desenează pe canvas, se face `File` și se pune în `input#business-logo` / `input#business-cover` cu eveniment `change`. `fetch` e blocat de CSP. Logo-ul ca PNG a fost respins de două ori la „finalize” (503, „Business photo is unavailable or still being checked”); ca JPEG a trecut din prima.
+- De urmărit: la dimensiune mică textul din logo-ul A se citește greu; varianta C (doar simbolul) e rezerva.

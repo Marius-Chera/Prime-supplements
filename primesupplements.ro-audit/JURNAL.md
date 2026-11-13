@@ -761,3 +761,27 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 13.11 (20:50): Prime Expediere – **Setări → Alți curieri** (cerut de Marius, ca în Fluxsales): Sameday (easybox), FAN Courier (FANbox), DPD și GLS (MyGLS); se adaugă din lista „+ Adaugă un curier…”, datele de integrare se salvează criptat (parolele nu se mai afișează), „Salvează și verifică” testează autentificarea la Sameday, FAN și DPD (GLS se verifică la prima emitere); Modifică / Șterge. Emiterea AWB-urilor cu acești curieri și alegerea curierului pe comandă – versiunea următoare. **Risc:** la comenzile ramburs apar și retururile anterioare ale clientului (retur sau bani returnați în Shopify): 1 → de verificat, 2+ → risc ridicat. 40 de teste.
 - 13.11 (21:10): Prime Expediere – **factura nu mai trimite încasarea „Card”** la comenzile plătite online: Marius a spus că Netopia trimite deja plățile în Oblio, deci ar fi apărut încasare dublă. Rambursurile rămân neîncasate la emitere; încasarea lor va veni din contul colector Cargus (tab-ul Încasări, în lucru). Raportul Netopia se folosește doar pentru documentul de final de lună pentru contabilă.
 - 13.11 (21:40): Prime Expediere – **tab Încasări** (propus de Marius): se încarcă mailurile „Decontare rambursuri prin contul colector” (.eml, cu Excelul .xls atașat), Excelurile Cargus sau rapoartele Netopia (.csv / .zip); fișierele se citesc în browser (SheetJS + JSZip), rândurile se leagă de comenzi (Cargus: ID-ul comenzii din „Observații”, altfel AWB; Netopia: ID-ul plății = paymentId-ul tranzacției Shopify, rândurile de comision adunate), cu status ok / diferență / negăsit; se salvează în D1 (`settlement_lines`, migrarea 0004); **Raport pentru contabilă (Excel)** pe lună: Sumar (ramburs Cargus, card Netopia, comisioane, net), Ramburs Cargus, Card Netopia, De verificat. În Oblio nu se scrie nimic încă. Netestat cu fișierele reale în aplicație (browserul din aplicație nu poate încărca fișiere) – le încarcă Marius. Exemplele sunt doar local în `D:Prime Supplementsincasari-exemple` (date personale, nu în repo).
+
+## 2026-11-13 – Prime Afiliați: aplicația noastră în locul UpPromote (etapa 1, mod umbră)
+- **Analiza UpPromote (doar citire):**
+  - **coduri de afiliat:** 10% pe colecția „Eligibile coduri reducere”, fără limită;
+  - **comenzile atribuite:** eticheta `UpPromote_order`, iar cele venite pe link au `_up_click_id`;
+  - **plata:** vouchere `id.XXXXXX` cu sumă fixă, o singură folosire.
+- **Aplicația construită de la zero:**
+  - repo nou `prime-afiliati/`, ca Prime Expediere: Worker + D1 pe contul Cloudflare Prime;
+  - motorul face atribuirea după cod sau link și calculează comisionul după contracte (după reducere, fără transport, doar produsele eligibile, minus retururi, fără auto-comenzi);
+  - aprobarea vine după expediere + 14 zile;
+  - plăți: voucher (PF) sau transfer pe factură (PFA/SRL), cu soldul minim de 500 lei;
+  - panou în Shopify Admin cu 6 taburi: Tablou, Afiliați, Comenzi, Plăți, Comparație UpPromote, Setări;
+  - export CSV lunar;
+  - sincronizare automată în fiecare oră.
+- **Siguranță:** modul umbră nu scrie nimic în Shopify, paza blochează orice mutație.
+- **Teste:** 22 trec, iar verificarea de tipuri e curată.
+- **Verificat local** cu date inventate:
+  - tablou, afiliați (editare, cod adăugat), plăți;
+  - plata sub minim e refuzată;
+  - transferul PFA se înregistrează;
+  - comparația cu UpPromote.
+- **Urcat** la https://prime-afiliati.prime-expediere.workers.dev (D1 `prime-afiliati`, migrare aplicată, `ENC_KEY` setat). Nu e încă instalat în magazin.
+- **Economie estimată:** ~1.400 lei/lună, adică abonamentul UpPromote de 308,31 $ din 11.10. Comisioanele sportivilor rămân, fiindcă vin din contracte.
+- **Plan și etape:** `afiliati/APLICATIE-PROPRIE-AFILIATI-2026-11-13.md`.

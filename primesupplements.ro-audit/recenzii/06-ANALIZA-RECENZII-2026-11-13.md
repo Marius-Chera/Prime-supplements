@@ -2,7 +2,7 @@
 
 **Sursa:** toate recenziile publice de produs de pe Judge.me pentru primesupplements.ro, citite pe 13.11.2026 prin interfața publică a widgetului (doar citire). 343 de recenzii, din 16.11.2024 până în 12.11.2026. Toate au fost citite integral. Numele clienților nu au fost salvate; citatele sunt redate exact, cu greșelile lor.
 
-De ce 343 și nu 454 (cifra din 23.10): nu am verificat. Posibil ca diferența să fie recenzii de magazin, nepublicate sau numărate altfel.
+De ce 343 și nu 454 (cifra din 23.10): cele 454 erau 329 de recenzii de produs și 125 de recenzii de magazin (`01-JUDGEME-VERIFICARE-2026-10-23.md`). Aici sunt doar cele de produs: 329 pe 23.10, 343 pe 13.11. Recenziile de magazin nu au fost citite.
 
 ## 1. Cât de solide sunt datele
 
@@ -18,6 +18,16 @@ De ce 343 și nu 454 (cifra din 23.10): nu am verificat. Posibil ca diferența s
 | La crema de orez | 107 (36 verificate) |
 
 **Atenție la recenziile neverificate.** 138 din cele 143 au venit în patru luni: 65 în iulie 2026, 29 în octombrie 2025, 25 în octombrie 2026 și 19 în noiembrie 2025. În iulie 2026, aceeași frază („Calitate foarte buna si livrare rapida. Recomand produsul.”) apare de 6 ori. Nu știu de unde vin (o campanie de cerere de recenzii, afiliați, formularul de pe site) – de întrebat proprietarul. Până atunci, concluziile de mai jos se sprijină pe recenziile verificate, iar cele neverificate sunt folosite doar ca întărire. Nivelul de încredere e trecut la fiecare temă.
+
+**Pe zile (verificat 13.11, după ce proprietarul a spus că nu știe de unde vin):**
+- **13–14.07.2026:** 62 de recenzii neverificate în două zile (46 + 16). Pe 13.07 toate cele 46 sunt la crema de orez, 24 la o singură aromă (tort de ciocolată). În aceleași zile au venit cel mult 5 recenzii verificate pe zi.
+- **31.10.2025:** 27 de recenzii neverificate în câteva ore, la 19 produse diferite, multe cu limbaj de cunoscător. Încă 19 în 1–4.11.2025.
+- **10–29.10.2026:** 25, răspândite pe mai multe zile.
+- În restul timpului: 5 recenzii neverificate în doi ani.
+
+Ce arată: valurile sunt concentrate, deci vin dintr-o acțiune (o cerere trimisă cuiva, o postare, un link distribuit), nu din clienți care scriu la întâmplare. Ce NU arată: cine le-a scris și dacă au cumpărat. Din datele publice nu se poate afla mai mult; sursa fiecărei recenzii se vede doar în panoul Judge.me (Reviews → filtrul de sursă), care nu se deschide din aplicația de pe calculator – textul pentru extensie a fost dat proprietarului în chat pe 13.11.
+
+Regula existentă din `03-TRUSTPILOT-SI-SUPLISCOUT.md`: „Nu scriem recenzii noi și nu cerem prietenilor, afiliaților sau angajaților să scrie.”
 
 Recenziile atrag oameni cu păreri puternice, deci nu descriu clientul mediu. Aproape nimeni nu spune de ce a cumpărat prima dată sau de la cine venea.
 

@@ -98,7 +98,7 @@ Din recenziile publice Judge.me (citate exacte, cu greșelile lor; banca complet
 **Imagini:** ce merge pe rețele sunt clipurile cu sportivi reali, nu conținutul generat (13.11, `JURNAL.md`).
 
 ## Proof Points
-**Recenzii:** Judge.me – 454 recenzii, nota 4,88, 255 verificate (23.10.2026). Citite public pe 13.11.2026: 343 de recenzii de produs, 200 verificate, 325 cu 5 stele; 107 sunt la crema de orez. 138 din cele 143 neverificate au venit în patru luni (65 în iulie 2026) – proveniența lor e de lămurit cu proprietarul înainte de a le cita în reclame.
+**Recenzii:** Judge.me – 454 recenzii, nota 4,88, 255 verificate (23.10.2026). Citite public pe 13.11.2026: 343 de recenzii de produs, 200 verificate, 325 cu 5 stele; 107 sunt la crema de orez. 138 din cele 143 neverificate au venit în patru luni (65 în iulie 2026) – proveniența lor e proprietarul nu le cunoaște proveniența (13.11); nu se citează în reclame sau e-mailuri până nu se vede sursa în panoul Judge.me. Cele 454 includ 125 de recenzii de magazin.
 **Autoritate:** fondatorul, antrenor de culturism cu sportivi care au obținut cardul PRO; Creapure® partener listat.
 **Sportivi și săli partenere:** există, dar se numesc public doar cu acordul lor.
 **Lipsesc:** Trustpilot, presă, documente de certificare.
@@ -144,4 +144,4 @@ Din recenziile publice Judge.me (citate exacte, cu greșelile lor; banca complet
 Nu modifică stocul sau statusul produselor; nu umblă în Fluxsales și Primesupplements App; nu intră în checkout; în Oblio doar citește; nu schimbă designul; nu creează coduri; nu salvează date personale în repo. Orice e-mail se testează întâi la cele două adrese din `primesupplements.ro-audit/CLAUDE.md`. Modificările structurale pe site: doar de la 1.12.2026.
 
 ## De completat
-Vârsta clienților, motivul primei comenzi și motivul plecării (nu reies din recenzii); proveniența recenziilor neverificate; dacă Creapure® de 500 g mai există (recenziile laudă cantitatea); comisionul afiliaților; bugetele și ROAS-ul la reclame; rezultatele complete ale Black Friday 30.10–15.11 și ale testului ChatGPT Ads; ținta de venit pentru 2027; documentele de certificare.
+Vârsta clienților, motivul primei comenzi și motivul plecării (nu reies din recenzii); dacă Creapure® de 500 g mai există (recenziile laudă cantitatea); comisionul afiliaților; bugetele și ROAS-ul la reclame; rezultatele complete ale Black Friday 30.10–15.11 și ale testului ChatGPT Ads; ținta de venit pentru 2027; documentele de certificare.

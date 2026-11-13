@@ -338,3 +338,5 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **13.11 – decizie Marius:** Fluxsales se dezinstalează **după trecerea** la Prime Expediere (etapa 4), împreună cu celelalte aplicații vechi; până atunci nu se atinge.
 - **13.11 – scoruri:** Marius a cerut un scor SEO și unul AI din 100 pentru fiecare articol, apoi: „de acum încolo încearcă să fie toate articolele 100 SEO și 100 AI”. Ținta 100/100 e regulă în ghid (§6b); scorurile se salvează pe articol și apar în raportul săptămânal de luni (e-mail).
 - 13.11: Marius confirmă („Da, ambele”) că firma are magazinul fizic PrimeStore pe Strada Rahovei nr. 45A, Sibiu, și că e partener oficial pentru suplimente al echipei de baschet Dinamo București. Ambele au fost trecute pe pagina pentru asistenți AI.
+
+- **13.11 – Prime Expediere, mod umbră:** Marius a cerut „fă tu te rog” pentru publicarea versiunii `v1-mod-umbra` în Dev Dashboard (Release apăsat de Claude); instalarea în magazin (acordarea permisiunilor de citire) a făcut-o Marius. Cheile Oblio și Cargus le introduce el în Setările aplicației; următorul pas e conectarea Oblio și raportul comparat cu facturile reale.

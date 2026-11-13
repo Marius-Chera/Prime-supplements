@@ -1,5 +1,5 @@
 {
- "data": "2026-11-12",
+ "data": "2026-11-13",
  "produse_active": 214,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi.",
  "produse": {
@@ -20,7 +20,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 958,
+   "totalInventory": 955,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -32,7 +32,7 @@
    "publishedAt": "2025-05-05"
   },
   "water-out-120-caps": {
-   "totalInventory": 72,
+   "totalInventory": 71,
    "publishedAt": "2025-05-05"
   },
   "thermo-core-120-caps": {
@@ -48,15 +48,15 @@
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
-   "totalInventory": 86,
+   "totalInventory": 85,
    "publishedAt": "2025-05-05"
   },
   "magnesium-citrate-80-caps": {
-   "totalInventory": 48,
+   "totalInventory": 44,
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 318,
+   "totalInventory": 317,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
@@ -72,15 +72,15 @@
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 41,
+   "totalInventory": 40,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
-   "totalInventory": 39,
+   "totalInventory": 37,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-cocos-si-caramel": {
-   "totalInventory": 55,
+   "totalInventory": 54,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-ciocolata-fructe-de-padure": {
@@ -92,19 +92,19 @@
    "publishedAt": "2026-10-22"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 775,
+   "totalInventory": 769,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 57,
+   "totalInventory": 55,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 226,
+   "totalInventory": 222,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 344,
+   "totalInventory": 338,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
@@ -112,23 +112,23 @@
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 163,
+   "totalInventory": 162,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
-   "totalInventory": 124,
+   "totalInventory": 121,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
-   "totalInventory": 343,
+   "totalInventory": 338,
    "publishedAt": "2025-05-05"
   },
   "recovery-bcaa-500g": {
-   "totalInventory": 56,
+   "totalInventory": 48,
    "publishedAt": "2025-05-05"
   },
   "recovery-glutamin": {
-   "totalInventory": 267,
+   "totalInventory": 264,
    "publishedAt": "2025-05-05"
   },
   "combat-pro": {
@@ -136,11 +136,11 @@
    "publishedAt": "2025-05-05"
   },
   "energy-pump": {
-   "totalInventory": 467,
+   "totalInventory": 462,
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
-   "totalInventory": 439,
+   "totalInventory": 437,
    "publishedAt": "2025-05-05"
   },
   "prosop-negru": {
@@ -148,7 +148,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 32,
+   "totalInventory": 30,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -156,19 +156,19 @@
    "publishedAt": "2025-05-05"
   },
   "water-out-500-ml": {
-   "totalInventory": 126,
+   "totalInventory": 125,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 332,
+   "totalInventory": 317,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 564,
+   "totalInventory": 540,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 112,
+   "totalInventory": 111,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
@@ -192,7 +192,7 @@
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
-   "totalInventory": 81,
+   "totalInventory": 80,
    "publishedAt": "2025-05-05"
   },
   "potassium-complex-80-caps": {
@@ -200,11 +200,11 @@
    "publishedAt": "2025-05-05"
   },
   "glycerol-max-pump-500g-125-serv": {
-   "totalInventory": 81,
+   "totalInventory": 80,
    "publishedAt": "2025-05-05"
   },
   "fiber-blood-orange": {
-   "totalInventory": 91,
+   "totalInventory": 89,
    "publishedAt": "2025-06-02"
   },
   "prime-whey-go": {
@@ -212,15 +212,15 @@
    "publishedAt": "2025-06-03"
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 220,
+   "totalInventory": 215,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
-   "totalInventory": 20,
+   "totalInventory": 14,
    "publishedAt": "2026-03-08"
   },
   "prime-shaker-customised": {
-   "totalInventory": 139,
+   "totalInventory": 3,
    "publishedAt": "2026-05-05"
   },
   "crema-de-orez-fara-aroma": {
@@ -228,7 +228,7 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-blueberry-muffin": {
-   "totalInventory": 300,
+   "totalInventory": 271,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-caramel-sarat": {
@@ -240,15 +240,15 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 300,
+   "totalInventory": 285,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 300,
+   "totalInventory": 283,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 300,
+   "totalInventory": 288,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -256,7 +256,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-apricot-10g": {
-   "totalInventory": 168,
+   "totalInventory": 167,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-chocolate-10g": {
@@ -264,11 +264,11 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-cola-10g": {
-   "totalInventory": 85,
+   "totalInventory": 83,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-energy-cranberry-10g": {
-   "totalInventory": 209,
+   "totalInventory": 169,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-forest-fruits-10g": {
@@ -280,7 +280,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-ice-tea-peach-10g": {
-   "totalInventory": 82,
+   "totalInventory": 81,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-ice-tea-lemon-10g": {
@@ -292,11 +292,11 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon-lime-10g": {
-   "totalInventory": 84,
+   "totalInventory": 74,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-mango-10g": {
-   "totalInventory": 108,
+   "totalInventory": 107,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-orange-10g": {
@@ -304,7 +304,7 @@
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-tropic-10-g": {
-   "totalInventory": 36,
+   "totalInventory": 35,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-watermelon-10g": {
@@ -320,11 +320,11 @@
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-sport-red-orange-10-g": {
-   "totalInventory": 23,
+   "totalInventory": 1,
    "publishedAt": "2026-07-24"
   },
   "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare": {
-   "totalInventory": 5,
+   "totalInventory": 0,
    "publishedAt": "2026-09-16"
   },
   "unt-de-caju": {
@@ -332,5 +332,6 @@
    "totalInventory": 2
   }
  },
- "nota_2026_11_12": "Actualizat parțial: valorile produselor cheie și ale celor cu stoc 0; restul au rămas neschimbate (diferențe mici de stoc nu afectează regula >=10). Pachetele Black Friday/noi nu sunt urmărite."
+ "nota_2026_11_12": "Actualizat parțial: valorile produselor cheie și ale celor cu stoc 0; restul au rămas neschimbate (diferențe mici de stoc nu afectează regula >=10). Pachetele Black Friday/noi nu sunt urmărite.",
+ "nota_2026_11_13": "Actualizat din lista completă Shopify (3 pagini). Pachetele Black Friday/noi și hainele nu sunt urmărite individual."
 }

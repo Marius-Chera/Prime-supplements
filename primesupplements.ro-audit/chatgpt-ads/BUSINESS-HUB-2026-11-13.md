@@ -43,3 +43,8 @@ Acceptați de proprietar pe 13.11.2026, după ce i-au fost rezumați:
 1. Proprietarul face verificarea de identitate (act de identitate; pot fi cerute acte ale firmei – CUI 46260823, J32/1155/2022 – iar numele trebuie să fie identic cu cel din acte).
 2. După aprobare: verificăm datele profilului (e-mail, logo, imagini), decidem dacă urcăm catalogul de produse.
 3. Lunar: citim statisticile (mențiuni, clicuri) – se leagă de măsurarea GEO-18.
+
+## 14.11.2026 – verificarea de identitate, prima încercare
+- Proprietarul a parcurs pasul „Verify your business” în panoul de browser al aplicației Claude. Panoul blochează camera, deci captura actului nu e sigur că a mers.
+- Imediat după: mesaj „Your business verification is under review”; la „Check status” fereastra a revenit la „Continue verification”. Profilul e tot DRAFT, stare neclară.
+- Dacă trebuie reluată: se face în Chrome-ul proprietarului sau pe telefon (unde merge camera), nu în panoul aplicației.

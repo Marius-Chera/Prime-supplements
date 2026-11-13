@@ -375,3 +375,11 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Cererea:** Marius a întrebat dacă putem face o aplicație proprie „exact cu aceleași specificații și funcții” ca Judge.me, ca să nu mai plătim, legată și de recenziile Google.
 - **Ce i-am spus:** se poate (pe modelul Prime Afiliați), dar Judge.me (planul Awesome) costă doar ~15 $/lună. Stelele din Google Shopping vin prin feedul Judge.me (agregator aprobat, live din 10.04.2026). Cu aplicația proprie, feedul de recenzii ar trebui trimis direct din Merchant Center-ul nostru, cu riscul să pierdem stelele o vreme. „Recenziile Google” de pe Maps nu există la noi (fără Google Business Profile, neeligibil).
 - **Decis (Marius, 14.11):** „revenim cu proiectul ăsta după 20–25 decembrie”. Până atunci Judge.me rămâne neschimbat. La reluare: plan cu importul recenziilor, widgeturi, e-mailurile de cerere, cuponul de 12 %, feedul Google fără pierderea stelelor.
+- **14.11 – Prime Afiliați, trecerea pe 1 decembrie:**
+  - Marius: „stai nu îl punem activ, vreau să facem o informare la toți afiliații și pe mail și pe WhatsApp pe grupul unde sunt toți că de la 1 decembrie se schimbă platforma unde își vor vedea vânzările și comisioanele”.
+  - **Decis:** aplicația rămâne în modul umbră; trecerea are loc pe **1.12.2026**. Anunțul (e-mail + grup WhatsApp) e pregătit în `afiliati/ANUNT-PLATFORMA-NOUA-2026-12-01.md` și așteaptă aprobarea; propunerea e să plece joi 20.11.
+  - **Promisiunile din anunț**, care trebuie respectate tehnic până pe 1.12:
+    - codul rămâne;
+    - linkul vechi din bio merge;
+    - comisionul din noiembrie rămâne al afiliatului;
+    - logarea se face cu e-mailul de afiliat, fără parolă.

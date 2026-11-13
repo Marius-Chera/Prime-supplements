@@ -825,3 +825,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Date reale, după recitirea pe 60 de zile:** 1.207 comenzi, 679 aduse de afiliați. Pe ultimele 30 de zile: 391 de comenzi, 145.713 lei vânzări eligibile.
   - **Ce lipsește:** Marius trebuie să facă „Release” la versiunea `v2-portal-afiliati` în Dev Dashboard (App Proxy + `read_customers`) și să aprobe permisiunea; abia apoi portalul merge în site.
   - **Risc notat pentru modul live:** 77 de afiliați au comision „aprobat” calculat de noi, dar o parte a fost deja plătită de UpPromote. Înainte de live trebuie o dată de pornire, iar tot ce e dinainte se marchează „plătit de UpPromote”.
+- 14.11 (01:50): **anunțul de schimbare a platformei de afiliere** pregătit (nimic trimis):
+  - e-mailul în designul comun (`afiliati/sabloane/afiliati-anunt-platforma-noua.html`, cu previzualizare PNG alături);
+  - mesajul pentru grupul de WhatsApp și mementoul din 1.12;
+  - calendarul (20.11 anunț, 1.12 trecere, dezabonare UpPromote înainte de 11.12);
+  - lista tehnică de făcut până pe 1.12.
+  
+  Detalii: `afiliati/ANUNT-PLATFORMA-NOUA-2026-12-01.md`.

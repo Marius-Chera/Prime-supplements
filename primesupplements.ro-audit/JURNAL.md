@@ -807,3 +807,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 ## 2026-11-14 – Recenzii: aplicație proprie în locul Judge.me, discutată și amânată
 - Verificat ce exista deja (`recenzii/`, audit, DE-FACUT): Judge.me pe planul Awesome (~15 $/lună), feedul către Google Shopping prin Judge.me live din 10.04.2026, fără Google Business Profile.
 - Proprietarul a decis să reluăm proiectul după 20–25.12.2026. Trecut în `DE-FACUT.md` (31) și `ISTORIC-DISCUTII.md`. Nimic schimbat în Judge.me sau Shopify.
+
+## 2026-11-14 – Aplicații plătite: ce putem înlocui cu aplicații proprii
+- Citită lista live a aplicațiilor (21 instalate). Sumele abonamentelor nu se pot citi prin API. Analiza e în `APLICATII-DE-CLONAT-2026-11-14.md`: ușor de înlocuit Delivery Estimator și butonul WhatsApp (snippet în temă); de evitat Pandectes și theMarketer; Simprosys nu înainte de Black Friday.

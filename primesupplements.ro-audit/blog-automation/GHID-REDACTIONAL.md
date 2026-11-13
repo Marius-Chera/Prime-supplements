@@ -50,7 +50,13 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 - **Fără mențiuni nutriționale neautorizate.** Nu scrie „sursă de carbohidrați”, „sursă de energie”, „sursă bună/excelentă/rapidă/ideală de…”, „energie rapidă” sau „energie de durată” despre un aliment sau un supliment. „Sursă de” e permis doar pentru proteine, fibre, vitamine și minerale sau omega-3 și doar dacă eticheta îndeplinește condiția. Scrii faptul cu cifra de pe etichetă: „o porție de 45 g are 32,6 g de carbohidrați, conform etichetei”.
 - **Gluten.** Nu scrie „fără gluten” sau „nu conține gluten” decât dacă eticheta spune explicit „fără gluten” și nu are rândul „poate conține urme de grâu/gluten”. Crema de orez Prime are pe etichetă „poate conține urme de … grâu”, deci nu e fără gluten. Ovăzul e în lista cerealelor care conțin gluten (Reg. 1169/2011, anexa II); nu scrie „ovăzul e natural fără gluten”.
 - Interzise: „vindecă”, „tratează”, „previne boala”, „detoxifică”, „arde grăsimea”, „garantat”, procente de rezultat inventate, mărturii inventate. Nu da sfaturi medicale; pentru afecțiuni, sarcină, alăptare sau medicamente: „discută cu medicul”.
-- **Studii:** citează doar ce știi sigur și formulează prudent („studiile arată că…”, „o meta-analiză din 2021 a găsit…”). Nu inventa titluri, autori, cifre sau linkuri. Fără linkuri externe, în afara surselor oficiale (EFSA, OMS), și doar dacă ești sigur că adresa există.
+- **Studii și surse (regulă nouă de la proprietar, 13.11.2026 – articolele trebuie să poată fi citate de Google și de ChatGPT, Gemini, Copilot):** fiecare articol are **3–6 surse verificate pe PubMed** (recenzii, meta-analize, poziții oficiale ca ISSN, studii randomizate), plus, unde e cazul, Regulamentul (UE) nr. 432/2012 (`https://eur-lex.europa.eu/eli/reg/2012/432/oj`) pentru mențiunile de sănătate. Reguli:
+  - Niciun „studiile arată” fără link: orice afirmație despre cercetare are în aceeași frază linkul `https://pubmed.ncbi.nlm.nih.gov/<PMID>/` cu `rel="noopener"` (fără `target="_blank"`), cu ancora „Autor și colab., an”.
+  - Spui ce a făcut studiul (câți participanți, ce au comparat) și ce a găsit, cu cifrele din rezumat; spui și limita lui când e evidentă (studiu mic, fără grup de control, alt tip de proteină etc.).
+  - Studiile **nu ocolesc regulile UE**: nu le folosești ca să sugerezi un efect pe care produsul nu are voie să-l promită (somn, stres, refacere, imunitate la glutamină, slăbire etc.). La nutrienții fără mențiune autorizată (glutamină, EAA, BCAA, coenzima Q10, extracte din plante) scrii deschis că în UE nu există mențiune autorizată și rezumi corect ce au găsit recenziile, inclusiv când nu au găsit nimic.
+  - Sursele se iau întâi din biblioteca verificată `blog-automatizare-surse-pubmed*.txt` (Shopify Files, cea mai nouă versiune; în repo `blog-automation/SURSE-PUBMED.md`). Un studiu nou se folosește doar dacă îl verifici în aceeași rulare cu `curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=<PMID>&retmode=json"` (titlu, revistă, an, DOI) și citești rezumatul (`efetch.fcgi?db=pubmed&id=<PMID>&rettype=abstract&retmode=text`). Dacă serviciul nu răspunde, folosești doar biblioteca. Nu inventa niciodată PMID, DOI, autori sau cifre.
+  - La final, înainte de disclaimer, secțiunea `<h2 id="surse">Surse</h2>` cu lista numerotată (format: Autor și colab. Titlu. Revistă. An;volum:pagini. link PubMed · link DOI), după șablonul din secțiunea 5.
+  - Linkuri externe permise: doar `pubmed.ncbi.nlm.nih.gov`, `doi.org` și `eur-lex.europa.eu`.
 - **Lungime:** 1.200–1.800 de cuvinte de conținut util, fără umplutură; propoziții scurte; un răspuns direct de 40–60 de cuvinte la începutul articolului (bun pentru Google și pentru AI Overviews).
 - **Structură:** fără H1 în corp (titlul articolului e H1); H2 pentru secțiuni (5–7), H3 pentru subsecțiuni; o listă sau un tabel unde ajută; secțiunea „Întrebări frecvente” cu 4–6 întrebări reale (H3 + răspuns de 2–4 propoziții).
 
@@ -71,6 +77,8 @@ Acest ghid îl urmează automatizarea zilnică (Routine-ul „Blog Prime Supplem
 ## 4b. Imaginea principală generată cu AI
 
 Fiecare articol nou are ca imagine principală o fotografie în care apare **produsul Prime real**, într-o scenă potrivită subiectului. **Stilul este cel al marilor site-uri de sănătate și fitness** (Healthline, Verywell Fit, Men's Health): fotografie editorială naturală, lumină de zi, culori reale, case și săli reale, mici imperfecțiuni firești. Nu trebuie să arate a reclamă lucioasă sau a imagine AI. Când există o poză potrivită din ședințele foto Prime, se pornește de la ea (secțiunea 4c). Pozele din casetele de produs rămân pozele oficiale ale produsului.
+
+**Pasul 0a – OpenArt (13.11.2026, cererea proprietarului):** dacă sesiunea are instrumentele OpenArt (`openart_*`) și `openart_account_get` arată cel puțin 20 de credite, imaginea se generează în OpenArt cu modelul `nano-banana-2`, modul `image2image`, `aspectRatio: "16:9"`, `resolution: "1K"`, cu poza oficială a produsului ca referință (`visualReferences`) și promptul de mai jos (stilul pozelor din lotul din 13.11: „Editorial blog hero photograph featuring the exact product from the reference image…”, scenă potrivită subiectului, fără text adăugat). O generare costă 20 de credite; maximum 2 generări pe articol. Verificarea vizuală a etichetei de la pasul 4 rămâne obligatorie; respinge scenele care sugerează un efect neautorizat (de exemplu dormitor seara la magneziu = somn). Dacă OpenArt lipsește sau nu are credite, continui cu pașii de mai jos. Pozele OpenArt deja generate și neîntrebuințate sunt listate în `blog-automation/rescrieri-pubmed-2026-11-13/PLAN-ARTICOLE-VECHI.md`.
 
 **Pasul 0 – poze pregătite de proprietar (05.11.2026):** înainte de orice generare, caută în Shopify Files `files(query: "filename:blog-<handle>*")`. Dacă există deja o imagine `blog-<handle>.jpg` (proprietarul generează uneori pozele dinainte, în aplicația Gemini, și le urcă în Files cu numele handle-ului din calendar), folosește-o direct ca imagine principală, cu text alternativ în română după regula de la pasul 8, după o verificare vizuală scurtă (produsul apare o dată, eticheta lizibilă, fără text adăugat). Nu genera nimic nou și nu consuma credite în acest caz. Dacă poza pregătită are o problemă evidentă, spune în raport și continuă cu pașii de mai jos.
 
@@ -275,6 +283,19 @@ Fără `<h1>`, fără `<script>`, fără JSON-LD (tema generează schema Article
 </div>
 ```
 
+Secțiunea „Surse” (obligatorie din 13.11.2026, după „Întrebări frecvente” și linkul de colecție, înainte de disclaimer; în text, citarea are forma `(<a href="https://pubmed.ncbi.nlm.nih.gov/PMID/" rel="noopener">Autor și colab., an</a>)`):
+
+```html
+<h2 id="surse">Surse</h2>
+<p>Lucrările de mai jos sunt citate în text; fiecare link duce la rezumatul de pe PubMed (Biblioteca Națională de Medicină a SUA) sau la textul oficial al legislației UE.</p>
+<ol style="padding-left: 20px; color: #334155;">
+  <li style="margin-bottom: 8px;">Autor X și colab. Titlul original. Revista. An;volum(nr):pagini. <a href="https://pubmed.ncbi.nlm.nih.gov/PMID/" rel="noopener">PubMed PMID</a> · <a href="https://doi.org/DOI" rel="noopener">doi:DOI</a></li>
+  <li style="margin-bottom: 8px;">Regulamentul (UE) nr. 432/2012 al Comisiei – lista mențiunilor de sănătate permise pentru alimente. <a href="https://eur-lex.europa.eu/eli/reg/2012/432/oj" rel="noopener">EUR-Lex</a></li>
+</ol>
+```
+
+Exemple complete, publicate pe 13.11.2026: `blog-automation/rescrieri-pubmed-2026-11-13/*.html` (creatină, glutamină, vitamina D3+K2, izolat vs concentrat, magneziu).
+
 Poză reală din ședința foto (opțional, 1–2 pe articol, vezi 4c):
 
 ```html
@@ -290,7 +311,7 @@ Culorile: text de accent `#a54f51`, fundaluri cu text alb `#b65b5d`, nuanța des
 
 ## 6. Verificare înainte de publicare (automatizarea o face la fiecare articol)
 
-1. Toate linkurile interne există (produs ACTIVE, colecție, articole publicate, prin Admin API).
+1. Toate linkurile interne există (produs ACTIVE, colecție, articole publicate, prin Admin API). Articolul are 3–6 linkuri PubMed diferite, fiecare PMID verificat (bibliotecă sau eutils), secțiunea „Surse” și niciun „studiile arată”, „cercetările arată” sau „conform studiilor” fără link în aceeași frază.
 2. Fără H1 în corp, fără `<script>`, fără linkuri inventate, fără prețuri, fără mențiuni de sănătate neautorizate (caută cuvintele interzise de la secțiunea 3, plus „sursă de”, „energie”, „fără gluten”, „somn”, „stres”, „crampe”, „refacere”, „rezultate”, „face efect” și verifică fiecare apariție după regulile de mai sus).
 3. Title tag ≤ 60 de caractere, meta description 140–155, handle unic, etichetele din calendar.
 4. După creare: citește articolul înapoi și confirmă `publishedAt` = ora programată (`isPublished` rămâne `false` până la ora respectivă), imaginea (cea generată cu AI, verificată vizual), metafield-urile SEO și etichetele.

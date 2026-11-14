@@ -96,10 +96,8 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 30. **Prime Afiliați – aplicația noastră în locul UpPromote (13.11, `afiliati/APLICATIE-PROPRIE-AFILIATI-2026-11-13.md`):**
     - **Actualizare 14.11:** adminul și portalul sunt făcute după structura UpPromote.
       - **Așteaptă proprietarul:** „Release” la `v2-portal-afiliati` în Dev Dashboard și aprobarea permisiunii `read_customers`, apoi testul portalului cu un afiliat de test pe e-mailul lui.
-      - **Înainte de modul live:**
-        - data de pornire (comisioanele de dinainte se socotesc plătite de UpPromote), ca să nu plătim de două ori;
-        - procentele reale din exportul UpPromote;
-        - scriptul `?ref=` din temă (clicuri și linkuri).
+      - **Actualizare 14.11 (noaptea), trecerea pe 1.12:** data de pornire și „Sold preluat din UpPromote” sunt în aplicație; 73 de afiliați importați din lista Google (e-mail, nume, comision); scriptul `?ref=` (și linkurile vechi `?sca_ref=`) e în tema de probă „Prime – link afiliați Prime Afiliați (14.11)”. Starea pe puncte: `afiliati/TRANZITIE-1-DECEMBRIE-2026.md` („Stare la 14.11”).
+      - **Așteaptă proprietarul:** (1) exportul UpPromote (text pentru extensie în planul de trecere); (2) publicarea temei de probă; (3) „Release” la `v2-portal-afiliati` (formularul e completat) + aprobarea permisiunii; (4) aprobarea textului de cookie-uri (`afiliati/POLITICA-COOKIES-PRIME-AFILIATI-2026-11-14.md`); (5) contabilul: comision cu sau fără TVA.
     - Etapa 1 (mod umbră) e urcată. **Așteaptă proprietarul:**
       - (a) creează aplicația „Prime Afiliați” în Dev Dashboard (App URL https://prime-afiliati.prime-expediere.workers.dev, permisiuni `read_orders`, `read_products`, `read_discounts`), pune Client secret-ul în Cloudflare și o instalează;
       - (b) creează repo-ul privat GitHub `Marius-Chera/prime-afiliati`;

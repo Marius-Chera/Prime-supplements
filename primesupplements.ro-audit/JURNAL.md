@@ -978,3 +978,24 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Textul publicat e în `backups/cookies-clarity-2026-10-23/politica-de-cookies.publicata-2026-11-15.html`.
   - **Rămâne:** scanarea nouă în Pandectes, pentru că lista de cookie-uri a bannerului are încă `_up_clid` și celelalte cookie-uri UpPromote. Am dat un text pentru extensie. Mai rămân și 2 blocuri UpPromote moarte în tema live, „Failed to render app block”. Sunt inofensive.
 - 15.11 (seara): **Prime Coș – „Retur în 14 zile” scos din banda de pe pagina de produs** (cerut de Marius: nu vrea returul „la vedere”; rămâne doar în politica de retur). Banda are acum 3 garanții (expediere în aceeași zi, plată, WhatsApp); pe mobil e mai compactă, pe un rând. Schimbarea e pe copia „Prime – fără retur la vedere (15.11)”, făcută din tema live Prime Coș; testată pe desktop și pe mobil (afiliații și butonul WhatsApp rămân la locul lor). Publicarea o face Marius.
+- 15.11 (01:15): Prime Expediere – **Depozit → Livrări: „Unde e comanda?”, colete blocate, refuzuri/retururi** (pasul 4 din reorganizare). Doar citire.
+  - **„Unde e comanda?”:** o singură căsuță, în care scrii numele, telefonul, numărul comenzii sau AWB-ul.
+    - Pentru fiecare comandă găsită arată clientul, orașul, telefonul, suma și dacă e ramburs sau card.
+    - Pentru comenzile expediate: data expedierii, AWB-ul și statusul Cargus citit pe loc. Pentru cele neexpediate: data plasării.
+    - Butoane: **WhatsApp** (se deschide cu mesajul gata scris, cu „tu”: „Bună, {prenume}! Comanda ta … a fost predată curierului Cargus (AWB …). Ultimul status …. O poți urmări aici: {link}”; comanda neexpediată primește mesajul „e în pregătire”), **Cargus** (urmărirea) și **Comanda**.
+    - Verificat pe Nr.10363 (neexpediată) și pe Nr.10328 (AWB 1212753099, „Intrare in depozit”).
+  - **„De urmărit”:**
+    - colete blocate = verificate, nelivrate și fără niciun eveniment nou în 2 zile lucrătoare (weekendul nu se numără);
+    - refuzate / returnate în ultimele 30 de zile;
+    - numărul lor apare pe fila „Livrări”.
+  - **Cum se urmăresc coletele:** aplicația înregistrează la 3 ore comenzile expediate din ultimele 3 săptămâni. Statusul îl citește singură, unul câte unul, de pe pagina publică cargus.ro (după cheia API, din API): câte 10 colete la fiecare jumătate de oră și câte 25 cât timp sunt multe neverificate.
+    - Prima încărcare: 425 de colete, verificate în următoarele ore.
+    - „Nu am gasit nici un colet!” = încă nescanat; un colet nescanat apare ca blocat abia după 2 verificări.
+    - O pagină incompletă se reîncearcă. La prima verificare făcută în paralel, cargus.ro nu a răspuns la jumătate dintre colete; de aceea verificarea se face acum unul câte unul.
+  - Lista completă de livrări de dinainte a rămas, strânsă jos.
+  - 110 teste; versiunea 2ec970b4; commit `734bf7c`.
+- 15.11: Marius întreabă dacă aplicația își poate lua singură rapoartele plăților cu cardul, dacă Prime trece de la Netopia la Shopify Payments. **Răspuns: da.**
+  - API-ul Shopify (`ShopifyPaymentsAccount` → balanceTransactions + payouts) dă pentru fiecare plată suma, comisionul, netul, comanda și payout-ul în care a intrat.
+  - Aplicația le poate citi singură, fără fișiere. Payout-ul se leagă de extrasul BT după sumă + dată, ca la Cargus. Factura se ia ca acum, din comandă.
+  - Trebuie doar o versiune nouă a aplicației, cu permisiunile `read_shopify_payments_payouts` / `read_shopify_payments_accounts`, aprobată de Marius.
+  - De încărcat ar rămâne doar extrasul BT și rapoartele Cargus pentru contul colector. Pe acestea din urmă le-am putea lua din API-ul Cargus după cheie, dacă API-ul dă decontările; de verificat.

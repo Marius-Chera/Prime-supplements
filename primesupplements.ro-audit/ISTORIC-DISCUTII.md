@@ -454,3 +454,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **15.11 – publicare devreme:** Marius a cerut publicarea temei Prime Coș imediat (nu după Late Black Friday) și dezinstalarea Delivery Estimator + Dondy. Publicată la 00:54; tema veche rămâne pentru revenire.
 - **15.11 – Prime Coș publicat (Marius):** „am dezinstalat delivery estimator”. Tema Prime Coș era deja publicată, mai devreme decât planul „după Late Black Friday”; verificată live, merge.
 - **15.11 – Fără retur la vedere (Marius):** „vreau doar partea din pagina de produs «retur 14 zile»… nu aș vrea să afișăm chiar așa la vedere”. Regulă: nu afișăm returul de 14 zile ca argument de vânzare pe paginile de produs; rămâne în politica de retur.
+- **15.11 – Prime Expediere, Depozit (pasul 4):** „Unde e comanda?”, colete blocate și refuzuri sunt în Livrări. Alese de Claude:
+  - statusul vine de pe pagina publică cargus.ro până la cheia API;
+  - blocat = 2 zile lucrătoare fără niciun eveniment;
+  - mesajul de WhatsApp folosește „tu”, ca în restul textelor Prime.
+- **15.11 – Netopia → Shopify Payments (întrebarea lui Marius):** „dacă eliminăm plățile prin Netopia și punem Shopify Payments, pentru că ne-am dat seama că e mai rentabil, aplicația își poate trage rapoartele direct din Shopify?” Răspuns: da, prin API (tranzacții + payout-uri, legate de comenzi), după o versiune nouă a aplicației cu permisiunile Shopify Payments. De încărcat ar rămâne extrasul BT + contul colector Cargus. Decizia de trecere îi aparține lui Marius; construcția se face când o confirmă.

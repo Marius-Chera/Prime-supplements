@@ -852,3 +852,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Aprobarea fără minim.
   - Voucherul PF de la 500 lei credit, cu un cod pentru tot creditul.
   - Cererea de plată doar pentru PFA/SRL, de la 500 lei.
+- 14.11: Marius a aprobat aplicația Prime Afiliați („arată bine aplicația, sunt mulțumit”). Planul trecerii pe 1.12, pe zile și pe persoane, e în `afiliati/TRANZITIE-1-DECEMBRIE-2026.md`.

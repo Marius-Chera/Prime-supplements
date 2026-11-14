@@ -887,3 +887,23 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 14.11 (noapte): **„Prime Coș” – plan pentru înlocuirea Delivery Estimator + coș mai mare** (cerut de Marius), în `livrare/PRIME-COS-PLAN-2026-11-14.md`. Citit live: Delivery Estimator afișează „Comandã pânã la ora 12:00 … cel tarziu …” (diacritice greșite, fără sărbători legale) și încarcă 2 scripturi externe. Propus: cod în temă, fără server și fără cost: (1) estimare livrare corectă, cu sărbătorile din România; (2) „Merge perfect cu” pe produs (Search & Discovery); (3) produse care închid diferența până la 300 lei în coș; (4) pachetul din Reduceri în locul produsului; (5) măsurare prin `_sursa` pe produsele adăugate. Fără coduri de reducere noi. Nimic modificat pe site; așteaptă deciziile lui Marius.
 - 14.11 (seara, 23:00): Prime Afiliați – **costurile din Oblio după SKU** (Marius: „toate datele de costuri de achiziție le iei din Oblio”, „în funcție de SKU”): citit din Oblio (Raport stocuri, doar citire, gestiunea online, apoi SHOP) costul fiecărui cod = media prețurilor de intrare fără TVA 2025–2026; 616 coduri puse în aplicație cu cheia SKU (potrivire verificată: Whey, batoane la bucată și la cutie, fiole, haine Prime). Ordinea în calcul: costul scris de mână pe variantă → Oblio după SKU → costul pe produs (pachetele = suma produselor). Costurile stau doar în baza aplicației.
 - 14.11 (seara): Prime Afiliați – **doar codurile legate de conturi de afiliat** (Marius: „strict doar codurile de reducere ce sunt legate la conturi cum sunt în UpPromote … suci10, tamasanu20 etc. … nu fac parte din sistemul acesta”): rămân cei 73 de afiliați cu cont (lista „Prime – Afiliați”); cele 34 de coduri fără cont (suci10, tamasanu20, PrimeVIP, PRIME1, WELCOME5, BF10, spring10, chera10, Marius10 …) au ieșit din aplicație cu cele 118 comenzi atribuite lor și sunt pe lista „Coduri în afara programului” (Setări), ca să nu mai fie preluate; fiecare se poate readuce. În fișa afiliatului e butonul nou „Scoate din program”. Migrarea 0006.
+- 15.11 (00:40): Prime Expediere – **Contabilitate → Extras de cont (Banca Transilvania, PDF)**, pasul 2 din reorganizare (cerut de Marius: raportul pentru contabilă pleacă de la încasarea din extras și coboară până la factură).
+  - **Încărcarea:** extrasul se trage în pagină și se citește în browser (pdf.js). Se păstrează **doar încasările** (migrarea 0009: `bank_statements`, `bank_lines`), nu și plățile. În Shopify și Oblio nu se scrie nimic.
+  - **Verificare la fiecare extras:** încasările citite trebuie să dea exact „RULAJ TOTAL CONT” din extras.
+  - **Legătura cu deconturile:**
+    - Netopia: după BATCHID din descriere. Câțiva bani diferență sunt rotunjirea Netopia (pe octombrie, 6 deconturi au avut ±0,01 lei).
+    - Cargus: după sumă + dată, pentru că BT nu arată numărul OP-ului Cargus.
+    - De acolo, fiecare încasare din decont e legată de comandă și de factura PRS (ce e deja în Încasări).
+  - **Excel „în trepte”**, cu grupuri pliabile (butoanele 1-2-3 din Excel):
+    - foaia „Extras în trepte”: rândul din extras → OP-ul / decontul → fiecare încasare cu comanda și factura;
+    - foaia „Lipsuri”: bani fără raport, rapoarte fără bani, diferențe de sumă, rambursuri neîncasate;
+    - foaia „Extrase”: soldurile și rulajele.
+  - **Rambursurile expediate de peste 14 zile fără încasare Cargus** apar doar când toate încasările Cargus din extras au raportul încărcat. Altfel ar fi socotite neîncasate și comenzile plătite prin OP-urile lipsă (prima încercare a dat 294).
+  - **Testat pe extrasele reale din octombrie** (date doar pe calculator, nu în repo):
+    - 4 conturi: RON …4101, contul principal, cu 73 de încasări = 286.311,47 lei; RON …4102, cu 59 de încasări „Data entry carduri” = 26.856,15 lei; USD cu 2; EUR cu 0. Toate egale cu rulajele din extras.
+    - pdf.js din browser dă exact aceleași date ca testul local (amprentă SHA-256 identică).
+    - **Cargus: 10 din 22** încasări legate. Toate cele 10 OP-uri încărcate în Încasări au fost găsite; lipsesc rapoartele pentru 01, 02, 05, 14, 15, 16 și 23–30.10.
+    - **Netopia: 11 din 22** legate. Lipsesc deconturile de la 12.10 încoace (63674326, 63845012 și următoarele).
+    - 88 de alte încasări în lei = 113.874,90 lei.
+    - Extrasele din octombrie sunt deja încărcate în aplicație. Dacă Marius le trage din nou, se înlocuiesc.
+  - 94 de teste, inclusiv Excelul generat chiar de codul paginii. Versiunea 0da50418, commit `71d6919`.

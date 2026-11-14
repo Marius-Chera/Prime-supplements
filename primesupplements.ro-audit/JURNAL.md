@@ -1011,3 +1011,26 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Listele de luni din fiecare pagină au dispărut.
   - 111 teste, versiunea bfad6003.
 - 15.11 (seara, 23:18 UTC): **tema „Prime – fără retur la vedere (15.11)” e LIVE** (publicată de Marius, după ce o republicare a temei Prime Coș o înlocuise pentru câteva minute). Verificat în Shopify (MAIN, MD5 identic cu repo-ul) și pe site, fără previzualizare: banda are 3 garanții, fără „Retur în 14 zile”; estimarea livrării, „Merge perfect cu” (3 produse), scriptul de afiliați și butonul `prime-wa` sunt la locul lor; niciun script Delivery Estimator.
+- 15.11 (01:30): Prime Expediere – **raportul de închidere a lunii pentru contabilă** (cerut de Marius, după modelul contabilei „PRIME raport contabila incasari cargus ramburs si card.xlsx”: foile CARGUS și NETOPIA, câte un bloc pe fiecare OP / decont, cu factura PRS și clientul lângă sumă, totalul și rândul din extrasul BT). Butonul e în Contabilitate → Încasări: „Raport de închidere a lunii (Excel)”, pentru luna de lucru.
+  - **Foile:**
+    - **Rezumat:** fiecare OP / decont cu suma din raport și cea din extras, totalurile lunii, ce e de verificat și legenda culorilor;
+    - **CARGUS și NETOPIA:** în formatul contabilei;
+    - **De verificat.**
+  - **Culorile:**
+    - bandă închisă la OP-ul / decontul nou;
+    - antete gri;
+    - factura găsită verde, „LIPSĂ” roșu;
+    - totalul fiecărui OP / decont galben;
+    - extrasul BT: verde = încasat, roșu = lipsă, galben = de verificat;
+    - comisioanele Netopia gri, rambursările portocaliu, comenzile agentului de vânzări albastru.
+  - **Testat pe octombrie, cu datele reale:**
+    - 21 de OP-uri Cargus (402 colete, 122.631,04 lei) și 22 de deconturi Netopia (69.384,52 lei net) – toate găsite în extrasul BT;
+    - total net 192.015,60 lei;
+    - de verificat: 9 încasări fără factură și 1 sumă din extras fără raport.
+
+    Fișierul de probă e în `D:\Prime Supplements\incasari-exemple\` (date personale, nu în repo).
+- 15.11: Prime Expediere – Încasări: **completarea de mână** (cerută de Marius).
+  - Pe rândurile fără comandă sau factură, butonul ✎ deschide comanda, factura și bifa „Plasată de agentul de vânzări”.
+  - Datele se salvează separat (migrarea 0013), deci reîncărcarea rapoartelor nu le șterge. Apar și în rapoarte.
+  - **Sugestiile din observații** („facturi cu aceeași sumă: PRS …”, „posibile facturi Oblio: …”) au buton „✓ Aplică PRS …”, cu un singur clic (se poate schimba din ✎).
+  - 117 teste, versiunea e5ab5396.

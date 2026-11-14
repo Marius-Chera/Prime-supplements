@@ -1,0 +1,259 @@
+factura,data,motiv,total_factura_usd,linie,tip,suma_usd,nr_bucati
+398574090,2025-07-31,ACCOUNT_CYCLE,181.23,"UpPromote",application_usage,142.26,70
+398574090,2025-07-31,ACCOUNT_CYCLE,181.23,"Delivery Estimator",application_subscription,1.99,1
+398574090,2025-07-31,ACCOUNT_CYCLE,181.23,"Dondy WhatsApp",application_subscription,6.99,1
+398574090,2025-07-31,ACCOUNT_CYCLE,181.23,"UpPromote",application_subscription,29.99,1
+398574090,2025-07-31,ACCOUNT_CYCLE,181.23,"Plan Grow",professional,92.0,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"UpPromote",application_usage,151.43,131
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Shopify Email",shopify_email,0.0,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Simprosys",application_subscription,4.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Upsell Koala Bundles",application_subscription,59.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Koala Upsells & Gifts",application_subscription,29.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"UpPromote",application_subscription,199.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Fontify",application_subscription,3.0,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Pandectes GDPR",application_subscription,9.0,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Judge.me",application_subscription,15.0,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Delivery Estimator",application_subscription,1.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Dondy WhatsApp",application_subscription,6.99,1
+411586478,2025-08-30,ACCOUNT_CYCLE,539.79,"Plan Grow",professional,92.0,1
+423747116,2025-09-27,THRESHOLD,483.01,"Simprosys",application_subscription,4.99,1
+423747116,2025-09-27,THRESHOLD,483.01,"Upsell Koala Bundles",application_subscription,59.99,1
+423747116,2025-09-27,THRESHOLD,483.01,"Transaction fees (1% Netopia)",gateway_surcharge,100.92,54
+423747116,2025-09-27,THRESHOLD,483.01,"Shopify Email",shopify_email,0.0,1
+423747116,2025-09-27,THRESHOLD,483.01,"Koala Upsells & Gifts",application_subscription,29.99,1
+423747116,2025-09-27,THRESHOLD,483.01,"UpPromote",application_usage,51.15,68
+423747116,2025-09-27,THRESHOLD,483.01,"UpPromote",application_subscription,199.99,1
+423747116,2025-09-27,THRESHOLD,483.01,"Fontify",application_subscription,3.0,1
+423747116,2025-09-27,THRESHOLD,483.01,"Pandectes GDPR",application_subscription,9.0,1
+423747116,2025-09-27,THRESHOLD,483.01,"Judge.me",application_subscription,15.0,1
+423747116,2025-09-27,THRESHOLD,483.01,"Delivery Estimator",application_subscription,1.99,1
+423747116,2025-09-27,THRESHOLD,483.01,"Dondy WhatsApp",application_subscription,6.99,1
+424680370,2025-09-29,ACCOUNT_CYCLE,95.13,"Transaction fees (1% Netopia)",gateway_surcharge,3.13,3
+424680370,2025-09-29,ACCOUNT_CYCLE,95.13,"Plan Grow",professional,92.0,1
+428431377,2025-10-08,THRESHOLD,508.26,"Pop Convert",application_usage,21.0,1
+428431377,2025-10-08,THRESHOLD,508.26,"Pop Convert",application_subscription,0.0,1
+428431377,2025-10-08,THRESHOLD,508.26,"Transaction fees (1% Netopia)",gateway_surcharge,27.29,18
+428431377,2025-10-08,THRESHOLD,508.26,"Simprosys",application_subscription,4.99,1
+428431377,2025-10-08,THRESHOLD,508.26,"Upsell Koala Bundles",application_subscription,59.99,1
+428431377,2025-10-08,THRESHOLD,508.26,"Shopify Email",shopify_email,0.0,1
+428431377,2025-10-08,THRESHOLD,508.26,"UpPromote",application_usage,165.01,189
+428431377,2025-10-08,THRESHOLD,508.26,"Koala Upsells & Gifts",application_subscription,29.99,1
+428431377,2025-10-08,THRESHOLD,508.26,"UpPromote",application_subscription,199.99,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Transaction fees (1% Netopia)",gateway_surcharge,54.98,34
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"UpPromote",application_usage,13.13,16
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Fontify",application_subscription,3.0,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Pandectes GDPR",application_subscription,9.0,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Judge.me",application_subscription,15.0,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Delivery Estimator",application_subscription,1.99,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Dondy WhatsApp",application_subscription,6.99,1
+437826458,2025-10-29,ACCOUNT_CYCLE,196.09,"Plan Grow",professional,92.0,1
+443196309,2025-11-10,THRESHOLD,480.27,"Pop Convert",application_subscription,0.0,1
+443196309,2025-11-10,THRESHOLD,480.27,"Pop Convert",application_usage,21.0,1
+443196309,2025-11-10,THRESHOLD,480.27,"Transaction fees (1% Netopia)",gateway_surcharge,68.18,32
+443196309,2025-11-10,THRESHOLD,480.27,"Simprosys",application_subscription,4.99,1
+443196309,2025-11-10,THRESHOLD,480.27,"Upsell Koala Bundles",application_subscription,59.99,1
+443196309,2025-11-10,THRESHOLD,480.27,"UpPromote",application_usage,96.13,95
+443196309,2025-11-10,THRESHOLD,480.27,"Shopify Email",shopify_email,0.0,1
+443196309,2025-11-10,THRESHOLD,480.27,"Koala Upsells & Gifts",application_subscription,29.99,1
+443196309,2025-11-10,THRESHOLD,480.27,"UpPromote",application_subscription,199.99,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"UpPromote",application_usage,159.27,175
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Transaction fees (1% Netopia)",gateway_surcharge,89.7,44
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Simprosys",application_subscription,0.87,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Fontify",application_subscription,3.0,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Pandectes GDPR",application_subscription,9.0,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Judge.me",application_subscription,15.0,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Delivery Estimator",application_subscription,1.99,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Dondy WhatsApp",application_subscription,6.99,1
+451686780,2025-11-28,ACCOUNT_CYCLE,377.82,"Plan Grow",professional,92.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Pop Convert",application_subscription,0.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Transaction fees (1% Netopia)",gateway_surcharge,55.99,43
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Simprosys",application_subscription,6.74,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Pop Convert",application_usage,21.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Upsell Koala Bundles",application_subscription,59.99,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"UpPromote",application_usage,53.26,70
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Shopify Email",shopify_email,0.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Koala Upsells & Gifts",application_subscription,29.99,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"UpPromote",application_subscription,199.99,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Fontify",application_subscription,3.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Pandectes GDPR",application_subscription,9.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Judge.me",application_subscription,15.0,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Delivery Estimator",application_subscription,1.99,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Dondy WhatsApp",application_subscription,6.99,1
+465686209,2025-12-28,ACCOUNT_CYCLE,554.94,"Plan Grow",professional,92.0,1
+473178926,2026-01-13,THRESHOLD,480.43,"Pop Convert",application_subscription,0.0,1
+473178926,2026-01-13,THRESHOLD,480.43,"Transaction fees (1% Netopia)",gateway_surcharge,60.97,34
+473178926,2026-01-13,THRESHOLD,480.43,"Simprosys",application_subscription,6.74,1
+473178926,2026-01-13,THRESHOLD,480.43,"Pop Convert",application_usage,21.0,1
+473178926,2026-01-13,THRESHOLD,480.43,"Upsell Koala Bundles",application_subscription,59.99,1
+473178926,2026-01-13,THRESHOLD,480.43,"Shopify Email",shopify_email,0.0,1
+473178926,2026-01-13,THRESHOLD,480.43,"Koala Upsells & Gifts",application_subscription,29.99,1
+473178926,2026-01-13,THRESHOLD,480.43,"UpPromote",application_usage,101.75,108
+473178926,2026-01-13,THRESHOLD,480.43,"UpPromote",application_subscription,199.99,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Transaction fees (1% Netopia)",gateway_surcharge,39.19,26
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Fontify",application_subscription,3.0,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Pandectes GDPR",application_subscription,9.0,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Judge.me",application_subscription,15.0,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Delivery Estimator",application_subscription,1.99,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Dondy WhatsApp",application_subscription,6.99,1
+480132113,2026-01-27,ACCOUNT_CYCLE,167.17,"Plan Grow",professional,92.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Transaction fees (1% Netopia)",gateway_surcharge,53.99,45
+489956124,2026-02-16,THRESHOLD,480.83,"Pop Convert",application_subscription,0.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"UpPromote",application_usage,80.14,99
+489956124,2026-02-16,THRESHOLD,480.83,"Simprosys",application_subscription,6.74,1
+489956124,2026-02-16,THRESHOLD,480.83,"Upsell Koala Bundles",application_subscription,59.99,1
+489956124,2026-02-16,THRESHOLD,480.83,"Pop Convert",application_usage,21.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Shopify Email",shopify_email,0.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Koala Upsells & Gifts",application_subscription,29.99,1
+489956124,2026-02-16,THRESHOLD,480.83,"UpPromote",application_subscription,199.99,1
+489956124,2026-02-16,THRESHOLD,480.83,"Fontify",application_subscription,3.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Pandectes GDPR",application_subscription,9.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Judge.me",application_subscription,15.0,1
+489956124,2026-02-16,THRESHOLD,480.83,"Delivery Estimator",application_subscription,1.99,1
+494382870,2026-02-26,ACCOUNT_CYCLE,128.75,"Transaction fees (1% Netopia)",gateway_surcharge,29.76,17
+494382870,2026-02-26,ACCOUNT_CYCLE,128.75,"Dondy WhatsApp",application_subscription,6.99,1
+494382870,2026-02-26,ACCOUNT_CYCLE,128.75,"Plan Grow",professional,92.0,1
+502226575,2026-03-15,THRESHOLD,482.63,"Pop Convert",application_subscription,0.0,1
+502226575,2026-03-15,THRESHOLD,482.63,"Transaction fees (1% Netopia)",gateway_surcharge,13.37,9
+502226575,2026-03-15,THRESHOLD,482.63,"Simprosys",application_subscription,6.74,1
+502226575,2026-03-15,THRESHOLD,482.63,"UpPromote",application_usage,114.65,127
+502226575,2026-03-15,THRESHOLD,482.63,"Upsell Koala Bundles",application_subscription,59.99,1
+502226575,2026-03-15,THRESHOLD,482.63,"Pop Convert",application_usage,21.0,1
+502226575,2026-03-15,THRESHOLD,482.63,"Shopify Email",shopify_email,0.0,3
+502226575,2026-03-15,THRESHOLD,482.63,"Koala Upsells & Gifts",application_subscription,29.99,1
+502226575,2026-03-15,THRESHOLD,482.63,"UpPromote",application_subscription,199.99,1
+502226575,2026-03-15,THRESHOLD,482.63,"BlogGenAuto",application_subscription,24.9,1
+502226575,2026-03-15,THRESHOLD,482.63,"Fontify",application_subscription,3.0,1
+502226575,2026-03-15,THRESHOLD,482.63,"Pandectes GDPR",application_subscription,9.0,1
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Transaction fees (1% Netopia)",gateway_surcharge,69.16,32
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"UpPromote",application_usage,101.04,107
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Shopify Email",shopify_email,1.96,2
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Judge.me",application_subscription,15.0,1
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Delivery Estimator",application_subscription,1.99,1
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"YouTube Gallery",application_subscription,5.99,1
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Dondy WhatsApp",application_subscription,6.99,1
+508052147,2026-03-28,ACCOUNT_CYCLE,294.13,"Plan Grow",professional,92.0,1
+516624862,2026-04-16,THRESHOLD,480.44,"Pop Convert",application_subscription,0.0,1
+516624862,2026-04-16,THRESHOLD,480.44,"Transaction fees (1% Netopia)",gateway_surcharge,73.78,38
+516624862,2026-04-16,THRESHOLD,480.44,"Simprosys",application_subscription,6.74,1
+516624862,2026-04-16,THRESHOLD,480.44,"Shopify Email",shopify_email,2.93,3
+516624862,2026-04-16,THRESHOLD,480.44,"Pop Convert",application_usage,21.0,1
+516624862,2026-04-16,THRESHOLD,480.44,"UpPromote",application_usage,109.11,116
+516624862,2026-04-16,THRESHOLD,480.44,"Koala Upsells & Gifts",application_subscription,29.99,1
+516624862,2026-04-16,THRESHOLD,480.44,"UpPromote",application_subscription,199.99,1
+516624862,2026-04-16,THRESHOLD,480.44,"BlogGenAuto",application_subscription,24.9,1
+516624862,2026-04-16,THRESHOLD,480.44,"Fontify",application_subscription,3.0,1
+516624862,2026-04-16,THRESHOLD,480.44,"Pandectes GDPR",application_subscription,9.0,1
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"UpPromote",application_usage,46.04,47
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"Judge.me",application_subscription,15.0,1
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"Transaction fees (1% Netopia)",gateway_surcharge,33.92,21
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"Delivery Estimator",application_subscription,1.99,1
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"YouTube Gallery",application_subscription,5.99,1
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"Dondy WhatsApp",application_subscription,6.99,1
+521860970,2026-04-27,ACCOUNT_CYCLE,201.93,"Plan Grow",professional,92.0,1
+530867962,2026-05-16,THRESHOLD,480.01,"Pop Convert",application_subscription,0.0,1
+530867962,2026-05-16,THRESHOLD,480.01,"Transaction fees (1% Netopia)",gateway_surcharge,70.19,37
+530867962,2026-05-16,THRESHOLD,480.01,"Simprosys",application_subscription,6.74,1
+530867962,2026-05-16,THRESHOLD,480.01,"UpPromote",application_usage,100.2,112
+530867962,2026-05-16,THRESHOLD,480.01,"Pop Convert",application_usage,21.0,1
+530867962,2026-05-16,THRESHOLD,480.01,"Koala Upsells & Gifts",application_subscription,29.99,1
+530867962,2026-05-16,THRESHOLD,480.01,"UpPromote",application_subscription,199.99,1
+530867962,2026-05-16,THRESHOLD,480.01,"BlogGenAuto",application_subscription,24.9,1
+530867962,2026-05-16,THRESHOLD,480.01,"Fontify",application_subscription,3.0,1
+530867962,2026-05-16,THRESHOLD,480.01,"Pandectes GDPR",application_subscription,9.0,1
+530867962,2026-05-16,THRESHOLD,480.01,"Judge.me",application_subscription,15.0,1
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"UpPromote",application_usage,26.44,29
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"Transaction fees (1% Netopia)",gateway_surcharge,35.38,22
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"Delivery Estimator",application_subscription,1.99,1
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"YouTube Gallery",application_subscription,5.99,1
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"Dondy WhatsApp",application_subscription,6.99,1
+535888083,2026-05-27,ACCOUNT_CYCLE,168.79,"Plan Grow",professional,92.0,1
+545189768,2026-06-16,THRESHOLD,481.17,"Pop Convert",application_subscription,0.0,1
+545189768,2026-06-16,THRESHOLD,481.17,"Transaction fees (1% Netopia)",gateway_surcharge,70.45,38
+545189768,2026-06-16,THRESHOLD,481.17,"Simprosys",application_subscription,6.74,1
+545189768,2026-06-16,THRESHOLD,481.17,"Pop Convert",application_usage,21.0,1
+545189768,2026-06-16,THRESHOLD,481.17,"UpPromote",application_usage,101.1,121
+545189768,2026-06-16,THRESHOLD,481.17,"Koala Upsells & Gifts",application_subscription,29.99,1
+545189768,2026-06-16,THRESHOLD,481.17,"UpPromote",application_subscription,199.99,1
+545189768,2026-06-16,THRESHOLD,481.17,"BlogGenAuto",application_subscription,24.9,1
+545189768,2026-06-16,THRESHOLD,481.17,"Fontify",application_subscription,3.0,1
+545189768,2026-06-16,THRESHOLD,481.17,"Pandectes GDPR",application_subscription,9.0,1
+545189768,2026-06-16,THRESHOLD,481.17,"Judge.me",application_subscription,15.0,1
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"UpPromote",application_usage,50.75,67
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"Transaction fees (1% Netopia)",gateway_surcharge,66.89,30
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"Delivery Estimator",application_subscription,1.99,1
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"YouTube Gallery",application_subscription,5.99,1
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"Dondy WhatsApp",application_subscription,6.99,1
+549851531,2026-06-26,ACCOUNT_CYCLE,224.61,"Plan Grow",professional,92.0,1
+558278273,2026-07-14,THRESHOLD,480.62,"Transaction fees (1% Netopia)",gateway_surcharge,67.99,46
+558278273,2026-07-14,THRESHOLD,480.62,"Pop Convert",application_subscription,0.0,1
+558278273,2026-07-14,THRESHOLD,480.62,"Simprosys",application_subscription,6.74,1
+558278273,2026-07-14,THRESHOLD,480.62,"UpPromote",application_usage,118.01,169
+558278273,2026-07-14,THRESHOLD,480.62,"Pop Convert",application_usage,21.0,1
+558278273,2026-07-14,THRESHOLD,480.62,"Koala Upsells & Gifts",application_subscription,29.99,1
+558278273,2026-07-14,THRESHOLD,480.62,"UpPromote",application_subscription,199.99,1
+558278273,2026-07-14,THRESHOLD,480.62,"BlogGenAuto",application_subscription,24.9,1
+558278273,2026-07-14,THRESHOLD,480.62,"Fontify",application_subscription,3.0,1
+558278273,2026-07-14,THRESHOLD,480.62,"Pandectes GDPR",application_subscription,9.0,1
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"UpPromote",application_usage,89.69,125
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"Transaction fees (1% Netopia)",gateway_surcharge,60.23,33
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"Judge.me",application_subscription,15.0,1
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"Delivery Estimator",application_subscription,1.99,1
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"YouTube Gallery",application_subscription,5.99,1
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"Dondy WhatsApp",application_subscription,6.99,1
+564037491,2026-07-26,ACCOUNT_CYCLE,271.89,"Plan Grow",professional,92.0,1
+571754062,2026-08-11,THRESHOLD,480.08,"Transaction fees (1% Netopia)",gateway_surcharge,62.3,45
+571754062,2026-08-11,THRESHOLD,480.08,"Pop Convert",application_subscription,0.0,1
+571754062,2026-08-11,THRESHOLD,480.08,"Simprosys",application_subscription,6.74,1
+571754062,2026-08-11,THRESHOLD,480.08,"UpPromote",application_usage,135.16,177
+571754062,2026-08-11,THRESHOLD,480.08,"Pop Convert",application_usage,21.0,1
+571754062,2026-08-11,THRESHOLD,480.08,"Koala Upsells & Gifts",application_subscription,29.99,1
+571754062,2026-08-11,THRESHOLD,480.08,"UpPromote",application_subscription,199.99,1
+571754062,2026-08-11,THRESHOLD,480.08,"BlogGenAuto",application_subscription,24.9,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Transaction fees (1% Netopia)",gateway_surcharge,76.3,42
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Fontify",application_subscription,3.0,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Pandectes GDPR",application_subscription,9.0,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"UpPromote",application_usage,77.57,103
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Judge.me",application_subscription,15.0,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Delivery Estimator",application_subscription,1.99,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"YouTube Gallery",application_subscription,5.99,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Dondy WhatsApp",application_subscription,6.99,1
+578908885,2026-08-25,ACCOUNT_CYCLE,287.84,"Plan Grow",professional,92.0,1
+588566262,2026-09-13,THRESHOLD,484.87,"UpPromote",application_usage,103.84,136
+588566262,2026-09-13,THRESHOLD,484.87,"Pop Convert",application_subscription,0.0,1
+588566262,2026-09-13,THRESHOLD,484.87,"Transaction fees (1% Netopia)",gateway_surcharge,71.41,42
+588566262,2026-09-13,THRESHOLD,484.87,"Simprosys",application_subscription,6.74,1
+588566262,2026-09-13,THRESHOLD,484.87,"Pop Convert",application_usage,21.0,1
+588566262,2026-09-13,THRESHOLD,484.87,"Koala Upsells & Gifts",application_subscription,29.99,1
+588566262,2026-09-13,THRESHOLD,484.87,"UpPromote",application_subscription,199.99,1
+588566262,2026-09-13,THRESHOLD,484.87,"BlogGenAuto",application_subscription,24.9,1
+588566262,2026-09-13,THRESHOLD,484.87,"Fontify",application_subscription,3.0,1
+588566262,2026-09-13,THRESHOLD,484.87,"Pandectes GDPR",application_subscription,9.0,1
+588566262,2026-09-13,THRESHOLD,484.87,"Judge.me",application_subscription,15.0,1
+594172756,2026-09-24,ACCOUNT_CYCLE,211.85,"Transaction fees (1% Netopia)",gateway_surcharge,39.0,24
+594172756,2026-09-24,ACCOUNT_CYCLE,211.85,"UpPromote",application_usage,71.87,85
+594172756,2026-09-24,ACCOUNT_CYCLE,211.85,"Delivery Estimator",application_subscription,1.99,1
+594172756,2026-09-24,ACCOUNT_CYCLE,211.85,"Dondy WhatsApp",application_subscription,6.99,1
+594172756,2026-09-24,ACCOUNT_CYCLE,211.85,"Plan Grow",professional,92.0,1
+603209782,2026-10-11,THRESHOLD,484.33,"UpPromote",application_usage,108.32,160
+603209782,2026-10-11,THRESHOLD,484.33,"Pop Convert",application_subscription,0.0,1
+603209782,2026-10-11,THRESHOLD,484.33,"Transaction fees (1% Netopia)",gateway_surcharge,81.39,46
+603209782,2026-10-11,THRESHOLD,484.33,"Simprosys",application_subscription,6.74,1
+603209782,2026-10-11,THRESHOLD,484.33,"Pop Convert",application_usage,21.0,1
+603209782,2026-10-11,THRESHOLD,484.33,"Koala Upsells & Gifts",application_subscription,29.99,1
+603209782,2026-10-11,THRESHOLD,484.33,"UpPromote",application_subscription,199.99,1
+603209782,2026-10-11,THRESHOLD,484.33,"BlogGenAuto",application_subscription,24.9,1
+603209782,2026-10-11,THRESHOLD,484.33,"Fontify",application_subscription,3.0,1
+603209782,2026-10-11,THRESHOLD,484.33,"Pandectes GDPR",application_subscription,9.0,1
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Transaction fees (1% Netopia)",gateway_surcharge,67.55,38
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"UpPromote",application_usage,31.71,37
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Judge.me",application_subscription,15.0,1
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Delivery Estimator",application_subscription,1.99,1
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Dondy WhatsApp",application_subscription,6.99,1
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Plan Grow",professional,92.0,1
+610450014,2026-10-24,ACCOUNT_CYCLE,252.44,"Shopify Tax",shopify_tax,37.2,1
+621547496,2026-11-12,THRESHOLD,493.95,"Transaction fees (1% Netopia)",gateway_surcharge,106.46,59
+621547496,2026-11-12,THRESHOLD,493.95,"Simprosys",application_subscription,6.74,1
+621547496,2026-11-12,THRESHOLD,493.95,"UpPromote",application_usage,156.76,207
+621547496,2026-11-12,THRESHOLD,493.95,"UpPromote",application_subscription,199.99,1
+621547496,2026-11-12,THRESHOLD,493.95,"Pandectes GDPR",application_subscription,9.0,1
+621547496,2026-11-12,THRESHOLD,493.95,"Judge.me",application_subscription,15.0,1

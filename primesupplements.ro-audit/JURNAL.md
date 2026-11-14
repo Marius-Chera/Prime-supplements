@@ -923,3 +923,12 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - lista codurilor din Shopify.
   - Nu s-au preluat 4 ajustări vechi „pending” din UpPromote (3 retururi negative și o comandă din 10.07). Sunt trecute în PDF.
 - **E-mailul de anunț** (`afiliati/sabloane/afiliati-anunt-platforma-noua.html`) e rescris pentru 15.11: panoul vechi se închide azi, totul e mutat în panoul nou. Testul a plecat de pe contact@ (Gmail) la Marius și Adelina. Trimiterea către afiliați se face doar cu „da”-ul lui Marius.
+
+## 2026-11-15 – Analiza facturilor Shopify (12 luni) și explicarea „Transaction fees”
+- Cerut de Marius: toate facturile Shopify, unde pierdem cei mai mulți bani, ce mai putem tăia (inclusiv sume mici), de ce plătim „Transaction fees”; apoi „toate facturile din ultimele 12 luni”.
+- Citite (doar citire, browserul din aplicație, API-ul intern al paginii Setări → Facturare) **toate cele 30 de facturi** (31.07.2025–12.11.2026), rând cu rând; aplicațiile identificate după ID prin Admin API. Date: `costuri/facturi-shopify-2025-07_2026-11.csv`. Raport: `costuri/ANALIZA-FACTURI-SHOPIFY-2026-11-15.md`. Rezolvă și E11 din `SETARI-VANZARI-2026-10-16.md`.
+- **12 luni (23 de facturi, 28.11.2025–12.11.2026): 8.451,52 $ ≈ 38.000 lei (~704 $/lună).** UpPromote 4.336,56 $ (51%), Transaction fees 1.395,37 $ (16,5%), plan Grow 1.104 $ (13%), Koala ×2 569,85 $, Pop Convert 231 $, BlogGenAuto 199,20 $, Judge.me 195 $, restul sub 120 $ fiecare.
+- **Transaction fees = 1% (planul Grow) pe plățile cu cardul prin Netopia**, procesator extern; rambursul nu se taxează. Verificat: 1% din 627.904 lei Netopia ≈ 1.395 $. Au apărut din sept. 2025, când s-a trecut de la Shopify Payments (iul.–aug. 2025) la Netopia.
+- **Nou:** Shopify Tax 37,20 $ pe 24.10.2026; conform paginii Shopify, din 1.01.2027 pragul de 100.000 € e pe viață → ≈ 0,25% din fiecare comandă (~4.500–5.000 lei/an).
+- Deja oprite (nu mai apar pe factura din 12.11): Koala ×2, Pop Convert, BlogGenAuto, Fontify, YouTube Gallery (≈ 1.740 $/an). Pagina Plan arată ca abonamente active UpPromote (reînnoire 2.12) și Simprosys.
+- Nimic modificat în magazin.

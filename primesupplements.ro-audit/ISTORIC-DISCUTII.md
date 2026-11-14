@@ -429,3 +429,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Plăți:** Marius: „plățile ... în manual payments șterge-l complet, nu avem nevoie de ele, noi nu facem plăți astfel”. Întrebat, a ales „Mut ca voucher”: sumele aprobate, neplătite, devin credit în aplicația nouă și nu se plătește nimic.
 - **Afiliatul cu codul Robert10:** Marius a cerut ștergerea completă (contul și codul), pentru că nu a mai dat niciun semn după semnarea contractului. Făcut.
 - **Aplicația trece în mod live azi.** E-mailul către afiliați pleacă după test și „da”.
+
+## 15.11.2026 – Costurile Shopify
+- Marius: „analizează absolut toate facturile Shopify… unde pierdem cei mai mulți bani… inclusiv dacă putem economisi 10 euro lunar… de ce plătim «Transaction fees»”, apoi „toate facturile din ultimele 12 luni”. Raport: `costuri/ANALIZA-FACTURI-SHOPIFY-2026-11-15.md`.
+- Propus (așteaptă decizia lui Marius): dezinstalarea UpPromote înainte de 2.12 (reînnoirea); verificarea trecerii Shopify Tax pe rate manuale înainte de 1.01.2027; planul Grow plătit anual (83 $ în loc de 92 $); verificarea comisionului de schimb pe cardul cu care se plătește Shopify (facturi în USD). Shopify Payments rămâne „nu” (decizia din 23.10), cu cifrele de economie (≈ 3.700–6.200 lei/an) puse în raport, dacă vrea să o reia.

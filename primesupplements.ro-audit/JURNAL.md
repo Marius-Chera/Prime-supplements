@@ -862,3 +862,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Politica de cookie-uri:** textul nou pentru punctul 4 (UpPromote → Prime Afiliați), de aprobat: `afiliati/POLITICA-COOKIES-PRIME-AFILIATI-2026-11-14.md`. Nimic publicat.
   - **Rutina lunară `trig_01Bhur1tumHTnu32bfqgYSwg`:** nu mai pomenește UpPromote; raportul din 2.12 are cardul „Deschide panoul tău” spre `/apps/afiliati` (`sabloane/afiliati-raport-lunar.html`).
   - **Așteaptă de la Marius:** exportul UpPromote (text pentru extensie în planul de trecere), publicarea temei, Release la v2, aprobarea textului de cookie-uri, contabilul (TVA).
+- 14.11: Prime Afiliați – publicarea temei cu scriptul de link amânată de Marius până după Late Black Friday; copia se reface pe 28.11 (planul de trecere, punctul 3).

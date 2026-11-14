@@ -401,3 +401,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Codul `WELCOME5` nu e afiliat: oprit în aplicație. Alte coduri preluate fără rând în lista afiliaților (`PRIME1`, `PrimeVIP`, `BF10`, `spring10`, `chera10`, `Marius10`…) se decid după exportul UpPromote.
   - Linkul nou al afiliatului e `primesupplements.ro/?ref=<cod>`; linkurile vechi `?sca_ref=` rămân valabile (se leagă după ID-ul UpPromote). Cookie-ul ține 30 de zile, de aliniat cu setarea din UpPromote după export.
   - Scriptul stă într-o temă copiată; Marius o publică după previzualizare. Pentru că tema live se schimbă (Late Black Friday), dacă publicarea întârzie, copia se reface (2 fișiere).
+- **14.11 – Prime Afiliați, tema cu scriptul de link:** Marius: „așteptăm să terminăm cu black friday”. Tema nu se publică acum; după Late Black Friday (25–27.11), pe 28.11, copia se reface din tema live de atunci și se publică pe 28–30.11, înainte de trecerea din 1.12.

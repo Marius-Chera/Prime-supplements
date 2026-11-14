@@ -97,7 +97,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
     - **15.11 – TRECEREA FĂCUTĂ (devansată de la 1.12):**
       - Aplicația e live, cu data de pornire 3.11. Soldurile au fost preluate, iar backup-ul și PDF-ul sunt făcute (vezi JURNAL 15.11).
       - **La Marius:**
-        - (1) „da” pentru e-mailul către toți afiliații, după test;
+        - ~~(1) „da” pentru e-mailul către afiliați~~ – trimis pe 15.11 (79 de e-mailuri);
         - (2) dezinstalarea UpPromote;
         - (3) aprobarea textului de cookie-uri.
       - **Claude, după dezinstalare:**

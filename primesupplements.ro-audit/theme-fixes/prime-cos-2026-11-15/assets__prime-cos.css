@@ -62,12 +62,35 @@
 .pc-cart { display: grid; gap: 14px; margin-top: 16px; }
 .pc-popover { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--pc-line); text-align: start; }
 
+/* ---------- Garanții (sub poză pe desktop, sub livrare pe mobil) ---------- */
+.pc-garantii { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.pc-garantii li { display: flex; gap: 10px; align-items: flex-start; margin: 0; padding: 10px 12px; background: var(--pc-card); border: 1px solid var(--pc-line); border-radius: 12px; line-height: 1.3; color: var(--pc-ink); }
+.pc-garantii svg { flex: 0 0 20px; color: var(--pc-red); margin-top: 1px; }
+.pc-garantii b { display: block; font-size: 13px; font-weight: 700; }
+.pc-garantii span { display: block; margin-top: 2px; font-size: 12px; color: var(--pc-muted); }
+.pc-garantii a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+/* Sub poză: așezată în spațiul rezervat (padding) de sub galerie, ca să nu atingă grila galeriei */
+.product > product-gallery.pc-cu-garantii { position: relative; }
+.pc-garantii--sub-poza { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.pc-garantii--sub-poza li { padding: 12px; }
+
+@media (min-width: 1000px) and (min-height: 920px) {
+  /* Poza rămâne vizibilă cât timp derulezi coloana din dreapta (fără gol în stânga) */
+  .product > product-gallery, .product > product-gallery.pc-cu-garantii { position: sticky; top: calc(var(--sticky-area-height, 137px) + 20px); }
+}
+
 @media (min-width: 1000px) {
   .pc-cart .pc-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .pc-cart .pc-card { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-items: stretch; }
   .pc-cart .pc-card__body { grid-template-rows: auto 1fr; }
   .pc-cart .pc-card__form { align-content: end; }
   .pc-cart .pc-card__media { width: 100%; height: 120px; }
+}
+@media (max-width: 999px) {
+  /* Pe mobil garanțiile sunt compacte: iconiță + titlu (detaliile sunt în cardul de livrare de deasupra) */
+  .pc-garantii li { align-items: center; padding: 8px 10px; }
+  .pc-garantii span { display: none; }
+  .pc-garantii svg { flex-basis: 18px; width: 18px; height: 18px; margin-top: 0; }
 }
 @media (max-width: 699px) {
   .pc-offer { grid-template-columns: 1fr; }

@@ -73,6 +73,29 @@
     document.querySelectorAll('.pc-livrare[data-pc-product]').forEach(function (el) { el.hidden = !(v && v.available); });
   }, true);
 
+  // Garanțiile: pe desktop sub poza produsului, pe mobil sub estimarea livrării
+  var mq = window.matchMedia('(min-width: 1000px)');
+  function mutaGarantii() {
+    var s = document.querySelector('.pc-garantii'), home = document.querySelector('[data-pc-garantii-home]');
+    var g = document.querySelector('.product > product-gallery');
+    if (!s || !home) return;
+    if (mq.matches && g) {
+      if (s.parentElement !== g) g.appendChild(s);
+      s.classList.add('pc-garantii--sub-poza');
+      g.classList.add('pc-cu-garantii');
+      g.style.paddingBottom = (s.offsetHeight + 20) + 'px';
+    } else {
+      if (g) { g.classList.remove('pc-cu-garantii'); g.style.paddingBottom = ''; }
+      if (s.parentElement !== home) home.appendChild(s);
+      s.classList.remove('pc-garantii--sub-poza');
+    }
+  }
+  mutaGarantii();
+  document.addEventListener('DOMContentLoaded', mutaGarantii);
+  window.addEventListener('load', mutaGarantii);
+  window.addEventListener('resize', function () { clearTimeout(mutaGarantii.t); mutaGarantii.t = setTimeout(mutaGarantii, 150); });
+  if (mq.addEventListener) mq.addEventListener('change', mutaGarantii);
+
   /* ---------- 2. Carduri: prețul urmează varianta aleasă ---------- */
   document.addEventListener('change', function (e) {
     var s = e.target.closest && e.target.closest('.pc-card__select');

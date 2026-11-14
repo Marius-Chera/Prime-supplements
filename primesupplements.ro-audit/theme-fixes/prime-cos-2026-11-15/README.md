@@ -46,3 +46,8 @@ Fiecare produs adăugat din aceste blocuri primește proprietatea ascunsă `_sur
 - `config/settings_data.json`: embed-ul Dondy oprit (`disabled: true`).
 - Testat în previzualizare (desktop + 375 px): link identic cu Dondy, scriptul Dondy nu se mai încarcă, nu acoperă bara sticky.
 - **La publicare:** pe lângă Delivery Estimator, Marius dezinstalează și **Dondy** din Aplicații.
+
+## 15.11 (după-amiază) – golul de sub poză, pe desktop (cerut de Marius: „spațiul e cam gol… gândește-te ca cel mai tare designer”)
+- **Galerie fixă:** pe ecrane de cel puțin 1000 × 920 px, poza produsului rămâne vizibilă cât timp derulezi coloana din dreapta, la fel ca bara de cumpărare a temei. Se oprește exact la capătul secțiunii (verificat: nu intră peste tab-uri).
+- **Banda „Comanzi fără griji”** (4 garanții, toate reale): Expediere în aceeași zi (comenzile de până la 14:00, luni–vineri) · Retur în 14 zile (link la politica de retur) · Plătești cum vrei (card, ramburs sau transfer) · Întrebări? Scrie-ne pe WhatsApp. Pe desktop stă sub poză, în spațiul rezervat de sub galerie (`padding-bottom`, poziționată absolut), ca să nu se strice grila galeriei. Pe mobil stă sub cardul de livrare, compactă (iconiță + titlu, 2 × 2).
+- Fișiere schimbate: `snippets/prime-livrare.liquid`, `assets/prime-cos.css`, `assets/prime-cos.js` (MD5 identic cu tema).

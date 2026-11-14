@@ -422,3 +422,10 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Până la 0,05 lei diferență pe un decont Netopia e rotunjire.
   - Se păstrează doar încasările din extras.
   - Lista rambursurilor neîncasate apare doar când toate încasările Cargus din extras au raportul încărcat.
+
+### 15.11.2026 – Trecerea de pe UpPromote făcută pe 15.11, nu pe 1.12
+- **Marius (14.11, 23:51):** „hai să facem de astăzi … trecem în 15 noiembrie, pas cu pas, … și mâine să primească mailul toți afiliații”; „vreau să accepți tu referrals care trebuie, să faci tu payments în locul meu și să salvezi PDF și toate backup-urile necesare; pe mine mă anunți când să dezinstalez UpPromote”; „ok, te rog fă tot ce trebuie”.
+- **Decis:** data de pornire e 3.11.2026, pentru că toate comenzile pending din UpPromote încep pe 3.11. Comenzile din noiembrie se aprobă în aplicația nouă, nu în UpPromote.
+- **Plăți:** Marius: „plățile ... în manual payments șterge-l complet, nu avem nevoie de ele, noi nu facem plăți astfel”. Întrebat, a ales „Mut ca voucher”: sumele aprobate, neplătite, devin credit în aplicația nouă și nu se plătește nimic.
+- **Afiliatul cu codul Robert10:** Marius a cerut ștergerea completă (contul și codul), pentru că nu a mai dat niciun semn după semnarea contractului. Făcut.
+- **Aplicația trece în mod live azi.** E-mailul către afiliați pleacă după test și „da”.

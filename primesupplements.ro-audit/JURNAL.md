@@ -907,3 +907,19 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - 88 de alte încasări în lei = 113.874,90 lei.
     - Extrasele din octombrie sunt deja încărcate în aplicație. Dacă Marius le trage din nou, se înlocuiesc.
   - 94 de teste, inclusiv Excelul generat chiar de codul paginii. Versiunea 0da50418, commit `71d6919`.
+
+
+## 2026-11-15 – Prime Afiliați: trecerea de pe UpPromote făcută azi (devansată de la 1.12)
+- **Data de pornire mutată pe 3.11.2026, 00:00** (ora României). Toate comenzile „pending” din UpPromote încep pe 3.11. De pe 3.11 comisioanele sunt ale aplicației noi: 132 de comenzi „în așteptare”, 5.132,49 lei, care se aprobă singure la 14 zile după expediere. Cele de dinainte rămân „în soldul UpPromote”.
+- **Plățile din UpPromote:** „Manual payment” avea doar 2 afiliați, cu codurile SEBI10 și DAMIAN10 (aprobat, neplătit: 684,85 lei și 488,32 lei). Marius: „noi nu facem plăți astfel”. Suma nu s-a plătit; a intrat ca „Sold preluat din UpPromote” în aplicație și se ia ca voucher. „In-app payment” era 0.
+- **Afiliați:** 7 afiliați UpPromote, scoși greșit pe 14.11 ca „coduri fără cont”, au fost readuși. Afiliatul cu codul Robert10 a fost șters complet la cererea lui Marius: contul din aplicație și codul din Shopify (expirat, 0 folosiri). Rămân **79 de afiliați** și 79 de coduri. Toate cele 79 de coduri sunt active în Shopify (verificat azi).
+- **Fără comision pe LATEBF20** (setarea „coduri fără comision”), urcat.
+- **Rutina anunțului de pe 29.11 a fost oprită.** Anunțul pleacă azi.
+- **Tokenul Shopify se reînnoiește singur** când lipsesc permisiuni (`/api/status`).
+- **Aplicația e în mod LIVE** (versiunea c977a299, `/health` → `mode: live`). Afiliații PF își fac singuri voucherele din portal. Paza permite doar crearea și dezactivarea de coduri și etichetele.
+- **Backup înainte de dezinstalarea UpPromote**, local în folderul „D:/Proiecte Claude/Prime Supplements/backup-uppromote-2026-11-15” (are date personale, deci nu e în repo):
+  - export D1 pe tabele;
+  - PDF-ul „Solduri afiliați la trecere”: 79 de afiliați, credit preluat 1.173,17 lei, în așteptare 3–14.11 5.132,49 lei;
+  - lista codurilor din Shopify.
+  - Nu s-au preluat 4 ajustări vechi „pending” din UpPromote (3 retururi negative și o comandă din 10.07). Sunt trecute în PDF.
+- **E-mailul de anunț** (`afiliati/sabloane/afiliati-anunt-platforma-noua.html`) e rescris pentru 15.11: panoul vechi se închide azi, totul e mutat în panoul nou. Testul a plecat de pe contact@ (Gmail) la Marius și Adelina. Trimiterea către afiliați se face doar cu „da”-ul lui Marius.

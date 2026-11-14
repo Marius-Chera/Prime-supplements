@@ -94,6 +94,16 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 29. ~~**Blog – eticheta de categorie deasupra titlului (13.11):**~~ **FĂCUT 13.11** (aprobat de proprietar, `theme-fixes/snippets/eticheta-categorie-2026-11-13.md`); rămâne doar poza de la vitamina D. la articolele cu etichete „hub:…”/„intent:…” (toate din „Vitamine și minerale”, „Proteine”, „Pre-workout”, „Aminoacizi”, „Sănătate”), pe pagină apare „hub:vitamine-si-minerale” în loc de categorie. Cauza: Shopify ordonează etichetele alfabetic, iar `snippets/article-banner.liquid` și `snippets/blog-post-card.liquid` afișează `article.tags.first`. Reparația propusă (așteaptă „da” de la proprietar, e în tema live): se afișează prima etichetă fără „:” (`{%- for t in article.tags -%}{%- unless t contains ':' -%}{%- assign cat_tag = t -%}{%- break -%}{%- endunless -%}{%- endfor -%}`, cu `article.tags.first` ca rezervă). Poză de refăcut: `vitamina-d-imunitate-ce-spune-ue`.
 
 30. **Prime Afiliați – aplicația noastră în locul UpPromote (13.11, `afiliati/APLICATIE-PROPRIE-AFILIATI-2026-11-13.md`):**
+    - **15.11 – TRECEREA FĂCUTĂ (devansată de la 1.12):**
+      - Aplicația e live, cu data de pornire 3.11. Soldurile au fost preluate, iar backup-ul și PDF-ul sunt făcute (vezi JURNAL 15.11).
+      - **La Marius:**
+        - (1) „da” pentru e-mailul către toți afiliații, după test;
+        - (2) dezinstalarea UpPromote;
+        - (3) aprobarea textului de cookie-uri.
+      - **Claude, după dezinstalare:**
+        - verifică cele 79 de coduri în Shopify; codurile lipsă se recreează doar cu „da”;
+        - verifică dacă recitirea pe 12 luni a atribuit comenzile afiliaților readuși.
+      - Punctele de mai jos despre 1.12 sunt depășite.
     - **Actualizare 14.11:** adminul și portalul sunt făcute după structura UpPromote.
       - **Așteaptă proprietarul:** „Release” la `v2-portal-afiliati` în Dev Dashboard și aprobarea permisiunii `read_customers`, apoi testul portalului cu un afiliat de test pe e-mailul lui.
       - **Actualizare 14.11 (noaptea), trecerea pe 1.12:** data de pornire și „Sold preluat din UpPromote” sunt în aplicație; 73 de afiliați importați din lista Google (e-mail, nume, comision); scriptul `?ref=` (și linkurile vechi `?sca_ref=`) e în tema de probă „Prime – link afiliați Prime Afiliați (14.11)”. Starea pe puncte: `afiliati/TRANZITIE-1-DECEMBRIE-2026.md` („Stare la 14.11”).

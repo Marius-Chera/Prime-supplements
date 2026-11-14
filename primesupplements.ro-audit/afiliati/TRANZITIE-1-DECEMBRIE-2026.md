@@ -1,5 +1,12 @@
 # Trecerea de la UpPromote la Prime Afiliați – 1 decembrie 2026
 
+> **ACTUALIZARE 15.11.2026: trecerea s-a făcut pe 15.11, la cererea lui Marius.**
+> - Data de pornire e 3.11.
+> - Aplicația e live.
+> - Rutina de pe 29.11 a fost oprită.
+> - Anunțul este `sabloane/afiliati-anunt-platforma-noua.html`, varianta din 15.11.
+> - Detaliile sunt în JURNAL.md, 15.11. Planul de mai jos rămâne doar ca istoric.
+
 Marius a aprobat aplicația pe 14.11 („arată bine aplicația, sunt mulțumit”). Anunțul pleacă singur pe 29.11 (`ANUNT-PLATFORMA-NOUA-2026-12-01.md`). Până pe 1.12 trebuie să fie adevărat tot ce promite anunțul:
 - codul rămâne;
 - linkul vechi din bio merge;

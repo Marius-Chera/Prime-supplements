@@ -970,3 +970,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - voucherele vechi UpPromote („<id>.XXXXXX”) au rămas și ele;
   - aplicația e live, iar portalul răspunde (200);
   - recitirea pe 12 luni a ajuns la 6.11. Comenzile afiliaților readuși intră deja: 139 de comenzi în așteptare, 5.370,72 lei. La rularea următoare ajunge până azi.
+- 15.11 (după publicare): **Marius a dezinstalat Delivery Estimator și Dondy.** Verificat: nu mai apar în lista aplicațiilor instalate (Admin API); site-ul live e în regulă după dezinstalare (estimarea livrării, bula WhatsApp, fără erori Liquid, fără scripturi rămase). În listă nu mai apare nici UpPromote. Economie: 8,98 $/lună. Rămâne: la factura de ciclu din ~24.11, Claude verifică să nu mai apară cele două aplicații.

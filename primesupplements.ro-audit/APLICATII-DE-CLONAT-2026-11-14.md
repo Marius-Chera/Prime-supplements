@@ -7,8 +7,8 @@ Sursa: lista live a aplicațiilor instalate (Admin API, 14.11). Sumele abonament
 | UpPromote | afiliere | În curs: Prime Afiliați (~1.400 lei/lună economie) |
 | Fluxsales + Primesupplements App ×2 | facturi + AWB | În curs: Prime Expediere |
 | Judge.me | recenzii, stele Google Shopping | Amânat după 20–25.12 (~15 $/lună) |
-| Delivery Estimator | data estimată de livrare pe produs | **Ușor de înlocuit**: snippet în temă (Liquid + JS), fără server. Câștig și la viteză. Plan din 14.11, cu upsell/cross-sell: `livrare/PRIME-COS-PLAN-2026-11-14.md` |
-| Dondy: WhatsApp | butonul WhatsApp | **Gata 15.11** pe tema Prime Coș (`snippets/prime-whatsapp.liquid`); se dezinstalează la publicare (6,99 $/lună) |
+| Delivery Estimator | data estimată de livrare pe produs | **Înlocuit (Prime Coș) și dezinstalat 15.11** |
+| Dondy: WhatsApp | butonul WhatsApp | **Înlocuit și dezinstalat 15.11** (`snippets/prime-whatsapp.liquid`) |
 | Ablestar Link Manager | linkuri rupte, redirecționări | Mediu: scanare lunară + redirecționările native Shopify. Doar dacă e plătit |
 | Simprosys | feed Google/Microsoft Merchant Center | Posibil, dar riscant (Merchant Center, Black Friday). Nu acum |
 | Pandectes GDPR | bannerul de cookies | **Nu**: Google cere CMP certificat pentru reclamele în UE; risc legal |

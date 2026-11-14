@@ -18,9 +18,9 @@ Cursul folosit este **4,50 lei/$**. L-am calculat din facturi: 1% din încasări
 - **În ultimele 12 luni Shopify ne-a luat 8.451,52 $ (≈ 38.000 lei).** Sunt 23 de facturi, de pe 28.11.2025 până pe 12.11.2026, în medie **≈ 704 $/lună (≈ 3.170 lei)**.
 - **Peste jumătate din bani au mers la UpPromote:** 4.336,56 $ (≈ 19.500 lei), adică 51%. Am înlocuit-o pe 15.11, dar **e încă instalată și se reînnoiește pe 2.12.2026** (199,99 $). Până la dezinstalare plătim și 1% din fiecare comandă cu cod de afiliat.
 - **Pe locul 2 sunt „Transaction fees”:** 1.395,37 $ (≈ 6.300 lei), adică 16,5%. Sunt **1% din fiecare plată cu cardul prin Netopia**, ca pedeapsă de la Shopify pentru că nu folosim Shopify Payments. Explicația completă e la §3.
-- **O taxă nouă, Shopify Tax**, a apărut pe 24.10.2026 (37,20 $). **Din 1.01.2027 se aplică tot anul: ≈ 0,25% din vânzări, ~4.500–5.000 lei/an.** Detaliile sunt la §4.
+- **O taxă nouă, Shopify Tax**, a apărut pe 24.10.2026 (37,20 $). **Corectat la 15.11, după verificarea în admin:** Shopify estimează pentru noi **~5 €/lună (~300 lei/an)**, nu 4.500–5.000 lei/an cât calculasem din tariful general. Prea puțin ca să merite riscul unei schimbări (vezi §4).
 - **Am oprit deja aplicații de ≈ 1.740 $/an (≈ 7.800 lei):** Koala ×2, Pop Convert, BlogGenAuto, Fontify și YouTube Gallery. Niciuna nu mai apare pe factura din 12.11.
-- **După UpPromote, factura Shopify scade de la ~704 $ la ~275 $ pe lună** (~366 $ din 2027, cu Shopify Tax). Cu măsurile de la §5 poate ajunge la **~240 $/lună**. Fără Transaction fees ar fi încă mai puțin (vezi §3).
+- **După UpPromote, factura Shopify scade de la ~704 $ la ~275 $ pe lună.** Cu măsurile de la §5 poate ajunge la **~245 $/lună**. Fără Transaction fees ar fi încă mai puțin (vezi §3).
 
 ## 2. Unde s-au dus banii în 12 luni (28.11.2025–12.11.2026)
 
@@ -106,26 +106,41 @@ La o plată medie de ~330 lei, asta înseamnă ≈ 2,1%.
 - după aceea costă **0,25% din fiecare comandă** pe planul Grow, cu maximum 0,99 € pe comandă și 5.000 € pe an.
 - **Până la 31.12.2026 pragul de 100.000 € se reia în fiecare an. Din 1.01.2027 pragul se socotește pe toată viața magazinului.** Noi l-am depășit demult, deci **din ianuarie plătim pe fiecare comandă, tot anul.**
 
-**Cât ne costă.** Taxa se aplică pe toate comenzile cu TVA calculat, inclusiv ramburs. La ~1,9–2 milioane lei vânzări pe an, ≈ 0,25% înseamnă **≈ 4.500–5.000 lei/an (≈ 90 $/lună)**. Prima factură cu Shopify Tax a fost pe 24.10.2026: 37,20 $.
+**Cât ne costă: corectat la 15.11.** Prima estimare (0,25% din toate vânzările, ~4.500–5.000 lei/an) era **greșită**.
+- În 12 luni, Shopify Tax a apărut pe facturi o singură dată: 37,20 $.
+- Pagina Setări → Taxe → Uniunea Europeană → „Downgrade service” spune: *„Based on your global sales of the last 12 months, we estimate Shopify Tax will only cost your shop €5 per month in the EU.”*
+- Deci **≈ 5 €/lună, ≈ 300 lei/an.** Probabil se taxează doar o parte din comenzi. Cele mai multe produse au cotă fixată de noi: „Uncategorized products 21” și colecția „11% TVA” → România 11%.
 
-**Ce se poate face.** TVA-ul nostru e simplu:
-- prețurile includ deja 21%;
-- vindem aproape numai în România;
-- factura fiscală o face Oblio, nu Shopify.
+**Verificat 15.11 (doar citire, nimic salvat): Shopify permite trecerea.** În Uniunea Europeană avem trei variante:
 
-Dacă Setări → Taxe → Uniunea Europeană permite trecerea pe **rate manuale** (pagina Shopify vorbește despre „Manual tax settings”), taxa dispare. De verificat:
-1. dacă opțiunea există pentru un magazin din UE;
-2. ce se întâmplă cu comenzile din alte țări UE (OSS), care sunt puține;
-3. acordul contabilei.
+| Serviciu | Cost | Ce face |
+|---|---|---|
+| **Shopify Tax** (activ acum) | ~5 €/lună la noi | Calculează TVA-ul automat pe țară și pe categorie de produs. Calculează TVA-ul la transport proporțional, când în coș sunt produse cu 11% și cu 21%. Face facturi TVA din Shopify, validează codurile de TVA la B2B și urmărește pragurile UE. |
+| **Basic Tax** | gratuit | Aplică automat cota fiecărei țări în care ești înregistrat. Păstrează excepțiile noastre (11% / 21%) și scutirile pentru clienți și B2B. Nu face TVA proporțional la transport și nici facturi TVA din Shopify. |
+| **Manual Tax** | gratuit | Scrii tu cotele pe țară. Excepțiile se pot pune doar la nivel de țară, fără scutiri. Shopify o marchează „Lowest compliance”. |
 
-**Fără schimbări până nu spui „da”.**
+**Ce înseamnă „TVA manual”, concret.** Prețurile de pe site rămân aceleași, cu TVA inclus. Clientul plătește exact cât plătește acum. Se schimbă doar **cine calculează partea de TVA din preț**, pe care Shopify o scrie în comandă:
+- **acum:** o calculează Shopify, după regulile lui;
+- **pe manual:** după cotele scrise de noi (România 21%, produsele din colecția „11% TVA” 11%).
+
+**De ce contează la noi.**
+- **Prime Expediere face factura din Oblio cu cota de TVA din comanda Shopify** (`prime-expediere/src/calc/invoice.ts`: `vatPercentage` = cota de pe rândul comenzii; transportul are mereu 21%).
+- **Prime Afiliați scade TVA-ul tot după cota din comandă**, înainte să calculeze comisionul.
+- Dacă după schimbare o comandă vine cu altă cotă, de exemplu 21% în loc de 11% la un produs alimentar, **factura fiscală iese greșită**.
+
+**Atenție la schimbare:**
+- Shopify avertizează că schimbarea poate fi definitivă.
+- Basic Tax rămâne disponibil doar pentru că magazinul colecta TVA înainte de 13.05.2026.
+- După trecerea pe Manual, nu mai poți reveni la Basic.
+
+**Recomandare:** **rămânem pe Shopify Tax.** Economia (~300 lei/an) e sub pragul tău de 10 €/lună, iar riscul de facturi cu TVA greșit nu merită. Reevaluăm doar dacă facturile din 2027 arată constant peste ~20 €/lună. Atunci trecem pe **Basic Tax**, nu pe Manual, după un test pe câteva comenzi și cu acordul contabilei.
 
 ## 5. Ce mai putem tăia, în ordinea banilor
 
 | # | Măsura | Economie/an | Cine | Când |
 |---|---|---:|---|---|
 | 1 | **Dezinstalarea UpPromote** după verificarea codurilor din Prime Afiliați. UpPromote șterge codurile la dezinstalare și noi le recreăm, cum scrie în planul de tranziție. Opriți și scripturile din temă. | **≈ 19.500 lei** (≈ 360 $/lună) | Marius dezinstalează, Claude verifică | **înainte de 2.12.2026**, când e reînnoirea. Ideal acum: fiecare zi costă ~5 $ în comisioane |
-| 2 | Shopify Tax → rate manuale, dacă se poate (§4) | **≈ 4.500–5.000 lei** din 2027 | Claude verifică opțiunea, contabila confirmă, Marius decide | până pe 31.12.2026 |
+| 2 | ~~Shopify Tax → rate manuale~~: verificat 15.11, **nu merită** (§4) | ~300 lei | – | se reevaluează în 2027, pe facturi |
 | 3 | Shopify Payments în loc de Netopia (§3) | ≈ 3.700–6.200 lei | **decizia ta (acum e „nu”, din 23.10)** | doar dacă vrei să reluăm |
 | 4 | Plan Grow plătit **anual**: 83 $/lună în loc de 92 $ | **≈ 490 lei** (108 $) | Marius: Setări → Plan → „Switch to yearly” (plătești 996 $ odată) | oricând |
 | 5 | Delivery Estimator + Dondy WhatsApp → cod propriu în temă (`livrare/PRIME-COS-PLAN-2026-11-14.md`, `APLICATII-DE-CLONAT-2026-11-14.md`) | ≈ 485 lei (8,98 $/lună) + site mai rapid | Claude, cu aprobarea ta | după Late Black Friday |
@@ -144,8 +159,8 @@ Dacă Setări → Taxe → Uniunea Europeană permite trecerea pe **rate manuale
 |---|---:|---:|
 | Media ultimelor 12 luni | 704 | 3.170 |
 | După UpPromote + aplicațiile deja oprite (decembrie 2026) | ~275 | ~1.240 |
-| Din 2027, dacă nu facem nimic (+ Shopify Tax) | ~366 | ~1.650 |
-| Din 2027, cu măsurile 2, 4, 5 și 6 (fără Shopify Payments) | ~240 | ~1.080 |
+| Din 2027, dacă nu facem nimic (+ Shopify Tax ~5 €) | ~280 | ~1.260 |
+| Din 2027, cu măsurile 4, 5 și 6 (fără Shopify Payments) | ~245 | ~1.100 |
 | La fel, plus Shopify Payments (fără Transaction fees; comisionul de card trece la Shopify) | ~100 | ~450 |
 
 Transaction fees cresc odată cu vânzările: la 1% din ~64.000 lei/lună prin card înseamnă ~142 $/lună.

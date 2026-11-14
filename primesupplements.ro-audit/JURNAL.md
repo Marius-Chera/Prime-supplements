@@ -1054,3 +1054,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Schimbat în aplicație: antetul, tab-ul și textele din rapoarte.
   - Schimbat în Shopify: Dev Dashboard, versiunea `v4-total-admin`, publicată cu aceleași permisiuni și aceeași adresă, deci fără aprobare nouă. În admin apare „Total Admin”.
   - Au rămas la fel adresa din admin (`/apps/prime-expediere`), serverul Cloudflare și repo-ul GitHub, ca să nu se strice nimic.
+- 15.11: Total Admin – Încasări: coloana „#” cu numărul fiecărei încasări (1, 2, 3 …), cerută de Marius. Versiunea 8d843f81.

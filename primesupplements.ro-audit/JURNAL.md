@@ -1010,3 +1010,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - serverul verifică și el.
   - Listele de luni din fiecare pagină au dispărut.
   - 111 teste, versiunea bfad6003.
+- 15.11 (seara, 23:18 UTC): **tema „Prime – fără retur la vedere (15.11)” e LIVE** (publicată de Marius, după ce o republicare a temei Prime Coș o înlocuise pentru câteva minute). Verificat în Shopify (MAIN, MD5 identic cu repo-ul) și pe site, fără previzualizare: banda are 3 garanții, fără „Retur în 14 zile”; estimarea livrării, „Merge perfect cu” (3 produse), scriptul de afiliați și butonul `prime-wa` sunt la locul lor; niciun script Delivery Estimator.

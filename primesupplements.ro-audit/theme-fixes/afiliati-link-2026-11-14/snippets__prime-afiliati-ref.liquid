@@ -1,0 +1,48 @@
+{%- comment -%}
+  Prime Afiliați (14.11.2026) – linkul de afiliat, în locul scriptului UpPromote.
+  - primesupplements.ro/?ref=edu10 (linkul nou) și linkurile vechi UpPromote ?sca_ref=<id>.<…> → cookie „prime_ref” (30 de zile, ca setarea
+    „Câte zile ține minte site-ul linkul” din aplicație) și atributul ascuns de coș „_prime_ref”, din care aplicația atribuie comanda afiliatului;
+  - un singur clic pe vizită ajunge în aplicație (Analiză → clicuri), fără date despre vizitator (doar linkul și pagina).
+  Se încarcă din layout/theme.liquid, înainte de </body>: {%- render 'prime-afiliati-ref' -%}
+  Cookie-ul e „strict necesar” (decizia proprietarului din 23.10: atribuirea afiliatului funcționează de la prima vizită), descris în
+  politica de cookie-uri la punctul 4.
+{%- endcomment -%}
+<script>
+  (function () {
+    try {
+      var DAYS = 30, ATTR = '_prime_ref', ENDPOINT = 'https://prime-afiliati.prime-expediere.workers.dev/c';
+      var q = new URLSearchParams(window.location.search);
+      var norm = function (v) {
+        v = String(v || '').trim().toLowerCase().slice(0, 80);
+        var up = /^(?:up:)?(\d{3,})(?:\.[a-z0-9]+)?$/.exec(v);
+        if (up) return 'up:' + up[1];
+        return /^[a-z0-9._-]+$/.test(v) ? v : '';
+      };
+      var ref = norm(q.get('ref') || q.get('sca_ref') || q.get('aff'));
+      if (ref) {
+        document.cookie = 'prime_ref=' + encodeURIComponent(ref) + '; Max-Age=' + DAYS * 86400 + '; Path=/; SameSite=Lax; Secure';
+        var seen = false;
+        try { seen = sessionStorage.getItem('prime_ref_click') === ref; sessionStorage.setItem('prime_ref_click', ref); } catch (e) {}
+        if (!seen) {
+          var body = JSON.stringify({ r: ref, l: window.location.origin + window.location.pathname });
+          if (navigator.sendBeacon) navigator.sendBeacon(ENDPOINT, new Blob([body], { type: 'text/plain' }));
+          else fetch(ENDPOINT, { method: 'POST', body: body, mode: 'no-cors', keepalive: true });
+        }
+      } else {
+        var m = document.cookie.match(/(?:^|;\s*)prime_ref=([^;]+)/);
+        ref = m ? norm(decodeURIComponent(m[1])) : '';
+      }
+      if (!ref) return;
+      // atributul de coș: se pune o dată pe coș (și din nou pe coșul nou, după o comandă), ca să ajungă în comandă
+      fetch('/cart.js', { credentials: 'same-origin' })
+        .then(function (r) { return r.json(); })
+        .then(function (cart) {
+          if (cart && cart.attributes && cart.attributes[ATTR] === ref) return;
+          var attributes = {};
+          attributes[ATTR] = ref;
+          return fetch('/cart/update.js', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ attributes: attributes }) });
+        })
+        .catch(function () {});
+    } catch (e) {}
+  })();
+</script>

@@ -1049,3 +1049,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     Comparația cu UpPromote:
     - **Aprobat neplătit:** UpPromote avea doar cele 2 solduri din „Manual payment”, iar „In-app payment” era 0. Ambele sunt preluate.
     - **Comenzi atribuite de UpPromote, dar nu de aplicație:** sunt 2, ambele cu coduri trecute pe 14.11 la „în afara programului”: G3O10 (Nr.10336) și Darius10 (Nr.10354). Întrebat Marius ale cui sunt.
+- 15.11: Prime Expediere – Încasări: **✎ pe orice rând**, în coloanele Comanda și Factura, indiferent de stare. Angajatul caută comanda și o completează sau o schimbă de mână. Cerut de Marius: „absolut toate coloanele cu comanda și factura să fie editabile indiferent de situație”. Versiunea f2c93627.

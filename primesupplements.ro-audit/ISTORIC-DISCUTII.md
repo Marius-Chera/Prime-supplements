@@ -465,3 +465,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - „când ai astfel de sugestii, dă-mi opțiunea să apăs pe buton să completeze” – făcut cu butonul „Aplică” pe sugestiile de factură din Încasări.
 
   De văzut: sugestiile din Stocuri (codurile din Oblio) înseamnă schimbarea SKU-ului în Shopify, deci o scriere în magazin. „Aplică” acolo cere acordul lui Marius.
+- **15.11 – numele aplicației (Marius):** „modifică numele aplicației «expedieri prime» în «Total admin»”. Făcut ca „Total Admin” (cu majuscule, ca „Prime Afiliați”). Numele tehnice (Worker, repo, adresa din admin) au rămas „prime-expediere”.

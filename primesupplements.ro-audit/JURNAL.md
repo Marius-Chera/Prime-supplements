@@ -832,3 +832,18 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - lista tehnică de făcut până pe 1.12.
   
   Detalii: `afiliati/ANUNT-PLATFORMA-NOUA-2026-12-01.md`.
+- 14.11 (02:00–03:00): **Prime Afiliați: plata la PF se face prin aprobare.** Prime doar aprobă plata, iar afiliatul își generează singur voucherul din panoul lui, ca la „Use your credit” din UpPromote. Ce s-a schimbat:
+  - butonul din admin a devenit „Aprobă plata”;
+  - în portal apar „Credit aprobat” și „Generează voucherul”, care merge doar în modul live; până atunci afișează „pornește pe 1 decembrie”;
+  - migrarea 0003.
+
+  Cerut de Marius: „noi nu vrem să generăm noi voucherul, noi vrem să aprobăm doar plata, ei singuri își generează voucherele”.
+- 14.11: **anunțul pentru afiliați e programat pe 29.11 la 10:00**.
+  - Testul a plecat la Marius și Adelina.
+  - Adresa panoului din e-mail e acum link.
+  - Rutina `trig_01F5jNtjuaL4xngZc5CWQyZJ` trimite e-mailul personal prin theMarketer afiliaților activi din lista „Prime – Afiliați”. Are pază de dată, verifică creditul și nu trimite de două ori. După trimitere, Marius primește un rezumat cu mesajul pentru grupul de WhatsApp.
+- 14.11: **10 poze AI lunare pentru afiliați** (cerute de Marius).
+  - Rutina `trig_01VqpH4o4vVD72TZocKrJUrs` rulează pe 1 ale lunii la 06:00 și face 5 poze de feed (4:5) și 5 de story (9:16), cu 10 produse.
+  - Generarea: întâi OpenArt, dacă are cel puțin 20 de credite; acum are 0, plan Starter. Altfel Gemini, cu maximum 16 apeluri pe rulare, verificarea etichetei la zoom și urcare în Shopify Files.
+  - Lista pozelor se scrie în `afiliati/materiale/AAAA-LL.json`. Aplicația o preia singură în Motivare → Materiale și în panoul afiliaților.
+  - Prima rulare: 1.12.2026.

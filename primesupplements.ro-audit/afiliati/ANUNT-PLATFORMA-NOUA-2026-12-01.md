@@ -1,5 +1,7 @@
 # Anunț către afiliați: platforma nouă de la 1 decembrie 2026
 
+**PROGRAMAT (14.11): e-mailul pleacă pe 29.11.2026 la 10:00** (decizia lui Marius: „programează mailul pe 29 noiembrie”).
+
 **Decizia lui Marius (14.11.2026):** aplicația Prime Afiliați NU se activează acum. Întâi informăm toți afiliații, pe e-mail și în grupul de WhatsApp, că de la **1 decembrie** își văd vânzările și comisioanele în platforma nouă. Ce urmărim: să nu-i derutăm; spunem întâi ce rămâne la fel.
 
 Nimic nu s-a trimis. E-mailul pleacă doar după aprobarea textului și testul la Marius și Adelina (regula e-mailurilor Prime).
@@ -50,8 +52,8 @@ Codul și linkul vostru rămân aceleași. Dacă ceva nu merge, scrieți-ne aici
 ## 3. Calendar propus
 | Când | Ce | Cine |
 |---|---|---|
-| până pe 19.11 | Marius aprobă textele; test e-mail la Marius și Adelina | Marius, Claude |
-| **joi 20.11** | E-mail către toți afiliații + mesaj în grupul de WhatsApp | Claude (e-mail), Marius (grup) |
+| 14.11 | Test trimis la Marius și Adelina; adresa panoului din e-mail e link | Claude |
+| **sâmbătă 29.11, 10:00** | E-mailul pleacă singur către toți afiliații activi (rutina „Anunț afiliați: platforma nouă (29.11.2026)”, trig_01F5jNtjuaL4xngZc5CWQyZJ); Marius primește un rezumat cu mesajul de WhatsApp gata de copiat și îl postează în grup | rutina, Marius (grup) |
 | 25–27.11 | Late Black Friday: fără mesaje despre platformă, ca să nu se amestece | – |
 | 28–30.11 | Pregătirile tehnice gata și testate (lista de mai jos) | Claude, Marius |
 | **luni 1.12, dimineața** | Memento în grup; panoul nou deschis | Marius |

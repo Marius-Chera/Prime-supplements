@@ -383,3 +383,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
     - linkul vechi din bio merge;
     - comisionul din noiembrie rămâne al afiliatului;
     - logarea se face cu e-mailul de afiliat, fără parolă.
+- **14.11 – Prime Afiliați, plăți:** la PF, Prime doar aprobă plata; afiliatul își generează singur voucherul din panou, ca în UpPromote.
+- **14.11 – Anunț:** e-mailul pleacă pe 29.11 la 10:00, iar mesajul de WhatsApp îl postează Marius în grup în aceeași zi.
+- **14.11 – Motivare:** lunar, 10 poze generate cu AI pentru afiliați.
+  - Generarea: întâi OpenArt, apoi Gemini.
+  - **Cost:** pe Gemini, ~0,13 USD pe poză, deci ~1,5–2,5 USD pe lună, din aceeași limită de 12 USD pe care o folosește și blogul. Dacă limita se atinge, rutina face mai puține poze și spune de ce.

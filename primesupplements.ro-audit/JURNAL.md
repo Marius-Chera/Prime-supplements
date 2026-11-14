@@ -1034,3 +1034,18 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Datele se salvează separat (migrarea 0013), deci reîncărcarea rapoartelor nu le șterge. Apar și în rapoarte.
   - **Sugestiile din observații** („facturi cu aceeași sumă: PRS …”, „posibile facturi Oblio: …”) au buton „✓ Aplică PRS …”, cu un singur clic (se poate schimba din ✎).
   - 117 teste, versiunea e5ab5396.
+- **15.11, după dezinstalare:**
+  - **Google Sheet-ul afiliaților** (sursa rutinei lunare) are acum toți afiliații din aplicație: au fost adăugați cei 6 readuși. Robert10 nu era în listă.
+  - **Rutina „E-mailuri lunare afiliați Prime”** (trig_01Bhur1tumHTnu32bfqgYSwg, următoarea rulare 2.12) e adusă la zi:
+    - programul rulează în aplicație din 15.11, iar UpPromote e dezinstalat;
+    - „sold preluat din platforma veche” se referă la comenzile de dinainte de 3.11;
+    - Robert10 e scos.
+  - **Aplicația, pagina Comenzi:** după „Aprobă”, „Respinge” sau „Anulează decizia”, lista rămâne la poziția curentă și nu mai sare sus. Cerut de Marius. Versiunea 7fe1ba82.
+  - **Verificarea trecerii, după ce s-a terminat recitirea pe 12 luni.** Comenzile de pe 3.11 încoace:
+    - 147 în așteptare, 5.643,51 lei;
+    - 3 anulate;
+    - 1 aprobată de Marius.
+
+    Comparația cu UpPromote:
+    - **Aprobat neplătit:** UpPromote avea doar cele 2 solduri din „Manual payment”, iar „In-app payment” era 0. Ambele sunt preluate.
+    - **Comenzi atribuite de UpPromote, dar nu de aplicație:** sunt 2, ambele cu coduri trecute pe 14.11 la „în afara programului”: G3O10 (Nr.10336) și Darius10 (Nr.10354). Întrebat Marius ale cui sunt.

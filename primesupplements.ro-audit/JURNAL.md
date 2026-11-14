@@ -937,3 +937,23 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Înainte de „Send”, fiecare e-mail a fost verificat automat: destinatarul să fie exact unul și cel corect, subiectul, prenumele și codul.
   - În „Trimise” sunt 79 + 1 e-mail de verificare către Marius.
   - La verificare nu a venit nicio respingere (mailer-daemon).
+- 15.11 (01:20): Prime Expediere – **Stocuri → De comandat** (pasul 3 din reorganizare). Doar citire: stocul nu se modifică.
+  - **Vânzările:** vin din facturile Oblio, doar din gestiunea online. Pachetele sunt deja desfăcute pe produse în factură, iar stornările scad.
+    - Se salvează pe zi și pe cod (migrarea 0010).
+    - Prima încărcare a luat 6 luni (19.05–15.11), după care se reîmprospătează singure în fiecare noapte.
+    - Exemple: iulie–octombrie ≈ 3.700–4.000 de bucăți pe lună.
+  - **Calculul pe produs:**
+    - vânzări pe zi = media pe 6 luni (dacă în ultimele 30 de zile se vinde mai repede, media dintre cele două);
+    - ajunge = stocul online ÷ vânzări pe zi;
+    - de comandat = vânzări pe zi × (termenul furnizorului + rezerva de 14 zile) − stoc;
+    - urgent = se termină înainte să ajungă marfa; „epuizat” = stoc 0.
+  - **Ce intră în listă:**
+    - doar produsele active pe site;
+    - cele care se vând sub o bucată pe lună (de ex. mărimi de haine) stau separat, la „Se vând rar”;
+    - stoc mort = fără vânzări 90 de zile, cu starea de pe site (activ / ciornă / arhivat / nu e pe site).
+  - **Furnizorii:** 4 etichete neutre, cu termenele în Setări → Furnizori (14, 35, 28 și 35 de zile; rezervă 14 zile).
+    - Produsele s-au alocat din cele 46 de NIR-uri Oblio din 2025–2026, citite doar: Furnizor 1 – 87 de produse, 2 – 4, 3 – 4, 4 – 260 (hainele MNX și Prime).
+    - 81 de produse au rămas „fără furnizor”: au venit de la alți furnizori (ex. Frutilu) sau prin transfer. Se alocă din pagină, cu „Alocă furnizorii”.
+  - **Notificarea, doar în aplicație:** numărul de pe fila „De comandat” și anunțul din Depozit → Comenzi („De comandat săptămâna asta: N produse”, ascuns până luni cu ✕, cu buton „Vezi lista”).
+  - **Primul rezultat real:** 29 de produse urgente + 6 de comandat. Exemple pentru Furnizor 1: Creamy Rice Maple Sugar epuizat (56 de comandat), Salted Caramel (49), Creatine Ready to Go Pink Madness (32), Prime Whey 1 kg Chocolate & Coconut (15). Fără furnizor: Coenzima Q10 (97) și băuturile Frutilu. Au mai ieșit 62 de produse care „se vând rar” și 194 cu stoc fără vânzări în 90 de zile.
+  - 103 teste, versiunea 26d3836d, commit `6bc8f60`. Sincronizarea stocului e în continuare pornită (438/438).

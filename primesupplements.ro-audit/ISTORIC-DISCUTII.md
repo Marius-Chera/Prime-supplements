@@ -435,3 +435,16 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Propus (așteaptă decizia lui Marius): dezinstalarea UpPromote înainte de 2.12 (reînnoirea); verificarea trecerii Shopify Tax pe rate manuale înainte de 1.01.2027; planul Grow plătit anual (83 $ în loc de 92 $); verificarea comisionului de schimb pe cardul cu care se plătește Shopify (facturi în USD). Shopify Payments rămâne „nu” (decizia din 23.10), cu cifrele de economie (≈ 3.700–6.200 lei/an) puse în raport, dacă vrea să o reia.
 - **15.11 – Prime Coș (Marius):** „Toate 5 modulele”; „14:00 predăm zilnic coletele la Cargus”; „perechile pentru «merge perfect cu» fă tot tu te rog și corelează tu”; „designul, încearcă să fii expert UI/UX… ce crezi că merge îmbunătățit, îmbunătățește”. Decis de Claude: cod în temă, fără server; fără coduri de reducere (doar produse și pachetele existente); sâmbăta fără predare la Cargus (de confirmat). Construit pe copia nepublicată „Prime – Prime Coș: livrare + upsell (15.11)”. Publicarea rămâne după Late Black Friday (decizia din analiza costurilor, 15.11).
 - **15.11, 00:30:** Marius a răspuns „Da, trimite” la anunț. Cele 79 de e-mailuri au plecat de pe contact@, câte unul pe afiliat, cu prenumele și codul fiecăruia.
+- **15.11 – Prime Expediere, De comandat (pasul 3):** furnizorii au în aplicație doar etichete neutre. Corespondența, aflată din NIR-urile Oblio, e doar aici:
+  - Furnizor 1 = Pro Nutrition (~2 săptămâni → 14 zile);
+  - Furnizor 2 = Urban Body Studios (4–5 săptămâni → 35);
+  - Furnizor 3 = Faunus Plant (3–4 săptămâni → 28);
+  - Furnizor 4 = Arbos d.o.o., hainele MNX și Prime + shakere (4–5 săptămâni → 35).
+
+  Alese de Claude, explicate lui Marius:
+  - vânzările se iau din facturile Oblio din gestiunea online, nu din Shopify, care arată doar 60 de zile;
+  - termenul folosit e capătul de sus al intervalului, iar rezerva e de 14 zile;
+  - produsele vândute sub o bucată pe lună stau separat;
+  - se recomandă doar produsele active pe site.
+
+  Nedecis: Frutilu (care are NIR-uri) și ceilalți distribuitori n-au etichetă proprie; produsele lor stau „fără furnizor”, cu termenul de 35 de zile.

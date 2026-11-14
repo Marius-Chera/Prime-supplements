@@ -99,7 +99,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
       - **La Marius:**
         - ~~(1) „da” pentru e-mailul către afiliați~~ – trimis pe 15.11 (79 de e-mailuri);
         - ~~(2) dezinstalarea UpPromote~~ – făcută 15.11, codurile verificate (79/79);
-        - (3) aprobarea textului de cookie-uri.
+        - ~~(3) textul de cookie-uri~~ – aprobat și publicat 15.11; rămâne scanarea Pandectes (text pentru extensie).
       - **Claude, după dezinstalare:**
         - verifică cele 79 de coduri în Shopify; codurile lipsă se recreează doar cu „da”;
         - verifică dacă recitirea pe 12 luni a atribuit comenzile afiliaților readuși.

@@ -1,6 +1,8 @@
 # Politica de cookie-uri: UpPromote → Prime Afiliați (propunere, 14.11.2026)
 
-**Stare: de aprobat de Marius. Nimic publicat.** Ultima versiune publicată: `backups/cookies-clarity-2026-10-23/politica-de-cookies.publicata-2026-10-28.html`.
+**Stare: APROBAT de Marius („Da, publică”) și PUBLICAT pe 15.11.2026, varianta finală, fără perioada de trecere (UpPromote dezinstalat).** Textul publicat: `backups/cookies-clarity-2026-10-23/politica-de-cookies.publicata-2026-11-15.html`.
+
+~~Stare: de aprobat de Marius. Nimic publicat.~~ Ultima versiune publicată: `backups/cookies-clarity-2026-10-23/politica-de-cookies.publicata-2026-10-28.html`.
 
 Se schimbă doar două locuri, cu același sens ca textul aprobat pe 23–24.10 (atribuirea afiliatului merge de la prima vizită, într-o secțiune separată). Restul politicii rămâne identic.
 

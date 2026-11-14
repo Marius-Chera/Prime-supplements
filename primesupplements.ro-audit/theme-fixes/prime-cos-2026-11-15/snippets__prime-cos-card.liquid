@@ -1,0 +1,56 @@
+{%- comment -%}
+  Prime Coș – card mic de produs cu „Adaugă” (15.11.2026).
+  Parametri: p (produs), sursa (merge-cu | prag-livrare | potrivit-cos), js (true în pagina coșului: adaugă + reîncarcă),
+  ieftin (true: preselectează cea mai ieftină variantă disponibilă), tag (eticheta mică, opțional).
+  Fiecare produs adăugat primește proprietatea ascunsă _sursa (se vede în comandă, în admin).
+{%- endcomment -%}
+{%- liquid
+  assign v = nil
+  assign n_disp = 0
+  for x in p.variants
+    if x.available
+      assign n_disp = n_disp | plus: 1
+      if v == nil
+        assign v = x
+      elsif ieftin and x.price < v.price
+        assign v = x
+      endif
+    endif
+  endfor
+-%}
+{%- if v != nil -%}
+<div class="pc-card">
+  {%- if tag != blank -%}<span class="pc-tag">{{ tag }}</span>{%- endif -%}
+  <a href="{{ p.url }}" class="pc-card__media" tabindex="-1" aria-hidden="true">
+    {%- if p.featured_media != blank -%}
+      {{- p.featured_media | image_url: width: 240 | image_tag: loading: 'lazy', widths: '80,160,240', sizes: '(min-width: 1000px) 200px, 64px', alt: '' -}}
+    {%- endif -%}
+  </a>
+  <div class="pc-card__body">
+    <a href="{{ p.url }}" class="pc-card__title">{{ p.title }}</a>
+    <form method="post" action="{{ routes.cart_add_url }}" class="pc-card__form{% if js %} pc-add-js{% endif %}"{% unless js %} is="product-form"{% endunless %}>
+      <input type="hidden" name="form_type" value="product">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="quantity" value="1">
+      <input type="hidden" name="properties[_sursa]" value="{{ sursa }}">
+      {%- if n_disp > 1 -%}
+        <select name="id" class="pc-card__select" aria-label="Alege varianta pentru {{ p.title | escape }}">
+          {%- for x in p.variants -%}
+            {%- if x.available -%}
+              <option value="{{ x.id }}" data-price="{{ x.price | money }}"{% if x.id == v.id %} selected{% endif %}>{{ x.title }} · {{ x.price | money }}</option>
+            {%- endif -%}
+          {%- endfor -%}
+        </select>
+      {%- else -%}
+        <input type="hidden" name="id" value="{{ v.id }}">
+      {%- endif -%}
+      <div class="pc-card__row">
+        <span class="pc-card__price"><span data-pc-price>{{ v.price | money }}</span>{% if v.compare_at_price > v.price %}<s>{{ v.compare_at_price | money }}</s>{% endif %}</span>
+        <button type="submit" class="pc-card__btn" aria-label="Adaugă în coș: {{ p.title | escape }}">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Adaugă
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+{%- endif -%}

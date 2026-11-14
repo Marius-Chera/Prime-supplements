@@ -1,0 +1,28 @@
+{%- comment -%}
+  Prime Coș – „Merge perfect cu” pe pagina de produs (înlocuiește blocul gol din Search & Discovery), 15.11.2026.
+  Produsele sunt randate pe server (link-uri reale în HTML, bune și pentru SEO / cititori AI). Parametru: product.
+{%- endcomment -%}
+{%- capture lista -%}{%- render 'prime-cos-perechi', p: product -%}{%- endcapture -%}
+{%- assign handles = lista | strip | split: ',' -%}
+{%- assign n = 0 -%}
+{%- capture carduri -%}
+  {%- for h in handles -%}
+    {%- if n >= 3 -%}{%- break -%}{%- endif -%}
+    {%- if h == product.handle -%}{%- continue -%}{%- endif -%}
+    {%- assign c = all_products[h] -%}
+    {%- if c != blank and c.available -%}
+      {%- render 'prime-cos-card', p: c, sursa: 'merge-cu', ieftin: true -%}
+      {%- assign n = n | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if n > 0 -%}
+  {{ 'prime-cos.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'prime-cos.js' | asset_url }}" defer></script>
+  <div class="pc-box">
+    <div class="pc-box__head">
+      <h3 class="pc-box__title">Merge perfect cu</h3>
+    </div>
+    <div class="pc-list">{{ carduri }}</div>
+  </div>
+{%- endif -%}

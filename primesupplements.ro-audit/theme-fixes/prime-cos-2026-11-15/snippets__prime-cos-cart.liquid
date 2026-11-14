@@ -1,0 +1,326 @@
+{%- comment -%}
+  Prime Coș – blocul din coș (15.11.2026).
+  mod: 'cos' (pagina /cart: prag + pachet + variantă mai mare) | 'popover' (fereastra „Adăugat în coș”: doar pragul, 2 produse)
+  Fără coduri de reducere: recomandă produse și pachetele existente (bundle-uri Shopify).
+{%- endcomment -%}
+{%- liquid
+  assign e_cos = false
+  if mod == 'cos'
+    assign e_cos = true
+  endif
+  assign max = 3
+  if mod == 'popover'
+    assign max = 2
+  endif
+
+  comment
+    Totalul pentru prag: la fel ca bara de livrare gratuită (după reduceri)
+  endcomment
+  assign total = 0
+  for li in cart.items
+    if li.requires_shipping
+      assign total = total | plus: li.final_line_price
+    endif
+  endfor
+  for da in cart.cart_level_discount_applications
+    assign total = total | minus: da.total_allocated_amount
+  endfor
+  assign prag = settings.cart_free_shipping_threshold | times: 100
+  assign gap = prag | minus: total
+
+  assign in_cos = ','
+  for li in cart.items
+    assign in_cos = in_cos | append: li.product.handle | append: ','
+  endfor
+  assign in_linii = in_cos
+  assign pachete = 'pachet-pre-workout-power-black-friday:nitrox+creatina-creapure|pachet-recuperare-black-friday:eaa-aminoacizi-esentiali+recovery-glutamin|pachet-intra-black-friday:cluster-bomb-1000g+eaa-aminoacizi-esentiali|pachet-start-1-kg-prime-whey-1-kg-aminoacizi-eaa:prime-whey-1000g+eaa-aminoacizi-esentiali|pachet-fit-1-kg-prime-whey-1-kg-fiber:prime-whey-1000g+fiber-blood-orange|pachet-proteina-prime-whey-2-kg-aminoacizi-eaa:prime-whey-2000g+eaa-aminoacizi-esentiali|pachet-recovery-2-kg-prime-whey-2-kg-l-glutamina-kyowa®:prime-whey-2000g+recovery-glutamin|pachet-masa-2-kg-prime-whey-2-kg-nitrox-3d:prime-whey-2000g+nitrox|pachet-energy-nitrox-no-stim-energy-pump-shot-cutie-20-fiole:nitrox-no-stim+energy-pump|pachet-performance-black-friday:nitrox+eaa-aminoacizi-esentiali+creatina-creapure|pachet-full-stack-black-friday:prime-whey-1000g+creatina-creapure+eaa-aminoacizi-esentiali|pachet-complet-2-kg-prime-whey-2-kg-creatina-creapure®-300-g-aminoacizi-eaa:prime-whey-2000g+creatina-creapure+eaa-aminoacizi-esentiali|pachet-pump-combat-pro-creatina-creapure®-300-g-glycerol-max-pump:combat-pro+creatina-creapure+glycerol-max-pump-500g-125-serv|pachet-cut-black-friday:thermo-core-120-caps+water-out-120-caps+l-carnitine-1000-80-caps|pachet-strength-creatina-creapure®-500-g-magneziu-bisglicinat-vitamina-d3-k2:creatina-creapure+magneziu-bisglicinat-80-caps+vitamina-d3-k2|pachet-vitamine-magneziu-bisglicinat-vitamina-c-vitamina-d3-k2:magneziu-bisglicinat-80-caps+vitamin-c-1000-80-caps+vitamina-d3-k2|pachet-echilibru-1-kg-prime-whey-1-kg-magneziu-bisglicinat-vitamina-d3-k2:prime-whey-1000g+magneziu-bisglicinat-80-caps+vitamina-d3-k2|pachet-focus-daily-vitamin-formula-ashwagandha-ksm-66-magneziu-bisglicinat:daily-vitamin-formula+ashwagandha-ksm-66+magneziu-bisglicinat-80-caps|pachet-health-black-friday:magneziu-bisglicinat-80-caps+omega-3+vitamin-c-1000-80-caps+vitamina-d3-k2' | split: '|'
+  comment
+    Pachetele din coș: componentele lor contează ca fiind deja în coș (nu le mai recomandăm)
+  endcomment
+  for e in pachete
+    assign parti = e | split: ':'
+    assign acb = ',' | append: parti[0] | append: ','
+    if in_cos contains acb
+      assign comps = parti[1] | split: '+'
+      for c in comps
+        assign in_cos = in_cos | append: c | append: ','
+      endfor
+    endif
+  endfor
+
+  comment
+    Produse „completare”, în ordinea crescătoare a prețului minim
+  endcomment
+  assign pool = 'unt-de-arahide,vitamin-c-1000-80-caps,magneziu-bisglicinat-80-caps,omega-3,vitamina-d3-k2,crema-de-orez-biscuiti-cu-crema,glycerol-max-pump-500g-125-serv,creatina-creapure,recovery-glutamin,eaa-aminoacizi-esentiali' | split: ','
+  assign alese = ','
+  assign n = 0
+  assign toate_inchid = true
+  assign sursa = 'prag-livrare'
+
+  if gap > 0
+    for h in pool
+      if n >= max
+        break
+      endif
+      assign ac = ',' | append: h | append: ','
+      if in_cos contains ac
+        continue
+      endif
+      assign c = all_products[h]
+      if c != blank and c.available and c.price_min >= gap
+        assign alese = alese | append: h | append: ','
+        assign n = n | plus: 1
+      endif
+    endfor
+    if n < max
+      for h in pool reversed
+        if n >= max
+          break
+        endif
+        assign ac = ',' | append: h | append: ','
+        if in_cos contains ac or alese contains ac
+          continue
+        endif
+        assign c = all_products[h]
+        if c != blank and c.available
+          assign alese = alese | append: h | append: ','
+          assign n = n | plus: 1
+          assign toate_inchid = false
+        endif
+      endfor
+    endif
+  elsif e_cos and cart.item_count > 0
+    assign sursa = 'potrivit-cos'
+    assign top = cart.items.first
+    for li in cart.items
+      if li.final_line_price > top.final_line_price
+        assign top = li
+      endif
+    endfor
+    capture lista
+      render 'prime-cos-perechi', p: top.product
+    endcapture
+    assign perechi = lista | strip | split: ','
+    for h in perechi
+      if n >= max
+        break
+      endif
+      assign ac = ',' | append: h | append: ','
+      if in_cos contains ac
+        continue
+      endif
+      assign c = all_products[h]
+      if c != blank and c.available
+        assign alese = alese | append: h | append: ','
+        assign n = n | plus: 1
+      endif
+    endfor
+  endif
+  assign lista_alese = alese | split: ','
+-%}
+
+{%- capture oferte -%}
+{%- if e_cos -%}
+  {%- comment -%} ---------- Modulul 4a: pachetul (bundle-urile existente) ---------- {%- endcomment -%}
+  {%- liquid
+    assign best = ''
+    assign best_m = 0
+    assign best_miss = 99
+    for e in pachete
+      assign parti = e | split: ':'
+      assign bh = parti[0]
+      assign acb = ',' | append: bh | append: ','
+      if in_cos contains acb
+        continue
+      endif
+      assign comps = parti[1] | split: '+'
+      assign m = 0
+      assign miss = 0
+      for c in comps
+        assign ac = ',' | append: c | append: ','
+        if in_linii contains ac
+          assign m = m | plus: 1
+        else
+          assign miss = miss | plus: 1
+        endif
+      endfor
+      if m >= 2 or m >= 1 and miss <= 1
+        if m > best_m or m == best_m and miss < best_miss
+          assign best = e
+          assign best_m = m
+          assign best_miss = miss
+        endif
+      endif
+    endfor
+  -%}
+  {%- if best != '' -%}
+    {%- liquid
+      assign parti = best | split: ':'
+      assign bp = all_products[parti[0]]
+      assign comps = parti[1] | split: '+'
+      assign bv = bp.selected_or_first_available_variant
+      assign suma = 0
+      assign remove = ''
+      assign titluri = ''
+      for c in comps
+        for li in cart.items
+          if li.product.handle == c
+            assign suma = suma | plus: li.final_price
+            assign q = li.quantity | minus: 1
+            assign remove = remove | append: ',{"key":"' | append: li.key | append: '","qty":' | append: q | append: '}'
+            assign tj = li.variant.title | json
+            assign titluri = titluri | append: ',' | append: tj
+            break
+          endif
+        endfor
+      endfor
+      assign remove = remove | remove_first: ','
+      assign titluri = titluri | remove_first: ','
+      assign economie = bv.compare_at_price | minus: bv.price
+      assign diferenta = bv.price | minus: suma
+    -%}
+    {%- if bp != blank and bp.available and economie > 0 -%}
+      <div class="pc-offer">
+        <p class="pc-offer__text">
+          {%- if best_miss == 0 -%}
+            Ai în coș tot ce e în <a href="{{ bp.url }}">{{ bp.title | split: ':' | first }}</a>. Ca pachet <span class="pc-offer__save">economisești {{ economie | money }}</span>.
+          {%- else -%}
+            Cu încă <b>{{ diferenta | money }}</b> iei <a href="{{ bp.url }}">{{ bp.title }}</a> și <span class="pc-offer__save">economisești {{ economie | money }}</span> față de produsele luate separat.
+          {%- endif -%}
+        </p>
+        {%- assign r_json = '[' | append: remove | append: ']' -%}
+        {%- assign t_json = '[' | append: titluri | append: ']' -%}
+        <button type="button" class="pc-swap" data-sursa="pachet" data-add-handle="{{ bp.handle }}" data-remove="{{ r_json | escape }}" data-match="{{ t_json | escape }}">
+          {%- if best_miss == 0 -%}Trece-le în pachet{%- else -%}Ia pachetul{%- endif -%}
+        </button>
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} ---------- Modulul 4b: varianta mai mare, mai avantajoasă (o singură ofertă) ---------- {%- endcomment -%}
+  {%- liquid
+    assign cutii = 'energy-pump:20,fat-burning-booster:20,baton-proteic-capsuni:12,baton-proteic-caramel-sarat:12,baton-proteic-cocos-si-caramel:12,baton-proteic-ciocolata-fructe-de-padure:12,prime-whey-go:15,creatine-ready-to-go-plicuri-prime-supplements:25' | split: ','
+    assign of_tip = ''
+    for li in cart.items
+      if of_tip != ''
+        break
+      endif
+      assign h = li.product.handle
+      if h == 'creatina-creapure' and li.variant.title contains '300g'
+        for x in li.product.variants
+          if x.available and x.title contains '500g'
+            assign u_din = li.variant.price | times: 100 | divided_by: 300
+            assign u_in = x.price | times: 100 | divided_by: 500
+            if u_in < u_din
+              assign of_tip = 'creatina'
+              assign of_var = x.id
+              assign of_key = li.key
+              assign of_qty = li.quantity | minus: 1
+              assign of_in = u_in | money
+              assign of_din = u_din | money
+            endif
+            break
+          endif
+        endfor
+      elsif h == 'prime-whey-1000g'
+        assign mare = all_products['prime-whey-2000g']
+        for x in mare.variants
+          if x.available and x.title == li.variant.title
+            assign u_in = x.price | divided_by: 2
+            if u_in < li.variant.price
+              assign of_tip = 'whey'
+              assign of_var = x.id
+              assign of_key = li.key
+              assign of_qty = li.quantity | minus: 1
+              assign of_in = u_in | money
+              assign of_din = li.variant.price | money
+              assign of_aroma = x.title
+            endif
+            break
+          endif
+        endfor
+      else
+        for cu in cutii
+          assign pc = cu | split: ':'
+          if pc[0] == h and li.quantity >= 3
+            unless li.variant.title contains ' x '
+              assign aroma = ''
+              if li.variant.title contains ' / '
+                assign aroma = li.variant.title | split: ' / ' | first
+              endif
+              assign buc = pc[1] | plus: 0
+              for x in li.product.variants
+                if x.available and x.title contains ' x '
+                  if aroma == '' or x.title contains aroma
+                    assign u_in = x.price | divided_by: buc
+                    if u_in < li.variant.price
+                      assign of_tip = 'cutie'
+                      assign of_var = x.id
+                      assign of_key = li.key
+                      assign of_qty = li.quantity | minus: buc
+                      if of_qty < 0
+                        assign of_qty = 0
+                      endif
+                      assign of_buc = buc
+                      assign of_in = u_in | money
+                      assign of_din = li.variant.price | money
+                    endif
+                    break
+                  endif
+                endif
+              endfor
+            endunless
+          endif
+        endfor
+      endif
+    endfor
+  -%}
+  {%- if of_tip != '' -%}
+    {%- capture of_remove -%}[{"key":{{ of_key | json }},"qty":{{ of_qty }}}]{%- endcapture -%}
+    <div class="pc-offer">
+      <p class="pc-offer__text">
+        {%- case of_tip -%}
+          {%- when 'creatina' -%}Cutia de <b>500 g</b> iese <span class="pc-offer__save">{{ of_in }}/100 g</span> în loc de {{ of_din }}/100 g (100 de porții în loc de 60).
+          {%- when 'whey' -%}Prime Whey <b>2 kg</b> ({{ of_aroma }}) iese <span class="pc-offer__save">{{ of_in }}/kg</span> în loc de {{ of_din }}/kg.
+          {%- when 'cutie' -%}Cutia de <b>{{ of_buc }} bucăți</b> iese <span class="pc-offer__save">{{ of_in }}/buc.</span> în loc de {{ of_din }}.
+        {%- endcase -%}
+      </p>
+      <button type="button" class="pc-swap" data-sursa="varianta-mare" data-add-variant="{{ of_var }}" data-remove="{{ of_remove | escape }}">
+        {%- case of_tip -%}{%- when 'creatina' -%}Ia 500 g{%- when 'whey' -%}Ia 2 kg{%- else -%}Ia cutia{%- endcase -%}
+      </button>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+{%- endcapture -%}
+
+{%- capture carduri -%}
+  {%- for h in lista_alese -%}
+    {%- if h == blank -%}{%- continue -%}{%- endif -%}
+    {%- assign c = all_products[h] -%}
+    {%- assign eticheta = '' -%}
+    {%- if gap > 0 and c.price_min >= gap -%}{%- assign eticheta = 'Livrare gratuită' -%}{%- endif -%}
+    {%- render 'prime-cos-card', p: c, sursa: sursa, js: e_cos, ieftin: true, tag: eticheta -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- assign oferte_s = oferte | strip -%}
+{%- if n > 0 or oferte_s != '' -%}
+  {{ 'prime-cos.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'prime-cos.js' | asset_url }}" defer></script>
+  <div class="{% if e_cos %}pc-cart{% else %}pc-popover{% endif %}">
+    {{ oferte_s }}
+    {%- if n > 0 -%}
+      <div class="pc-box">
+        <div class="pc-box__head">
+          <h2 class="pc-box__title">
+            {%- if gap > 0 and toate_inchid -%}Adaugă unul și livrarea e gratuită
+            {%- elsif gap > 0 -%}Completează coșul până la livrarea gratuită
+            {%- else -%}Merge perfect cu ce ai în coș{%- endif -%}
+          </h2>
+          {%- if gap > 0 -%}<p class="pc-box__hint">Mai ai {{ gap | money }}</p>{%- endif -%}
+        </div>
+        <div class="pc-list">{{ carduri }}</div>
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}

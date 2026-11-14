@@ -1,0 +1,78 @@
+/* Prime Coș – stiluri (cod propriu Prime Supplements, 15.11.2026). Fonturile vin din temă (Barlow). */
+:root {
+  --pc-red: #e91d23;
+  --pc-ink: #1a1a1a;
+  --pc-muted: rgba(26, 26, 26, .64);
+  --pc-line: rgba(26, 26, 26, .12);
+  --pc-card: #ffffff;
+  --pc-green: #1f8a4c;
+  --pc-green-bg: #eaf6ee;
+  --pc-radius: 14px;
+}
+
+/* ---------- Estimare livrare ---------- */
+.pc-livrare { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; background: var(--pc-card); border: 1px solid var(--pc-line); border-radius: var(--pc-radius); color: var(--pc-ink); line-height: 1.35; }
+.pc-livrare[hidden] { display: none; }
+.pc-livrare__icon { flex: 0 0 36px; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: #f4f4f4; color: var(--pc-ink); }
+.pc-livrare--azi .pc-livrare__icon { background: var(--pc-green-bg); color: var(--pc-green); }
+.pc-livrare__main { font-weight: 700; font-size: 15px; }
+.pc-livrare__sub { font-size: 13px; color: var(--pc-muted); margin-top: 2px; }
+.pc-livrare__sub b { color: var(--pc-ink); }
+.pc-livrare--azi .pc-livrare__sub b:first-child { color: var(--pc-green); }
+.pc-livrare__meta { font-size: 12px; color: var(--pc-muted); margin-top: 4px; }
+.pc-livrare[data-pc-pending] .pc-livrare__main, .pc-livrare[data-pc-pending] .pc-livrare__sub { visibility: hidden; }
+.pc-livrare--compact { padding: 8px 12px; align-items: center; font-size: 13px; }
+.pc-livrare--compact .pc-livrare__icon { flex-basis: 28px; width: 28px; height: 28px; }
+
+/* ---------- Bloc cu produse (Merge perfect cu / coș) ---------- */
+.pc-box { display: grid; gap: 10px; }
+.pc-box__head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.pc-box .pc-box__title { margin: 0; font-weight: 700; font-size: 16px; line-height: 1.2; letter-spacing: 0; }
+.pc-box__hint { margin: 0; font-size: 13px; color: var(--pc-muted); white-space: nowrap; }
+.pc-list { display: grid; gap: 8px; }
+
+.pc-card { position: relative; display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: center; padding: 10px; background: var(--pc-card); border: 1px solid var(--pc-line); border-radius: var(--pc-radius); transition: border-color .15s, box-shadow .15s; }
+.pc-card:hover { border-color: rgba(26, 26, 26, .28); box-shadow: 0 4px 14px rgba(0, 0, 0, .06); }
+.pc-card__media { display: block; width: 64px; height: 64px; border-radius: 10px; overflow: hidden; background: #f4f4f4; }
+.pc-card__media img { width: 100%; height: 100%; object-fit: contain; }
+.pc-card__body { min-width: 0; display: grid; gap: 6px; }
+.pc-card__title { font-size: 14px; font-weight: 600; line-height: 1.25; color: var(--pc-ink); text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pc-card__title:hover { text-decoration: underline; }
+.pc-card__form { display: grid; gap: 6px; margin: 0; }
+.pc-card__select { width: 100%; min-height: 34px; padding: 4px 28px 4px 10px; font: inherit; font-size: 13px; color: var(--pc-ink); background: #fff; border: 1px solid var(--pc-line); border-radius: 8px; }
+.pc-card__row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.pc-card__price { font-weight: 700; font-size: 15px; }
+.pc-card__price s { font-weight: 400; color: var(--pc-muted); margin-left: 4px; font-size: 13px; }
+.pc-card__btn, .pc-swap { appearance: none; border: 0; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; padding: 0 16px; border-radius: 999px; background: var(--pc-red); color: #fff; font: inherit; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; transition: transform .1s, background .15s; }
+.pc-card__btn:hover, .pc-swap:hover { background: #c8161c; }
+.pc-card__btn:active, .pc-swap:active { transform: scale(.97); }
+.pc-card__btn:focus-visible, .pc-swap:focus-visible, .pc-card__select:focus-visible { outline: 2px solid var(--pc-ink); outline-offset: 2px; }
+.pc-card__btn[aria-busy=true], .pc-swap[aria-busy=true] { opacity: .6; pointer-events: none; }
+.pc-tag { position: absolute; top: -8px; left: 10px; padding: 2px 8px; border-radius: 999px; background: var(--pc-green); color: #fff; font-size: 11px; font-weight: 700; }
+
+/* ---------- Oferte în coș (pachet / variantă mai mare) ---------- */
+.pc-offer { display: grid; grid-template-columns: 1fr auto; gap: 10px 14px; align-items: center; padding: 12px 14px; background: var(--pc-green-bg); border: 1px solid rgba(31, 138, 76, .25); border-radius: var(--pc-radius); }
+.pc-offer__text { margin: 0; font-size: 14px; line-height: 1.4; }
+.pc-offer__text a { color: inherit; font-weight: 700; }
+.pc-offer__save { color: var(--pc-green); font-weight: 700; }
+.pc-offer .pc-swap { background: var(--pc-ink); }
+.pc-offer .pc-swap:hover { background: #000; }
+.pc-err { grid-column: 1 / -1; margin: 0; font-size: 13px; color: #b00020; }
+
+.pc-cart { display: grid; gap: 14px; margin-top: 16px; }
+.pc-popover { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--pc-line); text-align: start; }
+
+@media (min-width: 1000px) {
+  .pc-cart .pc-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pc-cart .pc-card { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-items: stretch; }
+  .pc-cart .pc-card__body { grid-template-rows: auto 1fr; }
+  .pc-cart .pc-card__form { align-content: end; }
+  .pc-cart .pc-card__media { width: 100%; height: 120px; }
+}
+@media (max-width: 699px) {
+  .pc-offer { grid-template-columns: 1fr; }
+  .pc-offer .pc-swap { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pc-card, .pc-card__btn, .pc-swap { transition: none; }
+}

@@ -55,3 +55,10 @@ Pentru ce se cere aici un server nu aduce nimic: data de livrare se calculează 
 - Start cu Modulul 1 (livrarea) singur sau toate 1–5 odată?
 - Ora limită rămâne 12:00? Sâmbăta se predă ceva la Cargus?
 - Lista perechilor „Merge perfect cu” (propun eu o listă, el o corectează).
+
+## Stare 15.11.2026 – construit, nepublicat
+Marius: „Toate 5 modulele”; „14:00 predăm zilnic coletele la Cargus”; perechile „fă tot tu… corelează tu”; designul „încearcă să fii expert UI/UX… ce crezi că merge îmbunătățit, îmbunătățește”.
+- Toate cele 5 module sunt făcute pe copia nepublicată „Prime – Prime Coș: livrare + upsell (15.11)”. Fișierele, ce face fiecare și testele sunt în `theme-fixes/prime-cos-2026-11-15/README.md`.
+- Ora limită: 14:00, luni–vineri. Sâmbăta e considerată zi fără predare (de confirmat dacă Cargus ridică și sâmbăta).
+- Perechile au fost alese de Claude, pe linii de produs. Se pot schimba oricând în `snippets/prime-cos-perechi.liquid`.
+- Publicarea: după Late Black Friday (DE-FACUT 32f), cu „da”-ul lui Marius. Apoi se dezinstalează Delivery Estimator.

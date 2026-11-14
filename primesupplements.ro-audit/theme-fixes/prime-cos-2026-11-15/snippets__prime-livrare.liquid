@@ -1,0 +1,22 @@
+{%- comment -%}
+  Prime Coș – estimarea livrării (înlocuiește aplicația Delivery Estimator), 15.11.2026.
+  Data se calculează în browser (ora României, predare la Cargus până la 14:00, luni–vineri, fără sărbătorile legale).
+  Parametri: product (pe pagina de produs) | compact: true (în coș)
+{%- endcomment -%}
+{{ 'prime-cos.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'prime-cos.js' | asset_url }}" defer></script>
+{%- if compact -%}
+  <div class="pc-livrare pc-livrare--compact" data-pc-pending>
+    <span class="pc-livrare__icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>
+    <span data-pc-main>Livrare prin Cargus în 1–2 zile lucrătoare.</span>
+  </div>
+{%- else -%}
+  <div class="pc-livrare" data-pc-product data-pc-pending {% unless product.selected_or_first_available_variant.available %}hidden{% endunless %}>
+    <span class="pc-livrare__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>
+    <div>
+      <div class="pc-livrare__main" data-pc-main>Livrare în 1–2 zile lucrătoare</div>
+      <div class="pc-livrare__sub" data-pc-sub>Coletele pleacă zilnic, de luni până vineri, la 14:00.</div>
+      <div class="pc-livrare__meta">Cargus · gratuit de la {{ settings.cart_free_shipping_threshold }} lei, altfel 20 lei</div>
+    </div>
+  </div>
+{%- endif -%}

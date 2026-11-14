@@ -1000,3 +1000,13 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Trebuie doar o versiune nouă a aplicației, cu permisiunile `read_shopify_payments_payouts` / `read_shopify_payments_accounts`, aprobată de Marius.
   - De încărcat ar rămâne doar extrasul BT și rapoartele Cargus pentru contul colector. Pe acestea din urmă le-am putea lua din API-ul Cargus după cheie, dacă API-ul dă decontările; de verificat.
 - 15.11 (verificare cerută de Marius după publicare): tema live = „Prime – Prime Coș: livrare + upsell (15.11)”; fișierele principale neschimbate după publicare. 8 pagini live fără erori Liquid, toate cu bula WhatsApp. Coș de test (Creatină 500 g, golit la final): „ajunge marți, 17 nov.”, oferta „Ia pachetul” (Pre-Workout Power, economisești 82 lei), „Completează coșul… Mai ai 160 lei” cu produse și „+ Adaugă”. Observații: pe mobil, butonul fix „Chat” (stânga-jos) trece peste titlul blocului din coș la derulare (doar estetic); bannerul „Black Friday… până pe 15 noiembrie” e încă pe site (altă temă de lucru, nu ține de Prime Coș). Există și tema nepublicată „Prime – fără retur la vedere (15.11)” făcută de altă sesiune.
+- 15.11 (01:40): Prime Expediere – **Contabilitate: „Luna de lucru”** (cerut de Marius: „să fie clar în ce lună se lucrează și în ce lună se încarcă rapoartele, să nu se greșească să se încarce rapoarte din octombrie în noiembrie…”).
+  - Deasupra Încasări și Extras de cont e o singură bară „LUNA DE LUCRU ◀ octombrie 2026 ▶”. Pornește implicit pe luna trecută (cea care se închide la contabilitate), se ține minte în browser și nu merge în luni viitoare.
+  - Titlurile și zona de încărcare spun luna („Încasări din octombrie 2026”, „Alege extrasele PDF din octombrie 2026”).
+  - **Încărcarea din altă lună e blocată:**
+    - rapoartele Cargus/Netopia se verifică după data OP-ului sau a decontului, extrasul BT după perioada lui;
+    - dacă toate fișierele sunt din altă lună: „N-am încărcat nimic”, cu butonul „Treci pe … și încarcă”;
+    - dacă fișierele sunt amestecate, se încarcă doar luna de lucru și se spune ce a rămas neîncărcat;
+    - serverul verifică și el.
+  - Listele de luni din fiecare pagină au dispărut.
+  - 111 teste, versiunea bfad6003.

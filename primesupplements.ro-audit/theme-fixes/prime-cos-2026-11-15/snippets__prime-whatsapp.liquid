@@ -1,0 +1,56 @@
+{%- comment -%}
+  Prime WhatsApp (2026-11-15): replaces the paid Dondy WhatsApp app (6.99 $/month, ~64 KB of JS) with a plain link,
+  no JavaScript. Same look and behaviour as the Dondy bubble it replaces: green 55 px circle, bottom-right
+  (10 px from the right, 90 px from the bottom so it clears the sticky add-to-cart bar), opens WhatsApp with
+  "Buna ziua, doresc mai multe informații." + the link of the page the visitor is on.
+  Until the visitor makes a cookie choice it stays hidden (same rule as snippets/consent-overlays.liquid had for Dondy),
+  so it never covers the Pandectes cookie bar on phones.
+{%- endcomment -%}
+{%- assign wa_number = '40775286584' -%}
+{%- capture wa_text %}Buna ziua, doresc mai multe informații.
+
+{{ canonical_url }}{% endcapture -%}
+{%- assign wa_text = wa_text | url_encode | replace: '+', '%20' -%}
+<a
+  class="prime-wa"
+  href="https://wa.me/{{ wa_number }}?text={{ wa_text }}"
+  target="_blank"
+  rel="noopener"
+  aria-label="Scrie-ne pe WhatsApp"
+  title="Scrie-ne pe WhatsApp"
+>
+  <svg viewBox="0 0 32 32" width="31" height="31" aria-hidden="true" focusable="false">
+    <path fill="#fff" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.29.6 4.53 1.74 6.5L3 29l6.66-1.74A12.98 12.98 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3Zm0 23.8c-1.95 0-3.86-.52-5.53-1.51l-.4-.24-3.95 1.03 1.05-3.85-.26-.4A10.77 10.77 0 0 1 5.24 16c0-5.95 4.85-10.8 10.8-10.8 5.94 0 10.77 4.85 10.77 10.8s-4.83 10.8-10.77 10.8Zm5.92-8.09c-.32-.16-1.92-.95-2.22-1.06-.3-.11-.51-.16-.73.16-.21.32-.84 1.06-1.03 1.27-.19.22-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.33-.02-.5.14-.66.15-.15.33-.38.49-.57.16-.19.21-.32.32-.54.11-.21.05-.4-.03-.57-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.55-.73-.56h-.62c-.21 0-.57.08-.86.4-.3.33-1.13 1.11-1.13 2.7s1.16 3.13 1.32 3.35c.16.21 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.25 1.48.21 2.03.13.62-.09 1.92-.78 2.19-1.54.27-.76.27-1.41.19-1.54-.08-.14-.3-.22-.62-.38Z"/>
+  </svg>
+</a>
+<style>
+  .prime-wa {
+    position: fixed;
+    right: 10px;
+    bottom: 90px;
+    z-index: 2147483000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #2ab540;
+    box-shadow: 0 4px 12px rgb(0 0 0 / .25);
+    transition: transform .2s ease;
+  }
+  .prime-wa:hover,
+  .prime-wa:focus-visible {
+    transform: scale(1.08);
+  }
+  .prime-wa:focus-visible {
+    outline: 3px solid #1a1a1a;
+    outline-offset: 3px;
+  }
+  .consent-pending .prime-wa {
+    display: none !important;
+  }
+  @media print {
+    .prime-wa { display: none; }
+  }
+</style>

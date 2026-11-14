@@ -39,3 +39,10 @@ Fiecare produs adăugat din aceste blocuri primește proprietatea ascunsă `_sur
 1. Dacă tema live s-a schimbat între timp (de ex. afiliații din 28.11), se reface copia și se urcă din nou fișierele de aici.
 2. Se publică tema. Se verifică o pagină de produs și coșul.
 3. Se dezinstalează Delivery Estimator din Shopify (Aplicații).
+
+## Adăugat 15.11: bula WhatsApp proprie (înlocuiește Dondy)
+- `snippets/prime-whatsapp.liquid` (nou): link simplu, fără JavaScript, identic ca aspect și mesaj cu bula Dondy (cerc verde 55 px, dreapta 10 px, jos 90 px; „Buna ziua, doresc mai multe informații.” + linkul paginii). Ascuns până la alegerea cookie-urilor.
+- `layout/theme.liquid`: `{%- render 'prime-whatsapp' -%}` înainte de `</body>` (nu pe pagina cu parolă).
+- `config/settings_data.json`: embed-ul Dondy oprit (`disabled: true`).
+- Testat în previzualizare (desktop + 375 px): link identic cu Dondy, scriptul Dondy nu se mai încarcă, nu acoperă bara sticky.
+- **La publicare:** pe lângă Delivery Estimator, Marius dezinstalează și **Dondy** din Aplicații.

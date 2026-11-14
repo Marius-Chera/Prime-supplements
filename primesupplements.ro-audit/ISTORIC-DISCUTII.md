@@ -449,3 +449,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
   Nedecis: Frutilu (care are NIR-uri) și ceilalți distribuitori n-au etichetă proprie; produsele lor stau „fără furnizor”, cu termenul de 35 de zile.
 - **15.11 – TVA manual:** Marius a cerut verificarea. Shopify permite (Basic/Manual), dar costul real al Shopify Tax e ~5 €/lună (estimarea Shopify), nu ~4.500–5.000 lei/an cum scrisesem. Recomandat: nu schimbăm (risc pentru cota TVA din facturile Oblio emise de Prime Expediere); decizia finală la Marius.
+- **15.11 – Dondy:** Marius a cerut înlocuirea aplicației Dondy WhatsApp cu cod propriu. Decizie: bulă WhatsApp în temă, identică ca aspect și mesaj, fără JavaScript, pusă pe aceeași temă nepublicată cu Prime Coș; se publică împreună după Late Black Friday, apoi se dezinstalează Dondy (6,99 $/lună).

@@ -27,7 +27,7 @@ Stare la 13.11: modul umbră merge (44/44 facturi identice cu aplicația veche),
 7. **Al doilea curier** (Sameday cu easybox, sau FAN cu FANbox) + **reguli de alegere**: easybox ales → Sameday; greutate > X → curierul ieftin; județ → curierul cu livrare mai rapidă.
 8. **Comparator de preț pe comandă** (calcul la fiecare curier) – alegi curierul cel mai ieftin cu un click.
 9. **Lockere**: alegerea lockerului după comandă (pagina de mulțumire / e-mail), pentru că extensiile în checkout cer Shopify Plus.
-10. **Corectarea adresei** (ce făcea Fluxsales la 3 % din comenzi): județ/localitate/cod poștal din nomenclator, propuse cu un click.
+10. **Corectarea adresei** (ce făcea Fluxsales la 3 % din comenzi): județ/localitate/cod poștal din nomenclator, propuse cu un click. **Făcut 14.11 (partea 1)**: din lista oficială a Poștei Române (coduri, localități, străzi cu numere în orașele mari), în coloana Stare din Comenzi; corectura intră în AWB, Shopify nemodificat. Partea 2, după cheie: nomenclatorul Cargus.
 11. ~~Listă de pregătire (picking)~~ – **renunțat (Marius, 13.11)**.
 12. **Comenzi suspecte** înainte de AWB: client cu refuzuri anterioare, telefon invalid, adresă incompletă, ramburs mare la client nou → semnalate, nu blocate. **Făcut 13.11** (coloana Risc din Comenzi; refuzurile din istoricul Cargus se adaugă după cheie).
 13. ~~Confirmare prin SMS/e-mail înainte de expediere pentru rambursuri mari~~ – **renunțat (Marius, 13.11)**: comenzile se confirmă deja pe WhatsApp.

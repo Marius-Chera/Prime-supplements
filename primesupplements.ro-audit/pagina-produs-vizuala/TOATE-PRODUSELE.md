@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 19:47 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 19:51 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 23; cu Curiozități: 3; cu sportivă în dreapta: 22; scrise pe PILOT (metafield) cu versiunea curentă: 23.
+Rezumat: **80 produse**; JSON pagină vizuală: 23; cu Curiozități: 10; cu sportivă în dreapta: 22; scrise pe PILOT (metafield) cu versiunea curentă: 23.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -17,20 +17,20 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | eaa-aminoacizi-esentiali | 14971467301239 | Aminoacizi esențiali EAA – tub de 500 g | da | **nu** | da | pagină 15.11 |
 | nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | **nu** | da | pagină 15.11 |
 | omega-3 | 14971467465079 | Omega-3 din ulei de pește – 80 de capsule | da | **nu** | da | pagină 15.11 |
-| pure-isolate-2000g | 14971467530615 | Izolat proteic din zer Pure Isolate – 2 kg | da | **nu** | da | pagină 15.11 |
+| pure-isolate-2000g | 14971467530615 | Izolat proteic din zer Pure Isolate – 2 kg | da | da (313) | da | pagină 15.11 + curiozități 15.11 |
 | recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | **nu** | **nu** | pagină 15.11 |
 | combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | **nu** | da | pagină 15.11 |
 | unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | **nu** | da | pagină 15.11 |
-| prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | **nu** | da | pagină 15.11 |
+| prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-2000g | 14971469529463 | Prime Whey – proteină din zer, 2 kg | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
 | cluster-bomb-1000g | 14971469562231 | Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg | da | **nu** | da | pagină 15.11 |
 | nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | **nu** | da | pagină 15.11 |
 | fiber-blood-orange | 14998832546167 | Fiber – băutură cu fibre, aromă portocală roșie, 500 g | da | **nu** | da | pagină 15.11 |
-| creatina-monohidrat-micronized-300g-fara-aroma | 15404872368503 | Creatină monohidrată micronizată fără aromă, 300 g | da | **nu** | da | pagină 15.11 |
-| crema-de-orez-blueberry-muffin | 15509051408759 | Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg | da | **nu** | da | pagină 15.11 |
-| crema-de-orez-caramel-sarat | 15509051605367 | Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg | da | **nu** | da | pagină 15.11 |
-| crema-de-orez-biscuiti-cu-crema | 15509052850551 | Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg | da | **nu** | da | pagină 15.11 |
-| crema-de-orez-plactina-cu-cocos | 15509053342071 | Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg | da | **nu** | da | pagină 15.11 |
+| creatina-monohidrat-micronized-300g-fara-aroma | 15404872368503 | Creatină monohidrată micronizată fără aromă, 300 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
+| crema-de-orez-blueberry-muffin | 15509051408759 | Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg | da | da (314) | da | pagină 15.11 + curiozități 15.11 |
+| crema-de-orez-caramel-sarat | 15509051605367 | Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg | da | da (307) | da | pagină 15.11 + curiozități 15.11 |
+| crema-de-orez-biscuiti-cu-crema | 15509052850551 | Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg | da | da (325) | da | pagină 15.11 + curiozități 15.11 |
+| crema-de-orez-plactina-cu-cocos | 15509053342071 | Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg | da | da (317) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-tort-de-ciocolata | 15509053636983 | Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
 | ashwagandha-ksm-66 | 14971464712567 | Ashwagandha KSM-66 – 80 capsule | **nu** | **nu** | în repo: prime-ashwagandha-ksm-66-80-capsule-sportiva-1.jpg | – |
 | crema-de-orez-fara-aroma | 15509049639287 | Cremă de orez Prime Creamy Rice – fără aromă, 1 kg | **nu** | **nu** | **nu** | – |

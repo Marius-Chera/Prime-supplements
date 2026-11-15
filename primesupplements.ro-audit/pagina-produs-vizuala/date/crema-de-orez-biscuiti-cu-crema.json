@@ -128,5 +128,37 @@
   },
   "arome": [],
   "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez cu biscuiți",
+    "intro": "Gustul de biscuiți cu cremă vine dintr-o pudră care nu conține biscuiți. Află cum se obține, ce aduce o porție și câteva idei pentru micul dejun. La final ai și o rețetă simplă de budincă în straturi, bună pentru zilele în care vrei ceva dulce dimineața, fără să stai mult în bucătărie.",
+    "sectiuni": [
+      {
+        "intrebare": "Există biscuiți în crema de orez?",
+        "raspuns": "Nu. Gustul vine din cacao cu conținut redus de grăsimi, arome și îndulcitori, peste baza de făină de orez. Lista de ingrediente nu are biscuiți, unt sau zahăr. De aceea o porție de 45 g are doar 0,4 g grăsimi și 0,3 g zaharuri, conform declarației nutriționale."
+      },
+      {
+        "intrebare": "De ce se prepară crema la rece?",
+        "raspuns": "Pentru că orezul e deja gătit. Făina de orez e pregelatinizată: orezul a fost încălzit cu apă, uscat și măcinat, așa că amidonul din el se leagă direct cu lichid rece. Pui o măsură de 45 g în 150–200 ml de apă sau lapte rece și o agiți până devine cremoasă."
+      },
+      {
+        "intrebare": "De unde vine orezul?",
+        "raspuns": "Din Asia, unde e cultivat de mii de ani. Azi este una dintre cele mai consumate cereale din lume, iar din ea se fac fulgi, tăiței, băuturi și făinuri. Făina de orez nu conține gluten în mod natural; la produsul nostru, eticheta avertizează totuși că poate conține urme de grâu."
+      },
+      {
+        "intrebare": "Ce aduce o porție de 45 g?",
+        "raspuns": "Mai ales glucide: 33,8 g, la 155,7 kcal. Mai are 3,4 g proteine, 0,9 g fibre și 0,12 g sare. Pentru o masă mai completă, mulți o amestecă cu o măsură de proteină din zer sau o servesc lângă iaurt grecesc."
+      },
+      {
+        "intrebare": "Cum o servești la micul dejun?",
+        "raspuns": "Ca budincă în straturi, de exemplu. Pregătește crema cu mai puțin lichid, ca să iasă groasă, apoi pune-o într-un pahar alternând cu iaurt și bucăți de fructe. Lasă paharul zece minute la frigider. Arată ca un desert cu biscuiți, dar e făcut din câteva ingrediente simple."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, în ordinea cantității)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
 }

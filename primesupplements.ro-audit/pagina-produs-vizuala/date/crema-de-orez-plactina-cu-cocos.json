@@ -128,5 +128,37 @@
   },
   "arome": [],
   "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez cu cocos",
+    "intro": "Plăcinta cu cocos e un desert de familie în multe țări. În crema noastră, gustul vine din lapte praf de cocos. Iată ce înseamnă asta și cum o prepari. La final ai și o idee de desert la pahar, cu ovăz, cocos și ananas, gata în câteva minute.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este laptele praf de cocos?",
+        "raspuns": "Este lapte de cocos uscat și transformat în pudră. Laptele de cocos se obține din miezul alb al nucii de cocos, ras și presat cu apă; nu e lichidul limpede din interiorul nucii. După uscare, devine o pudră care dă gust și cremozitate. La această aromă, eticheta îl trece în lista de ingrediente."
+      },
+      {
+        "intrebare": "De ce are mai multe grăsimi decât celelalte arome?",
+        "raspuns": "Din cauza cocosului. O porție de 45 g are 1,8 g grăsimi, din care 1,4 g saturate, față de sub 1 g la celelalte arome Creamy Rice. Grăsimea din cocos e în mare parte saturată. Tot de aici vin și caloriile ceva mai multe: 166,2 kcal pe porție."
+      },
+      {
+        "intrebare": "De unde vine nuca de cocos?",
+        "raspuns": "Din zonele tropicale ale Asiei și Pacificului. Fructele cu coajă groasă pot pluti pe mare, iar oamenii le-au dus de-a lungul coastelor tropicale. Azi, cocotierul crește în aproape toate țările calde, iar din nucă se fac lapte, ulei, făină și fulgi."
+      },
+      {
+        "intrebare": "Cum se prepară crema?",
+        "raspuns": "La rece, în shaker. Făina de orez e pregelatinizată, adică deja gătită, așa că pui o măsură de 45 g în 150–200 ml de apă sau lapte rece și agiți până devine cremoasă. Cu lapte vegetal de cocos, gustul de cocos se simte mai tare."
+      },
+      {
+        "intrebare": "Ce poți face cu ea în bucătărie?",
+        "raspuns": "O „plăcintă” la pahar, de exemplu. Pune la bază o lingură de fulgi de ovăz, apoi crema groasă, apoi fulgi de cocos și câteva bucăți de ananas. Merge și ca topping peste clătite sau amestecată în iaurt. Un tub de 1 kg are 22 de porții."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
 }

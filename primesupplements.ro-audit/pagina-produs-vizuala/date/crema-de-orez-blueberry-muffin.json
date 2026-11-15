@@ -128,5 +128,37 @@
   },
   "arome": [],
   "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez cu afine",
+    "intro": "Brioșele cu afine sunt un clasic al cafenelelor. Varianta noastră e o cremă de orez cu afine uscate adevărate, gata în shaker. Iată ce e de știut despre ea. La final găsești și o rețetă de brioșă la cană, gata în câteva minute, bună pentru o gustare caldă după antrenament sau la micul dejun.",
+    "sectiuni": [
+      {
+        "intrebare": "Are afine adevărate crema de orez?",
+        "raspuns": "Da, afine uscate, 3% din compoziție. Eticheta le trece în lista de ingrediente, alături de făina de orez pregelatinizată, arome și îndulcitori. De aici vin și zaharurile: 1,0 g la o porție de 45 g, mai mult decât la celelalte arome, pentru că fructele au zaharuri naturale."
+      },
+      {
+        "intrebare": "De unde vine brioșa cu afine?",
+        "raspuns": "Din bucătăria americană. Afinele sunt originare din America de Nord, unde erau culese din flora spontană cu mult înainte să fie cultivate. Brioșa cu afine a devenit un mic dejun obișnuit acolo, iar gustul ei a ajuns acum și într-o cremă de orez."
+      },
+      {
+        "intrebare": "Ce înseamnă că se prepară fără fierbere?",
+        "raspuns": "Înseamnă că orezul e deja gătit. Făina de orez e pregelatinizată: boabele au fost încălzite cu apă, uscate și măcinate. Astfel, amidonul se leagă direct cu apă sau lapte rece. Pui o măsură în shaker cu 150–200 ml de lichid și agiți până devine cremoasă."
+      },
+      {
+        "intrebare": "Câte calorii are o porție?",
+        "raspuns": "157,2 kcal la 45 g, conform declarației nutriționale. Porția are 34,7 g glucide, 3,6 g proteine, 0,8 g fibre și doar 0,27 g grăsimi. Un tub de 1 kg ajunge pentru 22 de porții."
+      },
+      {
+        "intrebare": "Cum o transformi într-o „brioșă” la cană?",
+        "raspuns": "O amesteci cu un ou și puțin lapte, ca o compoziție groasă. Pui totul într-o cană, adaugi câteva afine proaspete și o încălzești la microunde aproximativ un minut, până se întărește. Verifică la jumătate, pentru că timpul diferă de la un aparat la altul. Rezultatul e o prăjitură caldă, gata în câteva minute."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
 }

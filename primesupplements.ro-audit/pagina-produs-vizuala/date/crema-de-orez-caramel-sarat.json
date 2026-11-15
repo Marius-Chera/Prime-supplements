@@ -128,5 +128,37 @@
   },
   "arome": [],
   "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez cu caramel sărat",
+    "intro": "Caramelul sărat pare o combinație ciudată până îl guști. Află de unde vine, de ce are crema mai multă sare decât alte arome și cum o folosești. Găsești și o idee de mic dejun cu fructe și unt de arahide, care merge foarte bine cu gustul dulce-sărat al acestei arome.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine caramelul sărat?",
+        "raspuns": "Din Bretania, în nord-vestul Franței. Regiunea e cunoscută pentru untul sărat, iar cofetarii de acolo au început să-l folosească în caramel și bomboane. Combinația de dulce și sărat s-a răspândit apoi în prăjituri, înghețată și ciocolată din toată lumea."
+      },
+      {
+        "intrebare": "De ce are aroma caramel sărat mai multă sare?",
+        "raspuns": "Pentru că sarea face parte din gust. O porție de 45 g are 0,4 g sare, față de 0,12–0,15 g la celelalte arome Creamy Rice. Sarea scoate în evidență gustul de caramel, așa cum o fac cofetarii. Valoarea e trecută în declarația nutrițională de pe tub."
+      },
+      {
+        "intrebare": "Are zahăr ars, ca un caramel adevărat?",
+        "raspuns": "Nu. Caramelul clasic se face încălzind zahărul până se rumenește. În crema de orez, gustul de caramel vine din arome, iar dulceața din îndulcitori. De aceea porția are doar 0,3 g zaharuri, prezente în mod natural, la 155,2 kcal."
+      },
+      {
+        "intrebare": "Cum se face pudra de orez?",
+        "raspuns": "Prin gătire, uscare și măcinare. Orezul se încălzește cu apă, ca amidonul să se umfle, apoi se usucă și se macină fin. Rezultatul se numește făină de orez pregelatinizată și se leagă cu lichid rece, fără fierbere. Primul ingredient de pe etichetă este chiar această făină."
+      },
+      {
+        "intrebare": "Cum o folosești în rețete?",
+        "raspuns": "Ca bază dulce pentru mic dejun sau gustare. Prepară crema mai groasă și pune deasupra felii de măr sau de banană și o linguriță de unt de arahide; combinația cu sărat merge foarte bine. O poți adăuga și într-un shake proteic cu aromă de vanilie, pentru gust de caramel."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (declarația nutrițională, sarea)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
 }

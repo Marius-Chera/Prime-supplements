@@ -170,5 +170,41 @@
     }
   ],
   "mod_de_folosire": "O porție de 27 g amestecată cu apă sau lapte, după antrenament sau pe parcursul zilei.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre izolatul din zer",
+    "intro": "Izolatul și concentratul vin din același zer, dar trec prin procese diferite. Aici afli ce înseamnă „izolat”, ce e Digezyme® și cum îl folosești în bucătărie.",
+    "sectiuni": [
+      {
+        "intrebare": "Prin ce diferă izolatul de concentratul din zer?",
+        "raspuns": "Prin filtrarea în plus. Ambele pornesc din zer, lichidul rămas după fabricarea brânzei. Izolatul trece printr-o filtrare suplimentară, care scoate și mai mult din grăsime și lactoză. Rezultatul se vede pe eticheta Pure Isolate: 23,5 g de proteine într-o porție de 27 g, cu doar 0,26 g zaharuri și 0,26 g grăsimi."
+      },
+      {
+        "intrebare": "Cât de puțină lactoză înseamnă 0,26 g zaharuri?",
+        "raspuns": "Foarte puțin. Zaharurile dintr-un izolat din zer vin în principal din lactoză, iar o porție are 0,26 g. Ca reper, o recenzie sistematică din 2010 arată că majoritatea adulților cu intoleranță la lactoză tolerează 12–15 g de lactoză, aproximativ cât are o cană de lapte. Dacă ai intoleranță, întreabă-ți medicul ce ți se potrivește."
+      },
+      {
+        "intrebare": "Ce este Digezyme®?",
+        "raspuns": "Este un amestec de enzime digestive, trecut pe etichetă cu 40,5 mg pe porție. Enzimele sunt proteine care descompun alte molecule: amilaza lucrează pe amidon, proteaza pe proteine, lipaza pe grăsimi. Digezyme® e marca înregistrată a acestui amestec de ingrediente."
+      },
+      {
+        "intrebare": "De ce izolatul face mai puțină spumă și se amestecă ușor?",
+        "raspuns": "Pentru că are mai puțină grăsime și lactoză. Pudra se dizolvă repede în apă rece, iar shake-ul iese mai fluid decât unul cu concentrat. Ca să ai mai puțină spumă, pune întâi lichidul în shaker, apoi pudra, și lasă-l un minut să se așeze înainte să bei."
+      },
+      {
+        "intrebare": "Cum îl folosești în bucătărie?",
+        "raspuns": "Ca pe o pudră proteică fină. Merge în iaurt grecesc, în terci de ovăz luat de pe foc, în clătite sau în înghețată făcută din banane congelate. Fiind atât de slab în grăsimi, adaugă puțin lapte sau unt de arahide dacă vrei o textură mai cremoasă. Proteinele contribuie la creșterea masei musculare."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Shaukat A și colab. Systematic review: effective management strategies for lactose intolerance. Ann Intern Med. 2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20404262/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

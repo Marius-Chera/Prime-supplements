@@ -120,5 +120,49 @@
   "arome": [],
   "mod_de_folosire": "În faza de încărcare (primele 5–15 zile): 1½–3 măsuri pe zi, în funcție de greutatea corporală. În perioada de menținere (6–8 săptămâni): ½–1½ măsuri pe zi. O jumătate de măsură = 5 g, amestecată în 300–500 ml de apă. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului creatina-monohidrat-micronized-300g-fara-aroma (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Lucruri interesante despre creatina monohidrată",
+    "intro": "Creatina monohidrată e cea mai simplă formă de creatină și cea mai des studiată. Aici găsești ce înseamnă „micronizată”, de unde o iei din mâncare și cum o pregătești corect.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă creatină micronizată?",
+        "raspuns": "Înseamnă creatină măcinată în particule foarte fine. Molecula e aceeași creatină monohidrată; se schimbă doar mărimea particulelor. Pulberea fină se amestecă mai ușor și lasă mai puțin depozit pe fundul paharului. „Monohidrată” arată că fiecare moleculă de creatină are legată o moleculă de apă."
+      },
+      {
+        "intrebare": "Din ce alimente iei creatină?",
+        "raspuns": "Mai ales din carne și pește. Corpul își produce singur o parte din creatină, din glicină, arginină și metionină, iar restul vine din mâncare. O recenzie publicată în 2007 arată că vegetarienii primesc aproape deloc creatină din alimentație, pentru că plantele nu o conțin."
+      },
+      {
+        "intrebare": "E obligatorie faza de încărcare de pe etichetă?",
+        "raspuns": "Nu, e doar o variantă. Eticheta descrie o încărcare de 5–15 zile, urmată de o doză de menținere. O recenzie din 2021 despre întrebările frecvente legate de creatină arată că încărcarea nu e necesară: poți lua direct o doză zilnică de 3–5 g. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină."
+      },
+      {
+        "intrebare": "Creatina e doar pentru bărbați?",
+        "raspuns": "Nu. O recenzie din 2021 despre creatină la femei arată că femeile au, în medie, rezerve proprii de creatină cu 70–80% mai mici decât bărbații. Doza de pe etichetă e aceeași pentru orice adult."
+      },
+      {
+        "intrebare": "De ce se pregătește chiar înainte să o bei?",
+        "raspuns": "Pentru că în lichid creatina se transformă treptat în creatinină. Ca pulbere uscată rămâne stabilă, dar într-o băutură lăsată multe ore o parte se pierde. Amestec-o în apă, suc sau shake și bea imediat. Fiind fără aromă, nu schimbă gustul băuturii."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary, and therapeutic supplement. Annu Rev Nutr. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17430086/"
+      },
+      {
+        "text": "Antonio J și colab. Common questions and misconceptions about creatine supplementation. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33557850/"
+      },
+      {
+        "text": "Smith-Ryan AE și colab. Creatine Supplementation in Women’s Health: A Lifespan Perspective. Nutrients. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33800439/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

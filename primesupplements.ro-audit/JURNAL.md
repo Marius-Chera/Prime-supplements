@@ -1232,3 +1232,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - a rămas neschimbată clauza generală de refuz al comenzii „(iii) a neefectuării plății prin ordin bancar sau ramburs”.
   - **Verificat:** textul salvat e identic caracter cu caracter cu versiunea pregătită. Pe site-ul public: 0 „transfer bancar”, 0 Netopia. Celelalte pagini și descrierile lor SEO nu pomenesc metode de plată.
   - **Copii:** `backups/policies-2026-11-15-shopify-payments/` (`*.v2.html` și `*.live-v2.html`).
+- **15.11, Materiale afiliați – noiembrie 2026 (cerut de Marius: „lunar minim 10 poze” pentru postări și story):**
+  - Am generat cu OpenArt (Nano Banana 2.1, pornind de la pozele reale ale produselor) 10 imagini: Prime Whey 2 kg, Creatină Creapure, Cremă de orez cu afine, Pure Isolate și Omega-3, fiecare cu o postare 1080×1350 și un story 1080×1920.
+  - Pe fiecare imagine e o bandă neagră cu logo și „CODUL MEU:”, plus o casetă albă goală, unde sportivul își scrie codul.
+  - Imaginile sunt urcate în Shopify Files (`afiliati-2026-11-*`), în aplicație la Materiale („Noiembrie 2026 – postări și story”) și în repo, în `afiliati/materiale/2026-11/`. Scriptul care pune banda: `afiliati/materiale/banda-codul-meu.py`.
+  - Cost: ~370 de credite OpenArt.

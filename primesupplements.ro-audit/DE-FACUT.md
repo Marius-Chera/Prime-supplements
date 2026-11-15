@@ -128,4 +128,4 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
     (d) De verificat: rambursările comenzilor vechi plătite prin Netopia, după dezactivare. Shopify spune că comenzile existente se gestionează în continuare din Comenzi; altfel se fac din contul Netopia.
     (e) Eventual Shop Pay, oprit acum (decizia lui Marius).
     ~~(g) Netopia scoasă de pe site~~ – făcut 15.11: „Termeni și condiții” și „Politica de plată” spun acum Shopify Payments. „Plata prin transfer bancar” scoasă și ea din pagini și din descrierea SEO (15.11, „Da, scoate-o”).
-    (f) Contractul Netopia (abonament sau comisioane fixe): de închis de Marius, dacă nu mai e nevoie de el.
+    (f) ~~Contractul Netopia~~: Marius, 15.11: nu costă nimic dacă nu e folosit.

@@ -260,6 +260,19 @@
   "nota": "OK identic"
  },
  {
+  "key": "06c",
+  "rank": 6,
+  "file": "prime-crema-de-orez-placinta-cu-cocos-1kg-sportiva-1.jpg",
+  "women": true,
+  "kb": 309,
+  "produs": "Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg",
+  "handle": "crema-de-orez-plactina-cu-cocos",
+  "aroma": "plăcintă cu cocos",
+  "alt": "Cremă de orez Prime Creamy Rice, aromă plăcintă cu cocos, în prim-plan; în fundal o sportivă în bustieră albă mănâncă cremă de orez cu fulgi de cocos într-o bucătărie luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "06c OK"
+ },
+ {
   "key": "07a",
   "rank": 7,
   "file": "prime-eaa-500g-peach-ice-tea-sala-1.jpg",
@@ -351,6 +364,19 @@
   "nota": "OK identic"
  },
  {
+  "key": "09c",
+  "rank": 9,
+  "file": "prime-crema-de-orez-biscuiti-cu-crema-1kg-sportiva-1.jpg",
+  "women": true,
+  "kb": 290,
+  "produs": "Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg",
+  "handle": "crema-de-orez-biscuiti-cu-crema",
+  "aroma": "biscuiți cu cremă",
+  "alt": "Cremă de orez Prime Creamy Rice, aromă biscuiți cu cremă, în prim-plan; în fundal o sportivă în bustieră gri mănâncă cremă de orez cu biscuiți, la masa dintr-o cameră luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "09c OK"
+ },
+ {
   "key": "10a",
   "rank": 10,
   "file": "prime-crema-de-orez-briosa-cu-afine-1kg-mic-dejun-1.jpg",
@@ -414,6 +440,19 @@
   "alt": "Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg, pe un blat de marmură albă, lângă un bol cu cremă de orez gătită",
   "sursa": "generată AI (din poza reală a ambalajului)",
   "nota": "OK identic"
+ },
+ {
+  "key": "11c",
+  "rank": 11,
+  "file": "prime-crema-de-orez-caramel-sarat-1kg-sportiva-1.jpg",
+  "women": true,
+  "kb": 258,
+  "produs": "Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg",
+  "handle": "crema-de-orez-caramel-sarat",
+  "aroma": "caramel sărat",
+  "alt": "Cremă de orez Prime Creamy Rice, aromă caramel sărat, în prim-plan; în fundal o sportivă în bustieră bej mănâncă cremă de orez cu caramel, într-o sală luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "11c OK"
  },
  {
   "key": "12a",

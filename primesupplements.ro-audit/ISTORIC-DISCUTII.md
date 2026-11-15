@@ -480,3 +480,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Neaprobat încă:** designul prototipului, pornirea butonului „Cumpără acum” (schimbare de design) și orice scriere în temă sau în produse.
 - 15.11: Marius: „la sebastian stanescu si damian rusu sterge tot din aprobat si din credit pentru voucher”. Făcut: comisionul aprobat în UpPromote (684,85 și 488,32 lei) nu mai e datorat. Asta înlocuiește decizia „Mut ca voucher” de mai devreme.
 - 15.11: afiliatul vede în panou „În așteptare”, „Aprobat” și „Credit pentru voucher”, ca în UpPromote (cerut de Marius).
+- **15.11 – Shopify Payments în locul Netopia (Marius):** „scoate tu netopia de la plățile cu cardul și pune shopify payments și adaugă și apple pay și google pay … pune inactiv plățile prin netopia”. Revine asupra deciziei din 23.10 („NU Shopify Payments”).
+  - Găsit: virările Shopify Payments sunt oprite din 23.09, pentru că datele firmei nu sunt verificate.
+  - Marius a ales: „Aștept verificarea” (Netopia rămâne), apoi „Oprește-l până atunci” (Shopify Payments dezactivat până la verificare). A cerut: „zi înainte să le activez exact ce să completez”.
+  - Ordinea după verificare, aleasă de Claude: reactivare Shopify Payments, cu Apple Pay și Google Pay → verificare → dezactivare Netopia.

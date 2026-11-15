@@ -1105,3 +1105,44 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Cele 37 de comenzi „Approved” din UpPromote au trecut la „anulat”.
   - Acum ambii au 0 la aprobat și 0 la credit pentru voucher. Sebastian păstrează 33,21 lei în așteptare.
 - **Panoul afiliatului** are acum 3 casete: „În așteptare” (galben), „Aprobat” (albastru), „Credit pentru voucher” (verde). „Plătit” rămâne doar în fișa din admin. Cerut de Marius.
+- 15.11 (03:00–04:10): **Shopify Payments: pornit, apoi oprit până la verificarea firmei**. Marius: „scoate tu netopia de la plățile cu cardul și pune shopify payments și adaugă și apple pay și google pay … pune inactiv plățile prin netopia”.
+  - Contul Shopify Payments exista deja: a fost folosit în iulie–august 2025 și o dată în martie 2026.
+  - „Reactivate Shopify Payments” l-a pornit direct, cu un singur clic:
+    - cardurile, Apple Pay și Google Pay sunt active; Shop Pay e oprit;
+    - virările merg în contul BT ****4101, săptămânal, lunea.
+  - **Virările (payouts) sunt oprite din 23.09.2026**, pentru că Shopify cere actualizarea datelor firmei (KYC). Ce am găsit:
+    - la „Registered name” era trecut „primesupplements1”, adică numele tehnic al magazinului, nu denumirea firmei;
+    - lipsesc codul de TVA și documentul firmei;
+    - lipsește al doilea asociat (Shopify a identificat doi asociați, cu câte 50 %);
+    - lipsește documentul de proprietate.
+  - **Decizia lui Marius:**
+    - Netopia rămâne activă până la verificare;
+    - Shopify Payments se oprește până atunci.
+  - **Ce am făcut:**
+    - l-am oprit la 03:44;
+    - Marius l-a reactivat din greșeală din panou, așa că l-am oprit din nou la ~04:05;
+    - nicio comandă nu a trecut prin Shopify Payments în acest timp.
+  - **Starea acum:** cardul merge prin Netopia, rambursul e activ, Shopify Payments e dezactivat.
+  - Lista exactă de completat i-am dat-o lui Marius; e și în DE-FACUT §35.
+- 15.11: Total Admin – **plățile cu cardul prin Shopify Payments intră în Încasări direct din Shopify**, fără fișiere:
+  - **Modulul `src/shopify-payments.ts`:**
+    - citește virările (payouts) lunii și tranzacțiile din sold: plăți, rambursări, ajustări și dispute;
+    - le leagă de comandă și de factură (de pe comandă sau din Oblio);
+    - virarea ține locul decontului Netopia;
+    - luna e luna virării, după ora României;
+    - comisionul = net − brut;
+    - la fiecare virare verifică dacă suma tranzacțiilor e egală cu suma virată.
+  - **Preluarea:** butonul „Preia plățile Shopify Payments” din Încasări, plus preluarea automată în fiecare noapte (luna curentă, iar până pe 10 și luna trecută).
+  - **Încasări:**
+    - cardurile „card Shopify Payments” și „comisioane Shopify Payments”;
+    - coloana Tip arată sursa (Netopia sau Shopify Payments);
+    - după trecere, lipsa rapoartelor Netopia nu mai e semnalată.
+  - **Extras de cont:**
+    - virările Shopify se leagă după sumă și dată: descrierea cu SHOPIFY / STRIPE, sau o „altă încasare” cu exact suma unei virări;
+    - extrasele deja încărcate se reclasifică la citire.
+  - **Raportul de închidere:**
+    - foaia „SHOPIFY PAYMENTS”: bloc pe fiecare virare, cu factura PRS și clientul lângă sumă, totalul și rândul din extrasul BT;
+    - secțiunea Shopify Payments în Rezumat;
+    - foaia NETOPIA apare doar în lunile cu deconturi Netopia.
+  - 130 de teste, versiunea 92cc621f.
+  - **Nu merge încă:** aplicației îi lipsesc permisiunile `read_shopify_payments_accounts` și `read_shopify_payments_payouts`. Trebuie o versiune nouă, aprobată de Marius. Neverificat pe date reale (martie 2026 are plăți Shopify Payments: Nr.6362–6366).

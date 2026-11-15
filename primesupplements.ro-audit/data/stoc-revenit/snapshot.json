@@ -1,5 +1,5 @@
 {
- "data": "2026-11-14",
+ "data": "2026-11-15",
  "produse_active": 213,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi.",
  "produse": {
@@ -16,11 +16,11 @@
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
-   "totalInventory": 417,
+   "totalInventory": 416,
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 952,
+   "totalInventory": 950,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -36,7 +36,7 @@
    "publishedAt": "2025-05-05"
   },
   "thermo-core-120-caps": {
-   "totalInventory": 80,
+   "totalInventory": 81,
    "publishedAt": "2025-05-05"
   },
   "complete-collagen": {
@@ -48,11 +48,11 @@
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
-   "totalInventory": 82,
+   "totalInventory": 81,
    "publishedAt": "2025-05-05"
   },
   "magnesium-citrate-80-caps": {
-   "totalInventory": 44,
+   "totalInventory": 45,
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
@@ -68,11 +68,11 @@
    "publishedAt": "2025-05-05"
   },
   "zinc-citrate-80-caps": {
-   "totalInventory": 133,
+   "totalInventory": 131,
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 38,
+   "totalInventory": 39,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
@@ -84,7 +84,7 @@
    "publishedAt": "2025-05-05"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 771,
+   "totalInventory": 769,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
@@ -92,11 +92,11 @@
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 218,
+   "totalInventory": 214,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 334,
+   "totalInventory": 332,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
@@ -104,11 +104,11 @@
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 162,
+   "totalInventory": 163,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
-   "totalInventory": 119,
+   "totalInventory": 118,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
@@ -144,7 +144,7 @@
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
-   "totalInventory": 437,
+   "totalInventory": 438,
    "publishedAt": "2025-05-05"
   },
   "prosop-negru": {
@@ -160,7 +160,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 30,
+   "totalInventory": 29,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -180,15 +180,15 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 304,
+   "totalInventory": 303,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 531,
+   "totalInventory": 528,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 108,
+   "totalInventory": 107,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
@@ -208,7 +208,7 @@
    "publishedAt": "2025-05-05"
   },
   "silimarina-80-caps": {
-   "totalInventory": 75,
+   "totalInventory": 76,
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
@@ -224,7 +224,7 @@
    "publishedAt": "2025-05-05"
   },
   "fiber-blood-orange": {
-   "totalInventory": 88,
+   "totalInventory": 89,
    "publishedAt": "2025-06-02"
   },
   "prime-whey-go": {
@@ -260,19 +260,19 @@
    "publishedAt": "2026-03-29"
   },
   "crema-de-orez-blueberry-muffin": {
-   "totalInventory": 264,
+   "totalInventory": 256,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 278,
+   "totalInventory": 273,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 281,
+   "totalInventory": 274,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 278,
+   "totalInventory": 269,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -400,7 +400,7 @@
    "publishedAt": "2026-10-14"
   },
   "pachet-performance-black-friday": {
-   "totalInventory": 648,
+   "totalInventory": 652,
    "publishedAt": "2026-10-29"
   },
   "pachet-recuperare-black-friday": {
@@ -408,15 +408,15 @@
    "publishedAt": "2026-10-29"
   },
   "pachet-intra-black-friday": {
-   "totalInventory": 432,
+   "totalInventory": 428,
    "publishedAt": "2026-10-29"
   },
   "pachet-pre-workout-power-black-friday": {
-   "totalInventory": 104,
+   "totalInventory": 92,
    "publishedAt": "2026-10-29"
   },
   "pachet-full-stack-black-friday": {
-   "totalInventory": 600,
+   "totalInventory": 540,
    "publishedAt": "2026-10-29"
   },
   "pachet-cut-black-friday": {
@@ -424,7 +424,7 @@
    "publishedAt": "2026-10-29"
   },
   "pachet-health-black-friday": {
-   "totalInventory": 38,
+   "totalInventory": 39,
    "publishedAt": "2026-11-10"
   },
   "pachet-pump-combat-pro-creatina-creapure®-300-g-glycerol-max-pump": {
@@ -432,15 +432,15 @@
    "publishedAt": "2026-10-29"
   },
   "pachet-strength-creatina-creapure®-500-g-magneziu-bisglicinat-vitamina-d3-k2": {
-   "totalInventory": 26,
+   "totalInventory": 23,
    "publishedAt": "2026-10-29"
   },
   "pachet-vitamine-magneziu-bisglicinat-vitamina-c-vitamina-d3-k2": {
-   "totalInventory": 38,
+   "totalInventory": 39,
    "publishedAt": "2026-10-29"
   },
   "pachet-proteina-prime-whey-2-kg-aminoacizi-eaa": {
-   "totalInventory": 1738,
+   "totalInventory": 1715,
    "publishedAt": "2026-10-29"
   },
   "pachet-energy-nitrox-no-stim-energy-pump-shot-cutie-20-fiole": {
@@ -452,19 +452,19 @@
    "publishedAt": "2026-10-29"
   },
   "pachet-masa-2-kg-prime-whey-2-kg-nitrox-3d": {
-   "totalInventory": 886,
+   "totalInventory": 879,
    "publishedAt": "2026-10-29"
   },
   "pachet-complet-2-kg-prime-whey-2-kg-creatina-creapure®-300-g-aminoacizi-eaa": {
-   "totalInventory": 1738,
+   "totalInventory": 1715,
    "publishedAt": "2026-10-29"
   },
   "pachet-start-1-kg-prime-whey-1-kg-aminoacizi-eaa": {
-   "totalInventory": 1134,
+   "totalInventory": 1128,
    "publishedAt": "2026-10-29"
   },
   "pachet-recovery-2-kg-prime-whey-2-kg-l-glutamina-kyowa®": {
-   "totalInventory": 1410,
+   "totalInventory": 1395,
    "publishedAt": "2026-10-29"
   },
   "pachet-fit-1-kg-prime-whey-1-kg-fiber": {
@@ -472,7 +472,7 @@
    "publishedAt": "2026-10-29"
   },
   "pachet-echilibru-1-kg-prime-whey-1-kg-magneziu-bisglicinat-vitamina-d3-k2": {
-   "totalInventory": 304,
+   "totalInventory": 303,
    "publishedAt": "2026-10-29"
   }
  },

@@ -488,3 +488,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - 15.11: Marius: „Doar vouchere UpPromote” (comisioanele se plăteau doar prin voucherele generate de afiliați în UpPromote). Decis: creditul rămas negenerat (Paid minus vouchere folosite) se trece la „Credit pentru voucher”. Marius: „ok le treci dar cu mici modificări”: Lucian Borza 1.396,88 și Iulia Beatrice 1.371,29. Total 18.251,55 lei, 68 de afiliați.
 - 15.11, corectură Marius: „la rândurile 1, 2, 3, 4, 5 trece cu 500 lei mai puțin și este ok”. Borza 1.496,88, Iulia Beatrice 1.471,29, Silviu Baba 1.272,54, Ionuț Oancea 919,21, Raul Trip 738,01. Total credit pentru voucher: 16.951,55 lei.
 - **15.11 – design v2 (Marius):** pagina vizuală mai deschisă și mai prietenoasă, cât mai aproape de Genius ca aspect; imagini AI (OpenArt/Gemini) unde trebuie. Făcut pe pilot; OpenArt are 0 credite, Marius încarcă.
+- **15.11 – trecerea pe Shopify Payments, făcută:**
+  - Marius a completat datele firmei, iar Shopify a deblocat virările.
+  - Marius: „Da, f-o acum”, pentru versiunea v5 cu permisiunile de citire Shopify Payments.
+  - Marius: „Da, dezactivează Netopia”: cardul trece integral pe Shopify Payments, cu Apple Pay și Google Pay.
+  - Netopia rămâne instalată, dar inactivă.

@@ -1105,7 +1105,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Cele 37 de comenzi „Approved” din UpPromote au trecut la „anulat”.
   - Acum ambii au 0 la aprobat și 0 la credit pentru voucher. Sebastian păstrează 33,21 lei în așteptare.
 - **Panoul afiliatului** are acum 3 casete: „În așteptare” (galben), „Aprobat” (albastru), „Credit pentru voucher” (verde). „Plătit” rămâne doar în fișa din admin. Cerut de Marius.
-- 15.11 (03:00–04:10): **Shopify Payments: pornit, apoi oprit până la verificarea firmei**. Marius: „scoate tu netopia de la plățile cu cardul și pune shopify payments și adaugă și apple pay și google pay … pune inactiv plățile prin netopia”.
+- 15.11 (~02:30–03:05): **Shopify Payments: pornit, apoi oprit până la verificarea firmei**. Marius: „scoate tu netopia de la plățile cu cardul și pune shopify payments și adaugă și apple pay și google pay … pune inactiv plățile prin netopia”.
   - Contul Shopify Payments exista deja: a fost folosit în iulie–august 2025 și o dată în martie 2026.
   - „Reactivate Shopify Payments” l-a pornit direct, cu un singur clic:
     - cardurile, Apple Pay și Google Pay sunt active; Shop Pay e oprit;
@@ -1119,8 +1119,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Netopia rămâne activă până la verificare;
     - Shopify Payments se oprește până atunci.
   - **Ce am făcut:**
-    - l-am oprit la 03:44;
-    - Marius l-a reactivat din greșeală din panou, așa că l-am oprit din nou la ~04:05;
+    - l-am oprit pe la 02:45;
+    - Marius l-a reactivat din greșeală din panou, așa că l-am oprit din nou pe la 03:05;
     - nicio comandă nu a trecut prin Shopify Payments în acest timp.
   - **Starea acum:** cardul merge prin Netopia, rambursul e activ, Shopify Payments e dezactivat.
   - Lista exactă de completat i-am dat-o lui Marius; e și în DE-FACUT §35.
@@ -1179,3 +1179,14 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Am urcat pe tema PILOT (MD5 identic cu repo-ul) și am rescris cele 3 metafield-uri. Am verificat la 1280 și 390 px. Codul și culorile sunt ale noastre; de la Genius am luat doar structura.
   - Prototipul local arată acum toate cele 3 produse, cu comutare între ele.
   - OpenArt are 0 credite (contul contact@, plan Starter). Imaginile AI pentru produsele fără poză din ședință (ex. Recovery BCAA) așteaptă reîncărcarea.
+- 15.11 (~03:10–03:30): **trecerea pe Shopify Payments e făcută**.
+  - **Versiunea v5-shopify-payments** a Total Admin, publicată de Claude în Dev Dashboard. Adaugă doar permisiunile de citire `read_shopify_payments_accounts` și `read_shopify_payments_payouts`; restul a rămas ca în v4. Aplicația citește contul: starea din Încasări nu mai spune „acces refuzat”.
+  - **Corectat:** când contul e oprit, Shopify nu dă programul virărilor, iar starea din Încasări afișa o eroare tehnică. Acum spune „Shopify Payments e oprit acum”. Versiunea 5dd0a982.
+  - **Datele firmei:** Marius a completat formularul, iar Shopify a deblocat virările. În Setări → Plăți apar „Accepting payments” și „Receiving payouts”, ambele verzi, și a dispărut bannerul „Payouts are paused”.
+  - **Netopia dezactivată** (Marius: „Da, dezactivează Netopia”). Shopify a confirmat că peste 100 de comenzi din ultimele 90 de zile au fost plătite prin Netopia și că acestea se gestionează în continuare din Comenzi.
+  - **Starea finală:**
+    - cardul merge doar prin Shopify Payments: Visa, Mastercard, Amex, Maestro, UnionPay, plus Apple Pay și Google Pay;
+    - rambursul e activ;
+    - Shop Pay și PayPal sunt oprite;
+    - virările merg săptămânal, lunea, în BT ****4101.
+  - **Netestat:** preluarea pe date reale (martie 2026). Panoul browserului era ascuns, iar clicurile din aplicație nu se mai înregistrau; testul e în DE-FACUT §35 (c).

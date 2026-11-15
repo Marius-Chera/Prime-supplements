@@ -120,16 +120,10 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 32. **Costuri Shopify (15.11, `costuri/ANALIZA-FACTURI-SHOPIFY-2026-11-15.md` §5–6):** (a) **UpPromote dezinstalat înainte de 2.12.2026** (reînnoire 199,99 $; până atunci ia 1% din comenzile cu cod) – Marius dezinstalează după verificarea codurilor în Prime Afiliați, Claude verifică factura următoare; (b) ~~Shopify Tax pe rate manuale~~ verificat 15.11: se poate (Basic Tax sau Manual Tax, gratuite), dar Shopify estimează doar ~5 €/lună, iar Prime Expediere ia cota TVA a facturii Oblio din comanda Shopify → rămânem pe Shopify Tax; se reevaluează pe facturile din 2027 (prag ~20 €/lună, atunci Basic Tax, nu Manual); (c) Marius: plan Grow anual (Setări → Plan → Switch to yearly, 996 $ odată; −108 $/an); (d) Marius: comisionul de schimb al băncii pe Visa •••• 3480 (facturile sunt în USD); (e) Claude: la factura de ciclu din ~24.11 verifică să nu mai apară Koala, Pop Convert, BlogGenAuto, Fontify; (f) Delivery Estimator + Dondy → cod în temă (după Late Black Friday, cu aprobare); Delivery Estimator e înlocuit de Prime Coș, punctul 33.
 33. **Prime Coș (15.11, `theme-fixes/prime-cos-2026-11-15/README.md`): LIVE din 15.11, Delivery Estimator dezinstalat.** Rămâne: (a) Marius confirmă dacă Cargus ridică și sâmbăta (acum sâmbăta e zi fără predare); (b) ~15.12: raport din comenzi după `_sursa` (merge-cu / prag-livrare / potrivit-cos / pachet / varianta-mare) și ajustarea perechilor.
 34. **Pagina de produs vizuală (15.11, `pagina-produs-vizuala/RAPORT-PAGINA-PRODUS-VIZUALA-2026-11-15.md`): PILOT gata pe tema nepublicată „Prime – PILOT pagină vizuală (15.11)”.** Marius verifică pe previzualizare (Recovery BCAA, Creapure, Prime Whey 2 kg: `?preview_theme_id=194315649399`, desktop + telefon) și decide: (a) design OK / modificări; (b) publicarea temei pilot (doar el sau cu OK explicit). Apoi, după 1.12: restul suplimentelor pe loturi de 25. De completat de pe tuburi: aromele și colorantul la Recovery BCAA Cherry; declarația nutrițională și ingredientele la celelalte 6 arome Prime Whey. Design v2 (deschis, stil Genius) e pe pilot din 15.11. Pentru poze AI pe produsele fără poză din ședință (ex. Recovery BCAA): Marius încarcă credite OpenArt (contul contact@ are 0). Separat: footer-ul iese cu ~66 px pe desktop (scroll orizontal, și pe tema live).
-35. **Shopify Payments în locul Netopia (15.11; JURNAL 15.11, 03:00–04:10):**
-    (a) **Marius** completează datele firmei, din Setări → Plăți → Update business details:
-    - Registered name = denumirea din certificat (acum e trecut greșit „primesupplements1”);
-    - CUI-ul și codul de TVA cu RO;
-    - adresa sediului;
-    - certificatul de înregistrare (Upload);
-    - al doilea asociat (Add owner);
-    - documentul de proprietate (Sign sau Upload);
-    - apoi Submit.
-    (b) După verificare, când dispare bannerul „Payouts are paused”: Claude reactivează Shopify Payments (cu Apple Pay și Google Pay), verifică, apoi dezactivează Netopia.
-    (c) Versiunea nouă Total Admin cu `read_shopify_payments_accounts` + `read_shopify_payments_payouts`: Claude o face în Dev Dashboard, Marius o aprobă. Apoi test pe martie 2026.
-    (d) De verificat: rambursările comenzilor vechi plătite prin Netopia, după dezactivare (probabil din contul Netopia).
+35. **Shopify Payments în locul Netopia (15.11; JURNAL 15.11, ~02:30–03:30): FĂCUT pe 15.11, ~03:25. Cardul merge doar prin Shopify Payments (Apple Pay + Google Pay), cu virări active în BT ****4101; Netopia e dezactivată (rămâne instalată, se poate reporni).** Rămase:
+    ~~(a) datele firmei~~ – trimise de Marius, iar Shopify a deblocat virările („Receiving payouts”).
+    ~~(b) reactivare + dezactivarea Netopia~~ – făcute.
+    (c) Versiunea **v5-shopify-payments** e publicată, iar Total Admin citește contul (permisiunea merge). **De făcut:** testul preluării pe martie 2026 (Încasări → luna martie → „Preia plățile Shopify Payments”), apoi la prima virare din noiembrie. Prima virare vine lunea, săptămânal.
+    (d) De verificat: rambursările comenzilor vechi plătite prin Netopia, după dezactivare. Shopify spune că comenzile existente se gestionează în continuare din Comenzi; altfel se fac din contul Netopia.
     (e) Eventual Shop Pay, oprit acum (decizia lui Marius).
+    (f) Contractul Netopia (abonament sau comisioane fixe): de închis de Marius, dacă nu mai e nevoie de el.

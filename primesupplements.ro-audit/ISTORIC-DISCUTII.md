@@ -466,3 +466,9 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
   De văzut: sugestiile din Stocuri (codurile din Oblio) înseamnă schimbarea SKU-ului în Shopify, deci o scriere în magazin. „Aplică” acolo cere acordul lui Marius.
 - **15.11 – numele aplicației (Marius):** „modifică numele aplicației «expedieri prime» în «Total admin»”. Făcut ca „Total Admin” (cu majuscule, ca „Prime Afiliați”). Numele tehnice (Worker, repo, adresa din admin) au rămas „prime-expediere”.
+
+### 15.11.2026 – Sumele afiliaților identice cu UpPromote
+- Marius: „comisioanele în așteptare, aprobat și plătit să fie IDENTIC cum era înainte în UpPromote”. Decis: istoricul s-a importat din exportul UpPromote de comenzi din 14.11.
+- Comisionul se calculează și pe transportul plătit de client, ca în UpPromote (Marius: „Ca în UpPromote”), deși contractul spune „fără transport”.
+- Codurile G3O10 (al lui Georgian Drăgoi), Darius10 (al lui Darius-Adrian Stana, după export) și Zeus (al lui Madalin Nuica) sunt legate de afiliați.
+- Cele 5 comenzi pe care UpPromote nu le înregistrase (Georgian Drăgoi, Petruț Paiș, Andrei BTY) rămân la afiliați. Marius: „Da, rămân”.

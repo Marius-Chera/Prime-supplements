@@ -1076,3 +1076,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Codurile, după exportul UpPromote:** Darius10 e al lui Darius-Adrian Stana, nu al lui Darius Ardelean, iar Zeus e al lui Madalin Nuica.
   - **Plăți deja făcute:** 10 comenzi din 3–10.11 erau deja plătite în UpPromote și au fost trecute la „plătit”. Plata 3 a fost ștearsă (Ana Hojdea, 33,21 lei, plătită deja în UpPromote).
   - Copia tabelei înainte de import e în folderul de backup.
+  - **Marius, despre cele 5 comenzi pe care UpPromote nu le avea:** „Da, rămân”. Afiliații respectivi văd puțin mai mult decât în UpPromote.

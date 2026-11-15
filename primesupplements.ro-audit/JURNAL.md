@@ -1206,3 +1206,21 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Codul pleacă și pe e-mail, prin Resend, cu copie la contact@. Exemplu: `afiliati/sabloane/afiliati-voucher-generat-exemplu.html`.
   - **E-mailul pornește abia după ce Marius:** își face contul Resend, verifică domeniul primesupplements.ro (DNS-ul e la KEMO, ns*.kemo.services) și pune cheia `RESEND_API_KEY` ca secret în Cloudflare. Până atunci, codul apare doar în panou.
   - **Marius a renunțat la e-mailul cu voucherul:** „ajunge dacă îl primesc în aplicație”. Trimiterea prin Resend a fost scoasă din aplicație, la fel și exemplul de e-mail. Nu mai e nevoie de cont Resend sau de DNS la KEMO.
+- 15.11 (~04:00): **Netopia înlocuită cu Shopify Payments peste tot pe site** (Marius: „caută și modifică peste tot pe site și elimină unde este scris despre plățile cu netopia … și înlocuiește cu shopify payments”).
+  - **Căutat:**
+    - cele 13 pagini;
+    - politicile magazinului (confidențialitate, retur);
+    - produsele și articolele (căutarea Admin și cea de pe site);
+    - toate cele 298 de fișiere ale temei live;
+    - pagina principală, coșul, colecțiile, blogul.
+  - **Netopia apărea doar în 2 pagini**, „Termeni și condiții” și „Politica de plată”, de câte 3 ori:
+    - în lista metodelor de plată;
+    - în paragraful despre procesarea plății.
+    Tema nu conținea Netopia; în subsol scria deja „Prin Shopify Payments”.
+  - **Text nou, același în ambele pagini:**
+    - „Plata online cu card bancar prin Shopify Payments, acceptând carduri Visa, Mastercard, American Express și Maestro, precum și Apple Pay și Google Pay.”
+    - „În cazul plății online, tranzacția va fi procesată prin Shopify Payments, iar datele cardului dumneavoastră nu vor fi stocate de către Prime Supplements. Pentru siguranța tranzacțiilor, Shopify Payments respectă standardul de securitate PCI DSS nivel 1, cel mai înalt standard pentru plățile cu cardul.”
+    Restul textului e neschimbat; verificat caracter cu caracter după salvare.
+  - **Copia textelor vechi și noi:** `backups/policies-2026-11-15-shopify-payments/`.
+  - **Verificat pe site-ul public:** 0 mențiuni Netopia, iar căutarea „netopia” dă 0 rezultate.
+  - **De lămurit cu Marius:** paginile mai listează „Plata prin transfer bancar”, dar în checkout nu e activă nicio plată prin transfer. Am lăsat textul neschimbat.

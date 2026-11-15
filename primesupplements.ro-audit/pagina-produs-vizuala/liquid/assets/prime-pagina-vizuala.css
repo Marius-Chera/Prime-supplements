@@ -172,7 +172,7 @@
 .pb-card:hover{transform:translateY(-2px);box-shadow:0 18px 40px rgba(20,23,31,.09)}
 .pb-ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:var(--ppv-tint);color:var(--ppv-acc);margin-bottom:4px}
 .pb-ico svg{width:24px;height:24px}
-.pb-card h3{font-size:19px!important;line-height:1.25}
+.pb-card h3{font-size:clamp(19px,1.8vw,23px)!important;line-height:1.25}
 .pb-card p{font-size:15px}
 .pb-chip{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:var(--ppv-tint-2);border:1px solid color-mix(in srgb,var(--ppv-acc) 20%,transparent);color:var(--ppv-acc);font-size:12px;font-weight:700}
 .pb-chip svg{width:14px;height:14px;stroke-width:3}

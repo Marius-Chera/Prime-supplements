@@ -158,5 +158,41 @@
   ],
   "mod_de_folosire": "2 măsuri (22 g) amestecate cu 300–400 ml de apă. Nu depăși doza recomandată pentru consumul zilnic. Conține citicolină: nu este destinat copiilor; nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină sau alăptare.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului nitrox-no-stim (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Nitrox No-Stim",
+    "intro": "„No-Stim” înseamnă fără stimulente. Iată de ce există pre-antrenamente fără cafeină, ce rol au sfecla roșie și apa de cocos și ce e EnXtra®.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă „No-Stim”?",
+        "raspuns": "Fără stimulente: Nitrox No-Stim nu are cafeină sau alte stimulente. E gândit pentru cei care se antrenează seara, pentru cei care beau deja multă cafea și pentru cei care nu tolerează cafeina. Poziția ISSN din 2021 arată că reacția la cafeină diferă mult de la om la om."
+      },
+      {
+        "intrebare": "De ce are sfeclă roșie?",
+        "raspuns": "Sfecla roșie e unul dintre ingredientele clasice ale băuturilor pentru sportivi. Formula are 1500 mg de pulbere de suc de sfeclă roșie pe porție. Sucul de sfeclă colorează și băutura: nu te mira dacă pare mai închisă la culoare decât aroma."
+      },
+      {
+        "intrebare": "Ce este EnXtra®?",
+        "raspuns": "Este marca înregistrată a unui extract din rizomul plantei Alpinia galanga, o rudă a ghimbirului, folosită în bucătăria thailandeză. Galanga dă gustul specific supelor tom yum. Nitrox No-Stim are 300 mg de EnXtra® pe porție."
+      },
+      {
+        "intrebare": "Ce alte ingrediente are formula?",
+        "raspuns": "Aminoacizi, creatină și citicolină. O porție are 4000 mg de BCAA în raport 2:1:1, 3753 mg de L-citrulină, 2200 mg de creatină monohidrată, 2180 mg de pulbere din apă de cocos și 200 mg de citicolină. Citicolina e o substanță care se găsește în mod natural în celule."
+      },
+      {
+        "intrebare": "Când și cum îl bei?",
+        "raspuns": "Cu apă, înainte de antrenament: două măsuri, adică 22 g, în 300–400 ml de apă, cum scrie pe etichetă. Fiind fără cafeină, îl poți folosi și la sesiunile de seară. Tubul are 30 de porții. Amestecă bine în shaker, pentru că pulberile vegetale, cum e sfecla, se depun mai repede."
+      },
+      {
+        "intrebare": "Ce rol are apa de cocos în formulă?",
+        "raspuns": "Aduce minerale în mod natural. Apa de cocos e lichidul limpede din nuca de cocos verde, care conține potasiu și alte minerale. Uscată și transformată în pulbere, intră în formulă cu 2180 mg pe porție. Nu trebuie confundată cu laptele de cocos, care se face din miezul alb al nucii."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Guest NS și colab. ISSN position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
+      }
+    ]
+  }
 }

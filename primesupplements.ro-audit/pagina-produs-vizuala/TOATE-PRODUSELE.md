@@ -1,31 +1,31 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 19:51 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 19:59 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 23; cu Curiozități: 10; cu sportivă în dreapta: 22; scrise pe PILOT (metafield) cu versiunea curentă: 23.
+Rezumat: **80 produse**; JSON pagină vizuală: 23; cu Curiozități: 23; cu sportivă în dreapta: 22; scrise pe PILOT (metafield) cu versiunea curentă: 23.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
 | Handle | ID | Produs | JSON | Curiozități | Sportivă | PILOT |
 |---|---|---|---|---|---|---|
-| citrus-bergamot | 14971464647031 | Extract de bergamotă Citrus Bergamot – 80 capsule | da | **nu** | da | pagină 15.11 |
-| vitamina-d3-k2 | 14971464745335 | Vitamina D3 + K2 – 80 capsule | da | **nu** | da | pagină 15.11 |
-| vitamin-c-1000-80-caps | 14971466613111 | Vitamina C 1000 mg – 80 de capsule | da | **nu** | da | pagină 15.11 |
-| magneziu-bisglicinat-80-caps | 14971467170167 | Magneziu bisglicinat 300 mg – 80 de capsule | da | **nu** | da | pagină 15.11 |
+| citrus-bergamot | 14971464647031 | Extract de bergamotă Citrus Bergamot – 80 capsule | da | da (318) | da | pagină 15.11 + curiozități 15.11 |
+| vitamina-d3-k2 | 14971464745335 | Vitamina D3 + K2 – 80 capsule | da | da (303) | da | pagină 15.11 + curiozități 15.11 |
+| vitamin-c-1000-80-caps | 14971466613111 | Vitamina C 1000 mg – 80 de capsule | da | da (307) | da | pagină 15.11 + curiozități 15.11 |
+| magneziu-bisglicinat-80-caps | 14971467170167 | Magneziu bisglicinat 300 mg – 80 de capsule | da | da (340) | da | pagină 15.11 + curiozități 15.11 |
 | creatina-creapure | 14971467268471 | Creatină Creapure® monohidrată | da | da (360) | da | pagină 15.11 + curiozități 15.11 |
-| eaa-aminoacizi-esentiali | 14971467301239 | Aminoacizi esențiali EAA – tub de 500 g | da | **nu** | da | pagină 15.11 |
-| nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | **nu** | da | pagină 15.11 |
-| omega-3 | 14971467465079 | Omega-3 din ulei de pește – 80 de capsule | da | **nu** | da | pagină 15.11 |
+| eaa-aminoacizi-esentiali | 14971467301239 | Aminoacizi esențiali EAA – tub de 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
+| nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | da (326) | da | pagină 15.11 + curiozități 15.11 |
+| omega-3 | 14971467465079 | Omega-3 din ulei de pește – 80 de capsule | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | pure-isolate-2000g | 14971467530615 | Izolat proteic din zer Pure Isolate – 2 kg | da | da (313) | da | pagină 15.11 + curiozități 15.11 |
-| recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | **nu** | **nu** | pagină 15.11 |
-| combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | **nu** | da | pagină 15.11 |
-| unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | **nu** | da | pagină 15.11 |
+| recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | da (328) | **nu** | pagină 15.11 + curiozități 15.11 |
+| combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
+| unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | da (335) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-2000g | 14971469529463 | Prime Whey – proteină din zer, 2 kg | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
-| cluster-bomb-1000g | 14971469562231 | Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg | da | **nu** | da | pagină 15.11 |
-| nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | **nu** | da | pagină 15.11 |
-| fiber-blood-orange | 14998832546167 | Fiber – băutură cu fibre, aromă portocală roșie, 500 g | da | **nu** | da | pagină 15.11 |
+| cluster-bomb-1000g | 14971469562231 | Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg | da | da (322) | da | pagină 15.11 + curiozități 15.11 |
+| nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | da (328) | da | pagină 15.11 + curiozități 15.11 |
+| fiber-blood-orange | 14998832546167 | Fiber – băutură cu fibre, aromă portocală roșie, 500 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
 | creatina-monohidrat-micronized-300g-fara-aroma | 15404872368503 | Creatină monohidrată micronizată fără aromă, 300 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-blueberry-muffin | 15509051408759 | Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg | da | da (314) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-caramel-sarat | 15509051605367 | Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg | da | da (307) | da | pagină 15.11 + curiozități 15.11 |

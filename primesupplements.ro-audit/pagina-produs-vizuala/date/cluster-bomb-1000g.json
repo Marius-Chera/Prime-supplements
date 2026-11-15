@@ -164,5 +164,49 @@
     }
   ],
   "mod_de_folosire": "O porție (30 g) amestecată cu 300–400 ml de apă, consumată pe parcursul antrenamentului. Nu depăși doza zilnică recomandată. Conține L-fenilalanină.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Cluster Bomb și Cluster Dextrin®",
+    "intro": "Cluster Bomb e o băutură pentru antrenamentele lungi. Află ce este Cluster Dextrin®, cât carbohidrat recomandă cercetătorii pe oră și de ce are apă de cocos.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este Cluster Dextrin®?",
+        "raspuns": "Este un carbohidrat obținut din amidon cu ajutorul enzimelor. Enzimele rup amidonul și îl reasamblează în molecule mari, foarte ramificate, cu formă de inel. Numele științific este dextrină ciclică foarte ramificată. Cluster Dextrin® e marca înregistrată a ingredientului."
+      },
+      {
+        "intrebare": "Câți carbohidrați îți trebuie în timpul efortului?",
+        "raspuns": "Depinde de durată. O recenzie din 2014 recomandă cantități mici la antrenamentele de aproximativ o oră și până la 60 g pe oră la cele de 2–3 ore. O porție de Cluster Bomb are 19,9 g de carbohidrați, din care doar 0,44 g zaharuri."
+      },
+      {
+        "intrebare": "De ce are apă de cocos și sare?",
+        "raspuns": "Pentru minerale. Apa de cocos e lichidul limpede din nuca de cocos verde, care conține natural potasiu. O porție are 369 mg potasiu și 366 mg sodiu. Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos. Sodiul și clorura vin din sare."
+      },
+      {
+        "intrebare": "Cât lichid pierzi la antrenament?",
+        "raspuns": "Mai mult decât crezi. Poziția Colegiului American de Medicină Sportivă recomandă să eviți pierderi de peste 2% din greutatea corporală prin transpirație. Un mod simplu de a afla: te cântărești înainte și după antrenament. Diferența e în mare parte apă."
+      },
+      {
+        "intrebare": "Ce mai conține o porție?",
+        "raspuns": "Creatină, aminoacizi esențiali și L-citrulină, câte 2400 mg din fiecare. Citrulina a fost găsită prima dată în pepenele verde, iar numele vine de la denumirea lui latină, Citrullus. Amestecă porția în apă rece, într-o sticlă, și bea pe parcursul antrenamentului."
+      },
+      {
+        "intrebare": "Cum prepari Cluster Bomb pentru un antrenament lung?",
+        "raspuns": "Într-o sticlă mare, cu apă rece. Pune porția în apă, agită bine și bea câte puțin pe parcursul antrenamentului, nu tot dintr-odată. Cluster Dextrin® se dizolvă ușor și nu lasă gust de amidon. Tubul de 1 kg are 33 de porții. La antrenamentele foarte lungi, ia și apă simplă alături."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24791914/"
+      },
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

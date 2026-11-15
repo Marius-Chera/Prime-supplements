@@ -124,5 +124,49 @@
   "arome": [],
   "mod_de_folosire": "Amestecă înainte de folosire. Se folosește în smoothie-uri, deserturi, sosuri sau pe pâine. Conține migdale.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului unt-de-migdale (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre untul de migdale",
+    "intro": "Untul de migdale are un singur ingredient: migdale. Află de unde vin, de ce se separă uleiul în borcan și ce a descoperit un studiu despre caloriile din migdale.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vin migdalele?",
+        "raspuns": "Din Orientul Mijlociu și Asia Centrală, unde migdalul e cultivat de mii de ani. Migdala e de fapt sâmburele unui fruct înrudit cu piersica și caisa. Azi, migdalii cresc în climat cald și uscat, din Mediterana până în California."
+      },
+      {
+        "intrebare": "De ce se separă uleiul deasupra?",
+        "raspuns": "Pentru că nu are stabilizatori. Untul de migdale Prime Health conține 100% migdale, fără uleiuri adăugate care să țină pasta omogenă. Uleiul natural din migdale se ridică încet la suprafață. E un semn bun: amestecă bine cu o lingură înainte de folosire."
+      },
+      {
+        "intrebare": "Au migdalele mai puține calorii decât scrie pe etichetă?",
+        "raspuns": "Migdalele întregi, da; untul de migdale, nu. Un studiu din 2012 a măsurat că migdalele întregi aduc cu 32% mai puține calorii decât calculul standard, pentru că o parte din grăsime rămâne în celulele nemestecate. Un studiu din 2016 a arătat că, la untul de migdale, valoarea măsurată e apropiată de calcul."
+      },
+      {
+        "intrebare": "Ce aduce o lingură de unt de migdale?",
+        "raspuns": "Mai ales grăsimi și proteine. La 100 g, untul are 567 kcal, 49 g grăsimi, din care doar 3,7 g saturate, și 21,2 g proteine. Proteinele contribuie la menținerea masei musculare. Fiind dens în calorii, o lingură de 15 g e o porție obișnuită."
+      },
+      {
+        "intrebare": "Cum îl folosești în bucătărie?",
+        "raspuns": "Pe pâine prăjită, în terci de ovăz sau în smoothie. Merge și în sosuri sărate: amestecat cu suc de lămâie, apă și puțin sos de soia, devine un dressing pentru salate sau tăiței. Ține borcanul închis, la loc răcoros. Eticheta avertizează că produsul conține migdale."
+      },
+      {
+        "intrebare": "Cum îl faci acasă și de ce e mai greu decât pare?",
+        "raspuns": "Prin măcinare lungă. Migdalele prăjite ușor se macină câteva minute, până când eliberează uleiul și pasta devine cremoasă. Acasă, robotul se încinge și durează mult. Untul nostru are un singur ingredient, așa că rezultatul e același, fără muncă."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Novotny JA și colab. Discrepancy between the Atwater factor predicted and empirically measured energy values of almonds in human diets. Am J Clin Nutr. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22760558/"
+      },
+      {
+        "text": "Gebauer SK și colab. Food processing and structure impact the metabolizable energy of almonds. Food Funct. 2016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27713968/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

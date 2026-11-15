@@ -105,5 +105,45 @@
   "arome": [],
   "mod_de_folosire": "O capsulă pe zi, de preferat în timpul mesei. Nu depăși doza zilnică recomandată. Consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos. Nu lăsa produsul la îndemâna și la vederea copiilor mici.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului vitamin-c-1000-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre vitamina C",
+    "intro": "Vitamina C e una dintre cele mai cunoscute vitamine, dar puțini știu cum a fost descoperită sau ce se întâmplă cu o doză mare. Iată pe scurt cele mai interesante lucruri despre ea.",
+    "sectiuni": [
+      {
+        "intrebare": "Cine a descoperit vitamina C?",
+        "raspuns": "Biochimistul maghiar Albert Szent-Györgyi, care a izolat-o la începutul anilor 1930 și a primit Premiul Nobel în 1937. A obținut cantități mari din boia de ardei, la Szeged. Numele chimic, acid ascorbic, e cel pe care îl vezi și pe eticheta capsulelor noastre."
+      },
+      {
+        "intrebare": "Vitamina C sintetică e la fel cu cea din fructe?",
+        "raspuns": "Da, molecula e aceeași. O recenzie publicată în 2013 a comparat vitamina C sintetică cu cea din alimente și nu a găsit diferențe de biodisponibilitate la oameni, la nivel stabil. Fructele aduc în plus fibre și alți compuși, de aceea capsula nu înlocuiește o dietă variată."
+      },
+      {
+        "intrebare": "Ce se întâmplă cu o doză de 1000 mg?",
+        "raspuns": "O parte se absoarbe, iar surplusul se elimină. Un studiu pe voluntari sănătoși, din 1996, a arătat că organismul ajunge aproape de saturație la aproximativ 1000 mg pe zi. La doze unice de peste 500 mg, procentul absorbit scade, iar ce nu se folosește se elimină prin urină."
+      },
+      {
+        "intrebare": "Ce înseamnă 1250% VNR?",
+        "raspuns": "Înseamnă că o capsulă are de 12,5 ori valoarea nutrițională de referință. VNR-ul pentru vitamina C e 80 mg pe zi, stabilit de legislația UE, iar capsula are 1000 mg. Vitamina C contribuie la funcționarea normală a sistemului imunitar și la reducerea oboselii și extenuării."
+      },
+      {
+        "intrebare": "De ce se ia o singură capsulă pe zi?",
+        "raspuns": "Pentru că atât spune eticheta: o capsulă pe zi, cu apă. Doza e deja mare, iar mai mult nu înseamnă mai bine, pentru că surplusul se elimină. Ține flaconul închis, ferit de lumină și umezeală: vitamina C se degradează în contact cu aerul și căldura, de aceea sucurile proaspete o pierd în câteva ore."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Levine M și colab. Vitamin C pharmacokinetics in healthy volunteers. Proc Natl Acad Sci U S A. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8623000/"
+      },
+      {
+        "text": "Carr AC, Vissers MC. Synthetic or food-derived vitamin C – are they equally bioavailable? Nutrients. 2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24169506/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

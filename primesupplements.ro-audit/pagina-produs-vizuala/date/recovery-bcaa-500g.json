@@ -145,5 +145,49 @@
   "mod_de_folosire": "Amestecă 8 g (aproximativ 2 măsuri) cu cantitatea dorită de apă, de 2–4 ori pe zi. Nu depăși doza zilnică recomandată.",
   "de_verificat": [
     "arome[0]: ingredientele de aromă și colorantul pentru Cherry nu sunt transcrise în magazin (de citit de pe tub)"
-  ]
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre BCAA",
+    "intro": "BCAA e prescurtarea englezească pentru „aminoacizi cu catenă ramificată”. Iată de unde vine numele, ce înseamnă raportul 4:1:1 și ce spune știința despre ei.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă „catenă ramificată”?",
+        "raspuns": "E forma moleculei. Leucina, izoleucina și valina au în structura lor un lanț de atomi de carbon care se desparte într-o „ramificație”, ca un Y. Ceilalți aminoacizi nu au această formă. De aici vine numele grupului: aminoacizi cu catenă ramificată."
+      },
+      {
+        "intrebare": "Ce înseamnă raportul 4:1:1?",
+        "raspuns": "Patru părți leucină la o parte izoleucină și o parte valină. Într-o porție de 8 g de Recovery BCAA, asta înseamnă 4733,4 mg leucină, 1183,3 mg izoleucină și 1183,3 mg valină, în total 7100 mg. În proteinele din alimente raportul e de obicei aproape de 2:1:1."
+      },
+      {
+        "intrebare": "BCAA pot înlocui proteina din mâncare?",
+        "raspuns": "Nu. O recenzie din 2017 amintește că mușchii sunt construiți din toți aminoacizii esențiali, nu doar din trei. De aceea pudra de BCAA nu ține locul unei mese cu proteine sau al unui shake proteic complet. Cei mai mulți o folosesc ca băutură aromată în timpul antrenamentului."
+      },
+      {
+        "intrebare": "Cum se obțin aminoacizii din tub?",
+        "raspuns": "Prin fermentație. Microorganismele, hrănite cu zaharuri din plante, produc aminoacizii, care apoi se separă, se purifică și se usucă. Producția biotehnologică a aminoacizilor e descrisă într-o recenzie din 2014. Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului."
+      },
+      {
+        "intrebare": "De ce are 0,0 g zaharuri, dar gust dulce?",
+        "raspuns": "Din îndulcitori. Gustul dulce vine din sucraloză și acesulfam de potasiu, care nu sunt zaharuri. Aminoacizii singuri au gust amar, iar aromele de cireșe și pere îl acoperă. Amestecă o porție de 8 g, adică aproximativ două măsuri, cu apă rece, într-un shaker."
+      },
+      {
+        "intrebare": "Când se bea Recovery BCAA?",
+        "raspuns": "Când îți e comod: înainte, în timpul sau după antrenament. Eticheta recomandă 8 g de 2–4 ori pe zi, cu apă, fără să depășești doza zilnică. Tubul de 500 g are 62 de porții. Pentru un gust mai intens, folosește mai puțină apă."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Wolfe RR. Branched-chain amino acids and muscle protein synthesis in humans: myth or reality? J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28852372/"
+      },
+      {
+        "text": "Mitsuhashi S. Current topics in the biotechnological production of essential amino acids. Curr Opin Biotechnol. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24679256/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

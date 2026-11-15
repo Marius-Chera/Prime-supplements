@@ -173,5 +173,41 @@
     }
   ],
   "mod_de_folosire": "2 măsuri (aproximativ 6 g) cu cantitatea dorită de apă, de 1–3 ori pe zi: între mese, cu 30–45 de minute înainte de antrenament sau imediat după. Nu depăși doza recomandată pentru consumul zilnic. Nu se administrează copiilor și femeilor în perioada de sarcină sau alăptare. Conține fenilalanină.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre aminoacizii esențiali",
+    "intro": "Proteinele din mâncare sunt făcute din 20 de aminoacizi, dar doar unii sunt „esențiali”. Află ce înseamnă asta, cum se produc aminoacizii din tub și de ce au gust amar.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă aminoacid esențial?",
+        "raspuns": "Un aminoacid pe care corpul nu îl poate produce singur. Îl iei doar din alimentație: din carne, ouă, lactate, pește sau din combinații de leguminoase și cereale. Adulții au nouă aminoacizi esențiali. Pe eticheta EAA apar opt dintre ei; histidina nu e în listă."
+      },
+      {
+        "intrebare": "Cine a descoperit care aminoacizi sunt esențiali?",
+        "raspuns": "Biochimistul american William C. Rose, în anii 1930–1950. A descoperit treonina în 1935, ultimul aminoacid esențial identificat, apoi a stabilit prin experimente pe voluntari cât din fiecare îi trebuie unui adult. Treonina apare pe etichetă cu 589 mg pe porție."
+      },
+      {
+        "intrebare": "Cum se produc aminoacizii din tub?",
+        "raspuns": "Mai ales prin fermentație. Microorganismele, hrănite cu zaharuri din plante, produc aminoacizi pe care apoi îi separi, îi purifici și îi usuci ca pudră. O recenzie din 2014 descrie cum se face această producție biotehnologică. Rezultatul sunt aminoacizi liberi, nelegați în proteine."
+      },
+      {
+        "intrebare": "De ce au aminoacizii gust amar?",
+        "raspuns": "Pentru că mulți dintre ei sunt amari în mod natural, mai ales leucina, valina și izoleucina. De aceea pudrele de aminoacizi au aproape mereu aromă și îndulcitori. EAA vine în patru arome, iar leucina e cel mai mare ingredient: 1070 mg într-o porție de 6 g."
+      },
+      {
+        "intrebare": "Cum folosești EAA în timpul zilei?",
+        "raspuns": "Ca băutură aromată, oricând îți e comod. Mulți îl beau în timpul antrenamentului, într-o sticlă cu apă rece, alții între mese. O porție are 5350 mg de aminoacizi esențiali, iar tubul are 83 de porții. Nu înlocuiește proteinele din mese, care aduc și ceilalți aminoacizi."
+      },
+      {
+        "intrebare": "Ce înseamnă „HCl” la L-lizină?",
+        "raspuns": "Clorhidrat. Lizina e legată de acid clorhidric, ca să fie stabilă și să se dizolve ușor în apă. E forma obișnuită în care lizina ajunge în suplimente și în alimente îmbogățite. Pe eticheta EAA apare ca L-lizină HCl, cu 749 mg pe porție, al patrulea ingredient ca mărime."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Mitsuhashi S. Current topics in the biotechnological production of essential amino acids. Curr Opin Biotechnol. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24679256/"
+      }
+    ]
+  }
 }

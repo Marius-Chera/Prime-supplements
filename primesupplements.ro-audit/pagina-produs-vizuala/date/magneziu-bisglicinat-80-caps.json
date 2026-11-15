@@ -121,5 +121,53 @@
   },
   "arome": [],
   "mod_de_folosire": "3 capsule pe zi, sau cum îți recomandă specialistul. Nu depăși doza recomandată pentru consumul zilnic. Nu lăsa produsul la îndemâna și la vederea copiilor mici.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre magneziu bisglicinat",
+    "intro": "Magneziul e peste tot în corp, dar și în frunzele verzi din farfurie. Află ce înseamnă „bisglicinat”, din ce alimente îl iei și de ce sportivii se uită atent la el.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă „bisglicinat”?",
+        "raspuns": "Magneziu legat de două molecule de glicină. Glicina e cel mai mic aminoacid. O recenzie sistematică din 2021 a comparat formele de magneziu și a observat că formele organice, cum sunt glicinatul sau citratul, par mai biodisponibile decât cele anorganice, de tipul oxidului."
+      },
+      {
+        "intrebare": "De ce sunt verzi alimentele bogate în magneziu?",
+        "raspuns": "Pentru că magneziul stă în centrul clorofilei. Clorofila e pigmentul verde al plantelor, iar în mijlocul fiecărei molecule e un atom de magneziu. Spanacul, frunzele verzi, semințele, nucile, leguminoasele și cerealele integrale sunt surse bune de magneziu."
+      },
+      {
+        "intrebare": "Câte procese folosesc magneziu în corp?",
+        "raspuns": "Peste 300 de reacții metabolice, după o recenzie din 2015 despre magneziu la sportivi. Tot acolo scrie că statusul de magneziu e greu de măsurat cu un simplu test de sânge. Magneziul contribuie la funcționarea normală a sistemului muscular și la reducerea oboselii și extenuării."
+      },
+      {
+        "intrebare": "Sportivii au nevoie de mai mult magneziu?",
+        "raspuns": "Uneori, da. O recenzie din 2006 arată că efortul intens crește pierderile de magneziu prin urină și transpirație, iar necesarul poate fi cu 10–20% mai mare. Aceeași recenzie notează că, la cei care iau suficient magneziu din alimentație, suplimentul nu a schimbat performanța."
+      },
+      {
+        "intrebare": "Ce rol au malatul și bambusul din capsulă?",
+        "raspuns": "Sunt alte două ingrediente de pe etichetă. Magneziul malat e magneziu legat de acid malic, acidul care dă gustul acrișor merelor; o capsulă are 100 mg. Extractul de bambus, 5 mg, conține 70% siliciu. Doza zilnică de pe etichetă e de trei capsule, iar o capsulă acoperă 21,52% din VNR."
+      },
+      {
+        "intrebare": "Când e bine să iei capsulele?",
+        "raspuns": "Când îți e mai ușor să nu uiți. Eticheta recomandă trei capsule pe zi, cu apă; le poți împărți la mese. Capsula e vegetală, fără gelatină, iar făina de orez e agent de încărcare. Un recipient de 80 de capsule ține aproape o lună la doza de trei capsule pe zi."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "Volpe SL. Magnesium and the Athlete. Curr Sports Med Rep. 2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26166051/"
+      },
+      {
+        "text": "Nielsen FH, Lukaski HC. Update on the relationship between magnesium and exercise. Magnes Res. 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17172008/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

@@ -120,5 +120,49 @@
   "arome": [],
   "mod_de_folosire": "O capsulă o dată la 2 zile, sau cum îți recomandă specialistul, de preferat la o masă care conține grăsimi. Nu depăși doza recomandată. Nu se consumă de către copii, femeile însărcinate sau care alăptează, fără avizul medicului. Dacă urmezi un tratament anticoagulant, discută cu medicul.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului vitamina-d3-k2 (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre vitamina D3 și K2",
+    "intro": "Vitamina D e numită „vitamina soarelui”, iar K2 vine dintr-un aliment japonez fermentat. Iată de ce iarna contează, cum o iei corect și ce trebuie să știi despre K2.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce iarna pielea nu mai produce vitamina D?",
+        "raspuns": "Pentru că soarele e prea jos pe cer. Pielea produce vitamina D3 sub razele UVB, iar iarna, la latitudini nordice, acestea ajung prea slabe. Un studiu clasic din 1988 a arătat că la Boston, la 42° nord, pielea nu producea vitamina D între noiembrie și februarie. România e chiar mai la nord, între 44° și 48°."
+      },
+      {
+        "intrebare": "De ce e bine să o iei la masă?",
+        "raspuns": "Pentru că vitamina D se dizolvă în grăsimi. Un studiu din 2015 pe 50 de adulți a găsit un vârf al vitaminei D3 în sânge cu 32% mai mare când doza a fost luată la o masă cu grăsimi, față de una fără. Tipul de grăsime nu a contat. Ia capsula la masa principală."
+      },
+      {
+        "intrebare": "Ce înseamnă 4000 UI și 100 µg?",
+        "raspuns": "Sunt două unități pentru aceeași cantitate. Un microgram de vitamina D3 înseamnă 40 de unități internaționale (UI), deci 100 µg sunt 4000 UI. Eticheta le trece pe amândouă. Vitamina D contribuie la funcționarea normală a sistemului imunitar și la menținerea funcției musculare normale."
+      },
+      {
+        "intrebare": "De unde vine vitamina K2 MK-7?",
+        "raspuns": "Din natto, o mâncare tradițională japoneză din soia fermentată. Bacteriile care fermentează soia produc menachinona-7, adică forma MK-7 de pe etichetă. Un studiu din 2007 arată că MK-7 rămâne mult timp în sânge, cu niveluri mai stabile decât vitamina K1 din legumele verzi."
+      },
+      {
+        "intrebare": "Cine trebuie să fie atent la vitamina K2?",
+        "raspuns": "Cine ia anticoagulante. Același studiu din 2007 arată că preparatele cu peste 50 µg pe zi de MK-7 pot interfera cu anticoagulantele orale, iar o capsulă are 100 µg. Dacă iei astfel de medicamente, întreabă-ți medicul înainte să începi."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Webb AR și colab. Influence of season and latitude on the cutaneous synthesis of vitamin D3. J Clin Endocrinol Metab. 1988",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2839537/"
+      },
+      {
+        "text": "Dawson-Hughes B și colab. Dietary fat increases vitamin D-3 absorption. J Acad Nutr Diet. 2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25441954/"
+      },
+      {
+        "text": "Schurgers LJ și colab. Vitamin K-containing dietary supplements: comparison of synthetic vitamin K1 and natto-derived menaquinone-7. Blood. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17158229/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

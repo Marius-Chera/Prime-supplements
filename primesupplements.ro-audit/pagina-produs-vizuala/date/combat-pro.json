@@ -178,5 +178,49 @@
   ],
   "mod_de_folosire": "O porție (22 g, 2 măsuri) dizolvată în 250–300 ml de apă rece, cu 30 de minute înainte de antrenament. O singură porție pe zi. Conține cafeină (300 mg/porție): nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului combat-pro (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre ingredientele din Combat Pro",
+    "intro": "Fiecare ingredient din Combat Pro are o poveste. Iată de unde vine citrulina, ce înseamnă furnicăturile de la beta-alanină și cât de multă cafeină e prea mult.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine numele L-citrulinei?",
+        "raspuns": "De la pepenele verde, Citrullus lanatus. Citrulina a fost izolată prima dată din sucul de pepene, de cercetători japonezi, la începutul secolului XX. Combat Pro are 7000 mg de L-citrulină pe porție, cel mai mare ingredient din formulă."
+      },
+      {
+        "intrebare": "De ce simți furnicături după beta-alanină?",
+        "raspuns": "E o senzație cunoscută și trecătoare. Beta-alanina poate da furnicături pe piele, mai ales pe față, gât și mâini, la scurt timp după ce o iei. Senzația dispare de obicei într-o oră. Combat Pro are 4000 mg de beta-alanină pe porție."
+      },
+      {
+        "intrebare": "Cât de multă cafeină e sigur pentru un adult?",
+        "raspuns": "Autoritatea Europeană pentru Siguranța Alimentară (EFSA) a stabilit în 2015 că, la adulții sănătoși, dozele unice de până la 200 mg și până la 400 mg pe zi nu ridică probleme de siguranță. O porție de Combat Pro are 300 mg, deci socotește și cafeaua din aceeași zi."
+      },
+      {
+        "intrebare": "Ce este sinefrina?",
+        "raspuns": "Un compus din coaja portocalei amare, Citrus aurantium. Combat Pro are 30 mg pe porție. O recenzie din 2012 a adunat peste 20 de studii pe oameni, în care dozele au fost de 10–53 mg pe zi, de multe ori împreună cu cafeina."
+      },
+      {
+        "intrebare": "Cum folosești Combat Pro?",
+        "raspuns": "Cu apă rece, înainte de antrenament, doar o porție pe zi. Poziția ISSN despre cafeină notează că oamenii reacționează foarte diferit la ea. Nu îl lua seara târziu și nu-l combina cu alte produse cu cafeină. Nu e pentru copii, femei însărcinate sau care alăptează."
+      },
+      {
+        "intrebare": "De ce L-tirozina și L-teanina sunt în aceeași formulă?",
+        "raspuns": "Sunt doi aminoacizi cu origini diferite. L-tirozina se găsește în multe alimente bogate în proteine, iar numele vine din grecescul „tyros”, brânză, pentru că a fost găsită prima dată în cazeina din brânză. L-teanina vine din frunzele de ceai. Combat Pro are 1500 mg de L-tirozină și 1000 mg de L-teanină."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA Journal. 2015;13(5):4102",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Guest NS și colab. ISSN position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
+      },
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium extract and p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      }
+    ]
+  }
 }

@@ -173,5 +173,45 @@
   ],
   "mod_de_folosire": "O porție (20 g) în 250–300 ml de apă rece, cu 20–30 de minute înainte de antrenament; la prima utilizare, jumătate de porție (10 g). Conține cafeină (200 mg/porție): nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Nu se combină cu cafea, băuturi energizante sau alte produse cu cafeină.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului nitrox (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre ingredientele din Nitrox 3D",
+    "intro": "Nitrox 3D combină aminoacizi, creatină și cafeină. Iată câteva lucruri mai puțin știute despre ingredientele lui, de la frunzele de ceai la pepenele verde.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine L-teanina?",
+        "raspuns": "Din frunzele de ceai. L-teanina a fost descoperită în 1949, în Japonia, în frunzele de ceai verde. Este un aminoacid care nu intră în structura proteinelor. Nitrox 3D are 400 mg de L-teanină pe porție, alături de 200 mg de cafeină."
+      },
+      {
+        "intrebare": "Cât de multă cafeină are o porție?",
+        "raspuns": "200 mg, cât două căni mici de cafea. EFSA a stabilit în 2015 că dozele unice de până la 200 mg și până la 400 mg pe zi nu ridică probleme de siguranță la adulții sănătoși. O porție de Nitrox 3D atinge exact pragul pentru o singură doză."
+      },
+      {
+        "intrebare": "Ce înseamnă L-arginină AKG?",
+        "raspuns": "L-arginină legată de alfa-cetoglutarat. Arginina e un aminoacid, iar alfa-cetoglutaratul e o moleculă care apare în mod normal în metabolismul celulelor. Nitrox 3D are 4420 mg pe porție, al doilea ingredient ca mărime după L-citrulină, cu 6000 mg."
+      },
+      {
+        "intrebare": "Ce e tri-creatina citrat?",
+        "raspuns": "Trei molecule de creatină legate de o moleculă de acid citric. E o altă formă de creatină decât monohidrata, mai solubilă în apă. Nitrox 3D are 2000 mg pe porție. Cantitatea e sub cele 3 g pe zi de care e legată mențiunea de sănătate pentru creatină, de aceea nu o folosim aici."
+      },
+      {
+        "intrebare": "Cum îl folosești?",
+        "raspuns": "Cu apă rece, înainte de antrenament, o singură porție pe zi. Poziția ISSN despre cafeină arată că reacția la ea diferă mult de la om la om, așa că începe cu jumătate de porție dacă bei rar cafea. Nu îl lua seara târziu și nu-l combina cu alte produse cu cafeină."
+      },
+      {
+        "intrebare": "Ce este L-tirozina?",
+        "raspuns": "Un aminoacid care se găsește în alimentele bogate în proteine, ca brânza, carnea și ouăle. Numele vine din grecescul „tyros”, adică brânză, pentru că a fost descoperită prima dată în cazeina din brânză, în secolul al XIX-lea. Nitrox 3D are 1000 mg de L-tirozină pe porție."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA Journal. 2015;13(5):4102",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Guest NS și colab. ISSN position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
+      }
+    ]
+  }
 }

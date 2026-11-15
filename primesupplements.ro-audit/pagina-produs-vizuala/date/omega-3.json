@@ -121,5 +121,45 @@
   "arome": [],
   "mod_de_folosire": "Doza zilnică de pe etichetă, cu sau fără alimente, de preferință în timpul mesei. Nu depăși doza recomandată. Conține pește.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului omega-3 (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre omega-3 din ulei de pește",
+    "intro": "Peștele nu produce singur omega-3: îl primește din hrană. Află de unde vin EPA și DHA, ce înseamnă numele „omega-3” și cum păstrezi capsulele.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde are peștele omega-3?",
+        "raspuns": "Din alge. Algele marine produc EPA și DHA, peștii mici le mănâncă, iar peștii mari îi mănâncă pe cei mici. Așa ajung acizii grași omega-3 în peștii grași din mările reci și apoi în uleiul de pește. Fiecare capsulă are 180 mg EPA și 120 mg DHA."
+      },
+      {
+        "intrebare": "De ce se numesc „omega-3”?",
+        "raspuns": "După poziția primei legături duble din moleculă. Un acid gras e un lanț de atomi de carbon; „omega” e capătul lanțului, iar prima legătură dublă e la al treilea carbon de la acest capăt. EPA înseamnă acid eicosapentaenoic, iar DHA, acid docosahexaenoic."
+      },
+      {
+        "intrebare": "Capsulele țin locul peștelui?",
+        "raspuns": "Nu complet. Un studiu din 2003 a comparat 100 g de somon pe zi cu capsule de ulei de pește, timp de șase săptămâni. Peștele a crescut mai mult EPA și DHA în sânge, iar la capsule creșterea a urmat doza. Capsulele sunt utile mai ales când nu mănânci pește de două ori pe săptămână."
+      },
+      {
+        "intrebare": "De ce are vitamina E în capsulă?",
+        "raspuns": "Ca să protejeze uleiul. Acizii grași omega-3 se oxidează ușor la aer, lumină și căldură, iar vitamina E încetinește acest proces. Pe etichetă apare cu 3 mg pe capsulă. EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA."
+      },
+      {
+        "intrebare": "Cum scapi de gustul de pește?",
+        "raspuns": "Ia capsula în timpul mesei, nu pe stomacul gol. Mulți țin flaconul la frigider, ferit de lumină, iar capsula rece se înghite mai ușor. Nu sparge capsula și nu o lăsa la căldură, în mașină sau lângă aragaz. Eticheta avertizează că produsul conține pește."
+      },
+      {
+        "intrebare": "Câte capsule ai într-o cutie?",
+        "raspuns": "80 de capsule, cu 300 mg de EPA și DHA în fiecare. Pentru mențiunea despre inimă, condiția este un aport zilnic de 250 mg de EPA și DHA, adică o capsulă pe zi îl depășește. Urmează doza de pe etichetă."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Visioli F și colab. Dietary intake of fish vs. formulations leads to higher plasma concentrations of n-3 fatty acids. Lipids. 2003",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12848287/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

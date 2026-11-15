@@ -136,5 +136,37 @@
   ],
   "mod_de_folosire": "Amesteci 10 g (aproximativ o măsură) cu 150–250 ml de apă. O porție pe zi, înainte de masă. Conține ovăz.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului fiber-blood-orange (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre fibrele din Fiber",
+    "intro": "Fiber are cinci surse diferite de fibre, de la rădăcina de cicoare la fructul baobabului, plus făină de ovăz. Iată de unde vine fiecare și cum îl bei corect.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă „bogat în fibre”?",
+        "raspuns": "Este o mențiune nutrițională cu reguli stricte. Legislația UE o permite doar dacă produsul are cel puțin 6 g de fibre la 100 g. Fiber are 7,4 g de fibre într-o porție de 10 g, mult peste acest prag. Valoarea e trecută în declarația nutrițională."
+      },
+      {
+        "intrebare": "De unde vin fibrele din Fiber?",
+        "raspuns": "Din plante foarte diferite. Inulina se obține de obicei din rădăcina de cicoare. Fibrele de acacia vin din gumă de acacia, o rășină naturală a copacului. Fibrele de bambus vin din tulpina plantei, glucomananul din rădăcina de konjac, iar baobabul e un copac african cu fructe care se usucă direct pe ram."
+      },
+      {
+        "intrebare": "Ce este glucomananul?",
+        "raspuns": "O fibră din rădăcina plantei konjac, folosită de secole în bucătăria japoneză. Glucomananul absoarbe multă apă și se transformă într-un gel. Din el se fac tăițeii shirataki și o gelatină vegetală numită konnyaku. De aceea Fiber se îngroașă dacă îl lași în pahar."
+      },
+      {
+        "intrebare": "De ce trebuie băut cu multă apă?",
+        "raspuns": "Pentru că fibrele care se umflă au nevoie de lichid. Eticheta spune: 10 g, adică aproximativ o măsură, în 150–250 ml de apă, o porție pe zi, înainte de masă. Bea imediat, înainte să se îngroașe, și bea apă și pe parcursul zilei. Dacă nu ești obișnuit cu multe fibre, crește treptat cantitatea."
+      },
+      {
+        "intrebare": "Câte calorii are o porție?",
+        "raspuns": "21 kcal la 10 g, conform declarației nutriționale. Porția are doar 1,1 g carbohidrați, 0,10 g zaharuri, 0,11 g grăsimi și 0,20 g proteine. Gustul de portocală roșie vine din arome, culoarea din extract de boia, iar dulceața din sucraloză și acesulfam-K. Tubul are 50 de porții."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „sursă de fibre”, „bogat în fibre”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
+  }
 }

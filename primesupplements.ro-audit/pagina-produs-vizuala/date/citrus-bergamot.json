@@ -115,5 +115,41 @@
   "arome": [],
   "mod_de_folosire": "O capsulă pe zi, sau cum îți recomandă consultantul de specialitate. Nu depăși doza recomandată pentru consumul zilnic. Nu se consumă de către copii, femei însărcinate sau care alăptează fără avizul medicului.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului citrus-bergamot (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre bergamotă",
+    "intro": "Bergamota e un citric pe care probabil l-ai gustat fără să știi, în ceaiul Earl Grey. Află de unde vine, ce sunt polifenolii și ce conține capsula.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este bergamota?",
+        "raspuns": "Un citric verde-gălbui, cam cât o portocală, cu gust foarte acru și amar. Nu se mănâncă de obicei ca fruct. Cea mai mare parte a bergamotei din lume crește pe o fâșie îngustă de coastă din Calabria, în sudul Italiei, în jurul orașului Reggio Calabria."
+      },
+      {
+        "intrebare": "Unde ai mai întâlnit bergamota?",
+        "raspuns": "În ceaiul Earl Grey și în parfumuri. Uleiul esențial din coaja de bergamotă dă aroma ceaiului Earl Grey, iar în parfumerie e folosit de secole pentru nota proaspătă de citrice. Extractul din capsulă e făcut din fruct, nu din uleiul esențial."
+      },
+      {
+        "intrebare": "Ce sunt polifenolii?",
+        "raspuns": "O familie mare de compuși naturali din plante. Îi găsești în fructe, legume, ceai, cafea și cacao; flavonoidele sunt cele mai cunoscute dintre ei. Extractul de bergamotă din Citrus Bergamot are 38% polifenoli, adică 190 mg din cele 500 mg de extract ale unei capsule."
+      },
+      {
+        "intrebare": "Ce înseamnă Bergamonte®?",
+        "raspuns": "Este marca înregistrată a extractului de bergamotă folosit în capsulă, trecută pe etichetă. Un extract standardizat are o concentrație de compuși verificată la fiecare lot, aici 38% polifenoli, ca să ai aceeași cantitate în fiecare capsulă."
+      },
+      {
+        "intrebare": "Din ce e făcută capsula?",
+        "raspuns": "Din celuloză vegetală. Pe etichetă apare ca HPMC, adică hidroxipropil metilceluloză, 139 mg pe capsulă, în locul gelatinei de origine animală. Făina de orez, 100 mg, ajută la umplerea capsulei. O cutie are 80 de capsule; ia doza scrisă pe etichetă, cu un pahar de apă."
+      },
+      {
+        "intrebare": "Ce polifenoli conține extractul?",
+        "raspuns": "Cinci, numiți pe etichetă: neoeriocitrina, naringina, neohesperidina, melitidina și brutieridina. Naringina se găsește și în grepfrut, unde dă gustul amar. Melitidina și brutieridina sunt mai rare și apar mai ales în bergamotă. Extractul e apos, adică obținut cu apă, apoi uscat și transformat în pulbere. Ia o capsulă pe zi și nu depăși doza recomandată."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 20:06 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 20:28 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 27; cu Curiozități: 27; cu sportivă în dreapta: 26; scrise pe PILOT (metafield) cu versiunea curentă: 27.
+Rezumat: **80 produse**; JSON pagină vizuală: 32; cu Curiozități: 32; cu sportivă în dreapta: 32; scrise pe PILOT (metafield) cu versiunea curentă: 32.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -18,7 +18,7 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | da (326) | da | pagină 15.11 + curiozități 15.11 |
 | omega-3 | 14971467465079 | Omega-3 din ulei de pește – 80 de capsule | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | pure-isolate-2000g | 14971467530615 | Izolat proteic din zer Pure Isolate – 2 kg | da | da (313) | da | pagină 15.11 + curiozități 15.11 |
-| recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | da (328) | **nu** | pagină 15.11 + curiozități 15.11 |
+| recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | da (328) | da | pagină 15.11 + curiozități 15.11; sportivă 15.11 |
 | combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
 | unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | da (335) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
@@ -33,12 +33,12 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | crema-de-orez-plactina-cu-cocos | 15509053342071 | Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg | da | da (317) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-tort-de-ciocolata | 15509053636983 | Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
 | ashwagandha-ksm-66 | 14971464712567 | Ashwagandha KSM-66 – 80 capsule | da | da (313) | da | pagină + curiozități 15.11 |
-| crema-de-orez-fara-aroma | 15509049639287 | Cremă de orez Prime Creamy Rice – fără aromă, 1 kg | **nu** | **nu** | **nu** | – |
-| crema-de-orez-sirop-de-artar | 15509052326263 | Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg | **nu** | **nu** | **nu** | – |
-| combat-pro-2-0-660g-30-serv | 14971469791607 | Pre-antrenament Combat Pro 2.0 – 660 g | **nu** | **nu** | **nu** | – |
+| crema-de-orez-fara-aroma | 15509049639287 | Cremă de orez Prime Creamy Rice – fără aromă, 1 kg | da | da (326) | da | pagină 15.11 + curiozități 15.11 |
+| crema-de-orez-sirop-de-artar | 15509052326263 | Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg | da | da (300) | da | pagină 15.11 + curiozități 15.11 |
+| combat-pro-2-0-660g-30-serv | 14971469791607 | Pre-antrenament Combat Pro 2.0 – 660 g | da | da (307) | da | pagină 15.11 + curiozități 15.11 |
 | recovery-glutamin | 14971467628919 | L-glutamină Recovery Glutamin Kyowa® – 500 g | da | da (313) | da | pagină + curiozități 15.11 |
-| emperor-mass_3000g | 14971467334007 | Gainer Emperor Mass – 40% proteină, 3 kg | **nu** | **nu** | **nu** | – |
-| prime-whey-go | 14999064969591 | Prime Whey Go – proteină din zer, plicuri 30 g | **nu** | **nu** | **nu** | – |
+| emperor-mass_3000g | 14971467334007 | Gainer Emperor Mass – 40% proteină, 3 kg | da | da (308) | da | pagină 15.11 + curiozități 15.11 |
+| prime-whey-go | 14999064969591 | Prime Whey Go – proteină din zer, plicuri 30 g | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
 | creatine-ready-to-go-plicuri-prime-supplements | 15410672075127 | Creatină Ready To Go – plicuri efervescente 10 g | **nu** | **nu** | **nu** | – |
 | instant-oat-cream-800g-25-serv | 14971469824375 | Instant Oat Cream – cremă de ovăz, 800 g | **nu** | **nu** | **nu** | – |
 | glycerol-max-pump-500g-125-serv | 14971470184823 | Glycerol Max Pump – monostearat de glicerol, 500 g | **nu** | **nu** | **nu** | – |

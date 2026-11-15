@@ -3,7 +3,7 @@
 Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/inventar.mjs`).
 - 23 de produse au pagină vizuală + „Curiozități”, scrise pe tema PILOT `194315649399` și verificate (desktop + 375 px).
 - Lotul 3 (15.11): Ashwagandha, Recovery Glutamin, Complete Collagen, baton căpșuni – scrise pe PILOT.
-- **Rămân 53 de produse fără pagină** (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
+- **Rămân 48 de produse fără pagină** (lotul 4 din 15.11 noaptea: Creamy Rice fără aromă + sirop de arțar, Combat Pro 2.0, Emperor Mass, Whey Go; Recovery BCAA are acum sportivă) (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
   (Ashwagandha, Creamy Rice fără aromă și sirop de arțar, Combat Pro 2.0, Glutamin, Emperor Mass, Whey Go, Creatine Ready To Go,
   Oat Cream, Glycerol, NAC, L-carnitină, Q10, Potassium, zinc...), apoi capsulele Prime Health, tincturile, shot-urile,
   unturile, batoanele și cele 19 produse Frutilu.

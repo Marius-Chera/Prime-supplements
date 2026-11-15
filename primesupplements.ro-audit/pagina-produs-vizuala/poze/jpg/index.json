@@ -1649,5 +1649,31 @@
   "alt": "Sticla Testo Revive Prime Health pe masa din bucătărie, lângă o linguriță și un pahar cu apă; în fundal un sportiv stă la fereastră dimineața",
   "sursa": "generată AI (din poza reală a ambalajului) – cu sportiv, 16.11 (2 variante, aleasă cea cu eticheta mai clară)",
   "nota": "OK, ambalaj verificat"
+ },
+ {
+  "key": "pv-prime-whey-1000g-sportiv",
+  "rank": null,
+  "file": "prime-whey-1kg-sedinta-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 301,
+  "produs": "Prime Whey 1 kg",
+  "handle": "prime-whey-1000g",
+  "alt": "Sportiv musculos în maiou negru, sprijinit de aparat în sala Evo Gym, ține un tub de Prime Whey în fața lui",
+  "sursa": "cadru real din ședința Evo Gym (decupaj 4:5), 16.11 (HILA_13_15_26_00_1684); înlocuiește poza cu sportivă, cerut de Marius",
+  "nota": "OK"
+ },
+ {
+  "key": "pv-prime-whey-2000g-sportiv",
+  "rank": null,
+  "file": "prime-whey-2kg-sedinta-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 382,
+  "produs": "Prime Whey 2 kg",
+  "handle": "prime-whey-2000g",
+  "alt": "Sportiv tatuat în maiou alb Prime ține un tub de Prime Whey în sala Evo Gym",
+  "sursa": "cadru real din ședința Evo Gym (decupaj 4:5), 16.11 (HILA_13_15_06_30_1471); înlocuiește poza cu sportivă, cerut de Marius",
+  "nota": "OK"
  }
 ]

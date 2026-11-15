@@ -1,0 +1,172 @@
+{
+  "versiune": 1,
+  "handle": "unt-de-caju",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-unt-de-caju-600g-sportiv-1.jpg",
+    "alt": "Borcanul de unt de caju Prime Health pe blatul de marmură, lângă un castron cu terci de ovăz, banană și caju; în fundal un sportiv toarnă lapte în blender"
+  },
+  "nota_cifre": "Valorile sunt la 100 g, din declarația nutrițională de pe borcan.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului unt-de-caju (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "18 g proteine / 100 g",
+    "Fără zahăr adăugat",
+    "Fără sare",
+    "600 g"
+  ],
+  "titlu": "Unt de caju Prime Health: 18 g de proteine la 100 g, borcan de 600 g",
+  "intro": "Untul de caju Prime Health are gust blând și textură cremoasă. La 100 g ai [[18 g de proteine]], [[3,3 g de fibre]] și [[0 g sare]], fără zahăr adăugat, fără ulei de palmier și fără conservanți. Borcanul de sticlă are [[600 g]].",
+  "etichete": [
+    "Unt de caju",
+    "Sursă de proteine",
+    "Fără zahăr adăugat",
+    "Fără sare",
+    "Fără ulei de palmier",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "18",
+      "unitate": "g",
+      "eticheta": "proteine la 100 g"
+    },
+    {
+      "valoare": "582",
+      "unitate": "kcal",
+      "eticheta": "la 100 g"
+    },
+    {
+      "valoare": "5,9",
+      "unitate": "g",
+      "eticheta": "zaharuri la 100 g"
+    },
+    {
+      "valoare": "600",
+      "unitate": "g",
+      "eticheta": "în borcan"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Gust",
+      "text": "blând, ușor dulce, cremos"
+    },
+    {
+      "titlu": "Folosire",
+      "text": "pe pâine, în terci sau smoothie"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Declarația nutrițională",
+    "titlu": "La 100 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "582 kcal"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "43,8 g / 7,8 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "18 g"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "27 g / 5,9 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "3,3 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are untul de caju",
+    "puncte": [
+      "18 g de proteine la 100 g: sursă de proteine",
+      "Fără zahăr adăugat, fără sare, fără ulei de palmier, fără conservanți",
+      "Zaharurile, 5,9 g la 100 g, sunt cele din caju",
+      "Gust mai dulce și textură mai cremoasă decât untul de arahide",
+      "Borcan de sticlă de 600 g"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CAJ",
+        "titlu": "Caju",
+        "text": "Nuci de caju măcinate până devin cremă. Conține caju, un alergen din grupa fructelor cu coajă."
+      },
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 18 g / 100 g",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "FIB",
+        "titlu": "Fibre · 3,3 g / 100 g",
+        "text": "Peste pragul de 3 g la 100 g pentru mențiunea „sursă de fibre”."
+      },
+      {
+        "cod": "0 g",
+        "titlu": "Sare · 0 g",
+        "text": "Fără sare adăugată și fără zahăr adăugat."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Amestecă înainte de folosire. Pe pâine, în terci de ovăz, în smoothie-uri sau în deserturi de casă. Conține caju (fructe cu coajă).",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre untul de caju",
+    "intro": "Untul de caju este o cremă din nuci de caju măcinate, cu gust mai dulce și mai blând decât al altor unturi de nuci. Iată de ce caju nu se vând niciodată în coajă și ce înseamnă cifrele de pe borcan.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce nucile de caju nu se vând în coajă?",
+        "raspuns": "Pentru că în coaja lor există un ulei iritant pentru piele, înrudit cu cel din iedera otrăvitoare. De aceea nucile se încălzesc, prin prăjire sau la abur, și se decojesc înainte de vânzare. Chiar și caju vândute drept crude au trecut prin acest proces."
+      },
+      {
+        "intrebare": "Ce este mărul de caju?",
+        "raspuns": "Mărul de caju este pulpa cărnoasă, galbenă sau roșie, de care atârnă nuca. Botanic, e un fruct fals; fructul adevărat este nuca în formă de rinichi. În Brazilia, mărul de caju se folosește la sucuri și dulcețuri."
+      },
+      {
+        "intrebare": "De ce untul de caju e mai dulce decât cel de arahide?",
+        "raspuns": "Pentru că are mai multe glucide: 27 g la 100 g, față de 12 g la untul de arahide Prime Health. Zaharurile sunt 5,9 g la 100 g, iar textura e mai cremoasă. În schimb, are mai puține proteine: 18 g la 100 g."
+      },
+      {
+        "intrebare": "Este untul de caju sursă de proteine?",
+        "raspuns": "Da, la limită: 18 g la 100 g înseamnă aproximativ 12% din calorii, exact pragul european pentru mențiunea „sursă de proteine”. Proteinele contribuie la menținerea masei musculare. Pentru mai multe proteine pe lingură, untul de arahide are 26 g la 100 g."
+      },
+      {
+        "intrebare": "Unde crește arborele de caju?",
+        "raspuns": "În zonele tropicale. Este originar din nord-estul Braziliei și a fost dus de portughezi în India și în Africa în secolul al XVI-lea. Astăzi, cea mai mare parte a recoltei vine din Africa de Vest, Vietnam și India."
+      },
+      {
+        "intrebare": "Cum folosești untul de caju?",
+        "raspuns": "Pe pâine, în terci de ovăz, în smoothie-uri sau în deserturi de casă. Datorită gustului blând, merge și în sosuri cremoase pentru paste sau curry, în locul smântânii. O lingură de 15 g are aproximativ 87 kcal."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, polioli și mențiunea despre efectul laxativ)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

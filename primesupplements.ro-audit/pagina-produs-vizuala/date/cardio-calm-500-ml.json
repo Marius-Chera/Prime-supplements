@@ -1,0 +1,190 @@
+{
+  "versiune": 1,
+  "handle": "cardio-calm-500-ml",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-cardio-calm-500ml-sportiv-1.jpg",
+    "alt": "Sticla Cardio Calm Prime Health pe masa de lemn, lângă o linguriță și un pahar cu apă; în fundal un sportiv stă liniștit la fereastră"
+  },
+  "nota_cifre": "Eticheta declară compoziția amestecului de plante în procente și raportul de extracție, nu miligrame per linguriță.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului cardio-calm-500-ml (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "7 plante",
+    "Extract 1:6",
+    "500 ml",
+    "30% alcool"
+  ],
+  "titlu": "Cardio Calm: tinctură din 7 plante, extract 1:6, 500 ml",
+  "intro": "Cardio Calm este o tinctură din [[7 plante]], cu extract [[1:6]] în apă și alcool. Iei [[o linguriță diluată în 100 ml de apă]], de 3-4 ori pe zi, pe stomacul gol. Sticla are [[500 ml]], iar tinctura are [[30% alcool]].",
+  "etichete": [
+    "Tinctură din plante",
+    "Păducel",
+    "Hibiscus",
+    "Leurdă",
+    "Valeriană",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "7",
+      "unitate": "",
+      "eticheta": "plante în amestec"
+    },
+    {
+      "valoare": "1:6",
+      "unitate": "",
+      "eticheta": "raport de extracție"
+    },
+    {
+      "valoare": "100",
+      "unitate": "ml",
+      "eticheta": "apă pentru o linguriță"
+    },
+    {
+      "valoare": "30",
+      "unitate": "%",
+      "eticheta": "alcool (v/v)"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 linguriță de 3–4 ori, diluată"
+    },
+    {
+      "titlu": "Cură",
+      "text": "3 luni, apoi 30 de zile pauză"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Amestecul de plante",
+    "randuri": [
+      {
+        "nume": "Păducel (flori, frunze)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Coada-șoricelului (părți aeriene)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Vâsc (frunze)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Hibiscus (flori)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Salvie (părți aeriene)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Leurdă (părți aeriene)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Valeriană (rădăcină)",
+        "valoare": "10%"
+      },
+      {
+        "nume": "Alcool",
+        "valoare": "30% v/v"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Cardio Calm",
+    "puncte": [
+      "Șapte plante, cu procentele trecute pe etichetă",
+      "Extract 1:6 în apă și alcool etilic",
+      "O linguriță diluată în 100 ml de apă, de 3–4 ori pe zi",
+      "Cure de 3 luni, cu 30 de zile de pauză",
+      "Conține 30% alcool (v/v)"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PĂD",
+        "titlu": "Păducel · 15%",
+        "text": "Flori și frunze de Crataegus monogyna, arbust spinos din pădurile de la noi."
+      },
+      {
+        "cod": "COA",
+        "titlu": "Coada-șoricelului · 15%",
+        "text": "Părți aeriene de Achillea millefolium, cu flori albe mărunte."
+      },
+      {
+        "cod": "VÂS",
+        "titlu": "Vâsc · 15%",
+        "text": "Frunze de Viscum album, plantă care crește pe ramurile copacilor."
+      },
+      {
+        "cod": "HIB",
+        "titlu": "Hibiscus · 15%",
+        "text": "Flori de Hibiscus sabdariffa, cu gust acrișor și culoare roșiatică."
+      },
+      {
+        "cod": "SAL",
+        "titlu": "Salvie · 15%",
+        "text": "Părți aeriene de Salvia officinalis, plantă aromatică mediteraneană."
+      },
+      {
+        "cod": "LEU",
+        "titlu": "Leurdă · 15%",
+        "text": "Părți aeriene de Allium ursinum, rudă cu usturoiul."
+      },
+      {
+        "cod": "VAL",
+        "titlu": "Valeriană · 10%",
+        "text": "Rădăcină de Valeriana officinalis, cu miros puternic, specific."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Adulți: o linguriță diluată în 100 ml de apă, de 3–4 ori pe zi, pe stomacul gol. Cure de 3 luni, cu o pauză de 30 de zile. Nu depăși doza zilnică recomandată. Nu este potrivită copiilor, femeilor însărcinate sau care alăptează și celor care trebuie să evite alcoolul. Păstrează sticla bine închisă, ferită de lumină, umiditate și căldură.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre tinctura Cardio Calm",
+    "intro": "Cardio Calm este o tinctură din 7 plante, cu extract 1:6 în apă și alcool, care se ia diluată, nu direct din linguriță. Iată de ce, ce plante conține și cât durează o cură.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se diluează Cardio Calm în apă?",
+        "raspuns": "Pentru că tinctura are 30% alcool și un gust puternic de plante. Eticheta cere o linguriță în 100 ml de apă, cam o jumătate de pahar. Diluată, băutura are sub 2% alcool și se bea mai ușor, de 3–4 ori pe zi, pe stomacul gol."
+      },
+      {
+        "intrebare": "Ce este păducelul?",
+        "raspuns": "Păducelul este un arbust spinos, Crataegus monogyna, des întâlnit la marginea pădurilor din România. Primăvara face flori albe, iar toamna fructe mici și roșii. În tinctură se folosesc florile și frunzele, adică 15% din amestecul de plante."
+      },
+      {
+        "intrebare": "Ce gust dă hibiscusul?",
+        "raspuns": "Un gust acrișor și o nuanță roșiatică. Hibiscus sabdariffa este o plantă tropicală din ale cărei flori se face ceaiul roșu, cunoscut în Egipt sub numele de karkade. Florile de hibiscus reprezintă 15% din amestec."
+      },
+      {
+        "intrebare": "Ce legătură are leurda cu usturoiul?",
+        "raspuns": "Sunt rude apropiate, din același gen botanic, Allium. Leurda crește primăvara în pădurile umede și are miros de usturoi, de unde și numele popular de usturoi sălbatic. Părțile ei aeriene fac 15% din amestec."
+      },
+      {
+        "intrebare": "De ce valeriana are doar 10%?",
+        "raspuns": "Pentru că din valeriană se folosește rădăcina, cu gust și miros foarte puternice. Este singura plantă cu 10%; celelalte șase au câte 15%. Mirosul rădăcinii de Valeriana officinalis e comparat adesea cu cel al brânzei maturate."
+      },
+      {
+        "intrebare": "Cât durează o cură de Cardio Calm?",
+        "raspuns": "Eticheta recomandă cure de 3 luni, cu o pauză de 30 de zile între ele. La 3–4 lingurițe pe zi, o sticlă de 500 ml ține aproximativ o lună, deci o cură completă înseamnă trei sticle. Dacă urmezi un tratament, întreabă medicul înainte."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, alcool, mențiunea „conținut ridicat de cafeină”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului unt-de-caju (transcrierea etichetei), citite prin Admin API pe 16.11.2026. Mențiunile de pe borcan sunt citite de pe poza produsului din magazin (01_UNTDECAJU_600g_front.jpg).
+Produs: unt de caju Prime Health. Brand: Prime Health (Prime Supplements). Cantitate: 600 g. Ambalaj: borcan de sticlă cu capac.
+Pe borcan: FĂRĂ ZAHĂR ADĂUGAT • FĂRĂ SARE • FĂRĂ ULEI DE PALMIER • FĂRĂ CONSERVANȚI.
+Valori nutriționale la 100 g: valoare energetică 2415 kJ / 582 kcal; grăsimi 43,8 g, din care acizi grași saturați 7,8 g; proteine 18 g; glucide 27 g, din care zaharuri 5,9 g; fibre 3,3 g; sare 0 g.
+Alergeni: caju (fructe cu coajă). Lista completă a ingredientelor este disponibilă pe eticheta produsului.
+Utilizare: se întinde pe pâine sau se adaugă în smoothie-uri și deserturi de casă.

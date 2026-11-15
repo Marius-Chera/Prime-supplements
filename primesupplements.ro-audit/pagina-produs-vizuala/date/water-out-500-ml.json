@@ -1,0 +1,195 @@
+{
+  "versiune": 1,
+  "handle": "water-out-500-ml",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-water-out-500ml-sportiv-1.jpg",
+    "alt": "Sticla Water Out Prime Health pe blatul de marmură, lângă o linguriță și un pahar cu apă; în fundal un sportiv bea apă dimineața"
+  },
+  "nota_cifre": "Eticheta declară compoziția amestecului de plante în procente și raportul de extracție, nu miligrame per porție.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului water-out-500-ml (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "8 plante",
+    "Extract 1:6",
+    "100 de porții",
+    "1 porție pe zi"
+  ],
+  "titlu": "Water Out tinctură: 8 plante, extract 1:6, 500 ml (100 de porții)",
+  "intro": "Water Out, varianta lichidă, este o tinctură din [[8 plante]], cu extract [[1:6]] în apă și alcool. Iei [[o porție de 5 ml]] pe zi, de preferat dimineața. Sticla de [[500 ml]] are [[100 de porții]], iar tinctura are [[30% alcool]].",
+  "etichete": [
+    "Tinctură din plante",
+    "Coada-calului",
+    "Mesteacăn",
+    "Ienupăr",
+    "Păpădie",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "8",
+      "unitate": "",
+      "eticheta": "plante în amestec"
+    },
+    {
+      "valoare": "5",
+      "unitate": "ml",
+      "eticheta": "o porție pe zi"
+    },
+    {
+      "valoare": "100",
+      "unitate": "",
+      "eticheta": "porții în sticlă"
+    },
+    {
+      "valoare": "30",
+      "unitate": "%",
+      "eticheta": "alcool (v/v)"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "5 ml, de preferat dimineața"
+    },
+    {
+      "titlu": "Sticlă",
+      "text": "500 ml, 100 de porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Amestecul de plante",
+    "randuri": [
+      {
+        "nume": "Coada-calului (părți aeriene)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Mesteacăn (frunze)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Ienupăr (fructe)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Păpădie (frunze)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Urzică (frunze)",
+        "valoare": "10%"
+      },
+      {
+        "nume": "Brusture (rădăcină)",
+        "valoare": "10%"
+      },
+      {
+        "nume": "Sânziene (părți aeriene)",
+        "valoare": "10%"
+      },
+      {
+        "nume": "Afin (frunze)",
+        "valoare": "10%"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Water Out tinctură",
+    "puncte": [
+      "Opt plante, cu procentele și partea folosită trecute pe etichetă",
+      "Extract 1:6 în apă și alcool etilic",
+      "O singură porție de 5 ml pe zi, de preferat dimineața",
+      "500 ml, adică 100 de porții",
+      "Conține 30% alcool (v/v)"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CC",
+        "titlu": "Coada-calului · 15%",
+        "text": "Părți aeriene de Equisetum arvense, plantă fără flori, rudă cu ferigile."
+      },
+      {
+        "cod": "MES",
+        "titlu": "Mesteacăn · 15%",
+        "text": "Frunze de Betula pendula, copacul cu scoarță albă."
+      },
+      {
+        "cod": "IEN",
+        "titlu": "Ienupăr · 15%",
+        "text": "Fructe de Juniperus communis, boabe mici albastre-negre."
+      },
+      {
+        "cod": "PĂP",
+        "titlu": "Păpădie · 15%",
+        "text": "Frunze de Taraxacum officinale."
+      },
+      {
+        "cod": "URZ",
+        "titlu": "Urzică · 10%",
+        "text": "Frunze de Urtica dioica."
+      },
+      {
+        "cod": "BRU",
+        "titlu": "Brusture · 10%",
+        "text": "Rădăcină de Arctium lappa."
+      },
+      {
+        "cod": "SÂN",
+        "titlu": "Sânziene · 10%",
+        "text": "Părți aeriene de Galium verum, cu flori galbene mărunte."
+      },
+      {
+        "cod": "AFI",
+        "titlu": "Afin · 10%",
+        "text": "Frunze de Vaccinium myrtillus."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Adulți: o porție de 5 ml pe zi, de preferat dimineața, conform etichetei. Nu depăși doza zilnică recomandată. Nu este potrivită copiilor, femeilor însărcinate sau care alăptează și persoanelor care trebuie să evite alcoolul. Ține sticla închisă.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre tinctura Water Out",
+    "intro": "Water Out în varianta lichidă este o tinctură din 8 plante europene, cu altă formulă decât capsulele cu același nume. Află ce plante are, de unde vin și cât ține o sticlă.",
+    "sectiuni": [
+      {
+        "intrebare": "Prin ce diferă tinctura Water Out de capsule?",
+        "raspuns": "Prin formă și prin plante: tinctura este un extract 1:6 în apă și alcool, din 8 plante. Se ia o singură porție de 5 ml pe zi, de preferat dimineața. Capsulele au altă formulă, așa că nu le înlocui una cu alta fără să citești eticheta."
+      },
+      {
+        "intrebare": "Ce este coada-calului?",
+        "raspuns": "Coada-calului este o plantă fără flori, Equisetum arvense, rudă cu ferigile. Tulpinile ei verzi, segmentate, seamănă cu o coadă de cal. Pe vremuri se folosea la frecat vasele, pentru că e bogată în siliciu. În tinctură face 15% din amestec."
+      },
+      {
+        "intrebare": "Ce parte din ienupăr se folosește?",
+        "raspuns": "Fructele, adică boabele mici, albastre-negre, numite popular boabe de ienupăr. Sunt aceleași boabe care dau aroma ginului. Ienupărul are 15% în amestec, la fel ca mesteacănul, păpădia și coada-calului."
+      },
+      {
+        "intrebare": "De unde vine numele sânzienelor?",
+        "raspuns": "De la sărbătoarea Sânzienelor din 24 iunie, când planta e în plină floare. Galium verum are flori galbene, mărunte, cu miros de miere, din care fetele împleteau coronițe. În Water Out se folosesc părțile aeriene, 10% din amestec."
+      },
+      {
+        "intrebare": "Cât ține o sticlă de tinctură Water Out?",
+        "raspuns": "Aproximativ 100 de zile, pentru că are 100 de porții de 5 ml și se ia una pe zi. Asta înseamnă peste trei luni dintr-o singură sticlă, mult mai mult decât la tincturile care se iau de mai multe ori pe zi. Sticla e închisă la culoare, iar capacul trebuie strâns bine după fiecare folosire."
+      },
+      {
+        "intrebare": "Cât alcool are o porție?",
+        "raspuns": "Aproximativ 1,5 ml de alcool etilic, pentru că tinctura are 30% v/v. Cantitatea e mică, dar produsul nu e potrivit copiilor, femeilor însărcinate sau care alăptează și celor care trebuie să evite alcoolul."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, alcool, mențiunea „conținut ridicat de cafeină”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

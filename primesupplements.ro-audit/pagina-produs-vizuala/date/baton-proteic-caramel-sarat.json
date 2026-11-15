@@ -1,0 +1,172 @@
+{
+  "versiune": 1,
+  "handle": "baton-proteic-caramel-sarat",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-baton-proteic-caramel-sarat-sportiv-1.jpg",
+    "alt": "Batonul proteic Prime Delicious cu caramel sărat pe o geantă de sală, pe o bancă de lemn; în fundal un sportiv musculos își leagă șireturile după antrenament"
+  },
+  "nota_cifre": "Valorile sunt per baton de 55 g, din tabelul nutrițional de pe ambalaj.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului baton-proteic-caramel-sarat (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "20 g proteine",
+    "209 kcal",
+    "Caramel sărat",
+    "55 g"
+  ],
+  "titlu": "Baton proteic caramel sărat: 20 g de proteine și 209 kcal în 55 g",
+  "intro": "Batonul proteic cu caramel sărat are [[20 g de proteine]] într-un baton de [[55 g]], cu glazură de ciocolată neagră și un strat de caramel. Are [[209 kcal]] și doar [[4,80 g zaharuri]]. Îl găsești la bucată sau în cutie de [[12 batoane]].",
+  "etichete": [
+    "Baton proteic",
+    "Bogat în proteine",
+    "Caramel sărat",
+    "Ciocolată neagră",
+    "Cutie de 12"
+  ],
+  "cifre": [
+    {
+      "valoare": "20",
+      "unitate": "g",
+      "eticheta": "proteine per baton"
+    },
+    {
+      "valoare": "209",
+      "unitate": "kcal",
+      "eticheta": "per baton"
+    },
+    {
+      "valoare": "4,80",
+      "unitate": "g",
+      "eticheta": "zaharuri per baton"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "batoane în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "un baton de 55 g"
+    },
+    {
+      "titlu": "Păstrare",
+      "text": "loc uscat, maximum 25 °C"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-un baton",
+    "titlu": "Batonul de 55 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "209 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "20 g"
+      },
+      {
+        "nume": "Carbohidrați",
+        "valoare": "20,96 g"
+      },
+      {
+        "nume": "din care zaharuri / polioli",
+        "valoare": "4,80 g / 16,16 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "6,6 g / 2,6 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are batonul cu caramel sărat",
+    "puncte": [
+      "20 g de proteine într-un baton de 55 g",
+      "Glazură de ciocolată neagră și strat de caramel cu sare",
+      "Crocant, cu expandat de cereale",
+      "4,80 g de zaharuri; restul dulceții vine din maltitol",
+      "La bucată sau în cutie de 12 batoane (660 g)"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Matrice proteică · 20 g",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CAR",
+        "titlu": "Strat de caramel",
+        "text": "Din sirop de glucoză și lapte condensat îndulcit, cu sare."
+      },
+      {
+        "cod": "CIO",
+        "titlu": "Ciocolată neagră",
+        "text": "Glazură din masă de cacao, zahăr și unt de cacao."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltitol · 16,16 g",
+        "text": "Îndulcitor din grupa poliolilor; în exces poate avea efect laxativ."
+      },
+      {
+        "cod": "CER",
+        "titlu": "Expandat de cereale",
+        "text": "Orez, grâu și porumb umflate la căldură, pentru crocant."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "După cum ai nevoie, în funcție de dieta ta și de necesarul zilnic de proteine. Păstrează batonul la loc uscat, la cel mult 25 °C, ferit de lumina directă a soarelui și de îngheț, și mănâncă-l imediat după deschidere. Conține lapte, soia, grâu și orz; poate conține urme de nuci și arahide.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre batonul proteic cu caramel sărat",
+    "intro": "Batonul proteic cu caramel sărat este un baton de 55 g cu 20 g de proteine și un strat de caramel cu sare. Află de unde vine combinația dulce-sărat, ce sunt poliolii și cât ține o cutie.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine gustul de caramel sărat?",
+        "raspuns": "Din Bretania, regiunea franceză renumită pentru untul sărat. Caramelul cu unt sărat a devenit specialitate locală în anii 1970, iar de acolo combinația s-a răspândit în cofetăria din toată lumea. În baton, sarea apare atât în stratul de caramel, cât și în cremă."
+      },
+      {
+        "intrebare": "Câte proteine are un baton cu caramel sărat?",
+        "raspuns": "Un baton are 20 g de proteine la 209 kcal, deci aproximativ 38% din calorii vin din proteine. Legislația UE permite mențiunea „bogat în proteine” de la 20% în sus. La 100 g, proteinele ajung la 36 g."
+      },
+      {
+        "intrebare": "Ce sunt poliolii din baton?",
+        "raspuns": "Poliolii sunt îndulcitori obținuți din zaharuri, ca maltitolul din acest baton. Un baton are 16,16 g de polioli și doar 4,80 g de zaharuri. Poliolii au 2,4 kcal pe gram, față de 4 kcal la zahăr, dar în cantitate mare pot avea efect laxativ."
+      },
+      {
+        "intrebare": "De ce are cereale expandate?",
+        "raspuns": "Pentru textura crocantă. Expandatul este făcut din făină de orez, grâu și porumb, umflată la căldură, ca puful de orez. De aceea batonul conține gluten din grâu și orz, trecute ca alergeni pe etichetă."
+      },
+      {
+        "intrebare": "Cât ține o cutie de 12 batoane?",
+        "raspuns": "Două săptămâni, dacă mănânci câte un baton de luni până sâmbătă. Cutia are 12 batoane de 55 g, adică 660 g și 240 g de proteine în total. Păstreaz-o la loc uscat, sub 25 °C."
+      },
+      {
+        "intrebare": "Pentru cine nu e potrivit?",
+        "raspuns": "Pentru cei alergici la lapte, soia, grâu sau orz, care sunt în rețetă. Batonul poate conține și urme de nuci și arahide. Cine evită uleiul de palmier trebuie să știe că apare în crema de lapte."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, polioli și mențiunea despre efectul laxativ)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

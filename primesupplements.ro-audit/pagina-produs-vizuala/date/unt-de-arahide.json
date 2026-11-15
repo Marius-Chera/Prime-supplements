@@ -1,0 +1,172 @@
+{
+  "versiune": 1,
+  "handle": "unt-de-arahide",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-unt-de-arahide-600g-sportiv-1.jpg",
+    "alt": "Borcanul de unt de arahide Prime Health pe masa de lemn, lângă o felie de pâine prăjită cu unt de arahide; în fundal un sportiv musculos pregătește micul dejun"
+  },
+  "nota_cifre": "Valorile sunt la 100 g, din declarația nutrițională de pe borcan.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului unt-de-arahide (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "100% arahide",
+    "26 g proteine / 100 g",
+    "7 g fibre / 100 g",
+    "600 g"
+  ],
+  "titlu": "Unt de arahide Prime Health: 100% arahide, 26 g de proteine la 100 g",
+  "intro": "Untul de arahide Prime Health are un singur ingredient: [[100% arahide]] prăjite. La 100 g ai [[26 g de proteine]], [[7 g de fibre]] și [[0 g sare]], fără zahăr adăugat și fără ulei de palmier. Borcanul de sticlă are [[600 g]].",
+  "etichete": [
+    "100% arahide",
+    "Sursă de proteine",
+    "Bogat în fibre",
+    "Fără zahăr adăugat",
+    "Fără sare",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "26",
+      "unitate": "g",
+      "eticheta": "proteine la 100 g"
+    },
+    {
+      "valoare": "7",
+      "unitate": "g",
+      "eticheta": "fibre la 100 g"
+    },
+    {
+      "valoare": "581",
+      "unitate": "kcal",
+      "eticheta": "la 100 g"
+    },
+    {
+      "valoare": "600",
+      "unitate": "g",
+      "eticheta": "în borcan"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Ingredient",
+      "text": "100% arahide prăjite"
+    },
+    {
+      "titlu": "Înainte",
+      "text": "amestecă bine în borcan"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Declarația nutrițională",
+    "titlu": "La 100 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "581 kcal"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "46 g / 6,1 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "26 g"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "12 g / 6,4 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "7 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are untul de arahide",
+    "puncte": [
+      "Un singur ingredient: arahide prăjite",
+      "26 g de proteine și 7 g de fibre la 100 g",
+      "Fără zahăr adăugat, fără sare, fără ulei de palmier, fără conservanți",
+      "Zaharurile, 6,4 g la 100 g, sunt cele din arahide",
+      "Borcan de sticlă de 600 g, cu capac negru"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "ARA",
+        "titlu": "Arahide prăjite · 100%",
+        "text": "Singurul ingredient. Conține arahide: nu e pentru cei alergici."
+      },
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 26 g / 100 g",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "FIB",
+        "titlu": "Fibre · 7 g / 100 g",
+        "text": "Peste pragul de 6 g la 100 g pentru mențiunea „bogat în fibre”."
+      },
+      {
+        "cod": "0 g",
+        "titlu": "Sare · 0 g",
+        "text": "Fără sare adăugată și fără zahăr adăugat."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Amestecă bine înainte de folosire. Pe pâine, clătite, în smoothie-uri, în cremă de orez sau în sosuri. Conține arahide.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre untul de arahide",
+    "intro": "Untul de arahide Prime Health are un singur ingredient, arahide prăjite. Află de ce arahidele nu sunt de fapt nuci, de ce se adună ulei deasupra și ce înseamnă cifrele de pe borcan.",
+    "sectiuni": [
+      {
+        "intrebare": "Sunt arahidele nuci?",
+        "raspuns": "Nu, arahidele sunt leguminoase, rude cu fasolea și mazărea. Planta Arachis hypogaea își îngroapă singură păstăile în pământ după înflorire, de aceea arahidele cresc sub pământ. Ca alergen, legislația europeană le trece separat de nucile cu coajă."
+      },
+      {
+        "intrebare": "De ce se adună ulei deasupra untului de arahide?",
+        "raspuns": "Pentru că untul nu are uleiuri adăugate sau stabilizatori care să țină grăsimea legată. Cele 46 g de grăsimi la 100 g vin doar din arahide și urcă încet la suprafață. Amestecă bine înainte de folosire, cum scrie pe etichetă."
+      },
+      {
+        "intrebare": "Ce înseamnă sursă de proteine și bogat în fibre?",
+        "raspuns": "Sunt mențiuni nutriționale cu praguri fixe în legislația europeană. Sursă de proteine cere ca minimum 12% din calorii să vină din proteine; aici sunt aproximativ 18%. Bogat în fibre cere minimum 6 g la 100 g, iar untul are 7 g."
+      },
+      {
+        "intrebare": "Cât înseamnă o lingură de unt de arahide?",
+        "raspuns": "O lingură rasă are cam 15 g, adică aproximativ 87 kcal și 4 g de proteine. Calculul pornește de la valorile de pe borcan: 581 kcal și 26 g de proteine la 100 g. Untul are multe calorii, așa că porția contează."
+      },
+      {
+        "intrebare": "De unde vine untul de arahide?",
+        "raspuns": "Planta vine din America de Sud, unde pasta de arahide măcinate se făcea cu mult înainte de sosirea europenilor. Versiunea modernă s-a răspândit în Statele Unite la sfârșitul secolului al XIX-lea, odată cu primele brevete pentru măcinarea arahidelor prăjite."
+      },
+      {
+        "intrebare": "Cum folosești untul de arahide în bucătărie?",
+        "raspuns": "Pe pâine prăjită, în clătite, în smoothie-uri sau în cremă de orez. Merge și în sosuri sărate, de exemplu cu sos de soia și zeamă de lime, pentru tăiței sau salate. Proteinele contribuie la menținerea masei musculare."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („sursă de proteine”, „bogat în fibre”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, alcool, mențiunea „conținut ridicat de cafeină”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "versiune": 1,
+  "handle": "baton-proteic-ciocolata-fructe-de-padure",
+  "tema": "mov",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-baton-proteic-ciocolata-fructe-de-padure-sportiv-1.jpg",
+    "alt": "Batonul proteic Prime Delicious cu ciocolată și fructe de pădure pe o bancă din sală, lângă un shaker; în fundal un sportiv musculos se odihnește între serii"
+  },
+  "nota_cifre": "Valorile sunt per baton de 55 g, din tabelul nutrițional de pe ambalaj.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului baton-proteic-ciocolata-fructe-de-padure (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "20 g proteine",
+    "246 kcal",
+    "Fructe de pădure",
+    "55 g"
+  ],
+  "titlu": "Baton proteic ciocolată și fructe de pădure: 20 g de proteine în 55 g",
+  "intro": "Batonul proteic cu ciocolată și fructe de pădure are [[20 g de proteine]] într-un baton de [[55 g]], cu glazură de ciocolată neagră și un strat moale de fructe de pădure. Are [[246 kcal]] și se vinde la bucată sau în cutie de [[12 batoane]].",
+  "etichete": [
+    "Baton proteic",
+    "Bogat în proteine",
+    "Ciocolată neagră",
+    "Fructe de pădure",
+    "Cutie de 12"
+  ],
+  "cifre": [
+    {
+      "valoare": "20",
+      "unitate": "g",
+      "eticheta": "proteine per baton"
+    },
+    {
+      "valoare": "246",
+      "unitate": "kcal",
+      "eticheta": "per baton"
+    },
+    {
+      "valoare": "12,93",
+      "unitate": "g",
+      "eticheta": "zaharuri per baton"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "batoane în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "un baton de 55 g"
+    },
+    {
+      "titlu": "Păstrare",
+      "text": "loc uscat, maximum 25 °C"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-un baton",
+    "titlu": "Batonul de 55 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "246 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "20 g"
+      },
+      {
+        "nume": "Carbohidrați",
+        "valoare": "20,96 g"
+      },
+      {
+        "nume": "din care zaharuri / polioli",
+        "valoare": "12,93 g / 11 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "8,5 g / 4,15 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,17 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are batonul cu fructe de pădure",
+    "puncte": [
+      "20 g de proteine într-un baton de 55 g",
+      "Glazură de ciocolată neagră",
+      "Strat moale de fructe de pădure, cu zahăr invertit",
+      "Cu maltitol: consumul excesiv poate avea efect laxativ",
+      "La bucată sau în cutie de 12 batoane (660 g)"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Matrice proteică · 20 g",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CIO",
+        "titlu": "Ciocolată neagră",
+        "text": "Glazură din masă de cacao, zahăr și unt de cacao."
+      },
+      {
+        "cod": "FP",
+        "titlu": "Strat de fructe de pădure",
+        "text": "Zahăr invertit, amidon și aromă, pentru un strat moale."
+      },
+      {
+        "cod": "GLI",
+        "titlu": "Glicerină",
+        "text": "Umectant: ține batonul moale și împiedică uscarea."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltitol · 11 g",
+        "text": "Îndulcitor din grupa poliolilor; în exces poate avea efect laxativ."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "După cum ai nevoie, în funcție de dieta ta și de necesarul zilnic de proteine. Păstrează batonul la loc uscat, la cel mult 25 °C, ferit de lumina directă a soarelui și de îngheț, și mănâncă-l imediat după deschidere. Conține lapte, zer, soia, grâu și orz; poate conține urme de nuci și arahide.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre batonul proteic cu fructe de pădure",
+    "intro": "Batonul proteic cu ciocolată și fructe de pădure este un baton de 55 g cu 20 g de proteine și un strat moale de fructe. Află ce e zahărul invertit, de ce batonul are glicerină și ce conține glazura neagră.",
+    "sectiuni": [
+      {
+        "intrebare": "Câte proteine are batonul cu fructe de pădure?",
+        "raspuns": "Un baton de 55 g are 20 g de proteine și 246 kcal, deci aproximativ 33% din calorii vin din proteine. La 100 g, proteinele ajung la 36 g. Proteinele contribuie la creșterea masei musculare."
+      },
+      {
+        "intrebare": "Ce este zahărul invertit?",
+        "raspuns": "Zahărul invertit este zahăr obișnuit desfăcut în cele două părți ale lui, glucoză și fructoză, cu ajutorul căldurii și al unui acid. E mai dulce și nu se cristalizează, de aceea stratul de fructe de pădure rămâne moale."
+      },
+      {
+        "intrebare": "De ce are glicerină?",
+        "raspuns": "Ca batonul să nu se usuce. Glicerina este un umectant: reține apa în baton și îl păstrează moale până la data de expirare. Pe etichetă apare ca umectant (glicerină). Același rol îl are în multe prăjituri și bomboane moi din comerț."
+      },
+      {
+        "intrebare": "Ce conține glazura de ciocolată neagră?",
+        "raspuns": "Masă de cacao, zahăr, unt de cacao, lecitină din soia și aromă naturală, fără lapte praf. Masa de cacao înseamnă boabe de cacao măcinate cu tot cu grăsime și dă gustul amărui. Glazura neagră echilibrează dulceața stratului de fructe și dă batonului un gust mai apropiat de o prăjitură de casă."
+      },
+      {
+        "intrebare": "Câți polioli are un baton?",
+        "raspuns": "Un baton are 11 g de polioli, din maltitolul folosit ca îndulcitor, și 12,93 g de zaharuri. Poliolii au 2,4 kcal pe gram, mai puțin decât zahărul. Consumul excesiv poate avea efecte laxative, cum scrie pe etichetă."
+      },
+      {
+        "intrebare": "Ce alergeni trebuie să știi?",
+        "raspuns": "Lista de ingrediente marchează îngroșat zerul, laptele, soia, grâul și orzul. În plus, batonul poate conține urme de nuci și arahide. Păstrează-l la loc uscat, la cel mult 25 °C, ferit de soare și de îngheț."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, polioli și mențiunea despre efectul laxativ)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

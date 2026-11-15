@@ -1,0 +1,8 @@
+Sursa: Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului water-out-500-ml (transcrierea etichetei), citite prin Admin API pe 16.11.2026.
+Denumire: supliment alimentar, tinctură din plante (extract hidroetanolic 1:6), amestec de 8 plante. Gama: Prime Health. Brand: Prime Supplements.
+Ingrediente: extract 1:6 în soluție hidroetanolică (alcool etilic/apă – 34/66 în procente de masă) din amestecul de plante: coada-calului (Equisetum arvense), părți aeriene (15%); mesteacăn (Betula pendula), frunze (15%); ienupăr (Juniperus communis), fructe (15%); păpădie (Taraxacum officinale), frunze (15%); urzică (Urtica dioica), frunze (10%); brusture (Arctium lappa), rădăcină (10%); sânziene (Galium verum), părți aeriene (10%); afin (Vaccinium myrtillus), frunze (10%).
+Conținut de alcool al tincturii: 30% v/v. Raport de extracție: 1:6 (plantă : soluție de extracție).
+Cantitate netă: 500 ml. Porție: 5 ml (sticlă de 500 ml, 100 de porții).
+Mod de administrare: o porție pe zi, de preferat dimineața, conform etichetei.
+Nu se recomandă: copiilor, femeilor însărcinate sau care alăptează, persoanelor care trebuie să evite alcoolul.
+Ambalaj: sticlă închisă la culoare, cu capac.

@@ -1,0 +1,181 @@
+{
+  "versiune": 1,
+  "handle": "fat-burning-booster",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-fat-burning-booster-shot-sportiv-1.jpg",
+    "alt": "Fiola Fat Burning Booster pe o bancă din sală, lângă un prosop; în fundal un sportiv foarte musculos aleargă pe banda de alergare"
+  },
+  "nota_cifre": "Valorile sunt per fiolă de 25 ml, din tabelul de pe etichetă; VNR = valoarea nutrițională de referință.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului fat-burning-booster (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "4000 mg L-carnitină",
+    "40 µg crom",
+    "117,5 mg cafeină",
+    "25 ml / fiolă"
+  ],
+  "titlu": "Fat Burning Booster: 4000 mg L-carnitină și 40 µg crom într-o fiolă de 25 ml",
+  "intro": "Fat Burning Booster este un shot lichid în fiolă de [[25 ml]], cu [[4000 mg L-carnitină]], [[250 mg extract de ceai verde]] și [[150 mg extract de cafea verde]]. O fiolă are [[117,5 mg cafeină]] și [[40 µg crom]], adică [[100% VNR]]. Nu o bei pe stomacul gol.",
+  "etichete": [
+    "Shot lichid",
+    "L-carnitină",
+    "Ceai verde",
+    "Cafea verde",
+    "Crom",
+    "Fructe de pădure"
+  ],
+  "cifre": [
+    {
+      "valoare": "4000",
+      "unitate": "mg",
+      "eticheta": "L-carnitină per fiolă"
+    },
+    {
+      "valoare": "117,5",
+      "unitate": "mg",
+      "eticheta": "cafeină per fiolă"
+    },
+    {
+      "valoare": "75",
+      "unitate": "mg",
+      "eticheta": "catechine din ceai verde"
+    },
+    {
+      "valoare": "40",
+      "unitate": "µg",
+      "eticheta": "crom (100% VNR)"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "o fiolă de 25 ml"
+    },
+    {
+      "titlu": "Atenție",
+      "text": "nu pe stomacul gol"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o fiolă",
+    "titlu": "Fiola de 25 ml",
+    "randuri": [
+      {
+        "nume": "L-carnitină",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "Extract de ceai verde",
+        "valoare": "250 mg"
+      },
+      {
+        "nume": "din care catechine",
+        "valoare": "75 mg"
+      },
+      {
+        "nume": "Extract de cafea verde",
+        "valoare": "150 mg"
+      },
+      {
+        "nume": "din care acid clorogenic",
+        "valoare": "75 mg"
+      },
+      {
+        "nume": "Cafeină anhidră",
+        "valoare": "100 mg"
+      },
+      {
+        "nume": "Crom (picolinat)",
+        "valoare": "40 µg (100% VNR)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Fat Burning Booster",
+    "puncte": [
+      "Lichid, în fiolă de 25 ml, cu aromă de fructe de pădure",
+      "4000 mg de L-carnitină într-o fiolă",
+      "117,5 mg de cafeină: 100 mg anhidră și 17,5 mg din ceai verde",
+      "40 µg de crom, adică 100% din valoarea de referință",
+      "Nu se bea pe stomacul gol și nu se combină cu alt ceai verde"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CAR",
+        "titlu": "L-carnitină · 4000 mg",
+        "text": "Substanță formată în corp din lizină și metionină, prezentă mai ales în carnea roșie."
+      },
+      {
+        "cod": "CV",
+        "titlu": "Extract de ceai verde · 250 mg",
+        "text": "Din frunze de ceai verde, cu 50% polifenoli și 30% catechine."
+      },
+      {
+        "cod": "CAF",
+        "titlu": "Extract de cafea verde · 150 mg",
+        "text": "Din boabe neprăjite, cu 50% acid clorogenic, adică 75 mg pe fiolă."
+      },
+      {
+        "cod": "CFN",
+        "titlu": "Cafeină · 117,5 mg",
+        "text": "100 mg cafeină anhidră și 17,5 mg din ceaiul verde."
+      },
+      {
+        "cod": "Cr",
+        "titlu": "Crom · 40 µg",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O fiolă de 25 ml este o porție; folosește produsul conform etichetei. Nu îl bea pe stomacul gol și nu depăși doza recomandată. Nu consuma mai mult de 800 mg de galat de epigalocatechină pe zi și nu-l combina cu alte produse cu ceai verde în aceeași zi, cu cafea, băuturi energizante sau alte suplimente cu cafeină. Nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre shotul Fat Burning Booster",
+    "intro": "Fat Burning Booster este un shot lichid care pune într-o fiolă L-carnitină, ceai verde, cafea verde și crom. Iată de unde vine cafeina și de ce eticheta are atâtea avertismente.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vin cele 117,5 mg de cafeină din Fat Burning Booster?",
+        "raspuns": "Din două surse: 100 mg de cafeină anhidră și 17,5 mg din extractul de ceai verde. La 100 ml, totalul ajunge la 470 mg. Extractul de cafea verde e declarat pe etichetă prin acidul clorogenic, 75 mg pe fiolă."
+      },
+      {
+        "intrebare": "De ce nu se bea pe stomacul gol?",
+        "raspuns": "Pentru că are extract de ceai verde, iar regulile europene cer acest avertisment. Regulamentul (UE) 2022/2340 limitează catechina principală din ceai, EGCG, la sub 800 mg pe zi. Tot el cere atenționări pentru sarcină, alăptare, sub 18 ani și alte produse cu ceai verde."
+      },
+      {
+        "intrebare": "Ce este L-carnitina?",
+        "raspuns": "L-carnitina este o substanță pe care organismul o produce singur, din aminoacizii lizină și metionină. Se găsește mai ales în carnea roșie, iar numele vine din latinescul carnis, carne. O fiolă are 4000 mg, adică 16000 mg la 100 ml."
+      },
+      {
+        "intrebare": "Ce este acidul clorogenic?",
+        "raspuns": "Acidul clorogenic este un compus din boabele de cafea, mai ales din cele verzi, neprăjite. Prăjirea distruge o parte din el, de aceea extractul se face din cafea verde. O fiolă are 150 mg de extract, din care 75 mg acid clorogenic, adică 50%."
+      },
+      {
+        "intrebare": "De ce are crom fiola?",
+        "raspuns": "Cromul contribuie la metabolismul normal al macronutrienților. Fiola are 40 µg din picolinat de crom, adică 100% din valoarea de referință zilnică. Mențiunea e permisă pentru că produsul trece de pragul de 15% din VNR."
+      },
+      {
+        "intrebare": "Cu ce nu combini acest shot?",
+        "raspuns": "Cu alte produse cu ceai verde în aceeași zi, cu cafea, băuturi energizante sau alte suplimente cu cafeină. Nu e potrivit nici celor sub 18 ani, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) 2022/2340 privind catechinele din ceaiul verde (limita de 800 mg EGCG și atenționările)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2340/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine (2015)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

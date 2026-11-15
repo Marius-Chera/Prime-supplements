@@ -1,0 +1,176 @@
+{
+  "versiune": 1,
+  "handle": "baton-proteic-cocos-si-caramel",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-baton-proteic-cocos-caramel-sportiv-1.jpg",
+    "alt": "Batonul proteic Prime Delicious cu cocos și caramel pe o bancă din parc, lângă o sticlă de apă; în fundal un alergător se întinde după alergare"
+  },
+  "nota_cifre": "Valorile sunt per baton de 55 g, din tabelul nutrițional de pe ambalaj.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului baton-proteic-cocos-si-caramel (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "20 g proteine",
+    "258 kcal",
+    "Cocos și caramel",
+    "55 g"
+  ],
+  "titlu": "Baton proteic cocos și caramel: 20 g de proteine într-un baton de 55 g",
+  "intro": "Batonul proteic cu cocos și caramel are [[20 g de proteine]] într-un baton de [[55 g]], cu glazură de ciocolată albă și un strat de caramel. Are [[258 kcal]] și se vinde la bucată sau în cutie de [[12 batoane]].",
+  "etichete": [
+    "Baton proteic",
+    "Bogat în proteine",
+    "Cocos",
+    "Ciocolată albă",
+    "Caramel",
+    "Cutie de 12"
+  ],
+  "cifre": [
+    {
+      "valoare": "20",
+      "unitate": "g",
+      "eticheta": "proteine per baton"
+    },
+    {
+      "valoare": "258",
+      "unitate": "kcal",
+      "eticheta": "per baton"
+    },
+    {
+      "valoare": "11",
+      "unitate": "g",
+      "eticheta": "polioli per baton"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "batoane în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "un baton de 55 g"
+    },
+    {
+      "titlu": "Păstrare",
+      "text": "loc uscat, maximum 25 °C"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-un baton",
+    "titlu": "Batonul de 55 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "258 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "20 g"
+      },
+      {
+        "nume": "Carbohidrați",
+        "valoare": "27,40 g"
+      },
+      {
+        "nume": "din care zaharuri / polioli",
+        "valoare": "14,75 g / 11 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "9,28 g / 4,86 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,17 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are batonul cu cocos și caramel",
+    "puncte": [
+      "20 g de proteine într-un baton de 55 g",
+      "Glazură de ciocolată albă cu vanilie",
+      "Strat de caramel cu ulei de cocos și aromă de cocos",
+      "Cu zahăr și maltitol: consumul excesiv poate avea efect laxativ",
+      "La bucată sau în cutie de 12 batoane (660 g)"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Matrice proteică · 20 g",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "ALB",
+        "titlu": "Ciocolată albă",
+        "text": "Glazură din zahăr, unt de cacao și lapte praf, cu aromă de vanilie."
+      },
+      {
+        "cod": "COC",
+        "titlu": "Cocos",
+        "text": "Ulei de cocos în stratul de caramel și aromă de cocos."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltitol · 11 g",
+        "text": "Îndulcitor din grupa poliolilor; în exces poate avea efect laxativ."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "După cum ai nevoie, în funcție de dieta ta și de necesarul zilnic de proteine. Păstrează batonul la loc uscat, la cel mult 25 °C, ferit de lumina directă a soarelui și de îngheț, și mănâncă-l imediat după deschidere. Conține lapte (inclusiv zer), soia, grâu și orz; poate conține urme de nuci și arahide.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre batonul proteic cu cocos și caramel",
+    "intro": "Batonul proteic cu cocos și caramel este cel mai dulce din gamă, cu glazură de ciocolată albă. Iată ce înseamnă cifrele de pe ambalaj, de unde vine gustul de cocos și de ce scrie pe el despre efectul laxativ.",
+    "sectiuni": [
+      {
+        "intrebare": "Câte calorii are batonul cu cocos și caramel?",
+        "raspuns": "Un baton are 258 kcal, pentru că glazura de ciocolată albă are mult zahăr și unt de cacao. Din cei 27,40 g de carbohidrați, 14,75 g sunt zaharuri și 11 g sunt polioli. Grăsimile sunt 9,28 g pe baton."
+      },
+      {
+        "intrebare": "Este ciocolata albă ciocolată adevărată?",
+        "raspuns": "Da, deși nu are masă de cacao. Ciocolata albă este făcută din zahăr, unt de cacao și lapte; legislația europeană cere minimum 20% unt de cacao și 14% substanță uscată din lapte. De aceea are culoare deschisă și gust de lapte."
+      },
+      {
+        "intrebare": "De unde vine gustul de cocos?",
+        "raspuns": "Din aroma de cocos și din uleiul de cocos din stratul de caramel. Pe lista de ingrediente nu apar fulgi de cocos, așa că gustul vine din aromă, nu din bucăți de nucă de cocos. Cocosul se potrivește bine cu ciocolata albă, pentru că amândouă au note dulci, de lapte și vanilie."
+      },
+      {
+        "intrebare": "De ce scrie pe baton despre efectul laxativ?",
+        "raspuns": "Din cauza maltitolului, un îndulcitor din grupa poliolilor. Legislația europeană cere această mențiune la alimentele cu peste 10% polioli adăugați, iar batonul are 20 g la 100 g. Un baton conține 11 g de polioli."
+      },
+      {
+        "intrebare": "Cât din energie vine din proteine?",
+        "raspuns": "Aproximativ 31%: cele 20 g de proteine dau 80 kcal din cele 258 kcal ale batonului. Pragul pentru „bogat în proteine” este 20%, deci batonul îl depășește. Proteinele contribuie la creșterea masei musculare."
+      },
+      {
+        "intrebare": "Ce alergeni are?",
+        "raspuns": "Lapte, inclusiv zer, soia, grâu și orz, marcate îngroșat în lista de ingrediente. Batonul poate conține urme de nuci și arahide. Păstrează-l la loc uscat, la cel mult 25 °C, și mănâncă-l imediat după deschidere."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, polioli și mențiunea despre efectul laxativ)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Directiva 2000/36/CE privind produsele din cacao și ciocolată (definiția ciocolatei albe)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2000/36/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

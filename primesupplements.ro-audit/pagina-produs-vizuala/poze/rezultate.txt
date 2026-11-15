@@ -115,3 +115,13 @@ tc-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8Jjlph
 tc-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782130729_a9b19931_1794782131568_76959e86.png
 tr-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782257261_7a55ae4d_1794782257719_7686b61d.png
 tr-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782257286_798abc71_1794782257782_1b60f0cd.png
+# Lot 9–10 (16.11, sportivi bărbați; aleasă = *)
+cardio-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783402687_76fc0535_1794783403727_9cbd4914.png
+wo500-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783402570_04fbb30d_1794783403498_c99d59ff.png
+ep-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783404758_66242379_1794783405553_e795b55e.png
+fb-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783405692_b6da19a6_1794783406481_49618f23.png
+arahide-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783827360_faa5a5e1_1794783827978_d066dcf8.png
+caju-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783828598_66d38eaa_1794783829327_22ada38a.png
+baton-caramel-sarat-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783830714_0ce9a619_1794783832530_a87f097e.png
+baton-cocos-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783840885_94f1d7af_1794783841998_07515850.png
+baton-fructe-padure-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783954476_f0042f84_1794783955823_c8510e7a.png

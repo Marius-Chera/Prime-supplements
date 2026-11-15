@@ -1,0 +1,180 @@
+{
+  "versiune": 1,
+  "handle": "energy-pump",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-energy-pump-shot-sportiv-1.jpg",
+    "alt": "Fiola Energy Pump pe podeaua sălii, lângă o gantera; în fundal un culturist foarte musculos se pregătește de o serie grea la bară"
+  },
+  "nota_cifre": "Valorile sunt per fiolă de 25 ml, din tabelul de pe etichetă.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului energy-pump (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "100 mg cafeină",
+    "25 ml / fiolă",
+    "0 g carbohidrați",
+    "Fructe de pădure"
+  ],
+  "titlu": "Energy Pump Shot: 100 mg cafeină și 4000 mg citrulină într-o fiolă de 25 ml",
+  "intro": "Energy Pump este un pre-workout lichid, gata de băut: o fiolă de [[25 ml]] are [[100 mg cafeină]], [[4000 mg malat de citrulină]], [[4000 mg arginină AKG]] și [[3000 mg beta-alanină]]. O bei cu cel puțin [[30 de minute]] înainte de antrenament. Are [[20,7 kcal]] și [[0 g carbohidrați]].",
+  "etichete": [
+    "Pre-workout lichid",
+    "Cafeină",
+    "Citrulină malat",
+    "Arginină AKG",
+    "Beta-alanină",
+    "Fără pudră"
+  ],
+  "cifre": [
+    {
+      "valoare": "100",
+      "unitate": "mg",
+      "eticheta": "cafeină per fiolă"
+    },
+    {
+      "valoare": "4000",
+      "unitate": "mg",
+      "eticheta": "malat de citrulină"
+    },
+    {
+      "valoare": "3000",
+      "unitate": "mg",
+      "eticheta": "beta-alanină"
+    },
+    {
+      "valoare": "20,7",
+      "unitate": "kcal",
+      "eticheta": "per fiolă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Când",
+      "text": "cu 30 de minute înainte de sală"
+    },
+    {
+      "titlu": "Maximum",
+      "text": "două fiole pe zi"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o fiolă",
+    "titlu": "Fiola de 25 ml",
+    "randuri": [
+      {
+        "nume": "DL malat de L-citrulină",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "L-arginină AKG 2:1",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "Beta-alanină",
+        "valoare": "3000 mg"
+      },
+      {
+        "nume": "Cafeină anhidră",
+        "valoare": "100 mg"
+      },
+      {
+        "nume": "Proteine (aminoacizi liberi)",
+        "valoare": "5,2 g"
+      },
+      {
+        "nume": "Carbohidrați / grăsimi",
+        "valoare": "0 g / 0 g"
+      },
+      {
+        "nume": "Valoare energetică",
+        "valoare": "20,7 kcal"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Energy Pump",
+    "puncte": [
+      "Lichid, în fiolă de 25 ml: fără pudră și fără shaker",
+      "100 mg de cafeină anhidră într-o fiolă",
+      "Citrulină malat și arginină AKG, câte 4000 mg",
+      "3000 mg de beta-alanină: pot apărea furnicături",
+      "Cel mult două fiole pe zi, fără alte surse de cafeină"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CAF",
+        "titlu": "Cafeină anhidră · 100 mg",
+        "text": "Cafeină uscată, fără apă. Nu o combina cu cafea sau băuturi energizante."
+      },
+      {
+        "cod": "CIT",
+        "titlu": "Malat de citrulină · 4000 mg",
+        "text": "Aminoacidul citrulină legat de acid malic, acidul din merele verzi."
+      },
+      {
+        "cod": "ARG",
+        "titlu": "Arginină AKG 2:1 · 4000 mg",
+        "text": "Două părți L-arginină la o parte alfa-cetoglutarat."
+      },
+      {
+        "cod": "BA",
+        "titlu": "Beta-alanină · 3000 mg",
+        "text": "Aminoacid care poate da furnicături și înroșirea pielii, mai slabe pe parcursul utilizării."
+      },
+      {
+        "cod": "0 g",
+        "titlu": "Carbohidrați · 0 g",
+        "text": "Îndulcită cu sucraloză și acesulfam de potasiu; 20,7 kcal pe fiolă."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Agită puternic fiola și bea-o cu cel puțin 30 de minute înainte de antrenament. Cel mult două fiole pe zi. Nu o combina cu cafea, băuturi energizante sau alte suplimente cu cafeină. Nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre pre-workoutul lichid Energy Pump",
+    "intro": "Energy Pump este un pre-workout în fiolă, fără pudră și fără shaker. Află de ce furnică pielea după o fiolă, ce înseamnă 100 mg de cafeină și ce ascunde numele arginină AKG.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce furnică pielea după o fiolă de Energy Pump?",
+        "raspuns": "Din cauza beta-alaninei, care poate da furnicături pe față, gât sau mâini. Senzația se numește parestezie și e trecută chiar pe etichetă. O fiolă are 3000 mg de beta-alanină. Poziția ISSN din 2015 notează că furnicăturile sunt mai slabe la doze mici, de 1,6 g."
+      },
+      {
+        "intrebare": "Câtă cafeină are o fiolă de Energy Pump?",
+        "raspuns": "O fiolă are 100 mg de cafeină anhidră, adică 400 mg la 100 ml. EFSA consideră sigure pentru adulții sănătoși până la 400 mg de cafeină pe zi și 200 mg într-o singură doză. De aceea eticheta limitează consumul la două fiole pe zi."
+      },
+      {
+        "intrebare": "Ce înseamnă arginină AKG 2:1?",
+        "raspuns": "Înseamnă L-arginină legată de alfa-cetoglutarat, două părți la una. Alfa-cetoglutaratul este o substanță care apare natural în celule, în lanțul de reacții prin care corpul obține energie. O fiolă are 4000 mg din această combinație."
+      },
+      {
+        "intrebare": "Ce este malatul de citrulină?",
+        "raspuns": "Este citrulina legată de acid malic, acidul care dă gustul acru merelor verzi. Citrulina este un aminoacid care nu intră în structura proteinelor; numele vine de la pepenele verde, Citrullus lanatus, în care a fost găsită prima dată. O fiolă are 4000 mg."
+      },
+      {
+        "intrebare": "De ce scrie pe etichetă conținut ridicat de cafeină?",
+        "raspuns": "Pentru că legislația europeană o cere la băuturile cu peste 150 mg de cafeină pe litru. Energy Pump are 400 mg la 100 ml, de peste 26 de ori pragul. Avertismentul pentru copii, sarcină și alăptare vine din Regulamentul (UE) nr. 1169/2011."
+      },
+      {
+        "intrebare": "De ce trebuie agitată fiola?",
+        "raspuns": "Pentru că ingredientele se pot depune la fundul fiolei. Agiți puternic câteva secunde și bei tot conținutul de 25 ml, cu cel puțin 30 de minute înainte de antrenament."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine (2015)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, alcool, mențiunea „conținut ridicat de cafeină”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Trexler ET și colab. International society of sports nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26175657/"
+      }
+    ]
+  }
+}

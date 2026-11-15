@@ -51,5 +51,16 @@
     "metafields": "aceleași 3, rescrise cu tema (verde BCAA, albastru Creapure, rosu Whey), imagine (poze reale sedinta-foto la Whey și Creapure) și nota_cifre",
     "openart": "0 credite pe contact@ (plan Starter) – Marius trebuie să încarce; ~12–40 credite / imagine image2image",
     "verificat": "previzualizare 1280 px și 390 px; poză lazy se încarcă la scroll; h2 Poppins; fără scroll orizontal din secțiune"
+  },
+  "v3": {
+    "cerere": "Marius: conținutul să apară doar când selectezi tab-ul Despre produs, ca la Genius",
+    "fisiere": {
+      "snippets/prime-pagina-vizuala.liquid": "md5 54d3b43fee407ff1fc1f8ba6cae5d157 (codul paginii vizuale)",
+      "sections/prime-pagina-vizuala.liquid": "md5 1827d8df8dc42dd044976b235f087e7d (doar înveliș, nefolosit)",
+      "assets/prime-pagina-vizuala.css": "md5 17f68314a22d3357ff0db7dbd786fabb (+ reguli anti-.prose)",
+      "templates/product.json": "tab_EgrYyU „Despre produs” = bloc liquid: pagina vizuală dacă există prime.pagina_vizuala, altfel custom.despre_produs; secțiunea separată scoasă; tabs content_size large"
+    },
+    "nota": "Tema randează tab-urile de 2 ori (acordeon telefon + tab-uri desktop), deci și pagina vizuală apare de 2 ori în HTML (la fel ca la Genius); scriptul nu folosește id-uri.",
+    "verificat": "1280 px: tab Despre produs, fără buline/margini de la .prose, h2 52 px; previzualizarea are cache câteva minute după upload"
   }
 }

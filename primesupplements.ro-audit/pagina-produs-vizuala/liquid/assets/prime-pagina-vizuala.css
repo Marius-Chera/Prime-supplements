@@ -101,3 +101,21 @@
   .ppv-flav li{grid-template-columns:1fr;gap:2px}
   .ppv-intro{font-size:15.5px}
 }
+
+/* v3: secțiunea stă în tab-ul „Despre produs”, adică într-un <div class="prose"> al temei Impact.
+   Tema pune acolo .prose * + p {margin-top}, .prose ul {list-style; display:grid; row-gap} și .prose h2 {font-size}.
+   Le anulăm doar în interiorul .ppv, cu selectori mai puternici (prefix .prose .ppv .ppv__wrap + element). */
+.prose .ppv .ppv__wrap :is(p,div,ul,ol,li,h2,h3,h4,figure,img){margin-block-start:0}
+.prose .ppv .ppv__wrap ul{list-style:none;padding:0;margin-inline:0;row-gap:0}
+.prose .ppv .ppv__wrap ul.ppv-tags{display:flex;row-gap:10px;margin-block-start:24px}
+.prose .ppv .ppv__wrap ul.ppv-stats{display:grid;row-gap:12px;margin-block-start:28px}
+.prose .ppv .ppv__wrap ul.ppv-rows,.prose .ppv .ppv__wrap ul.ppv-checks{display:block}
+.prose .ppv .ppv__wrap ul.ppv-flav{display:grid;row-gap:10px}
+.prose .ppv .ppv__wrap p.ppv-intro{margin-block-start:20px}
+.prose .ppv .ppv__wrap p.ppv-footnote{margin-block-start:10px}
+.prose .ppv .ppv__wrap p.ppv-note{margin-block-start:14px}
+.prose .ppv .ppv__wrap h2{font-size:clamp(30px,4.4vw,52px);line-height:1.04}
+.prose .ppv .ppv__wrap h3{font-size:clamp(22px,2.6vw,32px);line-height:1.12;margin-block-end:14px}
+.prose .ppv .ppv__wrap h4{font-size:15.5px;line-height:1.35;margin-block-end:6px}
+.prose .ppv .ppv__wrap .ppv-media img{margin:0;border-radius:0}
+.prose .ppv{margin-block-start:8px}

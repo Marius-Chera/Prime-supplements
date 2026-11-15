@@ -31,5 +31,5 @@ Snippet-ul și CSS-ul de pe PILOT sunt identice cu cele din repo (urcate 15.11 c
 
 ## Poze – direcția nouă (Marius, 15.11 noaptea)
 - **Fără alte poze cu femei.** De acum: sportivi bărbați. La pre-workout-uri, sportivi foarte musculoși. La gainere, powerlifter sau strongman în off-season.
-- **Întâi cadrele reale** din `D:Prime SupplementsShooting foto evo gymshooting evo gym` (planșă cu `plansa.ps1`, decupaj 4:5 cu `crop.ps1`: rețetele sunt în JURNAL 15.11, lotul 5). Exemplu: la Glycerol, sportivul la helcometru. Evidența: `../blog-automation/POZE-SEDINTE-FOTO.md`. Abia apoi OpenArt, cu un sportiv bărbat.
+- **Întâi cadrele reale** din `D:Prime SupplementsShooting foto evo gymshooting evo gym` (planșă: `scripts/plansa.ps1 <folder> <regex> <ieșire.jpg> [coloane]`; decupaj 4:5: `scripts/crop.ps1 <sursă> <cx 0–1> <nume>`; PNG OpenArt → JPEG 2000 px: `scripts/conv-png-jpg.ps1 <folder cu png>`). Exemplu: la Glycerol, sportivul la helcometru. Evidența: `../blog-automation/POZE-SEDINTE-FOTO.md`. Abia apoi OpenArt, cu un sportiv bărbat.
 - Scrierea pe PILOT: bulk mutation e blocată de conector; `metafieldsSet` se face de mână, 2 produse pe apel, apoi amprentele **obligatoriu** (la lotul 5 a ieșit o literă greșită).

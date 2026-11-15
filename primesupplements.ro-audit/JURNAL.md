@@ -1237,3 +1237,45 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Pe fiecare imagine e o bandă neagră cu logo și „CODUL MEU:”, plus o casetă albă goală, unde sportivul își scrie codul.
   - Imaginile sunt urcate în Shopify Files (`afiliati-2026-11-*`), în aplicație la Materiale („Noiembrie 2026 – postări și story”) și în repo, în `afiliati/materiale/2026-11/`. Scriptul care pune banda: `afiliati/materiale/banda-codul-meu.py`.
   - Cost: ~370 de credite OpenArt.
+
+- **15.11, Poze premium de produs pentru top 40 după vânzări (cerut de Marius; `pagina-produs-vizuala/poze/`):** lista vine din Shopify Analytics pe 90 de zile, fără haine și pachete (`TOP-40.md`). Pozele sunt făcute în OpenArt (Nano Banana 2, image2image din poza reală a ambalajului, 2K, 4:5), în stil luminos (bucătărie albă, sală luminoasă, terasă). La cererea lui Marius am adăugat și cadre cu sportive generate AI, în bustieră: 20 de cadre, la 16 produse. Fiecare poză e verificată față de ambalajul real: 88 aprobate, 3 respinse (capac negru la Sirop de arțar, aromă scrisă greșit la Pure Isolate, sticlă verde la Colagen). JPEG 2000 px, ~250 KB, nume SEO în română și alt text. Sunt urcate în Shopify Files, **dar neatașate la produse**. Cost: ~2.800 de credite. Evidența e în `POZE-PRODUSE.md`, galeria în `galerie.html` (server local `galerie-poze`, port 8795). Pe produse:
+  - 1. Prime Whey – proteină din zer, 2 kg (Toffee Chocolate): 2 cadre cu produsul, 2 cu sportivă.
+  - 2. Izolat proteic din zer Pure Isolate – 2 kg (Salted Caramel): 2 cadre cu produsul, 1 cu sportivă.
+  - 3. Prime Whey – proteină din zer, 1 kg (Salted Caramel): 2 cadre cu produsul, 2 cu sportivă.
+  - 4. Creatină Creapure® monohidrată (fără aromă (500 g)): 2 cadre cu produsul, 2 cu sportivă.
+  - 5. Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg (tort de ciocolată): 2 cadre cu produsul, 1 cu sportivă.
+  - 6. Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg (plăcintă cu cocos): 2 cadre cu produsul.
+  - 7. Aminoacizi esențiali EAA – tub de 500 g (Peach Ice Tea): 2 cadre cu produsul.
+  - 8. Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg (Strawberry & Kiwi): 2 cadre cu produsul, 1 cu sportivă.
+  - 9. Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg (biscuiți cu cremă): 2 cadre cu produsul.
+  - 10. Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg (brioșă cu afine): 2 cadre cu produsul, 1 cu sportivă.
+  - 11. Cremă de orez Prime Creamy Rice – caramel sărat, 1 kg (caramel sărat): 2 cadre cu produsul.
+  - 12. Magneziu bisglicinat 300 mg – 80 de capsule: 2 cadre cu produsul, 1 cu sportivă.
+  - 13. Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg (sirop de arțar): 1 cadru cu produsul.
+  - 14. L-glutamină Recovery Glutamin Kyowa® – 500 g (Raspberry): 2 cadre cu produsul, 1 cu sportivă.
+  - 15. Daily Vitamin Formula – vitamine și minerale, 30 de plicuri: 2 cadre cu produsul.
+  - 16. Supliment pre-antrenament Combat Pro cu cafeină – 500 g (Forest Fruits): 2 cadre cu produsul, 1 cu sportivă.
+  - 17. Creatină monohidrată micronizată fără aromă, 300 g (fără aromă): 2 cadre cu produsul.
+  - 18. Pre-workout fără stimulente Nitrox No-Stim, 660 g (Ice Blueberry): 2 cadre cu produsul, 1 cu sportivă.
+  - 19. Supliment pre-antrenament Nitrox 3D – 500 g (Cherry): 2 cadre cu produsul.
+  - 20. Vitamina D3 + K2 – 80 capsule: 2 cadre cu produsul, 1 cu sportivă.
+  - 21. Omega-3 din ulei de pește – 80 de capsule: 2 cadre cu produsul.
+  - 22. Extract de bergamotă Citrus Bergamot – 80 capsule: 2 cadre cu produsul.
+  - 23. Unt de migdale Prime Health, 600 g: 2 cadre cu produsul.
+  - 24. Fiber – băutură cu fibre, aromă portocală roșie, 500 g (Blood Orange): 2 cadre cu produsul, 1 cu sportivă.
+  - 25. Vitamina C 1000 mg – 80 de capsule: 2 cadre cu produsul.
+  - 26. Ashwagandha KSM-66 – 80 capsule: 1 cadru cu produsul, 1 cu sportivă.
+  - 27. Cremă de orez Prime Creamy Rice – fără aromă, 1 kg (fără aromă): 2 cadre cu produsul.
+  - 28. Pre-antrenament Combat Pro 2.0 – 660 g (Forest Fruits): 2 cadre cu produsul.
+  - 29. NAC – N-acetilcisteină 500 mg, 80 de capsule: 2 cadre cu produsul.
+  - 30. Glycerol Max Pump – monostearat de glicerol, 500 g: 1 cadru cu produsul.
+  - 31. L-carnitină 1000 – 80 capsule: 1 cadru cu produsul.
+  - 32. Coenzima Q10 200 mg – 80 de capsule: 2 cadre cu produsul.
+  - 33. Potassium Complex – potasiu și magneziu, 80 de capsule: 1 cadru cu produsul.
+  - 34. Water Out – 120 capsule cu extracte din plante: 1 cadru cu produsul.
+  - 35. Baton proteic căpșuni (căpșuni): 1 cadru cu produsul, 1 cu sportivă.
+  - 36. Water Out Prime Health – tinctură din plante, 500 ml: 1 cadru cu produsul.
+  - 37. Gainer Emperor Mass – 40% proteină, 3 kg (Chocolate): 1 cadru cu produsul.
+  - 38. Citrat de zinc 40 mg – 80 de capsule: 1 cadru cu produsul.
+  - 39. Unt de arahide Prime Health, 600 g: 1 cadru cu produsul.
+  - 40. Colagen hidrolizat lichid Complete Collagen – 500 ml: 1 cadru cu produsul, 2 cu sportivă.

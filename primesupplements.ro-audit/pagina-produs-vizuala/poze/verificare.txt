@@ -1,0 +1,91 @@
+01a OK eticheta Toffee Chocolate identica, shake ciocolata
+01b OK eticheta identica, pahar cu shake ciocolata
+02a OK Pure Isolate Salted Caramel identic
+02b OK identic
+03a OK Prime Whey 1 kg Salted Caramel identic
+03b OK identic
+04a OK Creapure 500 g identic
+04b OK identic
+05a OK Creamy Rice Chocolate Cake identic, bol cu ciocolata
+05b OK identic
+06a OK Coconut Cream Pie identic, cocos
+06b OK identic
+07a OK EAA Peach Ice Tea identic, ceai de piersici
+07b OK identic
+08a OK Cluster Strawberry Kiwi identic, capsuni + kiwi
+08b OK identic
+09a OK Cookie Cream identic; biscuiti fara marca vizibila
+09b OK identic
+10a OK Blueberry Muffin identic, afine
+10b OK identic
+11a OK Salted Caramel identic
+11b OK identic
+12a OK* Magneziu bisglicinat 300 mg, 80 CAPS corect; randul mic de sub titlu e aproximat de AI (ilizibil la marimea din pagina)
+12b OK* idem
+13a RESPINS capac negru (real e alb)
+13b OK Maple Sugar identic, capac alb
+14a OK Recovery Glutamin Raspberry identic
+14b OK identic
+15a OK Daily Vitamin Formula identic
+15b OK identic
+16a OK Combat Pro Forest Fruits, eticheta verde identica
+16b OK identic
+17a OK Creatina micronizata 300 g identica
+17b OK identica
+18a OK Nitrox No-Stim Ice Blueberry, eticheta albastra identica
+18b OK identic
+19a OK Nitrox 3D Cherry identic
+19b OK identic
+20a OK D3+K2 identic (randul mic aproximat de AI, ilizibil la marimea din pagina)
+20b OK idem
+01c OK sportiva bucatarie, Toffee Chocolate identic
+01d OK idem
+02c RESPINS aroma scrisa gresit pe tub ("SALT PLAVOBI")
+02d OK sportiva sala, Salted Caramel corect
+03c OK sportiva terasa, Salted Caramel corect
+03d OK idem
+04c OK sportiva sala, Creapure identic
+04d OK idem (2 persoane mici, neclare, in fundal)
+05c OK sportiva bucatarie, Chocolate Cake identic
+08c OK sportiva sala, Cluster identic
+10c OK sportiva balcon, Blueberry Muffin identic
+12c OK sportiva yoga, Magneziu identic
+21a OK Omega-3 identic
+21b OK identic
+22a OK Citrus Bergamot identic
+22b OK identic
+14c OK sportiva sala, Recovery Glutamin identic
+23a OK Unt de migdale identic (capac negru ca in realitate)
+23b OK identic
+24a OK Fiber Blood Orange identic
+24b OK identic
+25a OK Vitamina C 1000 identic
+25b OK identic
+26a OK Ashwagandha identic
+26c OK sportiva yoga, Ashwagandha identic
+16c OK sportiva sala, Combat Pro eticheta verde
+18c OK sportiva sala, Nitrox No-Stim eticheta albastra
+27a OK Creamy Rice Natur identic
+27b OK identic
+28a OK Combat Pro 2.0 identic
+28b OK identic
+29a OK NAC identic
+29b OK identic
+30a OK Glycerol Max Pump identic
+31a OK L-Carnitine 1000 identic
+32a OK Coenzima Q10 identic
+32b OK identic
+33a OK Potassium Complex identic
+34a OK Water Out capsule identic
+35a OK Baton capsuni identic
+36a OK Water Out tinctura identica (sticla bruna)
+37a OK Emperor Mass Chocolate identic
+38a OK Zinc Citrate identic
+39a OK Unt de arahide identic
+40a RESPINS sticla verde transparenta (reala e inchisa, aproape neagra)
+20c OK sportiva terasa, D3+K2 identic
+24c OK sportiva bucatarie, Fiber Blood Orange identic
+35c OK sportiva sala, baton capsuni identic
+40c OK sportiva baie luminoasa, Complete Collagen sticla inchisa corecta
+40b OK Complete Collagen sticla inchisa corecta
+40d OK sportiva baie, Complete Collagen corect

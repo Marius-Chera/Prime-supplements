@@ -1,0 +1,200 @@
+{
+  "versiune": 1,
+  "handle": "prime-whey-go",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-whey-go-plicuri-30g-sportiva-1.jpg",
+    "alt": "Cutia cu plicuri Prime Whey Go în prim-plan; în fundal o sportivă în bustieră albă își toarnă un plic de proteină în shaker, pe o bancă din vestiarul sălii"
+  },
+  "nota_cifre": "Conținutul de proteine e cel declarat la 100 g de pulbere; un plic are 30 g.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului prime-whey-go (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "82 g proteine / 100 g",
+    "Plic de 30 g",
+    "15 plicuri / cutie",
+    "7 arome"
+  ],
+  "titlu": "Prime Whey Go: proteină din zer în plicuri de 30 g, 82 g proteine la 100 g",
+  "intro": "Aceeași idee ca un tub de proteină, dar porționată: fiecare plic are [[30 g]] de pulbere, iar pulberea are [[82 g de proteine la 100 g]]. Îl iei la bucată sau în cutia cu [[15 plicuri]] și îl amesteci cu apă sau lapte, după antrenament sau între mese. Alegi dintre [[7 arome]].",
+  "etichete": [
+    "Concentrat proteic din zer",
+    "Plicuri de 30 g",
+    "Cutie de 15 plicuri",
+    "Sucraloză și acesulfam-K",
+    "Conține lapte"
+  ],
+  "cifre": [
+    {
+      "valoare": "82",
+      "unitate": "g",
+      "eticheta": "proteine la 100 g"
+    },
+    {
+      "valoare": "30",
+      "unitate": "g",
+      "eticheta": "pulbere într-un plic"
+    },
+    {
+      "valoare": "15",
+      "unitate": "",
+      "eticheta": "plicuri în cutie"
+    },
+    {
+      "valoare": "7",
+      "unitate": "",
+      "eticheta": "arome"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "un plic de 30 g"
+    },
+    {
+      "titlu": "Când",
+      "text": "după antrenament sau între mese"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Un plic",
+    "randuri": [
+      {
+        "nume": "Pulbere",
+        "valoare": "30 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "82 g la 100 g"
+      },
+      {
+        "nume": "Cutie",
+        "valoare": "15 plicuri x 30 g"
+      },
+      {
+        "nume": "Arome",
+        "valoare": "7"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Prime Whey Go",
+    "puncte": [
+      "Concentrat proteic din zer, primul ingredient",
+      "82 g de proteine la 100 g de pulbere",
+      "Plicuri de 30 g, gata porționate",
+      "La bucată sau în cutie cu 15 plicuri",
+      "Îndulcit cu sucraloză și acesulfam-K",
+      "Șapte arome, de la vanilie la caramel sărat"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 82 g / 100 g",
+        "text": "Proteinele contribuie la creșterea masei musculare și la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "WPC",
+        "titlu": "Concentrat proteic din zer",
+        "text": "Primul ingredient din listă, obținut din zerul de lapte."
+      },
+      {
+        "cod": "AA",
+        "titlu": "Glicină și L-lizină",
+        "text": "Doi aminoacizi trecuți în lista de ingrediente, după zer."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K, alături de arome."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Chocolate Coconut",
+      "nume": "Ciocolată cu cocos",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "Bourbon Vanilla",
+      "nume": "Vanilie Bourbon",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "Strawberry Cheesecake",
+      "nume": "Cheesecake cu căpșuni",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "White Chocolate Raspberry",
+      "nume": "Ciocolată albă cu zmeură",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "Toffe Chocolate",
+      "nume": "Caramel cu ciocolată",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "Salted caramel",
+      "nume": "Caramel sărat",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    },
+    {
+      "varianta": "Blueberry Vanilla",
+      "nume": "Afine cu vanilie",
+      "nota": "Plic de 30 g sau cutie cu 15 plicuri; valorile complete sunt pe eticheta aromei."
+    }
+  ],
+  "mod_de_folosire": "Amesteci un plic (30 g) cu apă sau lapte, după antrenament sau ca gustare între mese. Conține lapte.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre proteina în plicuri",
+    "intro": "Plicurile sunt pentru zilele în care nu vrei să cari tubul după tine. Iată când are sens o porție de proteină, cât de mare să fie și cât contează momentul în care o iei.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce ai alege plicuri în loc de tub?",
+        "raspuns": "Pentru că sunt deja porționate și încap în orice geantă. Nu mai cântărești și nu mai cari măsura după tine. Pui un plic în rucsac, iar după sală îl torni în shaker, cu apă. Sunt utile și când vrei să încerci mai multe arome înainte să cumperi un tub întreg."
+      },
+      {
+        "intrebare": "Câtă proteină e bine să mănânci la o masă?",
+        "raspuns": "În jur de 0,4 g pe kilogram corp, după o analiză din 2018. Autorii recomandă cel puțin patru mese cu proteine pe zi, pentru un total de 1,6–2,2 g pe kilogram. Pentru o persoană de 60 kg, asta înseamnă cam 24 g de proteine la fiecare masă."
+      },
+      {
+        "intrebare": "Contează momentul în care iei proteina?",
+        "raspuns": "Mai puțin decât cantitatea totală din zi. Poziția oficială a ISSN despre momentul nutrienților sugerează 20–40 g de proteine la fiecare 3–4 ore. Tot acolo scrie că momentul exact ține și de toleranța fiecăruia. Așa că plicul îl poți lua după antrenament sau ca gustare între mese."
+      },
+      {
+        "intrebare": "Chiar ajută suplimentele de proteină la sală?",
+        "raspuns": "Puțin, iar efectul are o limită. O meta-analiză din 2018, cu 49 de studii și 1.863 de participanți, a găsit câștiguri mici la forță și la masa slabă când proteina se adaugă antrenamentului cu greutăți. Peste aproximativ 1,62 g pe kilogram pe zi nu a mai apărut un câștig în plus."
+      },
+      {
+        "intrebare": "Ce faci dacă nu ai shaker la tine?",
+        "raspuns": "Folosește o sticlă cu apă care se închide bine. Torni plicul, închizi și agiți energic 20–30 de secunde. Cu apă rece se dizolvă mai ușor decât cu apă caldă. Pentru o textură mai cremoasă, amestecă plicul acasă cu lapte."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Schoenfeld BJ, Aragon AA. How much protein can the body use in a single meal for muscle-building? J Int Soc Sports Nutr. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/"
+      },
+      {
+        "text": "Kerksick CM și colab. International society of sports nutrition position stand: nutrient timing. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28919842/"
+      },
+      {
+        "text": "Morton RW și colab. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains. Br J Sports Med. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

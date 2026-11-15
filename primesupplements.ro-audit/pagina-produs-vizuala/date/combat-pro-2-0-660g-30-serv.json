@@ -1,0 +1,211 @@
+{
+  "versiune": 1,
+  "handle": "combat-pro-2-0-660g-30-serv",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-combat-pro-2-0-660g-forest-fruits-sportiva-1.jpg",
+    "alt": "Combat Pro 2.0 Prime, pre-antrenament, aromă fructe de pădure (Forest Fruits), în prim-plan; în fundal o sportivă în bustieră verde-salvie ține un shaker înainte de antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 22 g (2 măsuri), din tabelul de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului combat-pro-2-0-660g-30-serv (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "5600 mg citrulină",
+    "3900 mg beta-alanină",
+    "Sinefrină 45 mg",
+    "30 de porții"
+  ],
+  "titlu": "Combat Pro 2.0: 5600 mg L-citrulină și 3900 mg beta-alanină pe porție",
+  "intro": "O porție de [[22 g]] (2 măsuri) are [[5600 mg]] de L-citrulină, [[3900 mg]] de beta-alanină, câte [[2000 mg]] de L-arginină alfa-ketoglutarat și glicerol monostearat. Cafeina nu apare în lista de ingrediente, dar formula are [[45 mg]] de sinefrină, deci nu e un produs fără stimulente. Tubul de [[660 g]] are [[30 de porții]].",
+  "etichete": [
+    "L-citrulină",
+    "Beta-alanină",
+    "L-carnitină",
+    "Taurină",
+    "L-tirozină",
+    "Rhodiola rosea",
+    "Sinefrină",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "5600",
+      "unitate": "mg",
+      "eticheta": "L-citrulină per porție"
+    },
+    {
+      "valoare": "3900",
+      "unitate": "mg",
+      "eticheta": "beta-alanină per porție"
+    },
+    {
+      "valoare": "45",
+      "unitate": "mg",
+      "eticheta": "sinefrină per porție"
+    },
+    {
+      "valoare": "30",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "22 g (2 măsuri) în 300–400 ml apă"
+    },
+    {
+      "titlu": "Cafeină",
+      "text": "nu e în lista de ingrediente"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 22 g",
+    "randuri": [
+      {
+        "nume": "L-citrulină",
+        "valoare": "5600 mg"
+      },
+      {
+        "nume": "Beta-alanină",
+        "valoare": "3900 mg"
+      },
+      {
+        "nume": "L-arginină alfa-ketoglutarat",
+        "valoare": "2000 mg"
+      },
+      {
+        "nume": "Glicerol monostearat",
+        "valoare": "2000 mg"
+      },
+      {
+        "nume": "L-carnitină / N-acetil L-carnitină",
+        "valoare": "1500 mg / 500 mg"
+      },
+      {
+        "nume": "Taurină / L-tirozină",
+        "valoare": "1500 mg / 1500 mg"
+      },
+      {
+        "nume": "Rhodiola rosea / Alpinia galanga",
+        "valoare": "300 mg / 300 mg"
+      },
+      {
+        "nume": "Niacină",
+        "valoare": "10 mg (62,5% VNR)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Combat Pro 2.0",
+    "puncte": [
+      "5600 mg L-citrulină și 3900 mg beta-alanină per porție",
+      "2000 mg glicerol monostearat per porție",
+      "Două forme de carnitină: 1500 mg L-carnitină și 500 mg N-acetil",
+      "Extracte de Rhodiola rosea și EnXtra® Alpinia galanga, câte 300 mg",
+      "Sinefrină 45 mg; cafeina nu apare în lista de ingrediente",
+      "Electroliți: clorură 250 mg, potasiu 225 mg, calciu 88 mg, sodiu 86 mg",
+      "30 de porții, două arome: mango și fructe de pădure"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CIT",
+        "titlu": "L-citrulină · 5600 mg",
+        "text": "Aminoacid liber, cea mai mare cantitate din formulă."
+      },
+      {
+        "cod": "BA",
+        "titlu": "Beta-alanină · 3900 mg",
+        "text": "Aminoacid liber; e normal să simți furnicături ușoare pe piele după porție."
+      },
+      {
+        "cod": "AAKG",
+        "titlu": "Arginină AKG · 2000 mg",
+        "text": "L-arginină legată de alfa-ketoglutarat."
+      },
+      {
+        "cod": "GLY",
+        "titlu": "Glicerol monostearat · 2000 mg",
+        "text": "Glicerol legat de acid stearic, sub formă de pulbere."
+      },
+      {
+        "cod": "CAR",
+        "titlu": "Carnitină · 1500 + 500 mg",
+        "text": "L-carnitină și N-acetil L-carnitină, două forme ale aceluiași compus."
+      },
+      {
+        "cod": "TAU",
+        "titlu": "Taurină și tirozină · 1500 mg",
+        "text": "Câte 1500 mg de taurină și de L-tirozină per porție."
+      },
+      {
+        "cod": "RHO",
+        "titlu": "Rhodiola și galanga · 300 mg",
+        "text": "Extracte din rădăcină: Rhodiola rosea cu 3% salidrozide și EnXtra® Alpinia galanga."
+      },
+      {
+        "cod": "SIN",
+        "titlu": "Sinefrină · 45 mg",
+        "text": "Compus prezent în mod natural în portocala amară; formula nu e fără stimulente."
+      },
+      {
+        "cod": "B3",
+        "titlu": "Niacină · 10 mg",
+        "text": "Acid nicotinic, 62,5% din valoarea de referință per porție."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Mango",
+      "nume": "Mango",
+      "nota": "Colorant riboflavină; agent antiaglomerant doar dioxid de siliciu."
+    },
+    {
+      "varianta": "Forest Fruits",
+      "nume": "Fructe de pădure",
+      "nota": "Coloranți carmin și spirulina blue; agent antiaglomerant dioxid de siliciu și fosfat tricalcic."
+    }
+  ],
+  "mod_de_folosire": "Amesteci 2 măsuri (22 g) cu 300–400 ml de apă. Nu depăși doza recomandată pentru consumul zilnic. Produs pentru adulți.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Combat Pro 2.0",
+    "intro": "Combat Pro 2.0 are o listă lungă de ingrediente cu nume greu de pronunțat. Am ales cinci dintre ele și îți spunem pe scurt ce sunt, de unde vin și ce scrie despre ele pe etichetă.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este sinefrina?",
+        "raspuns": "Un compus din coaja portocalei amare, Citrus aurantium. O recenzie din 2012 a adunat peste 20 de studii pe aproximativ 360 de persoane, cu doze între 10 și 53 mg pe zi, adesea împreună cu cafeina. La dozele studiate nu au apărut modificări importante ale pulsului sau tensiunii, iar autorii cer studii mai lungi. Combat Pro 2.0 are 45 mg pe porție."
+      },
+      {
+        "intrebare": "Are cafeină Combat Pro 2.0?",
+        "raspuns": "Cafeina nu apare în lista de ingrediente. Totuși, formula nu e fără stimulente, pentru că are sinefrină. Dacă ești sensibil la stimulente sau iei și alte produse cu cafeină în aceeași zi, ține cont de asta. Nu depăși doza de 22 g pe zi și evită porția seara târziu, înainte de culcare."
+      },
+      {
+        "intrebare": "Ce este Rhodiola rosea?",
+        "raspuns": "O plantă care crește în zonele reci și muntoase din Europa și Asia. I se mai spune „rădăcina de aur” sau „rădăcina arctică”. În Combat Pro 2.0 găsești 300 mg de extract din rădăcină, cu 3% salidrozide, adică 9,0 mg per porție."
+      },
+      {
+        "intrebare": "Ce este Alpinia galanga?",
+        "raspuns": "O rădăcină din familia ghimbirului, folosită mult în bucătăria thailandeză. Se numește galanga și are un gust picant, ușor citric. EnXtra® e numele extractului standardizat din această rădăcină. O porție are 300 mg, iar eticheta îi trece și conținutul de glicozide și polifenoli."
+      },
+      {
+        "intrebare": "De ce conține piper negru?",
+        "raspuns": "Pentru extractul de piper cu 95% piperină. Piperina e compusul care dă piperului gustul iute. O porție are 5,3 mg de extract, din care 5,0 mg piperină. E o cantitate foarte mică, mult sub ce pui de obicei într-o mâncare condimentată cu piper măcinat."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium (bitter orange) extract and its primary protoalkaloid p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "versiune": 1,
+  "handle": "crema-de-orez-fara-aroma",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-crema-de-orez-fara-aroma-1kg-sportiva-1.jpg",
+    "alt": "Cremă de orez Prime Creamy Rice fără aromă (Natur) în prim-plan; în fundal o sportivă în bustieră crem amestecă un castron de cremă de orez cu fructe de pădure și banană, într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 45 g, din declarația nutrițională de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului crema-de-orez-fara-aroma (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Un singur ingredient",
+    "Fără aromă",
+    "45 g / porție",
+    "22 de porții"
+  ],
+  "titlu": "Cremă de orez Prime fără aromă: 100% făină de orez, 35,1 g glucide pe porție",
+  "intro": "Are un singur ingredient: [[făină de orez pregelatinizată (100%)]], fără arome și fără îndulcitori. O porție de [[45 g]] are [[158,8 kcal]] și [[35,1 g de glucide]], din care [[0,3 g]] zaharuri, iar sarea e [[0,0 g]]. Gustul final îl alegi tu: dulce, cu fructe, sau sărat.",
+  "etichete": [
+    "Făină de orez 100%",
+    "Fără arome",
+    "Fără îndulcitori",
+    "Fără zaharuri adăugate",
+    "Se prepară la rece",
+    "22 de porții"
+  ],
+  "cifre": [
+    {
+      "valoare": "35,1",
+      "unitate": "g",
+      "eticheta": "glucide per porție"
+    },
+    {
+      "valoare": "158,8",
+      "unitate": "kcal",
+      "eticheta": "per porție"
+    },
+    {
+      "valoare": "100",
+      "unitate": "%",
+      "eticheta": "făină de orez"
+    },
+    {
+      "valoare": "22",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "45 g cu 150–200 ml de lichid rece"
+    },
+    {
+      "titlu": "Gust",
+      "text": "neutru, îl stabilești tu"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 45 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "158,8 kcal"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "35,1 g / 0,3 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "3,6 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "0,3 g / 0,07 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "0,7 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,0 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are crema de orez fără aromă",
+    "puncte": [
+      "Un singur ingredient: făină de orez pregelatinizată",
+      "Fără arome, fără îndulcitori, fără zaharuri adăugate",
+      "35,1 g de glucide și 158,8 kcal la o porție de 45 g",
+      "Sare: 0,0 g per porție",
+      "Se prepară la rece, cu apă sau lapte, fără fierbere",
+      "22 de porții într-un tub de 1 kg"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 100%",
+        "text": "Singurul ingredient. E pregelatinizată, adică gătită și uscată în prealabil, de aceea se leagă direct cu lichid rece."
+      },
+      {
+        "cod": "0",
+        "titlu": "Fără arome",
+        "text": "Gust neutru de orez; îl potrivești cu fructe, cacao, scorțișoară sau pudră proteică."
+      },
+      {
+        "cod": "0 g",
+        "titlu": "Fără zaharuri adăugate",
+        "text": "0,3 g zaharuri per porție, prezente în mod natural; fără îndulcitori."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Poate conține urme de lapte, ou, soia, grâu, pește."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez fără aromă",
+    "intro": "Varianta fără aromă e cea mai simplă din gama Creamy Rice: pe etichetă scrie un singur ingredient. Iată de ce o aleg cei care vor să controleze gustul și cum o poți folosi și în rețete sărate.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce ai alege crema de orez fără aromă?",
+        "raspuns": "Pentru că decizi tu gustul și ce adaugi. Fără arome și fără îndulcitori, crema rămâne o bază neutră. Pui deasupra fructe, miere, cacao sau unt de arahide când vrei ceva dulce. Sau o folosești ca pe o garnitură, când ai nevoie de glucide la o masă sărată."
+      },
+      {
+        "intrebare": "Orezul are un indice glicemic mare sau mic?",
+        "raspuns": "Depinde de soi și de felul în care e preparat. Tabelele internaționale de indice glicemic din 2008 adună valori pentru peste 2.480 de alimente. Acolo orezul, ca și pâinea sau cerealele, apare în variante cu indice glicemic mare și în variante cu indice mic. Ce mănânci alături, cum ar fi proteinele, fibrele și grăsimile, schimbă și el felul în care se digeră masa."
+      },
+      {
+        "intrebare": "Câte glucide îți trebuie la antrenament?",
+        "raspuns": "Cât de mult și cât de intens te antrenezi decide cantitatea. O recenzie din 2011 despre glucide la antrenament și competiție arată că recomandările se calculează după durata și intensitatea sesiunii. Pentru o zi ușoară îți ajunge mai puțin, iar pentru o zi lungă de efort ai nevoie de mai mult. O porție de 45 g are 35,1 g glucide."
+      },
+      {
+        "intrebare": "Conține gluten crema de orez?",
+        "raspuns": "Orezul nu conține gluten, dar eticheta avertizează asupra urmelor. Singurul ingredient e făina de orez, însă produsul poate conține urme de lapte, ou, soia, grâu și pește. Dacă ai o alergie sau o intoleranță, citește mereu secțiunea de alergeni de pe tub."
+      },
+      {
+        "intrebare": "Cum o folosești în rețete sărate?",
+        "raspuns": "Ca bază cremoasă, preparată mai groasă. Amestec-o cu apă, un praf de sare și ierburi, apoi servește-o lângă ouă sau piept de pui. Poți îngroșa cu ea și o supă-cremă de legume. Pentru dulce, pune pudră proteică de vanilie și scorțișoară."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Atkinson FS și colab. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18835944/"
+      },
+      {
+        "text": "Burke LM și colab. Carbohydrates for training and competition. J Sports Sci. 2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21660838/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

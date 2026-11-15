@@ -1,0 +1,168 @@
+{
+  "versiune": 1,
+  "handle": "crema-de-orez-sirop-de-artar",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-crema-de-orez-sirop-de-artar-1kg-sportiva-1.jpg",
+    "alt": "Cremă de orez Prime Creamy Rice cu aromă de sirop de arțar (Maple Sugar) în prim-plan; în fundal o sportivă în bustieră piersică mănâncă cremă de orez cu nuci și felii de măr, la o masă luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 45 g, din declarația nutrițională de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului crema-de-orez-sirop-de-artar (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Cremă de orez",
+    "sirop de arțar",
+    "45 g / porție",
+    "22 de porții"
+  ],
+  "titlu": "Cremă de orez Prime, sirop de arțar: 34,3 g de glucide pe porție",
+  "intro": "O porție de [[45 g]] (o măsură) are [[155,4 kcal]] și [[34,3 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Gustul de clătite cu sirop vine din arome și îndulcitori, nu din sirop adăugat. Se prepară fără fierbere, cu [[150–200 ml]] de apă sau lapte rece; tubul de [[1 kg]] are [[22 de porții]].",
+  "etichete": [
+    "Făină de orez pregelatinizată",
+    "Fără zaharuri adăugate",
+    "Sucraloză și acesulfam-K",
+    "Se prepară la rece",
+    "22 de porții"
+  ],
+  "cifre": [
+    {
+      "valoare": "34,3",
+      "unitate": "g",
+      "eticheta": "glucide per porție"
+    },
+    {
+      "valoare": "155,4",
+      "unitate": "kcal",
+      "eticheta": "per porție"
+    },
+    {
+      "valoare": "45",
+      "unitate": "g",
+      "eticheta": "o porție = o măsură"
+    },
+    {
+      "valoare": "22",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "45 g cu 150–200 ml de lichid rece"
+    },
+    {
+      "titlu": "Gust",
+      "text": "clătite cu sirop de arțar"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 45 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "155,4 kcal"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "34,3 g / 0,3 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "3,6 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "0,3 g / 0,07 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "0,7 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,14 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are crema de orez cu sirop de arțar",
+    "puncte": [
+      "Făină de orez pregelatinizată, primul ingredient",
+      "Gust de sirop de arțar din arome, fără sirop adăugat",
+      "Fără zaharuri adăugate; 0,3 g zaharuri per porție",
+      "Îndulcită cu sucraloză și acesulfam-K",
+      "34,3 g de glucide și 155,4 kcal la o porție de 45 g",
+      "Se prepară la rece; 22 de porții într-un tub de 1 kg"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 34,3 g glucide",
+        "text": "Primul ingredient, pregelatinizată, de aceea se amestecă direct cu lichid rece."
+      },
+      {
+        "cod": "ARȚ",
+        "titlu": "Gust de sirop de arțar",
+        "text": "Siropul nu e în lista de ingrediente: denumirea descrie gustul, dat de arome."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K; zaharurile, 0,3 g per porție, sunt prezente în mod natural."
+      },
+      {
+        "cod": "SAR",
+        "titlu": "Sare · 0,14 g",
+        "text": "Un praf de sare, trecut în lista de ingrediente, care rotunjește gustul dulce."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Poate conține urme de lapte, ou, soia, grâu, pește."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez cu sirop de arțar",
+    "intro": "Aroma de sirop de arțar aduce în bol gustul clătitelor americane de duminică dimineața. Află de unde vine siropul adevărat, de ce nu e în lista de ingrediente și ce îndulcitori folosește crema.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine siropul de arțar?",
+        "raspuns": "Din seva arțarului de zahăr, care crește în nord-estul Americii de Nord. Primăvara, când nopțile sunt încă reci și zilele mai calde, copacii sunt găuriți și seva curge în găleți. Apoi seva se fierbe mult timp, până când apa se evaporă și rămâne un sirop gros, de culoarea chihlimbarului."
+      },
+      {
+        "intrebare": "Există sirop de arțar adevărat în crema de orez?",
+        "raspuns": "Nu. Pe tub scrie Maple Sugar, dar siropul nu apare în lista de ingrediente. Gustul vine din arome, iar dulceața din îndulcitori. Așa porția de 45 g rămâne la 0,3 g zaharuri, prezente în mod natural, și 155,4 kcal."
+      },
+      {
+        "intrebare": "Ce sunt sucraloza și acesulfamul-K?",
+        "raspuns": "Doi îndulcitori fără calorii, de multe ori mai dulci decât zahărul, deci se pun în cantități foarte mici. O recenzie din 2016 descrie drumul îndulcitorilor cu puține calorii prin organism. Tot acolo scrie că siguranța lor a fost confirmată de autoritățile de reglementare. Pe etichetă îi găsești la final, în paranteză."
+      },
+      {
+        "intrebare": "De ce are crema de orez sare?",
+        "raspuns": "Pentru gust. Un praf de sare face aromele dulci mai rotunde, la fel ca în rețetele de clătite sau prăjituri. O porție are 0,14 g sare, conform declarației nutriționale. E mai puțin decât la aroma caramel sărat, unde sarea face parte chiar din numele gustului."
+      },
+      {
+        "intrebare": "Cum o transformi într-un mic dejun ca la clătite?",
+        "raspuns": "Prepar-o mai groasă și adaugă ce pui de obicei pe clătite. Merg felii de măr sau banană, câteva nuci tocate, scorțișoară și o linguriță de unt de migdale. Dacă îți trebuie și proteine, amestecă înainte o jumătate de măsură de pudră proteică cu vanilie."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Magnuson BA și colab. Biological fate of low-calorie sweeteners. Nutr Rev. 2016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27753624/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

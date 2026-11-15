@@ -1,0 +1,6 @@
+Sursa: Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului prime-whey-go (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Ingrediente: concentrat proteic din zer, glicină, L-lizină, arome, îndulcitori (sucraloză, acesulfam-K). Alergeni: lapte.
+Conținut de proteine: 82 g la 100 g. Valorile nutriționale complete pentru fiecare aromă sunt pe eticheta produsului.
+Cantitate: plic de 30 g sau cutie cu 15 plicuri x 30 g.
+Arome: ciocolată cu cocos, vanilie Bourbon, cheesecake cu căpșuni, ciocolată albă cu zmeură, caramel cu ciocolată, caramel sărat, afine cu vanilie (7 arome).
+Mod de administrare: un plic (30 g) cu apă sau lapte, după antrenament sau ca gustare între mese.

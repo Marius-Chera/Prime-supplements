@@ -1,0 +1,205 @@
+{
+  "versiune": 1,
+  "handle": "emperor-mass_3000g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-emperor-mass-3kg-chocolate-sportiva-1.jpg",
+    "alt": "Gainer Emperor Mass Prime, aromă ciocolată, în prim-plan; în fundal o sportivă în bustieră roșie își prepară un shake cu lapte după antrenament, într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 70 g (2 măsuri), din tabelul nutrițional de pe ambalaj.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului emperor-mass_3000g (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "40% proteine",
+    "27,8 g / porție",
+    "Cu creatină",
+    "42 de porții"
+  ],
+  "titlu": "Gainer Emperor Mass: 27,8 g proteine și 29,0 g carbohidrați pe porție",
+  "intro": "O porție de [[70 g]] are [[250,8 kcal]], [[27,8 g de proteine]] și [[29,0 g de carbohidrați]], din care doar [[7,3 g]] zaharuri. Proteinele vin din trei surse din lapte: zer ultrafiltrat, cazeinat de calciu și proteină totală din lapte. Tot per porție ai [[1750 mg]] de creatină monohidrată și [[700 mg]] de L-glutamină; ambalajul de [[3 kg]] are [[42 de porții]].",
+  "etichete": [
+    "Zer + cazeinat + lapte",
+    "Maltodextrină",
+    "Creatină monohidrată",
+    "L-glutamină",
+    "BCAA 4:1:1",
+    "Digezyme®",
+    "Gumă xantan"
+  ],
+  "cifre": [
+    {
+      "valoare": "27,8",
+      "unitate": "g",
+      "eticheta": "proteine per porție"
+    },
+    {
+      "valoare": "29,0",
+      "unitate": "g",
+      "eticheta": "carbohidrați per porție"
+    },
+    {
+      "valoare": "250,8",
+      "unitate": "kcal",
+      "eticheta": "per porție de 70 g"
+    },
+    {
+      "valoare": "42",
+      "unitate": "",
+      "eticheta": "porții în ambalaj"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "70 g în 300–400 ml apă sau lapte"
+    },
+    {
+      "titlu": "Pe zi",
+      "text": "de preferință 2 porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 70 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "250,8 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "27,8 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "29,0 g / 7,3 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "2,6 g / 1,7 g"
+      },
+      {
+        "nume": "Creatină monohidrată",
+        "valoare": "1750 mg"
+      },
+      {
+        "nume": "L-glutamină",
+        "valoare": "700 mg"
+      },
+      {
+        "nume": "Taurină",
+        "valoare": "350 mg"
+      },
+      {
+        "nume": "Digezyme®",
+        "valoare": "105 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Emperor Mass",
+    "puncte": [
+      "40% proteine: 1,19 kg de proteine într-un ambalaj de 3 kg",
+      "Proteine și carbohidrați în raport aproape egal",
+      "Trei surse de proteine din lapte",
+      "7,3 g zaharuri la o porție de 70 g",
+      "1750 mg creatină monohidrată și 700 mg L-glutamină per porție",
+      "Complex enzimatic Digezyme®, 105 mg per porție",
+      "42 de porții, arome ciocolată și căpșuni"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 27,8 g / porție",
+        "text": "Proteinele contribuie la creșterea masei musculare și la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "MIX",
+        "titlu": "Zer, cazeinat, lapte",
+        "text": "Concentrat proteic ultrafiltrat din zer, cazeinat de calciu și proteină totală din lapte."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltodextrină",
+        "text": "Sursa principală de carbohidrați, al doilea ingredient din listă."
+      },
+      {
+        "cod": "CRE",
+        "titlu": "Creatină · 1750 mg",
+        "text": "Creatină monohidrată, în fiecare porție de 70 g."
+      },
+      {
+        "cod": "GLN",
+        "titlu": "L-glutamină · 700 mg",
+        "text": "Aminoacid liber adăugat, alături de 350 mg de taurină."
+      },
+      {
+        "cod": "BCAA",
+        "titlu": "BCAA 4:1:1 · 343 mg",
+        "text": "L-leucină, L-isoleucină și L-valină adăugate, în raport 4:1:1."
+      },
+      {
+        "cod": "ENZ",
+        "titlu": "Digezyme® · 105 mg",
+        "text": "Complex de enzime digestive, trecut separat în tabel."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Chocolate",
+      "nume": "Ciocolată",
+      "nota": "Cu cacao în lista de ingrediente."
+    },
+    {
+      "varianta": "Strawberry",
+      "nume": "Căpșuni",
+      "nota": "Aceeași bază de proteine și carbohidrați, cu aromă de căpșuni."
+    }
+  ],
+  "mod_de_folosire": "2 măsuri (70 g) cu 300–400 ml de apă sau lapte; de preferință 2 porții pe zi, dimineața la trezire și imediat după antrenament. Nu se administrează copiilor și femeilor în perioada de sarcină sau alăptare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre gainerul Emperor Mass",
+    "intro": "Un gainer e pentru cei care au nevoie de mai multe calorii decât reușesc să mănânce. Află ce îl diferențiază de un shake proteic, cât surplus caloric îți trebuie și ce sunt riboza și enzimele de pe etichetă.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce diferență e între un gainer și o proteină din zer?",
+        "raspuns": "Gainerul are și mulți carbohidrați, nu doar proteine. La Emperor Mass, o porție de 70 g are 27,8 g proteine și 29,0 g carbohidrați, deci un raport aproape de 1:1. Multe gainere au de câteva ori mai mulți carbohidrați decât proteine. O proteină din zer are în schimb foarte puțini carbohidrați."
+      },
+      {
+        "intrebare": "Câte calorii în plus îți trebuie ca să iei masă musculară?",
+        "raspuns": "Nu se știe exact, spune o recenzie din 2019 despre surplusul de energie și creșterea musculară. Autorii notează că, la cei care trebuie să mănânce mai mult, problema practică e sațietatea. O altă recenzie din 2019, despre culturiști naturali, sugerează un surplus de 10–20% și o creștere în greutate de 0,25–0,5% pe săptămână."
+      },
+      {
+        "intrebare": "Câte proteine pe zi recomandă studiile?",
+        "raspuns": "Între 1,6 și 2,2 g pe kilogram corp, în perioada de masă. Aceeași recenzie despre culturiștii naturali recomandă 0,40–0,55 g pe kilogram la fiecare masă. Două porții de Emperor Mass aduc împreună 55,6 g proteine, iar restul vine din mâncare."
+      },
+      {
+        "intrebare": "Ce este D-riboza din listă?",
+        "raspuns": "Un zahăr simplu, cu cinci atomi de carbon. Corpul îl folosește ca piesă de construcție pentru ADN, ARN și ATP, molecula prin care celulele își stochează energia. În Emperor Mass apare în lista de ingrediente, după aromă."
+      },
+      {
+        "intrebare": "Ce este Digezyme®?",
+        "raspuns": "Un complex de enzime digestive, trecut separat în tabelul nutrițional. O porție are 105 mg. Enzimele digestive sunt proteine care taie moleculele mari din mâncare în bucăți mai mici. Corpul le produce singur, iar în gainer sunt adăugate ca ingredient."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Slater GJ și colab. Is an Energy Surplus Required to Maximize Skeletal Muscle Hypertrophy Associated With Resistance Training. Front Nutr. 2019",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31482093/"
+      },
+      {
+        "text": "Iraki J și colab. Nutrition Recommendations for Bodybuilders in the Off-Season: A Narrative Review. Sports (Basel). 2019",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31247944/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

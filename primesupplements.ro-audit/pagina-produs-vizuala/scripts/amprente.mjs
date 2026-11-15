@@ -1,7 +1,7 @@
 // Amprenta textelor afișate (pentru verificarea scrierii pe PILOT): același algoritm rulează în browser pe .ppv.
 // Rulare: node pagina-produs-vizuala/scripts/amprente.mjs h1 h2 ...  → {handle: hash}
 /* Partea din browser (pagina primesupplements.ro, javascript_tool), cu exp = rezultatul acestui script:
-const n=s=>String(s).normalize('NFC').replace(/s+/g,' ').trim(); const H=a=>{let x=5381;for(const c of a.map(n).join('|'))x=((x*33)^c.codePointAt(0))>>>0;return x.toString(36)};
+const n=s=>String(s).normalize('NFC').replace(/\s+/g,' ').trim(); const H=a=>{let x=5381;for(const c of a.map(n).join('|'))x=((x*33)^c.codePointAt(0))>>>0;return x.toString(36)};
 const T=(r,s)=>[...r.querySelectorAll(s)].map(e=>e.textContent); const res={};
 await Promise.all(Object.keys(exp).map(async h=>{const t=await (await fetch('/products/'+h+'?preview_theme_id=194315649399&_x='+Date.now())).text();
  const r=new DOMParser().parseFromString(t,'text/html').querySelector('.ppv'); if(!r){res[h]='LIPSA';return}

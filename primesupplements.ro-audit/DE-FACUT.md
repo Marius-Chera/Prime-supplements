@@ -123,7 +123,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 35. **Shopify Payments în locul Netopia (15.11; JURNAL 15.11, ~02:30–03:30): FĂCUT pe 15.11, ~03:25. Cardul merge doar prin Shopify Payments (Apple Pay + Google Pay), cu virări active în BT ****4101; Netopia e dezactivată (rămâne instalată, se poate reporni).** Rămase:
     ~~(a) datele firmei~~ – trimise de Marius, iar Shopify a deblocat virările („Receiving payouts”).
     ~~(b) reactivare + dezactivarea Netopia~~ – făcute.
-    (c) Versiunea **v5-shopify-payments** e publicată, iar Total Admin citește contul (permisiunea merge). **De făcut:** testul preluării pe martie 2026 (Încasări → luna martie → „Preia plățile Shopify Payments”), apoi la prima virare din noiembrie. Prima virare vine lunea, săptămânal.
+    (c) Versiunea **v5-shopify-payments** e publicată, iar preluarea e testată pe martie 2026 (3 virări, 49 de tranzacții, sumele exacte, 48 legate de factură). **De urmărit:** prima virare din noiembrie (lunea, săptămânal) în Încasări și legarea ei de extrasul BT din noiembrie.
     (d) De verificat: rambursările comenzilor vechi plătite prin Netopia, după dezactivare. Shopify spune că comenzile existente se gestionează în continuare din Comenzi; altfel se fac din contul Netopia.
     (e) Eventual Shop Pay, oprit acum (decizia lui Marius).
     (f) Contractul Netopia (abonament sau comisioane fixe): de închis de Marius, dacă nu mai e nevoie de el.

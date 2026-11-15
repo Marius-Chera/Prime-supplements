@@ -1,0 +1,125 @@
+{
+  "versiune": 1,
+  "handle": "omega-3",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-omega-3-80-capsule-sportiva-1.jpg",
+    "alt": "Omega-3 Prime, 80 de capsule cu ulei de pește, în prim-plan; în fundal o sportivă în bustieră bleu ține un pahar cu apă într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, din lista de ingrediente.",
+  "badge": [
+    "300 mg EPA + DHA",
+    "Ulei de pește",
+    "80 de capsule",
+    "Cu vitamina E"
+  ],
+  "titlu": "Omega-3: 300 mg de EPA și DHA în fiecare capsulă",
+  "intro": "O capsulă are [[180 mg]] de EPA și [[120 mg]] de DHA, adică [[300 mg]] de EPA și DHA din ulei de pește, plus [[3 mg]] de vitamina E. O iei de preferință în timpul mesei. Flaconul are [[80 de capsule]] gelatinoase moi.",
+  "etichete": [
+    "Ulei de pește",
+    "EPA și DHA",
+    "Vitamina E",
+    "Capsule moi",
+    "Conține pește"
+  ],
+  "cifre": [
+    {
+      "valoare": "300",
+      "unitate": "mg",
+      "eticheta": "EPA + DHA per capsulă"
+    },
+    {
+      "valoare": "180",
+      "unitate": "mg",
+      "eticheta": "EPA per capsulă"
+    },
+    {
+      "valoare": "120",
+      "unitate": "mg",
+      "eticheta": "DHA per capsulă"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "o capsulă"
+    },
+    {
+      "titlu": "Când",
+      "text": "de preferință în timpul mesei"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "EPA (acid eicosapentaenoic)",
+        "valoare": "180 mg"
+      },
+      {
+        "nume": "DHA (acid docosahexaenoic)",
+        "valoare": "120 mg"
+      },
+      {
+        "nume": "Total EPA și DHA",
+        "valoare": "300 mg"
+      },
+      {
+        "nume": "Vitamina E",
+        "valoare": "3 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Omega-3",
+    "puncte": [
+      "Ulei de pește concentrat, cu EPA și DHA",
+      "300 mg de EPA și DHA în fiecare capsulă",
+      "Vitamina E adăugată, 3 mg per capsulă",
+      "Capsule gelatinoase moi",
+      "Se ia cu sau fără alimente, de preferință la masă",
+      "80 de capsule în flacon"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Ω3",
+        "titlu": "EPA + DHA · 300 mg",
+        "text": "EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "EPA",
+        "titlu": "EPA · 180 mg",
+        "text": "Acid eicosapentaenoic din ulei de pește."
+      },
+      {
+        "cod": "DHA",
+        "titlu": "DHA · 120 mg",
+        "text": "Acid docosahexaenoic din ulei de pește."
+      },
+      {
+        "cod": "E",
+        "titlu": "Vitamina E · 3 mg",
+        "text": "Sub formă de acetat de DL-alfa-tocoferil."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Conține pește (ulei de pește)."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Doza zilnică de pe etichetă, cu sau fără alimente, de preferință în timpul mesei. Nu depăși doza recomandată. Conține pește.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului omega-3 (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

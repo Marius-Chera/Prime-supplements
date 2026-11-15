@@ -1,0 +1,6 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului vitamin-c-1000-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Ingrediente: vitamina C (acid ascorbic). Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (amidon modificat din porumb, stearat de magneziu).
+Per doza zilnică de o capsulă: vitamina C (acid ascorbic) 1000 mg (1250% VNR); VNR 80 mg vitamina C pe zi.
+Cantitate: 80 de capsule (91,2 g); 80 de porții; un flacon ajunge pentru 80 de zile.
+Mod de administrare: o capsulă pe zi, de preferat în timpul mesei; a nu se depăși doza zilnică recomandată.
+Atenționări: a nu se lăsa la îndemâna și la vederea copiilor mici; consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.

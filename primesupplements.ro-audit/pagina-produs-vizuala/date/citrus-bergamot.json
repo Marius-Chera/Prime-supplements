@@ -1,0 +1,119 @@
+{
+  "versiune": 1,
+  "handle": "citrus-bergamot",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-citrus-bergamot-80-capsule-sportiva-1.jpg",
+    "alt": "Citrus Bergamot Prime Health, 80 de capsule, lângă un fruct de bergamotă, în prim-plan; în fundal o sportivă în bustieră verde stă la masă pe o terasă însorită"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din tabelul de pe etichetă.",
+  "badge": [
+    "Bergamonte®",
+    "500 mg / capsulă",
+    "38% polifenoli",
+    "80 de zile"
+  ],
+  "titlu": "Citrus Bergamot: 500 mg de extract de bergamotă pe capsulă",
+  "intro": "O capsulă are [[500 mg]] de extract apos uscat din fructe de bergamotă (Bergamonte®), standardizat la [[38%]] polifenoli: neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină. Se ia [[1 capsulă]] pe zi, iar flaconul de [[80 de capsule]] ajunge pentru [[80 de zile]].",
+  "etichete": [
+    "Bergamonte®",
+    "Fruct de bergamotă",
+    "38% polifenoli",
+    "Capsulă vegetală",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "500",
+      "unitate": "mg",
+      "eticheta": "extract per capsulă"
+    },
+    {
+      "valoare": "38",
+      "unitate": "%",
+      "eticheta": "polifenoli în extract"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "capsulă pe zi"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "de zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "o capsulă"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 80 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă (doza zilnică)",
+    "randuri": [
+      {
+        "nume": "Extract de bergamotă (Bergamonte®)",
+        "valoare": "500 mg"
+      },
+      {
+        "nume": "Polifenoli în extract",
+        "valoare": "38%"
+      },
+      {
+        "nume": "Capsulă vegetală (HPMC)",
+        "valoare": "139 mg"
+      },
+      {
+        "nume": "Făină de orez",
+        "valoare": "100 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Citrus Bergamot",
+    "puncte": [
+      "Extract din fructul de bergamotă (Citrus bergamia)",
+      "Bergamonte®, standardizat la 38% polifenoli",
+      "Cinci polifenoli numiți pe etichetă",
+      "500 mg de extract într-o capsulă",
+      "Capsulă vegetală din hidroxipropilmetilceluloză",
+      "O capsulă pe zi, 80 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține fiecare capsulă",
+    "carduri": [
+      {
+        "cod": "BRG",
+        "titlu": "Bergamotă · 500 mg",
+        "text": "Extract apos uscat din fructe de Citrus bergamia, marca Bergamonte®."
+      },
+      {
+        "cod": "38%",
+        "titlu": "Polifenoli · 38%",
+        "text": "Neoeriocitrină, naringină, neohesperidină, melitidină și brutieridină."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Capsulă vegetală · 139 mg",
+        "text": "Din hidroxipropilmetilceluloză."
+      },
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 100 mg",
+        "text": "Agent de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, sau cum îți recomandă consultantul de specialitate. Nu depăși doza recomandată pentru consumul zilnic. Nu se consumă de către copii, femei însărcinate sau care alăptează fără avizul medicului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului citrus-bergamot (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

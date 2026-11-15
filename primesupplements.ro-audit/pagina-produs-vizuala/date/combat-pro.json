@@ -1,0 +1,182 @@
+{
+  "versiune": 1,
+  "handle": "combat-pro",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-combat-pro-500g-forest-fruits-sportiva-1.jpg",
+    "alt": "Combat Pro Prime, pre-antrenament cu cafeină, aromă fructe de pădure (Forest Fruits), în prim-plan; în fundal o sportivă în bustieră verde-mentă ține un shaker înainte de antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 22 g (2 măsuri), din tabelul de pe etichetă.",
+  "badge": [
+    "Pre-antrenament",
+    "7000 mg L-citrulină",
+    "300 mg cafeină",
+    "22 de porții"
+  ],
+  "titlu": "Combat Pro: 7000 mg de L-citrulină și 300 mg de cafeină pe porție",
+  "intro": "O porție de [[22 g]] (2 măsuri) are [[7000 mg]] de L-citrulină, [[4000 mg]] de beta-alanină, [[4000 mg]] de L-arginină și [[300 mg]] de cafeină anhidră, conform etichetei. O bei cu [[30 de minute]] înainte de antrenament, dizolvată în [[250–300 ml]] de apă rece. Tubul de [[500 g]] are [[22 de porții]].",
+  "etichete": [
+    "L-citrulină",
+    "Beta-alanină",
+    "L-arginină AKG",
+    "GPLC",
+    "Conține cafeină",
+    "4 arome"
+  ],
+  "cifre": [
+    {
+      "valoare": "7000",
+      "unitate": "mg",
+      "eticheta": "L-citrulină per porție"
+    },
+    {
+      "valoare": "4000",
+      "unitate": "mg",
+      "eticheta": "beta-alanină per porție"
+    },
+    {
+      "valoare": "300",
+      "unitate": "mg",
+      "eticheta": "cafeină per porție"
+    },
+    {
+      "valoare": "22",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "22 g cu 250–300 ml de apă rece"
+    },
+    {
+      "titlu": "Când",
+      "text": "cu 30 de minute înainte de antrenament"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 22 g",
+    "randuri": [
+      {
+        "nume": "L-citrulină",
+        "valoare": "7000 mg"
+      },
+      {
+        "nume": "Beta-alanină",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "L-arginină",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "GPLC",
+        "valoare": "2000 mg"
+      },
+      {
+        "nume": "Taurină",
+        "valoare": "1500 mg"
+      },
+      {
+        "nume": "L-tirozină",
+        "valoare": "1500 mg"
+      },
+      {
+        "nume": "L-teanină",
+        "valoare": "1000 mg"
+      },
+      {
+        "nume": "Cafeină anhidră",
+        "valoare": "300 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Combat Pro",
+    "puncte": [
+      "L-citrulină, beta-alanină și L-arginină în cantitățile cele mai mari",
+      "300 mg de cafeină anhidră și 30 mg de sinefrină per porție",
+      "GPLC, taurină, L-tirozină și L-teanină în aceeași porție",
+      "Piperină, 5 mg per porție",
+      "Patru arome: Forest Fruits, Mango, Mojito, Orange",
+      "O singură porție pe zi"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține fiecare porție",
+    "carduri": [
+      {
+        "cod": "CIT",
+        "titlu": "L-citrulină · 7000 mg",
+        "text": "Ingredientul cu cea mai mare cantitate din porție."
+      },
+      {
+        "cod": "BA",
+        "titlu": "Beta-alanină · 4000 mg",
+        "text": "Al doilea ingredient de pe etichetă."
+      },
+      {
+        "cod": "ARG",
+        "titlu": "L-arginină · 4000 mg",
+        "text": "Sub formă de L-arginină alfa-cetoglutarat."
+      },
+      {
+        "cod": "GPLC",
+        "titlu": "GPLC · 2000 mg",
+        "text": "Glicină propionil-L-carnitină."
+      },
+      {
+        "cod": "TAU",
+        "titlu": "Taurină · 1500 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "TYR",
+        "titlu": "L-tirozină · 1500 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "TEA",
+        "titlu": "L-teanină · 1000 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "CAF",
+        "titlu": "Cafeină · 300 mg",
+        "text": "Conținut ridicat de cafeină: nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină."
+      },
+      {
+        "cod": "SIN",
+        "titlu": "Sinefrină · 30 mg",
+        "text": "Trecută pe etichetă împreună cu 5 mg de piperină."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Forest Fruits",
+      "nume": "Forest Fruits (fructe de pădure)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Mango",
+      "nume": "Mango",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Mojito",
+      "nume": "Mojito",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Orange",
+      "nume": "Orange (portocale)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    }
+  ],
+  "mod_de_folosire": "O porție (22 g, 2 măsuri) dizolvată în 250–300 ml de apă rece, cu 30 de minute înainte de antrenament. O singură porție pe zi. Conține cafeină (300 mg/porție): nu se recomandă copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului combat-pro (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

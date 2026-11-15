@@ -1,0 +1,128 @@
+{
+  "versiune": 1,
+  "handle": "unt-de-migdale",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-unt-de-migdale-600g-sportiva-1.jpg",
+    "alt": "Unt de migdale Prime Health, 600 g, în prim-plan; în fundal o sportivă în bustieră bej unge unt de migdale pe o felie de pâine, într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Valorile sunt la 100 g, din declarația nutrițională de pe borcan.",
+  "badge": [
+    "100% migdale",
+    "21,2 g proteine / 100 g",
+    "Fără zahăr adăugat",
+    "600 g"
+  ],
+  "titlu": "Unt de migdale Prime Health: 100% migdale, 21,2 g de proteine la 100 g",
+  "intro": "Un singur ingredient: [[100%]] migdale prăjite, fără sare, fără ulei de palmier, fără conservanți și fără zahăr adăugat. La [[100 g]] ai [[21,2 g]] de proteine, [[49 g]] de grăsimi și [[3 g]] de fibre. Borcanul are [[600 g]]; amestecă înainte de folosire.",
+  "etichete": [
+    "100% migdale",
+    "Fără zahăr adăugat",
+    "Fără sare",
+    "Fără ulei de palmier",
+    "Fără conservanți"
+  ],
+  "cifre": [
+    {
+      "valoare": "21,2",
+      "unitate": "g",
+      "eticheta": "proteine la 100 g"
+    },
+    {
+      "valoare": "567",
+      "unitate": "kcal",
+      "eticheta": "la 100 g"
+    },
+    {
+      "valoare": "3,9",
+      "unitate": "g",
+      "eticheta": "zaharuri naturale la 100 g"
+    },
+    {
+      "valoare": "600",
+      "unitate": "g",
+      "eticheta": "în borcan"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Ingredient",
+      "text": "100% migdale prăjite"
+    },
+    {
+      "titlu": "Folosire",
+      "text": "pe pâine, în smoothie sau deserturi"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Declarația nutrițională",
+    "titlu": "La 100 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "567 kcal"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "49 g / 3,7 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "21,2 g"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "9,5 g / 3,9 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "3 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are untul de migdale",
+    "puncte": [
+      "Un singur ingredient: migdale prăjite",
+      "Fără zahăr adăugat, fără sare",
+      "Fără ulei de palmier și fără conservanți",
+      "21,2 g de proteine și 3 g de fibre la 100 g",
+      "Uleiul se poate separa: amesteci înainte de folosire",
+      "Borcan de sticlă de 600 g"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține borcanul",
+    "carduri": [
+      {
+        "cod": "MIG",
+        "titlu": "Migdale · 100%",
+        "text": "Migdale prăjite, măcinate fin; nimic adăugat."
+      },
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 21,2 g / 100 g",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "0",
+        "titlu": "Fără adaosuri",
+        "text": "Fără zahăr adăugat, sare, ulei de palmier sau conservanți."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Conține migdale (fructe cu coajă)."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Amestecă înainte de folosire. Se folosește în smoothie-uri, deserturi, sosuri sau pe pâine. Conține migdale.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului unt-de-migdale (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

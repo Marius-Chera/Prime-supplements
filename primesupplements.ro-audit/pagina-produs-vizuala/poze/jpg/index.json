@@ -637,6 +637,19 @@
   "nota": "OK identica"
  },
  {
+  "key": "17c",
+  "rank": 17,
+  "file": "prime-creatina-micronizata-300g-sportiva-1.jpg",
+  "women": true,
+  "kb": 233,
+  "produs": "Creatină monohidrată micronizată fără aromă, 300 g",
+  "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+  "aroma": "fără aromă",
+  "alt": "Creatină monohidrată micronizată Prime, fără aromă, 300 g, în prim-plan; în fundal o sportivă în bustieră albă bea un pahar cu apă într-o sală luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "17c OK"
+ },
+ {
   "key": "18a",
   "rank": 18,
   "file": "prime-nitrox-no-stim-660g-ice-blueberry-sala-1.jpg",
@@ -700,6 +713,19 @@
   "alt": "Supliment pre-antrenament Nitrox 3D – 500 g, aromă cireșe (Cherry), pe o bancă de lemn deschis într-o sală de fitness luminoasă, lângă un shaker cu băutura preparată",
   "sursa": "generată AI (din poza reală a ambalajului)",
   "nota": "OK identic"
+ },
+ {
+  "key": "19c",
+  "rank": 19,
+  "file": "prime-nitrox-3d-500g-cherry-sportiva-1.jpg",
+  "women": true,
+  "kb": 306,
+  "produs": "Supliment pre-antrenament Nitrox 3D – 500 g",
+  "handle": "nitrox",
+  "aroma": "Cherry",
+  "alt": "Nitrox 3D Prime, pre-antrenament cu aromă de cireșe (Cherry), în prim-plan; în fundal o sportivă în bustieră roșie ține un shaker înainte de antrenament, într-o sală luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "19c OK"
  },
  {
   "key": "20a",
@@ -767,6 +793,19 @@
   "nota": "OK identic"
  },
  {
+  "key": "21c",
+  "rank": 21,
+  "file": "prime-omega-3-80-capsule-sportiva-1.jpg",
+  "women": true,
+  "kb": 246,
+  "produs": "Omega-3 din ulei de pește – 80 de capsule",
+  "handle": "omega-3",
+  "aroma": "",
+  "alt": "Omega-3 Prime, 80 de capsule cu ulei de pește, în prim-plan; în fundal o sportivă în bustieră bleu ține un pahar cu apă într-o bucătărie luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "21c OK"
+ },
+ {
   "key": "22a",
   "rank": 22,
   "file": "prime-citrus-bergamot-80-capsule-bucatarie-1.jpg",
@@ -793,6 +832,19 @@
   "nota": "OK identic"
  },
  {
+  "key": "22c",
+  "rank": 22,
+  "file": "prime-citrus-bergamot-80-capsule-sportiva-1.jpg",
+  "women": true,
+  "kb": 377,
+  "produs": "Extract de bergamotă Citrus Bergamot – 80 capsule",
+  "handle": "citrus-bergamot",
+  "aroma": "",
+  "alt": "Citrus Bergamot Prime Health, 80 de capsule, lângă un fruct de bergamotă, în prim-plan; în fundal o sportivă în bustieră verde stă la masă pe o terasă însorită",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "22c OK"
+ },
+ {
   "key": "23a",
   "rank": 23,
   "file": "prime-unt-de-migdale-600g-mic-dejun-1.jpg",
@@ -817,6 +869,19 @@
   "alt": "Unt de migdale Prime Health, 600 g, pe un blat de marmură albă, lângă o felie de pâine integrală unsă cu unt de migdale și un bol cu migdale",
   "sursa": "generată AI (din poza reală a ambalajului)",
   "nota": "OK identic"
+ },
+ {
+  "key": "23c",
+  "rank": 23,
+  "file": "prime-unt-de-migdale-600g-sportiva-1.jpg",
+  "women": true,
+  "kb": 284,
+  "produs": "Unt de migdale Prime Health, 600 g",
+  "handle": "unt-de-migdale",
+  "aroma": "",
+  "alt": "Unt de migdale Prime Health, 600 g, în prim-plan; în fundal o sportivă în bustieră bej unge unt de migdale pe o felie de pâine, într-o bucătărie luminoasă",
+  "sursa": "generată AI (din poza reală a ambalajului) – cu sportivă",
+  "nota": "23c OK"
  },
  {
   "key": "24a",

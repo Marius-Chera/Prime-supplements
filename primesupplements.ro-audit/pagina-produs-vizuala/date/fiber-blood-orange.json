@@ -1,0 +1,140 @@
+{
+  "versiune": 1,
+  "handle": "fiber-blood-orange",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-fiber-500g-portocala-rosie-sportiva-1.jpg",
+    "alt": "Fiber Prime, aromă portocală roșie (Blood Orange), în prim-plan; în fundal o sportivă în bustieră piersică ține un pahar cu băutură cu fibre, într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 10 g, din declarația nutrițională de pe tub.",
+  "badge": [
+    "7,4 g fibre / porție",
+    "Portocală roșie",
+    "21 kcal / porție",
+    "50 de porții"
+  ],
+  "titlu": "Fiber: 7,4 g de fibre într-o porție de 10 g, cu aromă de portocală roșie",
+  "intro": "O porție de [[10 g]] are [[7,4 g]] de fibre și doar [[21,0 kcal]], din inulină, fibre de acacia și de bambus, făină de ovăz, glucomanan și pulbere de baobab. Amesteci porția cu [[150–250 ml]] de apă, o dată pe zi, înainte de masă. Tubul de [[500 g]] are [[50 de porții]].",
+  "etichete": [
+    "Inulină",
+    "Fibre de acacia și bambus",
+    "Glucomanan",
+    "Baobab",
+    "Fără zaharuri adăugate",
+    "Conține ovăz"
+  ],
+  "cifre": [
+    {
+      "valoare": "7,4",
+      "unitate": "g",
+      "eticheta": "fibre per porție"
+    },
+    {
+      "valoare": "21,0",
+      "unitate": "kcal",
+      "eticheta": "per porție"
+    },
+    {
+      "valoare": "74,0",
+      "unitate": "g",
+      "eticheta": "fibre la 100 g"
+    },
+    {
+      "valoare": "50",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "10 g în 150–250 ml de apă"
+    },
+    {
+      "titlu": "Când",
+      "text": "o dată pe zi, înainte de masă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 10 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "21,0 kcal"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "7,4 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "1,1 g / 0,10 g"
+      },
+      {
+        "nume": "Grăsimi",
+        "valoare": "0,11 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "0,20 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Fiber",
+    "puncte": [
+      "Cinci surse de fibre: inulină, acacia, bambus, ovăz, glucomanan",
+      "7,4 g de fibre la fiecare porție de 10 g",
+      "Pulbere organică din fructe de baobab",
+      "Fără zaharuri adăugate; îndulcit cu sucraloză și acesulfam-K",
+      "Aromă de portocală roșie, colorant extract de boia",
+      "50 de porții într-un tub de 500 g"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține fiecare porție",
+    "carduri": [
+      {
+        "cod": "INU",
+        "titlu": "Inulină",
+        "text": "Primul ingredient de pe etichetă."
+      },
+      {
+        "cod": "ACA",
+        "titlu": "Fibre de acacia",
+        "text": "Al doilea ingredient de pe etichetă."
+      },
+      {
+        "cod": "BAM",
+        "titlu": "Fibre de bambus",
+        "text": "Fibre vegetale trecute în lista de ingrediente."
+      },
+      {
+        "cod": "OVZ",
+        "titlu": "Făină de ovăz",
+        "text": "Conține ovăz, alergen trecut pe etichetă."
+      },
+      {
+        "cod": "GLU",
+        "titlu": "Glucomanan",
+        "text": "Extract din rădăcină de Amorphophallus konjac."
+      },
+      {
+        "cod": "BAO",
+        "titlu": "Baobab",
+        "text": "Pulbere organică din fructe de baobab."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Orange",
+      "nume": "Blood Orange (portocală roșie)",
+      "nota": "Singura aromă; colorant extract de boia."
+    }
+  ],
+  "mod_de_folosire": "Amesteci 10 g (aproximativ o măsură) cu 150–250 ml de apă. O porție pe zi, înainte de masă. Conține ovăz.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului fiber-blood-orange (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

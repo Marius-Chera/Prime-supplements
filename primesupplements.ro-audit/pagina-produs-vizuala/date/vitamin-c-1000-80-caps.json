@@ -1,0 +1,109 @@
+{
+  "versiune": 1,
+  "handle": "vitamin-c-1000-80-caps",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-vitamina-c-1.jpg",
+    "alt": "Sportivă în aer liber ținând un flacon de Vitamina C 1000 Prime"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, conform etichetei.",
+  "badge": [
+    "1000 mg / capsulă",
+    "1250% VNR",
+    "80 de capsule",
+    "O capsulă pe zi"
+  ],
+  "titlu": "Vitamina C 1000: 1000 mg de vitamina C într-o capsulă pe zi",
+  "intro": "O capsulă are [[1000 mg]] de vitamina C sub formă de acid ascorbic, adică [[1250% VNR]] (valoarea de referință e de [[80 mg]] pe zi). Iei [[o capsulă]] pe zi, de preferat în timpul mesei, iar flaconul de [[80 de capsule]] ajunge pentru [[80 de zile]].",
+  "etichete": [
+    "Acid ascorbic",
+    "1000 mg",
+    "Capsule",
+    "Doza: 1 pe zi"
+  ],
+  "cifre": [
+    {
+      "valoare": "1000",
+      "unitate": "mg",
+      "eticheta": "vitamina C per capsulă"
+    },
+    {
+      "valoare": "1250",
+      "unitate": "%",
+      "eticheta": "VNR per capsulă"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "capsulă pe zi"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "de zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "o capsulă, la masă"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 80 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă (doza zilnică)",
+    "randuri": [
+      {
+        "nume": "Vitamina C (acid ascorbic)",
+        "valoare": "1000 mg"
+      },
+      {
+        "nume": "% VNR",
+        "valoare": "1250%"
+      },
+      {
+        "nume": "VNR vitamina C",
+        "valoare": "80 mg pe zi"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Vitamina C 1000",
+    "puncte": [
+      "Vitamina C sub formă de acid ascorbic",
+      "1000 mg într-o singură capsulă",
+      "O capsulă pe zi, de preferat la masă",
+      "Capsulă din gelatină",
+      "80 de capsule, cât pentru 80 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "C",
+        "titlu": "Vitamina C · 1000 mg",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar. Vitamina C contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "ASC",
+        "titlu": "Acid ascorbic",
+        "text": "Forma de vitamina C din capsulă."
+      },
+      {
+        "cod": "CPS",
+        "titlu": "Capsulă",
+        "text": "Înveliș din gelatină și oxid de zinc; antiaglomeranți: amidon modificat din porumb, stearat de magneziu."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, de preferat în timpul mesei. Nu depăși doza zilnică recomandată. Consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos. Nu lăsa produsul la îndemâna și la vederea copiilor mici.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului vitamin-c-1000-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

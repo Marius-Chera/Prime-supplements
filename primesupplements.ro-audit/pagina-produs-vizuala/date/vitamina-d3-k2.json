@@ -1,0 +1,124 @@
+{
+  "versiune": 1,
+  "handle": "vitamina-d3-k2",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-vitamina-d3-k2-80-capsule-sportiva-1.jpg",
+    "alt": "Vitamina D3 + K2 Prime în prim-plan; în fundal o sportivă în bustieră albă se odihnește la soare pe o terasă luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, din lista de ingrediente de pe etichetă.",
+  "badge": [
+    "D3 4000 UI",
+    "K2 MK-7 100 µg",
+    "80 de capsule",
+    "Prime Health"
+  ],
+  "titlu": "Vitamina D3 + K2: 4000 UI de D3 și 100 µg de K2 în fiecare capsulă",
+  "intro": "O capsulă are [[100 µg]] ([[4000 UI]]) de vitamina D3 și [[100 µg]] de vitamina K2 sub formă de MK-7 din natto ([[133% VNR]]). Se ia o capsulă o dată la [[2 zile]], de preferat la o masă care conține grăsimi, așa că flaconul de [[80 de capsule]] ajunge pentru [[160 de zile]].",
+  "etichete": [
+    "Colecalciferol (D3)",
+    "Menachinonă MK-7 (K2)",
+    "Din natto",
+    "Capsulă vegetală",
+    "Conține soia"
+  ],
+  "cifre": [
+    {
+      "valoare": "4000",
+      "unitate": "UI",
+      "eticheta": "vitamina D3 per capsulă"
+    },
+    {
+      "valoare": "100",
+      "unitate": "µg",
+      "eticheta": "vitamina K2 per capsulă"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    },
+    {
+      "valoare": "160",
+      "unitate": "",
+      "eticheta": "de zile, la o capsulă la 2 zile"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Doză",
+      "text": "o capsulă o dată la 2 zile"
+    },
+    {
+      "titlu": "Cu masa",
+      "text": "de preferat o masă cu grăsimi"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Vitamina D3 (colecalciferol)",
+        "valoare": "100 µg (4000 UI)"
+      },
+      {
+        "nume": "MK-7 1% din natto",
+        "valoare": "10 mg"
+      },
+      {
+        "nume": "din care vitamina K2",
+        "valoare": "100 µg (133% VNR)"
+      },
+      {
+        "nume": "Capsulă vegetală (celuloză)",
+        "valoare": "108 mg"
+      },
+      {
+        "nume": "Făină de orez",
+        "valoare": "410 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Vitamina D3 + K2",
+    "puncte": [
+      "Vitamina D3 sub formă de colecalciferol",
+      "Vitamina K2 ca menachinonă MK-7, din natto",
+      "4000 UI de D3 și 100 µg de K2 per capsulă",
+      "Capsulă vegetală, din celuloză",
+      "O capsulă o dată la 2 zile",
+      "Un flacon ajunge pentru 160 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "D3",
+        "titlu": "Vitamina D3 · 100 µg",
+        "text": "Vitamina D contribuie la menținerea funcției musculare normale. Vitamina D contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "K2",
+        "titlu": "Vitamina K2 · 100 µg",
+        "text": "Menachinonă MK-7 din natto, 133% VNR per capsulă."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Capsulă vegetală",
+        "text": "Din celuloză, 108 mg; făina de orez e agent de încărcare."
+      },
+      {
+        "cod": "SOI",
+        "titlu": "Alergeni",
+        "text": "Conține soia: vitamina K2 provine din natto, boabe de soia fermentate."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă o dată la 2 zile, sau cum îți recomandă specialistul, de preferat la o masă care conține grăsimi. Nu depăși doza recomandată. Nu se consumă de către copii, femeile însărcinate sau care alăptează, fără avizul medicului. Dacă urmezi un tratament anticoagulant, discută cu medicul.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului vitamina-d3-k2 (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

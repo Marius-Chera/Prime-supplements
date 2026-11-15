@@ -1,0 +1,177 @@
+{
+  "versiune": 1,
+  "handle": "nitrox",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-nitrox-3d-500g-cherry-sportiva-1.jpg",
+    "alt": "Nitrox 3D Prime, pre-antrenament cu aromă de cireșe (Cherry), în prim-plan; în fundal o sportivă în bustieră roșie ține un shaker înainte de antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 20 g, din tabelul nutrițional al produsului.",
+  "badge": [
+    "Pre-antrenament",
+    "6000 mg L-citrulină",
+    "200 mg cafeină",
+    "25 de porții"
+  ],
+  "titlu": "Nitrox 3D: 6000 mg de L-citrulină și 200 mg de cafeină pe porție",
+  "intro": "O porție de [[20 g]] are [[6000 mg]] de L-citrulină, [[4420 mg]] de L-arginină AKG, [[2000 mg]] de tri-creatină citrat și [[200 mg]] de cafeină, conform tabelului. O bei cu [[20–30 de minute]] înainte de antrenament, în [[250–300 ml]] de apă rece; la prima utilizare, jumătate de porție. Tubul de [[500 g]] are [[25 de porții]].",
+  "etichete": [
+    "L-citrulină",
+    "L-arginină AKG",
+    "Tri-creatină citrat",
+    "Beta-alanină",
+    "Conține cafeină",
+    "4 arome"
+  ],
+  "cifre": [
+    {
+      "valoare": "6000",
+      "unitate": "mg",
+      "eticheta": "L-citrulină per porție"
+    },
+    {
+      "valoare": "4420",
+      "unitate": "mg",
+      "eticheta": "L-arginină AKG per porție"
+    },
+    {
+      "valoare": "200",
+      "unitate": "mg",
+      "eticheta": "cafeină per porție"
+    },
+    {
+      "valoare": "25",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "20 g cu 250–300 ml de apă rece"
+    },
+    {
+      "titlu": "Prima dată",
+      "text": "jumătate de porție (10 g)"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 20 g",
+    "randuri": [
+      {
+        "nume": "L-citrulină",
+        "valoare": "6000 mg"
+      },
+      {
+        "nume": "L-arginină AKG",
+        "valoare": "4420 mg"
+      },
+      {
+        "nume": "Tri-creatină citrat",
+        "valoare": "2000 mg"
+      },
+      {
+        "nume": "Beta-alanină",
+        "valoare": "2000 mg"
+      },
+      {
+        "nume": "Taurină",
+        "valoare": "1500 mg"
+      },
+      {
+        "nume": "L-tirozină",
+        "valoare": "1000 mg"
+      },
+      {
+        "nume": "L-teanină",
+        "valoare": "400 mg"
+      },
+      {
+        "nume": "Cafeină",
+        "valoare": "200 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Nitrox 3D",
+    "puncte": [
+      "6000 mg de L-citrulină, cel mai mare ingredient",
+      "L-arginină AKG, tri-creatină citrat și beta-alanină",
+      "200 mg de cafeină anhidră per porție",
+      "Taurină, L-tirozină și L-teanină",
+      "Patru arome: Cherry, Pineapple Mango, Passion Fruit, Strawberry Lime",
+      "La prima utilizare se începe cu jumătate de porție"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține fiecare porție",
+    "carduri": [
+      {
+        "cod": "CIT",
+        "titlu": "L-citrulină · 6000 mg",
+        "text": "Primul ingredient de pe etichetă."
+      },
+      {
+        "cod": "ARG",
+        "titlu": "L-arginină AKG · 4420 mg",
+        "text": "L-arginină alfa-ketoglutarat."
+      },
+      {
+        "cod": "TCC",
+        "titlu": "Tri-creatină citrat · 2000 mg",
+        "text": "Forma de creatină trecută pe etichetă."
+      },
+      {
+        "cod": "BA",
+        "titlu": "Beta-alanină · 2000 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "TAU",
+        "titlu": "Taurină · 1500 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "TYR",
+        "titlu": "L-tirozină · 1000 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "TEA",
+        "titlu": "L-teanină · 400 mg",
+        "text": "Aminoacid trecut în lista de ingrediente."
+      },
+      {
+        "cod": "CAF",
+        "titlu": "Cafeină · 200 mg",
+        "text": "Conținut ridicat de cafeină: nu se combină cu cafea, băuturi energizante sau alte produse cu cafeină."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Cherry",
+      "nume": "Cherry (cireșe)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Pineapple Mango",
+      "nume": "Pineapple Mango (ananas și mango)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Passion fruit",
+      "nume": "Passion Fruit (fructul pasiunii)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    },
+    {
+      "varianta": "Strawberry lime",
+      "nume": "Strawberry Lime (căpșuni și lămâie verde)",
+      "nota": "Aceleași cantități per porție la toate aromele."
+    }
+  ],
+  "mod_de_folosire": "O porție (20 g) în 250–300 ml de apă rece, cu 20–30 de minute înainte de antrenament; la prima utilizare, jumătate de porție (10 g). Conține cafeină (200 mg/porție): nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină. Nu se combină cu cafea, băuturi energizante sau alte produse cu cafeină.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului nitrox (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

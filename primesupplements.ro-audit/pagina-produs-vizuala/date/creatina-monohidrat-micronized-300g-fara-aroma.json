@@ -1,0 +1,124 @@
+{
+  "versiune": 1,
+  "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-creatina-micronizata-300g-sportiva-1.jpg",
+    "alt": "Creatină monohidrată micronizată Prime, fără aromă, 300 g, în prim-plan; în fundal o sportivă în bustieră albă bea un pahar cu apă într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt din tabelul de pe tub, per porție de 5 g.",
+  "badge": [
+    "100% creatină",
+    "5 g / porție",
+    "60 de porții",
+    "Fără aromă"
+  ],
+  "titlu": "Creatină micronizată: 5000 mg de creatină monohidrată pe porție",
+  "intro": "O porție de [[5 g]] (o jumătate de măsură) înseamnă [[5000 mg]] de creatină monohidrată, singurul ingredient de pe etichetă: fără arome, îndulcitori sau coloranți. Pulberea e micronizată și se amestecă în [[300–500 ml]] de apă. Tubul de [[300 g]] are [[60 de porții]].",
+  "etichete": [
+    "1 ingredient",
+    "Micronizată",
+    "Fără aromă",
+    "Fără îndulcitori",
+    "Măsură inclusă"
+  ],
+  "cifre": [
+    {
+      "valoare": "5000",
+      "unitate": "mg",
+      "eticheta": "creatină per porție"
+    },
+    {
+      "valoare": "5",
+      "unitate": "g",
+      "eticheta": "o porție = ½ măsură"
+    },
+    {
+      "valoare": "60",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    },
+    {
+      "valoare": "300",
+      "unitate": "g",
+      "eticheta": "în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "5 g în 300–500 ml de apă"
+    },
+    {
+      "titlu": "Menținere",
+      "text": "½–1½ măsuri pe zi"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Porția de 5 g",
+    "randuri": [
+      {
+        "nume": "Creatină monohidrată",
+        "valoare": "5000 mg"
+      },
+      {
+        "nume": "Porție",
+        "valoare": "5 g (½ măsură)"
+      },
+      {
+        "nume": "Porții în tub",
+        "valoare": "60"
+      },
+      {
+        "nume": "Încărcare (primele 5–15 zile)",
+        "valoare": "1½–3 măsuri pe zi"
+      },
+      {
+        "nume": "Menținere (6–8 săptămâni)",
+        "valoare": "½–1½ măsuri pe zi"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are creatina micronizată",
+    "puncte": [
+      "Un singur ingredient: creatină monohidrată",
+      "Pulbere micronizată, fără aromă",
+      "Fără îndulcitori sau coloranți",
+      "5000 mg de creatină la fiecare porție de 5 g",
+      "Măsură de dozare inclusă în tub",
+      "60 de porții într-un tub de 300 g"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CRE",
+        "titlu": "Creatină monohidrată · 5000 mg",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "µm",
+        "titlu": "Micronizată",
+        "text": "Pulbere cu particule fine, trecută pe fața tubului."
+      },
+      {
+        "cod": "0",
+        "titlu": "Fără adaosuri",
+        "text": "Lista de ingrediente are un singur element: fără arome, îndulcitori sau coloranți."
+      },
+      {
+        "cod": "H2O",
+        "titlu": "Apă",
+        "text": "Se amestecă 5 g în 300–500 ml de apă, în shaker."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "În faza de încărcare (primele 5–15 zile): 1½–3 măsuri pe zi, în funcție de greutatea corporală. În perioada de menținere (6–8 săptămâni): ½–1½ măsuri pe zi. O jumătate de măsură = 5 g, amestecată în 300–500 ml de apă. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului creatina-monohidrat-micronized-300g-fara-aroma (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "de_verificat": []
+}

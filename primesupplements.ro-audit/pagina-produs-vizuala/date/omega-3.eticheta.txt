@@ -1,0 +1,6 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului omega-3 (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Ingrediente: ulei de pește (EPA – acid eicosapentaenoic și DHA – acid docosahexaenoic), acetat de DL-alfa-tocoferil (vitamina E). Capsule gelatinoase moi. Alergeni: pește.
+Per capsulă: EPA 180 mg; DHA 120 mg; total EPA și DHA 300 mg; vitamina E 3 mg.
+Cantitate netă: 112 g (80 de capsule); 80 de porții (o porție = 1 capsulă).
+Mod de administrare: doza zilnică de pe etichetă; cu sau fără alimente, de preferință în timpul mesei.
+Mențiune (condiție): efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA.

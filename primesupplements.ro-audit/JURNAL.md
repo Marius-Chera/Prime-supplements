@@ -1279,3 +1279,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - 38. Citrat de zinc 40 mg – 80 de capsule: 1 cadru cu produsul.
   - 39. Unt de arahide Prime Health, 600 g: 1 cadru cu produsul.
   - 40. Colagen hidrolizat lichid Complete Collagen – 500 ml: 1 cadru cu produsul, 2 cu sportivă.
+- 15.11 (seara): **verificare după schimbările lui Marius** (doar citire). UpPromote dezinstalat: nu mai apare nici în aplicațiile instalate, nici în abonamente. Shopify Payments e activ, cu plăți în contul BT. Rambursul e activ, PayPal inactiv. Pagina Plan mai arată ca abonamente doar Grow 92 $, Simprosys 6,74 $ (reînnoire 24.11) și Pandectes 9 $ (10.12). Delivery Estimator, Dondy și Fluxsales nu mai sunt instalate. Judge.me e încă instalat. Rămase în `costuri/ANALIZA-FACTURI-SHOPIFY-2026-11-15.md`: plata anuală pentru Grow, Judge.me după 20–25.12, comisionul de schimb pe card, închiderea contractului Netopia, costul KEMO după trecerea pe Total Admin.

@@ -139,7 +139,7 @@
     ]
   },
   "arome": [],
-  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață și mentă. Conține cafeină: nu este recomandată copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
+  "mod_de_folosire": "Conținutul unui plic (10 g) se dizolvă în 1,5 L de apă rece sau apă minerală carbogazoasă, amestecând sau agitând până la dizolvarea completă. Diluarea recomandată este de 3 L. Servește cu gheață și mentă. Conține cafeină: nu este recomandată copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
   "de_verificat": [
     "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
   ],
@@ -149,11 +149,11 @@
     "sectiuni": [
       {
         "intrebare": "Prin ce diferă Frutilu Energy de celelalte arome?",
-        "raspuns": "Prin cafeină și taurină, adăugate pe lângă vitamina C. Celelalte arome nu au cafeină. Cantitățile exacte sunt pe plic; un plic de 10 g se dizolvă în 1,5–3 litri de apă rece sau minerală carbogazoasă. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+        "raspuns": "Prin cafeină și taurină, adăugate pe lângă vitamina C. Celelalte arome nu au cafeină. Cantitățile exacte sunt pe plic; un plic de 10 g se dizolvă în 1,5–3 litri de apă rece sau minerală carbogazoasă."
       },
       {
         "intrebare": "Ce este taurina?",
-        "raspuns": "Taurina este un compus cu sulf care se găsește natural în carne, pește și lapte. Numele vine din latinescul taurus, taur, pentru că a fost izolată prima dată din bila de taur, în 1827. Apare des în băuturile energizante. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+        "raspuns": "Taurina este un compus cu sulf care se găsește natural în carne, pește și lapte. Numele vine din latinescul taurus, taur, pentru că a fost izolată prima dată din bila de taur, în 1827. Apare des în băuturile energizante."
       },
       {
         "intrebare": "Cum se recoltează merișoarele?",
@@ -165,7 +165,7 @@
       },
       {
         "intrebare": "Cum o faci ca pe o băutură energizantă la doză?",
-        "raspuns": "Cu apă minerală carbogazoasă rece: bulele o fac asemănătoare băuturilor la doză, dar fără zahăr adăugat. Adaugă gheață și câteva frunze de mentă. Un pahar de 250 ml e o porție comodă."
+        "raspuns": "Cu apă minerală carbogazoasă rece: bulele o fac asemănătoare băuturilor la doză, dar fără zahăr adăugat. Adaugă gheață și câteva frunze de mentă. Un pahar de 250 ml e o porție comodă. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
       },
       {
         "intrebare": "Ce gust are merișorul?",

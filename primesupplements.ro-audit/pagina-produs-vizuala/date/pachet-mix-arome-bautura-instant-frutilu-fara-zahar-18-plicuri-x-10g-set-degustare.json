@@ -1,0 +1,166 @@
+{
+  "versiune": 1,
+  "handle": "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-set-degustare-18-plicuri-sportiv-1.jpg",
+    "alt": "ALT"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "18 plicuri x 10 g",
+    "1,5–3 L / plic",
+    "Fără zahăr adăugat",
+    "Toate aromele"
+  ],
+  "titlu": "Set de degustare Frutilu: 18 plicuri de 10 g cu toate aromele, fără zahăr adăugat",
+  "intro": "Setul de degustare Frutilu are [[18 plicuri]] de [[10 g]], câte unul din fiecare aromă. Fiecare plic se dizolvă în [[1,5–3 L]] de apă rece, plată sau carbogazoasă. Toate aromele sunt fără zahăr adăugat, fără aspartam și fără acesulfam K, iar pudra conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Vitamina C",
+    "18 arome"
+  ],
+  "cifre": [
+    {
+      "valoare": "18",
+      "unitate": "",
+      "eticheta": "plicuri în set"
+    },
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "180",
+      "unitate": "g",
+      "eticheta": "greutatea setului"
+    },
+    {
+      "valoare": "27–54",
+      "unitate": "L",
+      "eticheta": "băutură din tot setul"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "apă plată sau carbogazoasă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Setul de 18 plicuri",
+    "randuri": [
+      {
+        "nume": "Plicuri",
+        "valoare": "18 x 10 g"
+      },
+      {
+        "nume": "Greutate netă",
+        "valoare": "180 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu set de degustare",
+    "puncte": [
+      "Câte un plic din fiecare aromă Frutilu",
+      "Fără zahăr adăugat la toate aromele",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "18 plicuri de 10 g, adică 180 g"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "18",
+        "titlu": "18 plicuri x 10 g",
+        "text": "Toate aromele Frutilu disponibile, câte un plic din fiecare."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcire",
+        "text": "Fără zahăr adăugat; stevia sau alți îndulcitori, după aromă."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5–3 L de apă rece, plată sau carbogazoasă, și amestecă până la dizolvarea completă. Aroma Energy conține cafeină și taurină: nu este pentru copii, femei însărcinate sau care alăptează și persoane sensibile la cafeină.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre setul de degustare Frutilu",
+    "intro": "Setul de degustare Frutilu are 18 plicuri de 10 g, cu toate aromele din gamă. Iată câtă băutură faci din el, în ce ordine să încerci aromele și ce au în comun toate plicurile.",
+    "sectiuni": [
+      {
+        "intrebare": "Câtă băutură faci din setul de degustare Frutilu?",
+        "raspuns": "Între 27 și 54 de litri: fiecare dintre cele 18 plicuri face 1,5–3 litri de băutură. La un plic pe zi, setul ține aproape trei săptămâni, adică 18 zile cu altă aromă în fiecare zi."
+      },
+      {
+        "intrebare": "Ce au în comun toate aromele?",
+        "raspuns": "Toate sunt fără zahăr adăugat și fără aspartam sau acesulfam K, iar pudra conține vitamina C. Diferă îndulcitorul: unele arome folosesc stevia, altele alți îndulcitori, trecuți pe fiecare plic."
+      },
+      {
+        "intrebare": "În ce ordine să încerci aromele?",
+        "raspuns": "De la cele blânde spre cele intense: începe cu pepene roșu, mango sau ananas, continuă cu citricele și termină cu cola, ciocolată sau migdale. Așa o aromă puternică nu acoperă gustul uneia delicate. Pentru că setul are și arome cu stevia, și arome cu alți îndulcitori, poți compara și felul în care e îndulcită fiecare."
+      },
+      {
+        "intrebare": "Are și plicuri cu cafeină?",
+        "raspuns": "Da, dacă setul include aroma Energy cu merișoare, care conține cafeină și taurină. Aceasta nu e potrivită copiilor, femeilor însărcinate sau care alăptează și celor sensibili la cafeină. Verifică denumirea de pe fiecare plic; EFSA consideră sigure pentru adulți 400 mg de cafeină pe zi."
+      },
+      {
+        "intrebare": "Se poate face cu apă carbogazoasă?",
+        "raspuns": "Da, plicurile se dizolvă în apă rece, plată sau carbogazoasă. Cu apă minerală carbogazoasă, aromele de fructe și cola seamănă cu sucurile acidulate, dar fără zahăr adăugat."
+      },
+      {
+        "intrebare": "Cât cântărește setul?",
+        "raspuns": "Setul cântărește 180 g: 18 plicuri de câte 10 g. Fiecare plic e o porție completă pentru o sticlă sau o carafă, așa că nu ai nevoie de linguriță sau de cântar. La 3 litri de apă pe plic, tot setul dă 54 de litri, adică 216 pahare de 250 ml."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine (2015)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

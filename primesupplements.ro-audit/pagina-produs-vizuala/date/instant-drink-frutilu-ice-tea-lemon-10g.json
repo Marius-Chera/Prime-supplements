@@ -1,0 +1,174 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-ice-tea-lemon-10g",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-ceai-lamaie-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu ceai rece cu lămâie pe o stâncă, lângă o sticlă cu ceai rece și felii de lămâie, pe o potecă de munte; în fundal un drumeț cu rucsac privește priveliștea"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-ice-tea-lemon-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu stevia"
+  ],
+  "titlu": "Frutilu ceai rece cu lămâie: plic de 10 g pentru 1,5 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu ceai rece cu lămâie este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă. Nu are zahăr adăugat, e îndulcită cu stevia și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Stevia",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten",
+    "Ceai rece"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "apă pentru un plic"
+    },
+    {
+      "valoare": "6",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "plic = o sticlă de apă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și felii de lămâie"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "stevia"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu ceai cu lămâie",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu stevia",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "LĂM",
+        "titlu": "Aromă de ceai cu lămâie",
+        "text": "Echilibru între gustul de ceai și aroma citrică a lămâii."
+      },
+      {
+        "cod": "STE",
+        "titlu": "Stevia",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana, codul E 960a."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un plic (10 g) la 1,5 L de apă rece, amestecând până la dizolvarea completă. Servește cu gheață și felii de lămâie.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre Frutilu ceai rece cu lămâie",
+    "intro": "Frutilu ceai rece cu lămâie este o băutură instant care îmbină gustul de ceai cu aroma de lămâie, îndulcită cu stevia. Iată de ce ceaiul și lămâia merg atât de bine împreună.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se pune lămâie în ceai?",
+        "raspuns": "Pentru că aciditatea lămâii echilibrează gustul ușor amărui al ceaiului. Lămâia face și ceaiul negru mai deschis la culoare, pentru că unii pigmenți din ceai își schimbă nuanța în mediu acid. În Frutilu, combinația e gata în plic."
+      },
+      {
+        "intrebare": "Cât lichid îți trebuie pentru un plic de Frutilu ceai cu lămâie?",
+        "raspuns": "Un plic de 10 g se dizolvă în 1,5 litri de apă rece, cât o sticlă obișnuită de apă. Amesteci până nu mai vezi pudră, apoi adaugi gheață și felii de lămâie. Ies 6 pahare de 250 ml. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "Unde îl poți lua cu tine?",
+        "raspuns": "Oriunde: plicul încape ușor în geantă, așa că îl poți dizolva la birou, la sală sau în drumeții. Ai nevoie doar de o sticlă de 1,5 litri cu apă. E o alternativă la ceaiurile reci la sticlă îndulcite cu zahăr."
+      },
+      {
+        "intrebare": "Ce înseamnă că e îndulcit cu stevia?",
+        "raspuns": "Înseamnă că gustul dulce vine din glicozidele de steviol, extrase din frunzele plantei Stevia rebaudiana. Plicul nu are zahăr adăugat, aspartam sau acesulfam K. În Uniunea Europeană, stevia are codul E 960a."
+      },
+      {
+        "intrebare": "Sunt frecvente alergiile la stevia?",
+        "raspuns": "Nu, reacțiile alergice la extractele purificate de stevia sunt rare, arată o analiză din 2015. Formula Frutilu este și fără gluten și fără lactoză. Dacă ai alergii, citește oricum lista completă de pe plic."
+      },
+      {
+        "intrebare": "Ce vitamină conține?",
+        "raspuns": "Vitamina C, adăugată în pudră; cantitatea exactă e trecută pe plic. Prepară băutura cu apă rece și bea-o în aceeași zi, pentru gustul cel mai proaspăt."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Urban JD și colab. Steviol glycoside safety: are highly purified steviol glycoside sweeteners food allergens? Food Chem Toxicol. 2015;75:71-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25449199/"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

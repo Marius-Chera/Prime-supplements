@@ -1,0 +1,167 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-orange-10g",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-portocale-10g-sportiv-1.jpg",
+    "alt": "ALT"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-orange-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu îndulcitori"
+  ],
+  "titlu": "Frutilu cu portocale: plic de 10 g pentru 1,5 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu portocale este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă. Nu are zahăr adăugat, e îndulcită cu îndulcitori și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Îndulcitori",
+    "Vitamina C",
+    "Citrice"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "apă pentru un plic"
+    },
+    {
+      "valoare": "6",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "plic = o sticlă de apă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și felii de portocală"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "îndulcitori"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu portocale",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu îndulcitori",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Fără conservanți artificiali"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "POR",
+        "titlu": "Aromă de portocale",
+        "text": "Gust clasic, citric, de portocale."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcitori",
+        "text": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un plic (10 g) la 1,5 L de apă rece, amestecând până la dizolvarea completă. Servește cu gheață și felii de portocală.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu portocale",
+    "intro": "Frutilu cu portocale este o băutură instant cu gust clasic de citrice, fără zahăr adăugat. Află de unde vine portocala, de ce în română poartă numele unei țări și cum faci o oranjadă acidulată.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce în română se spune portocală?",
+        "raspuns": "Pentru că negustorii portughezi au adus în Europa, în secolul al XVI-lea, portocalele dulci din Asia. Numele lor a ajuns în greacă, turcă și română legat de Portugalia. În alte limbi, cuvântul vine din sanscrită, prin persană și arabă."
+      },
+      {
+        "intrebare": "Este portocala un fruct sălbatic?",
+        "raspuns": "Nu, este un hibrid vechi, apărut în China din încrucișarea pomelo-ului cu mandarina. Toate portocalele dulci de azi descind din această încrucișare. Lămâia, grepfrutul și lime sunt tot hibrizi de citrice."
+      },
+      {
+        "intrebare": "Cum faci o oranjadă cu Frutilu?",
+        "raspuns": "Dizolvi plicul de 10 g în 1,5 litri de apă minerală carbogazoasă rece, apoi adaugi gheață și felii de portocală proaspătă. Cu apă plată obții o băutură necarbogazoasă. Ies 6 pahare de 250 ml. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "Are conservanți Frutilu cu portocale?",
+        "raspuns": "Nu, Frutilu cu portocale nu are conservanți artificiali, conform descrierii. Conține îndulcitori, dar nu aspartam sau acesulfam K, și este îmbogățită cu vitamina C."
+      },
+      {
+        "intrebare": "De ce sucul de portocale din comerț e mai dulce?",
+        "raspuns": "Pentru că sucul de fructe păstrează zaharurile naturale ale fructului, chiar și când eticheta spune fără zahăr adăugat. Regulamentul (CE) nr. 1924/2006 cere atunci mențiunea că zaharurile sunt prezente în mod natural. Frutilu dă gustul de portocale cu îndulcitori."
+      },
+      {
+        "intrebare": "Câtă băutură faci dintr-un plic cu portocale?",
+        "raspuns": "Un litru și jumătate, adică 6 pahare de 250 ml. Pentru gust mai intens, folosește mai puțină apă, iar pentru unul mai blând, mai multă."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

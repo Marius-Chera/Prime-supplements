@@ -1883,5 +1883,57 @@
   "alt": "Plicul Frutilu cu măr verde pe un birou alb, lângă o sticlă cu băutură de măr cu gheață și felii de măr verde; în fundal un bărbat lucrează la laptop și bea dintr-un pahar",
   "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
   "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-ice-tea-peach-10g",
+  "rank": null,
+  "file": "frutilu-ceai-piersici-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 324,
+  "produs": "Băutură instant Frutilu cu aromă de ceai cu piersici, 10 g",
+  "handle": "instant-drink-frutilu-ice-tea-peach-10g",
+  "alt": "Plicul Frutilu ceai rece cu piersici pe masa de lemn de pe balcon, lângă o carafă cu ceai rece, gheață și felii de piersică; în fundal un sportiv se relaxează la soare",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-ice-tea-lemon-10g",
+  "rank": null,
+  "file": "frutilu-ceai-lamaie-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 492,
+  "produs": "Băutură instant Frutilu – ceai rece cu lămâie, 10 g",
+  "handle": "instant-drink-frutilu-ice-tea-lemon-10g",
+  "alt": "Plicul Frutilu ceai rece cu lămâie pe o stâncă, lângă o sticlă cu ceai rece și felii de lămâie, pe o potecă de munte; în fundal un drumeț cu rucsac privește priveliștea",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-lemon",
+  "rank": null,
+  "file": "frutilu-lamaie-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 261,
+  "produs": "Băutură instant Frutilu – lămâie, 10 g",
+  "handle": "instant-drink-frutilu-lemon",
+  "alt": "Plicul Frutilu cu lămâie pe blatul alb din bucătărie, lângă o carafă cu limonadă, gheață și felii de lămâie; în fundal un sportiv stoarce o lămâie",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-lemon-lime-10g",
+  "rank": null,
+  "file": "frutilu-lamaie-lime-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 341,
+  "produs": "Băutură instant Frutilu – lămâie și lime, 10 g",
+  "handle": "instant-drink-frutilu-lemon-lime-10g",
+  "alt": "Plicul Frutilu cu lămâie și lime pe o masă albă din grădină, lângă un pahar cu limonadă, gheață, mentă și felii de lime; în fundal un sportiv musculos toarnă din carafă",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
  }
 ]

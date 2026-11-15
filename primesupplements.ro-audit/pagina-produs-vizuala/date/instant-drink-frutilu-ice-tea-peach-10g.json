@@ -1,0 +1,174 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-ice-tea-peach-10g",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-ceai-piersici-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu ceai rece cu piersici pe masa de lemn de pe balcon, lângă o carafă cu ceai rece, gheață și felii de piersică; în fundal un sportiv se relaxează la soare"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-ice-tea-peach-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu stevia"
+  ],
+  "titlu": "Frutilu ceai rece cu piersici: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu ceai rece cu piersici este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu stevia și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Stevia",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten",
+    "Ceai rece"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și felii de piersică"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "stevia"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu ceai cu piersici",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu stevia",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PIE",
+        "titlu": "Aromă de ceai cu piersici",
+        "text": "Gust de ceai rece cu piersici."
+      },
+      {
+        "cod": "STE",
+        "titlu": "Stevia",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana, codul E 960a."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Conținutul unui plic (10 g) se dizolvă în 1,5 L de apă rece sau apă minerală rece, amestecând sau agitând până la dizolvarea completă. Diluarea recomandată este de 3 L. Servește cu gheață și felii de piersică.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre Frutilu ceai rece cu piersici",
+    "intro": "Frutilu ceai rece cu piersici este o băutură instant cu gust de ceai rece, îndulcită cu stevia. Află cum s-a răspândit ceaiul rece, de unde vin piersicile și cum îl prepari acasă.",
+    "sectiuni": [
+      {
+        "intrebare": "Cum s-a răspândit ceaiul rece?",
+        "raspuns": "Prin Expoziția Universală de la St. Louis din 1904, unde, într-o vară caniculară, un comerciant de ceai a început să-l servească cu gheață. Băutura a prins atât de bine încât ceaiul rece a devenit un clasic al verii."
+      },
+      {
+        "intrebare": "De unde vin piersicile?",
+        "raspuns": "Din China, unde piersicul se cultivă de peste 4000 de ani. Europenii l-au cunoscut prin Persia, de aici numele latin Prunus persica, adică prună persană. Piersica e rudă cu caisa, cireașa și migdala."
+      },
+      {
+        "intrebare": "Cum prepari Frutilu ceai rece cu piersici?",
+        "raspuns": "Dizolvi un plic de 10 g în 1,5 litri de apă rece sau apă minerală rece și amesteci până nu mai vezi pudră. Adaugi gheață și felii de piersică proaspătă. Pentru un gust mai blând, folosește 3 litri. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "Este vegană băutura?",
+        "raspuns": "Da, conform specificațiilor este vegană, fără gluten și fără lactoză. E îndulcită cu stevia, fără zahăr adăugat, aspartam sau acesulfam K, și conține vitamina C."
+      },
+      {
+        "intrebare": "De ce stevia nu are calorii?",
+        "raspuns": "Pentru că glicozidele de steviol sunt atât de dulci încât e nevoie de cantități foarte mici, iar organismul nu le folosește ca sursă de energie. Bacteriile din intestin le transformă în steviol, care apoi se elimină din corp."
+      },
+      {
+        "intrebare": "Câte pahare de ceai ies dintr-un plic?",
+        "raspuns": "La 3 litri ies 12 pahare de 250 ml, iar la 1,5 litri, 6 pahare. Plicul are doar 10 g, așa că îl iei ușor la birou sau la sală."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Magnuson BA și colab. Biological fate of low-calorie sweeteners. Nutr Rev. 2016;74(11):670-689",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27753624/"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

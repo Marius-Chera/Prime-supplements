@@ -122,7 +122,7 @@
     ]
   },
   "arome": [],
-  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață, caise și mentă.",
+  "mod_de_folosire": "Conținutul unui plic (10 g) se dizolvă în 1,5 L de apă rece, amestecând sau agitând până la dizolvarea completă. Diluarea recomandată este de 3 L. Servește cu gheață, caise și mentă.",
   "de_verificat": [
     "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
   ],
@@ -132,7 +132,7 @@
     "sectiuni": [
       {
         "intrebare": "Câte pahare ies dintr-un plic de Frutilu cu caise?",
-        "raspuns": "Între 6 și 12 pahare de 250 ml, în funcție de cât lichid folosești. Plicul de 10 g se dizolvă în minimum 1,5 litri, iar recomandarea este 3 litri. Pentru un gust mai intens, rămâi la 1,5 litri."
+        "raspuns": "Între 6 și 12 pahare de 250 ml, în funcție de cât lichid folosești. Plicul de 10 g se dizolvă în minimum 1,5 litri, iar recomandarea este 3 litri. Pentru un gust mai intens, rămâi la 1,5 litri. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
       },
       {
         "intrebare": "Ce este stevia?",
@@ -144,7 +144,7 @@
       },
       {
         "intrebare": "Cum faci o limonadă de caise?",
-        "raspuns": "Dizolvi plicul în apă plată sau minerală carbogazoasă rece, apoi adaugi gheață, felii de caise proaspete și câteva frunze de mentă. Varianta carbogazoasă seamănă cu un suc acidulat, dar fără zahăr adăugat. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+        "raspuns": "Dizolvi plicul în apă plată sau minerală carbogazoasă rece, apoi adaugi gheață, felii de caise proaspete și câteva frunze de mentă. Varianta carbogazoasă seamănă cu un suc acidulat, dar fără zahăr adăugat."
       },
       {
         "intrebare": "Este potrivită pentru vegani?",

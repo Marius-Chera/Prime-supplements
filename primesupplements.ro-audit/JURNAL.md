@@ -1172,3 +1172,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Confirmarea se face scriind „STERGE”.
   - Se șterg contul, comenzile, plățile, creditul, cererile și codul din aplicație. Codul trece la „ignorate” și se oprește în Shopify, unde rămâne expirat.
   - „Scoate din program” din fișa afiliatului folosește acum dialogul aplicației.
+- 15.11 (după pilot): **design v2, mai deschis, cerut de Marius** („mai mult pe culorile de la Genius, mai prietenoase, mai clar”):
+  - fundal în degrade deschis, titluri Poppins groase, pastile închise cu punct colorat, 4 plăcuțe închise pentru cifre și o notă sub ele;
+  - poză mare cu carduri transparente peste ea; codurile ingredientelor pe fond colorat deschis;
+  - câmpuri noi în metafield: `tema` (culoarea de accent, din 6 variante; acum BCAA verde, Creapure albastru, Whey roșu), `imagine` (poză reală din ședințe: Whey cu sportiva în top alb, Creapure în aer liber) și `nota_cifre`.
+  - Am urcat pe tema PILOT (MD5 identic cu repo-ul) și am rescris cele 3 metafield-uri. Am verificat la 1280 și 390 px. Codul și culorile sunt ale noastre; de la Genius am luat doar structura.
+  - Prototipul local arată acum toate cele 3 produse, cu comutare între ele.
+  - OpenArt are 0 credite (contul contact@, plan Starter). Imaginile AI pentru produsele fără poză din ședință (ex. Recovery BCAA) așteaptă reîncărcarea.

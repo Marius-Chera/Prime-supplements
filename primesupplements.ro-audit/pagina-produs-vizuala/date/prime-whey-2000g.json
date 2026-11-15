@@ -1,6 +1,12 @@
 {
   "versiune": 1,
   "handle": "prime-whey-2000g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-prime-whey-4.jpg?v=1794336094",
+    "alt": "Sportivă în top alb Prime ținând un tub de Prime Whey 2 kg, în aer liber"
+  },
+  "nota_cifre": "Proteinele variază puțin de la o aromă la alta; 24,4 g la Bourbon Vanilla, conform declarației nutriționale.",
   "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului (transcrierea etichetei tubului, declarația nutrițională Bourbon Vanilla), citite prin Admin API pe 15.11.2026.",
   "badge": [
     "Concentrat proteic din zer",

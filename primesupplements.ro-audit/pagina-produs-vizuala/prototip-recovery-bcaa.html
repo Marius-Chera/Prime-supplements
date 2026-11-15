@@ -3,368 +3,638 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Prototip Recovery BCAA</title>
+<title>Prototip pagină vizuală Prime</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-/* Prime – pagina de produs vizuală (secțiunea prime-pagina-vizuala)
-   Tot CSS-ul e sub .ppv: nu atinge nimic din temă. Un singur fișier pentru tot catalogul
-   (se descarcă o dată și rămâne în cache), nu CSS lipit în fiecare descriere. */
+/* Prime – pagina de produs vizuală, v2 (15.11.2026): mai deschisă și mai „prietenoasă”, la cererea lui Marius
+   (stil inspirat de structura de la Genius Nutrition: degrade deschis, plăcuțe închise pentru cifre, poză cu carduri
+   transparente peste ea; codul și culorile sunt ale noastre). Tot CSS-ul e sub .ppv și nu atinge restul temei.
+   Culoarea de accent vine din „tema” produsului (clasa ppv--rosu / albastru / verde / mov / portocaliu / roz). */
 .ppv{
-  --ppv-red:#e91d23;
-  --ppv-red-soft:rgba(233,29,35,.08);
-  --ppv-ink:#1a1a1a;
-  --ppv-muted:#5c5c5c;
-  --ppv-bg:#f0f0f0;
-  --ppv-card:#ffffff;
-  --ppv-line:rgba(26,26,26,.12);
-  --ppv-r:12px;
-  --ppv-r-lg:24px;
-  --ppv-head:'Bebas Neue',Barlow,sans-serif;
-  --ppv-text:Poppins,Barlow,sans-serif;
-  color:var(--ppv-ink);
-  font-family:var(--ppv-text);
-  font-size:15px;
-  line-height:1.65;
+  --ppv-acc:#e91d23; --ppv-tint:#fdecee; --ppv-tint-2:#fff7f7;
+  --ppv-ink:#14171f; --ppv-text-c:#3b4150; --ppv-muted:#6b7280;
+  --ppv-card:#ffffff; --ppv-line:rgba(20,23,31,.08);
+  --ppv-shadow:0 10px 30px rgba(20,23,31,.06); --ppv-shadow-lg:0 24px 60px rgba(20,23,31,.10);
+  --ppv-r:16px; --ppv-r-lg:28px;
+  --ppv-font:Poppins,Barlow,system-ui,sans-serif;
+  color:var(--ppv-text-c); font-family:var(--ppv-font); font-size:15.5px; line-height:1.7;
   container-type:inline-size;
 }
+.ppv--rosu{--ppv-acc:#e91d23;--ppv-tint:#fdecee;--ppv-tint-2:#fff7f7}
+.ppv--albastru{--ppv-acc:#2563eb;--ppv-tint:#e8efff;--ppv-tint-2:#f6f9ff}
+.ppv--verde{--ppv-acc:#16a34a;--ppv-tint:#e6f7ec;--ppv-tint-2:#f5fcf7}
+.ppv--mov{--ppv-acc:#7c3aed;--ppv-tint:#f0e9ff;--ppv-tint-2:#faf7ff}
+.ppv--portocaliu{--ppv-acc:#ea580c;--ppv-tint:#ffeee3;--ppv-tint-2:#fff9f5}
+.ppv--roz{--ppv-acc:#db2777;--ppv-tint:#fde8f2;--ppv-tint-2:#fff7fb}
+
 .ppv *,.ppv *::before,.ppv *::after{box-sizing:border-box}
-/* :where() = specificitate zero, ca stilurile componentelor (.ppv-badge etc.) să nu fie anulate de reset */
+/* :where() = specificitate zero, ca stilurile componentelor să nu fie anulate de reset */
 .ppv :where(h2,h3,h4,p,ul,li,figure){margin:0;padding:0}
 .ppv :where(ul){list-style:none}
-.ppv__wrap{max-width:1200px;margin:0 auto;padding:0 16px;display:grid;gap:20px}
+/* tema are h1–h6 {font-family:"Bebas Neue" !important}; aici titlurile sunt Poppins, grele, ca textul să fie „clar” */
+.ppv h2,.ppv h3,.ppv h4{font-family:var(--ppv-font)!important;color:var(--ppv-ink);text-transform:none;letter-spacing:-.02em;font-weight:800}
+.ppv h2{font-size:clamp(30px,4.4vw,52px);line-height:1.04}
+.ppv h3{font-size:clamp(22px,2.6vw,32px);line-height:1.12;margin-bottom:14px}
+.ppv h4{font-size:15.5px;line-height:1.35;letter-spacing:-.01em;font-weight:700;margin-bottom:6px}
 
-/* Card de bază */
-.ppv-card{background:var(--ppv-card);border:1px solid var(--ppv-line);border-radius:var(--ppv-r-lg);padding:28px}
-.ppv-kicker{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ppv-red);margin-bottom:10px}
-.ppv h2,.ppv h3{font-family:var(--ppv-head);font-weight:400;line-height:1.05;letter-spacing:.01em}
-.ppv h2{font-size:clamp(30px,4.2vw,46px)}
-.ppv h3{font-size:clamp(24px,3vw,30px);margin-bottom:14px}
+.ppv__wrap{max-width:1200px;margin:0 auto;padding:0 16px;display:grid;gap:28px}
+.ppv-panel{border-radius:var(--ppv-r-lg);padding:clamp(22px,4vw,48px);background:linear-gradient(135deg,var(--ppv-tint) 0%,var(--ppv-tint-2) 42%,#fff 75%)}
+.ppv-kicker{display:block;font-size:12.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ppv-acc);margin-bottom:10px}
 
 /* Hero */
-.ppv-hero{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:start}
-.ppv-badge{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px 10px;background:var(--ppv-ink);color:#fff;border-radius:999px;padding:7px 16px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px}
-.ppv-badge span+span::before{content:"·";margin-right:10px;color:var(--ppv-red)}
-.ppv-intro{margin-top:16px;color:var(--ppv-muted);font-size:16px}
-.ppv-hl{color:var(--ppv-red);font-weight:600}
-.ppv-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
-.ppv-tags li{border:1px solid var(--ppv-line);border-radius:999px;padding:5px 12px;font-size:13px;background:var(--ppv-bg)}
+.ppv-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,4vw,48px);align-items:center}
+.ppv-badge{display:inline-flex;flex-wrap:wrap;gap:4px 8px;align-items:center;padding:8px 16px;border-radius:999px;background:rgba(255,255,255,.75);border:1px solid color-mix(in srgb,var(--ppv-acc) 22%,transparent);color:var(--ppv-acc);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px}
+.ppv-badge span+span::before{content:"•";margin-right:8px;opacity:.7}
+.ppv-intro{margin-top:20px;font-size:16.5px;color:var(--ppv-text-c)}
+.ppv-hl{color:var(--ppv-acc);font-weight:700}
+.ppv-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.ppv-tags li{display:inline-flex;align-items:center;gap:8px;background:var(--ppv-ink);color:#fff;border-radius:999px;padding:9px 16px;font-size:13.5px;font-weight:600;line-height:1.2}
+.ppv-tags li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ppv-acc);flex:0 0 7px}
 
-.ppv-media{background:var(--ppv-bg);border-radius:var(--ppv-r-lg);padding:18px;display:grid;gap:12px}
-.ppv-media__img{background:#fff;border-radius:var(--ppv-r);aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
-.ppv-media__img img{width:100%;height:100%;object-fit:contain}
-.ppv-minis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.ppv-mini{background:#fff;border-radius:var(--ppv-r);padding:12px 14px}
-.ppv-mini b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--ppv-red)}
-.ppv-mini span{font-size:14px}
+.ppv-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
+.ppv-stat{background:var(--ppv-ink);color:#fff;border-radius:20px;padding:20px 12px;text-align:center;box-shadow:var(--ppv-shadow)}
+.ppv-stat__v{font-size:clamp(28px,3.2vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1}
+.ppv-stat__v small{font-size:.5em;margin-left:2px;font-weight:700}
+.ppv-stat__l{margin-top:8px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.72);line-height:1.35}
+.ppv-footnote{margin-top:10px;font-size:12px;color:var(--ppv-muted)}
 
-/* Cifre cheie */
-.ppv-stats{display:grid;grid-template-columns:repeat(4,1fr);background:var(--ppv-ink);color:#fff;border-radius:var(--ppv-r-lg);overflow:hidden}
-.ppv-stat{padding:22px 20px;border-left:1px solid rgba(255,255,255,.12)}
-.ppv-stat:first-child{border-left:0}
-.ppv-stat__v{font-family:var(--ppv-head);font-size:clamp(40px,5.5vw,60px);line-height:1}
-.ppv-stat__v small{font-size:.45em;margin-left:4px;color:var(--ppv-red)}
-.ppv-stat__l{font-size:13px;color:rgba(255,255,255,.75);margin-top:6px}
+.ppv-media{position:relative;border-radius:var(--ppv-r-lg);overflow:hidden;background:#fff;box-shadow:var(--ppv-shadow-lg);aspect-ratio:4/5}
+.ppv-media img{display:block;width:100%;height:100%;object-fit:cover}
+.ppv-media--produs img{object-fit:contain;padding:8%}
+.ppv-minis{position:absolute;left:14px;right:14px;bottom:14px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ppv-mini{background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:18px;padding:14px 16px;box-shadow:0 6px 20px rgba(20,23,31,.10)}
+.ppv-mini b{display:block;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ppv-ink);margin-bottom:4px}
+.ppv-mini span{display:block;font-size:13px;line-height:1.45;color:var(--ppv-text-c)}
 
-/* Formula + puncte */
-.ppv-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.ppv-rows li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--ppv-line);font-size:14px}
+/* Carduri */
+.ppv-two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ppv-card{background:var(--ppv-card);border:1px solid var(--ppv-line);border-radius:var(--ppv-r-lg);padding:clamp(22px,3vw,36px);box-shadow:var(--ppv-shadow)}
+.ppv-card--tint{background:linear-gradient(160deg,var(--ppv-tint-2),#fff 70%);border-color:color-mix(in srgb,var(--ppv-acc) 14%,transparent)}
+.ppv-rows li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--ppv-line);font-size:14.5px}
 .ppv-rows li:last-child{border-bottom:0}
-.ppv-rows b{white-space:nowrap}
-.ppv-checks li{position:relative;padding:8px 0 8px 34px;font-size:14px}
-/* bifa e desenată din CSS (fără caractere speciale în content) – nu se poate strica la copiere, ca „¹4” la concurent */
-.ppv-checks li::before{content:"";position:absolute;left:0;top:9px;width:22px;height:22px;border-radius:50%;background:var(--ppv-red-soft)}
-.ppv-checks li::after{content:"";position:absolute;left:8px;top:14px;width:6px;height:10px;border:solid var(--ppv-red);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.ppv-rows b{color:var(--ppv-ink);white-space:nowrap}
+.ppv-checks li{position:relative;padding:9px 0 9px 34px;font-size:14.5px}
+/* bifa e desenată din CSS (fără caractere speciale) – nu se poate strica la copiere, ca „¹4” la concurent */
+.ppv-checks li::before{content:"";position:absolute;left:0;top:11px;width:22px;height:22px;border-radius:50%;background:var(--ppv-tint)}
+.ppv-checks li::after{content:"";position:absolute;left:8px;top:15px;width:6px;height:11px;border:solid var(--ppv-acc);border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
 
-/* Carduri pe ingrediente */
-.ppv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
-.ppv-ing{border:1px solid var(--ppv-line);border-radius:var(--ppv-r);padding:18px;background:#fff}
-.ppv-ing__code{display:inline-grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border-radius:12px;background:var(--ppv-red);color:#fff;font-family:var(--ppv-head);font-size:20px;letter-spacing:.03em;margin-bottom:12px}
-/* tema are h1–h6 {font-family:"Bebas Neue" !important}; titlul cardului trebuie să fie text normal */
-.ppv .ppv-ing h4{margin:0 0 6px;font-family:var(--ppv-text)!important;font-size:15px;font-weight:600;line-height:1.4;text-transform:none;letter-spacing:0}
-.ppv-ing p{font-size:13.5px;color:var(--ppv-muted)}
+/* Rolul fiecărui ingredient */
+.ppv-head{max-width:720px;margin-bottom:22px}
+.ppv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.ppv-ing{background:#fff;border:1px solid var(--ppv-line);border-radius:22px;padding:22px;box-shadow:var(--ppv-shadow)}
+.ppv-ing__code{display:inline-grid;place-items:center;min-width:48px;height:48px;padding:0 10px;border-radius:14px;background:var(--ppv-tint);color:var(--ppv-acc);font-size:14px;font-weight:800;letter-spacing:.04em;margin-bottom:14px}
+.ppv-ing p{font-size:14px;color:var(--ppv-muted);line-height:1.6}
 
-/* Arome + folosire */
+/* Arome + mod de folosire */
 .ppv-flav{display:grid;gap:10px}
-.ppv-flav li{display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:start;padding:12px 14px;border-radius:var(--ppv-r);background:var(--ppv-bg)}
-.ppv-flav li[aria-current="true"]{outline:2px solid var(--ppv-red);background:#fff}
-.ppv-flav b{font-size:14px}
+.ppv-flav li{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:start;padding:12px 16px;border-radius:16px;background:#f7f8fa;border:1px solid transparent}
+.ppv-flav li[aria-current="true"]{background:var(--ppv-tint-2);border-color:var(--ppv-acc)}
+.ppv-flav b{font-size:14px;color:var(--ppv-ink)}
 .ppv-flav span{font-size:13.5px;color:var(--ppv-muted)}
-.ppv-note{font-size:12px;color:var(--ppv-muted);margin-top:12px}
+.ppv-note{font-size:12.5px;color:var(--ppv-muted);margin-top:14px}
 .ppv-todo{background:#fff3b0;color:#5a4a00;border-radius:4px;padding:0 4px;font-weight:600}
 
-/* Mobil și tabletă: după lățimea secțiunii (container), nu a ecranului */
-@container (max-width:900px){
+/* Tabletă și telefon: după lățimea secțiunii (container), nu a ecranului */
+@container (max-width:920px){
   .ppv-hero,.ppv-two{grid-template-columns:1fr}
+  .ppv-media{max-width:520px;width:100%;margin:0 auto}
   .ppv-grid{grid-template-columns:1fr 1fr}
 }
-@container (max-width:600px){
-  .ppv-card{padding:20px}
+@container (max-width:620px){
   .ppv-stats{grid-template-columns:1fr 1fr}
-  .ppv-stat:nth-child(3){border-left:0}
-  .ppv-stat:nth-child(n+3){border-top:1px solid rgba(255,255,255,.12)}
   .ppv-grid{grid-template-columns:1fr}
+  .ppv-badge{border-radius:18px}
+  .ppv-minis{grid-template-columns:1fr}
+  .ppv-mini:nth-child(2){display:none}
   .ppv-flav li{grid-template-columns:1fr;gap:2px}
-  .ppv-intro{font-size:15px}
+  .ppv-intro{font-size:15.5px}
 }
 
 </style>
 <style>
-  /* Doar pentru prototip: imită partea de sus a paginii din tema Impact (nu intră în temă). */
-  body{margin:0;background:#f0f0f0;font-family:Poppins,Barlow,sans-serif;color:#1a1a1a}
-  .demo-bar{background:#1a1a1a;color:#fff;font-size:13px;padding:10px 16px;text-align:center}
-  .demo-bar b{color:#e91d23}
-  .pp{max-width:1200px;margin:24px auto;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:32px}
-  .pp-gal{background:#fff;border-radius:24px;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
-  .pp-gal img{width:100%;height:100%;object-fit:contain}
-  .pp h1{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:40px;line-height:1;margin:0 0 8px}
-  .pp-stars{display:flex;align-items:center;gap:8px;font-size:14px;color:#5c5c5c}
-  .pp-stars i{color:#e91d23;font-style:normal;letter-spacing:2px}
-  .pp-price{margin:14px 0 4px;font-size:22px;font-weight:600;color:#e91d23}
-  .pp-price s{color:#5c5c5c;font-weight:400;font-size:16px;margin-left:8px}
-  .pp-stock{display:flex;align-items:center;gap:8px;font-size:14px;color:#00a341;margin:10px 0}
-  .pp-stock::before{content:"";width:8px;height:8px;border-radius:50%;background:#00a341}
-  .pp-stock.out{color:#5c5c5c}.pp-stock.out::before{background:#bbb}
-  .pp-var{display:flex;gap:8px;margin:14px 0}
-  .pp-var button{font:inherit;border:1px solid rgba(26,26,26,.2);background:#fff;border-radius:999px;padding:8px 18px;cursor:pointer}
-  .pp-var button[aria-pressed="true"]{border-color:#1a1a1a;outline:1px solid #1a1a1a}
-  .pp-var button.na{color:#999;text-decoration:line-through}
-  .pp-btns{display:grid;gap:10px;margin-top:16px}
-  .pp-btns button{font:600 15px Poppins,sans-serif;border-radius:60px;padding:15px;border:0;cursor:pointer}
-  .pp-add{background:#e91d23;color:#fff}
-  .pp-buy{background:#1a1a1a;color:#fff}
-  .pp-ship{font-size:13px;color:#5c5c5c;margin-top:12px}
-  .pp-fbt{margin-top:18px;background:#fff;border-radius:16px;padding:14px}
-  .pp-fbt b{font-size:13px;text-transform:uppercase;letter-spacing:.06em}
-  .pp-fbt div{display:flex;gap:12px;align-items:center;margin-top:10px;font-size:14px}
-  .pp-fbt img{width:56px;height:56px;border-radius:10px;background:#f0f0f0;object-fit:contain}
-  .pp-fbt a{margin-left:auto;font-size:13px;color:#1a1a1a}
-  .demo-toggle{max-width:1200px;margin:8px auto 0;padding:0 16px;font-size:13px;color:#5c5c5c}
-  @media (max-width:750px){.pp{grid-template-columns:1fr;gap:16px}.pp h1{font-size:34px}}
+  /* Doar pentru prototip (nu intră în temă). */
+  body{margin:0;background:#f4f5f7;font-family:Poppins,sans-serif;color:#14171f}
+  .demo-bar{background:#14171f;color:#fff;font-size:13px;padding:10px 16px;text-align:center}
+  .demo-bar b{color:#ff6b6f}
+  .demo-nav{max-width:1200px;margin:16px auto 0;padding:0 16px;display:flex;flex-wrap:wrap;gap:8px}
+  .demo-nav button{font:600 14px Poppins,sans-serif;border:1px solid rgba(20,23,31,.15);background:#fff;border-radius:999px;padding:9px 18px;cursor:pointer}
+  .demo-nav button[aria-pressed="true"]{background:#14171f;color:#fff;border-color:#14171f}
+  .demo-var{max-width:1200px;margin:10px auto 0;padding:0 16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:#6b7280}
+  .demo-var button{font:500 13px Poppins,sans-serif;border:1px solid rgba(20,23,31,.15);background:#fff;border-radius:999px;padding:6px 12px;cursor:pointer}
+  .demo-var button[aria-pressed="true"]{border-color:#14171f;outline:1px solid #14171f}
 </style>
 </head>
 <body>
-<div class="demo-bar">Prototip local, <b>nu e pe site</b>. Datele vin din <code>date/recovery-bcaa-500g.json</code>; în temă le-ar citi secțiunea Liquid din metafield-ul <code>prime.pagina_vizuala</code>.</div>
-
-<!-- Partea de sus a paginii (există deja în tema noastră; aici doar ca să se vadă întregul) -->
-<div class="pp">
-  <div class="pp-gal"><img id="pp-img" alt="Recovery BCAA 500 g" src="https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=900"></div>
-  <div>
-    <h1>Aminoacizi Recovery BCAA 4:1:1 – 500 g</h1>
-    <div class="pp-stars"><i>☆☆☆☆☆</i><span>Fii primul care lasă o recenzie (Judge.me)</span></div>
-    <div class="pp-price">105,00 lei <s>120,00 lei</s></div>
-    <div class="pp-stock" id="pp-stock">În stoc</div>
-    <div class="pp-var" id="pp-var">
-      <button type="button" data-v="Cherry" aria-pressed="true">Cherry</button>
-      <button type="button" data-v="Pear" class="na" aria-pressed="false">Pear</button>
-    </div>
-    <div class="pp-btns">
-      <button class="pp-add" type="button">Adaugă în coș</button>
-      <button class="pp-buy" type="button">Cumpără acum</button>
-    </div>
-    <div class="pp-ship">Blocul de livrare din temă („Ajunge marți…”) rămâne neschimbat.</div>
-    <div class="pp-fbt"><b>Merge perfect cu</b>
-      <div><img alt="" src="https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=120"><span>Aminoacizi esențiali EAA – tub de 500 g</span><a href="#">+ Adaugă</a></div>
-    </div>
-  </div>
-</div>
-<p class="demo-toggle">Sub partea de sus apare secțiunea nouă „Prime – pagină vizuală” (HTML-ul e generat din JSON exact ca în Liquid). Schimbă aroma de mai sus: poza și aroma evidențiată se schimbă și jos.</p>
-
+<div class="demo-bar">Prototip local, <b>nu e pe site</b>. Același HTML ca secțiunea Liquid; datele vin din <code>date/*.json</code> (metafield-ul <code>prime.pagina_vizuala</code>).</div>
+<nav class="demo-nav" id="demo-nav"></nav>
+<div class="demo-var" id="demo-var"></div>
 <div id="ppv-root"></div>
 
 <script type="application/json" id="ppv-data">
 {
-  "versiune": 1,
-  "handle": "recovery-bcaa-500g",
-  "sursa_datelor": "Eticheta tubului de 500 g (tabelul nutrițional, ingrediente, mod de administrare, atenționări), așa cum e transcrisă în metafield-urile custom.ingrediente și custom.detalii_produs (citite pe 15.11.2026).",
-  "badge": [
-    "BCAA 4:1:1",
-    "7100 mg BCAA",
-    "Vitamina B6",
-    "62 de porții"
-  ],
-  "titlu": "Recovery BCAA: 7100 mg de BCAA 4:1:1 în fiecare porție",
-  "intro": "O porție de [[8 g]] (aproximativ 2 măsuri) conține [[7100 mg BCAA]] în raport 4:1:1: [[4733,4 mg L-leucină]], 1183,3 mg L-izoleucină și 1183,3 mg L-valină. Plus [[1,5 mg vitamina B6]], adică 106% din valoarea nutrițională de referință, și [[0,0 g zaharuri]] per porție, conform tabelului nutrițional.",
-  "etichete": [
-    "BCAA 4:1:1",
-    "Cu vitamina B6",
-    "0,0 g zaharuri / porție",
-    "Sucraloză și acesulfam K",
-    "Pudră pentru băutură",
-    "Fabricat în UE"
-  ],
-  "cifre": [
-    {
-      "valoare": "7100",
-      "unitate": "mg",
-      "eticheta": "BCAA per porție"
-    },
-    {
-      "valoare": "4733",
-      "unitate": "mg",
-      "eticheta": "L-leucină per porție"
-    },
-    {
-      "valoare": "1,5",
-      "unitate": "mg",
-      "eticheta": "vitamina B6 (106% VNR)"
-    },
-    {
-      "valoare": "62",
-      "unitate": "",
-      "eticheta": "porții în tub"
-    }
-  ],
-  "mini_carduri": [
-    {
-      "titlu": "Porție",
-      "text": "8 g ≈ 2 măsuri, cu apă"
-    },
-    {
-      "titlu": "Pe zi",
-      "text": "2–4 porții, după etichetă"
-    }
-  ],
-  "card_formula": {
-    "eticheta": "Ce primești într-o porție",
-    "titlu": "Porția de 8 g, din tabelul nutrițional",
-    "randuri": [
+  "recovery-bcaa-500g": {
+    "versiune": 1,
+    "handle": "recovery-bcaa-500g",
+    "tema": "verde",
+    "nota_cifre": "Valori per porție de 8 g, din tabelul nutrițional de pe tub.",
+    "sursa_datelor": "Eticheta tubului de 500 g (tabelul nutrițional, ingrediente, mod de administrare, atenționări), așa cum e transcrisă în metafield-urile custom.ingrediente și custom.detalii_produs (citite pe 15.11.2026).",
+    "badge": [
+      "BCAA 4:1:1",
+      "7100 mg BCAA",
+      "Vitamina B6",
+      "62 de porții"
+    ],
+    "titlu": "Recovery BCAA: 7100 mg de BCAA 4:1:1 în fiecare porție",
+    "intro": "O porție de [[8 g]] (aproximativ 2 măsuri) conține [[7100 mg BCAA]] în raport 4:1:1: [[4733,4 mg L-leucină]], 1183,3 mg L-izoleucină și 1183,3 mg L-valină. Plus [[1,5 mg vitamina B6]], adică 106% din valoarea nutrițională de referință, și [[0,0 g zaharuri]] per porție, conform tabelului nutrițional.",
+    "etichete": [
+      "BCAA 4:1:1",
+      "Cu vitamina B6",
+      "0,0 g zaharuri / porție",
+      "Sucraloză și acesulfam K",
+      "Pudră pentru băutură",
+      "Fabricat în UE"
+    ],
+    "cifre": [
       {
-        "nume": "Valoare energetică",
-        "valoare": "28,2 kcal"
+        "valoare": "7100",
+        "unitate": "mg",
+        "eticheta": "BCAA per porție"
       },
       {
-        "nume": "Proteine (ca aminoacizi liberi)",
-        "valoare": "7,1 g"
+        "valoare": "4733",
+        "unitate": "mg",
+        "eticheta": "L-leucină per porție"
       },
       {
-        "nume": "Carbohidrați / zaharuri",
-        "valoare": "0,0 g / 0,0 g"
+        "valoare": "1,5",
+        "unitate": "mg",
+        "eticheta": "vitamina B6 (106% VNR)"
       },
       {
-        "nume": "BCAA 4:1:1",
-        "valoare": "7100 mg"
-      },
-      {
-        "nume": "Vitamina B6",
-        "valoare": "1,5 mg (106% VNR)"
+        "valoare": "62",
+        "unitate": "",
+        "eticheta": "porții în tub"
       }
-    ]
-  },
-  "card_puncte": {
-    "titlu": "Ce are Recovery BCAA",
-    "puncte": [
-      "Doar cei trei aminoacizi cu catenă ramificată, în raport 4:1:1",
-      "Leucina are partea cea mai mare: 4733,4 mg din 7100 mg",
-      "Vitamina B6 adăugată: 1,5 mg per porție",
-      "Momentul îl alegi tu: înainte, în timpul sau după antrenament",
-      "Tub de 500 g, 62 de porții",
-      "Fabricat în UE, într-o unitate certificată ISO și HACCP"
-    ]
-  },
-  "carduri_ingrediente": {
-    "titlu": "Ce face fiecare ingredient",
-    "carduri": [
+    ],
+    "mini_carduri": [
       {
-        "cod": "LEU",
-        "titlu": "L-leucină · 4733,4 mg",
-        "text": "Aminoacid esențial: organismul nu îl poate produce, îl iei din alimentație. În raportul 4:1:1 are patru părți din șase."
+        "titlu": "Porție",
+        "text": "8 g ≈ 2 măsuri, cu apă"
       },
       {
-        "cod": "ILE",
-        "titlu": "L-izoleucină · 1183,3 mg",
-        "text": "Al doilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
-      },
-      {
-        "cod": "VAL",
-        "titlu": "L-valină · 1183,3 mg",
-        "text": "Al treilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
-      },
-      {
-        "cod": "B6",
-        "titlu": "Vitamina B6 · 1,5 mg",
-        "text": "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului și la reducerea oboselii și extenuării.",
-        "mentiune_autorizata": true
-      },
-      {
-        "cod": "0 g",
-        "titlu": "Zaharuri · 0,0 g",
-        "text": "Per porție, conform tabelului nutrițional. Gustul dulce vine din sucraloză și acesulfam de potasiu."
-      },
-      {
-        "cod": "ARO",
-        "titlu": "Două arome",
-        "text": "Cherry (cireșe) și Pear (pere). Le alegi din selectorul de mai sus."
+        "titlu": "Pe zi",
+        "text": "2–4 porții, după etichetă"
       }
+    ],
+    "card_formula": {
+      "eticheta": "Ce primești într-o porție",
+      "titlu": "Porția de 8 g, din tabelul nutrițional",
+      "randuri": [
+        {
+          "nume": "Valoare energetică",
+          "valoare": "28,2 kcal"
+        },
+        {
+          "nume": "Proteine (ca aminoacizi liberi)",
+          "valoare": "7,1 g"
+        },
+        {
+          "nume": "Carbohidrați / zaharuri",
+          "valoare": "0,0 g / 0,0 g"
+        },
+        {
+          "nume": "BCAA 4:1:1",
+          "valoare": "7100 mg"
+        },
+        {
+          "nume": "Vitamina B6",
+          "valoare": "1,5 mg (106% VNR)"
+        }
+      ]
+    },
+    "card_puncte": {
+      "titlu": "Ce are Recovery BCAA",
+      "puncte": [
+        "Doar cei trei aminoacizi cu catenă ramificată, în raport 4:1:1",
+        "Leucina are partea cea mai mare: 4733,4 mg din 7100 mg",
+        "Vitamina B6 adăugată: 1,5 mg per porție",
+        "Momentul îl alegi tu: înainte, în timpul sau după antrenament",
+        "Tub de 500 g, 62 de porții",
+        "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+      ]
+    },
+    "carduri_ingrediente": {
+      "titlu": "Ce face fiecare ingredient",
+      "carduri": [
+        {
+          "cod": "LEU",
+          "titlu": "L-leucină · 4733,4 mg",
+          "text": "Aminoacid esențial: organismul nu îl poate produce, îl iei din alimentație. În raportul 4:1:1 are patru părți din șase."
+        },
+        {
+          "cod": "ILE",
+          "titlu": "L-izoleucină · 1183,3 mg",
+          "text": "Al doilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
+        },
+        {
+          "cod": "VAL",
+          "titlu": "L-valină · 1183,3 mg",
+          "text": "Al treilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
+        },
+        {
+          "cod": "B6",
+          "titlu": "Vitamina B6 · 1,5 mg",
+          "text": "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului și la reducerea oboselii și extenuării.",
+          "mentiune_autorizata": true
+        },
+        {
+          "cod": "0 g",
+          "titlu": "Zaharuri · 0,0 g",
+          "text": "Per porție, conform tabelului nutrițional. Gustul dulce vine din sucraloză și acesulfam de potasiu."
+        },
+        {
+          "cod": "ARO",
+          "titlu": "Două arome",
+          "text": "Cherry (cireșe) și Pear (pere). Le alegi din selectorul de mai sus."
+        }
+      ]
+    },
+    "arome": [
+      {
+        "varianta": "Cherry",
+        "nume": "Cherry (cireșe)",
+        "nota": "Aromă de cireșe; aromele și colorantul sunt trecute pe eticheta tubului."
+      },
+      {
+        "varianta": "Pear",
+        "nume": "Pear (pere)",
+        "nota": "Culoarea vine din colorantul de pe etichetă: săruri de sodiu sau potasiu ale complecșilor clorofilină-cupru."
+      }
+    ],
+    "mod_de_folosire": "Amestecă 8 g (aproximativ 2 măsuri) cu cantitatea dorită de apă, de 2–4 ori pe zi. Nu depăși doza zilnică recomandată.",
+    "de_verificat": [
+      "arome[0]: ingredientele de aromă și colorantul pentru Cherry nu sunt transcrise în magazin (de citit de pe tub)"
     ]
   },
-  "arome": [
-    {
-      "varianta": "Cherry",
-      "nume": "Cherry (cireșe)",
-      "nota": "Aromă de cireșe; aromele și colorantul sunt trecute pe eticheta tubului."
+  "creatina-creapure": {
+    "versiune": 1,
+    "handle": "creatina-creapure",
+    "tema": "albastru",
+    "imagine": {
+      "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-creatina-creapure-nitrox-3d-vitamina-c-1.jpg?v=1794336057",
+      "alt": "Cutie de creatină Prime Creatine Creapure lângă Nitrox 3D și un flacon de Vitamina C 1000"
     },
-    {
-      "varianta": "Pear",
-      "nume": "Pear (pere)",
-      "nota": "Culoarea vine din colorantul de pe etichetă: săruri de sodiu sau potasiu ale complecșilor clorofilină-cupru."
-    }
-  ],
-  "mod_de_folosire": "Amestecă 8 g (aproximativ 2 măsuri) cu cantitatea dorită de apă, de 2–4 ori pe zi. Nu depăși doza zilnică recomandată.",
-  "de_verificat": [
-    "arome[0]: ingredientele de aromă și colorantul pentru Cherry nu sunt transcrise în magazin (de citit de pe tub)"
-  ]
+    "nota_cifre": "Doza zilnică recomandată pe etichetă: 3–5 g de creatină.",
+    "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului (transcrierea etichetei tubului), citite prin Admin API pe 15.11.2026.",
+    "badge": [
+      "Creapure®",
+      "Monohidrată micronizată",
+      "5 g / porție",
+      "100 de porții"
+    ],
+    "titlu": "Creatină Creapure®: un singur ingredient, 5 g pe porție",
+    "intro": "O porție de [[5 g]] de pulbere înseamnă [[creatină monohidrată micronizată (Creapure®)]], singurul ingredient de pe etichetă: fără arome, îndulcitori sau coloranți. Doza zilnică recomandată este de [[3–5 g]], iar efectul benefic se obține la un aport zilnic de [[3 g]] de creatină.",
+    "etichete": [
+      "1 ingredient",
+      "Fără aromă",
+      "Fără îndulcitori",
+      "Fără coloranți",
+      "Tub de 300 g sau 500 g",
+      "Pentru adulți"
+    ],
+    "cifre": [
+      {
+        "valoare": "5",
+        "unitate": "g",
+        "eticheta": "creatină per porție"
+      },
+      {
+        "valoare": "3–5",
+        "unitate": "g",
+        "eticheta": "doza zilnică recomandată"
+      },
+      {
+        "valoare": "100",
+        "unitate": "",
+        "eticheta": "porții în tubul de 500 g"
+      },
+      {
+        "valoare": "60",
+        "unitate": "",
+        "eticheta": "porții în tubul de 300 g"
+      }
+    ],
+    "mini_carduri": [
+      {
+        "titlu": "Porție",
+        "text": "5 g de pulbere"
+      },
+      {
+        "titlu": "Se amestecă",
+        "text": "în apă sau în shake-ul proteic"
+      }
+    ],
+    "card_formula": {
+      "eticheta": "Ce scrie pe etichetă",
+      "titlu": "Ingredient, porție și gramaje",
+      "randuri": [
+        {
+          "nume": "Ingredient",
+          "valoare": "creatină monohidrată (Creapure®)"
+        },
+        {
+          "nume": "Porție",
+          "valoare": "5 g"
+        },
+        {
+          "nume": "Doza zilnică recomandată",
+          "valoare": "3–5 g"
+        },
+        {
+          "nume": "Tub de 300 g",
+          "valoare": "60 de porții"
+        },
+        {
+          "nume": "Tub de 500 g",
+          "valoare": "100 de porții"
+        }
+      ]
+    },
+    "card_puncte": {
+      "titlu": "Ce are Creatina Creapure®",
+      "puncte": [
+        "Un singur ingredient: creatină monohidrată micronizată",
+        "Creapure®, marca declarată pe fața tubului",
+        "Fără arome, îndulcitori sau coloranți în lista de ingrediente",
+        "Se amestecă în apă sau în shake-ul proteic",
+        "Două gramaje: 300 g (60 de porții) sau 500 g (100 de porții)",
+        "Pentru adulții care fac antrenamente de mare intensitate"
+      ]
+    },
+    "carduri_ingrediente": {
+      "titlu": "Ce face fiecare ingredient",
+      "carduri": [
+        {
+          "cod": "CRE",
+          "titlu": "Creatină monohidrată · 5 g",
+          "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+          "mentiune_autorizata": true
+        },
+        {
+          "cod": "®",
+          "titlu": "Creapure®",
+          "text": "Marcă înregistrată de creatină monohidrată, declarată pe fața tubului."
+        },
+        {
+          "cod": "0",
+          "titlu": "Fără adaosuri",
+          "text": "Lista de ingrediente are un singur element: nu conține arome, îndulcitori sau coloranți."
+        },
+        {
+          "cod": "H2O",
+          "titlu": "Lichide",
+          "text": "Pe durata utilizării consumi suficiente lichide pe parcursul zilei, cum cere eticheta."
+        }
+      ]
+    },
+    "arome": [],
+    "mod_de_folosire": "3–5 g de creatină pe zi, amestecate în apă sau în shake-ul proteic. Pe durata utilizării consumă suficiente lichide pe parcursul zilei. Nu depăși doza zilnică recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
+    "de_verificat": []
+  },
+  "prime-whey-2000g": {
+    "versiune": 1,
+    "handle": "prime-whey-2000g",
+    "tema": "rosu",
+    "imagine": {
+      "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-prime-whey-4.jpg?v=1794336094",
+      "alt": "Sportivă în top alb Prime ținând un tub de Prime Whey 2 kg, în aer liber"
+    },
+    "nota_cifre": "Proteinele variază puțin de la o aromă la alta; 24,4 g la Bourbon Vanilla, conform declarației nutriționale.",
+    "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului (transcrierea etichetei tubului, declarația nutrițională Bourbon Vanilla), citite prin Admin API pe 15.11.2026.",
+    "badge": [
+      "Concentrat proteic din zer",
+      "24 g proteine / porție",
+      "66 de porții",
+      "7 arome"
+    ],
+    "titlu": "Prime Whey 2 kg: în jur de 24 g de proteine în fiecare porție",
+    "intro": "O porție de [[30 g]] (o măsură) are în jur de [[24 g de proteine]], în funcție de aromă: [[24,4 g]] la Bourbon Vanilla, conform declarației nutriționale de pe tub. Tubul de [[2 kg]] are [[66 de porții]], în șapte arome, cu glicină și L-lizină adăugate.",
+    "etichete": [
+      "Concentrat proteic din zer",
+      "Glicină și L-lizină",
+      "Sucraloză și acesulfam-K",
+      "7 arome",
+      "Conține lapte",
+      "Fabricat în UE"
+    ],
+    "cifre": [
+      {
+        "valoare": "24",
+        "unitate": "g",
+        "eticheta": "proteine per porție (în funcție de aromă)"
+      },
+      {
+        "valoare": "30",
+        "unitate": "g",
+        "eticheta": "o porție = o măsură"
+      },
+      {
+        "valoare": "66",
+        "unitate": "",
+        "eticheta": "porții în tub"
+      },
+      {
+        "valoare": "7",
+        "unitate": "",
+        "eticheta": "arome"
+      }
+    ],
+    "mini_carduri": [
+      {
+        "titlu": "Porție",
+        "text": "30 g cu 150–200 ml de apă sau lapte"
+      },
+      {
+        "titlu": "Pe zi",
+        "text": "1–4 porții, după necesarul proteic"
+      }
+    ],
+    "card_formula": {
+      "eticheta": "Ce primești într-o porție",
+      "titlu": "Porția de 30 g, aroma Bourbon Vanilla",
+      "randuri": [
+        {
+          "nume": "Valoare energetică",
+          "valoare": "120,9 kcal"
+        },
+        {
+          "nume": "Proteine",
+          "valoare": "24,4 g"
+        },
+        {
+          "nume": "Carbohidrați / zaharuri",
+          "valoare": "1,3 g / 1,3 g"
+        },
+        {
+          "nume": "Grăsimi / saturate",
+          "valoare": "2,0 g / 1,1 g"
+        },
+        {
+          "nume": "Sare",
+          "valoare": "0,13 g"
+        }
+      ]
+    },
+    "card_puncte": {
+      "titlu": "Ce are Prime Whey",
+      "puncte": [
+        "Concentrat proteic din zer ca bază",
+        "Glicină și L-lizină adăugate, trecute pe etichetă",
+        "Îndulcit cu sucraloză și acesulfam-K",
+        "Șapte arome, de la Salted Caramel la Blueberry Vanilla",
+        "O măsură se amestecă cu 150–200 ml de apă sau lapte",
+        "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+      ]
+    },
+    "carduri_ingrediente": {
+      "titlu": "Ce face fiecare ingredient",
+      "carduri": [
+        {
+          "cod": "WPC",
+          "titlu": "Concentrat proteic din zer",
+          "text": "Sursa de proteine a formulei. Proteinele contribuie la creșterea masei musculare și la menținerea masei musculare.",
+          "mentiune_autorizata": true
+        },
+        {
+          "cod": "GLY",
+          "titlu": "Glicină",
+          "text": "Aminoacid adăugat în formulă, trecut în lista de ingrediente."
+        },
+        {
+          "cod": "LYS",
+          "titlu": "L-lizină",
+          "text": "Aminoacid esențial adăugat în formulă, trecut în lista de ingrediente."
+        },
+        {
+          "cod": "SUC",
+          "titlu": "Îndulcitori",
+          "text": "Sucraloză și acesulfam-K; 1,3 g zaharuri per porție la Bourbon Vanilla."
+        },
+        {
+          "cod": "LAP",
+          "titlu": "Alergeni",
+          "text": "Conține lapte (zer). Poate conține urme de ou, soia și gluten."
+        },
+        {
+          "cod": "7",
+          "titlu": "Șapte arome",
+          "text": "Lista exactă de ingrediente diferă ușor de la o aromă la alta; o alegi din selectorul de mai sus."
+        }
+      ]
+    },
+    "arome": [
+      {
+        "varianta": "Strawberry Cheesecake",
+        "nume": "Strawberry Cheesecake (cheesecake cu căpșuni)",
+        "nota": "Valorile nutriționale sunt apropiate de Bourbon Vanilla; cele exacte sunt pe tub."
+      },
+      {
+        "varianta": "Toffee Chocolate",
+        "nume": "Toffee Chocolate",
+        "nota": "Valorile nutriționale sunt apropiate de Bourbon Vanilla; cele exacte sunt pe tub."
+      },
+      {
+        "varianta": "White Chocolate Raspberry",
+        "nume": "White Chocolate Raspberry (ciocolată albă cu zmeură)",
+        "nota": "Valorile nutriționale sunt apropiate de Bourbon Vanilla; cele exacte sunt pe tub."
+      },
+      {
+        "varianta": "Bourbon Vanilla",
+        "nume": "Bourbon Vanilla (vanilie Bourbon)",
+        "nota": "Valorile nutriționale din cardul de mai sus sunt pentru această aromă: 24,4 g proteine per porție."
+      },
+      {
+        "varianta": "Chocolate Coconut",
+        "nume": "Chocolate Coconut (ciocolată cu cocos)",
+        "nota": "Valorile nutriționale sunt apropiate de Bourbon Vanilla; cele exacte sunt pe tub."
+      },
+      {
+        "varianta": "Blueberry Vanilla",
+        "nume": "Blueberry Vanilla (afine cu vanilie)",
+        "nota": "Valorile nutriționale sunt apropiate de Bourbon Vanilla; cele exacte sunt pe tub."
+      },
+      {
+        "varianta": "Salted Caramel",
+        "nume": "Salted Caramel (caramel sărat)",
+        "nota": "Eticheta mai trece cacao cu conținut redus de grăsimi și potențiator de arome (clorură de sodiu)."
+      }
+    ],
+    "mod_de_folosire": "O măsură (30 g) cu 150–200 ml de apă sau lapte, de 1–4 ori pe zi, în funcție de necesarul proteic. Nu depăși doza recomandată pentru consumul zilnic.",
+    "de_verificat": [
+      "arome: declarația nutrițională și ingredientele exacte sunt transcrise doar pentru Bourbon Vanilla (și ingredientele în plus la Salted Caramel); restul aromelor de citit de pe tub"
+    ]
+  }
 }
 </script>
 <script>
-  // Același HTML ca secțiunea Liquid prime-pagina-vizuala.liquid (în prototip e randat în browser).
-  var d = JSON.parse(document.getElementById('ppv-data').textContent);
-  var imgs = {
-    Cherry: 'https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717',
-    Pear: 'https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717'
+  // Imaginile variantelor (în temă vin din Shopify; aici doar pentru produsele fără poză din ședință).
+  var VAR_IMG = {
+    'recovery-bcaa-500g': {
+      Cherry: 'https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717',
+      Pear: 'https://cdn.shopify.com/s/files/1/0917/5138/3415/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717'
+    }
   };
-  var avail = { Cherry: true, Pear: false };
+  var ALL = JSON.parse(document.getElementById('ppv-data').textContent);
   function e(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function todo(s) { return e(s).replace(/DE VERIFICAT/g, '<span class="ppv-todo">DE VERIFICAT</span>'); }
   function hl(s) { return todo(s).replace(/\[\[/g, '<strong class="ppv-hl">').replace(/\]\]/g, '</strong>'); }
   function list(a, f) { return (a || []).map(f).join(''); }
-  var h = '';
-  h += '<section class="ppv" id="ppv-demo" style="padding:24px 0 48px"><div class="ppv__wrap">';
-  h += '<div class="ppv-card ppv-hero"><div>';
-  h += '<p class="ppv-badge">' + list(d.badge, function (b) { return '<span>' + e(b) + '</span>'; }) + '</p>';
-  h += '<h2>' + e(d.titlu) + '</h2><p class="ppv-intro">' + hl(d.intro) + '</p>';
-  h += '<ul class="ppv-tags">' + list(d.etichete, function (t) { return '<li>' + e(t) + '</li>'; }) + '</ul></div>';
-  h += '<figure class="ppv-media"><div class="ppv-media__img"><img data-ppv-img alt="Recovery BCAA 500 g" loading="lazy" src="' + imgs.Cherry + '&width=900"></div><div class="ppv-minis">';
-  h += list(d.mini_carduri, function (m) { return '<div class="ppv-mini"><b>' + e(m.titlu) + '</b><span>' + e(m.text) + '</span></div>'; });
-  h += '</div></figure></div>';
-  h += '<ul class="ppv-stats">' + list(d.cifre, function (c) { return '<li class="ppv-stat"><div class="ppv-stat__v">' + e(c.valoare) + (c.unitate ? '<small>' + e(c.unitate) + '</small>' : '') + '</div><div class="ppv-stat__l">' + e(c.eticheta) + '</div></li>'; }) + '</ul>';
-  h += '<div class="ppv-two"><div class="ppv-card"><span class="ppv-kicker">' + e(d.card_formula.eticheta) + '</span><h3>' + e(d.card_formula.titlu) + '</h3><ul class="ppv-rows">';
-  h += list(d.card_formula.randuri, function (r) { return '<li><span>' + e(r.nume) + '</span><b>' + e(r.valoare) + '</b></li>'; }) + '</ul></div>';
-  h += '<div class="ppv-card"><span class="ppv-kicker">Pe scurt</span><h3>' + e(d.card_puncte.titlu) + '</h3><ul class="ppv-checks">' + list(d.card_puncte.puncte, function (p) { return '<li>' + e(p) + '</li>'; }) + '</ul></div></div>';
-  h += '<div class="ppv-card"><span class="ppv-kicker">Formula</span><h3>' + e(d.carduri_ingrediente.titlu) + '</h3><div class="ppv-grid">';
-  h += list(d.carduri_ingrediente.carduri, function (c) { return '<div class="ppv-ing"><span class="ppv-ing__code" aria-hidden="true">' + e(c.cod) + '</span><h4>' + e(c.titlu) + '</h4><p>' + e(c.text) + '</p></div>'; }) + '</div></div>';
-  h += '<div class="ppv-two"><div class="ppv-card"><span class="ppv-kicker">Arome</span><h3>' + d.arome.length + ' arome</h3><ul class="ppv-flav">';
-  h += list(d.arome, function (a) { return '<li data-ppv-flavour="' + e(a.varianta) + '" aria-current="' + (a.varianta === 'Cherry') + '"><b>' + e(a.nume) + '</b><span>' + todo(a.nota) + '</span></li>'; }) + '</ul></div>';
-  h += '<div class="ppv-card"><span class="ppv-kicker">Mod de folosire</span><h3>Cum îl prepari</h3><p>' + e(d.mod_de_folosire) + '</p><p class="ppv-note">Supliment alimentar. Nu înlocuiește o dietă variată și echilibrată și un stil de viață sănătos.</p></div></div>';
-  h += '</div></section>';
-  document.getElementById('ppv-root').innerHTML = h;
+  function w(u, n) { return u + (u.indexOf('?') > -1 ? '&' : '?') + 'width=' + n; }
 
-  // Schimbarea aromei: în temă vine evenimentul variant:change din Impact; aici îl simulăm.
-  document.getElementById('pp-var').addEventListener('click', function (ev) {
+  function render(h, variant) {
+    var d = ALL[h];
+    var tema = ['albastru', 'verde', 'mov', 'portocaliu', 'roz'].indexOf(d.tema) > -1 ? d.tema : 'rosu';
+    var vimg = VAR_IMG[h] && VAR_IMG[h][variant];
+    var o = '<section class="ppv ppv--' + tema + '" id="ppv-demo" style="padding:24px 0 56px"><div class="ppv__wrap">';
+    o += '<div class="ppv-panel ppv-hero"><div>';
+    o += '<p class="ppv-badge">' + list(d.badge, function (b) { return '<span>' + e(b) + '</span>'; }) + '</p>';
+    o += '<h2>' + e(d.titlu) + '</h2><p class="ppv-intro">' + hl(d.intro) + '</p>';
+    o += '<ul class="ppv-tags">' + list(d.etichete, function (t) { return '<li>' + e(t) + '</li>'; }) + '</ul>';
+    o += '<ul class="ppv-stats">' + list(d.cifre, function (c) { return '<li class="ppv-stat"><div class="ppv-stat__v">' + e(c.valoare) + (c.unitate ? '<small>' + e(c.unitate) + '</small>' : '') + '</div><div class="ppv-stat__l">' + e(c.eticheta) + '</div></li>'; }) + '</ul>';
+    if (d.nota_cifre) o += '<p class="ppv-footnote">' + e(d.nota_cifre) + '</p>';
+    o += '</div>';
+    if (d.imagine && d.imagine.url) o += '<figure class="ppv-media"><img alt="' + e(d.imagine.alt) + '" src="' + w(d.imagine.url, 900) + '">';
+    else o += '<figure class="ppv-media ppv-media--produs"><img alt="" src="' + (vimg ? w(vimg, 900) : '') + '">';
+    o += '<div class="ppv-minis">' + list(d.mini_carduri, function (m) { return '<div class="ppv-mini"><b>' + e(m.titlu) + '</b><span>' + e(m.text) + '</span></div>'; }) + '</div></figure></div>';
+    o += '<div class="ppv-two"><div class="ppv-card ppv-card--tint"><span class="ppv-kicker">' + e(d.card_formula.eticheta) + '</span><h3>' + e(d.card_formula.titlu) + '</h3><ul class="ppv-rows">';
+    o += list(d.card_formula.randuri, function (r) { return '<li><span>' + e(r.nume) + '</span><b>' + e(r.valoare) + '</b></li>'; }) + '</ul></div>';
+    o += '<div class="ppv-card"><span class="ppv-kicker">Pe scurt</span><h3>' + e(d.card_puncte.titlu) + '</h3><ul class="ppv-checks">' + list(d.card_puncte.puncte, function (p) { return '<li>' + e(p) + '</li>'; }) + '</ul></div></div>';
+    o += '<div><div class="ppv-head"><span class="ppv-kicker">Formula</span><h3>' + e(d.carduri_ingrediente.titlu) + '</h3></div><div class="ppv-grid">';
+    o += list(d.carduri_ingrediente.carduri, function (c) { return '<div class="ppv-ing"><span class="ppv-ing__code" aria-hidden="true">' + e(c.cod) + '</span><h4>' + e(c.titlu) + '</h4><p>' + e(c.text) + '</p></div>'; }) + '</div></div>';
+    o += '<div class="ppv-two">';
+    if (d.arome && d.arome.length) {
+      o += '<div class="ppv-card"><span class="ppv-kicker">Arome</span><h3>' + d.arome.length + (d.arome.length === 1 ? ' aromă' : ' arome') + '</h3><ul class="ppv-flav">';
+      o += list(d.arome, function (a) { return '<li data-ppv-flavour="' + e(a.varianta) + '" aria-current="' + (a.varianta === variant) + '"><b>' + e(a.nume) + '</b><span>' + todo(a.nota) + '</span></li>'; }) + '</ul></div>';
+    }
+    o += '<div class="ppv-card ppv-card--tint"><span class="ppv-kicker">Mod de folosire</span><h3>Cum îl prepari</h3><p>' + e(d.mod_de_folosire) + '</p><p class="ppv-note">Supliment alimentar. Nu înlocuiește o dietă variată și echilibrată și un stil de viață sănătos.</p></div></div>';
+    o += '</div></section>';
+    document.getElementById('ppv-root').innerHTML = o;
+
+    var vs = document.getElementById('demo-var');
+    vs.innerHTML = d.arome && d.arome.length ? 'Aromă (simulează selectorul din pagină): ' + list(d.arome, function (a) { return '<button type="button" data-v="' + e(a.varianta) + '" aria-pressed="' + (a.varianta === variant) + '">' + e(a.varianta) + '</button>'; }) : '';
+    vs.onclick = function (ev) { var b = ev.target.closest('button'); if (b) render(h, b.getAttribute('data-v')); };
+  }
+
+  var nav = document.getElementById('demo-nav');
+  var handles = Object.keys(ALL);
+  nav.innerHTML = list(handles, function (h, i) { return '<button type="button" data-h="' + h + '" aria-pressed="' + (i === 0) + '">' + e(ALL[h].card_puncte.titlu.replace(/^Ce are /, '')) + '</button>'; });
+  nav.onclick = function (ev) {
     var b = ev.target.closest('button'); if (!b) return;
-    var v = b.getAttribute('data-v');
-    this.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
-    document.getElementById('pp-img').src = imgs[v] + '&width=900';
-    var st = document.getElementById('pp-stock');
-    st.textContent = avail[v] ? 'În stoc' : 'Momentan indisponibil';
-    st.className = 'pp-stock' + (avail[v] ? '' : ' out');
-    document.dispatchEvent(new CustomEvent('variant:change', { detail: { variant: { title: v, featured_image: { src: imgs[v] } } } }));
-  });
-  document.addEventListener('variant:change', function (ev) {
-    var v = ev.detail.variant, root = document.getElementById('ppv-demo');
-    root.querySelectorAll('[data-ppv-flavour]').forEach(function (li) { li.setAttribute('aria-current', li.getAttribute('data-ppv-flavour') === v.title); });
-    root.querySelector('.ppv-media__img img').src = v.featured_image.src + '&width=900';
-  });
+    nav.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+    var h = b.getAttribute('data-h'); render(h, ALL[h].arome && ALL[h].arome[0] ? ALL[h].arome[0].varianta : null);
+  };
+  render(handles[0], ALL[handles[0]].arome && ALL[handles[0]].arome[0] ? ALL[handles[0]].arome[0].varianta : null);
 </script>
 </body>
 </html>

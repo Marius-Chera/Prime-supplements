@@ -1,20 +1,23 @@
 {%- comment -%}
-  Prime – pagina de produs vizuală (varianta B). NU e urcată în tema live.
-  Datele vin dintr-un singur metafield JSON: product.metafields.prime.pagina_vizuala
-  (structura: pagina-produs-vizuala/date/*.json, verificată de scripts/valideaza-pagina-vizuala.mjs).
-  Dacă produsul nu are metafield-ul, secțiunea nu afișează nimic (restul paginii rămâne cum e).
-  Tot HTML-ul e randat pe server (vizibil pentru Google), fără aplicații externe.
-  Textul [[...]] din intro devine valoare evidențiată.
+  Prime – pagina de produs vizuală, v2 (15.11.2026). Doar pe tema PILOT nepublicată până la aprobarea lui Marius.
+  Datele vin din metafield-ul JSON product.metafields.prime.pagina_vizuala (repo: pagina-produs-vizuala/date/*.json,
+  verificate cu scripts/valideaza-pagina-vizuala.mjs). Fără metafield, secțiunea nu afișează nimic.
+  Câmpuri opționale v2: tema (rosu|albastru|verde|mov|portocaliu|roz), imagine {url, alt} = poză din ședințele foto
+  (Shopify Files), nota_cifre. Fără „imagine” se folosește poza variantei, pe fundal alb.
+  Textul [[...]] din intro devine valoare evidențiată. Tot HTML-ul e randat pe server.
 {%- endcomment -%}
 {%- assign d = product.metafields.prime.pagina_vizuala.value -%}
 {%- if d != blank and d.titlu != blank -%}
 {{ 'prime-pagina-vizuala.css' | asset_url | stylesheet_tag }}
 {%- assign v = product.selected_or_first_available_variant -%}
-{%- assign img = v.featured_image | default: product.featured_image -%}
-<section class="ppv" id="ppv-{{ section.id }}" style="padding:{{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px">
+{%- assign tema = 'rosu' -%}
+{%- case d.tema -%}
+  {%- when 'albastru', 'verde', 'mov', 'portocaliu', 'roz' -%}{%- assign tema = d.tema -%}
+{%- endcase -%}
+<section class="ppv ppv--{{ tema }}" id="ppv-{{ section.id }}" style="padding:{{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px">
   <div class="ppv__wrap">
 
-    <div class="ppv-card ppv-hero">
+    <div class="ppv-panel ppv-hero">
       <div>
         {%- if d.badge.size > 0 -%}
           <p class="ppv-badge">{% for b in d.badge %}<span>{{ b | escape }}</span>{% endfor %}</p>
@@ -26,37 +29,44 @@
         {%- if d.etichete.size > 0 -%}
           <ul class="ppv-tags">{% for t in d.etichete %}<li>{{ t | escape }}</li>{% endfor %}</ul>
         {%- endif -%}
-      </div>
-      <figure class="ppv-media">
-        {%- if img -%}
-          <div class="ppv-media__img">
-            {{ img | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(max-width: 900px) 90vw, 480px', widths: '360,540,720,900', alt: img.alt }}
-          </div>
-        {%- endif -%}
-        {%- if d.mini_carduri.size > 0 -%}
-          <div class="ppv-minis">
-            {%- for m in d.mini_carduri limit: 2 -%}
-              <div class="ppv-mini"><b>{{ m.titlu | escape }}</b><span>{{ m.text | escape }}</span></div>
+        {%- if d.cifre.size > 0 -%}
+          <ul class="ppv-stats">
+            {%- for c in d.cifre limit: 4 -%}
+              <li class="ppv-stat">
+                <div class="ppv-stat__v">{{ c.valoare | escape }}{% if c.unitate != blank %}<small>{{ c.unitate | escape }}</small>{% endif %}</div>
+                <div class="ppv-stat__l">{{ c.eticheta | escape }}</div>
+              </li>
             {%- endfor -%}
-          </div>
+          </ul>
+          {%- if d.nota_cifre != blank -%}<p class="ppv-footnote">{{ d.nota_cifre | escape }}</p>{%- endif -%}
         {%- endif -%}
-      </figure>
-    </div>
+      </div>
 
-    {%- if d.cifre.size > 0 -%}
-      <ul class="ppv-stats">
-        {%- for c in d.cifre limit: 4 -%}
-          <li class="ppv-stat">
-            <div class="ppv-stat__v">{{ c.valoare | escape }}{% if c.unitate != blank %}<small>{{ c.unitate | escape }}</small>{% endif %}</div>
-            <div class="ppv-stat__l">{{ c.eticheta | escape }}</div>
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+      {%- if d.imagine.url != blank -%}
+        {%- assign src = d.imagine.url | append: '' -%}
+        {%- if src contains '?' -%}{%- assign sep = '&' -%}{%- else -%}{%- assign sep = '?' -%}{%- endif -%}
+        <figure class="ppv-media">
+          <img src="{{ src | append: sep | append: 'width=900' }}"
+               srcset="{{ src | append: sep }}width=480 480w, {{ src | append: sep }}width=720 720w, {{ src | append: sep }}width=900 900w, {{ src | append: sep }}width=1200 1200w"
+               sizes="(max-width: 920px) 90vw, 460px" alt="{{ d.imagine.alt | escape }}" loading="lazy" width="900" height="1125">
+      {%- else -%}
+        {%- assign img = v.featured_image | default: product.featured_image -%}
+        <figure class="ppv-media ppv-media--produs">
+          {%- if img -%}{{ img | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(max-width: 920px) 90vw, 460px', widths: '360,540,720,900', alt: img.alt }}{%- endif -%}
+      {%- endif -%}
+          {%- if d.mini_carduri.size > 0 -%}
+            <div class="ppv-minis">
+              {%- for m in d.mini_carduri limit: 2 -%}
+                <div class="ppv-mini"><b>{{ m.titlu | escape }}</b><span>{{ m.text | escape }}</span></div>
+              {%- endfor -%}
+            </div>
+          {%- endif -%}
+        </figure>
+    </div>
 
     <div class="ppv-two">
       {%- if d.card_formula -%}
-        <div class="ppv-card">
+        <div class="ppv-card ppv-card--tint">
           <span class="ppv-kicker">{{ d.card_formula.eticheta | escape }}</span>
           <h3>{{ d.card_formula.titlu | escape }}</h3>
           <ul class="ppv-rows">
@@ -74,9 +84,11 @@
     </div>
 
     {%- if d.carduri_ingrediente.carduri.size > 0 -%}
-      <div class="ppv-card">
-        <span class="ppv-kicker">Formula</span>
-        <h3>{{ d.carduri_ingrediente.titlu | escape }}</h3>
+      <div>
+        <div class="ppv-head">
+          <span class="ppv-kicker">Formula</span>
+          <h3>{{ d.carduri_ingrediente.titlu | escape }}</h3>
+        </div>
         <div class="ppv-grid">
           {%- for c in d.carduri_ingrediente.carduri -%}
             <div class="ppv-ing">
@@ -105,7 +117,7 @@
           </div>
         {%- endif -%}
         {%- if d.mod_de_folosire != blank -%}
-          <div class="ppv-card">
+          <div class="ppv-card ppv-card--tint">
             <span class="ppv-kicker">Mod de folosire</span>
             <h3>Cum îl prepari</h3>
             <p>{{ d.mod_de_folosire | escape }}</p>
@@ -119,10 +131,9 @@
 </section>
 
 {%- comment -%}
-  La schimbarea aromei: poza variantei + aroma evidențiată. Textele nu depind de aromă,
-  deci nu poate apărea situația de la concurent (Pepene selectat, text și poză cu ananas).
-  Impact 6.7.1 trimite variant:change din <form> (verificat 15.11 pe Recovery BCAA: detail.variant cu title și
-  featured_image). Se ia în seamă doar o variantă a acestui produs (pagina mai are formulare de la alte produse).
+  La schimbarea aromei: aroma evidențiată + poza variantei (doar când nu e setată o poză din ședință).
+  Impact 6.7.1 trimite variant:change din <form> (verificat 15.11: detail.variant cu id, title, featured_image).
+  Se ia în seamă doar o variantă a acestui produs (pagina mai are formulare de la alte produse).
 {%- endcomment -%}
 <script>
   (function () {
@@ -136,10 +147,11 @@
       root.querySelectorAll('[data-ppv-flavour]').forEach(function (li) {
         li.setAttribute('aria-current', li.getAttribute('data-ppv-flavour') === variant.title ? 'true' : 'false');
       });
+      var el = root.querySelector('.ppv-media--produs img');
+      if (!el) return;
       var i = titles.indexOf(variant.title);
       var src = variant.featured_image ? variant.featured_image.src : (i > -1 && imgs[i] ? imgs[i].src : null);
-      var el = root.querySelector('.ppv-media__img img');
-      if (el && src) { el.removeAttribute('srcset'); el.src = src + (src.indexOf('?') > -1 ? '&' : '?') + 'width=900'; }
+      if (src) { el.removeAttribute('srcset'); el.src = src + (src.indexOf('?') > -1 ? '&' : '?') + 'width=900'; }
     }
     document.addEventListener('variant:change', function (e) { apply(e.detail && e.detail.variant); });
   })();

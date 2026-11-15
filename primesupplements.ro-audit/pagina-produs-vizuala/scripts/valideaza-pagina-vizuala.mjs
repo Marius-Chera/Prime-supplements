@@ -18,7 +18,7 @@ function texts(o, path = '', out = []) {
   if (typeof o === 'string') out.push([path, o]);
   else if (Array.isArray(o)) o.forEach((v, i) => texts(v, `${path}[${i}]`, out));
   else if (o && typeof o === 'object') for (const [k, v] of Object.entries(o)) {
-    if (['handle', 'sursa_datelor', 'de_verificat', 'varianta'].includes(k)) continue;
+    if (['handle', 'sursa_datelor', 'de_verificat', 'varianta', 'tema', 'url'].includes(k)) continue;
     texts(v, path ? `${path}.${k}` : k, out);
   }
   return out;
@@ -59,6 +59,9 @@ for (const f of readdirSync(dir).filter(n => n.endsWith('.json'))) {
   if ((d.intro || '').length > 600) errs.push('intro: max 600 de caractere');
   if (((d.intro || '').match(/\[\[/g) || []).length !== ((d.intro || '').match(/\]\]/g) || []).length) errs.push('intro: [[ ]] neperechi');
 
+  if (d.tema != null && !['rosu','albastru','verde','mov','portocaliu','roz'].includes(d.tema)) errs.push('tema: rosu | albastru | verde | mov | portocaliu | roz');
+  if (d.imagine && !String(d.imagine.url || '').startsWith('https://cdn.shopify.com/')) errs.push('imagine.url: doar poze din Shopify Files (cdn.shopify.com)');
+  if (d.imagine && !d.imagine.alt) errs.push('imagine.alt: text alternativ obligatoriu');
   const all = texts(d);
   const joined = all.map(([, t]) => t).join(' ');
   // „DE VERIFICAT” într-un text afișat = blocant; lista de_verificat = goluri interne (nu se afișează), doar avertisment.

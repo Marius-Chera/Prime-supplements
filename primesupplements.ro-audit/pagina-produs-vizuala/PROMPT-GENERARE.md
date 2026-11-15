@@ -38,6 +38,9 @@ FORMAT (respectă cheile și limitele):
 {
   "versiune": 1,
   "handle": "<handle>",
+  "tema": "<culoarea de accent: rosu | albastru | verde | mov | portocaliu | roz; o alege Marius pe categorie>",
+  "imagine": { "url": "<poză din ședințele foto, Shopify Files sedinta-foto-*; lipsește = poza produsului>", "alt": "<ce se vede, în română>" },
+  "nota_cifre": "<o propoziție sub cifre: de unde vin valorile (ex. per porție, din tabelul nutrițional)>",
   "sursa_datelor": "<de unde ai luat datele: etichetă, tabel, metafield-uri, data>",
   "badge": [2–5 bucăți scurte, max 22 caractere fiecare, ex. "BCAA 4:1:1", "62 de porții"],
   "titlu": "<max 90 caractere: numele produsului + cifra principală>",

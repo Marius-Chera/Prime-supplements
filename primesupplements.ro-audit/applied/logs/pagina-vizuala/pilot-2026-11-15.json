@@ -14,9 +14,24 @@
   },
   "metafield_definition": "gid://shopify/MetafieldDefinition/543946965367 (prime.pagina_vizuala, json, PRODUCT)",
   "metafields_scrise": [
-    { "produs": "recovery-bcaa-500g", "id": "gid://shopify/Product/14971467596151", "metafield": "gid://shopify/Metafield/206268904538487", "sursa": "pagina-produs-vizuala/date/recovery-bcaa-500g.json (fără de_verificat și sursa_datelor)" },
-    { "produs": "creatina-creapure", "id": "gid://shopify/Product/14971467268471", "metafield": "gid://shopify/Metafield/206268904571255", "sursa": "pagina-produs-vizuala/date/creatina-creapure.json" },
-    { "produs": "prime-whey-2000g", "id": "gid://shopify/Product/14971469529463", "metafield": "gid://shopify/Metafield/206268904604023", "sursa": "pagina-produs-vizuala/date/prime-whey-2000g.json" }
+    {
+      "produs": "recovery-bcaa-500g",
+      "id": "gid://shopify/Product/14971467596151",
+      "metafield": "gid://shopify/Metafield/206268904538487",
+      "sursa": "pagina-produs-vizuala/date/recovery-bcaa-500g.json (fără de_verificat și sursa_datelor)"
+    },
+    {
+      "produs": "creatina-creapure",
+      "id": "gid://shopify/Product/14971467268471",
+      "metafield": "gid://shopify/Metafield/206268904571255",
+      "sursa": "pagina-produs-vizuala/date/creatina-creapure.json"
+    },
+    {
+      "produs": "prime-whey-2000g",
+      "id": "gid://shopify/Product/14971469529463",
+      "metafield": "gid://shopify/Metafield/206268904604023",
+      "sursa": "pagina-produs-vizuala/date/prime-whey-2000g.json"
+    }
   ],
   "verificari": [
     "validator: 3 fișiere, 0 erori (2 avertismente interne de etichetă)",
@@ -26,5 +41,15 @@
     "corectat în pilot: tema forțează h1–h6 {font-family:\"Bebas Neue\" !important} → titlul cardurilor de ingrediente cu Poppins !important",
     "găsit, NU de la pilot: pe desktop (1280 px) footer__block--text iese cu ~66 px din pagină (scroll orizontal) și pe tema live"
   ],
-  "neschimbat": "tema live, stocuri, statusuri, descrieri, celelalte metafield-uri"
+  "neschimbat": "tema live, stocuri, statusuri, descrieri, celelalte metafield-uri",
+  "v2": {
+    "cerere": "Marius: culori mai deschise și prietenoase, cât mai aproape de Genius; imagini AI din OpenArt/Gemini dacă e nevoie",
+    "fisiere": {
+      "assets/prime-pagina-vizuala.css": "md5 b5a4928b96cc8e7aa4f0cdc1dd27bdd7",
+      "sections/prime-pagina-vizuala.liquid": "md5 dd99c86b3392491819407cebdd8ef7dc"
+    },
+    "metafields": "aceleași 3, rescrise cu tema (verde BCAA, albastru Creapure, rosu Whey), imagine (poze reale sedinta-foto la Whey și Creapure) și nota_cifre",
+    "openart": "0 credite pe contact@ (plan Starter) – Marius trebuie să încarce; ~12–40 credite / imagine image2image",
+    "verificat": "previzualizare 1280 px și 390 px; poză lazy se încarcă la scroll; h2 Poppins; fără scroll orizontal din secțiune"
+  }
 }

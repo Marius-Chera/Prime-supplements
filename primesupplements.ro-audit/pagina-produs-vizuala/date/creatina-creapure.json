@@ -1,6 +1,12 @@
 {
   "versiune": 1,
   "handle": "creatina-creapure",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-creatina-creapure-nitrox-3d-vitamina-c-1.jpg?v=1794336057",
+    "alt": "Cutie de creatină Prime Creatine Creapure lângă Nitrox 3D și un flacon de Vitamina C 1000"
+  },
+  "nota_cifre": "Doza zilnică recomandată pe etichetă: 3–5 g de creatină.",
   "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului (transcrierea etichetei tubului), citite prin Admin API pe 15.11.2026.",
   "badge": [
     "Creapure®",

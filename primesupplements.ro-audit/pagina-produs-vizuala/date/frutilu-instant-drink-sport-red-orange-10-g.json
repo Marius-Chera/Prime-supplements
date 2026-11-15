@@ -1,0 +1,185 @@
+{
+  "versiune": 1,
+  "handle": "frutilu-instant-drink-sport-red-orange-10-g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-sport-portocale-rosii-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu Sport cu portocale roșii pe o bancă lângă pista de atletism, lângă un bidon cu băutură roșie și o portocală roșie tăiată; în fundal un alergător se întinde"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului frutilu-instant-drink-sport-red-orange-10-g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu stevia"
+  ],
+  "titlu": "Frutilu Sport cu portocale roșii: plic de 10 g pentru 1,5 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu Sport cu portocale roșii este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă. Nu are zahăr adăugat, e îndulcită cu stevia și conține vitamina C. Are electroliți adăugați.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Stevia",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten",
+    "Electroliți",
+    "Antrenament"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "apă pentru un plic"
+    },
+    {
+      "valoare": "6",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "plic = o sticlă de apă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "în bidon, la antrenament"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "stevia"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      },
+      {
+        "nume": "Electroliți",
+        "valoare": "adăugați"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu Sport",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu stevia",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză",
+      "Cu electroliți adăugați, gamă Frutilu Sport"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "POR",
+        "titlu": "Aromă de portocale roșii",
+        "text": "Gust răcoritor, ușor acrișor, de portocale roșii."
+      },
+      {
+        "cod": "STE",
+        "titlu": "Stevia",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana, codul E 960a."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "ELE",
+        "titlu": "Electroliți",
+        "text": "Minerale adăugate, ca în băuturile pentru sport; cantitățile sunt pe plic."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un plic (10 g) la 1,5 L de apă rece sau apă minerală, direct în bidon, agitând până la dizolvarea completă. Servește în bidon, la antrenament.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre Frutilu Sport cu portocale roșii",
+    "intro": "Frutilu Sport cu portocale roșii este singura aromă din gamă cu electroliți adăugați, gândită pentru antrenament. Află ce sunt electroliții și de ce unele portocale au pulpa roșie.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce are în plus Frutilu Sport?",
+        "raspuns": "Electroliți adăugați, pe lângă vitamina C și îndulcitorul din stevia. Electroliții sunt minerale precum sodiul și potasiul, pe care le pierzi prin transpirație. Cantitățile exacte sunt trecute pe plic."
+      },
+      {
+        "intrebare": "Câtă apă pierzi la antrenament?",
+        "raspuns": "Poate fi peste un litru pe oră, în funcție de efort, temperatură și persoană. Colegiul American de Medicină Sportivă recomandă să eviți pierderi de peste 2% din greutatea corporală. Cântărește-te înainte și după antrenament ca să vezi diferența."
+      },
+      {
+        "intrebare": "De ce portocalele roșii au pulpa roșie?",
+        "raspuns": "Din cauza antocianilor, aceiași pigmenți din afine și cireșe. Se formează mai ales când nopțile sunt reci și zilele calde, ca în Sicilia, la poalele vulcanului Etna. De aceea cele mai cunoscute soiuri, Tarocco și Moro, sunt italiene."
+      },
+      {
+        "intrebare": "Cum o prepari în bidon?",
+        "raspuns": "Pui conținutul plicului de 10 g direct în bidon, torni 1,5 litri de apă rece sau minerală și agiți câteva secunde. Plicul încape în rucsac, așa că îl iei la sală sau la alergare. Ies 6 porții de 250 ml. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "De unde știi dacă bei destulă apă?",
+        "raspuns": "Un indicator simplu este culoarea urinei: deschisă înseamnă de obicei hidratare bună, iar închisă arată că ai nevoie de mai multe lichide. Indicatorul a fost comparat cu analizele de laborator într-un studiu din 1994."
+      },
+      {
+        "intrebare": "Pentru cine e gândită gama Sport?",
+        "raspuns": "Pentru oamenii activi care vor o băutură fără zahăr adăugat în timpul antrenamentelor sau pe parcursul zilei. Formula este vegană, fără gluten și fără lactoză, iar o pierdere de 2% din greutate prin transpirație e semnalul să bei mai mult."
+      }
+    ],
+    "surse": [
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007;39(2):377-90",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      },
+      {
+        "text": "Armstrong LE și colab. Urinary indices of hydration status. Int J Sport Nutr. 1994;4(3):265-79",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7987361/"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

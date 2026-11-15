@@ -141,3 +141,7 @@ frutilu-mango-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-ima
 frutilu-portocale-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785529544_b1851aff_1794785530748_c3d7d2f8.png
 frutilu-tropic-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785531045_3f8b8f51_1794785531927_bcfcf69d.png
 frutilu-pepene-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785531641_c19f9f18_1794785532305_48e1564a.png
+frutilu-ananas-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785885931_af82f3d2_1794785886963_9763af86.png
+frutilu-capsuni-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785886883_22f47672_1794785889204_6870c3ad.png
+frutilu-sport-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785888970_8e6721e3_1794785889423_85edc53a.png
+frutilu-set-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785890478_21559a89_1794785891081_bb814355.png

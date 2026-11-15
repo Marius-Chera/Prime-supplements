@@ -1,0 +1,173 @@
+{
+  "versiune": 1,
+  "handle": "frutilu-instant-drink-strawberry-10-g",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-capsuni-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu cu căpșuni pe masa albă din bucătărie, lângă un pahar cu băutură roz, gheață și căpșuni proaspete; în fundal un sportiv taie căpșuni"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului frutilu-instant-drink-strawberry-10-g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu stevia"
+  ],
+  "titlu": "Frutilu cu căpșuni: plic de 10 g pentru 1,5 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu căpșuni este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă. Nu are zahăr adăugat, e îndulcită cu stevia și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Stevia",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "apă pentru un plic"
+    },
+    {
+      "valoare": "6",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "plic = o sticlă de apă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și căpșuni"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "stevia"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu căpșuni",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu stevia",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CĂP",
+        "titlu": "Aromă de căpșuni",
+        "text": "Gust răcoritor de căpșuni."
+      },
+      {
+        "cod": "STE",
+        "titlu": "Stevia",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana, codul E 960a."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un plic (10 g) la 1,5 L de apă, amestecând până la dizolvarea completă. Servește cu gheață și căpșuni.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu căpșuni",
+    "intro": "Frutilu cu căpșuni este o băutură instant cu gust de căpșuni proaspete, îndulcită cu stevia. Află de ce căpșuna nu e o boabă și unde îi sunt de fapt semințele.",
+    "sectiuni": [
+      {
+        "intrebare": "Este căpșuna o boabă?",
+        "raspuns": "Nu: botanic, partea roșie și cărnoasă e un receptacul umflat, adică baza florii. Fructele adevărate sunt punctele mici de pe suprafață, numite achene, fiecare cu sămânța ei. O căpșună are în medie în jur de 200 de achene."
+      },
+      {
+        "intrebare": "De ce căpșunile au aromă atât de puternică?",
+        "raspuns": "Pentru că eliberează sute de compuși aromatici volatili, printre care esteri cu miros de fructe și furaneol, cu notă de caramel. De aceea gustul de căpșuni e unul dintre cele mai folosite în băuturi și deserturi."
+      },
+      {
+        "intrebare": "Cum faci Frutilu cu căpșuni?",
+        "raspuns": "Dizolvi un plic de 10 g în 1,5 litri de apă și amesteci până dispare pudra. Servește băutura cu gheață și câteva căpșuni proaspete tăiate în pahar. Ies 6 pahare de 250 ml. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "Ce înseamnă formulă vegană, fără gluten și fără lactoză?",
+        "raspuns": "Înseamnă că, după specificațiile produsului, pudra nu are ingrediente de origine animală, gluten sau lactoză. Este îndulcită cu stevia, fără zahăr adăugat, și conține vitamina C."
+      },
+      {
+        "intrebare": "Când e sezonul căpșunilor în România?",
+        "raspuns": "În mai și iunie, pentru căpșunile din câmp. În restul anului, cele din magazin vin din sere sau din import. O băutură cu gust de căpșuni îți aduce aroma și iarna, fără zahăr adăugat."
+      },
+      {
+        "intrebare": "Câtă stevia poți consuma zilnic?",
+        "raspuns": "Până la 4 mg pe kilogram corp, exprimate ca steviol, după doza zilnică acceptabilă stabilită de EFSA. La 60 de kg, asta înseamnă 240 mg pe zi, din toate alimentele și băuturile."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of steviol glycosides for the proposed uses as a food additive (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1537"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

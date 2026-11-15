@@ -1,0 +1,161 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-forest-fruits-10g",
+  "tema": "mov",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-fructe-de-padure-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu cu fructe de pădure pe o masă de lemn într-o poiană, lângă un pahar cu băutură mov, gheață, mure și afine; în fundal un drumeț bea din pahar"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-forest-fruits-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu îndulcitori"
+  ],
+  "titlu": "Frutilu cu fructe de pădure: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu fructe de pădure este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu îndulcitori și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Îndulcitori",
+    "Vitamina C"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață, mentă și fructe"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "îndulcitori"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu fructe de pădure",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu îndulcitori",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "FP",
+        "titlu": "Aromă de fructe de pădure",
+        "text": "Gust de mure, afine și zmeură."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcitori",
+        "text": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață, mentă și fructe.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu fructe de pădure",
+    "intro": "Frutilu cu fructe de pădure este o băutură instant cu gust de mure, afine și zmeură, fără zahăr adăugat. Iată ce au în comun aceste fructe și cum faci din plic o băutură de vară.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce fructe intră în gustul Frutilu cu fructe de pădure?",
+        "raspuns": "Mure, afine și zmeură, după descrierea produsului. Gustul vine din arome, nu din bucăți de fructe, așa că pudra se dizolvă complet. Un plic de 10 g ajunge pentru minimum 1,5 litri, recomandat 3 litri."
+      },
+      {
+        "intrebare": "Este zmeura o boabă?",
+        "raspuns": "Botanic, nu: zmeura și mura sunt fructe compuse, formate din zeci de fructe mici lipite între ele, fiecare cu sămânța ei. Afina este o boabă adevărată. În limbajul de zi cu zi, toate trei sunt fructe de pădure."
+      },
+      {
+        "intrebare": "De ce au afinele culoarea albastră?",
+        "raspuns": "Din cauza antocianilor, pigmenții care dau culoarea albastră, mov sau roșie multor fructe. Aceiași pigmenți colorează murele, coacăzele negre și strugurii roșii."
+      },
+      {
+        "intrebare": "Cum servești băutura de fructe de pădure?",
+        "raspuns": "Cu gheață, frunze de mentă și câteva fructe proaspete, de exemplu afine sau zmeură. Cu apă minerală carbogazoasă obții o variantă acidulată. Prepar-o într-o carafă și ține-o la rece; ies 6–12 pahare de 250 ml. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+      },
+      {
+        "intrebare": "Ce îndulcitori conține?",
+        "raspuns": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K, și fără zahăr adăugat. Fiecare îndulcitor permis are un cod E și o doză zilnică acceptabilă. Lista exactă a ingredientelor e pe plic."
+      },
+      {
+        "intrebare": "Câtă apă ar trebui să bei pe zi?",
+        "raspuns": "EFSA propune 2,5 litri de apă pe zi pentru bărbați și 2 litri pentru femei, din toate sursele. Aproximativ 20% vin din mâncare, iar restul de 80% din băuturi. Un plic dizolvat în 3 litri te ajută să ajungi la cantitate."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

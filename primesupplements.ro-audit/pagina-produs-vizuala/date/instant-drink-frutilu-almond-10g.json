@@ -1,0 +1,163 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-almond-10g",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-migdale-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu cu migdale pe masa de lemn din bucătărie, lângă un pahar cu băutură cremoasă de migdale și câteva migdale; în fundal un sportiv toarnă lapte de ovăz"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-almond-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu îndulcitori"
+  ],
+  "titlu": "Frutilu cu migdale: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu migdale este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu îndulcitori și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Îndulcitori",
+    "Vitamina C",
+    "Rece sau caldă"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "rece cu gheață sau caldă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "îndulcitori"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu migdale",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu îndulcitori",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Se poate face cu lapte vegetal și se poate bea caldă"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "MIG",
+        "titlu": "Aromă de migdale",
+        "text": "Gust fin și cremos de migdale; merge cu apă rece sau cu lapte vegetal."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcitori",
+        "text": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește rece cu gheață sau caldă.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu migdale",
+    "intro": "Frutilu cu aromă de migdale este o băutură instant care se poate face și cu lapte vegetal, rece sau caldă. Iată ce primești dintr-un plic de 10 g și de unde vine gustul de migdale.",
+    "sectiuni": [
+      {
+        "intrebare": "Câtă băutură faci dintr-un plic de Frutilu cu migdale?",
+        "raspuns": "Cel puțin 1,5 litri, iar recomandarea de pe plic este de 3 litri. La 3 litri ies aproximativ 12 pahare de 250 ml dintr-un singur plic de 10 g. Cu mai puțin lichid, gustul de migdale e mai intens. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+      },
+      {
+        "intrebare": "Se poate face cu lapte vegetal?",
+        "raspuns": "Da, plicul recomandă apă rece sau lapte vegetal, de ovăz ori de soia. Cu lapte vegetal, băutura iese cremoasă, apropiată de un lapte de migdale aromat. Cu apă rece rămâne ușoară, ca o băutură răcoritoare."
+      },
+      {
+        "intrebare": "Se poate bea caldă?",
+        "raspuns": "Da, este una dintre puținele arome Frutilu recomandate și calde. Încălzești lichidul, dizolvi pudra și o bei ca pe o băutură caldă de iarnă. Pudra merge folosită și ca aromă în iaurt sau în deserturi făcute acasă."
+      },
+      {
+        "intrebare": "De unde vin migdalele?",
+        "raspuns": "Migdalul, Prunus dulcis, vine din Asia de Vest și e rudă apropiată cu caisul și piersicul. Ce mâncăm este sâmburele din interiorul fructului, nu fructul propriu-zis. Astăzi, cele mai multe migdale din lume se cultivă în California."
+      },
+      {
+        "intrebare": "Ce înseamnă îndulcită cu îndulcitori?",
+        "raspuns": "Înseamnă că gustul dulce vine din îndulcitori aprobați în UE, nu din zahăr adăugat. Plicul nu conține aspartam, E 951, și nici acesulfam K, E 950. Fiecare îndulcitor permis are un cod E în Regulamentul (CE) nr. 1333/2008."
+      },
+      {
+        "intrebare": "Cât din apa zilnică vine din băuturi?",
+        "raspuns": "Cam 80%, iar restul de 20% vine din alimente, după estimarea EFSA. Pentru adulți, EFSA propune un aport total de apă de 2,5 litri pe zi la bărbați și 2 litri la femei. O băutură cu gust face mai ușor să bei des."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

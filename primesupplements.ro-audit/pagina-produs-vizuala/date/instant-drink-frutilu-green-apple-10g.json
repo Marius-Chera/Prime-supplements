@@ -1,0 +1,161 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-green-apple-10g",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-mar-verde-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu cu măr verde pe un birou alb, lângă o sticlă cu băutură de măr cu gheață și felii de măr verde; în fundal un bărbat lucrează la laptop și bea dintr-un pahar"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-green-apple-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu îndulcitori"
+  ],
+  "titlu": "Frutilu cu măr verde: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu măr verde este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu îndulcitori și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Îndulcitori",
+    "Vitamina C"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și felii de măr"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "îndulcitori"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu măr verde",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu îndulcitori",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "MĂR",
+        "titlu": "Aromă de măr verde",
+        "text": "Gust echilibrat, dulce-acrișor, de măr verde."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcitori",
+        "text": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață și felii de măr.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu măr verde",
+    "intro": "Frutilu cu măr verde este o băutură instant cu gust dulce-acrișor, fără zahăr adăugat. Află de ce merele verzi sunt mai acre, de unde vine soiul Granny Smith și cum îți iei băutura la birou.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce gustul Frutilu cu măr verde e acrișor?",
+        "raspuns": "Pentru că imită merele verzi, care au mai mult acid malic decât cele roșii coapte. Acidul malic își trage numele chiar din latinescul malum, măr. În băutură, aciditatea e echilibrată de îndulcitori, fără zahăr adăugat."
+      },
+      {
+        "intrebare": "Cine a creat soiul Granny Smith?",
+        "raspuns": "O fermieră din Australia, Maria Ann Smith, care a găsit răsadul întâmplător în grădina ei în anii 1860. Merele verzi, tari și acre, au primit numele ei: granny înseamnă bunicuță. Astăzi e cel mai cunoscut măr verde din lume."
+      },
+      {
+        "intrebare": "Cum îți iei Frutilu la birou?",
+        "raspuns": "Pui un plic de 10 g în geantă și îl dizolvi într-o sticlă de 1,5 litri cu apă rece. Plicul e mic și ușor, iar băutura e gata în câteva secunde. Așa ai la îndemână 6 pahare de 250 ml de apă cu gust. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+      },
+      {
+        "intrebare": "Ce înseamnă fără zahăr adăugat?",
+        "raspuns": "Înseamnă că nu s-au adăugat zaharuri și nici alimente folosite pentru gustul dulce, conform Regulamentului (CE) nr. 1924/2006. Dacă un aliment are zaharuri naturale, eticheta trebuie să spună că acestea sunt prezente în mod natural."
+      },
+      {
+        "intrebare": "Cum servești Frutilu cu măr verde?",
+        "raspuns": "Rece, cu gheață și felii subțiri de măr verde proaspăt. Cu apă minerală carbogazoasă obții un suc acidulat de măr. Prepar-o cu 3 litri de apă pentru un gust blând sau cu 1,5 litri pentru unul mai intens."
+      },
+      {
+        "intrebare": "Conține vitamina C?",
+        "raspuns": "Da, pudra conține vitamina C, iar cantitatea exactă e trecută pe plic. Vitamina C e sensibilă la căldură, așa că băutura se prepară cu apă rece. Îndulcitorii nu includ aspartam sau acesulfam K."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

@@ -125,3 +125,11 @@ caju-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8Jj
 baton-caramel-sarat-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783830714_0ce9a619_1794783832530_a87f097e.png
 baton-cocos-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783840885_94f1d7af_1794783841998_07515850.png
 baton-fructe-padure-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783954476_f0042f84_1794783955823_c8510e7a.png
+# Frutilu (16.11, sportivi bărbați; aleasă = *)
+frutilu-migdale-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783955678_0379c8f7_1794783956209_7991e70a.png
+frutilu-caise-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783956949_9caac7ff_1794783957892_3eea8016.png
+frutilu-ciocolata-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794783957956_60647407_1794783958715_ef61c8fb.png
+frutilu-cola-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794784430570_d14066df_1794784430717_2d87b5b1.png
+frutilu-energy-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794784431278_dd0e3a9a_1794784431950_6e5b6ebc.png
+frutilu-fructe-padure-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794784431557_de101608_1794784432197_e45ceb14.png
+frutilu-mar-verde-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794784432264_161b32b0_1794784432472_6a2db511.png

@@ -1,0 +1,169 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-apricot-10g",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-caise-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu cu caise pe o masă albă de grădină, lângă o carafă cu băutură de caise cu gheață și caise proaspete; în fundal un ciclist bea pe terasă"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-apricot-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu stevia"
+  ],
+  "titlu": "Frutilu cu caise: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu cu caise este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu stevia și conține vitamina C.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Stevia",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață, caise și mentă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "stevia"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu cu caise",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu stevia",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CAI",
+        "titlu": "Aromă de caise",
+        "text": "Gust dulce și parfumat de caise, bun cu apă plată sau carbogazoasă."
+      },
+      {
+        "cod": "STE",
+        "titlu": "Stevia",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana, codul E 960a."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață, caise și mentă.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre băutura Frutilu cu caise",
+    "intro": "Frutilu cu aromă de caise este o băutură instant îndulcită cu stevia, din care faci o limonadă de vară în câteva minute. Află ce este stevia, de unde vin caisele și cât ține un plic.",
+    "sectiuni": [
+      {
+        "intrebare": "Câte pahare ies dintr-un plic de Frutilu cu caise?",
+        "raspuns": "Între 6 și 12 pahare de 250 ml, în funcție de cât lichid folosești. Plicul de 10 g se dizolvă în minimum 1,5 litri, iar recomandarea este 3 litri. Pentru un gust mai intens, rămâi la 1,5 litri."
+      },
+      {
+        "intrebare": "Ce este stevia?",
+        "raspuns": "Stevia este un îndulcitor obținut din frunzele plantei Stevia rebaudiana, originară din Paraguay și Brazilia. Compușii dulci se numesc glicozide de steviol și sunt de 200–300 de ori mai dulci decât zahărul. În UE, au codul E 960a."
+      },
+      {
+        "intrebare": "De unde vine numele caisei?",
+        "raspuns": "Numele științific, Prunus armeniaca, înseamnă prună armenească, pentru că romanii credeau că fructul vine din Armenia. În realitate, caisul e originar din Asia Centrală și din China. La noi, caisele se coc în iunie și iulie."
+      },
+      {
+        "intrebare": "Cum faci o limonadă de caise?",
+        "raspuns": "Dizolvi plicul în apă plată sau minerală carbogazoasă rece, apoi adaugi gheață, felii de caise proaspete și câteva frunze de mentă. Varianta carbogazoasă seamănă cu un suc acidulat, dar fără zahăr adăugat. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+      },
+      {
+        "intrebare": "Este potrivită pentru vegani?",
+        "raspuns": "Da, conform specificațiilor produsului este vegană, fără gluten și fără lactoză. Pudra conține vitamina C și nu conține aspartam sau acesulfam K. Lista completă a ingredientelor e pe plic, așa că verifică-o dacă ai alergii."
+      },
+      {
+        "intrebare": "Câtă stevia e considerată sigură?",
+        "raspuns": "EFSA a stabilit o doză zilnică acceptabilă de 4 mg pe kilogram corp, exprimată ca steviol. Pentru un adult de 70 kg, asta înseamnă 280 mg pe zi. Limita se referă la toată stevia din alimentație, nu la un singur produs."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of steviol glycosides for the proposed uses as a food additive (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1537"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

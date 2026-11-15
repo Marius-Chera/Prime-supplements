@@ -1,0 +1,190 @@
+{
+  "versiune": 1,
+  "handle": "instant-drink-frutilu-energy-cranberry-10g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/frutilu-energy-merisoare-10g-sportiv-1.jpg",
+    "alt": "Plicul Frutilu Energy cu merișoare pe o bancă din sală, lângă o sticlă cu băutură roșie, gheață și mentă; în fundal un sportiv musculos face balansări cu kettlebell"
+  },
+  "nota_cifre": "Cifrele vin de pe plic: cantitatea de pudră și apa în care se dizolvă; paharele sunt calculate la 250 ml.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-energy-cranberry-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).",
+  "badge": [
+    "10 g / plic",
+    "1,5–3 L de băutură",
+    "Fără zahăr adăugat",
+    "Cu îndulcitori"
+  ],
+  "titlu": "Frutilu Energy cu merișoare: plic de 10 g pentru 1,5–3 L de băutură fără zahăr adăugat",
+  "intro": "Frutilu Energy cu merișoare este o băutură instant sub formă de pudră, în plic de [[10 g]]. Un plic se dizolvă în [[1,5 L]] de apă, iar diluarea recomandată este de [[3 L]]. Nu are zahăr adăugat, e îndulcită cu îndulcitori și conține vitamina C. Conține și cafeină și taurină.",
+  "etichete": [
+    "Băutură instant",
+    "Fără zahăr adăugat",
+    "Îndulcitori",
+    "Vitamina C",
+    "Vegană",
+    "Fără gluten",
+    "Cafeină",
+    "Taurină"
+  ],
+  "cifre": [
+    {
+      "valoare": "10",
+      "unitate": "g",
+      "eticheta": "pudră într-un plic"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "L",
+      "eticheta": "băutură, minimum"
+    },
+    {
+      "valoare": "3",
+      "unitate": "L",
+      "eticheta": "diluarea recomandată"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "pahare de 250 ml la 3 L"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "1 plic în 1,5–3 L de apă"
+    },
+    {
+      "titlu": "Servire",
+      "text": "cu gheață și mentă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Pudră",
+        "valoare": "10 g"
+      },
+      {
+        "nume": "Apă pentru un plic",
+        "valoare": "1,5–3 L"
+      },
+      {
+        "nume": "Îndulcitor",
+        "valoare": "îndulcitori"
+      },
+      {
+        "nume": "Zahăr adăugat",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Aspartam / acesulfam K",
+        "valoare": "fără"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "conține"
+      },
+      {
+        "nume": "Cafeină / taurină",
+        "valoare": "conține"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Frutilu Energy",
+    "puncte": [
+      "Un plic de 10 g pentru 1,5–3 L de băutură",
+      "Fără zahăr adăugat, îndulcită cu îndulcitori",
+      "Fără aspartam și fără acesulfam K",
+      "Conține vitamina C",
+      "Vegană, fără gluten și fără lactoză",
+      "Conține cafeină și taurină: nu e pentru copii, sarcină sau alăptare"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "MER",
+        "titlu": "Aromă de merișoare",
+        "text": "Gust acrișor-dulce de merișoare."
+      },
+      {
+        "cod": "IND",
+        "titlu": "Îndulcitori",
+        "text": "Îndulcitori aprobați în UE, fără aspartam și fără acesulfam K."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Adăugată în pudră; cantitatea exactă e trecută pe plic."
+      },
+      {
+        "cod": "CAF",
+        "titlu": "Cafeină",
+        "text": "Cantitatea e pe plic. Nu e pentru copii, sarcină, alăptare sau persoane sensibile la cafeină."
+      },
+      {
+        "cod": "TAU",
+        "titlu": "Taurină",
+        "text": "Compus cu sulf, prezent natural în carne, pește și lapte."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Vegană",
+        "text": "Fără gluten și fără lactoză, conform specificațiilor produsului."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Dizolvă conținutul unui plic (10 g) în 1,5 L de lichid (recomandat 3 L): amestecând sau agitând până la dizolvarea completă. Servește cu gheață și mentă. Conține cafeină: nu este recomandată copiilor, femeilor însărcinate sau care alăptează și persoanelor sensibile la cafeină.",
+  "de_verificat": [
+    "cifre: cantitatea de vitamina C și valorile nutriționale sunt doar pe plic, netranscrise în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre Frutilu Energy cu merișoare",
+    "intro": "Frutilu Energy cu merișoare este singura aromă din gamă cu cafeină și taurină. Află ce sunt merișoarele, cum se recoltează și pentru cine nu e potrivită băutura.",
+    "sectiuni": [
+      {
+        "intrebare": "Prin ce diferă Frutilu Energy de celelalte arome?",
+        "raspuns": "Prin cafeină și taurină, adăugate pe lângă vitamina C. Celelalte arome nu au cafeină. Cantitățile exacte sunt pe plic; un plic de 10 g se dizolvă în 1,5–3 litri de apă rece sau minerală carbogazoasă. La diluarea minimă, o sticlă de 500 ml are nevoie de aproximativ 3 g de pudră, iar una de 1000 ml de aproximativ 7 g."
+      },
+      {
+        "intrebare": "Ce este taurina?",
+        "raspuns": "Taurina este un compus cu sulf care se găsește natural în carne, pește și lapte. Numele vine din latinescul taurus, taur, pentru că a fost izolată prima dată din bila de taur, în 1827. Apare des în băuturile energizante. Ca reper, EFSA estimează pentru adulți 2–2,5 litri de apă pe zi din toate sursele, din care cam 80% vin din băuturi."
+      },
+      {
+        "intrebare": "Cum se recoltează merișoarele?",
+        "raspuns": "Multe se recoltează prin inundare: câmpurile se umplu cu apă, iar fructele, care au buzunare de aer, plutesc la suprafață. Apoi sunt adunate cu brațe plutitoare. Merișoarele americane, Vaccinium macrocarpon, sunt rude cu afinele."
+      },
+      {
+        "intrebare": "Pentru cine nu e potrivită?",
+        "raspuns": "Pentru copii, femei însărcinate sau care alăptează și persoane sensibile la cafeină, cum scrie la produs. Nu o combina cu alte surse mari de cafeină în aceeași zi. EFSA consideră sigure pentru adulți până la 400 mg de cafeină pe zi și 200 mg într-o doză."
+      },
+      {
+        "intrebare": "Cum o faci ca pe o băutură energizantă la doză?",
+        "raspuns": "Cu apă minerală carbogazoasă rece: bulele o fac asemănătoare băuturilor la doză, dar fără zahăr adăugat. Adaugă gheață și câteva frunze de mentă. Un pahar de 250 ml e o porție comodă."
+      },
+      {
+        "intrebare": "Ce gust are merișorul?",
+        "raspuns": "Acrișor și ușor astringent, de aceea merișoarele se mănâncă rar crude și apar mai ales în sucuri, sosuri sau dulcețuri. În Frutilu Energy, gustul e acrișor-dulce, cu aciditatea fructului echilibrată de îndulcire."
+      }
+    ],
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine (2015)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Kurtz JA și colab. Taurine in sports and exercise. J Int Soc Sports Nutr. 2021;18(1):39",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34039357/"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on Dietary Reference Values for water (2010)",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
+      }
+    ]
+  }
+}

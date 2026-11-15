@@ -1,0 +1,163 @@
+{
+  "versiune": 1,
+  "handle": "magnesium-citrate-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-citrat-de-magneziu-80-capsule-sportiv-1.jpg",
+    "alt": "Citrat de magneziu Prime pe o bancă de lemn; în fundal un sportiv se întinde pe saltea după antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 2 capsule, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului magnesium-citrate-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "450 mg magneziu",
+    "120% VNR",
+    "2 capsule / zi",
+    "40 de porții"
+  ],
+  "titlu": "Citrat de magneziu: 450 mg de magneziu în 2 capsule pe zi",
+  "intro": "O porție de [[2 capsule]] are [[450 mg]] de magneziu, adică [[120%]] din valoarea de referință, din citrat și carbonat de magneziu. O capsulă singură are [[225 mg]]. Le iei de preferat în timpul mesei, iar flaconul de [[80 de capsule]] are [[40]] de porții.",
+  "etichete": [
+    "Citrat de magneziu",
+    "Carbonat de magneziu",
+    "2 capsule pe zi",
+    "Capsulă de gelatină",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "450",
+      "unitate": "mg",
+      "eticheta": "magneziu per porție"
+    },
+    {
+      "valoare": "120",
+      "unitate": "%",
+      "eticheta": "VNR per porție"
+    },
+    {
+      "valoare": "225",
+      "unitate": "mg",
+      "eticheta": "magneziu per capsulă"
+    },
+    {
+      "valoare": "40",
+      "unitate": "",
+      "eticheta": "porții în flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "2 capsule, în timpul mesei"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 40 de porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 2 capsule",
+    "randuri": [
+      {
+        "nume": "Complex de magneziu",
+        "valoare": "2190 mg"
+      },
+      {
+        "nume": "din care magneziu",
+        "valoare": "450 mg (120% VNR)"
+      },
+      {
+        "nume": "Magneziu per capsulă",
+        "valoare": "225 mg (60% VNR)"
+      },
+      {
+        "nume": "Forme",
+        "valoare": "citrat și carbonat"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Citratul de magneziu",
+    "puncte": [
+      "450 mg de magneziu la porția de 2 capsule",
+      "Două forme: citrat și carbonat de magneziu",
+      "225 mg de magneziu în fiecare capsulă",
+      "2 capsule pe zi, de preferat la masă",
+      "80 de capsule, 40 de porții"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Mg",
+        "titlu": "Magneziu · 450 mg / porție",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării și la funcționarea normală a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CIT",
+        "titlu": "Citrat de magneziu",
+        "text": "Magneziu legat de acid citric, prima formă din complex."
+      },
+      {
+        "cod": "CO3",
+        "titlu": "Carbonat de magneziu",
+        "text": "A doua formă din complex; aduce mult magneziu într-un volum mic."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu amidon modificat din porumb ca agent de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "2 capsule pe zi, preferabil în timpul mesei. Nu depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre citratul de magneziu",
+    "intro": "Pe flacon scrie „complex de magneziu” cu 1095 mg pe capsulă, dar magneziul propriu-zis e doar 225 mg. Află de ce, ce rost au cele două forme și cum împarți capsulele în zi.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce scrie 1095 mg, dar magneziul e doar 225 mg?",
+        "raspuns": "Pentru că 1095 mg e greutatea întregului complex, nu doar a magneziului. În citrat și în carbonat, magneziul e legat de alte molecule, care au și ele greutate. Eticheta trece corect ambele cifre: complexul și magneziul elementar. Pentru VNR contează doar cel din urmă."
+      },
+      {
+        "intrebare": "De ce două forme, citrat și carbonat?",
+        "raspuns": "Pentru că fiecare aduce altceva. Citratul e o formă organică, iar o recenzie sistematică din 2021 a observat că formele organice par mai biodisponibile decât cele anorganice. Carbonatul conține mult magneziu într-un volum mic, deci încap mai multe miligrame într-o capsulă."
+      },
+      {
+        "intrebare": "Ce înseamnă 120% VNR?",
+        "raspuns": "Că porția de două capsule depășește puțin valoarea de referință de 375 mg pe zi. Alimentele aduc și ele magneziu în fiecare zi, mai ales frunzele verzi, semințele, nucile și cerealele integrale. Doza de pe etichetă nu trebuie depășită, iar capsulele nu înlocuiesc o alimentație variată."
+      },
+      {
+        "intrebare": "Pierd sportivii magneziu prin transpirație?",
+        "raspuns": "Da, o parte. O recenzie din 2006 arată că efortul intens crește pierderile de magneziu prin urină și transpirație. Aceeași recenzie notează că, la cei care iau suficient magneziu din alimentație, suplimentul nu a schimbat performanța. Magneziul contribuie la funcționarea normală a sistemului muscular."
+      },
+      {
+        "intrebare": "Cum împarți capsulele?",
+        "raspuns": "Una la prânz și una la cină, de exemplu. Eticheta recomandă două capsule pe zi, de preferat în timpul mesei. Dacă iei și alte produse cu magneziu, cum ar fi un multivitamin sau Potassium Complex, adună cantitățile înainte."
+      },
+      {
+        "intrebare": "Din ce alimente iei magneziu?",
+        "raspuns": "Din frunze verzi, semințe, nuci, leguminoase și cereale integrale. Spanacul, semințele de dovleac, migdalele și fasolea sunt exemple bune. Magneziul stă chiar în centrul clorofilei, pigmentul verde al plantelor, de aceea legumele verzi sunt surse atât de bune."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "Nielsen FH, Lukaski HC. Update on the relationship between magnesium and exercise. Magnes Res. 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17172008/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

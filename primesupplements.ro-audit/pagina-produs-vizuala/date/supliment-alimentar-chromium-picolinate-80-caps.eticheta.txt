@@ -1,0 +1,7 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului supliment-alimentar-chromium-picolinate-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Denumire: supliment alimentar pentru adulți, sub formă de capsule, ce conține crom.
+Ingrediente: picolinat de crom. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină, oxid de zinc).
+Per doza zilnică de o capsulă: picolinat de crom 1,6 mg, din care crom 200 µg (500% VNR). VNR: 40 µg crom pe zi.
+Cantitate: 80 de capsule (greutate netă 34,2 g). Porții: 80; un flacon ajunge pentru 80 de zile.
+Mod de administrare: o capsulă pe zi, de preferat în timpul mesei; a nu se depăși doza zilnică recomandată.
+Atenționări: a nu se lăsa la îndemâna și la vederea copiilor mici; consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.

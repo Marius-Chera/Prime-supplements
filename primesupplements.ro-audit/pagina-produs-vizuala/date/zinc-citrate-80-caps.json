@@ -1,0 +1,160 @@
+{
+  "versiune": 1,
+  "handle": "zinc-citrate-80-caps",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-citrat-de-zinc-40mg-80-capsule-sportiv-1.jpg",
+    "alt": "Citrat de zinc 40 mg Prime pe o bancă de sală; în fundal un sportiv cu barbă își pune magneziu pe palme înainte de un set greu"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din eticheta flaconului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului zinc-citrate-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "40 mg zinc",
+    "400% VNR",
+    "1 capsulă / zi",
+    "80 de zile"
+  ],
+  "titlu": "Citrat de zinc: 40 mg de zinc într-o capsulă pe zi",
+  "intro": "O capsulă are [[40 mg]] de zinc din citrat de zinc, adică [[400%]] din valoarea de referință. Iei [[o capsulă]] pe zi, înainte sau după masă, iar flaconul de [[80 de capsule]] ajunge [[80 de zile]]. Produsul e pentru adulți.",
+  "etichete": [
+    "Citrat de zinc",
+    "O capsulă pe zi",
+    "Capsulă de gelatină",
+    "Pentru adulți",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "40",
+      "unitate": "mg",
+      "eticheta": "zinc per capsulă"
+    },
+    {
+      "valoare": "400",
+      "unitate": "%",
+      "eticheta": "VNR per capsulă"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    },
+    {
+      "valoare": "34,9",
+      "unitate": "g",
+      "eticheta": "greutate netă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, înainte sau după masă"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 80 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Zinc (din citrat de zinc)",
+        "valoare": "40 mg (400% VNR)"
+      },
+      {
+        "nume": "Agent de încărcare",
+        "valoare": "maltodextrină"
+      },
+      {
+        "nume": "Învelișul capsulei",
+        "valoare": "gelatină, oxid de zinc"
+      },
+      {
+        "nume": "Capsule în flacon",
+        "valoare": "80"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Citratul de zinc",
+    "puncte": [
+      "40 mg de zinc într-o capsulă",
+      "Zinc legat de acid citric",
+      "O singură capsulă pe zi",
+      "80 de capsule, adică 80 de zile",
+      "Doar pentru adulți, peste 18 ani"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Zn",
+        "titlu": "Zinc · 40 mg",
+        "text": "Zincul contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "OX",
+        "titlu": "Protecție celulară",
+        "text": "Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CIT",
+        "titlu": "Citrat de zinc",
+        "text": "Zinc legat de acid citric, forma de pe etichetă."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu maltodextrină ca agent de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, înainte sau după masă. Nu depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre zinc",
+    "intro": "Zincul e un mineral de care corpul are nevoie în cantități mici, dar în fiecare zi. Iată din ce alimente îl iei, ce înseamnă 400% VNR și de ce nu dublezi doza.",
+    "sectiuni": [
+      {
+        "intrebare": "Din ce alimente iei zinc?",
+        "raspuns": "Mai ales din carne, fructe de mare și lactate. Stridiile sunt printre cele mai bogate surse cunoscute. Carnea de vită, brânzeturile, semințele de dovleac, nucile și leguminoasele aduc și ele zinc. Corpul nu are o rezervă mare de zinc, așa că ai nevoie de el zilnic din alimentație."
+      },
+      {
+        "intrebare": "Ce înseamnă 400% VNR?",
+        "raspuns": "Că o capsulă are de patru ori valoarea nutrițională de referință. Pentru un adult, VNR la zinc e de 10 mg pe zi, conform regulamentului european privind informarea consumatorilor. O capsulă are 40 mg. De aceea doza de pe etichetă e de o singură capsulă pe zi."
+      },
+      {
+        "intrebare": "De ce nu iei mai multe capsule?",
+        "raspuns": "Pentru că eticheta spune clar să nu depășești doza zilnică. Zincul se adună din mai multe surse: mâncare, multivitamine și alte suplimente. Dacă iei deja un produs cu zinc, adună cantitățile înainte să adaugi altul."
+      },
+      {
+        "intrebare": "Ce înseamnă citrat de zinc?",
+        "raspuns": "Zinc legat de acid citric, același acid care dă gustul acru lămâilor. Mineralele se pun în suplimente legate de o altă moleculă, pentru că singure nu sunt stabile. Pe etichetă vezi atât numele formei, citrat de zinc, cât și cantitatea de zinc pe care o aduce."
+      },
+      {
+        "intrebare": "Ce mențiuni de sănătate are voie să folosească zincul?",
+        "raspuns": "Doar pe cele din lista oficială a UE. Regulamentul european 432/2012 conține lista mențiunilor permise pentru zinc, iar pe această pagină folosim două dintre ele. Zincul contribuie la funcționarea normală a sistemului imunitar. Zincul contribuie la protejarea celulelor împotriva stresului oxidativ. Orice altă promisiune despre zinc nu e permisă pe etichetă sau pe site."
+      },
+      {
+        "intrebare": "Când e bine să iei capsula?",
+        "raspuns": "Când îți e mai ușor să nu uiți. Eticheta spune că o poți lua înainte sau după masă. Dacă stomacul tău e sensibil pe nemâncate, ia-o după micul dejun sau după prânz, cu un pahar de apă."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

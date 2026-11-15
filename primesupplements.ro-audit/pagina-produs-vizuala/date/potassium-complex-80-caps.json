@@ -1,0 +1,168 @@
+{
+  "versiune": 1,
+  "handle": "potassium-complex-80-caps",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-potassium-complex-80-capsule-sportiv-1.jpg",
+    "alt": "Potassium Complex Prime pe o bancă de sală; în fundal un sportiv musculos, transpirat după antrenament, bea apă cu un prosop pe umeri"
+  },
+  "nota_cifre": "Valorile sunt per doza zilnică de 3 capsule, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului potassium-complex-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "324 mg potasiu",
+    "240 mg magneziu",
+    "3 capsule / zi",
+    "Citrați"
+  ],
+  "titlu": "Potassium Complex: 324 mg potasiu și 240 mg magneziu pe zi",
+  "intro": "Doza zilnică de [[3 capsule]] îți dă [[324 mg]] de potasiu ([[16,2% VNR]]) și [[240 mg]] de magneziu ([[63,9% VNR]]), ambele sub formă de citrați. Capsulele se iau de preferat în timpul mesei. Flaconul are [[80 de capsule]], cam [[26]] de zile.",
+  "etichete": [
+    "Citrat de potasiu",
+    "Citrat de magneziu",
+    "Electroliți",
+    "3 capsule pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "324",
+      "unitate": "mg",
+      "eticheta": "potasiu pe zi"
+    },
+    {
+      "valoare": "240",
+      "unitate": "mg",
+      "eticheta": "magneziu pe zi"
+    },
+    {
+      "valoare": "63,9",
+      "unitate": "%",
+      "eticheta": "VNR magneziu"
+    },
+    {
+      "valoare": "26",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "3 capsule, în timpul mesei"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, cam 26 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești pe zi",
+    "titlu": "Doza de 3 capsule",
+    "randuri": [
+      {
+        "nume": "Potasiu (din citrat)",
+        "valoare": "324 mg (16,2% VNR)"
+      },
+      {
+        "nume": "Magneziu (din citrat)",
+        "valoare": "240 mg (63,9% VNR)"
+      },
+      {
+        "nume": "Capsule pe zi",
+        "valoare": "3"
+      },
+      {
+        "nume": "Capsule în flacon",
+        "valoare": "80"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Potassium Complex",
+    "puncte": [
+      "Doi electroliți într-o singură formulă: potasiu și magneziu",
+      "Ambele sub formă de citrați",
+      "324 mg potasiu și 240 mg magneziu la doza zilnică",
+      "3 capsule pe zi, de preferat la masă",
+      "80 de capsule, cam 26 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "K",
+        "titlu": "Potasiu · 324 mg / zi",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "Mg",
+        "titlu": "Magneziu · 240 mg / zi",
+        "text": "Magneziul contribuie la echilibrul electrolitic și la funcționarea normală a sistemului muscular.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CIT",
+        "titlu": "Citrați",
+        "text": "Ambele minerale sunt legate de acid citric, acidul din lămâi."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu oxid de zinc; produsul nu e potrivit pentru vegetarieni."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "3 capsule pe zi, de preferat în timpul mesei. Nu depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre potasiu și magneziu",
+    "intro": "Potasiul și magneziul sunt doi electroliți pe care îi pierzi și prin transpirație. Află din ce alimente îi iei, de ce sunt sub formă de citrat și cât de mult transpiri la antrenament.",
+    "sectiuni": [
+      {
+        "intrebare": "Din ce alimente iei potasiu?",
+        "raspuns": "Mai ales din legume și fructe. Cartofii, fasolea, spanacul, roșiile, bananele și caisele uscate sunt surse bune. Valoarea de referință pentru adulți e de 2000 mg pe zi, iar doza zilnică de Potassium Complex acoperă 16,2% din ea. Restul vine din farfurie."
+      },
+      {
+        "intrebare": "De ce sunt mineralele sub formă de citrat?",
+        "raspuns": "Pentru că citratul e o formă organică, legată de acid citric, acidul din lămâi. O recenzie sistematică din 2021 despre magneziu a observat că formele organice, cum e citratul, par mai biodisponibile decât formele anorganice, de tipul oxidului."
+      },
+      {
+        "intrebare": "Câți electroliți pierzi la antrenament?",
+        "raspuns": "Depinde de cât transpiri, iar asta diferă mult de la om la om. Poziția ACSM din 2007 recomandă să nu pierzi mai mult de 2% din greutate prin transpirație. Tot acolo scrie că băuturile cu carbohidrați și electroliți pot ajuta în unele situații, mai ales la efort lung."
+      },
+      {
+        "intrebare": "Au sportivii nevoie de mai mult magneziu?",
+        "raspuns": "Uneori, da. O recenzie din 2017 arată că nevoia de magneziu crește cu activitatea fizică. Autorii notează că legăturile dintre magneziu și performanță vin mai ales din studii observaționale, nu din studii cu suplimente. Magneziul contribuie la reducerea oboselii și extenuării."
+      },
+      {
+        "intrebare": "De ce se iau capsulele la masă?",
+        "raspuns": "Așa recomandă eticheta: trei capsule pe zi, de preferat în timpul mesei. Le poți împărți la micul dejun, prânz și cină, câte una, ca să nu uiți. Capsula e din gelatină, deci produsul nu e potrivit pentru vegetarieni."
+      },
+      {
+        "intrebare": "Ce înseamnă „complex” în numele produsului?",
+        "raspuns": "Că formula pune împreună două minerale, nu unul singur. Potasiul și magneziul sunt amândouă electroliți, adică minerale care, dizolvate în apă, conduc curentul electric. De aceea apar adesea împreună în băuturile și suplimentele pentru sportivi."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      },
+      {
+        "text": "Zhang Y și colab. Can Magnesium Enhance Exercise Performance? Nutrients. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28846654/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

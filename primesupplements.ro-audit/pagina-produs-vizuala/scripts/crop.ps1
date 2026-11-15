@@ -1,7 +1,7 @@
 # Decupaj 4:5 (toată înălțimea) centrat la fracția cx din lățime -> poze\jpg\<nume>.jpg (1600x2000, q88) + prev\<nume>.jpg
 param([string]$src, [double]$cx, [string]$name)
 Add-Type -AssemblyName System.Drawing
-$S = $env:TEMP  # previzualizarea merge în %TEMP%prev
+$S = $env:TEMP; New-Item -ItemType Directory -Force "$S\prev" | Out-Null  # previzualizarea: %TEMP%\prev
 $out = 'D:\Proiecte Claude\Prime Supplements\Prime-supplements\primesupplements.ro-audit\pagina-produs-vizuala\poze\jpg'
 $img = [System.Drawing.Image]::FromFile($src)
 $ch = $img.Height; $cw = [int]($ch * 0.8)

@@ -1,6 +1,6 @@
 # Convertește scratchpad\png\*.png -> repo poze\jpg\*.jpg (latura mare 2000 px, JPEG q85) + previzualizări mici în scratchpad\prev
-Add-Type -AssemblyName System.Drawing
 param([string]$S)  # folderul de lucru: png = intrare, prev = previzualizări
+Add-Type -AssemblyName System.Drawing
 $out = 'D:\Proiecte Claude\Prime Supplements\Prime-supplements\primesupplements.ro-audit\pagina-produs-vizuala\poze\jpg'
 New-Item -ItemType Directory -Force "$S\prev" | Out-Null
 $codec = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }

@@ -1,0 +1,168 @@
+{
+  "versiune": 1,
+  "handle": "coenzima-q10-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-coenzima-q10-200mg-80-capsule-sportiv-1.jpg",
+    "alt": "Coenzima Q10 200 mg Prime Health pe blatul din bucătărie, lângă o capsulă; în fundal un sportiv în cămașă bleumarin ține un pahar cu apă după micul dejun"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului coenzima-q10-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "200 mg Q10",
+    "1 capsulă / zi",
+    "80 de zile",
+    "Capsule vegetale"
+  ],
+  "titlu": "Coenzima Q10: 200 mg într-o singură capsulă pe zi",
+  "intro": "O capsulă are [[200 mg]] de coenzima Q10 și e doza zilnică de pe etichetă. O iei după masă, cu un pahar de apă, iar flaconul de [[80 de capsule]] vegetale ajunge [[80 de zile]]. Pe lângă Q10, capsula are [[10 mg]] de pulbere din talpa-gâștei (Leonurus cardiaca).",
+  "etichete": [
+    "Coenzima Q10",
+    "Capsulă vegetală",
+    "Talpa-gâștei",
+    "O capsulă pe zi",
+    "Gama Prime Health",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "200",
+      "unitate": "mg",
+      "eticheta": "coenzima Q10 per capsulă"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "capsulă pe zi"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    },
+    {
+      "valoare": "10",
+      "unitate": "mg",
+      "eticheta": "talpa-gâștei per capsulă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, după masă"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule vegetale"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Coenzima Q10",
+        "valoare": "200 mg"
+      },
+      {
+        "nume": "Făină de orez (agent de încărcare)",
+        "valoare": "410 mg"
+      },
+      {
+        "nume": "Talpa-gâștei (Leonurus cardiaca)",
+        "valoare": "10 mg"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "hipromeloză (vegetală)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Coenzima Q10",
+    "puncte": [
+      "200 mg de coenzima Q10 într-o capsulă",
+      "O singură capsulă pe zi, după masă",
+      "80 de capsule, adică 80 de zile",
+      "Capsulă vegetală din hipromeloză",
+      "Cu 10 mg de pulbere din talpa-gâștei",
+      "Gama Prime Health, fabricat în UE"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Q10",
+        "titlu": "Coenzima Q10 · 200 mg",
+        "text": "Substanța principală din capsulă, numită și ubichinonă."
+      },
+      {
+        "cod": "LEO",
+        "titlu": "Talpa-gâștei · 10 mg",
+        "text": "Pulbere din părțile aeriene ale plantei Leonurus cardiaca."
+      },
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 410 mg",
+        "text": "Agent de încărcare, umple capsula."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Capsulă vegetală",
+        "text": "Din hipromeloză, fără gelatină."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "1 capsulă pe zi, după masă, cu un pahar de apă, sau cum îți recomandă specialistul. Pentru adulți. Nu depăși doza recomandată. Contraindicat persoanelor alergice la oricare dintre ingrediente; consultă specialistul înainte de utilizare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre coenzima Q10",
+    "intro": "Coenzima Q10 are un nume de laborator, dar o găsești în aproape fiecare celulă din corp. Iată de unde vine numele, de ce o iei după masă și ce înseamnă talpa-gâștei de pe etichetă.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se numește Q10?",
+        "raspuns": "Din cauza structurii ei chimice. Molecula are o parte numită chinonă, de unde vine litera Q. Cifra 10 arată că are o „coadă” din zece unități repetate. Se mai numește ubichinonă, pentru că se găsește aproape peste tot în organism, de la latinescul „ubique”, adică „peste tot”."
+      },
+      {
+        "intrebare": "De ce se ia după masă?",
+        "raspuns": "Pentru că e o substanță solubilă în grăsimi. O recenzie din 2006 arată că se absoarbe lent și limitat, cu un vârf în sânge după aproximativ șase ore. De aceea eticheta recomandă capsula după masă, când în stomac există și puțină grăsime din mâncare."
+      },
+      {
+        "intrebare": "Contează forma în care e pusă în capsulă?",
+        "raspuns": "Da, destul de mult. O recenzie din 2020 notează că modul în care sunt dispersate cristalele de Q10 în formulă influențează cât ajunge efectiv în sânge. Fără o dispersie bună, biodisponibilitatea poate scădea cu până la 75%. De aceea contează și ce mănânci odată cu ea."
+      },
+      {
+        "intrebare": "Ce diferență e între ubichinonă și ubichinol?",
+        "raspuns": "Sunt două forme ale aceleiași molecule, una oxidată și una redusă. Un studiu din 2014 pe un model de digestie în laborator a observat că ubichinolul trece mai ușor în micelii, picăturile mici prin care grăsimile ajung în intestin. Studiul nu a fost făcut pe oameni."
+      },
+      {
+        "intrebare": "Ce este talpa-gâștei?",
+        "raspuns": "O plantă din familia mentei, cu numele latin Leonurus cardiaca. Crește prin Europa și Asia, pe margini de drum și în locuri însorite. În capsulă găsești 10 mg de pulbere din părțile ei aeriene. Eticheta precizează că pentru acest ingredient nu există o valoare de referință stabilită."
+      },
+      {
+        "intrebare": "Cât ține un flacon?",
+        "raspuns": "Optzeci de zile, la o capsulă pe zi. Capsula e vegetală, din hipromeloză, deci fără gelatină. Păstrează flaconul ferit de căldură, lumină și umiditate."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Bhagavan HN, Chopra RK. Coenzyme Q10: absorption, tissue uptake, metabolism and pharmacokinetics. Free Radic Res. 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16551570/"
+      },
+      {
+        "text": "Mantle D, Dybring A. Bioavailability of Coenzyme Q10: An Overview of the Absorption Process and Subsequent Metabolism. Antioxidants. 2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32380795/"
+      },
+      {
+        "text": "Failla ML și colab. Increased bioavailability of ubiquinol compared to that of ubiquinone is due to more efficient micellarization during digestion. J Agric Food Chem. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24979483/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
+  }
+}

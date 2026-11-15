@@ -1,0 +1,167 @@
+{
+  "versiune": 1,
+  "handle": "supliment-alimentar-chromium-picolinate-80-caps",
+  "tema": "mov",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-picolinat-de-crom-80-capsule-sportiv-1.jpg",
+    "alt": "Picolinat de crom Prime pe blatul din bucătărie; în fundal un sportiv își pregătește caserolele cu orez, pui și legume"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din eticheta flaconului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului supliment-alimentar-chromium-picolinate-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "200 µg crom",
+    "500% VNR",
+    "1 capsulă / zi",
+    "80 de zile"
+  ],
+  "titlu": "Picolinat de crom: 200 µg de crom într-o capsulă pe zi",
+  "intro": "O capsulă are [[1,6 mg]] de picolinat de crom, care aduce [[200 µg]] de crom, adică [[500%]] din valoarea de referință. Iei [[o capsulă]] pe zi, de preferat la masă, iar flaconul de [[80 de capsule]] ajunge [[80 de zile]].",
+  "etichete": [
+    "Picolinat de crom",
+    "O capsulă pe zi",
+    "Capsulă de gelatină",
+    "Pentru adulți"
+  ],
+  "cifre": [
+    {
+      "valoare": "200",
+      "unitate": "µg",
+      "eticheta": "crom per capsulă"
+    },
+    {
+      "valoare": "500",
+      "unitate": "%",
+      "eticheta": "VNR per capsulă"
+    },
+    {
+      "valoare": "1,6",
+      "unitate": "mg",
+      "eticheta": "picolinat de crom"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, la masă"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 80 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Picolinat de crom",
+        "valoare": "1,6 mg"
+      },
+      {
+        "nume": "din care crom",
+        "valoare": "200 µg (500% VNR)"
+      },
+      {
+        "nume": "Agent de încărcare",
+        "valoare": "maltodextrină"
+      },
+      {
+        "nume": "Învelișul capsulei",
+        "valoare": "gelatină, oxid de zinc"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Picolinatul de crom",
+    "puncte": [
+      "200 µg de crom într-o capsulă",
+      "Crom legat de acid picolinic",
+      "O singură capsulă pe zi, la masă",
+      "80 de capsule, adică 80 de zile",
+      "Pentru adulți"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Cr",
+        "titlu": "Crom · 200 µg",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "GLU",
+        "titlu": "Glicemie",
+        "text": "Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "PIC",
+        "titlu": "Picolinat de crom · 1,6 mg",
+        "text": "Crom legat de acid picolinic, forma de pe etichetă."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu maltodextrină ca agent de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, de preferat în timpul mesei. Nu depăși doza zilnică recomandată. Consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre picolinatul de crom",
+    "intro": "Cromul e unul dintre mineralele de care corpul are nevoie în cantități foarte mici. Află de ce se măsoară în micrograme, ce spun studiile despre el și ce poți aștepta de fapt.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se măsoară cromul în micrograme?",
+        "raspuns": "Pentru că necesarul e foarte mic. Un microgram e o miime de miligram. Valoarea de referință pentru adulți e de 40 µg pe zi, iar o capsulă are 200 µg. Picolinatul de crom cântărește 1,6 mg, dar cromul din el e doar o parte mică din această greutate."
+      },
+      {
+        "intrebare": "Ce este acidul picolinic?",
+        "raspuns": "O moleculă mică pe care corpul o produce singur, pornind de la un aminoacid, triptofanul. În supliment, cromul e legat de acidul picolinic, formând picolinatul de crom. E una dintre cele mai folosite forme de crom din suplimente."
+      },
+      {
+        "intrebare": "Ajută cromul la forță sau la masa musculară?",
+        "raspuns": "Studiile nu arată asta. Un studiu din 1996 pe 36 de bărbați care s-au antrenat cu greutăți opt săptămâni nu a găsit niciun efect al cromului asupra forței sau a compoziției corporale. Iar o recenzie Cochrane din 2013 nu a găsit dovezi sigure despre efectul lui asupra greutății corporale."
+      },
+      {
+        "intrebare": "Atunci ce face cromul?",
+        "raspuns": "Exact ce scrie în lista UE de mențiuni autorizate. Cromul contribuie la metabolismul normal al macronutrienților. Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge. O recenzie din 2017 notează totuși că rolul lui la oameni e încă discutat de cercetători."
+      },
+      {
+        "intrebare": "Din ce alimente iei crom?",
+        "raspuns": "Din cerealele integrale, carne, broccoli, fasole verde și condimente. Cantitățile din alimente sunt mici și depind mult de solul în care au crescut plantele. Dacă urmezi un tratament sau ai o afecțiune legată de glicemie, întreabă medicul înainte să iei crom."
+      },
+      {
+        "intrebare": "De ce se ia capsula la masă?",
+        "raspuns": "Așa recomandă eticheta: o capsulă pe zi, de preferat în timpul mesei. Cel mai simplu e să o legi de o masă fixă, de exemplu prânzul. Un flacon de 80 de capsule ajunge aproape trei luni."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Lukaski HC și colab. Chromium supplementation and resistance training: effects on body composition, strength, and trace element status of men. Am J Clin Nutr. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8644693/"
+      },
+      {
+        "text": "Tian H și colab. Chromium picolinate supplementation for overweight or obese adults. Cochrane Database Syst Rev. 2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24293292/"
+      },
+      {
+        "text": "Vincent JB. New Evidence against Chromium as an Essential Trace Element. J Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29021369/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

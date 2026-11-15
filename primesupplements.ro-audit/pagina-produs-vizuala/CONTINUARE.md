@@ -16,7 +16,7 @@ Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/in
    cu câmpul `curiozitati` inclus (300–400 de cuvinte, 3–6 întrebări H3 cu „?”, răspuns direct în prima frază,
    surse doar din `../blog-automation/SURSE-PUBMED.md` sau EUR-Lex/EFSA; texte diferite de la produs la produs).
    Pentru „Curiozități” poți scrie un fișier `{handle: {titlu, intro, sectiuni, surse}}` și să rulezi `scripts/adauga-curiozitati.mjs`.
-3. `node scripts/valideaza-pagina-vizuala.mjs date --cere-curiozitati` → 0 erori.
+3. `node scripts/valideaza-pagina-vizuala.mjs date --cere-curiozitati` → 0 erori, apoi `node scripts/scor-pagina-vizuala.mjs <handle>` → SEO 100 și AI 100 (cerut de Marius pe 16.11: toate textele de pe PILOT la 100/100; cuvântul-cheie al fiecărui produs e în harta CHEIE din script).
 4. `imagine` = sportivă: poză reală (`../blog-automation/POZE-SEDINTE-FOTO.md`), apoi `poze/jpg/index.json` (`women: true`,
    unele sunt doar în repo: le urci întâi în Files), altfel OpenArt (`poze/POZE-PRODUSE.md`, `poze/rezultate.txt`).
    Galeriile produselor NU se ating.

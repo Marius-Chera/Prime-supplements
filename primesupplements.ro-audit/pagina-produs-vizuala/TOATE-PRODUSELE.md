@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 21:01 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 22:42 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 42; cu Curiozități: 42; cu sportivă în dreapta: 41; scrise pe PILOT (metafield) cu versiunea curentă: 42.
+Rezumat: **80 produse**; JSON pagină vizuală: 47; cu Curiozități: 47; cu sportivă în dreapta: 46; scrise pe PILOT (metafield) cu versiunea curentă: 47.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -21,8 +21,8 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | da (328) | da | pagină 15.11 + curiozități 15.11; sportivă 15.11 |
 | combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | da (335) | da | pagină 15.11 + curiozități 15.11 |
-| prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
-| prime-whey-2000g | 14971469529463 | Prime Whey – proteină din zer, 2 kg | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
+| prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (353) | da | pagină 15.11 + curiozități 15.11; curiozități rescrise 16.11 (procentul de proteine, cerut de Marius) |
+| prime-whey-2000g | 14971469529463 | Prime Whey – proteină din zer, 2 kg | da | da (381) | da | pagină 15.11 + curiozități 15.11; curiozități rescrise 16.11 (procentul de proteine, cerut de Marius) |
 | cluster-bomb-1000g | 14971469562231 | Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg | da | da (322) | da | pagină 15.11 + curiozități 15.11 |
 | nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | da (328) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | fiber-blood-orange | 14998832546167 | Fiber – băutură cu fibre, aromă portocală roșie, 500 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
@@ -49,11 +49,11 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | zinc-citrate-80-caps | 14971466482039 | Citrat de zinc 40 mg – 80 de capsule | da | da (336) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | magnesium-citrate-80-caps | 14971466350967 | Citrat de magneziu – 80 capsule | da | da (319) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | supliment-alimentar-chromium-picolinate-80-caps | 14971466252663 | Picolinat de crom – 80 capsule | da | da (322) | da | pagină 15.11 + curiozități 15.11; sportiv |
-| taurine-80-caps | 14971466416503 | Taurină 1000 mg – 80 de capsule | **nu** | **nu** | **nu** | – |
-| turmeric-extract-80-caps | 14971466449271 | Extract de turmeric cu piperină – 80 de capsule | **nu** | **nu** | **nu** | – |
-| daily-vitamin-formula | 14971467235703 | Daily Vitamin Formula – vitamine și minerale, 30 de plicuri | **nu** | **nu** | **nu** | – |
-| spirulina-80-caps | 14971469889911 | Spirulină Prime – 80 de capsule | **nu** | **nu** | **nu** | – |
-| silimarina-80-caps | 14971469988215 | Extract de silimarină – 80 de capsule | **nu** | **nu** | **nu** | – |
+| taurine-80-caps | 14971466416503 | Taurină 1000 mg – 80 de capsule | da | da (341) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt) |
+| turmeric-extract-80-caps | 14971466449271 | Extract de turmeric cu piperină – 80 de capsule | da | da (328) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt) |
+| daily-vitamin-formula | 14971467235703 | Daily Vitamin Formula – vitamine și minerale, 30 de plicuri | da | da (332) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt) |
+| spirulina-80-caps | 14971469889911 | Spirulină Prime – 80 de capsule | da | da (301) | da | pagină 16.11 + curiozități 16.11; sportiv (cadru real Evo Gym) |
+| silimarina-80-caps | 14971469988215 | Extract de silimarină – 80 de capsule | da | da (324) | da | pagină 16.11 + curiozități 16.11; sportiv (cadru real Evo Gym) |
 | enzima-nattokinaza-80-caps | 14971470053751 | Enzimă nattokinază – 60 de capsule | **nu** | **nu** | **nu** | – |
 | scortisoara-ceylon-bio-200g | 14971466711415 | Scorțișoară de Ceylon pudră bio – 200 g | **nu** | **nu** | **nu** | – |
 | water-out-120-caps | 14971465433463 | Water Out – 120 capsule cu extracte din plante | **nu** | **nu** | **nu** | – |

@@ -6,7 +6,7 @@
     "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-daily-vitamin-formula-30-plicuri-sportiv-1.jpg",
     "alt": "Tubul Daily Vitamin Formula Prime și un plic pe masa de la micul dejun, lângă un bol cu ovăz; în fundal un sportiv bea un pahar cu apă"
   },
-  "nota_cifre": "Valorile sunt pentru un plic, adică doza zilnică, din tabelul de pe cutie.",
+  "nota_cifre": "Valorile sunt pentru un plic, adică doza zilnică, din tabelul de pe tub.",
   "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului daily-vitamin-formula (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
   "badge": [
     "12 vitamine",
@@ -15,7 +15,7 @@
     "30 de plicuri"
   ],
   "titlu": "Daily Vitamin Formula: 12 vitamine și 8 minerale într-un plic pe zi",
-  "intro": "Un plic are [[5 tablete și o capsulă]], împărțite pe grupe: vitamina C, complexul B, minerale, enzime și capsula cu calciu, magneziu, zinc și D3. Împreună dau [[12 vitamine și 8 minerale]], de exemplu [[650 mg de vitamina C]] și [[19,6 mg de vitamina B6]]. Iei un plic pe zi, la masă, de preferință dimineața; cutia are [[30 de plicuri]].",
+  "intro": "Un plic are [[5 tablete și o capsulă]], împărțite pe grupe: vitamina C, complexul B, minerale, enzime și capsula cu calciu, magneziu, zinc și D3. Împreună dau [[12 vitamine și 8 minerale]], de exemplu [[650 mg de vitamina C]] și [[19,6 mg de vitamina B6]]. Iei un plic pe zi, la masă, de preferință dimineața; tubul are [[30 de plicuri]].",
   "etichete": [
     "Multivitamine",
     "12 vitamine",
@@ -43,7 +43,7 @@
     {
       "valoare": "30",
       "unitate": "",
-      "eticheta": "plicuri în cutie"
+      "eticheta": "plicuri în tub"
     }
   ],
   "mini_carduri": [
@@ -161,7 +161,7 @@
   "de_verificat": [],
   "curiozitati": {
     "titlu": "Curiozități despre Daily Vitamin Formula",
-    "intro": "Un multivitamin obișnuit e o singură tabletă. Aici primești un plic cu șase bucăți. Iată de ce și cum citești cifrele de pe cutie.",
+    "intro": "Un multivitamin obișnuit e o singură tabletă. Aici primești un plic cu șase bucăți. Iată de ce și cum citești cifrele de pe tub.",
     "sectiuni": [
       {
         "intrebare": "De ce sunt cinci tablete și o capsulă într-un plic?",

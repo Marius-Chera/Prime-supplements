@@ -162,6 +162,22 @@ Verificate prin eutils (esummary + rezumat citit) în aceeași zi; folosite în 
 | 29211007 | Blumberg JB și colab. Contribution of Dietary Supplements to Nutritional Adequacy in Various Adult Age Groups. Nutrients. 2017;9(12):1325. | 10.3390/nu9121325 | 10.698 de adulți: suplimentele asociate cu aporturi mai mari la 15–16 din 19 nutrienți; ușor mai mulți peste limita maximă (de regulă sub 5%) |
 | 28846654 | Zhang Y și colab. Can Magnesium Enhance Exercise Performance? Nutrients. 2017;9(9):946. | 10.3390/nu9090946 | recenzie: nevoia de magneziu crește cu activitatea; asocieri în studii transversale (nu efect de supliment) |
 
+## Adăugate pe 16.11.2026 (paginile vizuale de produs, „Curiozități”)
+
+Verificate prin serverul PubMed (metadate + rezumat citit) pe 16.11.2026.
+
+| PMID | Citare | DOI | Ce poți spune (verificat 16.11.2026) |
+|---|---|---|---|
+| 34039357 | Kurtz JA și colab. Taurine in sports and exercise. J Int Soc Sports Nutr. 2021;18(1):39. | 10.1186/s12970-021-00438-0 | 19 studii cu taurina ca singur ingredient, doze de sub 1 g până la 6 g; rezultate limitate și variate, fără concluzii definitive (fără efecte promise) |
+| 9619120 | Shoba G și colab. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998;64(4):353-6. | 10.1055/s-2006-957450 | la oameni, 2 g de curcumină singură: niveluri în sânge foarte mici sau nedetectabile; cu 20 mg de piperină, biodisponibilitatea a crescut cu 2000% |
+| 17999464 | Anand P și colab. Bioavailability of curcumin: problems and promises. Mol Pharm. 2007;4(6):807-18. | 10.1021/mp700113r | curcumina se absoarbe slab, se metabolizează repede și se elimină repede; piperina e prima soluție enumerată (nu prelua textul despre boli) |
+| 36720046 | Maddiboyina B și colab. Food and drug industry applications of microalgae Spirulina platensis: A review. J Basic Microbiol. 2023;63(6):573-583. | 10.1002/jobm.202200704 | compoziție: 55–70% proteine, 15–25% carbohidrați, 5–8% acizi grași, pigmenți; folosită de NASA pentru astronauți (nu prelua efectele farmacologice) |
+| 30080294 | Abenavoli L și colab. Milk thistle (Silybum marianum): A concise overview. Phytother Res. 2018;32(11):2202-2213. | 10.1002/ptr.6171 | folosit de ~2000 de ani; silimarina e un amestec de flavonolignani, silibina e componenta principală (nu prelua textul despre boli de ficat) |
+| 16164374 | Kidd P, Head K. A review of the bioavailability and clinical efficacy of milk thistle phytosome. Altern Med Rev. 2005;10(3):193-203. | – | silibina, ca alte flavonoide, se absoarbe slab; formele cu fosfolipide au fost studiate pentru biodisponibilitate (nu prelua „protecția ficatului”) |
+| 3478223 | Sumi H și colab. A novel fibrinolytic enzyme (nattokinase) in the vegetable cheese Natto. Experientia. 1987;43(10):1110-1. | 10.1007/BF01956052 | descoperirea nattokinazei în natto; ~40 CU/g; masă moleculară ~20.000 (nu prelua efecte asupra sângelui ca promisiune) |
+| 20024932 | Abraham K și colab. Toxicology and risk assessment of coumarin: focus on human data. Mol Nutr Food Res. 2010;54(2):228-39. | 10.1002/mnfr.200900281 | doza zilnică tolerabilă de cumarină: 0,1 mg/kg corp (EFSA, confirmată); expunerea vine mai ales din scorțișoara cassia |
+| 20853872 | Woehrlin F și colab. Quantification of flavoring constituents in cinnamon: high variation of coumarin in cassia bark. J Agric Food Chem. 2010;58(19):10568-75. | 10.1021/jf102112p | 47 de probe din comerț: cumarină mult în cassia, cu variații mari (până la ~10.000 mg/kg), chiar și în același copac |
+
 ## De adăugat (verificate înainte de folosire)
 
 Teme încă fără surse în bibliotecă (după 13.11.2026): zinc, EAA ca formulă, beta-alanină, citrulină, NAC, ashwagandha, taurină, L-carnitină, fibre, ovăz. Prima rulare care scrie despre una dintre ele verifică 3–6 studii prin eutils și le trece aici (prin sesiunea de pe calculator, care are acces la repo).

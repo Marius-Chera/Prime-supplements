@@ -1155,3 +1155,15 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Lista de mențiuni a validatorului folosește acum formulările deja aprobate pe site pentru creatină și proteine. Golurile de etichetă (aromele de la Cherry, declarațiile nutriționale ale celorlalte arome Whey) rămân interne, nu se afișează.
 - Găsit în treacăt (nu de la pilot): pe desktop, un bloc de text din footer iese cu ~66 px din pagină (scroll orizontal) și pe tema live.
 - Log: `applied/logs/pagina-vizuala/pilot-2026-11-15.json`.
+- **15.11 – creditul UpPromote negenerat, trecut la „Credit pentru voucher”.** În UpPromote, comisionul „Paid” devenea credit, iar afiliatul își genera singur voucherele din el.
+  - **Cum s-a calculat:** credit rămas = Paid (din exportul din 14.11) minus voucherele UpPromote folosite. Voucherele sunt cele 209 comenzi din Shopify cu coduri de forma „<număr afiliat UpPromote>.XXXXXX”.
+  - **Ce plăteai:** Marius: „Doar vouchere UpPromote”.
+  - **Rezultat:** 68 de afiliați, 18.251,55 lei. Marius a modificat două sume: Lucian Borza 1.396,88 (calculat 1.996,88) și Iulia Beatrice 1.371,29 (calculat 1.971,29).
+  - **Exemple:** Raul Trip 1.238,01 și Cosmin Bostan 62,93.
+  - **Credit 0:** Eduard Paul, Robert Frățilă și Victor Macrea aveau mai multe vouchere decât „Paid”.
+  - Calculul și SQL-ul sunt în folderul local de backup.
+  - Ruta temporară folosită la citire și cheia ei au fost scoase.
+- **Aplicația:**
+  - „Aprobat” = comisioanele aprobate neplătite. După „Aprobă plata” suma trece la „Credit pentru voucher”.
+  - În Comenzi există selecție multiplă (Aprobă / Respinge selectate).
+  - Ferestrele de confirmare ale browserului (blocate în adminul Shopify) au fost înlocuite cu dialogul aplicației.

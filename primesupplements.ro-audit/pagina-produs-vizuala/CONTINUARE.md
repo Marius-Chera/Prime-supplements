@@ -3,7 +3,7 @@
 Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/inventar.mjs`).
 - 23 de produse au pagină vizuală + „Curiozități”, scrise pe tema PILOT `194315649399` și verificate (desktop + 375 px).
 - Lotul 3 (15.11): Ashwagandha, Recovery Glutamin, Complete Collagen, baton căpșuni – scrise pe PILOT.
-- **Rămân 48 de produse fără pagină** (lotul 4 din 15.11 noaptea: Creamy Rice fără aromă + sirop de arțar, Combat Pro 2.0, Emperor Mass, Whey Go; Recovery BCAA are acum sportivă) (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
+- **Rămân 43 de produse fără pagină** (lotul 4 din 15.11 noaptea: Creamy Rice fără aromă + sirop de arțar, Combat Pro 2.0, Emperor Mass, Whey Go; Recovery BCAA are acum sportivă) (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
   (Ashwagandha, Creamy Rice fără aromă și sirop de arțar, Combat Pro 2.0, Glutamin, Emperor Mass, Whey Go, Creatine Ready To Go,
   Oat Cream, Glycerol, NAC, L-carnitină, Q10, Potassium, zinc...), apoi capsulele Prime Health, tincturile, shot-urile,
   unturile, batoanele și cele 19 produse Frutilu.
@@ -28,3 +28,8 @@ Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/in
 
 Tehnic: snippet-ul (`liquid/snippets/prime-pagina-vizuala.liquid`) citește `prime.curiozitati` și, dacă lipsește, `d.curiozitati`.
 Snippet-ul și CSS-ul de pe PILOT sunt identice cu cele din repo (urcate 15.11 cu `themeFilesUpsert`). Tema live nu e atinsă.
+
+## Poze – direcția nouă (Marius, 15.11 noaptea)
+- **Fără alte poze cu femei.** De acum: sportivi bărbați. La pre-workout-uri, sportivi foarte musculoși. La gainere, powerlifter sau strongman în off-season.
+- **Întâi cadrele reale** din `D:Prime SupplementsShooting foto evo gymshooting evo gym` (planșă cu `plansa.ps1`, decupaj 4:5 cu `crop.ps1`: rețetele sunt în JURNAL 15.11, lotul 5). Exemplu: la Glycerol, sportivul la helcometru. Evidența: `../blog-automation/POZE-SEDINTE-FOTO.md`. Abia apoi OpenArt, cu un sportiv bărbat.
+- Scrierea pe PILOT: bulk mutation e blocată de conector; `metafieldsSet` se face de mână, 2 produse pe apel, apoi amprentele **obligatoriu** (la lotul 5 a ieșit o literă greșită).

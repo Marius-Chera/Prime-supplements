@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 20:28 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 20:45 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 32; cu Curiozități: 32; cu sportivă în dreapta: 32; scrise pe PILOT (metafield) cu versiunea curentă: 32.
+Rezumat: **80 produse**; JSON pagină vizuală: 37; cu Curiozități: 37; cu sportivă în dreapta: 36; scrise pe PILOT (metafield) cu versiunea curentă: 37.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -15,16 +15,16 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | magneziu-bisglicinat-80-caps | 14971467170167 | Magneziu bisglicinat 300 mg – 80 de capsule | da | da (340) | da | pagină 15.11 + curiozități 15.11 |
 | creatina-creapure | 14971467268471 | Creatină Creapure® monohidrată | da | da (360) | da | pagină 15.11 + curiozități 15.11 |
 | eaa-aminoacizi-esentiali | 14971467301239 | Aminoacizi esențiali EAA – tub de 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
-| nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | da (326) | da | pagină 15.11 + curiozități 15.11 |
+| nitrox | 14971467399543 | Supliment pre-antrenament Nitrox 3D – 500 g | da | da (326) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | omega-3 | 14971467465079 | Omega-3 din ulei de pește – 80 de capsule | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | pure-isolate-2000g | 14971467530615 | Izolat proteic din zer Pure Isolate – 2 kg | da | da (313) | da | pagină 15.11 + curiozități 15.11 |
 | recovery-bcaa-500g | 14971467596151 | Aminoacizi Recovery BCAA 4:1:1 – 500 g | da | da (328) | da | pagină 15.11 + curiozități 15.11; sportivă 15.11 |
-| combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
+| combat-pro | 14971467825527 | Supliment pre-antrenament Combat Pro cu cafeină – 500 g | da | da (330) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | unt-de-migdale | 14971468906871 | Unt de migdale Prime Health, 600 g | da | da (335) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-1000g | 14971469398391 | Prime Whey – proteină din zer, 1 kg | da | da (337) | da | pagină 15.11 + curiozități 15.11 |
 | prime-whey-2000g | 14971469529463 | Prime Whey – proteină din zer, 2 kg | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
 | cluster-bomb-1000g | 14971469562231 | Cluster Bomb – intra-workout cu Cluster Dextrin®, 1 kg | da | da (322) | da | pagină 15.11 + curiozități 15.11 |
-| nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | da (328) | da | pagină 15.11 + curiozități 15.11 |
+| nitrox-no-stim | 14971469594999 | Pre-workout fără stimulente Nitrox No-Stim, 660 g | da | da (328) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | fiber-blood-orange | 14998832546167 | Fiber – băutură cu fibre, aromă portocală roșie, 500 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
 | creatina-monohidrat-micronized-300g-fara-aroma | 15404872368503 | Creatină monohidrată micronizată fără aromă, 300 g | da | da (301) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-blueberry-muffin | 15509051408759 | Cremă de orez Prime Creamy Rice – brioșă cu afine, 1 kg | da | da (314) | da | pagină 15.11 + curiozități 15.11 |
@@ -35,15 +35,15 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | ashwagandha-ksm-66 | 14971464712567 | Ashwagandha KSM-66 – 80 capsule | da | da (313) | da | pagină + curiozități 15.11 |
 | crema-de-orez-fara-aroma | 15509049639287 | Cremă de orez Prime Creamy Rice – fără aromă, 1 kg | da | da (326) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-sirop-de-artar | 15509052326263 | Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg | da | da (300) | da | pagină 15.11 + curiozități 15.11 |
-| combat-pro-2-0-660g-30-serv | 14971469791607 | Pre-antrenament Combat Pro 2.0 – 660 g | da | da (307) | da | pagină 15.11 + curiozități 15.11 |
+| combat-pro-2-0-660g-30-serv | 14971469791607 | Pre-antrenament Combat Pro 2.0 – 660 g | da | da (307) | da | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | recovery-glutamin | 14971467628919 | L-glutamină Recovery Glutamin Kyowa® – 500 g | da | da (313) | da | pagină + curiozități 15.11 |
-| emperor-mass_3000g | 14971467334007 | Gainer Emperor Mass – 40% proteină, 3 kg | da | da (308) | da | pagină 15.11 + curiozități 15.11 |
+| emperor-mass_3000g | 14971467334007 | Gainer Emperor Mass – 40% proteină, 3 kg | da | da (308) | în repo: prime-emperor-mass-3kg-chocolate-sportiva-1.jpg | pagină 15.11 + curiozități 15.11; poză nouă cu sportiv 15.11 |
 | prime-whey-go | 14999064969591 | Prime Whey Go – proteină din zer, plicuri 30 g | da | da (316) | da | pagină 15.11 + curiozități 15.11 |
-| creatine-ready-to-go-plicuri-prime-supplements | 15410672075127 | Creatină Ready To Go – plicuri efervescente 10 g | **nu** | **nu** | **nu** | – |
-| instant-oat-cream-800g-25-serv | 14971469824375 | Instant Oat Cream – cremă de ovăz, 800 g | **nu** | **nu** | **nu** | – |
-| glycerol-max-pump-500g-125-serv | 14971470184823 | Glycerol Max Pump – monostearat de glicerol, 500 g | **nu** | **nu** | **nu** | – |
-| nac-80-caps | 14971466383735 | NAC – N-acetilcisteină 500 mg, 80 de capsule | **nu** | **nu** | **nu** | – |
-| l-carnitine-1000-80-caps | 14971466318199 | L-carnitină 1000 – 80 capsule | **nu** | **nu** | **nu** | – |
+| creatine-ready-to-go-plicuri-prime-supplements | 15410672075127 | Creatină Ready To Go – plicuri efervescente 10 g | da | da (312) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| instant-oat-cream-800g-25-serv | 14971469824375 | Instant Oat Cream – cremă de ovăz, 800 g | da | da (303) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| glycerol-max-pump-500g-125-serv | 14971470184823 | Glycerol Max Pump – monostearat de glicerol, 500 g | da | da (307) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| nac-80-caps | 14971466383735 | NAC – N-acetilcisteină 500 mg, 80 de capsule | da | da (316) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| l-carnitine-1000-80-caps | 14971466318199 | L-carnitină 1000 – 80 capsule | da | da (323) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | coenzima-q10-80-caps | 14971467104631 | Coenzima Q10 200 mg – 80 de capsule | **nu** | **nu** | **nu** | – |
 | potassium-complex-80-caps | 14971470152055 | Potassium Complex – potasiu și magneziu, 80 de capsule | **nu** | **nu** | **nu** | – |
 | zinc-citrate-80-caps | 14971466482039 | Citrat de zinc 40 mg – 80 de capsule | **nu** | **nu** | **nu** | – |

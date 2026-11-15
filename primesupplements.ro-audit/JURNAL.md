@@ -1205,3 +1205,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Codul e de o singură folosire și apare imediat în panou, la „Plăți primite”, grupat pe voucher.
   - Codul pleacă și pe e-mail, prin Resend, cu copie la contact@. Exemplu: `afiliati/sabloane/afiliati-voucher-generat-exemplu.html`.
   - **E-mailul pornește abia după ce Marius:** își face contul Resend, verifică domeniul primesupplements.ro (DNS-ul e la KEMO, ns*.kemo.services) și pune cheia `RESEND_API_KEY` ca secret în Cloudflare. Până atunci, codul apare doar în panou.
+  - **Marius a renunțat la e-mailul cu voucherul:** „ajunge dacă îl primesc în aplicație”. Trimiterea prin Resend a fost scoasă din aplicație, la fel și exemplul de e-mail. Nu mai e nevoie de cont Resend sau de DNS la KEMO.

@@ -493,3 +493,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Marius: „Da, f-o acum”, pentru versiunea v5 cu permisiunile de citire Shopify Payments.
   - Marius: „Da, dezactivează Netopia”: cardul trece integral pe Shopify Payments, cu Apple Pay și Google Pay.
   - Netopia rămâne instalată, dar inactivă.
+- 15.11: Marius: „renunțăm la ideea cu voucherul pe mail, ajunge dacă îl primesc în aplicație”. Voucherul apare doar în panoul afiliatului.

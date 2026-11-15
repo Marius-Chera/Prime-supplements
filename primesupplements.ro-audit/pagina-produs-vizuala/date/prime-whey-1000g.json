@@ -1,0 +1,171 @@
+{
+  "versiune": 1,
+  "handle": "prime-whey-1000g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-whey-1kg-salted-caramel-sportiva-1.jpg",
+    "alt": "Prime Whey, aromă caramel sărat (Salted Caramel) în prim-plan; în fundal o sportivă în bustieră verde ține un shaker pe o terasă însorită"
+  },
+  "nota_cifre": "Proteinele variază puțin de la o aromă la alta; 24,4 g la Blueberry Vanilla, conform tabelului nutrițional.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului prime-whey-1000g (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Concentrat din zer",
+    "24,4 g proteine / porție",
+    "33 de porții",
+    "7 arome"
+  ],
+  "titlu": "Prime Whey 1 kg: în jur de 24 g de proteine în fiecare porție",
+  "intro": "O porție de [[30 g]] (o măsură) are [[24,4 g de proteine]] la aroma Blueberry Vanilla și în jur de [[23–24 g]] la celelalte arome, conform tabelelor de pe tub. Tubul de [[1 kg]] are [[33 de porții]], în șapte arome, cu glicină și L-lizină adăugate.",
+  "etichete": [
+    "Concentrat proteic din zer",
+    "Glicină și L-lizină",
+    "Sucraloză și acesulfam-K",
+    "7 arome",
+    "Conține lapte",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "24,4",
+      "unitate": "g",
+      "eticheta": "proteine per porție (Blueberry Vanilla)"
+    },
+    {
+      "valoare": "30",
+      "unitate": "g",
+      "eticheta": "o porție = o măsură"
+    },
+    {
+      "valoare": "33",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    },
+    {
+      "valoare": "7",
+      "unitate": "",
+      "eticheta": "arome"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "30 g cu 150–200 ml de apă sau lapte"
+    },
+    {
+      "titlu": "Pe zi",
+      "text": "1–4 porții, după necesarul proteic"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 30 g, aroma Blueberry Vanilla",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "120,6 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "24,4 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "1,3 g / 1,3 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "2,0 g / 1,1 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,12 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Prime Whey 1 kg",
+    "puncte": [
+      "Concentrat proteic din zer ca bază",
+      "Glicină și L-lizină adăugate, trecute pe etichetă",
+      "Îndulcit cu sucraloză și acesulfam-K",
+      "Șapte arome, aceleași ca la tubul de 2 kg",
+      "O măsură se amestecă cu 150–200 ml de apă sau lapte",
+      "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "WPC",
+        "titlu": "Concentrat proteic din zer",
+        "text": "Sursa de proteine a formulei. Proteinele contribuie la creșterea masei musculare și la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "GLY",
+        "titlu": "Glicină",
+        "text": "Aminoacid adăugat în formulă, trecut în lista de ingrediente."
+      },
+      {
+        "cod": "LYS",
+        "titlu": "L-lizină",
+        "text": "Aminoacid esențial adăugat în formulă, trecut în lista de ingrediente."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K; 1,3 g zaharuri per porție la Blueberry Vanilla."
+      },
+      {
+        "cod": "LAP",
+        "titlu": "Alergeni",
+        "text": "Conține lapte (zer). Fabricat într-o unitate care procesează și ou, soia și grâu."
+      },
+      {
+        "cod": "7",
+        "titlu": "Șapte arome",
+        "text": "Fiecare aromă are tabelul ei pe tub, cu valori apropiate; o alegi din selectorul de mai sus."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Blueberry Vanilla",
+      "nume": "Blueberry Vanilla (afine cu vanilie)",
+      "nota": "Valorile din cardul de mai sus sunt pentru această aromă: 24,4 g proteine per porție."
+    },
+    {
+      "varianta": "Chocolate Coconut",
+      "nume": "Chocolate Coconut (ciocolată cu cocos)",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Salted Caramel",
+      "nume": "Salted Caramel (caramel sărat)",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Strawberry Cheesecake",
+      "nume": "Strawberry Cheesecake (cheesecake cu căpșuni)",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Toffee Chocolate",
+      "nume": "Toffee Chocolate",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "White Chocolate Raspberry",
+      "nume": "White Chocolate Raspberry (ciocolată albă cu zmeură)",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Bourbon Vanilla",
+      "nume": "Bourbon Vanilla (vanilie Bourbon)",
+      "nota": "Valorile nutriționale sunt apropiate de Blueberry Vanilla; cele exacte sunt pe tub."
+    }
+  ],
+  "mod_de_folosire": "O măsură (30 g) cu 150–200 ml de apă sau lapte, de 1–4 ori pe zi, în funcție de necesarul proteic. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare.",
+  "de_verificat": []
+}

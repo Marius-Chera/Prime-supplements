@@ -1,0 +1,168 @@
+{
+  "versiune": 1,
+  "handle": "cluster-bomb-1000g",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-cluster-bomb-1kg-strawberry-kiwi-sportiva-1.jpg",
+    "alt": "Cluster Bomb Prime, aromă căpșuni și kiwi (Strawberry & Kiwi), în prim-plan; în fundal o sportivă în bustieră albă bea din shaker între seturi, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per porție de 30 g, din tabelul nutrițional de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului cluster-bomb-1000g (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Cluster Dextrin®",
+    "Intra-workout",
+    "19,9 g carbohidrați",
+    "33 de porții"
+  ],
+  "titlu": "Cluster Bomb: 19,9 g de carbohidrați și 2400 mg de creatină pe porție",
+  "intro": "O porție de [[30 g]] are [[19,9 g de carbohidrați]] din Cluster Dextrin®, plus câte [[2400 mg]] de creatină monohidrată, aminoacizi esențiali și L-citrulină. Mai are [[369 mg]] de potasiu ([[18,5% VNR]]) și [[366 mg]] de sodiu. O bei în timpul antrenamentului, într-un shaker cu [[300–400 ml]] de apă.",
+  "etichete": [
+    "Cluster Dextrin®",
+    "Pudră de apă de cocos",
+    "Creatină monohidrată",
+    "Aminoacizi esențiali",
+    "L-citrulină",
+    "Fără cafeină"
+  ],
+  "cifre": [
+    {
+      "valoare": "19,9",
+      "unitate": "g",
+      "eticheta": "carbohidrați per porție"
+    },
+    {
+      "valoare": "2400",
+      "unitate": "mg",
+      "eticheta": "creatină monohidrată per porție"
+    },
+    {
+      "valoare": "2400",
+      "unitate": "mg",
+      "eticheta": "L-citrulină per porție"
+    },
+    {
+      "valoare": "33",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "30 g cu 300–400 ml de apă"
+    },
+    {
+      "titlu": "Când",
+      "text": "pe parcursul antrenamentului"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 30 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "91,5 kcal"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "19,9 g / 0,44 g"
+      },
+      {
+        "nume": "Creatină monohidrată",
+        "valoare": "2400 mg"
+      },
+      {
+        "nume": "Aminoacizi esențiali",
+        "valoare": "2400 mg"
+      },
+      {
+        "nume": "L-citrulină",
+        "valoare": "2400 mg"
+      },
+      {
+        "nume": "Potasiu",
+        "valoare": "369 mg (18,5% VNR)"
+      },
+      {
+        "nume": "Sodiu",
+        "valoare": "366 mg"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,92 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Cluster Bomb",
+    "puncte": [
+      "Cluster Dextrin® ca sursă de carbohidrați, primul ingredient",
+      "Pulbere din apă de cocos, al doilea ingredient",
+      "Câte 2400 mg de creatină, aminoacizi esențiali și L-citrulină",
+      "Potasiu și sodiu din săruri trecute pe etichetă",
+      "Fără cafeină în lista de ingrediente",
+      "Trei arome: Pineapple, Raspberry, Strawberry & Kiwi"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CCD",
+        "titlu": "Cluster Dextrin® · 19,9 g carbohidrați",
+        "text": "Dextrină ciclică puternic ramificată, primul ingredient de pe etichetă."
+      },
+      {
+        "cod": "COC",
+        "titlu": "Apă de cocos",
+        "text": "Pulbere din apă de cocos (Cocos nucifera), al doilea ingredient."
+      },
+      {
+        "cod": "CRE",
+        "titlu": "Creatină monohidrată · 2400 mg",
+        "text": "Cantitatea de creatină dintr-o porție de 30 g."
+      },
+      {
+        "cod": "EAA",
+        "titlu": "Aminoacizi esențiali · 2400 mg",
+        "text": "Opt aminoacizi esențiali, de la 480 mg de L-leucină la 96 mg de L-triptofan."
+      },
+      {
+        "cod": "CIT",
+        "titlu": "L-citrulină · 2400 mg",
+        "text": "Aminoacid trecut în lista de ingrediente, 2400 mg per porție."
+      },
+      {
+        "cod": "K",
+        "titlu": "Potasiu · 369 mg",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "Na",
+        "titlu": "Sodiu și clorură",
+        "text": "366 mg de sodiu și 483 mg de clorură per porție, din citrat trisodic și cloruri."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Pineapple",
+      "nume": "Pineapple (ananas)",
+      "nota": "Același tabel nutrițional; colorant riboflavină."
+    },
+    {
+      "varianta": "Raspberry",
+      "nume": "Raspberry (zmeură)",
+      "nota": "Același tabel nutrițional; colorant riboflavină."
+    },
+    {
+      "varianta": "Strawberry & Kiwi",
+      "nume": "Strawberry & Kiwi (căpșuni și kiwi)",
+      "nota": "Același tabel nutrițional; colorant riboflavină."
+    }
+  ],
+  "mod_de_folosire": "O porție (30 g) amestecată cu 300–400 ml de apă, consumată pe parcursul antrenamentului. Nu depăși doza zilnică recomandată. Conține L-fenilalanină.",
+  "de_verificat": []
+}

@@ -1,0 +1,174 @@
+{
+  "versiune": 1,
+  "handle": "pure-isolate-2000g",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-pure-isolate-2kg-salted-caramel-sportiva-2.jpg",
+    "alt": "Izolat proteic din zer Pure Isolate Prime, aromă caramel sărat (Salted Caramel) în prim-plan; în fundal o sportivă în echipament gri ține un shaker într-o sală de fitness luminoasă"
+  },
+  "nota_cifre": "Valorile sunt din tabelul nutrițional Pure Isolate, per porție de 27 g.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului pure-isolate-2000g (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Izolat din zer",
+    "23,5 g proteine / porție",
+    "74 de porții",
+    "7 arome"
+  ],
+  "titlu": "Pure Isolate 2 kg: 23,5 g de proteine în fiecare porție de 27 g",
+  "intro": "O porție de [[27 g]] are [[23,5 g de proteine]], doar [[0,26 g]] carbohidrați și [[0,26 g]] grăsimi, conform tabelului nutrițional. Baza e izolatul proteic microfiltrat din zer, cu complexul enzimatic Digezyme® ([[40,5 mg]] per porție). Tubul de [[2 kg]] are [[74 de porții]], în șapte arome.",
+  "etichete": [
+    "Izolat microfiltrat din zer",
+    "Digezyme®",
+    "Sucraloză și acesulfam K",
+    "7 arome",
+    "Conține lapte"
+  ],
+  "cifre": [
+    {
+      "valoare": "23,5",
+      "unitate": "g",
+      "eticheta": "proteine per porție"
+    },
+    {
+      "valoare": "0,26",
+      "unitate": "g",
+      "eticheta": "carbohidrați per porție"
+    },
+    {
+      "valoare": "87,0",
+      "unitate": "g",
+      "eticheta": "proteine la 100 g"
+    },
+    {
+      "valoare": "74",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "27 g cu apă sau lapte"
+    },
+    {
+      "titlu": "Când",
+      "text": "după antrenament sau în timpul zilei"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 27 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "97,3 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "23,5 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "0,26 g / 0,26 g"
+      },
+      {
+        "nume": "Grăsimi",
+        "valoare": "0,26 g"
+      },
+      {
+        "nume": "Sodiu",
+        "valoare": "0,04 g"
+      },
+      {
+        "nume": "Digezyme®",
+        "valoare": "40,5 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Pure Isolate",
+    "puncte": [
+      "Izolat proteic din zer, microfiltrat, ca bază",
+      "23,5 g de proteine la fiecare porție de 27 g",
+      "Sub 0,3 g de carbohidrați și de grăsimi per porție",
+      "Complex enzimatic Digezyme® trecut pe etichetă",
+      "Îndulcit cu sucraloză și acesulfam de potasiu",
+      "Șapte arome, de la Chocolate la Caffè Latte"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Proteine · 23,5 g",
+        "text": "Proteinele contribuie la creșterea masei musculare. Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "WPI",
+        "titlu": "Izolat proteic din zer",
+        "text": "Primul ingredient de pe etichetă: izolat microfiltrat din zer."
+      },
+      {
+        "cod": "ENZ",
+        "titlu": "Digezyme® · 40,5 mg",
+        "text": "Complex enzimatic trecut în lista de ingrediente, 40,5 mg la fiecare porție."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam de potasiu; 0,26 g zaharuri per porție."
+      },
+      {
+        "cod": "LAP",
+        "titlu": "Alergeni",
+        "text": "Conține lapte (zer)."
+      },
+      {
+        "cod": "7",
+        "titlu": "Șapte arome",
+        "text": "Cacao la aroma de ciocolată și colorant carmin la aroma de căpșuni, conform listei de ingrediente."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Chocolate",
+      "nume": "Chocolate (ciocolată)",
+      "nota": "Conține cacao, conform listei de ingrediente."
+    },
+    {
+      "varianta": "Bourbon Vanilla",
+      "nume": "Bourbon Vanilla (vanilie Bourbon)",
+      "nota": "Valorile din tabel sunt cele declarate pentru Pure Isolate; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Salted Caramel",
+      "nume": "Salted Caramel (caramel sărat)",
+      "nota": "Valorile din tabel sunt cele declarate pentru Pure Isolate; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Strawberry",
+      "nume": "Strawberry (căpșuni)",
+      "nota": "Conține colorant carmin, conform listei de ingrediente."
+    },
+    {
+      "varianta": "Strawberry Cheesecake",
+      "nume": "Strawberry Cheesecake (cheesecake cu căpșuni)",
+      "nota": "Valorile din tabel sunt cele declarate pentru Pure Isolate; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "White Chocolate Raspberry",
+      "nume": "White Chocolate Raspberry (ciocolată albă cu zmeură)",
+      "nota": "Valorile din tabel sunt cele declarate pentru Pure Isolate; cele exacte sunt pe tub."
+    },
+    {
+      "varianta": "Caffè Latte",
+      "nume": "Caffè Latte",
+      "nota": "Valorile din tabel sunt cele declarate pentru Pure Isolate; cele exacte sunt pe tub."
+    }
+  ],
+  "mod_de_folosire": "O porție de 27 g amestecată cu apă sau lapte, după antrenament sau pe parcursul zilei.",
+  "de_verificat": []
+}

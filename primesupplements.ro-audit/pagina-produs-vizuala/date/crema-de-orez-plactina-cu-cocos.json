@@ -1,0 +1,132 @@
+{
+  "versiune": 1,
+  "handle": "crema-de-orez-plactina-cu-cocos",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-crema-de-orez-placinta-cu-cocos-1kg-mic-dejun-1.jpg",
+    "alt": "Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg, pe un blat de marmură albă, lângă un bol cu cremă de orez gătită"
+  },
+  "nota_cifre": "Valorile sunt per porție de 45 g, din declarația nutrițională de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului crema-de-orez-plactina-cu-cocos (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Cremă de orez",
+    "plăcintă cu cocos",
+    "45 g / porție",
+    "22 de porții"
+  ],
+  "titlu": "Cremă de orez Prime, plăcintă cu cocos: 33,3 g de glucide pe porție",
+  "intro": "O porție de [[45 g]] (o măsură) are [[166,2 kcal]] și [[33,3 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "etichete": [
+    "Făină de orez pregelatinizată",
+    "Bucăți de ciocolată 3%",
+    "Sucraloză și acesulfam-K",
+    "Se prepară la rece",
+    "22 de porții"
+  ],
+  "cifre": [
+    {
+      "valoare": "33,3",
+      "unitate": "g",
+      "eticheta": "glucide per porție"
+    },
+    {
+      "valoare": "166,2",
+      "unitate": "kcal",
+      "eticheta": "per porție"
+    },
+    {
+      "valoare": "45",
+      "unitate": "g",
+      "eticheta": "o porție = o măsură"
+    },
+    {
+      "valoare": "22",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "45 g cu 150–200 ml de lichid rece"
+    },
+    {
+      "titlu": "Se servește",
+      "text": "ca atare sau în smoothie și shake"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 45 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "166,2 kcal"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "33,3 g / 0,3 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "3,7 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "1,8 g / 1,4 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "0,7 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,15 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are crema de orez plăcintă cu cocos",
+    "puncte": [
+      "Făină de orez pregelatinizată, primul ingredient",
+      "Lapte praf de cocos și bucăți de ciocolată (3%)",
+      "33,3 g de glucide și 166,2 kcal la o porție de 45 g",
+      "Îndulcită cu sucraloză și acesulfam-K",
+      "Se prepară la rece, cu apă sau lapte, fără fierbere",
+      "22 de porții într-un tub de 1 kg"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 33,3 g glucide",
+        "text": "Primul ingredient. E pregelatinizată, adică pregătită în prealabil, de aceea se amestecă direct cu lichid rece."
+      },
+      {
+        "cod": "COC",
+        "titlu": "Lapte praf de cocos",
+        "text": "Al doilea ingredient, plus bucăți de ciocolată (3%), care conțin zahăr."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K; 0,3 g zaharuri per porție."
+      },
+      {
+        "cod": "SAR",
+        "titlu": "Sare · 0,15 g",
+        "text": "Sare adăugată pentru gust, trecută în lista de ingrediente."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Conține soia; poate conține urme de fructe cu coajă lemnoasă (migdale, alune, fistic, nuci), lapte, ou, grâu, pește."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
+  "de_verificat": []
+}

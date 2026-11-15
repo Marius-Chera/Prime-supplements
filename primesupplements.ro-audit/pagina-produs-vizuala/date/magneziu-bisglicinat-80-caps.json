@@ -1,0 +1,125 @@
+{
+  "versiune": 1,
+  "handle": "magneziu-bisglicinat-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-magneziu-bisglicinat-80-capsule-sportiva-1.jpg",
+    "alt": "Magneziu bisglicinat 300 mg Prime în prim-plan; în fundal o sportivă în echipament verde-salvie ține un pahar cu apă după yoga, într-o cameră luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, din lista de ingrediente; doza zilnică este de 3 capsule.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului magneziu-bisglicinat-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Bisglicinat + malat",
+    "3 capsule / zi",
+    "80 de capsule",
+    "Capsule vegetale"
+  ],
+  "titlu": "Magneziu bisglicinat: 300 mg de bisglicinat în fiecare capsulă",
+  "intro": "O capsulă are [[300 mg]] de magneziu bisglicinat ([[21,52% VNR]]) și [[100 mg]] de magneziu malat. La doza zilnică de [[3 capsule]] ajungi la aproximativ [[64,5%]] din valoarea de referință, conform etichetei. Flaconul are [[80 de capsule]] vegetale, cam [[26]] de zile.",
+  "etichete": [
+    "Magneziu bisglicinat",
+    "Magneziu malat",
+    "Extract de bambus",
+    "Capsulă vegetală",
+    "Gama Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "300",
+      "unitate": "mg",
+      "eticheta": "magneziu bisglicinat per capsulă"
+    },
+    {
+      "valoare": "21,52",
+      "unitate": "%",
+      "eticheta": "VNR per capsulă"
+    },
+    {
+      "valoare": "3",
+      "unitate": "",
+      "eticheta": "capsule pe zi"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "3 capsule"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, cam 26 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Magneziu bisglicinat",
+        "valoare": "300 mg (21,52% VNR)"
+      },
+      {
+        "nume": "Magneziu malat",
+        "valoare": "100 mg"
+      },
+      {
+        "nume": "Extract de bambus (70% siliciu)",
+        "valoare": "5 mg"
+      },
+      {
+        "nume": "Făină de orez (agent de încărcare)",
+        "valoare": "300 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Magneziul bisglicinat",
+    "puncte": [
+      "Două forme de magneziu: bisglicinat și malat",
+      "300 mg de magneziu bisglicinat în fiecare capsulă",
+      "Extract de bambus cu 70% siliciu",
+      "Capsulă vegetală",
+      "Doza zilnică: 3 capsule",
+      "80 de capsule, cam 26 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "Mg",
+        "titlu": "Magneziu · 21,52% VNR / capsulă",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării. Magneziul contribuie la funcționarea normală a sistemului muscular.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "BIS",
+        "titlu": "Bisglicinat · 300 mg",
+        "text": "Magneziu legat de glicină, forma principală din capsulă."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Malat · 100 mg",
+        "text": "Magneziu legat de acid malic, a doua formă din capsulă."
+      },
+      {
+        "cod": "Si",
+        "titlu": "Bambus · 5 mg",
+        "text": "Extract din părți aeriene de bambus, cu 70% siliciu."
+      },
+      {
+        "cod": "VEG",
+        "titlu": "Capsulă vegetală",
+        "text": "Capsula e vegetală; făina de orez e agent de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "3 capsule pe zi, sau cum îți recomandă specialistul. Nu depăși doza recomandată pentru consumul zilnic. Nu lăsa produsul la îndemâna și la vederea copiilor mici.",
+  "de_verificat": []
+}

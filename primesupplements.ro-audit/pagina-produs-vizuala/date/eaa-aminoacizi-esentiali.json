@@ -1,0 +1,177 @@
+{
+  "versiune": 1,
+  "handle": "eaa-aminoacizi-esentiali",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-exterior-eaa-2.jpg",
+    "alt": "Sportivă în aer liber, într-un top alb, ținând un tub de aminoacizi esențiali EAA Prime"
+  },
+  "nota_cifre": "Valorile sunt per porție de 6 g (2 măsuri), din tabelul nutrițional de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului eaa-aminoacizi-esentiali (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "8 aminoacizi esențiali",
+    "5350 mg / porție",
+    "83 de porții",
+    "4 arome"
+  ],
+  "titlu": "EAA: 5350 mg de aminoacizi esențiali în fiecare porție de 6 g",
+  "intro": "O porție de [[6 g]] (2 măsuri) are [[5350 mg]] de aminoacizi esențiali, toți cei opt trecuți pe etichetă, de la [[1070 mg]] de L-leucină la [[214 mg]] de L-triptofan. Are [[21,4 kcal]] și [[0,00 g]] zaharuri per porție. Tubul de [[500 g]] are [[83 de porții]], în patru arome.",
+  "etichete": [
+    "8 aminoacizi esențiali",
+    "0 g zaharuri",
+    "Sucraloză și acesulfam K",
+    "4 arome",
+    "Conține fenilalanină",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "5350",
+      "unitate": "mg",
+      "eticheta": "aminoacizi esențiali per porție"
+    },
+    {
+      "valoare": "1070",
+      "unitate": "mg",
+      "eticheta": "L-leucină per porție"
+    },
+    {
+      "valoare": "6",
+      "unitate": "g",
+      "eticheta": "o porție = 2 măsuri"
+    },
+    {
+      "valoare": "83",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "2 măsuri (6 g) cu apă"
+    },
+    {
+      "titlu": "Pe zi",
+      "text": "de 1–3 ori, între mese sau la antrenament"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Aminoacizii din porția de 6 g",
+    "randuri": [
+      {
+        "nume": "L-leucină",
+        "valoare": "1070 mg"
+      },
+      {
+        "nume": "L-valină",
+        "valoare": "856 mg"
+      },
+      {
+        "nume": "L-izoleucină",
+        "valoare": "803 mg"
+      },
+      {
+        "nume": "L-lizină HCl",
+        "valoare": "749 mg"
+      },
+      {
+        "nume": "L-fenilalanină",
+        "valoare": "700 mg"
+      },
+      {
+        "nume": "L-treonină",
+        "valoare": "589 mg"
+      },
+      {
+        "nume": "L-metionină",
+        "valoare": "375 mg"
+      },
+      {
+        "nume": "L-triptofan",
+        "valoare": "214 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are EAA",
+    "puncte": [
+      "Toți cei opt aminoacizi esențiali, trecuți pe etichetă",
+      "5350 mg de aminoacizi esențiali la fiecare porție de 6 g",
+      "0 g carbohidrați și zaharuri în tabelul nutrițional",
+      "Îndulcit cu sucraloză și acesulfam de potasiu",
+      "Patru arome: Peach Ice Tea, Blueberry, Strawberry & Kiwi, Tropical",
+      "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce conține fiecare porție",
+    "carduri": [
+      {
+        "cod": "LEU",
+        "titlu": "L-leucină · 1070 mg",
+        "text": "Cea mai mare cantitate din amestec, aproape o cincime din porție."
+      },
+      {
+        "cod": "VAL",
+        "titlu": "L-valină · 856 mg",
+        "text": "Al doilea aminoacid ca pondere în amestec."
+      },
+      {
+        "cod": "ILE",
+        "titlu": "L-izoleucină · 803 mg",
+        "text": "Al treilea aminoacid ca pondere în amestec."
+      },
+      {
+        "cod": "LYS",
+        "titlu": "L-lizină HCl · 749 mg",
+        "text": "Aminoacid esențial, sub formă de clorhidrat."
+      },
+      {
+        "cod": "PHE",
+        "titlu": "L-fenilalanină · 700 mg",
+        "text": "De aceea eticheta menționează: conține fenilalanină."
+      },
+      {
+        "cod": "THR",
+        "titlu": "L-treonină · 589 mg",
+        "text": "Aminoacid esențial din amestec."
+      },
+      {
+        "cod": "MET",
+        "titlu": "L-metionină · 375 mg",
+        "text": "Aminoacid esențial din amestec."
+      },
+      {
+        "cod": "TRP",
+        "titlu": "L-triptofan · 214 mg",
+        "text": "Cea mai mică cantitate din cele opt."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Peach Ice Tea",
+      "nume": "Peach Ice Tea (ceai rece de piersici)",
+      "nota": "Coloranți: roșu sfeclă și extract de paprika."
+    },
+    {
+      "varianta": "Blueberry",
+      "nume": "Blueberry (afine)",
+      "nota": "Colorant: riboflavină. Lista exactă e pe eticheta tubului."
+    },
+    {
+      "varianta": "Strawberry &amp; Kiwi",
+      "nume": "Strawberry & Kiwi (căpșuni și kiwi)",
+      "nota": "Colorant: riboflavină. Lista exactă e pe eticheta tubului."
+    },
+    {
+      "varianta": "Tropical",
+      "nume": "Tropical",
+      "nota": "Colorant: riboflavină. Lista exactă e pe eticheta tubului."
+    }
+  ],
+  "mod_de_folosire": "2 măsuri (aproximativ 6 g) cu cantitatea dorită de apă, de 1–3 ori pe zi: între mese, cu 30–45 de minute înainte de antrenament sau imediat după. Nu depăși doza recomandată pentru consumul zilnic. Nu se administrează copiilor și femeilor în perioada de sarcină sau alăptare. Conține fenilalanină.",
+  "de_verificat": []
+}

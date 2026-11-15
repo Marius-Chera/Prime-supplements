@@ -1,0 +1,132 @@
+{
+  "versiune": 1,
+  "handle": "crema-de-orez-blueberry-muffin",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-crema-de-orez-briosa-cu-afine-1kg-sportiva-1.jpg",
+    "alt": "Cremă de orez Prime Creamy Rice, aromă brioșă cu afine, în prim-plan; în fundal o sportivă în bustieră lila mănâncă cremă de orez cu afine pe un balcon însorit"
+  },
+  "nota_cifre": "Valorile sunt per porție de 45 g, din declarația nutrițională de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului crema-de-orez-blueberry-muffin (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Cremă de orez",
+    "brioșă cu afine",
+    "45 g / porție",
+    "22 de porții"
+  ],
+  "titlu": "Cremă de orez Prime, brioșă cu afine: 34,7 g de glucide pe porție",
+  "intro": "O porție de [[45 g]] (o măsură) are [[157,2 kcal]] și [[34,7 g de glucide]], din care [[1,0 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "etichete": [
+    "Făină de orez pregelatinizată",
+    "Fără zaharuri adăugate",
+    "Sucraloză și acesulfam-K",
+    "Se prepară la rece",
+    "22 de porții"
+  ],
+  "cifre": [
+    {
+      "valoare": "34,7",
+      "unitate": "g",
+      "eticheta": "glucide per porție"
+    },
+    {
+      "valoare": "157,2",
+      "unitate": "kcal",
+      "eticheta": "per porție"
+    },
+    {
+      "valoare": "45",
+      "unitate": "g",
+      "eticheta": "o porție = o măsură"
+    },
+    {
+      "valoare": "22",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "45 g cu 150–200 ml de lichid rece"
+    },
+    {
+      "titlu": "Se servește",
+      "text": "ca atare sau în smoothie și shake"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 45 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "157,2 kcal"
+      },
+      {
+        "nume": "Glucide / zaharuri",
+        "valoare": "34,7 g / 1,0 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "3,6 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "0,27 g / 0,07 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "0,8 g"
+      },
+      {
+        "nume": "Sare",
+        "valoare": "0,15 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are crema de orez brioșă cu afine",
+    "puncte": [
+      "Făină de orez pregelatinizată, primul ingredient",
+      "Fără zaharuri adăugate; doar zaharurile prezente în mod natural",
+      "34,7 g de glucide și 157,2 kcal la o porție de 45 g",
+      "Îndulcită cu sucraloză și acesulfam-K",
+      "Se prepară la rece, cu apă sau lapte, fără fierbere",
+      "22 de porții într-un tub de 1 kg"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "ORZ",
+        "titlu": "Făină de orez · 34,7 g glucide",
+        "text": "Primul ingredient. E pregelatinizată, adică pregătită în prealabil, de aceea se amestecă direct cu lichid rece."
+      },
+      {
+        "cod": "AFI",
+        "titlu": "Afine uscate · 3%",
+        "text": "Bucăți de afine uscate în pulbere, 3% din lista de ingrediente."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K; 1,0 g zaharuri per porție, prezente în mod natural."
+      },
+      {
+        "cod": "SAR",
+        "titlu": "Sare · 0,15 g",
+        "text": "Sare adăugată pentru gust, trecută în lista de ingrediente."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Poate conține urme de lapte, ou, soia, grâu, pește."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
+  "de_verificat": []
+}

@@ -1224,3 +1224,11 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Copia textelor vechi și noi:** `backups/policies-2026-11-15-shopify-payments/`.
   - **Verificat pe site-ul public:** 0 mențiuni Netopia, iar căutarea „netopia” dă 0 rezultate.
   - **De lămurit cu Marius:** paginile mai listează „Plata prin transfer bancar”, dar în checkout nu e activă nicio plată prin transfer. Am lăsat textul neschimbat.
+- 15.11 (~04:05): **„Plata prin transfer bancar” scoasă de pe site** (Marius: „Da, scoate-o”). În checkout nu e activă nicio plată prin transfer.
+  - **„Politica de plată”:** a rămas cu 2 metode, card prin Shopify Payments (cu Apple Pay și Google Pay) și ramburs. Descrierea SEO (Google și distribuire) spunea „card bancar online, transfer bancar și ramburs”. Acum spune: „Metodele de plată pe primesupplements.ro: card bancar prin Shopify Payments, Apple Pay, Google Pay sau ramburs la curier. Plăți securizate, fără comisioane ascunse.”
+  - **„Termeni și condiții”:**
+    - am scos rândul „Plata prin transfer bancar” din listă;
+    - „Plata se poate efectua prin ordin de plată (transfer bancar), sau online prin card bancar, sau prin ramburs.” a devenit „Plata se poate efectua online prin card bancar sau prin ramburs.”;
+    - a rămas neschimbată clauza generală de refuz al comenzii „(iii) a neefectuării plății prin ordin bancar sau ramburs”.
+  - **Verificat:** textul salvat e identic caracter cu caracter cu versiunea pregătită. Pe site-ul public: 0 „transfer bancar”, 0 Netopia. Celelalte pagini și descrierile lor SEO nu pomenesc metode de plată.
+  - **Copii:** `backups/policies-2026-11-15-shopify-payments/` (`*.v2.html` și `*.live-v2.html`).

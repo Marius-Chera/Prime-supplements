@@ -1935,5 +1935,57 @@
   "alt": "Plicul Frutilu cu lămâie și lime pe o masă albă din grădină, lângă un pahar cu limonadă, gheață, mentă și felii de lime; în fundal un sportiv musculos toarnă din carafă",
   "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
   "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-mango-10g",
+  "rank": null,
+  "file": "frutilu-mango-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 471,
+  "produs": "Băutură instant Frutilu – mango, 10 g",
+  "handle": "instant-drink-frutilu-mango-10g",
+  "alt": "Plicul Frutilu cu mango pe o masă de lemn pe terasă, lângă un pahar cu băutură de mango cu gheață și cuburi de mango; în fundal un sportiv musculos stă la soare",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-orange-10g",
+  "rank": null,
+  "file": "frutilu-portocale-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 260,
+  "produs": "Băutură instant Frutilu – portocale, 10 g",
+  "handle": "instant-drink-frutilu-orange-10g",
+  "alt": "Plicul Frutilu cu portocale pe masa albă din bucătărie, lângă o carafă cu băutură de portocale, gheață și felii de portocală; în fundal un sportiv toarnă dimineața un pahar",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-frutilu-instant-drink-tropic-10-g",
+  "rank": null,
+  "file": "frutilu-tropic-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 448,
+  "produs": "Băutură instant Frutilu – fructe tropicale, 10 g",
+  "handle": "frutilu-instant-drink-tropic-10-g",
+  "alt": "Plicul Frutilu Tropic pe o masă de lemn lângă piscină, lângă un pahar cu băutură galbenă, gheață și felii de kiwi și ananas; în fundal un sportiv stă pe marginea piscinei",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
+ },
+ {
+  "key": "pv-instant-drink-frutilu-watermelon-10g",
+  "rank": null,
+  "file": "frutilu-pepene-rosu-10g-sportiv-1.jpg",
+  "women": false,
+  "men": true,
+  "kb": 332,
+  "produs": "Băutură instant Frutilu – pepene roșu, 10 g",
+  "handle": "instant-drink-frutilu-watermelon-10g",
+  "alt": "Plicul Frutilu cu pepene roșu pe o masă albă în grădină, lângă o carafă cu băutură roz, multă gheață și o felie de pepene; în fundal un sportiv bea după alergare",
+  "sursa": "generată AI (din poza reală a plicului) – cu sportiv, 16.11 (2 variante, aleasă cea cu plicul mai clar)",
+  "nota": "OK, plic verificat"
  }
 ]

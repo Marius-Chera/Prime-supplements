@@ -1,0 +1,9 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs și descrierea produsului instant-drink-frutilu-orange-10g, citite prin Admin API pe 16.11.2026 (lista completă a ingredientelor și valorile nutriționale sunt doar pe plic).
+Produs: Băutură instant Frutilu – portocale, 10 g. Brand: Frutilu.
+Cantitate: plic de 10 g. Aromă: portocale (Orange).
+Preparare: un plic la 1,5 L de apă.
+Îndulcire: fără zahăr adăugat, cu îndulcitori; fără aspartam și fără acesulfam K.
+Conține vitamina C. Fără conservanți artificiali.
+Mod de preparare: un plic (10 g) la 1,5 L de apă rece, amestecând până la dizolvarea completă.
+Calcul: 1,5 L = 6 pahare de 250 ml; 3 L = 12 pahare de 250 ml.
+Lista completă a ingredientelor și valorile nutriționale sunt disponibile pe eticheta produsului.

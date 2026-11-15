@@ -137,3 +137,7 @@ frutilu-ceai-piersici-a* https://cdn.openart.ai/openart-ai/production/2026-11/cr
 frutilu-ceai-lamaie-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785275016_01af93f9_1794785275966_3e0ae86a.png
 frutilu-lamaie-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785276155_1a588339_1794785276800_eb480270.png
 frutilu-lamaie-lime-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785278363_7966837b_1794785279191_58759fad.png
+frutilu-mango-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785531091_21370e7e_1794785532554_06c9fbe0.png
+frutilu-portocale-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785529544_b1851aff_1794785530748_c3d7d2f8.png
+frutilu-tropic-b* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785531045_3f8b8f51_1794785531927_bcfcf69d.png
+frutilu-pepene-a* https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794785531641_c19f9f18_1794785532305_48e1564a.png

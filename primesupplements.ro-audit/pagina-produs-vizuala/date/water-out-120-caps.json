@@ -1,0 +1,193 @@
+{
+  "versiune": 1,
+  "handle": "water-out-120-caps",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-water-out-120-capsule-sportiv-1.jpg",
+    "alt": "Water Out Prime pe o bancă de lemn în sală, lângă un prosop și o sticlă de apă; în fundal un sportiv în maiou negru bea apă după antrenament"
+  },
+  "nota_cifre": "Valorile sunt per porție de 3 capsule, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului water-out-120-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "8 plante",
+    "2000 mg extracte",
+    "3 capsule / porție",
+    "40 de porții"
+  ],
+  "titlu": "Water Out: 8 extracte din plante, potasiu și magneziu în 3 capsule",
+  "intro": "Water Out are în fiecare porție de [[3 capsule]] [[2000 mg]] de extracte din opt plante, plus [[375 mg de potasiu]], [[75 mg de magneziu]] și [[80 mg de vitamina C]]. Flaconul de [[120 de capsule]] are [[40 de porții]].",
+  "etichete": [
+    "Extracte din plante",
+    "Potasiu și magneziu",
+    "Vitamina C",
+    "Ceai verde",
+    "Conține sinefrină",
+    "Prime Supplements"
+  ],
+  "cifre": [
+    {
+      "valoare": "2000",
+      "unitate": "mg",
+      "eticheta": "extracte din 8 plante per porție"
+    },
+    {
+      "valoare": "375",
+      "unitate": "mg",
+      "eticheta": "potasiu per porție"
+    },
+    {
+      "valoare": "75",
+      "unitate": "mg",
+      "eticheta": "magneziu per porție"
+    },
+    {
+      "valoare": "40",
+      "unitate": "",
+      "eticheta": "porții în flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "3 capsule, nu pe stomacul gol"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "120 de capsule, 40 de porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O porție (3 capsule)",
+    "randuri": [
+      {
+        "nume": "Rădăcină de păpădie",
+        "valoare": "400 mg"
+      },
+      {
+        "nume": "Frunze de mesteacăn",
+        "valoare": "300 mg"
+      },
+      {
+        "nume": "Rădăcină de sparanghel",
+        "valoare": "300 mg"
+      },
+      {
+        "nume": "Frunze de ceai verde",
+        "valoare": "300 mg"
+      },
+      {
+        "nume": "Coada-calului, frasin, ortosifon",
+        "valoare": "câte 200 mg"
+      },
+      {
+        "nume": "Citrus aurantium (6 mg sinefrine)",
+        "valoare": "100 mg"
+      },
+      {
+        "nume": "Potasiu / magneziu",
+        "valoare": "375 mg / 75 mg"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "80 mg (100% VNR)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Water Out",
+    "puncte": [
+      "Extracte din opt plante, 2000 mg per porție",
+      "375 mg de potasiu și 75 mg de magneziu",
+      "80 mg de vitamina C, adică 100% din VNR",
+      "Ceai verde 300 mg și 6 mg de sinefrină per porție",
+      "120 de capsule, 40 de porții"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "K",
+        "titlu": "Potasiu · 375 mg",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "MG",
+        "titlu": "Magneziu · 75 mg",
+        "text": "Magneziul contribuie la echilibrul electrolitic.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C · 80 mg",
+        "text": "Vitamina C contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "PAP",
+        "titlu": "Păpădie · 400 mg",
+        "text": "Extract din rădăcină de Taraxacum officinale, standardizat la 2% inulină."
+      },
+      {
+        "cod": "MES",
+        "titlu": "Mesteacăn · 300 mg",
+        "text": "Extract din frunze de Betula pendula, cu 2,5% hiperozide."
+      },
+      {
+        "cod": "CV",
+        "titlu": "Ceai verde · 300 mg",
+        "text": "Extract din frunze de Camellia sinensis, cu 210 mg de catechine per porție."
+      },
+      {
+        "cod": "CIT",
+        "titlu": "Citrus aurantium · 100 mg",
+        "text": "Extract din fructe de portocal amar, cu 6 mg de sinefrine per porție."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "3 capsule per porție, conform etichetei, niciodată pe stomacul gol. Nu depăși doza zilnică recomandată. Nu combina în aceeași zi cu alte produse cu ceai verde, cafeină sau sinefrină. Nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează și celor sensibili la stimulente.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Water Out și plantele din el",
+    "intro": "Water Out este o formulă cu opt plante care apar de secole în ceaiurile din Europa și Asia, plus potasiu, magneziu și vitamina C. Iată ce sunt aceste plante și de ce eticheta are câteva reguli clare.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce plante sunt în Water Out?",
+        "raspuns": "Opt: păpădie, mesteacăn, sparanghel, ceai verde, coada-calului, frasin european, ortosifon și portocal amar. Toate sunt extracte, iar împreună dau 2000 mg pe porție de 3 capsule. Cea mai mare cantitate este cea de păpădie, 400 mg."
+      },
+      {
+        "intrebare": "Ce este ortosifonul?",
+        "raspuns": "O plantă din Asia de Sud-Est, cu flori albe și stamine lungi, de unde numele popular de „mustața pisicii”. În capsule se folosește extractul din frunze, standardizat la 0,2% sinensetină. Pe porție ai 200 mg de extract, din care 0,4 mg de sinensetină."
+      },
+      {
+        "intrebare": "Ce este sinefrina din Water Out?",
+        "raspuns": "Este substanța principală din fructul de portocal amar, Citrus aurantium. O recenzie din 2012 a adunat peste 20 de studii pe oameni, cu 10–53 mg de sinefrină pe zi, adesea împreună cu cafeina. La dozele studiate nu au apărut modificări importante ale pulsului sau tensiunii, dar autorii cer studii mai lungi. O porție de Water Out are 6 mg."
+      },
+      {
+        "intrebare": "De ce nu se combină cu alte produse cu ceai verde?",
+        "raspuns": "Pentru că legislația europeană limitează galatul de epigalocatechină, principala catechină din ceaiul verde. Regulamentul din 2022 cere ca etichetele să avertizeze să nu combini în aceeași zi mai multe produse cu ceai verde. Water Out are 210 mg de catechine per porție, iar eticheta mai cere să nu iei capsulele pe stomacul gol."
+      },
+      {
+        "intrebare": "Cât ține un flacon de Water Out?",
+        "raspuns": "Flaconul are 120 de capsule, adică 40 de porții de câte 3 capsule. Capsulele sunt din gelatină. Water Out nu se recomandă sub 18 ani, în sarcină, în alăptare sau celor sensibili la stimulente. Păstrează flaconul bine închis, la loc răcoros și ferit de lumină."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium (bitter orange) extract and its primary protoalkaloid p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      },
+      {
+        "text": "Regulamentul (UE) 2022/2340 privind extractele de ceai verde care conțin galat de epigalocatechină",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2340/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

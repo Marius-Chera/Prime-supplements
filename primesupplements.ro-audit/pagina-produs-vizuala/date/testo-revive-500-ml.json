@@ -1,0 +1,180 @@
+{
+  "versiune": 1,
+  "handle": "testo-revive-500-ml",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-testo-revive-500ml-sportiv-1.jpg",
+    "alt": "Sticla Testo Revive Prime Health pe masa din bucătărie, lângă o linguriță și un pahar cu apă; în fundal un sportiv stă la fereastră dimineața"
+  },
+  "nota_cifre": "Eticheta declară compoziția amestecului de plante în procente și raportul de extracție, nu miligrame per linguriță.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului testo-revive-500-ml (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "6 plante",
+    "Extract 1:6",
+    "100 de lingurițe",
+    "30% alcool"
+  ],
+  "titlu": "Testo Revive: tinctură din 6 plante, 500 ml (100 de lingurițe)",
+  "intro": "Testo Revive este o tinctură din [[6 plante]], cu extract [[1:6]] în apă și alcool. Iei [[o linguriță de 5 ml]] de 3–4 ori pe zi, pe stomacul gol. Sticla de [[500 ml]] are [[100 de lingurițe]], iar tinctura are [[30% alcool]].",
+  "etichete": [
+    "Tinctură din plante",
+    "Ginseng coreean",
+    "Rozmarin",
+    "Extract 1:6",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "6",
+      "unitate": "",
+      "eticheta": "plante în amestec"
+    },
+    {
+      "valoare": "1:6",
+      "unitate": "",
+      "eticheta": "raport de extracție"
+    },
+    {
+      "valoare": "5",
+      "unitate": "ml",
+      "eticheta": "o linguriță = o porție"
+    },
+    {
+      "valoare": "100",
+      "unitate": "",
+      "eticheta": "lingurițe în sticlă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 linguriță de 3–4 ori"
+    },
+    {
+      "titlu": "Sticlă",
+      "text": "500 ml, 100 de lingurițe"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Amestecul de plante",
+    "randuri": [
+      {
+        "nume": "Brânca-ursului (părți aeriene)",
+        "valoare": "20%"
+      },
+      {
+        "nume": "Țelină (rădăcini)",
+        "valoare": "20%"
+      },
+      {
+        "nume": "Ginseng coreean (rădăcini)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Năpraznic (părți aeriene)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Rozmarin (frunze)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Sculătoare (tuberculi)",
+        "valoare": "15%"
+      },
+      {
+        "nume": "Alcool",
+        "valoare": "30% v/v"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Testo Revive",
+    "puncte": [
+      "Șase plante, cu procentele trecute pe etichetă",
+      "Extract 1:6 în apă și alcool etilic",
+      "O linguriță de 5 ml, de 3–4 ori pe zi, pe stomacul gol",
+      "500 ml, adică 100 de lingurițe",
+      "Conține 30% alcool: aproximativ 1,5 ml într-o linguriță"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "GIN",
+        "titlu": "Ginseng coreean · 15%",
+        "text": "Rădăcini de Panax ginseng, una dintre cele mai cunoscute plante din Asia."
+      },
+      {
+        "cod": "BRU",
+        "titlu": "Brânca-ursului · 20%",
+        "text": "Părți aeriene de Heracleum sphondylium, plantă din familia morcovului."
+      },
+      {
+        "cod": "TEL",
+        "titlu": "Țelină · 20%",
+        "text": "Rădăcini de Apium graveolens. Țelina e alergen: atenție dacă ești alergic."
+      },
+      {
+        "cod": "NAP",
+        "titlu": "Năpraznic · 15%",
+        "text": "Părți aeriene de Geranium robertianum."
+      },
+      {
+        "cod": "ROZ",
+        "titlu": "Rozmarin · 15%",
+        "text": "Frunze de Rosmarinus officinalis."
+      },
+      {
+        "cod": "SCU",
+        "titlu": "Sculătoare · 15%",
+        "text": "Tuberculi de Dactylorhiza maculata, o orhidee sălbatică."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Adulți: o linguriță (5 ml) de 3–4 ori pe zi, pe stomacul gol. Nu depăși doza zilnică recomandată. Contraindicat copiilor sub 12 ani, în sarcină și alăptare, celor alergici la componente, la țelină sau la alte plante din familia Apiaceae și celor cărora le este interzis sau limitat consumul de alcool. Păstrează sticla bine închisă, ferită de lumină, umiditate și căldură.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre tinctura Testo Revive",
+    "intro": "Testo Revive este o tinctură, adică un extract din plante în apă și alcool, făcut după o tehnică veche de secole. Iată ce înseamnă cifrele de pe sticlă și ce plante conține.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este o tinctură din plante?",
+        "raspuns": "O tinctură este un extract lichid obținut prin ținerea plantelor în amestec de apă și alcool. Alcoolul scoate din plante compușii care nu se dizolvă în apă și păstrează extractul fără conservanți. La Testo Revive, soluția are 34 de părți alcool la 66 de părți apă, în procente de masă."
+      },
+      {
+        "intrebare": "Ce înseamnă extract 1:6?",
+        "raspuns": "Înseamnă o parte de plante la șase părți de soluție de apă și alcool. Eticheta nu dă miligrame de extract pe linguriță, ci procentul fiecărei plante în amestec: 20% brânca-ursului și 20% țelină, apoi câte 15% ginseng coreean, năpraznic, rozmarin și sculătoare."
+      },
+      {
+        "intrebare": "Cât alcool iei cu o linguriță de Testo Revive?",
+        "raspuns": "Aproximativ 1,5 ml de alcool etilic într-o linguriță de 5 ml, pentru că tinctura are 30% alcool. La 3–4 lingurițe pe zi, asta înseamnă 4,5–6 ml de alcool. De aceea produsul nu e pentru cei care nu au voie să consume alcool, pentru copii sau în sarcină."
+      },
+      {
+        "intrebare": "Ce plantă este sculătoarea?",
+        "raspuns": "Sculătoarea este o orhidee sălbatică, Dactylorhiza maculata, cu flori roz-violet pătate, care crește în pajiștile umede de munte. Din ea se folosesc tuberculii, adică îngroșările subterane ale rădăcinii. În Testo Revive reprezintă 15% din amestecul de plante."
+      },
+      {
+        "intrebare": "De ce scrie pe etichetă despre țelină?",
+        "raspuns": "Pentru că țelina este unul dintre cei 14 alergeni pe care regulamentul european îi cere evidențiați pe etichetă. Rădăcina de țelină face 20% din amestec. Cei alergici la țelină sau la alte plante din familia Apiaceae, cum sunt morcovul și pătrunjelul, nu trebuie să o folosească."
+      },
+      {
+        "intrebare": "Cât ține o sticlă de 500 ml?",
+        "raspuns": "Sticla are 100 de lingurițe de 5 ml. La 3 lingurițe pe zi ține aproximativ 33 de zile, iar la 4 lingurițe, 25 de zile. Păstreaz-o bine închisă, ferită de lumină și căldură."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
+  }
+}

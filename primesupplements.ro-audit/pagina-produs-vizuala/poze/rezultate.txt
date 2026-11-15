@@ -104,3 +104,14 @@ turmeric-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m
 turmeric-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782064926_97a99b3c_1794782067642_6fe06b00.png
 daily-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782065733_aff447ff_1794782066421_19d3af22.png
 daily-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782065606_80520f99_1794782066548_f18997b5.png
+# Lot 8 (16.11, sportivi bărbați)
+natto-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782113444_3fd01301_1794782113644_cc016934.png
+natto-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782114458_39d040bd_1794782115068_c5893884.png
+scort-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782119333_57698a4e_1794782119432_99b900b9.png
+scort-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782116591_6cb279fe_1794782117337_95e020b1.png
+wo-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782130093_d4491ca1_1794782130821_749bb780.png
+wo-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782132058_ad7f18f6_1794782132823_1f793a2e.png
+tc-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782129081_c628da62_1794782130139_5c3f2230.png
+tc-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782130729_a9b19931_1794782131568_76959e86.png
+tr-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782257261_7a55ae4d_1794782257719_7686b61d.png
+tr-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782257286_798abc71_1794782257782_1b60f0cd.png

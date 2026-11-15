@@ -1,0 +1,194 @@
+{
+  "versiune": 1,
+  "handle": "thermo-core-120-caps",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-thermo-core-120-capsule-sportiv-1.jpg",
+    "alt": "Thermo Core Prime pe podeaua de cauciuc a sălii, lângă o gantera; în fundal un culturist foarte musculos face flexii cu gantera"
+  },
+  "nota_cifre": "Valorile sunt per porție de 3 capsule, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului thermo-core-120-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "1125 mg L-carnitină",
+    "49 mg cafeină",
+    "3 capsule / porție",
+    "40 de porții"
+  ],
+  "titlu": "Thermo Core: 1125 mg de L-carnitină și ceai verde în 3 capsule",
+  "intro": "Thermo Core are în fiecare porție de [[3 capsule]] [[1125 mg de L-carnitină]], [[618 mg]] de extract de ceai verde cu [[49 mg de cafeină]] și [[45 mg de sinefrină]]. Formula mai conține zmeură, bioflavonoide din citrice, piper negru și crom. Flaconul are [[40 de porții]].",
+  "etichete": [
+    "L-carnitină",
+    "Ceai verde",
+    "Conține cafeină",
+    "Sinefrină",
+    "Crom",
+    "Prime Supplements"
+  ],
+  "cifre": [
+    {
+      "valoare": "1125",
+      "unitate": "mg",
+      "eticheta": "L-carnitină per porție"
+    },
+    {
+      "valoare": "49",
+      "unitate": "mg",
+      "eticheta": "cafeină per porție"
+    },
+    {
+      "valoare": "45",
+      "unitate": "mg",
+      "eticheta": "sinefrină per porție"
+    },
+    {
+      "valoare": "50",
+      "unitate": "µg",
+      "eticheta": "crom (125% VNR)"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "3 capsule, nu pe stomacul gol"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "120 de capsule, 40 de porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O porție (3 capsule)",
+    "randuri": [
+      {
+        "nume": "L-carnitină",
+        "valoare": "1125 mg"
+      },
+      {
+        "nume": "Extract de ceai verde",
+        "valoare": "618 mg"
+      },
+      {
+        "nume": "– din care cafeină",
+        "valoare": "49 mg"
+      },
+      {
+        "nume": "Extract din fructe de zmeură",
+        "valoare": "300 mg"
+      },
+      {
+        "nume": "Bioflavonoide din citrice",
+        "valoare": "225 mg"
+      },
+      {
+        "nume": "Sinefrină",
+        "valoare": "45 mg"
+      },
+      {
+        "nume": "Piper negru (piperină 10,7 mg)",
+        "valoare": "11,3 mg"
+      },
+      {
+        "nume": "Crom",
+        "valoare": "50 µg (125% VNR)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Thermo Core",
+    "puncte": [
+      "1125 mg de L-carnitină per porție",
+      "Extract de ceai verde: 618 mg, cu 49 mg de cafeină",
+      "45 mg de sinefrină și bioflavonoide din citrice",
+      "Extract de zmeură, piper negru și 50 µg de crom",
+      "120 de capsule, adică 40 de porții"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CAR",
+        "titlu": "L-carnitină · 1125 mg",
+        "text": "Ingredientul cu cea mai mare cantitate din formulă."
+      },
+      {
+        "cod": "CV",
+        "titlu": "Ceai verde · 618 mg",
+        "text": "Extract din frunze de Camellia sinensis, cu 185 mg de catechine și 49 mg de cafeină."
+      },
+      {
+        "cod": "SIN",
+        "titlu": "Sinefrină · 45 mg",
+        "text": "Alcaloid din fructul de portocal amar, Citrus aurantium."
+      },
+      {
+        "cod": "ZM",
+        "titlu": "Zmeură · 300 mg",
+        "text": "Extract din fructe de Rubus idaeus, standardizat la 10% cetone."
+      },
+      {
+        "cod": "PIP",
+        "titlu": "Piper negru · 11,3 mg",
+        "text": "Extract din fructe de Piper nigrum, cu 10,7 mg de piperină."
+      },
+      {
+        "cod": "CR",
+        "titlu": "Crom · 50 µg",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "3 capsule per porție; câte porții pe zi și când le iei, conform etichetei de pe flacon. Nu le lua pe stomacul gol și nu depăși doza zilnică recomandată. Conține cafeină (49 mg per porție). Nu combina în aceeași zi cu alte produse cu ceai verde, cafea, băuturi energizante sau suplimente cu cafeină ori sinefrină. Nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează și celor sensibili la cafeină.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Thermo Core: cafeină, ceai verde și sinefrină",
+    "intro": "Thermo Core este o formulă cu stimulente blânde din plante, așa că eticheta are câteva reguli pe care merită să le înțelegi. Iată ce înseamnă cifrele și de unde vin limitele.",
+    "sectiuni": [
+      {
+        "intrebare": "Câtă cafeină are o porție de Thermo Core?",
+        "raspuns": "O porție de 3 capsule are 49 mg de cafeină, toată din extractul de ceai verde, standardizat la 8% cafeină. Poziția Societății Internaționale de Nutriție Sportivă din 2021 arată că studiile pe sportivi au folosit 3–6 mg de cafeină pe kilogram de corp. Răspunsul la cafeină diferă mult de la om la om."
+      },
+      {
+        "intrebare": "De ce nu se combină cu cafea sau alte produse cu ceai verde?",
+        "raspuns": "Ca să nu aduni cafeină și catechine din mai multe surse. Regulamentul european din 2022 limitează galatul de epigalocatechină din suplimente, iar eticheta spune clar să nu depășești 800 mg pe zi. O porție de Thermo Core are 185 mg de catechine în total."
+      },
+      {
+        "intrebare": "Ce este sinefrina?",
+        "raspuns": "Sinefrina este principalul alcaloid din fructul de portocal amar. O recenzie din 2012 a adunat peste 20 de studii pe aproximativ 360 de oameni, cu 10–53 mg pe zi, adesea împreună cu cafeina. La aceste doze nu au apărut modificări importante ale pulsului sau tensiunii, iar autorii cer studii mai lungi."
+      },
+      {
+        "intrebare": "De ce are formula și piper negru?",
+        "raspuns": "Extractul de piper negru aduce 10,7 mg de piperină pe porție. Piperina este studiată pentru felul în care influențează trecerea altor compuși în sânge. Un studiu din 1998 a arătat că 20 mg de piperină au crescut de circa 20 de ori nivelul de curcumină din sânge."
+      },
+      {
+        "intrebare": "Ce sunt cetonele de zmeură?",
+        "raspuns": "Compuși aromatici care dau mirosul specific al zmeurei. În Thermo Core apar ca extract din fructe de Rubus idaeus, 300 mg pe porție, standardizat la 10% cetone. Flaconul are 120 de capsule, adică 40 de porții."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Guest NS și colab. International society of sports nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
+      },
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium (bitter orange) extract and its primary protoalkaloid p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      },
+      {
+        "text": "Shoba G și colab. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+      },
+      {
+        "text": "Regulamentul (UE) 2022/2340 privind extractele de ceai verde care conțin galat de epigalocatechină",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2340/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

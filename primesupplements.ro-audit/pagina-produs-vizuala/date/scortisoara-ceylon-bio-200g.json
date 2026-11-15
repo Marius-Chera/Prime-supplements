@@ -1,0 +1,160 @@
+{
+  "versiune": 1,
+  "handle": "scortisoara-ceylon-bio-200g",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-scortisoara-ceylon-bio-200g-sportiv-1.jpg",
+    "alt": "Punga de scorțișoară de Ceylon bio Prime Health lângă un bol cu terci de ovăz și batoane de scorțișoară; în fundal un sportiv pregătește micul dejun"
+  },
+  "nota_cifre": "Valorile sunt la 100 g de pudră, din tabelul de pe pungă.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului scortisoara-ceylon-bio-200g (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "Ceylon bio",
+    "54,3 g fibre / 100 g",
+    "Pungă de 200 g"
+  ],
+  "titlu": "Scorțișoară de Ceylon bio: pudră de 200 g, cu 54,3 g fibre la 100 g",
+  "intro": "Scorțișoara de Ceylon bio Prime Health vine ca pudră, în pungă de hârtie kraft de [[200 g]]. La 100 g are [[54,3 g de fibre]], [[247 kcal]] și doar [[2,2 g de zaharuri]].",
+  "etichete": [
+    "Scorțișoară de Ceylon",
+    "Bio",
+    "Pudră",
+    "Pungă kraft",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "54,3",
+      "unitate": "g",
+      "eticheta": "fibre la 100 g"
+    },
+    {
+      "valoare": "247",
+      "unitate": "kcal",
+      "eticheta": "la 100 g"
+    },
+    {
+      "valoare": "2,2",
+      "unitate": "g",
+      "eticheta": "zaharuri la 100 g"
+    },
+    {
+      "valoare": "200",
+      "unitate": "g",
+      "eticheta": "pudră în pungă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Formă",
+      "text": "Pudră, gata de presărat"
+    },
+    {
+      "titlu": "Pungă",
+      "text": "200 g, hârtie kraft"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "La 100 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "1033 kJ / 247 kcal"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "79,9 g / 2,2 g"
+      },
+      {
+        "nume": "Fibre",
+        "valoare": "54,3 g"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "3,9 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "3,2 g / 0,7 g"
+      },
+      {
+        "nume": "Sodiu",
+        "valoare": "0,026 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Scorțișoara de Ceylon Prime Health",
+    "puncte": [
+      "Un singur ingredient: scorțișoară de Ceylon pudră bio",
+      "54,3 g de fibre la 100 g de pudră",
+      "Doar 2,2 g de zaharuri la 100 g",
+      "Pungă de 200 g din hârtie kraft",
+      "Gata de presărat în ovăz, cremă de orez sau cafea"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CEY",
+        "titlu": "Scorțișoară de Ceylon · bio",
+        "text": "Coaja măcinată a arborelui de scorțișoară de Ceylon, din agricultură ecologică."
+      },
+      {
+        "cod": "FIB",
+        "titlu": "Fibre · 54,3 g / 100 g",
+        "text": "Mai mult de jumătate din pudră sunt fibre, conform tabelului de pe pungă."
+      },
+      {
+        "cod": "KR",
+        "titlu": "Pungă kraft",
+        "text": "Hârtie kraft; păstrează punga închisă, la loc răcoros și ferit de lumină."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Presari pudra în ovăz, cremă de orez, iaurt, cafea sau prăjituri, după gust. Păstrează punga închisă, la loc răcoros, ferit de lumină, umiditate și căldură excesivă.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre scorțișoara de Ceylon",
+    "intro": "Scorțișoara de Ceylon este una dintre cele două scorțișoare pe care le găsești în magazine, iar diferența dintre ele ține de o substanță numită cumarină. Iată ce merită să știi.",
+    "sectiuni": [
+      {
+        "intrebare": "Prin ce diferă scorțișoara de Ceylon de cea obișnuită?",
+        "raspuns": "Este altă specie de arbore. Scorțișoara de Ceylon vine din Cinnamomum verum, cultivată mai ales în Sri Lanka, fostul Ceylon. Cea mai ieftină și mai răspândită este cassia, din alte specii de Cinnamomum. Cassia are bețișoare groase și tari, iar Ceylon are foi subțiri, rulate în straturi."
+      },
+      {
+        "intrebare": "Ce este cumarina din scorțișoară?",
+        "raspuns": "Cumarina este o substanță aromatică naturală din unele plante. Autoritatea Europeană pentru Siguranța Alimentară a stabilit o doză zilnică tolerabilă de 0,1 mg pe kilogram de corp, valoare confirmată și de o analiză din 2010 pe date de la oameni. Aceeași analiză arată că expunerea vine mai ales din scorțișoara cassia."
+      },
+      {
+        "intrebare": "Câtă cumarină are scorțișoara cassia?",
+        "raspuns": "Foarte variabil. Un studiu german din 2010 a analizat 47 de probe din comerț și a găsit cumarină multă în cassia. În bețișoare de cassia din același pachet, valorile au mers de la sub limita de detecție până la aproximativ 10.000 mg pe kilogram, iar diferențe mari au apărut chiar între probe din același copac."
+      },
+      {
+        "intrebare": "De ce are atât de multe fibre?",
+        "raspuns": "Pentru că pudra este coajă de copac măcinată. Tabelul de pe pungă arată 54,3 g de fibre la 100 g, adică peste jumătate din pudră. Dintr-o linguriță, însă, iei doar câteva grame de pudră, așa că scorțișoara dă mai ales gust, nu o cantitate mare de fibre."
+      },
+      {
+        "intrebare": "Cum o folosești în dieta de sală?",
+        "raspuns": "O presari în terciul de ovăz, în crema de orez, în iaurt sau în cafea. Are doar 2,2 g de zaharuri la 100 g, deci aduce gust dulce-lemnos fără zahăr adăugat. Merge bine și în clătitele proteice sau peste mere coapte."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Abraham K și colab. Toxicology and risk assessment of coumarin: focus on human data. Mol Nutr Food Res. 2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20024932/"
+      },
+      {
+        "text": "Woehrlin F și colab. Quantification of flavoring constituents in cinnamon: high variation of coumarin in cassia bark. J Agric Food Chem. 2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20853872/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

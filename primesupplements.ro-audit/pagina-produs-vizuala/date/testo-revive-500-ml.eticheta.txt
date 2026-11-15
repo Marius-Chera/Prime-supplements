@@ -1,0 +1,8 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului testo-revive-500-ml (transcrierea etichetei), citite prin Admin API pe 16.11.2026.
+Denumire: supliment alimentar lichid, tinctură din plante (extract hidroetanolic 1:6). Brand: Prime Health (Prime Supplements). Notificare: SNPMAPS nr. 17092/2024.
+Compoziție: extract 1:6 în soluție hidroetanolică (alcool etilic/apă – 34/66 în procente de masă) din amestecul de 6 plante: brânca-ursului (Heracleum sphondylium), părți aeriene – 20%; țelină (Apium graveolens), rădăcini – 20%; ginseng coreean (Panax ginseng), rădăcini – 15%; năpraznic (Geranium robertianum), părți aeriene – 15%; rozmarin (Rosmarinus officinalis), frunze – 15%; sculătoare (Dactylorhiza maculata), tuberculi – 15%.
+Conținut de alcool: 30% v/v (o linguriță de 5 ml conține aproximativ 1,5 ml de alcool etilic).
+Cantitate: 500 ml (100 de lingurițe de 5 ml). Porție: o linguriță (5 ml).
+Mod de administrare (adulți): o linguriță (5 ml) de 3–4 ori pe zi, pe stomacul gol; a nu se depăși doza zilnică recomandată.
+Contraindicații: copii sub 12 ani, sarcină, alăptare, alergie la componente sau la țelină și alte plante din familia Apiaceae (Umbelliferae), persoane cărora le este interzis sau limitat consumul de alcool.
+Păstrare: bine închis, ferit de lumină, umiditate și căldură.

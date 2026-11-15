@@ -1,0 +1,157 @@
+{
+  "versiune": 1,
+  "handle": "enzima-nattokinaza-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-nattokinaza-60-capsule-sportiv-1.jpg",
+    "alt": "Nattokinase Prime pe măsuța din sufragerie, lângă un pahar cu apă; în fundal un bărbat în pulover bleumarin citește pe canapea"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din eticheta flaconului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului enzima-nattokinaza-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "100 mg / capsulă",
+    "2000 UF",
+    "1 capsulă / zi",
+    "60 de zile"
+  ],
+  "titlu": "Nattokinază: 100 mg (2000 UF) într-o capsulă pe zi",
+  "intro": "Nattokinaza din capsulă vine din boabe de soia: [[100 mg]] pe capsulă, cu o activitate de [[2000 UF]]. O iei o dată pe zi, între mese, iar flaconul de [[60 de capsule]] ajunge [[60 de zile]].",
+  "etichete": [
+    "Nattokinază",
+    "2000 UF",
+    "Din boabe de soia",
+    "O capsulă pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "100",
+      "unitate": "mg",
+      "eticheta": "nattokinază per capsulă"
+    },
+    {
+      "valoare": "2000",
+      "unitate": "UF",
+      "eticheta": "activitate enzimatică"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "capsulă pe zi, între mese"
+    },
+    {
+      "valoare": "60",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, între mese"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "60 de capsule"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Nattokinază (din boabe de soia)",
+        "valoare": "100 mg"
+      },
+      {
+        "nume": "Activitate enzimatică",
+        "valoare": "2000 UF"
+      },
+      {
+        "nume": "Maltodextrină",
+        "valoare": "agent de încărcare"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "gelatină, oxid de zinc"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Nattokinaza Prime",
+    "puncte": [
+      "100 mg de nattokinază într-o capsulă",
+      "Activitate declarată: 2000 UF (unități fibrinolitice)",
+      "O capsulă pe zi, între mese",
+      "60 de capsule, adică 60 de zile",
+      "Conține soia; fabricat în UE"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "NK",
+        "titlu": "Nattokinază · 100 mg",
+        "text": "Enzimă obținută din boabe de soia, cu o activitate de 2000 UF pe capsulă."
+      },
+      {
+        "cod": "MDX",
+        "titlu": "Maltodextrină",
+        "text": "Agent de încărcare: umple capsula."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu oxid de zinc. Nu e potrivită pentru vegetarieni sau vegani."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, între mese. Nu depăși doza recomandată pentru consumul zilnic. Conține soia. Nu se recomandă persoanelor sub 18 ani, femeilor în perioada de sarcină și alăptare. Nu lăsa flaconul la îndemâna copiilor mici.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre nattokinază",
+    "intro": "Nattokinaza este o enzimă descoperită într-un aliment japonez cu gust puternic, natto. Iată de unde vine, ce înseamnă cifrele de pe etichetă și cum o iei.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este natto?",
+        "raspuns": "Natto este un preparat tradițional japonez din boabe de soia fierte și fermentate cu o bacterie, Bacillus subtilis. Are un miros puternic și o textură lipicioasă, cu fire lungi care se întind între boabe. În Japonia se mănâncă de obicei la micul dejun, cu orez."
+      },
+      {
+        "intrebare": "Cine a descoperit nattokinaza?",
+        "raspuns": "Un grup de cercetători japonezi condus de Hiroyuki Sumi, în 1987. Ei au găsit în natto o enzimă cu o activitate de circa 40 de unități pe gram și au numit-o nattokinază. Au mai notat că enzima are o masă moleculară de aproximativ 20.000 și se extrage ușor cu apă sărată."
+      },
+      {
+        "intrebare": "Ce înseamnă 2000 UF pe eticheta de nattokinază?",
+        "raspuns": "UF înseamnă unități fibrinolitice. Este unitatea în care se măsoară activitatea enzimei, nu cantitatea ei. De aceea eticheta trece două cifre: 100 mg de nattokinază și 2000 UF. Când compari produse, uită-te la ambele."
+      },
+      {
+        "intrebare": "De ce se ia între mese?",
+        "raspuns": "Așa recomandă eticheta: o capsulă pe zi, între mese. Nattokinaza este o enzimă, adică o proteină, iar pe stomacul fără mâncare nu se amestecă cu restul proteinelor din masă. Un flacon de 60 de capsule ține 60 de zile."
+      },
+      {
+        "intrebare": "Ce mai conține capsula de nattokinază?",
+        "raspuns": "Pe lângă cele 100 mg de enzimă, capsula conține maltodextrină, ca agent de încărcare. Învelișul este din gelatină cu oxid de zinc, deci produsul nu e potrivit pentru vegetarieni sau vegani. Flaconul de 60 de capsule cântărește 24,9 g și se păstrează la loc răcoros, ferit de lumină și umiditate."
+      },
+      {
+        "intrebare": "Cine trebuie să fie atent?",
+        "raspuns": "Cei alergici la soia, pentru că enzima provine din boabe de soia, iar soia este un alergen pe care legislația europeană cere să fie evidențiat. Produsul nu se recomandă sub 18 ani, în sarcină sau în alăptare. Dacă iei tratament pentru circulație sau anticoagulante, întreabă medicul înainte."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Sumi H și colab. A novel fibrinolytic enzyme (nattokinase) in the vegetable cheese Natto. Experientia. 1987",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3478223/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (alergeni, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 20:45 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 21:01 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 37; cu Curiozități: 37; cu sportivă în dreapta: 36; scrise pe PILOT (metafield) cu versiunea curentă: 37.
+Rezumat: **80 produse**; JSON pagină vizuală: 42; cu Curiozități: 42; cu sportivă în dreapta: 41; scrise pe PILOT (metafield) cu versiunea curentă: 42.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -44,11 +44,11 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | glycerol-max-pump-500g-125-serv | 14971470184823 | Glycerol Max Pump – monostearat de glicerol, 500 g | da | da (307) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | nac-80-caps | 14971466383735 | NAC – N-acetilcisteină 500 mg, 80 de capsule | da | da (316) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | l-carnitine-1000-80-caps | 14971466318199 | L-carnitină 1000 – 80 capsule | da | da (323) | da | pagină 15.11 + curiozități 15.11; sportiv |
-| coenzima-q10-80-caps | 14971467104631 | Coenzima Q10 200 mg – 80 de capsule | **nu** | **nu** | **nu** | – |
-| potassium-complex-80-caps | 14971470152055 | Potassium Complex – potasiu și magneziu, 80 de capsule | **nu** | **nu** | **nu** | – |
-| zinc-citrate-80-caps | 14971466482039 | Citrat de zinc 40 mg – 80 de capsule | **nu** | **nu** | **nu** | – |
-| magnesium-citrate-80-caps | 14971466350967 | Citrat de magneziu – 80 capsule | **nu** | **nu** | **nu** | – |
-| supliment-alimentar-chromium-picolinate-80-caps | 14971466252663 | Picolinat de crom – 80 capsule | **nu** | **nu** | **nu** | – |
+| coenzima-q10-80-caps | 14971467104631 | Coenzima Q10 200 mg – 80 de capsule | da | da (321) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| potassium-complex-80-caps | 14971470152055 | Potassium Complex – potasiu și magneziu, 80 de capsule | da | da (314) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| zinc-citrate-80-caps | 14971466482039 | Citrat de zinc 40 mg – 80 de capsule | da | da (336) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| magnesium-citrate-80-caps | 14971466350967 | Citrat de magneziu – 80 capsule | da | da (319) | da | pagină 15.11 + curiozități 15.11; sportiv |
+| supliment-alimentar-chromium-picolinate-80-caps | 14971466252663 | Picolinat de crom – 80 capsule | da | da (322) | da | pagină 15.11 + curiozități 15.11; sportiv |
 | taurine-80-caps | 14971466416503 | Taurină 1000 mg – 80 de capsule | **nu** | **nu** | **nu** | – |
 | turmeric-extract-80-caps | 14971466449271 | Extract de turmeric cu piperină – 80 de capsule | **nu** | **nu** | **nu** | – |
 | daily-vitamin-formula | 14971467235703 | Daily Vitamin Formula – vitamine și minerale, 30 de plicuri | **nu** | **nu** | **nu** | – |

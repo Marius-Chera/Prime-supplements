@@ -1,0 +1,157 @@
+{
+  "versiune": 1,
+  "handle": "nac-80-caps",
+  "tema": "mov",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-nac-500mg-80-capsule-sportiv-1.jpg",
+    "alt": "NAC 500 mg Prime pe un raft de lemn, lângă două capsule pe o farfurioară; în fundal un sportiv în tricou alb ține un pahar cu apă dimineața, într-o cameră luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului nac-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "500 mg / capsulă",
+    "1 capsulă / zi",
+    "80 de capsule",
+    "80 de zile"
+  ],
+  "titlu": "NAC: 500 mg N-acetilcisteină în fiecare capsulă, 80 de zile",
+  "intro": "O capsulă are [[500 mg]] de N-acetilcisteină. Eticheta recomandă [[1 capsulă]] pe zi, de preferat pe stomacul gol, deci flaconul de [[80 de capsule]] ajunge [[80 de zile]]. Capsula e din gelatină, iar produsul e pentru adulți.",
+  "etichete": [
+    "N-acetilcisteină",
+    "Capsulă de gelatină",
+    "O capsulă pe zi",
+    "Pentru adulți"
+  ],
+  "cifre": [
+    {
+      "valoare": "500",
+      "unitate": "mg",
+      "eticheta": "NAC per capsulă"
+    },
+    {
+      "valoare": "1",
+      "unitate": "",
+      "eticheta": "capsulă pe zi"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    },
+    {
+      "valoare": "63,2",
+      "unitate": "g",
+      "eticheta": "greutate netă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, pe stomacul gol"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 80 de zile"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "N-acetilcisteină",
+        "valoare": "500 mg"
+      },
+      {
+        "nume": "Agent de încărcare",
+        "valoare": "maltodextrină"
+      },
+      {
+        "nume": "Învelișul capsulei",
+        "valoare": "gelatină"
+      },
+      {
+        "nume": "Agent antiaglomerant",
+        "valoare": "fosfat tricalcic"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are NAC",
+    "puncte": [
+      "500 mg N-acetilcisteină în fiecare capsulă",
+      "O capsulă pe zi, de preferat pe stomacul gol",
+      "80 de capsule, adică 80 de zile",
+      "Capsulă din gelatină",
+      "Doar pentru adulți, peste 18 ani"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "NAC",
+        "titlu": "N-acetilcisteină · 500 mg",
+        "text": "Forma acetilată a aminoacidului cisteină; e substanța activă din capsulă."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltodextrină",
+        "text": "Agent de încărcare, umple capsula până la volumul ei."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Învelișul capsulei; produsul nu e potrivit pentru vegetarieni."
+      },
+      {
+        "cod": "TCP",
+        "titlu": "Fosfat tricalcic",
+        "text": "Agent antiaglomerant, ține pulberea să curgă uniform la umplere."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "1 capsulă pe zi, de preferat pe stomacul gol. Nu depăși doza recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare. Consultă medicul dacă ai afecțiuni sau urmezi un tratament.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre NAC",
+    "intro": "NAC e prescurtarea de la N-acetilcisteină, un nume care sună complicat, dar ascunde un aminoacid simplu. Iată ce înseamnă numele, de ce capsulele pot mirosi ciudat și cum le iei.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă N-acetilcisteină?",
+        "raspuns": "Cisteină cu o grupare acetil atașată de atomul de azot, notat cu N. Cisteina e un aminoacid care conține sulf și pe care îl găsești în proteinele din carne, ouă sau lactate. Gruparea acetil e o mică modificare chimică, de unde vine și numele prescurtat NAC."
+      },
+      {
+        "intrebare": "De ce miros capsulele a sulf?",
+        "raspuns": "Pentru că cisteina conține sulf. Când deschizi flaconul, poți simți un miros ușor, ca de ou fiert. E normal pentru acest ingredient și nu înseamnă că produsul s-a stricat. Închide bine capacul după fiecare folosire și ține flaconul ferit de căldură și umiditate."
+      },
+      {
+        "intrebare": "De ce se ia pe stomacul gol?",
+        "raspuns": "Așa recomandă eticheta: o capsulă pe zi, de preferat pe stomacul gol. Cel mai simplu e dimineața, cu un pahar cu apă, înainte de micul dejun. Dacă stomacul tău e sensibil, întreabă medicul sau farmacistul cum e mai bine pentru tine."
+      },
+      {
+        "intrebare": "De ce scrie pe flacon să întrebi medicul?",
+        "raspuns": "Pentru că N-acetilcisteina se folosește și în medicamente, iar unele combinații trebuie verificate. Eticheta spune clar: produsul nu e pentru persoane sub 18 ani și nici pentru femei însărcinate sau care alăptează. Dacă iei un tratament sau ai o afecțiune, întreabă medicul înainte."
+      },
+      {
+        "intrebare": "Cât ține un flacon?",
+        "raspuns": "Optzeci de zile, la o capsulă pe zi. Flaconul are 80 de capsule, cu o greutate netă de 63,2 g. Capsula e din gelatină, deci produsul nu e potrivit pentru cei care evită ingredientele de origine animală."
+      },
+      {
+        "intrebare": "Din ce alimente iei cisteină?",
+        "raspuns": "Din alimentele bogate în proteine. Carnea, peștele, ouăle, lactatele și leguminoasele conțin cisteină, pentru că face parte din proteinele lor. Corpul o poate produce și singur, pornind de la alt aminoacid cu sulf, metionina. Capsula aduce forma acetilată, 500 mg pe zi."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

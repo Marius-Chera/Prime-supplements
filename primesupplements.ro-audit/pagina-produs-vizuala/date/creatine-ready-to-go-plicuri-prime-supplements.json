@@ -1,0 +1,189 @@
+{
+  "versiune": 1,
+  "handle": "creatine-ready-to-go-plicuri-prime-supplements",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-creatine-ready-to-go-blue-moon-sportiv-1.jpg",
+    "alt": "Cutia Creatine Ready To Go Prime, aromă Blue Moon (afine), în prim-plan; în fundal un sportiv în tricou bleumarin toarnă un plic într-un pahar cu apă care face bule, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valorile sunt per plic de 10 g, din datele de pe cutie.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului creatine-ready-to-go-plicuri-prime-supplements (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "5000 mg creatină",
+    "200 mg vitamina C",
+    "Plic de 10 g",
+    "25 de plicuri"
+  ],
+  "titlu": "Creatine Ready To Go: 5000 mg creatină și 200 mg vitamina C în fiecare plic",
+  "intro": "Un plic de [[10 g]] are [[5000 mg]] de creatină monohidrată și [[200 mg]] de vitamina C, adică [[250%]] din valoarea de referință. Îl dizolvi în [[200-300 ml]] de apă, cu aproximativ [[30-60 de minute]] înainte de antrenament. Cumperi plicul la bucată sau cutia cu [[25 de plicuri]].",
+  "etichete": [
+    "Creatină monohidrată",
+    "Vitamina C",
+    "Efervescent",
+    "Plicuri de 10 g",
+    "Blue Moon",
+    "Pink Madness"
+  ],
+  "cifre": [
+    {
+      "valoare": "5000",
+      "unitate": "mg",
+      "eticheta": "creatină per plic"
+    },
+    {
+      "valoare": "200",
+      "unitate": "mg",
+      "eticheta": "vitamina C per plic"
+    },
+    {
+      "valoare": "250",
+      "unitate": "%",
+      "eticheta": "VNR vitamina C"
+    },
+    {
+      "valoare": "25",
+      "unitate": "",
+      "eticheta": "plicuri în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 plic în 200-300 ml de apă"
+    },
+    {
+      "titlu": "Când",
+      "text": "30-60 de minute înainte de sală"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-un plic",
+    "titlu": "Plicul de 10 g",
+    "randuri": [
+      {
+        "nume": "Creatină monohidrată",
+        "valoare": "5000 mg"
+      },
+      {
+        "nume": "Vitamina C",
+        "valoare": "200 mg (250% VNR)"
+      },
+      {
+        "nume": "Apă pentru dizolvare",
+        "valoare": "200-300 ml"
+      },
+      {
+        "nume": "Cutie",
+        "valoare": "25 de plicuri (250 g)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Creatine Ready To Go",
+    "puncte": [
+      "5000 mg creatină monohidrată în fiecare plic",
+      "200 mg vitamina C, 250% din valoarea de referință",
+      "Formulă efervescentă: acid citric și bicarbonat de sodiu",
+      "Plicuri gata porționate, la bucată sau în cutie de 25",
+      "Două arome: Blue Moon (afine) și Pink Madness (zmeură și lămâie verde)",
+      "Un plic pe zi, înainte de antrenament"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CRE",
+        "titlu": "Creatină · 5000 mg",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "3 g",
+        "titlu": "Doza zilnică",
+        "text": "Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C · 200 mg",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar și la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "EFV",
+        "titlu": "Efervescent",
+        "text": "Acidul citric și bicarbonatul de sodiu fac bule când plicul ajunge în apă."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori și colorant",
+        "text": "Sucraloză și acesulfam-K; colorant carmin."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Blue Moon",
+      "nume": "Blue Moon (afine)",
+      "nota": "Plic de 10 g sau cutie cu 25 de plicuri."
+    },
+    {
+      "varianta": "Pink Madness",
+      "nume": "Pink Madness (zmeură și lămâie verde)",
+      "nota": "Plic de 10 g sau cutie cu 25 de plicuri."
+    }
+  ],
+  "mod_de_folosire": "Un plic pe zi, dizolvat în 200-300 ml de apă, cu aproximativ 30-60 de minute înainte de antrenament. După 8 săptămâni de consum regulat, ambalajul recomandă o pauză de 2-3 săptămâni.",
+  "de_verificat": [
+    "tabelul nutrițional complet per plic și la 100 g e doar pe cutie, netranscris în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre creatina în plicuri efervescente",
+    "intro": "Creatine Ready To Go e creatină care face bule în pahar. Află de unde vin bulele, dacă momentul în care o iei contează și ce spun studiile despre rinichi și despre pauza de pe cutie.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce face bule în apă?",
+        "raspuns": "Pentru că în plic sunt acid citric și bicarbonat de sodiu. Când ajung în apă, cele două reacționează și eliberează dioxid de carbon, adică bulele pe care le vezi. Așa pudra se amestecă singură, fără shaker. Aștepți câteva secunde până se oprește spuma și bei."
+      },
+      {
+        "intrebare": "Contează dacă o iei înainte sau după antrenament?",
+        "raspuns": "Foarte puțin. Un studiu din 2013 pe 19 culturiști amatori a comparat 5 g de creatină luată înainte sau după antrenament, timp de patru săptămâni. Ambele grupuri au progresat, iar diferența în favoarea variantei „după” a fost mică și nesigură statistic. Eticheta recomandă plicul cu 30-60 de minute înainte de sală."
+      },
+      {
+        "intrebare": "În cât timp se umplu rezervele de creatină?",
+        "raspuns": "În aproximativ o lună, la o doză mică zilnică. Un studiu din 1996 pe 31 de bărbați a arătat că 3 g pe zi ridică nivelul de creatină din mușchi în circa 28 de zile. O doză de 20 g pe zi timp de șase zile ajunge acolo mai repede. Un plic Ready To Go are 5 g."
+      },
+      {
+        "intrebare": "Afectează creatina rinichii?",
+        "raspuns": "Studiile controlate nu arată asta la oameni sănătoși, spune o recenzie din 2023. Autorii explică faptul că creatinina din analizele de sânge poate crește fără să însemne o problemă la rinichi. Tot ei notează că lipsesc studiile pe persoanele care au deja probleme renale, care trebuie să întrebe medicul."
+      },
+      {
+        "intrebare": "De ce scrie pe cutie să faci pauză?",
+        "raspuns": "E recomandarea producătorului de pe ambalaj: opt săptămâni de consum, apoi două-trei săptămâni pauză. Poziția oficială ISSN din 2017 notează că, în studii, chiar consumul pe termen lung a fost bine tolerat de persoanele sănătoase. Respectă totuși indicația de pe cutie."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Antonio J, Ciccone V. The effects of pre versus post workout supplementation of creatine monohydrate on body composition and strength. J Int Soc Sports Nutr. 2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23919405/"
+      },
+      {
+        "text": "Hultman E și colab. Muscle creatine loading in men. J Appl Physiol. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8828669/"
+      },
+      {
+        "text": "Longobardi I și colab. Is It Time for a Requiem for Creatine Supplementation-Induced Kidney Failure? Nutrients. 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36986197/"
+      },
+      {
+        "text": "Kreider RB și colab. ISSN position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "versiune": 1,
+  "handle": "l-carnitine-1000-80-caps",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-l-carnitina-1000-80-capsule-sportiv-1.jpg",
+    "alt": "L-carnitină 1000 Prime pe o bancă de sală; în fundal un sportiv în tricou negru își leagă șireturile înainte de cardio, lângă benzile de alergare"
+  },
+  "nota_cifre": "Valorile sunt per capsulă (o porție), din datele de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului l-carnitine-1000-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "1000 mg / capsulă",
+    "Tartrat de L-carnitină",
+    "80 de capsule",
+    "30 min înainte"
+  ],
+  "titlu": "L-carnitină 1000: 1000 mg tartrat de L-carnitină în fiecare capsulă",
+  "intro": "O capsulă are [[1000 mg]] de tartrat de L-carnitină și e o porție. Eticheta recomandă capsula cu apă, de preferat cu [[30 de minute]] înainte de antrenament. Flaconul are [[80 de capsule]], adică [[80]] de porții, iar produsul e pentru adulți.",
+  "etichete": [
+    "Tartrat de L-carnitină",
+    "Capsulă de gelatină",
+    "O capsulă = o porție",
+    "Pentru adulți"
+  ],
+  "cifre": [
+    {
+      "valoare": "1000",
+      "unitate": "mg",
+      "eticheta": "tartrat de L-carnitină / capsulă"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    },
+    {
+      "valoare": "30",
+      "unitate": "min",
+      "eticheta": "înainte de antrenament"
+    },
+    {
+      "valoare": "98",
+      "unitate": "g",
+      "eticheta": "greutate netă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "1 capsulă, cu apă"
+    },
+    {
+      "titlu": "Când",
+      "text": "cu 30 de minute înainte de sală"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Tartrat de L-carnitină",
+        "valoare": "1000 mg"
+      },
+      {
+        "nume": "Învelișul capsulei",
+        "valoare": "gelatină, oxid de zinc"
+      },
+      {
+        "nume": "Antiaglomeranți",
+        "valoare": "dioxid de siliciu, amidon modificat, stearat de magneziu"
+      },
+      {
+        "nume": "Porții în flacon",
+        "valoare": "80"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are L-carnitina 1000",
+    "puncte": [
+      "1000 mg tartrat de L-carnitină în fiecare capsulă",
+      "O capsulă înseamnă o porție",
+      "De preferat cu 30 de minute înainte de antrenament",
+      "80 de capsule într-un flacon",
+      "Capsulă din gelatină",
+      "Doar pentru adulți, peste 18 ani"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "LCT",
+        "titlu": "Tartrat de L-carnitină · 1000 mg",
+        "text": "L-carnitină legată de acid tartric; e substanța activă din capsulă."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Învelișul capsulei, cu oxid de zinc pentru culoarea albă."
+      },
+      {
+        "cod": "AGL",
+        "titlu": "Antiaglomeranți",
+        "text": "Dioxid de siliciu, amidon modificat din porumb și stearat de magneziu."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă cu apă, de preferat cu 30 de minute înainte de antrenament. Nu depăși doza zilnică recomandată de pe etichetă. Nu se recomandă persoanelor sub 18 ani; consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament.",
+  "de_verificat": [
+    "conținutul de L-carnitină pură din 1000 mg tartrat e pe flacon, netranscris în magazin"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre L-carnitină",
+    "intro": "Carnitina are un nume care trimite direct la locul unde a fost găsită prima dată. Află de unde vine, ce înseamnă „tartrat” pe etichetă și din ce alimente o primești.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine numele carnitinei?",
+        "raspuns": "Din latinescul „carnis”, care înseamnă carne. Substanța a fost descoperită la începutul secolului XX în extract de carne, de unde și numele. Litera L din față arată forma moleculei, cea care se găsește în mod natural în alimente."
+      },
+      {
+        "intrebare": "Ce înseamnă „tartrat de L-carnitină”?",
+        "raspuns": "L-carnitină legată de acid tartric. Acidul tartric e un acid natural din struguri, cel care formează cristalele din vin. Legătura face ca pulberea să fie stabilă și ușor de pus în capsule. De aceea flaconul declară separat tartratul de L-carnitină și L-carnitina."
+      },
+      {
+        "intrebare": "Din ce alimente iei carnitină?",
+        "raspuns": "Mai ales din carne roșie, pește și lactate. Alimentele de origine vegetală au foarte puțină carnitină. Corpul o produce și singur, pornind de la doi aminoacizi din proteine, lizina și metionina. Capsula aduce 1000 mg de tartrat de L-carnitină pe porție."
+      },
+      {
+        "intrebare": "Când iei capsula?",
+        "raspuns": "Eticheta recomandă cu 30 de minute înainte de antrenament, cu apă. În zilele fără antrenament, o poți lua la aceeași oră, ca să nu uiți. Nu depăși doza zilnică de pe etichetă și nu combina mai multe produse cu carnitină fără să citești cât ai în total."
+      },
+      {
+        "intrebare": "Cine nu ar trebui să o ia?",
+        "raspuns": "Persoanele sub 18 ani, scrie pe flacon. Femeile însărcinate sau care alăptează și cei cu afecțiuni sau tratamente trebuie să întrebe medicul înainte. Capsula e din gelatină, deci nu e potrivită pentru vegetarieni."
+      },
+      {
+        "intrebare": "De ce e mare capsula?",
+        "raspuns": "Pentru că are de cuprins 1000 mg de pulbere. Tartratul de L-carnitină e o pulbere ușoară și voluminoasă, așa că o singură porție are nevoie de o capsulă mai mare decât cele obișnuite. Flaconul de 80 de capsule cântărește 98 g. Dacă îți vine greu să o înghiți, ia-o cu un pahar plin de apă și ține capul ușor aplecat în față."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

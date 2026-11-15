@@ -1,0 +1,8 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului nac-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Denumire: supliment alimentar pentru adulți sub formă de capsule, cu conținut de N-acetilcisteină.
+Ingrediente: N-acetilcisteină. Ingrediente inactive: agent de încărcare (maltodextrină), învelișul capsulei (gelatină), agent antiaglomerant (fosfat tricalcic).
+Din tabelul de valori nutriționale: N-acetilcisteină 500 mg per capsulă.
+Cantitate: 80 de capsule (greutate netă 63,2 g). Durată: 80 de zile la doza de 1 capsulă pe zi.
+Mod de administrare: 1 capsulă pe zi, de preferat pe stomacul gol; a nu se depăși doza recomandată pentru consumul zilnic.
+Atenționări: a nu se lăsa la îndemâna și la vederea copiilor mici; nu se recomandă persoanelor sub 18 ani, femeilor în perioada de sarcină și alăptare; consultă medicul în caz de afecțiuni sau tratament medicamentos.
+Alergeni: produs într-o unitate care procesează și lapte, ou, soia, gluten, pește.

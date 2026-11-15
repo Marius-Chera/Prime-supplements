@@ -1,0 +1,7 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului l-carnitine-1000-80-caps (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+Denumire: supliment alimentar pentru adulți sub formă de capsule, ce conține carnitină.
+Ingrediente: tartrat de L-carnitină. Ingrediente inactive: învelișul capsulei (gelatină, oxid de zinc), agenți antiaglomeranți (dioxid de siliciu, amidon modificat din porumb, stearat de magneziu).
+Per capsulă (o porție): tartrat de L-carnitină 1000 mg. Tabelul de pe flacon declară separat tartratul de L-carnitină și L-carnitina.
+Cantitate: 80 de capsule (greutate netă 98 g). Porții: 80 (o porție = o capsulă).
+Mod de administrare: cu apă, de preferat cu 30 de minute înainte de antrenament; nu depăși doza zilnică recomandată de pe etichetă.
+Atenționări: a nu se lăsa la îndemâna și la vederea copiilor mici; nu se recomandă persoanelor sub 18 ani; consultă medicul în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.

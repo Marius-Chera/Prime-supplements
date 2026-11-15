@@ -1,0 +1,154 @@
+{
+  "versiune": 1,
+  "handle": "glycerol-max-pump-500g-125-serv",
+  "tema": "rosu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/sedinta-foto-sala-glycerol-max-pump-sportiv-helcometru-1.jpg",
+    "alt": "Glycerol Max Pump și Recovery BCAA Prime pe o bancă de sală; în fundal un sportiv în maiou alb lucrează la helcometru, din ședința foto Prime de la Evo Gym"
+  },
+  "nota_cifre": "Valorile sunt per porție de 4 g, din tabelul nutrițional de pe tub.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului glycerol-max-pump-500g-125-serv (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Un singur ingredient",
+    "4000 mg / porție",
+    "Fără aromă",
+    "125 de porții"
+  ],
+  "titlu": "Glycerol Max Pump: 4000 mg monostearat de glicerol pe porție, 125 de porții",
+  "intro": "Are un singur ingredient: [[monostearat de glicerol]], fără aromă. O porție de [[4 g]] (aproximativ o măsură) are [[4000 mg]], iar tubul de [[500 g]] ajunge pentru [[125 de porții]]. Eticheta recomandă o porție pe zi, cu apă, cu [[30 de minute]] înainte de antrenament.",
+  "etichete": [
+    "Monostearat de glicerol",
+    "Un singur ingredient",
+    "Fără aromă",
+    "O porție pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "4000",
+      "unitate": "mg",
+      "eticheta": "per porție de 4 g"
+    },
+    {
+      "valoare": "100",
+      "unitate": "g",
+      "eticheta": "la 100 g de produs"
+    },
+    {
+      "valoare": "125",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    },
+    {
+      "valoare": "30",
+      "unitate": "min",
+      "eticheta": "înainte de antrenament"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "o porție de 4 g, cu apă"
+    },
+    {
+      "titlu": "Gust",
+      "text": "fără aromă, se amestecă oriunde"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 4 g",
+    "randuri": [
+      {
+        "nume": "Monostearat de glicerol",
+        "valoare": "4000 mg"
+      },
+      {
+        "nume": "Conținut la 100 g",
+        "valoare": "100 g"
+      },
+      {
+        "nume": "Porții în tub",
+        "valoare": "125"
+      },
+      {
+        "nume": "Cantitate",
+        "valoare": "500 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Glycerol Max Pump",
+    "puncte": [
+      "Un singur ingredient: monostearat de glicerol",
+      "4000 mg într-o porție de 4 g",
+      "Fără aromă și fără îndulcitori",
+      "O porție pe zi, cu 30 de minute înainte de antrenament",
+      "125 de porții într-un tub de 500 g",
+      "Fabricat în UE"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "GMS",
+        "titlu": "Monostearat de glicerol · 4000 mg",
+        "text": "Glicerol legat de acid stearic, sub formă de pulbere; e singurul ingredient din tub."
+      },
+      {
+        "cod": "0",
+        "titlu": "Fără aromă",
+        "text": "Nu are arome sau îndulcitori, deci îl poți amesteca în apă sau în băutura de dinainte de sală."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Produs într-o unitate în care se procesează și lapte, ou, soia, grâu, pește."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Amesteci 4 g (aproximativ o măsură) cu cantitatea dorită de apă; o porție pe zi, cu 30 de minute înainte de antrenament. Nu depăși doza recomandată. Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre monostearatul de glicerol",
+    "intro": "Glicerolul e un ingredient pe care îl întâlnești mai des decât crezi, de la bucătărie la cosmetice. Iată ce este forma din Glycerol Max Pump și cum îl folosești înainte de antrenament.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este monostearatul de glicerol?",
+        "raspuns": "O moleculă de glicerol legată de un acid gras numit acid stearic. Glicerolul singur e un lichid siropos și dulceag. Legat de acidul stearic, devine o pulbere albă, ușor ceroasă, care se dozează mult mai ușor cu măsura. În Glycerol Max Pump e singurul ingredient, fără arome, îndulcitori sau alte adaosuri, așa că pe etichetă scrie 100 g la 100 g de produs."
+      },
+      {
+        "intrebare": "Unde mai găsești monostearatul de glicerol?",
+        "raspuns": "În multe alimente de zi cu zi, ca emulgator. Face parte din grupa E 471, „mono- și digliceride ale acizilor grași”, din lista UE a aditivilor alimentari. Îl găsești în produse de patiserie, înghețată sau margarină, unde ajută apa și grăsimea să rămână amestecate."
+      },
+      {
+        "intrebare": "Cât lichid să bei la antrenament?",
+        "raspuns": "Destul cât să nu pierzi mai mult de 2% din greutate, recomandă poziția ACSM din 2007. Cel mai simplu e să te cântărești înainte și după antrenament: diferența arată cam cât lichid ai pierdut prin transpirație. Pe căldură sau la ședințe lungi, ai nevoie de mai multă apă."
+      },
+      {
+        "intrebare": "Cum îl iei corect?",
+        "raspuns": "O porție de 4 g pe zi, cu apă, cu 30 de minute înainte de antrenament. Nu are gust, deci îl poți pune și în shaker-ul cu băutura de dinainte de sală. Amestecă bine, pentru că pulberea ceroasă se dizolvă mai greu în apă rece decât o pudră obișnuită."
+      },
+      {
+        "intrebare": "Cine nu ar trebui să îl folosească?",
+        "raspuns": "Copiii și femeile în perioada de sarcină sau alăptare, scrie pe etichetă. Produsul e pentru adulți și nu trebuie depășită doza zilnică. Dacă ai o alergie, ține cont că e făcut într-o unitate unde se procesează și lapte, ou, soia, grâu sau pește."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

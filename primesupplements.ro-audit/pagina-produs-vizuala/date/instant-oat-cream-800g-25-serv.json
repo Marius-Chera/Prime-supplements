@@ -1,0 +1,169 @@
+{
+  "versiune": 1,
+  "handle": "instant-oat-cream-800g-25-serv",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-instant-oat-cream-800g-sportiv-1.jpg",
+    "alt": "Instant Oat Cream Prime, aromă biscuiți (Cookie Cream), în prim-plan; în fundal un sportiv în tricou gri mănâncă terci de ovăz cu ciocolată și banană înainte de sală, într-o bucătărie luminoasă"
+  },
+  "nota_cifre": "Cifrele vin din datele de pe tub; tabelul nutrițional complet e pe eticheta produsului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului instant-oat-cream-800g-25-serv (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Făină de ovăz",
+    "800 g",
+    "2 arome",
+    "Gata în 1-3 minute"
+  ],
+  "titlu": "Instant Oat Cream: cremă de ovăz gata în 1-3 minute, tub de 800 g",
+  "intro": "Primul ingredient e [[făina de ovăz]], urmată de cacao cu conținut redus de grăsime, arome și îndulcitori. Torni apă fierbinte sau lapte peste pudră și o lași [[1-3 minute]] să se hidrateze, fără să o fierbi. Tubul are [[800 g]] și vine în [[2 arome]]: ciocolată și biscuiți.",
+  "etichete": [
+    "Făină de ovăz",
+    "Cacao",
+    "Sucraloză și acesulfam-K",
+    "Se prepară fără fierbere",
+    "Mic dejun",
+    "Gustare"
+  ],
+  "cifre": [
+    {
+      "valoare": "800",
+      "unitate": "g",
+      "eticheta": "pudră în tub"
+    },
+    {
+      "valoare": "1-3",
+      "unitate": "min",
+      "eticheta": "până se hidratează"
+    },
+    {
+      "valoare": "2",
+      "unitate": "",
+      "eticheta": "arome"
+    },
+    {
+      "valoare": "2",
+      "unitate": "",
+      "eticheta": "variante: cu apă sau cu lapte"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Preparare",
+      "text": "apă fierbinte sau lapte, 1-3 minute"
+    },
+    {
+      "titlu": "Arome",
+      "text": "ciocolată și biscuiți"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Tubul de 800 g",
+    "randuri": [
+      {
+        "nume": "Primul ingredient",
+        "valoare": "făină de ovăz"
+      },
+      {
+        "nume": "Cacao",
+        "valoare": "cu conținut redus de grăsime"
+      },
+      {
+        "nume": "Îndulcitori",
+        "valoare": "sucraloză, acesulfam-K"
+      },
+      {
+        "nume": "Timp de hidratare",
+        "valoare": "1-3 minute"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Instant Oat Cream",
+    "puncte": [
+      "Făină de ovăz, primul ingredient",
+      "Cacao cu conținut redus de grăsime",
+      "Îndulcită cu sucraloză și acesulfam-K",
+      "Se prepară cu apă fierbinte sau lapte, fără fierbere",
+      "Gata în 1-3 minute",
+      "Tub de 800 g, în aromele ciocolată și biscuiți"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "OVZ",
+        "titlu": "Făină de ovăz",
+        "text": "Ovăz măcinat fin, de aceea se hidratează repede și nu mai trebuie fiert."
+      },
+      {
+        "cod": "CAC",
+        "titlu": "Cacao",
+        "text": "Cacao cu conținut redus de grăsime, pentru gustul de ciocolată."
+      },
+      {
+        "cod": "ARO",
+        "titlu": "Arome",
+        "text": "Dau gustul de ciocolată sau de biscuiți, după aroma aleasă."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam-K, în locul zahărului."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Chocolate",
+      "nume": "Ciocolată",
+      "nota": "Valorile nutriționale sunt pe eticheta tubului."
+    },
+    {
+      "varianta": "Cookie",
+      "nume": "Biscuiți (Cookie)",
+      "nota": "Valorile nutriționale sunt pe eticheta tubului."
+    }
+  ],
+  "mod_de_folosire": "Adaugi apă fierbinte sau lapte peste pudră și lași 1-3 minute să se hidrateze. Cantitatea de pudră și tabelul nutrițional sunt pe eticheta tubului.",
+  "de_verificat": [
+    "tabelul nutrițional, porția și numărul de porții nu sunt transcrise în magazin (de citit de pe tub)"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de ovăz",
+    "intro": "Ovăzul e unul dintre cele mai vechi mic dejunuri din lume. Află de ce făina de ovăz se prepară mai repede decât fulgii, cât de dulce e cu adevărat ovăzul și cum îl transformi într-o masă mai sățioasă.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se prepară mai repede decât fulgii de ovăz?",
+        "raspuns": "Pentru că ovăzul e deja măcinat fin, ca o făină. Apa fierbinte sau laptele pătrund repede în bucățile mici, așa că nu mai ai nevoie de fierbere. În 1-3 minute ai o cremă. Fulgii întregi au nevoie de mai mult timp, pentru că sunt mai groși."
+      },
+      {
+        "intrebare": "Ovăzul are indice glicemic mic sau mare?",
+        "raspuns": "Depinde de cum e procesat. Tabelele internaționale de indice glicemic din 2008 adună peste 2.480 de alimente. Acolo cerealele, inclusiv ovăzul, apar și în variante cu indice glicemic mare, și în variante cu indice mic. Cu cât ovăzul e măcinat mai fin, cu atât se digeră de obicei mai repede."
+      },
+      {
+        "intrebare": "De unde vine obiceiul terciului de ovăz?",
+        "raspuns": "Din nordul Europei, mai ales din Scoția. Ovăzul crește bine în climă rece și umedă, unde grâul se descurcă mai greu. De aceea terciul de ovăz a fost secole la rând micul dejun obișnuit acolo. Azi îl găsești în variante dulci, cu fructe, cacao sau unt de nuci."
+      },
+      {
+        "intrebare": "Cum o faci mai sățioasă?",
+        "raspuns": "Adaugă proteine și puțină grăsime. Amestecă crema cu o măsură de pudră proteică după ce s-a hidratat, sau prepar-o cu lapte în loc de apă. Pune deasupra o lingură de unt de arahide, câteva nuci sau semințe și fructe proaspete."
+      },
+      {
+        "intrebare": "Ce faci dacă iese prea groasă?",
+        "raspuns": "Mai adaugi lichid, puțin câte puțin. Crema se îngroașă în timp ce stă, pentru că ovăzul continuă să absoarbă apa. Dacă vrei o textură de budincă, lasă-o mai mult. Dacă o vrei ca un smoothie, pune mai mult lapte și amestec-o bine."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Atkinson FS și colab. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18835944/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

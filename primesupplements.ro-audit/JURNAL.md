@@ -1055,3 +1055,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Schimbat în Shopify: Dev Dashboard, versiunea `v4-total-admin`, publicată cu aceleași permisiuni și aceeași adresă, deci fără aprobare nouă. În admin apare „Total Admin”.
   - Au rămas la fel adresa din admin (`/apps/prime-expediere`), serverul Cloudflare și repo-ul GitHub, ca să nu se strice nimic.
 - 15.11: Total Admin – Încasări: coloana „#” cu numărul fiecărei încasări (1, 2, 3 …), cerută de Marius. Versiunea 8d843f81.
+- 15.11: Total Admin – Încasări:
+  - **coloana „Nume pe factură”**, după Client: clientul de pe factura PRS, citit din Oblio și ținut minte (migrarea 0014). Apare îngroșat și galben când diferă de client (ex. persoana de contact Cargus față de firma de pe factură). Contabila înregistrează încasarea pe numele de pe factură. Coloana apare și în raportul de închidere.
+  - **căutare** după client, nume pe factură, comandă, factură, OP și AWB;
+  - cardul **„de verificat”** e acum buton: arată doar rândurile de verificat, iar un clic în plus le arată pe toate;
+  - **reparat** „idToken unavailable” (De comandat): aplicația reîncearcă tokenul Shopify și, dacă tot nu merge, spune „reîncarcă pagina”.
+
+  Versiunea eb365fbf. Cerute de Marius. Neverificat încă în aplicație.

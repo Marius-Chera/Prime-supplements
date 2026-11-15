@@ -1190,3 +1190,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Shop Pay și PayPal sunt oprite;
     - virările merg săptămânal, lunea, în BT ****4101.
   - **Netestat:** preluarea pe date reale (martie 2026). Panoul browserului era ascuns, iar clicurile din aplicație nu se mai înregistrau; testul e în DE-FACUT §35 (c).
+- 15.11: poza hero pentru Recovery BCAA generată cu OpenArt (Nano Banana 2, din pozele reale ale tuburilor, 60 de credite). Am ales varianta 2, la care Pear are eticheta verde ca în realitate; la varianta 1, Pear era roșu. Fișierul e în Shopify Files: `pagina-vizuala-recovery-bcaa-cherry-pear.png`. Metafield-ul BCAA e actualizat (doar pe pilot). Textul mărunt de pe etichetă e neclar în poza AI, ca de obicei la modelele AI; la mărimea din pagină nu se citește.

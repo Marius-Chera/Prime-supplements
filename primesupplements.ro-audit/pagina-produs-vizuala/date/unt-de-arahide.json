@@ -168,5 +168,88 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Unt de arahide 100%: 26 g proteine și 7 g fibre la 100 g",
+    "intro": "Untul de arahide Prime Health are 26 g de proteine și 7 g de fibre la 100 g, dintr-un singur ingredient: arahide prăjite. Fiind sursă de proteine, primește trei mențiuni autorizate în UE, pentru masa musculară și oase.",
+    "conditie": "Valorile sunt pentru 100 g; doza zilnică o potrivești cu restul meselor",
+    "cifre": [
+      {
+        "valoare": "26",
+        "unitate": "g",
+        "eticheta": "proteine la 100 g"
+      },
+      {
+        "valoare": "7",
+        "unitate": "g",
+        "eticheta": "fibre la 100 g"
+      },
+      {
+        "valoare": "581",
+        "unitate": "kcal",
+        "eticheta": "la 100 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "7 g de fibre la 100 g",
+        "text": "Mai multe fibre decât unturile de migdale și caju din gama Prime Health: 7 g, față de 3 g și 3,3 g.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Doar arahide",
+        "text": "Fără sare, fără zahăr adăugat și fără ulei de palmier; cele 6,4 g de zaharuri la 100 g sunt din arahide.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce unt de arahide?",
+      "puncte": [
+        "Are cele mai multe proteine dintre unturile Prime Health: 26 g la 100 g.",
+        "Grăsimile sunt 46 g la 100 g, din care 6,1 g saturate.",
+        "Îl folosești pe clătite, în cremă de orez, în smoothie-uri sau în sosuri."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Amesteci bine",
+        "text": "Uleiul de la suprafață vine din arahide; îl amesteci la loc."
+      },
+      {
+        "titlu": "Alegi rețeta",
+        "text": "Pe pâine, în smoothie sau peste crema de orez."
+      },
+      {
+        "titlu": "Folosești cu măsură",
+        "text": "Are 581 kcal la 100 g, deci o lingură e de ajuns pentru gust."
+      }
+    ],
+    "nota": "Mențiunile se aplică pentru că untul de arahide este sursă de proteine: aproape 18% din valoarea energetică vine din proteine, peste pragul legal de 12%. Conține arahide.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
   }
 }

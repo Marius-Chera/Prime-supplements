@@ -151,5 +151,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Spirulină: ce primești în porția de 2 capsule",
+    "intro": "Spirulina Prime îți dă 1200 mg de pulbere de spirulină în porția zilnică de 2 capsule. Spirulina nu are mențiuni de sănătate autorizate în UE, așa că aici afli compoziția și cum o iei.",
+    "conditie": "Pentru adulți, la porția zilnică de 2 capsule",
+    "cifre": [
+      {
+        "valoare": "1200",
+        "unitate": "mg",
+        "eticheta": "spirulină în porția zilnică"
+      },
+      {
+        "valoare": "600",
+        "unitate": "mg",
+        "eticheta": "spirulină într-o capsulă"
+      },
+      {
+        "valoare": "40",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Spirulina platensis",
+        "text": "Pulberea e biomasa uscată și măcinată a cianobacteriei Spirulina platensis, numită în studii și Arthrospira.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "600 mg pe capsulă",
+        "text": "Două capsule fac porția zilnică de 1200 mg de pulbere, adică puțin peste un gram.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "La masă sau după",
+        "text": "Eticheta recomandă capsulele în timpul mesei sau după masă, cu apă.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Nu e pentru vegani",
+        "text": "Capsulele au gelatină cu oxid de zinc, așa că spirulina de aici nu e potrivită pentru vegani.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce spirulină în capsule?",
+      "puncte": [
+        "O recenzie din 2023 descrie biomasa de spirulină ca având 55–70% proteine, dar porția de 1200 mg nu înlocuiește o masă.",
+        "Culoarea vine din doi pigmenți: clorofila, verde, și ficocianina, albastră.",
+        "Flaconul are 80 de capsule, adică 40 de porții."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 capsule pe zi",
+        "text": "Aceasta e porția zilnică; nu o depăși."
+      },
+      {
+        "titlu": "Cu masa",
+        "text": "Ia-le în timpul mesei sau imediat după."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se recomandă sub 18 ani, în sarcină sau în alăptare."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de 2 capsule, cu 1200 mg de spirulină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Maddiboyina B și colab. Food and drug industry applications of microalgae Spirulina platensis: A review. J Basic Microbiol. 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36720046/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

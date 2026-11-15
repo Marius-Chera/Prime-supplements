@@ -206,5 +206,92 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Izolat din zer Pure Isolate: 87,0% proteine și 3 beneficii",
+    "intro": "Pure Isolate este un izolat din zer cu 87,0 g de proteine la 100 g de pudră. Fiind sursă de proteine, poartă trei mențiuni de sănătate autorizate în UE: două pentru masa musculară și una pentru oase.",
+    "conditie": "Pentru adulți, la o doză de 27 g, după antrenament sau în timpul zilei",
+    "cifre": [
+      {
+        "valoare": "87,0",
+        "unitate": "%",
+        "eticheta": "proteine la 100 g de pudră"
+      },
+      {
+        "valoare": "23,5",
+        "unitate": "g",
+        "eticheta": "proteine într-o porție de 27 g"
+      },
+      {
+        "valoare": "0,26",
+        "unitate": "g",
+        "eticheta": "zaharuri într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Doar 0,26 g zaharuri",
+        "text": "O porție de 27 g are 97,3 kcal, cu numai 0,26 g zaharuri și 0,26 g grăsimi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Șapte arome",
+        "text": "Ciocolată, vanilie Bourbon, caramel sărat, caffè latte și încă trei arome.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce izolat din zer?",
+      "puncte": [
+        "Procentul de proteine îl vezi în coloana „la 100 g”: la Pure Isolate scrie 87,0 g.",
+        "Poziția ISSN din 2017 recomandă porții de 20–40 g de proteine, la 3–4 ore; o porție de Pure Isolate are 23,5 g.",
+        "Complexul enzimatic Digezyme® este trecut pe etichetă cu 40,5 mg la fiecare porție."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O porție de 27 g",
+        "text": "Cu apă sau lapte, în shaker."
+      },
+      {
+        "titlu": "Când o iei",
+        "text": "După antrenament sau în timpul zilei."
+      },
+      {
+        "titlu": "74 de porții",
+        "text": "La o porție pe zi, tubul de 2 kg îți ajunge 74 de zile."
+      }
+    ],
+    "nota": "Mențiunile se aplică pentru că Pure Isolate este sursă de proteine: aproximativ 97% din energia unei doze de 27 g vine din proteine. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      }
+    ]
   }
 }

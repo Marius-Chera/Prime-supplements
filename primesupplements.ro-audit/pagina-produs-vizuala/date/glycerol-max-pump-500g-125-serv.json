@@ -150,5 +150,80 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Glycerol Max Pump: un ingredient, 4000 mg la fiecare porție",
+    "intro": "Glycerol Max Pump conține un singur ingredient, monostearatul de glicerol, fără aromă. Ingredientul nu are o mențiune de sănătate autorizată în UE, așa că aici găsești doar ce scrie pe etichetă.",
+    "conditie": "Pentru adulți, la doza de o porție de 4 g pe zi",
+    "cifre": [
+      {
+        "valoare": "4000",
+        "unitate": "mg",
+        "eticheta": "monostearat de glicerol într-o porție"
+      },
+      {
+        "valoare": "125",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 500 g"
+      },
+      {
+        "valoare": "30",
+        "unitate": "min",
+        "eticheta": "înainte de antrenament"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "Un singur ingredient",
+        "text": "Tabelul arată 100 g monostearat de glicerol la 100 g de produs, fără arome sau alte adaosuri.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Măsura de 4 g",
+        "text": "O măsură are aproximativ 4 g, adică 4000 mg, iar tubul de 500 g ajunge 125 de zile la o porție pe zi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Alergeni în fabrică",
+        "text": "Se produce într-o unitate unde se procesează și lapte, ou, soia, grâu și pește.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Glycerol Max Pump?",
+      "puncte": [
+        "Monostearatul de glicerol se obține din glicerol și acid stearic și e folosit și ca emulgator în alimente.",
+        "Indiferent de supliment, poziția ACSM din 2007 îți recomandă să eviți pierderi de lichide de peste 2% din greutate la efort.",
+        "Produsul e fabricat în UE și nu are aromă, deci gustul apei rămâne aproape neschimbat."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "4 g cu apă",
+        "text": "Amesteci o măsură cu cantitatea de apă pe care o vrei."
+      },
+      {
+        "titlu": "30 de minute înainte",
+        "text": "O porție pe zi, înainte de antrenament."
+      },
+      {
+        "titlu": "Nu pentru toți",
+        "text": "Nu se recomandă copiilor și femeilor în sarcină sau în alăptare."
+      }
+    ],
+    "nota": "Cifrele sunt cele de pe etichetă, la doza de o porție de 4 g pe zi; ingredientul nu are mențiuni de sănătate autorizate. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

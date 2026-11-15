@@ -168,5 +168,88 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Unt de caju: 18 g proteine la 100 g, gust dulce și cremos",
+    "intro": "Untul de caju Prime Health are 18 g de proteine la 100 g, suficient ca să fie sursă de proteine. De aceea poate purta trei mențiuni autorizate în UE, iar pe borcan scrie fără zahăr adăugat, fără sare și fără conservanți.",
+    "conditie": "Valorile sunt la 100 g; potrivești doza după mesele zilei",
+    "cifre": [
+      {
+        "valoare": "18",
+        "unitate": "g",
+        "eticheta": "proteine la 100 g"
+      },
+      {
+        "valoare": "3,3",
+        "unitate": "g",
+        "eticheta": "fibre la 100 g"
+      },
+      {
+        "valoare": "582",
+        "unitate": "kcal",
+        "eticheta": "la 100 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Gust blând, mai dulce",
+        "text": "Glucidele sunt 27 g la 100 g, din care 5,9 g zaharuri naturale, de aici gustul mai dulce decât al altor unturi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Fără ulei de palmier",
+        "text": "Pe borcan scrie: fără zahăr adăugat, fără sare, fără ulei de palmier și fără conservanți.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce unt de caju?",
+      "puncte": [
+        "Textura e mai cremoasă, bună în terci de ovăz și în deserturi de casă.",
+        "Are 43,8 g de grăsimi la 100 g, din care 7,8 g saturate.",
+        "Borcanul de sticlă are 600 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Amesteci înainte",
+        "text": "Uleiul se poate separa; îl amesteci la loc."
+      },
+      {
+        "titlu": "Pe pâine sau în terci",
+        "text": "Sau în smoothie-uri și deserturi de casă."
+      },
+      {
+        "titlu": "O lingură ajunge",
+        "text": "100 g au 582 kcal, deci o lingură e suficientă pentru gust."
+      }
+    ],
+    "nota": "Mențiunile se aplică pentru că untul de caju este sursă de proteine: puțin peste 12% din valoarea energetică vine din proteine, pragul cerut de lege. Conține caju (fructe cu coajă).",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
   }
 }

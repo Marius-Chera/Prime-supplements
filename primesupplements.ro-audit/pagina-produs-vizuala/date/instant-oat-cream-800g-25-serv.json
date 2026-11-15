@@ -173,5 +173,82 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/28919842/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de ovăz Instant Oat Cream: gata în 1-3 minute, 800 g",
+    "intro": "Instant Oat Cream este o cremă de ovăz făcută din făină de ovăz, cu cacao și îndulcitori, într-un tub de 800 g. O hidratezi cu apă fierbinte sau lapte în 1-3 minute, fără să o fierbi.",
+    "conditie": "Doza de pudră și valorile nutriționale sunt pe eticheta tubului; o prepari cu apă fierbinte sau lapte",
+    "cifre": [
+      {
+        "valoare": "800",
+        "unitate": "g",
+        "eticheta": "pudră în tub"
+      },
+      {
+        "valoare": "1-3",
+        "unitate": "min",
+        "eticheta": "până e gata"
+      },
+      {
+        "valoare": "2",
+        "unitate": "",
+        "eticheta": "arome: ciocolată și biscuiți"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Făină de ovăz",
+        "text": "Primul ingredient de pe etichetă; fiind măcinată fin, se hidratează mai repede decât fulgii.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "Gata în 1-3 minute",
+        "text": "Torni apă fierbinte sau lapte peste pudră și aștepți; nu ai nevoie de oală.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Cacao cu puține grăsimi",
+        "text": "Rețeta are cacao cu conținut redus de grăsime, iar dulceața vine din sucraloză și acesulfam-K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Două arome",
+        "text": "Ciocolată sau biscuiți, fiecare în tubul ei de 800 g.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce cremă de ovăz instant?",
+      "puncte": [
+        "Fără fierbere, deci fără oală de spălat: doar bolul și lingura.",
+        "Tabelele de indice glicemic din 2008 adună peste 2.480 de alimente, iar cerealele apar acolo în variante cu indice mare și mic.",
+        "Cu o lingură de unt de arahide sau un shake proteic alături, micul dejun devine mai consistent."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Pudra în bol",
+        "text": "Pui cantitatea de pe eticheta tubului de 800 g."
+      },
+      {
+        "titlu": "Apă fierbinte sau lapte",
+        "text": "Torni lichidul și amesteci."
+      },
+      {
+        "titlu": "Aștepți 1-3 minute",
+        "text": "Pudra se hidratează singură; amesteci încă o dată și servești."
+      }
+    ],
+    "nota": "Tubul de 800 g are pe etichetă tabelul nutrițional complet și doza recomandată pentru o porție. Conține ovăz.",
+    "surse": [
+      {
+        "text": "Atkinson FS și colab. International tables of glycemic index and glycemic load values: 2008. Diabetes Care. 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18835944/"
+      }
+    ]
   }
 }

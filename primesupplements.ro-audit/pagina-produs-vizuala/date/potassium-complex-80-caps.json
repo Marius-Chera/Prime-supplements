@@ -164,5 +164,102 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Potasiu și magneziu: 5 mențiuni la 3 capsule pe zi",
+    "intro": "Potassium Complex îți dă 324 mg de potasiu și 240 mg de magneziu la doza zilnică de 3 capsule. Ambele trec de pragul de 15% din VNR (16,2% și 63,9%), deci pot purta mențiuni autorizate în UE.",
+    "conditie": "Pentru adulți, la doza zilnică de 3 capsule",
+    "cifre": [
+      {
+        "valoare": "324",
+        "unitate": "mg",
+        "eticheta": "potasiu la 3 capsule (16,2% VNR)"
+      },
+      {
+        "valoare": "240",
+        "unitate": "mg",
+        "eticheta": "magneziu la 3 capsule"
+      },
+      {
+        "valoare": "63,9",
+        "unitate": "%",
+        "eticheta": "din VNR pentru magneziu"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Mușchi și sistem nervos",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Echilibru electrolitic",
+        "text": "Magneziul contribuie la echilibrul electrolitic.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "muschi",
+        "titlu": "Sistemul muscular",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului muscular.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Sistemul nervos",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Două minerale din citrați",
+        "text": "Ambele vin din citrați, în capsule din gelatină.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce potasiu cu magneziu?",
+      "puncte": [
+        "Potasiul și magneziul sunt electroliți: dizolvați în apă, conduc curentul electric.",
+        "O recenzie din 2021 arată că formele organice de magneziu, cum e citratul, par mai biodisponibile decât cele anorganice.",
+        "Doza zilnică de 3 capsule se împarte ușor: câte una la fiecare masă."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "3 capsule pe zi",
+        "text": "Doza zilnică de pe etichetă, de preferat în timpul mesei."
+      },
+      {
+        "titlu": "Adună toate sursele",
+        "text": "Dacă iei și alte produse cu magneziu sau potasiu, adună cantitățile."
+      },
+      {
+        "titlu": "Cam 26 de zile",
+        "text": "Flaconul de 80 de capsule are aproximativ 26 de doze zilnice."
+      }
+    ],
+    "nota": "Mențiunile se aplică la doza zilnică de 3 capsule: 324 mg de potasiu și 240 mg de magneziu, peste pragul de 15% din VNR. Nu se recomandă sub 18 ani, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

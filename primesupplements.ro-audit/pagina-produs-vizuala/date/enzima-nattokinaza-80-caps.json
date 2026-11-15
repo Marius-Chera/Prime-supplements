@@ -153,5 +153,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Nattokinază: ce primești în capsula de 2000 UF",
+    "intro": "Nattokinaza Prime îți dă 100 mg de enzimă, cu o activitate de 2000 UF, într-o capsulă pe zi. Enzima nu are mențiuni de sănătate autorizate în UE, așa că aici găsești ce conține și cum o iei.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "2000",
+        "unitate": "UF",
+        "eticheta": "activitate enzimatică într-o capsulă"
+      },
+      {
+        "valoare": "100",
+        "unitate": "mg",
+        "eticheta": "nattokinază într-o capsulă"
+      },
+      {
+        "valoare": "60",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Din boabe de soia",
+        "text": "Enzima provine din soia, ca în natto, preparatul japonez din soia fermentată. Soia e alergen.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "100 mg și 2000 UF",
+        "text": "Miligramele arată cantitatea de enzimă, iar UF, unitățile fibrinolitice, arată activitatea ei.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Între mese",
+        "text": "Eticheta recomandă o capsulă pe zi, între mese, nu odată cu mâncarea.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "60 de capsule",
+        "text": "Flaconul are 60 de capsule din gelatină, cu o greutate netă de 24,9 g, adică 60 de porții.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce nattokinază?",
+      "puncte": [
+        "Enzima a fost descrisă în 1987 de cercetători japonezi, care au găsit-o în natto.",
+        "Activitatea în UF te ajută să compari produse cu aceeași cantitate de enzimă.",
+        "Ingredientele inactive sunt doar maltodextrina și învelișul capsulei."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Doza zilnică recomandată; nu o depăși."
+      },
+      {
+        "titlu": "Între mese",
+        "text": "Ia-o cu apă, la distanță de mesele principale."
+      },
+      {
+        "titlu": "Iei anticoagulante?",
+        "text": "Dacă iei tratament pentru circulație sau anticoagulante, întreabă medicul înainte."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de o capsulă, cu 100 mg de nattokinază (2000 UF). Conține soia. Nu se recomandă sub 18 ani, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Sumi H și colab. A novel fibrinolytic enzyme (nattokinase) in the vegetable cheese Natto. Experientia. 1987",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3478223/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

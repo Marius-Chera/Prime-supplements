@@ -164,5 +164,82 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez caramel sărat: gust dulce-sărat, 33,4 g glucide",
+    "intro": "Crema de orez caramel sărat are 33,4 g de glucide și 155,2 kcal la fiecare măsură de 45 g. Nota sărată vine din cele 0,4 g de sare pe porție, iar cacaoa cu conținut redus de grăsimi rotunjește gustul de caramel.",
+    "conditie": "La o doză de 45 g, la micul dejun sau înainte de sală",
+    "cifre": [
+      {
+        "valoare": "33,4",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "0,4",
+        "unitate": "g",
+        "eticheta": "sare într-o porție"
+      },
+      {
+        "valoare": "0,3",
+        "unitate": "g",
+        "eticheta": "zaharuri într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "33,4 g de glucide",
+        "text": "O măsură îți dă 33,4 g de glucide, 3,9 g de proteine și 155,2 kcal.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Dulce-sărat",
+        "text": "0,4 g de sare la porție, mai mult decât la celelalte arome, pentru nota de caramel sărat.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Cacao în rețetă",
+        "text": "Lista de ingrediente include cacao cu conținut redus de grăsimi, care dă culoarea caramelului.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Fără zahăr ars",
+        "text": "Fără zaharuri adăugate: dulceața vine din sucraloză și acesulfam-K, iar zaharurile sunt 0,3 g pe porție.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce caramel sărat?",
+      "puncte": [
+        "Gustul dulce-sărat se potrivește cu unt de arahide sau banană, într-un bol de mic dejun.",
+        "Un studiu din 1981 a arătat că proteinele și grăsimile din aceeași masă reduc creșterea glicemiei.",
+        "Cele 22 de porții din tubul de 1 kg acoperă trei săptămâni de mic dejun."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Pudra mai întâi",
+        "text": "Pui 45 g, adică o măsură, în bol."
+      },
+      {
+        "titlu": "Lichid rece",
+        "text": "Torni 150–200 ml de apă sau lapte și amesteci cu lingura."
+      },
+      {
+        "titlu": "Un topping potrivit",
+        "text": "Unt de arahide sau felii de banană."
+      }
+    ],
+    "nota": "Cifrele sunt pentru o doză de 45 g de pudră. Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": [
+      {
+        "text": "Jenkins DJ și colab. Glycemic index of foods: a physiological basis for carbohydrate exchange. Am J Clin Nutr. 1981",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6259925/"
+      }
+    ]
   }
 }

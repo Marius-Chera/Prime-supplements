@@ -189,5 +189,98 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Water Out capsule: potasiu, magneziu și vitamina C la 3 capsule",
+    "intro": "Water Out în capsule îți dă 375 mg de potasiu, 75 mg de magneziu și 80 mg de vitamina C la porția de 3 capsule. Toate trei trec de 15% din VNR și pot purta mențiuni autorizate; plantele nu au astfel de mențiuni.",
+    "conditie": "Pentru adulți, la porția de 3 capsule",
+    "cifre": [
+      {
+        "valoare": "18,8",
+        "unitate": "%",
+        "eticheta": "din VNR pentru potasiu la 3 capsule"
+      },
+      {
+        "valoare": "20",
+        "unitate": "%",
+        "eticheta": "din VNR pentru magneziu la 3 capsule"
+      },
+      {
+        "valoare": "100",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina C la 3 capsule"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Mușchi și sistem nervos",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Echilibru electrolitic",
+        "text": "Magneziul contribuie la echilibrul electrolitic.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "8 extracte din plante",
+        "text": "Păpădie, mesteacăn, sparanghel, ceai verde, coada-calului, frasin, ortosifon și portocal amar.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Ceai verde și sinefrină",
+        "text": "210 mg de catechine și 6 mg de sinefrine pe porție; nu combina cu alte produse cu ceai verde sau cafeină.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Water Out în capsule?",
+      "puncte": [
+        "Cel mai mult din amestec e extractul de păpădie, 400 mg pe porție.",
+        "Cele 80 mg de vitamina C acoperă 100% din VNR.",
+        "Flaconul de 120 de capsule are 40 de porții."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "3 capsule pe porție",
+        "text": "Porția de pe etichetă; nu depăși doza zilnică."
+      },
+      {
+        "titlu": "Nu pe stomacul gol",
+        "text": "Ia capsulele după ce ai mâncat ceva."
+      },
+      {
+        "titlu": "Fără alte stimulente",
+        "text": "În aceeași zi, evită alte produse cu ceai verde, cafeină sau sinefrină."
+      }
+    ],
+    "nota": "Mențiunile se aplică la porția de 3 capsule, pentru potasiu, magneziu și vitamina C, toate peste 15% din VNR. Nu se recomandă sub 18 ani, în sarcină, în alăptare sau celor sensibili la stimulente. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

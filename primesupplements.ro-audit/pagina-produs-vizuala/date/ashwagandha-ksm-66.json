@@ -159,5 +159,87 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Ashwagandha KSM-66®: ce găsești în fiecare capsulă",
+    "intro": "Ashwagandha KSM-66® îți dă 500 mg de extract din rădăcină în fiecare capsulă, standardizat la 5% withanolide. Pentru această plantă nu există mențiuni de sănătate autorizate în UE, așa că mai jos afli exact ce primești.",
+    "conditie": "Pentru adulți, la doza zilnică de pe etichetă: o porție de o capsulă",
+    "cifre": [
+      {
+        "valoare": "500",
+        "unitate": "mg",
+        "eticheta": "extract KSM-66® într-o capsulă"
+      },
+      {
+        "valoare": "25",
+        "unitate": "mg",
+        "eticheta": "withanolide într-o capsulă (5%)"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de porții într-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Doar din rădăcină",
+        "text": "Extractul KSM-66® e făcut numai din rădăcina plantei Withania somnifera, fără frunze.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "25 mg de withanolide",
+        "text": "Standardizarea la 5% înseamnă 25 mg de withanolide în cele 500 mg de extract, la fiecare lot.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Fără alcool la extracție",
+        "text": "Conform datelor produsului, extractul e obținut fără alcool sau solvenți chimici.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Două ingrediente",
+        "text": "Pe etichetă sunt doar extractul și capsula vegetală din celuloză, fără agenți de încărcare.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce ashwagandha KSM-66®?",
+      "puncte": [
+        "KSM-66® e o marcă înregistrată de extract, trecută pe etichetă împreună cu standardizarea lui.",
+        "Withanolidele sunt compușii după care se măsoară calitatea extractului din Withania somnifera.",
+        "Capsula din celuloză e potrivită și pentru cei care evită gelatina.",
+        "O porție înseamnă o capsulă, deci flaconul de 80 de capsule are 80 de porții."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe porție",
+        "text": "Cu un pahar de apă, cu sau fără mâncare."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Respectă doza zilnică de pe etichetă."
+      },
+      {
+        "titlu": "Întreabă medicul",
+        "text": "În sarcină, alăptare, afecțiuni sau tratament, discută întâi cu medicul."
+      }
+    ],
+    "nota": "Informațiile se referă la porția de o capsulă, cu 500 mg de extract KSM-66®. Planta nu are mențiuni de sănătate autorizate în UE, de aceea nu îi atribuim efecte. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

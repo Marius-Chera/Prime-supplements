@@ -210,5 +210,102 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Daily Vitamin Formula: mențiunile autorizate la un plic pe zi",
+    "intro": "Daily Vitamin Formula îți dă 12 vitamine și 8 minerale într-un plic pe zi, cu 5 tablete și o capsulă. Multe trec de pragul de 15% din VNR, de exemplu B6 (1400%) și vitamina C (812,5%), deci pot purta mențiuni autorizate.",
+    "conditie": "Pentru adulți, la doza zilnică de un plic",
+    "cifre": [
+      {
+        "valoare": "1400",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina B6 la un plic"
+      },
+      {
+        "valoare": "812,5",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina C la un plic"
+      },
+      {
+        "valoare": "30",
+        "unitate": "",
+        "eticheta": "de plicuri, câte unul pe zi"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Energie și oboseală",
+        "text": "Vitamina B6 contribuie la metabolismul energetic normal și la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar. Vitamina D contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "muschi",
+        "titlu": "Funcția musculară",
+        "text": "Vitamina D contribuie la menținerea funcției musculare normale.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Mușchi și sistem nervos",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Macronutrienți",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Stres oxidativ",
+        "text": "Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.",
+        "mentiune_autorizata": true
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Daily Vitamin Formula?",
+      "puncte": [
+        "Capsula aduce 320 mg de calciu din alge marine, plus magneziu, zinc și D3.",
+        "Magneziul are doar 8% din VNR pe plic, sub prag, de aceea nu folosim mențiuni pentru el.",
+        "Un tub are 30 de plicuri, adică o lună la un plic pe zi."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Un plic pe zi",
+        "text": "Cele 6 bucăți din plic fac doza zilnică."
+      },
+      {
+        "titlu": "Dimineața, la masă",
+        "text": "Eticheta recomandă masa de dimineață."
+      },
+      {
+        "titlu": "Verifică alte suplimente",
+        "text": "Dacă mai iei vitamine, adună cantitățile."
+      }
+    ],
+    "nota": "Mențiunile se aplică la un plic pe zi, doar pentru nutrienții peste 15% din VNR: B6, C, D, potasiu, crom și zinc. Nu se recomandă copiilor, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

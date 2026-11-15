@@ -163,5 +163,84 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Picolinat de crom: 2 mențiuni la o capsulă pe zi",
+    "intro": "Picolinatul de crom Prime îți dă 200 µg de crom într-o capsulă pe zi, adică 500% din valoarea nutrițională de referință. Fiindcă trece de pragul de 15%, cromul poate purta două mențiuni autorizate în UE, despre macronutrienți și glucoza din sânge.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "500",
+        "unitate": "%",
+        "eticheta": "din VNR pentru crom la o capsulă"
+      },
+      {
+        "valoare": "200",
+        "unitate": "µg",
+        "eticheta": "crom într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Macronutrienți",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Glucoza din sânge",
+        "text": "Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "1,6 mg de picolinat",
+        "text": "Cromul e legat de acidul picolinic. Capsula e din gelatină, iar maltodextrina o umple.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce picolinat de crom?",
+      "puncte": [
+        "Necesarul de crom e mic: valoarea de referință e de 40 µg pe zi, adică 0,04 mg.",
+        "Din 1,6 mg de picolinat, cromul propriu-zis e 200 µg; restul e acidul picolinic.",
+        "Un studiu din 1996 pe 36 de bărbați care se antrenau nu a arătat efecte asupra forței, așa că nu îl prezentăm ca produs pentru sală."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Doza zilnică de pe etichetă; nu o depăși."
+      },
+      {
+        "titlu": "La o masă fixă",
+        "text": "Eticheta recomandă capsula în timpul mesei, de exemplu la prânz."
+      },
+      {
+        "titlu": "Iei medicamente?",
+        "text": "Dacă ai o afecțiune legată de glicemie sau urmezi un tratament, întreabă medicul."
+      }
+    ],
+    "nota": "Mențiunile se aplică la doza zilnică de o capsulă, cu 200 µg de crom, adică 500% din VNR, peste pragul de 15%. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Lukaski HC și colab. Chromium supplementation and resistance training: effects on body composition, strength, and trace element status of men. Am J Clin Nutr. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8644693/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

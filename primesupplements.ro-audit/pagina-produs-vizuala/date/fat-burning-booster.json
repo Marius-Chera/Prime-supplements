@@ -177,5 +177,99 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Fat Burning Booster: crom la 100% VNR și 117,5 mg cafeină",
+    "intro": "Fat Burning Booster are 40 µg de crom într-o fiolă, adică 100% din VNR, și 117,5 mg de cafeină, deci conținut ridicat de cafeină. Doar cromul are mențiuni de sănătate autorizate în UE.",
+    "conditie": "Pentru adulți, la doza de o fiolă de 25 ml, niciodată pe stomacul gol",
+    "cifre": [
+      {
+        "valoare": "100",
+        "unitate": "%",
+        "eticheta": "din VNR pentru crom într-o fiolă"
+      },
+      {
+        "valoare": "117,5",
+        "unitate": "mg",
+        "eticheta": "cafeină într-o fiolă"
+      },
+      {
+        "valoare": "4000",
+        "unitate": "mg",
+        "eticheta": "L-carnitină într-o fiolă"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "echilibru",
+        "titlu": "Macronutrienți",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Glucoza din sânge",
+        "text": "Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "117,5 mg cafeină",
+        "text": "100 mg cafeină anhidră și 17,5 mg din extractul de ceai verde. Nu combini fiola cu cafea sau băuturi energizante.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Ce mai e în fiolă",
+        "text": "4000 mg L-carnitină, 250 mg extract de ceai verde (75 mg catechine) și 150 mg extract de cafea verde.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Ceai verde: o regulă",
+        "text": "În ziua în care bei fiola, nu consumi alte produse cu ceai verde; maximum 800 mg EGCG pe zi.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Fat Burning Booster?",
+      "puncte": [
+        "Cromul vine sub formă de crom picolinat, iar o fiolă acoperă 100% din VNR.",
+        "Extractul de cafea verde are 50% acid clorogenic, adică 75 mg într-o fiolă."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Nu pe stomacul gol",
+        "text": "Bei fiola după ce ai mâncat, cum cere eticheta."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Respecți doza recomandată pentru consumul zilnic."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se recomandă sub 18 ani, în sarcină, în alăptare sau dacă ești sensibil la cafeină."
+      }
+    ],
+    "nota": "Mențiunile pentru crom se aplică la doza de o fiolă, care aduce 100% din VNR, peste pragul minim de 15%. Conținut ridicat de cafeină: 117,5 mg pe fiolă. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) 2022/2340 – catechinele din extractul de ceai verde",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2340/oj"
+      },
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine. EFSA Journal. 2015",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

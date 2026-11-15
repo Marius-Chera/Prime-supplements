@@ -145,5 +145,84 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Vitamina C 1000: 2 mențiuni autorizate la o capsulă pe zi",
+    "intro": "Vitamina C 1000 îți dă 1000 mg de acid ascorbic într-o capsulă, adică 1250% din valoarea nutrițională de referință. Fiindcă trece mult de pragul de 15%, vitamina C poate purta aici două mențiuni autorizate în UE: imunitate și oboseală.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "1250",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina C la o capsulă"
+      },
+      {
+        "valoare": "1000",
+        "unitate": "mg",
+        "eticheta": "vitamina C într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Vitamina C contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Acid ascorbic, 1000 mg",
+        "text": "Singurul ingredient activ e acidul ascorbic. Restul sunt învelișul din gelatină și doi agenți antiaglomeranți.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce vitamina C 1000?",
+      "puncte": [
+        "O capsulă pe zi are de 12,5 ori valoarea de referință de 80 mg.",
+        "O recenzie din 2013 nu a găsit diferențe de biodisponibilitate între vitamina C sintetică și cea din alimente.",
+        "Un flacon are 80 de capsule, deci 80 de zile la doza de pe etichetă."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Aceasta e doza zilnică recomandată; nu o depăși."
+      },
+      {
+        "titlu": "În timpul mesei",
+        "text": "Eticheta recomandă capsula la masă, cu un pahar de apă."
+      },
+      {
+        "titlu": "Păstrează-l bine închis",
+        "text": "Ferește flaconul de căldură, lumină și umezeală, ca vitamina C să rămână stabilă."
+      }
+    ],
+    "nota": "Mențiunile se aplică la doza zilnică de o capsulă, cu 1000 mg de vitamina C, adică 1250% din VNR, peste pragul de 15%. Capsula conține gelatină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Carr AC, Vissers MC. Synthetic or food-derived vitamin C – are they equally bioavailable? Nutrients. 2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24169506/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

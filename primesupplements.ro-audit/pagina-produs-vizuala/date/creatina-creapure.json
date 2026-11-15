@@ -165,5 +165,89 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/8828669/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Creatină Creapure®: mențiunea autorizată, la 3 g pe zi",
+    "intro": "Creatina Creapure® din tub are un singur ingredient, creatină monohidrată micronizată, iar o porție de 5 g depășește pragul de 3 g pe zi. La acest aport, creatina poate purta mențiunea autorizată în UE.",
+    "conditie": "Pentru adulții care fac antrenamente de mare intensitate, la o doză zilnică de 3–5 g",
+    "cifre": [
+      {
+        "valoare": "3",
+        "unitate": "g",
+        "eticheta": "creatină pe zi pentru mențiunea autorizată"
+      },
+      {
+        "valoare": "5",
+        "unitate": "g",
+        "eticheta": "creatină într-o porție"
+      },
+      {
+        "valoare": "100",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 500 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Efort scurt și intens",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Condiția: 3 g pe zi",
+        "text": "Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Un singur ingredient",
+        "text": "Pe etichetă scrie doar creatină monohidrată micronizată (Creapure®): fără arome, îndulcitori sau coloranți.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Două mărimi de tub",
+        "text": "Tubul de 300 g are 60 de porții, iar cel de 500 g are 100 de porții, de câte 5 g.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce creatină Creapure®?",
+      "puncte": [
+        "Creapure® este marca de ingredient tipărită pe tub: „made of Creapure®”.",
+        "Corpul tău transformă zilnic o parte din creatină în creatinină, iar diferența vine din dietă și din sinteza proprie, arată o recenzie din 2007."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "3–5 g pe zi",
+        "text": "Aceasta este doza zilnică de pe etichetă."
+      },
+      {
+        "titlu": "Bei suficiente lichide",
+        "text": "Pe durata utilizării, eticheta îți cere să consumi suficiente lichide pe parcursul zilei."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se recomandă sub 18 ani, în sarcină sau în alăptare. Nu depăși doza zilnică."
+      }
+    ],
+    "nota": "Mențiunea de sănătate se aplică la un aport zilnic de 3 g de creatină, iar o porție de 5 g din tub îl acoperă. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary, and therapeutic supplement. Annu Rev Nutr. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17430086/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

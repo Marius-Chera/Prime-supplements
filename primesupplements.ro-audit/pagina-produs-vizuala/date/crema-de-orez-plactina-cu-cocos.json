@@ -164,5 +164,77 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/25926512/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez plăcintă cu cocos: lapte de cocos și ciocolată",
+    "intro": "Crema de orez plăcintă cu cocos are lapte praf de cocos și bucăți de ciocolată (3%) pe lângă făina de orez. O porție de 45 g aduce 33,3 g de glucide, 1,8 g de grăsimi și 166,2 kcal.",
+    "conditie": "La o doză de 45 g, ca desert la pahar sau mic dejun cremos",
+    "cifre": [
+      {
+        "valoare": "166,2",
+        "unitate": "kcal",
+        "eticheta": "într-o porție de 45 g"
+      },
+      {
+        "valoare": "3",
+        "unitate": "%",
+        "eticheta": "bucăți de ciocolată"
+      },
+      {
+        "valoare": "1,8",
+        "unitate": "g",
+        "eticheta": "grăsimi, din laptele de cocos"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Lapte praf de cocos",
+        "text": "Al doilea ingredient de pe etichetă, după făina de orez; de aici vin cele 1,8 g de grăsimi pe porție.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Bucăți de ciocolată",
+        "text": "Ciocolata reprezintă 3% din pudră și conține zahăr, cacao și lecitină din soia.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "33,3 g de glucide",
+        "text": "Atât are o măsură de 45 g, alături de 3,7 g de proteine și 0,7 g fibre.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Atenție la alergeni",
+        "text": "Conține soia și poate conține urme de fructe cu coajă, lapte, ou, grâu și pește.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce plăcintă cu cocos?",
+      "puncte": [
+        "Este singura cremă de orez din gamă cu lapte de cocos și bucăți de ciocolată.",
+        "Are 166,2 kcal pe porție, cele mai multe din gamă, și o textură mai bogată.",
+        "Cu ovăz și ananas, într-un pahar, devine un desert rapid."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Măsori 45 g",
+        "text": "O măsură de pudră, în bol sau în shaker."
+      },
+      {
+        "titlu": "Adaugi 150–200 ml",
+        "text": "Lapte sau apă rece; amesteci până se leagă."
+      },
+      {
+        "titlu": "Ornezi",
+        "text": "Fulgi de cocos sau bucăți de ananas, dacă vrei un desert la pahar."
+      }
+    ],
+    "nota": "Valorile sunt pentru o doză de 45 g de pudră. Zaharurile sunt 0,3 g pe porție, dar bucățile de ciocolată conțin zahăr.",
+    "surse": []
   }
 }

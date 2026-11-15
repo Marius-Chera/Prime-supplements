@@ -155,5 +155,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Citrus Bergamot: ce primești din extractul de bergamotă",
+    "intro": "Citrus Bergamot îți dă 500 mg de extract de bergamotă Bergamonte® într-o singură capsulă pe zi. Extractul are 38% polifenoli, adică 190 mg, din cinci compuși numiți pe etichetă.",
+    "conditie": "Pentru adulți, la doza zilnică de 1 capsulă",
+    "cifre": [
+      {
+        "valoare": "500",
+        "unitate": "mg",
+        "eticheta": "extract de bergamotă într-o capsulă"
+      },
+      {
+        "valoare": "190",
+        "unitate": "mg",
+        "eticheta": "polifenoli într-o capsulă (38%)"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon de 80 de capsule"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Extract din fruct",
+        "text": "Extractul e obținut cu apă din fructele de bergamotă (Citrus bergamia), apoi uscat. Nu e făcut din uleiul esențial din coajă.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "500 mg pe capsulă",
+        "text": "Fiecare capsulă are 500 mg de extract Bergamonte®, standardizat, deci aceeași concentrație de polifenoli la fiecare lot.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "38% polifenoli",
+        "text": "Pe etichetă sunt numiți toți cinci: neoeriocitrina, naringina, neohesperidina, melitidina și brutieridina.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Capsulă vegetală",
+        "text": "Învelișul e din hidroxipropilmetilceluloză, 139 mg, fără gelatină. Făina de orez, 100 mg, umple capsula.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Citrus Bergamot?",
+      "puncte": [
+        "O singură capsulă pe zi: nu ai de împărțit doze în timpul zilei.",
+        "Lista de ingrediente e scurtă: extractul, capsula vegetală și făina de orez.",
+        "Un flacon de 80 de capsule ține 80 de zile, aproape trei luni."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "1 capsulă pe zi",
+        "text": "Aceasta e doza de pe etichetă; nu o depăși."
+      },
+      {
+        "titlu": "La aceeași oră",
+        "text": "Alege un moment fix al zilei, cu un pahar de apă, ca să nu uiți capsula."
+      },
+      {
+        "titlu": "Cere avizul medicului",
+        "text": "În sarcină sau alăptare, ori dacă ai o sensibilitate la ingrediente, întreabă întâi medicul."
+      }
+    ],
+    "nota": "Informațiile se referă la doza zilnică de 1 capsulă, cu 500 mg de extract de bergamotă. Pentru bergamotă nu există mențiuni de sănătate autorizate în UE, de aceea descriem doar compoziția. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

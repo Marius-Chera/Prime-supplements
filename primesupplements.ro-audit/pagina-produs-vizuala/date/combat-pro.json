@@ -222,5 +222,89 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Combat Pro: 300 mg cafeină și 30 mg sinefrină, ce primești",
+    "intro": "Combat Pro este un pre-workout cu 300 mg de cafeină anhidră și 30 mg de sinefrină într-o porție de 22 g. Ingredientele nu au mențiuni de sănătate autorizate în UE, așa că îți arătăm cifrele de pe etichetă.",
+    "conditie": "Pentru adulți, la doza de o porție pe zi (22 g), cu 30 de minute înainte de antrenament",
+    "cifre": [
+      {
+        "valoare": "300",
+        "unitate": "mg",
+        "eticheta": "cafeină anhidră într-o porție"
+      },
+      {
+        "valoare": "30",
+        "unitate": "mg",
+        "eticheta": "sinefrină într-o porție"
+      },
+      {
+        "valoare": "22",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 500 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "300 mg cafeină",
+        "text": "O porție are 300 mg de cafeină anhidră, de aceea eticheta scrie „conținut ridicat de cafeină”.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sinefrină 30 mg",
+        "text": "Formula mai are 30 mg de sinefrină și 5 mg de piperină la porție.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Citrulină și arginină",
+        "text": "7000 mg L-citrulină, 4000 mg L-arginină și 2000 mg GPLC (glicină propionil-L-carnitină) la porție.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "muschi",
+        "titlu": "Beta-alanină 4000 mg",
+        "text": "4000 mg beta-alanină, 1500 mg taurină, 1500 mg L-tirozină și 1000 mg L-teanină într-o porție de 22 g.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Combat Pro?",
+      "puncte": [
+        "EFSA consideră fără probleme de siguranță doze unice de până la 200 mg de cafeină și 400 mg pe zi la adulții sănătoși; o porție are 300 mg.",
+        "O recenzie din 2012 a studiilor cu sinefrină a analizat doze de 10–53 mg pe zi, adesea împreună cu cafeina."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O porție, 22 g",
+        "text": "Două măsuri de 11 g în 250–300 ml de apă rece."
+      },
+      {
+        "titlu": "Cu 30 de minute înainte",
+        "text": "O bei înainte de antrenament, o singură dată pe zi."
+      },
+      {
+        "titlu": "Nu pentru toată lumea",
+        "text": "Nu e pentru copii, sarcină, alăptare sau persoane sensibile la cafeină."
+      }
+    ],
+    "nota": "Conținut ridicat de cafeină: 300 mg la doza de o porție. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine. EFSA Journal. 2015",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium (bitter orange) extract and its primary protoalkaloid p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

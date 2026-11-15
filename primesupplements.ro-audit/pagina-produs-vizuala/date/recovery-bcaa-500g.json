@@ -188,5 +188,90 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Recovery BCAA: vitamina B6 la 106% VNR și 7100 mg BCAA",
+    "intro": "Recovery BCAA are 1,5 mg de vitamina B6 în fiecare porție de 8 g, adică 106% din VNR, pe lângă 7100 mg de BCAA. Vitamina B6 are mențiuni de sănătate autorizate în UE; BCAA nu au, așa că pentru ei îți arătăm doar cantitățile.",
+    "conditie": "Pentru adulți, la doza de 8 g (aproximativ 2 măsuri), de 2–4 ori pe zi",
+    "cifre": [
+      {
+        "valoare": "106",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina B6 într-o porție"
+      },
+      {
+        "valoare": "7100",
+        "unitate": "mg",
+        "eticheta": "BCAA 4:1:1 într-o porție"
+      },
+      {
+        "valoare": "62",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 500 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Proteine și glicogen",
+        "text": "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Vitamina B6 contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Raportul 4:1:1",
+        "text": "Într-o porție: 4733,4 mg L-leucină, 1183,3 mg L-izoleucină și 1183,3 mg L-valină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "0,0 g zaharuri",
+        "text": "Tabelul arată 0,0 g carbohidrați și 28,2 kcal la o porție de 8 g, în aromele Cherry și Pear.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Recovery BCAA?",
+      "puncte": [
+        "BCAA înseamnă aminoacizi cu catenă ramificată: leucina, izoleucina și valina.",
+        "O recenzie din 2017 notează că BCAA luați singuri nu sunt un înlocuitor pentru proteinele complete din dietă.",
+        "Vitamina B6 vine sub formă de clorhidrat de piridoxină."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "8 g, cu apă",
+        "text": "Amesteci aproximativ 2 măsuri cu cantitatea de apă dorită."
+      },
+      {
+        "titlu": "De 2–4 ori pe zi",
+        "text": "Înainte, în timpul sau după antrenament ori oricând în timpul zilei."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Nu se administrează copiilor și femeilor în sarcină sau alăptare."
+      }
+    ],
+    "nota": "Mențiunile pentru vitamina B6 se aplică pentru că o porție aduce 106% din VNR, peste pragul minim de 15%. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Wolfe RR. Branched-chain amino acids and muscle protein synthesis in humans: myth or reality? J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28852372/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

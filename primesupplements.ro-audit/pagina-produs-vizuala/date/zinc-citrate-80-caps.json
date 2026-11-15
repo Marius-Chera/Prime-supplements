@@ -156,5 +156,80 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Citrat de zinc: 2 mențiuni autorizate la o capsulă pe zi",
+    "intro": "Citratul de zinc Prime îți dă 40 mg de zinc într-o capsulă pe zi, adică 400% din valoarea nutrițională de referință. Fiindcă depășește pragul de 15%, zincul poate purta aici mențiunile autorizate în UE pentru imunitate și pentru protecția celulelor.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "400",
+        "unitate": "%",
+        "eticheta": "din VNR pentru zinc la o capsulă"
+      },
+      {
+        "valoare": "40",
+        "unitate": "mg",
+        "eticheta": "zinc într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Zincul contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Stres oxidativ",
+        "text": "Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Zinc din citrat",
+        "text": "Zincul e legat de acid citric. Capsula e din gelatină, iar maltodextrina o umple.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce citrat de zinc?",
+      "puncte": [
+        "Corpul nu are o rezervă mare de zinc, așa că ai nevoie de el zilnic, din alimente sau din supliment.",
+        "Valoarea de referință pentru zinc e de 10 mg pe zi, iar capsula are de patru ori mai mult.",
+        "Capsula se poate lua înainte sau după masă, cum îți convine."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Doza de pe etichetă, pentru adulți; nu o depăși."
+      },
+      {
+        "titlu": "Înainte sau după masă",
+        "text": "Dacă ai stomacul sensibil, ia-o după masă, cu apă."
+      },
+      {
+        "titlu": "Adună tot zincul",
+        "text": "Dacă iei și un multivitamin cu zinc, ține cont de amândouă înainte să le combini."
+      }
+    ],
+    "nota": "Mențiunile se aplică la doza zilnică de o capsulă, cu 40 mg de zinc, adică 400% din VNR, peste pragul de 15%. Nu se recomandă sub 18 ani, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

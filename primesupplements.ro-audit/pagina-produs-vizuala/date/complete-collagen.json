@@ -166,5 +166,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Complete Collagen: 6 g de colagen hidrolizat la 15 ml pe zi",
+    "intro": "Complete Collagen îți dă 6 g de colagen hidrolizat Peptan© în doza zilnică de 15 ml. Colagenul nu are mențiuni de sănătate autorizate în UE, așa că mai jos găsești doar ce conține sticla și cum o folosești.",
+    "conditie": "Pentru adulți, la doza zilnică de 15 ml",
+    "cifre": [
+      {
+        "valoare": "6",
+        "unitate": "g",
+        "eticheta": "colagen hidrolizat la 15 ml"
+      },
+      {
+        "valoare": "40",
+        "unitate": "%",
+        "eticheta": "peptide de colagen în formulă"
+      },
+      {
+        "valoare": "33",
+        "unitate": "",
+        "eticheta": "de doze într-o sticlă de 500 ml"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "6 g de peptide Peptan©",
+        "text": "Colagenul e bovin și hidrolizat, adică tăiat în peptide mici care se dizolvă în lichid.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Extracte din 8 plante",
+        "text": "Salcie, soc, mentă, urzică, ienupăr, cătină, măceș și hibiscus, plus extract de aloe, toate apoase.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Îndulcit cu stevie",
+        "text": "Gustul dulce vine din extract de stevie, iar acidul citric dă aciditatea.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Ce mai conține",
+        "text": "Sticla conține și vitamina C, plus doi conservanți: sorbat de potasiu și benzoat de sodiu.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce colagen lichid?",
+      "puncte": [
+        "Colagenul hidrolizat nu se mai încheagă ca gelatina, de aceea poate fi băut.",
+        "Sticla de 500 ml are aproximativ 33 de doze zilnice.",
+        "Colagenul nu e o proteină completă, pentru că are foarte puțin triptofan."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "15 ml pe zi",
+        "text": "Aceasta e doza zilnică; nu o depăși."
+      },
+      {
+        "titlu": "Pe stomacul gol",
+        "text": "De preferat înainte de masă, simplu sau în apă rece."
+      },
+      {
+        "titlu": "Verifică ingredientele",
+        "text": "Dacă ești alergic la vreo plantă din listă, evită-l; în sarcină sau alăptare, întreabă specialistul."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de 15 ml, cu 6 g de colagen hidrolizat bovin. Eticheta nu dă cantitatea de vitamina C, deci nu folosim mențiuni pentru ea. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

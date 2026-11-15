@@ -153,5 +153,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Silimarină: ce primești în capsula de armurariu",
+    "intro": "Silimarina Prime îți dă 352 mg de silimarină într-o capsulă pe zi, din 440 mg de extract din semințe de armurariu. Armurariul nu are mențiuni de sănătate autorizate în UE, așa că aici găsești doar ce conține capsula.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "352",
+        "unitate": "mg",
+        "eticheta": "silimarină într-o capsulă"
+      },
+      {
+        "valoare": "440",
+        "unitate": "mg",
+        "eticheta": "extract de armurariu într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "%",
+        "eticheta": "silimarină în extract"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Din semințe de armurariu",
+        "text": "Extractul vine din semințele de Silybum marianum, ciulinul cu flori mov din familia Asteraceae.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Standardizat la 80%",
+        "text": "Din 440 mg de extract, 352 mg sunt silimarină, la fiecare lot, indiferent de recoltă.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Silibina, componenta-cheie",
+        "text": "Silimarina e un amestec de flavonolignani, iar silibina e cel mai abundent dintre ei.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Capsulă din gelatină",
+        "text": "Învelișul e din gelatină cu oxid de zinc. Maltodextrina, dioxidul de siliciu și sărurile de magneziu sunt ingredientele inactive.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce silimarină standardizată?",
+      "puncte": [
+        "O recenzie din 2018 notează că armurariul e folosit de aproximativ 2000 de ani.",
+        "Când compari produse, uită-te la miligramele de silimarină, nu doar la cele de extract.",
+        "O capsulă pe zi, iar flaconul de 80 de capsule ține 80 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Doza zilnică de pe etichetă; nu o depăși."
+      },
+      {
+        "titlu": "În timpul sau după masă",
+        "text": "Ia capsula cu apă, la masă sau imediat după."
+      },
+      {
+        "titlu": "Iei medicamente?",
+        "text": "Întreabă medicul înainte, mai ales dacă urmezi un tratament."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de o capsulă, cu 352 mg de silimarină. Nu se recomandă sub 18 ani, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Abenavoli L și colab. Milk thistle (Silybum marianum): A concise overview. Phytother Res. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30080294/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

@@ -168,5 +168,90 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Baton proteic caramel sărat: mențiunile pentru proteine",
+    "intro": "Un baton proteic cu caramel sărat îți dă 20 g de proteine la 209 kcal, adică aproximativ 38% din energie, deci se încadrează la „bogat în proteine”. Pentru un aliment care este sursă de proteine, legea UE permite mențiunile de mai jos.",
+    "conditie": "La un baton de 55 g, inclus în doza zilnică de proteine din dieta ta",
+    "cifre": [
+      {
+        "valoare": "20",
+        "unitate": "g",
+        "eticheta": "proteine la 209 kcal"
+      },
+      {
+        "valoare": "16,16",
+        "unitate": "g",
+        "eticheta": "polioli într-un baton"
+      },
+      {
+        "valoare": "2,6",
+        "unitate": "g",
+        "eticheta": "grăsimi saturate într-un baton"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sistemul osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Caramel și cacao",
+        "text": "Strat de caramel cu lapte condensat și sare, sub o glazură de ciocolată neagră cu masă de cacao.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Cereale expandate",
+        "text": "Miezul are cereale expandate din făină de orez, grâu și porumb, pentru textură.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce baton cu caramel sărat?",
+      "puncte": [
+        "Glazura este din ciocolată neagră, cu masă de cacao pe primul loc.",
+        "Din 20,96 g carbohidrați, 16,16 g sunt polioli din siropul de maltitol și doar 4,80 g sunt zaharuri.",
+        "Se consumă imediat după deschidere și se păstrează la maximum 25 °C."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Desfaci și mănânci",
+        "text": "Batonul se consumă imediat după ce îl deschizi."
+      },
+      {
+        "titlu": "După necesarul tău",
+        "text": "Numărul de batoane pe zi îl alegi după proteinele din restul dietei."
+      },
+      {
+        "titlu": "12 batoane în cutie",
+        "text": "O cutie de 660 g îți ajunge 12 zile la un baton pe zi."
+      }
+    ],
+    "nota": "Mențiunile pentru proteine se aplică pentru că batonul este sursă de proteine: aproximativ 38% din energie vine din proteine. Alergeni: lapte, soia, grâu și orz; poate conține urme de nuci și arahide.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 – mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

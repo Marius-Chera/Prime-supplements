@@ -201,5 +201,92 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Gainer Emperor Mass: 40% proteine, plus creatină la 2 porții",
+    "intro": "Emperor Mass este un gainer cu 40% proteine și 41% carbohidrați, după etichetă. La 2 porții pe zi poartă mențiuni autorizate în UE pentru proteine și creatină.",
+    "conditie": "Pentru adulți, la doza de 2 porții de 70 g pe zi",
+    "cifre": [
+      {
+        "valoare": "40",
+        "unitate": "%",
+        "eticheta": "proteine în pudră"
+      },
+      {
+        "valoare": "27,8",
+        "unitate": "g",
+        "eticheta": "proteine într-o porție de 70 g"
+      },
+      {
+        "valoare": "3,5",
+        "unitate": "g",
+        "eticheta": "creatină la 2 porții pe zi"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Efort scurt și intens",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Calorii pentru masă",
+        "text": "O porție de 70 g are 250,8 kcal, iar zaharurile sunt doar 7,3 g.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Trei proteine din lapte",
+        "text": "Zer ultrafiltrat, cazeinat de calciu și proteină totală din lapte.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Emperor Mass?",
+      "puncte": [
+        "Proteinele și carbohidrații sunt în raport aproape egal: 27,8 g și 29,0 g la o porție.",
+        "Două porții pe zi aduc 3500 mg de creatină monohidrată (2 × 1750 mg).",
+        "O recenzie din 2019 despre culturiștii naturali recomandă, în perioada de masă, un surplus caloric de 10–20%."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 măsuri, 70 g",
+        "text": "Amesteci cu 300–400 ml de apă sau lapte, în shaker."
+      },
+      {
+        "titlu": "Dimineața, la trezire",
+        "text": "Prima porție a zilei."
+      },
+      {
+        "titlu": "Imediat după antrenament",
+        "text": "A doua porție a zilei."
+      }
+    ],
+    "nota": "Mențiunile pentru proteine se aplică pentru că Emperor Mass este sursă de proteine (aproximativ 44% din energie). Mențiunea pentru creatină se aplică la 2 porții pe zi; efectul benefic se obține la un aport zilnic de 3 g de creatină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Iraki J și colab. Nutrition Recommendations for Bodybuilders in the Off-Season: A Narrative Review. Sports (Basel). 2019",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31247944/"
+      }
+    ]
   }
 }

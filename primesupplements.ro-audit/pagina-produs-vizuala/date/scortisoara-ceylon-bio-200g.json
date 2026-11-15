@@ -156,5 +156,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Scorțișoară de Ceylon bio: ce găsești în punga de 200 g",
+    "intro": "Scorțișoara de Ceylon bio Prime Health e o pudră cu un singur ingredient, în pungă de 200 g. La 100 g are 54,3 g de fibre și 2,2 g de zaharuri.",
+    "conditie": "Pentru terci, iaurt, cafea sau deserturi; valorile sunt la 100 g de pudră",
+    "cifre": [
+      {
+        "valoare": "54,3",
+        "unitate": "g",
+        "eticheta": "fibre la 100 g"
+      },
+      {
+        "valoare": "247",
+        "unitate": "kcal",
+        "eticheta": "la 100 g de pudră"
+      },
+      {
+        "valoare": "200",
+        "unitate": "g",
+        "eticheta": "pudră în pungă"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Un singur ingredient",
+        "text": "Pe etichetă scrie doar scorțișoară de Ceylon pudră bio, fără alte adaosuri.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Doar 2,2 g zaharuri",
+        "text": "La 100 g sunt 2,2 g de zaharuri și 3,9 g de proteine.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "247 kcal la 100 g",
+        "text": "La 100 g: 79,9 g carbohidrați și 3,2 g grăsimi. O linguriță are doar câteva grame.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Pungă de hârtie kraft",
+        "text": "Pudra vine în pungă kraft de 200 g. Păstreaz-o la loc răcoros, ferit de lumină și umezeală.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce scorțișoară de Ceylon?",
+      "puncte": [
+        "Ceylon și cassia sunt specii diferite, iar cassia e cea mai răspândită în magazine.",
+        "Un studiu din 2010 pe 47 de probe din comerț a găsit multă cumarină în scorțișoara cassia, cu variații mari.",
+        "Fibrele fac peste jumătate din pudră: 54,3 g la 100 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "În terci sau iaurt",
+        "text": "Presară o linguriță peste ovăz, cremă de orez sau iaurt."
+      },
+      {
+        "titlu": "În cafea sau clătite",
+        "text": "Amestec-o în cafea sau în aluatul de clătite proteice."
+      },
+      {
+        "titlu": "Punga bine închisă",
+        "text": "Închide punga după folosire, ca aroma să nu se piardă."
+      }
+    ],
+    "nota": "Scorțișoara de Ceylon este un aliment, nu un supliment, așa că nu are o doză zilnică pe etichetă. Valorile nutriționale sunt la 100 g de pudră.",
+    "surse": [
+      {
+        "text": "Woehrlin F și colab. Quantification of flavoring constituents in cinnamon: high variation of coumarin in cassia bark. J Agric Food Chem. 2010",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20853872/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

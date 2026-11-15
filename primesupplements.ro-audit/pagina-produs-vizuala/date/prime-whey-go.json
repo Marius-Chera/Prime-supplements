@@ -196,5 +196,92 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Prime Whey Go: 82% proteine în plicuri de 30 g",
+    "intro": "Prime Whey Go este proteina din zer porționată în plicuri de 30 g, cu 82 g de proteine la 100 g de pulbere. Fiind sursă de proteine, are trei mențiuni de sănătate autorizate în UE, pentru mușchi și oase.",
+    "conditie": "Pentru adulți, la doza de un plic de 30 g, după antrenament sau între mese",
+    "cifre": [
+      {
+        "valoare": "82",
+        "unitate": "%",
+        "eticheta": "proteine la 100 g de pulbere"
+      },
+      {
+        "valoare": "24,6",
+        "unitate": "g",
+        "eticheta": "proteine calculate pentru un plic de 30 g"
+      },
+      {
+        "valoare": "15",
+        "unitate": "",
+        "eticheta": "plicuri într-o cutie"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Fără cântar, fără măsură",
+        "text": "Fiecare plic are deja 30 g de pulbere, deci nu cântărești nimic: rupi plicul și torni.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Șapte arome",
+        "text": "Ciocolată cu cocos, vanilie Bourbon, caramel sărat și încă patru arome, la bucată sau în cutie.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Prime Whey Go?",
+      "puncte": [
+        "Un plic de 30 g cu 82% proteine înseamnă aproximativ 24,6 g de proteine (30 × 0,82).",
+        "Încape în geanta de sală, în sertarul de la birou sau în bagajul de vacanță.",
+        "O analiză din 2018 sugerează circa 0,4 g de proteine pe kilogram de corp la o masă, în cel puțin 4 mese pe zi."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Rupi plicul",
+        "text": "Torni cei 30 g de pulbere într-o sticlă sau un shaker."
+      },
+      {
+        "titlu": "Adaugi apă sau lapte",
+        "text": "Agiți până se omogenizează."
+      },
+      {
+        "titlu": "Când îl bei",
+        "text": "După antrenament sau ca gustare între mese, cum scrie pe etichetă."
+      }
+    ],
+    "nota": "Mențiunile se aplică pentru că Prime Whey Go este sursă de proteine, cu 82 g de proteine la 100 g de pulbere. Conține lapte. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Schoenfeld BJ, Aragon AA. How much protein can the body use in a single meal for muscle-building? J Int Soc Sports Nutr. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/"
+      }
+    ]
   }
 }

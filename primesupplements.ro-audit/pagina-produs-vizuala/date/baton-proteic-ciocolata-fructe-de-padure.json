@@ -172,5 +172,90 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Baton proteic ciocolată și fructe de pădure: 20 g proteine",
+    "intro": "Batonul proteic cu ciocolată și fructe de pădure aduce 80 kcal din proteine din totalul de 246 kcal, adică aproximativ 32,5%. Fiind bogat în proteine, poate purta mențiunile autorizate în UE pentru masa musculară și oase.",
+    "conditie": "La un baton de 55 g, în doza zilnică de proteine potrivită pentru tine",
+    "cifre": [
+      {
+        "valoare": "32,5",
+        "unitate": "%",
+        "eticheta": "din energie vine din proteine"
+      },
+      {
+        "valoare": "246",
+        "unitate": "kcal",
+        "eticheta": "într-un baton"
+      },
+      {
+        "valoare": "11",
+        "unitate": "g",
+        "eticheta": "polioli într-un baton"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sistemul osos sănătos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Strat de fructe de pădure",
+        "text": "Strat moale din zahăr invertit, amidon și aromă de fructe de pădure, sub glazura de ciocolată neagră.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Glicerină ca umectant",
+        "text": "Glicerina din listă este un umectant: păstrează miezul batonului moale.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce baton cu fructe de pădure?",
+      "puncte": [
+        "Are 8,5 g grăsimi, din care 4,15 g saturate, și 0,33 g fibre la baton.",
+        "Zaharurile sunt 12,93 g, iar poliolii din maltitol 11 g; în exces, pot avea efect laxativ.",
+        "Pe lista de ingrediente, zerul, soia, laptele, grâul și orzul sunt marcate îngroșat ca alergeni."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "55 g, un baton",
+        "text": "Îl iei ca gustare; are 20 g de proteine."
+      },
+      {
+        "titlu": "Necesarul de proteine",
+        "text": "Ajustezi câte batoane mănânci după proteinele din restul zilei."
+      },
+      {
+        "titlu": "Ferit de căldură",
+        "text": "Păstrezi batonul la cel mult 25 °C, într-un loc uscat."
+      }
+    ],
+    "nota": "Mențiunile pentru proteine se aplică pentru că batonul e bogat în proteine: 80 kcal din 246 kcal vin din proteine. Poate conține urme de nuci și arahide.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 – mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

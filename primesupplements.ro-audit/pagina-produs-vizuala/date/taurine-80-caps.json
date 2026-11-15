@@ -151,5 +151,80 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Taurină 1000 mg: 1–2 capsule pe zi, cifrele de pe etichetă",
+    "intro": "Taurina Prime vine în capsule de 1000 mg, iar flaconul de 80 de capsule îți ajunge 40–80 de zile, după cât iei pe zi. Taurina nu are mențiuni de sănătate autorizate în UE, așa că aici găsești doar cantitățile și modul de folosire.",
+    "conditie": "Pentru adulți, la doza de 1–2 capsule pe zi (1000–2000 mg)",
+    "cifre": [
+      {
+        "valoare": "1000",
+        "unitate": "mg",
+        "eticheta": "taurină într-o capsulă"
+      },
+      {
+        "valoare": "2000",
+        "unitate": "mg",
+        "eticheta": "maximul zilnic de pe etichetă"
+      },
+      {
+        "valoare": "40–80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "1000 mg într-o capsulă",
+        "text": "Fiecare capsulă are 1000 mg de taurină, așa că două capsule ating maximul de 2000 mg pe zi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Cu sau fără mâncare",
+        "text": "Eticheta lasă alegerea la tine: capsulele se pot lua cu mâncare sau fără.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Ce mai e în capsulă",
+        "text": "Celuloză microcristalină ca agent de încărcare și antiaglomeranți: ulei hidrogenat de bumbac, dioxid de siliciu, stearat de magneziu.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce taurină în capsule?",
+      "puncte": [
+        "Capsulele îți dau o cantitate exactă, fără cântar și fără gust.",
+        "O recenzie din 2021 a 19 studii pe sportivi a găsit doze de sub 1 g până la 6 g, cu rezultate variate.",
+        "Greutatea netă a flaconului este de 114,4 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă",
+        "text": "1000 mg, cu apă, cu sau fără mâncare."
+      },
+      {
+        "titlu": "Maximum 2 pe zi",
+        "text": "Nu treci de 2000 mg de taurină pe zi."
+      },
+      {
+        "titlu": "Un flacon",
+        "text": "80 de capsule: 80 de zile la o capsulă pe zi, 40 de zile la două."
+      }
+    ],
+    "nota": "Taurina nu are mențiuni de sănătate autorizate în UE; cifrele sunt cele de pe flacon, la doza de 1–2 capsule pe zi. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Kurtz JA și colab. Taurine in sports and exercise. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34039357/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

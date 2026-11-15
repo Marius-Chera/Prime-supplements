@@ -176,5 +176,86 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/26175657/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Energy Pump Shot: 100 mg cafeină într-o fiolă, ce mai conține",
+    "intro": "O fiolă Energy Pump de 25 ml are 100 mg de cafeină anhidră, adică 400 mg la 100 ml, deci eticheta o marchează cu conținut ridicat de cafeină. Aminoacizii din fiolă nu au mențiuni de sănătate autorizate în UE.",
+    "conditie": "Pentru adulți, la doza de o fiolă, cel mult două fiole pe zi",
+    "cifre": [
+      {
+        "valoare": "100",
+        "unitate": "mg",
+        "eticheta": "cafeină într-o fiolă"
+      },
+      {
+        "valoare": "25",
+        "unitate": "ml",
+        "eticheta": "o fiolă = o porție"
+      },
+      {
+        "valoare": "20",
+        "unitate": "",
+        "eticheta": "de fiole în cutie"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "100 mg cafeină / fiolă",
+        "text": "Două fiole, maximul de pe etichetă, înseamnă 200 mg de cafeină. Nu le combini cu cafea sau băuturi energizante.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Aminoacizi într-o fiolă",
+        "text": "4000 mg DL malat de L-citrulină, 4000 mg L-arginină AKG 2:1 și 3000 mg beta-alanină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Furnicături pe piele",
+        "text": "Beta-alanina poate da furnicături și înroșirea pielii; intensitatea scade sau dispare pe parcursul utilizării.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "0 g carbohidrați",
+        "text": "O fiolă are 20,7 kcal, 0 g carbohidrați și 0 g grăsimi, cu aromă Wild Berries (fructe de pădure).",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Energy Pump Shot?",
+      "puncte": [
+        "Nu ai nimic de amestecat: agiți fiola și o bei direct.",
+        "EFSA consideră fără probleme de siguranță, la adulții sănătoși, doze unice de până la 200 mg de cafeină.",
+        "Cutia are 20 de fiole, adică 500 ml."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Agiți fiola",
+        "text": "O agiți puternic înainte să o deschizi."
+      },
+      {
+        "titlu": "30 de minute înainte",
+        "text": "O bei cu cel puțin 30 de minute înainte de antrenament."
+      },
+      {
+        "titlu": "Maximum 2 fiole",
+        "text": "Nu se recomandă copiilor, în sarcină, în alăptare sau dacă ești sensibil la cafeină."
+      }
+    ],
+    "nota": "Eticheta marchează fiola cu conținut ridicat de cafeină: 100 mg la doza de o fiolă. Citrulina, arginina și beta-alanina nu au mențiuni de sănătate autorizate. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine. EFSA Journal. 2015",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

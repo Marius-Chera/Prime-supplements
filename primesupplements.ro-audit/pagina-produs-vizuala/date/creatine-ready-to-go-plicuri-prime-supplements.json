@@ -185,5 +185,95 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Creatine Ready To Go: 3 mențiuni autorizate într-un plic",
+    "intro": "Creatine Ready To Go aduce într-un plic de 10 g 5000 mg de creatină monohidrată și 200 mg de vitamina C, adică 250% din valoarea de referință. Ambele cantități trec de pragurile cerute de lege pentru mențiuni.",
+    "conditie": "Pentru adulți, la doza de un plic pe zi, înainte de antrenament",
+    "cifre": [
+      {
+        "valoare": "5000",
+        "unitate": "mg",
+        "eticheta": "creatină într-un plic"
+      },
+      {
+        "valoare": "250",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina C"
+      },
+      {
+        "valoare": "25",
+        "unitate": "",
+        "eticheta": "de plicuri în cutie"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Performanță la efort intens",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Aportul de 3 g",
+        "text": "Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Oboseală și extenuare",
+        "text": "Vitamina C contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Efervescent, 2 arome",
+        "text": "Plicul se dizolvă în 200–300 ml de apă. Alegi între Blue Moon (afine) și Pink Madness (zmeură și lămâie verde).",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce creatină în plic?",
+      "puncte": [
+        "Plicul e deja dozat: nu ai nevoie de măsură sau de cântar.",
+        "Un studiu din 1996 a arătat că 3 g de creatină pe zi umplu rezervele din mușchi în aproximativ 28 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Un plic pe zi",
+        "text": "Îl dizolvi în 200–300 ml de apă."
+      },
+      {
+        "titlu": "Cu 30–60 de minute înainte",
+        "text": "Bei soluția cu aproximativ 30–60 de minute înainte de antrenament."
+      },
+      {
+        "titlu": "Pauză după 8 săptămâni",
+        "text": "După 8 săptămâni de consum regulat, faci o pauză de 2–3 săptămâni."
+      }
+    ],
+    "nota": "Mențiunile pentru creatină se aplică la un aport zilnic de 3 g, iar cele pentru vitamina C de la 15% din VNR în sus. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Hultman E și colab. Muscle creatine loading in men. J Appl Physiol. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8828669/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

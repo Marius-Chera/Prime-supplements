@@ -213,5 +213,79 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Nitrox 3D pe scurt: ce primești într-o porție de 20 g",
+    "intro": "Nitrox 3D este un pre-workout cu 200 mg de cafeină într-o porție de 20 g, deci are conținut ridicat de cafeină. Ingredientele lui nu au mențiuni de sănătate autorizate în UE, așa că îți arătăm doar cantitățile.",
+    "conditie": "Pentru adulți, la doza de o porție (20 g), cu 20–30 de minute înainte de antrenament",
+    "cifre": [
+      {
+        "valoare": "200",
+        "unitate": "mg",
+        "eticheta": "cafeină într-o porție"
+      },
+      {
+        "valoare": "6000",
+        "unitate": "mg",
+        "eticheta": "L-citrulină într-o porție"
+      },
+      {
+        "valoare": "25",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 500 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "200 mg cafeină",
+        "text": "O porție de 20 g are 200 mg de cafeină anhidră, de aceea eticheta scrie „conținut ridicat de cafeină”.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Aminoacizi pe porție",
+        "text": "6000 mg L-citrulină, 4420 mg L-arginină AKG, 2000 mg beta-alanină, 1500 mg taurină, 1000 mg L-tirozină și 400 mg L-teanină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "muschi",
+        "titlu": "2000 mg tri-creatină",
+        "text": "Formula are 2000 mg de tri-creatină citrat la porție, sub pragul de 3 g pe zi cerut de mențiunea pentru creatină.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Nitrox 3D?",
+      "puncte": [
+        "La prima utilizare, eticheta îți spune să începi cu jumătate de porție, adică 10 g.",
+        "EFSA consideră că 400 mg de cafeină pe zi, din toate sursele, nu ridică probleme de siguranță la adulții sănătoși."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O porție, 20 g",
+        "text": "O amesteci în 250–300 ml de apă rece."
+      },
+      {
+        "titlu": "Cu 20–30 de minute înainte",
+        "text": "O bei înainte de antrenament; la prima utilizare, doar jumătate de porție."
+      },
+      {
+        "titlu": "Fără alte surse de cafeină",
+        "text": "Nu o combini cu cafea, băuturi energizante sau alte produse cu cafeină."
+      }
+    ],
+    "nota": "Conținut ridicat de cafeină: 200 mg la doza de o porție. Ingredientele nu au mențiuni de sănătate autorizate în UE. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "EFSA, Scientific Opinion on the safety of caffeine. EFSA Journal. 2015",
+        "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4102"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

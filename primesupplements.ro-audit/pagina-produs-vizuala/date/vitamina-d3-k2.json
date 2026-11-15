@@ -164,5 +164,90 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Vitamina D3 + K2: ce primești la o capsulă la 2 zile",
+    "intro": "Vitamina D3 + K2 Prime Health are 100 µg (4000 UI) de D3 și 100 µg de K2 MK-7 în fiecare capsulă. Vitamina D trece mult de pragul de 15% din VNR, deci poate purta două mențiuni autorizate în UE.",
+    "conditie": "Pentru adulți, la doza de pe etichetă: o capsulă o dată la 2 zile",
+    "cifre": [
+      {
+        "valoare": "4000",
+        "unitate": "UI",
+        "eticheta": "vitamina D3 într-o capsulă (100 µg)"
+      },
+      {
+        "valoare": "133",
+        "unitate": "%",
+        "eticheta": "din VNR pentru vitamina K2 într-o capsulă"
+      },
+      {
+        "valoare": "160",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon de 80 de capsule"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "scut",
+        "titlu": "Sistemul imunitar",
+        "text": "Vitamina D contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "muschi",
+        "titlu": "Funcția musculară",
+        "text": "Vitamina D contribuie la menținerea funcției musculare normale.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "K2 din natto",
+        "text": "MK-7 din natto, soia fermentată: 100 µg pe capsulă, adică 133% din VNR.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Capsulă vegetală",
+        "text": "Capsulă din celuloză, umplută cu făină de orez. Conține soia, din natto.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce vitamina D3 cu K2?",
+      "puncte": [
+        "D3 (colecalciferol) e forma de vitamina D pe care o produce și pielea la soare.",
+        "Un studiu din 2015 a găsit un vârf de D3 în sânge cu 32% mai mare la o masă cu grăsimi.",
+        "Flaconul de 80 de capsule ține 160 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă la 2 zile",
+        "text": "Doza de pe etichetă, dacă specialistul nu recomandă altfel."
+      },
+      {
+        "titlu": "La masa cu grăsimi",
+        "text": "Ia capsula la o masă care conține grăsimi."
+      },
+      {
+        "titlu": "Iei anticoagulante?",
+        "text": "Cu tratament anticoagulant, discută întâi cu medicul."
+      }
+    ],
+    "nota": "Mențiunile se aplică la doza de pe etichetă, o capsulă la 2 zile, adică în medie 50 µg de vitamina D pe zi, de 10 ori VNR. Pentru K2 nu folosim mențiuni. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Dawson-Hughes B și colab. Dietary fat increases vitamin D-3 absorption. J Acad Nutr Diet. 2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25441954/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

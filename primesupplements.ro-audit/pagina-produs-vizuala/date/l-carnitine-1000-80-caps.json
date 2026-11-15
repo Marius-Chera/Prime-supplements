@@ -151,5 +151,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "L-carnitină 1000: ce primești în fiecare capsulă",
+    "intro": "L-carnitina 1000 îți dă 1000 mg de tartrat de L-carnitină într-o capsulă, adică o porție. L-carnitina nu are mențiuni de sănătate autorizate în UE, de aceea aici găsești doar ce scrie pe flacon.",
+    "conditie": "Pentru adulți, la doza de o capsulă (o porție), fără a depăși doza zilnică de pe etichetă",
+    "cifre": [
+      {
+        "valoare": "1000",
+        "unitate": "mg",
+        "eticheta": "tartrat de L-carnitină într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de capsule în flacon"
+      },
+      {
+        "valoare": "30",
+        "unitate": "min",
+        "eticheta": "înainte de antrenament, de preferat"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "O capsulă = o porție",
+        "text": "Fiecare capsulă are 1000 mg de tartrat de L-carnitină, iar flaconul de 98 g are 80 de capsule.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Forma: tartrat",
+        "text": "Tartratul de L-carnitină este L-carnitină legată de acid tartric; tabelul de pe flacon declară separat cele două valori.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Înveliș din gelatină",
+        "text": "Capsula e din gelatină cu oxid de zinc, deci nu e potrivită dacă eviți gelatina.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Când întrebi medicul",
+        "text": "În sarcină, în alăptare, dacă ai o afecțiune sau iei medicamente, consultă medicul înainte.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce L-carnitină tartrat?",
+      "puncte": [
+        "Carnitina se găsește mai ales în carne și lactate, iar corpul o produce și singur.",
+        "Flaconul are 80 de capsule, deci 80 de porții.",
+        "Produsul e un supliment pentru adulți și nu se recomandă persoanelor sub 18 ani."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă cu apă",
+        "text": "O iei cu un pahar de apă."
+      },
+      {
+        "titlu": "30 de minute înainte",
+        "text": "De preferat, cu 30 de minute înainte de antrenament."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Respecți doza zilnică recomandată de pe etichetă."
+      }
+    ],
+    "nota": "Pentru L-carnitină nu există mențiuni de sănătate autorizate în UE; textele descriu doar conținutul la doza de o capsulă. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

@@ -168,5 +168,92 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Unt de migdale 100%: 21,2 g proteine la 100 g și 3 beneficii",
+    "intro": "Untul de migdale Prime Health are 21,2 g de proteine la 100 g, deci este sursă de proteine. Asta îi permite trei mențiuni de sănătate autorizate în UE, pentru mușchi și oase, dintr-un singur ingredient: migdale prăjite.",
+    "conditie": "Valorile sunt la 100 g; doza o alegi tu, ca parte dintr-o dietă variată",
+    "cifre": [
+      {
+        "valoare": "21,2",
+        "unitate": "g",
+        "eticheta": "proteine la 100 g"
+      },
+      {
+        "valoare": "100",
+        "unitate": "%",
+        "eticheta": "migdale prăjite"
+      },
+      {
+        "valoare": "3",
+        "unitate": "g",
+        "eticheta": "fibre la 100 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Doar migdale prăjite",
+        "text": "Fără sare, fără zahăr adăugat, fără ulei de palmier și fără conservanți; cele 3,9 g de zaharuri la 100 g sunt din migdale.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Amesteci înainte",
+        "text": "Uleiul natural se ridică deasupra în borcanul de 600 g; îl amesteci la loc cu o lingură.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce unt de migdale?",
+      "puncte": [
+        "La 100 g are 49 g de grăsimi, din care doar 3,7 g saturate.",
+        "Un studiu din 2016 a arătat că, spre deosebire de migdalele întregi, untul de migdale eliberează aproape toate caloriile calculate: 6,53 kcal pe gram.",
+        "Merge în smoothie-uri, deserturi, sosuri sau pe pâine."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Amesteci în borcan",
+        "text": "Uleiul se separă natural; îl încorporezi la loc."
+      },
+      {
+        "titlu": "O lingură în rețetă",
+        "text": "Pe pâine, în smoothie sau în sosuri."
+      },
+      {
+        "titlu": "Ții cont de calorii",
+        "text": "100 g au 567 kcal, deci dozezi cu lingura, nu cu borcanul."
+      }
+    ],
+    "nota": "Mențiunile se aplică pentru că untul de migdale este sursă de proteine: proteinele aduc aproximativ 15% din valoarea energetică, peste pragul de 12% cerut de lege. Conține migdale.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Gebauer SK și colab. Food processing and structure impact the metabolizable energy of almonds. Food Funct. 2016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27713968/"
+      }
+    ]
   }
 }

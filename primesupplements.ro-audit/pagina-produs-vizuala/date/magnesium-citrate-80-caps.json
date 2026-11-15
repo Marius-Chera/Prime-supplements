@@ -159,5 +159,96 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Citrat de magneziu: 4 mențiuni la 2 capsule pe zi",
+    "intro": "Citratul de magneziu Prime îți dă 450 mg de magneziu în porția zilnică de 2 capsule, adică 120% din valoarea nutrițională de referință. Fiindcă trece de pragul de 15%, poate purta patru mențiuni autorizate în UE.",
+    "conditie": "Pentru adulți, la porția zilnică de 2 capsule",
+    "cifre": [
+      {
+        "valoare": "120",
+        "unitate": "%",
+        "eticheta": "din VNR pentru magneziu la 2 capsule"
+      },
+      {
+        "valoare": "450",
+        "unitate": "mg",
+        "eticheta": "magneziu în porția zilnică"
+      },
+      {
+        "valoare": "40",
+        "unitate": "",
+        "eticheta": "de porții într-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Mușchii",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului muscular.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Sistemul nervos",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Echilibru electrolitic",
+        "text": "Magneziul contribuie la echilibrul electrolitic.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Citrat și carbonat",
+        "text": "Capsula combină două forme: citratul, o formă organică, și carbonatul, care aduce mult magneziu într-un volum mic.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce citrat de magneziu?",
+      "puncte": [
+        "Pe etichetă scrie 1095 mg de complex pe capsulă, dar magneziul elementar e 225 mg, iar VNR-ul se calculează din acesta.",
+        "Citratul e o formă organică, iar o recenzie sistematică din 2021 a găsit că formele organice par mai biodisponibile decât oxidul.",
+        "Un flacon de 80 de capsule are 40 de porții, adică 40 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 capsule pe zi",
+        "text": "Doza zilnică de pe etichetă, de preferat în timpul mesei."
+      },
+      {
+        "titlu": "Una la prânz, una seara",
+        "text": "Așa împarți porția și nu uiți nicio capsulă."
+      },
+      {
+        "titlu": "Fără dublare",
+        "text": "Dacă iei și alt produs cu magneziu, adună cantitățile."
+      }
+    ],
+    "nota": "Mențiunile se aplică la porția zilnică de 2 capsule, cu 450 mg de magneziu, adică 120% din VNR, peste pragul de 15%. Nu se recomandă sub 18 ani, în sarcină sau alăptare. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

@@ -172,5 +172,96 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Baton proteic cocos și caramel: 31% din energie din proteine",
+    "intro": "Batonul proteic cu cocos și caramel are 20 g de proteine la 258 kcal, deci aproximativ 31% din energie vine din proteine. E peste pragul de 20% pentru „bogat în proteine”, așa că poate purta mențiunile autorizate pentru proteine.",
+    "conditie": "La un baton de 55 g, ca parte din doza zilnică de proteine a dietei tale",
+    "cifre": [
+      {
+        "valoare": "31",
+        "unitate": "%",
+        "eticheta": "din energie vine din proteine"
+      },
+      {
+        "valoare": "258",
+        "unitate": "kcal",
+        "eticheta": "într-un baton"
+      },
+      {
+        "valoare": "14,75",
+        "unitate": "g",
+        "eticheta": "zaharuri într-un baton"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Masa musculară crește",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Masa musculară rămâne",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Sănătatea oaselor",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Cocos și ciocolată albă",
+        "text": "Aromă de cocos, glazură de ciocolată albă și un strat de caramel făcut cu ulei de cocos.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "14,75 g zaharuri",
+        "text": "Are zahăr și sirop de maltitol: 14,75 g zaharuri și 11 g polioli într-un baton de 55 g.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce baton cu cocos și caramel?",
+      "puncte": [
+        "Un baton are 9,28 g grăsimi, din care 4,86 g saturate, și 0,17 g sare.",
+        "Consumul excesiv poate avea efect laxativ, din cauza poliolilor.",
+        "Alergeni: lapte (inclusiv zer), soia, grâu și orz; poate conține urme de nuci și arahide."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Un baton = o porție",
+        "text": "55 g, cu 20 g de proteine și 258 kcal."
+      },
+      {
+        "titlu": "Când ai nevoie",
+        "text": "Îl mănânci după cum ai nevoie, în funcție de dieta și necesarul tău de proteine."
+      },
+      {
+        "titlu": "La cel mult 25 °C",
+        "text": "Loc uscat, ferit de soare și de îngheț; îl mănânci imediat după deschidere."
+      }
+    ],
+    "nota": "Mențiunile pentru proteine se aplică pentru că 31% din energia batonului vine din proteine (80 kcal din 258 kcal). Batonul este un aliment, nu un supliment.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 – mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

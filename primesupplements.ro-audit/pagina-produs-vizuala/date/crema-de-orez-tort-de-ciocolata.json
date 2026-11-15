@@ -164,5 +164,82 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez tort de ciocolată: cacao și 1,4 g fibre pe porție",
+    "intro": "Crema de orez tort de ciocolată are cele mai multe fibre și proteine din gamă: 1,4 g și 4,2 g la o porție de 45 g. Gustul de ciocolată vine din cacao cu conținut redus de grăsimi, iar glucidele sunt 32,6 g.",
+    "conditie": "La o doză de 45 g, pentru micul dejun sau o gustare cu gust de desert",
+    "cifre": [
+      {
+        "valoare": "32,6",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "1,4",
+        "unitate": "g",
+        "eticheta": "fibre într-o porție"
+      },
+      {
+        "valoare": "4,2",
+        "unitate": "g",
+        "eticheta": "proteine într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "1,4 g fibre la porție",
+        "text": "Cacaoa din rețetă ridică fibrele la 1,4 g pe măsură, față de sub 1 g la majoritatea aromelor.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "32,6 g de glucide",
+        "text": "Glucidele vin din făina de orez pregelatinizată; o măsură are 155,8 kcal.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "0,3 g zaharuri",
+        "text": "Fără zaharuri adăugate: dulceața vine din sucraloză și acesulfam-K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Și în clătite",
+        "text": "Pudra merge în clătite sau în terci, nu doar în shaker.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce tort de ciocolată?",
+      "puncte": [
+        "Cacaoa colorează crema în maro închis și îi dă gustul de blat de ciocolată.",
+        "Grăsimile rămân la 0,65 g pe porție, deși rețeta are cacao.",
+        "Tabelul internațional de indice glicemic din 2002 dă și încărcătura glicemică pe porție, adică ține cont de cât mănânci."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O măsură de 45 g",
+        "text": "Torni pudra în bol."
+      },
+      {
+        "titlu": "Lapte rece sau apă",
+        "text": "150–200 ml, amestecați până la o cremă fină."
+      },
+      {
+        "titlu": "Ca un tort la lingură",
+        "text": "Presari deasupra fructe de pădure sau câteva bucăți de ciocolată neagră."
+      }
+    ],
+    "nota": "Valorile sunt cele din declarația nutrițională, pentru o doză de 45 g de pudră. Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": [
+      {
+        "text": "Foster-Powell K și colab. International table of glycemic index and glycemic load values: 2002. Am J Clin Nutr. 2002",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12081815/"
+      }
+    ]
   }
 }

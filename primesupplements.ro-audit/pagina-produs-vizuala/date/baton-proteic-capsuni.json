@@ -174,5 +174,90 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Baton proteic căpșuni: 20 g de proteine, 38% din energie",
+    "intro": "Batonul proteic cu căpșuni este bogat în proteine: 38% din cele 209 kcal vin din proteine, peste pragul de 20% cerut de lege. De aceea poate purta mențiunile autorizate pentru proteine, pentru mușchi și oase.",
+    "conditie": "La un baton de 55 g; doza zilnică o potrivești cu necesarul tău de proteine",
+    "cifre": [
+      {
+        "valoare": "38",
+        "unitate": "%",
+        "eticheta": "din energie vine din proteine"
+      },
+      {
+        "valoare": "20",
+        "unitate": "g",
+        "eticheta": "proteine într-un baton"
+      },
+      {
+        "valoare": "4,80",
+        "unitate": "g",
+        "eticheta": "zaharuri într-un baton"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Masa musculară",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Menținerea mușchilor",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Oase sănătoase",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Strat cu aromă de căpșuni",
+        "text": "Glazură de ciocolată albă și un strat cu aromă de căpșuni, peste miezul cu cereale expandate (orez, grâu, porumb).",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce baton proteic cu căpșuni?",
+      "puncte": [
+        "Proteinele vin din patru surse: zer, peptide de colagen, soia și lapte praf.",
+        "Are 16,16 g polioli din siropul de maltitol; consumul excesiv poate avea efect laxativ.",
+        "Ține batonul la cel mult 25 °C, ferit de soare și de îngheț."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Un baton, 55 g",
+        "text": "Îl mănânci ca gustare, când vrei proteine în plus."
+      },
+      {
+        "titlu": "Îl socotești în ziua ta",
+        "text": "Cele 20 g de proteine și 209 kcal intră în totalul zilei."
+      },
+      {
+        "titlu": "Cutie de 12",
+        "text": "Îl iei la bucată sau în cutie de 12 batoane (660 g)."
+      }
+    ],
+    "nota": "Mențiunile pentru proteine se aplică pentru că batonul este bogat în proteine: 38% din energie vine din proteine. Conține lapte, soia, grâu și orz.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 – mențiunile nutriționale („sursă de proteine”, „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

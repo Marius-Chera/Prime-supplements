@@ -176,5 +176,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Testo Revive: ce primești în tinctura din 6 plante",
+    "intro": "Testo Revive îți dă o tinctură din 6 plante, extract 1:6 în apă și alcool, în sticlă de 500 ml. Plantele nu au mențiuni de sănătate autorizate în UE, așa că aici afli compoziția și cum o iei.",
+    "conditie": "Pentru adulți: o linguriță de 5 ml de 3–4 ori pe zi, doza de pe etichetă",
+    "cifre": [
+      {
+        "valoare": "6",
+        "unitate": "",
+        "eticheta": "plante în amestec"
+      },
+      {
+        "valoare": "30",
+        "unitate": "%",
+        "eticheta": "alcool în tinctură (v/v)"
+      },
+      {
+        "valoare": "100",
+        "unitate": "",
+        "eticheta": "de lingurițe de 5 ml în sticlă"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "6 plante în amestec",
+        "text": "Brânca-ursului și rădăcina de țelină au câte 20%, iar ginsengul coreean, năpraznicul, rozmarinul și sculătoarea, câte 15%.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Extract 1:6",
+        "text": "O parte de plante la șase părți de soluție: 34 de părți alcool la 66 de părți apă.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "1,5 ml alcool la linguriță",
+        "text": "Cu 30% alcool, 3–4 lingurițe pe zi înseamnă 4,5–6 ml de alcool.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Conține țelină",
+        "text": "Rădăcina de țelină e alergen. Evită tinctura dacă ești alergic la plante din familia Apiaceae.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce tinctura Testo Revive?",
+      "puncte": [
+        "Alcoolul scoate din plante și compușii care nu se dizolvă în apă.",
+        "Sculătoarea din amestec e o orhidee sălbatică din pajiștile de munte, din care se folosesc tuberculii.",
+        "Sticla de 500 ml ține 25–33 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "5 ml, de 3–4 ori pe zi",
+        "text": "O linguriță e o porție; nu depăși doza zilnică."
+      },
+      {
+        "titlu": "Pe stomacul gol",
+        "text": "Ia lingurița înainte de masă."
+      },
+      {
+        "titlu": "Cine nu o ia",
+        "text": "Copiii sub 12 ani, femeile însărcinate sau care alăptează și cine nu are voie alcool."
+      }
+    ],
+    "nota": "Datele se referă la doza de 3–4 lingurițe de 5 ml pe zi. Conține alcool și țelină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

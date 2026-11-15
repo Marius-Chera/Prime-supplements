@@ -164,5 +164,77 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez biscuiți cu cremă: 33,8 g glucide, gata la rece",
+    "intro": "Crema de orez cu gust de biscuiți cu cremă aduce 33,8 g de glucide și 155,7 kcal în fiecare porție de 45 g. Nu are biscuiți în ea: gustul vine din cacao cu conținut redus de grăsimi și din arome.",
+    "conditie": "Când vrei ceva dulce dimineața, la o doză de 45 g preparată cu lapte sau apă rece",
+    "cifre": [
+      {
+        "valoare": "33,8",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "155,7",
+        "unitate": "kcal",
+        "eticheta": "într-o porție de 45 g"
+      },
+      {
+        "valoare": "0,12",
+        "unitate": "g",
+        "eticheta": "sare într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Glucide din orez",
+        "text": "Fiecare măsură are 33,8 g de glucide din făină de orez pregelatinizată, plus 3,4 g de proteine.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Gust de desert",
+        "text": "Aroma de biscuiți cu cremă vine din cacao și arome; 0,3 g zaharuri pe porție, fără zaharuri adăugate.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Puțină sare",
+        "text": "Doar 0,12 g de sare la o porție de 45 g, ca să rămână în prim-plan gustul dulce.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Budincă în straturi",
+        "text": "Alternezi crema cu iaurt și fructe într-un pahar și ai un mic dejun pregătit de cu seară.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce biscuiți cu cremă?",
+      "puncte": [
+        "Ai gustul de biscuiți cu cremă cu doar 0,4 g de grăsimi pe porție.",
+        "Un tub de 1 kg ține 22 de dimineți, la o porție pe zi.",
+        "Se amestecă ușor și într-un shake proteic, pentru un gust de desert."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "45 g de pudră",
+        "text": "O măsură rasă, pusă într-un bol."
+      },
+      {
+        "titlu": "Amesteci la rece",
+        "text": "150–200 ml de lapte sau apă rece, până dispar cocoloașele."
+      },
+      {
+        "titlu": "Straturi în pahar",
+        "text": "Pui crema, apoi iaurt și fructe, și repeți."
+      }
+    ],
+    "nota": "Valorile vin din declarația nutrițională, pentru o doză de 45 g de pudră (o măsură). Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": []
   }
 }

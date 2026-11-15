@@ -164,5 +164,82 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez fără aromă: un singur ingredient, 35,1 g glucide",
+    "intro": "Crema de orez fără aromă are un singur ingredient, făina de orez pregelatinizată, fără arome și fără îndulcitori. O porție de 45 g dă 35,1 g de glucide, cele mai multe din gamă, și 158,8 kcal.",
+    "conditie": "La o doză de 45 g, dulce sau sărată, cum alegi tu",
+    "cifre": [
+      {
+        "valoare": "100",
+        "unitate": "%",
+        "eticheta": "făină de orez"
+      },
+      {
+        "valoare": "35,1",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "0,0",
+        "unitate": "g",
+        "eticheta": "sare într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Un singur ingredient",
+        "text": "Pe etichetă scrie doar făină de orez pregelatinizată, 100%, fără arome și fără îndulcitori.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "35,1 g de glucide",
+        "text": "O măsură de 45 g are 35,1 g de glucide, 3,6 g de proteine și 0,3 g de grăsimi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Dulce sau sărată",
+        "text": "O îndulcești cu fructe sau o servești sărată, cu brânză și verdețuri; gustul neutru se potrivește oriunde.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "0,0 g sare",
+        "text": "Eticheta trece 0,0 g de sare, deci condimentezi tu cât vrei.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce fără aromă?",
+      "puncte": [
+        "Controlezi complet gustul și dulceața, fără sucraloză sau acesulfam-K.",
+        "Pentru antrenamente de 2–3 ore, o recenzie din 2014 indică până la 60 g de carbohidrați pe oră, iar o porție are 35,1 g.",
+        "Tubul de 1 kg are 22 de porții de câte 45 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "45 g de pudră",
+        "text": "O măsură rasă, într-un bol."
+      },
+      {
+        "titlu": "Apă sau lapte rece",
+        "text": "150–200 ml; amesteci până se îngroașă."
+      },
+      {
+        "titlu": "Gustul îl pui tu",
+        "text": "Fructe și scorțișoară sau, pentru varianta sărată, brânză și verdețuri."
+      }
+    ],
+    "nota": "Cifrele sunt din declarația nutrițională, pentru o doză de 45 g de pudră. Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": [
+      {
+        "text": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24791914/"
+      }
+    ]
   }
 }

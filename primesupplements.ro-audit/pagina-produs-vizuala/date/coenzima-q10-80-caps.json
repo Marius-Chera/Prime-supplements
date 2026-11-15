@@ -164,5 +164,86 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Coenzima Q10: ce primești în capsula de 200 mg",
+    "intro": "Coenzima Q10 Prime Health îți dă 200 mg de Q10 într-o capsulă vegetală, iar o capsulă e toată doza zilnică. Q10 nu are mențiuni de sănătate autorizate în UE, de aceea aici găsești compoziția și modul de folosire.",
+    "conditie": "Pentru adulți, la doza zilnică de 1 capsulă",
+    "cifre": [
+      {
+        "valoare": "200",
+        "unitate": "mg",
+        "eticheta": "coenzima Q10 într-o capsulă"
+      },
+      {
+        "valoare": "10",
+        "unitate": "mg",
+        "eticheta": "pulbere de talpa-gâștei"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "200 mg de Q10",
+        "text": "O capsulă conține 200 mg de coenzima Q10, adică toată cantitatea pentru o zi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "10 mg de talpa-gâștei",
+        "text": "Capsula are și 10 mg de pulbere din părțile aeriene ale plantei Leonurus cardiaca.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Fără gelatină",
+        "text": "Învelișul e vegetal, din hipromeloză. Făina de orez, 410 mg, umple capsula.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "După masă",
+        "text": "Q10 se dizolvă în grăsimi, de aceea eticheta o recomandă după masă, cu un pahar de apă.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce coenzima Q10 după masă?",
+      "puncte": [
+        "O recenzie din 2006 arată că Q10 se absoarbe lent, cu un vârf în sânge după aproximativ 6 ore.",
+        "Pentru Q10 și talpa-gâștei nu există valori nutriționale de referință, deci nici procente VNR.",
+        "Un flacon de 80 de capsule vegetale ține 80 de zile."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "1 capsulă pe zi",
+        "text": "Doza de pe etichetă, pentru adulți, dacă specialistul nu îți spune altfel."
+      },
+      {
+        "titlu": "După o masă",
+        "text": "Cu un pahar de apă, după o masă care are și puțină grăsime."
+      },
+      {
+        "titlu": "Atenție la alergii",
+        "text": "Nu o lua dacă ești alergic la vreun ingredient; în sarcină sau alăptare, întreabă specialistul."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de 1 capsulă, cu 200 mg de coenzima Q10. Pentru Q10 nu folosim mențiuni de sănătate, pentru că nu există unele autorizate. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Bhagavan HN, Chopra RK. Coenzyme Q10: absorption, tissue uptake, metabolism and pharmacokinetics. Free Radic Res. 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16551570/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

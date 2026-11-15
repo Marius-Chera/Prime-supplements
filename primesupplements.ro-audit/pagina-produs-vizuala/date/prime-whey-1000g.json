@@ -211,5 +211,92 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Prime Whey 1 kg: 81,3% proteine și 3 beneficii autorizate",
+    "intro": "Prime Whey 1 kg este un concentrat din zer cu 81,3 g de proteine la 100 g, la aroma afine cu vanilie. Pentru că e sursă de proteine, are trei mențiuni de sănătate autorizate în UE.",
+    "conditie": "Pentru adulți, la doza de 1–4 măsuri de 30 g pe zi",
+    "cifre": [
+      {
+        "valoare": "81,3",
+        "unitate": "%",
+        "eticheta": "proteine la 100 g (afine cu vanilie)"
+      },
+      {
+        "valoare": "24,4",
+        "unitate": "g",
+        "eticheta": "proteine într-o măsură de 30 g"
+      },
+      {
+        "valoare": "33",
+        "unitate": "",
+        "eticheta": "de porții într-un tub de 1 kg"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Creșterea masei musculare",
+        "text": "Proteinele contribuie la creșterea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Menținerea masei musculare",
+        "text": "Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Sănătatea sistemului osos",
+        "text": "Proteinele contribuie la menținerea sănătății sistemului osos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Doar 1,3 g zaharuri",
+        "text": "O măsură de 30 g are 120,6 kcal, 1,3 g zaharuri și 2,0 g grăsimi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Glicină și L-lizină",
+        "text": "Lista de ingrediente are și doi aminoacizi adăugați: glicina și L-lizina.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Prime Whey?",
+      "puncte": [
+        "Coloana „la 100 g” de pe tub arată 81,3 g de proteine și doar 4,4 g de carbohidrați.",
+        "O măsură, cu 24,4 g de proteine, intră în intervalul de 20–40 g pe porție din poziția ISSN din 2017.",
+        "Tubul mic e bun ca să încerci întâi aroma preferată."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O măsură, 150–200 ml",
+        "text": "30 g de pudră în 150–200 ml de apă sau lapte, agitate în shaker."
+      },
+      {
+        "titlu": "1–4 porții pe zi",
+        "text": "După câte proteine ai deja din mese."
+      },
+      {
+        "titlu": "33 de zile",
+        "text": "La o măsură pe zi, tubul ține 33 de zile."
+      }
+    ],
+    "nota": "Mențiunile se aplică deoarece Prime Whey este sursă de proteine: aproximativ 81% din cele 120,6 kcal ale unei doze de 30 g vin din proteine. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      }
+    ]
   }
 }

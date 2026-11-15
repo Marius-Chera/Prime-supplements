@@ -208,5 +208,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cluster Bomb: ce primești într-o porție de 30 g la antrenament",
+    "intro": "Cluster Bomb este o băutură pentru antrenament cu 19,9 g de carbohidrați din Cluster Dextrin® într-o porție de 30 g. Tot acolo primești câte 2400 mg de creatină monohidrată, aminoacizi esențiali și L-citrulină.",
+    "conditie": "Pentru antrenamente, la doza de o porție de 30 g în 300–400 ml de apă",
+    "cifre": [
+      {
+        "valoare": "19,9",
+        "unitate": "g",
+        "eticheta": "carbohidrați într-o porție"
+      },
+      {
+        "valoare": "369",
+        "unitate": "mg",
+        "eticheta": "potasiu (18,5% VNR)"
+      },
+      {
+        "valoare": "366",
+        "unitate": "mg",
+        "eticheta": "sodiu într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "19,9 g de carbohidrați",
+        "text": "Vin din Cluster Dextrin®, o dextrină ciclică puternic ramificată, primul ingredient de pe etichetă.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Potasiu și sodiu",
+        "text": "369 mg de potasiu (18,5% din VNR), 366 mg de sodiu și 483 mg de clorură pe porție.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "2400 mg de creatină",
+        "text": "Creatină monohidrată la fiecare porție de 30 g, alături de 2400 mg de L-citrulină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Fără cafeină",
+        "text": "Cafeina nu apare în lista de ingrediente.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Cluster Bomb?",
+      "puncte": [
+        "Pentru eforturi de 2–3 ore, o recenzie din 2014 indică până la 60 g de carbohidrați pe oră; o porție are 19,9 g.",
+        "Poziția ACSM din 2007 recomandă să eviți pierderi de lichide de peste 2% din greutatea corporală la efort.",
+        "Pe etichetă vezi fiecare aminoacid esențial, de la 480 mg de L-leucină la 96 mg de L-triptofan."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "30 g în shaker",
+        "text": "O porție, cu 300–400 ml de apă."
+      },
+      {
+        "titlu": "Bei pe parcurs",
+        "text": "Iei câte o gură în timpul antrenamentului, nu totul dintr-odată."
+      },
+      {
+        "titlu": "Respecți doza",
+        "text": "Nu depăși doza zilnică recomandată de pe etichetă."
+      }
+    ],
+    "nota": "Valorile sunt pentru o doză de 30 g, din tabelul nutrițional. Conține L-fenilalanină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24791914/"
+      },
+      {
+        "text": "American College of Sports Medicine; Sawka MN și colab. Exercise and fluid replacement. Med Sci Sports Exerc. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17277604/"
+      }
+    ]
   }
 }

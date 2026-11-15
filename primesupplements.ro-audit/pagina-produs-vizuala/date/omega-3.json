@@ -161,5 +161,84 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Omega-3: o mențiune autorizată la 300 mg de EPA și DHA",
+    "intro": "Omega-3 Prime aduce 300 mg de EPA și DHA din ulei de pește într-o singură capsulă. Legea cere 250 mg pe zi, așa că o capsulă pe zi poate purta mențiunea autorizată.",
+    "conditie": "Pentru adulți, la doza de o capsulă pe zi (o porție)",
+    "cifre": [
+      {
+        "valoare": "300",
+        "unitate": "mg",
+        "eticheta": "EPA și DHA într-o capsulă"
+      },
+      {
+        "valoare": "250",
+        "unitate": "mg",
+        "eticheta": "EPA și DHA pe zi, condiția din lege"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de capsule în flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "echilibru",
+        "titlu": "Funcția inimii",
+        "text": "EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "180 mg EPA + 120 mg DHA",
+        "text": "EPA (acid eicosapentaenoic) și DHA (acid docosahexaenoic) vin din ulei de pește, în capsule gelatinoase moi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "3 mg de vitamina E",
+        "text": "Uleiul de pește se oxidează ușor la aer și căldură, de aceea capsula are și vitamina E, ca acetat de DL-alfa-tocoferil.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce omega-3 din ulei de pește?",
+      "puncte": [
+        "EPA și DHA ajung în peștii grași din alge, prin hrană.",
+        "Un studiu din 2003 a arătat că, la capsule, nivelul de EPA și DHA din sânge a urmat doza luată.",
+        "O capsulă are 300 mg, adică 50 mg peste pragul de 250 mg cerut pentru mențiune."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "O porție este o capsulă."
+      },
+      {
+        "titlu": "De preferință la masă",
+        "text": "O poți lua și fără mâncare, dar eticheta recomandă masa."
+      },
+      {
+        "titlu": "Ferită de căldură",
+        "text": "Ține flaconul la răcoare, departe de lumină, și nu sparge capsulele."
+      }
+    ],
+    "nota": "Mențiunea se aplică la o capsulă pe zi, cu 300 mg de EPA și DHA, peste aportul de 250 mg cerut de lege. Conține pește. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Visioli F și colab. Dietary intake of fish vs. formulations leads to higher plasma concentrations of n-3 fatty acids. Lipids. 2003",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12848287/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

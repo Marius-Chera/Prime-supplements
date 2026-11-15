@@ -217,5 +217,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Aminoacizi esențiali EAA: 8 aminoacizi într-o porție de 6 g",
+    "intro": "Pulberea EAA îți dă 5350 mg de aminoacizi esențiali la fiecare porție de 6 g, în formă liberă, adică neîncorporați în proteine. Aminoacizii nu au o mențiune de sănătate autorizată în UE, așa că mai jos găsești doar cifrele de pe etichetă.",
+    "conditie": "Pentru adulți, la doza de 2 măsuri (6 g), de 1–3 ori pe zi",
+    "cifre": [
+      {
+        "valoare": "8",
+        "unitate": "",
+        "eticheta": "aminoacizi esențiali pe etichetă"
+      },
+      {
+        "valoare": "5,4",
+        "unitate": "g",
+        "eticheta": "proteine, ca aminoacizi liberi"
+      },
+      {
+        "valoare": "21,4",
+        "unitate": "kcal",
+        "eticheta": "într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "1070 mg L-leucină",
+        "text": "Leucina are cea mai mare cantitate, urmată de L-valină (856 mg) și L-izoleucină (803 mg).",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Toți cei 8 aminoacizi",
+        "text": "Pe etichetă: leucină, valină, izoleucină, lizină HCl, fenilalanină, treonină, metionină și triptofan.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "0,00 g zaharuri",
+        "text": "O porție are 0,00 g zaharuri; gustul dulce vine din sucraloză și acesulfam de potasiu.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "4 arome",
+        "text": "Peach Ice Tea, Blueberry, Strawberry & Kiwi și Tropical. Tubul de 500 g are 83 de porții.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce EAA?",
+      "puncte": [
+        "Esențial înseamnă că organismul tău nu produce acel aminoacid, deci îl iei din mâncare.",
+        "Poziția ISSN din 2017 vorbește despre porții de proteine cu 700–3000 mg de leucină; o porție de EAA are 1070 mg.",
+        "Conține fenilalanină, lucru trecut și în atenționările de pe etichetă."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 măsuri, 6 g",
+        "text": "Amesteci porția cu cantitatea de apă pe care o preferi."
+      },
+      {
+        "titlu": "De 1–3 ori pe zi",
+        "text": "Între mese, cu 30–45 de minute înainte de antrenament sau imediat după."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se administrează copiilor și femeilor în sarcină sau alăptare."
+      }
+    ],
+    "nota": "Aminoacizii esențiali nu au mențiuni de sănătate autorizate în UE; aici vezi doar conținutul la doza de 2 măsuri. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

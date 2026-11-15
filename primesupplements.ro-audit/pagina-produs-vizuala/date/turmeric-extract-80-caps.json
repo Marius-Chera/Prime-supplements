@@ -162,5 +162,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Turmeric cu piperină: ce primești într-o capsulă",
+    "intro": "Turmericul Prime îți dă 380 mg de curcuminoide și 5 mg de piperină într-o singură capsulă pe zi. Turmericul nu are mențiuni de sănătate autorizate în UE, așa că pagina îți arată exact compoziția.",
+    "conditie": "Pentru adulți, la doza zilnică de o capsulă",
+    "cifre": [
+      {
+        "valoare": "380",
+        "unitate": "mg",
+        "eticheta": "curcuminoide într-o capsulă"
+      },
+      {
+        "valoare": "5",
+        "unitate": "mg",
+        "eticheta": "piperină într-o capsulă"
+      },
+      {
+        "valoare": "80",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Extract din rădăcină",
+        "text": "400 mg de extract din rădăcină de Curcuma longa, standardizat la 95% curcuminoide.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Piper negru, 95% piperină",
+        "text": "Extractul din fructe de piper negru are 5,3 mg pe capsulă, din care 5 mg de piperină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "O capsulă, la masă",
+        "text": "Eticheta recomandă o capsulă pe zi, de preferat în timpul mesei.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Capsulă din gelatină",
+        "text": "Învelișul e din gelatină cu oxid de zinc, deci produsul nu e potrivit pentru vegetarieni sau vegani.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce turmeric cu piper negru?",
+      "puncte": [
+        "Într-un studiu din 1998, curcumina luată fără piperină a avut niveluri în sânge foarte mici sau nedetectabile.",
+        "Standardizarea la 95% înseamnă că 380 mg din cele 400 mg de extract sunt curcuminoide.",
+        "Pudra de bucătărie e rădăcină măcinată, cu mult mai puțini curcuminoizi la gram decât extractul."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O capsulă pe zi",
+        "text": "Nu depăși doza zilnică recomandată."
+      },
+      {
+        "titlu": "În timpul mesei",
+        "text": "Ia capsula la una dintre mesele principale, cu apă."
+      },
+      {
+        "titlu": "Cine nu o ia",
+        "text": "Nu se recomandă sub 18 ani, în sarcină sau în alăptare."
+      }
+    ],
+    "nota": "Datele se referă la doza zilnică de o capsulă, cu 400 mg de extract de turmeric și 5,3 mg de extract de piper negru. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Shoba G și colab. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

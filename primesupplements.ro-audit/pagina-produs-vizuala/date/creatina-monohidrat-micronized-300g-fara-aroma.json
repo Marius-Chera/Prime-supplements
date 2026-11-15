@@ -164,5 +164,89 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Creatină micronizată: beneficiul autorizat, de la 3 g pe zi",
+    "intro": "Creatina monohidrată micronizată din acest tub îți dă 5000 mg într-o jumătate de măsură, adică peste aportul de 3 g pe zi cerut de mențiune. Pulberea nu are aromă.",
+    "conditie": "Pentru adulți, la o doză zilnică de cel puțin 3 g de creatină",
+    "cifre": [
+      {
+        "valoare": "5000",
+        "unitate": "mg",
+        "eticheta": "creatină monohidrată într-o porție"
+      },
+      {
+        "valoare": "5",
+        "unitate": "g",
+        "eticheta": "o porție, adică jumătate de măsură"
+      },
+      {
+        "valoare": "60",
+        "unitate": "",
+        "eticheta": "de porții în tubul de 300 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "energie",
+        "titlu": "Efort intens, repetat",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Pragul de 3 g pe zi",
+        "text": "Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "frunza",
+        "titlu": "100% creatină",
+        "text": "Eticheta are un singur ingredient, creatina monohidrată, fără arome, îndulcitori sau coloranți.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Încărcare sau menținere",
+        "text": "Eticheta descrie două faze: 1½–3 măsuri pe zi în primele 5–15 zile, apoi ½–1½ măsuri pe zi, timp de 6–8 săptămâni.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce creatină micronizată?",
+      "puncte": [
+        "Micronizată înseamnă pulbere cu particule foarte fine, care se amestecă mai ușor în apă.",
+        "Faza de încărcare nu e obligatorie: o recenzie din 2021 notează doze de 3–5 g pe zi sau 0,1 g/kg pe zi."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "½ măsură = 5 g",
+        "text": "O porție de 5 g se amestecă în 300–500 ml de apă."
+      },
+      {
+        "titlu": "Menținere: 6–8 săptămâni",
+        "text": "După încărcare, iei ½–1½ măsuri pe zi, cum scrie pe etichetă."
+      },
+      {
+        "titlu": "Întreabă medicul",
+        "text": "Dacă ai o afecțiune medicală, consultă medicul înainte. Nu se recomandă copiilor, în sarcină sau alăptare."
+      }
+    ],
+    "nota": "Efectul benefic se obține în condițiile unui consum zilnic de cel puțin 3 g de creatină, iar o porție are 5000 mg. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Antonio J și colab. Common questions and misconceptions about creatine supplementation. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33557850/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

@@ -198,5 +198,85 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Nitrox No-Stim: pre-antrenament fără cafeină, ce conține porția",
+    "intro": "Nitrox No-Stim este un pre-antrenament fără cafeină și fără sinefrină: niciuna nu apare în lista de ingrediente. Ingredientele nu au mențiuni de sănătate autorizate în UE, așa că îți arătăm doar cantitățile de pe etichetă.",
+    "conditie": "Pentru adulți, la doza de 2 măsuri (22 g) cu 300–400 ml de apă",
+    "cifre": [
+      {
+        "valoare": "4000",
+        "unitate": "mg",
+        "eticheta": "BCAA 2:1:1 într-o porție"
+      },
+      {
+        "valoare": "2200",
+        "unitate": "mg",
+        "eticheta": "creatină monohidrată într-o porție"
+      },
+      {
+        "valoare": "36,3",
+        "unitate": "kcal",
+        "eticheta": "într-o porție de 22 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "scut",
+        "titlu": "Fără cafeină și sinefrină",
+        "text": "Cafeina și sinefrina nu apar în lista de ingrediente, așa că e o variantă pentru cine evită stimulentele.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Ce aminoacizi primești",
+        "text": "4000 mg BCAA 2:1:1, 3753 mg L-citrulină, 2000 mg L-arginină AKG, 1000 mg beta-alanină și 1000 mg taurină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "muschi",
+        "titlu": "2200 mg creatină",
+        "text": "Porția are 2200 mg de creatină monohidrată, mai puțin de 3 g, deci mențiunea pentru creatină nu se aplică.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Citicolină 200 mg",
+        "text": "Conține 200 mg de citicolină, motiv pentru care nu e destinat copiilor și persoanelor sub 18 ani.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Nitrox No-Stim?",
+      "puncte": [
+        "„No-Stim” înseamnă fără stimulente: produsul nu are cafeină sau sinefrină.",
+        "Aroma este Ice Blueberry, iar tubul de 660 g are 30 de porții."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 măsuri, 22 g",
+        "text": "Amesteci porția cu 300–400 ml de apă."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Respecți doza recomandată pentru consumul zilnic, cum scrie pe etichetă."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se recomandă sub 18 ani, în sarcină sau în alăptare."
+      }
+    ],
+    "nota": "La doza de 22 g, creatina (2200 mg) rămâne sub pragul de 3 g pe zi, așa că produsul nu poartă mențiunea pentru creatină. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor despre alimente",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

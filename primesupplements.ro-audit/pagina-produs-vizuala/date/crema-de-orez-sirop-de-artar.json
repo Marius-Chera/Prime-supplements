@@ -164,5 +164,82 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez sirop de arțar: gust de clătite, 34,3 g glucide",
+    "intro": "Crema de orez sirop de arțar are gust de clătite cu sirop și 34,3 g de glucide la o porție de 45 g. Siropul nu apare în lista de ingrediente: gustul vine din arome și îndulcitori.",
+    "conditie": "La o doză de 45 g, ca mic dejun în stil clătite, preparat la rece",
+    "cifre": [
+      {
+        "valoare": "34,3",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "155,4",
+        "unitate": "kcal",
+        "eticheta": "într-o porție de 45 g"
+      },
+      {
+        "valoare": "0,14",
+        "unitate": "g",
+        "eticheta": "sare într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Gust de clătite",
+        "text": "Aroma de sirop de arțar vine din arome și îndulcitori, nu dintr-un sirop adăugat.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "34,3 g de glucide",
+        "text": "O măsură de 45 g are 34,3 g de glucide și 155,4 kcal, din făină de orez pregelatinizată.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "0,3 g zaharuri",
+        "text": "Fără zaharuri adăugate, așa că zaharurile rămân la 0,3 g pe porție.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Un strop de sare",
+        "text": "Cele 0,14 g de sare pe porție echilibrează gustul dulce, ca la clătitele adevărate.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce sirop de arțar?",
+      "puncte": [
+        "Ai gustul de clătite cu sirop fără zaharurile pe care le-ar aduce un sirop adevărat.",
+        "Grăsimile sunt doar 0,3 g pe porție, iar fibrele 0,7 g.",
+        "O recenzie din 2011 arată că necesarul de carbohidrați se stabilește după durata și intensitatea antrenamentului."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O măsură",
+        "text": "45 g de pudră într-un bol."
+      },
+      {
+        "titlu": "Lichid rece",
+        "text": "150–200 ml de lapte sau apă; amesteci bine."
+      },
+      {
+        "titlu": "Ca la clătite",
+        "text": "Adaugi felii de banană și câteva nuci pentru gustul de duminică dimineața."
+      }
+    ],
+    "nota": "Valorile sunt pentru o doză de 45 g de pudră, din declarația nutrițională. Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": [
+      {
+        "text": "Burke LM și colab. Carbohydrates for training and competition. J Sports Sci. 2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21660838/"
+      }
+    ]
   }
 }

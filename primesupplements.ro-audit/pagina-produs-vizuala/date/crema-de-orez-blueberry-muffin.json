@@ -164,5 +164,77 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cremă de orez cu afine: ce primești într-o porție de 45 g",
+    "intro": "Crema de orez cu aromă de brioșă cu afine are 34,7 g de glucide și 157,2 kcal într-o porție de 45 g. Pudra are și bucăți de afine uscate, 3% din rețetă.",
+    "conditie": "Pentru micul dejun sau înainte de antrenament, la o doză de 45 g (o măsură)",
+    "cifre": [
+      {
+        "valoare": "34,7",
+        "unitate": "g",
+        "eticheta": "glucide într-o porție"
+      },
+      {
+        "valoare": "3",
+        "unitate": "%",
+        "eticheta": "bucăți de afine uscate"
+      },
+      {
+        "valoare": "1,0",
+        "unitate": "g",
+        "eticheta": "zaharuri într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Afine uscate adevărate",
+        "text": "Lista de ingrediente are bucăți de afine uscate, 3%, pe lângă făina de orez pregelatinizată.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "34,7 g de glucide",
+        "text": "O măsură de 45 g aduce și 157,2 kcal, 0,8 g fibre și 0,27 g grăsimi.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Fără zaharuri adăugate",
+        "text": "Zaharurile, 1,0 g pe porție, sunt cele prezente în mod natural; dulceața vine din sucraloză și acesulfam-K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Gata fără fierbere",
+        "text": "Amesteci pudra cu 150–200 ml de apă sau lapte rece, fără aragaz.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce cremă de orez cu afine?",
+      "puncte": [
+        "Datorită afinelor, are 1,0 g zaharuri pe porție, puțin peste celelalte arome din gamă.",
+        "Tubul de 1 kg are 22 de porții, cam trei săptămâni la o porție pe zi.",
+        "Merge și în smoothie-uri sau în shake-uri proteice."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O măsură de 45 g",
+        "text": "Pui pudra într-un bol sau în shaker."
+      },
+      {
+        "titlu": "150–200 ml de lichid rece",
+        "text": "Apă sau lapte; amesteci până devine cremoasă."
+      },
+      {
+        "titlu": "Afine proaspete deasupra",
+        "text": "Câteva afine sau o lingură de iaurt."
+      }
+    ],
+    "nota": "Valorile sunt pentru o doză de 45 g de pudră, din declarația nutrițională de pe tub. Poate conține urme de lapte, ou, soia, grâu și pește.",
+    "surse": []
   }
 }

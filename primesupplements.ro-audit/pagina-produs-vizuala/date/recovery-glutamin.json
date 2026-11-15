@@ -192,5 +192,90 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/24679256/"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Recovery Glutamin: 4000 mg de L-glutamină Kyowa® la o măsură",
+    "intro": "Recovery Glutamin îți dă 4000 mg de L-glutamină Kyowa® la fiecare măsură, fie că alegi varianta Simplu, fie una dintre cele patru arome. Glutamina nu are mențiuni de sănătate autorizate în UE, așa că aici găsești doar ce scrie pe etichetă.",
+    "conditie": "Pentru adulți, la doza de o porție pe zi (o măsură în 200 ml de apă)",
+    "cifre": [
+      {
+        "valoare": "4000",
+        "unitate": "mg",
+        "eticheta": "L-glutamină într-o porție"
+      },
+      {
+        "valoare": "4",
+        "unitate": "g",
+        "eticheta": "o porție la varianta Simplu"
+      },
+      {
+        "valoare": "125",
+        "unitate": "",
+        "eticheta": "de porții în tubul Simplu"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "capsula",
+        "titlu": "Varianta Simplu",
+        "text": "Un singur ingredient, L-glutamina Kyowa®: porția are 4 g, iar tubul de 500 g ajunge la 125 de porții.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Raspberry: 0,04 g zaharuri",
+        "text": "Porția aromată are 5 g, cu 18,1 kcal și 0,04 g zaharuri; tubul are 100 de porții.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "5 variante de gust",
+        "text": "Simplu, Raspberry (zmeură), Blueberry (afine), Cherry Lime și Pineapple Mango.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "muschi",
+        "titlu": "4 g proteine la porție",
+        "text": "Glutamina este un aminoacid, de aceea tabelul arată 4 g proteine (ca aminoacizi liberi) la porția Raspberry.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce L-glutamină Kyowa®?",
+      "puncte": [
+        "Kyowa® este marca ingredientului trecută pe etichetă.",
+        "Glutamina este cel mai abundent aminoacid din corp, conform unei recenzii din 2018.",
+        "Studiile au folosit doze de până la 28 g pe zi, timp de 14 zile, fără efecte adverse; porția ta are 4 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O măsură",
+        "text": "Amesteci o măsură cu 200 ml de apă."
+      },
+      {
+        "titlu": "O porție pe zi",
+        "text": "Aceasta este doza zilnică de pe etichetă."
+      },
+      {
+        "titlu": "Păstrare",
+        "text": "Ții tubul la loc răcoros, ferit de lumină, umiditate și căldură."
+      }
+    ],
+    "nota": "Glutamina nu are mențiuni de sănătate autorizate în UE; cifrele de aici sunt cele de pe etichetă, la doza de o porție pe zi. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Cruzat V și colab. Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation. Nutrients. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30360490/"
+      },
+      {
+        "text": "Gleeson M. Dosing and efficacy of glutamine supplementation in human exercise and sport training. J Nutr. 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18806122/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

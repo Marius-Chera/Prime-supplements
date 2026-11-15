@@ -191,5 +191,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Water Out tinctură: ce primești în sticla de 500 ml",
+    "intro": "Water Out tinctură îți dă un extract 1:6 din 8 plante, cu o singură porție de 5 ml pe zi. Plantele nu au mențiuni de sănătate autorizate în UE, de aceea pagina descrie compoziția, nu efecte.",
+    "conditie": "Pentru adulți, la doza de pe etichetă: o porție de 5 ml pe zi",
+    "cifre": [
+      {
+        "valoare": "8",
+        "unitate": "",
+        "eticheta": "plante în amestec"
+      },
+      {
+        "valoare": "5",
+        "unitate": "ml",
+        "eticheta": "o porție pe zi"
+      },
+      {
+        "valoare": "100",
+        "unitate": "",
+        "eticheta": "de porții într-o sticlă"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Patru plante la 15%",
+        "text": "Coada-calului, frunzele de mesteacăn, fructele de ienupăr și frunzele de păpădie au câte 15% din amestec.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Patru plante la 10%",
+        "text": "Urzica, rădăcina de brusture, sânzienele și frunzele de afin au câte 10% din amestec.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "O porție de 5 ml",
+        "text": "Se ia o singură porție pe zi, de preferat dimineața, deci sticla ține aproximativ 100 de zile.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "30% alcool",
+        "text": "O porție de 5 ml are aproximativ 1,5 ml de alcool etilic, deci tinctura nu e pentru cei care evită alcoolul.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Water Out tinctură?",
+      "puncte": [
+        "Formula e diferită de cea a capsulelor Water Out și folosește alte plante.",
+        "Sânzienele din amestec își iau numele de la sărbătoarea din 24 iunie, când înfloresc.",
+        "Sticla e închisă la culoare, ca extractul să stea ferit de lumină."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "5 ml pe zi",
+        "text": "O singură porție zilnică, conform etichetei."
+      },
+      {
+        "titlu": "Dimineața",
+        "text": "Cel mai bine iei porția la începutul zilei."
+      },
+      {
+        "titlu": "Cine o evită",
+        "text": "Copiii, femeile însărcinate sau care alăptează și cei care trebuie să evite alcoolul."
+      }
+    ],
+    "nota": "Datele se referă la doza de o porție de 5 ml pe zi. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

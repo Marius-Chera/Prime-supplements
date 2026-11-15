@@ -186,5 +186,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Cardio Calm: ce primești în tinctura din 7 plante",
+    "intro": "Cardio Calm îți dă o tinctură din 7 plante, cu extract 1:6 în apă și alcool, în sticlă de 500 ml. Plantele nu au mențiuni de sănătate autorizate în UE, așa că pagina arată compoziția și modul de folosire.",
+    "conditie": "Pentru adulți, la doza de pe etichetă: o linguriță în 100 ml de apă, de 3–4 ori pe zi",
+    "cifre": [
+      {
+        "valoare": "7",
+        "unitate": "",
+        "eticheta": "plante în amestec"
+      },
+      {
+        "valoare": "100",
+        "unitate": "ml",
+        "eticheta": "apă pentru o linguriță"
+      },
+      {
+        "valoare": "3",
+        "unitate": "",
+        "eticheta": "luni, durata unei cure"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Șase plante la 15%",
+        "text": "Păducel, coada-șoricelului, vâsc, hibiscus, salvie și leurdă au câte 15% din amestec.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Valeriană, 10%",
+        "text": "Rădăcina de Valeriana officinalis e singura plantă cu 10% în amestec și are un miros puternic.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Diluată în 100 ml",
+        "text": "O linguriță în 100 ml de apă, cam o jumătate de pahar, ca gustul să fie mai blând.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Cure de 3 luni",
+        "text": "Eticheta recomandă cure de 3 luni, cu o pauză de 30 de zile între ele.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce tinctura Cardio Calm?",
+      "puncte": [
+        "Tinctura are 30% alcool, iar diluată în 100 ml de apă ajunge sub 2%.",
+        "Păducelul e un arbust spinos, des întâlnit la marginea pădurilor din România.",
+        "Leurda e rudă cu usturoiul și crește primăvara în pădurile umede."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "O linguriță în apă",
+        "text": "Dizolvă o linguriță în 100 ml de apă."
+      },
+      {
+        "titlu": "De 3–4 ori pe zi",
+        "text": "Pe stomacul gol, înainte de mese."
+      },
+      {
+        "titlu": "Pauză după 3 luni",
+        "text": "După o cură de 3 luni, fă o pauză de 30 de zile."
+      }
+    ],
+    "nota": "Datele se referă la doza de pe etichetă. Tinctura conține alcool; dacă urmezi un tratament, întreabă medicul. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, valori de referință, alergeni)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
   }
 }

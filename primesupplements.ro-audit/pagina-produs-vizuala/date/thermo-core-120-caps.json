@@ -190,5 +190,89 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Thermo Core: crom la 125% VNR și 49 mg cafeină la 3 capsule",
+    "intro": "Thermo Core îți dă la fiecare porție de 3 capsule 50 µg de crom, adică 125% din VNR, și 49 mg de cafeină din ceaiul verde. Pentru celelalte ingrediente nu există mențiuni autorizate în UE, deci îți dăm doar cifrele.",
+    "conditie": "Pentru adulți, la doza de 3 capsule (o porție), niciodată pe stomacul gol",
+    "cifre": [
+      {
+        "valoare": "125",
+        "unitate": "%",
+        "eticheta": "din VNR pentru crom la 3 capsule"
+      },
+      {
+        "valoare": "49",
+        "unitate": "mg",
+        "eticheta": "cafeină la 3 capsule"
+      },
+      {
+        "valoare": "40",
+        "unitate": "",
+        "eticheta": "de porții în flacon"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "echilibru",
+        "titlu": "Macronutrienții",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "scut",
+        "titlu": "Glicemie normală",
+        "text": "Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Cafeină și sinefrină",
+        "text": "49 mg cafeină din extractul de ceai verde și 45 mg sinefrină la porție. Nu le combini cu cafea sau alte produse cu cafeină ori sinefrină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Ce conțin 3 capsule",
+        "text": "1125 mg L-carnitină, 618 mg extract de ceai verde, 300 mg extract de zmeură, 225 mg bioflavonoide din citrice și 10,7 mg piperină.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Thermo Core?",
+      "puncte": [
+        "Cromul vine sub formă de picolinat de crom, 50 µg la porție.",
+        "Extractul de ceai verde aduce 185 mg catechine la 3 capsule; nu depăși 800 mg de galat de epigalocatechină pe zi."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "3 capsule = o porție",
+        "text": "Iei porția cu apă, după ce ai mâncat ceva, nu pe stomacul gol."
+      },
+      {
+        "titlu": "Fără alt ceai verde",
+        "text": "În aceeași zi nu consumi alte produse cu ceai verde, cafea sau băuturi energizante."
+      },
+      {
+        "titlu": "Doar pentru adulți",
+        "text": "Nu se recomandă sub 18 ani, în sarcină, în alăptare sau dacă ești sensibil la stimulenți."
+      }
+    ],
+    "nota": "Mențiunile pentru crom se aplică la doza de 3 capsule, care aduce 125% din VNR. Conține cafeină: 49 mg la porție. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Regulamentul (UE) 2022/2340 – catechinele din extractul de ceai verde",
+        "url": "https://eur-lex.europa.eu/eli/reg/2022/2340/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

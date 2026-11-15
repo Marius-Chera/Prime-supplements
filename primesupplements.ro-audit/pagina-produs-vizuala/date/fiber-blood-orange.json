@@ -172,5 +172,77 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Fiber cu portocală roșie: 7,4 g de fibre în 10 g de pudră",
+    "intro": "Fiber este o pudră cu aromă de portocală roșie care are 74,0 g de fibre la 100 g. O porție de 10 g îți aduce 7,4 g de fibre din cinci surse diferite, la doar 21,0 kcal.",
+    "conditie": "Pentru adulți, la doza de 10 g pe zi, înainte de masă",
+    "cifre": [
+      {
+        "valoare": "74,0",
+        "unitate": "%",
+        "eticheta": "fibre în pudră"
+      },
+      {
+        "valoare": "7,4",
+        "unitate": "g",
+        "eticheta": "fibre într-o porție de 10 g"
+      },
+      {
+        "valoare": "21,0",
+        "unitate": "kcal",
+        "eticheta": "într-o porție"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Cinci surse de fibre",
+        "text": "Inulină, fibre de acacia, fibre de bambus, făină de ovăz și glucomanan din konjac.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "Doar 21,0 kcal",
+        "text": "O porție de 10 g are 21,0 kcal, 1,1 g carbohidrați și 0,10 g zaharuri.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Baobab și portocală roșie",
+        "text": "Pulbere organică din fructe de baobab, aromă de portocală roșie și extract de boia pentru culoare.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Fără zaharuri adăugate",
+        "text": "Gustul dulce vine din sucraloză și acesulfam-K; zaharurile naturale sunt 1,0 g la 100 g.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Fiber?",
+      "puncte": [
+        "Primești un amestec de cinci fibre diferite, nu una singură, într-o pudră cu gust de citrice.",
+        "Tubul de 500 g are 50 de porții de 10 g, adică peste șapte săptămâni la o porție pe zi.",
+        "Grăsimile sunt 0,11 g pe porție, iar sarea, sub 0,001 g."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "10 g de pudră",
+        "text": "Aproximativ o măsură."
+      },
+      {
+        "titlu": "150–250 ml de apă",
+        "text": "Amesteci bine și bei imediat."
+      },
+      {
+        "titlu": "Înainte de masă",
+        "text": "O dată pe zi, cum scrie pe etichetă."
+      }
+    ],
+    "nota": "Valorile sunt pentru o doză de 10 g, conform declarației nutriționale. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": []
   }
 }

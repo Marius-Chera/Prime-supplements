@@ -207,5 +207,85 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Combat Pro 2.0: fără cafeină, cu 45 mg sinefrină pe porție",
+    "intro": "Combat Pro 2.0 are 45 mg de sinefrină la fiecare porție de 22 g, chiar dacă în lista de ingrediente nu apare cafeina. Ingredientele nu au mențiuni de sănătate autorizate în UE, așa că aici găsești cifrele exacte de pe etichetă.",
+    "conditie": "Pentru adulți, la doza de 2 măsuri (22 g) cu 300–400 ml de apă",
+    "cifre": [
+      {
+        "valoare": "45",
+        "unitate": "mg",
+        "eticheta": "sinefrină într-o porție"
+      },
+      {
+        "valoare": "5600",
+        "unitate": "mg",
+        "eticheta": "L-citrulină într-o porție"
+      },
+      {
+        "valoare": "29,1",
+        "unitate": "kcal",
+        "eticheta": "într-o porție de 22 g"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "scut",
+        "titlu": "Sinefrină, nu cafeină",
+        "text": "Cafeina nu apare pe etichetă, dar sinefrina (45 mg) este tot un stimulent. Ține cont de asta dacă eviți stimulentele.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Aminoacizi la porție",
+        "text": "5600 mg L-citrulină, 3900 mg beta-alanină, 2000 mg L-arginină AKG, 1500 mg taurină și 1500 mg L-tirozină.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "muschi",
+        "titlu": "Două forme de carnitină",
+        "text": "1500 mg L-carnitină și 500 mg N-acetil L-carnitină, alături de 2000 mg glicerol monostearat.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Extracte din rădăcini",
+        "text": "300 mg Rhodiola rosea (9,0 mg salidrozide) și 300 mg EnXtra® Alpinia galanga (90,0 mg glicozide).",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Combat Pro 2.0?",
+      "puncte": [
+        "Formula are două arome: mango și fructe de pădure (Forest Fruits).",
+        "Studiile cu sinefrină din recenzia din 2012 au folosit 10–53 mg pe zi; o porție de Combat Pro 2.0 are 45 mg."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "2 măsuri, 22 g",
+        "text": "Le amesteci cu 300–400 ml de apă."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Respecți doza recomandată pentru consumul zilnic de pe etichetă."
+      },
+      {
+        "titlu": "Păstrare",
+        "text": "Loc răcoros, ferit de lumină, umiditate și căldură excesivă."
+      }
+    ],
+    "nota": "Cifrele sunt cele de pe etichetă, la doza de 2 măsuri (22 g); ingredientele principale nu au mențiuni de sănătate autorizate în UE. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Stohs SJ și colab. A review of the human clinical studies involving Citrus aurantium (bitter orange) extract and its primary protoalkaloid p-synephrine. Int J Med Sci. 2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22991491/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

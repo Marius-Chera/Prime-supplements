@@ -97,3 +97,10 @@
 21 c https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794754665211_b1f3a2f6_1794754665654_c8a1c3b4.png
 22 c https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794754669175_0aa8b07f_1794754669956_2449b03c.png
 23 c https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794754669915_b0d9a762_1794754670268_afc0af01.png
+# Lot 7 (16.11, sportivi bărbați)
+taurina-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782063237_82c1ca67_1794782063824_25ffa5a7.png
+taurina-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782063633_f08ae94f_1794782063758_0d69bb35.png
+turmeric-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782065013_b888e2dd_1794782065747_1cc001c9.png
+turmeric-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782064926_97a99b3c_1794782067642_6fe06b00.png
+daily-a https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782065733_aff447ff_1794782066421_19d3af22.png
+daily-b https://cdn.openart.ai/openart-ai/production/2026-11/create-image/w1m8JjlphqFOtS3Ubfcz/image_1794782065606_80520f99_1794782066548_f18997b5.png

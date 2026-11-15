@@ -1,0 +1,155 @@
+{
+  "versiune": 1,
+  "handle": "taurine-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-taurina-1000mg-80-capsule-sportiv-1.jpg",
+    "alt": "Taurină 1000 mg Prime pe banca din vestiar; în fundal un sportiv își leagă șireturile înainte de antrenament"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului taurine-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "1000 mg / capsulă",
+    "80 de capsule",
+    "Cu sau fără mâncare"
+  ],
+  "titlu": "Taurină: 1000 mg în fiecare capsulă, 80 de capsule",
+  "intro": "Fiecare capsulă are [[1000 mg]] de taurină. Eticheta indică între [[500 mg și 2000 mg]] pe zi, adică cel mult două capsule, cu sau fără mâncare. Flaconul are [[80 de capsule]].",
+  "etichete": [
+    "Taurină",
+    "1000 mg per capsulă",
+    "Cu sau fără mâncare",
+    "Prime Supplements"
+  ],
+  "cifre": [
+    {
+      "valoare": "1000",
+      "unitate": "mg",
+      "eticheta": "taurină per capsulă"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    },
+    {
+      "valoare": "2000",
+      "unitate": "mg",
+      "eticheta": "maximul zilnic de pe etichetă"
+    },
+    {
+      "valoare": "114,4",
+      "unitate": "g",
+      "eticheta": "greutate netă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1–2 capsule, oricând"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Taurină",
+        "valoare": "1000 mg"
+      },
+      {
+        "nume": "Celuloză microcristalină",
+        "valoare": "agent de încărcare"
+      },
+      {
+        "nume": "Dioxid de siliciu, stearat de magneziu",
+        "valoare": "antiaglomeranți"
+      },
+      {
+        "nume": "Ulei hidrogenat de bumbac",
+        "valoare": "antiaglomerant"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Taurina Prime",
+    "puncte": [
+      "1000 mg de taurină într-o capsulă",
+      "Doza de pe etichetă: între 500 mg și 2000 mg pe zi",
+      "Se ia cu sau fără mâncare",
+      "80 de capsule într-un flacon",
+      "Un singur ingredient activ, fără arome"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "TAU",
+        "titlu": "Taurină · 1000 mg",
+        "text": "Ingredientul activ, un acid aminosulfonic. Fiecare capsulă are 1000 mg."
+      },
+      {
+        "cod": "MCC",
+        "titlu": "Celuloză microcristalină",
+        "text": "Agent de încărcare: umple capsula."
+      },
+      {
+        "cod": "ANT",
+        "titlu": "Antiaglomeranți",
+        "text": "Dioxid de siliciu, stearat de magneziu și ulei hidrogenat de bumbac, ca pulberea să curgă uniform."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Între 500 mg și 2000 mg de taurină pe zi, adică cel mult 2 capsule, cu sau fără alimente. Nu depăși doza recomandată.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre taurină",
+    "intro": "Taurina are un nume care pare luat din zodiac și o reputație construită mai ales de băuturile energizante. Iată ce este de fapt și ce s-a studiat la sportivi.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine numele taurinei?",
+        "raspuns": "De la taur. Substanța a fost izolată prima dată în secolul al XIX-lea din bila de bou, iar numele vine de la latinescul „taurus”. Astăzi se obține prin sinteză, fără nicio legătură cu animalele."
+      },
+      {
+        "intrebare": "Este taurina un aminoacid?",
+        "raspuns": "Nu chiar, deși așa o vei vedea numită des. Chimic, e un acid aminosulfonic: are o grupare cu sulf în locul grupării carboxil a aminoacizilor obișnuiți. Nu intră în lanțurile de proteine, ci stă liberă în țesuturi. În alimente o găsești mai ales în carne, pește și fructe de mare."
+      },
+      {
+        "intrebare": "Ce doze s-au folosit în studiile pe sportivi?",
+        "raspuns": "Între sub 1 g și 6 g pe zi. O recenzie din 2021 a adunat 19 studii în care taurina a fost singurul ingredient testat, la adulți sănătoși sub 50 de ani. Cele mai multe au folosit 1–3 g pe zi. Autorii scriu că rezultatele sunt limitate și variate și nu permit concluzii definitive."
+      },
+      {
+        "intrebare": "Câte capsule iei pe zi?",
+        "raspuns": "Una sau două. Eticheta spune între 500 mg și 2000 mg pe zi, iar o capsulă are 1000 mg. Poți lua capsula cu sau fără mâncare, deci o potrivești ușor în programul tău. Un flacon de 80 de capsule ține între 40 și 80 de zile."
+      },
+      {
+        "intrebare": "Ce mai e în capsulă în afară de taurină?",
+        "raspuns": "Doar ingrediente tehnologice, trecute pe etichetă așa cum cere legislația europeană. Celuloza microcristalină umple capsula, iar dioxidul de siliciu, stearatul de magneziu și uleiul hidrogenat de bumbac împiedică pulberea să se lipească. Nu are arome, zahăr sau coloranți."
+      },
+      {
+        "intrebare": "De ce apare taurina în băuturile energizante?",
+        "raspuns": "Pentru că a devenit, încă din anii 1980, un ingredient-semn al acestor băuturi, alături de cafeină. Legislația europeană cere ca băuturile cu peste 150 mg de cafeină pe litru să poarte mențiunea „Conținut ridicat de cafeină”. Pentru taurină nu există o astfel de mențiune obligatorie, iar capsulele tale nu conțin cafeină."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Kurtz JA și colab. Taurine in sports and exercise. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34039357/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, valorile de referință)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
+  }
+}

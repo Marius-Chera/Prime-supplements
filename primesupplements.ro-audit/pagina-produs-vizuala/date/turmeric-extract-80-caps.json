@@ -1,0 +1,166 @@
+{
+  "versiune": 1,
+  "handle": "turmeric-extract-80-caps",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-turmeric-piperina-80-capsule-sportiv-1.jpg",
+    "alt": "Extract de turmeric cu piperină Prime pe masa din bucătărie, lângă o farfurie cu orez și pui; în fundal un sportiv servește prânzul"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din tabelul de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului turmeric-extract-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "380 mg curcuminoide",
+    "5 mg piperină",
+    "1 capsulă / zi",
+    "80 de zile"
+  ],
+  "titlu": "Turmeric cu piperină: 380 mg de curcuminoide într-o capsulă pe zi",
+  "intro": "O capsulă are [[400 mg]] de extract din rădăcină de turmeric, standardizat la 95%, adică [[380 mg de curcuminoide]]. Lângă el stă extractul de piper negru, cu [[5 mg de piperină]]. Iei o capsulă pe zi, la masă, iar flaconul ajunge [[80 de zile]].",
+  "etichete": [
+    "Curcuma longa",
+    "95% curcuminoide",
+    "Piper negru",
+    "O capsulă pe zi",
+    "Prime Supplements"
+  ],
+  "cifre": [
+    {
+      "valoare": "380",
+      "unitate": "mg",
+      "eticheta": "curcuminoide per capsulă"
+    },
+    {
+      "valoare": "5",
+      "unitate": "mg",
+      "eticheta": "piperină per capsulă"
+    },
+    {
+      "valoare": "95",
+      "unitate": "%",
+      "eticheta": "curcuminoide în extract"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, în timpul mesei"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Extract din rădăcină de turmeric",
+        "valoare": "400 mg"
+      },
+      {
+        "nume": "– din care curcuminoide",
+        "valoare": "380 mg"
+      },
+      {
+        "nume": "Extract din fructe de piper negru",
+        "valoare": "5,3 mg"
+      },
+      {
+        "nume": "– din care piperină",
+        "valoare": "5 mg"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "gelatină, oxid de zinc"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Turmericul Prime",
+    "puncte": [
+      "400 mg de extract de turmeric, standardizat la 95% curcuminoide",
+      "380 mg de curcuminoide într-o capsulă",
+      "Extract de piper negru cu 5 mg de piperină",
+      "O capsulă pe zi, în timpul mesei",
+      "80 de capsule, adică 80 de zile"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CUR",
+        "titlu": "Turmeric · 400 mg",
+        "text": "Extract din rădăcina de Curcuma longa, cu 380 mg de curcuminoide, pigmenții galbeni ai plantei."
+      },
+      {
+        "cod": "PIP",
+        "titlu": "Piper negru · 5,3 mg",
+        "text": "Extract din fructe de Piper nigrum, standardizat la 95% piperină, adică 5 mg."
+      },
+      {
+        "cod": "MDX",
+        "titlu": "Maltodextrină",
+        "text": "Agent de încărcare: umple capsula."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu oxid de zinc. Nu e potrivită pentru vegetarieni sau vegani."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "O capsulă pe zi, preferabil în timpul mesei. Nu depăși doza zilnică recomandată. Nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează. Nu lăsa flaconul la îndemâna copiilor mici.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre turmeric și piperină",
+    "intro": "Turmericul este condimentul care colorează curry-ul în galben. În capsulă îl găsești concentrat și însoțit de piper negru. Iată de ce.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce extractul de turmeric vine cu piper negru?",
+        "raspuns": "Pentru că curcumina singură trece greu în sânge. Într-un studiu din 1998, voluntarii care au luat 2 g de curcumină au avut niveluri în sânge foarte mici sau nedetectabile. Când au primit-o împreună cu 20 mg de piperină, cantitatea ajunsă în sânge a fost de circa 20 de ori mai mare. Capsula ta are 5 mg de piperină, o doză mai mică decât cea din studiu."
+      },
+      {
+        "intrebare": "De ce curcumina se absoarbe greu?",
+        "raspuns": "O recenzie din 2007 dă trei motive: se absoarbe puțin din intestin, se transformă rapid în ficat și în peretele intestinal și se elimină repede. Autorii trec în revistă mai multe soluții, iar prima dintre ele e chiar combinația cu piperina."
+      },
+      {
+        "intrebare": "Ce înseamnă 95% curcuminoide?",
+        "raspuns": "Că din 400 mg de extract, 380 mg sunt curcuminoide, grupul de pigmenți din care face parte curcumina. Pudra de turmeric din bucătărie e rădăcina măcinată, cu mult mai puțini curcuminoizi la gram. Extractul concentrează exact partea colorată a plantei."
+      },
+      {
+        "intrebare": "Curcumina e și colorant alimentar?",
+        "raspuns": "Da. Pe etichetele alimentelor o poți întâlni ca E 100, pe lista coloranților autorizați în Uniunea Europeană. De aici vine galbenul intens al unor brânzeturi, sosuri sau băuturi. În capsulă, însă, e ingredient, nu colorant."
+      },
+      {
+        "intrebare": "Ce plantă este Curcuma longa?",
+        "raspuns": "O rudă a ghimbirului. Partea folosită e rizomul, tulpina subterană care arată ca ghimbirul, dar e portocalie în interior. Se fierbe, se usucă și se macină, iar pulberea obținută e condimentul pe care îl știi. Pentru extract, din rădăcină se scot curcuminoizii, până ajung la 95% din pulbere."
+      },
+      {
+        "intrebare": "De ce o iei la masă și cine nu ar trebui să o ia?",
+        "raspuns": "Eticheta recomandă capsula în timpul mesei, o dată pe zi. Nu se recomandă celor sub 18 ani, femeilor însărcinate sau care alăptează. Capsula e din gelatină, deci nu e potrivită pentru vegetarieni sau vegani."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Shoba G și colab. Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers. Planta Med. 1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+      },
+      {
+        "text": "Anand P și colab. Bioavailability of curcumin: problems and promises. Mol Pharm. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17999464/"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (E 100 curcumină)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      }
+    ]
+  }
+}

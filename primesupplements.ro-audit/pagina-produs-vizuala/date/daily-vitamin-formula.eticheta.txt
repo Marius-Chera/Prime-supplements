@@ -1,0 +1,17 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului daily-vitamin-formula (transcrierea etichetei), citite prin Admin API pe 16.11.2026.
+Denumire pe etichetă: supliment alimentar pentru adulți, sub forma a 30 de pachete (plicuri) ce conțin fiecare câte 5 tablete și 1 capsulă. Brand: Prime Supplements. Fabricat în UE, într-o unitate certificată ISO și HACCP.
+Tableta 1 (vitamina C): vitamina C (acid ascorbic), cătină deshidratată.
+Tableta 2 (complex de vitamine B): niacină (nicotinamidă), acid pantotenic (D-pantotenat de calciu), bitartrat de colină, inozitol, PABA, vitamina B12 (cianocobalamină 0,1%), vitamina B1, vitamina B2, vitamina B6, acid folic, biotină.
+Tableta 3 (complex esențial): potasiu (citrat tripotasic), fier (gluconat feros), vitamina A (beta-caroten), seleniu (L-selenometionină), vitamina E, crom (picolinat de crom), iod (iodură de potasiu).
+Tableta 4: bitartrat de colină, inozitol, L-metionină, extract din semințe de armurariu (Silybum marianum), din care silimarină, glicină, L-lizină, lecitină, acid linoleic conjugat, L-carnitină, alge marine kelp, vitamina B6, biotină, crom.
+Tableta 5 (DigeZyme®): complex multienzimatic (alfa-amilază, protează, lactază, lipază, celulază).
+Capsula (Ca-Mg-Zn-D3): pudră de alge roșii Lithothamnium calcareum (din care calciu și magneziu), zinc (citrat de zinc), vitamina D3 (colecalciferol).
+Ingrediente inactive: celuloză microcristalină, dioxid de siliciu, săruri de magneziu ale acizilor grași, fosfat tricalcic, ulei hidrogenat de bumbac, agenți de glazurare (polivinil, polietilen glicol, talc), învelișul capsulei (gelatină, oxid de zinc).
+Alergeni: produs într-o unitate în care se prelucrează lapte, ou, soia și grâu.
+Per plic (doza zilnică), %VNR: vitamina A 400 µg (50%); vitamina C 650 mg (812,5%); vitamina D3 5 µg (100%); vitamina E 6 mg (50%); vitamina B1 18,6 mg (1691%); vitamina B2 18,6 mg (1329%); niacină 93 mg (581%); acid pantotenic 93 mg (1550%); vitamina B6 19,6 mg (1400%); acid folic 370 µg (185%); biotină 305 µg (610%); vitamina B12 23 µg (920%).
+Minerale per plic: potasiu 375 mg (18,7%); calciu 320 mg (40%); magneziu 30 mg (8%); fier 7 mg (50%); zinc 2,5 mg (25%); iod 50 µg (33,3%); crom 60 µg (150%); seleniu 30 µg (54,5%).
+Alte ingrediente active per plic: bitartrat de colină 593 mg; DigeZyme® 400 mg; inozitol 343 mg; L-metionină 100 mg; extract din semințe de armurariu 100 mg, din care silimarină 80 mg; glicină 75 mg; L-lizină 50 mg; lecitină 50 mg; acid linoleic conjugat 50 mg; PABA 47 mg; L-carnitină 25 mg; cătină deshidratată 150 mg; alge marine kelp 25 mg; pudră de alge roșii Lithothamnium calcareum 1000 mg.
+Cantitate netă: 219,7 g (30 de plicuri). Porții: 30 (o porție = 1 plic = 5 tablete + 1 capsulă). Conținut: 12 vitamine și 8 minerale.
+Mod de administrare: un plic pe zi, în timpul mesei, de preferință dimineața.
+Atenționări: a nu se depăși doza recomandată pentru consumul zilnic; nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Capsula: înveliș din gelatină.
+Păstrare: loc răcoros, ferit de lumină, umiditate și căldură excesivă.

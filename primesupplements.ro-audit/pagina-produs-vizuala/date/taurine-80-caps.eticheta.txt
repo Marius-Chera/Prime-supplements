@@ -1,0 +1,6 @@
+Sursa: Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului taurine-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.
+Denumire: taurină 1000 mg, capsule. Brand: Prime Supplements.
+Ingrediente: taurină. Ingrediente inactive: agent de încărcare (celuloză microcristalină), agenți antiaglomeranți (ulei hidrogenat de bumbac, dioxid de siliciu, stearat de magneziu).
+Per capsulă: taurină 1000 mg.
+Cantitate: 80 de capsule (greutate netă 114,4 g). Porții: 80.
+Mod de administrare: între 500 mg și 2000 mg de taurină pe zi, cu sau fără alimente (adică cel mult 2 capsule pe zi; 1 capsulă = 1000 mg).

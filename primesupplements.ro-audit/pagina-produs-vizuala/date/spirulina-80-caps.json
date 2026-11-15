@@ -1,0 +1,155 @@
+{
+  "versiune": 1,
+  "handle": "spirulina-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-spirulina-80-capsule-sedinta-sportiv-1.jpg",
+    "alt": "Sportiv cu șapcă întoarsă, la aparatul de tracțiuni din sala Evo Gym, ține în mână flacoanele Prime Spirulina și Silymarin"
+  },
+  "nota_cifre": "Valorile sunt per porție de 2 capsule, adică doza zilnică, din eticheta flaconului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului spirulina-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "1200 mg / porție",
+    "2 capsule / zi",
+    "40 de porții"
+  ],
+  "titlu": "Spirulină: 1200 mg în două capsule pe zi",
+  "intro": "O capsulă are [[600 mg]] de pulbere de spirulină, iar porția zilnică de [[2 capsule]] are [[1200 mg]]. Le iei în timpul sau după masă. Flaconul de [[80 de capsule]] ajunge pentru [[40 de porții]].",
+  "etichete": [
+    "Spirulina platensis",
+    "Pulbere de spirulină",
+    "Două capsule pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "1200",
+      "unitate": "mg",
+      "eticheta": "spirulină per porție"
+    },
+    {
+      "valoare": "600",
+      "unitate": "mg",
+      "eticheta": "spirulină per capsulă"
+    },
+    {
+      "valoare": "2",
+      "unitate": "",
+      "eticheta": "capsule pe zi"
+    },
+    {
+      "valoare": "40",
+      "unitate": "",
+      "eticheta": "porții în flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "2 capsule, la masă sau după"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule, 40 de porții"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O porție (2 capsule)",
+    "randuri": [
+      {
+        "nume": "Pulbere de spirulină (Spirulina platensis)",
+        "valoare": "1200 mg"
+      },
+      {
+        "nume": "Per capsulă",
+        "valoare": "600 mg"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "gelatină, oxid de zinc"
+      },
+      {
+        "nume": "Antiaglomeranți",
+        "valoare": "fosfat tricalcic, amidon modificat din porumb, dioxid de siliciu"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Spirulina Prime",
+    "puncte": [
+      "600 mg de pulbere de spirulină în fiecare capsulă",
+      "1200 mg în porția zilnică de 2 capsule",
+      "Se ia în timpul sau după masă",
+      "80 de capsule, adică 40 de porții",
+      "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "SPI",
+        "titlu": "Spirulină · 1200 mg",
+        "text": "Pulbere din microalga albastru-verde Spirulina platensis, 600 mg în fiecare capsulă."
+      },
+      {
+        "cod": "ANT",
+        "titlu": "Antiaglomeranți",
+        "text": "Fosfat tricalcic, amidon modificat din porumb, săruri de magneziu și dioxid de siliciu, ca pulberea să nu se lipească."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu oxid de zinc. Nu e potrivită pentru vegani."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "2 capsule pe zi, preferabil în timpul sau după masă. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă persoanelor sub 18 ani, femeilor în perioada de sarcină și alăptare. Nu lăsa flaconul la îndemâna copiilor mici.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre spirulină",
+    "intro": "Spirulina arată ca o pulbere verde-închis, dar povestea ei începe în lacuri calde și ajunge până în spațiu. Iată câteva lucruri pe care nu le scrie pe flacon.",
+    "sectiuni": [
+      {
+        "intrebare": "Spirulina este o algă?",
+        "raspuns": "Popular, da, dar tehnic e o cianobacterie, adică un organism microscopic care face fotosinteză. De aceea i se spune „algă albastru-verde”. Numele vine de la forma filamentelor ei, răsucite ca o spirală."
+      },
+      {
+        "intrebare": "Ce conține pulberea de spirulină?",
+        "raspuns": "Mai ales proteine. O recenzie din 2023 arată că biomasa ei are 55–70% proteine, 15–25% carbohidrați și 5–8% acizi grași, plus minerale, vitamine și pigmenți. Porția de două capsule are 1200 mg de pulbere, deci sub un gram de proteine. Nu înlocuiește o masă sau un shake proteic."
+      },
+      {
+        "intrebare": "De unde vine culoarea albastru-verde?",
+        "raspuns": "Din doi pigmenți. Clorofila dă verdele, iar ficocianina dă albastrul. Ficocianina e atât de intensă încât, extrasă separat, se folosește la colorarea unor dulciuri și băuturi în albastru."
+      },
+      {
+        "intrebare": "Chiar a ajuns spirulina în spațiu?",
+        "raspuns": "Da. Aceeași recenzie notează că NASA a folosit-o ca supliment nutritiv pentru astronauți în misiunile spațiale, iar de aici i-a crescut popularitatea. Motivul era simplu: multă hrană într-un volum foarte mic."
+      },
+      {
+        "intrebare": "De ce scrie Spirulina platensis pe etichetă?",
+        "raspuns": "E numele științific folosit tradițional în comerț. Botaniștii o încadrează azi în genul Arthrospira, așa că în studii o vei găsi des ca Arthrospira platensis. E același organism. Pulberea se obține prin uscarea și măcinarea biomasei, apoi se pune în capsule de câte 600 mg."
+      },
+      {
+        "intrebare": "Cum și când o iei?",
+        "raspuns": "Două capsule pe zi, în timpul sau după masă, așa cum scrie pe etichetă. Capsulele sunt din gelatină, deci produsul nu e potrivit pentru vegani. Nu se recomandă celor sub 18 ani și femeilor însărcinate sau care alăptează. Un flacon ajunge pentru 40 de zile; păstrează-l la loc răcoros, ferit de lumină și umiditate."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Maddiboyina B și colab. Food and drug industry applications of microalgae Spirulina platensis: A review. J Basic Microbiol. 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36720046/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, valorile de referință)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

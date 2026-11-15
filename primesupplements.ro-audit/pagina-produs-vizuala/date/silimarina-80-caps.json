@@ -1,0 +1,157 @@
+{
+  "versiune": 1,
+  "handle": "silimarina-80-caps",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-silimarina-80-capsule-sedinta-sportiv-1.jpg",
+    "alt": "Flacoanele Prime Silymarin și Spirulina pe aparatul din sala Evo Gym; în spate un sportiv tatuat face tracțiuni la helcometru"
+  },
+  "nota_cifre": "Valorile sunt per capsulă, adică doza zilnică, din eticheta flaconului.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului silimarina-80-caps (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "352 mg silimarină",
+    "80% standardizat",
+    "1 capsulă / zi",
+    "80 de zile"
+  ],
+  "titlu": "Silimarină: 352 mg într-o capsulă pe zi, din extract de armurariu",
+  "intro": "O capsulă are [[440 mg]] de extract din semințe de armurariu, standardizat la [[80% silimarină]], adică [[352 mg]]. O iei o dată pe zi, în timpul sau după masă, iar flaconul de [[80 de capsule]] ajunge [[80 de zile]].",
+  "etichete": [
+    "Silybum marianum",
+    "Armurariu",
+    "80% silimarină",
+    "O capsulă pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "352",
+      "unitate": "mg",
+      "eticheta": "silimarină per capsulă"
+    },
+    {
+      "valoare": "440",
+      "unitate": "mg",
+      "eticheta": "extract de armurariu"
+    },
+    {
+      "valoare": "80",
+      "unitate": "%",
+      "eticheta": "silimarină în extract"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "zile într-un flacon"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 capsulă, la masă sau după"
+    },
+    {
+      "titlu": "Flacon",
+      "text": "80 de capsule"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă",
+    "randuri": [
+      {
+        "nume": "Extract din semințe de armurariu",
+        "valoare": "440 mg"
+      },
+      {
+        "nume": "– din care silimarină",
+        "valoare": "352 mg"
+      },
+      {
+        "nume": "Maltodextrină",
+        "valoare": "agent de încărcare"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "gelatină, oxid de zinc"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Silimarina Prime",
+    "puncte": [
+      "440 mg de extract din semințe de armurariu",
+      "Standardizat la 80%, adică 352 mg de silimarină",
+      "O capsulă pe zi, în timpul sau după masă",
+      "80 de capsule, adică 80 de zile",
+      "Fabricat în UE"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "SIL",
+        "titlu": "Armurariu · 440 mg",
+        "text": "Extract din semințele de Silybum marianum, cu 352 mg de silimarină."
+      },
+      {
+        "cod": "MDX",
+        "titlu": "Maltodextrină",
+        "text": "Agent de încărcare: umple capsula."
+      },
+      {
+        "cod": "GEL",
+        "titlu": "Capsulă de gelatină",
+        "text": "Cu oxid de zinc. Nu e potrivită pentru vegani."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "1 capsulă pe zi, preferabil în timpul sau după masă. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă persoanelor sub 18 ani, femeilor însărcinate sau care alăptează. Nu lăsa flaconul la îndemâna copiilor mici.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre silimarină și armurariu",
+    "intro": "Armurariul e un ciulin cu flori mov pe care îl vezi pe marginea drumurilor. Din semințele lui vine silimarina. Iată ce este și cum citești eticheta.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce plantă este armurariul?",
+        "raspuns": "Un ciulin din familia Asteraceae, cu numele latin Silybum marianum. O recenzie din 2018 notează că oamenii îl folosesc de aproximativ 2000 de ani. Frunzele au nervuri albe, ca niște dungi de lapte, de unde și numele popular de „ciulinul laptelui” din alte limbi."
+      },
+      {
+        "intrebare": "Ce este, de fapt, silimarina?",
+        "raspuns": "Nu e o singură substanță, ci un amestec de compuși numiți flavonolignani, extras din fructele plantei. Cel mai abundent dintre ei e silibina, numită și silibinină. Alături de ea apar silidianina și silicristina."
+      },
+      {
+        "intrebare": "Ce înseamnă „standardizat la 80%”?",
+        "raspuns": "Că fiecare lot de extract are aceeași proporție de silimarină. Din cele 440 mg de extract din capsulă, 80% sunt silimarină, adică 352 mg. Fără standardizare, cantitatea ar varia de la o recoltă la alta. Așa poți compara corect două produse: uită-te la miligramele de silimarină, nu doar la cele de extract."
+      },
+      {
+        "intrebare": "Se absoarbe ușor silimarina?",
+        "raspuns": "Nu foarte bine. O recenzie din 2005 explică faptul că silibina, ca multe flavonoide, trece greu din mediul apos al intestinului prin membranele grase ale celulelor. De aceea cercetătorii au testat forme legate de fosfolipide. Capsula ta conține extractul standard, iar eticheta recomandă să o iei în timpul sau după masă."
+      },
+      {
+        "intrebare": "Cine nu ar trebui să ia silimarină?",
+        "raspuns": "Eticheta nu o recomandă celor sub 18 ani și femeilor însărcinate sau care alăptează. Capsula e din gelatină, deci nu e potrivită pentru vegani. Dacă iei medicamente, întreabă-ți medicul înainte."
+      },
+      {
+        "intrebare": "Cât ține un flacon și cum îl păstrezi?",
+        "raspuns": "Un flacon de silimarină ține 80 de zile, la o capsulă pe zi. Păstrează flaconul la loc răcoros, ferit de lumină, umiditate și căldură excesivă, și închide-l bine după fiecare folosire. Pe lângă extract, capsula conține maltodextrină ca agent de încărcare, plus dioxid de siliciu și săruri de magneziu, care împiedică pulberea să se lipească."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Abenavoli L și colab. Milk thistle (Silybum marianum): A concise overview on its chemistry, pharmacological, and nutraceutical uses. Phytother Res. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30080294/"
+      },
+      {
+        "text": "Kidd P, Head K. A review of the bioavailability and efficacy of milk thistle phytosome. Altern Med Rev. 2005",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16164374/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
+  }
+}

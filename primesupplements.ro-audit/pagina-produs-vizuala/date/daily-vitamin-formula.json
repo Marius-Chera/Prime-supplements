@@ -1,0 +1,214 @@
+{
+  "versiune": 1,
+  "handle": "daily-vitamin-formula",
+  "tema": "portocaliu",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-daily-vitamin-formula-30-plicuri-sportiv-1.jpg",
+    "alt": "Tubul Daily Vitamin Formula Prime și un plic pe masa de la micul dejun, lângă un bol cu ovăz; în fundal un sportiv bea un pahar cu apă"
+  },
+  "nota_cifre": "Valorile sunt pentru un plic, adică doza zilnică, din tabelul de pe cutie.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente și custom.detalii_produs ale produsului daily-vitamin-formula (transcrierea etichetei), citite prin Admin API pe 16.11.2026.",
+  "badge": [
+    "12 vitamine",
+    "8 minerale",
+    "1 plic / zi",
+    "30 de plicuri"
+  ],
+  "titlu": "Daily Vitamin Formula: 12 vitamine și 8 minerale într-un plic pe zi",
+  "intro": "Un plic are [[5 tablete și o capsulă]], împărțite pe grupe: vitamina C, complexul B, minerale, enzime și capsula cu calciu, magneziu, zinc și D3. Împreună dau [[12 vitamine și 8 minerale]], de exemplu [[650 mg de vitamina C]] și [[19,6 mg de vitamina B6]]. Iei un plic pe zi, la masă, de preferință dimineața; cutia are [[30 de plicuri]].",
+  "etichete": [
+    "Multivitamine",
+    "12 vitamine",
+    "8 minerale",
+    "Enzime DigeZyme®",
+    "Un plic pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "650",
+      "unitate": "mg",
+      "eticheta": "vitamina C per plic"
+    },
+    {
+      "valoare": "19,6",
+      "unitate": "mg",
+      "eticheta": "vitamina B6 per plic"
+    },
+    {
+      "valoare": "320",
+      "unitate": "mg",
+      "eticheta": "calciu per plic"
+    },
+    {
+      "valoare": "30",
+      "unitate": "",
+      "eticheta": "plicuri în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Pe zi",
+      "text": "1 plic, la masă, dimineața"
+    },
+    {
+      "titlu": "Plic",
+      "text": "5 tablete + 1 capsulă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Un plic (%VNR)",
+    "randuri": [
+      {
+        "nume": "Vitamina C",
+        "valoare": "650 mg (812,5%)"
+      },
+      {
+        "nume": "Vitamina B6",
+        "valoare": "19,6 mg (1400%)"
+      },
+      {
+        "nume": "Vitamina B12",
+        "valoare": "23 µg (920%)"
+      },
+      {
+        "nume": "Vitamina D3",
+        "valoare": "5 µg (100%)"
+      },
+      {
+        "nume": "Calciu",
+        "valoare": "320 mg (40%)"
+      },
+      {
+        "nume": "Fier",
+        "valoare": "7 mg (50%)"
+      },
+      {
+        "nume": "Zinc",
+        "valoare": "2,5 mg (25%)"
+      },
+      {
+        "nume": "Crom",
+        "valoare": "60 µg (150%)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Daily Vitamin Formula",
+    "puncte": [
+      "12 vitamine și 8 minerale, cu cantitățile pe etichetă",
+      "5 tablete și o capsulă într-un plic, împărțite pe grupe",
+      "Complex de enzime DigeZyme®, 400 mg",
+      "Calciu și magneziu din alge roșii Lithothamnium calcareum",
+      "Un plic pe zi, la masă, de preferință dimineața",
+      "30 de plicuri, fabricat în UE"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "C",
+        "titlu": "Vitamina C · 650 mg",
+        "text": "Vitamina C contribuie la funcționarea normală a sistemului imunitar și la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "B6",
+        "titlu": "Vitamina B6 · 19,6 mg",
+        "text": "Vitamina B6 contribuie la metabolismul energetic normal și la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "D3",
+        "titlu": "Vitamina D3 · 5 µg",
+        "text": "Vitamina D contribuie la funcționarea normală a sistemului imunitar.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "ZN",
+        "titlu": "Zinc · 2,5 mg",
+        "text": "Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "CR",
+        "titlu": "Crom · 60 µg",
+        "text": "Cromul contribuie la metabolismul normal al macronutrienților.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "K",
+        "titlu": "Potasiu · 375 mg",
+        "text": "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "ENZ",
+        "titlu": "DigeZyme® · 400 mg",
+        "text": "Complex de enzime: alfa-amilază, protează, lactază, lipază și celulază."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alge roșii · 1000 mg",
+        "text": "Pudră de Lithothamnium calcareum, sursa de calciu și magneziu din capsulă."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un plic pe zi, în timpul mesei, de preferință dimineața. Nu depăși doza recomandată pentru consumul zilnic. Nu se recomandă copiilor și femeilor în perioada de sarcină sau alăptare. Capsula are înveliș din gelatină.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre Daily Vitamin Formula",
+    "intro": "Un multivitamin obișnuit e o singură tabletă. Aici primești un plic cu șase bucăți. Iată de ce și cum citești cifrele de pe cutie.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce sunt cinci tablete și o capsulă într-un plic?",
+        "raspuns": "Pentru că ingredientele sunt împărțite pe grupe. Prima tabletă are vitamina C, a doua complexul B, a treia minerale ca fierul și seleniul, a patra colina, inozitolul și aminoacizii, iar a cincea enzimele DigeZyme®. Capsula adună calciul, magneziul, zincul și vitamina D3."
+      },
+      {
+        "intrebare": "Ce înseamnă procentul VNR?",
+        "raspuns": "Cât din valoarea nutrițională de referință pentru un adult acoperă un plic. Valorile sunt stabilite de regulamentul european privind informarea consumatorilor. La vitamina C scrie 812,5%, adică 650 mg. Un studiu din 1996 pe voluntari a arătat că la doze unice de peste 500 mg absorbția scade, iar surplusul se elimină prin urină."
+      },
+      {
+        "intrebare": "De ce dimineața, la masă?",
+        "raspuns": "Așa recomandă eticheta, iar pentru vitamina D masa contează. Într-un studiu din 2015 pe 50 de adulți, vârful de vitamina D3 în sânge a fost cu 32% mai mare când doza a fost luată la o masă cu grăsimi, față de una fără grăsimi."
+      },
+      {
+        "intrebare": "Ce sunt algele Lithothamnium calcareum?",
+        "raspuns": "Alge roșii care își construiesc scheletul din calcar. Măcinate, dau o pudră bogată în calciu și magneziu. În capsulă sunt 1000 mg de pudră, din care vin cele 320 mg de calciu ale plicului."
+      },
+      {
+        "intrebare": "Pot lua și alte suplimente cu vitamine?",
+        "raspuns": "Verifică întâi etichetele, ca să nu dublezi aceleași vitamine. O analiză din 2017 pe peste 10.000 de adulți a găsit că cei care iau suplimente ating mai des aportul recomandat, dar și că sunt ușor mai mulți cei care trec peste limita maximă."
+      },
+      {
+        "intrebare": "Ce este DigeZyme® din a cincea tabletă?",
+        "raspuns": "Un complex de cinci enzime, 400 mg pe plic. Alfa-amilaza lucrează pe amidon, proteaza pe proteine, lactaza pe zahărul din lapte, lipaza pe grăsimi, iar celulaza pe fibrele vegetale. Numele fiecărei enzime spune pe ce substanță acționează. Pe etichetă, DigeZyme® apare ca marcă înregistrată, cu cantitatea totală de 400 mg pe plic."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Levine M și colab. Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance. Proc Natl Acad Sci U S A. 1996",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8623000/"
+      },
+      {
+        "text": "Dawson-Hughes B și colab. Dietary fat increases vitamin D-3 absorption. J Acad Nutr Diet. 2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25441954/"
+      },
+      {
+        "text": "Blumberg JB și colab. Contribution of Dietary Supplements to Nutritional Adequacy in Various Adult Age Groups. Nutrients. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29211007/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, valorile de referință)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

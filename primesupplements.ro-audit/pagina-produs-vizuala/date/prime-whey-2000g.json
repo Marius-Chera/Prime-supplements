@@ -15,7 +15,7 @@
     "7 arome"
   ],
   "titlu": "Prime Whey 2 kg: în jur de 24 g de proteine în fiecare porție",
-  "intro": "O porție de [[30 g]] (o măsură) are în jur de [[24 g de proteine]], în funcție de aromă: [[24,4 g]] la Bourbon Vanilla, conform declarației nutriționale de pe tub. Tubul de [[2 kg]] are [[66 de porții]], în șapte arome, cu glicină și L-lizină adăugate.",
+  "intro": "Prime Whey are în jur de [[24 g de proteine]] într-o porție de [[30 g]] (o măsură), în funcție de aromă: [[24,4 g]] la Bourbon Vanilla, conform declarației nutriționale de pe tub. Tubul de [[2 kg]] are [[66 de porții]], în șapte arome, cu glicină și L-lizină adăugate.",
   "etichete": [
     "Concentrat proteic din zer",
     "Glicină și L-lizină",
@@ -171,34 +171,38 @@
     "arome: declarația nutrițională și ingredientele exacte sunt transcrise doar pentru Bourbon Vanilla (și ingredientele în plus la Salted Caramel); restul aromelor de citit de pe tub"
   ],
   "curiozitati": {
-    "titlu": "Curiozități despre proteina din zer",
-    "intro": "Pudra din tub începe ca un lichid care rămâne după ce se face brânza. Iată pe scurt drumul zerului până în shaker și câteva lucruri utile despre cum îl folosești.",
+    "titlu": "Știați că? Prime Whey are 81,5 g de proteine la 100 g",
+    "intro": "Prime Whey este un concentrat proteic din zer în care peste patru cincimi din pudră sunt proteine. Iată ce înseamnă procentul de proteine, cum îl verifici singur pe orice tub și de ce contează mai mult decât gramele dintr-o porție.",
     "sectiuni": [
       {
-        "intrebare": "De unde vine zerul?",
-        "raspuns": "Din lapte, la fabricarea brânzei. Când laptele se închegă, cazeina formează cașul, iar lichidul gălbui care rămâne este zerul. Multă vreme a fost tratat ca un produs secundar al brânzeturilor. Azi, din el se obțin pudrele proteice ca Prime Whey."
+        "intrebare": "Câte proteine are Prime Whey la 100 g?",
+        "raspuns": "Prime Whey are 81,5 g de proteine la 100 g de pudră, conform declarației nutriționale a aromei Bourbon Vanilla. Asta înseamnă că 81,5% din conținutul tubului este proteină. O măsură de 30 g îți dă 24,4 g de proteine, iar restul porției sunt 2,0 g de grăsimi, 1,3 g de carbohidrați, aromă și îndulcitori."
       },
       {
-        "intrebare": "Cum ajunge zerul lichid să fie pudră?",
-        "raspuns": "Prin filtrare și uscare. Zerul trece prin membrane fine care rețin proteinele și lasă să treacă o mare parte din apă, lactoză și minerale. Concentratul rezultat se usucă prin pulverizare în aer cald și devine o pudră fină, la care se adaugă apoi aromele și îndulcitorii. Concentratul păstrează puțină grăsime și lactoză; izolatul mai trece printr-o filtrare."
+        "intrebare": "De ce contează procentul de proteine, nu doar porția?",
+        "raspuns": "Pentru că porția o alege fiecare producător, dar coloana „la 100 g” e aceeași pentru toți. Regulamentul european privind informarea consumatorilor cere declarația nutrițională raportată la 100 g, tocmai ca produsele să poată fi comparate. Pe piață găsești și pudre cu 60–65 g de proteine la 100 g. La ele, o treime din tub e altceva decât proteină: zahăr, maltodextrină sau alți carbohidrați."
       },
       {
-        "intrebare": "Câtă proteină ai nevoie într-o zi?",
-        "raspuns": "Depinde de greutate și de antrenament. Poziția oficială a Societății Internaționale de Nutriție Sportivă (2017) indică 1,4–2,0 g de proteine pe kilogram de corp pe zi pentru majoritatea celor care se antrenează, împărțite în porții de 20–40 g la 3–4 ore. O măsură de Prime Whey are 24,4 g de proteine la aroma Bourbon Vanilla. Proteinele contribuie la creșterea masei musculare."
+        "intrebare": "Cum calculezi singur procentul de proteine?",
+        "raspuns": "Împarți proteinele dintr-o porție la gramajul porției și înmulțești cu 100. La Prime Whey: 24,4 g împărțit la 30 g dă 81,3%, practic aceeași valoare cu cea din coloana de 100 g. Dacă o pudră are 20 g de proteine într-o porție de 33 g, procentul ei este de doar 60%."
       },
       {
-        "intrebare": "Trebuie să bei shake-ul imediat după antrenament?",
-        "raspuns": "Nu neapărat. Aceeași poziție ISSN arată că momentul ține mai ales de cum te simți tu, iar ce contează e cantitatea totală de proteine din zi. Shake-ul merge dimineața, între mese sau după sală, cum îți e mai comod."
+        "intrebare": "Ce înseamnă „concentrat proteic din zer”?",
+        "raspuns": "Este zerul rămas de la fabricarea brânzei, concentrat prin filtrare. Zerul trece prin membrane fine care rețin proteinele și lasă să treacă o mare parte din apă, lactoză și minerale. Concentratul se usucă apoi prin pulverizare și devine pudră. Cu cât filtrarea e mai bună, cu atât procentul de proteine crește, iar la Prime Whey trece de 80%."
       },
       {
-        "intrebare": "Cum folosești proteina din zer în bucătărie?",
-        "raspuns": "O amesteci în ovăz, iaurt, clătite sau smoothie. La căldură mare proteina se coagulează, ca albușul de ou, dar cantitatea de proteine rămâne aceeași. Ca să nu facă cocoloașe, adaug-o în terci după ce l-ai luat de pe foc. În clătite, înlocuiește o parte din făină și adaugă puțin lichid în plus."
+        "intrebare": "Câtă proteină îți trebuie pe zi?",
+        "raspuns": "Între 1,4 și 2,0 g de proteine pe kilogram de corp pe zi, pentru majoritatea celor care se antrenează. Așa arată poziția Societății Internaționale de Nutriție Sportivă din 2017, cu porții de 20–40 g la 3–4 ore. O măsură de Prime Whey, cu 24,4 g, intră exact în acest interval. Proteinele contribuie la creșterea masei musculare. Tubul de 2 kg are 66 de porții, în șapte arome."
       }
     ],
     "surse": [
       {
         "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
         "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (declarația nutrițională la 100 g)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       },
       {
         "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",

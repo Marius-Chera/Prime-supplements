@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 22:42 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 22:53 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 47; cu Curiozități: 47; cu sportivă în dreapta: 46; scrise pe PILOT (metafield) cu versiunea curentă: 47.
+Rezumat: **80 produse**; JSON pagină vizuală: 52; cu Curiozități: 52; cu sportivă în dreapta: 51; scrise pe PILOT (metafield) cu versiunea curentă: 52.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -54,12 +54,12 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | daily-vitamin-formula | 14971467235703 | Daily Vitamin Formula – vitamine și minerale, 30 de plicuri | da | da (332) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt) |
 | spirulina-80-caps | 14971469889911 | Spirulină Prime – 80 de capsule | da | da (301) | da | pagină 16.11 + curiozități 16.11; sportiv (cadru real Evo Gym) |
 | silimarina-80-caps | 14971469988215 | Extract de silimarină – 80 de capsule | da | da (324) | da | pagină 16.11 + curiozități 16.11; sportiv (cadru real Evo Gym) |
-| enzima-nattokinaza-80-caps | 14971470053751 | Enzimă nattokinază – 60 de capsule | **nu** | **nu** | **nu** | – |
-| scortisoara-ceylon-bio-200g | 14971466711415 | Scorțișoară de Ceylon pudră bio – 200 g | **nu** | **nu** | **nu** | – |
-| water-out-120-caps | 14971465433463 | Water Out – 120 capsule cu extracte din plante | **nu** | **nu** | **nu** | – |
-| thermo-core-120-caps | 14971465597303 | Thermo Core – 120 capsule cu L-carnitină și ceai verde | **nu** | **nu** | **nu** | – |
+| enzima-nattokinaza-80-caps | 14971470053751 | Enzimă nattokinază – 60 de capsule | da | da (326) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt); scor 100/100 |
+| scortisoara-ceylon-bio-200g | 14971466711415 | Scorțișoară de Ceylon pudră bio – 200 g | da | da (308) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt); scor 100/100 |
+| water-out-120-caps | 14971465433463 | Water Out – 120 capsule cu extracte din plante | da | da (309) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt); scor 100/100 |
+| thermo-core-120-caps | 14971465597303 | Thermo Core – 120 capsule cu L-carnitină și ceai verde | da | da (301) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt); scor 100/100 |
 | complete-collagen | 14971466088823 | Colagen hidrolizat lichid Complete Collagen – 500 ml | da | da (314) | da | pagină + curiozități 15.11 |
-| testo-revive-500-ml | 14971464810871 | Tinctură din plante Testo Revive – 500 ml | **nu** | **nu** | **nu** | – |
+| testo-revive-500-ml | 14971464810871 | Tinctură din plante Testo Revive – 500 ml | da | da (329) | da | pagină 16.11 + curiozități 16.11; sportiv (OpenArt); scor 100/100 |
 | cardio-calm-500-ml | 14971464876407 | Tinctură din plante Cardio Calm – 500 ml | **nu** | **nu** | **nu** | – |
 | water-out-500-ml | 14971469005175 | Water Out Prime Health – tinctură din plante, 500 ml | **nu** | **nu** | **nu** | – |
 | energy-pump | 14971468251511 | Energy Pump Shot – pre-workout lichid, fiole de 25 ml | **nu** | **nu** | **nu** | – |

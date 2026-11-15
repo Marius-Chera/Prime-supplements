@@ -1,6 +1,6 @@
 # Cum continui paginile vizuale + „Curiozități” (pentru sesiunea următoare)
 
-Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/inventar.mjs`).
+**Stare la 16.11.2026: 52/80 pe PILOT; rămân 28 (Cardio Calm, Water Out 500 ml, Energy Pump, Fat Burning Booster, unturile de arahide și caju, 3 batoane, 19 Frutilu), iar paginile de dinainte de 16.11 trebuie aduse la scorul SEO/AI 100/100.** Stare veche (15.11): vezi `TOATE-PRODUSELE.md` (generat de `scripts/inventar.mjs`).
 - 23 de produse au pagină vizuală + „Curiozități”, scrise pe tema PILOT `194315649399` și verificate (desktop + 375 px).
 - Lotul 3 (15.11): Ashwagandha, Recovery Glutamin, Complete Collagen, baton căpșuni – scrise pe PILOT.
 - **Rămân 38 de produse fără pagină** (lotul 4 din 15.11 noaptea: Creamy Rice fără aromă + sirop de arțar, Combat Pro 2.0, Emperor Mass, Whey Go; Recovery BCAA are acum sportivă) (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40

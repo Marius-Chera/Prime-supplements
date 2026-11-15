@@ -1062,3 +1062,17 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **reparat** „idToken unavailable” (De comandat): aplicația reîncearcă tokenul Shopify și, dacă tot nu merge, spune „reîncarcă pagina”.
 
   Versiunea eb365fbf. Cerute de Marius. Neverificat încă în aplicație.
+- **15.11, noaptea – sumele afiliaților identice cu UpPromote (cerut de Marius).** Am importat exportul UpPromote de comenzi din 14.11: 3.022 de rânduri. Fișierul e doar în folderul local de backup.
+  - Pentru fiecare comandă, statusul și suma vin din UpPromote: Paid → plătit, Approved → aprobat, Pending → în așteptare, Denied → respins. Au fost 472 de actualizări și 2.432 de rânduri de istoric (`up-ref:`).
+  - **Rezultat:** 74 din 79 de afiliați au „în așteptare”, „aprobat” și „plătit” identice la ban. Exemple:
+    - Raul Trip: 297,69 / 0 / 7.553,92;
+    - Cosmin Bostan: 33,21 / 0 / 3.006,12.
+  - **Cosmin Bostan** și-a generat voucherul de 618,03 lei pe 12.11 și l-a folosit. Nu are credit pierdut.
+  - **Ce intră doar la recitirea automată de la 03:17:** comenzile cu G3O10, Darius10 și Zeus de după 9.11.
+  - **Unde aplicația dă mai mult decât UpPromote:** 5 comenzi pe care UpPromote nu le înregistrase, la Georgian Drăgoi, Petruț Paiș și Andrei BTY.
+  - **Cum se calculează acum:**
+    - comisionul se calculează și pe transportul plătit de client, ca în UpPromote (Marius: „Ca în UpPromote”);
+    - „aprobat” include și creditul aprobat din care afiliatul nu și-a generat voucherul, iar „plătit” include istoricul UpPromote.
+  - **Codurile, după exportul UpPromote:** Darius10 e al lui Darius-Adrian Stana, nu al lui Darius Ardelean, iar Zeus e al lui Madalin Nuica.
+  - **Plăți deja făcute:** 10 comenzi din 3–10.11 erau deja plătite în UpPromote și au fost trecute la „plătit”. Plata 3 a fost ștearsă (Ana Hojdea, 33,21 lei, plătită deja în UpPromote).
+  - Copia tabelei înainte de import e în folderul de backup.

@@ -67,6 +67,10 @@ function evalueaza(h) {
 }
 
 // Tab-ul „Beneficii cheie” vizual (câmpul „beneficii”, 16.11.2026): scor separat, SEO + AI din 100.
+// texte din „Beneficii” folosite la mai multe produse (fără mențiunile autorizate, care sunt identice prin lege)
+const folositBen = {};
+for (const [h, d] of Object.entries(toate)) { const b = d.beneficii; if (!b) continue;
+  for (const t of [b.titlu, b.intro, ...(b.carduri || []).filter(c => !c.mentiune_autorizata).map(c => c.text), ...(b.de_ce?.puncte || [])]) if (t) (folositBen[fara(t)] ||= new Set()).add(h); }
 function evalBen(h) {
   const d = toate[h]; const b = d.beneficii; if (!b) return null; const k = cheie(h);
   const are = t => !!k && fara(t).includes(k);
@@ -83,7 +87,7 @@ function evalBen(h) {
     [10, (b.cifre || []).length === 3, 'trebuie exact 3 cifre mari'],
     [10, (b.pasi || []).length >= 3, 'sub 3 pași „Cum îl iei”'],
     [10, are(b.de_ce?.titlu) || /\?$/.test(b.de_ce?.titlu || ''), 'titlul „De ce” nu numește produsul și nu e întrebare'],
-    [10, n >= 90 && n <= 260, `${n} cuvinte (90–260)`],
+    [10, n >= 90 && n <= 260 && ![b.titlu, b.intro, ...car.filter(c => !c.mentiune_autorizata).map(c => c.text), ...(b.de_ce?.puncte || [])].some(t => t && folositBen[fara(t)]?.size > 1), `${n} cuvinte (90–260) sau texte copiate de la alt produs`],
   ]);
   const ai = scor([
     [20, cuv(prima(b.intro)) <= 30, 'prima frază din intro are peste 30 de cuvinte'],

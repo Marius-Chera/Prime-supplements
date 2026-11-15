@@ -1077,3 +1077,18 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Plăți deja făcute:** 10 comenzi din 3–10.11 erau deja plătite în UpPromote și au fost trecute la „plătit”. Plata 3 a fost ștearsă (Ana Hojdea, 33,21 lei, plătită deja în UpPromote).
   - Copia tabelei înainte de import e în folderul de backup.
   - **Marius, despre cele 5 comenzi pe care UpPromote nu le avea:** „Da, rămân”. Afiliații respectivi văd puțin mai mult decât în UpPromote.
+- 15.11 (02:30): Total Admin – Încasări: **căsuță de căutare sub fiecare coloană: Client, Nume pe factură, Comanda, Factura, OP / decont**. Cerută de Marius: „când contabila caută o anume factură să o găsească imediat”.
+  - Se caută fără diacritice și fără majuscule. La Comanda, Factura și OP nu contează spațiile, „PRS”, „Nr.” sau „#” („16318” = „PRS 16318”), iar OP-ul se găsește și după dată.
+  - Căsuțele se combină între ele, cu căutarea generală de deasupra (care caută și după AWB) și cu filtrul „de verificat”.
+  - Deasupra tabelului apar numărul de încasări găsite și suma încasată, plus butonul „Șterge căutarea”. Exemplu: un OP Cargus din noiembrie = 13 încasări, 4.334,92 lei.
+  - Antetul cu căsuțele rămâne fix când derulezi tabelul.
+  - Textul de pe cardul „de verificat” nu se mai taie („arată doar acestea” / „arată toate”).
+  - **Verificat în admin, inclusiv schimbările de mai devreme, nevăzute până acum:**
+    - coloana „Nume pe factură”;
+    - căutarea generală;
+    - cardul „de verificat” ca filtru, în ambele sensuri;
+    - ✎ pe rândurile cu și fără factură (se deschide formularul cu comanda, factura și bifa agentului);
+    - „De comandat” se încarcă fără „idToken unavailable” (29 urgente, 6 de comandat, 51 de produse fără furnizor);
+    - sincronizarea stocului: 438/438, ultima verificare la 02:00.
+  - Butoanele „✓ Aplică PRS …” nu au apărut, pentru că acum nu există nicio sugestie: în octombrie au rămas 2 încasări de verificat, în noiembrie 4, niciuna cu factură propusă.
+  - 120 de teste, versiunea 581f9fe4.

@@ -472,3 +472,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Comisionul se calculează și pe transportul plătit de client, ca în UpPromote (Marius: „Ca în UpPromote”), deși contractul spune „fără transport”.
 - Codurile G3O10 (al lui Georgian Drăgoi), Darius10 (al lui Darius-Adrian Stana, după export) și Zeus (al lui Madalin Nuica) sunt legate de afiliați.
 - Cele 5 comenzi pe care UpPromote nu le înregistrase (Georgian Drăgoi, Petruț Paiș, Andrei BTY) rămân la afiliați. Marius: „Da, rămân”.
+- **15.11 – Total Admin, căutarea din Încasări (Marius):** „câmpul CLIENT, COMANDA, NUMELE DE PE FACTURĂ, FACTURA și OP/DECONT să aibă o căsuță de search … când contabila caută o anume factură să o găsească imediat”. Făcut: câte o căsuță sub fiecare dintre cele 5 coloane. Alese de Claude: căutarea generală de deasupra rămâne (caută și după AWB); la orice căutare apare și suma încasată pe rândurile găsite.

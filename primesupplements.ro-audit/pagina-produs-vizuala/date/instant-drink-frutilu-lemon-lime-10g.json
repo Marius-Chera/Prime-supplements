@@ -170,5 +170,86 @@
         "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Frutilu cu lămâie și lime: ce primești dintr-un plic de 10 g",
+    "intro": "Frutilu cu lămâie și lime transformă apa simplă într-o băutură cu gust de lămâie și lime, fără zahăr adăugat. Aici vezi ce primești din plic și cum îl folosești.",
+    "conditie": "O doză: un plic de 10 g dizolvat în 1,5 L de apă",
+    "cifre": [
+      {
+        "valoare": "10",
+        "unitate": "g",
+        "eticheta": "pudră într-un plic"
+      },
+      {
+        "valoare": "1,5",
+        "unitate": "L",
+        "eticheta": "de băutură dintr-un plic"
+      },
+      {
+        "valoare": "6",
+        "unitate": "",
+        "eticheta": "pahare de 250 ml dintr-un plic"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Gust de lămâie și lime",
+        "text": "Plicul de 10 g de Frutilu cu lămâie și lime dă 1,5 L de băutură cu gust de lămâie și lime.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Fără zahăr adăugat",
+        "text": "Frutilu cu lămâie și lime e îndulcit cu stevia, fără zahăr adăugat, aspartam sau acesulfam K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Vitamina C",
+        "text": "Pudra Frutilu cu lămâie și lime conține vitamina C; cantitatea exactă e trecută pe plic.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "frunza",
+        "titlu": "Vegană, fără gluten",
+        "text": "Formula Frutilu cu lămâie și lime e vegană, fără gluten și fără lactoză, conform specificațiilor.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Frutilu cu lămâie și lime?",
+      "puncte": [
+        "Lime aduce aroma, iar lămâia aciditatea, așa că gustul de citrice e complet.",
+        "Un plic Frutilu cu lămâie și lime ajunge pentru 1,5 L de băutură, adică 6 pahare de 250 ml.",
+        "Frutilu cu lămâie și lime se servește cu gheață, mentă și lămâie."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Dizolvă plicul",
+        "text": "Pune 10 g de pudră în 1,5 L de apă rece și amestecă până dispare."
+      },
+      {
+        "titlu": "Servește rece",
+        "text": "Cel mai bine cu gheață, mentă și lămâie."
+      },
+      {
+        "titlu": "Bea în aceeași zi",
+        "text": "Bea-o în aceeași zi, rece."
+      }
+    ],
+    "nota": "Doza de pe plic este un plic de 10 g la 1,5 L de apă. Ingredientele nu au mențiuni de sănătate autorizate; lista completă e pe plic.",
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
   }
 }

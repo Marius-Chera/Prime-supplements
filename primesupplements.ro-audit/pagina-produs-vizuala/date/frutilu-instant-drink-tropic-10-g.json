@@ -163,5 +163,86 @@
         "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1459"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Frutilu Tropic: ce primești dintr-un plic de 10 g",
+    "intro": "Frutilu Tropic transformă apa simplă într-o băutură cu gust de fructe tropicale, fără zahăr adăugat. Aici vezi ce primești din plic și cum îl folosești.",
+    "conditie": "O doză: un plic de 10 g dizolvat în 1,5 L de apă",
+    "cifre": [
+      {
+        "valoare": "10",
+        "unitate": "g",
+        "eticheta": "pudră într-un plic"
+      },
+      {
+        "valoare": "1,5",
+        "unitate": "L",
+        "eticheta": "de băutură dintr-un plic"
+      },
+      {
+        "valoare": "6",
+        "unitate": "",
+        "eticheta": "pahare de 250 ml dintr-un plic"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Gust de fructe tropicale",
+        "text": "Plicul de 10 g de Frutilu Tropic dă 1,5 L de băutură cu gust de fructe tropicale.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Fără zahăr adăugat",
+        "text": "Frutilu Tropic e îndulcit cu îndulcitori, fără zahăr adăugat, aspartam sau acesulfam K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Vitamina C",
+        "text": "Pudra Frutilu Tropic conține vitamina C; cantitatea exactă e trecută pe plic.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Plic de buzunar",
+        "text": "Plicul Frutilu Tropic are doar 10 g și încape în buzunar sau în geantă.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Frutilu Tropic?",
+      "puncte": [
+        "Aromele de ananas, kiwi și papaya sunt puse împreună într-un singur plic.",
+        "Un plic Frutilu Tropic ajunge pentru 1,5 L de băutură, adică 6 pahare de 250 ml.",
+        "Frutilu Tropic se servește cu gheață și fructe proaspete."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Dizolvă plicul",
+        "text": "Pune 10 g de pudră în 1,5 L de apă rece și amestecă până dispare."
+      },
+      {
+        "titlu": "Servește rece",
+        "text": "Cel mai bine cu gheață și fructe proaspete."
+      },
+      {
+        "titlu": "Bea în aceeași zi",
+        "text": "Bea-o în aceeași zi, rece."
+      }
+    ],
+    "nota": "Doza de pe plic este un plic de 10 g la 1,5 L de apă. Ingredientele nu au mențiuni de sănătate autorizate; lista completă e pe plic.",
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
   }
 }

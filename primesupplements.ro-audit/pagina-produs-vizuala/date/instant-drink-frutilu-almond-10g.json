@@ -159,5 +159,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Frutilu cu migdale: ce primești dintr-un plic de 10 g",
+    "intro": "Frutilu cu migdale transformă apa simplă într-o băutură cu gust de migdale, fără zahăr adăugat. Aici vezi ce primești din plic și cum îl folosești.",
+    "conditie": "O doză: un plic de 10 g dizolvat în 1,5–3 L de apă (diluarea recomandată: 3 L)",
+    "cifre": [
+      {
+        "valoare": "10",
+        "unitate": "g",
+        "eticheta": "pudră într-un plic"
+      },
+      {
+        "valoare": "3",
+        "unitate": "L",
+        "eticheta": "de băutură la diluarea recomandată"
+      },
+      {
+        "valoare": "12",
+        "unitate": "",
+        "eticheta": "pahare de 250 ml dintr-un plic"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "Gust de migdale",
+        "text": "Plicul de 10 g de Frutilu cu migdale dă 1,5–3 L de băutură cu gust de migdale.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Fără zahăr adăugat",
+        "text": "Frutilu cu migdale e îndulcit cu îndulcitori, fără zahăr adăugat, aspartam sau acesulfam K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Vitamina C",
+        "text": "Pudra Frutilu cu migdale conține vitamina C; cantitatea exactă e trecută pe plic.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "capsula",
+        "titlu": "Plic de buzunar",
+        "text": "Plicul Frutilu cu migdale are doar 10 g și încape în buzunar sau în geantă.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce Frutilu cu migdale?",
+      "puncte": [
+        "Migdalul e rudă cu caisul și piersicul; ce mâncăm este sâmburele fructului.",
+        "Un plic Frutilu cu migdale ajunge pentru 1,5–3 L de băutură, adică 6–12 pahare de 250 ml.",
+        "Frutilu cu migdale se servește rece cu gheață sau caldă."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Dizolvă plicul",
+        "text": "Pune 10 g de pudră în 1,5–3 L de apă rece și amestecă până dispare."
+      },
+      {
+        "titlu": "Servește rece",
+        "text": "Cel mai bine rece cu gheață sau caldă."
+      },
+      {
+        "titlu": "Bea în aceeași zi",
+        "text": "Bea-o în aceeași zi, rece."
+      }
+    ],
+    "nota": "Doza de pe plic este un plic de 10 g la 1,5–3 L de apă. Ingredientele nu au mențiuni de sănătate autorizate; lista completă e pe plic.",
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
   }
 }

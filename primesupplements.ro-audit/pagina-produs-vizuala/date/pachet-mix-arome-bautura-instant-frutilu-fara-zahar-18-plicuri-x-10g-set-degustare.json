@@ -162,5 +162,86 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Setul de degustare Frutilu: ce primești din 18 plicuri",
+    "intro": "Setul de degustare Frutilu are 18 plicuri de 10 g, câte unul din fiecare aromă, toate fără zahăr adăugat. Aici vezi ce primești și cum folosești plicurile.",
+    "conditie": "O doză: un plic de 10 g dizolvat în 1,5–3 L de apă rece, plată sau carbogazoasă",
+    "cifre": [
+      {
+        "valoare": "18",
+        "unitate": "",
+        "eticheta": "plicuri, câte unul din fiecare aromă"
+      },
+      {
+        "valoare": "180",
+        "unitate": "g",
+        "eticheta": "pudră în tot setul"
+      },
+      {
+        "valoare": "54",
+        "unitate": "L",
+        "eticheta": "de băutură la 3 L pe plic"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "frunza",
+        "titlu": "18 arome într-un set",
+        "text": "Setul Frutilu pune într-o cutie toate aromele din gamă, de la cola și ciocolată la pepene și mango.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Fără zahăr adăugat",
+        "text": "Toate cele 18 plicuri din setul Frutilu sunt fără zahăr adăugat, fără aspartam și fără acesulfam K.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "scut",
+        "titlu": "Vitamina C",
+        "text": "Pudra din plicurile setului conține vitamina C; cantitatea exactă e trecută pe fiecare plic.",
+        "mentiune_autorizata": false
+      },
+      {
+        "icon": "energie",
+        "titlu": "Atenție la Energy",
+        "text": "Aroma Energy din set conține cafeină și taurină; nu e pentru copii, sarcină, alăptare sau persoane sensibile la cafeină.",
+        "mentiune_autorizata": false
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce setul de degustare Frutilu?",
+      "puncte": [
+        "Ai câte un plic din fiecare aromă, ca să o găsești pe cea preferată.",
+        "Cele 18 plicuri de 10 g ale setului fac între 27 și 54 de litri de băutură.",
+        "Poți compara aromele cu stevia și pe cele cu alți îndulcitori, câte una pe zi."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "Alege aroma zilei",
+        "text": "Începe cu aromele blânde și lasă cola, ciocolata și migdalele la final."
+      },
+      {
+        "titlu": "Dizolvă plicul",
+        "text": "Pune 10 g de pudră în 1,5–3 L de apă rece, plată sau carbogazoasă, și amestecă."
+      },
+      {
+        "titlu": "Bea în aceeași zi",
+        "text": "Bea-o în aceeași zi, rece."
+      }
+    ],
+    "nota": "Doza de pe plic este un plic de 10 g la 1,5–3 L de apă. Ingredientele nu au mențiuni de sănătate autorizate; lista completă e pe fiecare plic.",
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1333/2008 privind aditivii alimentari (îndulcitori: E 950, E 951, E 960a)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale („fără zahăr adăugat”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
   }
 }

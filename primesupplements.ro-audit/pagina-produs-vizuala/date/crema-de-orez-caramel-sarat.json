@@ -15,7 +15,7 @@
     "22 de porții"
   ],
   "titlu": "Cremă de orez Prime, caramel sărat: 33,4 g de glucide pe porție",
-  "intro": "O porție de [[45 g]] (o măsură) are [[155,2 kcal]] și [[33,4 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "intro": "O porție de [[45 g]] de cremă de orez (o măsură) are [[155,2 kcal]] și [[33,4 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
   "etichete": [
     "Făină de orez pregelatinizată",
     "Fără zaharuri adăugate",
@@ -131,7 +131,7 @@
   "de_verificat": [],
   "curiozitati": {
     "titlu": "Curiozități despre crema de orez cu caramel sărat",
-    "intro": "Caramelul sărat pare o combinație ciudată până îl guști. Află de unde vine, de ce are crema mai multă sare decât alte arome și cum o folosești. Găsești și o idee de mic dejun cu fructe și unt de arahide, care merge foarte bine cu gustul dulce-sărat al acestei arome.",
+    "intro": "Crema de orez cu caramel sărat pare o combinație ciudată până o guști. Află de unde vine, de ce are crema mai multă sare decât alte arome și cum o folosești. Găsești și o idee de mic dejun cu fructe și unt de arahide, care merge foarte bine cu gustul dulce-sărat al acestei arome.",
     "sectiuni": [
       {
         "intrebare": "De unde vine caramelul sărat?",
@@ -142,8 +142,8 @@
         "raspuns": "Pentru că sarea face parte din gust. O porție de 45 g are 0,4 g sare, față de 0,12–0,15 g la celelalte arome Creamy Rice. Sarea scoate în evidență gustul de caramel, așa cum o fac cofetarii. Valoarea e trecută în declarația nutrițională de pe tub."
       },
       {
-        "intrebare": "Are zahăr ars, ca un caramel adevărat?",
-        "raspuns": "Nu. Caramelul clasic se face încălzind zahărul până se rumenește. În crema de orez, gustul de caramel vine din arome, iar dulceața din îndulcitori. De aceea porția are doar 0,3 g zaharuri, prezente în mod natural, la 155,2 kcal."
+        "intrebare": "Are crema de orez cu caramel zahăr ars, ca un caramel adevărat?",
+        "raspuns": "Nu. Caramelul clasic se face încălzind zahărul până se rumenește. În crema de orez, gustul de caramel vine din arome, iar dulceața din îndulcitori. De aceea porția are doar 0,3 g zaharuri, prezente în mod natural, la 155,2 kcal. Legislația UE permite mențiunea „cu conținut scăzut de zaharuri” doar sub 5 g la 100 g de produs."
       },
       {
         "intrebare": "Cum se face pudra de orez?",
@@ -158,6 +158,10 @@
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (declarația nutrițională, sarea)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „cu conținut scăzut de zaharuri”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
       }
     ]
   }

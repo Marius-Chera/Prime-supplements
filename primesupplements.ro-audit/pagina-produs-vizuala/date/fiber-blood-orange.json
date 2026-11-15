@@ -14,7 +14,7 @@
     "50 de porții"
   ],
   "titlu": "Fiber: 7,4 g de fibre într-o porție de 10 g, cu aromă de portocală roșie",
-  "intro": "O porție de [[10 g]] are [[7,4 g]] de fibre și doar [[21,0 kcal]], din inulină, fibre de acacia și de bambus, făină de ovăz, glucomanan și pulbere de baobab. Amesteci porția cu [[150–250 ml]] de apă, o dată pe zi, înainte de masă. Tubul de [[500 g]] are [[50 de porții]].",
+  "intro": "O porție de [[10 g]] de Fiber are [[7,4 g]] de fibre și doar [[21,0 kcal]], din inulină, fibre de acacia și de bambus, făină de ovăz, glucomanan și pulbere de baobab. Amesteci porția cu [[150–250 ml]] de apă, o dată pe zi, înainte de masă. Tubul de [[500 g]] are [[50 de porții]].",
   "etichete": [
     "Inulină",
     "Fibre de acacia și bambus",
@@ -158,7 +158,7 @@
         "raspuns": "Pentru că fibrele care se umflă au nevoie de lichid. Eticheta spune: 10 g, adică aproximativ o măsură, în 150–250 ml de apă, o porție pe zi, înainte de masă. Bea imediat, înainte să se îngroașe, și bea apă și pe parcursul zilei. Dacă nu ești obișnuit cu multe fibre, crește treptat cantitatea."
       },
       {
-        "intrebare": "Câte calorii are o porție?",
+        "intrebare": "Câte calorii are o porție de Fiber?",
         "raspuns": "21 kcal la 10 g, conform declarației nutriționale. Porția are doar 1,1 g carbohidrați, 0,10 g zaharuri, 0,11 g grăsimi și 0,20 g proteine. Gustul de portocală roșie vine din arome, culoarea din extract de boia, iar dulceața din sucraloză și acesulfam-K. Tubul are 50 de porții."
       }
     ],
@@ -166,6 +166,10 @@
       {
         "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „sursă de fibre”, „bogat în fibre”)",
         "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
   }

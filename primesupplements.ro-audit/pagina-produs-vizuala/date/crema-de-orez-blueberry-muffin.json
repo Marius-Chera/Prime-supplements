@@ -15,7 +15,7 @@
     "22 de porții"
   ],
   "titlu": "Cremă de orez Prime, brioșă cu afine: 34,7 g de glucide pe porție",
-  "intro": "O porție de [[45 g]] (o măsură) are [[157,2 kcal]] și [[34,7 g de glucide]], din care [[1,0 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "intro": "O porție de [[45 g]] de cremă de orez (o măsură) are [[157,2 kcal]] și [[34,7 g de glucide]], din care [[1,0 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
   "etichete": [
     "Făină de orez pregelatinizată",
     "Fără zaharuri adăugate",
@@ -146,8 +146,8 @@
         "raspuns": "Înseamnă că orezul e deja gătit. Făina de orez e pregelatinizată: boabele au fost încălzite cu apă, uscate și măcinate. Astfel, amidonul se leagă direct cu apă sau lapte rece. Pui o măsură în shaker cu 150–200 ml de lichid și agiți până devine cremoasă."
       },
       {
-        "intrebare": "Câte calorii are o porție?",
-        "raspuns": "157,2 kcal la 45 g, conform declarației nutriționale. Porția are 34,7 g glucide, 3,6 g proteine, 0,8 g fibre și doar 0,27 g grăsimi. Un tub de 1 kg ajunge pentru 22 de porții."
+        "intrebare": "Câte calorii are crema de orez cu afine?",
+        "raspuns": "157,2 kcal la 45 g, conform declarației nutriționale. Porția are 34,7 g glucide, 3,6 g proteine, 0,8 g fibre și doar 0,27 g grăsimi. Un tub de 1 kg ajunge pentru 22 de porții. Pentru o masă completă, o analiză din 2018 sugerează în jur de 0,4 g de proteine pe kilogram corp la fiecare masă, deci adaugă iaurt sau proteină."
       },
       {
         "intrebare": "Cum o transformi într-o „brioșă” la cană?",
@@ -158,6 +158,10 @@
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, declarația nutrițională)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Schoenfeld BJ, Aragon AA. How much protein can the body use in a single meal for muscle-building? J Int Soc Sports Nutr. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/"
       }
     ]
   }

@@ -15,7 +15,7 @@
     "22 de porții"
   ],
   "titlu": "Cremă de orez Prime, tort de ciocolată: 32,6 g de glucide pe porție",
-  "intro": "O porție de [[45 g]] (o măsură) are [[155,8 kcal]] și [[32,6 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "intro": "O porție de [[45 g]] de cremă de orez (o măsură) are [[155,8 kcal]] și [[32,6 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
   "etichete": [
     "Făină de orez pregelatinizată",
     "Fără zaharuri adăugate",
@@ -139,7 +139,7 @@
       },
       {
         "intrebare": "De unde vine gustul de tort de ciocolată?",
-        "raspuns": "Din cacao și arome. Eticheta trece cacao cu conținut redus de grăsimi, arome, sare și îndulcitori. Cacao are o istorie lungă: în America Centrală, boabele se măcinau și se beau ca băutură amară, fără zahăr, cu mult înainte să ajungă în Europa și să devină ciocolata pe care o știi."
+        "raspuns": "Din cacao și arome. Eticheta trece, în ordinea cantității, cum cere legislația UE, cacao cu conținut redus de grăsimi, arome, sare și îndulcitori. Cacao are o istorie lungă: în America Centrală, boabele se măcinau și se beau ca băutură amară, fără zahăr, cu mult înainte să ajungă în Europa și să devină ciocolata pe care o știi."
       },
       {
         "intrebare": "Are zahăr crema de orez?",
@@ -158,6 +158,10 @@
       {
         "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „fără zaharuri adăugate”)",
         "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
   }

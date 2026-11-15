@@ -133,7 +133,7 @@
     "sectiuni": [
       {
         "intrebare": "Ce este colagenul?",
-        "raspuns": "Este o proteină de structură. O găsești în piele, tendoane, oase și cartilaje, unde formează fibre rezistente. Numele vine din grecescul „kolla”, adică clei, pentru că din oase și piele fierte se obținea în trecut clei. Colagenul din sticla noastră e de origine bovină."
+        "raspuns": "Este o proteină de structură. O găsești în piele, tendoane, oase și cartilaje, unde formează fibre rezistente. Numele vine din grecescul „kolla”, adică clei, pentru că din oase și piele fierte se obținea în trecut clei. Colagenul din sticla noastră e de origine bovină, iar peptidele Peptan© fac 40% din formulă."
       },
       {
         "intrebare": "Prin ce diferă colagenul hidrolizat de gelatină?",
@@ -141,7 +141,7 @@
       },
       {
         "intrebare": "Colagenul e o proteină completă?",
-        "raspuns": "Nu. Colagenul are foarte puțin triptofan, unul dintre aminoacizii esențiali, așa că nu poate ține locul altor surse de proteine. Este în schimb bogat în glicină, prolină și hidroxiprolină, aminoacizii care îi dau structura specifică."
+        "raspuns": "Nu. Colagenul are foarte puțin triptofan, unul dintre aminoacizii esențiali, așa că nu poate ține locul altor surse de proteine. Este în schimb bogat în glicină, care face aproximativ 33% din aminoacizii lui, apoi în prolină și hidroxiprolină, aminoacizii care îi dau structura specifică."
       },
       {
         "intrebare": "De unde vine stevia?",
@@ -149,17 +149,21 @@
       },
       {
         "intrebare": "Ce plante sunt în sticlă?",
-        "raspuns": "Opt, sub formă de extracte apoase: scoarță de salcie, flori de soc, frunze de mentă și de urzică, fructe de ienupăr, cătină și măceș și flori de hibiscus. Hibiscusul dă culoarea roșiatică, iar menta, aroma proaspătă. Mai e și extractul de aloe."
+        "raspuns": "Opt plante, sub formă de extracte apoase. Sunt scoarța de salcie, flori de soc, frunze de mentă și de urzică, fructe de ienupăr, cătină și măceș și flori de hibiscus. Hibiscusul dă culoarea roșiatică, iar menta, aroma proaspătă. Mai e și extractul de aloe."
       },
       {
         "intrebare": "Cum îl iei mai ușor?",
-        "raspuns": "Diluat. Doza e de 15 ml pe zi, simplu sau într-un pahar de apă, de preferat pe stomacul gol. Unii îl amestecă în apă rece cu gheață sau într-un smoothie. Sticla se păstrează închisă, iar o doză zilnică ajunge pentru aproximativ 33 de zile."
+        "raspuns": "Diluat. Doza e de 15 ml pe zi, cu 6 g de colagen hidrolizat, simplu sau într-un pahar de apă, de preferat pe stomacul gol; nu depăși doza zilnică, cum cere Directiva 2002/46/CE. Unii îl amestecă în apă rece cu gheață sau într-un smoothie. Sticla de 500 ml se păstrează închisă, iar o doză zilnică ajunge pentru aproximativ 33 de zile."
       }
     ],
     "surse": [
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare (avertismentele obligatorii de pe etichetă)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
   }

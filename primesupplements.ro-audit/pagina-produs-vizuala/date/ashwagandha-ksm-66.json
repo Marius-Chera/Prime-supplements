@@ -142,7 +142,7 @@
       },
       {
         "intrebare": "Cum se ia ashwagandha?",
-        "raspuns": "Ca pe orice capsulă: cu un pahar de apă, cu sau fără mâncare. Eticheta cere să nu depășești doza zilnică recomandată. Dacă ești însărcinată, alăptezi, ai o afecțiune sau iei medicamente, întreabă medicul înainte să începi."
+        "raspuns": "Ca pe orice capsulă: cu un pahar de apă, cu sau fără mâncare. O porție înseamnă o capsulă de 500 mg, iar flaconul are 80 de capsule, adică 80 de porții. Eticheta cere să nu depășești doza zilnică recomandată, avertisment pe care Directiva 2002/46/CE îl cere pentru toate suplimentele. Dacă ești însărcinată, alăptezi, ai o afecțiune sau iei medicamente, întreabă medicul înainte să începi."
       },
       {
         "intrebare": "De ce capsulă vegetală și nu tabletă?",
@@ -153,6 +153,10 @@
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare (avertismentele obligatorii de pe etichetă)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
   }

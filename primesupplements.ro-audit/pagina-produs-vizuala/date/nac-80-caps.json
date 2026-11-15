@@ -15,7 +15,7 @@
     "80 de zile"
   ],
   "titlu": "NAC: 500 mg N-acetilcisteină în fiecare capsulă, 80 de zile",
-  "intro": "O capsulă are [[500 mg]] de N-acetilcisteină. Eticheta recomandă [[1 capsulă]] pe zi, de preferat pe stomacul gol, deci flaconul de [[80 de capsule]] ajunge [[80 de zile]]. Capsula e din gelatină, iar produsul e pentru adulți.",
+  "intro": "O capsulă de NAC are [[500 mg]] de N-acetilcisteină. Eticheta recomandă [[1 capsulă]] pe zi, de preferat pe stomacul gol, deci flaconul de [[80 de capsule]] ajunge [[80 de zile]]. Capsula e din gelatină, iar produsul e pentru adulți.",
   "etichete": [
     "N-acetilcisteină",
     "Capsulă de gelatină",
@@ -119,7 +119,7 @@
     "intro": "NAC e prescurtarea de la N-acetilcisteină, un nume care sună complicat, dar ascunde un aminoacid simplu. Iată ce înseamnă numele, de ce capsulele pot mirosi ciudat și cum le iei.",
     "sectiuni": [
       {
-        "intrebare": "Ce înseamnă N-acetilcisteină?",
+        "intrebare": "Ce înseamnă NAC, adică N-acetilcisteină?",
         "raspuns": "Cisteină cu o grupare acetil atașată de atomul de azot, notat cu N. Cisteina e un aminoacid care conține sulf și pe care îl găsești în proteinele din carne, ouă sau lactate. Gruparea acetil e o mică modificare chimică, de unde vine și numele prescurtat NAC."
       },
       {
@@ -128,7 +128,7 @@
       },
       {
         "intrebare": "De ce se ia pe stomacul gol?",
-        "raspuns": "Așa recomandă eticheta: o capsulă pe zi, de preferat pe stomacul gol. Cel mai simplu e dimineața, cu un pahar cu apă, înainte de micul dejun. Dacă stomacul tău e sensibil, întreabă medicul sau farmacistul cum e mai bine pentru tine."
+        "raspuns": "Așa recomandă eticheta: o capsulă pe zi, de preferat pe stomacul gol. Cel mai simplu e dimineața, cu un pahar de 250 ml de apă, înainte de micul dejun. Dacă stomacul tău e sensibil, întreabă medicul sau farmacistul cum e mai bine pentru tine."
       },
       {
         "intrebare": "De ce scrie pe flacon să întrebi medicul?",
@@ -136,7 +136,7 @@
       },
       {
         "intrebare": "Cât ține un flacon?",
-        "raspuns": "Optzeci de zile, la o capsulă pe zi. Flaconul are 80 de capsule, cu o greutate netă de 63,2 g. Capsula e din gelatină, deci produsul nu e potrivit pentru cei care evită ingredientele de origine animală."
+        "raspuns": "Un flacon ține 80 de zile, la doza de o capsulă pe zi. Are 80 de capsule, cu o greutate netă de 63,2 g. Capsula e din gelatină, deci produsul nu e potrivit pentru cei care evită ingredientele de origine animală."
       },
       {
         "intrebare": "Din ce alimente iei cisteină?",

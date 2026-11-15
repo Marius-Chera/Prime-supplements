@@ -15,7 +15,7 @@
     "22 de porții"
   ],
   "titlu": "Cremă de orez Prime, plăcintă cu cocos: 33,3 g de glucide pe porție",
-  "intro": "O porție de [[45 g]] (o măsură) are [[166,2 kcal]] și [[33,3 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "intro": "O porție de [[45 g]] de cremă de orez (o măsură) are [[166,2 kcal]] și [[33,3 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
   "etichete": [
     "Făină de orez pregelatinizată",
     "Bucăți de ciocolată 3%",
@@ -131,7 +131,7 @@
   "de_verificat": [],
   "curiozitati": {
     "titlu": "Curiozități despre crema de orez cu cocos",
-    "intro": "Plăcinta cu cocos e un desert de familie în multe țări. În crema noastră, gustul vine din lapte praf de cocos. Iată ce înseamnă asta și cum o prepari. La final ai și o idee de desert la pahar, cu ovăz, cocos și ananas, gata în câteva minute.",
+    "intro": "Plăcinta cu cocos e un desert de familie în multe țări. În crema de orez cu cocos, gustul vine din lapte praf de cocos. Iată ce înseamnă asta și cum o prepari. La final ai și o idee de desert la pahar, cu ovăz, cocos și ananas, gata în câteva minute.",
     "sectiuni": [
       {
         "intrebare": "Ce este laptele praf de cocos?",
@@ -146,18 +146,22 @@
         "raspuns": "Din zonele tropicale ale Asiei și Pacificului. Fructele cu coajă groasă pot pluti pe mare, iar oamenii le-au dus de-a lungul coastelor tropicale. Azi, cocotierul crește în aproape toate țările calde, iar din nucă se fac lapte, ulei, făină și fulgi."
       },
       {
-        "intrebare": "Cum se prepară crema?",
+        "intrebare": "Cum se prepară crema de orez cu cocos?",
         "raspuns": "La rece, în shaker. Făina de orez e pregelatinizată, adică deja gătită, așa că pui o măsură de 45 g în 150–200 ml de apă sau lapte rece și agiți până devine cremoasă. Cu lapte vegetal de cocos, gustul de cocos se simte mai tare."
       },
       {
         "intrebare": "Ce poți face cu ea în bucătărie?",
-        "raspuns": "O „plăcintă” la pahar, de exemplu. Pune la bază o lingură de fulgi de ovăz, apoi crema groasă, apoi fulgi de cocos și câteva bucăți de ananas. Merge și ca topping peste clătite sau amestecată în iaurt. Un tub de 1 kg are 22 de porții."
+        "raspuns": "O „plăcintă” la pahar, de exemplu. Pune la bază o lingură de fulgi de ovăz, apoi crema groasă, apoi fulgi de cocos și câteva bucăți de ananas. Merge și ca topping peste clătite sau amestecată în iaurt. Un tub de 1 kg are 22 de porții. Ca gustarea să țină de foame mai mult, adaugă proteine: o recenzie din 2015 asociază 25–30 g de proteine pe masă cu un apetit mai bine controlat."
       }
     ],
     "surse": [
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (ingrediente, declarația nutrițională)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Leidy HJ și colab. The role of protein in weight loss and maintenance. Am J Clin Nutr. 2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25926512/"
       }
     ]
   }

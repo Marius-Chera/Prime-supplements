@@ -142,13 +142,17 @@
       },
       {
         "intrebare": "Ce polifenoli conține extractul?",
-        "raspuns": "Cinci, numiți pe etichetă: neoeriocitrina, naringina, neohesperidina, melitidina și brutieridina. Naringina se găsește și în grepfrut, unde dă gustul amar. Melitidina și brutieridina sunt mai rare și apar mai ales în bergamotă. Extractul e apos, adică obținut cu apă, apoi uscat și transformat în pulbere. Ia o capsulă pe zi și nu depăși doza recomandată."
+        "raspuns": "Cinci, numiți pe etichetă: neoeriocitrina, naringina, neohesperidina, melitidina și brutieridina. Naringina se găsește și în grepfrut, unde dă gustul amar. Melitidina și brutieridina sunt mai rare și apar mai ales în bergamotă. Extractul e apos, adică obținut cu apă, apoi uscat și transformat în pulbere. Ia o capsulă pe zi și nu depăși doza recomandată, avertisment cerut de Directiva 2002/46/CE pentru toate suplimentele."
       }
     ],
     "surse": [
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare (avertismentele obligatorii de pe etichetă)",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
       }
     ]
   }

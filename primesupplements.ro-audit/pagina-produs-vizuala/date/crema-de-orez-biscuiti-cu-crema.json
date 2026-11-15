@@ -15,7 +15,7 @@
     "22 de porții"
   ],
   "titlu": "Cremă de orez Prime, biscuiți cu cremă: 33,8 g de glucide pe porție",
-  "intro": "O porție de [[45 g]] (o măsură) are [[155,7 kcal]] și [[33,8 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
+  "intro": "O porție de [[45 g]] de cremă de orez (o măsură) are [[155,7 kcal]] și [[33,8 g de glucide]], din care [[0,3 g]] zaharuri, conform declarației nutriționale. Se prepară fără fierbere: amesteci pulberea cu [[150–200 ml]] de apă sau lapte rece până devine cremoasă. Tubul de [[1 kg]] are [[22 de porții]].",
   "etichete": [
     "Făină de orez pregelatinizată",
     "Fără zaharuri adăugate",
@@ -131,7 +131,7 @@
   "de_verificat": [],
   "curiozitati": {
     "titlu": "Curiozități despre crema de orez cu biscuiți",
-    "intro": "Gustul de biscuiți cu cremă vine dintr-o pudră care nu conține biscuiți. Află cum se obține, ce aduce o porție și câteva idei pentru micul dejun. La final ai și o rețetă simplă de budincă în straturi, bună pentru zilele în care vrei ceva dulce dimineața, fără să stai mult în bucătărie.",
+    "intro": "Crema de orez cu biscuiți este o pudră din făină de orez cu gust de biscuiți cu cremă, deși nu conține biscuiți. Află cum se obține, ce aduce o porție și câteva idei pentru micul dejun. La final ai și o rețetă simplă de budincă în straturi, bună pentru zilele în care vrei ceva dulce dimineața, fără să stai mult în bucătărie.",
     "sectiuni": [
       {
         "intrebare": "Există biscuiți în crema de orez?",
@@ -147,7 +147,7 @@
       },
       {
         "intrebare": "Ce aduce o porție de 45 g?",
-        "raspuns": "Mai ales glucide: 33,8 g, la 155,7 kcal. Mai are 3,4 g proteine, 0,9 g fibre și 0,12 g sare. Pentru o masă mai completă, mulți o amestecă cu o măsură de proteină din zer sau o servesc lângă iaurt grecesc."
+        "raspuns": "Mai ales glucide: 33,8 g, la 155,7 kcal. Mai are 3,4 g proteine, 0,9 g fibre și 0,12 g sare. Pentru o masă mai completă, mulți o amestecă cu o măsură de proteină din zer sau o servesc lângă iaurt grecesc. Poziția ISSN din 2017 despre proteine vorbește de porții de 20–40 g, iar crema singură are doar 3,4 g."
       },
       {
         "intrebare": "Cum o servești la micul dejun?",
@@ -158,6 +158,10 @@
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, în ordinea cantității)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
       }
     ]
   }

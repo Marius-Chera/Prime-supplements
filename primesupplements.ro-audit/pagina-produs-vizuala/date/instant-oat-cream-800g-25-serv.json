@@ -136,11 +136,11 @@
     "sectiuni": [
       {
         "intrebare": "De ce se prepară mai repede decât fulgii de ovăz?",
-        "raspuns": "Pentru că ovăzul e deja măcinat fin, ca o făină. Apa fierbinte sau laptele pătrund repede în bucățile mici, așa că nu mai ai nevoie de fierbere. În 1-3 minute ai o cremă. Fulgii întregi au nevoie de mai mult timp, pentru că sunt mai groși."
+        "raspuns": "Pentru că ovăzul e deja măcinat fin, ca o făină. Apa fierbinte sau laptele pătrund repede în bucățile mici, așa că nu mai ai nevoie de fierbere. În 1-3 minute ai o cremă, iar tubul de 800 g ajunge pentru multe dimineți. Fulgii întregi au nevoie de mai mult timp, pentru că sunt mai groși."
       },
       {
         "intrebare": "Ovăzul are indice glicemic mic sau mare?",
-        "raspuns": "Depinde de cum e procesat. Tabelele internaționale de indice glicemic din 2008 adună peste 2.480 de alimente. Acolo cerealele, inclusiv ovăzul, apar și în variante cu indice glicemic mare, și în variante cu indice mic. Cu cât ovăzul e măcinat mai fin, cu atât se digeră de obicei mai repede."
+        "raspuns": "Depinde de cum e procesat. Tabelele internaționale de indice glicemic din 2008 adună peste 2.480 de alimente. Acolo cerealele, inclusiv ovăzul, apar și în variante cu indice glicemic mare, și în variante cu indice mic. Indicele glicemic însuși a fost definit într-un studiu din 1981, pe 62 de alimente. Cu cât ovăzul e măcinat mai fin, cu atât se digeră de obicei mai repede."
       },
       {
         "intrebare": "De unde vine obiceiul terciului de ovăz?",
@@ -148,11 +148,11 @@
       },
       {
         "intrebare": "Cum o faci mai sățioasă?",
-        "raspuns": "Adaugă proteine și puțină grăsime. Amestecă crema cu o măsură de pudră proteică după ce s-a hidratat, sau prepar-o cu lapte în loc de apă. Pune deasupra o lingură de unt de arahide, câteva nuci sau semințe și fructe proaspete."
+        "raspuns": "Adaugă proteine și puțină grăsime. Amestecă crema cu o măsură de pudră proteică după ce s-a hidratat, sau prepar-o cu lapte în loc de apă. Poziția ISSN din 2017 despre momentul nutrienților sugerează 20–40 g de proteine la fiecare 3–4 ore. Pune deasupra o lingură de 15 g de unt de arahide, câteva nuci sau semințe și fructe proaspete."
       },
       {
         "intrebare": "Ce faci dacă iese prea groasă?",
-        "raspuns": "Mai adaugi lichid, puțin câte puțin. Crema se îngroașă în timp ce stă, pentru că ovăzul continuă să absoarbă apa. Dacă vrei o textură de budincă, lasă-o mai mult. Dacă o vrei ca un smoothie, pune mai mult lapte și amestec-o bine, chiar înainte să o mănânci."
+        "raspuns": "Mai adaugi lichid, puțin câte puțin. Crema se îngroașă în timp ce stă, pentru că ovăzul continuă să absoarbă apa. Dacă vrei o textură de budincă, lasă-o mai mult. Dacă o vrei ca un smoothie, pune încă 50 ml de lapte și amestec-o bine, chiar înainte să o mănânci."
       }
     ],
     "surse": [
@@ -163,6 +163,14 @@
       {
         "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională, alergenii)",
         "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Jenkins DJ și colab. Glycemic index of foods: a physiological basis for carbohydrate exchange. Am J Clin Nutr. 1981",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6259925/"
+      },
+      {
+        "text": "Kerksick CM și colab. International society of sports nutrition position stand: nutrient timing. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28919842/"
       }
     ]
   }

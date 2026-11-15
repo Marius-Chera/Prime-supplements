@@ -14,7 +14,7 @@
     "30 de porții"
   ],
   "titlu": "Nitrox No-Stim: pre-antrenament fără cofeină, 4000 mg BCAA pe porție",
-  "intro": "O porție de [[22 g]] (2 măsuri) are [[4000 mg]] de BCAA 2:1:1, [[3753 mg]] de L-citrulină și [[2200 mg]] de creatină monohidrată, plus EnXtra® ([[300 mg]]) și citicolină ([[200 mg]]). Cafeina și sinefrina nu apar în lista de ingrediente. Tubul de [[660 g]] are [[30 de porții]], aromă Ice Blueberry.",
+  "intro": "O porție de [[22 g]] de Nitrox No-Stim (2 măsuri) are [[4000 mg]] de BCAA 2:1:1, [[3753 mg]] de L-citrulină și [[2200 mg]] de creatină monohidrată, plus EnXtra® ([[300 mg]]) și citicolină ([[200 mg]]). Cafeina și sinefrina nu apar în lista de ingrediente. Tubul de [[660 g]] are [[30 de porții]], aromă Ice Blueberry.",
   "etichete": [
     "Fără cofeină",
     "BCAA 2:1:1",
@@ -192,6 +192,10 @@
       {
         "text": "Guest NS și colab. ISSN position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021",
         "url": "https://pubmed.ncbi.nlm.nih.gov/33388079/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente, declarația nutrițională)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
       }
     ]
   }

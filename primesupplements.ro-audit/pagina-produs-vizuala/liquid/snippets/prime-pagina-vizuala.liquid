@@ -126,6 +126,39 @@
       </div>
     {%- endif -%}
 
+    {%- comment -%}
+      „Curiozități” (v4, 15.11.2026): un singur H2, întrebări ca H3 (răspuns direct în prima frază), text pe server.
+      Datele: metafield-ul JSON prime.curiozitati (separat, ca să nu rescriem toată pagina) sau, dacă lipsește, d.curiozitati = {titlu, intro, sectiuni:[{intrebare, raspuns}], surse:[{text, url}]}.
+      Răspunsul poate avea mai multe paragrafe, despărțite prin „ ¶ ” (pilcrow între spații).
+    {%- endcomment -%}
+    {%- assign cur = product.metafields.prime.curiozitati.value -%}
+    {%- if cur == blank -%}{%- assign cur = d.curiozitati -%}{%- endif -%}
+    {%- if cur.sectiuni.size > 0 -%}
+      <div class="ppv-cur">
+        <div class="ppv-head">
+          <span class="ppv-kicker">Curiozități</span>
+          <h2 class="ppv-cur__t">{{ cur.titlu | default: 'Lucruri interesante' | escape }}</h2>
+          {%- if cur.intro != blank -%}<p class="ppv-cur__intro">{{ cur.intro | escape }}</p>{%- endif -%}
+        </div>
+        <div class="ppv-cur__grid">
+          {%- for s in cur.sectiuni -%}
+            <div class="ppv-q">
+              <h3>{{ s.intrebare | escape }}</h3>
+              {%- assign paras = s.raspuns | split: ' ¶ ' -%}
+              {%- for para in paras -%}<p>{{ para | strip | escape }}</p>{%- endfor -%}
+            </div>
+          {%- endfor -%}
+        </div>
+        {%- if cur.surse.size > 0 -%}
+          <p class="ppv-cur__src">Surse:
+            {% for s in cur.surse -%}
+              <a href="{{ s.url | escape }}" target="_blank" rel="noopener">{{ s.text | escape }}</a>{% unless forloop.last %}; {% endunless %}
+            {%- endfor -%}
+          </p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
   </div>
 </section>
 

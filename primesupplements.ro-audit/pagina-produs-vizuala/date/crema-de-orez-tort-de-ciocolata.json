@@ -128,5 +128,37 @@
   },
   "arome": [],
   "mod_de_folosire": "O porție de 45 g (1 măsură) cu 150–200 ml de apă sau lapte rece; amesteci până la o consistență cremoasă. Se consumă ca atare sau adăugată în smoothie-uri ori shake-uri proteice.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre crema de orez",
+    "intro": "Crema de orez arată ca un desert, dar pornește de la un aliment vechi de mii de ani. Află cum se face pudra, de unde vine gustul de ciocolată și cum o folosești în bucătărie.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă făină de orez pregelatinizată?",
+        "raspuns": "Este făină de orez gătită în prealabil și uscată. Orezul se încălzește cu apă, iar amidonul din bob se umflă și se „gelatinizează”, ca atunci când fierbi orezul. După uscare și măcinare, pudra se leagă direct cu lichid rece. De aceea crema se face în shaker, fără să pui oala pe foc."
+      },
+      {
+        "intrebare": "De unde vine gustul de tort de ciocolată?",
+        "raspuns": "Din cacao și arome. Eticheta trece cacao cu conținut redus de grăsimi, arome, sare și îndulcitori. Cacao are o istorie lungă: în America Centrală, boabele se măcinau și se beau ca băutură amară, fără zahăr, cu mult înainte să ajungă în Europa și să devină ciocolata pe care o știi."
+      },
+      {
+        "intrebare": "Are zahăr crema de orez?",
+        "raspuns": "Nu are zaharuri adăugate. În legislația UE, mențiunea „fără zaharuri adăugate” e permisă doar dacă produsul nu are mono- sau dizaharide adăugate și nici alte alimente folosite pentru gustul lor dulce, precum mierea sau siropurile. O porție de 45 g are 0,3 g zaharuri, prezente în mod natural. Gustul dulce vine din sucraloză și acesulfam-K, îndulcitori care nu sunt zaharuri."
+      },
+      {
+        "intrebare": "Ce aduce o porție de cremă de orez?",
+        "raspuns": "În principal glucide. O porție de 45 g are 155,8 kcal, 32,6 g glucide, 4,2 g proteine, 1,4 g fibre și doar 0,65 g grăsimi. Din acest motiv, mulți o combină cu o sursă de proteine, de exemplu cu proteina din zer, într-o singură masă."
+      },
+      {
+        "intrebare": "Cum o prepari în afară de shaker?",
+        "raspuns": "În multe feluri. Cu mai puțin lichid obții o budincă groasă, pe care o servești cu fructe sau cu unt de arahide. O poți pune în smoothie, în shake-ul proteic sau peste iaurt. Pentru o variantă caldă, amestec-o cu lapte încălzit, după ce l-ai luat de pe foc."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „fără zaharuri adăugate”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      }
+    ]
+  }
 }

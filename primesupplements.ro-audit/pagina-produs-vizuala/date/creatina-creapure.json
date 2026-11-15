@@ -121,5 +121,45 @@
   },
   "arome": [],
   "mod_de_folosire": "3–5 g de creatină pe zi, amestecate în apă sau în shake-ul proteic. Pe durata utilizării consumă suficiente lichide pe parcursul zilei. Nu depăși doza zilnică recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
-  "de_verificat": []
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre creatină și Creapure®",
+    "intro": "Creatina e unul dintre cele mai studiate suplimente din sport. Aici afli de unde vine numele, cum se obține pulberea din tub și ce e adevărat din lucrurile care se spun despre ea.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine numele creatinei?",
+        "raspuns": "Din grecescul „kreas”, adică „carne”. Chimistul francez Michel Eugène Chevreul a descoperit-o în 1832, în extract de carne. Carnea și peștele au rămas principalele surse din alimentație, iar cine nu mănâncă produse de origine animală primește aproape deloc creatină din mâncare."
+      },
+      {
+        "intrebare": "Corpul tău produce creatină?",
+        "raspuns": "Da, o parte din ea. Organismul o produce din trei aminoacizi: glicină, arginină și metionină. În mușchi, creatina și fosfocreatina formează o rezervă din care se reface rapid ATP-ul, molecula de energie a celulelor. Zilnic, o parte din creatină se transformă spontan în creatinină și se elimină, așa că rezerva se reface din alimentație și din producția proprie."
+      },
+      {
+        "intrebare": "Cum se obține creatina din tub?",
+        "raspuns": "Prin sinteză, nu din carne. Creatina monohidrată se obține din două materii prime simple, sarcozinat și cianamidă, apoi se purifică, se usucă și se macină. „Monohidrată” înseamnă că fiecare moleculă de creatină are legată o moleculă de apă. „Micronizată” înseamnă particule mai fine, care se amestecă mai ușor. Creapure® e marca înregistrată a ingredientului, trecută pe eticheta tubului."
+      },
+      {
+        "intrebare": "Este creatina un steroid?",
+        "raspuns": "Nu. Creatina e un compus format din aminoacizi, prezent în carne, în pește și în propriii tăi mușchi, fără nicio legătură chimică cu steroizii. Confuzia apare printre cele 12 întrebări frecvente analizate într-o recenzie din 2021. Tot acolo scrie că faza de încărcare nu e obligatorie: varianta obișnuită e o doză zilnică de 3–5 g."
+      },
+      {
+        "intrebare": "Cum o folosești în bucătărie și la antrenament?",
+        "raspuns": "Pui 5 g în apă, suc, iaurt sau în shake-ul de proteine. Pulberea e fără aromă, deci nu schimbă gustul rețetei. Se dizolvă mai ușor în lichid călduț; amestecă din nou înainte de ultima înghițitură, pentru că o parte se depune. Ora o alegi tu, important e să iei porția zilnic și să bei suficiente lichide. Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary, and therapeutic supplement. Annu Rev Nutr. 2007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17430086/"
+      },
+      {
+        "text": "Antonio J și colab. Common questions and misconceptions about creatine supplementation. J Int Soc Sports Nutr. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33557850/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

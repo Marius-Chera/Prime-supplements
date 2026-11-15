@@ -18,7 +18,7 @@ function texts(o, path = '', out = []) {
   if (typeof o === 'string') out.push([path, o]);
   else if (Array.isArray(o)) o.forEach((v, i) => texts(v, `${path}[${i}]`, out));
   else if (o && typeof o === 'object') for (const [k, v] of Object.entries(o)) {
-    if (['handle', 'sursa_datelor', 'de_verificat', 'varianta', 'tema', 'url'].includes(k)) continue;
+    if (['handle', 'sursa_datelor', 'de_verificat', 'varianta', 'tema', 'url', 'surse'].includes(k)) continue;
     texts(v, path ? `${path}.${k}` : k, out);
   }
   return out;
@@ -62,6 +62,33 @@ for (const f of readdirSync(dir).filter(n => n.endsWith('.json'))) {
   if (d.tema != null && !['rosu','albastru','verde','mov','portocaliu','roz'].includes(d.tema)) errs.push('tema: rosu | albastru | verde | mov | portocaliu | roz');
   if (d.imagine && !String(d.imagine.url || '').startsWith('https://cdn.shopify.com/')) errs.push('imagine.url: doar poze din Shopify Files (cdn.shopify.com)');
   if (d.imagine && !d.imagine.alt) errs.push('imagine.alt: text alternativ obligatoriu');
+  // „Curiozități” (15.11.2026): 300–400 de cuvinte (intro + întrebări + răspunsuri), 3–6 întrebări H3 care se termină cu „?”,
+  // un singur titlu (H2), surse doar de pe PubMed / EUR-Lex / EFSA. Cuvintele interzise și mențiunile se verifică mai jos,
+  // pe toate textele, ca la restul paginii. Lipsa secțiunii = avertisment (eroare cu --cere-curiozitati).
+  const cur = d.curiozitati;
+  if (!cur) (process.argv.includes('--cere-curiozitati') ? errs : warns).push('lipsește curiozitati');
+  else {
+    const sec = cur.sectiuni || [];
+    const cuv = s => (String(s || '').match(/[\p{L}\d][\p{L}\d’'-]*/gu) || []).length;
+    const n = cuv(cur.intro) + sec.reduce((a, s) => a + cuv(s.intrebare) + cuv(s.raspuns), 0);
+    if (n < 300 || n > 400) errs.push(`curiozitati: ${n} cuvinte (trebuie 300–400)`);
+    if (!cur.titlu || cur.titlu.length > 80) errs.push('curiozitati.titlu: obligatoriu, max 80 de caractere');
+    if (sec.length < 3 || sec.length > 6) errs.push(`curiozitati.sectiuni: 3–6 (are ${sec.length})`);
+    sec.forEach((s, i) => {
+      if (!/\?$/.test((s.intrebare || '').trim())) errs.push(`curiozitati.sectiuni[${i}].intrebare: trebuie să fie o întrebare (se termină cu „?”)`);
+      if ((s.intrebare || '').length > 110) errs.push(`curiozitati.sectiuni[${i}].intrebare: max 110 caractere`);
+      const first = String(s.raspuns || '').split(/(?<=[.!?])\s/)[0];
+      if (cuv(first) > 40) warns.push(`curiozitati.sectiuni[${i}]: prima frază are ${cuv(first)} cuvinte (răspunsul direct trebuie să fie scurt)`);
+    });
+    for (const [i, s] of (cur.surse || []).entries()) {
+      if (!/^https:\/\/(pubmed\.ncbi\.nlm\.nih\.gov|eur-lex\.europa\.eu|www\.efsa\.europa\.eu|efsa\.onlinelibrary\.wiley\.com|doi\.org)\//.test(s.url || '')) errs.push(`curiozitati.surse[${i}]: doar PubMed, EUR-Lex, EFSA sau DOI (${s.url})`);
+      if (!s.text) errs.push(`curiozitati.surse[${i}].text lipsă`);
+    }
+    const curTxt = [cur.intro, ...sec.map(s => s.raspuns)].join(' ');
+    if (/\d+(?:[.,]\d+)?\s?(%|mg|g\b|µg|mcg|kcal|ani|de ani)/.test(curTxt) && !(cur.surse || []).length) warns.push('curiozitati: are cifre, dar nicio sursă (cifrele care nu vin de pe etichetă trebuie să aibă sursă PubMed/EUR-Lex)');
+    if (/furnizor|fabric[aă] (din|de la)|producător(ul)? /i.test(curTxt)) errs.push('curiozitati: fără furnizor sau fabrică');
+  }
+
   const all = texts(d);
   const joined = all.map(([, t]) => t).join(' ');
   // „DE VERIFICAT” într-un text afișat = blocant; lista de_verificat = goluri interne (nu se afișează), doar avertisment.

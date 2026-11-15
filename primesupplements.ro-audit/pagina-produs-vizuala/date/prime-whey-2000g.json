@@ -169,5 +169,41 @@
   "mod_de_folosire": "O măsură (30 g) cu 150–200 ml de apă sau lapte, de 1–4 ori pe zi, în funcție de necesarul proteic. Nu depăși doza recomandată pentru consumul zilnic.",
   "de_verificat": [
     "arome: declarația nutrițională și ingredientele exacte sunt transcrise doar pentru Bourbon Vanilla (și ingredientele în plus la Salted Caramel); restul aromelor de citit de pe tub"
-  ]
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre proteina din zer",
+    "intro": "Pudra din tub începe ca un lichid care rămâne după ce se face brânza. Iată pe scurt drumul zerului până în shaker și câteva lucruri utile despre cum îl folosești.",
+    "sectiuni": [
+      {
+        "intrebare": "De unde vine zerul?",
+        "raspuns": "Din lapte, la fabricarea brânzei. Când laptele se închegă, cazeina formează cașul, iar lichidul gălbui care rămâne este zerul. Multă vreme a fost tratat ca un produs secundar al brânzeturilor. Azi, din el se obțin pudrele proteice ca Prime Whey."
+      },
+      {
+        "intrebare": "Cum ajunge zerul lichid să fie pudră?",
+        "raspuns": "Prin filtrare și uscare. Zerul trece prin membrane fine care rețin proteinele și lasă să treacă o mare parte din apă, lactoză și minerale. Concentratul rezultat se usucă prin pulverizare în aer cald și devine o pudră fină, la care se adaugă apoi aromele și îndulcitorii. Concentratul păstrează puțină grăsime și lactoză; izolatul mai trece printr-o filtrare."
+      },
+      {
+        "intrebare": "Câtă proteină ai nevoie într-o zi?",
+        "raspuns": "Depinde de greutate și de antrenament. Poziția oficială a Societății Internaționale de Nutriție Sportivă (2017) indică 1,4–2,0 g de proteine pe kilogram de corp pe zi pentru majoritatea celor care se antrenează, împărțite în porții de 20–40 g la 3–4 ore. O măsură de Prime Whey are 24,4 g de proteine la aroma Bourbon Vanilla. Proteinele contribuie la creșterea masei musculare."
+      },
+      {
+        "intrebare": "Trebuie să bei shake-ul imediat după antrenament?",
+        "raspuns": "Nu neapărat. Aceeași poziție ISSN arată că momentul ține mai ales de cum te simți tu, iar ce contează e cantitatea totală de proteine din zi. Shake-ul merge dimineața, între mese sau după sală, cum îți e mai comod."
+      },
+      {
+        "intrebare": "Cum folosești proteina din zer în bucătărie?",
+        "raspuns": "O amesteci în ovăz, iaurt, clătite sau smoothie. La căldură mare proteina se coagulează, ca albușul de ou, dar cantitatea de proteine rămâne aceeași. Ca să nu facă cocoloașe, adaug-o în terci după ce l-ai luat de pe foc. În clătite, înlocuiește o parte din făină și adaugă puțin lichid în plus."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Jäger R și colab. ISSN Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
 }

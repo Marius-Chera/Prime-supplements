@@ -1099,3 +1099,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Recomandat pentru noi: varianta B, adică o secțiune Liquid în Impact + un metafield JSON `prime.pagina_vizuala` pe produs, cu date generate doar din etichetă, validate automat, apoi aprobate.
 - Livrat în `pagina-produs-vizuala/`: raport `RAPORT-PAGINA-PRODUS-VIZUALA-2026-11-15.md`, prototip `prototip-recovery-bcaa.html` (Recovery BCAA, verificat pe desktop și pe 375 px, schimbarea aromei funcționează), secțiunea `liquid/sections/prime-pagina-vizuala.liquid` + CSS (neurcate), `liquid/METAFIELD-DEFINITII.md`, validatorul `scripts/valideaza-pagina-vizuala.mjs` (cifre față de etichetă, mențiuni din `mentiuni-autorizate.json`, cuvinte interzise, „DE VERIFICAT”, diacritice; testat și cu un fișier stricat intenționat), `PROMPT-GENERARE.md`.
 - Găsit la noi: la Recovery BCAA, aroma Cherry nu are transcrise aromele și colorantul de pe tub (DE VERIFICAT).
+- **15.11, Sebastian Stănescu și Damian Rusu:** la cererea lui Marius („șterge tot din aprobat și din credit pentru voucher”) au fost șterse:
+  - plățile aprobate 1 (684,85 lei) și 2 (488,32 lei);
+  - rândurile „Sold preluat din UpPromote”.
+  - Cele 37 de comenzi „Approved” din UpPromote au trecut la „anulat”.
+  - Acum ambii au 0 la aprobat și 0 la credit pentru voucher. Sebastian păstrează 33,21 lei în așteptare.
+- **Panoul afiliatului** are acum 3 casete: „În așteptare” (galben), „Aprobat” (albastru), „Credit pentru voucher” (verde). „Plătit” rămâne doar în fișa din admin. Cerut de Marius.

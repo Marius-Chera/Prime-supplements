@@ -484,3 +484,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Găsit: virările Shopify Payments sunt oprite din 23.09, pentru că datele firmei nu sunt verificate.
   - Marius a ales: „Aștept verificarea” (Netopia rămâne), apoi „Oprește-l până atunci” (Shopify Payments dezactivat până la verificare). A cerut: „zi înainte să le activez exact ce să completez”.
   - Ordinea după verificare, aleasă de Claude: reactivare Shopify Payments, cu Apple Pay și Google Pay → verificare → dezactivare Netopia.
+- **15.11 – pilot aprobat (Marius: „Da, pornește pilotul”):** tema nepublicată „Prime – PILOT pagină vizuală (15.11)” + metafield-ul `prime.pagina_vizuala` pe 3 produse (Recovery BCAA, Creapure, Prime Whey 2 kg). Rămâne de decis de Marius: designul văzut pe previzualizare și publicarea temei. Restul catalogului se face după 1.12.

@@ -1,0 +1,30 @@
+{
+  "data": "2026-11-15",
+  "cerere": "Marius: „Da, pornește pilotul”",
+  "tema_pilot": {
+    "id": "gid://shopify/OnlineStoreTheme/194315649399",
+    "nume": "Prime – PILOT pagină vizuală (15.11)",
+    "rol": "UNPUBLISHED",
+    "copiata_din": "gid://shopify/OnlineStoreTheme/194315223415 (Prime – fără retur la vedere (15.11), MAIN)",
+    "fisiere": {
+      "assets/prime-pagina-vizuala.css": "md5 1c241d300ddc5374725fcc6bd1d144d3 = repo pagina-produs-vizuala/liquid/assets/prime-pagina-vizuala.css",
+      "sections/prime-pagina-vizuala.liquid": "md5 33d1b4bffef2b170c1ec3f5521c6d4d0 = repo pagina-produs-vizuala/liquid/sections/prime-pagina-vizuala.liquid",
+      "templates/product.json": "identic cu tema live + secțiunea \"prime_pagina_vizuala\" {type: prime-pagina-vizuala, padding 24/24}, pusă în order între \"main\" și \"tabs_ANqwjb\" (comentariul de antet auto-generat a căzut)"
+    }
+  },
+  "metafield_definition": "gid://shopify/MetafieldDefinition/543946965367 (prime.pagina_vizuala, json, PRODUCT)",
+  "metafields_scrise": [
+    { "produs": "recovery-bcaa-500g", "id": "gid://shopify/Product/14971467596151", "metafield": "gid://shopify/Metafield/206268904538487", "sursa": "pagina-produs-vizuala/date/recovery-bcaa-500g.json (fără de_verificat și sursa_datelor)" },
+    { "produs": "creatina-creapure", "id": "gid://shopify/Product/14971467268471", "metafield": "gid://shopify/Metafield/206268904571255", "sursa": "pagina-produs-vizuala/date/creatina-creapure.json" },
+    { "produs": "prime-whey-2000g", "id": "gid://shopify/Product/14971469529463", "metafield": "gid://shopify/Metafield/206268904604023", "sursa": "pagina-produs-vizuala/date/prime-whey-2000g.json" }
+  ],
+  "verificari": [
+    "validator: 3 fișiere, 0 erori (2 avertismente interne de etichetă)",
+    "citire înapoi (jsonValue) identică cu ce s-a trimis",
+    "tema live: fără secțiune (HTML-ul public nu conține class=\"ppv\"); metafield-ul nu e afișat de tema live",
+    "previzualizare pilot: 390 px și 1280 px; un singur H1; schimbarea aromei schimbă poza și aroma evidențiată (Impact trimite variant:change din <form>)",
+    "corectat în pilot: tema forțează h1–h6 {font-family:\"Bebas Neue\" !important} → titlul cardurilor de ingrediente cu Poppins !important",
+    "găsit, NU de la pilot: pe desktop (1280 px) footer__block--text iese cu ~66 px din pagină (scroll orizontal) și pe tema live"
+  ],
+  "neschimbat": "tema live, stocuri, statusuri, descrieri, celelalte metafield-uri"
+}

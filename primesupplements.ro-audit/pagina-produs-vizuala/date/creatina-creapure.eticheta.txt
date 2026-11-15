@@ -1,0 +1,13 @@
+Sursa: metafield-urile custom.ingrediente, custom.detalii_produs, custom.beneficii_cheie ale produsului creatina-creapure (transcrierea etichetei), citite prin Admin API pe 15.11.2026.
+
+Ingrediente: Creatină monohidrată micronizată (Creapure®). Lista de ingrediente are un singur element; nu conține arome, îndulcitori sau coloranți.
+Porție: 5 g de pulbere
+Doza zilnică recomandată: 3–5 g de creatină
+Tub de 300 g: 60 de porții
+Tub de 500 g: 100 de porții („500 g / 100 servings” pe fața tubului)
+Denumire: supliment alimentar pentru adulți, sub formă de pulbere
+Marcă de ingredient declarată pe etichetă: Creapure® („made of Creapure®” pe fața tubului)
+Mod de administrare: 3–5 g de creatină pe zi; pe durata utilizării consumi suficiente lichide pe parcursul zilei
+Pentru: adulții care fac antrenamente de mare intensitate
+Atenționări: a nu se depăși doza zilnică recomandată; a nu se lăsa la îndemâna și la vederea copiilor mici; nu se recomandă persoanelor cu vârsta sub 18 ani, femeilor în perioada de sarcină și alăptare
+Mențiune (Reg. 432/2012, condiție): efectul benefic se obține la un aport zilnic de 3 g de creatină.

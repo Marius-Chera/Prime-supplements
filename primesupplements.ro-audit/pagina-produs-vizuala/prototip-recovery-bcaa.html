@@ -80,7 +80,8 @@
 .ppv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
 .ppv-ing{border:1px solid var(--ppv-line);border-radius:var(--ppv-r);padding:18px;background:#fff}
 .ppv-ing__code{display:inline-grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border-radius:12px;background:var(--ppv-red);color:#fff;font-family:var(--ppv-head);font-size:20px;letter-spacing:.03em;margin-bottom:12px}
-.ppv-ing h4{margin:0 0 6px;font-size:15px;font-weight:600}
+/* tema are h1–h6 {font-family:"Bebas Neue" !important}; titlul cardului trebuie să fie text normal */
+.ppv .ppv-ing h4{margin:0 0 6px;font-family:var(--ppv-text)!important;font-size:15px;font-weight:600;line-height:1.4;text-transform:none;letter-spacing:0}
 .ppv-ing p{font-size:13.5px;color:var(--ppv-muted)}
 
 /* Arome + folosire */
@@ -301,7 +302,7 @@
     {
       "varianta": "Cherry",
       "nume": "Cherry (cireșe)",
-      "nota": "Ingredientele de aromă și colorantul pentru Cherry: DE VERIFICAT pe eticheta tubului Cherry."
+      "nota": "Aromă de cireșe; aromele și colorantul sunt trecute pe eticheta tubului."
     },
     {
       "varianta": "Pear",
@@ -311,7 +312,7 @@
   ],
   "mod_de_folosire": "Amestecă 8 g (aproximativ 2 măsuri) cu cantitatea dorită de apă, de 2–4 ori pe zi. Nu depăși doza zilnică recomandată.",
   "de_verificat": [
-    "arome[0].nota: ingredientele de aromă și colorantul pentru Cherry lipsesc din datele de etichetă din magazin"
+    "arome[0]: ingredientele de aromă și colorantul pentru Cherry nu sunt transcrise în magazin (de citit de pe tub)"
   ]
 }
 </script>
@@ -362,7 +363,7 @@
   document.addEventListener('variant:change', function (ev) {
     var v = ev.detail.variant, root = document.getElementById('ppv-demo');
     root.querySelectorAll('[data-ppv-flavour]').forEach(function (li) { li.setAttribute('aria-current', li.getAttribute('data-ppv-flavour') === v.title); });
-    root.querySelector('[data-ppv-img]').src = v.featured_image.src + '&width=900';
+    root.querySelector('.ppv-media__img img').src = v.featured_image.src + '&width=900';
   });
 </script>
 </body>

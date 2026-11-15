@@ -1,0 +1,119 @@
+{
+  "versiune": 1,
+  "handle": "creatina-creapure",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie ale produsului (transcrierea etichetei tubului), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Creapure®",
+    "Monohidrată micronizată",
+    "5 g / porție",
+    "100 de porții"
+  ],
+  "titlu": "Creatină Creapure®: un singur ingredient, 5 g pe porție",
+  "intro": "O porție de [[5 g]] de pulbere înseamnă [[creatină monohidrată micronizată (Creapure®)]], singurul ingredient de pe etichetă: fără arome, îndulcitori sau coloranți. Doza zilnică recomandată este de [[3–5 g]], iar efectul benefic se obține la un aport zilnic de [[3 g]] de creatină.",
+  "etichete": [
+    "1 ingredient",
+    "Fără aromă",
+    "Fără îndulcitori",
+    "Fără coloranți",
+    "Tub de 300 g sau 500 g",
+    "Pentru adulți"
+  ],
+  "cifre": [
+    {
+      "valoare": "5",
+      "unitate": "g",
+      "eticheta": "creatină per porție"
+    },
+    {
+      "valoare": "3–5",
+      "unitate": "g",
+      "eticheta": "doza zilnică recomandată"
+    },
+    {
+      "valoare": "100",
+      "unitate": "",
+      "eticheta": "porții în tubul de 500 g"
+    },
+    {
+      "valoare": "60",
+      "unitate": "",
+      "eticheta": "porții în tubul de 300 g"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "5 g de pulbere"
+    },
+    {
+      "titlu": "Se amestecă",
+      "text": "în apă sau în shake-ul proteic"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Ingredient, porție și gramaje",
+    "randuri": [
+      {
+        "nume": "Ingredient",
+        "valoare": "creatină monohidrată (Creapure®)"
+      },
+      {
+        "nume": "Porție",
+        "valoare": "5 g"
+      },
+      {
+        "nume": "Doza zilnică recomandată",
+        "valoare": "3–5 g"
+      },
+      {
+        "nume": "Tub de 300 g",
+        "valoare": "60 de porții"
+      },
+      {
+        "nume": "Tub de 500 g",
+        "valoare": "100 de porții"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Creatina Creapure®",
+    "puncte": [
+      "Un singur ingredient: creatină monohidrată micronizată",
+      "Creapure®, marca declarată pe fața tubului",
+      "Fără arome, îndulcitori sau coloranți în lista de ingrediente",
+      "Se amestecă în apă sau în shake-ul proteic",
+      "Două gramaje: 300 g (60 de porții) sau 500 g (100 de porții)",
+      "Pentru adulții care fac antrenamente de mare intensitate"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "CRE",
+        "titlu": "Creatină monohidrată · 5 g",
+        "text": "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate. Efectul benefic se obține la un aport zilnic de 3 g de creatină.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "®",
+        "titlu": "Creapure®",
+        "text": "Marcă înregistrată de creatină monohidrată, declarată pe fața tubului."
+      },
+      {
+        "cod": "0",
+        "titlu": "Fără adaosuri",
+        "text": "Lista de ingrediente are un singur element: nu conține arome, îndulcitori sau coloranți."
+      },
+      {
+        "cod": "H2O",
+        "titlu": "Lichide",
+        "text": "Pe durata utilizării consumi suficiente lichide pe parcursul zilei, cum cere eticheta."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "3–5 g de creatină pe zi, amestecate în apă sau în shake-ul proteic. Pe durata utilizării consumă suficiente lichide pe parcursul zilei. Nu depăși doza zilnică recomandată. Nu se recomandă persoanelor sub 18 ani și femeilor în perioada de sarcină și alăptare.",
+  "de_verificat": []
+}

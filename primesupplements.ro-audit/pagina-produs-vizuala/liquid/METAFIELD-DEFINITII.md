@@ -1,4 +1,6 @@
-# Metafield pentru pagina vizuală – definiție și scriere (NU s-a rulat nimic)
+# Metafield pentru pagina vizuală – definiție și scriere
+
+**15.11.2026 (pilot aprobat de Marius):** definiția e creată (`gid://shopify/MetafieldDefinition/543946965367`), iar metafield-ul e scris pe 3 produse (Recovery BCAA, Creatină Creapure, Prime Whey 2 kg). Secțiunea e doar pe tema nepublicată „Prime – PILOT pagină vizuală (15.11)” (`194315649399`). Log: `applied/logs/pagina-vizuala/pilot-2026-11-15.json`.
 
 ## Definiția (o singură dată, cu aprobarea lui Marius)
 

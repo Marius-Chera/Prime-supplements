@@ -1,5 +1,5 @@
 {
-  "_nota": "Mențiuni de sănătate autorizate (Reg. UE 432/2012, registrul UE al mențiunilor), formulările RO deja folosite pe site. Se pot folosi DOAR dacă produsul îndeplinește condiția de utilizare (vitamine/minerale: minimum 15% VNR per porție; proteine: produsul e sursă de proteine; creatină: 3 g/zi). Un nutrient nou se adaugă aici doar după verificare în registrul UE.",
+  "_nota": "Mențiuni de sănătate autorizate (Reg. UE 432/2012, registrul UE al mențiunilor), formulările RO deja folosite pe site. Se pot folosi DOAR dacă produsul îndeplinește condiția de utilizare (vitamine/minerale: minimum 15% VNR per porție; proteine: produsul e sursă de proteine; creatină: 3 g/zi). Un nutrient nou se adaugă aici doar după verificare în registrul UE. Formulările pentru creatină și proteine sunt cele deja folosite pe site (applied/product-content/claim-wording-fix, beneficii_cheie).",
   "mentiuni": {
     "vitamina b6": [
       "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului.",
@@ -10,10 +10,11 @@
     "proteine": [
       "Proteinele contribuie la creșterea masei musculare.",
       "Proteinele contribuie la menținerea masei musculare.",
-      "Proteinele contribuie la menținerea unor oase normale."
+      "Proteinele contribuie la menținerea sănătății sistemului osos."
     ],
     "creatina": [
-      "Creatina crește performanța fizică în cazul unor exerciții succesive, de scurtă durată și de mare intensitate."
+      "Creatina crește performanța fizică în eforturi succesive din timpul exercițiilor fizice de scurtă durată și de mare intensitate.",
+      "Efectul benefic se obține la un aport zilnic de 3 g de creatină."
     ],
     "magneziu": [
       "Magneziul contribuie la reducerea oboselii și extenuării.",
@@ -45,5 +46,16 @@
       "EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA."
     ]
   },
-  "fara_mentiuni_autorizate": ["BCAA", "leucină", "EAA", "glutamină", "citrulină", "beta-alanină", "L-carnitină", "colagen", "ashwagandha", "taurină"]
+  "fara_mentiuni_autorizate": [
+    "BCAA",
+    "leucină",
+    "EAA",
+    "glutamină",
+    "citrulină",
+    "beta-alanină",
+    "L-carnitină",
+    "colagen",
+    "ashwagandha",
+    "taurină"
+  ]
 }

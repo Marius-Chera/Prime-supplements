@@ -30,7 +30,7 @@
       <figure class="ppv-media">
         {%- if img -%}
           <div class="ppv-media__img">
-            {{ img | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(max-width: 900px) 90vw, 480px', widths: '360,540,720,900', alt: img.alt, data-ppv-img: '' }}
+            {{ img | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(max-width: 900px) 90vw, 480px', widths: '360,540,720,900', alt: img.alt }}
           </div>
         {%- endif -%}
         {%- if d.mini_carduri.size > 0 -%}
@@ -121,8 +121,8 @@
 {%- comment -%}
   La schimbarea aromei: poza variantei + aroma evidențiată. Textele nu depind de aromă,
   deci nu poate apărea situația de la concurent (Pepene selectat, text și poză cu ananas).
-  Impact trimite evenimentul variant:change; dacă nu ajunge, poza rămâne cea randată pe server.
-  DE VERIFICAT pe tema duplicat: numele exact al evenimentului în Impact 6.7.1.
+  Impact 6.7.1 trimite variant:change din <form> (verificat 15.11 pe Recovery BCAA: detail.variant cu title și
+  featured_image). Se ia în seamă doar o variantă a acestui produs (pagina mai are formulare de la alte produse).
 {%- endcomment -%}
 <script>
   (function () {
@@ -130,14 +130,15 @@
     if (!root) return;
     var imgs = {{ product.variants | map: 'featured_image' | json }};
     var titles = {{ product.variants | map: 'title' | json }};
+    var ids = {{ product.variants | map: 'id' | json }};
     function apply(variant) {
-      if (!variant) return;
+      if (!variant || ids.indexOf(variant.id) === -1) return;
       root.querySelectorAll('[data-ppv-flavour]').forEach(function (li) {
         li.setAttribute('aria-current', li.getAttribute('data-ppv-flavour') === variant.title ? 'true' : 'false');
       });
       var i = titles.indexOf(variant.title);
       var src = variant.featured_image ? variant.featured_image.src : (i > -1 && imgs[i] ? imgs[i].src : null);
-      var el = root.querySelector('[data-ppv-img]');
+      var el = root.querySelector('.ppv-media__img img');
       if (el && src) { el.removeAttribute('srcset'); el.src = src + (src.indexOf('?') > -1 ? '&' : '?') + 'width=900'; }
     }
     document.addEventListener('variant:change', function (e) { apply(e.detail && e.detail.variant); });

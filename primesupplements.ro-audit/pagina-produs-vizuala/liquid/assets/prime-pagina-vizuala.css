@@ -71,7 +71,8 @@
 .ppv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
 .ppv-ing{border:1px solid var(--ppv-line);border-radius:var(--ppv-r);padding:18px;background:#fff}
 .ppv-ing__code{display:inline-grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border-radius:12px;background:var(--ppv-red);color:#fff;font-family:var(--ppv-head);font-size:20px;letter-spacing:.03em;margin-bottom:12px}
-.ppv-ing h4{margin:0 0 6px;font-size:15px;font-weight:600}
+/* tema are h1–h6 {font-family:"Bebas Neue" !important}; titlul cardului trebuie să fie text normal */
+.ppv .ppv-ing h4{margin:0 0 6px;font-family:var(--ppv-text)!important;font-size:15px;font-weight:600;line-height:1.4;text-transform:none;letter-spacing:0}
 .ppv-ing p{font-size:13.5px;color:var(--ppv-muted)}
 
 /* Arome + folosire */

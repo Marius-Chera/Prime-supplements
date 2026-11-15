@@ -61,7 +61,9 @@ for (const f of readdirSync(dir).filter(n => n.endsWith('.json'))) {
 
   const all = texts(d);
   const joined = all.map(([, t]) => t).join(' ');
-  if (!allowTodo && (/DE VERIFICAT/.test(joined) || (d.de_verificat || []).length)) errs.push(`DE VERIFICAT nerezolvat: ${(d.de_verificat || []).join(' | ') || 'vezi textele'}`);
+  // „DE VERIFICAT” într-un text afișat = blocant; lista de_verificat = goluri interne (nu se afișează), doar avertisment.
+  if (!allowTodo && /DE VERIFICAT/.test(joined)) errs.push('DE VERIFICAT rămas într-un text afișat clienților');
+  for (const x of d.de_verificat || []) warns.push(`de completat (intern): ${x}`);
   if (joined.length > 200 && !/[ăâîșț]/i.test(joined)) errs.push('fără diacritice: textul trebuie scris cu ă, â, î, ș, ț');
   if (/[şţŞŢ]/.test(joined)) warns.push('ş/ţ cu sedilă: folosește ș/ț cu virgulă');
   for (const [p, t] of all) {

@@ -2,29 +2,78 @@
   "versiune": 1,
   "handle": "recovery-bcaa-500g",
   "sursa_datelor": "Eticheta tubului de 500 g (tabelul nutrițional, ingrediente, mod de administrare, atenționări), așa cum e transcrisă în metafield-urile custom.ingrediente și custom.detalii_produs (citite pe 15.11.2026).",
-  "badge": ["BCAA 4:1:1", "7100 mg BCAA", "Vitamina B6", "62 de porții"],
+  "badge": [
+    "BCAA 4:1:1",
+    "7100 mg BCAA",
+    "Vitamina B6",
+    "62 de porții"
+  ],
   "titlu": "Recovery BCAA: 7100 mg de BCAA 4:1:1 în fiecare porție",
   "intro": "O porție de [[8 g]] (aproximativ 2 măsuri) conține [[7100 mg BCAA]] în raport 4:1:1: [[4733,4 mg L-leucină]], 1183,3 mg L-izoleucină și 1183,3 mg L-valină. Plus [[1,5 mg vitamina B6]], adică 106% din valoarea nutrițională de referință, și [[0,0 g zaharuri]] per porție, conform tabelului nutrițional.",
-  "etichete": ["BCAA 4:1:1", "Cu vitamina B6", "0,0 g zaharuri / porție", "Sucraloză și acesulfam K", "Pudră pentru băutură", "Fabricat în UE"],
+  "etichete": [
+    "BCAA 4:1:1",
+    "Cu vitamina B6",
+    "0,0 g zaharuri / porție",
+    "Sucraloză și acesulfam K",
+    "Pudră pentru băutură",
+    "Fabricat în UE"
+  ],
   "cifre": [
-    { "valoare": "7100", "unitate": "mg", "eticheta": "BCAA per porție" },
-    { "valoare": "4733", "unitate": "mg", "eticheta": "L-leucină per porție" },
-    { "valoare": "1,5", "unitate": "mg", "eticheta": "vitamina B6 (106% VNR)" },
-    { "valoare": "62", "unitate": "", "eticheta": "porții în tub" }
+    {
+      "valoare": "7100",
+      "unitate": "mg",
+      "eticheta": "BCAA per porție"
+    },
+    {
+      "valoare": "4733",
+      "unitate": "mg",
+      "eticheta": "L-leucină per porție"
+    },
+    {
+      "valoare": "1,5",
+      "unitate": "mg",
+      "eticheta": "vitamina B6 (106% VNR)"
+    },
+    {
+      "valoare": "62",
+      "unitate": "",
+      "eticheta": "porții în tub"
+    }
   ],
   "mini_carduri": [
-    { "titlu": "Porție", "text": "8 g ≈ 2 măsuri, cu apă" },
-    { "titlu": "Pe zi", "text": "2–4 porții, după etichetă" }
+    {
+      "titlu": "Porție",
+      "text": "8 g ≈ 2 măsuri, cu apă"
+    },
+    {
+      "titlu": "Pe zi",
+      "text": "2–4 porții, după etichetă"
+    }
   ],
   "card_formula": {
     "eticheta": "Ce primești într-o porție",
     "titlu": "Porția de 8 g, din tabelul nutrițional",
     "randuri": [
-      { "nume": "Valoare energetică", "valoare": "28,2 kcal" },
-      { "nume": "Proteine (ca aminoacizi liberi)", "valoare": "7,1 g" },
-      { "nume": "Carbohidrați / zaharuri", "valoare": "0,0 g / 0,0 g" },
-      { "nume": "BCAA 4:1:1", "valoare": "7100 mg" },
-      { "nume": "Vitamina B6", "valoare": "1,5 mg (106% VNR)" }
+      {
+        "nume": "Valoare energetică",
+        "valoare": "28,2 kcal"
+      },
+      {
+        "nume": "Proteine (ca aminoacizi liberi)",
+        "valoare": "7,1 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "0,0 g / 0,0 g"
+      },
+      {
+        "nume": "BCAA 4:1:1",
+        "valoare": "7100 mg"
+      },
+      {
+        "nume": "Vitamina B6",
+        "valoare": "1,5 mg (106% VNR)"
+      }
     ]
   },
   "card_puncte": {
@@ -41,18 +90,53 @@
   "carduri_ingrediente": {
     "titlu": "Ce face fiecare ingredient",
     "carduri": [
-      { "cod": "LEU", "titlu": "L-leucină · 4733,4 mg", "text": "Aminoacid esențial: organismul nu îl poate produce, îl iei din alimentație. În raportul 4:1:1 are patru părți din șase." },
-      { "cod": "ILE", "titlu": "L-izoleucină · 1183,3 mg", "text": "Al doilea aminoacid cu catenă ramificată, tot esențial. O parte din șase." },
-      { "cod": "VAL", "titlu": "L-valină · 1183,3 mg", "text": "Al treilea aminoacid cu catenă ramificată, tot esențial. O parte din șase." },
-      { "cod": "B6", "titlu": "Vitamina B6 · 1,5 mg", "text": "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului și la reducerea oboselii și extenuării.", "mentiune_autorizata": true },
-      { "cod": "0 g", "titlu": "Zaharuri · 0,0 g", "text": "Per porție, conform tabelului nutrițional. Gustul dulce vine din sucraloză și acesulfam de potasiu." },
-      { "cod": "ARO", "titlu": "Două arome", "text": "Cherry (cireșe) și Pear (pere). Le alegi din selectorul de mai sus." }
+      {
+        "cod": "LEU",
+        "titlu": "L-leucină · 4733,4 mg",
+        "text": "Aminoacid esențial: organismul nu îl poate produce, îl iei din alimentație. În raportul 4:1:1 are patru părți din șase."
+      },
+      {
+        "cod": "ILE",
+        "titlu": "L-izoleucină · 1183,3 mg",
+        "text": "Al doilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
+      },
+      {
+        "cod": "VAL",
+        "titlu": "L-valină · 1183,3 mg",
+        "text": "Al treilea aminoacid cu catenă ramificată, tot esențial. O parte din șase."
+      },
+      {
+        "cod": "B6",
+        "titlu": "Vitamina B6 · 1,5 mg",
+        "text": "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului și la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "0 g",
+        "titlu": "Zaharuri · 0,0 g",
+        "text": "Per porție, conform tabelului nutrițional. Gustul dulce vine din sucraloză și acesulfam de potasiu."
+      },
+      {
+        "cod": "ARO",
+        "titlu": "Două arome",
+        "text": "Cherry (cireșe) și Pear (pere). Le alegi din selectorul de mai sus."
+      }
     ]
   },
   "arome": [
-    { "varianta": "Cherry", "nume": "Cherry (cireșe)", "nota": "Ingredientele de aromă și colorantul pentru Cherry: DE VERIFICAT pe eticheta tubului Cherry." },
-    { "varianta": "Pear", "nume": "Pear (pere)", "nota": "Culoarea vine din colorantul de pe etichetă: săruri de sodiu sau potasiu ale complecșilor clorofilină-cupru." }
+    {
+      "varianta": "Cherry",
+      "nume": "Cherry (cireșe)",
+      "nota": "Aromă de cireșe; aromele și colorantul sunt trecute pe eticheta tubului."
+    },
+    {
+      "varianta": "Pear",
+      "nume": "Pear (pere)",
+      "nota": "Culoarea vine din colorantul de pe etichetă: săruri de sodiu sau potasiu ale complecșilor clorofilină-cupru."
+    }
   ],
   "mod_de_folosire": "Amestecă 8 g (aproximativ 2 măsuri) cu cantitatea dorită de apă, de 2–4 ori pe zi. Nu depăși doza zilnică recomandată.",
-  "de_verificat": ["arome[0].nota: ingredientele de aromă și colorantul pentru Cherry lipsesc din datele de etichetă din magazin"]
+  "de_verificat": [
+    "arome[0]: ingredientele de aromă și colorantul pentru Cherry nu sunt transcrise în magazin (de citit de pe tub)"
+  ]
 }

@@ -1146,3 +1146,12 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - foaia NETOPIA apare doar în lunile cu deconturi Netopia.
   - 130 de teste, versiunea 92cc621f.
   - **Nu merge încă:** aplicației îi lipsesc permisiunile `read_shopify_payments_accounts` și `read_shopify_payments_payouts`. Trebuie o versiune nouă, aprobată de Marius. Neverificat pe date reale (martie 2026 are plăți Shopify Payments: Nr.6362–6366).
+
+## 15.11.2026 – Pagina vizuală: pilot pe 3 produse (cu OK-ul lui Marius: „Da, pornește pilotul”)
+- Temă nouă **nepublicată** „Prime – PILOT pagină vizuală (15.11)” (copie a temei live): în ea sunt `sections/prime-pagina-vizuala.liquid` + `assets/prime-pagina-vizuala.css` (identice cu repo-ul, verificat cu MD5), iar secțiunea e pusă în `templates/product.json` între produs și tab-uri. **Tema live nu a fost atinsă.**
+- Am creat definiția metafield-ului `prime.pagina_vizuala` (json) și l-am scris pe Recovery BCAA, Creatină Creapure și Prime Whey 2 kg. Datele vin din `pagina-produs-vizuala/date/*.json` (generate din transcrierea etichetelor din octombrie, validator fără erori, citire înapoi identică). Pe tema live metafield-ul nu se afișează.
+- Verificat pe previzualizare, pe 390 px și 1280 px: un singur H1 și fără scroll orizontal din secțiune. Schimbarea aromei schimbă poza și aroma evidențiată (Impact trimite `variant:change` din formular; secțiunea ascultă doar variantele produsului afișat).
+- Corectat: tema forțează Bebas Neue pe h1–h6 cu `!important`, așa că titlurile cardurilor de ingrediente erau mici și cu majuscule. Acum sunt în Poppins.
+- Lista de mențiuni a validatorului folosește acum formulările deja aprobate pe site pentru creatină și proteine. Golurile de etichetă (aromele de la Cherry, declarațiile nutriționale ale celorlalte arome Whey) rămân interne, nu se afișează.
+- Găsit în treacăt (nu de la pilot): pe desktop, un bloc de text din footer iese cu ~66 px din pagină (scroll orizontal) și pe tema live.
+- Log: `applied/logs/pagina-vizuala/pilot-2026-11-15.json`.

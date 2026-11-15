@@ -1199,3 +1199,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **De verificat:** 1 tranzacție (Nr.6243, 540 lei), cu mai multe facturi posibile. Apar butoanele „✓ Aplică PRS …”, verificate astfel pentru prima dată.
   - Luna de lucru a fost readusă pe noiembrie 2026.
   - **Netestat încă:** legarea de extrasul BT (nu e încărcat extrasul din martie) și foaia SHOPIFY PAYMENTS din raportul de închidere pe date reale. Aceasta din urmă e acoperită de teste.
+- **15.11, vouchere generate de afiliați (cerut de Marius):**
+  - Afiliatul alege suma voucherului, până la tot creditul pentru voucher; restul rămâne credit.
+  - Poate genera voucherul doar când are cel puțin 500 lei credit.
+  - Codul e de o singură folosire și apare imediat în panou, la „Plăți primite”, grupat pe voucher.
+  - Codul pleacă și pe e-mail, prin Resend, cu copie la contact@. Exemplu: `afiliati/sabloane/afiliati-voucher-generat-exemplu.html`.
+  - **E-mailul pornește abia după ce Marius:** își face contul Resend, verifică domeniul primesupplements.ro (DNS-ul e la KEMO, ns*.kemo.services) și pune cheia `RESEND_API_KEY` ca secret în Cloudflare. Până atunci, codul apare doar în panou.

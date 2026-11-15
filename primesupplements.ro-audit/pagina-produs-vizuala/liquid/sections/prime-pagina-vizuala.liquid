@@ -1,0 +1,160 @@
+{%- comment -%}
+  Prime – pagina de produs vizuală (varianta B). NU e urcată în tema live.
+  Datele vin dintr-un singur metafield JSON: product.metafields.prime.pagina_vizuala
+  (structura: pagina-produs-vizuala/date/*.json, verificată de scripts/valideaza-pagina-vizuala.mjs).
+  Dacă produsul nu are metafield-ul, secțiunea nu afișează nimic (restul paginii rămâne cum e).
+  Tot HTML-ul e randat pe server (vizibil pentru Google), fără aplicații externe.
+  Textul [[...]] din intro devine valoare evidențiată.
+{%- endcomment -%}
+{%- assign d = product.metafields.prime.pagina_vizuala.value -%}
+{%- if d != blank and d.titlu != blank -%}
+{{ 'prime-pagina-vizuala.css' | asset_url | stylesheet_tag }}
+{%- assign v = product.selected_or_first_available_variant -%}
+{%- assign img = v.featured_image | default: product.featured_image -%}
+<section class="ppv" id="ppv-{{ section.id }}" style="padding:{{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px">
+  <div class="ppv__wrap">
+
+    <div class="ppv-card ppv-hero">
+      <div>
+        {%- if d.badge.size > 0 -%}
+          <p class="ppv-badge">{% for b in d.badge %}<span>{{ b | escape }}</span>{% endfor %}</p>
+        {%- endif -%}
+        <h2>{{ d.titlu | escape }}</h2>
+        {%- if d.intro != blank -%}
+          <p class="ppv-intro">{{ d.intro | escape | replace: '[[', '<strong class="ppv-hl">' | replace: ']]', '</strong>' }}</p>
+        {%- endif -%}
+        {%- if d.etichete.size > 0 -%}
+          <ul class="ppv-tags">{% for t in d.etichete %}<li>{{ t | escape }}</li>{% endfor %}</ul>
+        {%- endif -%}
+      </div>
+      <figure class="ppv-media">
+        {%- if img -%}
+          <div class="ppv-media__img">
+            {{ img | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(max-width: 900px) 90vw, 480px', widths: '360,540,720,900', alt: img.alt, data-ppv-img: '' }}
+          </div>
+        {%- endif -%}
+        {%- if d.mini_carduri.size > 0 -%}
+          <div class="ppv-minis">
+            {%- for m in d.mini_carduri limit: 2 -%}
+              <div class="ppv-mini"><b>{{ m.titlu | escape }}</b><span>{{ m.text | escape }}</span></div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </figure>
+    </div>
+
+    {%- if d.cifre.size > 0 -%}
+      <ul class="ppv-stats">
+        {%- for c in d.cifre limit: 4 -%}
+          <li class="ppv-stat">
+            <div class="ppv-stat__v">{{ c.valoare | escape }}{% if c.unitate != blank %}<small>{{ c.unitate | escape }}</small>{% endif %}</div>
+            <div class="ppv-stat__l">{{ c.eticheta | escape }}</div>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <div class="ppv-two">
+      {%- if d.card_formula -%}
+        <div class="ppv-card">
+          <span class="ppv-kicker">{{ d.card_formula.eticheta | escape }}</span>
+          <h3>{{ d.card_formula.titlu | escape }}</h3>
+          <ul class="ppv-rows">
+            {%- for r in d.card_formula.randuri -%}<li><span>{{ r.nume | escape }}</span><b>{{ r.valoare | escape }}</b></li>{%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+      {%- if d.card_puncte -%}
+        <div class="ppv-card">
+          <span class="ppv-kicker">Pe scurt</span>
+          <h3>{{ d.card_puncte.titlu | escape }}</h3>
+          <ul class="ppv-checks">{% for p in d.card_puncte.puncte %}<li>{{ p | escape }}</li>{% endfor %}</ul>
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- if d.carduri_ingrediente.carduri.size > 0 -%}
+      <div class="ppv-card">
+        <span class="ppv-kicker">Formula</span>
+        <h3>{{ d.carduri_ingrediente.titlu | escape }}</h3>
+        <div class="ppv-grid">
+          {%- for c in d.carduri_ingrediente.carduri -%}
+            <div class="ppv-ing">
+              <span class="ppv-ing__code" aria-hidden="true">{{ c.cod | escape }}</span>
+              <h4>{{ c.titlu | escape }}</h4>
+              <p>{{ c.text | escape }}</p>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if d.arome.size > 0 or d.mod_de_folosire != blank -%}
+      <div class="ppv-two">
+        {%- if d.arome.size > 0 -%}
+          <div class="ppv-card">
+            <span class="ppv-kicker">Arome</span>
+            <h3>{{ d.arome.size }} {% if d.arome.size == 1 %}aromă{% else %}arome{% endif %}</h3>
+            <ul class="ppv-flav">
+              {%- for a in d.arome -%}
+                <li data-ppv-flavour="{{ a.varianta | escape }}"{% if v.title == a.varianta %} aria-current="true"{% endif %}>
+                  <b>{{ a.nume | escape }}</b><span>{{ a.nota | escape }}</span>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+        {%- if d.mod_de_folosire != blank -%}
+          <div class="ppv-card">
+            <span class="ppv-kicker">Mod de folosire</span>
+            <h3>Cum îl prepari</h3>
+            <p>{{ d.mod_de_folosire | escape }}</p>
+            <p class="ppv-note">Supliment alimentar. Nu înlocuiește o dietă variată și echilibrată și un stil de viață sănătos.</p>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+  </div>
+</section>
+
+{%- comment -%}
+  La schimbarea aromei: poza variantei + aroma evidențiată. Textele nu depind de aromă,
+  deci nu poate apărea situația de la concurent (Pepene selectat, text și poză cu ananas).
+  Impact trimite evenimentul variant:change; dacă nu ajunge, poza rămâne cea randată pe server.
+  DE VERIFICAT pe tema duplicat: numele exact al evenimentului în Impact 6.7.1.
+{%- endcomment -%}
+<script>
+  (function () {
+    var root = document.getElementById('ppv-{{ section.id }}');
+    if (!root) return;
+    var imgs = {{ product.variants | map: 'featured_image' | json }};
+    var titles = {{ product.variants | map: 'title' | json }};
+    function apply(variant) {
+      if (!variant) return;
+      root.querySelectorAll('[data-ppv-flavour]').forEach(function (li) {
+        li.setAttribute('aria-current', li.getAttribute('data-ppv-flavour') === variant.title ? 'true' : 'false');
+      });
+      var i = titles.indexOf(variant.title);
+      var src = variant.featured_image ? variant.featured_image.src : (i > -1 && imgs[i] ? imgs[i].src : null);
+      var el = root.querySelector('[data-ppv-img]');
+      if (el && src) { el.removeAttribute('srcset'); el.src = src + (src.indexOf('?') > -1 ? '&' : '?') + 'width=900'; }
+    }
+    document.addEventListener('variant:change', function (e) { apply(e.detail && e.detail.variant); });
+  })();
+</script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Prime – pagină vizuală",
+  "class": "shopify-section--prime-pagina-vizuala",
+  "enabled_on": { "templates": ["product"] },
+  "settings": [
+    { "type": "paragraph", "content": "Datele vin din metafield-ul prime.pagina_vizuala (JSON). Produsele fără metafield nu afișează secțiunea." },
+    { "type": "range", "id": "padding_top", "label": "Spațiu sus", "min": 0, "max": 80, "step": 4, "unit": "px", "default": 24 },
+    { "type": "range", "id": "padding_bottom", "label": "Spațiu jos", "min": 0, "max": 80, "step": 4, "unit": "px", "default": 24 }
+  ],
+  "presets": [{ "name": "Prime – pagină vizuală" }]
+}
+{% endschema %}

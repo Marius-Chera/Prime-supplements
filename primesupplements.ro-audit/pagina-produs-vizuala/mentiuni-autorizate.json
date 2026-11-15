@@ -1,0 +1,49 @@
+{
+  "_nota": "Mențiuni de sănătate autorizate (Reg. UE 432/2012, registrul UE al mențiunilor), formulările RO deja folosite pe site. Se pot folosi DOAR dacă produsul îndeplinește condiția de utilizare (vitamine/minerale: minimum 15% VNR per porție; proteine: produsul e sursă de proteine; creatină: 3 g/zi). Un nutrient nou se adaugă aici doar după verificare în registrul UE.",
+  "mentiuni": {
+    "vitamina b6": [
+      "Vitamina B6 contribuie la metabolismul normal al proteinelor și al glicogenului.",
+      "Vitamina B6 contribuie la reducerea oboselii și extenuării.",
+      "Vitamina B6 contribuie la metabolismul energetic normal.",
+      "Vitamina B6 contribuie la funcționarea normală a sistemului imunitar."
+    ],
+    "proteine": [
+      "Proteinele contribuie la creșterea masei musculare.",
+      "Proteinele contribuie la menținerea masei musculare.",
+      "Proteinele contribuie la menținerea unor oase normale."
+    ],
+    "creatina": [
+      "Creatina crește performanța fizică în cazul unor exerciții succesive, de scurtă durată și de mare intensitate."
+    ],
+    "magneziu": [
+      "Magneziul contribuie la reducerea oboselii și extenuării.",
+      "Magneziul contribuie la echilibrul electrolitic.",
+      "Magneziul contribuie la funcționarea normală a sistemului muscular.",
+      "Magneziul contribuie la funcționarea normală a sistemului nervos."
+    ],
+    "vitamina c": [
+      "Vitamina C contribuie la funcționarea normală a sistemului imunitar.",
+      "Vitamina C contribuie la reducerea oboselii și extenuării."
+    ],
+    "vitamina d": [
+      "Vitamina D contribuie la funcționarea normală a sistemului imunitar.",
+      "Vitamina D contribuie la menținerea funcției musculare normale."
+    ],
+    "zinc": [
+      "Zincul contribuie la funcționarea normală a sistemului imunitar.",
+      "Zincul contribuie la protejarea celulelor împotriva stresului oxidativ.",
+      "Zincul contribuie la menținerea concentrațiilor normale de testosteron din sânge."
+    ],
+    "potasiu": [
+      "Potasiul contribuie la funcționarea normală a mușchilor și a sistemului nervos."
+    ],
+    "crom": [
+      "Cromul contribuie la metabolismul normal al macronutrienților.",
+      "Cromul contribuie la menținerea concentrațiilor normale de glucoză din sânge."
+    ],
+    "epa si dha": [
+      "EPA și DHA contribuie la funcționarea normală a inimii; efectul benefic se obține la un aport zilnic de 250 mg de EPA și DHA."
+    ]
+  },
+  "fara_mentiuni_autorizate": ["BCAA", "leucină", "EAA", "glutamină", "citrulină", "beta-alanină", "L-carnitină", "colagen", "ashwagandha", "taurină"]
+}

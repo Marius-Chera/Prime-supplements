@@ -1,0 +1,99 @@
+/* Prime – pagina de produs vizuală (secțiunea prime-pagina-vizuala)
+   Tot CSS-ul e sub .ppv: nu atinge nimic din temă. Un singur fișier pentru tot catalogul
+   (se descarcă o dată și rămâne în cache), nu CSS lipit în fiecare descriere. */
+.ppv{
+  --ppv-red:#e91d23;
+  --ppv-red-soft:rgba(233,29,35,.08);
+  --ppv-ink:#1a1a1a;
+  --ppv-muted:#5c5c5c;
+  --ppv-bg:#f0f0f0;
+  --ppv-card:#ffffff;
+  --ppv-line:rgba(26,26,26,.12);
+  --ppv-r:12px;
+  --ppv-r-lg:24px;
+  --ppv-head:'Bebas Neue',Barlow,sans-serif;
+  --ppv-text:Poppins,Barlow,sans-serif;
+  color:var(--ppv-ink);
+  font-family:var(--ppv-text);
+  font-size:15px;
+  line-height:1.65;
+  container-type:inline-size;
+}
+.ppv *,.ppv *::before,.ppv *::after{box-sizing:border-box}
+/* :where() = specificitate zero, ca stilurile componentelor (.ppv-badge etc.) să nu fie anulate de reset */
+.ppv :where(h2,h3,h4,p,ul,li,figure){margin:0;padding:0}
+.ppv :where(ul){list-style:none}
+.ppv__wrap{max-width:1200px;margin:0 auto;padding:0 16px;display:grid;gap:20px}
+
+/* Card de bază */
+.ppv-card{background:var(--ppv-card);border:1px solid var(--ppv-line);border-radius:var(--ppv-r-lg);padding:28px}
+.ppv-kicker{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ppv-red);margin-bottom:10px}
+.ppv h2,.ppv h3{font-family:var(--ppv-head);font-weight:400;line-height:1.05;letter-spacing:.01em}
+.ppv h2{font-size:clamp(30px,4.2vw,46px)}
+.ppv h3{font-size:clamp(24px,3vw,30px);margin-bottom:14px}
+
+/* Hero */
+.ppv-hero{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:start}
+.ppv-badge{display:inline-flex;flex-wrap:wrap;align-items:center;gap:6px 10px;background:var(--ppv-ink);color:#fff;border-radius:999px;padding:7px 16px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px}
+.ppv-badge span+span::before{content:"·";margin-right:10px;color:var(--ppv-red)}
+.ppv-intro{margin-top:16px;color:var(--ppv-muted);font-size:16px}
+.ppv-hl{color:var(--ppv-red);font-weight:600}
+.ppv-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.ppv-tags li{border:1px solid var(--ppv-line);border-radius:999px;padding:5px 12px;font-size:13px;background:var(--ppv-bg)}
+
+.ppv-media{background:var(--ppv-bg);border-radius:var(--ppv-r-lg);padding:18px;display:grid;gap:12px}
+.ppv-media__img{background:#fff;border-radius:var(--ppv-r);aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}
+.ppv-media__img img{width:100%;height:100%;object-fit:contain}
+.ppv-minis{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ppv-mini{background:#fff;border-radius:var(--ppv-r);padding:12px 14px}
+.ppv-mini b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--ppv-red)}
+.ppv-mini span{font-size:14px}
+
+/* Cifre cheie */
+.ppv-stats{display:grid;grid-template-columns:repeat(4,1fr);background:var(--ppv-ink);color:#fff;border-radius:var(--ppv-r-lg);overflow:hidden}
+.ppv-stat{padding:22px 20px;border-left:1px solid rgba(255,255,255,.12)}
+.ppv-stat:first-child{border-left:0}
+.ppv-stat__v{font-family:var(--ppv-head);font-size:clamp(40px,5.5vw,60px);line-height:1}
+.ppv-stat__v small{font-size:.45em;margin-left:4px;color:var(--ppv-red)}
+.ppv-stat__l{font-size:13px;color:rgba(255,255,255,.75);margin-top:6px}
+
+/* Formula + puncte */
+.ppv-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.ppv-rows li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--ppv-line);font-size:14px}
+.ppv-rows li:last-child{border-bottom:0}
+.ppv-rows b{white-space:nowrap}
+.ppv-checks li{position:relative;padding:8px 0 8px 34px;font-size:14px}
+/* bifa e desenată din CSS (fără caractere speciale în content) – nu se poate strica la copiere, ca „¹4” la concurent */
+.ppv-checks li::before{content:"";position:absolute;left:0;top:9px;width:22px;height:22px;border-radius:50%;background:var(--ppv-red-soft)}
+.ppv-checks li::after{content:"";position:absolute;left:8px;top:14px;width:6px;height:10px;border:solid var(--ppv-red);border-width:0 2px 2px 0;transform:rotate(45deg)}
+
+/* Carduri pe ingrediente */
+.ppv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
+.ppv-ing{border:1px solid var(--ppv-line);border-radius:var(--ppv-r);padding:18px;background:#fff}
+.ppv-ing__code{display:inline-grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border-radius:12px;background:var(--ppv-red);color:#fff;font-family:var(--ppv-head);font-size:20px;letter-spacing:.03em;margin-bottom:12px}
+.ppv-ing h4{margin:0 0 6px;font-size:15px;font-weight:600}
+.ppv-ing p{font-size:13.5px;color:var(--ppv-muted)}
+
+/* Arome + folosire */
+.ppv-flav{display:grid;gap:10px}
+.ppv-flav li{display:grid;grid-template-columns:120px 1fr;gap:12px;align-items:start;padding:12px 14px;border-radius:var(--ppv-r);background:var(--ppv-bg)}
+.ppv-flav li[aria-current="true"]{outline:2px solid var(--ppv-red);background:#fff}
+.ppv-flav b{font-size:14px}
+.ppv-flav span{font-size:13.5px;color:var(--ppv-muted)}
+.ppv-note{font-size:12px;color:var(--ppv-muted);margin-top:12px}
+.ppv-todo{background:#fff3b0;color:#5a4a00;border-radius:4px;padding:0 4px;font-weight:600}
+
+/* Mobil și tabletă: după lățimea secțiunii (container), nu a ecranului */
+@container (max-width:900px){
+  .ppv-hero,.ppv-two{grid-template-columns:1fr}
+  .ppv-grid{grid-template-columns:1fr 1fr}
+}
+@container (max-width:600px){
+  .ppv-card{padding:20px}
+  .ppv-stats{grid-template-columns:1fr 1fr}
+  .ppv-stat:nth-child(3){border-left:0}
+  .ppv-stat:nth-child(n+3){border-top:1px solid rgba(255,255,255,.12)}
+  .ppv-grid{grid-template-columns:1fr}
+  .ppv-flav li{grid-template-columns:1fr;gap:2px}
+  .ppv-intro{font-size:15px}
+}

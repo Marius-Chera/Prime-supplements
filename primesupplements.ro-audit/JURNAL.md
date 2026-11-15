@@ -1092,3 +1092,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - sincronizarea stocului: 438/438, ultima verificare la 02:00.
   - Butoanele „✓ Aplică PRS …” nu au apărut, pentru că acum nu există nicio sugestie: în octombrie au rămas 2 încasări de verificat, în noiembrie 4, niciuna cu factură propusă.
   - 120 de teste, versiunea 581f9fe4.
+
+## 15.11.2026 – Pagina de produs „vizuală” (analiză Genius Nutrition + prototip Prime), doar local
+- Cererea lui Marius: cum e făcută descrierea nouă de la Genius Nutrition (BCAA-X5, ISOLATE-X5, CREA-F7, apoi top 20 cele mai vândute) și dacă putem face la fel. **Nimic modificat în magazin.** La Genius doar citire, prin browserul aplicației (2 pagini + ~12 cereri publice).
+- Concluzie: la ei e HTML + CSS generat cu AI și lipit în descrierea fiecărui produs (187/200 de produse cu `<style>` inline, 9–16 KB CSS fiecare, altă culoare pe fiecare produs). Tema e Pursuit 1.0.7, nu folosesc page builder. Au și greșeli: JSON-LD Product invalid (Google nu vede prețul și stelele din schema lor), 3 de H1, conținutul ascuns în al doilea tab, text static (poza Pineapple la aroma Pepene), BCAA-X5 în engleză și cu „¹4” (cod CSS stricat), 18/20 fără diacritice și multe afirmații neautorizate (anabolic, catabolism, detox, slăbire etc.).
+- Recomandat pentru noi: varianta B, adică o secțiune Liquid în Impact + un metafield JSON `prime.pagina_vizuala` pe produs, cu date generate doar din etichetă, validate automat, apoi aprobate.
+- Livrat în `pagina-produs-vizuala/`: raport `RAPORT-PAGINA-PRODUS-VIZUALA-2026-11-15.md`, prototip `prototip-recovery-bcaa.html` (Recovery BCAA, verificat pe desktop și pe 375 px, schimbarea aromei funcționează), secțiunea `liquid/sections/prime-pagina-vizuala.liquid` + CSS (neurcate), `liquid/METAFIELD-DEFINITII.md`, validatorul `scripts/valideaza-pagina-vizuala.mjs` (cifre față de etichetă, mențiuni din `mentiuni-autorizate.json`, cuvinte interzise, „DE VERIFICAT”, diacritice; testat și cu un fișier stricat intenționat), `PROMPT-GENERARE.md`.
+- Găsit la noi: la Recovery BCAA, aroma Cherry nu are transcrise aromele și colorantul de pe tub (DE VERIFICAT).

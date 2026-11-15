@@ -473,3 +473,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Codurile G3O10 (al lui Georgian Drăgoi), Darius10 (al lui Darius-Adrian Stana, după export) și Zeus (al lui Madalin Nuica) sunt legate de afiliați.
 - Cele 5 comenzi pe care UpPromote nu le înregistrase (Georgian Drăgoi, Petruț Paiș, Andrei BTY) rămân la afiliați. Marius: „Da, rămân”.
 - **15.11 – Total Admin, căutarea din Încasări (Marius):** „câmpul CLIENT, COMANDA, NUMELE DE PE FACTURĂ, FACTURA și OP/DECONT să aibă o căsuță de search … când contabila caută o anume factură să o găsească imediat”. Făcut: câte o căsuță sub fiecare dintre cele 5 coloane. Alese de Claude: căutarea generală de deasupra rămâne (caută și după AWB); la orice căutare apare și suma încasată pe rândurile găsite.
+
+### 15.11.2026 – Pagina de produs vizuală (după modelul de structură Genius Nutrition)
+- **Cererea (Marius):** să analizăm descrierea nouă, foarte vizuală, de la Genius Nutrition (BCAA-X5, apoi ISOLATE-X5, CREA-F7 și top 20 cele mai vândute) și să vedem dacă putem face la fel, fără să copiem texte, poze sau cod. Datele se iau doar de pe etichetă, cu „DE VERIFICAT” unde lipsesc, și doar mențiuni de sănătate autorizate (Reg. 1924/2006).
+- **Propunerea lui Claude (de aprobat):** varianta B, adică secțiunea Liquid `prime-pagina-vizuala` + metafield JSON `prime.pagina_vizuala`, în stilul Prime (Bebas Neue, Poppins, roșu #E91D23). Întâi pilot pe 3 produse pe o temă duplicat nepublicată, restul catalogului după 1.12.2026. Raport: `pagina-produs-vizuala/RAPORT-PAGINA-PRODUS-VIZUALA-2026-11-15.md`.
+- **Neaprobat încă:** designul prototipului, pornirea butonului „Cumpără acum” (schimbare de design) și orice scriere în temă sau în produse.

@@ -1168,3 +1168,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - În Comenzi există selecție multiplă (Aprobă / Respinge selectate).
   - Ferestrele de confirmare ale browserului (blocate în adminul Shopify) au fost înlocuite cu dialogul aplicației.
   - **Corectat de Marius:** la primii 5 (Lucian Borza, Iulia Beatrice, Silviu Baba, Ionuț Oancea, Raul Trip) s-a trecut suma calculată minus 500 lei: 1.496,88 / 1.471,29 / 1.272,54 / 919,21 / 738,01. Asta înlocuiește 1.396,88 și 1.371,29 de mai sus. Totalul final e 16.951,55 lei, la 68 de afiliați.
+- **15.11, aplicația Prime Afiliați:** pe pagina Afiliați, la afiliații dezactivați, a apărut butonul **„Șterge definitiv”**, cerut de Marius.
+  - Confirmarea se face scriind „STERGE”.
+  - Se șterg contul, comenzile, plățile, creditul, cererile și codul din aplicație. Codul trece la „ignorate” și se oprește în Shopify, unde rămâne expirat.
+  - „Scoate din program” din fișa afiliatului folosește acum dialogul aplicației.

@@ -1,0 +1,159 @@
+{
+  "versiune": 1,
+  "handle": "ashwagandha-ksm-66",
+  "tema": "verde",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-ashwagandha-ksm-66-80-capsule-sportiva-1.jpg?v=1794708798",
+    "alt": "Ashwagandha KSM-66 Prime în prim-plan; în fundal o sportivă în echipament crem și salvie stă pe saltea de yoga, într-un studio luminos"
+  },
+  "nota_cifre": "Valori per capsulă, din lista de ingrediente de pe flacon.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "KSM-66®",
+    "500 mg / capsulă",
+    "5% withanolide",
+    "80 de capsule"
+  ],
+  "titlu": "Ashwagandha KSM-66®: 500 mg de extract din rădăcină în fiecare capsulă",
+  "intro": "Fiecare capsulă are [[500 mg de extract KSM-66®]], obținut doar din rădăcina de ashwagandha (Withania somnifera) și standardizat la [[5% withanolide]]. Lista de ingrediente are doar două componente: extractul și capsula vegetală din celuloză. Flaconul are [[80 de capsule]].",
+  "etichete": [
+    "Doar din rădăcină",
+    "Standardizat 5%",
+    "Capsulă vegetală",
+    "Fără agenți de încărcare",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "500",
+      "unitate": "mg",
+      "eticheta": "extract per capsulă"
+    },
+    {
+      "valoare": "5",
+      "unitate": "%",
+      "eticheta": "withanolide în extract"
+    },
+    {
+      "valoare": "80",
+      "unitate": "",
+      "eticheta": "capsule în flacon"
+    },
+    {
+      "valoare": "2",
+      "unitate": "",
+      "eticheta": "ingrediente pe etichetă"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "o capsulă vegetală"
+    },
+    {
+      "titlu": "Cum o iei",
+      "text": "cu sau fără alimente"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "O capsulă, două ingrediente",
+    "randuri": [
+      {
+        "nume": "Extract de ashwagandha KSM-66®",
+        "valoare": "500 mg"
+      },
+      {
+        "nume": "Withanolide în extract",
+        "valoare": "5%"
+      },
+      {
+        "nume": "Partea plantei",
+        "valoare": "rădăcina"
+      },
+      {
+        "nume": "Capsulă",
+        "valoare": "vegetală, din celuloză"
+      },
+      {
+        "nume": "Capsule în flacon",
+        "valoare": "80"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Ashwagandha KSM-66®",
+    "puncte": [
+      "Extract obținut doar din rădăcina plantei, nu și din frunze",
+      "Standardizat la 5% withanolide, compușii caracteristici ai rădăcinii",
+      "Conform datelor produsului, extras fără alcool sau solvenți chimici",
+      "Capsulă vegetală din celuloză, fără agenți de încărcare",
+      "Se ia cu sau fără alimente, în doza zilnică de pe etichetă",
+      "80 de capsule, din gama Prime Health"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "KSM",
+        "titlu": "Extract KSM-66® · 500 mg",
+        "text": "Extract din rădăcină de ashwagandha (Withania somnifera). KSM-66® este marca înregistrată a extractului."
+      },
+      {
+        "cod": "5%",
+        "titlu": "Withanolide · 5%",
+        "text": "Compușii caracteristici ai rădăcinii de ashwagandha. Extractul e standardizat, ca fiecare capsulă să aibă aceeași concentrație."
+      },
+      {
+        "cod": "RAD",
+        "titlu": "Doar rădăcina",
+        "text": "Extractul vine numai din rădăcina plantei, partea folosită tradițional."
+      },
+      {
+        "cod": "CEL",
+        "titlu": "Capsulă vegetală",
+        "text": "Din celuloză, fără gelatină și fără agenți de încărcare."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Cu sau fără alimente, în doza zilnică de pe etichetă. Nu depăși doza zilnică recomandată. Nu lăsa la îndemâna copiilor. Consultă medicul înainte de utilizare în caz de sarcină, alăptare, afecțiuni sau tratament medicamentos.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre ashwagandha",
+    "intro": "Ashwagandha are un nume ciudat și o istorie de mii de ani. Află ce înseamnă numele, din ce familie de plante face parte și ce înseamnă KSM-66® pe eticheta noastră. La final găsești și de ce am ales o capsulă vegetală.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă numele „ashwagandha”?",
+        "raspuns": "„Miros de cal”, în sanscrită. „Ashva” înseamnă cal, iar „gandha” înseamnă miros, pentru că rădăcina proaspătă are un miros puternic, care seamănă cu al calului. Planta e folosită de mii de ani în medicina tradițională indiană, numită ayurveda."
+      },
+      {
+        "intrebare": "Din ce familie face parte planta?",
+        "raspuns": "Din familia solanaceelor, aceeași cu roșia, cartoful, ardeiul și vânăta. Numele științific e Withania somnifera. Este un arbust mic, cu flori verzui și fructe mici, roșii, închise într-un înveliș ca o lămpiță. În suplimente se folosește de obicei rădăcina. Rădăcina se usucă și se macină, iar din pulbere se obține extractul."
+      },
+      {
+        "intrebare": "Ce sunt withanolidele?",
+        "raspuns": "Compușii naturali caracteristici plantei, numiți după genul Withania. Concentrația lor e folosită ca reper de calitate: un extract „standardizat la 5% withanolide” are aceeași concentrație la fiecare lot. În capsulele noastre, cele 500 mg de extract au 5% withanolide."
+      },
+      {
+        "intrebare": "Ce înseamnă KSM-66®?",
+        "raspuns": "Este marca înregistrată a unui extract obținut doar din rădăcina plantei. Multe extracte de ashwagandha folosesc și frunze, care au un profil diferit de compuși. Conform datelor produsului, KSM-66® e extras fără alcool sau solvenți chimici."
+      },
+      {
+        "intrebare": "Cum se ia ashwagandha?",
+        "raspuns": "Ca pe orice capsulă: cu un pahar de apă, cu sau fără mâncare. Eticheta cere să nu depășești doza zilnică recomandată. Dacă ești însărcinată, alăptezi, ai o afecțiune sau iei medicamente, întreabă medicul înainte să începi."
+      },
+      {
+        "intrebare": "De ce capsulă vegetală și nu tabletă?",
+        "raspuns": "Pentru că pulberea de extract intră direct în capsulă, fără lianți. Tabletele au nevoie de substanțe care să țină pulberea presată. Capsula noastră e din celuloză, fără gelatină de origine animală și fără agenți de încărcare, așa că lista de ingrediente rămâne de două elemente."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

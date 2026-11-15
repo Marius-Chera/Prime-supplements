@@ -2,7 +2,8 @@
 
 Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/inventar.mjs`).
 - 23 de produse au pagină vizuală + „Curiozități”, scrise pe tema PILOT `194315649399` și verificate (desktop + 375 px).
-- **Rămân 57 de produse fără pagină** (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
+- Lotul 3 (15.11): Ashwagandha, Recovery Glutamin, Complete Collagen, baton căpșuni – scrise pe PILOT.
+- **Rămân 53 de produse fără pagină** (rândurile cu „**nu**” în coloana JSON), în ordinea din `inventar.json`: întâi top 40
   (Ashwagandha, Creamy Rice fără aromă și sirop de arțar, Combat Pro 2.0, Glutamin, Emperor Mass, Whey Go, Creatine Ready To Go,
   Oat Cream, Glycerol, NAC, L-carnitină, Q10, Potassium, zinc...), apoi capsulele Prime Health, tincturile, shot-urile,
   unturile, batoanele și cele 19 produse Frutilu.
@@ -22,7 +23,7 @@ Stare la 15.11.2026 (noaptea): vezi `TOATE-PRODUSELE.md` (generat de `scripts/in
 5. `node scripts/variabile-metafields.mjs <handle> ...` → variabilele pentru `metafieldsSet` (scrie `prime.pagina_vizuala` fără
    curiozități + `prime.curiozitati` separat); 3–4 produse pe apel. Pentru cele care au deja pagina: `--doar-curiozitati`.
 6. Produsele cu `templateSuffix` propriu: pe PILOT, blocul liquid din `templates/product.json` (ca la `product.creatina2`).
-7. Verifică pe `?preview_theme_id=194315649399` (fetch: `ppv-cur__t` apare; la 375 px `scrollWidth == innerWidth`).
+7. **Verificarea scrierii:** variabilele se copiază de mână în apel, deci pot apărea greșeli de tastare (s-a întâmplat la baton: „înghț”). Rulează `node scripts/amprente.mjs <handle>...` și compară în browser cu aceeași funcție pe `.ppv` din pagina PILOT (codul e în comentariul scriptului; 27/27 identice pe 15.11). Apoi verifică pe `?preview_theme_id=194315649399` (fetch: `ppv-cur__t` apare; la 375 px `scrollWidth == innerWidth`).
 8. Actualizează `scrise-pilot.json`, rulează `scripts/inventar.mjs`, scrie în `JURNAL.md` și `DE-FACUT.md` pct. 34, commit + push.
 
 Tehnic: snippet-ul (`liquid/snippets/prime-pagina-vizuala.liquid`) citește `prime.curiozitati` și, dacă lipsește, `d.curiozitati`.

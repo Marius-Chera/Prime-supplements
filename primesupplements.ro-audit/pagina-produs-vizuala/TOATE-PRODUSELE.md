@@ -1,9 +1,9 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 19:59 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 20:06 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
-Rezumat: **80 produse**; JSON pagină vizuală: 23; cu Curiozități: 23; cu sportivă în dreapta: 22; scrise pe PILOT (metafield) cu versiunea curentă: 23.
+Rezumat: **80 produse**; JSON pagină vizuală: 27; cu Curiozități: 27; cu sportivă în dreapta: 26; scrise pe PILOT (metafield) cu versiunea curentă: 27.
 
 Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curiozitati` (în paranteză numărul de cuvinte); *Sportivă* = `imagine.url` e o poză cu sportivă (sau ce poză există în `poze/jpg`); *PILOT* = data scrierii metafield-ului cu versiunea curentă.
 
@@ -32,11 +32,11 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | crema-de-orez-biscuiti-cu-crema | 15509052850551 | Cremă de orez Prime Creamy Rice – biscuiți cu cremă, 1 kg | da | da (325) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-plactina-cu-cocos | 15509053342071 | Cremă de orez Prime Creamy Rice – plăcintă cu cocos, 1 kg | da | da (317) | da | pagină 15.11 + curiozități 15.11 |
 | crema-de-orez-tort-de-ciocolata | 15509053636983 | Cremă de orez Prime Creamy Rice – tort de ciocolată, 1 kg | da | da (330) | da | pagină 15.11 + curiozități 15.11 |
-| ashwagandha-ksm-66 | 14971464712567 | Ashwagandha KSM-66 – 80 capsule | **nu** | **nu** | în repo: prime-ashwagandha-ksm-66-80-capsule-sportiva-1.jpg | – |
+| ashwagandha-ksm-66 | 14971464712567 | Ashwagandha KSM-66 – 80 capsule | da | da (313) | da | pagină + curiozități 15.11 |
 | crema-de-orez-fara-aroma | 15509049639287 | Cremă de orez Prime Creamy Rice – fără aromă, 1 kg | **nu** | **nu** | **nu** | – |
 | crema-de-orez-sirop-de-artar | 15509052326263 | Cremă de orez Prime Creamy Rice – sirop de arțar, 1 kg | **nu** | **nu** | **nu** | – |
 | combat-pro-2-0-660g-30-serv | 14971469791607 | Pre-antrenament Combat Pro 2.0 – 660 g | **nu** | **nu** | **nu** | – |
-| recovery-glutamin | 14971467628919 | L-glutamină Recovery Glutamin Kyowa® – 500 g | **nu** | **nu** | în repo: prime-recovery-glutamin-500g-raspberry-sportiva-1.jpg | – |
+| recovery-glutamin | 14971467628919 | L-glutamină Recovery Glutamin Kyowa® – 500 g | da | da (313) | da | pagină + curiozități 15.11 |
 | emperor-mass_3000g | 14971467334007 | Gainer Emperor Mass – 40% proteină, 3 kg | **nu** | **nu** | **nu** | – |
 | prime-whey-go | 14999064969591 | Prime Whey Go – proteină din zer, plicuri 30 g | **nu** | **nu** | **nu** | – |
 | creatine-ready-to-go-plicuri-prime-supplements | 15410672075127 | Creatină Ready To Go – plicuri efervescente 10 g | **nu** | **nu** | **nu** | – |
@@ -58,7 +58,7 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | scortisoara-ceylon-bio-200g | 14971466711415 | Scorțișoară de Ceylon pudră bio – 200 g | **nu** | **nu** | **nu** | – |
 | water-out-120-caps | 14971465433463 | Water Out – 120 capsule cu extracte din plante | **nu** | **nu** | **nu** | – |
 | thermo-core-120-caps | 14971465597303 | Thermo Core – 120 capsule cu L-carnitină și ceai verde | **nu** | **nu** | **nu** | – |
-| complete-collagen | 14971466088823 | Colagen hidrolizat lichid Complete Collagen – 500 ml | **nu** | **nu** | în repo: prime-complete-collagen-500ml-sportiva-1.jpg | – |
+| complete-collagen | 14971466088823 | Colagen hidrolizat lichid Complete Collagen – 500 ml | da | da (314) | da | pagină + curiozități 15.11 |
 | testo-revive-500-ml | 14971464810871 | Tinctură din plante Testo Revive – 500 ml | **nu** | **nu** | **nu** | – |
 | cardio-calm-500-ml | 14971464876407 | Tinctură din plante Cardio Calm – 500 ml | **nu** | **nu** | **nu** | – |
 | water-out-500-ml | 14971469005175 | Water Out Prime Health – tinctură din plante, 500 ml | **nu** | **nu** | **nu** | – |
@@ -66,7 +66,7 @@ Coloane: *JSON* = `date/<handle>.json` există; *Curiozități* = câmpul `curio
 | fat-burning-booster | 14971468317047 | Fat Burning Booster Shot – fiole de 25 ml | **nu** | **nu** | **nu** | – |
 | unt-de-arahide | 14971468579191 | Unt de arahide Prime Health, 600 g | **nu** | **nu** | **nu** | – |
 | unt-de-caju | 14971469201783 | Unt de caju Prime Health, 600 g | **nu** | **nu** | **nu** | – |
-| baton-proteic-capsuni | 14971464450423 | Baton proteic căpșuni | **nu** | **nu** | în repo: prime-baton-proteic-capsuni-55g-sportiva-1.jpg | – |
+| baton-proteic-capsuni | 14971464450423 | Baton proteic căpșuni | da | da (317) | da | pagină + curiozități 15.11 |
 | baton-proteic-caramel-sarat | 14971464515959 | Baton proteic caramel sărat | **nu** | **nu** | **nu** | – |
 | baton-proteic-cocos-si-caramel | 14971466744183 | Baton proteic cocos și caramel | **nu** | **nu** | **nu** | – |
 | baton-proteic-ciocolata-fructe-de-padure | 14971466940791 | Baton proteic ciocolată și fructe de pădure | **nu** | **nu** | **nu** | – |

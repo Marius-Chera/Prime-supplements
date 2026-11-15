@@ -1,0 +1,178 @@
+{
+  "versiune": 1,
+  "handle": "baton-proteic-capsuni",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-baton-proteic-capsuni-55g-sportiva-1.jpg?v=1794708798",
+    "alt": "Baton proteic Prime cu căpșuni în prim-plan; în fundal o sportivă în echipament gri stă pe bancă după antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valori pentru un baton de 55 g, din declarația nutrițională.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "20 g proteine",
+    "209 kcal",
+    "Căpșuni",
+    "55 g"
+  ],
+  "titlu": "Baton proteic căpșuni: 20 g de proteine într-un baton de 55 g",
+  "intro": "Un baton de [[55 g]] are [[20 g de proteine]] și [[209 kcal]], cu strat de fructe și glazură de ciocolată albă. Proteinele vin din patru surse: zer, colagen, soia și lapte. Are [[4,80 g zaharuri]] și 16,16 g polioli din siropul de maltitol.",
+  "etichete": [
+    "Bogat în proteine",
+    "Strat de căpșuni",
+    "Glazură de ciocolată albă",
+    "Cu zahăr și îndulcitor",
+    "Baton sau cutie de 12"
+  ],
+  "cifre": [
+    {
+      "valoare": "20",
+      "unitate": "g",
+      "eticheta": "proteine per baton"
+    },
+    {
+      "valoare": "209",
+      "unitate": "kcal",
+      "eticheta": "per baton"
+    },
+    {
+      "valoare": "38",
+      "unitate": "%",
+      "eticheta": "din energie vine din proteine"
+    },
+    {
+      "valoare": "12",
+      "unitate": "",
+      "eticheta": "batoane în cutie"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "un baton de 55 g"
+    },
+    {
+      "titlu": "Păstrare",
+      "text": "loc uscat, maximum 25 °C"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-un baton",
+    "titlu": "Batonul de 55 g",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "209 kcal"
+      },
+      {
+        "nume": "Proteine",
+        "valoare": "20 g"
+      },
+      {
+        "nume": "Carbohidrați",
+        "valoare": "20,96 g"
+      },
+      {
+        "nume": "din care zaharuri / polioli",
+        "valoare": "4,80 g / 16,16 g"
+      },
+      {
+        "nume": "Grăsimi / saturate",
+        "valoare": "6,6 g / 2,6 g"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are batonul cu căpșuni",
+    "puncte": [
+      "20 g de proteine și 209 kcal într-un baton de 55 g",
+      "Proteinele dau 38% din valoarea energetică",
+      "Proteine din zer, colagen, soia și lapte",
+      "Strat de fructe și glazură de ciocolată albă",
+      "Cu zahăr și îndulcitor (sirop de maltitol)",
+      "Baton individual sau cutie cu 12 batoane"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "PRO",
+        "titlu": "Matrice proteică · 20 g proteine",
+        "text": "Concentrat proteic din zer, peptide de colagen, izolat proteic din soia și lapte praf. Proteinele contribuie la menținerea masei musculare.",
+        "mentiune_autorizata": true
+      },
+      {
+        "cod": "MLT",
+        "titlu": "Sirop de maltitol",
+        "text": "Îndulcitor din categoria polioli: 16,16 g per baton. Consumul excesiv poate cauza efecte laxative."
+      },
+      {
+        "cod": "CAP",
+        "titlu": "Strat de fructe",
+        "text": "Zahăr invertit, amidon și aromă, plus aromă de căpșuni în baton."
+      },
+      {
+        "cod": "CIO",
+        "titlu": "Glazură de ciocolată albă",
+        "text": "Zahăr, unt de cacao, lapte praf integral, lecitină din soia și aromă naturală de vanilie."
+      },
+      {
+        "cod": "CER",
+        "titlu": "Expandat de cereale",
+        "text": "Bucăți crocante din făină de orez, grâu și porumb."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Conține lapte, soia, grâu și orz. Poate conține urme de nuci și arahide."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "Un baton când ai nevoie, în funcție de dieta ta și de necesarul zilnic de proteine. Se păstrează la loc uscat, la maximum 25 °C, ferit de soare și de îngheț; se consumă imediat după deschidere. Consumul excesiv poate cauza efecte laxative.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre batoanele proteice",
+    "intro": "Un baton proteic pare simplu, dar are în spate câteva idei ingenioase de cofetărie. Află ce înseamnă „bogat în proteine”, de ce are maltitol și cum îl păstrezi.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce înseamnă „bogat în proteine”?",
+        "raspuns": "E o mențiune nutrițională cu regulă precisă. Legislația UE o permite doar dacă cel puțin 20% din valoarea energetică a produsului vine din proteine. La batonul cu căpșuni, proteinele dau 38% din energie: 20 g de proteine într-un baton de 209 kcal."
+      },
+      {
+        "intrebare": "De ce are patru surse de proteine?",
+        "raspuns": "Pentru textură. Zerul dă gust de lapte, dar singur face batonul tare. Peptidele de colagen și proteina din soia îl țin moale și elastic mai mult timp, iar laptele praf leagă totul. De aceea în lista de ingrediente apar împreună, sub numele de „matrice proteică”."
+      },
+      {
+        "intrebare": "Ce este maltitolul?",
+        "raspuns": "Un îndulcitor din categoria polioli, obținut din amidon. Are gust apropiat de zahăr, dar nu e zahăr. Un baton are 16,16 g polioli și 4,80 g zaharuri. Legea cere mențiunea „consumul excesiv poate cauza efecte laxative” pe produsele cu peste 10% polioli adăugați."
+      },
+      {
+        "intrebare": "De unde vin căpșunile cultivate?",
+        "raspuns": "Dintr-o încrucișare întâmplătoare din Franța secolului al XVIII-lea. Căpșunul de grădină a apărut din două specii sălbatice, una nord-americană și una sud-americană, plantate una lângă alta. Gustul de căpșuni din baton vine din stratul de fructe și din aromă."
+      },
+      {
+        "intrebare": "De ce trebuie ținut sub 25 °C?",
+        "raspuns": "Pentru că glazura de ciocolată albă se înmoaie la căldură. Untul de cacao începe să se topească puțin peste temperatura camerei, iar glazura își pierde luciul. Ține batoanele la loc uscat, ferite de soare și de îngheț, și consumă batonul imediat după deschidere."
+      },
+      {
+        "intrebare": "Când e bun un baton proteic?",
+        "raspuns": "Când nu ai timp de o masă. Îl iei în geantă la sală, la birou sau la drum. Proteinele contribuie la menținerea masei musculare. Batonul nu înlocuiește o alimentație variată, iar eticheta recomandă să îl folosești după necesarul tău zilnic de proteine."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (CE) nr. 1924/2006 privind mențiunile nutriționale și de sănătate (anexa: „bogat în proteine”)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (anexa III: polioli)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      },
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      }
+    ]
+  }
+}

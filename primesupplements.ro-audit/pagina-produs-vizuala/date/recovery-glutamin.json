@@ -1,0 +1,196 @@
+{
+  "versiune": 1,
+  "handle": "recovery-glutamin",
+  "tema": "albastru",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-recovery-glutamin-500g-raspberry-sportiva-1.jpg?v=1794708728",
+    "alt": "L-glutamină Recovery Glutamin Kyowa®, aromă zmeură (Raspberry), în prim-plan; în fundal o sportivă în bustieră neagră bea din shaker după antrenament, într-o sală luminoasă"
+  },
+  "nota_cifre": "Valori per porție, din etichetă: 4 g la Simplu, 5 g la Raspberry.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Kyowa®",
+    "4000 mg / porție",
+    "5 variante",
+    "500 g"
+  ],
+  "titlu": "Recovery Glutamin: 4000 mg de L-glutamină Kyowa® în fiecare porție",
+  "intro": "O porție are [[4000 mg de L-glutamină Kyowa®]], indiferent de aromă. Varianta Simplu are un singur ingredient și [[125 de porții]] de 4 g în tubul de [[500 g]]; aroma Raspberry are porții de 5 g, cu [[0,04 g zaharuri]], și 100 de porții.",
+  "etichete": [
+    "L-glutamină Kyowa®",
+    "Simplu: 1 ingredient",
+    "5 variante",
+    "O porție pe zi",
+    "Fabricat în UE"
+  ],
+  "cifre": [
+    {
+      "valoare": "4000",
+      "unitate": "mg",
+      "eticheta": "L-glutamină per porție"
+    },
+    {
+      "valoare": "125",
+      "unitate": "",
+      "eticheta": "porții la varianta Simplu"
+    },
+    {
+      "valoare": "200",
+      "unitate": "ml",
+      "eticheta": "apă pentru o măsură"
+    },
+    {
+      "valoare": "5",
+      "unitate": "",
+      "eticheta": "variante"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Porție",
+      "text": "o măsură în 200 ml de apă"
+    },
+    {
+      "titlu": "Pe zi",
+      "text": "o singură porție"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce primești într-o porție",
+    "titlu": "Porția de 5 g, aroma Raspberry",
+    "randuri": [
+      {
+        "nume": "Valoare energetică",
+        "valoare": "18,1 kcal"
+      },
+      {
+        "nume": "Proteine (ca aminoacizi liberi)",
+        "valoare": "4 g"
+      },
+      {
+        "nume": "Carbohidrați / zaharuri",
+        "valoare": "0,54 g / 0,04 g"
+      },
+      {
+        "nume": "L-glutamină Kyowa®",
+        "valoare": "4000 mg"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Recovery Glutamin",
+    "puncte": [
+      "4000 mg de L-glutamină Kyowa® în fiecare porție",
+      "Varianta Simplu are un singur ingredient: L-glutamină",
+      "Patru arome: Raspberry, Blueberry, Cherry Lime, Pineapple Mango",
+      "O măsură în 200 ml de apă, o porție pe zi",
+      "Tub de 500 g: 125 de porții la Simplu, 100 la Raspberry",
+      "Fabricat în UE, într-o unitate certificată ISO și HACCP"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "GLN",
+        "titlu": "L-glutamină Kyowa® · 4000 mg",
+        "text": "Aminoacid neesențial, adică unul pe care organismul îl poate produce. Kyowa® e marca înregistrată a ingredientului."
+      },
+      {
+        "cod": "1",
+        "titlu": "Varianta Simplu",
+        "text": "Un singur ingredient, fără arome sau îndulcitori. Se amestecă și în shake-ul proteic."
+      },
+      {
+        "cod": "MAL",
+        "titlu": "Maltodextrină",
+        "text": "Apare la variantele aromate, alături de acid citric, arome și îndulcitori."
+      },
+      {
+        "cod": "SUC",
+        "titlu": "Îndulcitori",
+        "text": "Sucraloză și acesulfam de potasiu la variantele aromate; 0,04 g zaharuri per porție la Raspberry."
+      },
+      {
+        "cod": "ALG",
+        "titlu": "Alergeni",
+        "text": "Poate conține urme de lapte, ou, soia și gluten."
+      }
+    ]
+  },
+  "arome": [
+    {
+      "varianta": "Simplu",
+      "nume": "Simplu (fără aromă)",
+      "nota": "Un singur ingredient: L-glutamină Kyowa®. Porție de 4 g, 125 de porții."
+    },
+    {
+      "varianta": "Raspberry",
+      "nume": "Raspberry (zmeură)",
+      "nota": "Porție de 5 g, 100 de porții; colorant: carmin."
+    },
+    {
+      "varianta": "Blueberry",
+      "nume": "Blueberry (afine)",
+      "nota": "Lista completă de ingrediente e pe eticheta tubului."
+    },
+    {
+      "varianta": "Cherry Lime",
+      "nume": "Cherry Lime (cireșe și lămâie verde)",
+      "nota": "Lista completă de ingrediente e pe eticheta tubului."
+    },
+    {
+      "varianta": "Pineapple Mango",
+      "nume": "Pineapple Mango (ananas și mango)",
+      "nota": "Lista completă de ingrediente e pe eticheta tubului."
+    }
+  ],
+  "mod_de_folosire": "O măsură amestecată cu 200 ml de apă, o porție pe zi. Nu depăși doza recomandată pentru consumul zilnic. Nu se administrează copiilor și femeilor în perioada de sarcină sau alăptare.",
+  "de_verificat": [
+    "arome: ingredientele exacte pentru Blueberry, Cherry Lime și Pineapple Mango nu sunt transcrise în magazin (de citit de pe tub)"
+  ],
+  "curiozitati": {
+    "titlu": "Curiozități despre glutamină",
+    "intro": "Glutamina e cel mai abundent aminoacid din corp, dar e numită „neesențială”. Află ce înseamnă asta, cum se produce și cum o deosebești de glutamatul din mâncare.",
+    "sectiuni": [
+      {
+        "intrebare": "De ce se numește glutamina „neesențială”?",
+        "raspuns": "Pentru că organismul o poate produce singur. „Neesențial” nu înseamnă inutil, ci doar că nu trebuie neapărat luată din mâncare. O recenzie din 2018 arată că glutamina e cel mai abundent aminoacid din corp și că mai multe organe o produc, inclusiv mușchii scheletici."
+      },
+      {
+        "intrebare": "Din ce alimente iei glutamină?",
+        "raspuns": "Din aproape orice aliment cu proteine: carne, pește, ouă, lactate, leguminoase. O recenzie din 2008 notează că sportivii primesc deja multă glutamină din proteinele din dietă, pentru că mănâncă mai multe proteine decât media."
+      },
+      {
+        "intrebare": "Glutamina e același lucru cu glutamatul?",
+        "raspuns": "Nu. Sunt molecule înrudite, dar diferite. Glutamatul monosodic e potențiatorul de gust din supe instant și chipsuri, cu gustul „umami”. Glutamina are o grupare amidă în locul uneia acide și nu are acest gust. Pe eticheta noastră apare L-glutamina."
+      },
+      {
+        "intrebare": "Cum se produce L-glutamina Kyowa®?",
+        "raspuns": "Prin fermentație. Microorganismele, hrănite cu zaharuri din plante, produc aminoacidul, care apoi se purifică și se usucă. O recenzie din 2014 descrie această producție biotehnologică. Kyowa® e marca înregistrată a ingredientului, iar Japonia e una dintre țările care au dezvoltat fermentația aminoacizilor."
+      },
+      {
+        "intrebare": "Cum o prepari corect?",
+        "raspuns": "Cu apă rece și o bei imediat. O măsură merge în 200 ml de apă, o singură porție pe zi. Glutamina se degradează încet în lichid, mai ales la cald, așa că nu o pregăti cu ore înainte. Varianta Simplu e fără aromă, deci o poți pune și în shake-ul proteic."
+      },
+      {
+        "intrebare": "Ce doze s-au folosit în studii?",
+        "raspuns": "Mult mai mari decât porția noastră. Recenzia din 2008 notează că doze unice de 20–30 g au fost tolerate, iar 28 g pe zi timp de 14 zile nu au dat efecte adverse. Porția de pe etichetă e de 4 g pe zi."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Cruzat V și colab. Glutamine: Metabolism and Immune Function, Supplementation and Clinical Translation. Nutrients. 2018",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30360490/"
+      },
+      {
+        "text": "Gleeson M. Dosing and efficacy of glutamine supplementation in human exercise and sport training. J Nutr. 2008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18806122/"
+      },
+      {
+        "text": "Mitsuhashi S. Current topics in the biotechnological production of essential amino acids. Curr Opin Biotechnol. 2014",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24679256/"
+      }
+    ]
+  }
+}

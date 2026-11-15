@@ -1,0 +1,166 @@
+{
+  "versiune": 1,
+  "handle": "complete-collagen",
+  "tema": "roz",
+  "imagine": {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-complete-collagen-500ml-sportiva-1.jpg?v=1794708798",
+    "alt": "Colagen lichid Complete Collagen Prime în prim-plan; în fundal o sportivă în bustieră roz bea un pahar cu apă într-o baie luminoasă"
+  },
+  "nota_cifre": "Valori per doza zilnică de 15 ml, din etichetă.",
+  "sursa_datelor": "Metafield-urile custom.ingrediente, custom.detalii_produs și custom.beneficii_cheie (transcrierea etichetei), citite prin Admin API pe 15.11.2026.",
+  "badge": [
+    "Colagen Peptan©",
+    "6 g / 15 ml",
+    "8 plante",
+    "500 ml"
+  ],
+  "titlu": "Complete Collagen: 6 g de colagen hidrolizat în doza zilnică de 15 ml",
+  "intro": "Doza zilnică de [[15 ml]] are [[6 g de colagen hidrolizat]], sub formă de peptide din colagen bovin Peptan©, care fac [[40%]] din formulă. Pe lângă colagen: extracte apoase din [[8 plante]], extract de aloe și vitamina C, îndulcite cu extract de stevie. Sticla are 500 ml, adică aproximativ 33 de doze.",
+  "etichete": [
+    "Colagen bovin hidrolizat",
+    "Formă lichidă",
+    "Extracte din 8 plante",
+    "Cu vitamina C",
+    "Îndulcit cu stevie",
+    "Prime Health"
+  ],
+  "cifre": [
+    {
+      "valoare": "6",
+      "unitate": "g",
+      "eticheta": "colagen per doză"
+    },
+    {
+      "valoare": "15",
+      "unitate": "ml",
+      "eticheta": "doza zilnică"
+    },
+    {
+      "valoare": "40",
+      "unitate": "%",
+      "eticheta": "peptide de colagen în formulă"
+    },
+    {
+      "valoare": "33",
+      "unitate": "",
+      "eticheta": "doze în sticlă (aprox.)"
+    }
+  ],
+  "mini_carduri": [
+    {
+      "titlu": "Doză",
+      "text": "15 ml pe zi"
+    },
+    {
+      "titlu": "Cum o iei",
+      "text": "simplu sau într-un pahar de apă"
+    }
+  ],
+  "card_formula": {
+    "eticheta": "Ce scrie pe etichetă",
+    "titlu": "Doza zilnică de 15 ml",
+    "randuri": [
+      {
+        "nume": "Colagen hidrolizat Peptan©",
+        "valoare": "6 g"
+      },
+      {
+        "nume": "Peptide de colagen în formulă",
+        "valoare": "40%"
+      },
+      {
+        "nume": "Extracte din plante",
+        "valoare": "8 plante + aloe"
+      },
+      {
+        "nume": "Sticlă",
+        "valoare": "500 ml (aprox. 33 de doze)"
+      }
+    ]
+  },
+  "card_puncte": {
+    "titlu": "Ce are Complete Collagen",
+    "puncte": [
+      "6 g de colagen hidrolizat într-o doză de 15 ml",
+      "Peptide din colagen bovin Peptan©, 40% din formulă",
+      "Extracte apoase din 8 plante, plus extract de aloe",
+      "Vitamina C (acid L-ascorbic) în lista de ingrediente",
+      "Îndulcit cu extract de stevie",
+      "Colagen de origine bovină: nu e potrivit dacă eviți ingredientele de origine animală"
+    ]
+  },
+  "carduri_ingrediente": {
+    "titlu": "Ce face fiecare ingredient",
+    "carduri": [
+      {
+        "cod": "COL",
+        "titlu": "Colagen hidrolizat · 6 g",
+        "text": "Peptide din colagen bovin hidrolizat. Peptan© e marca înregistrată a ingredientului."
+      },
+      {
+        "cod": "8",
+        "titlu": "Extracte din 8 plante",
+        "text": "Salcie, soc, mentă, urzică, ienupăr, cătină, măceș și hibiscus, ca extracte apoase."
+      },
+      {
+        "cod": "ALO",
+        "titlu": "Aloe",
+        "text": "Extract de Aloe barbadensis, trecut în lista de ingrediente."
+      },
+      {
+        "cod": "C",
+        "titlu": "Vitamina C",
+        "text": "Acid L-ascorbic, în lista de ingrediente; cantitatea nu e declarată separat."
+      },
+      {
+        "cod": "STV",
+        "titlu": "Stevie",
+        "text": "Îndulcitor din frunzele plantei Stevia rebaudiana."
+      },
+      {
+        "cod": "CNS",
+        "titlu": "Conservanți",
+        "text": "Sorbat de potasiu și benzoat de sodiu, plus acid citric pentru aciditate."
+      }
+    ]
+  },
+  "arome": [],
+  "mod_de_folosire": "15 ml pe zi, simplu sau diluat într-un pahar de apă, de preferat pe stomacul gol. Nu depăși doza zilnică recomandată. Nu e recomandat persoanelor alergice la oricare dintre ingrediente; femeile însărcinate sau care alăptează cer sfatul unui specialist înainte de utilizare.",
+  "de_verificat": [],
+  "curiozitati": {
+    "titlu": "Curiozități despre colagenul hidrolizat",
+    "intro": "Colagenul e una dintre cele mai răspândite proteine din corpul tău. Află cum ajunge din gelatină în peptide lichide, de unde vine îndulcitorul și ce plante sunt în sticlă.",
+    "sectiuni": [
+      {
+        "intrebare": "Ce este colagenul?",
+        "raspuns": "Este o proteină de structură. O găsești în piele, tendoane, oase și cartilaje, unde formează fibre rezistente. Numele vine din grecescul „kolla”, adică clei, pentru că din oase și piele fierte se obținea în trecut clei. Colagenul din sticla noastră e de origine bovină."
+      },
+      {
+        "intrebare": "Prin ce diferă colagenul hidrolizat de gelatină?",
+        "raspuns": "Prin mărimea moleculelor. Gelatina e colagen fiert, cu lanțuri lungi, care se încheagă în apă rece; din ea se fac jeleurile. Colagenul hidrolizat e tăiat cu enzime în bucăți mici, numite peptide, care se dizolvă și nu mai fac gel. De aceea poate exista colagen lichid."
+      },
+      {
+        "intrebare": "Colagenul e o proteină completă?",
+        "raspuns": "Nu. Colagenul are foarte puțin triptofan, unul dintre aminoacizii esențiali, așa că nu poate ține locul altor surse de proteine. Este în schimb bogat în glicină, prolină și hidroxiprolină, aminoacizii care îi dau structura specifică."
+      },
+      {
+        "intrebare": "De unde vine stevia?",
+        "raspuns": "Din America de Sud. Popoarele guarani din Paraguay foloseau frunzele de stevie de secole ca să îndulcească băuturi, iar în limba lor planta se numea „iarba dulce”. Extractul din frunze e mult mai dulce decât zahărul, de aceea e nevoie de o cantitate foarte mică."
+      },
+      {
+        "intrebare": "Ce plante sunt în sticlă?",
+        "raspuns": "Opt, sub formă de extracte apoase: scoarță de salcie, flori de soc, frunze de mentă și de urzică, fructe de ienupăr, cătină și măceș și flori de hibiscus. Hibiscusul dă culoarea roșiatică, iar menta, aroma proaspătă. Mai e și extractul de aloe."
+      },
+      {
+        "intrebare": "Cum îl iei mai ușor?",
+        "raspuns": "Diluat. Doza e de 15 ml pe zi, simplu sau într-un pahar de apă, de preferat pe stomacul gol. Unii îl amestecă în apă rece cu gheață sau într-un smoothie. Sticla se păstrează închisă, iar o doză zilnică ajunge pentru aproximativ 33 de zile."
+      }
+    ],
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 1169/2011 privind informarea consumatorilor (lista de ingrediente)",
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      }
+    ]
+  }
+}

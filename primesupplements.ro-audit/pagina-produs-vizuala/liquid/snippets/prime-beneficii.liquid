@@ -1,0 +1,89 @@
+{%- comment -%}
+  Prime – tab-ul „Beneficii cheie” vizual, v1 (16.11.2026, test pe PILOT cerut de Marius, primul produs: magneziu bisglicinat).
+  Folosire: {% render 'prime-beneficii', product: product %} din blocul „liquid” al tab-ului (templates/product.json pe PILOT).
+  Datele: metafield-ul JSON product.metafields.prime.beneficii (repo: pagina-produs-vizuala/date/<handle>.json → câmpul „beneficii”):
+  {titlu, intro, conditie, cifre:[{valoare,unitate,eticheta}], carduri:[{icon,titlu,text,mentiune_autorizata}],
+   de_ce:{titlu,puncte[]}, pasi:[{titlu,text}], nota, surse:[{text,url}]}
+  Fără metafield, tab-ul afișează lista veche custom.beneficii_cheie. Fără id-uri: tema randează tab-urile de două ori.
+  Culoarea de accent = „tema” din prime.pagina_vizuala (verde / albastru / …), ca tab-ul să se potrivească cu „Despre produs”.
+{%- endcomment -%}
+{%- assign b = product.metafields.prime.beneficii.value -%}
+{%- if b != blank and b.carduri.size > 0 -%}
+{{ 'prime-pagina-vizuala.css' | asset_url | stylesheet_tag }}
+{%- assign tema = product.metafields.prime.pagina_vizuala.value.tema | default: 'rosu' -%}
+{%- case tema -%}{%- when 'albastru', 'verde', 'mov', 'portocaliu', 'roz' -%}{%- else -%}{%- assign tema = 'rosu' -%}{%- endcase -%}
+<section class="pb ppv--{{ tema }}">
+  <div class="pb__wrap">
+
+    <div class="pb-head">
+      <span class="pb-kicker">Beneficii cheie</span>
+      <h2 class="pb-t">{{ b.titlu | escape }}</h2>
+      {%- if b.intro != blank -%}<p class="pb-intro">{{ b.intro | escape }}</p>{%- endif -%}
+      {%- if b.conditie != blank -%}
+        <p class="pb-cond"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>{{ b.conditie | escape }}</p>
+      {%- endif -%}
+    </div>
+
+    {%- if b.cifre.size > 0 -%}
+      <ul class="pb-stats">
+        {%- for c in b.cifre -%}
+          <li><b>{{ c.valoare | escape }}{%- if c.unitate != blank -%}<small>{{ c.unitate | escape }}</small>{%- endif -%}</b><span>{{ c.eticheta | escape }}</span></li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <ul class="pb-cards">
+      {%- for k in b.carduri -%}
+        <li class="pb-card">
+          <span class="pb-ico" aria-hidden="true"><svg viewBox="0 0 24 24">
+            {%- case k.icon -%}
+              {%- when 'muschi' -%}<path d="M14.4 14.4 9.6 9.6M18.66 21.49a2 2 0 1 1-2.83-2.83l-1.77 1.77a2 2 0 1 1-2.83-2.83l6.37-6.36a2 2 0 1 1 2.82 2.83l-1.76 1.76a2 2 0 1 1 2.82 2.83zM21.5 21.5l-1.4-1.4M3.9 3.9 2.5 2.5M6.4 12.77a2 2 0 1 1-2.82-2.83l1.76-1.77a2 2 0 1 1-2.82-2.83l2.82-2.82a2 2 0 1 1 2.83 2.82l1.77-1.76a2 2 0 1 1 2.83 2.83z"/>
+              {%- when 'nerv' -%}<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+              {%- when 'energie' -%}<path d="M15 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1M11 7l-3 5h4l-3 5M22 11v2"/>
+              {%- when 'echilibru' -%}<path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05zM12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/>
+              {%- when 'scut' -%}<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1zM9 12l2 2 4-4"/>
+              {%- when 'frunza' -%}<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10ZM2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+              {%- else -%}<path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7ZM8.5 8.5l7 7"/>
+            {%- endcase -%}
+          </svg></span>
+          <h3>{{ k.titlu | escape }}</h3>
+          <p>{{ k.text | escape }}</p>
+          {%- if k.mentiune_autorizata -%}<span class="pb-chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Mențiune de sănătate autorizată în UE</span>{%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    {%- if b.de_ce.puncte.size > 0 or b.pasi.size > 0 -%}
+      <div class="pb-duo">
+        {%- if b.de_ce.puncte.size > 0 -%}
+          <div class="pb-box">
+            <h3>{{ b.de_ce.titlu | escape }}</h3>
+            <ul class="pb-list">
+              {%- for p in b.de_ce.puncte -%}<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>{{ p | escape }}</span></li>{%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+        {%- if b.pasi.size > 0 -%}
+          <div class="pb-box pb-box--dark">
+            <h3>Cum îl iei</h3>
+            <ol class="pb-steps">
+              {%- for s in b.pasi -%}<li><b>{{ forloop.index }}</b><div><strong>{{ s.titlu | escape }}</strong><span>{{ s.text | escape }}</span></div></li>{%- endfor -%}
+            </ol>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if b.nota != blank or b.surse.size > 0 -%}
+      <p class="pb-note">{{ b.nota | escape }}
+        {%- if b.surse.size > 0 %} Surse:
+          {% for s in b.surse -%}<a href="{{ s.url | escape }}" target="_blank" rel="noopener">{{ s.text | escape }}</a>{% unless forloop.last %}; {% endunless %}{%- endfor -%}
+        {%- endif -%}
+      </p>
+    {%- endif -%}
+
+  </div>
+</section>
+{%- else -%}
+{{ product.metafields.custom.beneficii_cheie | metafield_tag }}
+{%- endif -%}

@@ -66,13 +66,43 @@ function evalueaza(h) {
   return { h, cheie: k, seo: seo.total, ai: ai.total, lipsuri: [...seo.lipsuri.map(x => 'SEO ' + x), ...ai.lipsuri.map(x => 'AI ' + x)] };
 }
 
+// Tab-ul „Beneficii cheie” vizual (câmpul „beneficii”, 16.11.2026): scor separat, SEO + AI din 100.
+function evalBen(h) {
+  const d = toate[h]; const b = d.beneficii; if (!b) return null; const k = cheie(h);
+  const are = t => !!k && fara(t).includes(k);
+  const car = b.carduri || [];
+  const txt = [b.intro, b.conditie, ...car.flatMap(c => [c.titlu, c.text]), ...(b.de_ce?.puncte || []), ...(b.pasi || []).flatMap(p => [p.titlu, p.text]), b.nota].join(' ');
+  const n = cuv([b.titlu, txt].join(' '));
+  const cifre = (txt.match(/\b\d+(?:[.,]\d+)?\s?(%|g\b|mg|µg|ml|kcal|zile|capsule|de)/gi) || []).length;
+  const surse = b.surse || [];
+  const seo = scor([
+    [20, (b.titlu || '').length <= 70 && are(b.titlu), `titlul (H2) nu conține „${k}” sau are peste 70 de caractere`],
+    [15, are(prima(b.intro)), `prima frază din intro nu numește produsul („${k}”)`],
+    [15, car.length >= 3 && car.length <= 6 && car.every(c => (c.titlu || '').length <= 28), '3–6 carduri, cu titluri de cel mult 28 de caractere'],
+    [10, car.every(c => (c.text || '').length <= 160), 'texte de card peste 160 de caractere'],
+    [10, (b.cifre || []).length === 3, 'trebuie exact 3 cifre mari'],
+    [10, (b.pasi || []).length >= 3, 'sub 3 pași „Cum îl iei”'],
+    [10, are(b.de_ce?.titlu) || /\?$/.test(b.de_ce?.titlu || ''), 'titlul „De ce” nu numește produsul și nu e întrebare'],
+    [10, n >= 90 && n <= 260, `${n} cuvinte (90–260)`],
+  ]);
+  const ai = scor([
+    [20, cuv(prima(b.intro)) <= 30, 'prima frază din intro are peste 30 de cuvinte'],
+    [20, car.every(c => !/contribuie la/.test(c.text) || c.mentiune_autorizata), 'card cu mențiune fără marcajul mentiune_autorizata'],
+    [20, !/contribuie la/.test(txt) || surse.some(x => /2012\/432/.test(x.url)), 'mențiuni fără link spre Regulamentul (UE) 432/2012'],
+    [20, cifre >= 5, `prea puține cifre (${cifre}, minim 5)`],
+    [20, /doz|VNR|capsule pe zi/i.test(b.conditie + ' ' + b.nota) && (!/(studiu|studii|recenzi|meta-analiz)/i.test(txt) || surse.some(x => /pubmed/.test(x.url))), 'lipsește condiția de doză sau un studiu e fără link PubMed'],
+  ]);
+  return { seo: seo.total, ai: ai.total, lipsuri: [...seo.lipsuri.map(x => 'BEN SEO ' + x), ...ai.lipsuri.map(x => 'BEN AI ' + x)] };
+}
+
 const args = process.argv.slice(2).filter(a => !a.startsWith('--'));
 const sub = process.argv.includes('--sub100');
-const rez = (args.length ? args : Object.keys(toate)).map(evalueaza);
+const rez = (args.length ? args : Object.keys(toate)).map(h => { const r = evalueaza(h); const b = evalBen(h); if (b) { r.ben = b; r.lipsuri.push(...b.lipsuri); } return r; });
 for (const r of rez) {
-  if (sub && r.seo === 100 && r.ai === 100) continue;
-  console.log(`${r.seo === 100 && r.ai === 100 ? '✓' : '✗'} ${r.h} [${r.cheie}]  SEO ${r.seo}  AI ${r.ai}`);
+  const okB = !r.ben || (r.ben.seo === 100 && r.ben.ai === 100);
+  if (sub && r.seo === 100 && r.ai === 100 && okB) continue;
+  console.log(`${r.seo === 100 && r.ai === 100 && okB ? '✓' : '✗'} ${r.h} [${r.cheie}]  SEO ${r.seo}  AI ${r.ai}${r.ben ? `  | Beneficii: SEO ${r.ben.seo}  AI ${r.ben.ai}` : ''}`);
   for (const l of r.lipsuri) console.log('   ' + l);
 }
-const ok = rez.filter(r => r.seo === 100 && r.ai === 100).length;
+const ok = rez.filter(r => r.seo === 100 && r.ai === 100 && (!r.ben || (r.ben.seo === 100 && r.ben.ai === 100))).length;
 console.log(`\n${ok}/${rez.length} produse cu SEO 100 și AI 100.`);

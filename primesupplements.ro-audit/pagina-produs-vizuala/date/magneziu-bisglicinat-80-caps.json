@@ -169,5 +169,91 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
       }
     ]
+  },
+  "beneficii": {
+    "titlu": "Magneziu bisglicinat: 4 beneficii la 3 capsule pe zi",
+    "intro": "Magneziul bisglicinat Prime Health acoperă 64,5% din valoarea nutrițională de referință pentru magneziu la doza zilnică de 3 capsule. De aceea poate purta patru mențiuni de sănătate autorizate în Uniunea Europeană: pentru mușchi, sistemul nervos, oboseală și echilibrul electrolitic.",
+    "conditie": "Pentru adulți, la doza zilnică de 3 capsule",
+    "cifre": [
+      {
+        "valoare": "64,5",
+        "unitate": "%",
+        "eticheta": "din VNR pentru magneziu la 3 capsule"
+      },
+      {
+        "valoare": "300",
+        "unitate": "mg",
+        "eticheta": "magneziu bisglicinat în fiecare capsulă"
+      },
+      {
+        "valoare": "26",
+        "unitate": "",
+        "eticheta": "de zile dintr-un flacon de 80 de capsule"
+      }
+    ],
+    "carduri": [
+      {
+        "icon": "muschi",
+        "titlu": "Sistemul muscular",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului muscular.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "nerv",
+        "titlu": "Sistemul nervos",
+        "text": "Magneziul contribuie la funcționarea normală a sistemului nervos.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "energie",
+        "titlu": "Oboseală și extenuare",
+        "text": "Magneziul contribuie la reducerea oboselii și extenuării.",
+        "mentiune_autorizata": true
+      },
+      {
+        "icon": "echilibru",
+        "titlu": "Echilibru electrolitic",
+        "text": "Magneziul contribuie la echilibrul electrolitic.",
+        "mentiune_autorizata": true
+      }
+    ],
+    "de_ce": {
+      "titlu": "De ce magneziu bisglicinat?",
+      "puncte": [
+        "Bisglicinat înseamnă magneziu legat de două molecule de glicină, un aminoacid.",
+        "Fiecare capsulă are 300 mg de magneziu bisglicinat și 100 mg de magneziu malat, deci două forme de magneziu.",
+        "O recenzie din 2021 a 14 studii arată că formele organice de magneziu par mai ușor de absorbit decât cele anorganice.",
+        "Capsula este vegetală și conține 5 mg de extract de bambus cu 70% siliciu."
+      ]
+    },
+    "pasi": [
+      {
+        "titlu": "3 capsule pe zi",
+        "text": "Aceasta este doza zilnică de pe etichetă, pentru adulți."
+      },
+      {
+        "titlu": "Nu depăși doza",
+        "text": "Nu lua mai mult de 3 capsule pe zi, decât dacă îți recomandă specialistul altfel."
+      },
+      {
+        "titlu": "Un flacon, 26 de zile",
+        "text": "Cele 80 de capsule ajung aproximativ 26 de zile la 3 capsule pe zi."
+      }
+    ],
+    "nota": "Mențiunile de sănătate se aplică la doza zilnică de 3 capsule, care aduce 64,5% din VNR pentru magneziu, peste pragul minim de 15% cerut de lege. Suplimentele alimentare nu înlocuiesc o dietă variată și echilibrată.",
+    "surse": [
+      {
+        "text": "Regulamentul (UE) nr. 432/2012 – mențiunile de sănătate permise",
+        "url": "https://eur-lex.europa.eu/eli/reg/2012/432/oj"
+      },
+      {
+        "text": "Pardo MR și colab. Bioavailability of magnesium food supplements: A systematic review. Nutrition. 2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34111673/"
+      },
+      {
+        "text": "Directiva 2002/46/CE privind suplimentele alimentare",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/46/oj"
+      }
+    ]
   }
 }

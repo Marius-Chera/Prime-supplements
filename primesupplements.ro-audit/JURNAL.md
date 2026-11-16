@@ -1328,3 +1328,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - **Marius:** contul, parola, cheia și e-mailul care conține cheia (regulă: Claude nu introduce parole și chei);
     - **Claude, după conectare:** verificarea, comparația AWB în modul umbră și pregătirea primei rulări Live.
 - 16.11: **Cheia Cargus există deja.** În portalul Cargus (cont contact@, din 13.02.2023) abonamentul UrgentOnlineAPI e activ, deci nu mai trebuie generată sau cerută. Marius copiază Primary Key („Show”) și îl pune, cu utilizatorul și parola WebExpress, în Total Admin → Setări → Cargus. „Regenerate” nu se apasă (ar opri aplicația veche).
+- 16.11: **Total Admin → Cargus: logarea refuzată.** Aplicația afișează acum și motivul primit de la Cargus (versiunea e1d76753). Cargus a răspuns: 409 „There is no active user with the provided credentials!”.
+  - Cheia API e acceptată de portal (altfel ar fi fost 401). Problema e la utilizatorul „prime.sport”: fie parola e greșită, fie utilizatorul nu e asociat cu cheia.
+  - Pasul următor:
+    - Marius verifică logarea în WebExpress cu aceleași date;
+    - dacă logarea merge, cerem la ecom@cargus.ro asocierea cheii (contul de portal contact@, abonamentul UrgentOnlineAPI din 13.02.2023) cu utilizatorul „prime.sport”.

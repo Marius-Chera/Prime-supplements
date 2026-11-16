@@ -46,3 +46,6 @@ Prime Supplements – 0775 286 584
 - Contul există din **13.02.2023**, iar abonamentul **UrgentOnlineAPI e activ tot din 13.02.2023** („You've reached maximum number of subscriptions”). Cheia există deja și, cel mai probabil, o folosește aplicația veche, deci e deja legată de utilizatorul WebExpress.
 - **Pașii 1–5 nu mai sunt necesari.** Marius copiază Primary Key (Profile → „Show”) și îl pune în Total Admin → Setări → Cargus, împreună cu utilizatorul și parola WebExpress. „Salvează și verifică” confirmă dacă merge. E-mail la ecom@cargus.ro doar dacă verificarea dă eroare de asociere.
 - **NU se apasă „Regenerate”**: ar schimba cheia și ar opri aplicația veche care face acum AWB-urile.
+
+## Prima încercare, 16.11
+Cargus a răspuns 409 „There is no active user with the provided credentials!”. Cheia e validă, dar utilizatorul „prime.sport” nu e activ pentru ea: parola e greșită sau lipsește asocierea. Dacă logarea în WebExpress merge cu aceleași date, trimitem e-mailul de asociere. Cargus poate găsi abonamentul după contul de portal contact@primesupplements.ro, deci cheia nu trebuie neapărat scrisă în e-mail.

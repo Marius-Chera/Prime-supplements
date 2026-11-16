@@ -1553,3 +1553,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Categoriile:** id-urile din anexa de comision sunt `scm_id`. Categoriile API sunt 4022/4023/4024/4025/4026/3039/4029.
   - **Prime eMAG:** `/api/catalog/apel` acceptă și `documentation/find_by_eans` (GET, doar cifre). Scripturile sunt în `prime-emag/catalog/`.
   - **Raportul complet:** `emag/CATALOG-EMAG-2026-11-16.md`.
+- 16.11 (23:12), **eMAG – sincronizarea automată stoc + preț Shopify → eMAG, LIVE** (Marius: „Da, fă sincronizarea”).
+  - **La fiecare 15 minute,** Prime eMAG citește din Shopify disponibilul și prețul fiecărei variante, prin Total Admin (metoda RPC `StocPentruEmag`, doar citire, accesibilă numai prin service binding).
+  - **Stocul:** se actualizează prin `offer/save` la toate ofertele active. Produsele care nu sunt ACTIVE în Shopify primesc stoc 0.
+  - **Prețul:** se schimbă doar când s-a schimbat prețul de pe site (regula ÷ 0,82, rotunjit la ,99). Ajustările manuale din eMAG rămân.
+  - **Prima rulare:** 88 de oferte verificate, toate cu pereche în Shopify. 7 stocuri au fost corectate (vânzările de azi de pe site), confirmate în eMAG.
+  - **Verificare manuală:** `POST /api/stoc/sync?proba=1` arată planul fără să scrie; `GET /api/stoc` dă ultima rulare.
+  - **Rămâne:** comenzile eMAG nu scad încă stocul din Shopify/Oblio. Se ocupă etapele (b)/(d) ale aplicației (preluarea comenzilor în fluxul de facturare).

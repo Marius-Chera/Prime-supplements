@@ -11,7 +11,7 @@ Marius: „urca toate produsele din shopify in emag” și „construieste cel m
 ## Regula de preț și stocul
 - **Preț eMAG cu TVA** = preț site ÷ 0,82, rotunjit în sus la ,99 (comisionul eMAG e de 18 % la toate categoriile folosite). `sale_price` se trimite fără TVA (÷ 1,21). `min_sale_price` = −5 %, `max_sale_price` = +30 %.
 - **Stocul** = `inventoryQuantity` din Shopify (gestiunea Oblio „online”), citit pe 16.11. Termen de expediere: 1 zi. TVA: `vat_id` 9 (21 %). Garanție: 0.
-- **Atenție:** stocul din eMAG NU se sincronizează încă automat. Până la sincronizarea din aplicația Prime eMAG (pasul următor), o vânzare pe site nu scade stocul din eMAG.
+- **Stocul și prețul se sincronizează automat la 15 minute** (din 16.11, 23:12), din Shopify prin Total Admin.
 
 ## Ce conține fiecare fișă („profilul complet”)
 - **Nume** în formatul eMAG: „Prime Supplements [produs] [aromă], [gramaj]”. eMAG scoate automat diacriticele din titlu.
@@ -48,7 +48,7 @@ Vechile 4022/4025/4026 sunt aceleași categorii. Omega-3 și Daily Vitamin s-au 
 4. **Unitățile individuale sub 15 lei nu s-au urcat**: baton 55 g, fiolă Energy Pump sau Fat Burning de 25 ml, plic de creatină de 10 g. Pe eMAG ar ieși 10,99 / 11,99 / 5,99 lei și nu acoperă transportul. Pe eMAG sunt cutiile (12 batoane, 20 de fiole, 25 de plicuri). Dacă le vrei și individual, spune-mi.
 5. **Nu s-au urcat, fiindcă nu erau în brief (suplimente) sau au alt comision:** untul de arahide, migdale și caju Prime Health (categorie alimentară, cu comision neconfirmat în anexă) și băuturile Frutilu (alt brand). Pot fi adăugate după ce afli comisionul.
 6. **Familia pe aromă la 3 oferte vechi** (Pure Isolate Ciocolată id 4, Prime Whey Caramel sărat id 12, EAA Peach id 11) n-a fost acceptată cât timp actualizarea lor e în validare („Please provide product characteristic values for the given family type”). Se retrimite după aprobare; până atunci apar ca pagini separate de restul aromelor.
-7. **Sincronizarea automată a stocului și a prețului** Shopify/Oblio → eMAG (în aplicația Prime eMAG) e următorul pas tehnic, ca să nu se vândă pe eMAG ce s-a terminat pe site.
+7. ~~Sincronizarea stoc + preț Shopify → eMAG~~ **făcută pe 16.11, 23:12**: rulează la 15 minute (vezi JURNAL).
 8. **Campania Chillmas Deals** (până pe 23.11, cu discount la comision) se poate înscrie din Campanii după ce produsele sunt aprobate.
 
 ## Cum se reia

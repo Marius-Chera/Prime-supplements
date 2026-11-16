@@ -1316,3 +1316,14 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - **16.11 (12:29 UTC): caseta „Ai un cod de reducere?” e LIVE.** Marius a publicat tema „Prime – cod reducere în coș (16.11)” (`194329477495`, acum MAIN). Verificat: cele 2 fișiere au MD5 identic cu repo-ul. Pe site, fără previzualizare, la 375 px: caseta apare sub produse, WELCOME5 se aplică (200 → 190 lei, „economisești 10,00 lei”) și nu există scroll orizontal. Coșul de test a fost golit, fără cod. Tema veche „Prime – PILOT pagină vizuală (15.11)” rămâne pentru revenire. Sesiunea „Revenirea după Black Friday” trebuie să-și facă copia (Pasul 4) din această temă.
 - **16.11, partea A (confuzia de nume „Prime”), doar pregătire, nimic modificat:** cerută de Marius („Da, pregătește A”) după analiza Genius vs Prime. Propunerea e în `seo/DEZAMBIGUIZARE-NUME-2026-11-16.md`: (1) secțiunea „Cu cine nu ne confundați” pe `/pages/pentru-asistenti-ai`, RO + EN, despre PRIME Hydration (Logan Paul / KSI) și QNT Prime Whey; (2) în schema Organization, `alternateName` „PRIME Supplements” înlocuit cu „Prime Supplements România” + `disambiguatingDescription`; (3) „de la Prime Supplements” în prima frază a descrierii la 9 produse (Prime Whey 2 kg, Whey Go, 7 creme de orez Prime Creamy Rice). Verificat ce e deja bine: titlurile SEO se termină cu „| Prime Supplements”, `brand` în schema Product e corect. În treacăt (citire Admin API): 7 pachete au încă „Ofertă Black Friday, valabilă 30 octombrie – 15 noiembrie” în descriere și în titlul SEO (legat de Q1, amânat).
 - 16.11: **feed ChatGPT automat** – Worker-ul Total Admin servește `/feed/chatgpt.jsonl.gz`, regenerat din Shopify la 6 ore (doar produse permise, fără suplimente); legat în Business Hub ca „Hosted URL”, actualizare zilnică, validare 0 erori. Feed-ul vechi (fișier) rămâne până confirmăm că ștergerea lui nu arhivează produsele din cel nou.
+- 16.11: **Cheia API Cargus: procedura primită** (Marius: „am primit cheia api, te rog să te descurci tu de aici”). PDF-ul „Generare API Key_ro.pdf” e manualul Cargus; nu conține cheia.
+  - **Procedura:**
+    - cont în portalul urgentcargus.developer.azure-api.net;
+    - abonament la produsul UrgentOnlineAPI;
+    - după aprobarea Cargus, se copiază Primary Key;
+    - cheia + utilizatorul WebExpress se trimit la ecom@cargus.ro, pentru asociere;
+    - apoi cheia, utilizatorul și parola se introduc în Total Admin → Setări → Cargus.
+  - **Pașii, plus textul e-mailului fără cheie:** `livrare/CARGUS-CHEIE-API-PASI-2026-11-16.md`.
+  - **Cine ce face:**
+    - **Marius:** contul, parola, cheia și e-mailul care conține cheia (regulă: Claude nu introduce parole și chei);
+    - **Claude, după conectare:** verificarea, comparația AWB în modul umbră și pregătirea primei rulări Live.

@@ -1,5 +1,7 @@
 # Dezinstalarea Product Migration și Ablestar Link Manager (pași pentru Marius, 17.11.2026)
 
+**Rezultat 17.11:** Product Migration a fost dezinstalată de Marius și verificată (redirecționările sunt tot 1.169). Ablestar **rămâne**: e gratuită și înregistrează 404-urile reale venite din afara site-ului.
+
 Cerut de Marius pe 17.11 („Da, pregătește pașii”). Dezinstalarea o face Marius, pentru că e o acțiune în magazin care nu se poate anula. Claude verifică după.
 
 **Stare la 17.11, citită prin Admin API:** 19 aplicații instalate și **1.169 de redirecționări URL native** în Shopify. Redirecționările făcute cu Ablestar stau în Shopify, nu în aplicație.

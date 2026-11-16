@@ -1596,3 +1596,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Citirile** (comenzi, oferte) primite cu 502/503/504 se reîncearcă de 2 ori, după 3 s și apoi după 6 s.
   - **Scrierile** (stoc, preț) nu se retrimit automat, ca să nu plece de două ori.
   - **Teste:** 29/29, plus 3 noi. Deploy c3d18fd6. Proba de stoc după deploy: 90 de oferte verificate, toate la zi.
+- 17.11, **Product Migration dezinstalată de Marius** (aplicația custom rămasă de la WooCommerce, cu circa 130 de permisiuni). Verificat prin Admin API: nu mai apare printre aplicații (au rămas 18); redirecționările sunt tot 1.169; site-ul răspunde. **Ablestar Link Manager rămâne**: Marius a spus că e gratuită, iar ea înregistrează paginile 404 accesate de vizitatori din afara site-ului (Google, linkuri vechi), lucru pe care Prime Vizibilitate nu-l vede, pentru că verifică doar linkurile interne.

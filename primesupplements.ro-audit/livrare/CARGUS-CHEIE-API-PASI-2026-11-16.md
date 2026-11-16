@@ -41,3 +41,8 @@ Prime Supplements – 0775 286 584
 - În modul umbră: AWB-ul calculat de aplicație e comparat cu prețul Cargus; statusurile coletelor vin din API, nu de pe pagina publică.
 - Trecerea pe **Live** (decizia lui Marius din 13.11): prima rundă = 1–2 comenzi plătite cu cardul, verificate împreună.
 - După trecere: parola WebExpress de schimbat (e prea simplă), cu grijă la aplicația veche, care folosește același cont.
+
+## Găsit pe 16.11, în portal (Marius logat, contact@primesupplements.ro)
+- Contul există din **13.02.2023**, iar abonamentul **UrgentOnlineAPI e activ tot din 13.02.2023** („You've reached maximum number of subscriptions”). Cheia există deja și, cel mai probabil, o folosește aplicația veche, deci e deja legată de utilizatorul WebExpress.
+- **Pașii 1–5 nu mai sunt necesari.** Marius copiază Primary Key (Profile → „Show”) și îl pune în Total Admin → Setări → Cargus, împreună cu utilizatorul și parola WebExpress. „Salvează și verifică” confirmă dacă merge. E-mail la ecom@cargus.ro doar dacă verificarea dă eroare de asociere.
+- **NU se apasă „Regenerate”**: ar schimba cheia și ar opri aplicația veche care face acum AWB-urile.

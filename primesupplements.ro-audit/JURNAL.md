@@ -1327,3 +1327,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Cine ce face:**
     - **Marius:** contul, parola, cheia și e-mailul care conține cheia (regulă: Claude nu introduce parole și chei);
     - **Claude, după conectare:** verificarea, comparația AWB în modul umbră și pregătirea primei rulări Live.
+- 16.11: **Cheia Cargus există deja.** În portalul Cargus (cont contact@, din 13.02.2023) abonamentul UrgentOnlineAPI e activ, deci nu mai trebuie generată sau cerută. Marius copiază Primary Key („Show”) și îl pune, cu utilizatorul și parola WebExpress, în Total Admin → Setări → Cargus. „Regenerate” nu se apasă (ar opri aplicația veche).

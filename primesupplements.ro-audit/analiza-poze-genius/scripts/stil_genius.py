@@ -20,7 +20,8 @@ ap.add_argument('--reflexie', type=float, default=0.22)    # opacitatea reflexie
 ap.add_argument('--toleranta', type=float, default=22)     # diferența față de fundal la decupare (55 pentru produse închise la culoare)
 ap.add_argument('--eroziune', type=int, default=3)         # px tăiați de pe margine (anti-halou)
 ap.add_argument('--umbra_lum', type=float, default=256)    # 256 = oprit; altfel: gri desaturat mai deschis de atât = fundal (taie și luciul de pe margini!)
-ap.add_argument('--masca', default=None)                   # opțional: salvează masca pentru verificare
+ap.add_argument('--imbunatatire', type=float, default=0)  # 0 = fără; 1 = contrast +5 %, culoare +6 %, claritate (unsharp 60 %)
+ap.add_argument('--masca', default=None)                  # opțional: salvează masca pentru verificare
 ap.add_argument('--decupat', default=None)                 # opțional: salvează și PNG-ul transparent decupat strâns (pentru efecte CSS)
 a = ap.parse_args()
 
@@ -75,6 +76,16 @@ pw = int(prod.width * ph / prod.height)
 if pw > L * 0.82:
     pw = int(L * 0.82); ph = int(prod.height * pw / prod.width)
 prod = prod.resize((pw, ph), Image.LANCZOS)
+if a.imbunatatire > 0:
+    # „enhance” discret, aplicat doar pe produs, la rezoluția finală: contrast, culoare, claritate (unsharp mask)
+    from PIL import ImageEnhance
+    k = a.imbunatatire
+    alpha_p = prod.getchannel('A')
+    rgb_p = prod.convert('RGB')
+    rgb_p = ImageEnhance.Contrast(rgb_p).enhance(1 + 0.05 * k)
+    rgb_p = ImageEnhance.Color(rgb_p).enhance(1 + 0.06 * k)
+    rgb_p = rgb_p.filter(ImageFilter.UnsharpMask(radius=2, percent=int(60 * k), threshold=2))
+    prod = rgb_p.convert('RGBA'); prod.putalpha(alpha_p)
 x0 = (L - pw) // 2
 y_contact = int(L * 0.80)          # linia podelei (ca la Genius: produsul jos-centru, reflexia sub el)
 y0 = y_contact - ph

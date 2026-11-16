@@ -525,3 +525,11 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Oportunități:** Marius a aprobat noua ordine a cozii de rescriere, cu cele 13 articole de pe pozițiile 8–20 primele (`seo/OPORTUNITATI-POZITII-8-20-2026-11-16.md`), și cele 2 titluri. Pentru `aminoacizi-esentiali-dozaj` s-a mers pe varianta recomandată (b): rescriere pe „când se iau EAA”, fără comasare.
 - **Întrebarea lui Marius despre Genius** („cum apar în fața noastră cu fraze interzise?”): Google și asistenții AI nu penalizează mențiunile neautorizate. Genius e sus datorită mărcii, recenziilor (373 față de 50), magazinului fizic, vechimii și mențiunilor pe alte site-uri. Riscul frazelor interzise e legal: ANSVSA/ANPC și respingerea reclamelor. Prime rămâne conform și recuperează prin recenzii, comparatoare și mențiuni (pașii 15–16).
 - **Compari.ro:** Marius a ales varianta **PPC** (plata pe click, clientul ajunge pe site), nu Marketplace (comision, clientul cumpără pe Compari). Feed-ul îl generează aplicația Prime Vizibilitate.
+
+## 16.11.2026 – Aplicația eMAG Marketplace
+- **Brief-ul lui Marius:** comenzile eMAG se văd și se procesează imediat, facturile de comision sunt în același loc, iar dezvoltarea merge pe etape (a)–(d), cu confirmare după fiecare.
+- **Ce nu face aplicația:**
+  - nu atinge Shopify, Fluxsales, Primesupplements App, ofertele, prețurile sau stocul eMAG;
+  - nu face nicio scriere pe contul eMAG real fără să-l anunțe pe Marius.
+- **Decizia lui Marius:** „aplicatie tot in shopify !”, deci aplicația va fi încorporată în Admin Shopify, ca Total Admin și Prime Afiliați.
+- **Planul și întrebările deschise:** `emag/PLAN-APLICATIE-EMAG-2026-11-16.md`.

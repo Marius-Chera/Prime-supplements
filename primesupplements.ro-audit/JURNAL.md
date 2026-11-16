@@ -1449,3 +1449,14 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - E făcut din `/products.json`, cu cache de 6 ore, deci fără nicio permisiune pe magazin.
     - Conține 407 variante disponibile, cu preț, poză și descriere. Livrarea e 20 de lei sub 300 de lei și gratuită de la 300 de lei, conform profilului Shopify. EAN-ul se trimite doar dacă e valid, iar codurile interne 400… sunt excluse.
     - Compari a confirmat: „Feed-ul este accesibil sistemului nostru”. **Urmează aprobarea lor.** Abia după aprobare se încarcă soldul PPC; bugetul propus pentru test e 100–200 de lei și îl decide Marius. Compari cere să nu se solicite factură până la aprobare.
+
+## 16.11.2026 – Aplicația eMAG Marketplace: planul pentru faza 1 (fără cod)
+- Marius a cerut o aplicație pentru comenzile eMAG și facturile de comision, apoi a precizat: „aplicatie tot in shopify !”.
+- Am căutat în repo și n-am găsit nicio integrare eMAG anterioară.
+- Am citit documentația oficială eMAG (v4.5.2): comenzi, AWB, retururi, facturi, callback-uri, limite și IP-uri.
+- Planul e în `emag/PLAN-APLICATIE-EMAG-2026-11-16.md` și propune:
+  - o aplicație încorporată în Shopify, fără permisiuni pe datele magazinului;
+  - Cloudflare Worker + D1 pe contul Prime;
+  - un VPS-releu cu IP fix pentru whitelist-ul eMAG.
+- Toate scrierile în eMAG au comutatoare, oprite la început.
+- Așteaptă confirmarea lui Marius și răspunsul la 6 întrebări. Nu s-a scris niciun cod și nu s-a făcut niciun apel către eMAG.

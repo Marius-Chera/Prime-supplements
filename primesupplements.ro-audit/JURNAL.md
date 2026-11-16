@@ -1515,3 +1515,11 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Rută nouă, doar citire: `/api/oferte` (`product_offer/read`). Contul are **11 oferte, dintre care 9 la vânzare**, cu stocuri (20–163) și prețuri vechi; Daily Vitamin are preț invalid.
   - Am propus fie stoc 0 pe toate, fie stoc din Oblio + regula de preț. Aștept alegerea lui Marius.
   - Marius a confirmat identitatea în eMAG și a plătit restanța de 65,34 RON. Aștept confirmarea eMAG.
+- 16.11 (seara), **eMAG – ofertele vechi oprite.**
+  - Marius: „cele 11 oferte vechi nu mai sunt valabile, urca toate produsele din shopify in emag”.
+  - Am trimis `product_offer/save` cu status 0 și stoc 0 pentru toate cele 11 oferte (id 1–10 și 12). eMAG a confirmat cu `isError: false`, cu doar avertismente SGR completate automat.
+  - Rută nouă în Prime eMAG: `/api/catalog/apel`.
+    - Citiri: `product_offer/read`, `category/read`, `vat/read`, `handling_time/read`, `find_by_eans`, `courier_accounts/read`.
+    - Scrieri: doar `product_offer/save` și `offer/save`. Comenzile, AWB-urile și facturile rămân blocate.
+  - TVA în eMAG: `vat_id` 9 = 21 % (implicit), 10 = 11 %, 5 = 0 %.
+  - Urmează catalogul complet din Shopify: ~45 de produse / ~90 de variante de suplimente cu EAN, fără haine.

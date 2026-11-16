@@ -1479,3 +1479,19 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Releul:** `prime-emag/releu/` (Node + Caddy, HTTPS prin sslip.io, cereri semnate HMAC, transmite doar la marketplace-api.emag.ro).
     - Pașii pentru Marius: `emag/ORACLE-RELEU-PASI-2026-11-16.md`.
     - Cheia SSH e pe PC, în `~/.ssh/prime-releu-oracle`.
+- 16.11 (seara), **eMAG: releul și aplicația live, plus verificarea contului.**
+  - **Serverul Oracle** `prime-releu-emag` (E2.1.Micro Always Free, Frankfurt; Ampere A1 nu avea locuri libere).
+    - IP rezervat **92.5.53.134**, porturile 80/443 deschise.
+    - Releu instalat: Node + Caddy, certificat Let's Encrypt pe `92-5-53-134.sslip.io`, SSH doar cu cheie, actualizări automate.
+    - Cererile nesemnate primesc 401.
+    - DNS-ul furnizorului de internet de pe PC rezolvă greșit sslip.io (81.196.9.130). Prin 1.1.1.1 e corect.
+  - **IP-ul în eMAG:** adăugat în Contul meu → Detalii tehnice → Adrese IP, status Activ. Nu a fost nevoie de tichet.
+  - **Prime eMAG pe Cloudflare:** https://prime-emag.prime-expediere.workers.dev, cu D1 `prime-emag` și secretele ENC_KEY, STATUS_TOKEN și RELEU_SECRET.
+    - `EMAG_MOCK=0`, deci citire reală. Nu există rute de scriere.
+    - Lipsesc userul și parola API, pe care le pune Marius în Setări.
+    - Codul are doar commit local.
+  - **Verificarea contului eMAG**, doar citire, în `emag/AUDIT-CONT-EMAG-2026-11-16.md`:
+    - identitatea neconfirmată, cu termen expirat (risc de suspendare a plăților);
+    - restanță de 65,34 RON;
+    - 12 produse vechi, cu documentație slabă, dintre care 2 respinse; ofertele nu sunt la vânzare.
+    - Marius a cerut refacerea contului „de la zero”. Planul e în același fișier.

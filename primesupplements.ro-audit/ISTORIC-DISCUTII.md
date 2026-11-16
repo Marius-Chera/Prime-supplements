@@ -542,3 +542,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - anonimizare la 90 de zile;
   - termenul din weekend trece pe luni.
   - Rămân deschise: canalul de notificare suplimentar și cum se fac azi factura și AWB-ul pentru eMAG (înainte de etapa d).
+- **16.11 – eMAG „de la zero”:** Marius: „nu sunt produsele incarcate pe cont nu e absolut nimic bine la el ,te rog fa tu de la zero tot si optimizeaza tot”. Asta ridică pentru contul eMAG regula din brief „nu atinge ofertele/prețurile/stocul”, dar fiecare pas de scriere (lot-pilot, regula de preț) se face cu aprobarea lui. Planul: `emag/AUDIT-CONT-EMAG-2026-11-16.md`.

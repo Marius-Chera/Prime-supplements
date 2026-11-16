@@ -1571,3 +1571,13 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Neurcat – untul de caju:** EAN-ul 6427616427536 e invalid (cifra de control) și trebuie luat de pe borcan.
   - **Neurcat – Frutilu set 18:** n-are EAN (SKU „FRUTILU-18”), iar stocul e 0 în Shopify.
   - **Generatorul de fișe:** id-urile existente se iau acum din eMAG după EAN, iar produsele noi încep de la 300. Așa, o retrimitere nu mai poate suprascrie altă ofertă.
+- 17.11 (00:45), **Prime eMAG pusă în Shopify** (Marius: „pune aplicatia Prime eMag in shopify si pune-i un avatar gen : prime + emag logourile”).
+  - **Dev Dashboard:** aplicația „Prime eMAG” (id 448168493057), versiunea `v1-comenzi-catalog`, activă.
+    - App URL: `https://prime-emag.prime-expediere.workers.dev/app`, încorporată în admin.
+    - Nu cere nicio permisiune pe magazin.
+  - **Instalare:** prin `admin.shopify.com/store/primesupplements1/oauth/install?client_id=…`, singura permisiune fiind cea implicită (date despre personal, store owner). Apare în meniul Aplicații, lângă Total Admin, Prime Afiliați și Prime Vizibilitate.
+  - **Iconița:** simbolul Prime roșu pe negru sus, logo-ul oficial eMAG (degrade) pe alb jos.
+    - Fișierul: `prime-emag/assets-design/prime-emag-icon-1200.png`, generat cu `make-icon.mjs`.
+    - Variantele A și B sunt păstrate.
+  - **Configurare și deploy:** Client ID-ul e trecut în `wrangler.jsonc` și s-a făcut deploy.
+  - **Rămâne la Marius:** `SHOPIFY_API_SECRET` (secretul din Dev Dashboard → Prime eMAG → Settings), cu `node scripts/wr.mjs secret put SHOPIFY_API_SECRET` în `prime-emag`. Fără el, aplicația din admin nu se autentifică.

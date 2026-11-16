@@ -1,6 +1,6 @@
 # Toate produsele – pagina vizuală + „Curiozități” (tema PILOT 194315649399)
 
-Generat de `scripts/inventar.mjs` (2026-11-15 23:48 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
+Generat de `scripts/inventar.mjs` (2026-11-15 23:57 UTC). Sursa listei: `inventar.json` (2026-11-15, Admin API (status:active)).
 Excluse: haine Prime și MNX, pachetele (productType Pachet), accesoriile textile (șapcă, prosop); separat, de decis cu Marius: centura Hardcore și cele 2 shakere (formatul secțiunii e pe ingrediente).
 
 Rezumat: **80 produse**; JSON pagină vizuală: 80; cu Curiozități: 80; cu sportivă în dreapta: 79; scrise pe PILOT (metafield) cu versiunea curentă: 80.

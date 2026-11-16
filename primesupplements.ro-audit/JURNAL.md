@@ -1588,3 +1588,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - tab-ul nou „Scor SEO” (lista „unde pierdem puncte”, paginile de lucrat primele, căutările fără pagină dedicată), plus scorul în Panou și în raportul de luni.
 
   35/35 de teste și tsc au trecut, iar auditul a fost calibrat pe 7 pagini reale, fără alarme false. **PageSpeed Insights API** a fost activat de Claude în proiectul Google „Prime Vizibilitate” și adăugat pe cheia „Prime Vizibilitate CrUX” (acum CrUX + PageSpeed). Pe site și în Shopify nu s-a schimbat nimic: aplicația are tot 0 permisiuni. Prima măsurătoare (referința) a pornit la 00:45. Detalii și formule: `seo/SEO-SAPTAMANAL-ETAPA-1-ANALIZA-2026-11-17.md` § „Etapa 2”.
+- 17.11 (01:00), **Prime eMAG merge în Shopify Admin.**
+  - Marius a pus `SHOPIFY_API_SECRET`. Prima încercare a salvat din greșeală textul pentru Judge.me, care era în clipboard (eroare „neautorizat”); a doua a fost corectă.
+  - Aplicația deschide pagina Comenzi (0 de procesat), plus Jurnal și erori și Setări.
+  - **Eșecuri:** „14 eșuate în 24 h” sunt răspunsuri 502/504 ocazionale ale releului Oracle la `order/read` și `product_offer/read`, de circa 10 s. Fiecare se reia singur la următoarea rulare (5 min pentru comenzi, 15 min pentru stoc). Plus 2 erori din urcarea catalogului, deja rezolvate.

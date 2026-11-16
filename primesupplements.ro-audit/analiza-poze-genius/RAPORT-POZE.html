@@ -410,13 +410,22 @@ Versiunea cu imagini adnotate: <a href="RAPORT-POZE.html">RAPORT-POZE.html</a>, 
 <td><strong>Limita:</strong> pe flacon alb pe fundal gri, decuparea automată mănâncă marginile</td>
 </tr>
 </tbody></table>
+<h3>Test pe produsele noi (16.11, la cererea lui Marius): <code>D:\Prime Supplements\Produse noi hila</code>, 15 poze</h3>
+<p>Rezultat: <code>demo/hila/PLANSA-INAINTE-DUPA.jpg</code> + <code>demo/hila/all-merch&lt;N&gt;-dupa.jpg</code> (2000 px).</p>
+<ul>
+<li>Prima rulare, cu decuparea după culoare, <strong>n-a fost bună</strong> pe flacoanele negre lucioase. Reflexiile gri de pe margini seamănă cu fundalul și au fost tăiate: margini „în trepte”, iar la Silymarin „PRIME” era tăiat. Fiber (borcan alb) a ieșit stricat.</li>
+<li><strong>Soluția: decupare cu AI open-source, local și gratuit</strong> (<code>scripts/decupare_ai.py</code>: rembg + modelul isnet-general-use, ~180 MB descărcat o singură dată, ~2 s pe poză). Marginile sunt curate pe toate 15, <strong>inclusiv Fiber (alb pe gri)</strong>. Asta înlocuiește limita de mai sus.</li>
+<li>Reflexia se oglindește acum <strong>pe fiecare coloană față de baza reală</strong>. La cutiile de Prime Whey (așezate pe colț, cu baza în „V”), un simplu flip lăsa cutia să „plutească”; acum reflexia pornește din fiecare muchie. Umbra de contact urmează și ea baza.</li>
+<li>Plicul (14) e fotografiat înclinat, ca „plutind”, așa că l-am lăsat fără reflexie, doar cu umbră moale. Cutiile au luciul la jumătate (<code>--lucios 0.5</code>).</li>
+<li>Pipeline final: <code>decupare_ai.py FOLDER decupat/</code> → <code>stil_genius.py decupat/x.png x-dupa.jpg</code>.</li>
+</ul>
 <p>Verificare: eticheta e doar scalată uniform (fără deformare). Luciul e sub 14 % opacitate, iar textul rămâne lizibil, inclusiv pe tabelul nutrițional lateral. Pe borcanele negre rămân mici imperfecțiuni de margine (1–3 px) la baza borcanului. Pentru producție e nevoie de o verificare vizuală a fiecărei poze sau de o decupare de calitate (Photoroom API sau manual).</p>
 <hr>
 <h2>7. Ghid pentru varianta recomandată + standardul nostru pentru poze</h2>
 <p><strong>Pași (E acum, B treptat):</strong></p>
 <ol>
 <li>Cerem fotografului sau producătorului <strong>PNG-uri transparente</strong> (sau fotografii pe fundal alb, cu lumină uniformă). Așa decuparea devine sigură pentru orice culoare de ambalaj.</li>
-<li>Rulăm <code>stil_genius.py</code> pe tot lotul, cu <code>--toleranta 55</code> pentru ambalaje negre și 12–22 pentru cele albe. Ne uităm la fiecare rezultat la 100 %.</li>
+<li>Rulăm <code>decupare_ai.py</code> (decupare AI locală, merge pe orice culoare de ambalaj), apoi <code>stil_genius.py</code> pe tot lotul. Ne uităm la fiecare rezultat la 100 %. Decuparea după culoare (<code>--toleranta</code>) rămâne doar ca rezervă.</li>
 <li>Le urcăm pe o temă <strong>nepublicată</strong> sau pe un produs de test, le compari, apoi decizi.</li>
 <li>În paralel: oferte de la 2–3 freelanceri 3D pentru borcanul de 500 g (cele mai multe arome). Dacă rezultatul e bun, extindem pe celelalte ambalaje.</li>
 </ol>

@@ -130,6 +130,14 @@ Produse: Recovery BCAA 500 g, Pure Isolate 2000 g, Creatină Creapure. Am folosi
 | `demo/card-css.html` | Card de produs cu efectele din cod. Se deschide local (server: `scripts/serve.cjs`, port 8796) |
 | `demo/test-flacon-alb-magneziu-ESEC-decupare.jpg` | **Limita:** pe flacon alb pe fundal gri, decuparea automată mănâncă marginile |
 
+### Test pe produsele noi (16.11, la cererea lui Marius): `D:\Prime Supplements\Produse noi hila`, 15 poze
+Rezultat: `demo/hila/PLANSA-INAINTE-DUPA.jpg` + `demo/hila/all-merch<N>-dupa.jpg` (2000 px).
+- Prima rulare, cu decuparea după culoare, **n-a fost bună** pe flacoanele negre lucioase. Reflexiile gri de pe margini seamănă cu fundalul și au fost tăiate: margini „în trepte”, iar la Silymarin „PRIME” era tăiat. Fiber (borcan alb) a ieșit stricat.
+- **Soluția: decupare cu AI open-source, local și gratuit** (`scripts/decupare_ai.py`: rembg + modelul isnet-general-use, ~180 MB descărcat o singură dată, ~2 s pe poză). Marginile sunt curate pe toate 15, **inclusiv Fiber (alb pe gri)**. Asta înlocuiește limita de mai sus.
+- Reflexia se oglindește acum **pe fiecare coloană față de baza reală**. La cutiile de Prime Whey (așezate pe colț, cu baza în „V”), un simplu flip lăsa cutia să „plutească”; acum reflexia pornește din fiecare muchie. Umbra de contact urmează și ea baza.
+- Plicul (14) e fotografiat înclinat, ca „plutind”, așa că l-am lăsat fără reflexie, doar cu umbră moale. Cutiile au luciul la jumătate (`--lucios 0.5`).
+- Pipeline final: `decupare_ai.py FOLDER decupat/` → `stil_genius.py decupat/x.png x-dupa.jpg`.
+
 Verificare: eticheta e doar scalată uniform (fără deformare). Luciul e sub 14 % opacitate, iar textul rămâne lizibil, inclusiv pe tabelul nutrițional lateral. Pe borcanele negre rămân mici imperfecțiuni de margine (1–3 px) la baza borcanului. Pentru producție e nevoie de o verificare vizuală a fiecărei poze sau de o decupare de calitate (Photoroom API sau manual).
 
 ---
@@ -138,7 +146,7 @@ Verificare: eticheta e doar scalată uniform (fără deformare). Luciul e sub 14
 
 **Pași (E acum, B treptat):**
 1. Cerem fotografului sau producătorului **PNG-uri transparente** (sau fotografii pe fundal alb, cu lumină uniformă). Așa decuparea devine sigură pentru orice culoare de ambalaj.
-2. Rulăm `stil_genius.py` pe tot lotul, cu `--toleranta 55` pentru ambalaje negre și 12–22 pentru cele albe. Ne uităm la fiecare rezultat la 100 %.
+2. Rulăm `decupare_ai.py` (decupare AI locală, merge pe orice culoare de ambalaj), apoi `stil_genius.py` pe tot lotul. Ne uităm la fiecare rezultat la 100 %. Decuparea după culoare (`--toleranta`) rămâne doar ca rezervă.
 3. Le urcăm pe o temă **nepublicată** sau pe un produs de test, le compari, apoi decizi.
 4. În paralel: oferte de la 2–3 freelanceri 3D pentru borcanul de 500 g (cele mai multe arome). Dacă rezultatul e bun, extindem pe celelalte ambalaje.
 

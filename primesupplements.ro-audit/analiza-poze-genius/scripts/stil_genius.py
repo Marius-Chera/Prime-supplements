@@ -81,34 +81,43 @@ y0 = y_contact - ph
 
 canvas = Image.new('RGBA', (L, L), (255, 255, 255, 255))
 
-# ---------- 3. Reflexie pe podea: flip vertical + fade + blur progresiv ----------
-refl = prod.transpose(Image.FLIP_TOP_BOTTOM)
+# ---------- 3. Reflexie pe podea, oglindită PE FIECARE COLOANĂ față de baza reală a obiectului ----------
+# (la borcane baza e o curbă, la cutiile așezate pe colț baza e în „V”: un simplu flip ar lăsa obiectul să „plutească”)
+P = np.asarray(prod).astype(np.float32)
+A_ = P[:, :, 3]
+has = (A_ > 128).any(axis=0)
+yb = np.where(has, ph - 1 - np.argmax((A_ > 128)[::-1], axis=0), -1)   # ultimul rând opac pe fiecare coloană
 rh = int(ph * 0.34)
-refl = refl.crop((0, 0, pw, rh))
-# blur progresiv: 3 benzi cu blur crescător (podea „semi-lucioasă”)
-parts = []
-for i, rad in enumerate((0.6, 2.5, 5.5)):
-    y1, y2 = int(rh * i / 3), int(rh * (i + 1) / 3)
-    parts.append(refl.filter(ImageFilter.GaussianBlur(rad)).crop((0, y1, pw, y2)))
-refl2 = Image.new('RGBA', (pw, rh))
-yy = 0
-for pimg in parts:
-    refl2.paste(pimg, (0, yy)); yy += pimg.height
-grad = np.linspace(a.reflexie, 0, rh) ** 1.4 / (a.reflexie ** 0.4)
-grad = np.clip(grad, 0, 1)
-ra = np.asarray(refl2.getchannel('A')).astype(np.float32) * grad[:, None]
-refl2.putalpha(Image.fromarray(ra.astype(np.uint8)))
-canvas.alpha_composite(refl2, (x0, y_contact - 2))
+R = np.zeros((L, L, 4), np.float32)
+D = np.full((L, L), -1.0, np.float32)            # distanța față de bază (pentru fade și blur)
+cols = np.where(has)[0]
+for dd in range(rh):
+    src = yb[cols] - dd
+    ok = src >= 0
+    c = cols[ok]; s_ = src[ok]
+    dy = y0 + yb[c] + 1 + dd
+    inb = dy < L
+    c, s_, dy = c[inb], s_[inb], dy[inb]
+    R[dy, x0 + c] = P[s_, c]
+    D[dy, x0 + c] = dd / rh
+fade = np.where(D >= 0, np.clip(1 - D, 0, 1) ** 1.6 * a.reflexie, 0)
+R[:, :, 3] *= fade
+Rimg = Image.fromarray(np.clip(R, 0, 255).astype(np.uint8), 'RGBA')
+Rblur = Rimg.filter(ImageFilter.GaussianBlur(6))
+w = Image.fromarray((np.clip(D * 1.4, 0, 1) * 255).astype(np.uint8))   # blur crescător cu distanța
+canvas.alpha_composite(Image.composite(Rblur, Rimg.filter(ImageFilter.GaussianBlur(0.7)), w))
 
-# ---------- 4. Umbre: umbră moale largă + umbră de contact strânsă ----------
+# ---------- 4. Umbre: umbră moale largă + umbră de contact care urmează baza ----------
 sh = Image.new('L', (L, L), 0)
 d = ImageDraw.Draw(sh)
-d.ellipse((x0 - pw * 0.04, y_contact - pw * 0.035, x0 + pw * 1.04, y_contact + pw * 0.05), fill=70)
+d.ellipse((x0 - pw * 0.04, y_contact - pw * 0.035, x0 + pw * 1.04, y_contact + pw * 0.05), fill=60)
 sh = sh.filter(ImageFilter.GaussianBlur(pw * 0.045))
-sh2 = Image.new('L', (L, L), 0)
-d2 = ImageDraw.Draw(sh2)
-d2.ellipse((x0 + pw * 0.04, y_contact - pw * 0.012, x0 + pw * 0.96, y_contact + pw * 0.014), fill=150)
-sh2 = sh2.filter(ImageFilter.GaussianBlur(pw * 0.009))
+cm = np.zeros((L, L), np.uint8)
+cc = cols[(yb[cols] >= 0)]
+cy = np.clip(y0 + yb[cc], 0, L - 1)
+inner = (cc > pw * 0.02) & (cc < pw * 0.98)      # nu înnegrim colțurile extreme
+cm[cy[inner], x0 + cc[inner]] = 255
+sh2 = Image.fromarray(cm).filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(max(2, pw * 0.008))).point(lambda v: int(min(255, v * 1.6) * 0.6))
 shadow = ImageChops.lighter(sh, sh2)
 black = Image.new('RGBA', (L, L), (0, 0, 0, 255)); black.putalpha(shadow)
 canvas.alpha_composite(black)

@@ -1,0 +1,88 @@
+{%- comment -%}
+  Site-wide Organization entity (OnlineStore) + WebSite/SearchAction on the homepage.
+  Rewritten 2026-10-12: adds legal name, tax ID, telephone, e-mail, postal address and
+  the real social profiles used in the footer (the old snippet pointed to profiles that
+  do not match the footer links).
+{%- endcomment -%}
+{%- liquid
+  assign org_id = shop.url | append: '/#organization'
+  assign founder_id = shop.url | append: '/#marius-chera'
+  assign site_id = shop.url | append: '/#website'
+  assign search_target = shop.url | append: '/search?q=' | append: '{search_term_string'
+  assign search_target = search_target | append: '}'
+-%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "OnlineStore"],
+      "@id": {{ org_id | json }},
+      "name": "Prime Supplements",
+      "legalName": "PRIME SPORT SUPPLEMENTS SRL",
+      "alternateName": "PRIME Supplements",
+      "url": {{ shop.url | append: '/' | json }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg"
+      },
+      "image": "https://primesupplements.ro/cdn/shop/files/prime-supplements.jpg",
+      "description": "Magazin online românesc de suplimente nutritive pentru sport (creatină, proteine, pre-workout, aminoacizi, vitamine) și echipament de sală MNX, cu livrare rapidă în toată România.",
+      "foundingDate": "2022",
+      "taxID": "46260823",
+      "vatID": "RO46260823",
+      "telephone": "+40775286584",
+      "email": "contact@primesupplements.ro",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Str. Ioan Virgil Ispas, Nr. 17A",
+        "addressLocality": "Cisnădie",
+        "addressRegion": "Sibiu",
+        "postalCode": "555300",
+        "addressCountry": "RO"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": {{ shop.url | append: '/#marius-chera' | json }},
+        "name": "Marius Chera",
+        "jobTitle": "Antrenor de culturism, fondator Prime Supplements",
+        "url": {{ shop.url | append: '/pages/autor-marius-chera' | json }}
+      },
+      "areaServed": { "@type": "Country", "name": "RO" },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+40775286584",
+          "email": "contact@primesupplements.ro",
+          "availableLanguage": ["ro"],
+          "areaServed": "RO"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/primesupplementsro",
+        "https://www.instagram.com/primesupplements_ro/",
+        "https://www.tiktok.com/@primesupplements.ro",
+        "https://www.youtube.com/@primesupplementsro"
+      ]
+    }{%- if request.page_type == 'index' -%},
+    {
+      "@type": "WebSite",
+      "@id": {{ site_id | json }},
+      "url": {{ shop.url | append: '/' | json }},
+      "name": "Prime Supplements",
+      "inLanguage": "ro",
+      "publisher": { "@id": {{ org_id | json }} },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": {{ search_target | json }}
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    {%- endif %}
+  ]
+}
+</script>

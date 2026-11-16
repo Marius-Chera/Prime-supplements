@@ -1,5 +1,6 @@
 {%- comment -%}
   Site-wide Organization entity (OnlineStore) + WebSite/SearchAction on the homepage.
+  2026-11-16: alternateName no longer "PRIME Supplements" (it reinforced the confusion with the PRIME Hydration drink) + disambiguatingDescription (PRIME Hydration, QNT Prime Whey); see seo/DEZAMBIGUIZARE-NUME-2026-11-16.md.
   Rewritten 2026-10-12: adds legal name, tax ID, telephone, e-mail, postal address and
   the real social profiles used in the footer (the old snippet pointed to profiles that
   do not match the footer links).
@@ -20,7 +21,8 @@
       "@id": {{ org_id | json }},
       "name": "Prime Supplements",
       "legalName": "PRIME SPORT SUPPLEMENTS SRL",
-      "alternateName": "PRIME Supplements",
+      "alternateName": ["Prime Supplements România", "primesupplements.ro"],
+      "disambiguatingDescription": "Brand românesc de suplimente nutritive pentru sport din Sibiu (PRIME SPORT SUPPLEMENTS SRL, fondat în 2022). Nu are legătură cu băutura PRIME Hydration și nici cu marca QNT Prime Whey.",
       "url": {{ shop.url | append: '/' | json }},
       "logo": {
         "@type": "ImageObject",

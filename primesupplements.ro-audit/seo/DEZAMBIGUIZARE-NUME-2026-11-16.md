@@ -1,6 +1,6 @@
 # „Prime Supplements”, nu „PRIME”: textele de diferențiere (propunere, 16.11.2026)
 
-**Stare: propunere. Nimic modificat pe site.** Se aplică doar după „da” de la Marius. E partea A din discuția de după analiza Genius vs Prime (`analiza-genius-vs-prime/RAPORT.md`, acțiunea M2) și se leagă de pasul 18 din `PLAN-DUPA-BLACK-FRIDAY-2026.md`. E doar text și date structurate, fără design.
+**Stare (16.11, „Da, aplică A”): APLICAT** – pagina AI și cele 9 descrieri sunt live (verificate prin API, identice caracter cu caracter, SEO neatins). Schema e pe tema nepublicată „Prime – nume Prime Supplements în schemă (16.11)” (`194331443575`, MD5 `28d16b86a89222f05542f87469bbec22`, JSON-LD valid pe previzualizare) și **o publică Marius**. Backup: `backups/dezambiguizare-2026-11-16/`. E partea A din discuția de după analiza Genius vs Prime (`analiza-genius-vs-prime/RAPORT.md`, acțiunea M2) și se leagă de pasul 18 din `PLAN-DUPA-BLACK-FRIDAY-2026.md`. E doar text și date structurate, fără design.
 
 ## De ce
 - **Gemini (16.11, fără căutare):** la „Genius Nutrition sau Prime Supplements, care e mai bun?” a răspuns despre băutura **PRIME a lui Logan Paul și KSI** („Prime – Hydration / Energy”). Sursa: `analiza-genius-vs-prime/date/intrebari-ai-gemini-fara-cautare.json`, întrebarea 15.

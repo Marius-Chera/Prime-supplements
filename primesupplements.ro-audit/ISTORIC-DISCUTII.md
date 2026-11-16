@@ -560,3 +560,9 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - 17.11: pictograma aplicației Prime Vizibilitate (lupă + bare în creștere) a fost aprobată de Marius („Da, pune-o”) și pusă.
 - 17.11: Marius a dat OK pentru etapa 2 („Da, începe etapa 2”). A întrebat ce e PageSpeed API. Răspuns: e testul gratuit Google de la pagespeed.web.dev, cu notele Lighthouse 0–100, rulat automat de aplicație.
 - 17.11: Marius a întrebat din nou dacă instalăm aplicația Microsoft Clarity în Shopify, „să avem totul clar pe Shopify”. Recomandarea rămâne „nu”, ca pe 23.10: pixelul aplicației pornește fără acordul la cookie-uri (GDPR + politica aprobată), ar dubla codul din temă (proiectul `z268w804fi`, verificat live pe 17.11) și nu aduce rapoarte în admin, care rămân pe clarity.microsoft.com. Reinstalare doar dacă Microsoft face aplicația să respecte acordul. Decizia lui Marius e deschisă.
+- 17.11: Marius a întrebat ce aplicații stau degeaba și merită dezinstalate. Lista live (Admin API, 17.11) are 19 aplicații. Recomandat:
+  - **Product Migration**, acum: rămasă de la WooCommerce, cu circa 130 de permisiuni (clienți, comenzi, temă), risc de securitate; propusă deja pe 16.10 și 13.11;
+  - **Ablestar Link Manager**, curând: redirecturile create rămân native în Shopify, iar linkurile rupte le verifică Prime Vizibilitate;
+  - **Primesupplements App ×2 (FLUXSALES)**, doar după trecerea pe Total Admin; până atunci nu se ating (NU-ATINGE-APLICATII.md).
+
+  Rămân: Judge.me, Pandectes, theMarketer, Simprosys și aplicațiile Shopify gratuite. Decizia e a lui Marius.

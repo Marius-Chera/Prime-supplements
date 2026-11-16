@@ -16,3 +16,9 @@ Pozele vechi, exact cum erau în magazin: `D:\Prime Supplements\backup-poze-maga
 2. Rulezi `fileUpdate` cu `originalSource` = `https://raw.githubusercontent.com/Marius-Chera/Prime-supplements/<SHA>/primesupplements.ro-audit/analiza-poze-genius/magazin/restaurare/<nume>` pentru fiecare `id` din `backup-index.json`.
 3. Verifici că `image.width` revine la dimensiunea veche (2400 sau 3500 px).
 Se poate face și pe bucăți (doar produsele care nu plac).
+
+## Lotul final (16.11, Marius: „la toate pozele de pe site … enchant la calitate … simetric la toate”)
+- **140 de poze înlocuite**: 97 noi (tot catalogul de suplimente, batoane, unturi, shakere, centura, Creatine To Go, Cremă de orez) + cele 43 de mai sus, refăcute cu același pas de îmbunătățire, ca să fie uniforme.
+- Sursa a fost poza ORIGINALĂ din magazin, apoi: decupare AI locală → contrast +5 %, culoare +6 %, claritate (unsharp) → fundal alb, produsul la 70 % din înălțime, baza la 80 % (aceeași poziție la toate), umbră, reflexie pe baza reală, luciu discret. Batoanele „plutind” și plicul sunt fără reflexie; cutiile au luciul la jumătate.
+- **Neatinse:** hainele, pachetele, tabelele nutriționale, compozițiile Frutilu, shakerele MNX „Limited edition”, infograficele de shaker, prosopul, grafica Creapure.
+- Lista: `lot-final/plan.json`. Backup pentru cele 97 noi: `D:\Prime Supplements\backup-poze-magazin-2026-11-16-lot2\` (index `backup-index-lot2.json`); pentru cele 43, backup-ul de mai sus.

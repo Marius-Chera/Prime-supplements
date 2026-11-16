@@ -1,0 +1,126 @@
+{%- comment -%}
+  Prime – caseta „Ai un cod de reducere?” în coș (16.11.2026).
+  Clienții nu găseau câmpul pe telefon (Shopify îl ascunde în checkout sub „sumarul comenzii”).
+  Aplică codul prin /cart/update.js (parametrul discount), verifică dacă se aplică și reîncarcă coșul.
+  Fără formular propriu: stă în pagina coșului, lângă alte formulare.
+{%- endcomment -%}
+{%- liquid
+  assign coduri_aplicate = ''
+  assign are_coduri = false
+  for da in cart.discount_applications
+    if da.type == 'discount_code'
+      assign coduri_aplicate = coduri_aplicate | append: da.title | append: ','
+      assign are_coduri = true
+    endif
+  endfor
+-%}
+<div class="prime-cod" id="prime-cod" data-coduri="{{ coduri_aplicate | escape }}">
+  <p class="prime-cod__titlu">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+    Ai un cod de reducere?
+  </p>
+
+  {%- if are_coduri -%}
+    <ul class="prime-cod__lista">
+      {%- for da in cart.discount_applications -%}
+        {%- if da.type == 'discount_code' -%}
+          <li class="prime-cod__aplicat">
+            <span>✓ Codul <strong>{{ da.title | escape }}</strong> e aplicat{% if da.total_allocated_amount > 0 %}: economisești <strong>{{ da.total_allocated_amount | money }}</strong>{% endif %}</span>
+            <button type="button" class="prime-cod__scoate" data-scoate="{{ da.title | escape }}" aria-label="Scoate codul {{ da.title | escape }}">Scoate</button>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  <div class="prime-cod__rand">
+    <label for="prime-cod-input" class="sr-only">Cod de reducere</label>
+    <input id="prime-cod-input" class="prime-cod__input" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done" placeholder="Scrie codul aici">
+    <button type="button" class="prime-cod__buton" id="prime-cod-aplica">Aplică</button>
+  </div>
+  <p class="prime-cod__mesaj" id="prime-cod-mesaj" role="status" aria-live="polite" hidden></p>
+</div>
+
+<style>
+  .prime-cod{margin-top:20px;padding:18px;border:2px solid #1a1a1a;border-radius:16px;background:#fff;color:#1a1a1a}
+  .prime-cod__titlu{display:flex;align-items:center;gap:8px;margin:0 0 12px;font-weight:700;font-size:17px}
+  .prime-cod__rand{display:flex;gap:8px}
+  .prime-cod__input{flex:1 1 auto;min-width:0;height:48px;padding:0 16px;border:1px solid #c9c9c9;border-radius:60px;background:#fff;font-size:16px;text-transform:uppercase;letter-spacing:.5px;color:#1a1a1a}
+  .prime-cod__input::placeholder{text-transform:none;letter-spacing:0;color:#8a8a8a}
+  .prime-cod__input:focus{outline:2px solid #1a1a1a;outline-offset:1px;border-color:#1a1a1a}
+  .prime-cod__buton{flex:0 0 auto;height:48px;padding:0 22px;border:0;border-radius:60px;background:#e91d23;color:#fff;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.5px;cursor:pointer}
+  .prime-cod__buton[disabled]{opacity:.6;cursor:wait}
+  .prime-cod__mesaj{margin:10px 0 0;font-size:14px}
+  .prime-cod__mesaj.is-eroare{color:#c4161c}
+  .prime-cod__mesaj.is-ok{color:#1d7a3a}
+  .prime-cod__lista{list-style:none;margin:0 0 12px;padding:0;display:grid;gap:6px}
+  .prime-cod__aplicat{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;background:#eaf6ee;color:#1d7a3a;font-size:14px}
+  .prime-cod__scoate{border:0;background:none;color:#1a1a1a;text-decoration:underline;font-size:13px;cursor:pointer;padding:4px}
+  @media (max-width:699px){.prime-cod{margin-top:16px;padding:16px}.prime-cod__buton{padding:0 18px}}
+</style>
+
+<script>
+  (function () {
+    var box = document.getElementById('prime-cod');
+    if (!box || box.dataset.gata) return;
+    box.dataset.gata = '1';
+    var input = document.getElementById('prime-cod-input');
+    var buton = document.getElementById('prime-cod-aplica');
+    var mesaj = document.getElementById('prime-cod-mesaj');
+    var root = (window.Shopify && Shopify.routes && Shopify.routes.root) || '/';
+
+    function existente() {
+      return (box.dataset.coduri || '').split(',').filter(Boolean);
+    }
+    function arata(text, tip) {
+      mesaj.textContent = text;
+      mesaj.className = 'prime-cod__mesaj ' + (tip === 'ok' ? 'is-ok' : 'is-eroare');
+      mesaj.hidden = false;
+    }
+    function trimite(lista) {
+      return fetch(root + 'cart/update.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ discount: lista.join(',') })
+      }).then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); });
+    }
+
+    function aplica() {
+      var cod = (input.value || '').trim().toUpperCase();
+      if (!cod) { arata('Scrie codul de reducere, apoi apasă „Aplică”.'); input.focus(); return; }
+      var vechi = existente();
+      if (vechi.map(function (c) { return c.toUpperCase(); }).indexOf(cod) !== -1) { arata('Codul ' + cod + ' e deja aplicat.', 'ok'); return; }
+      buton.disabled = true; buton.textContent = '...';
+      trimite(vechi.concat([cod])).then(function (cart) {
+        var gasit = (cart.discount_codes || []).filter(function (d) { return (d.code || '').toUpperCase() === cod; })[0];
+        if (gasit && gasit.applicable) {
+          arata('Gata! Codul ' + cod + ' a fost aplicat.', 'ok');
+          window.location.reload();
+          return;
+        }
+        // codul nu se aplică: îl scoatem, ca să nu rămână în coș
+        return trimite(vechi).then(function () {
+          arata('Codul ' + cod + ' nu este valid sau nu se aplică produselor din coș. Verifică dacă l-ai scris corect.');
+          buton.disabled = false; buton.textContent = 'Aplică';
+        });
+      }).catch(function () {
+        arata('Nu am putut verifica codul acum. Încearcă din nou sau scrie-l la finalizarea comenzii.');
+        buton.disabled = false; buton.textContent = 'Aplică';
+      });
+    }
+
+    buton.addEventListener('click', aplica);
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); aplica(); }
+    });
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-scoate]');
+      if (!b) return;
+      var scos = b.getAttribute('data-scoate').toUpperCase();
+      b.disabled = true;
+      trimite(existente().filter(function (c) { return c.toUpperCase() !== scos; }))
+        .then(function () { window.location.reload(); })
+        .catch(function () { b.disabled = false; arata('Nu am putut scoate codul. Încearcă din nou.'); });
+    });
+  })();
+</script>

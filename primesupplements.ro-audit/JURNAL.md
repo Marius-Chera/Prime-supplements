@@ -1581,3 +1581,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Variantele A și B sunt păstrate.
   - **Configurare și deploy:** Client ID-ul e trecut în `wrangler.jsonc` și s-a făcut deploy.
   - **Rămâne la Marius:** `SHOPIFY_API_SECRET` (secretul din Dev Dashboard → Prime eMAG → Settings), cu `node scripts/wr.mjs secret put SHOPIFY_API_SECRET` în `prime-emag`. Fără el, aplicația din admin nu se autentifică.
+- 17.11 (00:00–01:15), **Scorul Prime, etapa 2 (Marius: „Da, începe etapa 2”)**, în Prime Vizibilitate, versiunea ed4ec8a7. S-a făcut:
+  - auditul on-page pe fiecare pagină din sitemap, în verificarea de duminică;
+  - modulul PageSpeed (duminică 10:00, 10 pagini-cheie);
+  - calculul Scorului Prime (0–100, ce depinde de noi) și al indicelui de rezultat (Google + AI), luni la 08:00, cu istoric și alertă la scădere;
+  - tab-ul nou „Scor SEO” (lista „unde pierdem puncte”, paginile de lucrat primele, căutările fără pagină dedicată), plus scorul în Panou și în raportul de luni.
+
+  35/35 de teste și tsc au trecut, iar auditul a fost calibrat pe 7 pagini reale, fără alarme false. **PageSpeed Insights API** a fost activat de Claude în proiectul Google „Prime Vizibilitate” și adăugat pe cheia „Prime Vizibilitate CrUX” (acum CrUX + PageSpeed). Pe site și în Shopify nu s-a schimbat nimic: aplicația are tot 0 permisiuni. Prima măsurătoare (referința) a pornit la 00:45. Detalii și formule: `seo/SEO-SAPTAMANAL-ETAPA-1-ANALIZA-2026-11-17.md` § „Etapa 2”.

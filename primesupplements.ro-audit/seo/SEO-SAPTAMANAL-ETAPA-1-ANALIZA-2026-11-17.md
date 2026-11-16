@@ -109,3 +109,27 @@ Totul intră în planificatorul existent (cronul de la 15 minute), fără infras
 
 ---
 **Stare:** se așteaptă OK-ul lui Marius înainte de orice linie de cod.
+
+---
+
+## Etapa 2: făcută pe 17.11.2026 (Marius: „Da, începe etapa 2”)
+
+**Ce s-a construit** (Worker `prime-indexare`, versiunea ed4ec8a7; codul e în `src/m/onpage.ts`, `src/m/scor.ts` și `test/onpage.test.ts`, cu 35/35 de teste):
+- **Auditul fiecărei pagini**, în verificarea completă de duminică, pe toate paginile din sitemap. Verifică: titlul, meta description, H1-ul din conținut, canonical, noindex, textul paginii, alt-ul imaginilor, linkurile interne (spre ghiduri și spre produse), secțiunile produsului (ingrediente, mod de administrare, pentru cine, avertismente, întrebări frecvente) și schema (Organization, BreadcrumbList, Product/Offer/Brand, Article + autor, CollectionPage, FAQPage acolo unde sunt întrebări vizibile). Textul unui produs se măsoară din descrierea Shopify (`products.json` public), cu pragul de 300 de cuvinte. Pragurile pentru celelalte pagini: colecție 400 de cuvinte, articol 800, pagină 150.
+- **PageSpeed Insights (Lighthouse, mobil)** pe cele 10 pagini-cheie, duminică la 10:00. API-ul e activat pe 17.11 de Claude în proiectul Google „Prime Vizibilitate” și adăugat pe cheia „Prime Vizibilitate CrUX”.
+- **Scorul Prime**, luni la 08:00, înainte de raportul de la 09:00. Fiecare verificare are o pondere. O pagină cântărește 1 + log10(1 + afișările ei din Google), deci paginile văzute contează mai mult, dar nicio pagină nu e ignorată. Părțile încă nemăsurate nu scad scorul: se rescalează și apar ca „nemăsurat”.
+  - **Tehnic (20):** 6 puncte din verificările pe pagină, 3 pentru linkurile rupte, 2 pentru linkurile spre redirecturi, 4 pentru Lighthouse SEO, 4 pentru Core Web Vitals reale și 1 pentru robots.txt.
+  - **On-page (30)** și **date structurate (20):** media ponderată a verificărilor pe pagină.
+  - **Acoperire (20, provizoriu până la etapa 6):** 14 puncte pentru căutările importante (cele 20 de cuvinte urmărite + căutările cu cel puțin 150 de afișări) care au o pagină dedicată în titlu/H1; 6 puncte pentru articolele cu trafic actualizate în ultimele 12 luni.
+  - **Încredere (10):** 5 puncte pentru produsele cu recenzii în schema, 3 pentru paginile firmei care răspund, 2 pentru articolele cu autor.
+- **Indicele de rezultat (0–100, fără țintă garantată):** 30 de puncte pentru cuvintele urmărite în top 10, 20 pentru cele în top 3, 20 pentru CTR față de cel așteptat pe poziție, 15 pentru mențiunile în AI față de liderul pieței și 15 pentru tendința clicurilor de la o săptămână la alta.
+- **Tab nou „Scor SEO”** în aplicație: scorul și diferența față de data trecută, scorul pe părți cu componentele, **lista „unde pierdem puncte”** (verificare → câte pagini → puncte pierdute → paginile cele mai văzute), paginile de lucrat primele, căutările fără pagină dedicată, tabelul PageSpeed și istoricul. Scorul apare și în Panou și în raportul de luni. Dacă scade cu mai mult de 2 puncte, aplicația dă alertă.
+
+**Calibrare pe pagini reale (17.11, înainte de deploy):** auditul n-a dat alarme false pe Prime Whey, Creatina Creapure, Proteine, Creatină, un articol, homepage și Despre noi. Lipsurile reale găsite (sunt deja în planul de după 1.12):
+- produsele nu au niciun link spre un ghid de pe blog (pasul 13, „Citește și”);
+- schema FAQPage lipsește pe produse, colecții și articole, deși întrebările frecvente sunt vizibile;
+- articolele nu au BreadcrumbList;
+- homepage-ul nu are H1 în conținut, iar meta description are 174 de caractere;
+- creatina Creapure: 4 din 31 de imagini fără alt.
+
+**Prima măsurătoare (referința):** pornită pe 17.11 la 00:45. Verificarea completă durează câteva ore, apoi rulează PageSpeed și scorul.

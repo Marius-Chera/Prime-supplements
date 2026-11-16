@@ -553,3 +553,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
     - Ambele pot fi schimbate la cererea lui Marius.
   - **Arzătoarele:** categoria „Produse detoxifiere și slăbire”, fără caracteristica „Beneficii” și fără promisiuni.
   - **Raportul:** `emag/CATALOG-EMAG-2026-11-16.md`.
+
+## 17.11.2026 – SEO săptămânal în Prime Vizibilitate (etapa 1)
+- **Cererea lui Marius:** un instrument săptămânal de SEO în Prime Vizibilitate, cu ținta „100/100 pe nișa noastră” și „cel mai complet site de pe piață”. Etapa 1 e doar analiză, iar codul se scrie numai după OK-ul lui. Regulile cerute pentru instrument: nimic publicat automat; tema doar pe o copie nepublicată; nu atinge comenzile, checkout-ul, prețurile, stocurile, plățile, facturile/AWB-urile, Fluxsales sau Primesupplements App; mențiuni conforme cu Reg. 1924/2006 și 432/2012; nu copiază texte de la concurenți; fără black-hat.
+- **Propunerea** (`seo/SEO-SAPTAMANAL-ETAPA-1-ANALIZA-2026-11-17.md`): două scoruri separate. „Scorul Prime” de execuție (0–100, ținta 100) și „scorul de rezultat” din Search Console și AI, urmărit fără să promitem 100. Rularea se face prin planificatorul existent. Propunerile Gemini trec prin filtrul UE și intră în coada de aprobare; în prima variantă aplicația nu are drept de scriere. **Decizia lui Marius: în așteptare.**
+- 17.11: pictograma aplicației Prime Vizibilitate (lupă + bare în creștere) a fost aprobată de Marius („Da, pune-o”) și pusă.

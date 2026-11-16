@@ -1560,3 +1560,6 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Prima rulare:** 88 de oferte verificate, toate cu pereche în Shopify. 7 stocuri au fost corectate (vânzările de azi de pe site), confirmate în eMAG.
   - **Verificare manuală:** `POST /api/stoc/sync?proba=1` arată planul fără să scrie; `GET /api/stoc` dă ultima rulare.
   - **Rămâne:** comenzile eMAG nu scad încă stocul din Shopify/Oblio. Se ocupă etapele (b)/(d) ale aplicației (preluarea comenzilor în fluxul de facturare).
+- 17.11, **Prime Vizibilitate are pictogramă** (Marius: „ceva cu statistici”, aprobată cu „Da, pune-o”). Pictograma e o lupă albă cu trei bare care cresc, cea mai înaltă roșie (#ec1e24), plus mânerul roșu, pe fundal negru. A fost desenată de mână ca SVG, iar PNG-ul de 1200×1200 l-a generat Chrome headless. Fișierele sunt în `seo/prime-vizibilitate-icon/`. Unde a fost pusă:
+  - **Shopify Dev Dashboard** → aplicația 447981223937 → Settings → **App icon**, urcată de Claude din Chrome. Verificat: imaginea de pe CDN-ul Shopify are 1200 px și arată la fel.
+  - **În aplicație** (Worker `prime-indexare`): `/icon.svg` (și `/favicon.ico`), apoi favicon și logo în antetul negru. Codul e în `src/icon.ts`. Testele (23/23) și tsc au trecut, apoi s-a făcut deploy (versiunea 0e8fb408).

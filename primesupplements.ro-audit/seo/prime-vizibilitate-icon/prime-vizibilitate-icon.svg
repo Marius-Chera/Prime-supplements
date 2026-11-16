@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <title>Prime Vizibilitate</title>
+  <rect width="1200" height="1200" fill="#000"/>
+  <!-- maner lupa -->
+  <line x1="770" y1="770" x2="1010" y2="1010" stroke="#ec1e24" stroke-width="120" stroke-linecap="round"/>
+  <!-- lentila -->
+  <circle cx="520" cy="520" r="300" fill="#000" stroke="#fff" stroke-width="72"/>
+  <!-- grafic cu bare in crestere -->
+  <rect x="345" y="555" width="90" height="125" rx="10" fill="#fff"/>
+  <rect x="475" y="455" width="90" height="225" rx="10" fill="#fff"/>
+  <rect x="605" y="350" width="90" height="330" rx="10" fill="#ec1e24"/>
+</svg>

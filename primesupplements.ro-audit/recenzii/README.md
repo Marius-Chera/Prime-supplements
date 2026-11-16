@@ -5,13 +5,13 @@ Scop: să urcăm în Google și în răspunsurile ChatGPT/Copilot prin dovezi in
 | Fișier | Ce conține | Stare |
 |---|---|---|
 | `01-JUDGEME-VERIFICARE-2026-10-23.md` | Verificarea Judge.me și Merchant Center (doar citire) + textul pentru extensie cu setările care nu s-au putut citi | Făcut. Textul pentru extensie e de rulat |
-| `02-FLUX-CERERE-RECENZIE.md` + `cerere-recenzie-e1.html` | Fluxul nou: cererea la 10 zile, memento la 7 zile, cererea de poză, în designul aprobat | Propunere, așteaptă aprobarea |
+| `02-FLUX-CERERE-RECENZIE.md` + `cerere-recenzie-e1.html` | Fluxul nou: cererea la 10 zile, memento la 7 zile, cererea de poză, în designul aprobat | Aprobat 16.11 (E1 + E2, fără E3); configurare prin extensie + test |
 | `03-TRUSTPILOT-SI-SUPLISCOUT.md` | Pașii pentru profilul Trustpilot și e-mailul către SupliScout | Pregătit. Le face proprietarul |
 | `04-MICROSOFT-MERCHANT-CENTER.md` | Contul Microsoft Advertising, magazinul, importul din Google, listările gratuite | Pregătit. Contul îl creează proprietarul |
 
 ## Ce trebuie să aprobe sau să facă proprietarul
 1. **Cuponul Judge.me de 12 % rămâne** (decizia proprietarului, 23.10). Îl evaluăm pe ~15.11, după 30 de zile de la pornire.
-2. **Fluxul de cerere de recenzie** (02): aprobare. Urmează testul la Marius și Adelina, apoi pornirea.
+2. **Fluxul de cerere de recenzie** (02): **aprobat 16.11, E1 + E2, fără E3**. Urmează testul la Marius și Adelina, apoi pornirea.
 3. ~~Stelele în Google Shopping~~ **făcut 23.10:** feedul Judge.me e live din 10.04.2026 (324 de recenzii eligibile); cele 3 setări au fost corectate (https, fără produse scoase din magazin, fără recenzii cu date personale). Verificare pe Google Shopping pe ~02.11.
 4. **Trustpilot:** creezi contul gratuit (pașii în 03), apoi decidem cum pleacă invitațiile și fraza din politica de confidențialitate.
 5. **SupliScout:** trimiți e-mailul din 03 de pe contact@primesupplements.ro.

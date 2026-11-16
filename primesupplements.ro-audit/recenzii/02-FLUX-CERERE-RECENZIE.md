@@ -1,6 +1,6 @@
 # Fluxul de cerere de recenzie (Judge.me) – propunere, 23.10.2026
 
-**Stare: propunere. Nimic pornit sau modificat.** Pornirea cere acordul proprietarului și testul la marius.chera@yahoo.com și adelina.chera@gmail.com.
+**Stare (16.11.2026): APROBAT de proprietar în varianta E1 + E2, fără E3.** Proprietarul: „prea stresăm clienții cu 3 mailuri” → E3 (cererea de poză) e scos; rugămintea de poză rămâne doar ca rând în E1. Se configurează în Judge.me prin extensia Chrome (panoul Judge.me nu se deschide din aplicația de pe calculator), se trimite testul la marius.chera@yahoo.com și adelina.chera@gmail.com, iar pornirea se face după ce proprietarul vede testul.
 
 Ce era deja decis (nu se reia): recenziile rămân **doar în Judge.me**, iar modulul de recenzii theMarketer rămâne oprit (SYSTEM.md §4.8, LEAN 16.10). Regula de acolo: o singură cerere la 10–14 zile după expediere, plus cel mult un memento, fără promisiuni de efect. Designul e cel comun, aprobat pe 23.10 (`email-marketing/design/DESIGN-EMAIL-PRIME.md`). Cuponul de 12 % e decizia D10, încă deschisă.
 
@@ -13,7 +13,9 @@ Ce era deja decis (nu se reia): recenziile rămân **doar în Judge.me**, iar mo
 |---|---|---|---|
 | E1 · Cererea | **10 zile după expediere** (fulfillment). Cargus livrează în 1–3 zile lucrătoare, deci clientul a folosit produsul ~7 zile | Fiecare comandă expediată | Toate produsele din comandă, fiecare cu stelele lui; un singur buton „Scrie recenzia” |
 | E2 · Memento | **7 zile după E1**, doar dacă n-a lăsat nicio recenzie | Aceeași comandă | Un singur memento, scurt. Niciun al doilea memento |
-| E3 · Poza | **2 zile după o recenzie fără poză** (funcția Judge.me „picture reminder”) | Doar cei care au scris deja o recenzie fără poză | O singură rugăminte: adaugă o poză la recenzia ta |
+| ~~E3 · Poza~~ | **Scos pe 16.11** (decizia proprietarului) | – | Rugămintea de poză e doar un rând în E1. Funcția Judge.me „picture reminder” rămâne oprită |
+
+**Limită pe client:** cel mult două e-mailuri pe comandă (E1 și, dacă nu răspunde, E2). Cine comandă des primește cel mult o cerere la 30 de zile, dacă Judge.me are setarea (de verificat de extensie).
 
 Reguli comune:
 - **Cuponul de 12 % rămâne** (decizia proprietarului, 23.10; evaluare ~15.11). E-mailul îl spune deschis: codul vine după recenzie, indiferent de notă, valabil 30 de zile. Altă recompensă nu promitem. La Trustpilot nu se oferă nimic.
@@ -21,7 +23,7 @@ Reguli comune:
 - Fără mențiuni de sănătate. Întrebările ajutătoare sunt despre gust, amestecare și folosire.
 - Expeditor: „Prime Supplements” <contact@primesupplements.ro>. Semnătura: „Echipa Prime Supplements”.
 - Dezabonarea de la cererile de recenzie e vizibilă în subsol.
-- **Setări Judge.me de pornit:** cerere pentru toate produsele din comandă (`request_review_other_products_in_order`, azi oprită); cererea de poză. **De lăsat oprit:** cererea de recenzie la magazin după cea de produs (o mutăm pe Trustpilot, vezi 03).
+- **Setări Judge.me de pornit:** cerere pentru toate produsele din comandă (`request_review_other_products_in_order`, azi oprită). **De lăsat oprit:** cererea de poză (E3, scoasă pe 16.11); cererea de recenzie la magazin după cea de produs (o mutăm pe Trustpilot, vezi 03).
 
 ## 3. Textele
 

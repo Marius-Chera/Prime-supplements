@@ -515,3 +515,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Cheia Cargus exista din 2023. Marius a introdus-o el; Claude nu introduce chei sau parole, nici la cerere, nici în Chrome.
   - Asocierea cu utilizatorul „prime.sport” a fost cerută prin e-mail de pe contact@ (Marius: „Da, trimite-l”).
   - Conectat la 14:39. Marius a hotărât ca prima rulare Live să fie „mâine dimineață” (17.11).
+
+### 16.11.2026 – Recenzii: fără recenzii generate, fluxul Judge.me aprobat în varianta E1 + E2
+- **Întrebarea:** o aplicație Cloudflare nelistată care să publice automat 2–3 recenzii pe zi. **Răspuns:** nu se face. Ar fi recenzii false: ilegal (Legea 363/2007, Omnibus), cu risc de suspendare în Google Merchant Center și de închidere a contului Judge.me. Regula rămâne cea din `recenzii/03`: nu scriem recenzii și nu le cerem prietenilor, afiliaților sau angajaților.
+- **Decis (Marius, 16.11):** „prea stresăm clienții cu 3 mailuri” → fluxul are doar E1 + E2, fără E3 (cererea de poză). „ok, pune în funcțiune” → se configurează, se trimite testul la Marius și Adelina, apoi se pornește.
+- **De rezolvat:** sursa valurilor de recenzii neverificate (13.07.2026, 31.10.2025; `recenzii/06`) și evaluarea cuponului de 12 %, care trebuia făcută pe 15.11.

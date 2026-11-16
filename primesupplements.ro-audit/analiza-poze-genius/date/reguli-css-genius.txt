@@ -1,0 +1,175 @@
+inline :: :root { --header_megamenu_bg: #ffffff; --header_nav_2_bg: #ffffff; --header_nav_2_color_text: #232323; --search_bar_bg: #ffffff; --header_search_categories_bg: #ffffff; --header_search_categories_color_text: #232323; --alternateHeader_bg_color: #000000; --alternateHeader_text_color: #ffffff; --logo_text_color: #ffffff; --header_color_text: #ffffff; --header_nav_hover_link: #ed007c; --secondary_nav_color_text: #ffffff; --secondary_nav_color_lighter: rgba(255, 255, 255, 0.3); --white-color: #ffffff; --letter-spacing: 0; --font-size: 1; --rating-star-bg: rgba(47, 47, 47, 0.15); --color-text: #2f2
+
+core.css :: [data-image-loading-animation] { background-color: var(--global-color-image-loader-primary); animation: 2s ease 0.4s infinite normal none running image-loader; }
+
+core.css :: .collection-grid-item__image-with-placeholder-wrapper, .disclosure, .mobile-nav__link, .no-js .product-featured-media, .product-card, .product-card__image-with-placeholder-wrapper, .search-form__input-wrapper, .site-header__account, .site-header__icons, .site-nav--has-dropdown, .slideshow-wrapper { position: relative; }
+
+core.css :: @-webkit-keyframes image-loader { 
+  0%, 100%, 50% { background-color: var(--global-color-image-loader-primary); }
+}
+
+core.css :: @keyframes image-loader { 
+  0%, 100%, 50% { background-color: var(--global-color-image-loader-primary); }
+}
+
+theme.css :: .use_align_height .collection-grid-item__image-with-placeholder-wrapper, .use_align_height .product-card .product-card__image-with-placeholder-wrapper { margin-bottom: 15px; height: auto !important; max-height: var(--product-image-height) !important; min-height: var(--product-image-height) !important; }
+
+theme.css :: .use_align_height .collection-grid-item__image-with-placeholder-wrapper[data-image-loading-animation] .collection-grid-item__image-wrapper, .use_align_height .product-card .product-card__image-with-placeholder-wrapper[data-image-loading-animation] .product-card__image-wrapper { height: 100%; }
+
+theme.css :: .use_align_height .collection-grid-item__image-with-placeholder-wrapper[data-image-loading-animation] .collection-grid-item__image-wrapper .placeholder-svg, .use_align_height .product-card .product-card__image-with-placeholder-wrapper[data-image-loading-animation] .product-card__image-wrapper .placeholder-svg { object-fit: cover; height: 100%; }
+
+theme.css :: .use_align_height .collection-grid-item__image-wrapper, .use_align_height .product-card .product-card__image-wrapper { position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; margin: 0px auto; display: flex; align-items: center; justify-content: center; max-width: 100% !important; }
+
+theme.css :: .use_align_height .collection-grid-item__image-wrapper div, .use_align_height .product-card .product-card__image-wrapper div { padding: 0px !important; }
+
+theme.css :: .product-card__image-wrapper { width: 100%; margin: 0px auto; display: block; }
+
+theme.css :: .product-card__image--alternate { position: absolute; top: 0px; left: 0px; right: 0px; margin: 0px auto; opacity: 0; object-fit: cover; object-position: center center; }
+
+theme.css :: .use_align_height .product-card .product-card__image--alternate { top: 50%; transform: translate(-50%, -50%); right: 50%; position: absolute !important; left: 50% !important; }
+
+theme.css :: .product-card .product-card__image--alternate.product-card__media--alternate { object-fit: cover; height: 100%; width: 100%; }
+
+theme.css :: .use_image_height .product-item-block .product-card__image { object-fit: cover; height: 100%; width: 100%; display: block; }
+
+theme.css :: .use_image_height .product-item-block.view-mode-grid .product-card__image { margin-bottom: 10px; }
+
+theme.css :: .product-item-block.product-item-block--withAlternateImage .product-card__image-wrapper:hover .product-card__image--alternate { opacity: 1; }
+
+theme.css :: .product-item-block.product-item-block--withAlternateImage .product-card__image-wrapper:hover .product-card__image:not(.product-card__image--alternate) { opacity: 0; visibility: hidden; }
+
+theme.css :: @media screen and (min-width: 750px) {
+  .product-item-block.product-item-block--withAlternateImage .product-card__image-wrapper:hover .product-card__image--alternate { opacity: 1; }
+  .product-item-block.product-item-block--withAlternateImage .product-card__image-wrapper:hover .product-card__image:not(.product-card__image--alternate) { opacity: 0; visibility: hidden; }
+}
+
+theme.css :: .use_align_height .product-item-block.view-mode-list .product-card .product-list--media .product-card__image-with-placeholder-wrapper { top: 50%; transform: translateY(-50%); margin: 0px; }
+
+theme.css :: @keyframes zoom-fade { 
+  0% { opacity: 0; transform: scale(1.25); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+theme.css :: .zoom-fade-animation { transform: translateZ(0px); }
+
+theme.css :: #MainContent .shopify-section:first-child .fade-in-animation, #MainContent .shopify-section:first-child .zoom-fade-animation { opacity: 1; animation: auto ease 0s 1 normal none running none; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element { opacity: 0; transform: scale(1.1); }
+
+theme.css :: .shopify-section .zoom-fade-animation.zoomFade-animation .zoom-fade-animation-element { animation: 0.5s cubic-bezier(0.26, 0.54, 0.32, 1) 0s 1 normal forwards running zoom-fade; transition: none; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(2) .zoom-fade-animation-element { animation-delay: 0.1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(3) .zoom-fade-animation-element { animation-delay: 0.2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(4) .zoom-fade-animation-element { animation-delay: 0.3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(5) .zoom-fade-animation-element { animation-delay: 0.4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(6) .zoom-fade-animation-element { animation-delay: 0.5s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(7) .zoom-fade-animation-element { animation-delay: 0.6s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(8) .zoom-fade-animation-element { animation-delay: 0.7s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(9) .zoom-fade-animation-element { animation-delay: 0.8s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(10) .zoom-fade-animation-element { animation-delay: 0.9s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(11) .zoom-fade-animation-element { animation-delay: 1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(12) .zoom-fade-animation-element { animation-delay: 1.1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(13) .zoom-fade-animation-element { animation-delay: 1.2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(14) .zoom-fade-animation-element { animation-delay: 1.3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(15) .zoom-fade-animation-element { animation-delay: 1.4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(16) .zoom-fade-animation-element { animation-delay: 1.5s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(17) .zoom-fade-animation-element { animation-delay: 1.6s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(18) .zoom-fade-animation-element { animation-delay: 1.7s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(19) .zoom-fade-animation-element { animation-delay: 1.8s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(20) .zoom-fade-animation-element { animation-delay: 1.9s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(21) .zoom-fade-animation-element { animation-delay: 2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(22) .zoom-fade-animation-element { animation-delay: 2.1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(23) .zoom-fade-animation-element { animation-delay: 2.2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(24) .zoom-fade-animation-element { animation-delay: 2.3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(25) .zoom-fade-animation-element { animation-delay: 2.4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(26) .zoom-fade-animation-element { animation-delay: 2.5s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(27) .zoom-fade-animation-element { animation-delay: 2.6s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(28) .zoom-fade-animation-element { animation-delay: 2.7s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(29) .zoom-fade-animation-element { animation-delay: 2.8s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(30) .zoom-fade-animation-element { animation-delay: 2.9s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(31) .zoom-fade-animation-element { animation-delay: 3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(32) .zoom-fade-animation-element { animation-delay: 3.1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(33) .zoom-fade-animation-element { animation-delay: 3.2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(34) .zoom-fade-animation-element { animation-delay: 3.3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(35) .zoom-fade-animation-element { animation-delay: 3.4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(36) .zoom-fade-animation-element { animation-delay: 3.5s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(37) .zoom-fade-animation-element { animation-delay: 3.6s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(38) .zoom-fade-animation-element { animation-delay: 3.7s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(39) .zoom-fade-animation-element { animation-delay: 3.8s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(40) .zoom-fade-animation-element { animation-delay: 3.9s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(41) .zoom-fade-animation-element { animation-delay: 4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(42) .zoom-fade-animation-element { animation-delay: 4.1s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(43) .zoom-fade-animation-element { animation-delay: 4.2s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(44) .zoom-fade-animation-element { animation-delay: 4.3s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(45) .zoom-fade-animation-element { animation-delay: 4.4s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(46) .zoom-fade-animation-element { animation-delay: 4.5s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(47) .zoom-fade-animation-element { animation-delay: 4.6s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(48) .zoom-fade-animation-element { animation-delay: 4.7s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(49) .zoom-fade-animation-element { animation-delay: 4.8s; }
+
+theme.css :: .shopify-section .zoom-fade-animation .zoom-fade-animation-element-wrapper:nth-child(50) .zoom-fade-animation-element { animation-delay: 4.9s; }
+
+theme.css :: .zoom-fade-animation .load_media_spinner { opacity: 1; visibility: visible; z-index: 2; }
+
+theme.css :: .grid.grid--uniform .grid__item.small--one-half, .half_row_mobile .use_align_height .collection-grid-item__image-with-placeholder-wrapper, .half_row_mobile .use_align_height .product-card .product-card__image-with-placeholder-wrapper { margin-bottom: 10px; }
+
+theme.css :: @media screen and (max-width: 749px) {
+  .half_row_mobile .page-width-small, .half_row_mobile .page-width { padding-left: 10px; padding-right: 10px; }
+  .half_row_mobile .small--one-half { margin-bottom: 10px; padding-left: 10px; }
+  .half_row_mobile .grid { margin-left: -10px; }
+  .half_row_mobile .small--one-half .product-card { padding: 10px; }
+  .half_row_mobile .small--one-half .product-card .product-item__vendor { line-height: 1; }
+  .index-tabs-collections-wrapper.half_row_mobile .section-tabs-content { padding-right: 10px; padding-left: 10px !important; }
+  .grid.grid--uniform .grid__i
+
+theme.css :: .complementary-products .use_align_height .product-card .product-card__image-with-placeholder-wrapper { margin: 0px; width: 100%; max-height: 100px !important; min-height: 100px !important; }
+
+HOVER înainte: [["BCAA-X5_360g_26serv_Genius_Nutrition_Watermelon_1500x.png?v=1793880316","1"],["BCAA-X5_360g_26serv_Genius_Nutrition_Pineapple_1500x.png?v=1791190715","0"]]
+HOVER după: [["BCAA-X5_360g_26serv_Genius_Nutrition_Watermelon_1500x.png?v=1793880316","1"],["BCAA-X5_360g_26serv_Genius_Nutrition_Pineapple_1500x.png?v=1791190715","1"]]

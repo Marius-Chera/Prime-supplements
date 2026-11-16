@@ -1,0 +1,2784 @@
+{
+ "home-desktop": {
+  "url": "https://primesupplements.ro/",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image",
+      "stil": {
+       "transition": "opacity 0.25s",
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "h1",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "color 0.25s, background 0.25s, -webkit-backdrop-filter 0.25s, backdrop-filter 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "color 0.25s, background 0.25s, -webkit-backdrop-filter 0.25s, backdrop-filter 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image header__logo-image--transparent",
+      "stil": {
+       "transition": "opacity 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "h1",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "color 0.25s, background 0.25s, -webkit-backdrop-filter 0.25s, backdrop-filter 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "color 0.25s, background 0.25s, -webkit-backdrop-filter 0.25s, backdrop-filter 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/sedinta-foto-produse-nitrox-3d-nitrox-no-stim-glycerol-shaker.jpg?v=1791921766&width=1400",
+    "afisat": "1366x560",
+    "natural": "1366x911",
+    "alt": "Nitrox 3D, Nitrox No-Stim, shaker Prime și Glycerol Max Pump pe podeaua sălii de forță",
+    "loading": "eager",
+    "srcsetN": 14,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "picture",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "content-over-media content-over-media--lg ",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "slideshow__slide is-selected",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "slideshow-carousel",
+      "cls": "slideshow__carousel",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "x-slideshow",
+      "cls": "slideshow  ",
+      "stil": {
+       "backgroundImage": "linear-gradient(55deg, rgb(26, 26, 26) 54%, rgb(248, 58, 58) 100%)"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/pre-workout.jpg?v=1747644115&width=300",
+    "afisat": "300x349",
+    "natural": "285x332",
+    "alt": "Borcan pre-workout Prime Nitrox No Stim Ice Blueberry, fără cafeină",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {
+       "transition": "transform 1.5s cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/shoturi.jpg?v=1747644203&width=300",
+    "afisat": "300x349",
+    "natural": "285x332",
+    "alt": "Fiolă Prime Energy Pump 25 ml, aromă de fructe de pădure",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {
+       "transition": "transform 1.5s cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/dailyvitamin.jpg?v=1747644365&width=300",
+    "afisat": "300x349",
+    "natural": "285x332",
+    "alt": "Borcan Prime Daily Vitamin Formula, complex de vitamine și minerale",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {
+       "transition": "transform 1.5s cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": {
+   "inainte": {
+    "t": "none",
+    "f": "none",
+    "o": "1",
+    "src": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-8.avif?v=1774805272&width=300"
+   },
+   "dupa": {
+    "t": "none",
+    "f": "none",
+    "o": "0",
+    "src": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-8.avif?v=1774805272&width=300"
+   },
+   "imaginiInCard": [
+    {
+     "src": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-8.avif?v=1774805272&width=300",
+     "op": "0"
+    },
+    {
+     "src": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-2.avif?v=1774805272&width=300",
+     "op": "1"
+    }
+   ]
+  },
+  "cereriMedia": [
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/shoturi.jpg?v=1747644203&width=300",
+    "ct": "image/webp",
+    "len": 5730
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3615
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/sedinta-foto-produse-nitrox-3d-nitrox-no-stim-glycerol-shaker.jpg?v=1791921766&width=1400",
+    "ct": "image/webp",
+    "len": 89066
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pre-workout.jpg?v=1747644115&width=300",
+    "ct": "image/webp",
+    "len": 11258
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/dailyvitamin.jpg?v=1747644365&width=300",
+    "ct": "image/webp",
+    "len": 8758
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-8.avif?v=1774805272&width=300",
+    "ct": "image/avif",
+    "len": 7986
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-3.0-BLACK-11-jpg.webp?v=1774792258&width=300",
+    "ct": "image/webp",
+    "len": 10576
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/aminoacizi.jpg?v=1747644533&width=300",
+    "ct": "image/webp",
+    "len": 11296
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/accesorii.jpg?v=1747644475&width=300",
+    "ct": "image/webp",
+    "len": 10266
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pure.jpg?v=1747644610&width=300",
+    "ct": "image/webp",
+    "len": 9282
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-2.avif?v=1774805272&width=300",
+    "ct": "image/avif",
+    "len": 5867
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/GOLDEN-ERA-STRINGER-BLACK-12.avif?v=1774802465&width=300",
+    "ct": "image/webp",
+    "len": 13746
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/GOLDEN-ERA-STRINGER-BLACK.avif?v=1774802465&width=300",
+    "ct": "image/webp",
+    "len": 11578
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-GREY-3-jpg.avif?v=1774799022&width=300",
+    "ct": "image/webp",
+    "len": 12372
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/GOLDEN-ERA-WORKOUT-TOP-SKY-BLUE-1-jpg.avif?v=1774798339&width=300",
+    "ct": "image/webp",
+    "len": 13384
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-GREY-1-jpg.avif?v=1774799022&width=300",
+    "ct": "image/webp",
+    "len": 14856
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_03.jpg?v=1792077790&width=300",
+    "ct": "image/avif",
+    "len": 8487
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-3.0-WHITE-1-jpg.webp?v=1774793429&width=300",
+    "ct": "image/webp",
+    "len": 10118
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_01.jpg?v=1792077790&width=300",
+    "ct": "image/avif",
+    "len": 8904
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 6391
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_15.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 6753
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/GOLDEN-ERA-WORKOUT-TOP-SKY-BLUE-2-jpg.avif?v=1774798339&width=300",
+    "ct": "image/webp",
+    "len": 11620
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEPUREISOLATE_bourbonvanilla_2000g_front.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 8246
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEPUREISOLATE_caffeelatte_2000g_front.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 7631
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEEMPERORMASS_chocolate_3000g_front.jpg?v=1792077845&width=300",
+    "ct": "image/avif",
+    "len": 8431
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEEMPERORMASS_strawberry_3000g_front.jpg?v=1792077845&width=300",
+    "ct": "image/avif",
+    "len": 8451
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALLMERCH7.png?v=1792077847&width=300",
+    "ct": "image/avif",
+    "len": 10642
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALLMERCH8.png?v=1792077846&width=300",
+    "ct": "image/avif",
+    "len": 11307
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_D3_K2_80cabs_front.jpg?v=1749666736&width=300",
+    "ct": "image/avif",
+    "len": 4882
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_MAGNEZIU_80cabs_front.jpg?v=1749666723&width=300",
+    "ct": "image/avif",
+    "len": 5159
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_NITROX3D_Cherry_500g_front.jpg?v=1749666720&width=300",
+    "ct": "image/avif",
+    "len": 8950
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_24.jpg?v=1781472509&width=300",
+    "ct": "image/jxl",
+    "len": 12179
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_NITROX3D_PassionFruit_500g_front.jpg?v=1749666720&width=300",
+    "ct": "image/avif",
+    "len": 9347
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_22.jpg?v=1781472508&width=300",
+    "ct": "image/jxl",
+    "len": 10141
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/1.jpg?v=1747646070&width=600",
+    "ct": "image/webp",
+    "len": 37560
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/2.jpg?v=1747646070&width=600",
+    "ct": "image/webp",
+    "len": 38420
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-echilibru-1kg-black-friday.jpg?v=1793314895&width=300",
+    "ct": "image/avif",
+    "len": 12985
+   }
+  ],
+  "nrCereriMedia": 65,
+  "kbMedia": 797
+ },
+ "home-mobil": {
+  "url": "https://primesupplements.ro/",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/sedinta-foto-produse-nitrox-3d-nitrox-no-stim-glycerol-shaker.jpg?v=1791921766&width=1200",
+    "afisat": "390x560",
+    "natural": "390x260",
+    "alt": "Nitrox 3D, Nitrox No-Stim, shaker Prime și Glycerol Max Pump pe podeaua sălii de forță",
+    "loading": "eager",
+    "srcsetN": 14,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "picture",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "content-over-media content-over-media--lg ",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "slideshow__slide is-selected",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "slideshow-carousel",
+      "cls": "slideshow__carousel",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "x-slideshow",
+      "cls": "slideshow  ",
+      "stil": {
+       "backgroundImage": "linear-gradient(55deg, rgb(26, 26, 26) 54%, rgb(248, 58, 58) 100%)"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/pre-workout.jpg?v=1747644115&width=500",
+    "afisat": "187x218",
+    "natural": "160x186",
+    "alt": "Borcan pre-workout Prime Nitrox No Stim Ice Blueberry, fără cafeină",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/shoturi.jpg?v=1747644203&width=500",
+    "afisat": "187x218",
+    "natural": "160x186",
+    "alt": "Fiolă Prime Energy Pump 25 ml, aromă de fructe de pădure",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/dailyvitamin.jpg?v=1747644365&width=500",
+    "afisat": "187x218",
+    "natural": "160x186",
+    "alt": "Borcan Prime Daily Vitamin Formula, complex de vitamine și minerale",
+    "loading": "auto",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/accesorii.jpg?v=1747644475&width=500",
+    "afisat": "187x218",
+    "natural": "160x186",
+    "alt": "Shakere negre Prime cu compartimente pentru pudră, vedere de ansamblu",
+    "loading": "lazy",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/aminoacizi.jpg?v=1747644533&width=500",
+    "afisat": "187x218",
+    "natural": "160x186",
+    "alt": "Borcan Prime EAA, aminoacizi esențiali cu aromă Peach Ice Tea",
+    "loading": "lazy",
+    "srcsetN": 10,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "zoom-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "content-over-media rounded",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "before": {
+       "content": "\"\"",
+       "transition": "background 0.2s ease-in-out"
+      },
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "image-link-blocks__item group rounded bg-secondary text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "image-link-blocks",
+      "cls": "image-link-blocks scroll-area bleed md:unbleed is-scrollable",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "floating-controls-container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section-stack",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": null,
+  "cereriMedia": [
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/shoturi.jpg?v=1747644203&width=500",
+    "ct": "image/webp",
+    "len": 10398
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pre-workout.jpg?v=1747644115&width=500",
+    "ct": "image/webp",
+    "len": 21986
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/dailyvitamin.jpg?v=1747644365&width=500",
+    "ct": "image/webp",
+    "len": 16230
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-8.avif?v=1774805272&width=1000",
+    "ct": "image/webp",
+    "len": 36020
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3615
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/sedinta-foto-produse-nitrox-3d-nitrox-no-stim-glycerol-shaker.jpg?v=1791921766&width=1200",
+    "ct": "image/webp",
+    "len": 71034
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-3.0-BLACK-11-jpg.webp?v=1774792258&width=1000",
+    "ct": "image/webp",
+    "len": 71122
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HAMMER-SHORTS-3.0-WHITE-1-jpg.webp?v=1774793429&width=1000",
+    "ct": "image/webp",
+    "len": 66330
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/accesorii.jpg?v=1747644475&width=500",
+    "ct": "image/webp",
+    "len": 19038
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/aminoacizi.jpg?v=1747644533&width=500",
+    "ct": "image/webp",
+    "len": 22400
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pure.jpg?v=1747644610&width=500",
+    "ct": "image/webp",
+    "len": 17504
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/GOLDEN-ERA-STRINGER-BLACK-12.avif?v=1774802465&width=1000",
+    "ct": "image/webp",
+    "len": 54126
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=1000",
+    "ct": "image/webp",
+    "len": 37442
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEPUREISOLATE_bourbonvanilla_2000g_front.jpg?v=1792077844&width=1000",
+    "ct": "image/webp",
+    "len": 46058
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMEEMPERORMASS_chocolate_3000g_front.jpg?v=1792077845&width=1000",
+    "ct": "image/webp",
+    "len": 51430
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_01.jpg?v=1792077790&width=1000",
+    "ct": "image/webp",
+    "len": 50352
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_15.jpg?v=1792077844&width=1000",
+    "ct": "image/webp",
+    "len": 37928
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_MAGNEZIU_80cabs_front.jpg?v=1749666723&width=1000",
+    "ct": "image/webp",
+    "len": 25266
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_D3_K2_80cabs_front.jpg?v=1749666736&width=1000",
+    "ct": "image/webp",
+    "len": 22622
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_NITROX3D_Cherry_500g_front.jpg?v=1749666720&width=1000",
+    "ct": "image/webp",
+    "len": 65418
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_NITROX3D_PassionFruit_500g_front.jpg?v=1749666720&width=1000",
+    "ct": "image/webp",
+    "len": 55968
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_24.jpg?v=1781472509&width=1000",
+    "ct": "image/webp",
+    "len": 52816
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_22.jpg?v=1781472508&width=1000",
+    "ct": "image/webp",
+    "len": 52670
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/1.jpg?v=1747646070&width=1000",
+    "ct": "image/webp",
+    "len": 69018
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/2.jpg?v=1747646070&width=1000",
+    "ct": "image/webp",
+    "len": 73220
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-echilibru-1kg-black-friday.jpg?v=1793314895&width=1000",
+    "ct": "image/webp",
+    "len": 64768
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-fit-1kg-black-friday.jpg?v=1793314895&width=1000",
+    "ct": "image/webp",
+    "len": 56078
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-masa-2kg-black-friday.jpg?v=1793314894&width=1000",
+    "ct": "image/webp",
+    "len": 68466
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMECLUSTER_Pineapple_1000g_front.jpg?v=1749666701&width=1200",
+    "ct": "image/webp",
+    "len": 45950
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMECLUSTER_Raspberry_1000g_front.jpg?v=1749666701&width=1200",
+    "ct": "image/webp",
+    "len": 45144
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_03.jpg?v=1792077790&width=1000",
+    "ct": "image/webp",
+    "len": 49056
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/mnx-shaker-1x1-2.avif?v=1774805272&width=1000",
+    "ct": "image/webp",
+    "len": 23116
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-complet-2kg-black-friday.jpg?v=1793314895&width=1000",
+    "ct": "image/webp",
+    "len": 75972
+   },
+   {
+    "url": "https://primesupplements1.myshopify.com/cdn/shop/files/pandectes-reopen-logo.png",
+    "ct": "image/jxl",
+    "len": 1891
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png?v=1750488121&width=96",
+    "ct": "image/avif",
+    "len": 4273
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_COENZIMAQ10_80cabs_front.jpg?v=1749666724&width=1000",
+    "ct": "image/webp",
+    "len": 23374
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_UNTDEMIGDALE_600g_front.jpg?v=1749666707&width=1000",
+    "ct": "image/webp",
+    "len": 41506
+   }
+  ],
+  "nrCereriMedia": 47,
+  "kbMedia": 1959
+ },
+ "col-proteine-desktop": {
+  "url": "https://primesupplements.ro/collections/proteine",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "header",
+      "cls": "shopify-section shopify-section-group-header-group shopify-section--header",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image header__logo-image--transparent",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "header",
+      "cls": "shopify-section shopify-section-group-header-group shopify-section--header",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=200",
+    "afisat": "200x51",
+    "natural": "300x76",
+    "alt": "Prime Supplements – logo",
+    "loading": "lazy",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__block footer__block--newsletter",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__block-list empty:hidden",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "afisat": "198x50",
+    "natural": "182x46",
+    "alt": "ANPC SOL",
+    "loading": "auto",
+    "srcsetN": 1,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer-anpc-logos",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section   section-full bg-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "shopify-section shopify-section-group-footer-group shopify-section--custom-liqui",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "main",
+      "cls": "anchor",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "afisat": "237x50",
+    "natural": "223x47",
+    "alt": "ANPC SAL",
+    "loading": "auto",
+    "srcsetN": 1,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer-anpc-logos",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section   section-full bg-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "shopify-section shopify-section-group-footer-group shopify-section--custom-liqui",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "main",
+      "cls": "anchor",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": null,
+  "cereriMedia": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3615
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=200",
+    "ct": "image/svg+xml",
+    "len": 2139
+   },
+   {
+    "url": "https://primesupplements1.myshopify.com/cdn/shop/files/pandectes-reopen-logo.png",
+    "ct": "image/jxl",
+    "len": 1891
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png?v=1750488121&width=96",
+    "ct": "image/avif",
+    "len": 4273
+   }
+  ],
+  "nrCereriMedia": 7,
+  "kbMedia": 17
+ },
+ "col-proteine-mobil": {
+  "url": "https://primesupplements.ro/collections/proteine",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=227",
+    "afisat": "200x51",
+    "natural": "300x76",
+    "alt": "Prime Supplements – logo",
+    "loading": "lazy",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__block footer__block--newsletter",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__block-list empty:hidden",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer__wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "container",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "afisat": "168x50",
+    "natural": "182x46",
+    "alt": "ANPC SOL",
+    "loading": "auto",
+    "srcsetN": 1,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer-anpc-logos",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section   section-full bg-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "shopify-section shopify-section-group-footer-group shopify-section--custom-liqui",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "main",
+      "cls": "anchor",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "afisat": "202x50",
+    "natural": "223x47",
+    "alt": "ANPC SAL",
+    "loading": "auto",
+    "srcsetN": 1,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "footer-anpc-logos",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "section   section-full bg-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "shopify-section shopify-section-group-footer-group shopify-section--custom-liqui",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "main",
+      "cls": "anchor",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": null,
+  "cereriMedia": [
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3902
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=227",
+    "ct": "image/svg+xml",
+    "len": 2139
+   },
+   {
+    "url": "https://primesupplements1.myshopify.com/cdn/shop/files/pandectes-reopen-logo.png",
+    "ct": "image/jxl",
+    "len": 1891
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png?v=1750488121&width=96",
+    "ct": "image/avif",
+    "len": 4273
+   }
+  ],
+  "nrCereriMedia": 7,
+  "kbMedia": 18
+ },
+ "p-recovery-bcaa-desktop": {
+  "url": "https://primesupplements.ro/products/recovery-bcaa-500g",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "header",
+      "cls": "shopify-section shopify-section-group-header-group shopify-section--header",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "afisat": "160x41",
+    "natural": "300x76",
+    "alt": "",
+    "loading": "auto",
+    "srcsetN": 2,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "header__logo-image header__logo-image--transparent",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "header__logo",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "header__wrapper",
+      "stil": {
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "store-header",
+      "cls": "header",
+      "stil": {
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "transition": "background 0.25s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "height-observer",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "header",
+      "cls": "shopify-section shopify-section-group-header-group shopify-section--header",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=600",
+    "afisat": "560x560",
+    "natural": "546x546",
+    "alt": "Recovery BCAA 4:1:1, aroma Cherry (cireșe): tub negru de 500 g cu etichetă roșu-negru, 62 de porții, din față",
+    "loading": "eager",
+    "srcsetN": 19,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "rounded",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media snap-center is-selected",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "media-carousel",
+      "cls": "product-gallery__media-list full-bleed scroll-area md:unbleed is-scrollable",
+      "stil": {
+       "transition": "height 0.1s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media-list-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__ar-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-gallery",
+      "cls": "product-gallery product-gallery--mobile-dots product-gallery--desktop-carousel p",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=600",
+    "afisat": "560x560",
+    "natural": "546x546",
+    "alt": "Recovery BCAA 4:1:1, aroma Pear (pere): tub negru de 500 g cu capac lat, văzut din față",
+    "loading": "auto",
+    "srcsetN": 19,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "rounded",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media  snap-center",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "media-carousel",
+      "cls": "product-gallery__media-list full-bleed scroll-area md:unbleed is-scrollable",
+      "stil": {
+       "transition": "height 0.1s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media-list-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__ar-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-gallery",
+      "cls": "product-gallery product-gallery--mobile-dots product-gallery--desktop-carousel p",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-recovery-bcaa-500g-cherry-sportiva-1.jpg?width=480",
+    "afisat": "435x544",
+    "natural": "460x571",
+    "alt": "Recovery BCAA Prime, aromă cireșe (Cherry), în prim-plan; în fundal o sportivă în bustieră roșie bea din shaker între seturi, cu un prosop pe umăr, într-o sală luminoasă",
+    "loading": "lazy",
+    "srcsetN": 4,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "figure",
+      "cls": "ppv-media",
+      "stil": {
+       "boxShadow": "rgba(20, 23, 31, 0.1) 0px 24px 60px 0px"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "ppv-panel ppv-hero",
+      "stil": {
+       "backgroundImage": "linear-gradient(135deg, rgb(230, 247, 236) 0%, rgb(245, 252, 247) 42%, rgb(255, 255, 255) 75%)"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "ppv__wrap",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "ppv ppv--verde",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "tab-content prose",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_36_43_1244.jpg?v=1749666708&width=300",
+    "afisat": "300x449",
+    "natural": "299x449",
+    "alt": "Prime Hanorac cu broderie Prime Squad, negru cu fermoar și logo roșu pe piept, purtat de un bărbat în sală, din față",
+    "loading": "auto",
+    "srcsetN": 13,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "product-card__image product-card__image--primary  aspect-natural",
+      "stil": {
+       "transition": "opacity 0.2s ease-in-out"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-card__figure",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-card",
+      "cls": "product-card product-card--show-secondary-media bg-custom text-custom is-selecte",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-list",
+      "cls": "product-list",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "reveal-items",
+      "cls": "",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": {
+   "inainte": {
+    "t": "none",
+    "f": "none",
+    "o": "1",
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=240"
+   },
+   "dupa": {
+    "t": "none",
+    "f": "none",
+    "o": "1",
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=240"
+   },
+   "imaginiInCard": [
+    {
+     "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=",
+     "op": "1"
+    }
+   ]
+  },
+  "cereriMedia": [
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=600",
+    "ct": "image/webp",
+    "len": 18480
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/europe-flag-icon.webp?v=1765984894",
+    "ct": "image/webp",
+    "len": 2610
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3902
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=240",
+    "ct": "image/avif",
+    "len": 6816
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=600",
+    "ct": "image/webp",
+    "len": 18672
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722&width=240",
+    "ct": "image/avif",
+    "len": 4911
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=240",
+    "ct": "image/avif",
+    "len": 5167
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_03.jpg?v=1792077790&width=300",
+    "ct": "image/avif",
+    "len": 8487
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/2.jpg?v=1747646070&width=600",
+    "ct": "image/webp",
+    "len": 38420
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/1.jpg?v=1747646070&width=600",
+    "ct": "image/webp",
+    "len": 37560
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-recovery-bcaa-500g-cherry-sportiva-1.jpg?width=480",
+    "ct": "image/webp",
+    "len": 37490
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_01.jpg?v=1792077790&width=300",
+    "ct": "image/avif",
+    "len": 8904
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 6391
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_15.jpg?v=1792077844&width=300",
+    "ct": "image/avif",
+    "len": 6753
+   },
+   {
+    "url": "https://primesupplements1.myshopify.com/cdn/shop/files/pandectes-reopen-logo.png",
+    "ct": "image/jxl",
+    "len": 1891
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=80",
+    "ct": "image/jxl",
+    "len": 1712
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=64",
+    "ct": "image/jxl",
+    "len": 1347
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=64",
+    "ct": "image/jxl",
+    "len": 1358
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=300",
+    "ct": "image/avif",
+    "len": 8591
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMECOMPLETECOLLAGEN_500ml_front.jpg?v=1749666734&width=300",
+    "ct": "image/avif",
+    "len": 4764
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_PeachIceTea_500g_front.jpg?v=1749666722&width=300",
+    "ct": "image/avif",
+    "len": 8668
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_37_19_1252.jpg?v=1749666709&width=300",
+    "ct": "image/jxl",
+    "len": 21717
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_36_43_1244.jpg?v=1749666708&width=300",
+    "ct": "image/jxl",
+    "len": 23491
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png?v=1750488121&width=96",
+    "ct": "image/avif",
+    "len": 4273
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/pachet-recuperare-black-friday.jpg?v=1792862063&width=300",
+    "ct": "image/avif",
+    "len": 13434
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/Logo-prime_x320.png?v=1747654535",
+    "ct": "image/png",
+    "len": 16243
+   }
+  ],
+  "nrCereriMedia": 29,
+  "kbMedia": 310
+ },
+ "p-recovery-bcaa-mobil": {
+  "url": "https://primesupplements.ro/products/recovery-bcaa-500g",
+  "imagini": [
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=1200",
+    "afisat": "390x390",
+    "natural": "350x350",
+    "alt": "Recovery BCAA 4:1:1, aroma Cherry (cireșe): tub negru de 500 g cu etichetă roșu-negru, 62 de porții, din față",
+    "loading": "eager",
+    "srcsetN": 19,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "rounded",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media snap-center is-selected",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "media-carousel",
+      "cls": "product-gallery__media-list full-bleed scroll-area md:unbleed is-scrollable",
+      "stil": {
+       "transition": "height 0.1s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media-list-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__ar-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-gallery",
+      "cls": "product-gallery product-gallery--mobile-dots product-gallery--desktop-carousel p",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=1200",
+    "afisat": "390x390",
+    "natural": "350x350",
+    "alt": "Recovery BCAA 4:1:1, aroma Pear (pere): tub negru de 500 g cu capac lat, văzut din față",
+    "loading": "auto",
+    "srcsetN": 19,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "rounded",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media  snap-center",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "media-carousel",
+      "cls": "product-gallery__media-list full-bleed scroll-area md:unbleed is-scrollable",
+      "stil": {
+       "transition": "height 0.1s"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__media-list-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-gallery__ar-wrapper",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-gallery",
+      "cls": "product-gallery product-gallery--mobile-dots product-gallery--desktop-carousel p",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-recovery-bcaa-500g-cherry-sportiva-1.jpg?width=1200",
+    "afisat": "250x313",
+    "natural": "351x435",
+    "alt": "Recovery BCAA Prime, aromă cireșe (Cherry), în prim-plan; în fundal o sportivă în bustieră roșie bea din shaker între seturi, cu un prosop pe umăr, într-o sală luminoasă",
+    "loading": "lazy",
+    "srcsetN": 4,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "figure",
+      "cls": "ppv-media",
+      "stil": {
+       "boxShadow": "rgba(20, 23, 31, 0.1) 0px 24px 60px 0px"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "ppv-panel ppv-hero",
+      "stil": {
+       "backgroundImage": "linear-gradient(135deg, rgb(230, 247, 236) 0%, rgb(245, 252, 247) 42%, rgb(255, 255, 255) 75%)"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "ppv__wrap",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "section",
+      "cls": "ppv ppv--verde",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "prose",
+      "stil": {},
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_36_43_1244.jpg?v=1749666708&width=500",
+    "afisat": "171x257",
+    "natural": "155x232",
+    "alt": "Prime Hanorac cu broderie Prime Squad, negru cu fermoar și logo roșu pe piept, purtat de un bărbat în sală, din față",
+    "loading": "auto",
+    "srcsetN": 13,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "product-card__image product-card__image--primary  aspect-natural",
+      "stil": {
+       "transition": "opacity 0.2s ease-in-out"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-card__figure",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-card",
+      "cls": "product-card product-card--show-secondary-media bg-custom text-custom is-selecte",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-list",
+      "cls": "product-list",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "reveal-items",
+      "cls": "",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=500",
+    "afisat": "171x171",
+    "natural": "155x155",
+    "alt": "EAA Prime Supplements, aminoacizi esențiali pudră, aroma Blueberry (afine): tub negru de 500 g, 83 de porții, din față",
+    "loading": "auto",
+    "srcsetN": 13,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "product-card__image product-card__image--primary  aspect-natural",
+      "stil": {
+       "transition": "opacity 0.2s ease-in-out"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-card__figure",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-card",
+      "cls": "product-card product-card--show-secondary-media bg-custom text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-list",
+      "cls": "product-list",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "reveal-items",
+      "cls": "",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   },
+   {
+    "src": "https://primesupplements.ro/cdn/shop/files/01_PRIMECOMPLETECOLLAGEN_500ml_front.jpg?v=1749666734&width=500",
+    "afisat": "171x171",
+    "natural": "155x155",
+    "alt": "Complete Collagen Prime Health, colagen hidrolizat lichid, sticlă închisă la culoare de 500 ml cu etichetă verde",
+    "loading": "auto",
+    "srcsetN": 13,
+    "chain": [
+     {
+      "tag": "img",
+      "cls": "product-card__image product-card__image--primary  aspect-natural",
+      "stil": {
+       "transition": "opacity 0.2s ease-in-out"
+      },
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "a",
+      "cls": "",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "div",
+      "cls": "product-card__figure",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-card",
+      "cls": "product-card  bg-custom text-custom",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "product-list",
+      "cls": "product-list",
+      "stil": {},
+      "before": null,
+      "after": null
+     },
+     {
+      "tag": "reveal-items",
+      "cls": "",
+      "stil": {
+       "opacity": "0"
+      },
+      "before": null,
+      "after": null
+     }
+    ]
+   }
+  ],
+  "keyframes": [
+   "shopify-rotator",
+   "shopify-dash",
+   "acceleratedCheckoutLoadingSkeleton",
+   "pulse",
+   "translateFull",
+   "ping",
+   "jdgm-spin",
+   "appear"
+  ],
+  "elemente": {
+   "video": 0,
+   "canvas": 0,
+   "modelViewer": 0,
+   "lottie": 0,
+   "iframe": 2,
+   "gif": 0,
+   "svgAnim": 0
+  },
+  "scripturi": [],
+  "tema": {
+   "name": "Prime – PILOT pagină vizuală (15.11)",
+   "schema": "Impact",
+   "ver": "6.7.1"
+  },
+  "hover": null,
+  "cereriMedia": [
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Cherry_500g_front.jpg?v=1749666717&width=1200",
+    "ct": "image/webp",
+    "len": 48188
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-prime-negru.svg?v=1747640287&width=226",
+    "ct": "image/svg+xml",
+    "len": 2046
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/logo-site-alb.svg?v=1747640243&width=226",
+    "ct": "image/svg+xml",
+    "len": 1966
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/europe-flag-icon.webp?v=1765984894",
+    "ct": "image/webp",
+    "len": 2610
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=240",
+    "ct": "image/avif",
+    "len": 6816
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_RECOVERYBCAA_Pear_500g_front.jpg?v=1749666717&width=1200",
+    "ct": "image/webp",
+    "len": 49658
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sol.aa50985c.png?v=1748073397",
+    "ct": "image/jxl",
+    "len": 1824
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/logo-anpc-sal.cb86625e.png?v=1748073396",
+    "ct": "image/avif",
+    "len": 3902
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_CREATINE_Creapure_500g_front_508a0239-fe0e-4167-9d15-12bc1a93fc8c.jpg?v=1749666722&width=240",
+    "ct": "image/avif",
+    "len": 4911
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=240",
+    "ct": "image/avif",
+    "len": 5167
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_03.jpg?v=1792077790&width=500",
+    "ct": "image/webp",
+    "len": 20556
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_01.jpg?v=1792077790&width=500",
+    "ct": "image/webp",
+    "len": 21412
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_15.jpg?v=1792077844&width=500",
+    "ct": "image/webp",
+    "len": 16012
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/ALL_MERCH_3_17_1235a8fc-184f-49c6-a7e6-071c13f20649.jpg?v=1792077844&width=500",
+    "ct": "image/webp",
+    "len": 15052
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/2.jpg?v=1747646070&width=1000",
+    "ct": "image/webp",
+    "len": 73220
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/1.jpg?v=1747646070&width=1000",
+    "ct": "image/webp",
+    "len": 69018
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_36_43_1244.jpg?v=1749666708&width=500",
+    "ct": "image/webp",
+    "len": 46854
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIMECOMPLETECOLLAGEN_500ml_front.jpg?v=1749666734&width=500",
+    "ct": "image/webp",
+    "len": 9570
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_Blueberry_500g_front_69ace7f5-a663-4032-97c8-c94138efaa5a.jpg?v=1749666721&width=500",
+    "ct": "image/webp",
+    "len": 21210
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/HILA_13_14_37_19_1252.jpg?v=1749666709&width=500",
+    "ct": "image/webp",
+    "len": 42720
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/01_PRIME_EAA_PeachIceTea_500g_front.jpg?v=1749666722&width=500",
+    "ct": "image/webp",
+    "len": 20368
+   },
+   {
+    "url": "https://primesupplements1.myshopify.com/cdn/shop/files/pandectes-reopen-logo.png",
+    "ct": "image/jxl",
+    "len": 1891
+   },
+   {
+    "url": "https://primesupplements.ro/cdn/shop/files/favicon_640b1dba-f88b-4b3e-bf8e-617401b8103c.png?v=1750488121&width=96",
+    "ct": "image/avif",
+    "len": 4273
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0917/5138/3415/files/prime-recovery-bcaa-500g-cherry-sportiva-1.jpg?width=1200",
+    "ct": "image/webp",
+    "len": 104232
+   }
+  ],
+  "nrCereriMedia": 24,
+  "kbMedia": 580
+ }
+}

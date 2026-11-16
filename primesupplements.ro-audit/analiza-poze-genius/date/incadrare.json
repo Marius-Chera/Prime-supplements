@@ -1,0 +1,542 @@
+{
+ "genius/bcaa-x5-360g-26serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 51,
+  "inaltime_pct": 90,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 97
+ },
+ "genius/isolate-x5-2000g-60serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 94,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 100
+ },
+ "genius/whey-x5-2000g-61serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 94,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 100
+ },
+ "genius/milk-x5-2000g-60serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 92,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 98
+ },
+ "genius/protein-x5-825g-25serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 53,
+  "inaltime_pct": 91,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 96
+ },
+ "genius/hydra-x5-300g-54serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 55,
+  "inaltime_pct": 72,
+  "centru_x_pct": 50,
+  "sus_pct": 24,
+  "jos_pct": 97
+ },
+ "genius/magne-x6-300g-60serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 55,
+  "inaltime_pct": 72,
+  "centru_x_pct": 50,
+  "sus_pct": 24,
+  "jos_pct": 97
+ },
+ "genius/magnesium-bisglycinate-60caps-60serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 36,
+  "inaltime_pct": 88,
+  "centru_x_pct": 50,
+  "sus_pct": 8,
+  "jos_pct": 95
+ },
+ "genius/vitamin-d3-k2-60caps-60serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 36,
+  "inaltime_pct": 88,
+  "centru_x_pct": 50,
+  "sus_pct": 8,
+  "jos_pct": 95
+ },
+ "genius/mass-g7-2750g-22serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 58,
+  "inaltime_pct": 93,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 99
+ },
+ "genius/cell-x7-720g-45serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 53,
+  "inaltime_pct": 92,
+  "centru_x_pct": 50,
+  "sus_pct": 5,
+  "jos_pct": 98
+ },
+ "genius/crea-x5-liposomal-300g-69serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 51,
+  "inaltime_pct": 91,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 98
+ },
+ "genius/eaa-f7-400g-25serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 51,
+  "inaltime_pct": 90,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 97
+ },
+ "genius/glutamine-300g-30-serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 51,
+  "inaltime_pct": 92,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 98
+ },
+ "genius/whey-x5-protein-bar-48g": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 88,
+  "inaltime_pct": 34,
+  "centru_x_pct": 50,
+  "sus_pct": 39,
+  "jos_pct": 74
+ },
+ "genius/creaf7-405g-44-serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 51,
+  "inaltime_pct": 91,
+  "centru_x_pct": 50,
+  "sus_pct": 7,
+  "jos_pct": 98
+ },
+ "genius/warcry-400g": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 56,
+  "inaltime_pct": 88,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 95
+ },
+ "genius/iwhey-900g-28serv": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 53,
+  "inaltime_pct": 88,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 94
+ },
+ "genius/creapure": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 55,
+  "inaltime_pct": 93,
+  "centru_x_pct": 50,
+  "sus_pct": 6,
+  "jos_pct": 99
+ },
+ "genius/omega-3-90-softgels": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 43,
+  "inaltime_pct": 81,
+  "centru_x_pct": 49,
+  "sus_pct": 12,
+  "jos_pct": 93
+ },
+ "genius/magnesium-shot-80ml": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 19,
+  "inaltime_pct": 89,
+  "centru_x_pct": 50,
+  "sus_pct": 10,
+  "jos_pct": 100
+ },
+ "genius/heavy-180caps": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 61,
+  "inaltime_pct": 82,
+  "centru_x_pct": 50,
+  "sus_pct": 12,
+  "jos_pct": 94
+ },
+ "genius/warcry-pwo-330ml": {
+  "fundal": [
+   255,
+   255,
+   255
+  ],
+  "latime_pct": 32,
+  "inaltime_pct": 89,
+  "centru_x_pct": 50,
+  "sus_pct": 11,
+  "jos_pct": 100
+ },
+ "prime/recovery-bcaa-500g": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 46,
+  "inaltime_pct": 64,
+  "centru_x_pct": 50,
+  "sus_pct": 22,
+  "jos_pct": 86
+ },
+ "prime/pure-isolate-2000g": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 49,
+  "inaltime_pct": 73,
+  "centru_x_pct": 50,
+  "sus_pct": 12,
+  "jos_pct": 85
+ },
+ "prime/prime-whey-2000g": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 48,
+  "inaltime_pct": 73,
+  "centru_x_pct": 50,
+  "sus_pct": 12,
+  "jos_pct": 85
+ },
+ "prime/emperor-mass_3000g": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 49,
+  "inaltime_pct": 73,
+  "centru_x_pct": 50,
+  "sus_pct": 12,
+  "jos_pct": 85
+ },
+ "prime/creatina-creapure": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 66,
+  "centru_x_pct": 50,
+  "sus_pct": 21,
+  "jos_pct": 86
+ },
+ "prime/eaa-aminoacizi-esentiali": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 17,
+  "jos_pct": 86
+ },
+ "prime/nitrox": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 18,
+  "jos_pct": 86
+ },
+ "prime/combat-pro": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 48,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 18,
+  "jos_pct": 87
+ },
+ "prime/recovery-glutamin": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 47,
+  "inaltime_pct": 63,
+  "centru_x_pct": 50,
+  "sus_pct": 22,
+  "jos_pct": 85
+ },
+ "prime/cluster-bomb-1000g": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 46,
+  "inaltime_pct": 66,
+  "centru_x_pct": 50,
+  "sus_pct": 20,
+  "jos_pct": 86
+ },
+ "prime/omega-3": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 36,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 16,
+  "jos_pct": 85
+ },
+ "prime/magneziu-bisglicinat-80-caps": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 35,
+  "inaltime_pct": 69,
+  "centru_x_pct": 49,
+  "sus_pct": 16,
+  "jos_pct": 86
+ },
+ "prime/vitamina-d3-k2": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 34,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 16,
+  "jos_pct": 85
+ },
+ "prime/complete-collagen": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 36,
+  "inaltime_pct": 71,
+  "centru_x_pct": 49,
+  "sus_pct": 15,
+  "jos_pct": 86
+ },
+ "prime/energy-pump": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 15,
+  "inaltime_pct": 69,
+  "centru_x_pct": 49,
+  "sus_pct": 16,
+  "jos_pct": 84
+ },
+ "prime/thermo-core-120-caps": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 35,
+  "inaltime_pct": 69,
+  "centru_x_pct": 51,
+  "sus_pct": 16,
+  "jos_pct": 85
+ },
+ "prime/baton-proteic-capsuni": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 78,
+  "inaltime_pct": 26,
+  "centru_x_pct": 50,
+  "sus_pct": 34,
+  "jos_pct": 60
+ },
+ "prime/unt-de-arahide": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 42,
+  "inaltime_pct": 69,
+  "centru_x_pct": 50,
+  "sus_pct": 16,
+  "jos_pct": 85
+ },
+ "prime/creatina-monohidrat-micronized-300g-fara-aroma": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 52,
+  "inaltime_pct": 74,
+  "centru_x_pct": 50,
+  "sus_pct": 19,
+  "jos_pct": 94
+ },
+ "prime/prime-whey-go": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 55,
+  "inaltime_pct": 74,
+  "centru_x_pct": 50,
+  "sus_pct": 12,
+  "jos_pct": 86
+ },
+ "prime/glycerol-max-pump-500g-125-serv": {
+  "fundal": [
+   242,
+   242,
+   242
+  ],
+  "latime_pct": 58,
+  "inaltime_pct": 83,
+  "centru_x_pct": 50,
+  "sus_pct": 14,
+  "jos_pct": 97
+ },
+ "prime/crema-de-orez-caramel-sarat": {
+  "fundal": [
+   254,
+   254,
+   254
+  ],
+  "latime_pct": 60,
+  "inaltime_pct": 95,
+  "centru_x_pct": 48,
+  "sus_pct": 2,
+  "jos_pct": 98
+ }
+}

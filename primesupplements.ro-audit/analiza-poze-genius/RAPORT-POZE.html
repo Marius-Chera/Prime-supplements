@@ -1,0 +1,500 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analiză poze Genius</title><style>
+:root{--bg:#fff;--text:#14171f;--muted:#5d6472;--line:#e3e6eb;--accent:#ec1e24;--code:#f1f3f6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121418;--text:#e9ecf1;--muted:#a3abb8;--line:#2a2f37;--code:#1d2128}}
+:root[data-theme="dark"]{--bg:#121418;--text:#e9ecf1;--muted:#a3abb8;--line:#2a2f37;--code:#1d2128}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Poppins,system-ui,Arial,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:28px;line-height:1.25}h2{margin-top:44px;border-bottom:2px solid var(--accent);padding-bottom:6px}
+table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}th{background:var(--code)}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:13px}
+.figs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:16px 0}
+figure{margin:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}figure img{width:100%;display:block}
+figcaption{font-size:13px;color:#333;padding:8px 10px;background:#f7f8fa}
+a{color:var(--accent)}hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+</style></head><body><main><h1>Pozele de produs Genius Nutrition: cum sunt făcute și ce putem face noi</h1>
+<p>Data: 16.11.2026 · Cerut de Marius · Doar analiză și demo local. <strong>Nimic modificat sau urcat în magazin.</strong>
+Versiunea cu imagini adnotate: <a href="RAPORT-POZE.html">RAPORT-POZE.html</a>, deschisă local (pozele Genius rămân doar pe PC, în <code>decupaje/</code>, care nu intră în git).</p>
+<h2>Ce s-a mai făcut înainte (verificat în repo)</h2>
+<ul>
+<li>15.11: analiza paginii de produs vizuale Genius și pagina noastră vizuală (<code>pagina-produs-vizuala/</code>). Atunci am studiat <strong>descrierea</strong> (tab-ul „Despre produs”), nu pozele de produs. Decizia de atunci rămâne: structura se poate prelua, texte, poze sau cod nu.</li>
+<li>15.11 (noaptea): pentru pozele din pagina vizuală am decis sportivi bărbați și cadre reale din ședința foto, nu femei generate cu AI.</li>
+<li>Sesiunea paralelă <code>analiza-genius-vs-prime/</code> (16.11) face comparația SEO și de viteză. Analiza de față e doar despre poze, fără dubluri.</li>
+</ul>
+<hr>
+<h2>1. Rezumat</h2>
+<table>
+<thead>
+<tr>
+<th>Întrebare</th>
+<th>Răspuns</th>
+<th>Încredere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ce efecte folosesc?</td>
+<td>Fundal alb pur, reflexie pe podea care se estompează, umbră de contact fină, luciu de studio (benzi speculare verticale pe plasticul negru), contur luminos pe margini (rim light), folie holografică randată pe etichetă. Pe pozele secundare: scene 3D (jeleuri, stropi, podea udă) și câteva scene de tip AI (plajă).</td>
+<td>mare</td>
+</tr>
+<tr>
+<td>Sunt „arse” în imagine sau făcute din cod?</td>
+<td><strong>În imagine.</strong> Fișierul de pe CDN are deja luciul, umbra și reflexia. Din cod au doar două lucruri: schimbarea pozei la hover (a doua poză apare în 0,3 s) și o animație zoom-fade când cardul intră în ecran. Fără shine sweep, fără <code>drop-shadow</code>, fără <code>-webkit-box-reflect</code>, fără canvas, WebGL sau 3D interactiv.</td>
+<td>mare (cod citit direct)</td>
+</tr>
+<tr>
+<td>Cu ce program?</td>
+<td>Pozele principale sunt <strong>randări 3D</strong> ale ambalajului, cu eticheta aplicată ca textură. Cel mai probabil un program de randare de produs (KeyShot, Blender sau Cinema 4D) cu iluminare HDRI de studio și podea reflectorizantă, apoi export PNG 3800 px. Programul exact <strong>nu se poate dovedi</strong>: Shopify a șters toată metadata.</td>
+<td>mare că e randare 3D; <strong>mică</strong> pentru numele programului</td>
+</tr>
+<tr>
+<td>Putem face la fel?</td>
+<td>Da. Aspectul identic se obține doar cu randare 3D (varianta B). Un aspect apropiat, aplicat pe pozele actuale, se obține gratuit cu scriptul nostru (varianta E), care merge bine pe borcanele negre.</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Recomandare</td>
+<td><strong>E acum</strong> (gratuit, borcanele negre, cu verificare vizuală), apoi <strong>B treptat</strong> (randări 3D pentru cele 4–5 tipuri de ambalaj, pornind de la top vânzări), plus D doar pentru schimbarea pozei la hover, ca la Genius, dacă aprobi designul. C (AI) doar pentru fundaluri și scene, niciodată pentru regenerarea etichetei.</td>
+<td>–</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. Catalogul efectelor (cu dovezi)</h2>
+<div class="figs"><figure><img loading="lazy" src="decupaje/adnotat-bcaa.jpg" alt="BCAA-X5: efectele numerotate (randare 3D pe alb)"><figcaption>BCAA-X5: efectele numerotate (randare 3D pe alb)</figcaption></figure><figure><img loading="lazy" src="decupaje/adnotat-isolate.jpg" alt="ISOLATE-X5: luciu de studio pe plastic negru, rim light, reflexie"><figcaption>ISOLATE-X5: luciu de studio pe plastic negru, rim light, reflexie</figcaption></figure><figure><img loading="lazy" src="decupaje/adnotat-cell.jpg" alt="CELL-X7, poza 2: scenă 3D (jeleuri, stropi, podea udă)"><figcaption>CELL-X7, poza 2: scenă 3D (jeleuri, stropi, podea udă)</figcaption></figure><figure><img loading="lazy" src="decupaje/adnotat-plaja.jpg" alt="WHEY-X5, poza 2: scenă probabil AI + borcane randate"><figcaption>WHEY-X5, poza 2: scenă probabil AI + borcane randate</figcaption></figure></div><h3>Zoom pe efecte (decupaje din originalul de 3800 px)</h3><div class="figs"><figure><img loading="lazy" src="decupaje/zoom-bcaa-reflexie-podea.png" alt="Reflexia: lizibilă la contact, dâre verticale mai jos = blur fizic de randor"><figcaption>Reflexia: lizibilă la contact, dâre verticale mai jos = blur fizic de randor</figcaption></figure><figure><img loading="lazy" src="decupaje/zoom-bcaa-banda-holo.png" alt="Banda holografică: gradient perfect neted, fără zgomot"><figcaption>Banda holografică: gradient perfect neted, fără zgomot</figcaption></figure><figure><img loading="lazy" src="decupaje/zoom-isolate-umar-highlight.png" alt="Benzi speculare pe umărul negru: urmează exact geometria"><figcaption>Benzi speculare pe umărul negru: urmează exact geometria</figcaption></figure><figure><img loading="lazy" src="decupaje/zoom-bcaa-margine-dreapta.png" alt="Margine: eticheta se întunecă și se comprimă pe cilindru"><figcaption>Margine: eticheta se întunecă și se comprimă pe cilindru</figcaption></figure><figure><img loading="lazy" src="decupaje/zoom-isolate-baza-reflexie.png" alt="Baza ISOLATE-X5 și reflexia"><figcaption>Baza ISOLATE-X5 și reflexia</figcaption></figure><figure><img loading="lazy" src="decupaje/zoom-prime-bcaa-capac.png" alt="Comparație: fotografie Prime (zgomot de senzor, fundal gri)"><figcaption>Comparație: fotografie Prime (zgomot de senzor, fundal gri)</figcaption></figure></div><h3>Planșele de contact</h3><div class="figs"><figure><img loading="lazy" src="decupaje/plansa-genius.jpg" alt="Genius: 61 de poze, același unghi, aceeași lumină"><figcaption>Genius: 61 de poze, același unghi, aceeași lumină</figcaption></figure><figure><img loading="lazy" src="decupaje/plansa-prime.jpg" alt="Prime: 29 de poze, fundal gri, mărime variabilă în cadru"><figcaption>Prime: 29 de poze, fundal gri, mărime variabilă în cadru</figcaption></figure></div>
+<p>Material analizat: 23 de produse Genius, 61 de poze descărcate la rezoluția originală. Lista e în <code>date/genius-poze.json</code>: pudre în borcan alb și negru, capsule, gainer, pre-workout, baton, shot, doză, produse noi din 2026 și produse vechi din 2024. Am inspectat homepage-ul, 3 categorii (proteine, aminoacizi, produse noi) și 3 pagini de produs, pe desktop și pe mobil.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Efect</th>
+<th>Ce se vede la zoom 200–400 %</th>
+<th>Tehnica cea mai probabilă</th>
+<th>Program probabil</th>
+<th>Încredere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong>Reflexie pe podea</strong></td>
+<td>Sub bază apare eticheta răsturnată și estompată. Blurul crește cu distanța față de contact: lângă bază „26” e lizibil, mai jos textul devine dâre verticale. Curbura bazei e redată corect.</td>
+<td>Podea reflectorizantă cu rugozitate („glossy ground”) într-un randor. Un flip copiat în Photoshop ar avea același blur peste tot.</td>
+<td>Randor 3D (opțiunea „ground reflections” din KeyShot sau un plan lucios în Blender)</td>
+<td>mare că e fizică; medie că nu e Photoshop</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Umbră de contact</strong></td>
+<td>O linie gri foarte fină chiar sub bază, fără umbră proiectată lateral.</td>
+<td>Ambient occlusion sau umbră de contact din randor, cu lumina venind de sus și din față</td>
+<td>Randor 3D</td>
+<td>mare</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Benzi speculare (luciu)</strong></td>
+<td>Pe capacele și umerii negri apar 2 benzi verticale deschise, simetrice, care urmează exact curbura. Pe capacele albe mate apare un gradient moale.</td>
+<td>Reflexia a două softbox-uri sau a unui HDRI de studio pe material lucios, calculată de randor. Nu e pictată: forma urmează perfect geometria.</td>
+<td>Randor 3D</td>
+<td>mare</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Rim light</strong> (contur luminos)</td>
+<td>Marginea borcanului e puțin mai deschisă, eticheta se întunecă spre margini (falloff cilindric), iar literele se comprimă spre margine.</td>
+<td>Iluminare de contur plus proiecția cilindrică a etichetei pe model</td>
+<td>Randor 3D</td>
+<td>mare</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>„Sclipiri” holografice</strong></td>
+<td>Benzile curcubeu de pe etichetă și contururile literelor („BCAA”, „ISOLATE”) sunt gradiente perfect netede.</td>
+<td>Folia holografică a ambalajului real e simulată în randare (gradient sau material iridescent). Nu e un overlay peste poză: se curbează odată cu eticheta.</td>
+<td>Grafica etichetei (Illustrator) plus material sau textură în randor</td>
+<td>medie</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Splash-uri și fructe de pe etichetă</strong></td>
+<td>Fac parte din grafica tipărită a etichetei: se curbează cu cilindrul și se pierd spre margine.</td>
+<td>Grafică de etichetă (foto de stoc sau randare de lichid), nu efect peste poză</td>
+<td>Photoshop sau Illustrator pentru etichetă</td>
+<td>mare</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Fundal</strong></td>
+<td>Colțurile au exact RGB 255,255,255 la 56 din 61 de poze. Pozele sunt PNG RGBA, dar opace (fundal alb lipit, nu transparent).</td>
+<td>Export din randor cu fundal alb pur</td>
+<td>–</td>
+<td>dovedit (pixeli)</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Scene secundare</strong> (CELL-X7, CREA-X5)</td>
+<td>Jeleuri cu translucență (subsurface), stropi de apă, podea udă cu reflexii colorate, perspectivă coerentă</td>
+<td>Scenă 3D completă sau compoziție 3D + elemente de stoc</td>
+<td>Randor 3D + Photoshop</td>
+<td>medie</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Scena „plajă”</strong> (WHEY-X5, poza 2)</td>
+<td>JPG 2500 px. Textul mic e „topit” și ilizibil, iar spuma din pahar are o textură nerealistă. Eticheta mare e corectă.</td>
+<td>Fundal și elemente <strong>probabil generate cu AI</strong>, cu borcanele randate puse peste (sau generate pornind de la o imagine de referință)</td>
+<td>Unealtă AI de imagine + Photoshop</td>
+<td>medie</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Batonul, pozele 2 și 3</strong></td>
+<td>Fundal portocaliu, baton desfăcut, ciocolată cu textură reală, JPG 2160 px</td>
+<td><strong>Fotografie reală</strong> sau scenă AI; aici nu e randare de ambalaj</td>
+<td>–</td>
+<td>mică</td>
+</tr>
+</tbody></table>
+<h3>Dovezi că pozele principale sunt randări 3D, nu fotografii</h3>
+<ul>
+<li><strong>Zgomot:</strong> am măsurat abaterea standard a reziduului trece-sus pe zonele uniforme (<code>scripts/zgomot.py</code>, <code>date/zgomot.json</code>). Mediana Genius e <strong>0,36</strong>, cea Prime <strong>1,23</strong>. Fotografiile reale (ale noastre) au zgomot de senzor, randările nu au aproape deloc.</li>
+<li><strong>Consistență:</strong> același unghi de cameră (puțin de sus), aceeași lumină și aceeași reflexie pe toate cele 23 de produse, de la borcane albe la negre. Etichetele sunt perfect drepte și centrate, fără praf, zgârieturi sau imperfecțiuni de plastic.</li>
+<li><strong>Dimensiuni identice:</strong> 3800×3800 px la aproape toate pozele noi, cu DPI 72 sau 300 după lot. E tipic pentru un preset de export din randor, folosit de cineva care randează în loturi.</li>
+<li><strong>Error Level Analysis nu se aplică:</strong> fișierele sunt PNG (fără pierderi), așa că ELA nu dă rezultat. Am folosit în locul ei analiza zgomotului de mai sus.</li>
+</ul>
+<h3>Metadata (pasul 3)</h3>
+<ul>
+<li>exiftool și c2patool nu sunt instalate pe PC. Am citit metadata cu Pillow (EXIF, XMP, ICC, chunk-uri PNG) și <strong>c2pa-python</strong> (biblioteca oficială C2PA): <code>scripts/metadata.py</code>, <code>date/metadata-*.json</code>.</li>
+<li><strong>Rezultat: Shopify a șters tot</strong>, la ambele magazine: 0 XMP, 0 EXIF utile, 0 istoric Photoshop, 0 CreatorTool, 0 Content Credentials (C2PA). Profilul ICC, unde există, e <strong>„c2ci”</strong>, profilul sRGB compact pe care îl pune conversia Shopify, deci fișierele de pe CDN sunt reprocesate. Am descărcat fișierele „originale” (URL fără parametri, Accept PNG/JPEG), dar și acestea trec prin conversie.</li>
+<li><strong>Concluzie:</strong> programul exact (KeyShot, Blender, C4D) și eventualul AI de pe scena „plajă” <strong>nu se pot dovedi</strong> din metadata. Ce scrie mai sus despre ele e dedus vizual.</li>
+<li><strong>Nutriland:</strong> <code>products.json</code> și căutarea au răspuns cu <strong>429</strong> (limită de cereri). Nu am insistat, ca să respectăm regula de crawl politicos. Comparația cu Nutriland rămâne deschisă: se poate face manual, din browser, dacă vrei.</li>
+</ul>
+<hr>
+<h2>3. Ce e în imagine și ce e din cod (pasul 2)</h2>
+<div class="figs"><figure><img loading="lazy" src="screenshots/genius-card-A-fara-hover.png" alt="Card Genius fără hover"><figcaption>Card Genius fără hover</figcaption></figure><figure><img loading="lazy" src="screenshots/genius-card-B-hover.png" alt="Card Genius la hover: apare a doua poză (singurul efect din cod pe card)"><figcaption>Card Genius la hover: apare a doua poză (singurul efect din cod pe card)</figcaption></figure><figure><img loading="lazy" src="screenshots/genius-p-bcaa-x5-mobil.png" alt="Pagina de produs pe mobil (390 px)"><figcaption>Pagina de produs pe mobil (390 px)</figcaption></figure><figure><img loading="lazy" src="screenshots/genius-col-proteine-mobil.png" alt="Categoria pe mobil"><figcaption>Categoria pe mobil</figcaption></figure></div>
+<p>Inspecție cu Playwright și Chrome, pe 7 pagini Genius × desktop și mobil (<code>scripts/inspecteaza.mjs</code>, <code>date/inspectie-genius.json</code>), plus regulile CSS exacte (<code>scripts/reguli-css.mjs</code>, <code>date/reguli-css-genius.txt</code>). Am înregistrat și video (<code>video/</code>, doar local).</p>
+<table>
+<thead>
+<tr>
+<th>Ce am căutat</th>
+<th>Genius</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>filter</code>, <code>drop-shadow</code>, <code>box-shadow</code> pe imagine</td>
+<td>nu</td>
+</tr>
+<tr>
+<td><code>-webkit-box-reflect</code>, <code>mask</code>, <code>mix-blend-mode</code></td>
+<td>nu</td>
+</tr>
+<tr>
+<td>shine sweep (<code>::before</code>/<code>::after</code> cu gradient animat)</td>
+<td>nu</td>
+</tr>
+<tr>
+<td>canvas, WebGL, three.js, model-viewer, Lottie, GIF sau APNG</td>
+<td>nu (0 elemente)</td>
+</tr>
+<tr>
+<td>video</td>
+<td>doar un banner MP4 pe homepage, nu pe produse</td>
+</tr>
+<tr>
+<td><strong>schimbarea pozei la hover</strong></td>
+<td><strong>da</strong>: <code>.product-card__image--alternate { opacity:0 }</code> → la <code>:hover</code> <code>opacity:1</code>, <code>transition: .3s</code> (tema Pursuit 1.0.7)</td>
+</tr>
+<tr>
+<td><strong>animație la apariție</strong></td>
+<td><strong>da</strong>: <code>@keyframes zoom-fade { 0% {opacity:0; transform:scale(1.25)} 100% {opacity:1; transform:scale(1)} }</code>, 0,5 s</td>
+</tr>
+<tr>
+<td>Comparația poză CDN vs pagină</td>
+<td>identice: luciul, umbra și reflexia sunt deja în fișier</td>
+</tr>
+</tbody></table>
+<p><strong>Concluzie:</strong> tot ce „lucește și sclipește” e în fișierul imagine. Codul doar schimbă poza la hover și o face să apară cu zoom.</p>
+<hr>
+<h2>4. Pozele lor vs pozele noastre (pasul 5)</h2>
+<div class="figs"><figure><img loading="lazy" src="screenshots/genius-col-proteine-desktop.png" alt="Genius – categoria Proteine (desktop)"><figcaption>Genius – categoria Proteine (desktop)</figcaption></figure><figure><img loading="lazy" src="screenshots/prime-col-proteine-desktop.png" alt="Prime – categoria Proteine (desktop)"><figcaption>Prime – categoria Proteine (desktop)</figcaption></figure><figure><img loading="lazy" src="screenshots/genius-col-proteine-mobil.png" alt="Genius pe mobil"><figcaption>Genius pe mobil</figcaption></figure><figure><img loading="lazy" src="screenshots/prime-col-proteine-mobil.png" alt="Prime pe mobil"><figcaption>Prime pe mobil</figcaption></figure></div>
+<p>22 de produse Prime, 29 de poze. Tema live a fost citită pe 16.11 („Prime – PILOT pagină vizuală”, Impact 6.7.1).</p>
+<table>
+<thead>
+<tr>
+<th>Criteriu</th>
+<th>Genius</th>
+<th>Prime</th>
+<th>Avantaj</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tehnică</td>
+<td>Randare 3D</td>
+<td>Fotografie reală de studio</td>
+<td>Genius pe impact vizual, noi pe autenticitate</td>
+</tr>
+<tr>
+<td>Fundal</td>
+<td>Alb pur 255 (56 din 61)</td>
+<td>Gri deschis RGB 242 (majoritatea), câteva albe 254–255</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Fișier încărcat în Shopify</td>
+<td>PNG 3800 px, 4,7 MB în medie</td>
+<td>JPG 2400–4000 px, 0,74 MB în medie</td>
+<td>noi (upload mai ușor)</td>
+</tr>
+<tr>
+<td>Ce primește vizitatorul</td>
+<td>WebP sau AVIF prin Shopify: 37–126 KB pe card sau galerie</td>
+<td>WebP: 18–47 KB</td>
+<td>egal (Shopify convertește oricum); la noi e mai ușor</td>
+</tr>
+<tr>
+<td>Înălțimea produsului în cadru</td>
+<td>86 % în medie (cu reflexie), abatere 12,5</td>
+<td>69 % în medie, de la 26 % la 95 %</td>
+<td>Genius: produsul e mai mare și mai uniform</td>
+</tr>
+<tr>
+<td>Consistență între produse</td>
+<td>Foarte mare: același unghi, aceeași lumină</td>
+<td>Medie: gri vs alb, mărimi diferite, flacoane mici în cadre mari</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Zgomot și curățenie</td>
+<td>0,36 (curat)</td>
+<td>1,23 (zgomot de senzor, praf ocazional)</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Efecte</td>
+<td>Reflexie, luciu, rim light, holografic</td>
+<td>Doar umbra naturală din studio</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Pe mobil</td>
+<td>Produsul umple cardul, contrast mare</td>
+<td>Produsul pare mic, gri pe gri</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Încredere și realism</td>
+<td>„Prea perfect”</td>
+<td>Ambalaj real, ce vezi e ce primești</td>
+<td>noi</td>
+</tr>
+<tr>
+<td>Text alternativ (alt)</td>
+<td>Lung, cu cuvinte cheie</td>
+<td>Descriptiv, scris pe 15.11</td>
+<td>egal</td>
+</tr>
+<tr>
+<td>Cod pe card</td>
+<td>Swap la hover + zoom-fade</td>
+<td>Nimic</td>
+<td>Genius (puțin)</td>
+</tr>
+</tbody></table>
+<p><strong>Viteză:</strong> efectele Genius nu costă nimic în plus la încărcare, pentru că sunt în imagine și Shopify servește WebP sau AVIF. Pozele noastre sunt deja mai ușoare. Exportul nostru demo (1500 px WebP) are 62–79 KB, în aceeași zonă.</p>
+<hr>
+<h2>5. Variantele A–E</h2>
+<p>Prețurile pentru unelte sunt luate pe 16.11.2026 din surse publice (lista e la final). Prețurile de freelanceri sunt <strong>estimări</strong> și trebuie cerute oferte.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>A. Manual (Photoshop / Photopea)</th>
+<th>B. Randare 3D</th>
+<th>C. Unelte AI</th>
+<th>D. Cod în temă</th>
+<th>E. Script în serie</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ce reproduce</td>
+<td>Fundal alb, umbră, reflexie, luciu pictat</td>
+<td><strong>Tot</strong>, identic ca stil (inclusiv holografic și scene)</td>
+<td>Fundaluri, scene, umbre; decupare</td>
+<td>Swap la hover, shine sweep, umbră, reflexie CSS</td>
+<td>Fundal alb, umbră, reflexie, luciu discret</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Photopea gratuit; Photoshop prin Photography Plan, circa 20 $/lună</td>
+<td>Blender gratuit (KeyShot Pro 1.299 $/an). Freelancer: estimat 50–150 € per model de ambalaj + 5–20 € per randare de aromă</td>
+<td>Photoroom API ~0,02 $/decupare; Claid de la ~15 $/lună (500 credite); Firefly de la ~9,99 $/lună; OpenArt e deja plătit</td>
+<td>0 lei, ~1 h de lucru</td>
+<td>0 lei</td>
+</tr>
+<tr>
+<td>Timp per poză</td>
+<td>15–30 min</td>
+<td>La început: 1–3 zile per tip de ambalaj. Apoi: aromă nouă = schimbi eticheta, 5–15 min</td>
+<td>1–5 min + verificare</td>
+<td>o singură dată</td>
+<td>câteva secunde</td>
+</tr>
+<tr>
+<td>Skill</td>
+<td>Mediu</td>
+<td>Mare (sau freelancer)</td>
+<td>Mic</td>
+<td>Mic (eu)</td>
+<td>Mic (eu)</td>
+</tr>
+<tr>
+<td>Cât de aproape de Genius</td>
+<td>60–70 %</td>
+<td>95–100 %</td>
+<td>50–80 %, inconsecvent</td>
+<td>5–10 % (nu schimbă poza)</td>
+<td>60–70 % pe borcane negre</td>
+</tr>
+<tr>
+<td>Plusuri</td>
+<td>Control total</td>
+<td>Consistență perfectă, orice unghi, scene, fără ședințe foto</td>
+<td>Rapid pentru scene</td>
+<td>Gratuit, fără impact pe viteză</td>
+<td>Tot catalogul într-un minut</td>
+</tr>
+<tr>
+<td>Minusuri</td>
+<td>Lent, rezultat variabil</td>
+<td>Cost inițial, ai nevoie de fișierele etichetei (PDF sau AI de la producător)</td>
+<td><strong>Poate deforma eticheta și textul</strong> (vezi scena „plajă” Genius); trebuie verificat fiecare cadru</td>
+<td>Nu repară fundalul gri</td>
+<td>Decuparea automată <strong>eșuează pe flacoane albe</strong> pe gri (test în <code>demo/test-flacon-alb-...-ESEC-decupare.jpg</code>)</td>
+</tr>
+</tbody></table>
+<p>Detalii pe variante:</p>
+<ul>
+<li><strong>A, pașii:</strong> decupare (Select Subject + Refine Edge) → fundal alb 255 → umbră de contact (elipsă neagră, blur 15–25 px, opacitate 40 %) + umbră moale (elipsă lată, blur 80 px, opacitate 15 %) → reflexie (duplici stratul, Flip Vertical, îl lipești de bază, mască cu gradient negru → transparent pe 30 % din înălțime, opacitate 20–25 %, Motion Blur vertical 5–10 px) → luciu (strat nou în modul Screen, două dungi verticale albe cu blur 40 px, opacitate 10–15 %, clipping mask pe produs) → export.</li>
+<li><strong>B, cum:</strong> câte un model per tip de ambalaj Prime (borcan 500 g, borcan 2 kg / 3 kg, flacon de 80 de capsule, baton, sticlă de 500 ml, fiolă). Eticheta (PDF-ul de tipar) se aplică drept textură UV cilindrică. Setup de studio: HDRI de studio, 2 softbox-uri verticale, rim light în spate, podea cu reflexie. Ca să nu copiem stilul lor 1:1, ne alegem semnătura proprie: de exemplu, accent roșu pe contur în locul curcubeului. <strong>Merită</strong> pentru că avem multe arome pe aceleași 5–6 ambalaje: un model făcut o dată acoperă zeci de poze.</li>
+<li><strong>C:</strong> se poate folosi doar pe fundal sau scenă, cu produsul real (poza sau randarea) lipit peste, neatins. Nu se generează eticheta. Pentru decupări de calitate în serie: Photoroom API (~0,02 $/poză) rezolvă și flacoanele albe, unde scriptul nostru eșuează.</li>
+<li><strong>D:</strong> cod gata în <code>demo/card-css.html</code>: swap la hover (identic ca idee cu Genius), shine sweep, umbră plus ridicare, reflexie <code>-webkit-box-reflect</code>. Totul doar CSS (<code>transform</code>/<code>opacity</code>), fără JS, cu <code>prefers-reduced-motion</code>. Pe telefon nu există hover, deci efectele 1, 2 și 4 nu apar acolo. <strong>Schimbarea designului temei se face doar cu aprobarea ta.</strong></li>
+<li><strong>E:</strong> <code>scripts/stil_genius.py</code> (Python + Pillow, gratuit, rulează pe PC prin <code>uv</code>).</li>
+</ul>
+<hr>
+<h2>6. Rezultatul demo-ului (pasul 7)</h2>
+<div class="figs"><figure><img loading="lazy" src="demo/recovery-bcaa-500g-inainte-dupa.jpg" alt="Recovery BCAA: înainte / după script"><figcaption>Recovery BCAA: înainte / după script</figcaption></figure><figure><img loading="lazy" src="demo/pure-isolate-2000g-inainte-dupa.jpg" alt="Pure Isolate: înainte / după script"><figcaption>Pure Isolate: înainte / după script</figcaption></figure><figure><img loading="lazy" src="demo/creatina-creapure-inainte-dupa.jpg" alt="Creatină Creapure: înainte / după script"><figcaption>Creatină Creapure: înainte / după script</figcaption></figure><figure><img loading="lazy" src="demo/test-flacon-alb-magneziu-ESEC-decupare.jpg" alt="Limita: flacon alb pe gri – decuparea automată mănâncă marginile"><figcaption>Limita: flacon alb pe gri – decuparea automată mănâncă marginile</figcaption></figure></div><p><a href="demo/card-css.html">Deschide demo-ul CSS pe card (varianta D) →</a></p>
+<p>Produse: Recovery BCAA 500 g, Pure Isolate 2000 g, Creatină Creapure. Am folosit pozele actuale de pe site, pentru că PNG-uri transparente nu avem.</p>
+<table>
+<thead>
+<tr>
+<th>Fișier</th>
+<th>Ce arată</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>demo/*-inainte-dupa.jpg</code></td>
+<td>Poza actuală vs după script, una lângă alta</td>
+</tr>
+<tr>
+<td><code>demo/*-dupa.jpg</code> (2000 px) și <code>*-dupa-1500.webp</code> (62–79 KB)</td>
+<td>Rezultatul la rezoluție mare și varianta pentru web</td>
+</tr>
+<tr>
+<td><code>demo/*-decupat.png</code></td>
+<td>Produsul decupat (transparent), pentru efectele CSS</td>
+</tr>
+<tr>
+<td><code>demo/card-css.html</code></td>
+<td>Card de produs cu efectele din cod. Se deschide local (server: <code>scripts/serve.cjs</code>, port 8796)</td>
+</tr>
+<tr>
+<td><code>demo/test-flacon-alb-magneziu-ESEC-decupare.jpg</code></td>
+<td><strong>Limita:</strong> pe flacon alb pe fundal gri, decuparea automată mănâncă marginile</td>
+</tr>
+</tbody></table>
+<p>Verificare: eticheta e doar scalată uniform (fără deformare). Luciul e sub 14 % opacitate, iar textul rămâne lizibil, inclusiv pe tabelul nutrițional lateral. Pe borcanele negre rămân mici imperfecțiuni de margine (1–3 px) la baza borcanului. Pentru producție e nevoie de o verificare vizuală a fiecărei poze sau de o decupare de calitate (Photoroom API sau manual).</p>
+<hr>
+<h2>7. Ghid pentru varianta recomandată + standardul nostru pentru poze</h2>
+<p><strong>Pași (E acum, B treptat):</strong></p>
+<ol>
+<li>Cerem fotografului sau producătorului <strong>PNG-uri transparente</strong> (sau fotografii pe fundal alb, cu lumină uniformă). Așa decuparea devine sigură pentru orice culoare de ambalaj.</li>
+<li>Rulăm <code>stil_genius.py</code> pe tot lotul, cu <code>--toleranta 55</code> pentru ambalaje negre și 12–22 pentru cele albe. Ne uităm la fiecare rezultat la 100 %.</li>
+<li>Le urcăm pe o temă <strong>nepublicată</strong> sau pe un produs de test, le compari, apoi decizi.</li>
+<li>În paralel: oferte de la 2–3 freelanceri 3D pentru borcanul de 500 g (cele mai multe arome). Dacă rezultatul e bun, extindem pe celelalte ambalaje.</li>
+</ol>
+<p><strong>Standard pentru toate pozele viitoare:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Regulă</th>
+<th>Valoare</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Dimensiune</td>
+<td>2000×2000 px (pătrat). Sursa master se păstrează la 3000–4000 px.</td>
+</tr>
+<tr>
+<td>Format upload</td>
+<td>JPG calitate 90 sau PNG (Shopify servește automat WebP sau AVIF)</td>
+</tr>
+<tr>
+<td>Fundal</td>
+<td>Alb pur <code>#FFFFFF</code>, fără gri</td>
+</tr>
+<tr>
+<td>Unghi</td>
+<td>Frontal, cameră puțin de sus (5–10°), eticheta perfect centrată</td>
+</tr>
+<tr>
+<td>Poziție</td>
+<td>Produsul centrat orizontal, contactul cu podeaua la 80 % din înălțime</td>
+</tr>
+<tr>
+<td>Mărime în cadru</td>
+<td>Produsul ocupă <strong>70 %</strong> din înălțime (flacoanele mici la fel, nu „pierdute” în cadru)</td>
+</tr>
+<tr>
+<td>Umbră</td>
+<td>De contact fină + umbră moale, ca în script</td>
+</tr>
+<tr>
+<td>Reflexie</td>
+<td>20–25 % opacitate la contact, se stinge în 1/3 din înălțimea produsului</td>
+</tr>
+<tr>
+<td>Greutate maximă</td>
+<td>≤ 1 MB upload; ≤ 120 KB ce vede clientul (WebP 1500 px)</td>
+</tr>
+<tr>
+<td>Nume fișier</td>
+<td><code>prime-&lt;produs&gt;-&lt;gramaj&gt;-&lt;aroma&gt;-&lt;nr&gt;.jpg</code> (ex.: <code>prime-recovery-bcaa-500g-cherry-01.jpg</code>), fără diacritice</td>
+</tr>
+<tr>
+<td>Ordine în galerie</td>
+<td>1 = front pe alb, 2 = spate sau tabel nutrițional, 3 = lifestyle (sportivi, cadre reale), 4 = textură sau pudră</td>
+</tr>
+<tr>
+<td>Text alt</td>
+<td>Produs + aromă + gramaj + ce se vede („Recovery BCAA 500 g, aroma Cherry, borcan negru, vedere din față”). Fără promisiuni de sănătate.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>8. Riscuri</h2>
+<ul>
+<li><strong>Drepturi:</strong> pozele Genius au fost descărcate doar pentru analiză internă. Nu sunt în git (<code>.gitignore</code>: <code>poze/</code>, <code>decupaje/</code>, <code>screenshots/</code>, <code>video/</code>) și nu se folosesc nicăieri. Pentru produsele Prime modificăm doar pozele noastre. <strong>Dacă pentru unele produse pozele vin de la producător sau furnizor, trebuie verificat că avem voie să le modificăm.</strong> Pe site nu se menționează furnizorul (regula ta).</li>
+<li><strong>Copierea stilului:</strong> tehnica (randare, reflexie) e liberă, dar ținuta vizuală trebuie să fie a noastră: roșu și negru Prime, nu curcubeul holografic Genius.</li>
+<li><strong>Viteză:</strong> nu e un risc dacă efectele sunt în imagine. Shopify servește oricum WebP sau AVIF. Efectele CSS grele (<code>filter</code> pe multe carduri) pot încetini telefoanele slabe, așa că rămânem la <code>transform</code>/<code>opacity</code>.</li>
+<li><strong>Consecvență:</strong> dacă procesăm doar o parte din catalog, magazinul va avea două stiluri amestecate. Facem pe categorii întregi sau pe tot catalogul deodată.</li>
+<li><strong>Realism și încredere:</strong> randările 3D „prea perfecte” pot crea diferențe față de produsul primit. Recomand să păstrăm și cel puțin o fotografie reală în galerie.</li>
+<li><strong>AI:</strong> risc de etichetă deformată și de text inventat pe ambalaj, mai ales la mențiunile nutriționale. Fără AI pe etichetă.</li>
+</ul>
+<h2>Surse (prețuri)</h2>
+<ul>
+<li>Photoroom: <a href="https://www.activepieces.com/blog/photoroom-pricing-all-plans-and-costs-2026-guide">activepieces</a>, <a href="https://www.eesel.ai/blog/photoroom-pricing">eesel</a></li>
+<li>Claid: <a href="https://www.zemith.com/en/learn/claid-pricing">zemith (verificat 11.11.2026)</a>, <a href="https://toolradar.com/tools/claid-ai/pricing">toolradar</a></li>
+<li>KeyShot: <a href="https://www.keyshot.com/pricing/">keyshot.com/pricing</a>, <a href="https://www.cgchannel.com/?p=176936">cgchannel</a></li>
+<li>Adobe Firefly / Photoshop: <a href="https://www.digitalcameraworld.com/au/tech/artificial-intelligence/adobe-firefly-for-photographers-and-videomakers-plans-pricing-and-what-you-can-use-it-for">digitalcameraworld</a>, <a href="https://toolradar.com/tools/adobe-firefly/pricing">toolradar</a></li>
+<li>Modele 3D de borcan (stoc, de la ~5 $): <a href="https://www.cgtrader.com/3d-models/various/various-models/3d-supplement-jar-3d-model">cgtrader</a>, <a href="https://superhivemarket.com/products/10-sport-nutrition-containers---product-packaging-collection">superhive</a></li>
+</ul>
+<h2>Fișiere</h2>
+<p><code>scripts/</code>: catalog.mjs, descarca.mjs, metadata.py, zgomot.py, incadrare.py, planse.mjs, decupaje.mjs, adnoteaza.mjs, inspecteaza.mjs, reguli-css.mjs, stil_genius.py, inainte-dupa.mjs, serve.cjs · <code>date/</code>: selecție, poze, metadata, zgomot, încadrare, inspecție, reguli CSS · <code>demo/</code>: rezultate Prime.</p>
+</main></body></html>

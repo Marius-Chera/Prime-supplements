@@ -511,3 +511,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **16.11 – poze „studio alb” pe tot site-ul (Marius):** după test, a cerut aplicarea pe toate pozele de pe site, cu îmbunătățire de calitate și același luciu și aceeași reflexie, simetric. Făcut pe 140 de poze de ambalaj (suplimente și accesorii); hainele, pachetele, tabelele și compozițiile de marketing au rămas neatinse. Verdictul final e încă așteptat; revenirea din backup e posibilă oricând.
 - **16.11 – verdict pe pozele „studio alb” (Marius): „imi plac”.** Stilul rămâne pe tot catalogul de suplimente (140 de poze). Standard pentru pozele noi: același proces (`analiza-poze-genius/scripts/decupare_ai.py` + `stil_genius.py --imbunatatire 1`, 2000 px, fundal alb, produsul la 70 % din cadru, baza la 80 %). Backup-urile de pe D: se păstrează.
 - **16.11 – comanda `/search` (Marius: „Fă comanda /search”, după reel-ul champmack):** panelul AI lunar (GEO-18) devine comanda `/search` din aplicația de pe calculator. Doar măsoară și propune; remedierile rămân în planul de după 1.12 și se aplică doar cu „da”. Prima rulare cu comanda e cea programată ~13.12.2026.
+- **16.11 – Total Admin, Cargus și Live:**
+  - Cheia Cargus exista din 2023. Marius a introdus-o el; Claude nu introduce chei sau parole, nici la cerere, nici în Chrome.
+  - Asocierea cu utilizatorul „prime.sport” a fost cerută prin e-mail de pe contact@ (Marius: „Da, trimite-l”).
+  - Conectat la 14:39. Marius a hotărât ca prima rulare Live să fie „mâine dimineață” (17.11).

@@ -1383,3 +1383,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - De acum, statusurile coletelor (Livrări, „Unde e comanda?”, colete blocate) vin din API-ul Cargus.
   - Aplicația e încă în **modul umbră**: nu emite nimic.
   - **Următorul pas, decizia lui Marius din 13.11:** trecerea pe Live. Prima rundă = 1–2 comenzi plătite cu cardul, verificate împreună. Comenzile respective nu se procesează și în aplicația veche.
+- 16.11: **Prima rulare Live Total Admin stabilită pentru 17.11, dimineața**, înainte de ridicarea Cargus de la 14:00 (Marius: „Da, mâine dimineață”). Prima rundă = 1–2 comenzi plătite cu cardul, verificate împreună. Lista de verificare e în `livrare/PRIMA-RULARE-LIVE-2026-11-17.md`.

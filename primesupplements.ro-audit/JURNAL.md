@@ -1462,3 +1462,20 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Așteaptă confirmarea lui Marius și răspunsul la 6 întrebări. Nu s-a scris niciun cod și nu s-a făcut niciun apel către eMAG.
 - 16.11 (seara), **zinc publicat** (Marius: „Da, publică-l”). Articolul `zinc-citrat-dozaj-optim-zinc-imunitate-evaluare` are titlul „Doza zilnică de zinc: cât zinc pe zi și zinc citrat” și scorul 100/100. Data a rămas aceeași (13.09.2026), iar textul de pe site e identic cu fișierul. Backup în `backups/blog-oportunitati-2026-11-16/`. Cu el, toate cele 5 articole din prima rundă a cozii sunt publicate.
 - 16.11 (seara), **Compari.ro: logo pus** (Marius: „pune tu logo-ul te rog”). E logo-ul Prime de pe site (`logo-prime-negru.svg`), redat la 600×150 pe fond alb; o copie e în `compari/logo-compari-600x150.png`. Compari: „Logo-ul a fost încărcat cu succes, în scurt timp va fi vizibil”.
+- 16.11 (seara), **Prime eMAG – etapa (a) construită local, cu comenzi de test** (Marius: „hai sa facem”, după ce a ales Oracle Cloud gratuit pentru IP-ul fix).
+  - **Proiectul:** `D:\Proiecte Claude\Prime Supplements\prime-emag`, cu commit local; repo-ul privat pe GitHub urmează.
+    - Cloudflare Worker + D1, aplicație în Admin Shopify fără nicio permisiune pe magazin.
+    - Se sincronizează la 5 minute, cu o întârziere aleatoare, cum cere eMAG.
+  - **Ce face:**
+    - lista comenzilor, cu filtre pe status, cine livrează, plată, dată și căutare;
+    - detaliul comenzii: produse cu cod, EAN și TVA, livrare, facturare PF/PJ cu CUI, plată și ramburs estimat;
+    - marcajul de termen: până la 15:00 pleacă azi, după 15:00 mâine, iar weekendul trece pe luni;
+    - picking list printabil;
+    - sunet și badge la comenzi noi;
+    - jurnalul apelurilor (30 de zile, fără parole) și o pagină de erori;
+    - setări: user și parolă API criptate, ora limită, anonimizarea datelor clienților la 90 de zile.
+  - **Scrierile în eMAG:** nu există nicio rută de scriere, iar comutatoarele sunt oprite.
+  - **Teste:** 19 trec, inclusiv cele pentru 429, `isError`, scrierile blocate și semnătura releului. Verificat în browser pe desktop și pe telefon.
+  - **Releul:** `prime-emag/releu/` (Node + Caddy, HTTPS prin sslip.io, cereri semnate HMAC, transmite doar la marketplace-api.emag.ro).
+    - Pașii pentru Marius: `emag/ORACLE-RELEU-PASI-2026-11-16.md`.
+    - Cheia SSH e pe PC, în `~/.ssh/prime-releu-oracle`.

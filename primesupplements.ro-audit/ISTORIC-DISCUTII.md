@@ -533,3 +533,12 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - nu face nicio scriere pe contul eMAG real fără să-l anunțe pe Marius.
 - **Decizia lui Marius:** „aplicatie tot in shopify !”, deci aplicația va fi încorporată în Admin Shopify, ca Total Admin și Prime Afiliați.
 - **Planul și întrebările deschise:** `emag/PLAN-APLICATIE-EMAG-2026-11-16.md`.
+- **16.11 – IP-ul fix pentru eMAG:**
+  - Marius a întrebat dacă există variante fără serverul de 4–5 €/lună și dacă eMAG are conector direct cu Claude sau cu Shopify. Nu există: doar conectori făcuți la comandă (ECOSIRE) sau Base.com, care pun comenzile în Shopify sau la un terț.
+  - Recomandare acceptată: **Oracle Cloud „Always Free”** (Frankfurt, trecut pe Pay As You Go, cu buget-alertă de 1 €), cu releul pe el.
+  - Riscul asumat: o eventuală suspendare a contului gratuit ar întrerupe aplicația câteva zile, până la mutarea pe Hetzner și aprobarea noului IP la eMAG.
+- **16.11 – implicite folosite până răspunde Marius:**
+  - aplicație separată „Prime eMAG”, nu secțiune în Total Admin;
+  - anonimizare la 90 de zile;
+  - termenul din weekend trece pe luni.
+  - Rămân deschise: canalul de notificare suplimentar și cum se fac azi factura și AWB-ul pentru eMAG (înainte de etapa d).

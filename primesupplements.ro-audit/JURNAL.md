@@ -1338,3 +1338,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Cerem asocierea cheii API a contului de portal contact@ (abonamentul UrgentOnlineAPI din 13.02.2023) cu utilizatorul WebExpress „prime.sport”. Mesajul citează eroarea „There is no active user with the provided credentials!”. Cheia nu e scrisă în e-mail.
   - Verificat: apare în Trimise; fără respingere în inbox.
   - Pasul următor: după răspunsul Cargus, Marius apasă din nou „Salvează și verifică” în Total Admin → Setări → Cargus.
+- 16.11: **campania de test ChatGPT Ads (2–15.11) – rezultat final:** 67 de clicuri, CTR 1,46 %, CPC 5,13 lei, 343,66 lei cheltuiți; apelul pentru crema de orez acceptat (au rulat doar cele 3 anunțuri cu cremă de orez); în Shopify 59 de sesiuni, 1 adăugare în coș, **0 comenzi**. Recomandare: fără buget plătit pe ChatGPT Ads cât timp suplimentele nu sunt permise în UE. Detalii: `chatgpt-ads/CAMPANIE-TEST-2026-11.md` §9.

@@ -112,3 +112,9 @@ Alternativă: proprietarul se loghează în ads.openai.com în browserul aplica�
 - Anunțul 2.1 a avut și o eroare de citire a paginii (landing page) – retrimis; oricum intră sub aceeași restricție de țară.
 - Opțiune: apel „Wrong policy category?” doar pentru 3.1 și 3.2 (cremă de orez = aliment). Pentru proteine, creatină, EAA și pachete un apel nu e corect: paginile și etichetele spun „supliment alimentar”.
 - **29.10: apel trimis** pentru 3.1 și 3.2 (cremă de orez), cu textul din JURNAL; ambele „review pending”. Dacă OpenAI le acceptă, campania va avea 3 anunțuri eligibile, toate cu crema de orez.
+
+## 9. Rezultatul final (campania s-a încheiat pe 15.11.2026; citit pe 16.11)
+- **Ads Manager (2–15.11):** 4.581 afișări, 3.965 persoane, **67 de clicuri**, CTR 1,46 %, CPC mediu 5,13 lei, **cheltuit 343,66 lei** din plafonul de 420. Conversii: nemăsurate („You haven't set up conversions yet”).
+- **Apelul pentru crema de orez a fost acceptat:** au rulat 3 anunțuri, toate cu crema de orez – 3.3 „Mic dejun din orez” (57 de clicuri, 294,61 lei, CTR 1,62 %), 3.2 „Creamy Rice – tort de ciocolată” (6 clicuri, 29,76 lei), 3.1 „Cremă de orez instant, 7 arome” (4 clicuri, 19,29 lei). Celelalte 10 (proteine, creatină, EAA, pachete) „Not serving” – suplimente, permise doar în SUA; 2.1 „Not approved”.
+- **Shopify (utm_source=chatgpt):** 59 de sesiuni (orez-3: 50, orez-2: 5, orez-1: 4), 1 adăugare în coș, **0 comenzi**. În același interval, „chatgpt” nu apare nici la referrer-ul comenzilor.
+- **Concluzie:** CTR-ul și CPC-ul trec pragurile (≥ 1 %, ≤ 10 lei), dar 343,66 lei au adus 0 comenzi, iar 10 din 13 anunțuri nu pot rula în România. Nu se continuă cu buget plătit până nu permite OpenAI suplimentele în UE. Creditul promoțional de 1.250 lei (la 1.250 lei cheltuiți, până pe 31.12) nu a fost atins și nu merită urmărit în aceste condiții.

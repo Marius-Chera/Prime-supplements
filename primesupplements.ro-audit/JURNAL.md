@@ -1333,3 +1333,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Pasul următor:
     - Marius verifică logarea în WebExpress cu aceleași date;
     - dacă logarea merge, cerem la ecom@cargus.ro asocierea cheii (contul de portal contact@, abonamentul UrgentOnlineAPI din 13.02.2023) cu utilizatorul „prime.sport”.
+- 16.11 (13:10): **E-mail trimis la ecom@cargus.ro** de pe contact@primesupplements.ro, cu Marius în CC (Marius: „Da, trimite-l”).
+  - Subiect: „Asociere cheie API UrgentOnline – PRIME SPORT SUPPLEMENTS S.R.L.”.
+  - Cerem asocierea cheii API a contului de portal contact@ (abonamentul UrgentOnlineAPI din 13.02.2023) cu utilizatorul WebExpress „prime.sport”. Mesajul citează eroarea „There is no active user with the provided credentials!”. Cheia nu e scrisă în e-mail.
+  - Verificat: apare în Trimise; fără respingere în inbox.
+  - Pasul următor: după răspunsul Cargus, Marius apasă din nou „Salvează și verifică” în Total Admin → Setări → Cargus.

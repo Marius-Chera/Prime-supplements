@@ -1509,3 +1509,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - restanță de 65,34 RON;
     - 12 produse vechi, cu documentație slabă, dintre care 2 respinse; ofertele nu sunt la vânzare.
     - Marius a cerut refacerea contului „de la zero”. Planul e în același fișier.
+- 16.11 (seara), **eMAG – conexiunea API reală merge.**
+  - Marius a pus userul și parola în Setări. Testul (`order/read`) prin releu a dat OK.
+  - Prima sincronizare: 0 comenzi în ultimele 30 de zile.
+  - Rută nouă, doar citire: `/api/oferte` (`product_offer/read`). Contul are **11 oferte, dintre care 9 la vânzare**, cu stocuri (20–163) și prețuri vechi; Daily Vitamin are preț invalid.
+  - Am propus fie stoc 0 pe toate, fie stoc din Oblio + regula de preț. Aștept alegerea lui Marius.
+  - Marius a confirmat identitatea în eMAG și a plătit restanța de 65,34 RON. Aștept confirmarea eMAG.

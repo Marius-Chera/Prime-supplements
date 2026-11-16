@@ -1592,3 +1592,7 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Marius a pus `SHOPIFY_API_SECRET`. Prima încercare a salvat din greșeală textul pentru Judge.me, care era în clipboard (eroare „neautorizat”); a doua a fost corectă.
   - Aplicația deschide pagina Comenzi (0 de procesat), plus Jurnal și erori și Setări.
   - **Eșecuri:** „14 eșuate în 24 h” sunt răspunsuri 502/504 ocazionale ale releului Oracle la `order/read` și `product_offer/read`, de circa 10 s. Fiecare se reia singur la următoarea rulare (5 min pentru comenzi, 15 min pentru stoc). Plus 2 erori din urcarea catalogului, deja rezolvate.
+- 17.11 (01:01), **Prime eMAG – reîncercare automată la căderile scurte ale releului** (Marius: „Da, adaug-o”).
+  - **Citirile** (comenzi, oferte) primite cu 502/503/504 se reîncearcă de 2 ori, după 3 s și apoi după 6 s.
+  - **Scrierile** (stoc, preț) nu se retrimit automat, ca să nu plece de două ori.
+  - **Teste:** 29/29, plus 3 noi. Deploy c3d18fd6. Proba de stoc după deploy: 90 de oferte verificate, toate la zi.

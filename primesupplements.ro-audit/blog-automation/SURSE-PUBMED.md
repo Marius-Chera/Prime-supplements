@@ -178,6 +178,35 @@ Verificate prin serverul PubMed (metadate + rezumat citit) pe 16.11.2026.
 | 20024932 | Abraham K și colab. Toxicology and risk assessment of coumarin: focus on human data. Mol Nutr Food Res. 2010;54(2):228-39. | 10.1002/mnfr.200900281 | doza zilnică tolerabilă de cumarină: 0,1 mg/kg corp (EFSA, confirmată); expunerea vine mai ales din scorțișoara cassia |
 | 20853872 | Woehrlin F și colab. Quantification of flavoring constituents in cinnamon: high variation of coumarin in cassia bark. J Agric Food Chem. 2010;58(19):10568-75. | 10.1021/jf102112p | 47 de probe din comerț: cumarină mult în cassia, cu variații mari (până la ~10.000 mg/kg), chiar și în același copac |
 
+## Adăugate pe 16.11.2026 (rescrierile din coada de oportunități Google: ceai diuretic, taurină, spirulină, EAA, zinc)
+
+Verificate prin eutils (esummary + rezumat citit) pe 16.11.2026. Coloana a patra spune la ce se folosește și ce NU se preia.
+
+| PMID | Citare | DOI | Ce poți spune (verificat 16.11.2026) |
+|---|---|---|---|
+| 3354491 | Laidlaw SA și colab. Plasma and urine taurine levels in vegans. Am J Clin Nutr. 1988;47(4):660-3. | 10.1093/ajcn/47.4.660 | taurină: 12 vegani vs 14 bărbați care mâncau carne, 45 vs 58 µmol/L în sânge |
+| 3676193 | Rana SK și colab. Taurine concentrations in the diet, plasma, urine and breast milk of vegans compared with omnivores. Br J Nutr. 1986;56(1):17-27. | 10.1079/bjn19860082 | taurină: lipsea din dieta vegană analizată |
+| 10198297 | Tipton KD și colab. Postexercise net protein synthesis in human muscle from orally administered amino acids. Am J Physiol. 1999;276(4):E628-34. | 10.1152/ajpendo.1999.276.4.E628 | aminoacizi după efort, 6 voluntari, 40 g (studiu mic) |
+| 10801947 | Lönnerdal B Dietary factors influencing zinc absorption. J Nutr. 2000;130(5S Suppl):1378S-83S. | 10.1093/jn/130.5.1378S | zinc: fitații și fierul scad absorbția |
+| 11849841 | Kreydiyyeh SI și colab. Diuretic effect and mechanism of action of parsley. J Ethnopharmacol. 2002;79(3):353-7. | 10.1016/s0378-8741(01)00408-1 | pătrunjel: studiu pe șobolani |
+| 17804183 | Wright CI și colab. Herbal medicines as diuretics: a review of the scientific evidence. J Ethnopharmacol. 2007;114(1):1-31. | 10.1016/j.jep.2007.07.023 | recenzie despre plantele folosite tradițional ca diuretice |
+| 18325648 | Shao A și colab. Risk assessment for the amino acids taurine, L-glutamine and L-arginine. Regul Toxicol Pharmacol. 2008;50(3):376-99. | 10.1016/j.yrtph.2008.01.004 | taurină: la adulții sănătoși, suplimentele de până la 3 g pe zi au fost considerate sigure (evaluare de risc) |
+| 18330140 | Joint WHO/FAO/UNU Expert Consultation Protein and amino acid requirements in human nutrition. World Health Organ Tech Rep Ser. 2007;(935):1-265, back cover. | – | raportul OMS/FAO/UNU 2007 despre necesarul de proteine și aminoacizi (fără DOI) |
+| 19678785 | Clare BA și colab. The diuretic effect in human subjects of an extract of Taraxacum officinale folium over a single day. J Altern Complement Med. 2009;15(8):929-34. | 10.1089/acm.2008.0152 | păpădie: 17 voluntari, o singură zi, fără placebo (studiu pilot) |
+| 21793723 | Marles RJ și colab. United States pharmacopeia safety evaluation of spirulina. Crit Rev Food Sci Nutr. 2011;51(7):593-604. | 10.1080/10408391003721719 | spirulină: evaluarea de siguranță a Farmacopeei SUA (clasa A) |
+| 22451437 | Churchward-Venne TA și colab. Supplementation of a suboptimal protein dose with leucine or essential amino acids: effects on myofibrillar protein synthesis at rest and following resistance exercise in men. J Physiol. 2012;590(11):2751-65. | 10.1113/jphysiol.2012.228833 | 24 de bărbați: doar proteina din zer a menținut sinteza crescută la 3–5 ore |
+| 23170060 | Ripps H și colab. Review: taurine: a "very essential" amino acid. Mol Vis. 2012;18:2673-86. | – | taurină: definiție, rolul în sărurile biliare (nu prelua partea despre boli) |
+| 23914218 | Roohani N și colab. Zinc and its importance for human health: An integrative review. J Res Med Sci. 2013;18(2):144-57. | – | zinc: grupuri cu nevoi mai mari, fitați |
+| 23939641 | Trayes KP și colab. Edema: diagnosis and management. Am Fam Physician. 2013;88(2):102-10. | – | edemul (retenția de apă): cauze și evaluare medicală |
+| 24259556 | Wegmüller R și colab. Zinc absorption by young adults from supplemental zinc citrate is comparable with that from zinc gluconate and higher than from zinc oxide. J Nutr. 2014;144(2):132-6. | 10.3945/jn.113.181487 | zinc: absorbția din citrat, gluconat și oxid, 15 adulți |
+| 24723963 | Carneiro DM și colab. Randomized, Double-Blind Clinical Trial to Assess the Acute Diuretic Effect of Equisetum arvense (Field Horsetail) in Healthy Volunteers. Evid Based Complement Alternat Med. 2014;2014:760683. | 10.1155/2014/760683 | coada-calului: 36 de bărbați sănătoși, 4 zile, extract standardizat (studiu mic) |
+| 27053525 | Moberg M și colab. Activation of mTORC1 by leucine is potentiated by branched-chain amino acids and even more so by essential amino acids following resistance exercise. Am J Physiol Cell Physiol. 2016;310(11):C874-84. | 10.1152/ajpcell.00374.2015 | EAA vs BCAA vs leucină, 8 sportivi (studiu mic) |
+| 31780031 | Moradi S și colab. Effects of Spirulina supplementation on obesity: A systematic review and meta-analysis of randomized clinical trials. Complement Ther Med. 2019;47:102211. | 10.1016/j.ctim.2019.102211 | spirulină: meta-analiză mai veche, doar 5 studii; NU folosi ca promisiune de slăbire |
+| 32133854 | Grosshagauer S și colab. The True Value of Spirulina. J Agric Food Chem. 2020;68(14):4109-4115. | 10.1021/acs.jafc.9b08251 | spirulină: contaminanți și vitamina B12 (forma din spirulină nu e activă la om) |
+| 37317149 | Rhoades J și colab. Microbiota and Cyanotoxin Content of Retail Spirulina Supplements and Spirulina Supplemented Foods. Microorganisms. 2023;11(5):. | 10.3390/microorganisms11051175 | spirulină/alge: microcistine găsite în toate cele 5 produse testate (de ce contează analizele) |
+| 38999082 | Schoofs H și colab. Zinc Toxicity: Understanding the Limits. Molecules. 2024;29(13):. | 10.3390/molecules29133130 | zinc: limita UE de 25 mg/zi (SCF/EFSA), limita SUA de 40 mg, riscul de deficit de cupru |
+| 40528207 | Lak M și colab. Effects of spirulina supplementation on body composition in adults: a GRADE-assessed and dose-response meta-analysis of RCTs. Nutr Metab (Lond). 2025;22(1):61. | 10.1186/s12986-025-00959-4 | spirulină: meta-analiză, 17 studii randomizate, diferențe mici la greutate; NU folosi ca promisiune de slăbire |
+
 ## De adăugat (verificate înainte de folosire)
 
-Teme încă fără surse în bibliotecă (după 13.11.2026): zinc, EAA ca formulă, beta-alanină, citrulină, NAC, ashwagandha, taurină, L-carnitină, fibre, ovăz. Prima rulare care scrie despre una dintre ele verifică 3–6 studii prin eutils și le trece aici (prin sesiunea de pe calculator, care are acces la repo).
+Teme încă fără surse în bibliotecă (după 13.11.2026): beta-alanină, citrulină, NAC, ashwagandha, L-carnitină, fibre, ovăz (zinc, EAA și taurină au surse din 16.11). Prima rulare care scrie despre una dintre ele verifică 3–6 studii prin eutils și le trece aici (prin sesiunea de pe calculator, care are acces la repo).

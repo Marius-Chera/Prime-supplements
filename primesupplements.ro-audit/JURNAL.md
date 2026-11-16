@@ -1425,3 +1425,27 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Așteaptă de la Marius:** da/nu pentru ordinea cozii, pentru cele 2 titluri și pentru varianta (a) sau (b) la `aminoacizi-esentiali-dozaj`.
 - 16.11 (seara), **Creatină Creapure®: dovada din lista oficială creapure.com, mai vizibilă** (cererea lui Marius: „poză sau link ca să demonstrăm că suntem 100% autentici”). Verificat pe creapure.com/en/buy-here: Prime Supplements apare la România cu produsul „Creatina” (linkul lor duce la vechiul `/produs/creatina-creapure/`, care face 301 corect spre `/products/creatina-creapure`). Pagina avea deja textul și o captură din iunie 2025, dar cele 3 linkuri duceau la prima pagină creapure.com, unde nu se vede nimic despre noi. Am făcut: (1) captură nouă, reală, cu Chrome din pagina lor (`creapure-dovada/captura-creapure.mjs`), doar cardul Prime (fără ceilalți 4 de la România, între care și furnizorul), încadrată cu adresa paginii și data, urcată ca a 2-a poză în galerie (`creapure-lista-oficiala-prime-supplements.png`); captura veche a rămas ultima în galerie; (2) cele 3 linkuri (descriere, `custom.despre_produs`, `custom.seo_produs`) duc acum direct la `https://www.creapure.com/en/buy-here/`, în fereastră nouă, cu textul „lista oficială de pe creapure.com”. Backup înainte/după în `creapure-dovada/backup/`. Verificat pe site. Idee rămasă: codul QS de 6 cifre de pe sigiliul Creapure (dacă tubul îl are) – cea mai puternică dovadă, verificabilă de client pe creapure.com.
 - 16.11 (seara), **Creapure: captura veche (iunie 2025) scoasă din galeria produsului** (Marius: „Da, șterge-o”). A fost doar detașată de produs; fișierul `creapure.jpg` rămâne în Shopify → Fișiere, iar copia e în `creapure-dovada/backup/creapure-captura-veche-iunie-2025.jpg`. Galeria are acum: tubul de 500 g + captura nouă din lista oficială creapure.com. Verificat pe site.
+- 16.11 (seara), **oportunitățile Google: prima rundă aplicată** (Marius: „Da, începe”).
+  - **2 titluri SEO schimbate și verificate live.** Backup: `backups/blog-titluri-2026-11-16/`.
+    - `magneziu-seara-somn-il-iei-doza` → „Magneziu seara sau dimineața: când îl iei și ce doză”, cu meta nouă și fără „somn”.
+    - `gainer-ce-este-cum-functioneaza-cine-are-nevoie` → „Gainer: ce este, cum funcționează și cine îl folosește”.
+  - **4 articole rescrise și publicate.** Adresa și data rămân aceleași, scorul e 100 SEO / 100 AI, iar textul de pe site e identic cu fișierul. Sursele sunt în `blog-automation/rescrieri-oportunitati-2026-11-16/`, backup-ul în `backups/blog-oportunitati-2026-11-16/`.
+    - **Ceai diuretic:** titlu nou și tabel cu 5 plante, fără efecte promise. Water Out apare doar factual, iar colecția legată e Prime Health, nu arzătoarele.
+    - **Taurina:** preia și intenția „ce este taurina”, cu secțiunea H2 „Contraindicații și precauții”. Produsul `taurine-80-caps` e legat.
+    - **Spirulina:** titlul a rămas aproape la fel, fiind pe locul 3,4. Partea despre slăbire e redusă la „diferențe mici, nu e un produs de slăbit”, fără cifre în kg, ajustată de Claude la verificare.
+    - **EAA:** articolul trimite clar spre produsul EAA, ca să nu mai concureze cu el.
+    - **Studii:** 21 de surse PubMed noi, verificate cu eutils, sunt trecute în `blog-automation/SURSE-PUBMED.md`. Copia din Shopify Files folosită de rutina zilnică rămâne cea din 13.11.
+  - **Zinc: rescris, dar NEPUBLICAT.** Textul spune deschis că produsul Citrat de zinc 40 mg depășește limita superioară UE de 25 mg pe zi (SCF/EFSA). E corect, dar sensibil, așa că decide Marius.
+  - **Pentru `aminoacizi-esentiali-dozaj` s-a ales varianta (b):** rescriere pe „când se iau EAA”, la următorul lot.
+  - **Observații:**
+    - `taurina-efecte-secundare` concurează cu articolul de taurină la „contraindicații” și, ca și `taurina-rezultate-30-de-zile`, conține „tensiune”; ambele trebuie rescrise.
+    - Articolul `potasiu-si-retentia-de-apa` are în rezumat o afirmație de efect.
+    - Descrierea pachetului „Pachet Iarnă Complet” spune 159 de lei, dar prețul variantei e 163 de lei.
+- 16.11 (seara), **Compari.ro: cont PPC creat** (Marius: „hai să facem cont pe compari.ro”, apoi „am ales ppc, te rog completează datele”).
+  - **Contul:** contact@primesupplements.ro, identificator partener 243256. Parola a pus-o Marius.
+  - **Datele de facturare:** PRIME SPORT SUPPLEMENTS SRL, J32/1155/2022, RO46260823, Cisnădie. Compari le verifică.
+  - **Datele magazinului:** telefonul 0775 286 584, Facebook, descrierea, anul 2022, livrare prin curier, plată numerar sau card, comandă prin coș.
+  - **Feed-ul:** construit în Prime Vizibilitate, la adresa publică `https://prime-indexare.prime-expediere.workers.dev/feed/compari.xml`.
+    - E făcut din `/products.json`, cu cache de 6 ore, deci fără nicio permisiune pe magazin.
+    - Conține 407 variante disponibile, cu preț, poză și descriere. Livrarea e 20 de lei sub 300 de lei și gratuită de la 300 de lei, conform profilului Shopify. EAN-ul se trimite doar dacă e valid, iar codurile interne 400… sunt excluse.
+    - Compari a confirmat: „Feed-ul este accesibil sistemului nostru”. **Urmează aprobarea lor.** Abia după aprobare se încarcă soldul PPC; bugetul propus pentru test e 100–200 de lei și îl decide Marius. Compari cere să nu se solicite factură până la aprobare.

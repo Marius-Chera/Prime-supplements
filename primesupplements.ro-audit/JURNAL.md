@@ -1393,3 +1393,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - Tema live nu poate fi scrisă prin API, iar editorul de temă nu s-a randat nici în browserul intern, nici în Chrome. Claude a făcut copia **„Prime – meniu mobil fonturi (16.11)”** (ID 194333507959) din tema live „Prime – revenire după campanie (16.11)” și a pus corectura în copie.
 - Verificat cu `?preview_theme_id=194333507959` la 375 px: toate elementele din meniu sunt Poppins 24px, 700, fără majuscule forțate.
 - **Pas pentru Marius:** publică tema copie din Online Store → Themes. Copia e făcută pe 16.11, deci orice modificare pe tema live după ora aceea trebuie refăcută.
+- 16.11: Marius a publicat tema „Prime – meniu mobil fonturi (16.11)” (194333507959), acum e tema live. Verificat pe site: Shop și Îmbrăcăminte sunt Poppins 700, ca restul meniului.

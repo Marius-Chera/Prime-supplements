@@ -1564,3 +1564,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Shopify Dev Dashboard** → aplicația 447981223937 → Settings → **App icon**, urcată de Claude din Chrome. Verificat: imaginea de pe CDN-ul Shopify are 1200 px și arată la fel.
   - **În aplicație** (Worker `prime-indexare`): `/icon.svg` (și `/favicon.ico`), apoi favicon și logo în antetul negru. Codul e în `src/icon.ts`. Testele (23/23) și tsc au trecut, apoi s-a făcut deploy (versiunea 0e8fb408).
 - 17.11, **SEO săptămânal în Prime Vizibilitate, etapa 1 (doar analiză)**, cerută de Marius („tool care să lucreze săptămânal la SEO … 100/100 pe nișă”). Raportul e în `seo/SEO-SAPTAMANAL-ETAPA-1-ANALIZA-2026-11-17.md`; nu s-a scris cod și nu s-a schimbat nimic în Shopify. Verdict: **da** pentru scorul de execuție (tehnic, on-page, date structurate, acoperirea subiectelor, încredere = 100 de puncte, toate în controlul nostru); **parțial** pentru rezultatele din Google/AI (urmărite, fără garanție). Lipsesc: scorul compus, auditul on-page pe produs, PageSpeed API, scope-urile de citire Shopify și coada de propuneri cu filtrul UE. Cost estimat 0–25 lei pe lună; 6–9 sesiuni de lucru, în ordinea 2 → 4 → 3 → 5 → 6 → (7). Se așteaptă OK-ul lui Marius.
+- 17.11, **eMAG – unturile urcate, Frutilu 18 blocat** (Marius: „da pune si frutilu pachetul de 18 bucati , pune si unturile”).
+  - **Urcate:** untul de arahide (id 300, 54,99 lei, stoc 28) și untul de migdale (id 301, 112,99 lei, stoc 16).
+    - Categoria: 4026 „Alte suplimente nutriție sportivă” (forma „Pasta”). Categoriile de supermarket nu sunt deschise contului.
+    - Ambele sunt în validare și intră în sincronizarea stocului la 15 minute.
+  - **Neurcat – untul de caju:** EAN-ul 6427616427536 e invalid (cifra de control) și trebuie luat de pe borcan.
+  - **Neurcat – Frutilu set 18:** n-are EAN (SKU „FRUTILU-18”), iar stocul e 0 în Shopify.
+  - **Generatorul de fișe:** id-urile existente se iau acum din eMAG după EAN, iar produsele noi încep de la 300. Așa, o retrimitere nu mai poate suprascrie altă ofertă.

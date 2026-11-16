@@ -3,7 +3,7 @@
 Marius: „urca toate produsele din shopify in emag” și „construieste cel mai complet profil emag posibil imagineaza-ti ca esti agentul nostru de vanzari de pe emag”. Prețul: „preț site + comision”.
 
 ## Rezultat pe scurt
-- **88 de oferte trimise** prin `product_offer/save` (aplicația Prime eMAG, releul cu IP fix), pentru **50 de produse** de suplimente și alimente din Shopify. Sunt toate variantele eligibile cu stoc, una per aromă sau gramaj.
+- **90 de oferte trimise** (88 pe 16.11 + cele 2 unturi pe 17.11) prin `product_offer/save` (aplicația Prime eMAG, releul cu IP fix), pentru **52 de produse** de suplimente și alimente din Shopify. Sunt toate variantele eligibile cu stoc, una per aromă sau gramaj.
 - **10 sunt LIVE**: ofertele vechi cu documentație aprobată, acum cu prețul nou, stocul din Shopify și statusul activ. Exemplu: [Pure Isolate Ciocolată 2 kg](https://www.emag.ro/pure-isolate-ciocolata-2kg-6421766015185/pd/D34NF83BM/), la 621,99 lei, în stoc, „Vândut și livrat de PRIME SPORT SUPPLEMENTS SRL”.
 - **78 sunt „În curs de validare”** la echipa de catalog eMAG: 76 de produse noi și cele 2 vechi respinse (Pure Isolate Caffè Latte și Salted Caramel), retrimise acum cu poze. Durata obișnuită e de 1–3 zile lucrătoare. Ce intră în vânzare după aprobare apare în eMAG → Produsele mele → Documentare aprobată.
 - Nicio fișă n-a fost respinsă în momentul trimiterii. Respingerile apar, dacă apar, după revizia eMAG; se citesc cu `node citeste.mjs` (vezi „Cum se reia”).
@@ -46,7 +46,10 @@ Vechile 4022/4025/4026 sunt aceleași categorii. Omega-3 și Daily Vitamin s-au 
 2. **Combat Pro, EAN 0704384490913:** în eMAG, oferta veche se numea „Combat PRO Mojito”, dar în Shopify acest EAN e aroma Forest Fruits (Mojito are 0704384490906). Am urcat după Shopify. **De verificat pe o cutie fizică** care aromă are codul ...913.
 3. **2 EAN-uri cu 12 cifre** (Prime Whey Go Chocolate Coconut 642176606347 și Toffee Chocolate 642176606343) trebuie corectate în Shopify (lipsește o cifră). Toffee are 77 de cutii în stoc.
 4. **Unitățile individuale sub 15 lei nu s-au urcat**: baton 55 g, fiolă Energy Pump sau Fat Burning de 25 ml, plic de creatină de 10 g. Pe eMAG ar ieși 10,99 / 11,99 / 5,99 lei și nu acoperă transportul. Pe eMAG sunt cutiile (12 batoane, 20 de fiole, 25 de plicuri). Dacă le vrei și individual, spune-mi.
-5. **Nu s-au urcat, fiindcă nu erau în brief (suplimente) sau au alt comision:** untul de arahide, migdale și caju Prime Health (categorie alimentară, cu comision neconfirmat în anexă) și băuturile Frutilu (alt brand). Pot fi adăugate după ce afli comisionul.
+5. **Unturile și Frutilu (17.11, Marius: „da pune si frutilu pachetul de 18 bucati , pune si unturile”):**
+   - **Untul de arahide** (id 300, 54,99 lei) și **untul de migdale** (id 301, 112,99 lei) sunt urcate în 4026 „Alte suplimente nutriție sportivă”. Categoriile de supermarket (creme tartinabile, băuturi instant) nu sunt deschise contului; 4026 are forma „Pasta”, comisionul e 18 %, iar ofertele sunt în validare.
+   - **Untul de caju NU** s-a urcat: EAN-ul 6427616427536 are cifra de control greșită (corect ar fi …535, care e deja codul untului de arahide). Trebuie citit EAN-ul real de pe borcan și corectat în Shopify.
+   - **Frutilu set 18 plicuri NU** s-a urcat: în Shopify are SKU-ul text „FRUTILU-18”, fără cod de bare, iar eMAG cere EAN obligatoriu în categorie. Stocul e 0 în Shopify (setul nu e bundle), deci sincronizarea l-ar ține oricum la 0.
 6. **Familia pe aromă la 3 oferte vechi** (Pure Isolate Ciocolată id 4, Prime Whey Caramel sărat id 12, EAA Peach id 11) n-a fost acceptată cât timp actualizarea lor e în validare („Please provide product characteristic values for the given family type”). Se retrimite după aprobare; până atunci apar ca pagini separate de restul aromelor.
 7. ~~Sincronizarea stoc + preț Shopify → eMAG~~ **făcută pe 16.11, 23:12**: rulează la 15 minute (vezi JURNAL).
 8. **Campania Chillmas Deals** (până pe 23.11, cu discount la comision) se poate înscrie din Campanii după ce produsele sunt aprobate.

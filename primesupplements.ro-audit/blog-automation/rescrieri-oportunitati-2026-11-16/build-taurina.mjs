@@ -71,7 +71,7 @@ const AUTHOR = `<div class="author author-box" style="margin-top: 40px; padding:
 // Articole publicate (isPublished: true), imaginile lor reale (image.url), verificate prin Admin API pe 16.11.2026.
 const A = 'https://cdn.shopify.com/s/files/1/0917/5138/3415/articles/';
 const RELATED = [
-  { handle: 'taurina-efecte-secundare', title: 'Taurina: efecte secundare, contraindicații și semne de risc', img: A + 'blog-aminoacizi-taurine-80-caps-budget-smart-1779865351306.png?v=1779952206', summary: 'Ce efecte nedorite pot apărea la taurină și când întrebi medicul.' },
+  { handle: 'taurina-efecte-secundare', title: 'Taurina: efecte secundare și ce spun evaluările de siguranță', img: A + 'blog-aminoacizi-taurine-80-caps-budget-smart-1779865351306.png?v=1779952206', summary: 'Ce efecte nedorite pot apărea la taurină și când întrebi medicul.' },
   { handle: 'bcaa-doza-si-cand-se-iau', title: 'BCAA: doza corectă, pragul de leucină și când se iau', img: A + 'blog-l-glutamina-recovery-bcaa-500g-bioavailability-why-1786550552683.png?v=1792128594', summary: 'Doza de BCAA de pe etichetă și ce înseamnă „pragul de leucină”.' },
   { handle: 'cand-se-ia-glutamina', title: 'Când se ia glutamina: dimineața, seara sau după antrenament', img: A + 'blog-cand-se-ia-glutamina.jpg?v=1794568320', summary: 'Eticheta nu fixează ora: o porție pe zi, în 200 ml de apă.' },
 ];
@@ -176,7 +176,7 @@ ${table(['Ce compari', 'Cantitatea de taurină', 'De unde vine cifra'], [
   <li><strong>Copiii:</strong> produsul nu este pentru copii; flaconul se ține la îndemâna adulților, nu a copiilor mici.</li>
   <li><strong>Alergii sau intoleranțe:</strong> verifică lista de ingrediente de pe flacon înainte de prima capsulă.</li>
 </ul>
-<p>O precauție practică este cumulul de surse. Taurina apare și în multe băuturi energizante și în unele produse pre-workout, așa că aduni miligramele de pe toate etichetele și nu treci de doza zilnică a produsului pe care îl iei. Pentru efectele nedorite raportate, avem un ghid separat: <a href="/blogs/news/taurina-efecte-secundare">taurina: efecte secundare și semne de risc</a>.</p>
+<p>O precauție practică este cumulul de surse. Taurina apare și în multe băuturi energizante și în unele produse pre-workout, așa că aduni miligramele de pe toate etichetele și nu treci de doza zilnică a produsului pe care îl iei. Pentru efectele nedorite raportate, avem un ghid separat: <a href="/blogs/news/taurina-efecte-secundare">taurina: efecte secundare și ce spun evaluările de siguranță</a>.</p>
 
 <h3>Ce conține o capsulă</h3>
 <p>Pe lângă taurină, capsula conține doar ingrediente tehnologice: celuloză microcristalină ca agent de încărcare și ulei hidrogenat de bumbac, dioxid de siliciu și stearat de magneziu ca antiaglomeranți. Nu are arome, zahăr sau cafeină în lista de ingrediente.</p>

@@ -17,7 +17,9 @@ Cerută de Marius pe 16.11: aplicație în Shopify, cu punctele 1–3 din cele 1
 Ce **nu** se poate face automat: forțarea Google (Indexing API e doar pentru joburi și transmisiuni live) și IndexNow (Shopify nu permite fișierul cheie la rădăcina domeniului). Bing Shopping se face din Microsoft Merchant Center (`recenzii/04-MICROSOFT-MERCHANT-CENTER.md`), nu din aplicație.
 
 ## Pașii tăi (o singură dată)
-### 1. Aplicația în Shopify Admin (circa 5 minute)
+### 1. Aplicația în Shopify Admin – FĂCUT 16.11
+**Stare 16.11:** aplicația e creată (Dev Dashboard id 447981223937, versiunea `v1-fara-permisiuni`, Client ID în `wrangler.jsonc`), secretul e pus de Marius și aplicația e instalată. Dev Dashboard nu are „Install app” pentru magazinul real (doar „Test app”, pentru magazinele de dezvoltare), așa că instalarea se face din `https://admin.shopify.com/store/primesupplements1/oauth/install?client_id=<Client ID>`. Social: Zernio conectat, FB + IG bifate, mod „cu aprobare”. Gemini: cheia de pe proiectul plătit „Imagini blog shopify”.
+
 1. https://dev.shopify.com → **Apps** → **Create app** → „Start from Dev Dashboard”, nume **Prime Vizibilitate**.
 2. La versiune: **App URL** = `https://prime-indexare.prime-expediere.workers.dev/`, **Embed app in Shopify admin** = da. **Fără niciun scope** (nicio permisiune). **Release**.
 3. Copiază **Client ID** și spune-mi-l (e public; îl pun eu în configurație).

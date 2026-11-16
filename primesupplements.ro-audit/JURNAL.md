@@ -1534,3 +1534,22 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - TVA în eMAG: `vat_id` 9 = 21 % (implicit), 10 = 11 %, 5 = 0 %.
   - Urmează catalogul complet din Shopify: ~45 de produse / ~90 de variante de suplimente cu EAN, fără haine.
 - 16.11, prima rulare a extensiei în Judge.me: oprită înainte de orice modificare. Capturile eșuau, fiindcă Chrome era pe tot ecranul 4K. Aflat: cererile automate sunt deja pornite („Requests enabled”), cu 724 de cereri în ultimele 30 de zile și nota medie 4,93. Detalii: `recenzii/07-CONFIGURARE-FLUX-EXTENSIE-2026-11-16.md`.
+- 16.11 (noaptea), **eMAG – catalogul complet urcat din Shopify** (Marius: „urca toate produsele din shopify in emag”, „construieste cel mai complet profil emag posibil”).
+  - **Volum:** 88 de oferte pentru 50 de produse de suplimente și alimente, una per aromă sau gramaj, cu stocul din Shopify.
+  - **Preț:** preț site ÷ 0,82, rotunjit la ,99.
+  - **Fișa:** caracteristici validate pe lista eMAG, familii pe aromă, poze per aromă, GPSR (Prime Sport Supplements SRL).
+  - **Lotul-pilot** (Pure Isolate Ciocolată, Prime Whey Caramel sărat, Creapure 500 g, Omega-3, Magneziu) e OK.
+    - Prețurile noi se aplică în eMAG cu ~2 minute întârziere.
+    - Scrierile trebuie împachetate în `{data:[…]}`.
+    - La ofertele vechi, numele și `part_number` nu se pot schimba odată.
+  - **Statusuri:** 10 oferte LIVE (cele vechi aprobate, acum la prețul nou) și 78 „În curs de validare” la eMAG.
+  - **Neurcate:**
+    - 3 EAN-uri deja folosite în eMAG pentru alte produse (cutia de batoane cu caramel sărat, scorțișoara, Cluster Bomb Ananas);
+    - 2 EAN-uri cu 12 cifre (Whey Go);
+    - unitățile individuale sub 15 lei;
+    - variantele cu stoc 0;
+    - untul de nuci și Frutilu (în afara brief-ului).
+  - **De verificat:** EAN-ul 0704384490913 (în eMAG era „Combat PRO Mojito”, în Shopify e Forest Fruits).
+  - **Categoriile:** id-urile din anexa de comision sunt `scm_id`. Categoriile API sunt 4022/4023/4024/4025/4026/3039/4029.
+  - **Prime eMAG:** `/api/catalog/apel` acceptă și `documentation/find_by_eans` (GET, doar cifre). Scripturile sunt în `prime-emag/catalog/`.
+  - **Raportul complet:** `emag/CATALOG-EMAG-2026-11-16.md`.

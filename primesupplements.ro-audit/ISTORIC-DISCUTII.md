@@ -544,3 +544,12 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Rămân deschise: canalul de notificare suplimentar și cum se fac azi factura și AWB-ul pentru eMAG (înainte de etapa d).
 - **16.11 – eMAG „de la zero”:** Marius: „nu sunt produsele incarcate pe cont nu e absolut nimic bine la el ,te rog fa tu de la zero tot si optimizeaza tot”. Asta ridică pentru contul eMAG regula din brief „nu atinge ofertele/prețurile/stocul”, dar fiecare pas de scriere (lot-pilot, regula de preț) se face cu aprobarea lui. Planul: `emag/AUDIT-CONT-EMAG-2026-11-16.md`.
 - **16.11 – prețul pe eMAG:** Marius a ales „Preț site + comision”. Comisionul la suplimente e de 18 % (anexa din 30.09.2026), deci preț eMAG = preț site ÷ 0,82, rotunjit la ,99. Transportul se setează separat.
+- **16.11 – catalogul eMAG (decizii aplicate):**
+  - Marius: „construieste cel mai complet profil emag posibil imagineaza-ti ca esti agentul nostru de vanzari de pe emag”.
+  - **Ce s-a urcat:** toate variantele de suplimente/alimente cu EAN valid și stoc, câte o fișă per aromă, grupate în familii.
+  - **Ce nu s-a urcat:**
+    - unitățile individuale sub 15 lei (baton, fiolă, plic), care pe eMAG nu acoperă transportul; se urcă doar cutiile;
+    - untul de nuci Prime Health și Frutilu, pentru că comisionul la alimente nu e confirmat, respectiv sunt alt brand.
+    - Ambele pot fi schimbate la cererea lui Marius.
+  - **Arzătoarele:** categoria „Produse detoxifiere și slăbire”, fără caracteristica „Beneficii” și fără promisiuni.
+  - **Raportul:** `emag/CATALOG-EMAG-2026-11-16.md`.

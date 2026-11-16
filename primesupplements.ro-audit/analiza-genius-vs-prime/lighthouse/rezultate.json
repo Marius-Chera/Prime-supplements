@@ -1,0 +1,3951 @@
+{
+ "prime_home_mobile_1": {
+  "site": "prime",
+  "key": "home",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:17:18.866Z",
+  "perf": 67,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 3053.116,
+  "cls": 0,
+  "tbt": 1602.4999999999995,
+  "fcp": 1452.116,
+  "si": 2996.0580136797807,
+  "ttfb": 28,
+  "totalBytes": 3525494,
+  "requests": 288,
+  "byType": {
+   "Document": {
+    "n": 6,
+    "bytes": 163093
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1279691
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 57362
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 106279
+   },
+   "Image": {
+    "n": 50,
+    "bytes": 1057165
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3379
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 7876
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   },
+   "Other": {
+    "n": 82,
+    "bytes": 805844
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_mobile_1": {
+  "site": "genius",
+  "key": "home",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:17:45.554Z",
+  "perf": 44,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 12390.558375000004,
+  "cls": 0.02559453726342307,
+  "tbt": 1450.500000000001,
+  "fcp": 1686.342,
+  "si": 5569.446118927301,
+  "ttfb": 146,
+  "totalBytes": 35609647,
+  "requests": 255,
+  "byType": {
+   "Document": {
+    "n": 2,
+    "bytes": 115919
+   },
+   "Other": {
+    "n": 20,
+    "bytes": 529736
+   },
+   "Stylesheet": {
+    "n": 16,
+    "bytes": 48462
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 345449
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1699140
+   },
+   "Image": {
+    "n": 51,
+    "bytes": 2079096
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3401
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 30492313
+   },
+   "Fetch": {
+    "n": 33,
+    "bytes": 210837
+   },
+   "Preflight": {
+    "n": 6,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 10,
+    "bytes": 85294
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_home_mobile_2": {
+  "site": "prime",
+  "key": "home",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:18:20.787Z",
+  "perf": 73,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2888.2179000000006,
+  "cls": 0,
+  "tbt": 997.0805549621582,
+  "fcp": 1478.4363450378419,
+  "si": 2630.1776370000584,
+  "ttfb": 30,
+  "totalBytes": 3632275,
+  "requests": 338,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 160522
+   },
+   "Other": {
+    "n": 138,
+    "bytes": 985791
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1242506
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105874
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25416
+   },
+   "Image": {
+    "n": 50,
+    "bytes": 1057089
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3389
+   },
+   "Fetch": {
+    "n": 17,
+    "bytes": 6883
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_mobile_2": {
+  "site": "genius",
+  "key": "home",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:18:45.301Z",
+  "perf": 42,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 14982.009750000008,
+  "cls": 0.02559453726342307,
+  "tbt": 1109.5000000000014,
+  "fcp": 1855.9656,
+  "si": 9119.56262501538,
+  "ttfb": 45,
+  "totalBytes": 14563433,
+  "requests": 250,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 114081
+   },
+   "Other": {
+    "n": 23,
+    "bytes": 537408
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 51089
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 344941
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1710473
+   },
+   "Image": {
+    "n": 49,
+    "bytes": 1841677
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3395
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 9687560
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 195462
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 11,
+    "bytes": 77347
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_home_mobile_3": {
+  "site": "prime",
+  "key": "home",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:19:15.956Z",
+  "perf": 68,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 3844.9146,
+  "cls": 0,
+  "tbt": 852,
+  "fcp": 1640.1571,
+  "si": 2888.245887262642,
+  "ttfb": 27,
+  "totalBytes": 3286338,
+  "requests": 283,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 160518
+   },
+   "Other": {
+    "n": 82,
+    "bytes": 802204
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1078863
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105873
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25351
+   },
+   "Image": {
+    "n": 50,
+    "bytes": 1057279
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3384
+   },
+   "Fetch": {
+    "n": 17,
+    "bytes": 8052
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45994
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_mobile_3": {
+  "site": "genius",
+  "key": "home",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:19:37.962Z",
+  "perf": 44,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 13572.547150000002,
+  "cls": 0.02559453726342307,
+  "tbt": 1233.9999999999995,
+  "fcp": 1565.6021999999998,
+  "si": 6474.905100320172,
+  "ttfb": 105,
+  "totalBytes": 20778280,
+  "requests": 244,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 114088
+   },
+   "Other": {
+    "n": 19,
+    "bytes": 520556
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 50224
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 345002
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1697933
+   },
+   "Image": {
+    "n": 51,
+    "bytes": 2077244
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3387
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 15705948
+   },
+   "Fetch": {
+    "n": 25,
+    "bytes": 191677
+   },
+   "Preflight": {
+    "n": 6,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 8,
+    "bytes": 72221
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_mobile_1": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:20:06.303Z",
+  "perf": 65,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 7068.050499999999,
+  "cls": 0,
+  "tbt": 381.5,
+  "fcp": 2105.4036000000006,
+  "si": 3157.1027252765107,
+  "ttfb": 164,
+  "totalBytes": 2688167,
+  "requests": 244,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 142675
+   },
+   "Other": {
+    "n": 77,
+    "bytes": 775353
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1279458
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105844
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 56979
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3383
+   },
+   "Image": {
+    "n": 15,
+    "bytes": 268593
+   },
+   "Fetch": {
+    "n": 19,
+    "bytes": 10372
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 46690
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_mobile_1": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:20:32.604Z",
+  "perf": 52,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 10877.138500000005,
+  "cls": 0.02559453726342307,
+  "tbt": 604,
+  "fcp": 2259.2089000000005,
+  "si": 6166.116622662157,
+  "ttfb": 456,
+  "totalBytes": 3915456,
+  "requests": 256,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 93252
+   },
+   "Other": {
+    "n": 71,
+    "bytes": 707069
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 92508
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248663
+   },
+   "Script": {
+    "n": 99,
+    "bytes": 1728540
+   },
+   "Image": {
+    "n": 20,
+    "bytes": 810439
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3392
+   },
+   "Fetch": {
+    "n": 23,
+    "bytes": 170262
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25309
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36022
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_mobile_2": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:20:55.372Z",
+  "perf": 72,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 5405.195550000002,
+  "cls": 0,
+  "tbt": 314.1625499999991,
+  "fcp": 1573.6686,
+  "si": 2975.0718361951467,
+  "ttfb": 26,
+  "totalBytes": 2507821,
+  "requests": 259,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 142964
+   },
+   "Other": {
+    "n": 91,
+    "bytes": 805497
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1098797
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105859
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 26319
+   },
+   "Image": {
+    "n": 15,
+    "bytes": 267904
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3385
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 11580
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 46696
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_mobile_2": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:21:15.596Z",
+  "perf": 55.00000000000001,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 9590.283650000003,
+  "cls": 0.02559453726342307,
+  "tbt": 548.5,
+  "fcp": 2475.1395,
+  "si": 4543.566568310943,
+  "ttfb": 211,
+  "totalBytes": 3865926,
+  "requests": 261,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 93521
+   },
+   "Other": {
+    "n": 76,
+    "bytes": 713677
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 43681
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248766
+   },
+   "Script": {
+    "n": 99,
+    "bytes": 1721330
+   },
+   "Image": {
+    "n": 20,
+    "bytes": 810054
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3390
+   },
+   "Fetch": {
+    "n": 23,
+    "bytes": 170087
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25262
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36158
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_mobile_3": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:21:35.557Z",
+  "perf": 62,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 5988.050688107302,
+  "cls": 0,
+  "tbt": 614.0000000000005,
+  "fcp": 1412.5837999999999,
+  "si": 2956.7722426935316,
+  "ttfb": 26,
+  "totalBytes": 2481810,
+  "requests": 248,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 142943
+   },
+   "Other": {
+    "n": 80,
+    "bytes": 779042
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1101273
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105846
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 26054
+   },
+   "Image": {
+    "n": 15,
+    "bytes": 267424
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3379
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 10341
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 46688
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_mobile_3": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:21:54.805Z",
+  "perf": 55.00000000000001,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 6741.33155,
+  "cls": 0.02559453726342307,
+  "tbt": 784.4999999999993,
+  "fcp": 1382.8045,
+  "si": 4394.485072933358,
+  "ttfb": 31,
+  "totalBytes": 3861530,
+  "requests": 260,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 93597
+   },
+   "Other": {
+    "n": 73,
+    "bytes": 707348
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 43622
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248632
+   },
+   "Script": {
+    "n": 100,
+    "bytes": 1722973
+   },
+   "Image": {
+    "n": 20,
+    "bytes": 810030
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3380
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 170590
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25249
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36109
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_mobile_1": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:22:14.285Z",
+  "perf": 61,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 4280.6776,
+  "cls": 0,
+  "tbt": 1099.3583999999996,
+  "fcp": 1543.4386,
+  "si": 3371.3934168646674,
+  "ttfb": 178,
+  "totalBytes": 2916682,
+  "requests": 286,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157199
+   },
+   "Other": {
+    "n": 88,
+    "bytes": 866877
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1074982
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141499
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 73456
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 457112
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3382
+   },
+   "Fetch": {
+    "n": 28,
+    "bytes": 101450
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 46685
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_mobile_1": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:22:36.925Z",
+  "perf": 42,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 10746.492545586632,
+  "cls": 0.035408707149844586,
+  "tbt": 929,
+  "fcp": 2302.9141000000004,
+  "si": 10366.21345544907,
+  "ttfb": 162,
+  "totalBytes": 5635996,
+  "requests": 370,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 122538
+   },
+   "Other": {
+    "n": 101,
+    "bytes": 767413
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 96032
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307773
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1825733
+   },
+   "Image": {
+    "n": 71,
+    "bytes": 2185100
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3391
+   },
+   "Fetch": {
+    "n": 35,
+    "bytes": 206281
+   },
+   "Preflight": {
+    "n": 11,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 85618
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36117
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_mobile_2": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:23:04.346Z",
+  "perf": 78,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 3340.9592000000007,
+  "cls": 0.05295055340661557,
+  "tbt": 501.5000000000009,
+  "fcp": 1417.6526,
+  "si": 2477.1110026111082,
+  "ttfb": 25,
+  "totalBytes": 2926589,
+  "requests": 291,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157526
+   },
+   "Other": {
+    "n": 94,
+    "bytes": 875828
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1108064
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141555
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 42550
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 457683
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3382
+   },
+   "Fetch": {
+    "n": 26,
+    "bytes": 99273
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 46688
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_mobile_2": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:23:24.425Z",
+  "perf": 31,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 6148.1473,
+  "cls": 0.30366249666003187,
+  "tbt": 1088.5,
+  "fcp": 1657.1409000000003,
+  "si": 8894.467079976388,
+  "ttfb": 110,
+  "totalBytes": 5348800,
+  "requests": 304,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 122965
+   },
+   "Other": {
+    "n": 35,
+    "bytes": 554774
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 44934
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307787
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1801135
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3393
+   },
+   "Image": {
+    "n": 71,
+    "bytes": 2183885
+   },
+   "Fetch": {
+    "n": 36,
+    "bytes": 208284
+   },
+   "Preflight": {
+    "n": 11,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 85592
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36051
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_mobile_3": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:23:47.656Z",
+  "perf": 89,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 3201.4770999999996,
+  "cls": 0.001504978070128602,
+  "tbt": 216,
+  "fcp": 1453.5229,
+  "si": 2779.970166488206,
+  "ttfb": 29,
+  "totalBytes": 3081013,
+  "requests": 285,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157493
+   },
+   "Other": {
+    "n": 87,
+    "bytes": 850992
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1287430
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141498
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 40941
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 457349
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3385
+   },
+   "Fetch": {
+    "n": 26,
+    "bytes": 101900
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_mobile_3": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:24:06.122Z",
+  "perf": 39,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 3923.004099999999,
+  "cls": 1.0083242181790533,
+  "tbt": 591.5,
+  "fcp": 1698.6226,
+  "si": 9374.90830345778,
+  "ttfb": 32,
+  "totalBytes": 5321048,
+  "requests": 284,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 122916
+   },
+   "Other": {
+    "n": 28,
+    "bytes": 541067
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 44085
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307785
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1787068
+   },
+   "Image": {
+    "n": 71,
+    "bytes": 2180569
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3377
+   },
+   "Preflight": {
+    "n": 6,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 28,
+    "bytes": 203875
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 94116
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36190
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_mobile_1": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:24:27.473Z",
+  "perf": 73,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 6490.607700000002,
+  "cls": 0.016158171709466106,
+  "tbt": 208,
+  "fcp": 1544.2106999999999,
+  "si": 2860.2302502860102,
+  "ttfb": 171,
+  "totalBytes": 2675833,
+  "requests": 278,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153308
+   },
+   "Other": {
+    "n": 91,
+    "bytes": 843463
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1095182
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141487
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 67976
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3376
+   },
+   "Image": {
+    "n": 24,
+    "bytes": 313879
+   },
+   "Fetch": {
+    "n": 21,
+    "bytes": 17137
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_mobile_1": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:24:46.684Z",
+  "perf": 48,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 3651.2034,
+  "cls": 0.865576703677238,
+  "tbt": 410,
+  "fcp": 1440.8548999999998,
+  "si": 7362.315167126336,
+  "ttfb": 204,
+  "totalBytes": 5253211,
+  "requests": 330,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117266
+   },
+   "Other": {
+    "n": 80,
+    "bytes": 720542
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 46528
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307960
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1806117
+   },
+   "Image": {
+    "n": 54,
+    "bytes": 1919767
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3390
+   },
+   "Fetch": {
+    "n": 34,
+    "bytes": 208447
+   },
+   "Preflight": {
+    "n": 12,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87163
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36031
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_mobile_2": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:25:06.033Z",
+  "perf": 93,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2438.9634,
+  "cls": 0.018244191536316824,
+  "tbt": 234,
+  "fcp": 1326.4074000000003,
+  "si": 2268.647428249139,
+  "ttfb": 25,
+  "totalBytes": 2706233,
+  "requests": 311,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153531
+   },
+   "Other": {
+    "n": 121,
+    "bytes": 924457
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1073678
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141495
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 38043
+   },
+   "Image": {
+    "n": 24,
+    "bytes": 313657
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3387
+   },
+   "Fetch": {
+    "n": 23,
+    "bytes": 17942
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 46003
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_mobile_2": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:25:25.195Z",
+  "perf": 45,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 3713.5994000000005,
+  "cls": 0.8653305160785969,
+  "tbt": 440.5000000000009,
+  "fcp": 1504.2434,
+  "si": 10707.104631571696,
+  "ttfb": 30,
+  "totalBytes": 5390166,
+  "requests": 380,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117522
+   },
+   "Other": {
+    "n": 142,
+    "bytes": 911611
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 44084
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307810
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1788730
+   },
+   "Image": {
+    "n": 54,
+    "bytes": 1885614
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3382
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 28,
+    "bytes": 208159
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87140
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36114
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_mobile_3": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:25:46.385Z",
+  "perf": 88,
+  "a11y": 96,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2438.1331000000005,
+  "cls": 0.001980932489004103,
+  "tbt": 366,
+  "fcp": 1416.8643,
+  "si": 2536.5244194997977,
+  "ttfb": 40,
+  "totalBytes": 2837819,
+  "requests": 294,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153962
+   },
+   "Other": {
+    "n": 105,
+    "bytes": 871991
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1257711
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 38240
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141512
+   },
+   "Image": {
+    "n": 24,
+    "bytes": 313879
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3383
+   },
+   "Fetch": {
+    "n": 21,
+    "bytes": 17116
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_mobile_3": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:26:04.389Z",
+  "perf": 48,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 3344.7351000000003,
+  "cls": 0.86382261703692,
+  "tbt": 506.73655700683594,
+  "fcp": 1453.0823429931643,
+  "si": 7016.027581961119,
+  "ttfb": 25,
+  "totalBytes": 5253655,
+  "requests": 325,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117602
+   },
+   "Other": {
+    "n": 88,
+    "bytes": 740911
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 44114
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 308359
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1788077
+   },
+   "Image": {
+    "n": 54,
+    "bytes": 1919750
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3381
+   },
+   "Preflight": {
+    "n": 6,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 208169
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87167
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36125
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_mobile_1": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T00:26:22.244Z",
+  "perf": 80,
+  "a11y": 100,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 4604.904049999999,
+  "cls": 0,
+  "tbt": 184,
+  "fcp": 1437.0185000000001,
+  "si": 3239.1255925742553,
+  "ttfb": 715,
+  "totalBytes": 2407075,
+  "requests": 246,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 140802
+   },
+   "Other": {
+    "n": 91,
+    "bytes": 755025
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1244132
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136847
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 44215
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 75337
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3389
+   },
+   "Fetch": {
+    "n": 15,
+    "bytes": 7133
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_articol_mobile_1": {
+  "site": "genius",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/blogs/news/creatina-fara-mituri-adevarul-despre-forta-volum-si-performanta",
+  "fetchTime": "2026-11-16T00:26:41.309Z",
+  "perf": 61,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 9228.5017,
+  "cls": 0.02559453726342307,
+  "tbt": 383,
+  "fcp": 2126.2783,
+  "si": 4739.243089656829,
+  "ttfb": 491,
+  "totalBytes": 3517256,
+  "requests": 250,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 95399
+   },
+   "Other": {
+    "n": 86,
+    "bytes": 739844
+   },
+   "Stylesheet": {
+    "n": 15,
+    "bytes": 87884
+   },
+   "Font": {
+    "n": 6,
+    "bytes": 202056
+   },
+   "Script": {
+    "n": 96,
+    "bytes": 1706011
+   },
+   "Image": {
+    "n": 8,
+    "bytes": 460475
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3388
+   },
+   "Fetch": {
+    "n": 22,
+    "bytes": 169535
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 6,
+    "bytes": 16466
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36198
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_mobile_2": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T00:26:59.774Z",
+  "perf": 90,
+  "a11y": 100,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2591.9736,
+  "cls": 0,
+  "tbt": 294,
+  "fcp": 1463.6874,
+  "si": 2675.2212115442308,
+  "ttfb": 30,
+  "totalBytes": 2194602,
+  "requests": 243,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 141446
+   },
+   "Other": {
+    "n": 90,
+    "bytes": 751165
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1064689
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136831
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 14301
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 75359
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3378
+   },
+   "Fetch": {
+    "n": 15,
+    "bytes": 7238
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_articol_mobile_2": {
+  "site": "genius",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/blogs/news/creatina-fara-mituri-adevarul-despre-forta-volum-si-performanta",
+  "fetchTime": "2026-11-16T00:27:17.050Z",
+  "perf": 56.00000000000001,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 7511.859049999999,
+  "cls": 0.02559453726342307,
+  "tbt": 677.5,
+  "fcp": 1279.4081999999999,
+  "si": 4704.04687090981,
+  "ttfb": 38,
+  "totalBytes": 3453853,
+  "requests": 248,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 95578
+   },
+   "Other": {
+    "n": 85,
+    "bytes": 735933
+   },
+   "Stylesheet": {
+    "n": 15,
+    "bytes": 39245
+   },
+   "Font": {
+    "n": 6,
+    "bytes": 202194
+   },
+   "Script": {
+    "n": 96,
+    "bytes": 1693165
+   },
+   "Image": {
+    "n": 8,
+    "bytes": 462084
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3398
+   },
+   "Fetch": {
+    "n": 22,
+    "bytes": 169745
+   },
+   "Preflight": {
+    "n": 3,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 6,
+    "bytes": 16481
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36030
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_mobile_3": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T00:27:34.056Z",
+  "perf": 86,
+  "a11y": 100,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2813.061100000001,
+  "cls": 0.005197739753559695,
+  "tbt": 378.49999999999955,
+  "fcp": 1612.7171,
+  "si": 1891.2403642528961,
+  "ttfb": 21,
+  "totalBytes": 2188576,
+  "requests": 198,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 141465
+   },
+   "Other": {
+    "n": 42,
+    "bytes": 573701
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1235021
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136861
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 14284
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 75373
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3381
+   },
+   "Fetch": {
+    "n": 16,
+    "bytes": 8295
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_articol_mobile_3": {
+  "site": "genius",
+  "key": "articol",
+  "ff": "mobile",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/blogs/news/creatina-fara-mituri-adevarul-despre-forta-volum-si-performanta",
+  "fetchTime": "2026-11-16T00:27:52.100Z",
+  "perf": 68,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 4092.7993000000006,
+  "cls": 0.02559453726342307,
+  "tbt": 359.5,
+  "fcp": 2207.73562,
+  "si": 8599.788275371617,
+  "ttfb": 49,
+  "totalBytes": 3541019,
+  "requests": 280,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 96067
+   },
+   "Other": {
+    "n": 113,
+    "bytes": 814114
+   },
+   "Stylesheet": {
+    "n": 15,
+    "bytes": 39139
+   },
+   "Font": {
+    "n": 6,
+    "bytes": 202071
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1701412
+   },
+   "Image": {
+    "n": 8,
+    "bytes": 460433
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3395
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 171750
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 6,
+    "bytes": 16484
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36154
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_home_desktop_1": {
+  "site": "prime",
+  "key": "home",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:28:13.807Z",
+  "perf": 99,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 767.5442,
+  "cls": 0.01144258536499469,
+  "tbt": 0,
+  "fcp": 478.2226,
+  "si": 826.206304551512,
+  "ttfb": 29,
+  "totalBytes": 3173672,
+  "requests": 302,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 160934
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1250902
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25158
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105825
+   },
+   "Image": {
+    "n": 61,
+    "bytes": 752814
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3384
+   },
+   "Fetch": {
+    "n": 18,
+    "bytes": 7113
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   },
+   "Other": {
+    "n": 88,
+    "bytes": 822737
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_desktop_1": {
+  "site": "genius",
+  "key": "home",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:28:35.457Z",
+  "perf": 71,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 4005.68455,
+  "cls": 0.01484159622370197,
+  "tbt": 2.5,
+  "fcp": 562.4645,
+  "si": 3335.858007066657,
+  "ttfb": 108,
+  "totalBytes": 19982616,
+  "requests": 262,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 114371
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 51117
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 345006
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1727645
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3392
+   },
+   "Image": {
+    "n": 56,
+    "bytes": 3941309
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 12982460
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 189623
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 8,
+    "bytes": 72236
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   },
+   "Other": {
+    "n": 34,
+    "bytes": 555457
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_home_desktop_2": {
+  "site": "prime",
+  "key": "home",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:29:04.550Z",
+  "perf": 98,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 936.0013,
+  "cls": 0.01144258536499469,
+  "tbt": 4.000000000000114,
+  "fcp": 823.3115,
+  "si": 973.7305300118765,
+  "ttfb": 45,
+  "totalBytes": 3156934,
+  "requests": 295,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 160935
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1252425
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25615
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105850
+   },
+   "Image": {
+    "n": 61,
+    "bytes": 754084
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3390
+   },
+   "Fetch": {
+    "n": 17,
+    "bytes": 7264
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   },
+   "Other": {
+    "n": 82,
+    "bytes": 802566
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_desktop_2": {
+  "site": "genius",
+  "key": "home",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:29:24.809Z",
+  "perf": 80,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 2206.3269,
+  "cls": 0.01484159622370197,
+  "tbt": 0,
+  "fcp": 494.57050000000004,
+  "si": 4108.236516211855,
+  "ttfb": 31,
+  "totalBytes": 44859039,
+  "requests": 274,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 114369
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 51079
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 344992
+   },
+   "Script": {
+    "n": 96,
+    "bytes": 1679561
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3386
+   },
+   "Image": {
+    "n": 56,
+    "bytes": 3941030
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 37859201
+   },
+   "Fetch": {
+    "n": 25,
+    "bytes": 190869
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 8,
+    "bytes": 72222
+   },
+   "Other": {
+    "n": 46,
+    "bytes": 602330
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_home_desktop_3": {
+  "site": "prime",
+  "key": "home",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://primesupplements.ro/",
+  "fetchTime": "2026-11-16T00:29:54.901Z",
+  "perf": 98,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 896.0995,
+  "cls": 0.01144258536499469,
+  "tbt": 5.999999999999886,
+  "fcp": 773.5715,
+  "si": 965.1459327051548,
+  "ttfb": 22,
+  "totalBytes": 3185789,
+  "requests": 303,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 160913
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1257830
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25631
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105888
+   },
+   "Image": {
+    "n": 61,
+    "bytes": 754137
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3383
+   },
+   "Fetch": {
+    "n": 17,
+    "bytes": 7231
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   },
+   "Other": {
+    "n": 90,
+    "bytes": 825971
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_home_desktop_3": {
+  "site": "genius",
+  "key": "home",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/",
+  "fetchTime": "2026-11-16T00:30:15.304Z",
+  "perf": 79,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 2684.9049999999997,
+  "cls": 0.01987785409285489,
+  "tbt": 0,
+  "fcp": 487.1975425720214,
+  "si": 2699.87802955382,
+  "ttfb": 31,
+  "totalBytes": 24426028,
+  "requests": 263,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 114392
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 50969
+   },
+   "Font": {
+    "n": 11,
+    "bytes": 345004
+   },
+   "Script": {
+    "n": 97,
+    "bytes": 1713108
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3394
+   },
+   "Image": {
+    "n": 56,
+    "bytes": 3941241
+   },
+   "Media": {
+    "n": 5,
+    "bytes": 17440720
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 189360
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 8,
+    "bytes": 72240
+   },
+   "Other": {
+    "n": 35,
+    "bytes": 555600
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_desktop_1": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:30:40.540Z",
+  "perf": 90,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 2057.7749499999995,
+  "cls": 0.001892261734748848,
+  "tbt": 0,
+  "fcp": 669.155,
+  "si": 1120.0540060677931,
+  "ttfb": 41,
+  "totalBytes": 2862252,
+  "requests": 264,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 143422
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1258131
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 25346
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105885
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 487411
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3377
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 12351
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 45985
+   },
+   "Other": {
+    "n": 83,
+    "bytes": 781524
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_desktop_1": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:30:58.986Z",
+  "perf": 84,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 2774.6373999999996,
+  "cls": 0.016920153895605635,
+  "tbt": 0,
+  "fcp": 361.2695,
+  "si": 1066.655637323025,
+  "ttfb": 32,
+  "totalBytes": 5150517,
+  "requests": 331,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 93511
+   },
+   "Other": {
+    "n": 135,
+    "bytes": 900235
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 42964
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248754
+   },
+   "Script": {
+    "n": 100,
+    "bytes": 1687957
+   },
+   "Image": {
+    "n": 29,
+    "bytes": 1941628
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3387
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 170621
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25271
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36189
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_desktop_2": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:31:23.656Z",
+  "perf": 99,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 886.8922,
+  "cls": 0.001866946737328996,
+  "tbt": 0,
+  "fcp": 371.936,
+  "si": 760.4353223264964,
+  "ttfb": 22,
+  "totalBytes": 2880977,
+  "requests": 258,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 143330
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1277601
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 26203
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105913
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 487440
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3394
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 12981
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 46689
+   },
+   "Other": {
+    "n": 79,
+    "bytes": 778606
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_desktop_2": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:31:41.116Z",
+  "perf": 94,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 1345.523,
+  "cls": 0.016920153895605635,
+  "tbt": 0,
+  "fcp": 353.56460000000004,
+  "si": 1563.315164107333,
+  "ttfb": 30,
+  "totalBytes": 4958780,
+  "requests": 267,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 93571
+   },
+   "Other": {
+    "n": 71,
+    "bytes": 705118
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 42950
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248644
+   },
+   "Script": {
+    "n": 100,
+    "bytes": 1691677
+   },
+   "Image": {
+    "n": 29,
+    "bytes": 1941621
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3399
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 170500
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25250
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36050
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_cat_proteine_desktop_3": {
+  "site": "prime",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://primesupplements.ro/collections/pudra-proteica",
+  "fetchTime": "2026-11-16T00:31:59.699Z",
+  "perf": 99,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 877.2913,
+  "cls": 0.0024778452734941945,
+  "tbt": 0,
+  "fcp": 369.02194503784176,
+  "si": 858.9259586753428,
+  "ttfb": 20,
+  "totalBytes": 2941120,
+  "requests": 288,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 143337
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1276077
+   },
+   "Stylesheet": {
+    "n": 6,
+    "bytes": 26047
+   },
+   "Font": {
+    "n": 9,
+    "bytes": 105825
+   },
+   "Image": {
+    "n": 26,
+    "bytes": 486438
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3392
+   },
+   "Fetch": {
+    "n": 20,
+    "bytes": 11491
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 4,
+    "bytes": 46690
+   },
+   "Other": {
+    "n": 108,
+    "bytes": 843003
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_cat_proteine_desktop_3": {
+  "site": "genius",
+  "key": "cat_proteine",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/collections/proteine",
+  "fetchTime": "2026-11-16T00:32:18.282Z",
+  "perf": 91,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 1819.4528999999998,
+  "cls": 0.016920153895605635,
+  "tbt": 0,
+  "fcp": 667.52324,
+  "si": 1162.0323104457977,
+  "ttfb": 31,
+  "totalBytes": 5162772,
+  "requests": 334,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 94100
+   },
+   "Other": {
+    "n": 140,
+    "bytes": 908738
+   },
+   "Stylesheet": {
+    "n": 17,
+    "bytes": 42996
+   },
+   "Font": {
+    "n": 8,
+    "bytes": 248624
+   },
+   "Script": {
+    "n": 99,
+    "bytes": 1690778
+   },
+   "Image": {
+    "n": 29,
+    "bytes": 1941630
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3390
+   },
+   "Fetch": {
+    "n": 23,
+    "bytes": 171092
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 25270
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36154
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_desktop_1": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:32:40.173Z",
+  "perf": 95,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 1496.9086999999997,
+  "cls": 0.025076216549478107,
+  "tbt": 0,
+  "fcp": 388.60095568237307,
+  "si": 908.8894538183436,
+  "ttfb": 51,
+  "totalBytes": 3214215,
+  "requests": 350,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157498
+   },
+   "Other": {
+    "n": 135,
+    "bytes": 1008699
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1289389
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141506
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 40529
+   },
+   "Image": {
+    "n": 42,
+    "bytes": 428442
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3386
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 104741
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_desktop_1": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:33:03.512Z",
+  "perf": 80,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 1224.3220500000002,
+  "cls": 0.267062710209064,
+  "tbt": 0,
+  "fcp": 402.0760425720215,
+  "si": 2037.2478937024093,
+  "ttfb": 23,
+  "totalBytes": 5754506,
+  "requests": 346,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 123022
+   },
+   "Other": {
+    "n": 80,
+    "bytes": 719711
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 44926
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307795
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1800723
+   },
+   "Image": {
+    "n": 66,
+    "bytes": 2417688
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3390
+   },
+   "Fetch": {
+    "n": 36,
+    "bytes": 205197
+   },
+   "Preflight": {
+    "n": 12,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 95959
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36095
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_desktop_2": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:33:25.746Z",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 622.7319,
+  "cls": 0.04492193522739177,
+  "tbt": 0,
+  "fcp": 384.250355682373,
+  "si": 729.9586579703496,
+  "ttfb": 30,
+  "totalBytes": 3064097,
+  "requests": 326,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157457
+   },
+   "Other": {
+    "n": 112,
+    "bytes": 910559
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1257484
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141473
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 41112
+   },
+   "Image": {
+    "n": 41,
+    "bytes": 408968
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3389
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 103630
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_desktop_2": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:33:45.907Z",
+  "perf": 77,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 961.813,
+  "cls": 0.25712160668414424,
+  "tbt": 0,
+  "fcp": 383.120942993164,
+  "si": 3559.211040682064,
+  "ttfb": 54,
+  "totalBytes": 5853426,
+  "requests": 366,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 122919
+   },
+   "Other": {
+    "n": 117,
+    "bytes": 819606
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 44820
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307953
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1802110
+   },
+   "Image": {
+    "n": 66,
+    "bytes": 2417516
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3394
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 202824
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 96092
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36192
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_whey_desktop_3": {
+  "site": "prime",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://primesupplements.ro/products/prime-whey-2000g",
+  "fetchTime": "2026-11-16T00:34:08.883Z",
+  "perf": 100,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 710.4556999999999,
+  "cls": 0.01263059055692696,
+  "tbt": 19.000000000000057,
+  "fcp": 378.8028,
+  "si": 758.8095291482102,
+  "ttfb": 32,
+  "totalBytes": 3100681,
+  "requests": 313,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 157464
+   },
+   "Other": {
+    "n": 98,
+    "bytes": 887921
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1306514
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141479
+   },
+   "Stylesheet": {
+    "n": 10,
+    "bytes": 40379
+   },
+   "Image": {
+    "n": 41,
+    "bytes": 416898
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3372
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 105579
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 7,
+    "bytes": 47035
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_whey_desktop_3": {
+  "site": "genius",
+  "key": "prod_whey",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/products/whey-x5-2000g-61serv",
+  "fetchTime": "2026-11-16T00:34:28.070Z",
+  "perf": 81,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 907.7931000000001,
+  "cls": 0.25246440933811154,
+  "tbt": 0,
+  "fcp": 404.9294429931641,
+  "si": 2438.0363697008734,
+  "ttfb": 30,
+  "totalBytes": 5673550,
+  "requests": 334,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 123092
+   },
+   "Other": {
+    "n": 70,
+    "bytes": 667214
+   },
+   "Stylesheet": {
+    "n": 20,
+    "bytes": 44083
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307793
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1787791
+   },
+   "Image": {
+    "n": 66,
+    "bytes": 2414052
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3396
+   },
+   "Fetch": {
+    "n": 35,
+    "bytes": 204391
+   },
+   "Preflight": {
+    "n": 12,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 85708
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36030
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_desktop_1": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:34:47.627Z",
+  "perf": 95,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 690.1066999999999,
+  "cls": 0.13564235016961307,
+  "tbt": 13.999999999999943,
+  "fcp": 395.12775568237305,
+  "si": 716.7030549865439,
+  "ttfb": 31,
+  "totalBytes": 2785389,
+  "requests": 274,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153591
+   },
+   "Other": {
+    "n": 81,
+    "bytes": 822661
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1270763
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141502
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 39592
+   },
+   "Image": {
+    "n": 28,
+    "bytes": 297119
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3389
+   },
+   "Fetch": {
+    "n": 22,
+    "bytes": 16042
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 46690
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_desktop_1": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:35:08.005Z",
+  "perf": 75,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 1395.0594999999994,
+  "cls": 0.23240206828144755,
+  "tbt": 0,
+  "fcp": 376.90294299316406,
+  "si": 4116.549146977724,
+  "ttfb": 36,
+  "totalBytes": 5947572,
+  "requests": 379,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117634
+   },
+   "Other": {
+    "n": 144,
+    "bytes": 914059
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 44911
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 307811
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1802705
+   },
+   "Image": {
+    "n": 53,
+    "bytes": 2425127
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3400
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 208489
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87279
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36157
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_desktop_2": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:35:30.471Z",
+  "perf": 97,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 789.85835,
+  "cls": 0.08957363669994148,
+  "tbt": 0,
+  "fcp": 384.3789556823731,
+  "si": 758.1038761662021,
+  "ttfb": 30,
+  "totalBytes": 2881601,
+  "requests": 323,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153561
+   },
+   "Other": {
+    "n": 130,
+    "bytes": 939300
+   },
+   "Script": {
+    "n": 103,
+    "bytes": 1252661
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141537
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 37373
+   },
+   "Image": {
+    "n": 29,
+    "bytes": 296575
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3381
+   },
+   "Fetch": {
+    "n": 21,
+    "bytes": 17188
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 45985
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_desktop_2": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:35:50.932Z",
+  "perf": 84,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 735.8187,
+  "cls": 0.23085645844509523,
+  "tbt": 0,
+  "fcp": 391.227,
+  "si": 2143.037847499102,
+  "ttfb": 52,
+  "totalBytes": 5773638,
+  "requests": 321,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117341
+   },
+   "Other": {
+    "n": 86,
+    "bytes": 738520
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 44824
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 308368
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1802101
+   },
+   "Image": {
+    "n": 53,
+    "bytes": 2427892
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3387
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "Fetch": {
+    "n": 27,
+    "bytes": 207818
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87291
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36096
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_prod_creatina_desktop_3": {
+  "site": "prime",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://primesupplements.ro/products/creatina-monohidrat-micronized-300g-fara-aroma",
+  "fetchTime": "2026-11-16T00:36:09.098Z",
+  "perf": 97,
+  "a11y": 93,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 809.1827,
+  "cls": 0.08973226037267246,
+  "tbt": 0,
+  "fcp": 390.541155682373,
+  "si": 809.1392221223343,
+  "ttfb": 28,
+  "totalBytes": 2593145,
+  "requests": 279,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 153571
+   },
+   "Other": {
+    "n": 87,
+    "bytes": 837087
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1066039
+   },
+   "Font": {
+    "n": 14,
+    "bytes": 141505
+   },
+   "Stylesheet": {
+    "n": 9,
+    "bytes": 38048
+   },
+   "Image": {
+    "n": 28,
+    "bytes": 295588
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3387
+   },
+   "Fetch": {
+    "n": 21,
+    "bytes": 17879
+   },
+   "XHR": {
+    "n": 5,
+    "bytes": 46001
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_prod_creatina_desktop_3": {
+  "site": "genius",
+  "key": "prod_creatina",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/products/creatine-monohydrate-400g",
+  "fetchTime": "2026-11-16T00:36:27.605Z",
+  "perf": 79,
+  "a11y": 92,
+  "bp": 69,
+  "seo": 92,
+  "lcp": 758.6374999999999,
+  "cls": 0.23267905105699074,
+  "tbt": 0,
+  "fcp": 381.2361780395508,
+  "si": 3974.890012858857,
+  "ttfb": 31,
+  "totalBytes": 5935418,
+  "requests": 393,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 117714
+   },
+   "Other": {
+    "n": 146,
+    "bytes": 919121
+   },
+   "Stylesheet": {
+    "n": 19,
+    "bytes": 44086
+   },
+   "Font": {
+    "n": 10,
+    "bytes": 308346
+   },
+   "Script": {
+    "n": 101,
+    "bytes": 1790354
+   },
+   "Image": {
+    "n": 53,
+    "bytes": 2420432
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3388
+   },
+   "Fetch": {
+    "n": 33,
+    "bytes": 208538
+   },
+   "Preflight": {
+    "n": 11,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 13,
+    "bytes": 87310
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36129
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_desktop_1": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "desktop",
+  "run": 1,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T00:36:48.651Z",
+  "perf": 99,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 741.3656,
+  "cls": 0.04249411022790057,
+  "tbt": 0,
+  "fcp": 375.6426,
+  "si": 653.1958057270404,
+  "ttfb": 21,
+  "totalBytes": 2440467,
+  "requests": 251,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 141461
+   },
+   "Other": {
+    "n": 95,
+    "bytes": 762751
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1277567
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136855
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 13861
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 95299
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3389
+   },
+   "Fetch": {
+    "n": 16,
+    "bytes": 9089
+   },
+   "Preflight": {
+    "n": 5,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_desktop_2": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T08:16:13.284Z",
+  "perf": 97,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 795.536,
+  "cls": 0.040928033444054684,
+  "tbt": 0,
+  "fcp": 453.4705,
+  "si": 1552.1331692176257,
+  "ttfb": 269,
+  "totalBytes": 2390425,
+  "requests": 225,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 141081
+   },
+   "Other": {
+    "n": 69,
+    "bytes": 707142
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1281160
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136866
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 14237
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 96747
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3399
+   },
+   "Fetch": {
+    "n": 17,
+    "bytes": 9598
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_articol_desktop_2": {
+  "site": "genius",
+  "key": "articol",
+  "ff": "desktop",
+  "run": 2,
+  "url": "https://geniusnutrition.ro/blogs/news/creatina-fara-mituri-adevarul-despre-forta-volum-si-performanta",
+  "fetchTime": "2026-11-16T08:16:43.140Z",
+  "perf": 91,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 863.499,
+  "cls": 0.01468172664390158,
+  "tbt": 0,
+  "fcp": 376.9876780395508,
+  "si": 3370.5429279474033,
+  "ttfb": 227,
+  "totalBytes": 3427389,
+  "requests": 243,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 95989
+   },
+   "Other": {
+    "n": 77,
+    "bytes": 715823
+   },
+   "Stylesheet": {
+    "n": 15,
+    "bytes": 39513
+   },
+   "Font": {
+    "n": 6,
+    "bytes": 201643
+   },
+   "Script": {
+    "n": 96,
+    "bytes": 1688832
+   },
+   "Image": {
+    "n": 8,
+    "bytes": 441977
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3394
+   },
+   "Fetch": {
+    "n": 24,
+    "bytes": 187589
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 6,
+    "bytes": 16507
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36122
+   }
+  },
+  "thirdParty": []
+ },
+ "prime_articol_desktop_3": {
+  "site": "prime",
+  "key": "articol",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://primesupplements.ro/blogs/news/ce-este-creatina",
+  "fetchTime": "2026-11-16T08:17:02.380Z",
+  "perf": 99,
+  "a11y": 97,
+  "bp": 77,
+  "seo": 100,
+  "lcp": 871.0922999999998,
+  "cls": 0.03968292737372829,
+  "tbt": 0,
+  "fcp": 424.5875,
+  "si": 681.2545712715652,
+  "ttfb": 30,
+  "totalBytes": 2552606,
+  "requests": 288,
+  "byType": {
+   "Document": {
+    "n": 5,
+    "bytes": 140270
+   },
+   "Other": {
+    "n": 133,
+    "bytes": 897062
+   },
+   "Script": {
+    "n": 102,
+    "bytes": 1258772
+   },
+   "Font": {
+    "n": 12,
+    "bytes": 136863
+   },
+   "Stylesheet": {
+    "n": 5,
+    "bytes": 12919
+   },
+   "Image": {
+    "n": 7,
+    "bytes": 94084
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 3374
+   },
+   "Fetch": {
+    "n": 16,
+    "bytes": 9067
+   },
+   "Preflight": {
+    "n": 4,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 1,
+    "bytes": 195
+   }
+  },
+  "thirdParty": []
+ },
+ "genius_articol_desktop_3": {
+  "site": "genius",
+  "key": "articol",
+  "ff": "desktop",
+  "run": 3,
+  "url": "https://geniusnutrition.ro/blogs/news/creatina-fara-mituri-adevarul-despre-forta-volum-si-performanta",
+  "fetchTime": "2026-11-16T08:17:17.234Z",
+  "perf": 93,
+  "a11y": 96,
+  "bp": 69,
+  "seo": 100,
+  "lcp": 915.1757,
+  "cls": 0.018568944568751175,
+  "tbt": 0,
+  "fcp": 370.6535,
+  "si": 2536.964154124636,
+  "ttfb": 23,
+  "totalBytes": 3940647,
+  "requests": 389,
+  "byType": {
+   "Document": {
+    "n": 1,
+    "bytes": 95708
+   },
+   "Other": {
+    "n": 226,
+    "bytes": 1261178
+   },
+   "Stylesheet": {
+    "n": 15,
+    "bytes": 38407
+   },
+   "Font": {
+    "n": 6,
+    "bytes": 201959
+   },
+   "Script": {
+    "n": 96,
+    "bytes": 1679273
+   },
+   "Image": {
+    "n": 8,
+    "bytes": 440233
+   },
+   "Ping": {
+    "n": 3,
+    "bytes": 2265
+   },
+   "Fetch": {
+    "n": 22,
+    "bytes": 169038
+   },
+   "Preflight": {
+    "n": 3,
+    "bytes": 0
+   },
+   "XHR": {
+    "n": 6,
+    "bytes": 16474
+   },
+   "Media": {
+    "n": 2,
+    "bytes": 36112
+   },
+   "Manifest": {
+    "n": 1,
+    "bytes": 0
+   }
+  },
+  "thirdParty": []
+ }
+}

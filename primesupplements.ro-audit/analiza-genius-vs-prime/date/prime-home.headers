@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Date: Mon, 16 Nov 2026 00:12:44 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, <https://storefront-agent-server.shopify.ai>; rel="preconnect", <//primesupplements.ro/cdn/shop/files/pandectes-rules.js?v=686457165062528870>; as="script"; rel="preload", <//primesupplements.ro/cdn/shop/t/20/assets/theme.css?v=18654040077085089121794704582>; as="style"; rel="preload", <https://primesupplements.ro/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css>; as="style"; rel="preload"; crossorigin, </.well-known/ucp>; rel="ucp"; version="2026-08-25"
+product-filtering-backend: bitset_roaring
+X-Permitted-Cross-Domain-Policies: none
+etag: W/"sfr:computation:v2:b24ef87ddb403e372866c3cad5d1a2ad9822155d96bfbf0a626774153f068d2d:62b1a0a3e6f38515e1ba729bee211379"
+X-XSS-Protection: 1; mode=block
+Set-Cookie: _shopify_essential=:AaHhsvWyAAEAy9_Y4r30l6chyRFZyTZBw7_NSNPvq2g9EfVPfsBxs72X6UygwTYsKXivNTQmYcjD9YCJFW7A36bFoyk:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+Set-Cookie: localization=RO; path=/; expires=Tue, 16 Nov 2027 00:12:44 GMT; SameSite=Lax
+Set-Cookie: cart_currency=RON; path=/; expires=Mon, 30 Nov 2026 00:12:44 GMT; SameSite=Lax
+Set-Cookie: _shopify_cmp=3.ampS_ROSB_t_f_JxVoUPp4Ra26fkTU5OJZvw%23a0e4ae41-a0f1-4fc6-ae88-b3daa56de7ed-1794787964; domain=primesupplements.ro; path=/; expires=Tue, 16 Nov 2027 06:12:44 GMT; secure; SameSite=Lax
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+shopify-complexity-score: 3750
+shopify-complexity-score-v2: 375
+content-language: ro-RO
+accept-ch: Sec-CH-Viewport-Width
+powered-by: Shopify
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+X-Download-Options: noopen
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5noz%2FLfD7RL0kj0ogrg2hCvZXoZPhUvdiO1vXFkVeo6sezjHqhJvTCeSWOyHxJwlSVJ5i6BxuKUnwK%2BuUn72qLtCMppactF1ia%2B5YdnAZVdw8YwgBR50zcdyrcKEp%2FCmI6Y30TM%3D"}]}
+cdn-cache-control: no-cache, no-store
+vary: Accept
+vary: accept-encoding
+server-timing: processing;dur=376, db;dur=257, render;dur=144, asn;desc="8708", edge;desc="OTP", country;desc="RO", theme;desc="194315649399", pageType;desc="index", servedBy;desc="xfcj", requestID;desc="a0e4ae41-a0f1-4fc6-ae88-b3daa56de7ed-1794787964", _y;desc="00000000-0000-0000-5000-000000000000", _s;desc="00000000-0000-0000-5000-000000000000", _cmp;desc="3.ampS_ROSB_t_f_JxVoUPp4Ra26fkTU5OJZvw", _ye;desc="1826345564", _se;desc="1794789764", compressionLevel;desc="5", compressionTime;dur=16.342
+x-request-id: a0e4ae41-a0f1-4fc6-ae88-b3daa56de7ed-1794787964
+X-Content-Type-Options: nosniff
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+x-dc: gcp-europe-west1,gcp-europe-west1,gcp-europe-west1
+Server: cloudflare
+CF-RAY: a5b24928eb4cc9de-OTP
+

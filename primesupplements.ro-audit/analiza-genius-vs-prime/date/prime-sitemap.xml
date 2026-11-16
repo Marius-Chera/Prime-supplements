@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- This is the parent sitemap linking to additional sitemaps for products, collections and pages as shown below. The sitemap can not be edited manually, but is kept up to date in real time. -->
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_agentic_discovery.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_products_1.xml?from=14971464450423&amp;to=15589241651575</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_pages_1.xml?from=691260457335&amp;to=704989921655</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_collections_1.xml?from=670994334071&amp;to=699470741879</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_blogs_1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://primesupplements.ro/sitemap_articles_1.xml</loc>
+  </sitemap>
+</sitemapindex>

@@ -1,0 +1,21 @@
+{
+  "name": "analiza-genius-vs-prime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axe-core": "^4.14.0",
+    "cheerio": "^1.2.0",
+    "lighthouse": "^13.6.0",
+    "marked": "^14.1.4",
+    "p-limit": "^7.3.3",
+    "playwright-core": "^1.65.1"
+  }
+}

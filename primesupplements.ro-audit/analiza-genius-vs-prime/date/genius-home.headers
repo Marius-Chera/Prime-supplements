@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Date: Mon, 16 Nov 2026 00:12:36 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, <//geniusnutrition.ro/cdn/shop/t/24/assets/flickity.min.css?v=112557130868219244861711967598>; as="style"; rel="preload", <//geniusnutrition.ro/cdn/shop/t/24/assets/core.css?v=9479367861339524431711967598>; as="style"; rel="preload", <//geniusnutrition.ro/cdn/shop/t/24/assets/theme.css?v=64743323091712663901742481742>; as="style"; rel="preload", <https://cdn.shopify.com/extensions/01a1d003-91b4-799d-86f9-a4479d56af93/2.11.14/assets/magical-custom-fields.css>; as="style"; rel="preload", <https://cdn.shopify.com/extensions/01a1d61b-2f61-7a56-8cf9-ad018dbb29df/4.14.0/assets/magical-mandatory-fees.css>; as="style"; rel="preload", </.well-known/ucp>; rel="ucp"; version="2026-08-25"
+product-filtering-backend: bitset_roaring
+X-Permitted-Cross-Domain-Policies: none
+etag: W/"sfr:computation:v2:cd3c12725b88628e2949eb06638d7bb107c4d18959fb4b6f50f4dad32225178f:62b1a0a3e6f38515e1ba729bee211379"
+X-XSS-Protection: 1; mode=block
+Set-Cookie: _shopify_essential=:AaHhstf-AAEAQUM7TMH_baYjyCpjNhUrgsWqJJwpVKRYTJ12UFIjywq6vYZJ6Iurh-j0cSEEYw4I-CByRJZD3mS-y90:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax
+Set-Cookie: localization=RO; path=/; expires=Tue, 16 Nov 2027 00:12:36 GMT; SameSite=Lax
+Set-Cookie: _shopify_cmp=3.ampS_ROSB_t_f_OiHE7gU6SASutqujH5JdFw%23b084a52a-be21-4fcc-bd49-2bf04e63b320-1794787956; domain=geniusnutrition.ro; path=/; expires=Tue, 16 Nov 2027 06:12:36 GMT; secure; SameSite=Lax
+x-frame-options: DENY
+content-security-policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+strict-transport-security: max-age=7889238
+shopify-complexity-score: 1970
+shopify-complexity-score-v2: 197
+content-language: ro-RO
+accept-ch: Sec-CH-Viewport-Width
+powered-by: Shopify
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+X-Download-Options: noopen
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FG%2FfBFsxRiqs%2FH6ctL1Ah7sRg%2BXl5S0BBnIfeguQt23ydeQMgnMnhvEDlA8r9Ajfile3OPOnpNelbRgyKIIcrhQOSNTDX36DtpD4iD2a0OSobu4WUp1cZVlGq8lkbZkt5phdVw%3D%3D"}]}
+cdn-cache-control: no-cache, no-store
+vary: Accept
+vary: accept-encoding
+server-timing: processing;dur=198, db;dur=112, render;dur=88, asn;desc="8708", edge;desc="OTP", country;desc="RO", theme;desc="160574505299", pageType;desc="index", servedBy;desc="pqph", requestID;desc="b084a52a-be21-4fcc-bd49-2bf04e63b320-1794787956", _y;desc="00000000-0000-0000-5000-000000000000", _s;desc="00000000-0000-0000-5000-000000000000", _cmp;desc="3.ampS_ROSB_t_f_OiHE7gU6SASutqujH5JdFw", _ye;desc="1826345556", _se;desc="1794789756", compressionLevel;desc="5", compressionTime;dur=20.71
+x-request-id: b084a52a-be21-4fcc-bd49-2bf04e63b320-1794787956
+X-Content-Type-Options: nosniff
+Nel: {"report_to":"cf-nel","success_fraction":0.01,"max_age":604800}
+x-dc: gcp-europe-west1,gcp-europe-west1,gcp-europe-west1
+Server: cloudflare
+CF-RAY: a5b248f95fbce45e-OTP
+

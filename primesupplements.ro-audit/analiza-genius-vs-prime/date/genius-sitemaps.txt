@@ -1,0 +1,6 @@
+https://geniusnutrition.ro/sitemap_agentic_discovery.xml
+https://geniusnutrition.ro/sitemap_products_1.xml?from=9204710768979&to=11085506609491
+https://geniusnutrition.ro/sitemap_pages_1.xml?from=49835671670&to=178986418515
+https://geniusnutrition.ro/sitemap_collections_1.xml?from=163349758070&to=706196308307
+https://geniusnutrition.ro/sitemap_blogs_1.xml
+https://geniusnutrition.ro/sitemap_articles_1.xml

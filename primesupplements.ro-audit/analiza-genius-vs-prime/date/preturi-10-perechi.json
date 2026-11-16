@@ -1,0 +1,868 @@
+[
+ {
+  "cat": "Whey 2 kg",
+  "genius": {
+   "handle": "whey-x5-2000g-61serv",
+   "title": "WHEY-X5® 2000g/60serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "2000 g / Mocha Caraibe",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555346",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Afine inghetate",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555339",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Ciocolata-caramel",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555193",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Choco-Coconut",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555223",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Salted Caramel",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5940541555186",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Ciocolata cu arahide",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555216",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Macarons",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555179",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Bueno Chocolate",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555209",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Biscotti Cookies",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5940541555155",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Vanilla-Honey",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555162",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Mar copt",
+     "pret": 526,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5492945403841",
+     "barcode": true
+    }
+   ],
+   "portii": "60",
+   "cuvinteDescriere": 2887,
+   "imagini": 12,
+   "portiiEticheta": 60,
+   "pretPortie": 8.77
+  },
+  "prime": {
+   "handle": "prime-whey-2000g",
+   "title": "Prime Whey – proteină din zer, 2 kg",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Strawberry Cheesecake",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766015437",
+     "barcode": true
+    },
+    {
+     "t": "Toffee Chocolate",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766015406",
+     "barcode": true
+    },
+    {
+     "t": "White Chocolate Raspberry",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766015420",
+     "barcode": true
+    },
+    {
+     "t": "Bourbon Vanilla",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766015390",
+     "barcode": true
+    },
+    {
+     "t": "Chocolate Coconut",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766063605",
+     "barcode": true
+    },
+    {
+     "t": "Blueberry Vanilla",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766063582",
+     "barcode": true
+    },
+    {
+     "t": "Salted Caramel",
+     "pret": 369,
+     "pretVechi": 390,
+     "stoc": true,
+     "sku": "6421766015413",
+     "barcode": true
+    }
+   ],
+   "portii": "4",
+   "cuvinteDescriere": 677,
+   "imagini": 14,
+   "portiiEticheta": 66,
+   "pretPortie": 5.59
+  }
+ },
+ {
+  "cat": "Izolat din zer 2 kg",
+  "genius": {
+   "handle": "isolate-x5-2000g-60serv",
+   "title": "ISOLATE-X5® 2000g/60serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "2000 g / Chocotelly Spread",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5940541555414",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Ciocolata cu arahide",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555391",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Banana Peanut Butter",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555353",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Inghetata cu vanilie",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5940541555421",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Wheysquick Chocolate",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555377",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Ciocolata alba cu zmeura",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555384",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Mango Shake",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555360",
+     "barcode": true
+    },
+    {
+     "t": "2000 g / Capsuni salbatice",
+     "pret": 552,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "7398942854014",
+     "barcode": true
+    }
+   ],
+   "portii": "60",
+   "cuvinteDescriere": 3344,
+   "imagini": 8,
+   "portiiEticheta": 60,
+   "pretPortie": 9.2
+  },
+  "prime": {
+   "handle": "pure-isolate-2000g",
+   "title": "Izolat proteic din zer Pure Isolate – 2 kg",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Chocolate",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766015185",
+     "barcode": true
+    },
+    {
+     "t": "Bourbon Vanilla",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766015383",
+     "barcode": true
+    },
+    {
+     "t": "Salted Caramel",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766015277",
+     "barcode": true
+    },
+    {
+     "t": "Strawberry",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766015178",
+     "barcode": true
+    },
+    {
+     "t": "Strawberry Cheesecake",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766015376",
+     "barcode": true
+    },
+    {
+     "t": "White Chocolate Raspberry",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "4009902541495",
+     "barcode": true
+    },
+    {
+     "t": "Caffè Latte",
+     "pret": 480,
+     "pretVechi": 510,
+     "stoc": true,
+     "sku": "6421766017318",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 512,
+   "imagini": 8,
+   "portiiEticheta": 74,
+   "pretPortie": 6.49
+  }
+ },
+ {
+  "cat": "Creatină monohidrat",
+  "genius": {
+   "handle": "creatine-monohydrate-400g",
+   "title": "CREATINE MONOHYDRATE 400g/133serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Fara aroma",
+     "pret": 95,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541550167",
+     "barcode": true
+    }
+   ],
+   "portii": "133",
+   "cuvinteDescriere": 3419,
+   "imagini": 3,
+   "portiiEticheta": 133,
+   "pretPortie": 0.71
+  },
+  "prime": {
+   "handle": "creatina-monohidrat-micronized-300g-fara-aroma",
+   "title": "Creatină monohidrată micronizată fără aromă, 300 g",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 77,
+     "pretVechi": 98,
+     "stoc": true,
+     "sku": "6421766064107",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 768,
+   "imagini": 3,
+   "portiiEticheta": 60,
+   "pretPortie": 1.28
+  }
+ },
+ {
+  "cat": "Creatină Creapure",
+  "genius": {
+   "handle": "creapure",
+   "title": "CREATINE WITH CREAPURE® 300g/100serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Unflavored",
+     "pret": 119,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541550204",
+     "barcode": true
+    }
+   ],
+   "portii": "100",
+   "cuvinteDescriere": 2173,
+   "imagini": 3,
+   "portiiEticheta": 100,
+   "pretPortie": 1.19
+  },
+  "prime": {
+   "handle": "creatina-creapure",
+   "title": "Creatină Creapure® monohidrată",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Creatine (Creapure®) 500g/100serv",
+     "pret": 140,
+     "pretVechi": 180,
+     "stoc": true,
+     "sku": "6421766015109",
+     "barcode": true
+    },
+    {
+     "t": "Creatine (Creapure®) 300g/60serv",
+     "pret": 90,
+     "pretVechi": 115,
+     "stoc": true,
+     "sku": "6421766064404",
+     "barcode": true
+    }
+   ],
+   "portii": "100",
+   "cuvinteDescriere": 633,
+   "imagini": 2,
+   "portiiEticheta": 100,
+   "pretPortie": 1.4
+  }
+ },
+ {
+  "cat": "Pre-workout",
+  "genius": {
+   "handle": "warcry-pump-400g-20-serv",
+   "title": "WARCRY® PUMP 400g/20serv",
+   "vendor": "Warcry®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Punch de fructe",
+     "pret": 150,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541550419",
+     "barcode": true
+    },
+    {
+     "t": "Mango-Ananas",
+     "pret": 150,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541550433",
+     "barcode": true
+    },
+    {
+     "t": "Capsuni",
+     "pret": 150,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541550426",
+     "barcode": true
+    }
+   ],
+   "portii": "20",
+   "cuvinteDescriere": 2495,
+   "imagini": 5,
+   "portiiEticheta": 20,
+   "pretPortie": 7.5
+  },
+  "prime": {
+   "handle": "nitrox",
+   "title": "Supliment pre-antrenament Nitrox 3D – 500 g",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Cherry",
+     "pret": 148,
+     "pretVechi": 190,
+     "stoc": true,
+     "sku": "6421766017295",
+     "barcode": true
+    },
+    {
+     "t": "Pineapple Mango",
+     "pret": 148,
+     "pretVechi": 190,
+     "stoc": true,
+     "sku": "6421766015130",
+     "barcode": true
+    },
+    {
+     "t": "Passion fruit",
+     "pret": 148,
+     "pretVechi": 190,
+     "stoc": true,
+     "sku": "6421766015321",
+     "barcode": true
+    },
+    {
+     "t": "Strawberry lime",
+     "pret": 148,
+     "pretVechi": 190,
+     "stoc": true,
+     "sku": "6421766015338",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 686,
+   "imagini": 5,
+   "portiiEticheta": 25,
+   "pretPortie": 5.92
+  }
+ },
+ {
+  "cat": "EAA",
+  "genius": {
+   "handle": "eaa-x5-360g-30-serv",
+   "title": "EAA-X5® 360g/30serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Rodie",
+     "pret": 136,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555568",
+     "barcode": true
+    },
+    {
+     "t": "Cocktail Exotic",
+     "pret": 136,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555544",
+     "barcode": true
+    },
+    {
+     "t": "Pepene si Capsuna",
+     "pret": 136,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555575",
+     "barcode": true
+    },
+    {
+     "t": "Grepfrut",
+     "pret": 136,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555551",
+     "barcode": true
+    },
+    {
+     "t": "Strugure",
+     "pret": 136,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541555582",
+     "barcode": true
+    }
+   ],
+   "portii": "30",
+   "cuvinteDescriere": 2711,
+   "imagini": 6,
+   "portiiEticheta": 30,
+   "pretPortie": 4.53
+  },
+  "prime": {
+   "handle": "eaa-aminoacizi-esentiali",
+   "title": "Aminoacizi esențiali EAA – tub de 500 g",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Peach Ice Tea",
+     "pret": 137,
+     "pretVechi": 175,
+     "stoc": true,
+     "sku": "6421766015239",
+     "barcode": true
+    },
+    {
+     "t": "Blueberry",
+     "pret": 137,
+     "pretVechi": 175,
+     "stoc": true,
+     "sku": "6421766015345",
+     "barcode": true
+    },
+    {
+     "t": "Strawberry &amp; Kiwi",
+     "pret": 137,
+     "pretVechi": 175,
+     "stoc": true,
+     "sku": "6421766015291",
+     "barcode": true
+    },
+    {
+     "t": "Tropical",
+     "pret": 137,
+     "pretVechi": 175,
+     "stoc": true,
+     "sku": "6421766015352",
+     "barcode": true
+    }
+   ],
+   "portii": "3",
+   "cuvinteDescriere": 1210,
+   "imagini": 4,
+   "portiiEticheta": 83,
+   "pretPortie": 1.65
+  }
+ },
+ {
+  "cat": "BCAA",
+  "genius": {
+   "handle": "bcaa-x5-360g-26serv",
+   "title": "BCAA-X5® 360g/26serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Pepene",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554844",
+     "barcode": true
+    },
+    {
+     "t": "Ananas",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554851",
+     "barcode": true
+    },
+    {
+     "t": "Mango",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554875",
+     "barcode": true
+    },
+    {
+     "t": "Kiwi-Capsuni",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554813",
+     "barcode": true
+    },
+    {
+     "t": "Zmeura Albastra",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554806",
+     "barcode": true
+    },
+    {
+     "t": "Mar verde",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554820",
+     "barcode": true
+    },
+    {
+     "t": "Portocala",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554882",
+     "barcode": true
+    },
+    {
+     "t": "American Cola",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554790",
+     "barcode": true
+    },
+    {
+     "t": "Red Energy",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554868",
+     "barcode": true
+    },
+    {
+     "t": "Lychee",
+     "pret": 145,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5940541554837",
+     "barcode": true
+    }
+   ],
+   "portii": "26",
+   "cuvinteDescriere": 3005,
+   "imagini": 10,
+   "portiiEticheta": 26,
+   "pretPortie": 5.58
+  },
+  "prime": {
+   "handle": "recovery-bcaa-500g",
+   "title": "Aminoacizi Recovery BCAA 4:1:1 – 500 g",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Cherry",
+     "pret": 105,
+     "pretVechi": 120,
+     "stoc": true,
+     "sku": "6421766015284",
+     "barcode": true
+    },
+    {
+     "t": "Pear",
+     "pret": 105,
+     "pretVechi": 120,
+     "stoc": false,
+     "sku": "6421766015192",
+     "barcode": true
+    }
+   ],
+   "portii": "4",
+   "cuvinteDescriere": 1185,
+   "imagini": 2,
+   "portiiEticheta": 62,
+   "pretPortie": 1.69
+  }
+ },
+ {
+  "cat": "Omega-3",
+  "genius": {
+   "handle": "omega-3-90-softgels",
+   "title": "OMEGA-3 90softgels/30serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 69,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "5406720623522",
+     "barcode": true
+    }
+   ],
+   "portii": "30",
+   "cuvinteDescriere": 2028,
+   "imagini": 2,
+   "portiiEticheta": 30,
+   "pretPortie": 2.3
+  },
+  "prime": {
+   "handle": "omega-3",
+   "title": "Omega-3 din ulei de pește – 80 de capsule",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 55,
+     "pretVechi": 69,
+     "stoc": true,
+     "sku": "6421766015161",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 428,
+   "imagini": 1,
+   "portiiEticheta": 80,
+   "pretPortie": 0.69
+  }
+ },
+ {
+  "cat": "Vitamina D3+K2",
+  "genius": {
+   "handle": "vitamin-d3-k2-60caps-60serv",
+   "title": "VITAMIN D3+K2 60caps/60serv",
+   "vendor": "Genius Nutrition®",
+   "available": false,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 59,
+     "pretVechi": null,
+     "stoc": false,
+     "sku": "5940541556442",
+     "barcode": true
+    }
+   ],
+   "portii": "60",
+   "cuvinteDescriere": 3831,
+   "imagini": 3,
+   "portiiEticheta": 60,
+   "pretPortie": 0.98
+  },
+  "prime": {
+   "handle": "vitamina-d3-k2",
+   "title": "Vitamina D3 + K2 – 80 capsule",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 60,
+     "pretVechi": 75,
+     "stoc": true,
+     "sku": "0655383647917",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 722,
+   "imagini": 1,
+   "portiiEticheta": 80,
+   "pretPortie": 0.75
+  }
+ },
+ {
+  "cat": "Vitamina C",
+  "genius": {
+   "handle": "vitamin-c-60-tabs-60-serv",
+   "title": "VITAMIN C 60tabs/60serv",
+   "vendor": "Genius Nutrition®",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 68,
+     "pretVechi": null,
+     "stoc": true,
+     "sku": "7353798853628",
+     "barcode": true
+    }
+   ],
+   "portii": "60",
+   "cuvinteDescriere": 2363,
+   "imagini": 2,
+   "portiiEticheta": 60,
+   "pretPortie": 1.13
+  },
+  "prime": {
+   "handle": "vitamin-c-1000-80-caps",
+   "title": "Vitamina C 1000 mg – 80 de capsule",
+   "vendor": "Prime Supplements",
+   "available": true,
+   "variante": [
+    {
+     "t": "Default Title",
+     "pret": 46,
+     "pretVechi": 59,
+     "stoc": true,
+     "sku": "6421766015598",
+     "barcode": true
+    }
+   ],
+   "portii": null,
+   "cuvinteDescriere": 484,
+   "imagini": 1,
+   "portiiEticheta": 80,
+   "pretPortie": 0.57
+  }
+ }
+]

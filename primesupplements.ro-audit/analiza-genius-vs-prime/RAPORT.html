@@ -1,0 +1,1032 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Genius vs Prime – analiză 16.11.2026</title>
+<style>
+:root{--bg:#fff;--fg:#1b1b1f;--mut:#5c5f66;--line:#e3e4e8;--acc:#ec1e24;--soft:#f6f6f8}
+@media (prefers-color-scheme:dark){:root{--bg:#141417;--fg:#ececf0;--mut:#a3a6ad;--line:#2c2d33;--soft:#1d1e22}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:1.9rem;line-height:1.25;border-bottom:4px solid var(--acc);padding-bottom:.4em}
+h2{margin-top:2.2em;border-bottom:1px solid var(--line);padding-bottom:.25em}h3{margin-top:1.6em}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:.9rem;margin:1em 0}
+th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}th{background:var(--soft)}
+code{background:var(--soft);padding:1px 4px;border-radius:4px;font-size:.88em;word-break:break-word}
+.pair{border:1px solid var(--line);border-radius:10px;padding:8px 14px 14px;margin:16px 0}
+.row{display:grid;gap:12px;margin-top:8px}.desk{grid-template-columns:1fr 1fr}.mob{grid-template-columns:repeat(2,minmax(0,220px))}
+figure{margin:0}figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:6px;display:block}
+figcaption{font-size:.8rem;color:var(--mut)}
+@media (max-width:640px){.desk{grid-template-columns:1fr}}
+</style></head><body><main><h1>Genius Nutrition vs Prime Supplements: analiză comparativă (16.11.2026)</h1>
+<p><strong>Doar citire.</strong> Nu s-a modificat nimic pe site-ul nostru sau în Shopify. Nu s-a intrat în admin, nu s-au plasat comenzi, nu s-au creat conturi și nu s-au trimis formulare. Am folosit doar pagini publice, cu o cerere la 1,1–1,5 s pe crawl și pauze la limitare. Toate datele brute sunt în <code>date/</code>, <code>lighthouse/</code> și <code>screenshots/</code>, iar scripturile în <code>scripts/</code>.</p>
+<p><strong>Domeniul concurentului:</strong> <code>geniusnutritionr.ro</code> nu există (nu se rezolvă în DNS). <code>www.geniusnutrition.ro</code> face redirect 301 spre <strong><code>https://geniusnutrition.ro/</code></strong>, site-ul analizat.</p>
+<p><strong>Ce era deja în repo (nu am refăcut):</strong></p>
+<ul>
+<li>auditul SEO din 25.10, cu o coloană Genius (<code>seo/AUDIT-SEO-COMPLET-2026-10-25.md</code>, secțiunea 5);</li>
+<li>panelul AI din 13.11, cu 29 de întrebări în Google AI Mode (<code>seo/PANEL-AI-2026-11-13.md</code>);</li>
+<li>pagina de produs vizuală după structura Genius (<code>pagina-produs-vizuala/</code>, 15.11);</li>
+<li>decizia D2 despre prețurile tăiate permanente / Omnibus (<code>SETARI-VANZARI-2026-10-16.md</code>);</li>
+<li>planul SEO de după 1.12 (<code>seo/PLAN-DUPA-BLACK-FRIDAY-2026.md</code>).</li>
+</ul>
+<p>Acolo unde o constatare de aici se suprapune cu ele, trimit la ele în loc să le repet.</p>
+<hr>
+<h2>1. Rezumat executiv</h2>
+<p><strong>Verdict:</strong> pe partea tehnică (date structurate, viteză, SEO on-page, conformitate) <strong>suntem peste Genius: 7,6 / 10 față de 6,5 / 10</strong>. <strong>Genius e însă mult mai puternic ca marcă:</strong> apare în 16 din 20 de răspunsuri Gemini, noi în 0. Are sute de recenzii pe produs, un magazin în Veranda Mall, certificat ISO 22000 și conținut de produs foarte bogat. Concluzia: „site mai bun” nu înseamnă încă „mai cunoscut”. Pentru noi, următorul pas e autoritatea și diferențierea numelui, nu tehnica.</p>
+<p><strong>Top 5 avantaje ale lor față de noi</strong></p>
+<ol>
+<li><strong>Notorietate în AI:</strong> apar în 16 din 20 de răspunsuri Gemini (din memoria modelului), noi în 0. Mai mult, la întrebarea „Genius sau Prime Supplements?” Gemini ne confundă cu băutura PRIME a lui Logan Paul (<code>date/intrebari-ai-gemini-fara-cautare.json</code>, întrebarea 15).</li>
+<li><strong>Dovezi sociale:</strong> 373 de recenzii pe WHEY-X5 2 kg (Stamped), față de 50 pe Prime Whey 2 kg (Judge.me), plus certificatul ISO 22000 afișat pe „Despre noi” (seria A-MC nr. 1226 din 24.07.2025) și magazinul fizic din Veranda Mall, cu pagină de locații.</li>
+<li><strong>Descrieri de produs mult mai bogate:</strong> 2.000–3.800 de cuvinte în descrierea Shopify a celor 10 produse comparate, față de 430–1.200 la noi. Pagina noastră vizuală nouă stă însă în metafield-uri, așa că în HTML-ul complet al paginii suntem apropiați: mediana e 5.387 de cuvinte la noi, 5.757 la ei.</li>
+<li><strong>Căutarea iartă greșelile:</strong> „wey” dă 10 produse la ei și 2 la noi; „izolat” dă la ei 4 izolate, iar la noi un singur izolat urmat de batoane.</li>
+<li><strong>Instrumente de fidelizare și comerț:</strong> abonamente (Seal Subscriptions), wishlist, cadou la comandă (iconița „gift”), card cadou, notificări push, livrare în Europa și formular B2B.</li>
+</ol>
+<p><strong>Top 5 avantaje ale noastre față de ei</strong></p>
+<ol>
+<li><strong>Date structurate complete:</strong> pe fiecare produs avem Product + Offer + Brand + MerchantReturnPolicy + OfferShippingDetails (214 din 214), plus AggregateRating după randare. <strong>Genius nu are schema Product pe niciun produs</strong> (0 din 454 de pagini de produs crawl-uite; doar Organization), deci nu poate avea stele, preț sau stoc în rezultatele Google din date structurate.</li>
+<li><strong>Viteză:</strong> pe mobil, mediana Lighthouse e 68–88 la noi și 39–61 la ei, pe 5 pagini. Pe homepage-ul lor LCP e 13,6 s, iar pagina are 20,8 MB din cauza unui video MP4 de 29,5 MB. Pe desktop avem 97–100, ei 79–93.</li>
+<li><strong>Conformitate:</strong> 0 formulări riscante în 15 descrieri de produs verificate la noi. La ei sunt aproape 50 de apariții în 5 din 15: „arderea grăsimilor / accelerează metabolismul” (Warcry Shredz), „reduce stresul și anxietatea” (Ashwagandha), „detoxifiere” (Super Greens), „previne degradarea țesutului muscular” (EAA-X5), „previne calcificarea arterială” (D3+K2).</li>
+<li><strong>Preț:</strong> suntem mai ieftini la 100 g sau pe porție la 9 din 10 perechi de produse. De exemplu, whey 2 kg: 18,4 lei/100 g la noi, 26,3 la ei; BCAA: 21,0 față de 40,3. Excepția e creatina monohidrat (25,7 față de 23,8 lei/100 g).</li>
+<li><strong>SEO on-page și limbă:</strong> avem diacritice peste tot, titluri cu cuvinte-cheie („Proteină whey din zer: concentrat și izolat”), meta description pe toate paginile și categorii de 1.000–1.300 de cuvinte, față de 550–830 la ei. Genius scrie fără diacritice pe homepage, pe toate categoriile și în butoane („Adauga in cos”), iar titlurile categoriilor au brandul dublat cu un rând nou în ele.</li>
+</ol>
+<p><strong>Top 10 acțiuni recomandate</strong> (detaliile sunt în capitolul 5)</p>
+<ol>
+<li><strong>Azi:</strong> scoate banner-ul „Black Friday … până pe 15 noiembrie” de pe homepage și din bara de anunțuri. Azi e 16.11, iar oferta afișată a expirat.</li>
+<li>Repară cele 2 linkuri interne spre pachete șterse (404) și cele 13 linkuri spre articole redirecționate.</li>
+<li><strong>Diferențierea numelui în AI:</strong> „Prime Supplements” / „Prime Whey de la Prime Supplements”, în titluri, schema <code>alternateName</code>/<code>brand</code> și pe <code>/pages/pentru-asistenti-ai</code>. E legat de pașii 18–19 din planul de după 1.12.</li>
+<li>Recenzii după livrare + Trustpilot (pașii 15–16 din plan). Diferența de 50 față de 373 de recenzii e cea mai vizibilă pentru client.</li>
+<li>Căutare tolerantă la greșeli: sinonime și redirecturi de căutare („wey”, „preworkout”, „izolat”).</li>
+<li>Pe mobil, mai puține butoane flotante: Chat, WhatsApp, cookie și „Filtrează” se suprapun peste cardurile de produs.</li>
+<li>AggregateRating în HTML-ul brut, nu doar injectat de Judge.me, ca să-l vadă și crawlerele AI care nu rulează JS.</li>
+<li>BreadcrumbList pe produse (îl avem doar pe colecții) și breadcrumb vizibil.</li>
+<li>Text alternativ pentru cele 1.713 imagini cu <code>alt=&quot;&quot;</code> (14,9 %), mai ales în galeriile de produs MNX.</li>
+<li>FAQ-ul de pe homepage (întrebări-șablon Shopify: „Articolul comandat nu este în stoc…”) înlocuit cu întrebări reale despre suplimente. Aceleași întrebări-șablon le are și Genius.</li>
+</ol>
+<hr>
+<h2>2. Tabel de scoruri (0–10)</h2>
+<table>
+<thead>
+<tr>
+<th>Zonă</th>
+<th align="right">Pondere</th>
+<th align="right">Genius</th>
+<th align="right">Prime</th>
+<th>Dovada principală</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SEO tehnic</td>
+<td align="right">12 %</td>
+<td align="right">6,5</td>
+<td align="right">7,5</td>
+<td>Genius: H1 multiplu pe 186/200 produse, 254 de URL-uri <code>/collections/x/products/y</code> legate intern, titluri cu „\n– Genius Nutrition®”. Prime: 2 linkuri interne 404, 13 spre redirecturi, 14,9 % imagini cu alt gol (<code>date/sumar-crawl.json</code>)</td>
+</tr>
+<tr>
+<td>SEO on-page / conținut</td>
+<td align="right">12 %</td>
+<td align="right">6,5</td>
+<td align="right">7,5</td>
+<td>Prime: diacritice, titluri cu cuvinte-cheie, categorii cu mediana 1.294 de cuvinte (Genius 552). Genius: descrieri de produs mai lungi, dar fără diacritice pe categorii</td>
+</tr>
+<tr>
+<td>Date structurate</td>
+<td align="right">10 %</td>
+<td align="right">3</td>
+<td align="right">9</td>
+<td>Product/Offer: Prime 214/214, Genius 0/454. Genius are doar Organization, WebSite+SearchAction, Article pe 18 articole</td>
+</tr>
+<tr>
+<td>Performanță mobil</td>
+<td align="right">10 %</td>
+<td align="right">4,5</td>
+<td align="right">7,5</td>
+<td>Mediana performance: Prime 77, Genius 49 (5 pagini × 3 rulări, <code>lighthouse/mediane.csv</code>)</td>
+</tr>
+<tr>
+<td>Performanță desktop</td>
+<td align="right">5 %</td>
+<td align="right">8</td>
+<td align="right">9,5</td>
+<td>Prime 97–100, Genius 79–93</td>
+</tr>
+<tr>
+<td>Scor AI</td>
+<td align="right">12 %</td>
+<td align="right">7,6</td>
+<td align="right">7,4</td>
+<td>76 față de 74 din 100 (capitolul 3.5). Genius câștigă la mențiuni, Prime la fapte ușor de citat</td>
+</tr>
+<tr>
+<td>Design</td>
+<td align="right">8 %</td>
+<td align="right">7,5</td>
+<td align="right">6,5</td>
+<td>Genius: video și poze lifestyle, identitate consecventă. Prime: banner expirat, elemente flotante suprapuse</td>
+</tr>
+<tr>
+<td>UX / CRO</td>
+<td align="right">12 %</td>
+<td align="right">7,5</td>
+<td align="right">7</td>
+<td>Genius: căutare mare și tolerantă, recenzii, abonamente. Prime: estimare de livrare, upsell în coș, stoc vizibil</td>
+</tr>
+<tr>
+<td>Încredere și legal</td>
+<td align="right">8 %</td>
+<td align="right">7</td>
+<td align="right">7</td>
+<td>Genius: 373 de recenzii, ISO, magazin în mall, dar aproape 50 de formulări de sănătate riscante în 5 produse. Prime: conform, date firmă, autor, dar puține recenzii</td>
+</tr>
+<tr>
+<td>Accesibilitate</td>
+<td align="right">5 %</td>
+<td align="right">7,5</td>
+<td align="right">8</td>
+<td>Lighthouse a11y mobil: Prime 96–100, Genius 92–96. axe: la noi aria-hidden-focus (9) pe toate paginile; la ei link-name și contrast</td>
+</tr>
+<tr>
+<td>Comercial</td>
+<td align="right">6 %</td>
+<td align="right">7</td>
+<td align="right">7,5</td>
+<td>Prime mai ieftin la 9/10 perechi; Genius are abonamente, card cadou, livrare UE</td>
+</tr>
+<tr>
+<td><strong>Total ponderat</strong></td>
+<td align="right">100 %</td>
+<td align="right"><strong>6,5</strong></td>
+<td align="right"><strong>7,6</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Scorurile sunt judecata mea pe baza dovezilor din dreapta. Cifrele din coloana a cincea sunt măsurate.</p>
+<hr>
+<h2>3. Pe zone</h2>
+<h3>3.0 Cine e Genius (tip de business și platformă)</h3>
+<ul>
+<li><strong>Brand propriu cu vânzare directă</strong>, nu retailer multi-brand: tot catalogul e Genius Nutrition® + sub-brandul Warcry® (plus haine și accesorii). Producție proprie, ISO 22000, sediu și depozit în Buftea, magazin în Veranda Mall (București), pagină B2B și „Login as partner”. <strong>Același model ca noi</strong> (brand propriu + magazin fizic), deci comparația e directă.</li>
+<li><strong>Shopify</strong>, tema Pursuit 1.0.7 (copie numită „Copy of Pursuit(MHT-dev) TEST METAFIELD”, publicată ca temă principală). Noi avem Impact 6.7.1.</li>
+<li><strong>Catalog:</strong> 201 produse, 27 de colecții, 92 de articole, 17 pagini în sitemap. Noi avem 214 produse, 19 colecții, 154 de articole, 10 pagini (<code>date/*-sitemap-urls.tsv</code>).</li>
+</ul>
+<h3>3.1 SEO tehnic</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Genius</th>
+<th>Prime</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>robots.txt</td>
+<td>Șablon Shopify, nimic blocat pentru boții AI</td>
+<td>Șablon Shopify + <code>Content-Signal: search=yes, ai-input=yes, ai-train=yes</code></td>
+</tr>
+<tr>
+<td>Sitemap</td>
+<td>340 de URL-uri (201 produse, 27 colecții, 92 articole, 17 pagini)</td>
+<td>398 (214 produse, 19 colecții, 154 articole, 10 pagini)</td>
+</tr>
+<tr>
+<td>www / HTTPS</td>
+<td>www → non-www 301, HTTPS</td>
+<td>la fel</td>
+</tr>
+<tr>
+<td>Crawl (raw HTML)</td>
+<td>650 de URL-uri: 649 × 200, 1 × 404 (<code>/pages/gdpr-compliance</code>, 3 linkuri interne)</td>
+<td>529: 527 × 200, 2 × 404 (pachete șterse, câte 2 linkuri interne)</td>
+</tr>
+<tr>
+<td>Redirecturi interne</td>
+<td>0</td>
+<td><strong>13 linkuri interne spre articole redirecționate</strong> (301), de ex. <code>/blogs/news/cum-alegi-un-pre-workout</code></td>
+</tr>
+<tr>
+<td>Canonical</td>
+<td>Corect; 254 de URL-uri <code>/collections/x/products/y</code> legate intern, toate cu canonical spre <code>/products/y</code></td>
+<td>Doar <code>/products/y</code>, fără variante prin colecție</td>
+</tr>
+<tr>
+<td>noindex</td>
+<td>Niciunul</td>
+<td>105, intenționat (căutare, <code>/collections/all</code>, etichete de blog)</td>
+</tr>
+<tr>
+<td>H1</td>
+<td><strong>Multiplu pe 186 din 200 de produse</strong></td>
+<td>Unul pe pagină</td>
+</tr>
+<tr>
+<td>Breadcrumb</td>
+<td>Vizibil pe colecții și produse</td>
+<td>Doar BreadcrumbList în schema colecțiilor, nevizibil pe pagină; lipsește pe produse</td>
+</tr>
+<tr>
+<td>Imagini</td>
+<td>12.352 de <code>&lt;img&gt;</code>: 0,1 % fără alt, 72 % lazy</td>
+<td>11.495: <strong>14,9 % cu <code>alt=&quot;&quot;</code></strong> (cele mai multe în galeriile MNX), 73 % lazy</td>
+</tr>
+<tr>
+<td>lang / OG / Twitter / favicon</td>
+<td><code>ro-RO</code>, OG pe tot, <code>summary_large_image</code>, da</td>
+<td><code>ro</code>, la fel</td>
+</tr>
+<tr>
+<td>Adâncime</td>
+<td>92 % din paginile atinse la ≤ 3 clicuri</td>
+<td>la fel</td>
+</tr>
+</tbody></table>
+<p><strong>Câștigă:</strong> Prime, la limită. Genius nu are erori grave (zero redirecturi, canonical corect), dar are H1 multiplu, titluri duplicate între variantele de colecție și HTML dublu ca greutate (mediana 907 KB față de 444 KB pe produs).</p>
+<h3>3.2 SEO on-page și conținut</h3>
+<ul>
+<li><strong>Titluri:</strong> Genius folosește denumirea de produs („WHEY-X5® 2000g/60serv | Genius Nutrition®”), fără cuvântul „proteină”. Pe categorii titlul are rând nou și brandul de două ori („Proteine | Magazin online Genius Nutrition®”, „Produse noi\n– Genius Nutrition®”). La noi: „Proteină whey din zer: concentrat și izolat | Prime Supplements”.</li>
+<li><strong>Meta description:</strong> Genius are 25 de pagini fără descriere și 197 peste 160 de caractere; aceeași descriere apare de 32 de ori („Comanda online produsele Genius Nutrition si Warcry…”). La noi: 0 lipsă, 16 lungi. Duplicatele noastre sunt pe paginile de etichete de blog, care au noindex.</li>
+<li><strong>Diacritice:</strong> Genius scrie fără diacritice pe homepage, pe toate categoriile, în FAQ, pe „Despre noi” și în butoane; unele descrieri noi de produs le au. Noi le avem peste tot.</li>
+<li><strong>Categorii:</strong> mediana e 1.294 de cuvinte la noi și 552 la ei. Textul lor e doar grila de produse, fără ghid.</li>
+<li><strong>Produse:</strong> descrierile Genius sunt mult mai lungi, cu o structură pe secțiuni („Despre produs”, ingrediente, mod de utilizare), pe care am adaptat-o deja pe 15.11 în pagina vizuală.</li>
+<li><strong>Acoperirea cuvintelor-cheie</strong> (pagini dedicate):</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Cuvânt-cheie</th>
+<th>Genius</th>
+<th>Prime</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>proteine / proteină whey</td>
+<td><code>/collections/proteine</code> („Proteine”)</td>
+<td><code>/collections/pudra-proteica</code> („Proteină whey din zer”) – <strong>titlu mai bun la noi</strong></td>
+</tr>
+<tr>
+<td>izolat</td>
+<td>doar produse</td>
+<td>doar produse (nicio colecție dedicată la niciunul)</td>
+</tr>
+<tr>
+<td>creatină</td>
+<td><code>/collections/creatina</code></td>
+<td><code>/collections/creatina</code> + 10+ articole</td>
+</tr>
+<tr>
+<td>pre-workout</td>
+<td><code>/collections/pre-workout</code></td>
+<td><code>/collections/suplimente-pre-workout</code></td>
+</tr>
+<tr>
+<td>BCAA / EAA</td>
+<td><code>/collections/aminoacizi</code></td>
+<td><code>/collections/aminoacizi</code></td>
+</tr>
+<tr>
+<td>arzătoare de grăsimi</td>
+<td><code>/collections/arzatoare-de-grasimi</code></td>
+<td><code>/collections/arzator-de-grasimi</code> (titlu „L-carnitină, Thermo Core și Water Out”)</td>
+</tr>
+<tr>
+<td>gainer</td>
+<td><strong><code>/collections/gainer</code></strong></td>
+<td><strong>lipsește</strong> (gainerul e în pudre proteice)</td>
+</tr>
+<tr>
+<td>vitamine pentru sportivi</td>
+<td><code>/collections/vitamine-si-minerale</code></td>
+<td><code>/collections/vitamine-si-minerale</code> („pentru sportivi” în titlu)</td>
+</tr>
+<tr>
+<td>suplimente sală</td>
+<td>–</td>
+<td><code>/collections/suplimente-sala</code></td>
+</tr>
+<tr>
+<td>cremă de orez</td>
+<td>(în alimente)</td>
+<td><strong>colecție dedicată</strong> (locul 1 Google la 23.10)</td>
+</tr>
+<tr>
+<td>magazin suplimente + oraș</td>
+<td>store-locator + Veranda Mall</td>
+<td>doar adresa în schema Organization; nicio pagină locală</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Blog:</strong> Genius are 92 de articole; ultimele 30 acoperă iulie 2025 – octombrie 2026 (circa 2 pe lună), cu autor „Genius Nutrition” și schema Article pe 18 din 23. Noi avem 154, iar ultimele 30 sunt din 27.10–16.11.2026 (circa 1 pe zi), toate cu autor Marius Chera și pagina de autor. Atenție: ritmul de un articol pe zi poate fi citit de Google drept „conținut la scară”. E acoperit de planul de după 1.12; aici doar semnalez.</li>
+<li><strong>E-E-A-T:</strong> ei au ISO 22000, adresă juridică, magazin în mall și telefon în header; noi avem autor numit, CUI și J în footer, magazin fizic în schema Organization. Ei au „Organization” fără adresă.</li>
+</ul>
+<p><strong>Câștigă:</strong> Prime la SEO on-page; Genius la profunzimea textului de produs.</p>
+<h3>3.3 Date structurate</h3>
+<table>
+<thead>
+<tr>
+<th>Tip</th>
+<th>Genius</th>
+<th>Prime</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Organization</td>
+<td>da (logo, sameAs cu 4 șiruri goale)</td>
+<td>da, <code>[&quot;Organization&quot;,&quot;OnlineStore&quot;]</code>, legalName, adresă, fondator, ContactPoint</td>
+</tr>
+<tr>
+<td>WebSite + SearchAction</td>
+<td>da</td>
+<td>da</td>
+</tr>
+<tr>
+<td>Product / Offer</td>
+<td><strong>nu (0 din 454 de pagini)</strong></td>
+<td>da, pe 214/214, cu MerchantReturnPolicy și OfferShippingDetails</td>
+</tr>
+<tr>
+<td>AggregateRating / Review</td>
+<td>nu (recenziile Stamped sunt doar vizuale)</td>
+<td>AggregateRating doar după JS (Judge.me); <strong>lipsește din HTML brut</strong></td>
+</tr>
+<tr>
+<td>BreadcrumbList</td>
+<td>nu</td>
+<td>doar pe colecții</td>
+</tr>
+<tr>
+<td>CollectionPage / ItemList</td>
+<td>nu</td>
+<td>da</td>
+</tr>
+<tr>
+<td>FAQPage</td>
+<td>nu</td>
+<td>doar pe homepage, cu întrebări-șablon Shopify</td>
+</tr>
+<tr>
+<td>Article</td>
+<td>18 din 23 de articole</td>
+<td>156 de articole, cu autor</td>
+</tr>
+<tr>
+<td>LocalBusiness / Store</td>
+<td>nu</td>
+<td>nu (adresa e în Organization)</td>
+</tr>
+</tbody></table>
+<p><strong>Rich results posibile:</strong> noi putem avea fragmente de produs (preț, stoc, retur, livrare), iar stelele apar doar dacă Google randează JS-ul Judge.me. Ei nu pot avea fragmente de produs din date structurate. Merchant Center poate compensa, dar e nemăsurat.</p>
+<h3>3.4 Performanță (Lighthouse 13.6, Chrome local, 3 rulări, mediana)</h3>
+<table>
+<thead>
+<tr>
+<th>Pagină</th>
+<th>Mobil Genius</th>
+<th>Mobil Prime</th>
+<th>Desktop Genius</th>
+<th>Desktop Prime</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Homepage</td>
+<td>44 · LCP 13,6 s · 20,8 MB</td>
+<td>68 · LCP 3,1 s · 3,5 MB</td>
+<td>79 · LCP 2,7 s</td>
+<td>98 · LCP 0,9 s</td>
+</tr>
+<tr>
+<td>Categorie proteine</td>
+<td>55 · LCP 9,6 s</td>
+<td>65 · LCP 6,0 s</td>
+<td>91</td>
+<td>99</td>
+</tr>
+<tr>
+<td>Produs whey</td>
+<td>39 · LCP 6,1 s · <strong>CLS 0,30</strong></td>
+<td>78 · LCP 3,3 s · CLS 0,00</td>
+<td>80 · CLS 0,26</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Produs creatină</td>
+<td>48 · LCP 3,7 s · <strong>CLS 0,87</strong></td>
+<td>88 · LCP 2,4 s</td>
+<td>79 · CLS 0,23</td>
+<td>97</td>
+</tr>
+<tr>
+<td>Articol</td>
+<td>61 · LCP 7,5 s</td>
+<td>86 · LCP 2,8 s</td>
+<td>93 (2 rulări)</td>
+<td>99</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Cauza principală la ei:</strong> pe homepage se încarcă integral, și pe mobil, video-ul <code>cdn.shopify.com/videos/…/8d2c164….mp4</code> (29,5 MB). CLS-ul mare de pe produse vine din <code>#gift_container</code> (iconița cadou) și din <code>main</code>.</li>
+<li><strong>Third-party la ei</strong> (homepage, mobil, Lighthouse): Tidio 515 KB, Stamped 173–581 KB, TikTok 150 KB, b-cdn (Consentmo) 123 KB, Instafeed, Hextom, Seal, PushOwl, SeasonEffects. <strong>La noi</strong>, până la acordul de cookies se încarcă doar Shopify și Judge.me.</li>
+<li><strong>La noi:</strong> TBT pe homepage mobil e 997 ms (mediana), iar Best Practices e 77 (cookie-uri terțe + „inspector issues”); la ei 69.</li>
+<li><strong>Date reale (CrUX):</strong> <strong>nemăsurat azi.</strong> API-ul PageSpeed fără cheie a răspuns 429, iar pagina pagespeed.web.dev nu s-a încărcat în panoul ascuns. Pentru noi, auditul din 25.10 a găsit CWV trecute pe datele reale. Pentru Genius e nevoie de PSI sau CrUX cu cheie.</li>
+</ul>
+<h3>3.5 Scor AI (0–100)</h3>
+<table>
+<thead>
+<tr>
+<th>Criteriu</th>
+<th align="right">Pondere</th>
+<th align="right">Genius</th>
+<th align="right">Prime</th>
+<th>Dovadă</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>robots.txt pentru GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Google-Extended, Applebot-Extended, CCBot</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td align="right">15</td>
+<td>Niciunul nu e numit; doar grupul <code>*</code> cu reguli Shopify standard, deci toți sunt permiși</td>
+</tr>
+<tr>
+<td>/llms.txt și /llms-full.txt</td>
+<td align="right">10</td>
+<td align="right">5</td>
+<td align="right">5</td>
+<td>Ambele există, dar sunt fișierele generate automat de Shopify (instrucțiuni UCP/MCP de cumpărare), fără conținut despre firmă</td>
+</tr>
+<tr>
+<td>Conținut în HTML brut, fără JS</td>
+<td align="right">15</td>
+<td align="right">14</td>
+<td align="right">14</td>
+<td>Produse: Genius 5.757 de cuvinte brute față de 703 vizibile randat (tab-urile ascunse sunt în HTML); Prime 5.387 față de 2.453</td>
+</tr>
+<tr>
+<td>Fapte ușor de citat</td>
+<td align="right">20</td>
+<td align="right">12</td>
+<td align="right">17</td>
+<td>Prime: preț, stoc, livrare, retur în schema + etichetă transcrisă. Genius: porțiile în titlu, ingrediente în text, dar fără Product/Offer și fără diacritice</td>
+</tr>
+<tr>
+<td>Conținut care răspunde la întrebări</td>
+<td align="right">15</td>
+<td align="right">10</td>
+<td align="right">12</td>
+<td>Prime: 154 de articole + <code>/pages/pentru-asistenti-ai</code>; Genius: 92 de articole + FAQ generic</td>
+</tr>
+<tr>
+<td>Semnale de entitate</td>
+<td align="right">15</td>
+<td align="right">11</td>
+<td align="right">10</td>
+<td>Genius: nume unic cu ®, ISO, magazin. Prime: schema mai bogată, dar numele „Prime” e confundat (Logan Paul PRIME; QNT Prime Whey la 13.11)</td>
+</tr>
+<tr>
+<td>Mențiuni măsurate</td>
+<td align="right">10</td>
+<td align="right">9</td>
+<td align="right">1</td>
+<td>Gemini: Genius în 16/20, Prime în 0/20. AI Mode 13.11: Prime recomandat în 4/25</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td align="right">100</td>
+<td align="right"><strong>76</strong></td>
+<td align="right"><strong>74</strong></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>Testul cu 20 de întrebări:</strong> pe PC există doar cheia gratuită Gemini, nu sunt chei OpenAI, Anthropic sau Perplexity. Cu căutare Google activată, Gemini a răspuns 429 (cota gratuită pentru căutare e 0). Am rulat deci cele 20 de întrebări <strong>fără căutare</strong>, adică ce știe modelul din memorie. Sunt rezultate reale, nu simulate, salvate integral în <code>date/intrebari-ai-gemini-fara-cautare.json</code>. Pentru varianta cu căutare există panelul AI Mode din 13.11.</p>
+<table>
+<thead>
+<tr>
+<th>Rezultat Gemini 3.5 Flash (fără căutare)</th>
+<th align="right">Genius</th>
+<th align="right">Prime</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Întrebări în care e menționat</td>
+<td align="right">16 / 20</td>
+<td align="right">0 / 20</td>
+</tr>
+<tr>
+<td>Mărci numite cel mai des (din 20)</td>
+<td align="right">GymBeam 17, Genius 16, Myprotein 13, Optimum Nutrition 11, eMAG 9, Scitec 7, Pro Nutrition 6</td>
+<td align="right">–</td>
+</tr>
+</tbody></table>
+<p>Întrebările (le poți testa manual în ChatGPT, Perplexity și Claude):</p>
+<ol>
+<li>De unde cumpăr proteină whey bună în România?</li>
+<li>Care este cel mai bun magazin online de suplimente sportive din România?</li>
+<li>Creatină monohidrat la preț bun în România, ce recomanzi?</li>
+<li>Ce proteină whey românească îmi recomanzi?</li>
+<li>Cel mai bun pre-workout disponibil în România?</li>
+<li>Unde găsesc creatină Creapure în România?</li>
+<li>Ce aminoacizi EAA sau BCAA să cumpăr în România?</li>
+<li>Recomandă-mi un izolat proteic din zer bun, de cumpărat online în România.</li>
+<li>Magazin de suplimente sportive cu livrare rapidă în România</li>
+<li>Ce suplimente să iau la sală ca începător și de unde le cumpăr în România?</li>
+<li>Branduri românești de suplimente sportive de încredere</li>
+<li>Omega-3 bun pentru sportivi, de unde cumpăr în România?</li>
+<li>Gainer pentru masă musculară, ce recomanzi în România?</li>
+<li>Magazin de suplimente sportive în Sibiu</li>
+<li>Genius Nutrition sau Prime Supplements, care e mai bun?</li>
+<li>Proteină whey cu raport bun calitate-preț în România 2026</li>
+<li>Ce cremă de orez să cumpăr în România?</li>
+<li>Suplimente sportive cu reduceri și livrare gratuită în România</li>
+<li>Ce vitamine pentru sportivi recomanzi, de cumpărat din România?</li>
+<li>Care sunt cele mai bune magazine online de proteine din România?</li>
+</ol>
+<p><strong>Nemăsurat:</strong> dacă boții AI reali primesc paginile. Shopify blochează user-agent-urile de bot falsificate de pe IP-uri neverificate (am primit 429 la ambele site-uri), deci testul nu se poate face corect de pe un PC. Datele ar veni din jurnalele de server (pe Shopify nu sunt accesibile) sau din Cloudflare Radar sau Bing Webmaster.</p>
+<h3>3.6 Design, UX și conversie</h3>
+<p>Screenshot-urile sunt în <code>screenshots/</code>: <code>&lt;site&gt;_&lt;pagină&gt;_{desktop,mobil}.jpg</code> pentru pagina întreagă (max. 12.000 px) și <code>_viewport.jpg</code> pentru primul ecran.</p>
+<table>
+<thead>
+<tr>
+<th>Zonă</th>
+<th>Genius</th>
+<th>Prime</th>
+<th>Câștigă</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Prima impresie</td>
+<td>Video lifestyle full-screen (sportivă cu shaker), titlu de produs mare, negru + gradient roz/albastru</td>
+<td>Fotografie de produse, H1 promo „Reduceri de până la 30%…”, <strong>„Black Friday … până pe 15 noiembrie” încă afișat pe 16.11</strong></td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Header / meniu</td>
+<td>Bară neagră cu e-mail și telefon, meniu scurt (Home, Produse, Oferte, Produse noi, Ajutor), <strong>căutare lată pe desktop</strong>, coș cu total în lei</td>
+<td>Bară de anunțuri roșie, meniu cu 7 intrări (meniul se rupe pe 2 rânduri la 1440 px: „Contact” cade dedesubt), căutare doar ca iconiță</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Căutare (sugestii)</td>
+<td>„proteina” 10, „creatina” 10, „wey” 10, „preworkout” 10, „izolat” 10 (izolate), „bcaa” 10</td>
+<td>10, 10, <strong>„wey” 2</strong>, 10, <strong>„izolat” 6 (1 izolat + batoane)</strong>, 10</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Categorii</td>
+<td>Hero cu sportiv, filtre, sortare, grilă/listă; fără text de ghid</td>
+<td>Text explicativ sus, „Filtrează și sortează” flotant, badge „Economisește X lei”; fără preț/100 g</td>
+<td>Egal</td>
+</tr>
+<tr>
+<td>Produs</td>
+<td>Selector cantitate + aromă, „În stoc și gata de livrare”, „Adaugă în coș” + „Cumpără acum”, wishlist, 373 de recenzii, tab-uri</td>
+<td>Estimare de livrare cu dată, stoc („Doar 1 unitate rămasă”), 50 de recenzii, pagina vizuală, upsell în coș</td>
+<td>Egal (ei la dovadă socială, noi la livrare)</td>
+</tr>
+<tr>
+<td>Elemente fixe pe mobil</td>
+<td>Doar iconița cadou (1,2 % din ecran) + „înapoi sus”</td>
+<td>Bara de anunțuri + header (11 % din ecran, sticky), plus Chat, WhatsApp și cookie, care acoperă colțurile cardurilor de produs</td>
+<td>Genius</td>
+</tr>
+<tr>
+<td>Verificare vârstă</td>
+<td>Pop-up 18+ pe toată pagina la pre-workout (produse cu stimulente)</td>
+<td>Nu</td>
+<td>– (frecare pentru ei, dar prudență legală)</td>
+</tr>
+<tr>
+<td>Coș / checkout</td>
+<td>Coș gol verificat. <strong>Checkout nevizitat</strong> (regula noastră „nu intra în checkout”; pentru echitate nici la ei)</td>
+<td>Coș gol verificat; din jurnal: modulele Prime Coș (livrare + upsell) sunt LIVE din 15.11</td>
+<td>Nemăsurat</td>
+</tr>
+<tr>
+<td>Plăți</td>
+<td>Nemăsurate integral (checkout nevizitat)</td>
+<td>Ramburs, Visa, Mastercard, Apple/Google Pay (Shopify Payments din 15.11)</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Livrare</td>
+<td>Gratuită peste 300 lei, expediere în aceeași zi până la 14:00, 1–2 zile lucrătoare, livrare în UE</td>
+<td>Gratuită peste 300 lei, estimare cu dată pe produs</td>
+<td>Egal</td>
+</tr>
+<tr>
+<td>Retur</td>
+<td>14 zile, formular online pe pagina de livrare (cere IBAN)</td>
+<td>Pagină de politică</td>
+<td>Egal</td>
+</tr>
+<tr>
+<td>Marketing pe site</td>
+<td>Cadou la comandă, abonamente, wishlist, notificări push, Instafeed, chat Tidio, efect de sezon</td>
+<td>Chat Shopify Inbox, WhatsApp, coduri de afiliat pe homepage, upsell în coș</td>
+<td>Genius (mai multe unelte)</td>
+</tr>
+</tbody></table>
+<p><strong>Mențiuni de sănătate (Reg. UE 1924/2006):</strong> din 15 descrieri verificate pe fiecare site (<code>date/mentiuni-sanatate.json</code>):</p>
+<ul>
+<li><strong>Genius, 5 produse cu formulări riscante:</strong> Warcry Shredz („arderea grăsimilor”, „accelera metabolismul”, 14 apariții), Super Greens („detoxifiere”, 19), Ashwagandha („reduce stresul și anxietatea”, 10), EAA-X5 („mediu anabolic”, „previne degradarea țesutului muscular”), D3+K2 („previne calcificarea arterială”). La Vitamin C au o mențiune corectă („nu înseamnă că previne sau tratează răceala”).</li>
+<li><strong>Prime:</strong> 0 formulări riscante în cele 15.</li>
+</ul>
+<p><strong>Cookies și GDPR:</strong></p>
+<ul>
+<li><strong>Genius</strong> folosește Consentmo. <strong>Fără nicio alegere în banner</strong>, Lighthouse a încărcat scripturile pixelului TikTok (<code>analytics.tiktok.com/i18n/pixel/events.js</code>, 150 KB) pe homepage și pe produs. Nu am văzut cereri de evenimente trimise. De verificat dacă e un risc.</li>
+<li><strong>Prime (Pandectes):</strong> fără alegere, Google pleacă doar cu <code>gcs=G100</code> (Consent Mode v2, totul refuzat), iar Meta încarcă <code>fbevents.js</code> fără să trimită evenimente. După „Refuz toate” nu se mai încarcă nimic. <strong>Câștigăm la conformitate.</strong></li>
+</ul>
+<p><strong>Accesibilitate (axe-core, desktop):</strong></p>
+<ul>
+<li>Prime: <code>aria-hidden-focus</code> (9 noduri) pe toate paginile și contrast insuficient (2–33 de noduri; cel mai rău e pagina de căutare); pe blog <code>nested-interactive</code> (80); pe coș, contact și 404 lipsește H1.</li>
+<li>Genius: contrast (până la 25 de noduri pe blog), <code>link-name</code> (2) și <code>link-in-text-block</code> pe produse, <code>label</code> lipsă la căutare.</li>
+<li>Lighthouse a11y: Prime 96–100 pe mobil, Genius 92–96.</li>
+</ul>
+<h3>3.7 Comercial</h3>
+<table>
+<thead>
+<tr>
+<th>Produs (prima variantă)</th>
+<th>Genius</th>
+<th>lei/100 g sau porție</th>
+<th>Prime</th>
+<th>lei/100 g sau porție</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Whey 2 kg</td>
+<td>WHEY-X5 526 lei</td>
+<td>26,3 lei/100 g · 8,77/porție</td>
+<td>Prime Whey 369 lei (tăiat 390)</td>
+<td><strong>18,4</strong> · 5,59</td>
+</tr>
+<tr>
+<td>Izolat 2 kg</td>
+<td>ISOLATE-X5 552</td>
+<td>27,6 · 9,20</td>
+<td>Pure Isolate 480 (510)</td>
+<td><strong>24,0</strong> · 6,49</td>
+</tr>
+<tr>
+<td>Creatină monohidrat</td>
+<td>400 g, 95</td>
+<td><strong>23,8</strong> · 0,71 (3 g)</td>
+<td>300 g, 77 (98)</td>
+<td>25,7 · 1,28 (5 g)</td>
+</tr>
+<tr>
+<td>Creapure</td>
+<td>300 g, 119</td>
+<td>39,7 · 1,19</td>
+<td>500 g, 140 (180)</td>
+<td><strong>28,0</strong> · 1,40</td>
+</tr>
+<tr>
+<td>Pre-workout</td>
+<td>Warcry Pump 400 g, 150</td>
+<td>37,5 · 7,50</td>
+<td>Nitrox 3D 500 g, 148 (190)</td>
+<td><strong>29,6</strong> · 5,92</td>
+</tr>
+<tr>
+<td>EAA</td>
+<td>360 g, 136</td>
+<td>37,8 · 4,53</td>
+<td>500 g, 137 (175)</td>
+<td><strong>27,4</strong> · 1,65</td>
+</tr>
+<tr>
+<td>BCAA</td>
+<td>360 g, 145</td>
+<td>40,3 · 5,58</td>
+<td>500 g, 105 (120)</td>
+<td><strong>21,0</strong> · 1,69</td>
+</tr>
+<tr>
+<td>Omega-3</td>
+<td>90 capsule, 69</td>
+<td>0,77/capsulă</td>
+<td>80 capsule, 55 (69)</td>
+<td><strong>0,69</strong>/capsulă</td>
+</tr>
+<tr>
+<td>D3 + K2</td>
+<td>60 capsule, 59</td>
+<td>0,98/capsulă</td>
+<td>80 capsule, 60 (75)</td>
+<td><strong>0,75</strong></td>
+</tr>
+<tr>
+<td>Vitamina C</td>
+<td>60 tablete, 68</td>
+<td>1,13</td>
+<td>80 capsule, 46 (59)</td>
+<td><strong>0,57</strong></td>
+</tr>
+</tbody></table>
+<p>Mărimile porțiilor diferă între producători, așa că comparația cinstită e pe 100 g. Genius nu are preț tăiat pe niciunul din cele 10; noi avem pe toate 10 (riscul Omnibus e deja în D2, <code>SETARI-VANZARI-2026-10-16.md</code>). Prețuri publice citite pe 16.11.2026 din <code>/products/&lt;handle&gt;.js</code> (<code>date/preturi-10-perechi.json</code>).</p>
+<p><strong>Stack tehnic</strong> (din HTML și rețea):</p>
+<ul>
+<li><strong>Genius:</strong> GTM, Google Ads, GA4, TikTok, Consentmo, Stamped (recenzii), GoAffPro (afiliați), Tidio (chat), Seal Subscriptions, Wishlist Hero, PushOwl, Instafeed, Hextom, SeasonEffects, VBR Marketing. Meta Pixel nu apare în rețea înainte de consimțământ (nemăsurat după).</li>
+<li><strong>Prime:</strong> GA4 și Google Ads cu Consent Mode v2, Meta Pixel (după consimțământ), Clarity, Pandectes, theMarketer, Judge.me, Prime Afiliați (aplicația proprie), Shopify Inbox, WhatsApp.</li>
+</ul>
+<hr>
+<h2>4. Ce avem deja peste ei și cum ne folosim de asta</h2>
+<ol>
+<li><strong>Preț mai mic la 100 g pe 9 din 10 produse.</strong> Spune-o direct pe produs: „preț pe 100 g” în card și pe pagină. Ei nu o afișează, iar noi câștigăm la comparație. Nu numim concurentul.</li>
+<li><strong>Viteză:</strong> pagina de produs se încarcă de 2 ori mai repede pe mobil (LCP 2,4–3,3 s față de 3,7–6,1 s). Un mesaj de tip „Comanzi în 30 de secunde, de pe telefon” e credibil pentru noi.</li>
+<li><strong>Conformitate:</strong> descrierile noastre folosesc doar mențiuni autorizate. Ca mesaj: „Ce scrie pe etichetă, nimic în plus”, potrivit cu pagina vizuală, unde datele vin din etichetă.</li>
+<li><strong>Date structurate complete:</strong> odată ce feed-ul Merchant are GTIN (pasul 19 din plan), suntem singurii dintre cei doi cu preț, stoc și retur citibile automat, exact ce folosesc ChatGPT Shopping și AI Mode la „de unde cumpăr”.</li>
+<li><strong>Autor real și blog activ:</strong> Marius Chera, IFBB Pro, ca expert numit. Genius semnează „Genius Nutrition”. Asta merită folosit în PR și în mențiuni externe (pașii 16–17 din plan).</li>
+<li><strong>Diacritice și limbă îngrijită:</strong> suntem singurul dintre cei doi care scrie corect în română. E un semnal de calitate pentru cititori și pentru AI.</li>
+</ol>
+<hr>
+<h2>5. Plan de acțiune prioritizat</h2>
+<p>Respectă decizia din 25.10: auditul SEO se aplică de la 1.12, în ordinea din <code>seo/PLAN-DUPA-BLACK-FRIDAY-2026.md</code>. Mai jos marchez ce e deja acolo.</p>
+<h3>Quick wins (sub 1 săptămână)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Ce schimbăm</th>
+<th>Unde în Shopify</th>
+<th>Impact</th>
+<th>Efort</th>
+<th>Cum măsurăm</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Q1</td>
+<td>Scoatem „Black Friday … până pe 15 noiembrie” din hero și din bara de anunțuri (sau punem mesajul pentru Late Black Friday 25–27.11, cu textul aprobat de tine)</td>
+<td>Temă → Homepage → Slideshow/hero + Bara de anunțuri</td>
+<td>Mare (încredere)</td>
+<td>10 min</td>
+<td>Vizual, azi</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>Repar 2 linkuri interne spre pachete șterse (404): ambele sunt pe <code>/collections/reduceri</code> (<code>pachet-starter-incepator-…</code>, <code>pachet-starter-forta-…</code>). Repar și 13 linkuri spre URL-uri redirecționate, aflate în 2 colecții (pre-workout, alimente sănătoase) și circa 30 de articole. Lista completă e în <code>date/prime-linkuri-rupte.json</code></td>
+<td>Colecții → Reduceri (descriere); Conținut → Articole (linkuri în corp)</td>
+<td>Mic–mediu</td>
+<td>1 h</td>
+<td>Re-crawl: 0 × 404, 0 linkuri interne cu 301</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Sinonime de căutare: „wey”→whey, „izolat” doar izolate, „preworkout”→pre-workout</td>
+<td>Search &amp; Discovery → Sinonime; Navigare → redirecturi URL de căutare</td>
+<td>Mediu</td>
+<td>1 h</td>
+<td>Sugestiile pentru „wey” și „izolat” arată izolatele</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>Mai puține butoane flotante pe mobil: Chat și WhatsApp într-un singur buton, iconița cookie mai mică sau mutată</td>
+<td>Temă (snippet <code>prime-wa</code>), setările Inbox</td>
+<td>Mediu (conversie mobil)</td>
+<td>2 h</td>
+<td>Captură la 390 px: cardurile complet vizibile</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>Meniul desktop pe un singur rând (7 intrări + Contact)</td>
+<td>Navigare → meniul principal</td>
+<td>Mic</td>
+<td>15 min</td>
+<td>Captură la 1440 px</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>FAQ-ul de pe homepage (întrebări-șablon Shopify) înlocuit cu 5–6 întrebări reale (livrare, plată, retur, magazin Sibiu, cum aleg proteina)</td>
+<td>Temă → Homepage → secțiunea FAQ (schema se generează din ea)</td>
+<td>Mediu (AI)</td>
+<td>1 h</td>
+<td>Schema FAQPage cu întrebările noi</td>
+</tr>
+</tbody></table>
+<h3>Termen mediu (1–4 săptămâni)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Ce schimbăm</th>
+<th>Unde</th>
+<th>Impact</th>
+<th>Efort</th>
+<th>Cum măsurăm</th>
+<th>Plan 1.12</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>M1</td>
+<td>Recenzii după livrare (e-mail Judge.me la 7–10 zile) + Trustpilot</td>
+<td>Judge.me → Requests; theMarketer</td>
+<td>Mare</td>
+<td>1 zi</td>
+<td>Recenzii pe Prime Whey: de la 50 la 150 în 60 de zile</td>
+<td>Pașii 15–16</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>Diferențierea numelui: „Prime Supplements” peste tot, „Prime Whey de la Prime Supplements”, <code>alternateName</code> fără „PRIME” singur, <code>/pages/pentru-asistenti-ai</code> cu „nu suntem PRIME Hydration”</td>
+<td>Titluri de produs, metafield SEO, schema din temă, pagina AI</td>
+<td>Mare (AI)</td>
+<td>1–2 zile</td>
+<td>Întrebarea 15 nu mai confundă; panelul AI din 13.12</td>
+<td>Pașii 18–19</td>
+</tr>
+<tr>
+<td>M3</td>
+<td>AggregateRating în HTML brut (din metafield-urile Judge.me în JSON-LD-ul temei) + BreadcrumbList pe produse + breadcrumb vizibil</td>
+<td>Temă: <code>snippets/</code> cu JSON-LD-ul de produs</td>
+<td>Mediu</td>
+<td>0,5 zile</td>
+<td>Rich Results Test; HTML brut conține <code>aggregateRating</code></td>
+<td>–</td>
+</tr>
+<tr>
+<td>M4</td>
+<td>Alt text pentru 1.713 imagini goale (galeriile MNX și imaginile decorative din temă)</td>
+<td>Produse → Media; temă</td>
+<td>Mic–mediu</td>
+<td>0,5 zile (script)</td>
+<td>Re-crawl: alt gol sub 2 %</td>
+<td>–</td>
+</tr>
+<tr>
+<td>M5</td>
+<td>Preț pe 100 g / pe porție pe card și pe produs</td>
+<td>Metafield <code>custom.pret_100g</code> + temă (card produs)</td>
+<td>Mediu (conversie)</td>
+<td>1 zi</td>
+<td>CTR pe categorie, adăugări în coș (GA4)</td>
+<td>–</td>
+</tr>
+<tr>
+<td>M6</td>
+<td>Colecție „Gainer” (și eventual „Izolat proteic”)</td>
+<td>Colecții + text de categorie</td>
+<td>Mic–mediu</td>
+<td>2 h</td>
+<td>GSC: impresii pe „gainer”, „izolat proteic”</td>
+<td>Subcategoriile din audit</td>
+</tr>
+<tr>
+<td>M7</td>
+<td>Accesibilitate: <code>aria-hidden-focus</code> (9 pe fiecare pagină), contrastul pe căutare, H1 pe coș/contact/404</td>
+<td>Temă</td>
+<td>Mic</td>
+<td>0,5 zile</td>
+<td>axe: 0 serioase</td>
+<td>–</td>
+</tr>
+</tbody></table>
+<h3>Termen lung (1–3 luni)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Ce schimbăm</th>
+<th>Unde</th>
+<th>Impact</th>
+<th>Efort</th>
+<th>Cum măsurăm</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>L1</td>
+<td>Pagină locală „Magazin de suplimente în Sibiu / Cisnădie” cu adresă, program și schema Store, apoi Google Maps (fără GBP, care nu e eligibil, vezi memoria)</td>
+<td>Pagini + schema din temă</td>
+<td>Mediu</td>
+<td>1 zi</td>
+<td>Întrebarea 14 („Magazin de suplimente sportive în Sibiu”); GSC pe „sibiu”</td>
+</tr>
+<tr>
+<td>L2</td>
+<td>Mențiuni externe și topuri (SupliScout, comparatoare, articole „cea mai bună proteină”)</td>
+<td>În afara site-ului</td>
+<td>Mare (AI)</td>
+<td>continuu</td>
+<td>Panel AI lunar, de la 0 la ≥ 4/20 în Gemini</td>
+</tr>
+<tr>
+<td>L3</td>
+<td>Abonament „livrare la 30 de zile” pentru whey și creatină (ei au Seal Subscriptions)</td>
+<td>Aplicație de abonamente sau Shopify Subscriptions</td>
+<td>Mediu</td>
+<td>2–3 zile</td>
+<td>% comenzi recurente</td>
+</tr>
+<tr>
+<td>L4</td>
+<td>Video scurt pe produs, comprimat (sub 2 MB, poster + <code>preload=&quot;none&quot;</code>), nu ca ei, cu 29 MB</td>
+<td>Media produs</td>
+<td>Mic–mediu</td>
+<td>per produs</td>
+<td>LCP mobil neschimbat; timp pe pagină</td>
+</tr>
+<tr>
+<td>L5</td>
+<td>Ritmul blogului: mai puține articole noi, actualizarea și consolidarea celor existente (risc de „conținut la scară”)</td>
+<td>Blog</td>
+<td>Mediu</td>
+<td>continuu</td>
+<td>GSC: impresii pe articol, nu număr de articole</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>6. Ce NU merită copiat de la ei</h2>
+<ul>
+<li><strong>Video-ul de 29,5 MB pe homepage:</strong> le dă LCP 13,6 s pe mobil și 20 MB de pagină.</li>
+<li><strong>Mențiunile de sănătate</strong> („arde grăsimile”, „reduce anxietatea”, „detox”): sunt neautorizate în UE și interzise de regulile noastre.</li>
+<li><strong>Textele fără diacritice</strong> și titlurile cu brandul dublat.</li>
+<li><strong>Numărul mare de aplicații</strong> (14+ servicii terțe pe pagină: Tidio, Stamped, PushOwl, Instafeed, Hextom, SeasonEffects…): costă viteză și bani lunar. Am renunțat deja la Delivery Estimator, Dondy și UpPromote în favoarea codului propriu.</li>
+<li><strong>Pixelul TikTok încărcat înainte de consimțământ.</strong></li>
+<li><strong>FAQ-ul șablon Shopify:</strong> îl au amândouă site-urile; nu e un avantaj al lor.</li>
+<li><strong>Pop-up-ul 18+ pe toată categoria de pre-workout:</strong> e o decizie legală a lor. La noi, fără o cerință legală clară, e o frecare inutilă (decizia ta, dacă vrei prudență pe produsele cu cafeină mare).</li>
+</ul>
+<hr>
+<h2>7. Ce nu am putut măsura și ce date ar trebui</h2>
+<table>
+<thead>
+<tr>
+<th>Ce</th>
+<th>De ce nu</th>
+<th>Ce ar trebui</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Core Web Vitals reale (CrUX) pentru Genius și pentru noi azi</td>
+<td>API-ul PSI fără cheie dă 429; pagespeed.web.dev nu s-a încărcat în panoul ascuns</td>
+<td>Cheie PSI/CrUX gratuită (Google Cloud) sau rularea manuală pe pagespeed.web.dev</td>
+</tr>
+<tr>
+<td>Trafic, poziții, cuvinte-cheie, backlinkuri</td>
+<td>Fără unelte plătite</td>
+<td>Search Console (al nostru), Ahrefs / Semrush / Similarweb pentru Genius</td>
+</tr>
+<tr>
+<td>ChatGPT, Perplexity, Claude</td>
+<td>Fără chei API pe PC</td>
+<td>Testul manual cu cele 20 de întrebări de mai sus</td>
+</tr>
+<tr>
+<td>Gemini cu căutare Google</td>
+<td>Cota gratuită pentru căutare e 0 (429)</td>
+<td>Cheia plătită (doar în cloud) sau AI Mode manual (ca pe 13.11)</td>
+</tr>
+<tr>
+<td>Accesul real al boților AI</td>
+<td>Shopify blochează user-agent-urile de bot falsificate</td>
+<td>Bing Webmaster (AI Performance), Cloudflare Radar</td>
+</tr>
+<tr>
+<td>Checkout (pași, plăți, curieri, lockere, costuri ascunse)</td>
+<td>Regula noastră „nu intra în checkout”; la ei nu am intrat, ca să nu adaug în coș</td>
+<td>Comandă de test făcută de tine, cu screenshot-uri</td>
+</tr>
+<tr>
+<td>Programul de loialitate Genius</td>
+<td>Necesită cont</td>
+<td>Cont creat de tine</td>
+</tr>
+<tr>
+<td>Meta Pixel la Genius după consimțământ</td>
+<td>Fără acceptarea cookie-urilor</td>
+<td>Test manual cu „Accept” în banner</td>
+</tr>
+<tr>
+<td>Merchant Center / Google Shopping la Genius</td>
+<td>Fără acces</td>
+<td>Căutări Shopping manuale („whey x5”)</td>
+</tr>
+<tr>
+<td>Linkuri orfane complete la Genius</td>
+<td>Crawl limitat la 500 + 150 din sitemap; 360 de URL-uri rămase în coadă</td>
+<td>Screaming Frog cu tot site-ul</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="capturi">Capturi de ecran (primul ecran; click = pagina întreagă)</h2><section class="pair"><h3>Homepage</h3><div class="row desk"><figure><a href="screenshots/genius_home_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_home_desktop_viewport.jpg" alt="Homepage: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_home_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_home_desktop_viewport.jpg" alt="Homepage: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_home_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_home_mobil_viewport.jpg" alt="Homepage: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_home_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_home_mobil_viewport.jpg" alt="Homepage: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Categorie proteine</h3><div class="row desk"><figure><a href="screenshots/genius_cat_proteine_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_proteine_desktop_viewport.jpg" alt="Categorie proteine: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_cat_proteine_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_proteine_desktop_viewport.jpg" alt="Categorie proteine: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_cat_proteine_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_proteine_mobil_viewport.jpg" alt="Categorie proteine: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_cat_proteine_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_proteine_mobil_viewport.jpg" alt="Categorie proteine: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Categorie creatină</h3><div class="row desk"><figure><a href="screenshots/genius_cat_creatina_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_creatina_desktop_viewport.jpg" alt="Categorie creatină: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_cat_creatina_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_creatina_desktop_viewport.jpg" alt="Categorie creatină: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_cat_creatina_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_creatina_mobil_viewport.jpg" alt="Categorie creatină: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_cat_creatina_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_creatina_mobil_viewport.jpg" alt="Categorie creatină: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Categorie pre-workout</h3><div class="row desk"><figure><a href="screenshots/genius_cat_preworkout_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_preworkout_desktop_viewport.jpg" alt="Categorie pre-workout: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_cat_preworkout_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_preworkout_desktop_viewport.jpg" alt="Categorie pre-workout: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_cat_preworkout_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cat_preworkout_mobil_viewport.jpg" alt="Categorie pre-workout: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_cat_preworkout_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cat_preworkout_mobil_viewport.jpg" alt="Categorie pre-workout: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Produs whey</h3><div class="row desk"><figure><a href="screenshots/genius_prod_whey_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_whey_desktop_viewport.jpg" alt="Produs whey: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_prod_whey_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_whey_desktop_viewport.jpg" alt="Produs whey: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_prod_whey_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_whey_mobil_viewport.jpg" alt="Produs whey: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_prod_whey_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_whey_mobil_viewport.jpg" alt="Produs whey: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Produs creatină</h3><div class="row desk"><figure><a href="screenshots/genius_prod_creatina_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_creatina_desktop_viewport.jpg" alt="Produs creatină: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_prod_creatina_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_creatina_desktop_viewport.jpg" alt="Produs creatină: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_prod_creatina_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_creatina_mobil_viewport.jpg" alt="Produs creatină: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_prod_creatina_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_creatina_mobil_viewport.jpg" alt="Produs creatină: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Produs pre-workout</h3><div class="row desk"><figure><a href="screenshots/genius_prod_preworkout_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_preworkout_desktop_viewport.jpg" alt="Produs pre-workout: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_prod_preworkout_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_preworkout_desktop_viewport.jpg" alt="Produs pre-workout: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_prod_preworkout_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_preworkout_mobil_viewport.jpg" alt="Produs pre-workout: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_prod_preworkout_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_preworkout_mobil_viewport.jpg" alt="Produs pre-workout: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Produs EAA</h3><div class="row desk"><figure><a href="screenshots/genius_prod_amino_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_amino_desktop_viewport.jpg" alt="Produs EAA: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_prod_amino_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_amino_desktop_viewport.jpg" alt="Produs EAA: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_prod_amino_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_amino_mobil_viewport.jpg" alt="Produs EAA: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_prod_amino_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_amino_mobil_viewport.jpg" alt="Produs EAA: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Produs omega-3</h3><div class="row desk"><figure><a href="screenshots/genius_prod_omega3_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_omega3_desktop_viewport.jpg" alt="Produs omega-3: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_prod_omega3_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_omega3_desktop_viewport.jpg" alt="Produs omega-3: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_prod_omega3_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_prod_omega3_mobil_viewport.jpg" alt="Produs omega-3: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_prod_omega3_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_prod_omega3_mobil_viewport.jpg" alt="Produs omega-3: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Căutare „proteina”</h3><div class="row desk"><figure><a href="screenshots/genius_cautare_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cautare_desktop_viewport.jpg" alt="Căutare „proteina”: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_cautare_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cautare_desktop_viewport.jpg" alt="Căutare „proteina”: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_cautare_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cautare_mobil_viewport.jpg" alt="Căutare „proteina”: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_cautare_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cautare_mobil_viewport.jpg" alt="Căutare „proteina”: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Coș</h3><div class="row desk"><figure><a href="screenshots/genius_cos_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cos_desktop_viewport.jpg" alt="Coș: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_cos_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cos_desktop_viewport.jpg" alt="Coș: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_cos_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_cos_mobil_viewport.jpg" alt="Coș: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_cos_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_cos_mobil_viewport.jpg" alt="Coș: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Blog</h3><div class="row desk"><figure><a href="screenshots/genius_blog_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_blog_desktop_viewport.jpg" alt="Blog: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_blog_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_blog_desktop_viewport.jpg" alt="Blog: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_blog_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_blog_mobil_viewport.jpg" alt="Blog: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_blog_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_blog_mobil_viewport.jpg" alt="Blog: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Articol</h3><div class="row desk"><figure><a href="screenshots/genius_articol_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_articol_desktop_viewport.jpg" alt="Articol: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_articol_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_articol_desktop_viewport.jpg" alt="Articol: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_articol_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_articol_mobil_viewport.jpg" alt="Articol: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_articol_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_articol_mobil_viewport.jpg" alt="Articol: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Despre noi</h3><div class="row desk"><figure><a href="screenshots/genius_despre_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_despre_desktop_viewport.jpg" alt="Despre noi: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_despre_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_despre_desktop_viewport.jpg" alt="Despre noi: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_despre_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_despre_mobil_viewport.jpg" alt="Despre noi: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_despre_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_despre_mobil_viewport.jpg" alt="Despre noi: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Contact</h3><div class="row desk"><figure><a href="screenshots/genius_contact_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_contact_desktop_viewport.jpg" alt="Contact: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_contact_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_contact_desktop_viewport.jpg" alt="Contact: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_contact_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_contact_mobil_viewport.jpg" alt="Contact: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_contact_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_contact_mobil_viewport.jpg" alt="Contact: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Livrare</h3><div class="row desk"><figure><a href="screenshots/genius_livrare_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_livrare_desktop_viewport.jpg" alt="Livrare: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_livrare_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_livrare_desktop_viewport.jpg" alt="Livrare: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_livrare_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_livrare_mobil_viewport.jpg" alt="Livrare: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_livrare_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_livrare_mobil_viewport.jpg" alt="Livrare: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Retur</h3><div class="row desk"><figure><a href="screenshots/genius_retur_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_retur_desktop_viewport.jpg" alt="Retur: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_retur_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_retur_desktop_viewport.jpg" alt="Retur: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_retur_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_retur_mobil_viewport.jpg" alt="Retur: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_retur_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_retur_mobil_viewport.jpg" alt="Retur: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>FAQ / pagina AI</h3><div class="row desk"><figure><a href="screenshots/genius_faq_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_faq_desktop_viewport.jpg" alt="FAQ / pagina AI: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_faq_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_faq_desktop_viewport.jpg" alt="FAQ / pagina AI: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_faq_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_faq_mobil_viewport.jpg" alt="FAQ / pagina AI: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_faq_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_faq_mobil_viewport.jpg" alt="FAQ / pagina AI: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<section class="pair"><h3>Pagina 404</h3><div class="row desk"><figure><a href="screenshots/genius_p404_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_p404_desktop_viewport.jpg" alt="Pagina 404: Genius, desktop"></a><figcaption>Genius · desktop</figcaption></figure><figure><a href="screenshots/prime_p404_desktop.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_p404_desktop_viewport.jpg" alt="Pagina 404: Prime, desktop"></a><figcaption>Prime · desktop</figcaption></figure></div><div class="row mob"><figure><a href="screenshots/genius_p404_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/genius_p404_mobil_viewport.jpg" alt="Pagina 404: Genius, mobil"></a><figcaption>Genius · mobil</figcaption></figure><figure><a href="screenshots/prime_p404_mobil.jpg" target="_blank"><img loading="lazy" src="screenshots/prime_p404_mobil_viewport.jpg" alt="Pagina 404: Prime, mobil"></a><figcaption>Prime · mobil</figcaption></figure></div></section>
+<h2>8. Anexe</h2>
+<ul>
+<li><strong>Paginile analizate</strong> (19 pe site): <code>scripts/pagini.mjs</code>. Paginile Lighthouse: homepage, categoria proteine, whey, creatină, articol.</li>
+<li><strong>Crawl:</strong> <code>date/genius-crawl.csv</code> (650 de rânduri), <code>date/prime-crawl.csv</code> (529), sumar în <code>date/sumar-crawl.json</code>.</li>
+<li><strong>Lighthouse:</strong> <code>lighthouse/mediane.csv</code>, toate rulările în <code>lighthouse/rezultate.json</code>, rapoartele HTML/JSON ale primei rulări în <code>lighthouse/&lt;site&gt;_&lt;pagină&gt;_&lt;mobile|desktop&gt;.{html,json}</code>.</li>
+<li><strong>Browser</strong> (JSON-LD randat, axe, rețea, elemente fixe, căutare): <code>date/browser-audit.json</code>.</li>
+<li><strong>Prețuri:</strong> <code>date/preturi-10-perechi.json</code>; <strong>mențiuni de sănătate:</strong> <code>date/mentiuni-sanatate.json</code>; <strong>AI:</strong> <code>date/intrebari-ai-gemini-fara-cautare.json</code>.</li>
+<li><strong>robots, sitemap, llms, agents:</strong> <code>date/&lt;site&gt;-robots.txt</code>, <code>-sitemap*.xml</code>, <code>-llms*.txt</code>, <code>-agents.md</code>.</li>
+<li><strong>Screenshot-uri:</strong> 152 în <code>screenshots/</code> (19 pagini × 2 site-uri × desktop/mobil × întreagă/primul ecran).</li>
+</ul>
+<p>Limite: crawl-ul citește HTML brut (fără JS), ca un crawler AI. Datele randate (stele Judge.me, recenzii Stamped) vin din <code>browser-audit.json</code>. Ambele site-uri m-au limitat temporar (429) în timpul analizei. Pauzele au fost respectate, iar paginile afectate au fost refăcute.</p>
+</main></body></html>

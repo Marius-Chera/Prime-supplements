@@ -1,0 +1,6 @@
+https://primesupplements.ro/sitemap_agentic_discovery.xml
+https://primesupplements.ro/sitemap_products_1.xml?from=14971464450423&to=15589241651575
+https://primesupplements.ro/sitemap_pages_1.xml?from=691260457335&to=704989921655
+https://primesupplements.ro/sitemap_collections_1.xml?from=670994334071&to=699470741879
+https://primesupplements.ro/sitemap_blogs_1.xml
+https://primesupplements.ro/sitemap_articles_1.xml

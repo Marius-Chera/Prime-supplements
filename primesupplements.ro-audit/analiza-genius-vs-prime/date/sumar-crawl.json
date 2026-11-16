@@ -1,0 +1,1401 @@
+{
+ "genius": {
+  "data": "2026-11-16T00:36:22.638Z",
+  "crawl": 650,
+  "byStatus": {
+   "200": 649,
+   "404": 1
+  },
+  "perTip": {
+   "home": {
+    "n": 1,
+    "words_med": 2521,
+    "mainWords_med": 2211,
+    "titleLen_med": 47,
+    "descLen_med": 252,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 906,
+    "scripts_med": 82,
+    "ms_med": 663,
+    "jsonld": [
+     [
+      "Organization",
+      1
+     ],
+     [
+      "WebSite",
+      1
+     ],
+     [
+      "SearchAction",
+      1
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 0
+   },
+   "colectie": {
+    "n": 155,
+    "words_med": 552,
+    "mainWords_med": 242,
+    "titleLen_med": 68,
+    "descLen_med": 137,
+    "farDesc": 9,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 462,
+    "scripts_med": 80,
+    "ms_med": 256,
+    "jsonld": [
+     [
+      "Organization",
+      155
+     ]
+    ],
+    "breadcrumbHtml": 155,
+    "depth_med": 2
+   },
+   "pagina": {
+    "n": 9,
+    "words_med": 636,
+    "mainWords_med": 326,
+    "titleLen_med": 37,
+    "descLen_med": 87,
+    "farDesc": 4,
+    "h1_lipsa": 1,
+    "h1_multiplu": 1,
+    "htmlKB_med": 493,
+    "scripts_med": 79,
+    "ms_med": 252,
+    "jsonld": [
+     [
+      "Organization",
+      9
+     ]
+    ],
+    "breadcrumbHtml": 3,
+    "depth_med": 1
+   },
+   "produs": {
+    "n": 200,
+    "words_med": 1967,
+    "mainWords_med": 1657,
+    "titleLen_med": 41,
+    "descLen_med": 143,
+    "farDesc": 1,
+    "h1_lipsa": 1,
+    "h1_multiplu": 186,
+    "htmlKB_med": 907,
+    "scripts_med": 90,
+    "ms_med": 247,
+    "jsonld": [
+     [
+      "Organization",
+      200
+     ]
+    ],
+    "breadcrumbHtml": 186,
+    "depth_med": 2
+   },
+   "produs-in-colectie": {
+    "n": 254,
+    "words_med": 2550,
+    "mainWords_med": 2241,
+    "titleLen_med": 40,
+    "descLen_med": 140,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 243,
+    "htmlKB_med": 922,
+    "scripts_med": 90,
+    "ms_med": 272,
+    "jsonld": [
+     [
+      "Organization",
+      254
+     ]
+    ],
+    "breadcrumbHtml": 235,
+    "depth_med": 2
+   },
+   "articol": {
+    "n": 23,
+    "words_med": 1324,
+    "mainWords_med": 1014,
+    "titleLen_med": 80,
+    "descLen_med": 152,
+    "farDesc": 5,
+    "h1_lipsa": 0,
+    "h1_multiplu": 12,
+    "htmlKB_med": 513,
+    "scripts_med": 78,
+    "ms_med": 256,
+    "jsonld": [
+     [
+      "Organization",
+      23
+     ],
+     [
+      "Article",
+      18
+     ],
+     [
+      "WebPage",
+      18
+     ],
+     [
+      "Person",
+      18
+     ],
+     [
+      "ImageObject",
+      18
+     ]
+    ],
+    "breadcrumbHtml": 23,
+    "depth_med": 2
+   },
+   "blog": {
+    "n": 2,
+    "words_med": 1004,
+    "mainWords_med": 694,
+    "titleLen_med": 36,
+    "descLen_med": 0,
+    "farDesc": 2,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 546,
+    "scripts_med": 78,
+    "ms_med": 358,
+    "jsonld": [
+     [
+      "Organization",
+      2
+     ]
+    ],
+    "breadcrumbHtml": 2,
+    "depth_med": 2
+   },
+   "altele": {
+    "n": 1,
+    "words_med": 313,
+    "mainWords_med": 3,
+    "titleLen_med": 25,
+    "descLen_med": 252,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 423,
+    "scripts_med": 77,
+    "ms_med": 304,
+    "jsonld": [
+     [
+      "Organization",
+      1
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 1
+   },
+   "politica": {
+    "n": 4,
+    "words_med": 2173,
+    "mainWords_med": 1863,
+    "titleLen_med": 42,
+    "descLen_med": 0,
+    "farDesc": 4,
+    "h1_lipsa": 0,
+    "h1_multiplu": 2,
+    "htmlKB_med": 491,
+    "scripts_med": 77,
+    "ms_med": 257,
+    "jsonld": [
+     [
+      "Organization",
+      4
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 1
+   }
+  },
+  "redirectChains": [],
+  "redirects": 0,
+  "errors4xx": [
+   {
+    "url": "https://geniusnutrition.ro/pages/gdpr-compliance",
+    "status": 404,
+    "inlinks": 3
+   }
+  ],
+  "noindex": [],
+  "canonicalDiferit": 254,
+  "canonicalDiferitEx": [
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/whey-x5-900g-28serv",
+    "https://geniusnutrition.ro/products/whey-x5-900g-28serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/whey-x5-2000g-61serv",
+    "https://geniusnutrition.ro/products/whey-x5-2000g-61serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/isolate-x5-2000g-60serv",
+    "https://geniusnutrition.ro/products/isolate-x5-2000g-60serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/iwhey-2000g-60serv",
+    "https://geniusnutrition.ro/products/iwhey-2000g-60serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/iwhey-900g-28serv",
+    "https://geniusnutrition.ro/products/iwhey-900g-28serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/iwhey-isolate-900g-28serv",
+    "https://geniusnutrition.ro/products/iwhey-isolate-900g-28serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/iwhey-isolate-2000g-61serv",
+    "https://geniusnutrition.ro/products/iwhey-isolate-2000g-61serv"
+   ],
+   [
+    "https://geniusnutrition.ro/collections/proteine/products/protein-f5-2000g",
+    "https://geniusnutrition.ro/products/protein-f5-2000g"
+   ]
+  ],
+  "farCanonical": 0,
+  "titluriDuplicate": [
+   {
+    "v": "BCAA-X5®360g | Genius Nutrition®",
+    "n": 6,
+    "ex": [
+     "https://geniusnutrition.ro/products/bcaa-x5-360g-26serv",
+     "https://geniusnutrition.ro/collections/aminoacizi/products/bcaa-x5-360g-26serv",
+     "https://geniusnutrition.ro/collections/hidratare/products/bcaa-x5-360g-26serv"
+    ]
+   },
+   {
+    "v": "EAA-X5® 360g/30serv | Genius Nutrition\n– Genius Nutrition®",
+    "n": 6,
+    "ex": [
+     "https://geniusnutrition.ro/collections/aminoacizi/products/eaa-x5-360g-30-serv",
+     "https://geniusnutrition.ro/collections/hidratare/products/eaa-x5-360g-30-serv",
+     "https://geniusnutrition.ro/collections/intra-workout/products/eaa-x5-360g-30-serv"
+    ]
+   },
+   {
+    "v": "SOY PROTEIN ISOLATE 900g | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/proteine/products/soy-protein-isolate-900g-30serv",
+     "https://geniusnutrition.ro/collections/vegan/products/soy-protein-isolate-900g-30serv",
+     "https://geniusnutrition.ro/products/soy-protein-isolate-900g-30serv"
+    ]
+   },
+   {
+    "v": "Ashwagandha 90caps | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate/products/ashwagandha-90caps",
+     "https://geniusnutrition.ro/collections/vegan/products/ashwagandha-90caps",
+     "https://geniusnutrition.ro/products/ashwagandha-90caps"
+    ]
+   },
+   {
+    "v": "COLLAGEN-X5® 360g | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate/products/collagen-x5-360g",
+     "https://geniusnutrition.ro/collections/suport-articulatii/products/collagen-x5-360g",
+     "https://geniusnutrition.ro/products/collagen-x5-360g"
+    ]
+   },
+   {
+    "v": "COLLAGEN-X5 60 caps/60 serv | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate/products/collagen-x5-60-caps-60-serv",
+     "https://geniusnutrition.ro/collections/suport-articulatii/products/collagen-x5-60-caps-60-serv",
+     "https://geniusnutrition.ro/products/collagen-x5-60-caps-60-serv"
+    ]
+   },
+   {
+    "v": "Super Greens 300g/30serv | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate/products/super-greens-300g-30serv",
+     "https://geniusnutrition.ro/collections/vitamine-si-minerale/products/super-greens-300g-30serv",
+     "https://geniusnutrition.ro/products/super-greens-300g-30serv"
+    ]
+   },
+   {
+    "v": "HEAVY 180caps | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate/products/heavy-180caps",
+     "https://geniusnutrition.ro/collections/suport-articulatii/products/heavy-180caps",
+     "https://geniusnutrition.ro/products/heavy-180caps"
+    ]
+   },
+   {
+    "v": "WARCRY® Pre-workout 330ml | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/pre-workout/products/warcry-pwo-330ml",
+     "https://geniusnutrition.ro/collections/bauturi-carbogazoase/products/warcry-pwo-330ml",
+     "https://geniusnutrition.ro/products/warcry-pwo-330ml"
+    ]
+   },
+   {
+    "v": "Citrulline 200g | Genius Nutrition®",
+    "n": 4,
+    "ex": [
+     "https://geniusnutrition.ro/collections/pre-workout/products/citruline-200g-66-serv",
+     "https://geniusnutrition.ro/collections/aminoacizi/products/citruline-200g-66-serv",
+     "https://geniusnutrition.ro/products/citruline-200g-66-serv"
+    ]
+   }
+  ],
+  "descrieriDuplicate": [
+   {
+    "v": "Comanda online produsele Genius Nutrition si Warcry in Romania cu livrare rapida in toata Romania.",
+    "n": 32,
+    "ex": [
+     "https://geniusnutrition.ro/collections/all",
+     "https://geniusnutrition.ro/collections/all/accesorii",
+     "https://geniusnutrition.ro/collections/all/alimentele-sanatoase-si-fitness"
+    ]
+   },
+   {
+    "v": "Produse 100% vegane",
+    "n": 15,
+    "ex": [
+     "https://geniusnutrition.ro/collections/vegan",
+     "https://geniusnutrition.ro/collections/vegan/alimentele-sanatoase-si-fitness",
+     "https://geniusnutrition.ro/collections/vegan/aminoacizi"
+    ]
+   },
+   {
+    "v": "Descopera cele mai noi suplimente nutritive de la Genius Nutrition. Produse inovatoare pentru performanta maxima, sanatate si recuperare. Cumpara acum cu livrare rapida in toata tara!",
+    "n": 10,
+    "ex": [
+     "https://geniusnutrition.ro/collections/produse-noi",
+     "https://geniusnutrition.ro/collections/produse-noi/creatina",
+     "https://geniusnutrition.ro/collections/produse-noi/gainer"
+    ]
+   },
+   {
+    "v": "Comanda online suplimente pentru sanatate de la Genius Nutrition: omega-3. probiotic, enzime, curcumina, ashwagandha, collagen cu livrare rapida in Romania.",
+    "n": 9,
+    "ex": [
+     "https://geniusnutrition.ro/collections/sanatate",
+     "https://geniusnutrition.ro/collections/sanatate/aminoacizi",
+     "https://geniusnutrition.ro/collections/sanatate/arzatoare-de-grasimi"
+    ]
+   },
+   {
+    "v": "Comanda online suplimente cu aminoacizi de la Genius Nutrition: BCAA, Glutamina, EAA, Arginina, AAKG, Beta-Alanina, HMB cu livrare rapida in Romania.",
+    "n": 8,
+    "ex": [
+     "https://geniusnutrition.ro/collections/aminoacizi",
+     "https://geniusnutrition.ro/collections/aminoacizi/aminoacizi",
+     "https://geniusnutrition.ro/collections/aminoacizi/hidratare"
+    ]
+   },
+   {
+    "v": "Comanda online in Romania suplimente Genius Nutrition: pre-workout, oxid nitric, pre-workout fara cafeina, energizante, pompare, vasodilatare, forta si rezistenta.",
+    "n": 8,
+    "ex": [
+     "https://geniusnutrition.ro/collections/pre-workout",
+     "https://geniusnutrition.ro/collections/pre-workout/aminoacizi",
+     "https://geniusnutrition.ro/collections/pre-workout/arzatoare-de-grasimi"
+    ]
+   },
+   {
+    "v": "Comanda online suplimente intra-workout de la Genius Nutrition: Glycogex, BCAA-X5 cu livrare rapida in Romania.",
+    "n": 7,
+    "ex": [
+     "https://geniusnutrition.ro/collections/intra-workout",
+     "https://geniusnutrition.ro/collections/intra-workout/aminoacizi",
+     "https://geniusnutrition.ro/collections/intra-workout/hidratare"
+    ]
+   },
+   {
+    "v": "Comanda online shaker pentru prepararea suplimentelor, proteinelor de la Genius Nutrition in Romania.",
+    "n": 7,
+    "ex": [
+     "https://geniusnutrition.ro/collections/accesorii/products/shaker-700ml",
+     "https://geniusnutrition.ro/collections/accesorii/products/genius-nutrition®-shaker-500ml",
+     "https://geniusnutrition.ro/collections/all/products/shaker-700ml"
+    ]
+   },
+   {
+    "v": "Suplimente esentiale pentru mentinerea hidratarii optime si refacerea rapida a electrolitilor, imbunatatind performanta sportiva si recuperarea musculara. Ideal pentru antrenamente intense.",
+    "n": 6,
+    "ex": [
+     "https://geniusnutrition.ro/collections/hidratare",
+     "https://geniusnutrition.ro/collections/hidratare/aminoacizi",
+     "https://geniusnutrition.ro/collections/hidratare/hidratare"
+    ]
+   },
+   {
+    "v": "Comanda online suplimente proteice Genius Nutrition: Proteina din zer (whey protein), Izolat proteic din zer (whey protein isolate), caseina, proteina vegana cu livrare rapida in Romania.",
+    "n": 6,
+    "ex": [
+     "https://geniusnutrition.ro/collections/proteine",
+     "https://geniusnutrition.ro/collections/proteine/alimentele-sanatoase-si-fitness",
+     "https://geniusnutrition.ro/collections/proteine/produse-noi"
+    ]
+   }
+  ],
+  "titluLung60": 127,
+  "titluScurt30": 17,
+  "descLunga160": 197,
+  "descScurta70": 17,
+  "farDesc": 25,
+  "imagini": 12352,
+  "altLipsa": 6,
+  "altGol": 6,
+  "lazy": 8869,
+  "webp": 133,
+  "farDim": 797,
+  "altLipsaSauGolPct": 0.1,
+  "lang": [
+   "ro-RO"
+  ],
+  "ogImageLipsa": 0,
+  "twitterCard": [
+   "summary_large_image"
+  ],
+  "favicon": true,
+  "cedilla": 0,
+  "cedillaEx": [],
+  "faraDiacritice": [
+   "https://geniusnutrition.ro/",
+   "https://geniusnutrition.ro/collections/all",
+   "https://geniusnutrition.ro/collections/accesorii",
+   "https://geniusnutrition.ro/collections/alimentele-sanatoase-si-fitness",
+   "https://geniusnutrition.ro/collections/aminoacizi",
+   "https://geniusnutrition.ro/collections/arzatoare-de-grasimi",
+   "https://geniusnutrition.ro/collections/bauturi-carbogazoase",
+   "https://geniusnutrition.ro/collections/card-cadou",
+   "https://geniusnutrition.ro/collections/creatina",
+   "https://geniusnutrition.ro/collections/gainer",
+   "https://geniusnutrition.ro/collections/gaming",
+   "https://geniusnutrition.ro/collections/hidratare",
+   "https://geniusnutrition.ro/collections/intra-workout",
+   "https://geniusnutrition.ro/collections/oferte",
+   "https://geniusnutrition.ro/collections/pre-workout"
+  ],
+  "adancime": {
+   "0": 1,
+   "1": 86,
+   "2": 306,
+   "3": 106,
+   "-1": 150
+  },
+  "sitemapNeatinsePrinLinkuri": 238,
+  "sitemapNeatinseEx": [
+   "https://geniusnutrition.ro/products/maiou-gn-fitness-fitness-tank-top",
+   "https://geniusnutrition.ro/products/warcry-fitness-fitness-tank-top",
+   "https://geniusnutrition.ro/products/maiou-warcry-fitness-fitness-tank-top",
+   "https://geniusnutrition.ro/products/maiou-warcry-gym-gym-tank-top",
+   "https://geniusnutrition.ro/products/carlige-de-ridicare-power-lifting-hook",
+   "https://geniusnutrition.ro/products/fese-pentru-genunchi-knee-wraps",
+   "https://geniusnutrition.ro/products/carglige-de-ridicare-pentru-powerlifting",
+   "https://geniusnutrition.ro/products/fese-pentru-genunchi-knee-wraps-1",
+   "https://geniusnutrition.ro/products/grip-pad-gn",
+   "https://geniusnutrition.ro/products/genius-nutrition-set-fitness",
+   "https://geniusnutrition.ro/products/warcry-fitness-set",
+   "https://geniusnutrition.ro/products/tricou-genius-nutrition-oversized",
+   "https://geniusnutrition.ro/products/tricou-warcry-oversized",
+   "https://geniusnutrition.ro/products/prosop-fitness-warcry®",
+   "https://geniusnutrition.ro/products/prosop-fitness-genius-nutrition®"
+  ],
+  "coadaRamasa": 360,
+  "paramUrlCount": 9,
+  "paramKeys": [
+   [
+    "_pos",
+    6
+   ],
+   [
+    "_ss",
+    6
+   ],
+   [
+    "_psq",
+    5
+   ],
+   [
+    "_v",
+    5
+   ],
+   [
+    "q",
+    2
+   ],
+   [
+    "locale",
+    1
+   ],
+   [
+    "region_country",
+    1
+   ],
+   [
+    "_sid",
+    1
+   ]
+  ],
+  "produsInColectieLinkuri": 254,
+  "trailingSlash": 0
+ },
+ "prime": {
+  "data": "2026-11-16T00:28:31.020Z",
+  "crawl": 529,
+  "byStatus": {
+   "200": 527,
+   "404": 2
+  },
+  "perTip": {
+   "home": {
+    "n": 1,
+    "words_med": 2480,
+    "mainWords_med": 2216,
+    "titleLen_med": 62,
+    "descLen_med": 174,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 704,
+    "scripts_med": 57,
+    "ms_med": 600,
+    "jsonld": [
+     [
+      "Organization",
+      1
+     ],
+     [
+      "OnlineStore",
+      1
+     ],
+     [
+      "ImageObject",
+      1
+     ],
+     [
+      "PostalAddress",
+      1
+     ],
+     [
+      "Person",
+      1
+     ],
+     [
+      "Country",
+      1
+     ],
+     [
+      "ContactPoint",
+      1
+     ],
+     [
+      "WebSite",
+      1
+     ],
+     [
+      "SearchAction",
+      1
+     ],
+     [
+      "EntryPoint",
+      1
+     ],
+     [
+      "FAQPage",
+      1
+     ],
+     [
+      "Question",
+      1
+     ],
+     [
+      "Answer",
+      1
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 0
+   },
+   "colectie": {
+    "n": 41,
+    "words_med": 1294,
+    "mainWords_med": 1030,
+    "titleLen_med": 58,
+    "descLen_med": 152,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 545,
+    "scripts_med": 56,
+    "ms_med": 250,
+    "jsonld": [
+     [
+      "Organization",
+      41
+     ],
+     [
+      "OnlineStore",
+      41
+     ],
+     [
+      "ImageObject",
+      41
+     ],
+     [
+      "PostalAddress",
+      41
+     ],
+     [
+      "Person",
+      41
+     ],
+     [
+      "Country",
+      41
+     ],
+     [
+      "ContactPoint",
+      41
+     ],
+     [
+      "CollectionPage",
+      40
+     ],
+     [
+      "ItemList",
+      40
+     ],
+     [
+      "ListItem",
+      40
+     ],
+     [
+      "BreadcrumbList",
+      40
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 2
+   },
+   "altele": {
+    "n": 1,
+    "words_med": 396,
+    "mainWords_med": 132,
+    "titleLen_med": 25,
+    "descLen_med": 216,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 312,
+    "scripts_med": 55,
+    "ms_med": 261,
+    "jsonld": [
+     [
+      "Organization",
+      1
+     ],
+     [
+      "OnlineStore",
+      1
+     ],
+     [
+      "ImageObject",
+      1
+     ],
+     [
+      "PostalAddress",
+      1
+     ],
+     [
+      "Person",
+      1
+     ],
+     [
+      "Country",
+      1
+     ],
+     [
+      "ContactPoint",
+      1
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 1
+   },
+   "pagina": {
+    "n": 10,
+    "words_med": 1210,
+    "mainWords_med": 946,
+    "titleLen_med": 56,
+    "descLen_med": 155,
+    "farDesc": 0,
+    "h1_lipsa": 1,
+    "h1_multiplu": 0,
+    "htmlKB_med": 319,
+    "scripts_med": 55,
+    "ms_med": 161,
+    "jsonld": [
+     [
+      "Organization",
+      10
+     ],
+     [
+      "OnlineStore",
+      10
+     ],
+     [
+      "ImageObject",
+      10
+     ],
+     [
+      "PostalAddress",
+      10
+     ],
+     [
+      "Person",
+      10
+     ],
+     [
+      "Country",
+      10
+     ],
+     [
+      "ContactPoint",
+      10
+     ],
+     [
+      "WebSite",
+      3
+     ],
+     [
+      "AboutPage",
+      1
+     ],
+     [
+      "ContactPage",
+      1
+     ],
+     [
+      "ProfilePage",
+      1
+     ],
+     [
+      "CollegeOrUniversity",
+      1
+     ],
+     [
+      "Place",
+      1
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 1
+   },
+   "produs": {
+    "n": 214,
+    "words_med": 1554,
+    "mainWords_med": 1290,
+    "titleLen_med": 57,
+    "descLen_med": 151,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 444,
+    "scripts_med": 61,
+    "ms_med": 233,
+    "jsonld": [
+     [
+      "Organization",
+      214
+     ],
+     [
+      "OnlineStore",
+      214
+     ],
+     [
+      "ImageObject",
+      214
+     ],
+     [
+      "PostalAddress",
+      214
+     ],
+     [
+      "Person",
+      214
+     ],
+     [
+      "Country",
+      214
+     ],
+     [
+      "ContactPoint",
+      214
+     ],
+     [
+      "Product",
+      214
+     ],
+     [
+      "Brand",
+      214
+     ],
+     [
+      "Offer",
+      214
+     ],
+     [
+      "MerchantReturnPolicy",
+      214
+     ],
+     [
+      "OfferShippingDetails",
+      214
+     ],
+     [
+      "MonetaryAmount",
+      214
+     ],
+     [
+      "DefinedRegion",
+      214
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 2
+   },
+   "blog": {
+    "n": 4,
+    "words_med": 956,
+    "mainWords_med": 692,
+    "titleLen_med": 68,
+    "descLen_med": 153,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 0,
+    "htmlKB_med": 348,
+    "scripts_med": 55,
+    "ms_med": 175,
+    "jsonld": [
+     [
+      "Organization",
+      4
+     ],
+     [
+      "OnlineStore",
+      4
+     ],
+     [
+      "ImageObject",
+      4
+     ],
+     [
+      "PostalAddress",
+      4
+     ],
+     [
+      "Person",
+      4
+     ],
+     [
+      "Country",
+      4
+     ],
+     [
+      "ContactPoint",
+      4
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 3
+   },
+   "articol": {
+    "n": 256,
+    "words_med": 1780,
+    "mainWords_med": 1516,
+    "titleLen_med": 57,
+    "descLen_med": 153,
+    "farDesc": 0,
+    "h1_lipsa": 0,
+    "h1_multiplu": 3,
+    "htmlKB_med": 354,
+    "scripts_med": 57,
+    "ms_med": 189,
+    "jsonld": [
+     [
+      "Organization",
+      256
+     ],
+     [
+      "OnlineStore",
+      256
+     ],
+     [
+      "ImageObject",
+      256
+     ],
+     [
+      "PostalAddress",
+      256
+     ],
+     [
+      "Person",
+      256
+     ],
+     [
+      "Country",
+      256
+     ],
+     [
+      "ContactPoint",
+      256
+     ],
+     [
+      "Article",
+      156
+     ],
+     [
+      "WebPage",
+      156
+     ],
+     [
+      "ListItem",
+      10
+     ],
+     [
+      "BreadcrumbList",
+      10
+     ],
+     [
+      "Product",
+      6
+     ],
+     [
+      "Brand",
+      6
+     ],
+     [
+      "Offer",
+      6
+     ]
+    ],
+    "breadcrumbHtml": 0,
+    "depth_med": 2
+   }
+  },
+  "redirectChains": [],
+  "redirects": 13,
+  "errors4xx": [
+   {
+    "url": "https://primesupplements.ro/products/pachet-starter-incepator-prime-whey-1kg-creapure-shaker",
+    "status": 404,
+    "inlinks": 2
+   },
+   {
+    "url": "https://primesupplements.ro/products/pachet-starter-forta-prime-whey-2kg-creatina-creapure",
+    "status": 404,
+    "inlinks": 2
+   }
+  ],
+  "noindex": [
+   "https://primesupplements.ro/search",
+   "https://primesupplements.ro/collections/all",
+   "https://primesupplements.ro/collections/lansate-recent",
+   "https://primesupplements.ro/collections/cele-mai-vandute",
+   "https://primesupplements.ro/collections/all?page=2",
+   "https://primesupplements.ro/collections/lansate-recent?page=2",
+   "https://primesupplements.ro/collections/cele-mai-vandute?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/alimente",
+   "https://primesupplements.ro/blogs/news/tagged/aminoacizi",
+   "https://primesupplements.ro/blogs/news/tagged/arzatoare-de-grasimi",
+   "https://primesupplements.ro/blogs/news/tagged/batoane-proteice",
+   "https://primesupplements.ro/blogs/news/tagged/bauturi",
+   "https://primesupplements.ro/blogs/news/tagged/creatina",
+   "https://primesupplements.ro/blogs/news/tagged/crema-de-orez",
+   "https://primesupplements.ro/blogs/news/tagged/gainer",
+   "https://primesupplements.ro/blogs/news/tagged/hub-aminoacizi",
+   "https://primesupplements.ro/blogs/news/tagged/hub-batoane-proteice",
+   "https://primesupplements.ro/blogs/news/tagged/hub-bauturi",
+   "https://primesupplements.ro/blogs/news/tagged/hub-creatina",
+   "https://primesupplements.ro/blogs/news/tagged/hub-crema-de-orez",
+   "https://primesupplements.ro/blogs/news/tagged/hub-pudra-proteica",
+   "https://primesupplements.ro/blogs/news/tagged/hub-suplimente-pre-workout",
+   "https://primesupplements.ro/blogs/news/tagged/hub-vitamine-si-minerale",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-antrenament-lung",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-batoane-slabit",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-consum-apa",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-crampe-musculare",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-crema-de-orez-glicemie",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-crom-glicemie",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-eaa-post-intermitent",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-gustari-proteice",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-izolat-lactoza",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-magneziu-somn",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-vitamina-d-iarna",
+   "https://primesupplements.ro/blogs/news/tagged/intent-altele-whey-satietate",
+   "https://primesupplements.ro/blogs/news/tagged/intent-beneficii-vitamina-d-imunitate",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-bergamota",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-creatina-vs-creatinina",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-gainer",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-la-ce-ajuta-creatina",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-leucina",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-nac-glutation",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ce-este-beneficii-stevia",
+   "https://primesupplements.ro/blogs/news/tagged/intent-combinatii-vitamina-c-fier",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-combat-pro-versiuni",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-creapure-vs-monohidrat",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-gainer-vs-whey",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-omega-3-peste-vs-supliment",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-shake-apa-vs-lapte",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-ubiquinona-vs-ubiquinol",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-unturi-nuci",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-vitamina-c-naturala-vs-sintetica",
+   "https://primesupplements.ro/blogs/news/tagged/intent-comparatie-water-out-forme",
+   "https://primesupplements.ro/blogs/news/tagged/intent-cum-alegi-eticheta-creatina",
+   "https://primesupplements.ro/blogs/news/tagged/intent-cum-alegi-eticheta-whey",
+   "https://primesupplements.ro/blogs/news/tagged/intent-cum-alegi-gainer",
+   "https://primesupplements.ro/blogs/news/tagged/intent-cum-alegi-multivitamine",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-baton-pre-antrenament",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-cand-se-ia-creatina",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-coenzima-q10",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-crema-de-orez",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-crom",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-faza-de-incarcare",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-gainer",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-necesar-proteic",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-omega-3",
+   "https://primesupplements.ro/blogs/news/tagged/intent-dozaj-si-cand-se-ia-vitamina-d-doza",
+   "https://primesupplements.ro/blogs/news/tagged/intent-efecte-secundare-contraindicatii",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ghid-produs-cluster-insulin-bomb",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ghid-produs-frutilu-energy",
+   "https://primesupplements.ro/blogs/news/tagged/intent-ghid-produs-glutamina-kyowa",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-creatina-femei",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-eaa-vegetarieni",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-gainer-ectomorfi",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-glutamina-anduranta",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-omega-3-sportivi",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-vitamina-c-sportivi",
+   "https://primesupplements.ro/blogs/news/tagged/intent-public-tinta-whey-femei",
+   "https://primesupplements.ro/blogs/news/tagged/intent-retete-crema-de-orez",
+   "https://primesupplements.ro/blogs/news/tagged/intent-retete-proteina-whey",
+   "https://primesupplements.ro/blogs/news/tagged/intent-semne-deficit-magneziu",
+   "https://primesupplements.ro/blogs/news/tagged/pre-workout",
+   "https://primesupplements.ro/blogs/news/tagged/proteine",
+   "https://primesupplements.ro/blogs/news/tagged/sanatate",
+   "https://primesupplements.ro/blogs/news/tagged/vitamine-și-minerale",
+   "https://primesupplements.ro/collections/11-tva",
+   "https://primesupplements.ro/collections/frontpage",
+   "https://primesupplements.ro/collections/all?page=1",
+   "https://primesupplements.ro/collections/all?page=3",
+   "https://primesupplements.ro/collections/lansate-recent?page=1",
+   "https://primesupplements.ro/collections/lansate-recent?page=3",
+   "https://primesupplements.ro/collections/cele-mai-vandute?page=1",
+   "https://primesupplements.ro/collections/cele-mai-vandute?page=3",
+   "https://primesupplements.ro/blogs/news/tagged/alimente?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/aminoacizi?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/arzatoare-de-grasimi?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/creatina?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/crema-de-orez?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/hub-creatina?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/hub-pudra-proteica?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/hub-vitamine-si-minerale?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/pre-workout?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/proteine?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/sanatate?page=2",
+   "https://primesupplements.ro/blogs/news/tagged/vitamine-și-minerale?page=2"
+  ],
+  "canonicalDiferit": 6,
+  "canonicalDiferitEx": [
+   [
+    "https://primesupplements.ro/collections/all?page=1",
+    "https://primesupplements.ro/collections/all"
+   ],
+   [
+    "https://primesupplements.ro/collections/echipament-sala?page=1",
+    "https://primesupplements.ro/collections/echipament-sala"
+   ],
+   [
+    "https://primesupplements.ro/collections/haine-mnx?page=1",
+    "https://primesupplements.ro/collections/haine-mnx"
+   ],
+   [
+    "https://primesupplements.ro/collections/lansate-recent?page=1",
+    "https://primesupplements.ro/collections/lansate-recent"
+   ],
+   [
+    "https://primesupplements.ro/collections/cele-mai-vandute?page=1",
+    "https://primesupplements.ro/collections/cele-mai-vandute"
+   ],
+   [
+    "https://primesupplements.ro/blogs/news?page=1",
+    "https://primesupplements.ro/blogs/news"
+   ]
+  ],
+  "farCanonical": 0,
+  "titluriDuplicate": [
+   {
+    "v": "Blog despre suplimente și antrenament | Prime Supplements",
+    "n": 80,
+    "ex": [
+     "https://primesupplements.ro/blogs/news",
+     "https://primesupplements.ro/blogs/news/tagged/alimente",
+     "https://primesupplements.ro/blogs/news/tagged/aminoacizi"
+    ]
+   },
+   {
+    "v": "Blog despre suplimente și antrenament | Prime Supplements – Pagina 2",
+    "n": 13,
+    "ex": [
+     "https://primesupplements.ro/blogs/news?page=2",
+     "https://primesupplements.ro/blogs/news/tagged/alimente?page=2",
+     "https://primesupplements.ro/blogs/news/tagged/aminoacizi?page=2"
+    ]
+   },
+   {
+    "v": "Pre-workout: suplimente pre-antrenament | Prime Supplements",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/suplimente-pre-workout",
+     "https://primesupplements.ro/blogs/news/cum-alegi-un-pre-workout",
+     "https://primesupplements.ro/blogs/news/pre-workout-ce-este-cum-se-ia"
+    ]
+   },
+   {
+    "v": "NAC 500 mg (N-acetilcisteină), 80 de capsule | Prime Supplements",
+    "n": 3,
+    "ex": [
+     "https://primesupplements.ro/products/nac-80-caps",
+     "https://primesupplements.ro/blogs/news/nac-600mg-semne-nevoie-nac-rezultate-reale",
+     "https://primesupplements.ro/blogs/news/cand-se-ia-nac-dimineata-sau-seara"
+    ]
+   },
+   {
+    "v": "Toate produsele – suplimente și nutriție | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/all",
+     "https://primesupplements.ro/collections/all?page=1"
+    ]
+   },
+   {
+    "v": "Aminoacizi: EAA, BCAA și L-glutamină | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/aminoacizi",
+     "https://primesupplements.ro/blogs/news/aminoacizi-recuperare-pe-varste"
+    ]
+   },
+   {
+    "v": "Haine de sală – tricouri și șorturi | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/echipament-sala",
+     "https://primesupplements.ro/collections/echipament-sala?page=1"
+    ]
+   },
+   {
+    "v": "Haine MNX – tricouri, șorturi și maiouri | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/haine-mnx",
+     "https://primesupplements.ro/collections/haine-mnx?page=1"
+    ]
+   },
+   {
+    "v": "Lansate recent – noutăți în suplimente | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/lansate-recent",
+     "https://primesupplements.ro/collections/lansate-recent?page=1"
+    ]
+   },
+   {
+    "v": "Cele mai vândute – top suplimente | Prime Supplements",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/cele-mai-vandute",
+     "https://primesupplements.ro/collections/cele-mai-vandute?page=1"
+    ]
+   }
+  ],
+  "descrieriDuplicate": [
+   {
+    "v": "Ghiduri practice despre creatină, proteine, aminoacizi, vitamine și antrenamentul de forță, de la echipa Prime Supplements, pentru sportivii din România.",
+    "n": 94,
+    "ex": [
+     "https://primesupplements.ro/blogs/news",
+     "https://primesupplements.ro/blogs/news/tagged/alimente",
+     "https://primesupplements.ro/blogs/news/tagged/aminoacizi"
+    ]
+   },
+   {
+    "v": "Catalogul complet Prime Supplements: proteine, creatină, aminoacizi, vitamine, pre-workout, alimente și haine MNX, peste 180 de produse. Comandă online.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/all",
+     "https://primesupplements.ro/collections/all?page=2",
+     "https://primesupplements.ro/collections/all?page=1"
+    ]
+   },
+   {
+    "v": "Îmbrăcăminte de sală Prime și MNX: tricouri oversize din bumbac 100%, maiouri stringer, șort Arnold Era și hanorace, mărimi XS–XXL. Comandă online.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/echipament-sala",
+     "https://primesupplements.ro/collections/echipament-sala?page=2",
+     "https://primesupplements.ro/collections/echipament-sala?page=1"
+    ]
+   },
+   {
+    "v": "Pre-workout și suplimente pre-antrenament, cu sau fără cafeină: Combat Pro, Combat Pro 2.0, Nitrox 3D și Nitrox No-Stim. Compară porțiile și aromele.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/suplimente-pre-workout",
+     "https://primesupplements.ro/blogs/news/cum-alegi-un-pre-workout",
+     "https://primesupplements.ro/blogs/news/pre-workout-ce-este-cum-se-ia"
+    ]
+   },
+   {
+    "v": "Îmbrăcăminte de sală MNX: tricouri Edge, șorturi Ribbed Hammer 3.0, maiouri stringer și maiouri de baschet. Mărimi de la S/M la XXL/3XL. Vezi colecția.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/haine-mnx",
+     "https://primesupplements.ro/collections/haine-mnx?page=2",
+     "https://primesupplements.ro/collections/haine-mnx?page=1"
+    ]
+   },
+   {
+    "v": "Produsele lansate recent la Prime Supplements: cele mai noi suplimente, batoane proteice, tincturi și haine MNX, în ordinea adăugării. Vezi noutățile.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/lansate-recent",
+     "https://primesupplements.ro/collections/lansate-recent?page=2",
+     "https://primesupplements.ro/collections/lansate-recent?page=1"
+    ]
+   },
+   {
+    "v": "Cele mai vândute produse Prime Supplements: batoane proteice, Vitamina D3 + K2, KSM-66 Ashwagandha, Citrus Bergamot și colagen hidrolizat. Comandă online.",
+    "n": 4,
+    "ex": [
+     "https://primesupplements.ro/collections/cele-mai-vandute",
+     "https://primesupplements.ro/collections/cele-mai-vandute?page=2",
+     "https://primesupplements.ro/collections/cele-mai-vandute?page=1"
+    ]
+   },
+   {
+    "v": "NAC 500 mg, supliment alimentar cu N-acetilcisteină în capsule de gelatină: 80 de capsule, o capsulă pe zi, de preferat pe stomacul gol. Comandă online.",
+    "n": 3,
+    "ex": [
+     "https://primesupplements.ro/products/nac-80-caps",
+     "https://primesupplements.ro/blogs/news/nac-600mg-semne-nevoie-nac-rezultate-reale",
+     "https://primesupplements.ro/blogs/news/cand-se-ia-nac-dimineata-sau-seara"
+    ]
+   },
+   {
+    "v": "Magazin online cu suplimente nutritive si gama completa de produse recomandata culturistilor pe toata perioada pregatirii dar si persoanelor care fac sport si isi doresc o dieta echilibrata si un mod de viata sanatos",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/search",
+     "https://primesupplements.ro/collections"
+    ]
+   },
+   {
+    "v": "Aminoacizi pudră și capsule: EAA cu 8 aminoacizi esențiali (83 de porții), BCAA 4:1:1 (62 de porții), L-glutamină Kyowa® și taurină 1000 mg, 80 de capsule.",
+    "n": 2,
+    "ex": [
+     "https://primesupplements.ro/collections/aminoacizi",
+     "https://primesupplements.ro/blogs/news/aminoacizi-recuperare-pe-varste"
+    ]
+   }
+  ],
+  "titluLung60": 48,
+  "titluScurt30": 2,
+  "descLunga160": 16,
+  "descScurta70": 0,
+  "farDesc": 0,
+  "imagini": 11495,
+  "altLipsa": 0,
+  "altGol": 1713,
+  "lazy": 8345,
+  "webp": 1380,
+  "farDim": 858,
+  "altLipsaSauGolPct": 14.9,
+  "lang": [
+   "ro"
+  ],
+  "ogImageLipsa": 0,
+  "twitterCard": [
+   "summary_large_image"
+  ],
+  "favicon": true,
+  "cedilla": 0,
+  "cedillaEx": [],
+  "faraDiacritice": [],
+  "adancime": {
+   "0": 1,
+   "1": 71,
+   "2": 250,
+   "3": 176,
+   "-1": 29
+  },
+  "sitemapNeatinsePrinLinkuri": 29,
+  "sitemapNeatinseEx": [
+   "https://primesupplements.ro/products/maiou-stringer",
+   "https://primesupplements.ro/products/maiou-stringer-white",
+   "https://primesupplements.ro/products/short-arnold-era",
+   "https://primesupplements.ro/products/hanorac-prime-squad",
+   "https://primesupplements.ro/products/prime-bodybuilding-classic-pants",
+   "https://primesupplements.ro/products/mnx-sleeveless-basketball-jersey-black",
+   "https://primesupplements.ro/products/mnx-sleeveless-basketball-jersey-cool-gray",
+   "https://primesupplements.ro/products/mnx-stringer-tank-top-edge-black",
+   "https://primesupplements.ro/products/mnx-stringer-tank-top-edge-creamy-white",
+   "https://primesupplements.ro/products/mnx-stringer-tank-top-skull-souls-purple",
+   "https://primesupplements.ro/products/mnx-men-s-lightweight-hoodie-aesthetic-khaki",
+   "https://primesupplements.ro/products/mnx-men-s-lightweight-hoodie-aesthetic-maroon",
+   "https://primesupplements.ro/products/mnx-men-s-lightweight-joggers-aesthetic-maroon",
+   "https://primesupplements.ro/products/mnx-sweat-pants-edge-red",
+   "https://primesupplements.ro/products/mnx-hoodie-edge-black"
+  ],
+  "coadaRamasa": 70,
+  "paramUrlCount": 2,
+  "paramKeys": [
+   [
+    "locale",
+    1
+   ],
+   [
+    "region_country",
+    1
+   ],
+   [
+    "_pos",
+    1
+   ],
+   [
+    "_sid",
+    1
+   ],
+   [
+    "_ss",
+    1
+   ]
+  ],
+  "produsInColectieLinkuri": 0,
+  "trailingSlash": 0
+ }
+}

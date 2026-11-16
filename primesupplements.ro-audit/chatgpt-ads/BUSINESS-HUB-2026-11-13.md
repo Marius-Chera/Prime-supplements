@@ -89,3 +89,14 @@ Blocat / de făcut:
 - Link pentru reluarea verificării (doar acesta, nu din Products):
   `https://chatgpt.com/business-hub/bizprof_6cbdd94e3c088197879a2a777ffb34fe/verification/bizprof_6cbdd94e3c088197879a2a777ffb34fe~BusinessProfileOwnershipCase_b1b3dd95583c8197b0c464cd6135c556?section=contact`
 - Cererile expiră în ~1–3 zile: Kemo trebuie să înlocuiască valoarea în aceeași zi. Mesajul trimis proprietarului pentru WhatsApp cere înlocuirea azi.
+
+## 16.11.2026 – DOMENIUL VERIFICAT
+- **Cauza eșecurilor anterioare:** codul TXT e valabil doar **30 de minute** (`domain_record.expires_at` = creare + 30 min) și cererea are politica `discard-on-abandonment-v1` (se anulează dacă părăsești pagina). Codurile de joi/vineri expiraseră până să le pună Kemo.
+- Procedura care a mers: generat codul (`2l9ydv…`, 11:56), proprietarul l-a trimis pe WhatsApp, Kemo l-a pus în ~3 minute, verificat DNS-ul (8.8.8.8, 1.1.1.1, ns1.kemo.services), apoi „Verify domain” pe aceeași pagină, fără reîncărcare. Rezultat 11:59: verificarea `domain` = **passed**, cererea = **approved**. „Add products” s-a deblocat.
+- Pentru viitor (alt domeniu sau re-verificare): Kemo trebuie să fie disponibil pe loc; generezi codul doar când el e gata să-l pună.
+
+## 16.11.2026 – catalogul de produse: termeni + restricția pe suplimente
+- Products → Add products → nume feed „Prime Supplements - catalog Shopify” → ecranul de acceptare a **OpenAI Merchant Feed Terms of Service** și **OpenAI Commerce Policies** „în numele organizației”. Clicul pe „Next” a fost blocat de sistemul de permisiuni al aplicației Claude (acceptare de termeni în numele firmei) → îl face proprietarul.
+- **Atenție, Commerce Policies (29.09.2026), produse interzise:** „Supplements, including ingestible products marketed for weight loss, sexual enhancement, bodybuilding, detoxification, or other health-related effects.” Deci nu intră în catalog: proteine, creatină, aminoacizi, pre-/intra-workout, gainer, arzătoare de grăsimi, vitamine, minerale, plante, colagen, omega-3 etc. Încărcarea lor poate duce la restricții pe contul de comerciant (și pe reclame).
+- Permise (de pus în catalog): îmbrăcăminte Prime și MNX, accesorii (centură, prosop, shaker, șapcă), unturi de arahide/migdale/caju, cremă de orez și ovăz. Batoanele proteice: aliment, dar la limită – de pus doar dacă descrierile nu vorbesc de mușchi/performanță.
+- Dacă pasul următor oferă doar sincronizarea întregului catalog Shopify, se preferă încărcarea unui fișier doar cu produsele permise.

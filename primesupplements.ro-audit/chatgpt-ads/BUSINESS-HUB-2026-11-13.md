@@ -82,3 +82,10 @@ Blocat / de făcut:
 - Între timp cererea de verificare a expirat: la redeschidere din Products → Add products → Verify domain, OpenAI a creat o cerere nouă (`BusinessProfileOwnershipCase_b564603e15cc8197a2860156881180fa`) cu **valoare nouă**: `openai-business-profile=LIBkl10T7vdT2bxBpZetIdaxvErOPKKpwRcIrBwx8YM`. „Verify domain” → „We couldn't verify your domain”.
 - **Regulă:** după ce Kemo actualizează, verificarea se reia DIRECT pe linkul cererii, nu din Products (altfel se generează iar altă valoare):
   `https://chatgpt.com/business-hub/bizprof_6cbdd94e3c088197879a2a777ffb34fe/verification/bizprof_6cbdd94e3c088197879a2a777ffb34fe~BusinessProfileOwnershipCase_b564603e15cc8197a2860156881180fa?section=contact`
+
+## 16.11.2026 – cererea de vineri a expirat, cod nou
+- În DNS era tot valoarea de joi (`Q3O8…`); Kemo nu o înlocuise. Cererea `…b564603e…` (codul `LIBkl…`) a expirat peste weekend: linkul ei duce acum la Edit business details.
+- Cerere nouă: `BusinessProfileOwnershipCase_b1b3dd95583c8197b0c464cd6135c556`, valoare **`openai-business-profile=iCXxTj1yIYIIpy5zsutAijPstIxPvK957N0Qc1YLAEs`** (citită exact din pagină, cu JS).
+- Link pentru reluarea verificării (doar acesta, nu din Products):
+  `https://chatgpt.com/business-hub/bizprof_6cbdd94e3c088197879a2a777ffb34fe/verification/bizprof_6cbdd94e3c088197879a2a777ffb34fe~BusinessProfileOwnershipCase_b1b3dd95583c8197b0c464cd6135c556?section=contact`
+- Cererile expiră în ~1–3 zile: Kemo trebuie să înlocuiască valoarea în aceeași zi. Mesajul trimis proprietarului pentru WhatsApp cere înlocuirea azi.

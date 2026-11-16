@@ -1523,3 +1523,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Scrieri: doar `product_offer/save` și `offer/save`. Comenzile, AWB-urile și facturile rămân blocate.
   - TVA în eMAG: `vat_id` 9 = 21 % (implicit), 10 = 11 %, 5 = 0 %.
   - Urmează catalogul complet din Shopify: ~45 de produse / ~90 de variante de suplimente cu EAN, fără haine.
+- 16.11, prima rulare a extensiei în Judge.me: oprită înainte de orice modificare. Capturile eșuau, fiindcă Chrome era pe tot ecranul 4K. Aflat: cererile automate sunt deja pornite („Requests enabled”), cu 724 de cereri în ultimele 30 de zile și nota medie 4,93. Detalii: `recenzii/07-CONFIGURARE-FLUX-EXTENSIE-2026-11-16.md`.

@@ -46,3 +46,10 @@ Marius, pe 16.11: „nu sunt produsele incarcate pe cont nu e absolut nimic bine
 - callback-urile pentru comenzi în aplicație (etapa b).
 
 **Ce schimbă față de brief:** brief-ul aplicației spunea „nu atinge ofertele, prețurile, stocul”. Marius a cerut acum explicit refacerea contului, așa că se modifică doar cu aprobarea lui pe fiecare pas (lot-pilot, regula de preț).
+
+## Decizia de preț (Marius, 16.11.2026: „Preț site + comision”)
+- **Comisionul eMAG**, conform Anexei 3 „Commissions” din 30.09.2026 (documentul 9013585, „Avizat final”): **18 % din valoarea vânzării**, pentru Proteine (3593), Amino acizi (3594), Carbohidrați (3595), Creatină (3596), Alte suplimente nutriție sportivă (3597) și Alte suplimente alimentare (2617).
+- **Formula:** preț eMAG (cu TVA) = preț site ÷ 0,82, rotunjit în sus la ,99. Exemple: 100 lei → 121,99 lei; 150 lei → 182,99 lei. Așa, după reținerea comisionului de 18 %, încasarea rămâne cel puțin cât prețul de pe site.
+- **TVA-ul pe factura de comision** se recuperează, dacă firma e plătitoare de TVA. Marius trebuie să confirme.
+- **Transportul pe eMAG** se setează separat, în Logistică, și nu intră în formulă.
+- În eMAG se trimite prețul **fără TVA** (`sale_price`), adică prețul cu TVA ÷ 1,21 la 21 %. Se trimit și `min_sale_price` / `max_sale_price`, propuse ca preț −5 % / +30 %.

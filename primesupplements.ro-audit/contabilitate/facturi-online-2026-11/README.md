@@ -24,10 +24,11 @@ Toate sunt pe PRIME SPORT SUPPLEMENTS SRL (cu excepția celei marcate), plătite
 |---|---|---|---|---|
 | 2026-11-02_Netopia-comisioane-card-oct_NFSC628887.pdf | Netopia | 02.11.2026 | vezi PDF (reținut din decontări, nu se plătește) | comisioane card 01.10–01.11 |
 | 2026-11-16_Office-Direct_1916270.pdf | Office Direct | 16.11.2026 | 123,45 lei, ramburs | papetărie / birou |
+| 2026-11-10_OpenArt-Starter_14USD.pdf | OpenArt | 10.11.2026 | 14,00 USD | abonament Starter (poze AI produse/blog) |
+| 2026-11-15_OpenArt-Plus_34USD.pdf | OpenArt | 15.11.2026 | 34,00 USD | abonament Plus, lunar (reînnoire 15.12) |
 
 ## Fără PDF încă
 - Pleximet, comanda 7849 (11.11.2026): 217,80 lei cu TVA, numerar la livrare, pe CUI Prime; factura nu e în e-mail, vine în SPV.
-- OpenArt: contul contact@ a trecut pe planul Plus (5.600 credite) în jurul datei de 15.11; nu există e-mail de plată în contact@. Factura se descarcă din contul OpenArt (Billing / Stripe) după logare.
 - Facturile furnizorilor români (curierat, chirie, utilități, marfă etc.) sunt în SPV / Oblio, nu în acest folder.
 
 Copie pentru toată lumea: Google Drive (contul contact@) → „Contabilitate Prime - facturi si bonuri” → „2026-11 Noiembrie”.

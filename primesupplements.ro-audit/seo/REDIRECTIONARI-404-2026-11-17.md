@@ -7,7 +7,7 @@ Cerut de Marius pe 17.11 („citește și propune”). **Sursa:** Ablestar nu s-
 - **Gunoi tehnic, de ignorat (circa 15):** `/b`, `/cdn`, `/wpm`, `/${t}`, `/v1/produce`, `/api/event/collect`, `/wp-admin/admin-ajax.php`, `/wp-content/plugins/`, `/ro-hu/search`, `/ro-hu/cart`, `?add-to-cart=…`, `b2b.primesupplements.ro/…`. Sunt adrese de scripturi sau de boți, nu pagini. 404 e răspunsul corect.
 - **Fără echivalent, rămân 404:** `/wishlist/`, `/megamenus/mega-menu-1/`, `/ana-maria-bugan/` (pagini vechi WooCommerce). O redirecționare spre homepage ar fi tratată de Google tot ca 404 („soft 404”).
 
-## Redirecționările propuse (14, așteaptă aprobarea lui Marius)
+## Redirecționările (14): CREATE pe 17.11 (Marius: „Da, creează-le”), verificate live (toate fac 301 spre țintă; varianta `/ro-hu/` a tricoului e acoperită, iar parola uitată duce la autentificarea Shopify)
 | De la | La | De ce |
 |---|---|---|
 | `/products/tricou-sala-made-of-iron-bumbac-premium-negru` | `/products/tricou-sala-suffer-to-dominate-bumbac-premium-negru` | tricoul Made of Iron a fost șters; e cel mai apropiat tricou Prime negru (aceeași serie). Acoperă și `/ro-hu/…` |

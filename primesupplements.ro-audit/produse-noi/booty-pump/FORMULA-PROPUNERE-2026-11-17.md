@@ -28,6 +28,7 @@ Verificat înainte: în repo nu exista nicio discuție despre „Booty Pump” s
 
 ## Ce NU punem (ca să rămână calm)
 - Beta-alanină – scoasă în v2 (decizia lui Marius): la doza fără furnicături nu avea efect real.
+- L-leucină – DECIS 17.11 (Marius): nu se pune; efect mic dacă se mănâncă proteine în jurul antrenamentului, gust amar, se dizolvă greu. Alternativă: pachet Booty Pump + whey/EAA.
 - Cafeină, sinefrină, yohimbină, teacrină, teobromină – stimulente.
 - Niacină (acid nicotinic, ca în NitroX/Combat) – dă înroșire și furnicături, se simte ca „agitație”.
 - EnXtra® (Alpinia galanga) – nu e stimulent, dar e făcut să prelungească efectul cafeinei; fără cafeină nu are rost.

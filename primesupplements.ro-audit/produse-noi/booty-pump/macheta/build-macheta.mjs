@@ -49,6 +49,8 @@ body{font-family:Poppins,Arial,sans-serif;color:${INK}}
 .front .badge b{display:block;font-size:15px;font-weight:800;color:${RED}}
 .front .splash{position:absolute;left:0;bottom:0;width:600px;height:236px;object-fit:cover;object-position:50% 80%;mix-blend-mode:multiply;z-index:1}
 .front .flav{position:absolute;right:26px;bottom:20px;text-align:right;font-weight:900;font-size:24px;line-height:1;color:#fff;letter-spacing:.5px;text-shadow:0 2px 10px rgba(110,0,40,.55),0 0 2px rgba(110,0,40,.5);z-index:3}
+.front .day{position:absolute;right:32px;top:106px;text-align:right;font-size:13px;line-height:1.25;font-weight:800;letter-spacing:2px;color:#9a6d7e;z-index:3}
+.front .day b{display:block;font-size:19px;font-weight:900;letter-spacing:1px}
 .front .flav small{display:block;font-weight:600;font-size:12px;letter-spacing:2px;margin-top:3px}
 `;
 
@@ -70,6 +72,7 @@ const front = (id, f) => `
     <div class="badge"><b>10 g</b>CYCLIC DEXTRIN</div>
     <div class="badge"><b>500 mg</b>CITICOLINE</div>
   </div>
+  <div class="day">MADE FOR<b style="color:${RED}">LEG &amp; GLUTE</b>DAYS</div>
   <div class="flav">${f.name}<small>FLAVOUR</small></div>
 </div>`;
 

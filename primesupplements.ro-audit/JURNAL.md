@@ -1597,3 +1597,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Scrierile** (stoc, preț) nu se retrimit automat, ca să nu plece de două ori.
   - **Teste:** 29/29, plus 3 noi. Deploy c3d18fd6. Proba de stoc după deploy: 90 de oferte verificate, toate la zi.
 - 17.11, **Product Migration dezinstalată de Marius** (aplicația custom rămasă de la WooCommerce, cu circa 130 de permisiuni). Verificat prin Admin API: nu mai apare printre aplicații (au rămas 18); redirecționările sunt tot 1.169; site-ul răspunde. **Ablestar Link Manager rămâne**: Marius a spus că e gratuită, iar ea înregistrează paginile 404 accesate de vizitatori din afara site-ului (Google, linkuri vechi), lucru pe care Prime Vizibilitate nu-l vede, pentru că verifică doar linkurile interne.
+- 17.11: **Total Admin a lucrat Live la depozit** (Marius: „am făcut azi la depozit totul ok”). Comenzi procesate cu factură PRS + AWB Cargus din aplicație, de exemplu Nr.10416 (PRS 16940) și Nr.10407 (PRS 16933).
+- 17.11: Total Admin – **packing slip-ul arată varianta produsului**: gramajul (de exemplu Creapure „500g/100serv”) și aroma (de exemplu EAA „Strawberry & Kiwi”). Marius: „lipsește cantitatea de produs, de exemplu la Creapure, și aromele, de exemplu la EAA”.
+  - Varianta apare îngroșat, sub numele produsului și deasupra SKU-ului.
+  - Entitățile HTML salvate în Shopify („&amp;”) apar corect pe hârtie.
+  - Factura și AWB-ul sunt neschimbate.
+  - 136 de teste, versiunea aeebcc4e.

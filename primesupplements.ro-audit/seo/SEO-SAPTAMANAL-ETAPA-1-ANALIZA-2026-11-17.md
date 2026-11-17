@@ -133,3 +133,38 @@ Totul intră în planificatorul existent (cronul de la 15 minute), fără infras
 - creatina Creapure: 4 din 31 de imagini fără alt.
 
 **Prima măsurătoare (referința):** pornită pe 17.11 la 00:45. Verificarea completă durează câteva ore, apoi rulează PageSpeed și scorul.
+
+## Prima măsurătoare reală (referința), 17.11.2026, 23:45
+
+**Scorul Prime: 88,2 / 100. Indicele de rezultat: 25,1 / 100.** Au fost verificate 395 de pagini: 209 produse, 18 colecții, 156 de articole, 10 pagini, homepage și blogul. PageSpeed a rulat pe toate cele 10 pagini-cheie.
+
+Calibrări făcute după primele rulări:
+- paginile refuzate de Shopify (429) se reiau, în loc să fie notate ca greșeli;
+- rularea e la 5 minute, cu pași sub limita Cloudflare de 50 de cereri;
+- hainele, accesoriile și pachetele nu se verifică la secțiunile de supliment, iar alimentele nu se verifică la „nu depășiți doza”;
+- „ceai diuretic” găsește „Ceaiuri diuretice”;
+- CTR-ul așteptat pe pozițiile 10–11 nu mai iese NaN;
+- paginile firmei sunt cele proprii (`/pages/politica-de-livrare` etc.).
+
+Rulările de probă (82,3 și 84,7) au fost șterse din istoric.
+
+| Parte | Scor | Ce trage în jos |
+|---|---|---|
+| SEO tehnic | 19,1 / 20 | 23 de linkuri interne duc spre adrese redirecționate; restul e 100 (Lighthouse SEO 100 pe toate cele 10 pagini, CWV reale LCP 1,2 s, INP 121 ms, CLS 0, 0 linkuri rupte) |
+| On-page | 28,4 / 30 | alt lipsă (85 de pagini), produse fără link spre un ghid (76), texte scurte (26), FAQ lipsă pe 35 de produse de supliment, „pentru cine” lipsă (45) |
+| Date structurate | 15,2 / 20 | **BreadcrumbList lipsește pe 167 de pagini, practic toate articolele (−3,0)**; **FAQPage lipsește pe 220 de pagini care au întrebări vizibile (−1,7)** |
+| Acoperire (provizoriu) | 17,9 / 20 | 7 din 49 de căutări importante n-au pagină dedicată: taur max contraindicații, cea mai bună spirulină, adevărul despre coenzima Q10, cremă de orez Lidl, BCAA ce este, ceaiuri pentru eliminarea apei, pastile pentru eliminarea apei |
+| Încredere | 7,6 / 10 | doar 45 din 87 de produse de supliment/aliment au recenzii în schema |
+
+**Indicele de rezultat 25,1:**
+- 8 din cele 20 de cuvinte urmărite sunt în top 10, iar 3 în top 3;
+- CTR-ul real e la **41 % din cel așteptat** pe poziții, deci titlurile și descrierile atrag puțin;
+- AI: Prime are 3 mențiuni, față de 27 la lider;
+- clicurile au scăzut cu 19 % față de săptămâna trecută.
+
+**Cele mai mari câștiguri, cu efort mic:**
+- **(1) BreadcrumbList pe articole:** +3 puncte. E o schimbare doar în cod (JSON-LD), invizibilă, în șablonul de articol, pe o copie nepublicată a temei.
+- **(2) FAQPage generat din întrebările deja vizibile:** +1,7 puncte, tot invizibil.
+- **(3) Linkurile interne spre adrese redirecționate**, corectate spre adresa finală: +0,9 puncte.
+
+Doar cu acestea scorul ar fi în jur de **93,8**. Restul se acoperă prin pașii 10 și 13 din planul de după 1.12 (FAQ pe produse, „Citește și”) și prin fluxul de recenzii.

@@ -580,3 +580,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Regulă respectată:** Claude nu introduce chei și nu trimite mesaje clienților. Funcția e publicată pe „oprit”; „Live” o pornește Marius, scriind TRIMITE, iar testele merg doar la numărul lui de test.
 - **De hotărât de Marius:** o propoziție despre confirmarea pe WhatsApp în pagina de comandă sau în coș, plus WhatsApp (Meta) trecut ca împuternicit în politica de confidențialitate. Meta o cere, iar designul și textele site-ului nu se schimbă fără aprobarea lui.
 - **17.11 – aplicația veche scoasă (Marius):** după facturile duble (aplicația veche factura automat la expediere), Marius a dezinstalat „Primesupplements App” și a scos colaboratorul KEMO. Total Admin e singura aplicație de facturi, AWB și stoc.
+
+## 17.11.2026 – Produs nou „Booty Pump”
+- Marius vrea un pre-workout pentru femei numit „Booty Pump”: pump, fără stimulente (să nu agite și să nu crească pulsul), puține ingrediente (nu ca NitroX sau Combat Pro). Ingredientele lui de pornire: glicerol, dextrină ciclică, L-citrulină, L-arginină, beta-alanină în doză mică, citicolină.
+- Propunerea Claude (v1) e în `produse-noi/booty-pump/FORMULA-PROPUNERE-2026-11-17.md`. Încă nimic decis: arginina, doza de dextrină, creatina, aromele și gramajul rămân la Marius.

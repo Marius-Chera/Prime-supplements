@@ -35,38 +35,34 @@ body{font-family:Poppins,Arial,sans-serif;color:${INK}}
 .gtext{background:linear-gradient(100deg,${RED} 0%,#f2557f 60%,${PINK} 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .front{position:relative;width:600px;height:560px;background:#fff;overflow:hidden;flex:none}
 .front .shape1{position:absolute;left:250px;top:-40px;width:420px;height:420px;background:${PINK_L};transform:skewX(-22deg)}
-.front .shape2{position:absolute;left:-60px;top:330px;width:330px;height:130px;transform:skewX(-22deg)}
-.front .lines{position:absolute;right:30px;top:300px;width:120px;height:46px;background:repeating-linear-gradient(-60deg,${PINK} 0 2px,transparent 2px 9px);opacity:.8}
-.front .vert{position:absolute;left:30px;top:470px;transform:rotate(-90deg);transform-origin:left top;font-size:16px;font-weight:700;letter-spacing:1px;white-space:nowrap}
+.front .lines{position:absolute;right:30px;top:200px;width:110px;height:40px;background:repeating-linear-gradient(-60deg,${PINK} 0 2px,transparent 2px 9px);opacity:.8}
+.front .vert{position:absolute;left:28px;top:330px;transform:rotate(-90deg);transform-origin:left top;font-size:15px;font-weight:700;letter-spacing:1px;white-space:nowrap;z-index:3}
 .front .vert span{font-weight:400;color:#b06a85}
-.front .logo{position:absolute;left:58px;top:40px}
-.front .pill{position:absolute;right:34px;top:48px;color:#fff;font-size:15px;letter-spacing:2px;padding:6px 16px;transform:skewX(-15deg)}
+.front .logo{position:absolute;left:58px;top:30px}
+.front .pill{position:absolute;right:34px;top:38px;color:#fff;font-size:15px;letter-spacing:2px;padding:6px 16px;transform:skewX(-15deg)}
 .front .pill b{display:inline-block;transform:skewX(15deg);font-weight:700}
-.front .ghost{position:absolute;left:170px;top:112px;font-size:96px;font-weight:900;letter-spacing:2px;color:transparent;-webkit-text-stroke:1.5px ${PINK};opacity:.9}
-.front .t1{position:absolute;left:56px;top:150px;font-size:118px;line-height:1;font-weight:900;letter-spacing:-1px;color:${INK}}
-.front .t2{position:absolute;left:56px;top:262px;font-size:132px;line-height:1;font-weight:900;letter-spacing:-1px}
-.front .sub{position:absolute;left:60px;top:402px;font-size:15px;font-weight:700;letter-spacing:3px}
-.front .sub2{position:absolute;left:60px;top:424px;font-size:12.5px;font-weight:500;letter-spacing:2px;color:#9a6d7e}
-.front .badges{position:absolute;left:58px;top:456px;display:flex;gap:7px}
+.front .t1{position:absolute;left:54px;top:88px;font-size:100px;line-height:1;font-weight:900;letter-spacing:-1px;color:${INK}}
+.front .t2{position:absolute;left:54px;top:178px;font-size:112px;line-height:1;font-weight:900;letter-spacing:-1px}
+.front .sub{position:absolute;left:58px;top:296px;font-size:13.5px;font-weight:700;letter-spacing:2.5px;white-space:nowrap}
+.front .badges{position:absolute;left:56px;top:322px;display:flex;gap:7px;z-index:3}
 .front .badge{border:1.5px solid ${PINK};border-radius:6px;padding:4px 7px;font-size:9.5px;line-height:1.15;font-weight:600;text-align:center;background:#fff}
 .front .badge b{display:block;font-size:15px;font-weight:800;color:${RED}}
-.front .flav{position:absolute;right:30px;bottom:22px;text-align:right;font-weight:800;font-size:17px;line-height:1}
-.front .flav small{display:block;font-weight:500;font-size:11px;color:#9a6d7e;letter-spacing:1px}
-.front .day{position:absolute;left:60px;bottom:24px;font-size:11px;font-weight:700;letter-spacing:2px;color:#9a6d7e}
+.front .splash{position:absolute;left:0;bottom:0;width:600px;height:236px;object-fit:cover;object-position:50% 80%;mix-blend-mode:multiply;z-index:1}
+.front .flav{position:absolute;right:26px;bottom:20px;text-align:right;font-weight:900;font-size:24px;line-height:1;color:#fff;letter-spacing:.5px;text-shadow:0 2px 10px rgba(110,0,40,.55),0 0 2px rgba(110,0,40,.5);z-index:3}
+.front .flav small{display:block;font-weight:600;font-size:12px;letter-spacing:2px;margin-top:3px}
 `;
 
 const front = (id, f) => `
 <div class="front">
   <div class="shape1"></div>
-  <div class="shape2 grad" style="opacity:.16"></div>
   <div class="lines"></div>
+  <img class="splash" src="splash-${f.slug}.png" alt="">
   <div class="vert">500g <span>/ 18 SERVINGS</span></div>
   <div class="logo">${logo(id, 210)}</div>
   <div class="pill grad"><b>PRE-WORKOUT</b></div>
   <div class="t1">BOOTY</div>
   <div class="t2 gtext">PUMP</div>
-  <div class="sub gtext">STIM-FREE PUMP FORMULA</div>
-  <div class="sub2">0 MG CAFFEINE · NO TINGLE · WITH ELECTROLYTES</div>
+  <div class="sub gtext">STIM-FREE PUMP · 0 MG CAFFEINE · ELECTROLYTES</div>
   <div class="badges">
     <div class="badge"><b>6 g</b>L-CITRULLINE</div>
     <div class="badge"><b>3 g</b>CREATINE</div>
@@ -74,8 +70,7 @@ const front = (id, f) => `
     <div class="badge"><b>10 g</b>CYCLIC DEXTRIN</div>
     <div class="badge"><b>500 mg</b>CITICOLINE</div>
   </div>
-  <div class="day">MADE FOR LEG &amp; GLUTE DAYS</div>
-  <div class="flav gtext">${f.name}<small>FLAVOUR</small></div>
+  <div class="flav">${f.name}<small>FLAVOUR</small></div>
 </div>`;
 
 const jarDiv = (id, f, left) => `

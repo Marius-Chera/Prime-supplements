@@ -1611,3 +1611,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **București:** adresa „Sector 3, București” nu se găsea în nomenclatorul Cargus. Acum aplicația caută sectorul sau, ca rezervă, localitatea „Bucuresti”.
   - Publicat din cod curat (versiunea d2425bf7, commit c39ce7f), fără modificările încă nepublicate ale sesiunii WhatsApp, care lucrează în același dosar.
   - **Reluare:** comenzile cu eroare se bifează din nou și se apasă butonul. Factura nu se dublează (protecția „are deja factura”); se creează doar AWB-ul.
+- 17.11: **Verificat de Marius:** după reparația rambursului (cont colector), comenzile ramburs blocate au primit AWB („Au mers”).

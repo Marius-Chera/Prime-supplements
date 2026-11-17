@@ -19,7 +19,15 @@ Toate sunt pe PRIME SPORT SUPPLEMENTS SRL (cu excepția celei marcate), plătite
 - Facturile care vin pe alte adrese decât contact@ (de ex. marius.chera@yahoo.com: Cloudflare, Anthropic/Claude, Zernio, OpenArt etc.) – nu au fost căutate.
 - Google Workspace pentru noiembrie vine pe 1–2.12.
 
-## Lăsate deoparte
-- Office Direct, comanda #1916270 (16.11): comandată online, dar plătită ramburs (123,45 lei); factura e atașată la e-mailul din contact@.
+## Adăugate la cererea „absolut orice factură pe CUI-ul Prime”
+| Fișier | Furnizor | Data | Sumă | Ce e |
+|---|---|---|---|---|
+| 2026-11-02_Netopia-comisioane-card-oct_NFSC628887.pdf | Netopia | 02.11.2026 | vezi PDF (reținut din decontări, nu se plătește) | comisioane card 01.10–01.11 |
+| 2026-11-16_Office-Direct_1916270.pdf | Office Direct | 16.11.2026 | 123,45 lei, ramburs | papetărie / birou |
+
+## Fără PDF încă
+- Pleximet, comanda 7849 (11.11.2026): 217,80 lei cu TVA, numerar la livrare, pe CUI Prime; factura nu e în e-mail, vine în SPV.
+- OpenArt: contul contact@ a trecut pe planul Plus (5.600 credite) în jurul datei de 15.11; nu există e-mail de plată în contact@. Factura se descarcă din contul OpenArt (Billing / Stripe) după logare.
+- Facturile furnizorilor români (curierat, chirie, utilități, marfă etc.) sunt în SPV / Oblio, nu în acest folder.
 
 Copie pentru toată lumea: Google Drive (contul contact@) → „Contabilitate Prime - facturi si bonuri” → „2026-11 Noiembrie”.

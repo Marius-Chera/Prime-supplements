@@ -86,19 +86,22 @@ const jarDiv = (id, f, left) => `
 // ---------- 1. flacoanele (ambele arome) ----------
 const jar = `<!doctype html><html><head><meta charset="utf-8">${FONT}<style>${css}
 body{width:2000px;height:1200px;background:radial-gradient(ellipse at 50% 35%,#ffffff 0%,#fdf2f6 55%,#f7dce6 100%);position:relative;overflow:hidden}
-.floor{position:absolute;left:0;right:0;top:996px;bottom:0;background:linear-gradient(#f3d3df,#f8e3ea)}
-.shadow{position:absolute;top:960px;width:700px;height:80px;border-radius:50%;background:radial-gradient(ellipse,rgba(120,60,85,.35),rgba(120,60,85,0) 70%)}
-.jar{position:absolute;top:180px;width:600px;height:900px}
+.floor{position:absolute;left:0;right:0;top:996px;bottom:0;background:linear-gradient(#f1cfdc,#f8e3ea)}
+.shadow{position:absolute;top:975px;width:700px;height:60px;border-radius:50%;background:radial-gradient(ellipse,rgba(110,50,75,.42),rgba(110,50,75,0) 70%);z-index:1}
+.jar{position:absolute;top:180px;width:600px;height:816px;z-index:2;-webkit-box-reflect:below 0 linear-gradient(transparent 80%,rgba(255,255,255,.28))}
 .lid{position:absolute;left:-6px;top:0;width:612px;height:150px;border-radius:26px 26px 10px 10px;
- background:linear-gradient(90deg,#d9d9dc 0%,#f4f4f6 10%,#ffffff 28%,#fafafa 45%,#ececef 75%,#d2d2d6 100%)}
-.lid:before{content:"";position:absolute;inset:0;border-radius:inherit;background:repeating-linear-gradient(90deg,rgba(0,0,0,.035) 0 3px,transparent 3px 9px)}
-.lid:after{content:"";position:absolute;left:0;right:0;top:0;height:18px;border-radius:26px 26px 0 0;background:linear-gradient(#ffffff,#ececef)}
-.neck{position:absolute;left:8px;top:150px;width:584px;height:28px;background:linear-gradient(90deg,#cfcfd3,#f2f2f4 28%,#fff 40%,#e3e3e7 85%,#c4c4c9)}
+ background:linear-gradient(90deg,transparent 16%,rgba(255,255,255,.95) 18.5%,transparent 22%,transparent 77%,rgba(255,255,255,.7) 79%,transparent 82%),
+ linear-gradient(90deg,#b4b4ba 0%,#e3e3e7 5%,#fafafb 12%,#fff 20%,#ececf0 36%,#f3f3f5 58%,#fdfdfd 72%,#d9d9de 88%,#acacb3 100%);
+ box-shadow:inset 0 -10px 14px -8px rgba(60,40,50,.35)}
+.lid:before{content:"";position:absolute;inset:18px 0 0 0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.045) 0 3px,rgba(255,255,255,.25) 3px 4px,transparent 4px 9px)}
+.lid:after{content:"";position:absolute;left:0;right:0;top:0;height:20px;border-radius:26px 26px 0 0;background:linear-gradient(#fff 0%,#fff 40%,#e2e2e6 100%);box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.neck{position:absolute;left:8px;top:150px;width:584px;height:28px;background:linear-gradient(90deg,#a9a9b0,#e9e9ed 12%,#fff 19%,#d9d9de 45%,#e8e8ec 75%,#a7a7ae);box-shadow:inset 0 8px 10px -6px rgba(40,25,35,.35)}
 .body{position:absolute;left:0;top:176px;width:600px;height:640px;border-radius:14px 14px 70px 70px/14px 14px 34px 34px;
- background:linear-gradient(90deg,#d6d6da 0%,#f3f3f5 9%,#ffffff 27%,#fbfbfc 45%,#efeff2 74%,#d8d8dc 92%,#c9c9ce 100%);overflow:hidden}
+ background:linear-gradient(90deg,#b5b5bc 0%,#e2e2e7 5%,#fcfcfd 13%,#fff 20%,#f1f1f4 36%,#ebebef 56%,#f8f8fa 72%,#dcdce1 88%,#afafb6 100%);overflow:hidden}
 .label{position:absolute;left:0;top:38px;width:600px;height:560px}
 .shade{position:absolute;left:0;top:0;width:600px;height:100%;pointer-events:none;
- background:linear-gradient(90deg,rgba(60,40,50,.30) 0%,rgba(60,40,50,.10) 7%,rgba(255,255,255,0) 18%,rgba(255,255,255,.45) 29%,rgba(255,255,255,0) 40%,rgba(0,0,0,0) 66%,rgba(60,40,50,.10) 86%,rgba(60,40,50,.34) 100%)}
+ background:linear-gradient(90deg,rgba(40,25,35,.40) 0%,rgba(40,25,35,.13) 5%,rgba(255,255,255,0) 11%,rgba(255,255,255,0) 15%,rgba(255,255,255,.72) 17.5%,rgba(255,255,255,.78) 18.6%,rgba(255,255,255,0) 21.5%,rgba(255,255,255,.22) 25%,rgba(255,255,255,0) 31%,rgba(0,0,0,0) 62%,rgba(255,255,255,.38) 79%,rgba(255,255,255,0) 83%,rgba(40,25,35,.15) 92%,rgba(40,25,35,.44) 100%)}
+.shade:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,25,35,.10) 0,rgba(0,0,0,0) 4%,rgba(0,0,0,0) 90%,rgba(40,25,35,.18) 100%)}
 .cap{position:absolute;left:0;right:0;bottom:24px;text-align:center;font-size:17px;color:#9a6d7e;letter-spacing:1px}
 </style></head><body>
 <div class="floor"></div>

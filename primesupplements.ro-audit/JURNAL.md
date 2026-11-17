@@ -1612,3 +1612,10 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Publicat din cod curat (versiunea d2425bf7, commit c39ce7f), fără modificările încă nepublicate ale sesiunii WhatsApp, care lucrează în același dosar.
   - **Reluare:** comenzile cu eroare se bifează din nou și se apasă butonul. Factura nu se dublează (protecția „are deja factura”); se creează doar AWB-ul.
 - 17.11: **Verificat de Marius:** după reparația rambursului (cont colector), comenzile ramburs blocate au primit AWB („Au mers”).
+- 17.11 (09:20–09:50), **Prime Vizibilitate: Shopify limitase cererile din rețeaua Cloudflare** (HTTP 429 la `sitemap.xml`, de la 23:00 până dimineața). De la calculator sitemap-ul se citea normal. Din cauza asta au căzut verificarea completă de noapte și indexarea Bing de la 06:00. Corecturi publicate (versiunile 6e43fc81 și a76aa50c, 36/36 de teste):
+  - la 429, modulul rămâne pornit și se reia la rularea următoare, de cel mult 12 ori (3 ore);
+  - Retry-After e respectat;
+  - indexarea Bing se reia la fel;
+  - după verificarea completă, Scorul Prime se recalculează automat.
+
+  Rezultat: la 09:30 indexarea Bing a trimis 243 de pagini (1 nouă, 241 modificate, 1 ștearsă). Verificarea completă cu auditul on-page a pornit (25/394 la 09:45). PageSpeed merge cu cheia „Prime Vizibilitate CrUX”: homepage SEO 100, performanță 74; Proteine SEO 100, performanță 62, LCP de test 10,7 s; Creatină SEO 100, performanță 80. Prima măsurătoare a Scorului Prime apare automat după terminarea verificării, estimat în jurul orei 15:00.

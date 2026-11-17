@@ -1603,3 +1603,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Entitățile HTML salvate în Shopify („&amp;”) apar corect pe hârtie.
   - Factura și AWB-ul sunt neschimbate.
   - 136 de teste, versiunea aeebcc4e.
+- 17.11, **Ablestar Link Manager dezinstalat de Claude** (Marius: „atunci dezinstalează Ablestar”). Aplicația nu era gratuită: ca să se deschidă, cerea aprobarea planului Basic de 10 $ la 30 de zile, iar Claude nu a aprobat abonamentul. Fusese instalată de Marian Tanasie (fosta agenție). Verificat prin Admin API: au rămas 17 aplicații, iar redirecționările sunt tot 1.169. **Paginile 404 din Google Search Console** (87) au fost verificate pe site: circa 50 aveau deja redirecționare sau pagină, circa 15 sunt gunoi tehnic, 3 n-au echivalent, iar pentru 14 sunt propuse redirecționări (`seo/REDIRECTIONARI-404-2026-11-17.md`), care așteaptă aprobarea.

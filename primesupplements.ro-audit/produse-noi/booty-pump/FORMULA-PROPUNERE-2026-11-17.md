@@ -63,3 +63,9 @@ Niciunul dintre ingredientele de mai sus nu e stimulent. Citrulina și glicerolu
 4. Arome (ex. pink lemonade, fructe de pădure, pepene).
 5. Gramaj: 30 de porții (~720 g)?
 6. Apoi: cerere de ofertă la fabrică cu formula finală.
+
+## Decizii 17.11.2026 (seara) și macheta
+- Dextrină ciclică: **10 g** (decis). Electroliți: **da** (decis). Arome: **Pink Lemonade** și **Forest Fruits / fructe de pădure** (decis). Gramaj: **500 g** (decis).
+- Atenție la gramaj: porția are ~27 g (10 + 6 + 3 + 3 + 1,5 + 0,5 g active + ~1,7 g săruri de electroliți + arome/acid/îndulcitor) → **500 g ≈ 18 porții**. Pentru 20+ porții trebuie fie 540–560 g, fie mai puțină dextrină.
+- Rămâne deschisă doar arginina (recomandat: fără; în machetă nu e pusă).
+- Macheta (flacon alb, forma EAA/NitroX 3D, etichetă albă, logo în degrade roșu → roz deschis): `macheta/macheta-flacoane.png` (ambele arome) și `macheta/eticheta-desfasurata-pink-lemonade.png` (laterale RO + față + tabel). Se reface cu `node macheta/build-macheta.mjs`. E o simulare desenată (HTML/CSS randat cu Chrome), nu o randare 3D și nu e pentru tipar; textele de pe față sunt în engleză, ca la restul gamei.

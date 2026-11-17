@@ -152,6 +152,6 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
       - mesajul de test;
       - 1–2 zile pe Umbră, apoi Live (TRIMITE).
     - **De confirmat:**
-      - noaptea 21:00–08:00 și „nu răspunde” după 3 ore de zi;
+      - „nu răspunde” după 3 ore de zi (noaptea e hotărâtă: 17:30–08:00, 17.11);
       - propoziția despre confirmarea pe WhatsApp în pagina de comandă/coș + WhatsApp (Meta) în politica de confidențialitate (cerința Meta de acord);
       - colega să lucreze din web.whatsapp.com dacă folosește WhatsApp pentru Windows (nesuportat în coexistence).

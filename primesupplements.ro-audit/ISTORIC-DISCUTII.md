@@ -571,7 +571,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **Decizia lui Marius (17.11): „Doar ramburs”.** Confirmarea automată merge doar la comenzile ramburs, la 30 de minute după plasare, iar noaptea la 8:00. Comenzile cu cardul nu primesc mesaj (ca pe 13.11).
 - **Canalul:** WhatsApp Business Platform (Cloud API Meta), direct, fără intermediari plătiți. Numărul public Prime (+40 775 286 584) rămâne și în aplicația WhatsApp Business de pe telefon, prin modul coexistence.
 - **Implicite alese de Claude, de confirmat de Marius:**
-  - noaptea durează 21:00–08:00;
+  - ~~noaptea 21:00–08:00~~ → **Marius a ales 17:30–08:00** („17:30 si 8:00”, 17.11): comenzile de după 17:00 primesc mesajul a doua zi la 08:00;
   - „nu răspunde” vine după 3 ore de zi fără răspuns;
   - după fiecare buton pleacă un răspuns automat scurt;
   - textul liber duce la starea nouă „de verificat”; după „Vreau o modificare”, textul clientului devine nota modificării;

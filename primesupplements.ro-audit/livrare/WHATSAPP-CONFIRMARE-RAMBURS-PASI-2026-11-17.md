@@ -11,13 +11,13 @@ Funcția e publicată, dar e **OPRITĂ**: nu trimite nimic până nu conectezi n
 | Pas | Ce se întâmplă |
 |---|---|
 | Comandă ramburs nouă | La **30 de minute** după plasare, clientul primește pe WhatsApp, de pe numărul Prime (+40 775 286 584), mesajul de confirmare. |
-| Comandă plasată noaptea | Mesajul pleacă la **08:00**. Noaptea propusă e **21:00–08:00** (o schimbi din Setări). O comandă de la 20:45 ar ajunge la 21:15, deci pleacă tot la 08:00. |
+| Comandă plasată noaptea | Mesajul pleacă la **08:00**. Noaptea e **17:30–08:00** (aleasă de tine pe 17.11; se schimbă din Setări). O comandă de la 17:00 ar ajunge la 17:30, deci pleacă a doua zi la 08:00. |
 | Comandă plătită cu cardul | Nu primește nimic (decizia ta din 13.11). |
 | Clientul apasă **✅ Confirm** | În Depozit → Comenzi apare bifa „✅ confirmată”, cu „automat WhatsApp” și ora. |
 | **✏️ Vreau o modificare** | Starea devine „✏️ modificare”. Ce scrie clientul după aceea apare chiar în coloană. |
 | **❌ Anulez comanda** | Starea devine „❌ refuzată”, iar butonul unic o sare. Comanda o anulezi tot tu sau colega, în Shopify. |
 | Clientul scrie un text liber, trimite o poză sau un vocal | Starea devine „💬 de verificat”, cu textul afișat. Colega îl citește și pune starea. Un „mulțumesc” după confirmare nu strică bifa. |
-| Niciun răspuns după **3 ore de zi** | Starea devine „📵 nu răspunde”, iar colega îl sună. Noaptea nu se numără: un mesaj de la 20:30 trece pe „nu răspunde” abia a doua zi la 10:30. |
+| Niciun răspuns după **3 ore de zi** | Starea devine „📵 nu răspunde”, iar colega îl sună. Noaptea nu se numără: un mesaj trimis la 16:00 trece pe „nu răspunde” abia a doua zi la 09:30. |
 | Mesajul nu ajunge (clientul nu are WhatsApp, număr străin etc.) | Sub confirmare apare cu roșu „💬 WhatsApp: nu a ajuns: …”. Comanda rămâne „de confirmat”, iar colega o sună. |
 | Colega a confirmat deja de mână | Mesajul nu mai pleacă. |
 
@@ -162,7 +162,7 @@ Mesajul e pur tranzacțional: nu are reduceri și nici linkuri. Așa rămâne �
 
 ## 6. De hotărât sau de verificat de tine
 
-1. **Intervalul de noapte:** propun **21:00–08:00**, cu mesajele de noapte la 08:00. E bun așa sau îl schimbi?
+1. ~~**Intervalul de noapte**~~ – **hotărât pe 17.11: 17:30–08:00** („17:30 si 8:00”), pus în aplicație.
 2. **„Nu răspunde” după 3 ore de zi:** e bine așa? Se poate seta între 1 și 12 ore.
 3. **Acordul clientului (regula Meta + GDPR):** Meta cere ca mesajele inițiate de firmă să meargă doar la clienți care au fost anunțați că vor primi mesaje pe WhatsApp. Propun:
    - o propoziție în pagina de comandă sau în coș: „Comenzile cu plata la livrare le confirmăm pe WhatsApp”;

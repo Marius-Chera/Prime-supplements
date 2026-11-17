@@ -566,3 +566,16 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - **Primesupplements App ×2 (FLUXSALES)**, doar după trecerea pe Total Admin; până atunci nu se ating (NU-ATINGE-APLICATII.md).
 
   Rămân: Judge.me, Pandectes, theMarketer, Simprosys și aplicațiile Shopify gratuite. Decizia e a lui Marius.
+
+## 17.11.2026 – Total Admin: confirmarea automată pe WhatsApp a rambursurilor
+- **Decizia lui Marius (17.11): „Doar ramburs”.** Confirmarea automată merge doar la comenzile ramburs, la 30 de minute după plasare, iar noaptea la 8:00. Comenzile cu cardul nu primesc mesaj (ca pe 13.11).
+- **Canalul:** WhatsApp Business Platform (Cloud API Meta), direct, fără intermediari plătiți. Numărul public Prime (+40 775 286 584) rămâne și în aplicația WhatsApp Business de pe telefon, prin modul coexistence.
+- **Implicite alese de Claude, de confirmat de Marius:**
+  - noaptea durează 21:00–08:00;
+  - „nu răspunde” vine după 3 ore de zi fără răspuns;
+  - după fiecare buton pleacă un răspuns automat scurt;
+  - textul liber duce la starea nouă „de verificat”; după „Vreau o modificare”, textul clientului devine nota modificării;
+  - mesajul pleacă doar pentru comenzile plasate după pornire și nu mai pleacă dacă colega a confirmat deja de mână.
+- **Ce a reieșit din documentația Meta (17.11):** coexistence cere statutul de Tech Provider (gratuit, cu verificarea firmei și App Review). Prime își face propria aplicație Meta, „Prime Total Admin”, și devine propriul Tech Provider. Tarif: 0,0239 € per mesaj utility livrat în România.
+- **Regulă respectată:** Claude nu introduce chei și nu trimite mesaje clienților. Funcția e publicată pe „oprit”; „Live” o pornește Marius, scriind TRIMITE, iar testele merg doar la numărul lui de test.
+- **De hotărât de Marius:** o propoziție despre confirmarea pe WhatsApp în pagina de comandă sau în coș, plus WhatsApp (Meta) trecut ca împuternicit în politica de confidențialitate. Meta o cere, iar designul și textele site-ului nu se schimbă fără aprobarea lui.

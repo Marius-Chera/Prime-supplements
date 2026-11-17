@@ -1,0 +1,22 @@
+{%- comment -%}
+  Breadcrumb JSON-LD for articles and pages (2026-11-18, Scorul Prime). Products and collections already have their own
+  (schema-breadcrumb-enhanced, schema-collection). Article: Pagina principală > blog > article. Page: Pagina principală > page.
+  Nothing visible changes on the page.
+{%- endcomment -%}
+{%- if article or page -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Pagina principală", "item": {{ shop.url | append: '/' | json }} },
+    {%- if article %}
+    { "@type": "ListItem", "position": 2, "name": {{ blog.title | default: 'Blog' | json }}, "item": {{ shop.url | append: blog.url | json }} },
+    { "@type": "ListItem", "position": 3, "name": {{ article.title | strip_newlines | strip | json }}, "item": {{ shop.url | append: article.url | json }} }
+    {%- else %}
+    { "@type": "ListItem", "position": 2, "name": {{ page.title | strip_newlines | strip | json }}, "item": {{ shop.url | append: page.url | json }} }
+    {%- endif %}
+  ]
+}
+</script>
+{%- endif -%}

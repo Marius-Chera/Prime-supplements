@@ -1,0 +1,58 @@
+{%- comment -%}
+  FAQPage JSON-LD (2026-11-18, Scorul Prime). Built only from the "Întrebări frecvente" section that is already visible
+  on the page, word for word; nothing is added to the page itself. Input: `html` = article body, product description or
+  the collection SEO text. Two formats are recognised:
+  - <h2>/<h3>Întrebări frecvente</…> followed by <h3>Question?</h3><p>Answer</p> (articles, collection SEO text);
+  - <h3>Întrebări frecvente</h3> followed by <p><strong>Question?</strong></p><p>Answer</p> (product descriptions).
+  The section ends at the next <h2> (and, in the second format, at the next <h3>). Only questions that end in "?" are
+  used, and the block is emitted only when at least 2 questions are found. The old hidden creatine FAQ stays off
+  (snippets/faq-schema-creatina.liquid): its questions were not visible on the page.
+{%- endcomment -%}
+{%- if html contains 'Întrebări frecvente</h' -%}
+  {%- liquid
+    assign faq = html | split: 'Întrebări frecvente</h' | last
+    assign faq = faq | split: '<h2' | first
+    assign before_strong = faq | split: '<strong>' | first
+    assign mod_h3 = false
+    if before_strong contains '<h3'
+      assign mod_h3 = true
+    endif
+    if mod_h3
+      assign parts = faq | split: '<h3'
+      assign end_tag = '</h3>'
+    else
+      assign faq = faq | split: '<h3' | first
+      assign parts = faq | split: '<strong>'
+      assign end_tag = '</strong>'
+    endif
+    assign count = 0
+  -%}
+  {%- capture items -%}
+    {%- for part in parts -%}
+      {%- if forloop.first -%}{%- continue -%}{%- endif -%}
+      {%- liquid
+        assign q_html = part | split: end_tag | first
+        assign q_tag = q_html
+        if mod_h3
+          comment
+            in the <h3 format the part starts with the rest of the opening tag (">Question?" or ' id="x">Question?')
+          endcomment
+          assign q_tag = q_html | prepend: '<x'
+        endif
+        assign q = q_tag | strip_html | strip_newlines | split: ' ' | join: ' ' | strip
+        assign a_html = part | remove_first: q_html | remove_first: end_tag
+        assign a = a_html | replace: '<', ' <' | strip_html | strip_newlines | split: ' ' | join: ' ' | strip | truncate: 1000, '…'
+      -%}
+      {%- if q contains '?' and a != blank -%}
+        {%- if count > 0 %},{% endif -%}
+        {"@type":"Question","name":{{ q | json }},"acceptedAnswer":{"@type":"Answer","text":{{ a | json }}}}
+        {%- assign count = count | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if count >= 2 -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{ items }}]}
+</script>
+  {%- endif -%}
+{%- endif -%}

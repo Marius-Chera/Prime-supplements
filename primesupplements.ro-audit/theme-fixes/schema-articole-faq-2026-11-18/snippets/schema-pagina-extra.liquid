@@ -1,0 +1,21 @@
+{%- comment -%}
+  Scorul Prime (2026-11-18): extra JSON-LD per page type, rendered from snippets/schema-organization.liquid (which is in
+  the <head> of every page). Invisible: no markup is added to the page body.
+  - articles and pages: BreadcrumbList (snippets/schema-breadcrumb-page.liquid);
+  - articles, products, collections: FAQPage built from the "Întrebări frecvente" section already visible on the page
+    (snippets/schema-faq-auto.liquid). The homepage keeps its own FAQPage (sections), so it is not handled here.
+{%- endcomment -%}
+{%- case request.page_type -%}
+  {%- when 'article' -%}
+    {%- render 'schema-breadcrumb-page' -%}
+    {%- render 'schema-faq-auto', html: article.content -%}
+  {%- when 'page' -%}
+    {%- render 'schema-breadcrumb-page' -%}
+  {%- when 'product' -%}
+    {%- render 'schema-faq-auto', html: product.description -%}
+  {%- when 'collection' -%}
+    {%- if collection.metafields.custom.seo_text != blank -%}
+      {%- assign seo_text_html = collection.metafields.custom.seo_text | metafield_tag -%}
+      {%- render 'schema-faq-auto', html: seo_text_html -%}
+    {%- endif -%}
+{%- endcase -%}

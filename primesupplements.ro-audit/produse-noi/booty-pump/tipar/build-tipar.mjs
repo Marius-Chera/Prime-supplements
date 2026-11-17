@@ -20,9 +20,25 @@ const CSSPX_PER_MM = 96 / 25.4, K = (TRIM_W * CSSPX_PER_MM) / DW;
 
 const RED = '#ec1e24', PINK = '#f6a5c0', PINK_L = '#fde4ec', INK = '#232323', MUTE = '#8f5f72';
 const FLAVOURS = [
-  { slug: 'pink-lemonade', name: 'PINK LEMONADE', ro: 'limonadă roz', en: 'pink lemonade' },
-  { slug: 'fructe-de-padure', name: 'FOREST FRUITS', ro: 'fructe de pădure', en: 'forest fruits' },
+  { slug: 'pink-lemonade', name: 'PINK LEMONADE', ro: 'limonadă roz', en: 'pink lemonade', ean: '400202630001' },
+  { slug: 'fructe-de-padure', name: 'FOREST FRUITS', ro: 'fructe de pădure', en: 'forest fruits', ean: '400202630002' },
 ];
+
+
+// ---- EAN-13 intern Prime (seria 400..., ca la haine; blocul 4002026 3000x) ----
+function eanCheck(d12){let t=0;for(let i=0;i<12;i++)t+=+d12[i]*(i%2?3:1);return String((10-t%10)%10);}
+const LCODE=['0001101','0011001','0010011','0111101','0100011','0110001','0101111','0111011','0110111','0001011'];
+const GCODE=LCODE.map(c=>c.split('').map(b=>b==='1'?'0':'1').reverse().join(''));
+const RCODE=LCODE.map(c=>c.split('').map(b=>b==='1'?'0':'1').join(''));
+const PARITY=['LLLLLL','LLGLGG','LLGGLG','LLGGGL','LGLLGG','LGGLLG','LGGGLL','LGLGLG','LGLGGL','LGGLGL'];
+function eanSvg(code){
+  const d=code.split('').map(Number), par=PARITY[d[0]];
+  let bits='101';for(let i=1;i<=6;i++)bits+=(par[i-1]==='L'?LCODE:GCODE)[d[i]];bits+='01010';for(let i=7;i<=12;i++)bits+=RCODE[d[i]];bits+='101';
+  const m=1.6,q=11*m,W=bits.length*m+2*q,H=62,guard=new Set([0,1,2,45,46,47,48,49,92,93,94]);
+  let r='';for(let i=0;i<bits.length;i++)if(bits[i]==='1')r+='<rect x="'+(q+i*m).toFixed(2)+'" y="0" width="'+m+'" height="'+(guard.has(i)?H+6:H)+'"/>';
+  const t=(x,str,anchor)=>'<text x="'+x+'" y="'+(H+15)+'" font-size="14" font-family="Arial" text-anchor="'+anchor+'" letter-spacing="2.2">'+str+'</text>';
+  return '<svg xmlns="http://www.w3.org/2000/svg" width="'+W+'" height="'+(H+18)+'" viewBox="0 0 '+W+' '+(H+18)+'"><rect width="100%" height="100%" fill="#fff"/><g fill="#000">'+r+'</g>'+t(q-4,code[0],'end')+t(q+3*m+21*m,code.slice(1,7),'middle')+t(q+50*m+21*m,code.slice(7),'middle')+'</svg>';
+}
 
 function logo(id, width) {
   let s = logoSrc
@@ -75,7 +91,7 @@ td:nth-child(n+2),th:nth-child(n+2){text-align:right;white-space:nowrap;width:70
 .addr{display:flex;gap:8px;align-items:flex-start;margin-top:3px}
 .ico{flex:none;width:16px;height:16px;fill:${RED}}
 .foot{display:flex;gap:12px;align-items:center;margin-top:6px}
-.bc{width:150px;height:70px;border:1.5px dashed #999;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;color:#777;flex:none}
+.bc{flex:none;background:#fff;padding:4px 6px}
 .soc{display:flex;gap:12px;font-size:11.5px;font-weight:600;margin-top:5px;align-items:center}
 .soc span{display:flex;gap:4px;align-items:center;white-space:nowrap}
 .rec{display:flex;gap:8px;align-items:center}
@@ -168,7 +184,7 @@ ${cropMarks()}
     <div class="foot" style="justify-content:space-between">
       <div>
       <div class="rec" style="margin-top:6px"><svg viewBox="0 0 40 40"><path d="M20 3l7 12h-4l-3-5-3 5h-4zM5 31l7-12 2 3.4-4 6.6h6v4H7zM35 31l-3.5 2H23v-4h6l-4-6.6 2-3.4z" fill="#232323"/><text x="20" y="27" font-size="9" font-weight="800" text-anchor="middle" fill="#232323">1</text><text x="20" y="39.5" font-size="7" font-weight="800" text-anchor="middle" fill="#232323">PET</text></svg><svg viewBox="0 0 40 40"><circle cx="27" cy="6" r="3.2" fill="#232323"/><path d="M24 11h6l2 12h-3l-1 13h-4l-1-13h-1zM5 19h14l-2 17H8z" fill="#232323"/><path d="M15 9l-5 9" stroke="#232323" stroke-width="2"/></svg><div style="font-size:11px;line-height:1.3"><b>Lot / Exp.:</b> vezi ambalajul / see packaging<br><b>Cantitate netă / Net weight: 500 g</b></div></div></div>
-      <div class="bc">EAN-13<br>de alocat</div>
+      <div class="bc">${eanSvg(f.ean + eanCheck(f.ean))}</div>
     </div>
   </div>
 </div></div>
@@ -176,6 +192,7 @@ ${cropMarks()}
 
 const chrome = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
 for (const f of FLAVOURS) {
+  console.log(f.slug, 'EAN', f.ean + eanCheck(f.ean));
   const base = `eticheta-booty-pump-${f.slug}`;
   const file = join(here, base + '.html');
   writeFileSync(file, html(f));

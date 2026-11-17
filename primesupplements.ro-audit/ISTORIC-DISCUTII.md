@@ -591,3 +591,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **17.11 – Booty Pump, ambalaj:** pe față intră splash-ul aromei (fructe + lichid), ca să pară foarte bun la gust (cerut de Marius). Splash-urile din machetă sunt generate cu AI, ca direcție pentru agenție.
 - **17.11 – decizie Marius:** rețeta Booty Pump CONFIRMATĂ, fără arginină. Cererea către Pro Nutrition o trimite Marius (termen dorit: final de ianuarie 2027).
 - **17.11 – idee Marius:** designul etichetei Booty Pump îl facem 100 % noi (fără Headmade) și tipărim la Sunimprof Rottaprint. Simularea de tipar e în `produse-noi/booty-pump/tipar/`.
+- **18.11 – decizie Marius:** Booty Pump primește coduri EAN interne (fără GS1), ca la haine: 4002026300016 (Pink Lemonade), 4002026300023 (Forest Fruits).

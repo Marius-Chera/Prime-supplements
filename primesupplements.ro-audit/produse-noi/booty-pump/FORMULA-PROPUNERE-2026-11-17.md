@@ -69,3 +69,4 @@ Niciunul dintre ingredientele de mai sus nu e stimulent. Citrulina și glicerolu
 - Atenție la gramaj: porția are ~27 g (10 + 6 + 3 + 3 + 1,5 + 0,5 g active + ~1,7 g săruri de electroliți + arome/acid/îndulcitor) → **500 g ≈ 18 porții**. Pentru 20+ porții trebuie fie 540–560 g, fie mai puțină dextrină.
 - Rămâne deschisă doar arginina (recomandat: fără; în machetă nu e pusă).
 - Macheta (flacon alb, forma EAA/NitroX 3D, etichetă albă, logo în degrade roșu → roz deschis): `macheta/macheta-flacoane.png` (ambele arome) și `macheta/eticheta-desfasurata-pink-lemonade.png` (laterale RO + față + tabel). Se reface cu `node macheta/build-macheta.mjs`. E o simulare desenată (HTML/CSS randat cu Chrome), nu o randare 3D și nu e pentru tipar; textele de pe față sunt în engleză, ca la restul gamei.
+- **DECIS 17.11 (Marius):** rămâne 500 g / 18 porții (~27 g pe porție).

@@ -587,3 +587,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **17.11 – decizie Marius (Booty Pump v2):** fără beta-alanină; cu creatină monohidrată 3 g; citicolină 500 mg. Rămân deschise: arginina, doza de dextrină, aromele, gramajul.
 - **17.11 – decizie Marius:** Booty Pump fără L-leucină (alternativa: pachet cu whey/EAA).
 - **17.11 – decizii Marius (Booty Pump):** dextrină ciclică 10 g; cu electroliți; arome Pink Lemonade și fructe de pădure; 500 g. Ambalaj: flacon alb de forma EAA/NitroX 3D, etichetă albă, logo Prime în degrade de la roșu la roz deschis, nuanțe de roz. Mai e deschisă doar arginina.
+- **17.11 – decizie Marius:** Booty Pump rămâne 500 g / 18 porții.

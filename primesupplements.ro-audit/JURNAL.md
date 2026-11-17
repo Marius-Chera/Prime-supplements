@@ -1652,3 +1652,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 17.11: **Booty Pump v2** (decizia lui Marius): beta-alanina scoasă, creatină monohidrată 3 g adăugată, citicolina mărită la 500 mg (limita zilnică UE → „maximum 1 porție pe zi” pe etichetă). Formula: dextrină ciclică 10 g, L-citrulină 6 g, creatină 3 g, glicerol 65 % 3 g, taurină 1,5 g, citicolină 500 mg, electroliți.
 - 17.11: Booty Pump – decis fără L-leucină (trecut în formulă și în istoric).
 - 17.11: **Booty Pump – decizii + machetă:** dextrină 10 g, electroliți da, arome Pink Lemonade și Forest Fruits, 500 g (≈18 porții la ~27 g). Machetă desenată (flacon alb ca EAA/NitroX 3D, etichetă albă, logo Prime în degrade roșu → roz): `produse-noi/booty-pump/macheta/` (2 PNG + `build-macheta.mjs`).
+- 17.11: Booty Pump – confirmat 500 g / 18 porții.

@@ -1649,3 +1649,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 
 ## 17.11.2026 – Produs nou „Booty Pump” (pre-workout pentru femei, fără stimulente): propunere de formulă
 - La cererea lui Marius (pump, fără agitație/puls, puține ingrediente): `produse-noi/booty-pump/FORMULA-PROPUNERE-2026-11-17.md`. Formula v1 cu 7 active: dextrină ciclică 10 g, L-citrulină 6 g, glicerol pulbere 65 % 3 g, taurină 1,5 g, beta-alanină 0,8 g, citicolină 250 mg, electroliți (Na ~300 mg, K ~200 mg). Recomandat: fără arginină, fără niacină, fără creatină, glicerol 65 % în loc de monostearat. Nimic trimis la fabrică; așteaptă deciziile lui Marius.
+- 17.11: **Booty Pump v2** (decizia lui Marius): beta-alanina scoasă, creatină monohidrată 3 g adăugată, citicolina mărită la 500 mg (limita zilnică UE → „maximum 1 porție pe zi” pe etichetă). Formula: dextrină ciclică 10 g, L-citrulină 6 g, creatină 3 g, glicerol 65 % 3 g, taurină 1,5 g, citicolină 500 mg, electroliți.

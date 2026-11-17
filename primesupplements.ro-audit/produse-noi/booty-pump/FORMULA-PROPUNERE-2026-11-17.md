@@ -1,4 +1,6 @@
-# Booty Pump – propunere de formulă (v1, 17.11.2026)
+# Booty Pump – propunere de formulă (v2, 17.11.2026)
+
+**v2 (17.11.2026, decizia lui Marius):** beta-alanina scoasă, creatină monohidrată 3 g adăugată, citicolina mărită la 500 mg. Vezi „Formula rezultată”. Tabelele de mai jos păstrează raționamentul din v1.
 
 Produs nou cerut de Marius: pre-workout pentru femei, axat pe pump, **fără stimulente** (să nu agite, să nu crească pulsul), cu puține ingrediente (nu ca NitroX sau Combat Pro). Status: **propunere, nimic decis**. Nimic din acest fișier nu e încă text de etichetă sau de marketing.
 
@@ -22,24 +24,25 @@ Verificat înainte: în repo nu exista nicio discuție despre „Booty Pump” s
 | Electroliți: sodiu + potasiu (citrat de sodiu/sare + citrat de potasiu) | ~300 mg sodiu + ~200 mg potasiu | Glicerolul ține apă în mușchi mult mai bine cu sodiu; pump mai plin, fără efect asupra pulsului. Ieftin. |
 | Taurină | 1,5 g | volum celular, rezistență; nu e stimulent (o avem deja în Combat Pro). |
 
-**Opțional, de decis de Marius:** creatină monohidrată 3 g (forță pe picioare/fesieri, volum în mușchi). Contra: multe femei se tem de „balonare/retenție”, iar glicerolul adaugă deja apă. Recomandarea mea: fără creatină în Booty Pump (Prime are creatină separat; se poate face pachet).
+**Creatină monohidrată 3 g – DECIS de Marius (v2):** forță pe picioare/fesieri, volum în mușchi; 3 g e doza zilnică de întreținere, deci are efect real dacă produsul se ia zilnic (inclusiv în zilele fără antrenament – de pus în modul de administrare). Mențiune UE autorizată (la 3 g/zi, împreună cu antrenament de rezistență): „crește performanța fizică în exerciții scurte, de mare intensitate, repetate”. Recomandare v1 (fără creatină) înlocuită.
 
 ## Ce NU punem (ca să rămână calm)
+- Beta-alanină – scoasă în v2 (decizia lui Marius): la doza fără furnicături nu avea efect real.
 - Cafeină, sinefrină, yohimbină, teacrină, teobromină – stimulente.
 - Niacină (acid nicotinic, ca în NitroX/Combat) – dă înroșire și furnicături, se simte ca „agitație”.
 - EnXtra® (Alpinia galanga) – nu e stimulent, dar e făcut să prelungească efectul cafeinei; fără cafeină nu are rost.
 - Betaină anhidră la doza clasică (2,5 g) – în UE e novel food autorizat doar la doze mici în suplimente (~400 mg/zi), unde nu are efect. De confirmat cu fabrica dacă vrem s-o folosim.
 
-## Formula rezultată (7 active)
+## Formula rezultată – v2 (7 active)
 
-Porție estimativă ~24 g, cu 300–400 ml apă, 20–30 min înainte de antrenament:
+Porție estimativă ~26 g, cu 300–400 ml apă, 20–30 min înainte de antrenament:
 
 1. Dextrină ciclică 10 g
 2. L-citrulină 6 g
-3. Glicerol pulbere 65 % 3 g
-4. Taurină 1,5 g
-5. Beta-alanină 0,8 g
-6. Citicolină 250 mg
+3. Creatină monohidrată 3 g
+4. Glicerol pulbere 65 % 3 g
+5. Taurină 1,5 g
+6. Citicolină 500 mg (v2, decizia lui Marius; e exact limita zilnică UE de novel food → eticheta spune obligatoriu „maximum 1 porție pe zi”; fabrica confirmă dacă 500 mg într-o singură porție e acceptat la notificare)
 7. Electroliți (Na ~300 mg, K ~200 mg)
 + arome, acidifiant, îndulcitori, colorant
 
@@ -55,7 +58,7 @@ Niciunul dintre ingredientele de mai sus nu e stimulent. Citrulina și glicerolu
 ## De decis de Marius
 1. Arginina: scoasă (recomandat) sau 1 g?
 2. Dextrina: 10 g (standard) sau 5 g (lite, mai puține calorii)?
-3. Creatină: nu (recomandat) sau 3 g?
+3. ~~Creatină~~ – DECIS 17.11: 3 g; beta-alanina scoasă; citicolină 500 mg.
 4. Arome (ex. pink lemonade, fructe de pădure, pepene).
 5. Gramaj: 30 de porții (~720 g)?
 6. Apoi: cerere de ofertă la fabrică cu formula finală.

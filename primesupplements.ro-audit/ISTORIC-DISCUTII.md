@@ -584,3 +584,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 ## 17.11.2026 – Produs nou „Booty Pump”
 - Marius vrea un pre-workout pentru femei numit „Booty Pump”: pump, fără stimulente (să nu agite și să nu crească pulsul), puține ingrediente (nu ca NitroX sau Combat Pro). Ingredientele lui de pornire: glicerol, dextrină ciclică, L-citrulină, L-arginină, beta-alanină în doză mică, citicolină.
 - Propunerea Claude (v1) e în `produse-noi/booty-pump/FORMULA-PROPUNERE-2026-11-17.md`. Încă nimic decis: arginina, doza de dextrină, creatina, aromele și gramajul rămân la Marius.
+- **17.11 – decizie Marius (Booty Pump v2):** fără beta-alanină; cu creatină monohidrată 3 g; citicolină 500 mg. Rămân deschise: arginina, doza de dextrină, aromele, gramajul.

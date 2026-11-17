@@ -156,4 +156,4 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
       - propoziția despre confirmarea pe WhatsApp în pagina de comandă/coș + WhatsApp (Meta) în politica de confidențialitate (cerința Meta de acord);
       - colega să lucreze din web.whatsapp.com dacă folosește WhatsApp pentru Windows (nesuportat în coexistence).
 
-- **Booty Pump (produs nou, 17.11):** Marius decide asupra formulei v1 (`produse-noi/booty-pump/FORMULA-PROPUNERE-2026-11-17.md`: arginină da/nu, dextrină 10/5 g, creatină da/nu, arome, gramaj), apoi cerere de ofertă la fabrică.
+- **Booty Pump (produs nou, 17.11):** Marius decide asupra formulei v1 (`produse-noi/booty-pump/FORMULA-PROPUNERE-2026-11-17.md`, v2: creatină 3 g, citicolină 500 mg, fără beta-alanină – decise; rămân arginină da/nu, dextrină 10/5 g, arome, gramaj), apoi cerere de ofertă la fabrică.

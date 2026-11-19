@@ -33,8 +33,10 @@ Verificare: 81,5 g de proteine la 100 g (aroma Bourbon Vanilla, de pe tub); cele
 
 **Text principal:**
 > Prime Whey: 81 % proteină, mai mult decât un whey concentrat obișnuit 💪
-> Aproximativ 24 g de proteine în fiecare porție de 30 g. Proteinele contribuie la creșterea masei musculare.
-> Tub de 2 kg cu 66 de porții, adică aproximativ 5,9 lei pe porție. 7 arome, de la Salted Caramel la White Chocolate Raspberry.
+> Într-o porție de 30 g ai aproximativ 24 g de proteine din concentrat de zer și în jur de 120 kcal. Proteinele contribuie la creșterea masei musculare și la menținerea masei musculare.
+> Se amestecă ușor în shaker, cu apă sau lapte. Îl bei după antrenament, la micul dejun sau ca gustare între mese.
+> 7 arome cu gust de desert: Salted Caramel, Bourbon Vanilla, Strawberry Cheesecake, Toffee Chocolate, Chocolate Coconut, White Chocolate Raspberry și Blueberry Vanilla.
+> Tubul de 2 kg are 66 de porții, adică aproximativ 5,9 lei pe porție. Alege-ți aroma 👇
 
 **Titlu:** Prime Whey 2 kg – 81 % proteină
 **Descriere:** 66 de porții · 390 lei
@@ -48,10 +50,11 @@ Verificare: 81,5 g de proteine la 100 g (aroma Bourbon Vanilla, de pe tub); cele
 **Poză:** `3-creatina-bucatarie.jpg` (deocamdată una singură; celelalte variante aveau greșeli mici pe etichetă).
 
 **Text principal:**
-> Creatină Creapure® – creatina monohidrat produsă în Germania, considerată standardul de puritate.
-> Un singur ingredient, fără adaosuri. 3 g pe zi.
+> Creatină Creapure® – creatina monohidrat produsă în Germania, recunoscută pentru puritatea ei 🇩🇪
+> Un singur ingredient: creatină monohidrat Creapure®. Fără arome, fără îndulcitori, fără alte adaosuri.
 > Creatina crește performanța fizică în cazul unor exerciții succesive, de scurtă durată și de intensitate ridicată. Efectul benefic se obține la un aport zilnic de 3 g.
-> 300 g = 60 de porții, 115 lei.
+> O iei zilnic, la orice oră: o amesteci în apă, în suc sau direct în shake-ul de proteine.
+> Tubul de 300 g are 60 de porții și costă 115 lei. Există și varianta de 500 g, cu 100 de porții 👇
 
 **Titlu:** Creatină Creapure® – 100 % monohidrat
 **Descriere:** 60 de porții · 115 lei

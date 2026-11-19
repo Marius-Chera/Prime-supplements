@@ -42,5 +42,5 @@ Verificat de Claude pe 19.11 (doar citire):
 
 ### Ce trebuie făcut
 1. ~~**Ștergerea webhook-ului**~~ **făcută 19.11, 12:58** de Claude, cu „da”-ul lui Marius; lista de webhook-uri e acum goală.
-2. **Regenerarea cheii API Oblio** (Oblio → Setări → Date cont → API), ca serverul KEMO să nu mai poată emite nimic; apoi cheia nouă se pune în Total Admin → Setări → Oblio. (Era deja în plan: „la final chei Oblio/Cargus regenerate”.)
+2. ~~**Regenerarea cheii API Oblio**~~ **făcută 19.11, 15:02** (Marius; cheia nouă salvată și verificată în Total Admin). (Oblio → Setări → Date cont → API), ca serverul KEMO să nu mai poată emite nimic; apoi cheia nouă se pune în Total Admin → Setări → Oblio. (Era deja în plan: „la final chei Oblio/Cargus regenerate”.)
 3. Abia apoi curățenia dublurilor din 17–19.11 în Oblio (anulare/stornare, decizie Marius + contabila).

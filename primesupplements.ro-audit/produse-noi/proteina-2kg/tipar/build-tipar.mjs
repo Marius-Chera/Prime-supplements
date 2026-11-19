@@ -14,15 +14,16 @@ const PAGE_W = TRIM_W + 2 * MARGIN, PAGE_H = TRIM_H + 2 * MARGIN;
 const PXMM = 560 / 105; // aceeasi scara de design ca la Booty Pump (12 px ≈ 6,4 pt)
 const DH = TRIM_H * PXMM, DW = TRIM_W * PXMM, FRONT_W = 900, SIDE_W = (DW - FRONT_W) / 2, BL = BLEED * PXMM;
 const K = (TRIM_W * 96 / 25.4) / DW;
+const BAND_H = 175; // banda colorata de jos (~33 mm)
 
 const RED = '#ec1e24', INK = '#1d1d1d';
 const PRODUCT = 'COMPLETE PROTEIN'; // numele produsului (Marius, 19.11.2026)
 const SERV_G = 30, SERVINGS = Math.floor(2000 / SERV_G); // portie presupusa 30 g -> 66 portii
 const FLAVOURS = [
-  { slug: 'chocolate-cake', a: 'CHOCOLATE', b: 'CAKE', c1: '#4a2717', c2: '#8a5a3b', ro: 'tort de ciocolată', en: 'chocolate cake', ean: '400202640001' },
-  { slug: 'caffe-latte-macchiato', a: 'CAFFE LATTE', b: 'MACCHIATO', c1: '#5b3a24', c2: '#b0814f', ro: 'caffe latte macchiato', en: 'caffe latte macchiato', ean: '400202640002' },
-  { slug: 'vanilla-cereal-milkshake', a: 'VANILLA CEREAL', b: 'MILKSHAKE', c1: '#c98a1b', c2: '#e3b75a', ro: 'milkshake de vanilie cu cereale', en: 'vanilla cereal milkshake', ean: '400202640003' },
-  { slug: 'forest-fruits-cake', a: 'FOREST FRUITS', b: 'CAKE', c1: '#8e1846', c2: '#c4486f', ro: 'tort cu fructe de pădure', en: 'forest fruits cake', ean: '400202640004' },
+  { slug: 'chocolate-cake', a: 'CHOCOLATE', b: 'CAKE', c1: '#4a2717', c2: '#8a5a3b', band: ['#3b1f12', '#7a4a2e'], ro: 'tort de ciocolată', en: 'chocolate cake', ean: '400202640001' },
+  { slug: 'caffe-latte-macchiato', a: 'CAFFE LATTE', b: 'MACCHIATO', c1: '#5b3a24', c2: '#b0814f', band: ['#5b3a24', '#a9784a'], ro: 'caffe latte macchiato', en: 'caffe latte macchiato', ean: '400202640002' },
+  { slug: 'vanilla-cereal-milkshake', a: 'VANILLA CEREAL', b: 'MILKSHAKE', c1: '#c98a1b', c2: '#e3b75a', band: ['#c27d12', '#e2b04c'], ro: 'milkshake de vanilie cu cereale', en: 'vanilla cereal milkshake', ean: '400202640003' },
+  { slug: 'forest-fruits-cake', a: 'FOREST FRUITS', b: 'CAKE', c1: '#8e1846', c2: '#c4486f', band: ['#7e1240', '#c4486f'], ro: 'tort cu fructe de pădure', en: 'forest fruits cake', ean: '400202640004' },
 ];
 
 // ---- EAN-13 intern Prime (seria 400..., blocul 4002026 4000x) ----
@@ -70,7 +71,7 @@ const doodles = `<svg class="doodle" viewBox="0 0 900 907" fill="none" stroke="#
 </svg>`;
 
 const html = (f) => `<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Permanent+Marker&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Anton&display=swap" rel="stylesheet">
 <style>
 @page{size:${PAGE_W}mm ${PAGE_H}mm;margin:0}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -80,20 +81,24 @@ body{font-family:Poppins,Arial,sans-serif;color:${INK};position:relative;overflo
 .slug{position:absolute;left:${MARGIN + 12}mm;bottom:2.5mm;font-size:6pt;color:#000;font-family:Arial,sans-serif}
 .trim{position:absolute;left:${MARGIN}mm;top:${MARGIN}mm;width:${TRIM_W}mm;height:${TRIM_H}mm}
 .scaler{position:absolute;left:0;top:0;width:${DW}px;height:${DH}px;zoom:${K}}
-.bleedbg{position:absolute;left:${-BL}px;top:${-BL}px;right:${-BL}px;bottom:${-BL}px;background:#fff}
+.bleedbg{position:absolute;left:${-BL}px;top:${-BL}px;right:${-BL}px;bottom:${-BL}px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='42' height='72.75' viewBox='0 0 42 72.75'%3E%3Cpath d='M21 0l21 12.12v24.25L21 48.5 0 36.37V12.12zM21 72.75V48.5' fill='none' stroke='%23000' stroke-opacity='.06' stroke-width='1.4'/%3E%3C/svg%3E")}
+.band{position:absolute;left:${-BL}px;right:${-BL}px;bottom:${-BL}px;height:${BAND_H + BL}px;background:linear-gradient(100deg,${f.band[0]},${f.band[1]})}
+.bandside{position:absolute;bottom:0;height:${BAND_H}px;display:flex;align-items:center;color:#fff;font-weight:600;font-size:15px;padding:0 50px}
+.bandside .ico{fill:#fff}
 
-.side{position:absolute;top:0;width:${SIDE_W}px;height:${DH}px;padding:44px 50px 0;font-size:15.5px;line-height:1.38}
+.side{position:absolute;top:0;width:${SIDE_W}px;height:${DH}px;padding:40px 50px 0;font-size:14px;line-height:1.34}
 .side.l{left:0}.side.r{left:${SIDE_W + FRONT_W}px}
 .side .ttl{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:14px}
-.side .ttl .mk{font-family:'Permanent Marker',cursive;font-size:64px;line-height:.9}
+.side .ttl .mk{font-family:Anton,sans-serif;font-size:54px;line-height:.95;transform:skewX(-8deg);transform-origin:left bottom;color:#3a3a3a}
+.side .ttl .mk i{font-style:normal;background:linear-gradient(100deg,${f.c1},${f.c2});-webkit-background-clip:text;background-clip:text;color:transparent}
 .side .ttl .nm{font-weight:900;font-size:22px;letter-spacing:1px;margin-top:4px}
-.side h4{font-size:16.5px;font-weight:800;letter-spacing:.5px;margin:8px 0 2px;color:${RED}}
+.side h4{font-size:15px;font-weight:800;letter-spacing:.5px;margin:7px 0 2px;color:${f.c1}}
 .side p{margin:0 0 3px}
 .side b{font-weight:700}
 .side hr{border:0;border-top:1.5px solid ${INK};margin:10px 0}
-table{width:100%;border-collapse:collapse;font-size:15.5px;line-height:1.25}
+table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.25}
 td,th{padding:3px 4px;border-bottom:1px solid #ddd;text-align:left}
-th{font-weight:800;color:#fff;background:${INK}}
+th{font-weight:800;color:#fff;background:linear-gradient(100deg,${f.band[0]},${f.band[1]})}
 td:nth-child(n+2),th:nth-child(n+2){text-align:right;white-space:nowrap;width:90px}
 .ph{color:#999}
 .addr{display:flex;gap:8px;align-items:flex-start;margin-top:4px}
@@ -107,21 +112,23 @@ td:nth-child(n+2),th:nth-child(n+2){text-align:right;white-space:nowrap;width:90
 .cert div{width:50px;height:50px;border:1.5px solid ${INK};border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;text-align:center;line-height:1}
 .bc{flex:none;background:#fff;padding:4px 6px}
 
-.front{position:absolute;left:${SIDE_W}px;top:0;width:${FRONT_W}px;height:${DH}px;overflow:visible;clip-path:inset(${-BL}px 0 ${-BL}px 0)}
-.front .logo{position:absolute;left:0;right:0;top:46px;display:flex;justify-content:center}
-.front .brush{position:absolute;left:0;right:0;top:118px;text-align:center;font-family:'Permanent Marker',cursive;font-size:205px;line-height:1;letter-spacing:4px;color:${INK}}
-.front .food{position:absolute;left:120px;top:225px;width:560px;height:445px;object-fit:contain;mix-blend-mode:multiply}
-.front .doodle{position:absolute;left:0;top:0;width:900px;height:907px}
-.front .name{position:absolute;left:80px;width:580px;top:680px;text-align:center;font-weight:900;font-size:52px;letter-spacing:.5px;line-height:1}
-.front .flav{position:absolute;left:80px;width:580px;top:746px;text-align:center;font-size:30px;letter-spacing:1px;line-height:1}
-.front .flav b{font-weight:800}.front .flav span{font-weight:400}
-.front .net{position:absolute;left:44px;top:770px;transform:rotate(-90deg);transform-origin:left top;font-size:46px;font-weight:300;white-space:nowrap;line-height:1}
-.front .feats{position:absolute;left:682px;top:560px;display:flex;flex-direction:column;gap:12px;font-family:Caveat,cursive;font-weight:700;font-size:28px;line-height:.95}
-.front .feats div{display:flex;align-items:center;gap:8px}
-.front .feats svg{width:38px;height:38px;flex:none}
-.front .serv{position:absolute;left:190px;bottom:${-BL}px;width:360px;height:${120 + BL}px;background:${INK};clip-path:polygon(18% 0,82% 0,100% 100%,0 100%);color:#fff;text-align:center;padding-top:10px}
-.front .serv b{display:block;font-size:62px;font-weight:800;line-height:1}
-.front .serv span{font-size:16px;letter-spacing:2px;font-weight:500}
+.front{position:absolute;left:${SIDE_W}px;top:0;width:${FRONT_W}px;height:${DH}px}
+.front .logo{position:absolute;left:58px;top:58px}
+.front .big{position:absolute;left:46px;font-family:Anton,sans-serif;line-height:.92;transform:skewX(-8deg);transform-origin:left bottom;z-index:3;letter-spacing:1px}
+.front .w1{top:150px;font-size:178px;background:linear-gradient(180deg,#5a5a5a,#2a2a2a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.front .w2{top:318px;font-size:190px;background:linear-gradient(100deg,${f.c1},${f.c2});-webkit-background-clip:text;background-clip:text;color:transparent}
+.front .flavtag{position:absolute;left:52px;top:520px;font-weight:800;font-size:34px;letter-spacing:1.5px;transform:skewX(-8deg);z-index:3}
+.front .flavtag span{display:inline-block;color:#fff;padding:6px 16px;background:linear-gradient(100deg,${f.band[0]},${f.band[1]})}
+.front .flavtag small{display:block;font-size:15px;font-weight:600;letter-spacing:3px;color:#777;margin-top:6px}
+.front .food{position:absolute;left:520px;top:140px;width:430px;height:585px;object-fit:contain;object-position:center bottom;mix-blend-mode:multiply;z-index:2}
+.front .bandc{position:absolute;left:0;right:0;bottom:0;height:${BAND_H}px;color:#fff;z-index:4;padding:22px 46px 0}
+.front .bul{display:flex;flex-direction:column;gap:6px;font-family:Anton,sans-serif;font-size:31px;letter-spacing:1px;line-height:1}
+.front .bul div{display:flex;align-items:center;gap:12px}
+.front .bul svg{width:30px;height:30px;flex:none}
+.front .kg{position:absolute;right:46px;top:20px;text-align:right;font-family:Anton,sans-serif;line-height:1;letter-spacing:1px}
+.front .kg .t{font-size:30px}.front .kg .t2{font-size:30px;color:transparent;-webkit-text-stroke:1.4px #fff}
+.front .kg .n{font-size:62px}
+.front .small{position:absolute;left:46px;bottom:14px;font-size:12.5px;font-weight:600;letter-spacing:.5px;opacity:.95}
 </style></head><body>
 ${cropMarks()}
 <div class="slug">PRIME ${PRODUCT} 2000 g · ${f.a} ${f.b} · etichetă ${TRIM_W} × ${TRIM_H} mm (după Prime Whey 2 kg) + bleed ${BLEED} mm · SIMULARE fără fișă tehnică (porție presupusă ${SERV_G} g) · RGB · bilingv RO/EN</div>
@@ -129,7 +136,7 @@ ${cropMarks()}
   <div class="bleedbg"></div>
 
   <div class="side l">
-    <div class="ttl"><div><div class="mk">PRIME</div><div class="nm">${PRODUCT}</div></div>${logo('l', 190)}</div>
+    <div class="ttl"><div><div class="mk">COMPLETE <i>PROTEIN</i></div></div>${logo('l', 190)}</div>
     <h4>(RO) PRIME ${PRODUCT} – ${f.a} ${f.b}</h4>
     <p><b>Supliment alimentar pentru adulți, sub formă de pulbere, cu proteine.</b> Cu arome și îndulcitor. Aromă: ${f.ro}.</p>
     <p><b>Mod de administrare:</b> se amestecă ${SERV_G} g (aproximativ 1 măsură) cu 250–300 ml de apă sau lapte. Se recomandă 1–2 porții pe zi, după antrenament sau între mese.</p>
@@ -145,21 +152,25 @@ ${cropMarks()}
     <div class="foot"><div style="font-size:12.5px">Fabricat în UE în unitate certificată ISO și HACCP /<br>Made in the EU in an ISO and HACCP certified facility.</div><div class="cert"><div>ISO<br>9001</div><div>HACCP</div></div></div>
   </div>
 
+  <div class="band"></div>
+  <div class="bandside" style="left:0;width:${SIDE_W}px"><svg class="ico" viewBox="0 0 24 24" style="margin-right:8px"><circle cx="12" cy="12" r="10" fill="none" stroke="#fff" stroke-width="2"/><ellipse cx="12" cy="12" rx="4" ry="10" fill="none" stroke="#fff" stroke-width="2"/><path d="M2 12h20M4 7h16M4 17h16" stroke="#fff" stroke-width="1.6"/></svg>www.primesupplements.ro</div>
+  <div class="bandside" style="left:${SIDE_W + FRONT_W}px;width:${SIDE_W}px;justify-content:flex-end;font-family:Anton,sans-serif;font-size:30px;letter-spacing:1px">PRIME · HARDCORE SPORTS NUTRITION</div>
+
   <div class="front">
-    <div class="logo">${logo('f', 200)}</div>
-    <div class="brush">PRIME</div>
+    <div class="logo">${logo('f', 210)}</div>
+    <div class="big w1">COMPLETE</div>
+    <div class="big w2">PROTEIN</div>
+    <div class="flavtag"><span>${f.a} ${f.b}</span><small>FLAVOUR</small></div>
     <img class="food" src="../poze/${f.slug}.png" alt="">
-    ${doodles}
-    <div class="net">Net WT 2000 g</div>
-    <div class="name">${PRODUCT}</div>
-    <div class="flav"><b style="color:${f.c1}">${f.a}</b> <span style="color:${f.c2}">${f.b}</span></div>
-    <div class="feats">
-      <div>${IC.protein}Rich in<br>protein</div>
-      <div>${IC.timer}Mixes in<br>seconds</div>
-      <div>${IC.cream}Smooth, creamy<br>taste</div>
-      <div>${IC.muscle}For muscle<br>growth*</div>
+    <div class="bandc">
+      <div class="bul">
+        <div><svg viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M9 15.5l4 4 8-9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>HIGH PROTEIN</div>
+        <div><svg viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M8 17h14l-2 5H10zM11 13c0-3 2-5 4-5s4 2 4 5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>${SERVINGS} SERVINGS</div>
+        <div><svg viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M8 21c1-5 3-8 6-9l1-3 3 1-1 3 3 2c3 1 4 3 3 6-2 1-5 1-7 0z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>MUSCLE GROWTH*</div>
+      </div>
+      <div class="kg"><div class="t">WHEY</div><div class="t2">PROTEIN</div><div class="n">2KG <span style="font-family:Arial;font-size:44px">℮</span></div></div>
+      <div class="small">POWDERED FOOD SUPPLEMENT WITH FLAVOURINGS AND SWEETENER.</div>
     </div>
-    <div class="serv"><b>${SERVINGS}</b><span>SERVINGS</span></div>
   </div>
 
   <div class="side r">

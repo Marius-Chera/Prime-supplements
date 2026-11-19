@@ -54,7 +54,7 @@ Surse:
   - campaniile active cu cost, comenzi reale și cost pe comandă.
 - Un endpoint doar de citire, cu cheie, pentru Claude: analizele lunare se fac direct din aplicație, iar **Windsor nu mai e necesar** (trialul expiră pe ~19.12.2026).
 
-### Etapa 2 – v0.2, control
+### Etapa 2 – v0.2, control (FĂCUTĂ 19.11, commit 6c60203 în `reclame-prime`; prima modificare reală doar cu „da”)
 - Butoane pentru oprit/pornit campanie, grup și reclamă, și pentru schimbat bugetul.
 - Fiecare acțiune cere confirmare și se scrie într-un jurnal de modificări (cine, ce, când, valoarea dinainte).
 - Paza din cod (ca `guard.ts`): sunt permise doar operațiile din listă, iar un buget care ar depăși plafonul lunar (regula Meta 3.000 lei) e refuzat.

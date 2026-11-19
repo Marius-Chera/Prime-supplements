@@ -1715,3 +1715,22 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.11 (12:58): **Webhook-ul KEMO șters** din Shopify → Setări → Notificări → Webhooks (cu „da”-ul lui Marius: „Da, șterge-l”). Shopify a confirmat „Removed webhook subscription”; după reîncărcare lista e goală. De acum nu mai pleacă nicio comandă expediată spre serverul KEMO. Rămân: regenerarea cheii API Oblio (Marius) + cheia nouă în Total Admin, apoi curățenia dublurilor din 17–19.11.
 - 19.11 (15:02): **Cheia API Oblio regenerată** de Marius (Oblio → Setări → Date Cont → Regenerează) și pusă de el în Total Admin → Setări → Oblio. Verificat de Claude în baza Total Admin: salvarea a trecut de verificarea în Oblio (firma, seriile, gestiunile citite cu cheia nouă), iar cheia salvată se termină acum altfel decât cea veche. Cheia veche, pe care o mai avea serverul KEMO, nu mai e valabilă. Doar Total Admin folosește cheia Oblio (Prime eMAG ia stocul prin Total Admin). Rămâne curățenia dublurilor din 17–19.11.
 - 19.11: **Facturile duble 16–19.11, situația în Oblio** (doar citire, raportul de facturi): 13 perechi din 17.11 erau deja rezolvate prin anularea facturii Total Admin (a rămas cea KEMO, trimisă în SPV); rămân 27 de perechi dublate: 17 cu ambele facturi în SPV (doar stornare) și 10 netrimise (anulare). PRS 17028 (13:10, după ștergerea webhook-ului) nu mai are dublură. Lista în `livrare/FACTURI-DUBLE-2026-11-17.md`.
+- 19.11: **Reclame Prime v0.2 – control cu confirmare** (repo `reclame-prime`, commit 6c60203, urcat pe Cloudflare, /health = 0.2).
+  - **Tab-ul „Campanii”:**
+    - butoane Pornește / Oprește pe campanii și pe grupuri (ad set-uri Meta, grupuri ChatGPT);
+    - butonul „Buget” (zilnic; total la ChatGPT, unde campania are buget total);
+    - grupurile Google se văd, dar se schimbă din Google Ads.
+  - **Starea afișată e cea reală:** aplicația citește acum și ad set-urile / grupurile (Meta 33, Google 1, ChatGPT 5). Campania pornită care are toate grupurile oprite apare „activ · grupuri oprite”. La prima citire, cele 3 campanii [NOU] au bugetul pe campanie (40/32/24 lei/zi) și ad set-urile pornite.
+  - **Confirmarea:** înainte de modificare, valoarea se citește proaspăt din platformă. Fereastra arată înainte → după și proiecția lunii față de plafon; abia apoi apare „Da, confirm”.
+  - **Plafonul Meta de 3.000 lei/lună e verificat pe server:** o pornire sau un buget care ar duce luna peste plafon e refuzat (409), chiar dacă cererea ocolește interfața. Opririle și scăderile trec mereu. Google și ChatGPT nu au plafon (CAP 0).
+  - **Paza** permite explicit doar: starea / bugetul zilnic la Meta; starea campaniei și suma bugetului la Google; pause/activate și bugetul campaniei la OpenAI. Orice altceva (creare, ștergere, arhivare, alte câmpuri) e blocat.
+  - **Tab-ul „Jurnal”** (tabela change_log): cine, ce, când, înainte/după și rezultatul, inclusiv refuzurile și erorile.
+  - **Verificare:**
+    - 48 de teste trec, typecheck curat;
+    - local, în modul de simulare (doar baza locală, nimic trimis la platforme): 200 lei/zi pe un ad set → refuzat de plafon (și direct pe server, 409); 50 lei/zi → confirmat și trecut în Jurnal;
+    - pe Cloudflare, cererile de control fără sesiune Shopify primesc 401.
+  - **Nicio campanie reală nu a fost modificată.** Prima modificare din aplicație se face doar cu „da” de la Marius.
+- 19.11: Răspunsuri pentru Marius:
+  - **Pixelul OpenAI e legat din 16.11.** Zero comenzi la ChatGPT Ads înseamnă că nu a venit nicio comandă din ChatGPT: nici Shopify nu vede vreuna cu sursa ChatGPT de pe 16.11 încoace.
+  - **Secretul vechi Google ****W6DK:** Google Cloud → APIs & Services → Credentials → „Reclame Prime Worker” → Client secrets → întâi Disable, apoi Delete.
+  - **Accesul depozitului în Reclame Prime** îl rezolvă Marius.

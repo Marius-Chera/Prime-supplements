@@ -70,3 +70,29 @@ Verificare: 81,5 g de proteine la 100 g (aroma Bourbon Vanilla, de pe tub); cele
 1. **Excluderile (publicul cald).** Windsor nu poate crea audiențe. Le face Marius sau Adelina în Ads Manager → Audiences (text pentru extensie, mai jos). După aceea le citesc ID-urile și le pun pe ad set-uri.
 2. **Limita lunară pe cont** (Billing → Account spending limit), ca plasă de siguranță.
 3. **Aprobarea textelor și a pozelor** de către Marius. Apoi creez campaniile în stare oprită și le pornesc doar după „da”.
+
+---
+
+## Creat în cont pe 19.11.2026 (toate OPRITE, nu cheltuie)
+
+Pagina Facebook 108704658683324, pixel 593997668868274 (Purchase). Bugetul e pe campanie (CBO). Optimizare: conversii Purchase. România. Advantage+ audience oprit. DSA: Prime Sport Supplements SRL. Pozele sunt trimise prin linkurile originale OpenArt (2K). UTM-urile sunt scrise direct în link: `utm_source=facebook&utm_medium=paid_social&utm_campaign=nou-…&utm_content=…`.
+
+| Campanie | ID | Buget/zi | Ad set (ID) | Reclame |
+|---|---|---|---|---|
+| [NOU] 1 Crema de orez – public nou | 120251693915070615 | 40 lei | RO 18-55 (120251693918550615) | tort A 120251693923840615, tort B 120251693927200615, cocos A 120251693928820615, cocos B 120251693940860615 |
+| [NOU] 2 Prime Whey – public nou | 120251693916150615 | 32 lei | RO 18-45 (120251693920450615) | sală 120251693944180615, bucătărie 120251693949580615 |
+| [NOU] 3 Creatina Creapure – public nou | 120251693916420615 | 24 lei | RO 18-45 (120251693920980615) | bucătărie 120251693955310615 |
+
+Înainte de pornire: adăugăm excluderile în targeting (update_adset) după ce sunt create audiențele de mai jos. La pornire oprim și „Campanie crema de orez” (120248813906950615).
+
+## Text pentru extensie / Adelina – audiențele de excludere
+
+```
+În Meta Ads Manager, contul „Prime Supplements – Cont de publicitate” (1805310243181962), mergi la Audiences (Audiențe) → Create audience → Custom audience și creează 3 audiențe personalizate. Nu modifica nimic altceva în cont.
+
+1) Sursa: Website → pixelul 593997668868274 → „All website visitors” → retenție 180 de zile. Nume: „Excludere – vizitatori site 180z”.
+2) Sursa: Instagram account → contul Prime Supplements → „Everyone who engaged with this professional account” → retenție 365 de zile. Nume: „Excludere – interacțiuni Instagram 365z”.
+3) Sursa: Facebook Page → pagina Prime Supplements → „Everyone who engaged with your Page” → retenție 365 de zile. Nume: „Excludere – interacțiuni Facebook 365z”.
+
+La final, scrie-mi numele și ID-ul fiecărei audiențe (se văd în lista Audiences).
+```

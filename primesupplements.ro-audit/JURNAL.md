@@ -1780,3 +1780,13 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.11: **Marius:** „aplicația să gândească idei noi, cu cod generat, poze, tot ce trebuie; eu doar apăs accept și campania pornește”.
   - **Răspuns:** v0.4 face exact partea cu „un clic”. Claude pregătește propuneri complete, verificate de platforme, iar Marius apasă „Acceptă și pornește” (cu confirmare și plafon).
   - **Ideile și pozele** le generează Claude, nu Worker-ul: Worker-ul nu are AI, iar motorul din Strategie e pe reguli. Concret: Claude citește Strategia și datele, generează pozele (ambalajul real, decor generat, regulile din REGULI-META-ADS), le urcă în Shopify Files și trimite propunerile. Se poate face la cerere sau ca rutină săptămânală.
+- 19.11: **Reclame Prime – primele propuneri reale în tab-ul „Creare”** (cerute de Marius: „Da, pregătește-le”). Propunerile pornesc de la Strategie și Search Console:
+  - **De ce Google Search:** Meta [NOU] abia a pornit (7–14 zile de date întâi), iar creativele Meta sunt blocate până la accesul la pagină. ChatGPT: 645 lei, 0 comenzi. Google: ROAS real 1,75, iar Strategia taie PMax Volum (1,27) și PMax Marjă mare (0,35), eliberând ~92 lei/zi.
+  - **#4 Search – Creatină Creapure, 15 lei/zi:** „creatina creapure” e pe poziția organică 17,1, „creapure” pe 19,7.
+  - **#5 Search – Pudră proteică Prime Whey, 20 lei/zi:** un grup 2 kg (390 lei, peste pragul de livrare gratuită) și unul 1 kg; „pudra proteica” e pe poziția organică 22,5.
+  - **#6 Search – Cremă de orez (variante), 10 lei/zi:** fără „crema de orez” exact, unde suntem deja pe locul 1,6 organic. Doar „cream of rice”, „instant”, „proteica”, „pentru sala”, „faina de orez pregelatinizata”.
+  - **Setări comune:** licitare „maximizare valoare conversii” fără ROAS țintă la început (nu au încă date); doar Rețeaua de căutare, fără parteneri și fără Display.
+  - **Texte:** doar mențiuni de sănătate autorizate în UE; prețuri și link-uri verificate live pe site.
+  - **Verificare:** toate 3 au trecut verificarea Google (validateOnly), fără să creeze nimic. Specificațiile sunt în `reclame-prime/propuneri/2026-11-19-google-search.json`.
+  - **Recomandare:** acceptă întâi tăierile PMax din Strategie, ca totalul Google să scadă (190 → ~143 lei/zi cu cele 3 noi).
+  - **Fără poze:** anunțurile Search sunt doar text. Pozele vin la Meta, după accesul la pagină și primele date [NOU], și la PMax, dacă îl reluăm.

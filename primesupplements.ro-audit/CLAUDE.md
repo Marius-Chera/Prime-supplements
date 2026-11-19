@@ -27,3 +27,6 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 - Răspunsurile către proprietar sunt în română; textele pentru extensia Chrome se dau într-un bloc de cod (cu buton de copiere).
 - Orice îmbunătățire făcută se trece în JURNAL.md (pentru raportul lunar din ziua 2).
 - **Când ceva nu se poate face din aplicația de pe calculator** (de exemplu poze generate cu AI – cheia Gemini plătită pentru imagini există doar în mediul cloud „Prime supplements”; pe PC există din 13.11 doar cheia gratuită pentru text, vezi `gemini/README.md` –, orice are nevoie de chei sau unelte care lipsesc pe PC), spune-i proprietarului din prima și dă-i textul gata de lipit pentru browser (claude.ai / extensie), în loc să încerci ocolișuri care pierd timp. Regulă cerută de proprietar pe 23.10.2026.
+
+## Meta Ads (regulă cerută de proprietar pe 19.11.2026)
+- Maximum **3.000 lei/lună** cheltuiți pe Meta Ads. Produse, în ordine: **cremă de orez, Prime Whey, creatină**. Reclamele merg **doar la public nou** (fără vizitatori, cumpărători sau urmăritori), cu poze frumoase generate (ambalajul real, decorul generat). Detalii și împărțirea bugetului: `meta-ads/REGULI-META-ADS.md`. Orice pornire, oprire sau schimbare de buget se face doar cu „da”.

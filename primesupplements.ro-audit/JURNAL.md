@@ -1755,3 +1755,28 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.11 (13:33): **16 facturi duble KEMO stornate în Oblio** (cu „da”-ul lui Marius): stornările PRS 17030–17045, total −4.363,80 lei, pentru dublurile 16962, 16968, 16972, 16974, 16976, 16978, 16980, 16982, 16985, 16987, 16988, 16990, 16992, 16994, 16996, 17003. Fiecare verificată înainte (total exact, aceeași comandă ca factura Total Admin) și după (16/16 stornate, facturile Total Admin active, nicio ciornă). 16928/16929 sărită: factura Total Admin 16928 era deja stornată. Cu asta, toate dublurile din 16–19.11 sunt rezolvate în Oblio. Rămân: trimiterea stornărilor în SPV, anunțarea contabilei, mutarea încasărilor cu cardul pe facturile Total Admin la închiderea lunii, alinierea a 14 comenzi în Shopify. Detalii în `livrare/FACTURI-DUBLE-2026-11-17.md`.
 - 19.11 (13:41): **Facturi duble – alinierea comenzilor** (cu „da”-ul lui Marius): în Shopify cele 14 comenzi afectate (13 din 17.11 + Nr.10402) arătau deja factura valabilă, deci nu s-a schimbat nimic; în baza Total Admin (jobs) cele 14 rânduri au fost trecute de pe factura anulată/stornată pe cea valabilă (număr + link + notă în jurnalul comenzii), ca o reprocesare să nu mai scrie un număr greșit pe comandă. Acum fiecare comandă din 16–19.11 are o singură factură valabilă, aceeași în Oblio, Shopify și Total Admin.
 - 19.11: **Raport anulări + stornări facturi duble** pentru verificare (recitit din Oblio după toate operațiile): `livrare/RAPORT-ANULARI-STORNARI-2026-11-19.md` – 10 anulate (4.064,30 lei), 16 stornate (17030–17045, −4.363,80 lei, încă netrimise în SPV), 14 rezolvate dinainte de altcineva, 5 fără dublură.
+
+- 19.11: **Reclame Prime v0.4 – crearea de campanii din cod pe Meta, Google și ChatGPT, totul OPRIT** (repo `reclame-prime`, commit-uri a670d65 + 2ec0834, urcat pe Cloudflare, /health = 0.4, migrația D1 0004).
+  - **Cum merge:**
+    - Claude trimite o campanie completă (poze din Shopify Files, texte, public, buget) la `/claude/create/{meta|google|openai}`.
+    - Aplicația o verifică direct în platformă, fără să creeze nimic: Meta prin `validate_only`, Google prin `validateOnly` pe tot lotul (inclusiv pozele), OpenAI prin Bulk API cu `validate_only`.
+    - Propunerea apare în tab-ul nou **„Creare”**, cu previzualizare: poze, texte, public, buget și proiecția lunii dacă ar fi pornită.
+  - **Butonul „Acceptă și pornește”:**
+    - întâi creează campania OPRITĂ (campanie, grupuri și reclame toate PAUSED);
+    - apoi deschide confirmarea de pornire, cu campania citită din platformă și plafonul verificat pe server;
+    - la „Da, pornește” pornesc reclamele, grupurile și, la final, campania.
+    - „Respinge” doar ascunde propunerea. Pornirea nu se poate face din `/claude/*`, doar din aplicație.
+  - **Ce poate crea:**
+    - **Meta:** campanie de vânzări (pixel Purchase, DSA, excluderi, UTM `{{campaign.name}}`), poze (adimages), audiențe site / interacțiuni / lookalike. Listele de clienți rămân blocate.
+    - **Google:** Search (anunț responsive + cuvinte cheie) și Performance Max fără feed (asset group cu texte, poze și logo; „brand guidelines” în același lot).
+    - **ChatGPT:** campanie, grupuri cu „context hints”, reclame chat_card cu poza urcată din Shopify Files. Audiențele ChatGPT nu sunt permise în SEE.
+  - **Paza:** fiecare endpoint nou e permis explicit, cu câmpurile listate. Orice stare activă la creare e refuzată, iar crearea merge doar în contul Meta Prime. Fiecare obiect creat și fiecare pornire intră în Jurnal. **85 de teste trec.**
+  - **Verificarea reală, fără să creeze nimic (Jurnalul din aplicație e gol):**
+    - Google: Search cu 9 operații – OK.
+    - ChatGPT: Bulk validate_only – OK.
+    - Meta: campania și ad set-ul OK. **Creativul e refuzat**: „Application does not have permission for this action”.
+  - **De făcut de Marius pentru Meta:** Business settings → Users → System users → reclame-prime → Assign assets → Pages → „Prime Supplements” (108704658683324) → „Create ads”. Dacă Meta refuză și după asta: token nou pentru reclame-prime cu pages_read_engagement + pages_manage_ads, pus ca META_TOKEN.
+  - Cele 3 propuneri de test au fost respinse, ca să nu poată fi pornite din greșeală. **Nimic real creat sau pornit.**
+- 19.11: **Marius:** „aplicația să gândească idei noi, cu cod generat, poze, tot ce trebuie; eu doar apăs accept și campania pornește”.
+  - **Răspuns:** v0.4 face exact partea cu „un clic”. Claude pregătește propuneri complete, verificate de platforme, iar Marius apasă „Acceptă și pornește” (cu confirmare și plafon).
+  - **Ideile și pozele** le generează Claude, nu Worker-ul: Worker-ul nu are AI, iar motorul din Strategie e pe reguli. Concret: Claude citește Strategia și datele, generează pozele (ambalajul real, decor generat, regulile din REGULI-META-ADS), le urcă în Shopify Files și trimite propunerile. Se poate face la cerere sau ca rutină săptămânală.

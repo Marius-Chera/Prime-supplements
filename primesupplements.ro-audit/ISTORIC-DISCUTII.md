@@ -602,3 +602,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - A cerut ca marja medie să fie calculată din Oblio și Shopify: ~17 % din comanda cu TVA, deci prag ROAS 5,9.
   - **Decizie nouă:** campaniile se pot crea complet din aplicație, pe toate 3 platformele (poze, audiențe, reclame), comandate de Claude din cod. Asta înlocuiește regula din plan „crearea rămâne în Ads Manager”. Propunerea de siguranță: tot ce se creează din cod pornește OPRIT, iar pornirea se face doar din aplicație, cu confirmare și cu plafonul de 3.000 lei/lună.
   - Accesul angajatului de la depozit în aplicație îl rezolvă Marius.
+- **19.11 – Marius (Reclame Prime):** vrea ca aplicația să vină cu idei noi de campanii, gata făcute (cod, poze, tot ce trebuie), iar el doar să apese „accept” ca să pornească. Răspunsul e v0.4:
+  - Claude pregătește propunerile complete și le verifică în platforme fără să creeze nimic.
+  - Marius apasă în tab-ul „Creare” butonul „Acceptă și pornește”: campania se creează oprită, apoi pornește după confirmare și verificarea plafonului.
+  - Ideile și pozele le face Claude (la cerere sau ca rutină săptămânală), nu Worker-ul.
+  - Pornirea rămâne doar la clicul lui Marius.

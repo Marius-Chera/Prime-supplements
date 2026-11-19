@@ -44,3 +44,16 @@ Verificat de Claude pe 19.11 (doar citire):
 1. ~~**Ștergerea webhook-ului**~~ **făcută 19.11, 12:58** de Claude, cu „da”-ul lui Marius; lista de webhook-uri e acum goală.
 2. ~~**Regenerarea cheii API Oblio**~~ **făcută 19.11, 15:02** (Marius; cheia nouă salvată și verificată în Total Admin). (Oblio → Setări → Date cont → API), ca serverul KEMO să nu mai poată emite nimic; apoi cheia nouă se pune în Total Admin → Setări → Oblio. (Era deja în plan: „la final chei Oblio/Cargus regenerate”.)
 3. Abia apoi curățenia dublurilor din 17–19.11 în Oblio (anulare/stornare, decizie Marius + contabila).
+
+## 19.11 (după 15:00): situația tuturor perechilor în Oblio (citit din raportul de facturi, 16–19.11)
+Pereche = factura Total Admin (TA) + dublura KEMO (același client, aceeași sumă, la câteva secunde). „Trimisă” = în e-Factura (SPV).
+
+**Deja rezolvate (13, toate din 17.11):** în fiecare pereche s-a anulat **factura Total Admin** (netrimisă) și a rămas factura KEMO (trimisă în SPV; la cele cu cardul, marcată încasată):
+16930/16931, 16933/16934, 16935/16936, 16937/16939, 16938/16940, 16942/16954, 16943/16955, 16944/16956, 16945/16957, 16946/16952, 16947/16958, 16949/16953, 16959/16960 (primul număr = TA, anulat).
+→ Pe aceste 13 comenzi, Shopify și Total Admin arată încă numărul TA anulat; trebuie aliniate pe factura KEMO rămasă.
+
+**Încă dublate (27 de perechi):**
+- **Ambele trimise în SPV (17)** → se pot doar storna: 16928/16929, 16961/16962 (17.11); 16967/16968, 16971/16972, 16973/16974, 16975/16976, 16977/16978, 16979/16980, 16981/16982, 16983/16985, 16984/16987, 16986/16988, 16989/16990, 16991/16992, 16993/16994, 16995/16996, 17002/17003 (18.11).
+- **Ambele netrimise (10)** → se poate anula una: 16969/16970 (18.11); 17004/17005, 17006/17008, 17007/17009, 17014/17015, 17016/17017, 17019/17020, 17021/17022, 17024/17025, 17026/17027 (19.11).
+
+**Fără dublură:** 16948, 16963, 16966, 17018, 17028 (17028 e după ștergerea webhook-ului, 12:58 → confirmă că dublurile s-au oprit).

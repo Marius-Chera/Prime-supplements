@@ -1814,3 +1814,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Octombrie: cheltuială 12.787 lei, ROAS real 1,96, profit din reclame −8.531 lei, MER 15,2, profit după reclame +20.172 lei.
     - Noiembrie, proiectat: cheltuială ~8.445 lei (−34 %), ROAS real 2,02, profit din reclame −5.544 lei (+2.986 față de octombrie), MER 25,3, profit după reclame ~+27.856 lei.
     - Concluzie: reclamele nu se plătesc din vânzările directe (prag 5,88), dar magazinul în total e pe profit, iar tendința e bună.
+- 19.11 (seara): **Reclame Prime – propuneri Meta cu poze noi** (Marius: „Da, pregătește-le”).
+  - **Aplicația:** am adăugat tipul „reclame noi într-un ad set existent”. Pornirea activează doar reclamele, fără campanie și fără buget. Sunt 92 de teste.
+  - **Pozele:** 5 poze noi aprobate din 16 generate (OpenArt Nano Banana 2.1 / Pro, ~484 de credite din 4.167). Etichetele sunt verificate literă cu literă. Sunt urcate în Shopify Files și salvate în `meta-ads/poze-2026-11-19/`.
+  - **Propunerile:** 3 propuneri (#11–13), 5 reclame în ad set-urile [NOU] 1–3, validate de Meta (`validate_only`). Proiecția plafonului nu se schimbă. Detalii în `meta-ads/RECLAME-2026-11.md`.
+  - **Nimic creat sau pornit.** Pornirea se face doar de Marius, din tab-ul „Creare”.

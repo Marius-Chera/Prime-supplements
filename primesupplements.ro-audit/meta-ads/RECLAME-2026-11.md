@@ -108,3 +108,19 @@ La final, scrie-mi numele și ID-ul fiecărei audiențe (se văd în lista Audie
 Extensia a mai găsit audiențe mai vechi, din 30.10, cu 365 de zile: „Interacțiuni Instagram – 365 zile”, „Interacțiuni pagină FB – 365 zile” și „Vizitatori site – 180 zile”. ID-urile lor nu au fost raportate. Le putem adăuga ca excluderi în plus dacă le aflăm ID-urile.
 
 **Pus pe 19.11:** cele 3 ID-uri de mai sus sunt în `excluded_custom_audiences` pe toate cele 3 ad set-uri [NOU] (update_adset reușit). Campaniile sunt tot oprite.
+
+## Reclame noi pentru [NOU] – propuse în Reclame Prime (19.11.2026 seara)
+
+Pozele sunt în `poze-2026-11-19/` (1080×1350) și, la rezoluție 2K, în Shopify Files (`meta-nou-*.png`). Sunt generate cu OpenArt pe poza reală a ambalajului:
+- au fost 16 variante cu Nano Banana 2.1 și Pro (~484 de credite);
+- am păstrat 5. Pe celelalte le-am respins, pentru că textul mic de pe etichetă ieșea greșit („FUREST”, „EMERCAL”, „NG GREED SUGAR”, „MI XE CORE”).
+
+| Ad set [NOU] | Reclame noi (în aplicație: Creare #11–13) |
+|---|---|
+| 1 Crema de orez (120251693918550615) | „mic dejun” (bol cu cremă și fructe de pădure, geantă de sală) · „preparare” (apă fierbinte, gata în câteva secunde; titlu „Cel mai vândut produs Prime”) |
+| 2 Prime Whey (120251693920450615) | „sală” (sportiv bărbat cu shaker, fără față) · „splash” (Chocolate Coconut, cocos, ciocolată) |
+| 3 Creatina Creapure (120251693920980615) | „powerlifting” (mâini cu magneziu pe bară, tubul pe disc) |
+
+Textele folosesc doar mențiunile autorizate în UE: proteinele contribuie la creșterea și menținerea masei musculare; creatina crește performanța fizică la efort scurt și intens, de la 3 g/zi. UTM-ul e cel standard (`utm_campaign={{campaign.name}}`).
+
+**Cum pornesc:** „Acceptă și pornește” creează reclamele oprite și le pornește doar pe ele. Bugetul campaniilor nu se schimbă, iar proiecția lunii rămâne 2.062,77 lei din plafonul de 3.000.

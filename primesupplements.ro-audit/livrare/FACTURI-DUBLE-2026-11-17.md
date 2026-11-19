@@ -64,3 +64,33 @@ Cu „da”-ul lui Marius („Da, anulează-le”), Claude a anulat în Oblio (a
 - La 4 dintre ele (16970, 17005, 17008, 17009, comenzi cu cardul) KEMO marcase factura încasată; încasarea pe factura Total Admin se bifează la închiderea lunii, din Total Admin → Încasări.
 
 **Rămân:** cele 17 perechi trimise în SPV (stornare, decizia contabilei) și alinierea celor 13 comenzi din 17.11 pe factura KEMO rămasă.
+
+## 19.11 (13:33): dublurile trimise în SPV, stornate
+Cu „da”-ul lui Marius („Da, stornează-le”), Claude a stornat în Oblio (Rapoarte → Factură → Stornează → Previzualizare → Emite) **16 dubluri KEMO**. Înainte de fiecare emitere s-a verificat în formular că totalul e exact minus totalul dublurii și că mențiunea are aceeași comandă ca factura Total Admin pereche.
+
+| Dublura KEMO | Comanda | Total |
+|---|---|---|
+| 16962 | Nr.10411 | 150,00 |
+| 16968 | Nr.10424 | 391,50 |
+| 16972 | Nr.10429 | 200,00 |
+| 16974 | Nr.10432 | 20,00 |
+| 16976 | Nr.10423 | 141,50 |
+| 16978 | Nr.10433 | 336,00 |
+| 16980 | Nr.10420 | 137,00 |
+| 16982 | Nr.10421 | 215,00 |
+| 16985 | Nr.10426 | 675,00 |
+| 16987 | Nr.10430 | 155,00 |
+| 16988 | Nr.10431 | 240,50 |
+| 16990 | Nr.10427 | 450,00 |
+| 16992 | Nr.10428 | 478,00 |
+| 16994 | Nr.10434 | 310,00 |
+| 16996 | Nr.10435 | 340,80 |
+| 17003 | Nr.10437 | 123,50 |
+
+- **Facturile de stornare: PRS 17030–17045** (16 facturi cu minus, datate 19.11.2026), total **−4.363,80 lei** = totalul dublurilor. La final: 16/16 dubluri stornate, toate facturile Total Admin pereche active, nicio ciornă rămasă.
+- **e-Factura:** stornările apăreau „Netrimisă” imediat după emitere; trebuie să ajungă în SPV ca orice factură (de urmărit în Oblio → e-Factura).
+- **16928/16929 (Nr.10402):** nu s-a stornat nimic – factura Total Admin 16928 era deja stornată de altcineva; rămâne valabilă 16929 (KEMO, încasată).
+- **Încasări:** dublurile încasate de KEMO (cardul: 16968, 16972, 16974, 16978, 16994, 16996, 17003) au acum încasarea pe o factură stornată; încasarea se mută pe factura Total Admin la închiderea lunii, din Total Admin → Încasări.
+- **Stocul** revine în gestiunea online și ajunge în Shopify prin sincronizarea de la 30 de minute.
+
+**Rămâne:** alinierea în Shopify/Total Admin a comenzilor care arată o factură Total Admin anulată sau stornată (cele 13 din 17.11 + Nr.10402 → 16929). Contabila trebuie anunțată de stornări (intră în SPV și în decontul de TVA pe noiembrie).

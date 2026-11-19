@@ -1704,3 +1704,4 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - înainte de fiecare postare, rezumatul se ia din nou din feed, iar un text stricat nu se mai publică;
     - 40 de teste trec.
   - **Postările de pe Facebook:** cu „da”-ul lui Marius, textul celor două a fost corectat prin Zernio, cu rezumatul real; titlul și linkul au rămas. La următorul „Publică” pleacă doar Instagram, pentru că Facebook nu se dublează (cheie de idempotență).
+- 19.11: **Meta Ads – campaniile noi PORNITE** (cu „da”-ul lui Marius): [NOU] 1 Crema de orez (40 lei/zi), [NOU] 2 Prime Whey (32 lei/zi), [NOU] 3 Creatina Creapure (24 lei/zi), cu toate cele 7 reclame și 3 ad set-uri active. Am oprit „Campanie crema de orez” (120248813906950615). Acum rulează doar campaniile [NOU], 96 lei/zi în total. Prima verificare: peste 2–3 zile (reclamele trec întâi prin revizuirea Meta; Windsor pe trial nu are date în timp real).

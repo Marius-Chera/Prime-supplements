@@ -1790,3 +1790,15 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Verificare:** toate 3 au trecut verificarea Google (validateOnly), fără să creeze nimic. Specificațiile sunt în `reclame-prime/propuneri/2026-11-19-google-search.json`.
   - **Recomandare:** acceptă întâi tăierile PMax din Strategie, ca totalul Google să scadă (190 → ~143 lei/zi cu cele 3 noi).
   - **Fără poze:** anunțurile Search sunt doar text. Pozele vin la Meta, după accesul la pagină și primele date [NOU], și la PMax, dacă îl reluăm.
+- 19.11 (16:04–16:07): **Prima folosire reală a Reclame Prime, de Marius, din aplicație.** Toate pașii au intrat în Jurnalul aplicației cu rezultat „ok”. Verificat de Claude prin /claude/changes și citirea campaniilor.
+  - **Din Strategie:**
+    - „PMax Marjă mare” oprită;
+    - „Prime – Cremă de orez ChatGPT” oprită;
+    - „PMax Volum” 90 → 63 lei/zi;
+    - „Brand Protect” 50 → 35 lei/zi.
+  - **Din Creare, „Acceptă și pornește” pe toate 3 propunerile.** Fiecare a fost creată OPRITĂ (buget, campanie, grupuri, anunțuri), apoi pornită în ordinea anunțuri → grupuri → campanie:
+    - Search – Pudră proteică Prime Whey (24508475421, 20 lei/zi);
+    - Search – Cremă de orez (variante) (24519592756, 10 lei/zi);
+    - Search – Creatină Creapure (24513487835, 15 lei/zi).
+  - **Google acum:** 63 + 35 + 20 + 15 + 10 = **143 lei/zi** (de la 190). ChatGPT: 0 lei/zi. Meta neschimbat: 96 lei/zi pe [NOU].
+  - **Prima verificare a rezultatelor:** peste 7–14 zile (ROAS real pe campanie în Strategie).

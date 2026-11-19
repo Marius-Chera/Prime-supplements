@@ -100,3 +100,5 @@ Cu „da”-ul lui Marius („Da, stornează-le”), Claude a stornat în Oblio 
 - **Total Admin (baza D1, tabela jobs):** păstra numărul facturii Total Admin anulate/stornate. La o eventuală reprocesare, protecția la dubluri ar fi rescris acel număr pe comandă. Cu „da”-ul lui Marius, cele 14 rânduri au fost trecute pe factura valabilă (număr + link Oblio), cu o notă în jurnalul comenzii: Nr.10402→16929, 10403→16954, 10404→16955, 10405→16956, 10407→16934, 10408→16931, 10409→16957, 10410→16936, 10412→16939, 10413→16952, 10415→16958, 10416→16940, 10417→16960, 10419→16953.
 
 **Situația finală:** fiecare comandă din 16–19.11 are o singură factură valabilă în Oblio, aceeași în Shopify și în Total Admin. Rămân: trimiterea stornărilor 17030–17045 în SPV, anunțarea contabilei, mutarea încasărilor cu cardul la închiderea lunii.
+
+Raportul complet de verificat (anulări, stornări, ce era făcut dinainte): `RAPORT-ANULARI-STORNARI-2026-11-19.md`.

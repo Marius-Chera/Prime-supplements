@@ -41,6 +41,6 @@ Verificat de Claude pe 19.11 (doar citire):
   - Când Total Admin marchează comanda expediată, Shopify trimite comanda la serverul KEMO (Railway), care are încă cheia Oblio și emite a doua factură. Nu mai poate scrie înapoi în Shopify (aplicația e scoasă), de aceea factura lui nu apare pe comandă.
 
 ### Ce trebuie făcut
-1. **Ștergerea webhook-ului** din Setări → Notificări → Webhooks (cu „da”-ul lui Marius). Din acel moment dublurile se opresc.
+1. ~~**Ștergerea webhook-ului**~~ **făcută 19.11, 12:58** de Claude, cu „da”-ul lui Marius; lista de webhook-uri e acum goală.
 2. **Regenerarea cheii API Oblio** (Oblio → Setări → Date cont → API), ca serverul KEMO să nu mai poată emite nimic; apoi cheia nouă se pune în Total Admin → Setări → Oblio. (Era deja în plan: „la final chei Oblio/Cargus regenerate”.)
 3. Abia apoi curățenia dublurilor din 17–19.11 în Oblio (anulare/stornare, decizie Marius + contabila).

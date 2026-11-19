@@ -592,3 +592,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **17.11 – decizie Marius:** rețeta Booty Pump CONFIRMATĂ, fără arginină. Cererea către Pro Nutrition o trimite Marius (termen dorit: final de ianuarie 2027).
 - **17.11 – idee Marius:** designul etichetei Booty Pump îl facem 100 % noi (fără Headmade) și tipărim la Sunimprof Rottaprint. Simularea de tipar e în `produse-noi/booty-pump/tipar/`.
 - **18.11 – decizie Marius:** Booty Pump primește coduri EAN interne (fără GS1), ca la haine: 4002026300016 (Pink Lemonade), 4002026300023 (Forest Fruits).
+- **19.11 – decizie Marius:** conectăm contul Meta Ads (al Adelinei) la Claude prin Windsor.ai, ca în postarea theaiagents: analiză buget și reclame, idei de testat, rezultatele revin la Claude. Începem pe planul gratuit (trial 30 de zile, apoi 1 sursă gratuită = Meta Ads). Primul pas după conectare este §25 din `DE-FACUT.md`.

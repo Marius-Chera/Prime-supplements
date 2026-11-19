@@ -10,15 +10,15 @@ UTM (șablonul existent din cont): `utm_source=facebook&utm_medium=paid_social&u
 
 ## 1. Cremă de orez – 40 lei/zi
 
-Verificare: în ultimele 90 de zile, crema de orez este produsul cu cele mai multe bucăți vândute din magazin: 1.538 de tuburi (689 de comenzi), față de 807 la toate proteinele la un loc (Shopify, 21.08–19.11.2026).
+Verificare (doar intern, cifrele NU apar în reclamă – cerința lui Marius din 19.11): în ultimele 90 de zile, crema de orez este produsul cu cele mai multe bucăți vândute din magazin (Shopify, 21.08–19.11.2026). În reclamă scrie doar „cel mai vândut produs al nostru”, iar restul textului e despre beneficii: făină de orez pregelatinizată, se prepară foarte ușor, are gust foarte bun.
 
 **Poze:** `1-crema-orez-tort-ciocolata-a.jpg`, `1-crema-orez-tort-ciocolata-b.jpg`, `1-crema-orez-placinta-cocos-a.jpg`, `1-crema-orez-placinta-cocos-b.jpg`
 
 **Text principal:**
 > Cel mai vândut produs al nostru: crema de orez Prime Creamy Rice 🍫
-> Micul dejun cu gust de desert, gata în câteva secunde: torni apă sau lapte, amesteci și gata.
-> Fără zahăr adăugat · 22 de porții la 1 kg · arome ca tort de ciocolată, plăcintă cu cocos, biscuiți cu cremă sau brioșă cu afine.
-> Mii de tuburi vândute până acum. Alege-ți aroma 👇
+> Este făină de orez pregelatinizată, așa că se prepară foarte ușor: torni apă sau lapte fierbinte, amesteci și în câteva secunde ai o cremă fină, fără cocoloașe.
+> Și are un gust foarte bun: tort de ciocolată, plăcintă cu cocos, biscuiți cu cremă sau brioșă cu afine.
+> Fără zahăr adăugat · 22 de porții la 1 kg. Alege-ți aroma 👇
 
 **Titlu:** Cel mai vândut produs Prime: crema de orez
 **Descriere:** De la 65 lei · 22 de porții

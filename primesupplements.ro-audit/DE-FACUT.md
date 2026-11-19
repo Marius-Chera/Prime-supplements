@@ -157,3 +157,5 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
       - colega să lucreze din web.whatsapp.com dacă folosește WhatsApp pentru Windows (nesuportat în coexistence).
 
 - **Booty Pump (produs nou, 17.11):** rețetă confirmată (fără arginină), macheta în `produse-noi/booty-pump/macheta/`. Următorul pas: Marius trimite cererea `produse-noi/booty-pump/CERERE-PRO-NUTRITION-2026-11-17.md` (termen final de ianuarie 2027), apoi etichetă la Headmade după fișa tehnică.
+
+**Meta Ads – în așteptare (19.11.2026):** Marius sau Adelina creează în Ads Manager cele 3 audiențe de excludere (textul e în `meta-ads/RECLAME-2026-11.md`) și trimit ID-urile. Apoi: excluderile se pun pe cele 3 ad set-uri [NOU] (update_adset), campaniile [NOU] se pornesc cu „da”-ul lui Marius și se oprește „Campanie crema de orez” (120248813906950615). Regulile sunt în `meta-ads/REGULI-META-ADS.md`.

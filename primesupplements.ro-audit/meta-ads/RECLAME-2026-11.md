@@ -96,3 +96,15 @@ Pagina Facebook 108704658683324, pixel 593997668868274 (Purchase). Bugetul e pe 
 
 La final, scrie-mi numele și ID-ul fiecărei audiențe (se văd în lista Audiences).
 ```
+
+## Audiențele de excludere (create de extensia Chrome, 19.11.2026)
+
+| Nume | ID | Retenție reală |
+|---|---|---|
+| Excludere – vizitatori site 180z | 120251694024950615 | 180 de zile (pixel 593997668868274, toți vizitatorii) |
+| Excludere – interacțiuni Instagram 365z | 120251694032840615 | **180 de zile**, deși s-a cerut 365: formularul Meta salvează 180 chiar și la editare (încercat de 3 ori) |
+| Excludere – interacțiuni Facebook 365z | 120251694066480615 | **180 de zile** (aceeași problemă); pagina „Prime Supplements”, nu „PRIME STORE” |
+
+Extensia a mai găsit audiențe mai vechi, din 30.10, cu 365 de zile: „Interacțiuni Instagram – 365 zile”, „Interacțiuni pagină FB – 365 zile” și „Vizitatori site – 180 zile”. ID-urile lor nu au fost raportate. Le putem adăuga ca excluderi în plus dacă le aflăm ID-urile.
+
+**Pus pe 19.11:** cele 3 ID-uri de mai sus sunt în `excluded_custom_audiences` pe toate cele 3 ad set-uri [NOU] (update_adset reușit). Campaniile sunt tot oprite.

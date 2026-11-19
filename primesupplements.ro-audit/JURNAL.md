@@ -1735,3 +1735,20 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Secretul vechi Google ****W6DK:** Google Cloud → APIs & Services → Credentials → „Reclame Prime Worker” → Client secrets → întâi Disable, apoi Delete.
   - **Accesul depozitului în Reclame Prime** îl rezolvă Marius.
 - 19.11 (13:09): **10 facturi duble KEMO anulate în Oblio** (cu „da”-ul lui Marius): 16970, 17005, 17008, 17009, 17015, 17017, 17020, 17022, 17025, 17027 – fiecare verificată înainte (aceeași comandă ca factura Total Admin pereche, netrimisă în SPV); după anulare, facturile Total Admin pereche au rămas active. Stocul revine prin sincronizarea Oblio → Shopify. Rămân 17 perechi trimise în SPV (stornare, cu contabila) și alinierea a 13 comenzi din 17.11. Detalii în `livrare/FACTURI-DUBLE-2026-11-17.md`.
+- 19.11: **Reclame Prime v0.3 – pagina „Strategie” pentru ROAS** (cerută de Marius; repo `reclame-prime`, commit 2e9127f, urcat pe Cloudflare).
+  - **Ce face motorul:** reguli explicite, fără AI și fără cost.
+    - Calculează ROAS-ul real pe campanie, pe 14 zile încheiate. Comenzile Shopify cu utm_campaign se atribuie direct campaniei; restul (gclid, fbclid fără UTM) se împart estimativ după valoarea raportată de platformă.
+    - Dă un verdict pe fiecare campanie: scalează +20 % (ROAS peste țintă, cu profitul estimat), reduce −15/−30 %, oprește, învățare, așteaptă (schimbată în ultimele 3 zile).
+    - Nu oprește o campanie pe baza unui singur model de atribuire: când ultimul clic zice „oprește”, dar platforma vede ROAS peste prag, propune −30 % și un test de 7 zile.
+    - Planul încape mereu în plafonul Meta. Creșterile profitabile blocate de plafon apar ca recomandare; plafonul îl schimbă doar Marius.
+    - Arată proiecția ROAS-ului lunii fără schimbări și cu planul, plus MER.
+    - Face recomandări pentru: atribuire umflată, comenzi fără UTM, reclame obosite, CTR mic, campanii de brand, zile slabe, comanda medie sub 300 lei, spațiul liber sub plafon, produsele prioritare fără campanie.
+  - **Butoanele:** „Accept” pe fiecare sugestie și „Acceptă tot planul”, cu aceeași confirmare, pază și plafon ca tab-ul Campanii; întâi opririle și scăderile, apoi creșterile. Nimic nu se aplică singur.
+  - **Marja calculată din Oblio și Shopify** (Marius: „socotește tu o marjă medie”): 27,7 % profit brut pe vânzările online fără TVA din 3–18.11. După TVA, transport, ambalaj, comisioane și ramburs refuzat rămân **≈ 17 % din comanda cu TVA**, deci pragul de rentabilitate e ROAS 5,9. Calculul e în `reclame-prime/MARJA-MEDIE-2026-11-19.md`, iar marja e setată în aplicație.
+  - **Primul plan pe date reale (nimic aplicat):**
+    - ROAS real în noiembrie 2,04 (ultimul clic); MER 25,5.
+    - Oprește: „PMax Marjă mare” (ROAS real 0,35) și campania ChatGPT (0 comenzi).
+    - Reduce cu 30 %: „PMax Volum” (real 1,27 față de 11,5 raportat de Google) și „Brand Protect”.
+    - Cele 3 campanii Meta [NOU] sunt în învățare.
+    - Meta are 78 lei/zi liberi sub plafon.
+  - **Verificare:** 60 de teste trec; local, „Acceptă tot planul” a mers în modul de simulare, doar în baza locală.

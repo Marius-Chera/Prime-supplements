@@ -143,5 +143,45 @@
   "data": "2026-11-12",
   "pagina": "Pagini de creatină (verificat în Shopify)",
   "ce": "Shopify arată „actualizat” pe 11–12.11 la Creapure® (12.11), micronizată (12.11), plicuri (11.11) și colecție (12.11). Verificat în aceeași zi: titlurile SEO, meta descrierile, textele alternative, șabloanele și datele de modificare ale câmpurilor de conținut sunt neschimbate față de 15–23.10; au fost sincronizări de stoc și preț. Prețurile reduse din 30.10 sunt încă în vigoare (Creapure® 500 g 140 lei, 300 g 90 lei, micronizată 77 lei). Stoc: Creapure® 500 g 30, 300 g 195, micronizată 216; cutia de plicuri Pink Madness pe 0. Niciun articol nou despre creatină în 05–12.11."
+ },
+ {
+  "data": "2026-11-15",
+  "pagina": "Toate paginile de produs (tema magazinului)",
+  "ce": "La 00:54 a fost publicată tema „Prime – Prime Coș: livrare + upsell (15.11)” (JURNAL.md, 15.11): pe paginile de produs, inclusiv cele de creatină, apar estimarea livrării, blocul „Merge perfect cu” și banda de garanții; nu se mai încarcă Delivery Estimator și Dondy. Factor perturbator pentru conversie, nu o schimbare de text SEO."
+ },
+ {
+  "data": "2026-11-15",
+  "pagina": "Creatină Creapure® și micronizată (doar tema PILOT)",
+  "ce": "Câmpurile noi prime.pagina_vizuala, prime.curiozitati și prime.beneficii au fost scrise pe 15.11 (Admin API, updatedAt). Se afișează doar pe tema nepublicată „PILOT pagină vizuală”; pe site-ul live nu se văd (JURNAL.md, 15–16.11)."
+ },
+ {
+  "data": "2026-11-16",
+  "pagina": "Creatină Creapure®",
+  "ce": "Dovada din lista oficială creapure.com: captură nouă (16.11) pusă ca a doua poză în galerie, captura veche din iunie 2025 scoasă din galerie; cele 3 linkuri din descriere, „despre produs” și „SEO produs” duc acum direct la creapure.com/en/buy-here (Admin API: galeria are 2 poze, custom.seo_produs și custom.despre_produs actualizate pe 16.11 la 14:50 UTC; backup în creapure-dovada/backup/). Titlul SEO, meta descrierea, beneficiile, ingredientele și cuvintele de căutare sunt neschimbate față de 15.10."
+ },
+ {
+  "data": "2026-11-16",
+  "pagina": "Prețuri creatină",
+  "ce": "S-au încheiat prețurile reduse din 30.10. Din vânzările Shopify pe zile, prețul pe bucată se schimbă între 15.11 și 16.11: Creapure® 500 g de la 140 la 180 lei, 300 g de la 90 la 115 lei, micronizată de la 77 la 98 lei; cutia de plicuri e acum 110 lei (Admin API, 19.11). Săptămâna 09–15.11 a fost toată la prețuri reduse. Stoc pe 19.11: Creapure® 500 g 11 buc., 300 g 173, micronizată 198; plicuri Pink Madness cutie 0, Blue Moon cutie 7."
+ },
+ {
+  "data": "2026-11-16",
+  "pagina": "Articole despre creatină",
+  "ce": "„Creatina: contraindicații, cine nu o ia” a primit secțiunea „Creatina și ficatul: ce spun studiile” și întrebarea frecventă „Creatina afectează ficatul?”; titlul și meta neschimbate (JURNAL.md, 16.11; în Shopify articolul apare actualizat pe 16.11)."
+ },
+ {
+  "data": "2026-11-18",
+  "pagina": "Articole despre creatină",
+  "ce": "Articol nou publicat: „Creatina pentru vegetarieni și vegani: de ce contează” (eticheta Creatină, hub:creatina)."
+ },
+ {
+  "data": "2026-11-15",
+  "pagina": "Toate paginile de creatină (măsurare)",
+  "ce": "Săptămâna 09–15.11 (a patra „după”): vizitele din Google fără etichetă de reclamă pe cele 4 pagini au scăzut la 13 (în intervalul „înainte” 2–16), deci saltul de 18 din 02–08.11 nu s-a confirmat. Comenzile cu creatină, 34, sunt a doua săptămână la rând peste maximul de 27, dar creșterea vine din comenzile fără sursă (26), nu din căutare (7), și toată săptămâna a fost cu prețuri reduse."
+ },
+ {
+  "data": "2026-11-19",
+  "pagina": "Creatină Creapure® (reclame)",
+  "ce": "Campania Meta „[NOU] 3 Creatina Creapure – public nou” (24 lei/zi) a fost pornită pe 19.11 (JURNAL.md, 19.11). Factor perturbator pentru săptămânile de după 16.11, nu o schimbare pe pagină."
  }
 ]

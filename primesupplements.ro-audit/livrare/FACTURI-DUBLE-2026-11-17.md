@@ -57,3 +57,10 @@ Pereche = factura Total Admin (TA) + dublura KEMO (același client, aceeași sum
 - **Ambele netrimise (10)** → se poate anula una: 16969/16970 (18.11); 17004/17005, 17006/17008, 17007/17009, 17014/17015, 17016/17017, 17019/17020, 17021/17022, 17024/17025, 17026/17027 (19.11).
 
 **Fără dublură:** 16948, 16963, 16966, 17018, 17028 (17028 e după ștergerea webhook-ului, 12:58 → confirmă că dublurile s-au oprit).
+
+## 19.11 (13:09): cele 10 dubluri netrimise, anulate
+Cu „da”-ul lui Marius („Da, anulează-le”), Claude a anulat în Oblio (aceeași acțiune ca butonul „Anulează”) **dublurile KEMO**: 16970, 17005, 17008, 17009, 17015, 17017, 17020, 17022, 17025, 17027. Înainte, fiecare a fost verificată: aceeași comandă în mențiuni ca factura Total Admin pereche (Nr.10425, 10443, 10444, 10446, 10445, 10442, 10440, 10438, 10439, 10448), netrimisă în SPV. După: toate 10 anulate, facturile Total Admin pereche (16969, 17004, 17006, 17007, 17014, 17016, 17019, 17021, 17024, 17026) active – exact cele scrise pe comenzile Shopify.
+- Stocul scăzut a doua oară revine în gestiunea online; Total Admin îl duce în Shopify la următoarea sincronizare (la 30 de minute).
+- La 4 dintre ele (16970, 17005, 17008, 17009, comenzi cu cardul) KEMO marcase factura încasată; încasarea pe factura Total Admin se bifează la închiderea lunii, din Total Admin → Încasări.
+
+**Rămân:** cele 17 perechi trimise în SPV (stornare, decizia contabilei) și alinierea celor 13 comenzi din 17.11 pe factura KEMO rămasă.

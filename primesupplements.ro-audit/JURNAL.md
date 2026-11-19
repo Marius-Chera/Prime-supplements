@@ -1802,3 +1802,15 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - Search – Creatină Creapure (24513487835, 15 lei/zi).
   - **Google acum:** 63 + 35 + 20 + 15 + 10 = **143 lei/zi** (de la 190). ChatGPT: 0 lei/zi. Meta neschimbat: 96 lei/zi pe [NOU].
   - **Prima verificare a rezultatelor:** peste 7–14 zile (ROAS real pe campanie în Strategie).
+- 19.11 (seara): **Reclame Prime – Meta deblocat pentru creare + pagina „Lunar”** (cerute de Marius: „fă tu asta”, „Da, trece-o Live”, „fă o pagină cu analize lunare”).
+  - **Meta:**
+    - System user-ul `reclame-prime` a primit pagina „Prime Supplements” (108704658683324), cu acces parțial „Reclame și Statistici” (Business settings → Pagini → Atribuie persoane).
+    - Aplicația Meta „Reclame Prime” (2644720955971334) a fost trecută în **Live**: politica de confidențialitate https://primesupplements.ro/policies/privacy-policy, categoria „Afacere și Pagini”, Publish.
+    - Verificarea completă (`validate_only`) trece acum: campanie, ad set **și creativ**. Înainte, Meta refuza creativul cu subcodul 1885183, „aplicație în mod de dezvoltare”.
+    - Mesajele de eroare din aplicație arată acum și detaliul dat de Meta/Google.
+  - **Pagina „Lunar” (commit în `reclame-prime`):** pe fiecare lună, cheltuiala, vânzările reale din reclame, ROAS real față de cel raportat, profitul din reclame (marjă 17 %), vânzările magazinului, MER, profitul după reclame și diferența față de luna trecută. Luna curentă e proiectată. Are detalii pe platforme și campanii („profitabilă?”).
+    - **Istoric încărcat:** cheltuielile Meta/Google pe 12 luni (nov. 2025 – oct. 2026) și comenzile Shopify din 21.09. Shopify dă doar 60 de zile fără dreptul `read_all_orders`.
+  - **Primele cifre:**
+    - Octombrie: cheltuială 12.787 lei, ROAS real 1,96, profit din reclame −8.531 lei, MER 15,2, profit după reclame +20.172 lei.
+    - Noiembrie, proiectat: cheltuială ~8.445 lei (−34 %), ROAS real 2,02, profit din reclame −5.544 lei (+2.986 față de octombrie), MER 25,3, profit după reclame ~+27.856 lei.
+    - Concluzie: reclamele nu se plătesc din vânzările directe (prag 5,88), dar magazinul în total e pe profit, iar tendința e bună.

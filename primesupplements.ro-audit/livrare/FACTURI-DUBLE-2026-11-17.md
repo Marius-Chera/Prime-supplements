@@ -30,3 +30,17 @@ Total până la analiză: 13 comenzi.
    - la comenzile cu cardul se păstrează cea potrivită pentru încasare;
    - **stocul:** fiecare factură dublă a scăzut a doua oară stocul din gestiunea online, iar sincronizarea Oblio → Shopify (la 30 de minute) a dus scăderea și în Shopify. Anularea sau stornarea readuce stocul.
 3. **Pe comenzile Shopify**, atributele INVOICE_* arată acum factura aplicației vechi; se aliniază după ce se decide care factură rămâne.
+
+## 19.11: dublurile au continuat după dezinstalare – cauza reală
+Verificat de Claude pe 19.11 (doar citire):
+- **Total Admin a emis o singură factură pe comandă** (baza lui, 46 de comenzi Live 16–19.11, de ex. Nr.10422 → PRS 16966, Nr.10449 → PRS 17028). Numerele sărite (16968, 16970, 16972 …) sunt emise de altcineva, la câteva secunde după.
+- **Istoricul comenzilor din 18–19.11** arată doar Total Admin (facturare, expediere, e-mail, arhivare). Nicio altă aplicație nu scrie pe comandă.
+- **Aplicațiile instalate** (Admin API): nicio aplicație de facturare; KEMO și Fluxsales nu mai există.
+- **Cauza:** în Shopify → Setări → Notificări → **Webhooks** există un webhook creat manual de KEMO, care NU dispare la dezinstalarea aplicației:
+  - eveniment **Order fulfillment** → `https://primesupplements-oblio-production.up.railway.app/webhooks/shopify/invoice/create` (JSON).
+  - Când Total Admin marchează comanda expediată, Shopify trimite comanda la serverul KEMO (Railway), care are încă cheia Oblio și emite a doua factură. Nu mai poate scrie înapoi în Shopify (aplicația e scoasă), de aceea factura lui nu apare pe comandă.
+
+### Ce trebuie făcut
+1. **Ștergerea webhook-ului** din Setări → Notificări → Webhooks (cu „da”-ul lui Marius). Din acel moment dublurile se opresc.
+2. **Regenerarea cheii API Oblio** (Oblio → Setări → Date cont → API), ca serverul KEMO să nu mai poată emite nimic; apoi cheia nouă se pune în Total Admin → Setări → Oblio. (Era deja în plan: „la final chei Oblio/Cargus regenerate”.)
+3. Abia apoi curățenia dublurilor din 17–19.11 în Oblio (anulare/stornare, decizie Marius + contabila).

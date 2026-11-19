@@ -1694,3 +1694,13 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
 - 19.11: **Reclame Prime pe Cloudflare** (contul Prime): D1 `reclame-prime` creată și migrată, Worker urcat la `https://reclame-prime.prime-expediere.workers.dev` (/health OK), cron zilnic la 04:00 UTC; secretele ENC_KEY și CLAUDE_KEY puse (CLAUDE_KEY verificat: 200 cu cheie, 401 fără). Pașii pentru Marius (aplicația din Dev Dashboard + tokenul Meta de system user): `reclame-prime/PASI-ETAPA-0-SHOPIFY-META.md`.
 - 19.11: Audiențele de excludere au fost create de extensia Chrome (site 180z, Instagram și Facebook, salvate de Meta la 180z în loc de 365z) și adăugate pe cele 3 ad set-uri [NOU]. Campaniile sunt tot oprite până la „da”. Detalii în `meta-ads/RECLAME-2026-11.md`.
 - 19.11: **Reclame Prime instalată în Shopify** (cu permisiunea lui Marius, din browserul aplicației): aplicația Dev Dashboard 449369735169, versiunea `reclame-prime-1` (App URL Worker, încorporată, doar `read_orders`); Client ID trecut în wrangler.jsonc și redeploy; Client secret pus de Marius din terminal. Instalată pe primesupplements1 și se deschide în Admin. Prima citire a comenzilor: 711 comenzi în 35 de zile, 100 venite din reclame. Pe noiembrie (19/30 zile): 403 comenzi, din care Meta 20 (4.234 lei) și Google 27 (6.574 lei) după ultimul clic. Urmează: tokenul Meta, accesul depozitului scos din aplicație (Settings → Users).
+- 19.11, **Prime Vizibilitate – „Publică” din tab-ul Social reparat** (Marius: „am apăsat pe publică pe amândouă și nu s-a întâmplat nimic”).
+  - **Ce s-a întâmplat:** pe Facebook au plecat ambele articole (creatina pentru vegetarieni, gainerul te îngrașă), dar în loc de rezumat textul era „Mai multe ]]>”. Pe Instagram nu a plecat nimic.
+  - **Cauza 1:** rezumatul vine din feed-ul blogului în CDATA, iar aplicația nu-l citea.
+  - **Cauza 2:** publicarea era oprită înainte de Instagram, care procesează poza mai greu, așa că și starea din aplicație nu s-a schimbat.
+  - **Reparat (`prime-indexare` 0e19498):**
+    - aplicația citește acum CDATA și scoate linkul „Mai multe”;
+    - publicarea rulează în fundal, cu starea „se publică…”;
+    - înainte de fiecare postare, rezumatul se ia din nou din feed, iar un text stricat nu se mai publică;
+    - 40 de teste trec.
+  - **Postările de pe Facebook:** cu „da”-ul lui Marius, textul celor două a fost corectat prin Zernio, cu rezumatul real; titlul și linkul au rămas. La următorul „Publică” pleacă doar Instagram, pentru că Facebook nu se dublează (cheie de idempotență).

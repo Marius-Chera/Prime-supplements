@@ -1877,3 +1877,13 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Reviewer instructions:** nota din fișă + confirmarea că Facebook Login for Business e folosit doar pentru Embedded Signup; pentru asta Meta a cerut o platformă, așa că aplicația are acum platforma **Website** cu adresa `https://prime-expediere.prime-expediere.workers.dev/`;
   - **apeluri de test API:** două citiri pe contul WhatsApp de **test** din Graph API Explorer (tokenul exista deja): `GET /1941021136617822/phone_numbers` (+1 555-184-9490, „Test Number”, GREEN) și `GET /1941021136617822/message_templates` (`confirmare_comanda_ramburs` = PENDING pe contul de test). Pentru `whatsapp_business_messaging` contează mesajul de test trimis azi din „Try it out”;
   - **Încă netrimis:** butonul „Submit for review” rămâne inactiv până când Meta afișează apelurile de test (contorul arată „0 of 1” la ambele permisiuni; Meta: „testing data can take up to 24 hours”). **Pe 21.11, după ~15:35:** App Review → trimiterea 28829534566728637 → „Allowed usage” se bifează singur → **Submit for review**. Numărul Prime, Total Admin (modul „oprit”) și plățile neatinse.
+- 20.11 (16:00): Total Admin – **orice extras BT se încarcă, cu toate zilele, fără dubluri** (Marius: „orice extras de cont se încarcă să funcționeze și să preia datele și să nu dubleze nimic”; extrasul „1–19 noiembrie” „a preluat doar pe data din 2.11”).
+  - **Cauza:** PDF-ul descărcat din BT24 pe o perioadă e un pachet de extrase zilnice. Fiecare zi are antetul ei („EXTRAS CONT Numarul: 234 din 02/11/2026”) și „SOLD FINAL CONT”, iar cititorul se oprea după prima zi.
+  - **Acum:** se citesc toate extrasele din PDF și fiecare zi se salvează pe ea. Regulile, în orice ordine de încărcare:
+    - aceeași zi încărcată din nou se înlocuiește;
+    - extrasul lunar le înlocuiește pe cele pe zile din lună;
+    - o zi deja cuprinsă în extrasul lunar apare „era deja încărcat, nimic nou”;
+    - la o suprapunere parțială, zilele comune se iau din extrasul nou (nu mai e refuzată).
+  - Raportul lunii ia încasările după data lor, din toate extrasele care acoperă luna. Rezumatul arată un rând pe cont („16 extrase (nr. 234–249), 02.11–19.11”).
+  - Verificat pe extrasele reale: octombrie (4 conturi, la fel ca înainte) și 19.11. Un test nou simulează un pachet de 3 zile. 166 de teste, versiunea 14e9eb64, commit prime-expediere f5b3ff8.
+  - În D1 a rămas deocamdată din pachet doar ziua 02.11 (plus 19.11). La reîncărcarea PDF-ului 1–19 noiembrie vin toate zilele, iar 02.11 și 19.11 se înlocuiesc, fără dubluri.

@@ -1819,3 +1819,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Pozele:** 5 poze noi aprobate din 16 generate (OpenArt Nano Banana 2.1 / Pro, ~484 de credite din 4.167). Etichetele sunt verificate literă cu literă. Sunt urcate în Shopify Files și salvate în `meta-ads/poze-2026-11-19/`.
   - **Propunerile:** 3 propuneri (#11–13), 5 reclame în ad set-urile [NOU] 1–3, validate de Meta (`validate_only`). Proiecția plafonului nu se schimbă. Detalii în `meta-ads/RECLAME-2026-11.md`.
   - **Nimic creat sau pornit.** Pornirea se face doar de Marius, din tab-ul „Creare”.
+- 19.11 (18:12–18:14): **Marius a pornit din Reclame Prime cele 5 reclame Meta noi** (propunerile #11–13): crema mic dejun, crema preparare, whey sală, whey splash, creatină powerlifting. Au fost create și pornite în ad set-urile [NOU] și toate au intrat în Jurnalul aplicației cu „ok”.
+  - **Situația pe 20.11** (după recitirea platformelor):
+    - **Meta:** 3 campanii, 3 ad set-uri, 12 reclame (7 + 5), 96 lei/zi.
+    - **Google:** 5 campanii – PMax Volum 63, Brand Protect 35 și Search Prime Whey 20, Creapure 15, cremă de orez 10 – adică 143 lei/zi.
+    - **ChatGPT:** 0 active.
+    - **Total:** 239 lei/zi.

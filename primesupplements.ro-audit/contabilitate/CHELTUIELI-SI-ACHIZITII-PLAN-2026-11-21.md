@@ -1,6 +1,12 @@
 # Total Admin – Cheltuieli și achiziții: plan (21.11.2026)
 
-Cerut de Marius pe 21.11, pentru Contabilitate → Extras de cont. Nimic construit încă: planul și deciziile de luat.
+Cerut de Marius pe 21.11, pentru Contabilitate → Extras de cont.
+
+**Stare (21.11, noaptea): etapa 1 e construită și publicată** (Total Admin → Contabilitate → Cheltuieli; commit prime-expediere `1ff102a`, migrarea 0017). Încărcarea documentelor așteaptă activarea R2 de către Marius. Ce s-a construit, pe scurt:
+- plățile din extras: tipul recunoscut din descriere, plus tipul „transfer între conturile proprii / schimb valutar”, care nu intră în total. Fiecare plată are o cheie stabilă (cont|data|REF|suma), ca documentele să rămână legate la reîncărcarea extrasului;
+- explicația, tipul corectat și contractul pe fiecare plată; plățile cash; fluturașii lunii; contractele recurente, legate după IBAN și, opțional, după un text din detalii, cu toleranța sumei în procente;
+- furnizorii de marfă apar doar cu eticheta „Furnizor 1–4”, în pagină și în Excel;
+- Excelul pentru contabilă are foile Cheltuieli, Fără document și Recurente. Foaia „Neachitate” vine în etapa 2, odată cu facturile din SPV.
 
 ## Ce a cerut Marius (citat)
 

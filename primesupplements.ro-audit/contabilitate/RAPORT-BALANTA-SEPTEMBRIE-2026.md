@@ -62,7 +62,7 @@ Contul 121 are la 30.09 sold debitor de 174.353,31, adică pierderea anului pân
 - Furnizori-debitori, adică avansuri date (4091): 31.846,04.
 - TVA de recuperat (4424): 30.717,11.
 - Bancă lei 112.631,62, valută 1.761,74, casă 26.247,94; sume în curs de decontare (5125) 2.382,57.
-- **Avansuri de trezorerie nedecontate (542): 33.000,00**: 13.000 către Marius (ian–feb) și 20.000 către o altă persoană (mai).
+- **Avansuri de trezorerie nedecontate (542): 33.000,00**: 13.000 către Marius (ian–feb) și 20.000 către Andrei Pop, asociatul lui Marius (mai, confirmat de Marius pe 20.11).
 - Cheltuieli în avans (471): 11.515,74.
 
 **Datorii și capital**
@@ -78,7 +78,7 @@ Contul 121 are la 30.09 sold debitor de 174.353,31, adică pierderea anului pân
 
 1. **Costul mărfii din septembrie (86 % din vânzări, față de 59–72 % în celelalte luni):** ce conține descărcarea de 183.731,18? Există o diferență de inventar sau o corecție de preț?
 2. **6588 – 63.539,15 lei de marfă scoasă din gestiune în 2026:** pe ce documente (afiliați, sportivi, mostre, lipsuri)? S-a colectat TVA pe marfa dată gratuit, unde e cazul?
-3. **542 – 33.000 lei avansuri de trezorerie nedecontate de la începutul anului:** cum se justifică (deconturi, bonuri) sau se mută pe 4551?
+3. **542 – 33.000 lei avansuri de trezorerie nedecontate de la începutul anului:** cum se justifică (deconturi, bonuri)? Dacă nu există acte, ambele sume (Marius și asociatul Andrei Pop) se pot închide pe contul asociaților (4551).
 4. **Clienți 274.564,20:** ce sume sunt încă de încasat de la clienții B2B mari (CS Rapid, Active Dee, Olimpic Fitnes Star, SAS Gym)? Ce e vechi și trebuie urmărit sau provizionat? Contul „Marius Chera” (7.707,55) ce reprezintă?
 5. **Capitaluri proprii negative (−356.878):** activul net e sub jumătate din capitalul social. Legea societăților cere atunci o decizie a asociaților. Se rezolvă, de exemplu, prin conversia unei părți din creanța asociaților (4551) în capital social. Ce recomandă și până când?
 6. Amortizarea mașinilor (~14.000 lei/lună): e pe durata corectă și deductibilă integral?

@@ -154,7 +154,7 @@ Claude nu introduce chei și nu se loghează în locul tău. Te poate ghida pas 
 - **Corp:** Bună, {{1}}! Am primit comanda ta {{2}} de pe primesupplements.ro, cu plata la livrare (ramburs): {{3}} lei. Te rugăm să o confirmi, ca să o pregătim pentru expediere.
 - **Exemple pentru variabile:** {{1}} = Andrei · {{2}} = #13456 · {{3}} = 249,90
 - **Subsol:** Prime Supplements
-- **Butoane (Quick reply):** ✅ Confirm · ✏️ Vreau o modificare · ❌ Anulez comanda
+- **Butoane (Quick reply):** Confirm · Vreau o modificare · Anulez comanda (fără emoji: Meta nu le acceptă în butoane)
 
 Mesajul e pur tranzacțional: nu are reduceri și nici linkuri. Așa rămâne „utility”, nu „marketing”.
 

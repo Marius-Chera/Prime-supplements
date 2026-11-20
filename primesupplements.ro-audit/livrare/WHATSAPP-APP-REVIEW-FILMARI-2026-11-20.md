@@ -59,7 +59,7 @@ Creezi chiar șablonul nostru, pe contul de test. Pe contul Prime îl trimitem m
 | Body | `Bună, {{1}}! Am primit comanda ta {{2}} de pe primesupplements.ro, cu plata la livrare (ramburs): {{3}} lei. Te rugăm să o confirmi, ca să o pregătim pentru expediere.` |
 | Exemple pentru variabile | {{1}} = `Andrei`, {{2}} = `#13456`, {{3}} = `249,90` |
 | Footer | `Prime Supplements` |
-| Buttons → Quick reply | `✅ Confirm`, `✏️ Vreau o modificare`, `❌ Anulez comanda` |
+| Buttons → Quick reply | `Confirm`, `Vreau o modificare`, `Anulez comanda` (fără emoji: Meta nu le acceptă) |
 
 5. Arăți șablonul în listă (stare „In review” sau „Active”), apoi oprești înregistrarea și salvezi fișierul ca `video2-creare-sablon.mp4`.
 

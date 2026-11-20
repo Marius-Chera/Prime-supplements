@@ -618,3 +618,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Completat de Marius: plățile pe contract și recurente (donația către asociație, chiria), impozitele, salariile (fluturași, extrase) și semnalarea facturilor din SPV emise pe Prime și neachitate.
   - Plan: `contabilitate/CHELTUIELI-SI-ACHIZITII-PLAN-2026-11-21.md`. Oblio nu are API pentru facturile primite, deci SPV automat doar prin API-ul ANAF, cu certificatul lui Marius.
   - Deciziile A (stocare: R2 sau D1) și B (certificatul) sunt deschise.
+- **21.11 – Total Admin, Cheltuieli: decizii (Marius):** „da, le ținem pozele și pdf-urile în cloudflare prime” (R2, de activat de Marius) și „tu intri în SPV prin Oblio, nu direct în SPV”. Deci fără API-ul ANAF și fără certificat; facturile din SPV vin prin Oblio („Documente din SPV”).

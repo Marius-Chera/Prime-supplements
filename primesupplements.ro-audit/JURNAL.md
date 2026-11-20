@@ -1895,3 +1895,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Verificat: **API-ul Oblio nu dă facturile primite** (oblio.eu/api are doar documentele emise și SPV-ul lor).
   - Calea automată pentru SPV e API-ul e-Factura ANAF: OAuth pe logincert.anaf.ro, cu certificat digital calificat; tokenul ține 90 de zile, reînnoirea 365. Lista facturilor primite merge cel mult 60 de zile în urmă.
   - Nimic construit. Așteaptă deciziile lui Marius: (A) stocarea documentelor, R2 sau D1; (B) certificatul pentru SPV.
+- 21.11 (după-amiază): Total Admin, Cheltuieli – **deciziile lui Marius:**
+  - (A) pozele și PDF-urile se țin în Cloudflare Prime, adică R2. R2 nu e încă activat pe contul Prime (verificat cu wrangler, cod 10042); îl activează Marius din dashboard.
+  - (B) SPV-ul prin Oblio, nu direct în ANAF. Oblio nu are API pentru „Documente din SPV” (`/report/wallet`), deci facturile intră din exportul Oblio tras în aplicație sau sunt citite de Claude la cerere din Chrome-ul lui Marius.
+  - Pe 21.11 Oblio nu era logat nici în browserul aplicației, nici în Chrome, deci opțiunile de descărcare ale paginii rămân de văzut la construcție.
+  - Plan actualizat: `contabilitate/CHELTUIELI-SI-ACHIZITII-PLAN-2026-11-21.md`.

@@ -1844,3 +1844,12 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **PDF:** Cargus trimite doar .xls (în mailul „Decontare rambursuri…”), iar Netopia doar .csv. PDF-urile sunt extrasele BT: dacă sunt trase în Încasări, se încarcă singure la Extras de cont. Un PDF care nu e extras BT apare ca „nerecunoscut”.
   - Octombrie avea deja 402 rânduri Cargus și 320 Netopia (încărcate pe 14.11). Cele 203 rânduri din octombrie respinse azi erau, foarte probabil, deja acolo.
   - 162 de teste, versiunea cc2d8032; textele noi verificate în aplicație. Commit prime-expediere 9c0a98a.
+- 20.11 (13:10): Total Admin – **extrasul BT pe o zi era „nerecunoscut”** (Marius: „uite da eroare la extrasul de cont”; fișierul `Extrase_…_2026-11-19_2026-11-19_….PDF`). Extrasul pe o zi are în antet o singură dată („din 19/11/2026”), iar cititorul știa doar perioada lunară („din 01/10/2026 - 31/10/2026”).
+  - Reparat: perioada e acea zi. Verificat pe extrasul real: contul …4101, încasarea Cargus de 9.520,97 = rulajul. Extrasul din octombrie se citește în continuare la fel (73 de încasări = rulajul).
+  - **Extrasele pe zile și cel lunar nu se dublează:**
+    - extrasul lunar le înlocuiește pe cele pe zile din aceeași lună;
+    - o zi deja cuprinsă în extrasul lunar nu se mai încarcă;
+    - o suprapunere parțială nu se încarcă (cu mesaj);
+    - cheia fiecărei încasări ține și perioada extrasului;
+    - „lipsă în extras” apare doar pentru zilele acoperite de un extras încărcat.
+  - Mesajul de încărcare arată perioada („noiembrie 2026 (ziua 19.11.2026) …”). 165 de teste, versiunea 966a1569, commit prime-expediere f5f8dad. Fișierul real stă doar în `D:\Prime Supplements\incasari-exemple`, nu în repo.

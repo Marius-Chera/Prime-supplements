@@ -39,5 +39,5 @@
 - Achiziții (INTRARI): oct 49 documente / 327.061,03 lei.
 - Încasările online apar ca 5125.x → 5121.1 (decontări Cargus/Netopia), ramburs 5125.4 ↔ 4111; un client cumulat (4111.01482) are 51 de vânzări pe 707.05 în octombrie.
 
-## Următorul pas
+## Următorul pas (raportul pe septembrie: `RAPORT-BALANTA-SEPTEMBRIE-2026.md`)
 Compararea octombrie: IESIRI din SAGA față de facturile PRS din Oblio (număr, total, lipsă/în plus) și 5125.x față de raportul de închidere din Total Admin.

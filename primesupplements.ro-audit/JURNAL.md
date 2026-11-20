@@ -1825,3 +1825,8 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
     - **Google:** 5 campanii – PMax Volum 63, Brand Protect 35 și Search Prime Whey 20, Creapure 15, cremă de orez 10 – adică 143 lei/zi.
     - **ChatGPT:** 0 active.
     - **Total:** 239 lei/zi.
+- 20.11: **Reclame Prime – strategia ChatGPT** (Marius: „să fim prezenți în ChatGPT Ads și eficienți”).
+  - **Motorul nou** (`src/chatgpt-strategy.ts`, card în tab-ul Strategie, 97 de teste) calculează CPC-ul de rentabilitate din comanda medie, marjă și conversia site-ului: **0,43 lei** pe clic, față de **5,35 lei** plătiți până acum (684,65 lei, 0 comenzi).
+  - **Organic:** ChatGPT a adus gratuit 4 comenzi (845 lei) din recomandări.
+  - **Propunerea #14 în „Creare”,** validată de OpenAI (Bulk validate_only), nepornită: „ChatGPT – Cremă de orez – prezență eficientă”, ofertă fixă 0,50 lei/clic, 150 lei total, 21.11–20.12, 2 anunțuri noi pe pagina produsului.
+  - **Reguli:** oprire la 150 lei fără comenzi; creștere doar la ≥ 3 comenzi sub 36 lei; suplimentele doar când le permite OpenAI în UE. Detalii în `chatgpt-ads/CAMPANIE-TEST-2026-11.md` §11.

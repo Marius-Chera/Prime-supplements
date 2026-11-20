@@ -607,3 +607,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Marius apasă în tab-ul „Creare” butonul „Acceptă și pornește”: campania se creează oprită, apoi pornește după confirmare și verificarea plafonului.
   - Ideile și pozele le face Claude (la cerere sau ca rutină săptămânală), nu Worker-ul.
   - Pornirea rămâne doar la clicul lui Marius.
+- **20.11 – ChatGPT Ads, strategie (Marius):** „să fim prezenți și în ChatGPT Ads și să fim eficienți”.
+  - Răspunsul aplicației: organic întâi (gratuit, aduce deja comenzi); plătit doar cu ofertă fixă la CPC-ul de rentabilitate (~0,5 lei), 150 lei/lună, numai crema de orez; reguli de oprire și creștere.
+  - Înlocuiește „500–600 lei pe lună” din 16.11, pentru că la 5,35 lei pe clic n-a adus nicio comandă. Pornirea propunerii #14 rămâne la Marius.

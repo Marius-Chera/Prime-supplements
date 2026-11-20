@@ -127,3 +127,21 @@ Alternativă: proprietarul se loghează în ads.openai.com în browserul aplica�
 - **16.11 – conectare finalizată:** contul de reclame „Prime Supplements” legat de magazin din aplicația ChatGPT din Shopify; pixelul **„OpenAI Pixel for Shopify - fd53f826”** creat (evenimente automate: View content, Page view, Add to cart, Begin checkout, Purchase); în Ads Manager a apărut tabul „Products” (catalogul Shopify). Evenimentul **Purchase** atașat campaniei (obiectivul rămâne Clicks; conversia e doar pentru măsurare). Campania: „Partial Serving” (rulează doar anunțurile cu crema de orez).
 - Politica de cookie-uri (`/pages/politica-de-cookies`) actualizată pe 16.11: rândul „OpenAI Pixel – reclame în ChatGPT” la marketing (doar cu acord) și OpenAI în lista furnizorilor care pot transfera date în SUA; verificat pe site.
 - Primul raport săptămânal pornit manual pe 16.11 (sarcina „raport-saptamanal-chatgpt”); apoi automat lunea la 09:00.
+
+## 11. Strategia din Reclame Prime (20.11.2026, cerută de Marius: „să fim prezenți și în ChatGPT Ads și să fim eficienți”)
+
+**Calculul, pe datele reale din aplicație:**
+- Comanda medie din reclame: 212,94 lei. Cu marja de 17 %, cel mult **36,20 lei** pe comandă pot merge pe reclamă.
+- Site-ul transformă în comenzi **1,19 %** din clicurile plătite (Meta + Google: 191 de comenzi din 16.042 de clicuri în 60 de zile).
+- Deci **un clic valorează cel mult 0,43 lei**. Pe ChatGPT am plătit **5,35 lei pe clic**, de 12 ori mai mult: 684,65 lei, 128 de clicuri, 0 comenzi.
+- În schimb, ChatGPT ne aduce **gratuit** comenzi din recomandări: 4 comenzi, 845 lei, din 7.10.
+
+**Strategia** (cardul „ChatGPT – prezență eficientă” din tab-ul Strategie):
+1. **Organic întâi, gratuit:** catalogul din Business Hub cu feed zilnic (există), toate produsele permise complete, pagini care răspund la întrebări, recenzii. Aplicația numără lunar comenzile organice.
+2. **Plătit, doar la prețul corect:** ofertă fixă de cel mult **0,50 lei pe clic**, buget total **150 lei** (21.11–20.12), doar crema de orez (singurul produs permis cu anunțuri aprobate). Link direct pe pagina produsului (colecția a avut 50 de vizite și 0 comenzi). Anunțuri și poze noi. Propunerea **#14** în tab-ul „Creare”, validată de OpenAI.
+3. **Reguli:**
+   - oprim la 150 lei fără comenzi;
+   - +20 % buget la ≥ 3 comenzi cu cost sub 36 lei;
+   - licitare pe conversii abia după ~15 comenzi;
+   - sub 200 de afișări în 7 zile = locul e prea scump, deci rămânem pe organic.
+4. **Whey, creatină și EAA:** doar când OpenAI permite suplimentele în UE.

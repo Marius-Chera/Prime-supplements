@@ -51,4 +51,4 @@ Cauza comună: discounturi de 20–33 % pe factură, aplicate peste prețul B2B,
 1. Un minim de marjă pe B2B (de exemplu 25 %), apoi prețurile B2B recalculate pe costurile noi. Discounturile pe factură B2B să nu treacă de minim.
 2. Reducerile de pe site trebuie revăzute față de costurile noi Pro Nutrition.
 
-> Continuare (20.11): ieșirile pe tipuri de document și recalcularea marjei sunt în `IESIRI-FARA-VANZARE-SEPTEMBRIE-2026.md`. Pe scurt: cele ~3.850 de bucăți sunt plicuri Frutilu scoase prin inventar și transferuri. Costul din SAGA pe septembrie pare umflat cu ~31.600 lei, iar marja estimată e ~29 
+> Continuare (20.11): ieșirile pe tipuri de document și recalcularea marjei sunt în `IESIRI-FARA-VANZARE-SEPTEMBRIE-2026.md`. Pe scurt: cele ~3.850 de bucăți sunt plicuri Frutilu scoase prin inventar și transferuri. Costul din SAGA pe septembrie pare umflat cu ~31.600 lei, iar marja estimată e ~29 %.

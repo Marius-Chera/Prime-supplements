@@ -48,4 +48,4 @@ Marja la prețul de listă de pe site, la costul actual (fără TVA): Prime Whey
 - Lista facturilor B2B din septembrie, cu prețul de vânzare față de cost pe fiecare produs. Raportul „Profit pe produs” din Oblio dă eroare de timp (504) pe gestiunea online chiar și pe o singură zi; se poate face din liniile facturilor.
 - Diferența de achiziții din septembrie: SAGA are 172.643 lei intrări pe online (inclusiv 91.295 de la ARBOS), Oblio 155.704.
 
-> Continuare (20.11): ieșirile pe tipuri de document și recalcularea marjei sunt în `IESIRI-FARA-VANZARE-SEPTEMBRIE-2026.md`. Pe scurt: cele ~3.850 de bucăți sunt plicuri Frutilu scoase prin inventar și transferuri. Costul din SAGA pe septembrie pare umflat cu ~31.600 lei, iar marja estimată e ~29 
+> Continuare (20.11): ieșirile pe tipuri de document și recalcularea marjei sunt în `IESIRI-FARA-VANZARE-SEPTEMBRIE-2026.md`. Pe scurt: cele ~3.850 de bucăți sunt plicuri Frutilu scoase prin inventar și transferuri. Costul din SAGA pe septembrie pare umflat cu ~31.600 lei, iar marja estimată e ~29 %.

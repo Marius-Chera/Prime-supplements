@@ -610,3 +610,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **20.11 – ChatGPT Ads, strategie (Marius):** „să fim prezenți și în ChatGPT Ads și să fim eficienți”.
   - Răspunsul aplicației: organic întâi (gratuit, aduce deja comenzi); plătit doar cu ofertă fixă la CPC-ul de rentabilitate (~0,5 lei), 150 lei/lună, numai crema de orez; reguli de oprire și creștere.
   - Înlocuiește „500–600 lei pe lună” din 16.11, pentru că la 5,35 lei pe clic n-a adus nicio comandă. Pornirea propunerii #14 rămâne la Marius.
+- **20.11 – SAGA C (Marius):** contabila lucrează în SAGA C; Marius vrea să vadă exact ce înregistrează. Decizie: **arhiva de salvare a firmei**, cerută deja de Marius contabilei. Claude o citește doar în citire, pe copie; datele contabile stau în `D:\Prime Supplements\contabilitate-saga\`, nu în repo. Planul: `contabilitate/SAGA-C-ACCES-2026-11-20.md`.

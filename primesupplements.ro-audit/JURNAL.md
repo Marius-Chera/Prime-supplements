@@ -1926,3 +1926,17 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - **Facturile se citesc din Oblio doar în citire**, pe jumătăți de lună (ultimele 120 de zile), și se țin în baza aplicației. Facturile mai vechi pomenite în plăți se citesc una câte una. Oblio permite doar câteva citiri pe minut: prima încărcare durează câteva minute, iar pagina continuă singură.
   - **Pe datele reale din oct.–nov.**, doar cu facturile din sept.–nov.: 25 din 37 de plăți de la firme / persoane au fost legate exact de facturi, inclusiv plăți pe 4–5 facturi și plăți fără număr de factură (după CUI și sumă). Restul sunt mai ales plăți din octombrie pe facturi din iunie–august, care se leagă după ce se citesc și acele luni.
   - **Excelul „în trepte”:** factura apare în coloana decontului, iar foaia Lipsuri are secțiunea 5 (plăți nelegate de factură).
+- 21.11 (noaptea): Total Admin, Cheltuieli – **importul facturilor primite din SPV, prin exportul Oblio „Documente din SPV”** (Marius: „fă buton … să import eu facturile preluate de Oblio din SPV și tu să aloci fiecărui cost plătit factura … iar la explicație să preiei din factură ce anume s-a facturat”). Commit prime-expediere `e076a2d`, versiunea 645837b2, migrarea 0019, 199 de teste.
+  - **Butonul „🧾 Importă facturile din SPV (Oblio)”** primește PDF-ul lunii din Oblio (toate facturile într-un PDF) sau câte o factură. Fiecare factură se salvează o singură dată, după indexul de descărcare din SPV: reimportul nu dublează nimic. PDF-ul fiecărei facturi se taie din export și se păstrează la factură, în R2.
+  - **Legarea de plăți se face singură:**
+    - după furnizor (IBAN sau nume) și numărul facturii din detaliile OP-ului, inclusiv plățile în rate;
+    - după furnizor și sumă (o factură sau câteva care adunate dau plata);
+    - la card, după sumă și comerciant.
+    - Când se potrivește doar suma, apare o „sugestie” cu butonul „Leagă”.
+    - Plata legată are documentul (factura din SPV), iar explicația ei e ce s-a facturat.
+    - De mână: „leagă de plată”, „nu e plata ei” și „achitată altfel” (reținută din decont, compensare, cash, cardul personal).
+  - **Cardul „Facturi din SPV”** are filtrele De plată (cu scadența și zilele de întârziere), Luna asta și Toate. Furnizorii de marfă apar doar ca „Furnizor N (marfă)”: 1, 2 și 3 sunt marcați și după CIF, în baza aplicației, nu în repo.
+  - **Excel:** foile noi „Facturi SPV” și „Neachitate”.
+  - **Pe exportul real din octombrie** (47 de facturi, 402.463,97 lei), plățile din octombrie se leagă singure de 19 facturi (de exemplu FPL 1037, plătită în două rate) și rămâne o sugestie (Cafe AZ, plătită cu cardul prin Cargus). Rămân de plată 28 de facturi, mai ales Muscle Shop și Nutrafit; FPL 1062 are scadența pe 22.11.
+  - Cele 47 de facturi sunt deja în aplicație (încărcate de mine cu același cititor). **Pentru PDF-urile lor**, Marius importă o dată exportul din octombrie din butonul nou: facturile nu se dublează, se adaugă doar PDF-urile.
+  - Netopia NFSC… (comisioane reținute din decont) se marchează din ✎ ca „reținută din decont”.

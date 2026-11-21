@@ -1947,3 +1947,11 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Executorii (170 lei, 27.10) și restul n-au plata în extrasele din octombrie, pentru că s-au plătit în noiembrie. Extrasele din noiembrie (2–19.11) sunt încărcate fără plăți: după ce Marius le reîncarcă la Extras de cont, facturile se bifează singure.
   - Facturile mici de la curieri și magazine online (FAN, DC Folie, BrandPaper, Meda, SOF, Attila) par plătite ramburs, fără bancă: se marchează din ✎ ca „plătită cash”.
   - Commit prime-expediere de după `0a5b546`, 199 de teste.
+- 21.11 (noaptea): Total Admin, Cheltuieli – **butonul „🔄 Resincronizează”** (Marius: „fă un buton cu resincronizează” și „butonul să anunțe dacă lipsește vreun extras de cont la zi, adică în data când s-a dat resincronizare”).
+  - Butonul reface legăturile dintre plăți și facturile din SPV pe luna aleasă. Apoi spune câte plăți sunt legate de facturi, câte facturi din SPV sunt încă de plată (cu suma) și ce extras de cont lipsește.
+  - Pe fiecare cont, extrasul zilnic trebuie să existe până în ultima zi bancară dinaintea zilei apăsării. Extrasul zilei apare abia după închiderea ei, iar weekendul și sărbătorile legale nu se cer.
+  - Între două extrase, lipsește ceva doar dacă soldul nu se leagă. La conturile cu extras lunar (EUR, USD, al doilea cont RON) se cere luna trecută încheiată.
+  - Pe datele reale de azi (sâmbătă, 21.11) lipsește doar extrasul din vineri, 20.11, la contul principal RON. Lanțul de solduri septembrie → octombrie → noiembrie se leagă.
+  - Extrasele din noiembrie (2–19.11) au fost reîncărcate de Marius cu plăți. Facturi legate acum singure de plăți din noiembrie: executorii EXTS 16665 (170 lei, plătită pe 02.11), Attila 029, Orange, Urban Body 2239 și o rată din FPL 1062 (Pro Nutrition, 42.851,97 lei din 192.851,97).
+  - Din 47 de facturi: 23 plătite, 2 parțial, 1 achitată altfel, 1 storno, 20 neplătite. Cele neplătite sunt în mare parte Muscle Shop (POS, de compensat), Nutrafit, Sunimprof și facturile mici de la curieri sau magazine (de marcat „plătită cash”).
+  - Commit prime-expediere `d3b64a9`, versiunea b5dd65a3, 208 teste. Butonul e pe pagina live. N-am putut să-l apăs eu în Shopify Admin, pentru că tab-ul din Chrome nu răspunde la capturi; verificarea s-a făcut pe datele din D1.

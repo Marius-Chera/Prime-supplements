@@ -1941,3 +1941,9 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Cele 47 de facturi sunt deja în aplicație (încărcate de mine cu același cititor). **Pentru PDF-urile lor**, Marius importă o dată exportul din octombrie din butonul nou: facturile nu se dublează, se adaugă doar PDF-urile.
   - Netopia NFSC… (comisioane reținute din decont) se marchează din ✎ ca „reținută din decont”.
 - 21.11 (noaptea): Total Admin, Cheltuieli – **numele furnizorilor se afișează normal** (Marius: „scoate regula cu ascunderea numelui de furnizori și fă să se afișeze normal numele lor”). Plățile, facturile din SPV și Excelul arată acum numele real, inclusiv la furnizorii de marfă, care rămân doar marcați cu „furnizor de marfă”. Commit prime-expediere `0a5b546`, versiunea 209150a7. Etichetele din Stocuri → De comandat („Furnizor 1–4”) se pot redenumi din Setări → Furnizori.
+- 21.11 (noaptea): Total Admin, Cheltuieli – **facturile din SPV găsite în extrase se bifează singure ca plătite** (Marius: „la ce găsești în extrasele de cont bifează-le ca și cum le-am plătit deja”).
+  - Pe lângă furnizor + număr și furnizor + sumă, se leagă acum și plata cu aceeași sumă la bani, puțin după factură (card: 12 zile, OP: 45), când e singura factură deschisă cu suma asta. Dacă sunt mai multe, rămâne „sugestie”.
+  - În octombrie: 20 de facturi legate de plăți. Nouă: Cafe AZ 193,89, plătită cu cardul prin Cargus.
+  - Executorii (170 lei, 27.10) și restul n-au plata în extrasele din octombrie, pentru că s-au plătit în noiembrie. Extrasele din noiembrie (2–19.11) sunt încărcate fără plăți: după ce Marius le reîncarcă la Extras de cont, facturile se bifează singure.
+  - Facturile mici de la curieri și magazine online (FAN, DC Folie, BrandPaper, Meda, SOF, Attila) par plătite ramburs, fără bancă: se marchează din ✎ ca „plătită cash”.
+  - Commit prime-expediere de după `0a5b546`, 199 de teste.

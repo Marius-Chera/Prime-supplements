@@ -1955,3 +1955,23 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Extrasele din noiembrie (2–19.11) au fost reîncărcate de Marius cu plăți. Facturi legate acum singure de plăți din noiembrie: executorii EXTS 16665 (170 lei, plătită pe 02.11), Attila 029, Orange, Urban Body 2239 și o rată din FPL 1062 (Pro Nutrition, 42.851,97 lei din 192.851,97).
   - Din 47 de facturi: 23 plătite, 2 parțial, 1 achitată altfel, 1 storno, 20 neplătite. Cele neplătite sunt în mare parte Muscle Shop (POS, de compensat), Nutrafit, Sunimprof și facturile mici de la curieri sau magazine (de marcat „plătită cash”).
   - Commit prime-expediere `d3b64a9`, versiunea b5dd65a3, 208 teste. Butonul e pe pagina live. N-am putut să-l apăs eu în Shopify Admin, pentru că tab-ul din Chrome nu răspunde la capturi; verificarea s-a făcut pe datele din D1.
+- 21.11 (noaptea): Total Admin, Cheltuieli → Contracte – **„Citește contractul” și plata legată de contract** (Marius: „nu poate aplicația să scaneze contractul și să vadă că este una din plățile recurente… mai ales că este precizată suma în contract, 300 lei, fix cât este plata?”).
+  - **De ce plata de 300 lei din 28.10 apărea „fără document”:**
+    - În contractul sponsorizării salvat în aplicație, IBAN-ul era scris fără „RON” (21 de caractere în loc de 24), iar aplicația lega plățile doar după IBAN.
+    - Lunile erau octombrie–noiembrie 2026. Contractul (scanat) spune altceva: încheiat pe 28.08.2026, lunar, 300 lei, valabil până la 31.08.2027.
+  - **Reparat:**
+    - Plata se leagă de contract și după numele beneficiarului, chiar dacă IBAN-ul din contract e altul sau greșit.
+    - La salvarea unui contract, IBAN-ul se verifică după cifrele de control, deci o greșeală de felul ăsta nu mai trece.
+    - Contractul Asociației a fost corectat în D1 după document: IBAN-ul corect, din 2026-08 până în 2027-08. Înainte: IBAN fără „RON”, 2026-10 – 2026-11.
+    - Plățile din 28.09 și 28.10 (câte 300 lei) apar acum legate de contract, cu document.
+  - **Nou în formularul contractului:**
+    - „🔍 Citește contractul”, pentru contractele salvate.
+    - „📄 Completează din contract (PDF / poze)”, pentru contractele noi: documentul se atașează la Salvează.
+    - Citirea pornește singură și după „Încarcă contractul”.
+  - **Cum citește:**
+    - Textul din PDF sau, la scanări și poze, OCR în română (Tesseract 5.1.1, direct în browser, gratuit).
+    - Serverul scoate suma, moneda, periodicitatea, data încheierii, finalul și IBAN-ul.
+    - IBAN-ul stricat de OCR (O/0, I/1, S/8) se potrivește cu IBAN-urile plăților din extrase. Arată și plățile găsite.
+    - Câmpurile schimbate se marchează cu galben și nu se salvează singure.
+  - **Verificat pe contractul real** (OCR local, aceeași versiune): 300 lei, lunar, 28.08.2026 – 31.08.2027, IBAN-ul corect al Asociației. Cele două IBAN-uri citite greșit de OCR au fost potrivite cu cel corect.
+  - Commit prime-expediere `51218c0`, versiunea 7cd9cc75, 217 teste. **Neverificat:** citirea din browser, în Shopify Admin. Pagina de test locală nu a putut fi pornită, iar tab-ul din Chrome nu răspunde la capturi. Copiile contractului folosite la test au fost șterse.

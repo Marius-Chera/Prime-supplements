@@ -1912,3 +1912,17 @@ Fiecare sesiune adaugă aici, pe scurt, ce a schimbat (data, zona, ce s-a făcut
   - Verificat: pagina publicată arată fila Cheltuieli, cu formularele și Excelul pe date de test (în afara Shopify). Interogările raportului au rulat fără erori pe baza reală. Nu am deschis aplicația în Shopify Admin, pentru că browserul aplicației nu e logat în Shopify.
 - 21.11 (noaptea): Total Admin, Extras de cont – **lista „rambursuri expediate de peste 14 zile, fără încasare Cargus” apare din nou** (Marius: „Da, repară-l”). Verificarea lunii din `bankPeriod` nu accepta nicio lună, din cauza unui regex scris greșit, așa că lista nu se încărca niciodată. Am adăugat un test (182 în total). Versiunea 16be2066, commit prime-expediere `63e0659`.
 - 21.11 (noaptea): **Cloudflare R2 activat pe contul Prime** (planul gratuit: 10 GB pe lună, 0 $ acum și 0 $ pe lună în limită; Marius: „Da, activează”, iar activarea a apărut făcută în Chrome înainte de clicul meu). Am creat bucket-ul privat `prime-expediere-docs` și binding-ul `DOCS` în Total Admin (versiunea a6812974, commit prime-expediere după `63e0659`). În Cheltuieli se pot încărca acum documentele (poze micșorate, PDF-uri). Testul de încărcare din Shopify Admin n-a putut fi făcut de mine: tab-ul din Chrome a încetat să răspundă. Rămâne de verificat cu primul document real.
+- 21.11 (noaptea): Total Admin, Extras de cont – **„altă încasare” e legată acum de factura PRS din Oblio** (Marius: „aici unde scrie «altă încasare» de ce scrie așa?”, apoi „Da, leagă-le”). Commit prime-expediere `2e789ea`, migrarea 0018, 192 de teste.
+  - **De ce apărea „altă încasare”:** aplicația lega doar banii din rapoartele Cargus, Netopia și Shopify Payments. Restul intrărilor nu erau legate de nimic.
+  - **Plățile de la firme** (și de la persoanele care plătesc o factură anume) se leagă de facturi. Întâi după numerele scrise în detaliile plății („PRS 15009,15483”, „f 13460 f 14249”, „Fact 14928 15263”). Apoi după client (CUI-ul plătitorului din extras = CUI-ul de pe factură, sau numele) și sumă: o factură sau câteva care adunate dau suma.
+  - Stări noi: „legat de factură”, „factură, altă sumă” (plată parțială) și „client găsit, de verificat” (suma nu se potrivește: avans sau plată parțială).
+  - **Celelalte intrări au acum eticheta lor:**
+    - POS-ul BT din magazin („Data entry carduri”, 59 de rânduri în oct.–nov.);
+    - transfer între conturile proprii / schimb valutar;
+    - depunere de numerar;
+    - creditare de la asociat;
+    - restituire de la furnizor;
+    - retur pe card.
+  - **Facturile se citesc din Oblio doar în citire**, pe jumătăți de lună (ultimele 120 de zile), și se țin în baza aplicației. Facturile mai vechi pomenite în plăți se citesc una câte una. Oblio permite doar câteva citiri pe minut: prima încărcare durează câteva minute, iar pagina continuă singură.
+  - **Pe datele reale din oct.–nov.**, doar cu facturile din sept.–nov.: 25 din 37 de plăți de la firme / persoane au fost legate exact de facturi, inclusiv plăți pe 4–5 facturi și plăți fără număr de factură (după CUI și sumă). Restul sunt mai ales plăți din octombrie pe facturi din iunie–august, care se leagă după ce se citesc și acele luni.
+  - **Excelul „în trepte”:** factura apare în coloana decontului, iar foaia Lipsuri are secțiunea 5 (plăți nelegate de factură).

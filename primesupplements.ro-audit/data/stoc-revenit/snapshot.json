@@ -1,7 +1,7 @@
 {
- "data": "2026-11-20",
+ "data": "2026-11-21",
  "produse_active": 213,
- "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi.",
+ "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi. Actualizat 21.11: valorile suplimentelor/cremelor reîmprospătate din Shopify; produsele cu stoc 0 neschimbate.",
  "produse": {
   "baton-proteic-capsuni": {
    "totalInventory": 48,
@@ -52,15 +52,15 @@
    "publishedAt": "2025-05-05"
   },
   "magnesium-citrate-80-caps": {
-   "totalInventory": 43,
+   "totalInventory": 42,
    "publishedAt": "2025-05-05"
   },
   "nac-80-caps": {
-   "totalInventory": 313,
+   "totalInventory": 312,
    "publishedAt": "2025-05-05"
   },
   "taurine-80-caps": {
-   "totalInventory": 46,
+   "totalInventory": 45,
    "publishedAt": "2025-05-05"
   },
   "turmeric-extract-80-caps": {
@@ -72,7 +72,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamin-c-1000-80-caps": {
-   "totalInventory": 34,
+   "totalInventory": 33,
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
@@ -84,15 +84,15 @@
    "publishedAt": "2025-05-05"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 757,
+   "totalInventory": 755,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 46,
+   "totalInventory": 45,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 187,
+   "totalInventory": 186,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
@@ -128,7 +128,7 @@
    "publishedAt": "2025-05-05"
   },
   "maiou-stringer": {
-   "totalInventory": 35,
+   "totalInventory": 34,
    "publishedAt": "2025-05-05"
   },
   "maiou-stringer-white": {
@@ -152,7 +152,7 @@
    "publishedAt": "2025-05-05"
   },
   "hanorac-prime-squad": {
-   "totalInventory": 18,
+   "totalInventory": 17,
    "publishedAt": "2025-05-05"
   },
   "t-shirt-drop-shoulder-muscle-white": {
@@ -160,11 +160,11 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 27,
+   "totalInventory": 26,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
-   "totalInventory": 14,
+   "totalInventory": 12,
    "publishedAt": "2025-05-05"
   },
   "prime-bodybuilding-classic-pants": {
@@ -176,15 +176,15 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-caju": {
-   "totalInventory": 2,
+   "totalInventory": 1,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 292,
+   "totalInventory": 291,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 494,
+   "totalInventory": 492,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
@@ -232,7 +232,7 @@
    "publishedAt": "2025-06-03"
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 200,
+   "totalInventory": 199,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
@@ -256,7 +256,7 @@
    "publishedAt": "2026-03-29"
   },
   "mnx-shaker-600-ml": {
-   "totalInventory": 53,
+   "totalInventory": 47,
    "publishedAt": "2026-03-29"
   },
   "crema-de-orez-blueberry-muffin": {
@@ -264,15 +264,15 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 244,
+   "totalInventory": 242,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 245,
+   "totalInventory": 242,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 241,
+   "totalInventory": 238,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -344,15 +344,15 @@
    "publishedAt": "2026-09-13"
   },
   "pantaloni-scurti-waffle-barbati-hammer-3-0-prime-negri": {
-   "totalInventory": 95,
+   "totalInventory": 94,
    "publishedAt": "2026-09-13"
   },
   "tricou-oversized-barbati-hammer-3-0-prime-negru": {
-   "totalInventory": 73,
+   "totalInventory": 72,
    "publishedAt": "2026-09-13"
   },
   "maieu-fitness-barbati-edge-prime-negru": {
-   "totalInventory": 93,
+   "totalInventory": 92,
    "publishedAt": "2026-09-13"
   },
   "mnx-pants-motion-black": {

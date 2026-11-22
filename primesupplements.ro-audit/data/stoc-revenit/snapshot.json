@@ -1,5 +1,5 @@
 {
- "data": "2026-11-21",
+ "data": "2026-11-22",
  "produse_active": 213,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi. Actualizat 21.11: valorile suplimentelor/cremelor reîmprospătate din Shopify; produsele cu stoc 0 neschimbate.",
  "produse": {
@@ -92,7 +92,7 @@
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 186,
+   "totalInventory": 184,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
@@ -124,7 +124,7 @@
    "publishedAt": "2025-05-05"
   },
   "combat-pro": {
-   "totalInventory": 104,
+   "totalInventory": 102,
    "publishedAt": "2025-05-05"
   },
   "maiou-stringer": {
@@ -140,7 +140,7 @@
    "publishedAt": "2025-05-05"
   },
   "energy-pump": {
-   "totalInventory": 450,
+   "totalInventory": 449,
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
@@ -160,7 +160,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 26,
+   "totalInventory": 25,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -180,15 +180,15 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 291,
+   "totalInventory": 288,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 492,
+   "totalInventory": 490,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 103,
+   "totalInventory": 102,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
@@ -208,7 +208,7 @@
    "publishedAt": "2025-05-05"
   },
   "silimarina-80-caps": {
-   "totalInventory": 75,
+   "totalInventory": 74,
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
@@ -220,11 +220,11 @@
    "publishedAt": "2025-05-05"
   },
   "glycerol-max-pump-500g-125-serv": {
-   "totalInventory": 79,
+   "totalInventory": 78,
    "publishedAt": "2025-05-05"
   },
   "fiber-blood-orange": {
-   "totalInventory": 86,
+   "totalInventory": 85,
    "publishedAt": "2025-06-02"
   },
   "prime-whey-go": {
@@ -268,11 +268,11 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 242,
+   "totalInventory": 241,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 238,
+   "totalInventory": 232,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {

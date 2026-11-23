@@ -77,3 +77,28 @@ Bună ziua! Lucrăm cu agenția de design la etichetele și cutiile pentru shot-
 
 Mulțumim! Marius Chera, Prime Sport Supplements
 ```
+
+## 3. Mailul către Perfect Care – producție (23.11 seara, netrimis)
+
+Mariana Radu pe WhatsApp, 23.11, 15:10: cererea pentru ștanță se trimite **pe mail lui Alexandru Sălăjan (alexandru.salajan@perfectcare.ro), cu Mariana (mariana.radu@perfectcare.ro) în CC**, iar în mail trebuie confirmată **mărimea seriei (MOQ-ul minim pe comandă)**. Marius crede că s-a stabilit 10.000 de flacoane pe produs; Mariana nu poate confirma, nu se ocupă de producție. În `OneDrive\Desktop\moq perfect care.xlsx` shot-urile au doar prețul (Magneziu bisglicinat 4,65 €/flacon), fără MOQ. Codurile EAN nu le mai cerem fabricii: le-am generat noi.
+
+**Către:** alexandru.salajan@perfectcare.ro · **CC:** mariana.radu@perfectcare.ro
+**Subiect:** Shot-uri Magneziu bisglicinat și Colagen 12 000 mg + Glucozamină – ștanța cutiei, detalii de tipar și mărimea seriei
+
+Bună ziua, domnule Sălăjan,
+
+Vă scriu la recomandarea Marianei. Lucrăm cu agenția de design la etichetele și cutiile pentru shot-urile Magneziu bisglicinat (200 mg Mg) și Colagen bovin 12 000 mg + Glucozamină (flacoane de 25 ml, cutie cu 20 de flacoane) și avem nevoie de câteva informații pentru fișierele de tipar:
+
+1. Ștanța cutiei de 20 × 25 ml (desfășurata, de preferat în format vectorial: PDF, AI sau DXF), cu dimensiunile, liniile de tăiere și de bigui și zonele de lipire.
+2. Eticheta de pe flacon: agenția a calculat 60 × 50 mm (flacon Ø 20,8 mm, zonă utilă 50–55 mm). Ne confirmați dimensiunea, sensul de derulare, diametrul interior al rolei și numărul de etichete pe rolă pentru mașina dumneavoastră de etichetat?
+3. Zona pentru lot și data expirării: unde le tipăriți (pe flacon și pe cutie) și cât spațiu liber trebuie lăsat.
+4. Mărimea seriei: din ce știm, comanda minimă este de [10.000] flacoane pe produs. Ne confirmați, vă rog?
+5. Termenul: până când trebuie să primiți fișierele finale de tipar ca să intrăm în producție, și în cât timp după aceea e gata marfa.
+
+Codurile de bare EAN-13 pentru flacoane și cutii le avem deja; vi le trimitem odată cu fișierele de tipar.
+
+Vă mulțumim,
+
+Marius Chera
+CEO, Prime Sport Supplements
+Tel: +40 747866049

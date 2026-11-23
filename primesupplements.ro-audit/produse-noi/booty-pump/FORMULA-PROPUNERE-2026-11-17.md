@@ -83,3 +83,8 @@ Pot face produsul, dar **fără glicerol pulbere 65 %** – au doar **glicerol m
 ### Formula propusă v3 (de confirmat cu fabrica)
 dextrină ciclică 10 g · L-citrulină 6 g · creatină monohidrată 3 g · **betaină anhidră 2,5 g (doza cât permite notificarea)** · taurină 1,5 g · citicolină 500 mg · electroliți (Na ~300 mg, K ~200 mg) · arome/îndulcitor/colorant. Fără glicerol, fără beta-alanină.
 Porția rămâne ~26–27 g → 500 g ≈ 18–19 porții. Pe etichetă, căsuța „3 g GLYCEROL 65%” devine „2,5 g BETAINE” (de refăcut după confirmare).
+
+## DECIS de Marius (23.11.2026)
+Rămâne **glicerol monostearat** (ca în NitroX/Combat) și se adaugă **betaină 1,5 g/porție** (comunicat fabricii). Beta-alanină nu.
+- La 1,5 g/zi se poate folosi mențiunea UE autorizată: „Betaina contribuie la metabolismul normal al homocisteinei” – cu informarea obligatorie că efectul se obține la 1,5 g/zi și că un aport zilnic de peste 4 g poate crește semnificativ colesterolul din sânge.
+- De refăcut pe etichetă când vine fișa tehnică: căsuța „3 g GLYCEROL 65%” → glicerol monostearat (doza de la fabrică) + „1,5 g BETAINE”, tabelul și textele RO/EN.

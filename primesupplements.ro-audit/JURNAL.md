@@ -2040,3 +2040,15 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Strategia** încape și în total: renunță la creșteri, taie, iar la nevoie propune oprirea celor cu ROAS mic.
   - **O propunere nouă care nu încape** oprește întâi campaniile vechi cu cel mai slab ROAS real; cele aflate în învățare sunt exceptate. Confirmarea le arată, iar fiecare oprire intră în Jurnal.
   - 108 teste. Regula e trecută și în `CLAUDE.md`.
+- 23.11, **Prime eMAG – pagina nouă „Produse pe eMAG”** (Marius: „fa o pagina in aplicatia prime emag sa stim ce produse sunt listate la ei pe site si la ce preturi”).
+  - **Unde:** Shopify → Aplicații → Prime eMAG → Produse pe eMAG. E doar citire, direct din eMAG; „Reîncarcă din eMAG” aduce datele la zi.
+  - **Ce arată pe fiecare produs:**
+    - link spre pagina emag.ro (la cele aprobate);
+    - statusul: la vânzare / în validare / respins cu motivul / fără stoc / oprit;
+    - prețul eMAG cu TVA, cel de pe site și semnalarea abaterii de la regula ÷ 0,82;
+    - cel mai mic preț de pe pagina produsului (toți vânzătorii) și câți vânzători sunt;
+    - dacă avem butonul de coș;
+    - stocul eMAG / site.
+  - **Filtre:** cifre pe statusuri și căutare după nume sau EAN.
+  - **La prima afișare:** 90 de produse, 60 la vânzare, 17 în validare, 13 cu statusul vechi de respins (retrimise azi). Toate prețurile respectă regula; suntem singurul vânzător pe paginile noastre și avem butonul de coș.
+  - **Cod:** `src/produse.ts`, 4 teste noi (33/33), deploy 04c27b1e.

@@ -629,3 +629,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **23.11 – regulă permanentă pentru 2027 (Marius):** maximum 7.000 lei pe lună pe reclame, tot anul.
   - Orice sugestie din aplicație se încadrează în limite.
   - O propunere nouă care nu încape propune oprirea unei reclame mai vechi și mai slabe, nu buget în plus.
+- 23.11.2026: alertele de poziție la „creatina” (14,5 → 21) și „aminoacizi eaa” (25,3 → 28,3) se repară **după 1.12**, prin textele de produs și colecție (pașii 7, 10 și 12 din planul după Black Friday). Decizia lui Marius: „După 1.12”. Fără excepție înainte.

@@ -2025,3 +2025,12 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - CrUX: LCP 1,2 s; 0 linkuri rupte; Scor SEO 88,2.
     - Panelul AI: Prime 1 mențiune în Gemini și 0 în ChatGPT pe 23.11 (5 pe 16.11).
     - Creatina a scăzut pe Google de pe locul 14,5 pe 21.
+- 23.11, **Prime Vizibilitate – calendar pentru postările de pe social** (Marius: „fă un calendar … să nu apară toate în același moment, la câteva ore distanță”). Commit `prime-indexare` c521501.
+  - **Cum funcționează:** „Publică” nu mai trimite imediat. Rezervă următorul interval liber, la 09:00, 12:00, 15:00, 18:00 sau 21:00 (ora României), la cel puțin 3 ore după postarea anterioară, și îl programează în Zernio (`scheduledFor` + Europe/Bucharest). În tab apare „programată 24.11, 09:00”. Modul automat folosește același calendar.
+  - **Ce a scăpat:** cele 4 articole aprobate de Marius la 11:11, înainte de publicarea calendarului, au plecat imediat pe Facebook și Instagram: proteina seara, vitamina D, carbohidrați și ZMA. Starea ZMA, rămasă „se publică…”, a fost corectată în KV.
+  - **Cauza de fond:** KV poate da o copie veche a cozii la scrieri dese. De aceea starea fiecărei postări stă acum și într-o cheie proprie (`social-rez:*`), iar la citire câștigă starea cea mai nouă. 41 de teste trec.
+- 23.11, **Prime Vizibilitate – butoane la fiecare alertă** (Marius: „fă un buton după fiecare alertă … fixare”). Commit `prime-indexare`.
+  - „Reverifică” rulează din nou modulul (indexare, Search Console, pagini-cheie, viteză, scor, verificare completă, indexare Google).
+  - „Ce fac?” arată explicația și un text gata de dat lui Claude, pentru reparațiile pe magazin pe care aplicația nu are voie să le facă.
+  - „Rezolvată” închide alerta.
+  - Verificat în aplicație.

@@ -2004,3 +2004,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Poze noi: fundal alb pur (cutia de batoane era pe gri 242), produsul pe ~90 % din cadru, 2000×2000.
     - Generate cu `prime-emag/catalog/poze.mjs` și servite de aplicația Prime eMAG la `/img/…`. Shopify n-a fost atins.
   - **Retrimise toate 14.** Statusul trece în validare cu întârziere; se verifică din nou în 1–3 zile.
+- 23.11: **Reclame Prime – plafoane pe lună și pe platformă**, cerute de Marius: „bugetul total pentru ianuarie 7.000 lei: 2.000 Meta, 4.000 Google, 1.000 ChatGPT”.
+  - **Cardul nou** „Plafoane pe lună” din tab-ul Strategie: setezi luna curentă sau următoarele; serverul refuză orice pornire sau creștere de buget peste plafonul lunii.
+  - **Valorile implicite**, pentru lunile fără plafon setat: Meta 3.000, Google și ChatGPT fără plafon.
+  - **Ianuarie 2027 setat** (Jurnalul aplicației, „plafon lunar”): Meta 2.000, Google 4.000, ChatGPT 1.000 lei. 102 teste.
+  - **Atenție:** bugetele zilnice de acum depășesc ianuarie (Meta 96 lei/zi ≈ 2.976 lei/lună, Google 143 lei/zi ≈ 4.433 lei/lună). Pe 1.01, Strategia va propune tăierile ca totul să încapă (Meta ≤ ~64 lei/zi, Google ≤ ~129 lei/zi). Plafonul nu scade singur bugetele care deja rulează.

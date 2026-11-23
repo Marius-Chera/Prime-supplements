@@ -2009,3 +2009,19 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Valorile implicite**, pentru lunile fără plafon setat: Meta 3.000, Google și ChatGPT fără plafon.
   - **Ianuarie 2027 setat** (Jurnalul aplicației, „plafon lunar”): Meta 2.000, Google 4.000, ChatGPT 1.000 lei. 102 teste.
   - **Atenție:** bugetele zilnice de acum depășesc ianuarie (Meta 96 lei/zi ≈ 2.976 lei/lună, Google 143 lei/zi ≈ 4.433 lei/lună). Pe 1.01, Strategia va propune tăierile ca totul să încapă (Meta ≤ ~64 lei/zi, Google ≤ ~129 lei/zi). Plafonul nu scade singur bugetele care deja rulează.
+- 23.11, **Prime Vizibilitate – Social: „se publică…” blocat, reparat** (Marius: „cel anterior a rămas «se publică…»”).
+  - **Cauza:** pe 19.11 au pornit două publicări simultane, iar ultima a scris peste starea celeilalte.
+  - **Reparat (`prime-indexare` 418cc90):**
+    - starea se recitește înainte de scriere și se schimbă doar postarea respectivă;
+    - o reluare sare peste conturile deja publicate;
+    - pentru o postare blocată de peste 10 minute apare butonul „Reia”.
+  - **Greșeala lui Claude:** la reluarea creatinei, protecția Zernio împotriva dublării expirase, după circa 24 h, așa că postarea s-a dublat pe Facebook și pe Instagram.
+    - Cu „da”-ul lui Marius, dublura de pe Facebook a fost ștearsă prin Zernio.
+    - Dublura de pe Instagram din 23.11 nu se poate șterge prin API (Zernio nu suportă asta pentru Instagram), așa că o șterge Marius din aplicația Instagram.
+    - Postările originale din 19.11 rămân.
+  - **Raportul aplicației pe 16–23.11, dat lui Marius:**
+    - Google: 2.458 de clicuri în 28 de zile (708 în perioada anterioară); ultima săptămână −28 %, după vârful de Black Friday.
+    - Bing: 1.970 de trimiteri.
+    - CrUX: LCP 1,2 s; 0 linkuri rupte; Scor SEO 88,2.
+    - Panelul AI: Prime 1 mențiune în Gemini și 0 în ChatGPT pe 23.11 (5 pe 16.11).
+    - Creatina a scăzut pe Google de pe locul 14,5 pe 21.

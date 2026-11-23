@@ -49,3 +49,12 @@ Comandă în tranșe: ~110 kg pentru ianuarie–martie (vârful de început de a
 - Pentru decembrie 2026 mai trebuie ~50–60 de cutii de 500 g (~25–30 kg) peste ce e acum.
 
 De aflat de la Marius: timpul de livrare de la producător și cantitatea minimă de comandă (schimbă mărimea tranșelor).
+
+## Rezervarea de 1.000 kg (23.11.2026)
+
+Marius a rezervat 1.000 kg pentru 2027. Comparația cu cererea:
+- 1.000 kg înseamnă ~83 kg/lună, de ~2,8 ori ritmul actual (~30 kg/lună). Ar ajunge ~33 de luni (~2 ani dacă se păstrează ritmul din noiembrie).
+- Cost (Oblio, fără TVA): ~72,76 lei pe cutia de 500 g, deci ~146 lei/kg. 1.000 kg ≈ **~146.000 lei**, față de ~55.000 lei pentru 380 kg. Diferența de ~90.000 lei ar sta în stoc.
+- Merge bine dacă: rezervarea fixează prețul și cantitatea, iar marfa se ridică (și se plătește) în tranșe; SAU vinzi în plus ~600 kg prin B2B, eMag, agent sau în pachete; SAU reducerea de preț pentru volum acoperă costul banilor blocați.
+- Riscuri dacă vine tot odată: termenul de valabilitate (de verificat pe lot: dacă e ~2 ani de la fabricație, ultimele loturi ajung aproape de expirare), spațiul și banii blocați. Bugetul de reclame 2027 (maximum 7.000 lei/lună pe toate produsele, creatina a treia ca prioritate) nu poate tripla vânzările.
+- De aflat: dacă rezervarea e fermă sau se ridică pe tranșe, prețul față de comenzile mici, termenul de valabilitate, livrarea și în ce gramaje (500 g / 300 g).

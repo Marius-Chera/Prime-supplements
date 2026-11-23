@@ -630,3 +630,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Orice sugestie din aplicație se încadrează în limite.
   - O propunere nouă care nu încape propune oprirea unei reclame mai vechi și mai slabe, nu buget în plus.
 - 23.11.2026: alertele de poziție la „creatina” (14,5 → 21) și „aminoacizi eaa” (25,3 → 28,3) se repară **după 1.12**, prin textele de produs și colecție (pașii 7, 10 și 12 din planul după Black Friday). Decizia lui Marius: „După 1.12”. Fără excepție înainte.
+- 23.11.2026: **Creapure® 2027 – Marius a rezervat 1.000 kg** la producător (estimarea din vânzări era ~380–400 kg). Părerea mea și condițiile în care merge sunt în `stocuri/ESTIMARE-STOC-CREAPURE-2027.md`; de lămurit dacă rezervarea se ridică pe tranșe.

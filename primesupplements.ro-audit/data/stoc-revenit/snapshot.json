@@ -1,5 +1,5 @@
 {
- "data": "2026-11-22",
+ "data": "2026-11-23",
  "produse_active": 213,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi. Actualizat 21.11: valorile suplimentelor/cremelor reîmprospătate din Shopify; produsele cu stoc 0 neschimbate.",
  "produse": {
@@ -12,7 +12,7 @@
    "publishedAt": "2026-03-09"
   },
   "citrus-bergamot": {
-   "totalInventory": 182,
+   "totalInventory": 181,
    "publishedAt": "2025-05-05"
   },
   "ashwagandha-ksm-66": {
@@ -20,7 +20,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 944,
+   "totalInventory": 941,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -44,7 +44,7 @@
    "publishedAt": "2025-05-05"
   },
   "supliment-alimentar-chromium-picolinate-80-caps": {
-   "totalInventory": 11,
+   "totalInventory": 10,
    "publishedAt": "2025-05-05"
   },
   "l-carnitine-1000-80-caps": {
@@ -84,7 +84,7 @@
    "publishedAt": "2025-05-05"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 755,
+   "totalInventory": 753,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
@@ -92,11 +92,11 @@
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 184,
+   "totalInventory": 182,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
-   "totalInventory": 327,
+   "totalInventory": 326,
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
@@ -116,11 +116,11 @@
    "publishedAt": "2025-05-05"
   },
   "recovery-bcaa-500g": {
-   "totalInventory": 43,
+   "totalInventory": 42,
    "publishedAt": "2025-05-05"
   },
   "recovery-glutamin": {
-   "totalInventory": 260,
+   "totalInventory": 259,
    "publishedAt": "2025-05-05"
   },
   "combat-pro": {
@@ -140,7 +140,7 @@
    "publishedAt": "2025-05-05"
   },
   "energy-pump": {
-   "totalInventory": 449,
+   "totalInventory": 447,
    "publishedAt": "2025-05-05"
   },
   "fat-burning-booster": {
@@ -160,7 +160,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-arahide": {
-   "totalInventory": 25,
+   "totalInventory": 24,
    "publishedAt": "2025-05-05"
   },
   "unt-de-migdale": {
@@ -180,11 +180,11 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
-   "totalInventory": 288,
+   "totalInventory": 285,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 490,
+   "totalInventory": 483,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
@@ -260,19 +260,19 @@
    "publishedAt": "2026-03-29"
   },
   "crema-de-orez-blueberry-muffin": {
-   "totalInventory": 241,
+   "totalInventory": 233,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 242,
+   "totalInventory": 238,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 241,
+   "totalInventory": 238,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 232,
+   "totalInventory": 226,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
@@ -280,7 +280,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-apricot-10g": {
-   "totalInventory": 127,
+   "totalInventory": 123,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-chocolate-10g": {
@@ -288,7 +288,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-cola-10g": {
-   "totalInventory": 39,
+   "totalInventory": 35,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-energy-cranberry-10g": {
@@ -296,7 +296,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-forest-fruits-10g": {
-   "totalInventory": 7,
+   "totalInventory": 3,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-green-apple-10g": {
@@ -316,11 +316,11 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon-lime-10g": {
-   "totalInventory": 34,
+   "totalInventory": 33,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-mango-10g": {
-   "totalInventory": 44,
+   "totalInventory": 40,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-orange-10g": {
@@ -332,7 +332,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-watermelon-10g": {
-   "totalInventory": 112,
+   "totalInventory": 108,
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-sport-red-orange-10-g": {
@@ -509,5 +509,6 @@
   }
  },
  "nota_2026_11_12": "Actualizat parțial: valorile produselor cheie și ale celor cu stoc 0; restul au rămas neschimbate (diferențe mici de stoc nu afectează regula >=10). Pachetele Black Friday/noi nu sunt urmărite.",
- "nota_2026_11_13": "Actualizat din lista completă Shopify (3 pagini). Pachetele Black Friday/noi și hainele nu sunt urmărite individual."
+ "nota_2026_11_13": "Actualizat din lista completă Shopify (3 pagini). Pachetele Black Friday/noi și hainele nu sunt urmărite individual.",
+ "nota_2026_11_23": "Actualizat din lista completă Shopify (3 pagini); valori reîmprospătate pentru suplimente/creme/Frutilu. Haine și pachete nu sunt urmărite individual."
 }

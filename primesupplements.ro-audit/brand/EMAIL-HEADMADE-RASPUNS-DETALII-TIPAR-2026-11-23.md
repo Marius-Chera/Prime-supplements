@@ -51,7 +51,7 @@ Sursa notificării: `OneDrive\Desktop\Descriere eticheta flacon - Mg.pdf` și `D
 
 ## Varianta finală a mailului (Yahoo, Răspuns în firul „documente design collagen shot”, doar către Raluca)
 
-Atașament: `OneDriveDesktopCollagen-Shot-pentru-Headmade.zip` (certificatul Colagen AB 5971, textele din notificare, PDF-ul EAN, SVG-urile).
+Atașament: `OneDrive/Desktop/Collagen-Shot-pentru-Headmade.zip` (certificatul Colagen AB 5971, textele din notificare, PDF-ul EAN, SVG-urile).
 
 Bună, Raluca,
 

@@ -1,6 +1,18 @@
 # Late Black Friday – 25–28 noiembrie 2026 (plan cerut de proprietar pe 12.11.2026, schimbat pe 13.11 și 23.11)
 
-**Stare la 23.11 (seara):** codul `LATEBF20` e creat și programat (SCHEDULED). Textele sunt aprobate de Marius. În theMarketer există două ciorne, cu testul trimis la Marius și Adelina: e-mailul 1 (`6b043b09bfb0d5cd1a05703d`) și e-mailul 2 (`6b043b9b97c63d53630cd45b`, care exclude segmentul nou „LBF · au comandat în ultimele 4 zile”, `6b043b50a7d5a44ee80867a9`). Imaginile pentru social sunt în `social/2026-11-25-late-black-friday/`. **Încă neprogramate:** e-mailurile (așteaptă „ok” după test), SMS-ul (theMarketer trebuie logat în browser) și postările Zernio (așteaptă „ok” pe imagini). S-a hotărât un singur SMS, fără SMS 2 (Marius, 23.11). Fără A/B și fără retrimitere automată.
+**Stare la 23.11 (seara, după „Da, programează”):**
+- Codul `LATEBF20` e SCHEDULED.
+- **E-mailurile sunt programate în theMarketer:**
+  - e-mailul 1 (`6b043b09bfb0d5cd1a05703d`): 25.11 la 10:00, toată lista;
+  - e-mailul 2 (`6b043b9b97c63d53630cd45b`): 28.11 la 10:00, fără segmentul „LBF · au comandat în ultimele 4 zile”.
+- **Postările sunt programate în Zernio:**
+  - Instagram, carusel `6b043dc90f78fe63dc7d55a6`: 25.11 la 12:30;
+  - Facebook 1 (`6b043dcc0ceb56e95d45ef4e`): 25.11 la 12:30;
+  - Facebook 2 (`6b043dcfae152ab76a7fcd0b`): 27.11 la 12:30;
+  - Facebook 3 (`6b043dd2511ab7bde79d3edf`): 28.11 la 12:30.
+- Imaginile sunt în Shopify Files (`late-black-friday-2026-*.jpg`).
+- **Rămâne SMS-ul (25.11, 11:00):** se face doar din aplicația theMarketer, iar Marius trebuie să se logheze în browserul din aplicație.
+- Tot pe 26.11 și 28.11, la 12:00, pe Instagram și Facebook, sunt programate din octombrie postări cu pachete (Cura de Iarnă, Duo Magneziu). Au fost semnalate lui Marius și au rămas neschimbate.
 
 Excepție explicită a proprietarului de la regulile „fără Black Friday” și „fără coduri noi” din `CLAUDE.md`, valabilă doar pentru această campanie.
 

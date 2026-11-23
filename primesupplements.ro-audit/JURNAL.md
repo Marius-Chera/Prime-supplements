@@ -2092,3 +2092,13 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Marius a ales un singur SMS (25.11).
   - Nimic nu e programat încă. Așteaptă: „ok” pe teste și pe imagini, plus logarea în theMarketer pentru SMS.
 - 23.11: Total Admin – **Încasări, ordinea din pagină după comandă** (Marius: „în ordine cronologică a comenzii, nr 1 să fie cea mai recentă comandă încasată”). Ramburs Cargus și card (Netopia / Shopify Payments) apar amestecate, după numărul comenzii, descrescător. Rândurile fără comandă (comisioane, transferuri, AWB-uri făcute direct în Cargus, ca Impuls Gym) vin după, cele mai noi întâi. Problemele nu mai sar în față: le arată butonul „de verificat”. Excelul contabilei rămâne ordonat după facturi (cerut de ea pe 20.11). 221 de teste, versiunea cf41717c, commit prime-expediere 3810876.
+- 23.11: **Late Black Friday – programate** (Marius: „Da, programează”).
+  - E-mailuri în theMarketer:
+    - e-mailul 1: 25.11 la 10:00, 2.388 de destinatari;
+    - e-mailul 2: 28.11 la 10:00, fără cei care au comandat în ultimele 4 zile.
+  - Postări în Zernio:
+    - 1 carusel pe Instagram (poza cu Mihai Diaconu și cadrul cu codul): 25.11 la 12:30;
+    - 3 postări pe Facebook: 25, 27 și 28.11 la 12:30.
+  - Imaginile sunt urcate în Shopify Files, cu numele `late-black-friday-2026-*.jpg`.
+  - SMS-ul nu e făcut încă: theMarketer nu e logat în browserul din aplicație.
+  - Pe 26 și 28.11, la 12:00, rămân postările mai vechi cu pachete (programate în octombrie), nemodificate.

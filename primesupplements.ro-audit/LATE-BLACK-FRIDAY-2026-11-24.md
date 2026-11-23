@@ -1,6 +1,6 @@
 # Late Black Friday – 25–28 noiembrie 2026 (plan cerut de proprietar pe 12.11.2026, schimbat pe 13.11 și 23.11)
 
-**Stare la 23.11:** codul `LATEBF20` e **creat și programat** în Shopify (status SCHEDULED). Textele sunt propuse și așteaptă aprobarea. E-mailurile, SMS-urile și postările nu sunt programate încă. Până miercuri, 25.11, nu anunțăm nimic nicăieri.
+**Stare la 23.11 (seara):** codul `LATEBF20` e creat și programat (SCHEDULED). Textele sunt aprobate de Marius. În theMarketer există două ciorne, cu testul trimis la Marius și Adelina: e-mailul 1 (`6b043b09bfb0d5cd1a05703d`) și e-mailul 2 (`6b043b9b97c63d53630cd45b`, care exclude segmentul nou „LBF · au comandat în ultimele 4 zile”, `6b043b50a7d5a44ee80867a9`). Imaginile pentru social sunt în `social/2026-11-25-late-black-friday/`. **Încă neprogramate:** e-mailurile (așteaptă „ok” după test), SMS-ul (theMarketer trebuie logat în browser) și postările Zernio (așteaptă „ok” pe imagini). S-a hotărât un singur SMS, fără SMS 2 (Marius, 23.11). Fără A/B și fără retrimitere automată.
 
 Excepție explicită a proprietarului de la regulile „fără Black Friday” și „fără coduri noi” din `CLAUDE.md`, valabilă doar pentru această campanie.
 

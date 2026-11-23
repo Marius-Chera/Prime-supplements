@@ -2083,3 +2083,11 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Plățile „în curs” nu intră în raportul contabilei și nici în potrivirea cu extrasul BT.
   - **Preluarea automată:** la 30 de minute, în loc de o dată pe noapte. Dacă nu e nimic nou, nu rescrie nimic; legăturile cu facturile se refac cel puțin la 6 ore. Butonul „Preia plățile Shopify Payments” rămâne pentru preluarea pe loc.
   - 220 de teste, versiunea a70e09ba, commit prime-expediere f381a29.
+- 23.11: **Late Black Friday – pregătite e-mailurile și imaginile** (Marius: „Da, aprob textele”).
+  - În theMarketer s-au creat două ciorne, cu test trimis la Marius și Adelina:
+    - **e-mailul 1** (25.11, toată lista de 2.388);
+    - **e-mailul 2** (28.11, toată lista, fără segmentul nou „LBF · au comandat în ultimele 4 zile”).
+  - Ambele folosesc designul aprobat, sunt fără A/B și fără retrimitere. Sursa e în `email-marketing/campanii/2026-11-2*-late-black-friday-*.html` (generator `gen-latebf.mjs`).
+  - Imaginile pentru Instagram și Facebook (Mihai Diaconu cu crema de orez + cadre cu codul) sunt în `social/2026-11-25-late-black-friday/` (`make.ps1`).
+  - Marius a ales un singur SMS (25.11).
+  - Nimic nu e programat încă. Așteaptă: „ok” pe teste și pe imagini, plus logarea în theMarketer pentru SMS.

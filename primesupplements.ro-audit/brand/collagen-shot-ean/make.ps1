@@ -98,7 +98,7 @@ td.ean { font-family: Consolas, 'Courier New', monospace; font-size: 15pt; font-
 <li>Se folosesc fișierele livrate (SVG vectorial la 100 %, 37,29 × 25,93 mm cu zonele albe; PNG la 300 dpi). Codul nu se redesenează.</li>
 <li>Mărime: între 80 % și 100 % din cea nominală (la 80 %: barele au minimum 29,8 mm lățime și 18,3 mm înălțime). Nu se trunchiază pe înălțime.</li>
 <li>Zonele albe din stânga și din dreapta barelor rămân libere (minimum 3,6 mm stânga și 2,3 mm dreapta la 100 %).</li>
-<li>Pe flaconul rotund (Ø 20,8 mm), codul se pune cu barele verticale (perpendicular pe axa flaconului), ca să se poată scana.</li>
+<li>Pe flaconul rotund (Ø 20,8 mm), codul se așază în lungul flaconului, cu barele orizontale când flaconul stă în picioare (perpendicular pe axa flaconului). Întins pe circumferință, nu se mai poate scana.</li>
 <li>Cele 13 cifre rămân lizibile sub bare.</li>
 </ul>
 <p class="small">Fișierele sursă: folderele barcodes-svg și barcodes-png, plus ean-codes.csv.</p>

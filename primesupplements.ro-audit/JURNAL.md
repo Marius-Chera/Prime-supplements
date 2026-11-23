@@ -2103,3 +2103,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - SMS-ul nu e făcut încă: theMarketer nu e logat în browserul din aplicație.
   - Pe 26 și 28.11, la 12:00, rămân postările mai vechi cu pachete (programate în octombrie), nemodificate.
 - 23.11 (v2): **coduri EAN pentru ambele shot-uri, flacon individual + cutia de 20**, la cererea lui Marius: Collagen flacon **4002026500010**, Collagen cutie **4002026500027** (neschimbate), Magneziu bisglicinat flacon **4002026500034**, Magneziu cutie **4002026500041**. Reparat și PDF-ul: diacriticele apăreau stricate („GlucozaminÄƒ”) pentru că scriptul era salvat fără marcaj UTF-8, pe care Windows PowerShell 5.1 îl cere; acum `make.ps1` are marcajul. Fișiere: `brand/collagen-shot-ean/Prime-Health-Shoturi-EAN/` (PDF, PNG, SVG, CSV), copie pe Desktop (`OneDrive\Desktop\Prime-Health-Shoturi-EAN`, înlocuiește `Collagen-Shot-EAN`). Toate 4 decodate corect cu ZXing; textul PDF-ului verificat cu pdf.js.
+- 23.11: **Late Black Friday – SMS programat** din Chrome (theMarketer, unde Marius e logat):
+  - 25.11 la 11:00, segmentul „SMS BF 2026 - cumpărători 12 luni, abonați SMS”: 482 de destinatari;
+  - 1 SMS (136 de caractere), cost ~16,87 EUR;
+  - fără SMS de test pe telefon.
+  - Toată campania e acum programată: codul, 2 e-mailuri, 1 SMS, 1 postare pe Instagram și 3 pe Facebook.

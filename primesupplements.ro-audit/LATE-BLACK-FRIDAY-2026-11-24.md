@@ -11,7 +11,8 @@
   - Facebook 2 (`6b043dcfae152ab76a7fcd0b`): 27.11 la 12:30;
   - Facebook 3 (`6b043dd2511ab7bde79d3edf`): 28.11 la 12:30.
 - Imaginile sunt în Shopify Files (`late-black-friday-2026-*.jpg`).
-- **Rămâne SMS-ul (25.11, 11:00):** se face doar din aplicația theMarketer, iar Marius trebuie să se logheze în browserul din aplicație.
+- **SMS-ul e programat** (`6b043e877252d69a020680bc`, „LBF 2026 - SMS anunt”): 25.11 la 11:00, segmentul „SMS BF 2026 - cumpărători 12 luni, abonați SMS”, cu **482** de destinatari pe 23.11 (față de 435 pe 12.11). 1 SMS de 136 de caractere, cost estimat 16,87 EUR din creditul de 58,98 EUR, fără A/B și fără retrimitere. Creat din Chrome, unde Marius e logat. Nu s-a trimis SMS de test: numărul de telefon nu e în repo.
+- **Campania e programată integral.** Urmează: pe 25.11 dimineața verific că statusul codului e „Active”; pe 27.11 seara verific stocul înainte de e-mailul 2; pe 29.11 verific că codul a expirat; pe 30.11 fac raportul.
 - Tot pe 26.11 și 28.11, la 12:00, pe Instagram și Facebook, sunt programate din octombrie postări cu pachete (Cura de Iarnă, Duo Magneziu). Au fost semnalate lui Marius și au rămas neschimbate.
 
 Excepție explicită a proprietarului de la regulile „fără Black Friday” și „fără coduri noi” din `CLAUDE.md`, valabilă doar pentru această campanie.

@@ -16,7 +16,7 @@ Fir Yahoo „documente design collagen shot” (marius.chera@), mesajele 27–29
 5. **Ștanța cutiei de 20 × 25 ml:** se cere de la producătorul shot-urilor (cel care face cutia Energy Pump).
 6. **Termenul de tipar:** îl stabilește Marius.
 
-## Ce trebuie să dea Marius înainte de trimitere
+## Ce trebuie să dea Marius înainte de trimitere (partea de Collagen TRIMISĂ pe 23.11, 16:57 – vezi `EMAIL-HEADMADE-COLLAGEN-TRIMIS-2026-11-23.md`)
 - [x] eticheta Magneziu verificată: NU e conformă (vezi tabelul de mai jos);
 - [x] notificarea Colagen: CRSP Timișoara, seria AB nr. 5971 / 22.06.2026 (`brand/notificari/`);
 - [ ] notificarea Magneziu (CRSP Craiova): nu s-a găsit certificat emis; de întrebat Mariana Radu sau CRSP Craiova;

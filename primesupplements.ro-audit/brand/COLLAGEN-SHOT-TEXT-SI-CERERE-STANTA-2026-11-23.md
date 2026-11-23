@@ -64,22 +64,16 @@ Cod de bare: …
 
 ## 2. Cererea către fabrica de shot-uri (ștanță + ce mai lipsește)
 
-Către: fabrica de shot-uri. Presupunere: **Pro Nutrition** (petronelarosca@pronutrition.ro), pentru că EAN-urile shot-urilor Energy Pump și Fat Burning încep cu 6421766, prefixul fabricii. **De confirmat de Marius înainte de trimitere.** Într-un singur mail cerem tot ce le trebuie celor de la Headmade de la fabrică.
+Către: **Perfect Care** (Marius, 23.11: shot-urile noi se fac la Perfect Care, nu la Pro Nutrition). O trimite Marius pe WhatsApp, așa că textul e scurt, fără titlu de mail.
 
-**Subiect:** Ștanța cutiei 20 × 25 ml și detalii de tipar – shot-uri Magneziu bisglicinat și Colagen
+```
+Bună ziua! Lucrăm cu agenția de design la etichetele și cutiile pentru shot-urile noi, Magneziu bisglicinat și Colagen bovin 12 000 mg + Glucozamină (flacoane de 25 ml, cutie cu 20 de flacoane). Pentru fișierele de tipar avem nevoie de la dumneavoastră de:
 
-Bună ziua,
+1. Ștanța cutiei de 20 x 25 ml (desfășurata, de preferat vectorial: PDF, AI sau DXF), cu dimensiunile, liniile de tăiere și de bigui și zonele de lipire.
+2. Confirmarea etichetei pe flacon: agenția a calculat 60 x 50 mm (flacon Ø 20,8 mm, zonă utilă 50–55 mm). Ne confirmați dimensiunea, sensul de derulare și diametrul rolei pentru mașina de etichetat?
+3. Zona pentru lot și data expirării: unde le tipăriți (pe flacon și pe cutie) și cât spațiu liber trebuie lăsat.
+4. Codurile EAN-13, dacă le alocați dumneavoastră: câte unul pentru flaconul de 25 ml (îl vindem și la bucată) și unul pentru cutia de 20, la ambele produse.
+5. Până când trebuie să primiți fișierele finale de tipar ca să intrăm în producție.
 
-Lucrăm cu agenția de design la etichetele și cutiile pentru cele două shot-uri noi, Magneziu bisglicinat și Colagen bovin 12 000 mg + Glucozamină (flacoane de 25 ml, cutie cu 20 de flacoane), și avem nevoie de câteva informații de la dumneavoastră pentru fișierele de tipar:
-
-1. **Ștanța cutiei de 20 × 25 ml** (desfășurata cutiei, de preferat în format vectorial: PDF, AI sau DXF), cu dimensiunile, liniile de tăiere și de bigui și zonele de lipire. Dacă e aceeași cutie ca la Energy Pump Shot, ne ajută aceeași ștanță.
-2. **Dimensiunile etichetei pe flacon:** agenția a calculat 60 × 50 mm (flacon Ø 20,8 mm, zonă utilă 50–55 mm). Vă rugăm să ne confirmați dimensiunea, sensul de derulare și diametrul rolei pentru mașina de etichetat.
-3. **Zona pentru lot și data expirării:** unde le tipăriți (pe flacon și pe cutie) și ce dimensiune trebuie lăsată liberă pentru imprimanta dumneavoastră.
-4. **Codurile EAN-13:** câte unul pentru flaconul de 25 ml (îl vindem și la bucată) și unul pentru cutia de 20, la fiecare produs (Magneziu bisglicinat și Colagen).
-5. **Termenul:** până când trebuie să primiți fișierele finale de tipar ca să intrăm în producție.
-
-Vă mulțumim,
-
-Marius Chera
-CEO, Prime Sport Supplements
-Tel: +40 747866049
+Mulțumim! Marius Chera, Prime Sport Supplements
+```

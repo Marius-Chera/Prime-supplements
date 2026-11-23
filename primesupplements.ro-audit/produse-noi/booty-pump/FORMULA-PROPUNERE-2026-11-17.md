@@ -70,3 +70,16 @@ Niciunul dintre ingredientele de mai sus nu e stimulent. Citrulina și glicerolu
 - Rămâne deschisă doar arginina (recomandat: fără; în machetă nu e pusă).
 - Macheta (flacon alb, forma EAA/NitroX 3D, etichetă albă, logo în degrade roșu → roz deschis): `macheta/macheta-flacoane.png` (ambele arome) și `macheta/eticheta-desfasurata-pink-lemonade.png` (laterale RO + față + tabel). Se reface cu `node macheta/build-macheta.mjs`. E o simulare desenată (HTML/CSS randat cu Chrome), nu o randare 3D și nu e pentru tipar; textele de pe față sunt în engleză, ca la restul gamei.
 - **DECIS 17.11 (Marius):** rămâne 500 g / 18 porții (~27 g pe porție).
+
+## Răspunsul fabricii (Pro Nutrition, primit de Marius ~23.11.2026)
+Pot face produsul, dar **fără glicerol pulbere 65 %** – au doar **glicerol monostearat** (aditiv/emulgator). Propun, eventual, **beta-alanină sau betaină**. Pot trimite mostre pentru cele 2 arome.
+
+### Recomandarea Claude
+- **Scoatem glicerolul de tot.** Monostearatul (folosit și în NitroX/Combat) are foarte puțin glicerol liber; la 2–3 g nu dă pump real, ar fi doar „de etichetă”.
+- **Betaină anhidră – DA, ca înlocuitor al glicerolului.** E tot un osmolit (ține apa în celula musculară, deci pe tema „pump”), nu e stimulent, nu dă furnicături. Doza utilă din studii: ~2,5 g/zi. Atenție: în UE betaina e novel food cu limită pentru suplimente (din câte știu, ~400 mg/zi pentru adulți) → **fabrica trebuie să confirme ce doză pot notifica**. Dacă nu pot pune măcar ~1,5–2,5 g, efectul e mic și atunci varianta de mai jos e mai bună.
+- **Beta-alanină – NU.** Marius a scos-o pe 17.11: la dozele care contează (≥1,6 g/porție) dă furnicături, exact „agitația” pe care Booty Pump vrea s-o evite.
+- **Alternativă / completare fără risc de limită:** pudră/extract de sfeclă roșie (sursă de nitrați, o au deja în NitroX) ~1–1,5 g, eventual L-citrulină urcată de la 6 la 7 g.
+
+### Formula propusă v3 (de confirmat cu fabrica)
+dextrină ciclică 10 g · L-citrulină 6 g · creatină monohidrată 3 g · **betaină anhidră 2,5 g (doza cât permite notificarea)** · taurină 1,5 g · citicolină 500 mg · electroliți (Na ~300 mg, K ~200 mg) · arome/îndulcitor/colorant. Fără glicerol, fără beta-alanină.
+Porția rămâne ~26–27 g → 500 g ≈ 18–19 porții. Pe etichetă, căsuța „3 g GLYCEROL 65%” devine „2,5 g BETAINE” (de refăcut după confirmare).

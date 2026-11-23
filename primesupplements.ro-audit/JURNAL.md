@@ -1994,3 +1994,13 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Noiembrie proiectat:** profit după reclame ~24.730 lei (octombrie: 20.172), MER 23,4.
   - **Reparat în Strategie:** campaniile noi, sub 7 zile, rămân pe „învățare”. Înainte se propunea oprirea campaniilor Meta [NOU] din ziua 4.
   - **Următoarele evaluări:** 26–27.11 și ~3.12.
+- 23.11, **eMAG – validarea catalogului: 60 de oferte la vânzare, 13 respinse și corectate** (Marius: „au aprobat produsele ?”).
+  - **Status:** 52 aprobate + 8 actualizări în validare = 60 la vânzare. 17 noi încă în validare, 13 respinse.
+  - **Brand greșit (6 respinse):** Magneziu bisglicinat, Bergamot, Ashwagandha, D3+K2, Testo Revive, Collagen. Pe ambalaj scrie „PRIME health”.
+    - Retrimise cu brandul „Prime Health” și numele „Prime Health …”.
+    - Preventiv, la fel pentru Water Out 500 ml, încă în validare.
+  - **Fiber, respins tot pentru brand:** pe ambalaj e „PRIME – Hardcore Sports Nutrition”, ca la produsele sport aprobate. Retrimis neschimbat (Prime Supplements); dacă se respinge din nou → suport eMAG.
+  - **Poze (6 respinse, „Alte motive”):** cutiile Prime Whey Go (5) și cutia de batoane cocos.
+    - Poze noi: fundal alb pur (cutia de batoane era pe gri 242), produsul pe ~90 % din cadru, 2000×2000.
+    - Generate cu `prime-emag/catalog/poze.mjs` și servite de aplicația Prime eMAG la `/img/…`. Shopify n-a fost atins.
+  - **Retrimise toate 14.** Statusul trece în validare cu întârziere; se verifică din nou în 1–3 zile.

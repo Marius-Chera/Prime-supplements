@@ -1,8 +1,8 @@
-# Coduri EAN-13 interne – Collagen shot (23.11.2026). Bloc intern 4002026 5000x (vezi memoria prime-sku-equals-ean).
+﻿# Coduri EAN-13 interne – Collagen shot (23.11.2026). Bloc intern 4002026 5000x (vezi memoria prime-sku-equals-ean).
 # Funcțiile EAN/PNG/SVG sunt copiate din ../sku-editie-limitata-2026/make.ps1. Rulare: powershell -File make.ps1
 Add-Type -AssemblyName System.Drawing
 $ROOT = Split-Path -Parent $MyInvocation.MyCommand.Path
-$OUT  = Join-Path $ROOT 'Collagen-Shot-EAN'
+$OUT  = Join-Path $ROOT 'Prime-Health-Shoturi-EAN'
 if(Test-Path $OUT){ Remove-Item -Recurse -Force $OUT }
 New-Item -ItemType Directory -Force (Join-Path $OUT 'barcodes-png') | Out-Null
 New-Item -ItemType Directory -Force (Join-Path $OUT 'barcodes-svg') | Out-Null
@@ -59,12 +59,15 @@ function BarcodeSvg($ean,$path){
   [IO.File]::WriteAllText($path,$sb.ToString(),(New-Object System.Text.UTF8Encoding $false))
 }
 
+# 23.11 (v2): ambele shot-uri, fiecare cu cod pentru flaconul individual și pentru cutia de 20. Codurile Collagen din v1 rămân aceleași.
 $CODES = @(
-  [pscustomobject]@{ key='FLACON'; ro='Colagen bovin 12 000 mg + Glucozamină – flacon 25 ml'; use='Eticheta flaconului (se vinde și la bucată)'; ean13=(EanFull '400202650001') },
-  [pscustomobject]@{ key='CUTIE';  ro='Colagen bovin 12 000 mg + Glucozamină – cutie 20 × 25 ml'; use='Cutia de 20 de flacoane'; ean13=(EanFull '400202650002') }
+  [pscustomobject]@{ key='COLLAGEN-SHOT-FLACON';  ro='Colagen bovin 12 000 mg + Glucozamină – shot 25 ml (flacon individual)'; use='Pe eticheta fiecărui flacon'; ean13=(EanFull '400202650001') },
+  [pscustomobject]@{ key='COLLAGEN-SHOT-CUTIE';   ro='Colagen bovin 12 000 mg + Glucozamină – cutie 20 × 25 ml'; use='Pe cutia în care stau cele 20 de flacoane'; ean13=(EanFull '400202650002') },
+  [pscustomobject]@{ key='MAGNEZIU-SHOT-FLACON';  ro='Magneziu bisglicinat – shot 25 ml (flacon individual)'; use='Pe eticheta fiecărui flacon'; ean13=(EanFull '400202650003') },
+  [pscustomobject]@{ key='MAGNEZIU-SHOT-CUTIE';   ro='Magneziu bisglicinat – cutie 20 × 25 ml'; use='Pe cutia în care stau cele 20 de flacoane'; ean13=(EanFull '400202650004') }
 )
 foreach($c in $CODES){
-  $c | Add-Member png "barcodes-png/COLLAGEN-SHOT-$($c.key)-$($c.ean13).png"; $c | Add-Member svg "barcodes-svg/COLLAGEN-SHOT-$($c.key)-$($c.ean13).svg"
+  $c | Add-Member png "barcodes-png/$($c.key)-$($c.ean13).png"; $c | Add-Member svg "barcodes-svg/$($c.key)-$($c.ean13).svg"
   BarcodePng $c.ean13 (Join-Path $OUT $c.png); BarcodeSvg $c.ean13 (Join-Path $OUT $c.svg)
 }
 $CODES | Select-Object key,ro,ean13 | Export-Csv -NoTypeInformation -Encoding UTF8 (Join-Path $OUT 'ean-codes.csv')
@@ -76,7 +79,7 @@ foreach($c in $CODES){
   $rows += "<tr><td><div class='t'>$(Esc $c.ro)</div><div class='small'>$(Esc $c.use)</div></td><td class='ean'>$($c.ean13)</td><td class='bc'><img src='data:image/png;base64,$b64' alt='$($c.ean13)'></td></tr>"
 }
 $html = @"
-<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Collagen shot – coduri EAN-13</title>
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Prime Health shot-uri – coduri EAN-13</title>
 <style>
 @page { size: A4; margin: 16mm; }
 body { font-family: Arial, Helvetica, sans-serif; color:#111; font-size: 11pt; line-height: 1.45; margin:0; }
@@ -86,8 +89,8 @@ th, td { border: 1px solid #ccc; padding: 3mm; vertical-align: middle; text-alig
 td.ean { font-family: Consolas, 'Courier New', monospace; font-size: 15pt; font-weight: bold; white-space: nowrap; } td.bc img { width: 52mm; display:block; }
 .t { font-weight: bold; } .small { font-size: 9.5pt; color:#555; } ul { margin: 0; padding-left: 5mm; } li { margin: 0 0 1.2mm; }
 </style></head><body>
-<h1>Prime Health – Collagen shot</h1>
-<p class="sub">Coduri EAN-13 pentru etichetă și cutie · Prime Sport Supplements S.R.L. · 23.11.2026</p>
+<h1>Prime Health – shot-uri Collagen și Magneziu</h1>
+<p class="sub">Coduri EAN-13: fiecare flacon individual și cutia de 20 de flacoane · Prime Sport Supplements S.R.L. · 23.11.2026</p>
 <table><tr><th>Produs / ambalaj</th><th>EAN-13 (= SKU)</th><th>Cod de bare</th></tr>$rows</table>
 <h2>Cerințe de tipar pentru codul de bare</h2>
 <ul>
@@ -101,9 +104,9 @@ td.ean { font-family: Consolas, 'Courier New', monospace; font-size: 15pt; font-
 <p class="small">Fișierele sursă: folderele barcodes-svg și barcodes-png, plus ean-codes.csv.</p>
 </body></html>
 "@
-$htmlPath = Join-Path $OUT 'Collagen-Shot-EAN.html'
+$htmlPath = Join-Path $OUT 'Prime-Health-Shoturi-EAN.html'
 [IO.File]::WriteAllText($htmlPath,$html,(New-Object System.Text.UTF8Encoding $false))
-$pdfPath = Join-Path $OUT 'Collagen-Shot-EAN.pdf'
+$pdfPath = Join-Path $OUT 'Prime-Health-Shoturi-EAN.pdf'
 & $CHROME --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf="$pdfPath" "file:///$($htmlPath.Replace([char]92,[char]47))" 2>$null | Out-Null
 Start-Sleep -Seconds 2
 if(-not (Test-Path $pdfPath)){ throw 'PDF-ul nu a fost generat' }

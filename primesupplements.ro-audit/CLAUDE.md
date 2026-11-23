@@ -30,3 +30,7 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 
 ## Meta Ads (regulă cerută de proprietar pe 19.11.2026)
 - Maximum **3.000 lei/lună** cheltuiți pe Meta Ads. Produse, în ordine: **cremă de orez, Prime Whey, creatină**. Reclamele merg **doar la public nou** (fără vizitatori, cumpărători sau urmăritori), cu poze frumoase generate (ambalajul real, decorul generat). Detalii și împărțirea bugetului: `meta-ads/REGULI-META-ADS.md`. Orice pornire, oprire sau schimbare de buget se face doar cu „da”.
+
+## Buget reclame 2027 (regulă cerută de proprietar pe 23.11.2026)
+- În **fiecare lună din 2027: maximum 7.000 lei pe toate reclamele** (implicit Meta 2.000, Google 4.000, ChatGPT 1.000). Regula e setată în Reclame Prime (plafon total + plafoane pe platformă, verificate pe server).
+- **Orice sugestie trebuie să încapă în limite.** O propunere nouă care nu încape vine cu oprirea campaniilor mai vechi cu cel mai slab ROAS real, nu cu buget în plus. Pornirea e tot doar cu „da”.

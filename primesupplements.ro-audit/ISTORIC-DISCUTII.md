@@ -626,3 +626,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **23.11 – buget ianuarie 2027 (Marius):** 7.000 lei în total pe reclame, adică Meta 2.000, Google 4.000 și ChatGPT 1.000.
   - Setat ca plafon lunar în Reclame Prime.
   - Pentru ChatGPT, 1.000 lei e o limită, nu o țintă: strategia „prezență eficientă” cheltuie doar la CPC-ul de rentabilitate.
+- **23.11 – regulă permanentă pentru 2027 (Marius):** maximum 7.000 lei pe lună pe reclame, tot anul.
+  - Orice sugestie din aplicație se încadrează în limite.
+  - O propunere nouă care nu încape propune oprirea unei reclame mai vechi și mai slabe, nu buget în plus.

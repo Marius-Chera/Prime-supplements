@@ -2034,3 +2034,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - „Ce fac?” arată explicația și un text gata de dat lui Claude, pentru reparațiile pe magazin pe care aplicația nu are voie să le facă.
   - „Rezolvată” închide alerta.
   - Verificat în aplicație.
+- 23.11: **Reclame Prime – regula 2027: maximum 7.000 lei pe lună pe toate reclamele**, cerută de Marius: „orice sugestie să se încadreze; o sugestie nouă propune închiderea unei reclame mai vechi”.
+  - **Setat în aplicație:** plafon total 7.000 lei pentru fiecare lună din 2027 (Meta 2.000, Google 4.000, ChatGPT 1.000). Ianuarie e setat explicit cu aceleași valori.
+  - **Serverul** refuză orice pornire sau creștere de buget peste totalul lunii.
+  - **Strategia** încape și în total: renunță la creșteri, taie, iar la nevoie propune oprirea celor cu ROAS mic.
+  - **O propunere nouă care nu încape** oprește întâi campaniile vechi cu cel mai slab ROAS real; cele aflate în învățare sunt exceptate. Confirmarea le arată, iar fiecare oprire intră în Jurnal.
+  - 108 teste. Regula e trecută și în `CLAUDE.md`.

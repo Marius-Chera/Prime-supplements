@@ -2052,3 +2052,15 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Filtre:** cifre pe statusuri și căutare după nume sau EAN.
   - **La prima afișare:** 90 de produse, 60 la vânzare, 17 în validare, 13 cu statusul vechi de respins (retrimise azi). Toate prețurile respectă regula; suntem singurul vânzător pe paginile noastre și avem butonul de coș.
   - **Cod:** `src/produse.ts`, 4 teste noi (33/33), deploy 04c27b1e.
+- 23.11, **toate alertele din Prime Vizibilitate verificate** (Marius: „nu poți verifica toate alertele și să le fixezi acum?”). Din 21, **19 sunt închise ca „Rezolvată”**.
+  - **Indexare (7 alerte, „HTTP 429”):** Shopify limitează temporar citirea; planificatorul reîncerca și reușea. Acum alerta apare doar după toate cele 12 încercări. Commit `prime-indexare` 01b9383.
+  - **Pagini-cheie (10 alerte din 18.11):** „lipsește schema” era fals, pentru că pagina nu se încărcase (429). Reverificate pe 23.11: toate 10 au răspuns 200 și nu au probleme. La 429 verificarea se reia acum, fără alertă.
+  - **Scor SEO:** scorul e din nou 88,2.
+  - **Panel AI, confuzie cu PRIME/QNT:** 0 confuzii la ultimele două runde.
+  - **„magneziu bisglicinat” 37,8 → 42,2:** erau doar 5 afișări, deci zgomot. Alertele de poziție cer acum cel puțin 30 de afișări (commit 680340b).
+    - În articolul `magneziu-bisglicinat-cum-iti-dai-seama-daca` s-a adăugat în primul paragraf un link spre produs, cu ancora „Magneziu bisglicinat Prime Health”. Produsul era legat înainte doar prin butonul „Vezi produsul”.
+    - Data articolului nu s-a schimbat. Backup în `backups/blog-magneziu-link-2026-11-23/`.
+  - **Rămân deschise:**
+    - „creatina” 14,5 → 21 (53 de afișări);
+    - „aminoacizi eaa” 25,3 → 28,3 (77 de afișări; articolul e pe 9,4, produsul pe 19,8).
+    - Le repară textele de produs și de colecție (pașii 7, 10 și 12 din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md`), programate după 1.12, conform deciziei din 25.10.

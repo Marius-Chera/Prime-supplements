@@ -1,183 +1,210 @@
-# Late Black Friday – 25–27 noiembrie 2026 (plan, cerut de proprietar pe 12.11.2026, schimbat pe 13.11)
+# Late Black Friday – 25–28 noiembrie 2026 (plan cerut de proprietar pe 12.11.2026, schimbat pe 13.11 și 23.11)
 
-**Stare: doar plan. Nimic creat, nimic programat.** Lucrăm pas cu pas, în zilele următoare; ziua de pregătire propusă rămâne duminică, **22.11.2026**. Până miercuri, 25.11, nu se anunță nimic, nicăieri.
+**Stare la 23.11:** codul `LATEBF20` e **creat și programat** în Shopify (status SCHEDULED). Textele sunt propuse și așteaptă aprobarea. E-mailurile, SMS-urile și postările nu sunt programate încă. Până miercuri, 25.11, nu anunțăm nimic nicăieri.
 
-Excepție explicită a proprietarului de la regulile „fără Black Friday” și „fără coduri noi” din `CLAUDE.md` (valabilă doar pentru această campanie).
+Excepție explicită a proprietarului de la regulile „fără Black Friday” și „fără coduri noi” din `CLAUDE.md`, valabilă doar pentru această campanie.
 
-**Schimbări din 13.11 (proprietar):** 3 zile în loc de 5 (25, 26, 27.11); codul se numește `LATEBF20`; nu ne cerem scuze pentru crema de orez – mesajul e „pentru cei care nu au apucat”. (Numele fișierului a rămas cel vechi, cu 24.11.)
+**Schimbări din 13.11 (proprietar):**
+- codul se numește `LATEBF20`;
+- nu ne cerem scuze pentru crema de orez; mesajul e „pentru cei care nu au apucat”.
+
+**Schimbări din 23.11 (proprietar):**
+- campania ține **4 zile, 25–28.11**; codul expiră sâmbătă, 28.11, la 23:59;
+- **tema nu se modifică**;
+- programăm e-mailuri și SMS-uri, **1 postare pe Instagram care arată codul** și **3 postări pe Facebook**;
+- pachetele rămân excluse.
+
+(Numele fișierului a rămas cel vechi, cu 24.11.)
 
 ## 1. Pe scurt
 
 | | |
 |---|---|
-| Tema | Late Black Friday pentru cei care nu au apucat Black Friday-ul nostru (30.10–15.11): încă 3 zile, cu un cod de 20 %, cât să-și facă proviziile. Fără scuze. |
-| Perioada | miercuri 25.11, 00:00 – vineri 27.11, 23:59 (ora României) |
-| Cod | `LATEBF20` – 20 %, o singură folosire per client |
-| Canale | 2 e-mailuri (25.11 și 26.11), 1 SMS (25.11), 1 postare Instagram (25.11), 2 postări Facebook (25.11 și 26.11) |
-| Ce NU facem | nimic înainte de 25.11; fără preț tăiat; fără bară/banner pe site (nu a fost cerut); fără alte e-mailuri de campanie în cele 3 zile |
+| Tema | Late Black Friday pentru cei care nu au apucat Black Friday-ul nostru (30.10–15.11): încă 4 zile, cu un cod de 20 %. Fără scuze. |
+| Perioada | miercuri 25.11, 00:00 – sâmbătă 28.11, 23:59 (ora României) |
+| Cod | `LATEBF20`: 20 %, o singură folosire per client, 222 de produse (fără cele 15 pachete) |
+| Canale | 2 e-mailuri, 1–2 SMS-uri, 1 postare pe Instagram, 3 postări pe Facebook |
+| Ce NU facem | nu anunțăm nimic înainte de 25.11; nu modificăm tema; fără banner pe site; fără preț tăiat |
 
-Vineri, 27.11, ultima zi a codului, e Black Friday-ul internațional.
+## 2. Ce am găsit înainte de plan
 
-## 2. Ce am găsit înainte de plan (12.11, doar citire)
+**12.11:**
+- Black Friday 2026 pe site a rulat 30.10–15.11, cu codul `BF10`. SMS-ul de lansare a avut 444 de trimiteri, 110 clickuri și 6 comenzi (3.498 lei).
+- În theMarketer: 2.388 de destinatari la e-mail și 435 la SMS (segmentul „SMS BF 2026 - cumpărători 12 luni, abonați SMS”).
 
-- **Stoc cremă de orez (Shopify):** tort de ciocolată 295, biscuiți cu cremă 292, plăcintă cu cocos 290, brioșă cu afine 281 = **1.158 kg în 4 arome**. **Fără stoc: fără aromă, caramel sărat, sirop de arțar.** Prețuri 58–68 lei/kg.
-- **Black Friday 2026 pe site** a rulat 30.10–15.11 (temă BF, 11 pachete, codul `BF10`). SMS-ul de lansare din 30.10: 444 trimise, 110 clickuri, 6 comenzi, 3.498 lei.
-- **Codurile existente** (afiliați 10 %, WELCOME5, BF10) se aplică pe colecția internă „Eligibile coduri reducere (intern)” – adică fără pachete. Codurile Judge.me (12 %) sunt pe tot magazinul.
-- **theMarketer:** 2.388 de destinatari la e-mail (toată lista), 435 la SMS (segmentul „SMS BF 2026 - cumpărători 12 luni, abonați SMS”). Programate deja: newsletter duminică 22.11 la 18:00, „BF2026 - 6 Mulțumire” pe 17.11. Nimic programat 25–27.11.
-- **Rutina „stoc revenit”:** cele 3 e-mailuri pentru cremele de orez revenite au fost programate pe 13.11 (decizia proprietarului din 12.11 seara), deci revenirea e deja anunțată.
-- **Zernio:** Facebook `primesupplementsro` și Instagram `primesupplements_ro` conectate; postările zilnice de la 18:00 sunt programate până în ianuarie.
+**23.11:**
+- **Coduri:** `LATEBF20` nu exista încă. `BF10` e expirat din 15.11. `WELCOME5` e activ. Toate trei folosesc colecția „Eligibile coduri reducere (intern)”: 222 din cele 237 de produse.
+- **Stoc cremă de orez:** tort de ciocolată 226, biscuiți cu cremă 238, plăcintă cu cocos 239, brioșă cu afine 233. Fără aromă, caramel sărat și sirop de arțar au stoc 0.
 
-## 3. Decizii
+## 3. Decizii fixate
 
-Fixate:
-- **Perioada:** 25–27.11.2026 (13.11).
-- **Numele codului:** `LATEBF20` (13.11).
-- **Tonul:** fără scuze; „pentru cei care nu au apucat” (13.11).
-- **Ciornele „stoc revenit” pentru crema de orez:** trimise pe 13.11 (12.11 seara).
-- **Pe ce se aplică codul:** tot magazinul, fără pachete = colecția „Eligibile coduri reducere (intern)” (13.11).
-- **Crema de orez în texte:** rămâne, o singură propoziție neutră („e din nou în stoc”, cu aromele în stoc), fără explicații (13.11).
-- **Afiliații:** nu le scriem nimic despre campanie; pe codul `LATEBF20` nu se împarte comision, campania o facem doar noi, pe canalele noastre (13.11). De verificat în UpPromote înainte de 25.11: comenzile venite pe linkul unui afiliat și plătite cu `LATEBF20` pot primi totuși comision prin urmărirea pe link.
+- **Perioada:** 25–28.11.2026 (23.11).
+- **Codul:** `LATEBF20` (13.11). Se aplică pe tot magazinul, fără pachete, adică pe colecția „Eligibile coduri reducere (intern)” (13.11, reconfirmat 23.11).
+- **Tonul:** fără scuze, „pentru cei care nu au apucat” (13.11).
+- **Crema de orez:** o singură propoziție neutră, „e din nou în stoc”, cu aromele aflate în stoc (13.11).
+- **Afiliații:** nu le scriem nimic (13.11).
+- **Tema:** nu se modifică (23.11).
+- **Social:** 1 postare pe Instagram, cu codul afișat în imagine, și 3 postări pe Facebook (23.11).
 
-De fixat: textele, pe rând (începând cu e-mailul 1).
-
-## 4. Codul de reducere (Shopify) – pornește singur pe 25.11
+## 4. Codul de reducere (Shopify) – CREAT pe 23.11.2026
 
 | Setare | Valoare |
 |---|---|
-| Cod | `LATEBF20` |
+| Cod | `LATEBF20` (`gid://shopify/DiscountCodeNode/2418060067191`) |
 | Tip | procent, 20 % |
-| Se aplică la | colecția „Eligibile coduri reducere (intern)” – tot magazinul, fără pachete (fixat 13.11) |
-| Limită | o folosire per client (`appliesOncePerCustomer`); fără limită totală |
+| Se aplică la | colecția „Eligibile coduri reducere (intern)”: 222 de produse, fără pachete |
+| Limită | o folosire per client; fără limită totală |
 | Comandă minimă | fără |
-| Combinări | nu se combină cu alte reduceri de produs sau de comandă (deci nu cu WELCOME5, afiliați, Judge.me); se combină cu transportul gratuit peste 300 lei |
-| Început | 25.11.2026, 00:00 (ora României) |
-| Sfârșit | 27.11.2026, 23:59 (ora României) |
+| Combinări | nu se combină cu reduceri de produs sau de comandă (deci nici cu WELCOME5, afiliați sau Judge.me); se combină cu transportul gratuit |
+| Început | 25.11.2026, 00:00, ora României (2026-11-24T22:00:00Z) |
+| Sfârșit | 28.11.2026, 23:59:59, ora României (2026-11-28T21:59:59Z) |
+| Status la creare | SCHEDULED |
 
-Verificări: după creare citesc înapoi setările codului; pe 25.11 dimineața verific că statusul e „Active”. Nu intru în checkout (regulă permanentă) – dacă vrei un test real, îl faci tu cu o comandă pe 25.11.
+Setările au fost citite înapoi din Shopify la creare. Pe 25.11 dimineața verific că statusul e „Active”. Nu intru în checkout; dacă vrei un test real, îl faci tu.
 
-## 5. Calendar
+## 5. Calendar propus
 
 | Zi | Oră | Canal | Ce |
 |---|---|---|---|
-| mi 25.11 | 00:00 | Shopify | codul devine activ |
-| mi 25.11 | 10:00 | E-mail 1 | anunțul, toată lista (2.388) |
-| mi 25.11 | 11:00 | SMS | segmentul SMS (435) |
-| mi 25.11 | 12:30 | Instagram | postarea unică |
+| mi 25.11 | 00:00 | Shopify | codul devine activ singur |
+| mi 25.11 | 10:00 | E-mail 1 | anunțul, către toată lista |
+| mi 25.11 | 11:00 | SMS 1 | anunțul, către segmentul SMS (435) |
+| mi 25.11 | 12:30 | Instagram | postarea unică, cu codul în imagine |
 | mi 25.11 | 12:30 | Facebook 1 | anunțul |
-| jo 26.11 | 10:00 | E-mail 2 | „mâine e ultima zi”, fără cei care au comandat din 25.11 |
-| jo 26.11 | 12:30 | Facebook 2 | „mâine e ultima zi” |
-| vi 27.11 | 23:59 | Shopify | codul expiră |
+| vi 27.11 | 12:30 | Facebook 2 | „mai ai până mâine seară” (vineri e Black Friday-ul internațional) |
+| sâ 28.11 | 10:00 | E-mail 2 | „azi e ultima zi”, fără cei care au comandat din 25.11 |
+| sâ 28.11 | 11:00 | SMS 2 (opțional) | „azi e ultima zi”, fără cei care au comandat din 25.11 |
+| sâ 28.11 | 12:30 | Facebook 3 | „azi e ultima zi” |
+| sâ 28.11 | 23:59 | Shopify | codul expiră singur |
 
-Postările zilnice de la 18:00 rămân. Înainte de programare citesc ce e deja programat pe 25–27.11, ca nimic să nu contrazică mesajul.
+Postările zilnice de la 18:00 rămân. Înainte de programare verific ce e deja programat pe 25–28.11, ca nimic să nu contrazică mesajul.
 
-## 6. Texte (ciorne – le fixăm pas cu pas)
+## 6. Texte propuse (23.11, de aprobat)
 
-Reguli respectate: fără preț tăiat, fără cuvântul „ofertă”, fără superlative, fără mențiuni de sănătate, termenul e real, semnătura „Echipa Prime Supplements”. Designul: cel aprobat (`email-marketing/design/DESIGN-EMAIL-PRIME.md`).
+Reguli:
+- fără preț tăiat, fără cuvântul „ofertă”, fără superlative, fără mențiuni de sănătate;
+- termenul e cel real;
+- semnătura e „Echipa Prime Supplements”;
+- e-mailurile folosesc designul aprobat (`email-marketing/design/DESIGN-EMAIL-PRIME.md`).
 
 ### E-mail 1 – miercuri 25.11, 10:00
 - **Subiect:** Late Black Friday: pentru cei care nu au apucat
-- **Preheader:** 3 zile, 20 % cu codul LATEBF20. Până vineri la 23:59.
-- **Etichetă:** LATE BLACK FRIDAY · 25–27 NOIEMBRIE
+- **Preheader:** 4 zile, 20 % cu codul LATEBF20. Până sâmbătă la 23:59.
+- **Etichetă:** LATE BLACK FRIDAY · 25–28 NOIEMBRIE
 - **Titlu:** PENTRU CEI CARE NU AU APUCAT
 - **Text:**
 
 > Black Friday-ul nostru s-a încheiat pe 15 noiembrie. Dacă nu ai apucat să comanzi atunci, mai ai o ocazie.
 >
-> Facem un Late Black Friday: 3 zile, 20 % reducere cu codul **LATEBF20**, la produsele din magazin (fără pachete). Cât să-ți faci proviziile pentru iarnă.
+> Facem un Late Black Friday: 4 zile, 20 % reducere cu codul **LATEBF20** la produsele din magazin (fără pachete). Cât să-ți faci proviziile pentru iarnă.
 >
-> Și crema de orez Prime Creamy Rice e din nou în stoc: tort de ciocolată, biscuiți cu cremă, plăcintă cu cocos și brioșă cu afine.
+> Crema de orez Prime Creamy Rice e din nou în stoc, în patru arome: tort de ciocolată, biscuiți cu cremă, plăcintă cu cocos și brioșă cu afine.
 >
-> Codul e valabil până vineri, 27 noiembrie, la 23:59, și poate fi folosit o singură dată de fiecare client.
+> Codul e valabil până sâmbătă, 28 noiembrie, la 23:59, și poate fi folosit o singură dată de fiecare client.
 
-- **Casetă cu codul:** `LATEBF20` · −20 % · 25–27.11
-- **Buton:** VREAU 20 % REDUCERE → pagina principală sau `/collections/crema-de-orez` (de ales; adresa exactă se verifică înainte de trimitere)
-- **Carduri:** cele 4 arome de cremă de orez în stoc sau cele mai vândute produse, cu prețul normal (fără preț tăiat)
+- **Casetă cu codul:** `LATEBF20` · −20 % · 25–28.11
+- **Buton:** VREAU 20 % REDUCERE → primesupplements.ro (adresa se verifică înainte de trimitere)
+- **Carduri:** cele mai vândute produse din colecția eligibilă, cu prețul normal
 - **Notă mică:** Codul nu se cumulează cu alte coduri. Livrare gratuită peste 300 lei.
-- **Imagine:** fotografie reală din ședințele foto (ex. `email-mihai-diaconu-crema-de-orez.jpg` sau un cadru nou din cele urcate pe 10.11)
-- **Public:** toată lista, „smart sending” oprit (ca la e-mailurile BF)
+- **Imagine:** fotografie reală din ședințele foto
+- **Public:** toată lista, cu „smart sending” oprit
 
-### E-mail 2 – joi 26.11, 10:00
-- **Subiect:** Mâine e ultima zi pentru LATEBF20
-- **Preheader:** 20 % la produsele din magazin, până vineri la 23:59.
-- **Etichetă:** LATE BLACK FRIDAY · PÂNĂ VINERI
-- **Titlu:** MAI AI PÂNĂ MÂINE
+### E-mail 2 – sâmbătă 28.11, 10:00
+- **Subiect:** Azi e ultima zi pentru LATEBF20
+- **Preheader:** 20 % la produsele din magazin, până diseară la 23:59.
+- **Etichetă:** LATE BLACK FRIDAY · ULTIMA ZI
+- **Titlu:** MAI AI PÂNĂ DISEARĂ
 - **Text:**
 
-> Late Black Friday se încheie mâine.
+> Late Black Friday se încheie azi.
 >
-> Dacă nu ai apucat încă: codul **LATEBF20** îți dă 20 % reducere la produsele din magazin (fără pachete), o singură dată, până vineri, 27 noiembrie, la 23:59. După aceea codul nu mai funcționează.
+> Dacă n-ai apucat încă: codul **LATEBF20** îți dă 20 % reducere la produsele din magazin (fără pachete), o singură dată, până azi, 28 noiembrie, la 23:59. De mâine codul nu mai funcționează.
 
 - **Buton:** FOLOSESC CODUL LATEBF20
-- **Carduri:** produsele încă în stoc la data trimiterii (se verifică miercuri seara, 25.11)
-- **Public:** toată lista minus cei care au comandat din 25.11 (segment nou)
+- **Carduri:** produsele încă în stoc (se verifică vineri seara, 27.11)
+- **Public:** toată lista, mai puțin cei care au comandat din 25.11 (segment nou)
 
-### SMS – miercuri 25.11, 11:00 (fără diacritice, sub 160 de caractere)
+### SMS 1 – miercuri 25.11, 11:00 (fără diacritice, sub 160 de caractere)
 
 ```
-Prime Supplements: Late Black Friday pentru cei care nu au apucat. -20% cu codul LATEBF20, doar 25-27.11, o data per client: primesupplements.ro
+Prime Supplements: Late Black Friday pentru cei care nu au apucat. -20% cu codul LATEBF20, 25-28.11, o data per client: primesupplements.ro
 ```
 
-Înainte de programare verific în editor dacă theMarketer adaugă link scurt sau text de dezabonare (ca să rămână un singur SMS de 160) și costul afișat pentru 435 de destinatari.
+### SMS 2 (opțional) – sâmbătă 28.11, 11:00
 
-### Instagram – miercuri 25.11, 12:30 (o postare)
+```
+Prime Supplements: azi e ultima zi pentru LATEBF20, -20% la produsele din magazin, pana la 23:59: primesupplements.ro
+```
+
+Înainte de programare verific în editorul theMarketer dacă se adaugă un link scurt sau un text de dezabonare (SMS-ul trebuie să rămână sub 160 de caractere) și ce cost afișează.
+
+### Instagram – miercuri 25.11, 12:30 (o singură postare)
+
+Vizual: carusel de 2 cadre, în stilul alb al contului, cu poze reale din ședințe, făcut pe calculator (`make.ps1`):
+1. „LATE BLACK FRIDAY · PENTRU CEI CARE NU AU APUCAT”;
+2. codul mare, **LATEBF20**, cu „−20 % · 25–28 NOIEMBRIE”.
 
 > Nu ai apucat Black Friday-ul nostru? ⏳
 >
-> Facem un Late Black Friday: 3 zile, −20 % cu codul LATEBF20.
+> Facem un Late Black Friday: 4 zile, −20 % cu codul LATEBF20.
 >
-> 📅 25–27 noiembrie
+> 📅 25–28 noiembrie
 > 🛒 la produsele din magazin (fără pachete)
 > ☝️ o singură dată per client
 >
-> Și crema de orez e din nou în stoc, în 4 arome. 🥣
+> Crema de orez e din nou în stoc, în 4 arome. 🥣
 >
 > Link în bio.
 >
 > #primesupplements #lateblackfriday #cremadeorez
 
-Vizual: carusel de 2 cadre în stilul alb al contului – (1) „LATE BLACK FRIDAY · PENTRU CEI CARE NU AU APUCAT”, (2) „LATEBF20 · −20 % · 25–27.11”. Se face pe calculator (`make.ps1`), cu poze reale din ședințe.
-
-### Facebook 1 – miercuri 25.11, 12:30
+### Facebook 1 – miercuri 25.11, 12:30 (aceeași imagine cu codul)
 
 > Nu ai apucat Black Friday-ul nostru?
 >
-> Facem un Late Black Friday: 3 zile, −20 % cu codul LATEBF20, la produsele din magazin (fără pachete). Valabil 25–27 noiembrie, o singură dată per client.
+> Facem un Late Black Friday: 4 zile, −20 % cu codul LATEBF20 la produsele din magazin (fără pachete). Valabil 25–28 noiembrie, o singură dată per client.
 >
-> Și crema de orez Prime Creamy Rice e din nou în stoc: tort de ciocolată, biscuiți cu cremă, plăcintă cu cocos și brioșă cu afine.
+> Crema de orez Prime Creamy Rice e din nou în stoc: tort de ciocolată, biscuiți cu cremă, plăcintă cu cocos și brioșă cu afine.
 >
 > 👉 primesupplements.ro
 
-### Facebook 2 – joi 26.11, 12:30
+### Facebook 2 – vineri 27.11, 12:30
 
-> Mâine e ultima zi de Late Black Friday.
+> Azi e Black Friday peste tot. La noi, codul LATEBF20 mai merge până mâine seară.
 >
-> Codul LATEBF20 îți dă −20 % la produsele din magazin (fără pachete), o singură dată, până vineri, 27 noiembrie, la 23:59.
+> −20 % la produsele din magazin (fără pachete), o singură dată per client, până sâmbătă, 28 noiembrie, la 23:59.
+>
+> 👉 primesupplements.ro
+
+### Facebook 3 – sâmbătă 28.11, 12:30
+
+> Azi e ultima zi de Late Black Friday.
+>
+> Codul LATEBF20 îți dă −20 % la produsele din magazin (fără pachete), până diseară la 23:59. De mâine nu mai funcționează.
 >
 > Dacă voiai să-ți faci proviziile, acum e momentul.
 >
 > 👉 primesupplements.ro
 
-## 7. Pașii (în ordine; zilele le fixăm împreună)
+## 7. Pașii
 
-1. Fixăm textele, pe rând.
-2. Citesc stocul și verific că produsele din texte sunt în colecția „Eligibile coduri reducere (intern)”.
-3. Creez codul `LATEBF20` cu pornire pe 25.11 și citesc înapoi setările.
-4. Verific newsletterul din 22.11 (18:00) și postările de pe 25–27.11: nimic care să contrazică sau să anunțe campania.
-5. Fac imaginile (e-mail + social) și le urc în Shopify Files.
-6. Construiesc e-mailul 1 și e-mailul 2 în theMarketer; **test la marius.chera@yahoo.com și adelina.chera@gmail.com**; după „ok”, le programez.
-7. Creez segmentul „a comandat din 25.11” pentru excluderea din e-mailul 2.
-8. Creez SMS-ul, test pe telefonul tău, apoi îl programez.
-9. Programez în Zernio postarea de Instagram și cele 2 de Facebook.
-10. Trec totul în `JURNAL.md`, commit + push.
+1. ~~Creez codul `LATEBF20` și citesc înapoi setările.~~ Făcut pe 23.11.
+2. Fixăm textele (propuse pe 23.11).
+3. Verific ce e deja programat pe 25–28.11: newslettere în theMarketer și postări în Zernio.
+4. Fac imaginile (e-mail, carusel Instagram, Facebook) și le urc în Shopify Files.
+5. Construiesc e-mailul 1 și e-mailul 2 în theMarketer. **Trimit test la marius.chera@yahoo.com și adelina.chera@gmail.com**; după „ok”, le programez.
+6. Creez segmentul „a comandat din 25.11”, pentru excluderea de la e-mailul 2 și SMS-ul 2.
+7. Creez SMS-ul (sau SMS-urile), trimit un test pe telefonul tău, apoi îl programez.
+8. Programez în Zernio postarea de Instagram și cele 3 de Facebook.
+9. Trec totul în `JURNAL.md`, apoi commit și push.
 
 ## 8. După campanie
 
-- Miercuri 25.11 seara: verific stocul înainte de e-mailul 2.
-- Sâmbătă 28.11: verific că `LATEBF20` e expirat.
-- Luni 30.11: raport scurt – comenzi cu LATEBF20, vânzări, rezultate pe fiecare canal, dezabonări.
+- Vineri, 27.11, seara: verific stocul înainte de e-mailul 2.
+- Duminică, 29.11: verific că `LATEBF20` e expirat.
+- Luni, 30.11: raport scurt cu comenzile făcute cu LATEBF20, vânzările, rezultatele pe fiecare canal și dezabonările.
 
 ## 9. Riscuri
 
-- **20 % pe tot magazinul** (fixat 13.11): la produsele cu marjă mică reducerea poate mânca profitul. Dacă vrei, verific marja la cele mai vândute produse din colecția eligibilă înainte să creăm codul.
-- **Stocul de cremă de orez** (1.158 kg în 4 arome pe 12.11): dacă o păstrăm în texte, o verificăm înainte de fiecare trimitere.
-- **Zilele 25–27.11** sunt cele mai aglomerate din an în inbox (Black Friday internațional); deschiderile pot fi mai slabe decât la campania din 30.10.
+- **20 % pe 222 de produse:** la produsele cu marjă mică, reducerea poate mânca profitul.
+- **25–28.11 sunt zilele cele mai aglomerate din an în inbox** (Black Friday internațional), așa că deschiderile pot fi mai slabe decât la campania din 30.10.

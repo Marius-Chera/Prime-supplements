@@ -17,7 +17,9 @@ Fir Yahoo „documente design collagen shot” (marius.chera@), mesajele 27–29
 6. **Termenul de tipar:** îl stabilește Marius.
 
 ## Ce trebuie să dea Marius înainte de trimitere
-- [ ] verificare rapidă a PDF-ului etichetei de Magneziu (text, doză, aromă);
+- [x] eticheta Magneziu verificată: NU e conformă (vezi tabelul de mai jos);
+- [x] notificarea Colagen: CRSP Timișoara, seria AB nr. 5971 / 22.06.2026 (`brand/notificari/`);
+- [ ] notificarea Magneziu (CRSP Craiova): nu s-a găsit certificat emis; de întrebat Mariana Radu sau CRSP Craiova;
 - [ ] codurile EAN pentru fiolă și cutie: Magneziu + Collagen (de la fabrică);
 - [ ] textul final pentru Collagen shot (din notificare);
 - [ ] dacă ștanța o cerem noi de la fabrică sau dăm direct contactul;
@@ -82,7 +84,7 @@ Atenționări: A nu se lăsa la îndemâna și la vederea copiilor mici. A se co
 
 Pe cutie: Fără gluten · Fără lactoză · Conține crustacee. Prezentare: cutie cu 20 de flacoane a câte 25 ml soluție orală, volum net 500 ml.
 
-Operator: Notificat [CRSP …, nr. …] · Deținător de notificare: PRIME SPORT SUPPLEMENTS S.R.L., Str. Ioan Virgil Ispas nr. 17A, Cisnădie, jud. Sibiu · Producător: UE · Lot / A se consuma de preferință înainte de sfârșitul: LL.AAAA.
+Operator: Certificat de notificare CRSP Timișoara, seria AB nr. 5971 / 22.06.2026 · Deținător de notificare: PRIME SPORT SUPPLEMENTS S.R.L., Str. Ioan Virgil Ispas nr. 17A, Cisnădie, jud. Sibiu · Producător: UE · Lot / A se consuma de preferință înainte de sfârșitul: LL.AAAA.
 
 **3. Limitele tehnice**
 - Textul: minimum 0,9 mm înălțimea literei „x” pe flacon (sub 80 cm²) și 1,2 mm pe cutie (Reg. UE 1169/2011, anexa IV).

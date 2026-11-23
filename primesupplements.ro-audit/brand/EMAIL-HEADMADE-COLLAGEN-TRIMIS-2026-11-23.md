@@ -1,6 +1,6 @@
 # Mail trimis către Raluca Fundeanu (Headmade) – Collagen shot, 23.11.2026, 16:57
 
-Trimis din Yahoo (marius.chera@), ca răspuns în firul „documente design collagen shot” (mesajul 30), doar către raluca@headmadeadvertising.ro. Atașament: `Collagen-Shot-pentru-Headmade.zip` (673 KB): certificatul de notificare AB 5971/22.06.2026, textele pentru cutie și flacon din notificare (.docx), PDF-ul cu codurile EAN și SVG-urile. Verificat în Trimise, cu fișierul atașat.
+Trimis din Yahoo (marius.chera@), întâi în firul „documente design collagen shot” (mesajul 30), apoi, la cererea lui Marius, din nou în firul scurt „etichete Prime Health - Magneziu Bisglicinat”, doar către raluca@headmadeadvertising.ro. Atașament: `Collagen-Shot-pentru-Headmade.zip` (673 KB): certificatul de notificare AB 5971/22.06.2026, textele pentru cutie și flacon din notificare (.docx), PDF-ul cu codurile EAN și SVG-urile. Verificat în Trimise, cu fișierul atașat.
 
 ---
 

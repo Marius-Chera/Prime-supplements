@@ -2347,3 +2347,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - E administrată de contul Google **primesupplementsro@gmail.com** („You manage this Business Profile”, bifă de verificare).
   - **Profile strength:** incomplet („Complete info”); există o recenzie nouă de 5 stele fără răspuns.
   - **Urmează:** completarea profilului și răspunsurile la recenzii (Marius: „hai să-l facem acum”).
+- 24.11: **GBP – „Complete info”:** lipsește doar **poza cu fațada magazinului**. Nu există în D:\Prime Supplements; o face Marius sau colega din telefon (Google Maps → profil → Adaugă fotografii). În panou apare și „Your edit is being reviewed” (o modificare mai veche, în verificare). Memento-ul din 1.12 a fost reformulat: verifică poza și recenziile fără răspuns, nu mai creează profil.

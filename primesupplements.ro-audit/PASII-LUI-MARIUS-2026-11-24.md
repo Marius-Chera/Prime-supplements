@@ -27,7 +27,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **Durează:** 5 minute.
 - **Îmi spui:** „E2 făcut” și lipești raportul extensiei. Eu verific a doua zi că tag-ul apare o singură dată.
 
-### 4. Reclame Prime – accesul la pagina Facebook pentru reclamele Meta
+### 4. ~~Reclame Prime – accesul la pagina Facebook pentru reclamele Meta~~ ERA DEJA FĂCUT (raportul Reclame Prime din 23.11: acces la pagină dat, 5 creative Meta create și pornite)
 - **De ce:** campaniile noi Meta se creează din aplicație, dar creativul e refuzat pentru că utilizatorul de sistem nu are acces la pagină.
 - **Unde:** business.facebook.com → Setări business → Utilizatori → **Utilizatori de sistem → reclame-prime → Atribuie active → Pagini → „Prime Supplements” → „Creare reclame”** (Create ads).
 - **Durează:** 5 minute.

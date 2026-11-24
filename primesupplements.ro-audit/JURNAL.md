@@ -2256,3 +2256,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Corectură la sfatul de azi:** „Login with Facebook” nu e interzis, e pasul de oprire din D11. Ce nu se face e pornirea unei a doua surse Meta.
   - **Google & YouTube (pixel neconectat) e corect:** tag-urile Google Ads/GA4 vin din pixelul aplicației Simprosys, iar conectarea și a pixelului Google & YouTube ar dubla conversiile Google.
   - **Pinterest (pixel neconectat) e corect:** Pinterest nu are reclame în România.
+- 24.11: pasul 4 din lista lui Marius (pagina Facebook pentru reclame-prime) era deja făcut: raportul `reclame-prime/RAPORT-2026-11-23.md` confirmă accesul la pagină și 5 creative Meta create. Punctul din DE-FACUT §40 (0) era rămas neactualizat; acum e corectat și tăiat din listă.

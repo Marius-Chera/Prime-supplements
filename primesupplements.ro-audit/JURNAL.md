@@ -2251,3 +2251,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - aplicația Simprosys Google Shopping Feed: conectată → **conectată** (neschimbată);
     - fără schimbări la ChatGPT, Facebook & Instagram, Judge.me, theMarketer (conectate) și la Google & YouTube, Pinterest (neconectate).
   - **Pe site:** pagina Prime Whey 2 kg nu mai încarcă sandbox-ul pixelului 228721015. A doua zi verific în PageSpeed/rețea că tag-ul Google apare o singură dată (E20: Events Manager la 24 h).
+- 24.11: **E2 legat de D11 (Purchase dublat în Meta, `findings/AUDIT-CANALE-META-2026-11-24.md`):** după audit, Meta Pixel Event Tracking din Simprosys rula prin pixelul personalizat „SIMPROSYS”, deconectat azi. Se poate ca dublarea Purchase să fi dispărut deja.
+  - **Ordinea:** pe 25–27.11 se compară Purchase din Events Manager cu comenzile din Shopify. Doar dacă rămâne dublat, Marius intră în Simprosys → „Meta Pixel Event Tracking” → „Login with Facebook”, numai ca să OPREASCĂ trackingul Meta de acolo.
+  - **Corectură la sfatul de azi:** „Login with Facebook” nu e interzis, e pasul de oprire din D11. Ce nu se face e pornirea unei a doua surse Meta.
+  - **Google & YouTube (pixel neconectat) e corect:** tag-urile Google Ads/GA4 vin din pixelul aplicației Simprosys, iar conectarea și a pixelului Google & YouTube ar dubla conversiile Google.
+  - **Pinterest (pixel neconectat) e corect:** Pinterest nu are reclame în România.

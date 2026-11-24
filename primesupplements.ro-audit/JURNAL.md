@@ -2279,3 +2279,7 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Plan gratuit; trialul Plus nepornit. Detalii: `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §9. Profilul apare „Claimed”, cu 0 recenzii.
   - **Urmează, cu „da” de la Marius:** invitațiile (aplicația Trustpilot din Shopify, 50/lună, la 3 zile după expediere) și fraza din politica de confidențialitate.
 - 24.11: **Google Business Profile – reevaluat:** Marius confirmă magazinul fizic din Sibiu, deci firma devine eligibilă (LOCAL-11 din audit e depășit). Trecut în ISTORIC; pașii de creare se pregătesc la cererea lui Marius.
+- 24.11 (14:37): **Instagram, făcut de Adelina pe telefon:** dublura despre creatină din 23.11 e ștearsă, iar cele 3 linkuri sunt pe profil. Bara „Cumpără acum” nu apare încă pe postarea din 24.11: apare doar după ce Meta aprobă reclama #16 și o difuzează. De verificat pe 25.11 în Reclame Prime.
+- 24.11 (14:41): **EAN 0704384490913 = Combat Pro Forest Fruits** (confirmat de Marius de pe cutie). Shopify și oferta eMAG urcată pe 16.11 aveau deja Forest Fruits, deci nu e nimic de corectat. Doar vechea ofertă eMAG îl numea „Mojito”.
+- 24.11: **memento programat pentru 1.12, 10:00:** Google Business Profile pentru magazinul din Sibiu (sarcina locală `prime-memento-google-business-profile`; pregătește pașii, nu creează nimic). Cerut de Marius: „notează să-mi aduci aminte”.
+- 24.11: **aplicația Trustpilot instalată în Shopify de Marius** (plan gratuit). Legarea cu contul Trustpilot e în lucru.

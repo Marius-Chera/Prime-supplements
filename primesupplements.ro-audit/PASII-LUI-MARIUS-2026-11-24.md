@@ -33,13 +33,13 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **Durează:** 5 minute.
 - **Îmi spui:** „Pagina dată la reclame-prime”. Eu refac verificarea Meta. Dacă tot refuză, îți spun ce token nou trebuie.
 
-### 5. Instagram – dublura postării despre creatină din 23.11
+### 5. ~~Instagram – dublura postării despre creatină din 23.11~~ FĂCUT 24.11 (Adelina)
 - **De ce:** postarea a plecat de două ori (greșeala mea la reluare). Pe Facebook dublura e ștearsă; pe Instagram Zernio nu poate șterge.
 - **Unde:** aplicația Instagram pe telefon → @primesupplements_ro → postarea despre creatină **din 23.11** (originalul e din 19.11 și rămâne) → „…” → Șterge.
 - **Durează:** 1 minut.
 - **Îmi spui:** „Dublura IG ștearsă”.
 
-### 6. Instagram – cele 3 linkuri pe profil (doar din telefon)
+### 6. ~~Instagram – cele 3 linkuri pe profil~~ FĂCUT 24.11 (Adelina); bara „Cumpără acum” încă nu apare
 - **Unde:** Instagram → Editează profilul → Linkuri → Adaugă link extern. Linkurile și titlurile sunt în tabelul din `social/2026-11-24-instagram-cumpara-acum/README.md`.
 - **Durează:** 3 minute. Tot atunci verifici bara „Cumpără acum” pe reclama #16, după aprobarea Meta.
 - **Îmi spui:** „Linkurile din profil sunt puse”.

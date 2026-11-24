@@ -2290,3 +2290,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11: **Trustpilot – aplicația din Shopify legată de cont** (Marius s-a logat). În Trustpilot apare „Shopify: Connected – primesupplements1.myshopify.com, Status: Not sending invitations”.
   - Configurarea începută în aplicație: tip „Service reviews only”, 3 zile după „Fulfilled”. **Nu e salvată**: lista de șabloane e goală.
   - **Limita găsită:** șabloanele Trustpilot pe planul gratuit există doar în limbile din listă (engleză, germană, franceză etc.), **nu și în română**. Șabloanele proprii sunt doar pe Premium. Decizia (invitație în engleză sau link propriu în română în e-mailul de expediere) e la Marius. Nimic pornit.
+- 24.11: decizie Marius – PRS16248, PRS17068 și PRS17078 le corectează contabila în Oblio (storno + factură nouă cu CUI); Claude nu le atinge.

@@ -2190,3 +2190,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Feed-ul live are 411 variante, toate cu categoria nouă. Compari îl descarcă zilnic după 17:00.
   - **Rămâne la Marius:** KYC-ul Compari (Plata cu cardul → Procesul de verificare).
 - 24.11: panoul gol „Social” (creat automat de Pinterest la legarea Instagramului, 0 pinuri) a fost șters cu acordul lui Marius; au rămas cele 8 panouri.
+- 24.11: **răspuns trimis la Compari** (Marius: „Da, scrie-le”). E-mailul a plecat de pe contact@ (Gmail, Chrome) către support@compari.ro, cu Marius în CC. Subiect: „Re: compari.ro – modificari categorii – Prime Supplements (ID partener 243256)”. Conține lista categoriilor refăcute și adresa feed-ului. Gmail a confirmat „Message sent”.

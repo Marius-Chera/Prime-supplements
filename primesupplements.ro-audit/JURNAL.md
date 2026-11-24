@@ -2369,3 +2369,14 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11 (~17:55): **GBP – invitația pentru contact@ (Proprietar) trimisă de Marius;** în profil apare „Invitația trebuie acceptată”.
   - E-mailul Google nu ajunsese încă pe contact@ la verificare (căutat în Gmail, în Business Profile Manager /u/1 și în căutarea Google cu contul contact@). De acceptat când vine: e-mail de la Google Business Profile → „Accept”.
   - **Tot atunci:** prima recenzie Trustpilot, 5★ (17:52), și mostrele Judge.me E1 și E2 primite pe contact@ (17:34–17:35).
+- 24.11 (seara): **GBP – acces:**
+  - Marius l-a scos pe Marian Sorin Tanasie („Tase”, marian@cleverly.ro), verificat de Claude: lista are acum doar proprietarul principal primesupplementsro@gmail.com și invitația contact@ (Proprietar, în așteptare).
+  - Pentru Adelina (adelina.chera@gmail.com, rol Administrator), formularul e completat de Claude; „Invită” îl apasă Marius.
+- 24.11 (seara): **Judge.me – retușuri făcute de extensie:**
+  - E2: „apasă pe butonul de sub produs”;
+  - titlul blocului: „Recenzează produsele tale” (E1 și E2);
+  - E1: subiectul „⭐ Ce părere ai despre comanda ta?” și preview-ul „Spune-ne pe scurt ce crezi: aroma, gustul, cum îl folosești.”;
+  - ambele șabloane pornite, E2 = Reminder 1;
+  - previzualizarea arată 3 produse cu „Scrie o recenzie”;
+  - mostrele E1 și E2 au ajuns pe contact@ (~17:34).
+  - **Fluxul Judge.me e gata.**

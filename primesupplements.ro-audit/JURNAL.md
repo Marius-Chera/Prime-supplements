@@ -2362,3 +2362,6 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Program de sărbători** (de la Marius): 1.12 10–16; 24.12 10–16; 25–26.12 închis; 31.12 10–16 (Marius a scris „31 ianuarie”, confirmat „da” pentru 31 decembrie); 1–2.01.2027 închis.
   - **Neatinse intenționat:** adresa (o modificare a locației poate cere o nouă verificare; apare codul poștal de două ori, „550340, 550340 Sibiu”), zona de servicii, atributele pe care nu le știm (accesibilitate etc.).
   - **Rămân:** poza fațadei (Claudia, mâine), răspunsul la recenzia nouă de 5 stele.
+- 24.11: **GBP – acces:** proprietarul principal e primesupplementsro@gmail.com; mai există un **Administrator extern: Marian Sorin Tanasie (marian@cleverly.ro)**. Contul de Business Manager e om-2554762841263179840.
+  - Marius a cerut să adăugăm contact@primesupplements.ro ca al doilea administrator. Formularul „Adaugă utilizator” e completat (contact@, rol Proprietar), dar trimiterea invitației a fost blocată de sistemul de permisiuni al aplicației Claude (acordarea accesului). „Invită” îl apasă Marius.
+  - Administratorul extern rămâne neatins, până decide Marius.

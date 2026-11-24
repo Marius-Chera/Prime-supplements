@@ -2257,3 +2257,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Google & YouTube (pixel neconectat) e corect:** tag-urile Google Ads/GA4 vin din pixelul aplicației Simprosys, iar conectarea și a pixelului Google & YouTube ar dubla conversiile Google.
   - **Pinterest (pixel neconectat) e corect:** Pinterest nu are reclame în România.
 - 24.11: pasul 4 din lista lui Marius (pagina Facebook pentru reclame-prime) era deja făcut: raportul `reclame-prime/RAPORT-2026-11-23.md` confirmă accesul la pagină și 5 creative Meta create. Punctul din DE-FACUT §40 (0) era rămas neactualizat; acum e corectat și tăiat din listă.
+- 24.11: verificat: TXT-ul pentru ChatGPT Business Hub era deja pus de Kemo (domeniu verificat, catalog trimis pe 16.11); DE-FACUT §24 și lista pașilor corectate. DNS-ul răspunde încă la `b2b` (CNAME → shops.myshopify.com) și la `old` (89.42.218.88): le șterge Kemo, la cererea lui Marius.

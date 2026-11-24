@@ -98,7 +98,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 ## D. DNS și conturi (5–10 minute fiecare, o singură dată)
 
 ### 14. kemo.services (DNS-ul domeniului)
-- **Adaugi:** înregistrarea TXT pentru ChatGPT Business Hub (valoarea e în `chatgpt-ads/BUSINESS-HUB-2026-11-13.md`). După ea adăugăm catalogul în ChatGPT.
+- ~~**Adaugi:** TXT-ul pentru ChatGPT~~ era deja făcut (domeniu verificat și catalog trimis pe 16.11).
 - **Ștergi:** CNAME-ul `b2b` (→ shops.myshopify.com) și înregistrarea `old`, numai pe acestea două.
 - **Îmi spui:** „DNS făcut”. Verific eu cu `nslookup`.
 

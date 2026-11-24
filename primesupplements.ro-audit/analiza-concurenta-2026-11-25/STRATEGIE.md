@@ -9,7 +9,7 @@ Cerută de Marius pe 25.11: „studiază competiția la toți și construiește 
 **Date:**
 - `date/agenti/<concurent>.md`: o fișă pe concurent, cu sursa lângă fiecare fapt;
 - `date/amprenta.json`: platformă, sitemap, date structurate, tracking, boți AI;
-- `date/lighthouse.json`: viteză pe mobil, 2–3 rulări pe homepage;
+- `date/lighthouse.json` + `lighthouse-mediane.csv`: viteză pe mobil și desktop, 3 rulări pe homepage, mediana;
 - răspunsurile AI din 13 și 16.11 (`seo/PANEL-AI-2026-11-13.md`, `analiza-genius-vs-prime/date/`);
 - 5 căutări Google făcute manual pe 25.11, din browserul logat (rezultatele pot fi ușor personalizate).
 
@@ -29,7 +29,7 @@ Genius e analizat în detaliu în `analiza-genius-vs-prime/RAPORT.md`.
 
 Unde suntem peste majoritatea concurenților:
 - **date structurate:** suntem singurii cu schema completă (preț, stoc, livrare, retur, stele);
-- **viteză:** locul 2 din 11 pe mobil, după Balkan;
+- **viteză:** locul 2 din 11 pe mobil (67, după Balkan cu 76) și locul 1 pe desktop (99; Balkan 98, GymBeam 96, Genius 74, Pro Nutrition 42);
 - **conținut:** articole bune, cu surse PubMed;
 - **marcă proprie românească:** cu Creapure® și Kyowa®;
 - **cremă de orez:** locul 1 în Google.
@@ -104,9 +104,9 @@ Concluzii:
 | Vitabolic | 0–4 / produs | – | 41K | 7 | 3 | 1 | 52 |
 | Nutriland | Critical Whey: 29 | 0 | 8,8K | ~21 | 1 | 5 | 42 |
 | GymStack | nu se văd | – | 7,2K | ≥8 | 0 | 5 | 45 |
-| Natural Plus | 816 | – | 1,8K (FB 37K) | 3 | 0 | 1 | ~37 |
-| Scitec RO | 0 | – | – | 0 (marca: 11, spre scitec.ro) | 7 (marca) | 2 | ~50 |
-| Balkan | izolat: 20 | – | 9,8K | ≥7 | 0 | 0 | 71 |
+| Natural Plus | 816 | – | 1,8K (FB 37K) | 3 | 0 | 1 | 45 |
+| Scitec RO | 0 | – | – | 0 (marca: 11, spre scitec.ro) | 7 (marca) | 2 | 46 |
+| Balkan | izolat: 20 | – | 9,8K | ≥7 | 0 | 0 | 76 |
 
 ### 2.4 Tehnic
 

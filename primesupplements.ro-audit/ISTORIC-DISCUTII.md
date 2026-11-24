@@ -640,3 +640,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 ## 24.11.2026 – Instagram „Cumpără acum”
 - Instagram Shopping / etichetele de produs: **indisponibile în România** (Commerce Manager). Nu se schimbă țara.
 - Marius: bara „Cumpără acum” ca la Genius, **în bugetul existent** → postare organică folosită ca reclamă în ad set-ul [NOU] crema de orez (fără buget nou); story-uri cu autocolant Link; linkuri pe profil (cremă de orez, Prime Whey, Creapure); **în postări: „Linkul e în bio”**.
+- 24.11: Marius lasă **activ „product browsing”** la reclamele Meta (fără Opt out; Meta îl adaugă din 26.11.2026).

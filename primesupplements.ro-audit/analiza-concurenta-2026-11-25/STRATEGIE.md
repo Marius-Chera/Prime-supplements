@@ -226,7 +226,7 @@ Detaliile sunt în `seo/SEO-AEO-GEO-100-2026-11-25.md`. Pe scurt: Shopping cu st
 ## 7. Deciziile lui Marius (25.11)
 1. Pragul de livrare gratuită rămâne 300 lei.
 2. Creatina micronizată: reducere reală, cu prețul vechi tăiat cu negru și prețul nou cu roșu. Suma se stabilește după marja din Oblio. Regula Omnibus: prețul tăiat trebuie să fie cel mai mic preț din ultimele 30 de zile (98 lei).
-3. Oferta pe cantitate (−3 % la 2 bucăți, −5 % la 3 bucăți) poate reveni, dar fără combinare cu codurile de afiliat. Toate cele ~30 de coduri de afiliat active se combină acum cu reducerile de produs: trebuie oprit asta la ele și la reducerea automată. Se testează înainte de pornire.
+3. Oferta pe cantitate (−3 % la 2 bucăți, −5 % la 3 bucăți) poate reveni, dar fără combinare cu codurile de afiliat. Codurile de afiliat NU se modifică (corectura lui Marius, 25.11): doar reducerea automată pe cantitate se setează să nu se combine cu reducerile de produs (afiliați, WELCOME5), dar să se combine cu transportul gratuit. Se testează înainte de pornire.
 4. Puncte: sugestiile sunt în chat-ul din 25.11; urmează decizia.
 5. Prețul pe 100 g: DA, mai ales la pudre. Varianta recomandată e prețul unitar nativ Shopify, pe fiecare variantă, pe care tema îl afișează și Google Shopping îl preia.
 6. Mostre: de cerut la Pro Nutrition, dacă Marius vrea.

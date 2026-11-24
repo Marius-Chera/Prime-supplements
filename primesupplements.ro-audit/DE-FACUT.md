@@ -184,7 +184,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 
 - [Marius, „da”] **D11 – Purchase dublat în Meta (24.11):** oprește Meta Pixel Event Tracking în Simprosys (Pixels and tracking; cere „Login with Facebook”). **24.11: pixelul personalizat SIMPROSYS, prin care rula, e deconectat (E2) – întâi verificăm pe 25–27.11 dacă dublarea a dispărut; abia dacă nu, oprirea din Simprosys.** Canalul Facebook & Instagram trimite deja Pixel + CAPI. După 3–7 zile, Purchase în Events Manager trebuie să fie cât comenzile din Shopify. Plus: publicarea celor 12 pachete pe canalele Facebook & Instagram și Google & YouTube. Detalii: `findings/AUDIT-CANALE-META-2026-11-24.md`.
 
-44. **Google Business Profile pentru magazinul fizic din Sibiu (24.11, ISTORIC-DISCUTII 24.11): AMÂNAT de Marius („mai târziu”).** Acum e eligibil, prin magazinul „PrimeStore”, Str. Rahovei 45A, Sibiu. Când se reia:
+44. **Google Business Profile: EXISTĂ și e verificat** (24.11: „Magazin Suplimente - PrimeStore”, 4,8/26, cont primesupplementsro@gmail.com) – de completat și întreținut; textul vechi de mai jos e depășit. Acum e eligibil, prin magazinul „PrimeStore”, Str. Rahovei 45A, Sibiu. Când se reia:
     - Claude pregătește pașii și textele profilului;
     - Marius îl creează pe business.google.com (contact@), pe adresa magazinului, nu pe sediul din Cisnădie;
     - verificarea se face cu un clip filmat la magazin.

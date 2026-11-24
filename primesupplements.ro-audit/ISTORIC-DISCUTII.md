@@ -677,3 +677,4 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Problema: firmele care comandă de pe site nu aveau unde să pună CUI-ul (exemplu: 9838 / PRS16248). Pe planul Grow, Shopify nu permite câmpuri obligatorii în pagina de plată; ar trebui Shopify Plus.
 - Decizie Marius („ok fa asa”): (1) în coș, căsuța „Vreau factură pe firmă” cu CUI obligatoriu, verificat la ANAF; (2) în Total Admin, comanda cu firmă fără CUI nu se facturează; colega sună clientul și completează CUI-ul în Total Admin → Comenzi (sau marchează „persoană fizică”).
 - Facturile emise greșit (PRS16248, PRS17068, PRS17078) le corectează **contabila** în Oblio (Marius, 24.11); Claude nu le atinge.
+- 24.11 (completare): Google Business Profile **există deja**, verificat, administrat de primesupplements.ro@gmail.com („Magazin Suplimente - PrimeStore”, 4,8 din 26 de recenzii). Nu se creează alt profil; se completează și se întreține cel existent.

@@ -2341,3 +2341,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 17:09 – La cererea lui Marius, am trimis cele 6 contracte semnate înapoi managerei Claudia, pe WhatsApp (conversația „Manager Prime Supplements”), ca documente într-un singur mesaj, fără text. Dialogul de atașare din WhatsApp primește doar un fișier pe rând; restul se adaugă cu „+” din ecranul de previzualizare.
 - 24.11: **DNS: b2b și old șterse de Kemo** (după dubla confirmare din panoul lui). Verificat de Claude pe ns1–ns5.kemo.services: `b2b.primesupplements.ro` și `old.primesupplements.ro` nu mai răspund, iar site-ul principal și `www` sunt neschimbate și funcționează. În restul internetului dispar în câteva ore. Urmează în GSC: adresele b2b/old ies treptat din index și din crawl (de urmărit la măsurătoarea din 1.12).
 - 24.11: **Judge.me – varianta 2 aplicată prin extensie:** un singur e-mail cu toate produsele (Multi Classic), memento la 7 zile doar pentru RO (E2 nou), limita 30 de zile, rândul cu poza în E1. Detalii: `recenzii/10-RAPORT-EXTENSIE-JUDGEME-2026-11-24.md`. Testul E2 a ajuns pe contact@ (Judge.me trimite mostrele doar la adresa magazinului). Rămân trei retușuri de text și testul E1.
+- 24.11: **Google Business Profile – EXISTĂ DEJA și e verificat.** Concluzia din audit („nu avem profil”) era greșită.
+  - Fișa „Magazin Suplimente - PrimeStore”: Piața Ravoha, Str. Rahovei 45A, 550340 Sibiu, tel. 0775 286 584, site primesupplements.ro, categoria „Sports nutrition store”.
+  - **4,8 din 26 de recenzii**, 2.971 de vizualizări, 563 de interacțiuni cu clienții.
+  - E administrată de contul Google **primesupplementsro@gmail.com** („You manage this Business Profile”, bifă de verificare).
+  - **Profile strength:** incomplet („Complete info”); există o recenzie nouă de 5 stele fără răspuns.
+  - **Urmează:** completarea profilului și răspunsurile la recenzii (Marius: „hai să-l facem acum”).

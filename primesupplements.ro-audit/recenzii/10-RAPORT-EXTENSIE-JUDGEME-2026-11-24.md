@@ -46,3 +46,23 @@ Setarea multi-produs trimite **câte un e-mail separat pentru fiecare produs** (
   - bifa „și celor care n-au deschis” e necesară, altfel memento-ul se sare;
   - `{{ buyer_first_name }}` gol apare ca „Customer”.
 - **Decizia lui Claude** pentru E2: salutul devine „Salut!”, fără prenume, ca să nu apară „Salut Customer”. E1 rămâne neschimbat.
+
+## Rularea 3 (24.11, ~16:40) – varianta 2 aplicată (Marius a ales-o la recomandarea lui Claude)
+- **Memento pentru România:** niciunul → unul la 7 zile, trimis și celor care n-au deschis primul e-mail.
+- **Limita pe client:** 130 → 30 de zile.
+- **Comenzile cu mai multe produse:** din câte un e-mail pe produs, la 5 zile distanță, într-**un singur e-mail** (maximum 3 produse, întâi cele cu cele mai puține recenzii).
+- **E1 („Email template”):**
+  - un singur e-mail;
+  - formularul cu stele (Form Classic) înlocuit cu blocul **Multi Classic** (poza și numele fiecărui produs + butonul „Scrie o recenzie”; stelele apar pe pagina de recenzie);
+  - adăugat rândul „Dacă ai și o poză cu produsul, o poți adăuga în recenzie.”;
+  - restul neschimbat (logo, titlu, salut, caseta 12 %, semnătură, subsol).
+- **E2 („Email template Copy”, Reminder 1, doar România):**
+  - subiectul „Ne-ar ajuta părerea ta despre comanda ta”;
+  - preview „Durează două minute. După acest e-mail nu te mai rugăm.”;
+  - textul începe cu „Salut!”, urmat de Multi Classic, caseta 12 % și semnătură.
+- **Testele:** „Send sample” trimite doar la adresa magazinului (contact@), fără să poți alege destinatarul. A plecat un test E2 (posibil două) pe contact@ la ~16:38; E1 nu a fost trimis.
+- **Rămase la propunerea extensiei:**
+  - în E2, „apasă pe stele” → „apasă pe butonul de sub produs”;
+  - titlul blocului „Recenzează alte produse” → „Recenzează produsele tale”;
+  - subiectul E1 conține {{ product_title }} (un singur produs);
+  - Multi Classic e neverificat pe o comandă reală cu 3 produse.

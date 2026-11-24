@@ -7,6 +7,8 @@ Scop: să urcăm în Google și în răspunsurile ChatGPT/Copilot prin dovezi in
 | `01-JUDGEME-VERIFICARE-2026-10-23.md` | Verificarea Judge.me și Merchant Center (doar citire) + textul pentru extensie cu setările care nu s-au putut citi | Făcut. Textul pentru extensie e de rulat |
 | `02-FLUX-CERERE-RECENZIE.md` + `cerere-recenzie-e1.html` | Fluxul nou: cererea la 10 zile, memento la 7 zile, cererea de poză, în designul aprobat | Aprobat 16.11 (E1 + E2, fără E3); configurare prin extensie + test |
 | `03-TRUSTPILOT-SI-SUPLISCOUT.md` | Pașii pentru profilul Trustpilot și e-mailul către SupliScout | Pregătit. Le face proprietarul |
+| `08-TRUSTPILOT-KIT-2026-11-24.md` + `trustpilot/` | Kitul Trustpilot: profil RO/EN, categorii, logo pătrat 600 px, reguli, invitații pe planul gratuit (50/lună), 8 răspunsuri-tip; e-mailul SupliScout verificat 24.11 | Gata. Așteaptă contul (Marius) și „da” pentru SupliScout |
+| `09-TEXT-EXTENSIE-JUDGEME-RULAREA-2.md` | Textul pentru extensie: notează setările vechi, pune E1/E2, trimite testele | De rulat de Marius (Chrome pe jumătate de ecran) |
 | `04-MICROSOFT-MERCHANT-CENTER.md` | Contul Microsoft Advertising, magazinul, importul din Google, listările gratuite | Pregătit. Contul îl creează proprietarul |
 
 ## Ce trebuie să aprobe sau să facă proprietarul

@@ -2192,3 +2192,13 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11: panoul gol „Social” (creat automat de Pinterest la legarea Instagramului, 0 pinuri) a fost șters cu acordul lui Marius; au rămas cele 8 panouri.
 - 24.11: **răspuns trimis la Compari** (Marius: „Da, scrie-le”). E-mailul a plecat de pe contact@ (Gmail, Chrome) către support@compari.ro, cu Marius în CC. Subiect: „Re: compari.ro – modificari categorii – Prime Supplements (ID partener 243256)”. Conține lista categoriilor refăcute și adresa feed-ului. Gmail a confirmat „Message sent”.
 - 24.11: **81 de pinuri de produs** (toate produsele în stoc, fără haine), imagini verticale cu packshotul și link direct spre produs, programate pe panoul „Produse Prime Supplements”, câte 3 pe zi în perioada 25.11–21.12 (10:00, 16:00, 20:30). Scripturi: `social/pinterest/build-produse.mjs`, `make-pins-produse.ps1`, `build-csv-produse.mjs`.
+- 24.11: **Lista pașilor lui Marius** (cerută din sesiunea Prime Vizibilitate): `PASII-LUI-MARIUS-2026-11-24.md`, ordonată după efectul asupra vânzărilor și vizibilității (Microsoft G145RDYP, Compari KYC + sold de test, pixelul SIMPROSYS E2, pagina Facebook pentru reclame-prime, dublura IG din 23.11, linkurile de profil, aprobările Social, filmarea R1, Judge.me, Trustpilot, SupliScout, WhatsApp, Total Admin, DNS, decizii da/nu). Legată din DE-FACUT.
+- 24.11: **Kitul Trustpilot + SupliScout** (`recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`):
+  - profil RO/EN și categorii;
+  - logo pătrat 600 × 600 px, alb și negru (`recenzii/trustpilot/`, copiile logo-urilor din ChatGPT Business Hub);
+  - regulile Trustpilot: invităm pe toți, fără recompense, fără afiliați sau angajați;
+  - invitațiile pe planul gratuit: 50 pe lună (verificat pe pagina de planuri Trustpilot), prin aplicația oficială Shopify, la 3 zile după expediere, în ordinea expedierii; linkul general `/evaluate/` doar cu aprobare de design;
+  - 8 răspunsuri-tip la recenzii.
+  - E-mailul SupliScout e verificat pe 24.11 (cele 5 linkuri răspund, prețurile sunt neschimbate). **NETRIMIS**, așteaptă „da”-ul lui Marius.
+  - Nu s-a creat niciun cont și nu s-a trimis nimic.
+- 24.11: **Judge.me – textul pentru extensie, rularea 2** (`recenzii/09-TEXT-EXTENSIE-JUDGEME-RULAREA-2.md`): notează întâi setările și textele vechi, apoi pune E1 la 10 zile + E2 la 7 zile, pornește cererea pentru toate produsele din comandă, oprește cererea de poză și trimite testele doar la Marius și Adelina. O rulează Marius, cu Chrome pe jumătate de ecran.

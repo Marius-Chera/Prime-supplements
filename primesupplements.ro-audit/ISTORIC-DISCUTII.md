@@ -651,3 +651,8 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Marius: „ocupă-te și pune la punct profilul de Pinterest să putem posta mult”; „Da, apasă” pentru trecerea la cont business (acceptarea condițiilor Pinterest Business).
 - Făcut: profil business `primesupplementsro`, 8 panouri, 162 de pinuri din articole, programate 6 pe zi în perioada 25.11–21.12. De decis: aplicația Pinterest pentru Shopify (revendicare site + catalog de produse) și legătura cu Instagram. Detalii: `social/pinterest/PINTEREST-2026-11-24.md`.
 - 24.11.2026: Pinterest nu se leagă în Zernio, pentru că planul gratuit permite doar 2 conturi (Facebook și Instagram). Pinii se fac direct din Claude, în browser. Câmpul „Panoul Pinterest” din Prime Vizibilitate rămâne nefolosit.
+
+## 24.11.2026 – Lista pașilor lui Marius și kitul Trustpilot
+- Pașii care cer conturi, parole, identitate, plăți sau acorduri sunt adunați într-o singură listă, pe ordinea efectului: `PASII-LUI-MARIUS-2026-11-24.md`.
+- Trustpilot (propunere, se decide după cont): planul gratuit (50 de invitații pe lună), aplicația oficială Shopify, invitația la 3 zile după expediere, în ordinea expedierii, fără memento și fără nicio recompensă. Recenzia de produs rămâne la Judge.me (10 + 7 zile). Kitul: `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`.
+- SupliScout: e-mailul e gata și verificat; se trimite de pe contact@ doar cu „da”-ul lui Marius.

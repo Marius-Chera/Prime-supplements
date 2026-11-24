@@ -153,7 +153,7 @@ Liderii au mii de recenzii, Trustpilot, certificate și buletine de laborator pu
    Eu pot calcula marja pe fiecare variantă din Oblio, doar în citire.
 2. **Prețul pe porție și pe zi**, afișat pe fiecare produs („1,9 lei / porție”), cum fac Balkan și GymBeam. Ne avantajează la whey și izolat. E o schimbare de temă, deci cere aprobarea designului.
 3. **Ofertă pe cantitate fără cod**: 2 bucăți −5 %, 3 bucăți −8 % la consumabile (whey, creatină, cremă de orez, EAA). E o reducere automată în Shopify, nu un cod nou, dar tot e o reducere, deci **cere decizia lui Marius** (regula „fără coduri noi, doar WELCOME5”).
-4. **Plicuri-mostră** la Prime Whey, EAA și Nitrox (Pro Nutrition și Natural Plus le vând la 5–9 lei). Le cerem la Pro Nutrition, pentru coș și pentru afiliați: scad riscul de a încerca o aromă nouă.
+4. **Plicurile le avem deja** (corectat 25.11, după observația lui Marius): Prime Whey Go, plic 30 g, la 10 lei (202 buc. în stoc); Creatină Ready To Go, plic 10 g, la 4,40 lei (9 buc.); setul de degustare Frutilu (stoc 0). Le folosim ca mostre: (a) în coș, la „adaugă și”, lângă Prime Whey și creatină („încearcă aroma cu 10 lei”); (b) un plic Whey Go cadou în coletele peste 300 lei, cu acordul lui Marius pentru cost; (c) în kiturile afiliaților; (d) set de degustare Whey Go cu 3 arome. Nu cerem nimic de la Pro Nutrition.
 5. **Pachetele** există deja în Reduceri. Le dăm prețul pe porție și nume după scop („Start masă musculară”), nu după produse.
 6. **GymStack vinde 25 de produse Prime sub prețul nostru** (Prime Whey 360 lei față de 390, Pure Isolate 387–419 față de 510), aproape toate cu stoc 0. Probabil sunt prețuri vechi. **De verificat de Marius** cu GymStack, pentru că strică percepția prețului în comparatoare și în AI.
 
@@ -229,6 +229,6 @@ Detaliile sunt în `seo/SEO-AEO-GEO-100-2026-11-25.md`. Pe scurt: Shopping cu st
 3. Oferta pe cantitate (−3 % la 2 bucăți, −5 % la 3 bucăți) poate reveni, dar fără combinare cu codurile de afiliat. Codurile de afiliat NU se modifică (corectura lui Marius, 25.11): doar reducerea automată pe cantitate se setează să nu se combine cu reducerile de produs (afiliați, WELCOME5), dar să se combine cu transportul gratuit. Se testează înainte de pornire.
 4. Puncte: sugestiile sunt în chat-ul din 25.11; urmează decizia.
 5. Prețul pe 100 g: DA, mai ales la pudre. Varianta recomandată e prețul unitar nativ Shopify, pe fiecare variantă, pe care tema îl afișează și Google Shopping îl preia.
-6. Mostre: de cerut la Pro Nutrition, dacă Marius vrea.
+6. Mostre: avem deja Whey Go (plic 30 g, 10 lei) și Creatină Ready To Go (plic 10 g, 4,40 lei). Le folosim ca mostre în coș, cadou și în kiturile afiliaților; nu cerem nimic nou de la Pro Nutrition.
 7. Prețurile Prime la GymStack: le scriem.
 Judge.me și Trustpilot sunt pornite; certificatele se așteaptă.

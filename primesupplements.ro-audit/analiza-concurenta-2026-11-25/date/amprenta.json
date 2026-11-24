@@ -1,0 +1,893 @@
+{
+ "cand": "2026-11-24T23:08:13.863Z",
+ "prime": {
+  "origin": "https://primesupplements.ro",
+  "home": {
+   "status": 200,
+   "url": "https://primesupplements.ro/",
+   "kb": 710,
+   "scripturi": 12,
+   "titlu": "Suplimente nutritive, proteine și creatină | Prime Supplements",
+   "descriere": "Magazin online de suplimente nutritive pentru sport: creatină, proteine din zer, pre-workout, aminoacizi, vitamine și echipament de sală MNX. Livrare rapidă în toată România.",
+   "h1": [
+    "Prime Supplements"
+   ],
+   "domeniiScripturi": [
+    "cdn.shopify.com",
+    "primesupplements.ro"
+   ],
+   "livrareGratuita": "Livrare gratuită la comenzile de peste 300 RON",
+   "jsonld": [
+    "Organization",
+    "OnlineStore",
+    "ImageObject",
+    "PostalAddress",
+    "Person",
+    "Country",
+    "ContactPoint",
+    "WebSite",
+    "SearchAction",
+    "EntryPoint",
+    "FAQPage",
+    "Question",
+    "Answer"
+   ]
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "GTM",
+   "Clarity",
+   "Google Ads",
+   "Klaviyo",
+   "theMarketer",
+   "Judge.me",
+   "WhatsApp",
+   "Abonamente",
+   "Cookie CMP"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.5,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 403,
+   "produs": 209,
+   "categorie": 18,
+   "articol": 164,
+   "altele": 12
+  },
+  "produs": {
+   "url": "https://primesupplements.ro/products/prime-whey-1000g",
+   "status": 200,
+   "titlu": "Proteină whey Prime Whey 1 kg, 33 porții | Prime Supplements",
+   "descriereMetaCaractere": 149,
+   "h1": 1,
+   "cuvinte": 7934,
+   "jsonld": [
+    "Organization",
+    "OnlineStore",
+    "ImageObject",
+    "PostalAddress",
+    "Person",
+    "Country",
+    "ContactPoint",
+    "FAQPage",
+    "Question",
+    "Answer",
+    "Product",
+    "Brand",
+    "AggregateRating",
+    "Offer",
+    "MerchantReturnPolicy",
+    "OfferShippingDetails",
+    "MonetaryAmount",
+    "DefinedRegion",
+    "ShippingDeliveryTime",
+    "QuantitativeValue",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "rating": {
+    "valoare": "4.8",
+    "numar": 15
+   },
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://primesupplements.ro/products/prime-whey-1000g"
+  }
+ },
+ "genius": {
+  "origin": "https://geniusnutrition.ro",
+  "home": {
+   "status": 200,
+   "url": "https://geniusnutrition.ro/",
+   "kb": 918,
+   "scripturi": 27,
+   "titlu": "Genius Nutrition® | Top #1 Suplimente Nutritive",
+   "descriere": "Comanda online de pe site oficial Genius Nutrition® Romania. Cele mai bune suplimente nutritive: vitamine, proteine, creatina, aminoacizi, bcaa, whey protein, gainer, pre-workout, proteina din zer, alimente fitness, batoane proteice, accesorii fitness.",
+   "h1": [
+    "<img src=\"//geniusnutrition.ro/cdn/shop/files/Genius_nutrition_logo_all_or_nothing_145x.png?v=1702388100\" srcset=\"//geniusnutrition.ro/cdn/shop/files/Genius_nutrition_logo_all_or_nothing_145x.png?v=1702388100 1x, //geniusnutrition.ro/cdn/shop/files/Genius_nutrition_logo_all_or_nothing_145x@2x.png?v=1702388100 2x\" loading=\"lazy\" width=\"1893\" height=\"1063\" alt=\"Genius Nutrition®\" style=\"max-width: 145px;\">"
+   ],
+   "domeniiScripturi": [
+    "app.seasoneffects.com",
+    "cdn.shopify.com",
+    "cdn1.stamped.io",
+    "geniusnutrition.ro"
+   ],
+   "livrareGratuita": "Livrare Gratuita Livrare gratuita la comenzi peste 300 lei",
+   "jsonld": [
+    "Organization",
+    "WebSite",
+    "SearchAction"
+   ]
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "GTM",
+   "TikTok pixel",
+   "Google Ads",
+   "Stamped",
+   "Tidio",
+   "Abonamente",
+   "Push"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.7,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 341,
+   "produs": 200,
+   "categorie": 27,
+   "articol": 95,
+   "altele": 19
+  },
+  "produs": {
+   "url": "https://geniusnutrition.ro/products/warcry-clear-whey-500g-20-serv",
+   "status": 200,
+   "titlu": "WARCRY® CLEAR WHEY 500g/20serv\n– Genius Nutrition®",
+   "descriereMetaCaractere": 125,
+   "h1": 3,
+   "cuvinte": 34188,
+   "jsonld": [
+    "Organization"
+   ],
+   "rating": null,
+   "oferta": false,
+   "ogImage": true,
+   "canonical": "https://geniusnutrition.ro/products/warcry-clear-whey-500g-20-serv"
+  }
+ },
+ "gymbeam": {
+  "origin": "https://gymbeam.ro",
+  "home": {
+   "status": 200,
+   "url": "https://gymbeam.ro/",
+   "kb": 732,
+   "scripturi": 4,
+   "titlu": "GymBeam - magazin online cu suplimente nutritive pentru sportivi",
+   "descriere": "Suntem un magazin online cu suplimente nutritive, îmbrăcăminte, echipamente&accessorii pentru fitness în care veți găsi o gamă variată de produse, prețuri convenabile și metodă de livrare rapidă.",
+   "h1": [
+    "GymBeam - magazin online cu suplimente nutritive pentru sportivi"
+   ],
+   "domeniiScripturi": [
+    "gymbeam.ro",
+    "static.cloudflareinsights.com"
+   ],
+   "livrareGratuita": "Livrare gratuită la comenzile de peste 199 Lei",
+   "jsonld": [
+    "Organization",
+    "Person",
+    "ContactPoint",
+    "WebSite",
+    "OnlineStore",
+    "ImageObject",
+    "SearchAction",
+    "EntryPoint"
+   ]
+  },
+  "platforma": "Magento",
+  "terti": [
+   "GTM",
+   "Trustpilot",
+   "Abonamente",
+   "Push",
+   "Cookie CMP"
+  ],
+  "robots": {
+   "GPTBot": "numit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "numit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "numit",
+   "Google-Extended": "numit",
+   "CCBot": "numit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "numit"
+  },
+  "llms": {
+   "kb": 181,
+   "genericShopify": false
+  },
+  "sitemap": {
+   "total": 18168,
+   "produs": 13888,
+   "categorie": 0,
+   "articol": 0,
+   "altele": 4280
+  },
+  "produs": {
+   "url": "https://gymbeam.ro/whey-mass-gain-3000-g-megabol.html",
+   "status": 200,
+   "titlu": "Whey Mass Gain - Megabol | GymBeam.ro",
+   "descriereMetaCaractere": 140,
+   "h1": 2,
+   "cuvinte": 4907,
+   "jsonld": [
+    "ItemPage",
+    "SpeakableSpecification",
+    "Organization",
+    "Product",
+    "Brand",
+    "AggregateOffer",
+    "Offer",
+    "Review",
+    "Person",
+    "Rating",
+    "AggregateRating",
+    "PropertyValue",
+    "BreadcrumbList",
+    "ListItem",
+    "FAQPage",
+    "Question",
+    "Answer"
+   ],
+   "rating": {
+    "valoare": 4.4,
+    "numar": 442
+   },
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://gymbeam.ro/whey-mass-gain-3000-g-megabol.html"
+  }
+ },
+ "dynutrition": {
+  "origin": "https://dynutrition.ro",
+  "home": {
+   "status": 200,
+   "url": "https://dynutrition.ro/",
+   "kb": 562,
+   "scripturi": 21,
+   "titlu": "Suplimente nutritive, vitamine și minerale! – DY Nutrition Romania",
+   "descriere": "Suplimente nutritive, vitamine și minerale fabricate respectând standardele farmaceutice cGMP, recomandate de Dorian Yates, 6x Mr. Olympia.",
+   "h1": [
+    "DY Nutrition Romania"
+   ],
+   "domeniiScripturi": [
+    "a.klaviyo.com",
+    "cdn.506.io",
+    "cdn.respond.io",
+    "cdn.shopify.com",
+    "dynutrition.ro",
+    "static.klaviyo.com",
+    "www.gstatic.com"
+   ],
+   "livrareGratuita": "LIVRARE GRATUITĂ LA COMENZI PESTE 300 LEI",
+   "jsonld": [
+    "Organization",
+    "WebSite",
+    "SearchAction"
+   ]
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "GTM",
+   "Google Ads",
+   "Klaviyo",
+   "theMarketer",
+   "Judge.me",
+   "Trustpilot",
+   "Abonamente",
+   "Căutare dedicată"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "numit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "numit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.7,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 399,
+   "produs": 108,
+   "categorie": 40,
+   "articol": 145,
+   "altele": 106
+  },
+  "produs": {
+   "url": "https://dynutrition.ro/products/proteina-concentrata-din-zer-shadowhey-2kg-66-serviri",
+   "status": 200,
+   "titlu": "Proteină Concentrată Shadowhey DY Nutrition 2kg, 66 de serviri – DY Nutrition Romania",
+   "descriereMetaCaractere": 124,
+   "h1": 1,
+   "cuvinte": 7231,
+   "jsonld": [
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "ProductGroup",
+    "Brand",
+    "Product",
+    "Offer",
+    "FAQPage",
+    "Question",
+    "Answer"
+   ],
+   "rating": null,
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://dynutrition.ro/products/proteina-concentrata-din-zer-shadowhey-2kg-66-serviri"
+  }
+ },
+ "vitabolic": {
+  "origin": "https://www.suplimente-vitabolic.ro",
+  "home": {
+   "status": 200,
+   "url": "https://www.suplimente-vitabolic.ro/",
+   "kb": 192,
+   "scripturi": 20,
+   "titlu": "Vitabolic - Magazin online suplimente naturiste",
+   "descriere": "Vitabolic - Magazin online de suplimente nutritive pentru Culturism, Fitness, Slabire, Sanatate.",
+   "h1": [
+    "Suplimente de nouă generație.",
+    "Puterea viitorului în fiecare doză.",
+    "Tehnologie avansată."
+   ],
+   "domeniiScripturi": [
+    "ajax.googleapis.com",
+    "sibforms.com",
+    "www.googletagmanager.com",
+    "www.suplimente-vitabolic.ro"
+   ],
+   "livrareGratuita": null,
+   "jsonld": [
+    "Organization",
+    "OnlineStore",
+    "ImageObject",
+    "PropertyValue",
+    "PostalAddress",
+    "Country",
+    "AdministrativeArea",
+    "ContactPoint",
+    "OpeningHoursSpecification",
+    "WebSite",
+    "WebPage"
+   ]
+  },
+  "platforma": "Magento",
+  "terti": [
+   "GA4/gtag",
+   "GTM",
+   "Meta pixel",
+   "TikTok pixel",
+   "Google Ads",
+   "WhatsApp",
+   "Abonamente",
+   "Cookie CMP"
+  ],
+  "robots": {
+   "GPTBot": "blocat",
+   "OAI-SearchBot": "numit",
+   "ChatGPT-User": "numit",
+   "ClaudeBot": "blocat",
+   "Claude-SearchBot": "numit",
+   "PerplexityBot": "numit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 9.5,
+   "genericShopify": false
+  },
+  "sitemap": {
+   "total": 515,
+   "produs": 0,
+   "categorie": 0,
+   "articol": 0,
+   "altele": 515
+  }
+ },
+ "nutriland": {
+  "origin": "https://www.nutriland.ro",
+  "home": {
+   "status": 200,
+   "url": "https://www.nutriland.ro/",
+   "kb": 1265,
+   "scripturi": 50,
+   "titlu": "Magazin suplimente sportivi - Nutriland",
+   "descriere": "Magazin suplimente sportivi ➔ Descopera o gama variata produse in magazin suplimente nutritive Nutriland ⭐ Comanda acum ✅ Livrare in toata tara",
+   "h1": [
+    "MAGAZIN SUPLIMENTE SPORTIVI"
+   ],
+   "domeniiScripturi": [
+    "cdn.shopify.com",
+    "static.bogos.io",
+    "static.klaviyo.com",
+    "www.nutriland.ro"
+   ],
+   "livrareGratuita": null,
+   "jsonld": [
+    "WebSite",
+    "SearchAction",
+    "Organization",
+    "ImageObject"
+   ]
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "Klaviyo",
+   "Judge.me",
+   "Upsell/cross-sell",
+   "Abonamente",
+   "Rate"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 54.5,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 11489,
+   "produs": 10278,
+   "categorie": 532,
+   "articol": 522,
+   "altele": 157
+  },
+  "produs": {
+   "url": "https://www.nutriland.ro/products/diet-whey-450g",
+   "status": 200,
+   "titlu": "Diet Whey 450g, pudra, Applied Nutrition, Concentrat si izolat proteic din zer - Nutriland",
+   "descriereMetaCaractere": 160,
+   "h1": 1,
+   "cuvinte": 12890,
+   "jsonld": [
+    "ProductGroup",
+    "Brand",
+    "Offer",
+    "Organization",
+    "OfferShippingDetails",
+    "MonetaryAmount",
+    "DefinedRegion",
+    "ShippingDeliveryTime",
+    "QuantitativeValue",
+    "MerchantReturnPolicy",
+    "Product",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "rating": null,
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://www.nutriland.ro/products/diet-whey-450g"
+  }
+ },
+ "gymstack": {
+  "origin": "https://gym-stack.ro",
+  "home": {
+   "status": 200,
+   "url": "https://gym-stack.ro/",
+   "kb": 669,
+   "scripturi": 33,
+   "titlu": "Magazin suplimente sportive si nutritive sala: Producatori de top!",
+   "descriere": "Suplimente sportive originale de la peste 80 de branduri: Evogen, BioTechUSA, Scitec, Ghost. Livrare în 24-48h, transport gratuit peste 249 lei, ridicare din București.",
+   "h1": [],
+   "domeniiScripturi": [
+    "a.klaviyo.com",
+    "cdn.shopify.com",
+    "gym-stack.ro",
+    "shop.app",
+    "static.bogos.io",
+    "static.klaviyo.com"
+   ],
+   "livrareGratuita": "peste 249 lei Transport gratu",
+   "jsonld": []
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "Clarity",
+   "Google Ads",
+   "Klaviyo",
+   "Upsell/cross-sell",
+   "Abonamente",
+   "Fidelitate/puncte",
+   "Push"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.6,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 2473,
+   "produs": 2157,
+   "categorie": 213,
+   "articol": 72,
+   "altele": 31
+  },
+  "produs": {
+   "url": "https://gym-stack.ro/products/proteina-din-zer-on-whey-gold-standard-2270g",
+   "status": 200,
+   "titlu": "Proteina din Zer, Optimum Nutrition, 100% Whey Gold Standard, 63 Servi",
+   "descriereMetaCaractere": 173,
+   "h1": 1,
+   "cuvinte": 8677,
+   "jsonld": [
+    "Product",
+    "Brand",
+    "Offer",
+    "AggregateRating",
+    "BreadcrumbList",
+    "ListItem"
+   ],
+   "rating": {
+    "valoare": 0,
+    "numar": 0
+   },
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://gym-stack.ro/products/proteina-din-zer-on-whey-gold-standard-2270g"
+  }
+ },
+ "pronutrition": {
+  "origin": "https://www.pronutrition.ro",
+  "home": {
+   "status": 200,
+   "url": "https://www.pronutrition.ro/",
+   "kb": 247,
+   "scripturi": 17,
+   "titlu": "Pro Nutrition | Suplimente nutritive pentru performanță",
+   "descriere": "Producător românesc de suplimente nutritive, cu peste 26 ani experiență: proteine, creatină, batoane proteice, pre-workout, vitamine. ",
+   "h1": [
+    "Suplimente Nutritive Online"
+   ],
+   "domeniiScripturi": [
+    "chimpstatic.com",
+    "mny.ro",
+    "www.pronutrition.ro"
+   ],
+   "livrareGratuita": null,
+   "jsonld": [
+    "WebSite",
+    "Organization",
+    "PostalAddress",
+    "WebPage",
+    "SpeakableSpecification"
+   ]
+  },
+  "platforma": "Magento",
+  "terti": [
+   "GA4/gtag",
+   "GTM",
+   "Mailchimp",
+   "Upsell/cross-sell",
+   "Fidelitate/puncte"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": null,
+  "sitemap": {
+   "total": 705,
+   "produs": 398,
+   "categorie": 0,
+   "articol": 1,
+   "altele": 306
+  },
+  "produs": {
+   "url": "https://www.pronutrition.ro/iso-whey-gold-edition-flacon-ciocolata-2100g.html",
+   "status": 200,
+   "titlu": "Iso Whey - Gold Edition",
+   "descriereMetaCaractere": 24,
+   "h1": 1,
+   "cuvinte": 4471,
+   "jsonld": [
+    "WebSite",
+    "BreadcrumbList",
+    "ListItem",
+    "Product",
+    "https://schema.org/Offer",
+    "OfferShippingDetails",
+    "ShippingDeliveryTime",
+    "OpeningHoursSpecification",
+    "UnitPriceSpecification",
+    "QuantitativeValue",
+    "WebPage",
+    "SpeakableSpecification"
+   ],
+   "rating": null,
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://www.pronutrition.ro/iso-whey-gold-edition.html"
+  }
+ },
+ "naturalplus": {
+  "origin": "https://naturalplus.ro",
+  "home": {
+   "status": 200,
+   "url": "https://naturalplus.ro/",
+   "kb": 692,
+   "scripturi": 57,
+   "titlu": "Natural Plus | Cele mai bune suplimente raport calitate/pret – Naturalplus",
+   "descriere": "Cu o experiență de peste 25 de ani în domeniul suplimentelor alimentare , Natural Plus vă oferă o gamă largă de produse cu un raport calitate preț perfect.",
+   "h1": [
+    "Naturalplus"
+   ],
+   "domeniiScripturi": [
+    "ajax.aspnetcdn.com",
+    "analytics-api.shopiment.io",
+    "cdn.shopify.com",
+    "code.jquery.com",
+    "naturalplus.ro",
+    "shop.app"
+   ],
+   "livrareGratuita": "Livrare gratuită la comenzile de peste <span class=hide-price-guest>150,00 lei",
+   "jsonld": []
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "GA4/gtag",
+   "GTM",
+   "Google Ads",
+   "theMarketer",
+   "Mailchimp",
+   "Judge.me",
+   "Upsell/cross-sell",
+   "Abonamente"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.7,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 1096,
+   "produs": 512,
+   "categorie": 96,
+   "articol": 231,
+   "altele": 257
+  },
+  "produs": {
+   "url": "https://naturalplus.ro/products/hydrowhey-protein",
+   "status": 200,
+   "titlu": "Hydrowhey Protein – Naturalplus",
+   "descriereMetaCaractere": 320,
+   "h1": 4,
+   "cuvinte": 21319,
+   "jsonld": [],
+   "rating": null,
+   "oferta": false,
+   "ogImage": true,
+   "canonical": "https://naturalplus.ro/products/hydrowhey-protein"
+  }
+ },
+ "scitec": {
+  "origin": "https://scitecnutrition.ro",
+  "home": {
+   "status": 200,
+   "url": "https://scitecnutrition.ro/",
+   "kb": 231,
+   "scripturi": 3,
+   "titlu": "Ajutorul tău pentru un stil de viață activ | Scitecnutrition",
+   "descriere": "Alege dintr-o gamă largă de suplimente, vitamine și minerale necesare pentru a-ți asigura aportul optim de nutrienți potrivit unui stil de viață activ!",
+   "h1": [],
+   "domeniiScripturi": [
+    "scitecnutrition.ro",
+    "www.googletagmanager.com"
+   ],
+   "livrareGratuita": null,
+   "jsonld": []
+  },
+  "platforma": "Magento",
+  "terti": [
+   "GA4/gtag",
+   "Meta pixel",
+   "Google Ads"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": null,
+  "sitemap": {
+   "total": 188,
+   "produs": 142,
+   "categorie": 0,
+   "articol": 16,
+   "altele": 30
+  },
+  "produs": {
+   "url": "https://scitecnutrition.ro/4-masa-musculara/13-100-pure-whey.html",
+   "status": 200,
+   "titlu": "100% Pure Whey",
+   "descriereMetaCaractere": 0,
+   "h1": 1,
+   "cuvinte": 1665,
+   "jsonld": [],
+   "rating": null,
+   "oferta": false,
+   "ogImage": true,
+   "canonical": "https://scitecnutrition.ro/4-masa-musculara/13-17-100-pure-whey.html"
+  }
+ },
+ "balkan": {
+  "origin": "https://balkan.ro",
+  "home": {
+   "status": 200,
+   "url": "https://balkan.ro/",
+   "kb": 574,
+   "scripturi": 65,
+   "titlu": "Suplimente Alimentare de la Producător | Balkan Pro Health",
+   "descriere": "Suplimente alimentare Balkan Pharmaceuticals, din fabrici proprii certificate GMP. Proteine, vitamine, colagen și seturi. Livrare în 1–3 zile lucrătoare.",
+   "h1": [
+    "Suplimente alimentare de la producător farmaceutic, fabricate în România"
+   ],
+   "domeniiScripturi": [
+    "balkan.ro",
+    "cdn.shopify.com"
+   ],
+   "livrareGratuita": null,
+   "jsonld": [
+    "Organization",
+    "ContactPoint"
+   ]
+  },
+  "platforma": "Shopify",
+  "terti": [
+   "GA4/gtag",
+   "GTM",
+   "Clarity",
+   "Google Ads",
+   "Abonamente"
+  ],
+  "robots": {
+   "GPTBot": "implicit",
+   "OAI-SearchBot": "implicit",
+   "ChatGPT-User": "implicit",
+   "ClaudeBot": "implicit",
+   "Claude-SearchBot": "implicit",
+   "PerplexityBot": "implicit",
+   "Google-Extended": "implicit",
+   "CCBot": "implicit",
+   "Bytespider": "implicit",
+   "Applebot-Extended": "implicit"
+  },
+  "llms": {
+   "kb": 5.6,
+   "genericShopify": true
+  },
+  "sitemap": {
+   "total": 262,
+   "produs": 162,
+   "categorie": 25,
+   "articol": 65,
+   "altele": 10
+  },
+  "produs": {
+   "url": "https://balkan.ro/products/100-whey-protein-isolate-cfm-900g-balkanpharma",
+   "status": 200,
+   "titlu": "Whey Izolată CFM® Fără aromă, 900 g | Balkan Pro Health",
+   "descriereMetaCaractere": 117,
+   "h1": 1,
+   "cuvinte": 11270,
+   "jsonld": [
+    "Product",
+    "PropertyValue",
+    "MerchantReturnPolicy",
+    "Offer",
+    "OfferShippingDetails",
+    "MonetaryAmount",
+    "DefinedRegion",
+    "ShippingDeliveryTime",
+    "QuantitativeValue",
+    "Organization",
+    "ContactPoint",
+    "BreadcrumbList",
+    "ListItem",
+    "Brand",
+    "FAQPage",
+    "Question",
+    "Answer"
+   ],
+   "rating": null,
+   "oferta": true,
+   "ogImage": true,
+   "canonical": "https://balkan.ro/products/100-whey-protein-isolate-cfm-900g-balkanpharma"
+  }
+ }
+}

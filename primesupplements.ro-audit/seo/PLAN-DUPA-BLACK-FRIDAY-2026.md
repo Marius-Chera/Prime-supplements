@@ -161,7 +161,7 @@ Model: pagina Creapure de la Pro Nutrition (685 de recenzii, întrebări și ră
 2. ~~Pasul 11: lista cu noile titluri de colecții – aprobare sau corecturi.~~ **APROBAT de proprietar pe 13.11.2026** (cele 7 titluri, așa cum sunt la pasul 11); se aplică după 1.12, la rândul pasului 11 (ianuarie).
 3. Pasul 12: cele 6 colecții noi – da/nu și unde intră în meniu.
 4. Pasul 16: contul Trustpilot (îl creezi tu) și decizia pentru Compari/Skroutz.
-5. Pasul 18: linkurile oficiale YouTube și TikTok; dacă există documente pentru TUV/IFS/HALAL.
+5. Pasul 18: ~~linkurile oficiale YouTube și TikTok~~ confirmate 25.11 (tiktok.com/@primesupplements.ro, youtube.com/@primesupplementsro); rămâne: dacă există documente pentru TUV/IFS/HALAL.
 6. Pasul 19: dacă există coduri de bare pentru pachete, shakere, șepci, tricouri Prime.
 
 Memento: pe 1 decembrie 2026 există deja un memento pentru e-mailul video al afiliaților; planul de față pornește în aceeași zi cu pasul 1.

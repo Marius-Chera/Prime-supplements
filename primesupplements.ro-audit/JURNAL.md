@@ -2158,3 +2158,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Verificat în previzualizare: 2 articole, o pagină, 3 produse, o colecție și homepage-ul. JSON-ul e valid, există exact un BreadcrumbList pe pagină, iar textele din FAQPage sunt identice cu cele vizibile.
     - **Așteaptă publicarea de către Marius.**
   - **De ce nu 100 acum:** recenzii pe doar 57 din 209 produse (cresc doar cu recenzii reale, pasul 15), FAQ și link spre ghid pe produse (după 1.12), subiecte fără pagină (pasul 12).
+
+## 2026-11-24 – Pinterest: profil business + 162 de pinuri programate (fără Zernio)
+- Contul Pinterest al lui Marius (contact@) pus la punct din Chrome: **cont business** (Marius a aprobat condițiile), utilizator **primesupplementsro**, nume „Prime Supplements – Nutriție sportivă”, descriere, site, logo. Detalii: `social/pinterest/PINTEREST-2026-11-24.md`.
+- **8 panouri** pe cuvinte-cheie (cremă de orez, proteine din zer, creatină, rețete, suplimente, vitamine, antrenament, produse).
+- **162 de pinuri verticale** (toate articolele de pe blog), cu titlul pe imagine și link cu UTM spre articol; imaginile sunt în Shopify Files (`pinterest-pin-001…162.jpg`). Încărcate prin CSV, **6 pe zi în perioada 25.11–21.12**. Scripturi: `social/pinterest/build-lista.mjs`, `make-pins.ps1`, `build-csv.mjs`.
+- Rămas: revendicarea site-ului (aplicația Pinterest pentru Shopify sau marcajul meta), apoi RSS automat din blog; legătura Instagram → Pinterest.

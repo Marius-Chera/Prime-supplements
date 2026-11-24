@@ -1,6 +1,6 @@
 # Blocul Trustpilot din e-mailul Shopify „Shipping confirmation” (24.11.2026)
 
-**Unde:** Shopify → Setări → Notificări → Notificări clienți → Shipping confirmation → Edit code. Blocul stă imediat **înainte** de rândul `<table class="row footer">`.
+**Unde:** Shopify → Setări → Notificări → Notificări clienți → Shipping confirmation → Edit code. Din 24.11 (după-amiaza) blocul stă imediat **înainte** de secțiunea `<h3>Articolele din această expediere</h3>` (sub „Vezi comanda”). Tot atunci s-a scos butonul Shop: `{% if false and shop_app_tracking_url … %}` (pentru revenire se șterge „false and ”).
 **De ce:** varianta B, aleasă de Marius pe 24.11. Planul gratuit Trustpilot nu are șablon de invitație în română, așa că toți clienții primesc linkul general de recenzie, în română, în e-mailul de expediere. Fără recompensă și fără selecție, conform regulilor Trustpilot. Recenziile vin ca „organice” (fără eticheta „Verified”).
 **Cum revii la forma veche:** ștergi tot ce e între `<!-- TRUSTPILOT-RECENZIE START` și `<!-- TRUSTPILOT-RECENZIE END -->` (inclusiv), apoi Save. Restul șablonului rămâne neschimbat.
 

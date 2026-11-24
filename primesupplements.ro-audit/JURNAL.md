@@ -2296,3 +2296,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Rezervă și revenire:** `recenzii/trustpilot/BLOC-EMAIL-EXPEDIERE-TRUSTPILOT.md` (se șterge blocul dintre comentariile START și END).
   - **Regulile Trustpilot sunt respectate:** blocul ajunge la toți clienții, fără recompensă, iar spre Trustpilot nu pleacă nicio dată a clientului, deci politica de confidențialitate nu se schimbă.
   - Aplicația Trustpilot din Shopify rămâne legată, dar NU trimite invitații: pe planul gratuit nu există șablon în română.
+- 24.11: **E-mailul de expediere – două modificări cerute de Marius:**
+  - **(1) Blocul Trustpilot mutat mai sus,** imediat sub butonul „Vezi comanda” și numărul de urmărire, înainte de „Articolele din această expediere” (Marius: „nu merge mai sus butonul? acolo jos nu îl vede nimeni”).
+  - **(2) Butonul mov „Urmărește comanda cu Shop” scos** (Marius: „dacă nu ajută, mai bine îl elimini”). Promova aplicația Shop a Shopify, aproape nefolosită în România, care le arată clienților și alte magazine. Starea comenzii și urmărirea Cargus sunt deja în „Vezi comanda”.
+    - Cum: condiția `{% if shop_app_tracking_url and … %}` a devenit `{% if false and … %}`, cu un comentariu de revenire, deci se afișează varianta standard cu un singur buton.
+  - **Verificat:** salvat, reîncărcat, blocul apare o singură dată, iar butonul Shop nu mai e. Testul a plecat la marius.chera@outlook.com.

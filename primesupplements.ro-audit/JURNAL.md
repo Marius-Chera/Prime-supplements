@@ -2291,3 +2291,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Configurarea începută în aplicație: tip „Service reviews only”, 3 zile după „Fulfilled”. **Nu e salvată**: lista de șabloane e goală.
   - **Limita găsită:** șabloanele Trustpilot pe planul gratuit există doar în limbile din listă (engleză, germană, franceză etc.), **nu și în română**. Șabloanele proprii sunt doar pe Premium. Decizia (invitație în engleză sau link propriu în română în e-mailul de expediere) e la Marius. Nimic pornit.
 - 24.11: decizie Marius – PRS16248, PRS17068 și PRS17078 le corectează contabila în Oblio (storno + factură nouă cu CUI); Claude nu le atinge.
+- 24.11: **Trustpilot în e-mailul de expediere, LIVE** (varianta B, Marius: „Link în română (B)”, apoi „Da, salvează”). Am salvat în Shopify → Notificări → Shipping confirmation blocul „Cum a fost comanda ta?”, cu butonul roșu „Lasă o recenzie pe Trustpilot” spre `https://www.trustpilot.com/evaluate/primesupplements.ro`, pus imediat deasupra subsolului.
+  - **Verificare:** după reîncărcare, blocul apare o singură dată, deasupra footerului. Shopify a trimis testul la marius.chera@outlook.com.
+  - **Rezervă și revenire:** `recenzii/trustpilot/BLOC-EMAIL-EXPEDIERE-TRUSTPILOT.md` (se șterge blocul dintre comentariile START și END).
+  - **Regulile Trustpilot sunt respectate:** blocul ajunge la toți clienții, fără recompensă, iar spre Trustpilot nu pleacă nicio dată a clientului, deci politica de confidențialitate nu se schimbă.
+  - Aplicația Trustpilot din Shopify rămâne legată, dar NU trimite invitații: pe planul gratuit nu există șablon în română.

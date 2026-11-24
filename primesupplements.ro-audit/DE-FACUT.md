@@ -189,7 +189,7 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
     - Marius îl creează pe business.google.com (contact@), pe adresa magazinului, nu pe sediul din Cisnădie;
     - verificarea se face cu un clip filmat la magazin.
 45. **Trustpilot (24.11, `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §9):** cont și profil gata.
-    - **Rămân:** instalarea aplicației Trustpilot din Shopify App Store (Marius aprobă permisiunile); apoi Claude setează invitațiile (3 zile după expediere, fără memento, 50/lună), cu test la Marius și Adelina, plus fraza din politica de confidențialitate.
+    - **24.11 LIVE:** linkul de recenzie în română în e-mailul de expediere (varianta B). Aplicația Trustpilot din Shopify e instalată și legată, dar nu trimite invitații (pe planul gratuit nu are șablon în română). De urmărit lunar: recenziile primite.
     - Pornirea doar cu „da”. Trialul Plus nu se pornește.
 46. **De verificat de Claude pe 25.11 dimineața:**
     - Late Black Friday (LATEBF20 activ, e-mail, SMS și postări plecate);

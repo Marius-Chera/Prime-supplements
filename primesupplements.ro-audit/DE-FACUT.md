@@ -183,3 +183,17 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
 43. **Creapure® – revizuire de preț în 2027 (decizia lui Marius din 23.11: „nu facem acum, dar luăm în calcul pentru 2027”).** Propunerea din `stocuri/MARJA-CREAPURE-PRETURI-2026-11-23.md`: 500 g la 155–160 lei (azi 180), 300 g la 99–105 lei (azi 115). Cu codul sportivilor (10 % + 10 %) rămân ~25–28 lei, respectiv ~18–22 lei pe cutie. Nu sub 145 / 89 lei. Înainte de schimbare: refac calculul cu prețul de achiziție al rezervării de 1.000 kg (ridicată pe tranșe, `stocuri/ESTIMARE-STOC-CREAPURE-2027.md`). Prețul se schimbă doar cu „da”, fără preț tăiat.
 
 - [Marius, „da”] **D11 – Purchase dublat în Meta (24.11):** oprește Meta Pixel Event Tracking în Simprosys (Pixels and tracking; cere „Login with Facebook”). **24.11: pixelul personalizat SIMPROSYS, prin care rula, e deconectat (E2) – întâi verificăm pe 25–27.11 dacă dublarea a dispărut; abia dacă nu, oprirea din Simprosys.** Canalul Facebook & Instagram trimite deja Pixel + CAPI. După 3–7 zile, Purchase în Events Manager trebuie să fie cât comenzile din Shopify. Plus: publicarea celor 12 pachete pe canalele Facebook & Instagram și Google & YouTube. Detalii: `findings/AUDIT-CANALE-META-2026-11-24.md`.
+
+44. **Google Business Profile pentru magazinul fizic din Sibiu (24.11, ISTORIC-DISCUTII 24.11): AMÂNAT de Marius („mai târziu”).** Acum e eligibil, prin magazinul „PrimeStore”, Str. Rahovei 45A, Sibiu. Când se reia:
+    - Claude pregătește pașii și textele profilului;
+    - Marius îl creează pe business.google.com (contact@), pe adresa magazinului, nu pe sediul din Cisnădie;
+    - verificarea se face cu un clip filmat la magazin.
+45. **Trustpilot (24.11, `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §9):** cont și profil gata.
+    - **Rămân:** instalarea aplicației Trustpilot din Shopify App Store (Marius aprobă permisiunile); apoi Claude setează invitațiile (3 zile după expediere, fără memento, 50/lună), cu test la Marius și Adelina, plus fraza din politica de confidențialitate.
+    - Pornirea doar cu „da”. Trialul Plus nu se pornește.
+46. **De verificat de Claude pe 25.11 dimineața:**
+    - Late Black Friday (LATEBF20 activ, e-mail, SMS și postări plecate);
+    - tag-ul Google o singură dată după E2;
+    - ștergerea secretului Google ****W6DK, dacă Reclame Prime a sincronizat normal la 06:00.
+    - Pe 25–27.11: Purchase din Meta comparat cu comenzile Shopify (D11).
+    - În 3–7 zile lucrătoare: produsele apar pe Compari.

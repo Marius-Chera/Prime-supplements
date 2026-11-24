@@ -641,3 +641,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Instagram Shopping / etichetele de produs: **indisponibile în România** (Commerce Manager). Nu se schimbă țara.
 - Marius: bara „Cumpără acum” ca la Genius, **în bugetul existent** → postare organică folosită ca reclamă în ad set-ul [NOU] crema de orez (fără buget nou); story-uri cu autocolant Link; linkuri pe profil (cremă de orez, Prime Whey, Creapure); **în postări: „Linkul e în bio”**.
 - 24.11: Marius lasă **activ „product browsing”** la reclamele Meta (fără Opt out; Meta îl adaugă din 26.11.2026).
+
+## 24.11.2026 – Instagram: plan pe 30 de zile din analiza concurenților
+- Marius a cerut ce face reel-ul @aisocialmastery (analiza concurenților cu Claude → calendar pe 30 de zile); „Da, pornește” pentru analiză. Rezultatul: tiparele A–E și planul 25.11–24.12 în `social/2026-11-24-instagram-concurenti-plan-30-zile/README.md`. De decis de Marius: aprobarea planului, colaborările (Alex Panek, afiliat/Kara, sală pentru provocare), programarea în Zernio (doar cu „da”). DM automat la cuvânt din comentarii (Zernio): doar propus, nepornit.

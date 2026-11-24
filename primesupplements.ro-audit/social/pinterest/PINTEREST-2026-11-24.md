@@ -16,6 +16,11 @@ Profil: https://ro.pinterest.com/primesupplementsro/
   - CSV încărcat în Pinterest (Setări → Importă conținut → Creează Pinuri în masă) la 24.11: „Încărcare reușită”, procesare ~2 ore; erorile vin pe e-mail la contact@.
   - **Program:** 6 pinuri/zi la 08, 11, 14, 17, 19, 21 (ora României), **25.11 → 21.12.2026**; panourile alternează, prioritatea: cremă de orez → proteine → creatină → rețete → suplimente → vitamine → antrenament (articolele cele mai noi întâi).
 
+## Pinuri de produs (24.11, la cererea lui Marius „fă acum”)
+- **81 de pinuri de produs**: toate produsele active, publicate și în stoc, **fără haine** (tricouri, maiouri, hanorace, pantaloni, MNX, seturile Hammer). Imagine 1000×1500: packshotul întreg pe alb, logo, tipul produsului cu roșu, numele pe negru, bara roșie „Vezi produsul → primesupplements.ro”. Link direct spre produs cu `utm_campaign=pin-produse`; descrierea e descrierea SEO a produsului + „Comandă pe primesupplements.ro, livrare în toată România.” (verificată: fără promisiuni de slăbire sau vindecare).
+- Scripturi: `build-produse.mjs` (export GraphQL produse → `pinuri-produse/lista.json`, prioritate: cremă de orez → Prime Whey / Pure Isolate / pachete starter → creatină → restul) → `make-pins-produse.ps1` (pozele și pinurile în `D:\Proiecte Claude\Prime Supplements\_pinterest\`) → Shopify Files `pinterest-produs-001…081.jpg` (toate 200) → `build-csv-produse.mjs` → `pinuri-produse/pinterest-produse.csv`.
+- Încărcat 24.11 („Încărcare reușită”), panoul **„Produse Prime Supplements”**, **3 pe zi la 10:00, 16:00 și 20:30**, **25.11 → 21.12** (orele nu se suprapun cu pinurile de articole). Total pe zi: 9 pinuri (6 articole + 3 produse) + postările de pe Instagram.
+
 ## Aplicația Pinterest pentru Shopify (24.11, cu „da” de la Marius)
 - Instalată (`apps/pinterest-4`); Marius a autorizat contul în fereastra Pinterest; în Pinterest → Link către Pinterest apare asociat magazinul `primesupplements1.myshopify.com`.
 - **Configurarea nu se poate termina:** „Advertising is not available for your account – Your Pinterest account is in a country where Pinterest does not yet offer ads”. Aplicația cere cont de reclame pentru catalog și marcaj → **în România nu sincronizează produsele și nu revendică site-ul.** Aplicația a rămas instalată (de decis de Marius: o dezinstalăm, nu folosește la nimic acum).

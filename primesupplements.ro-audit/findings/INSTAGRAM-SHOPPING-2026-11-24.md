@@ -19,3 +19,9 @@
 ## Variante complementare
 - **Promovare cu „Cumpără acum”** (ca Genius): costă; intră în regulile Meta Ads din 19.11 (max 3000 lei/lună, prioritate cream of rice, doar cu „da”).
 - **Linkuri pe profil:** până la 5 (Editează profilul → Linkuri), de ex. crema de orez și Prime Whey.
+
+## Actualizare 24.11 (după pasul lui Marius)
+- Marius și-a dat acces pe catalog (Assign people, făcut).
+- Commerce Manager → Get started, cu piața principală România: **„Shops isn't available in your country”**. Butonul „Get started” pentru shop e inactiv. **Shop-ul și etichetele de produs nu sunt disponibile în România.** Nu schimbăm țara: ar fi o declarație falsă și Meta poate închide contul de comerț.
+- Asta confirmă că bara „Cumpără acum” de la Genius vine dintr-o **reclamă sau promovare** (și ei sunt în România).
+- Ce rămâne posibil: (1) promovare sau reclamă de catalog cu „Cumpără acum” (catalogul există deja, 197 de produse), în bugetul Meta Ads; (2) până la 5 linkuri pe profil; (3) autocolantul „Link” în story-uri, gratuit, către pagina produsului; (4) în postări, „link în bio” sau un cuvânt-cheie în comentarii cu link trimis în DM.

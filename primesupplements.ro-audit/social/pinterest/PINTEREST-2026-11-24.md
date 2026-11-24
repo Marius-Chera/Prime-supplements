@@ -27,6 +27,11 @@ Profil: https://ro.pinterest.com/primesupplementsro/
 - Scripturi: `build-produse.mjs --haine` → `pinuri-haine/lista.json`; `make-pins-produse.ps1 -Lista pinuri-haine -Cover`; Shopify Files `pinterest-haine-001…084.jpg` (toate 200); `build-csv-produse.mjs --haine` → `pinuri-haine/pinterest-haine.csv`. Încărcat 24.11 („Încărcare reușită”).
 - **Total pe zi acum: 12 pinuri** (6 articole + 3 produse + 3 haine) + postările de pe Instagram.
 
+## ⚠️ Limita de 100 de pinuri programate (descoperită 24.11 seara)
+- Pinterest ține **cel mult 100 de pinuri programate odată**. Din cele 327 trimise au intrat doar **primele 100 de articole** (25.11 → 11.12, 6/zi); restul (~60 de articole, toate produsele și toate hainele) au fost refuzate fără să fie publicate (profilul avea 0 pinuri). Secțiunile de mai sus despre produse și haine descriu deci ce s-a trimis, nu ce e programat.
+- 24.11, la cererea lui Marius („postează acum măcar 10”): **10 pinuri publicate imediat** din cele refuzate (4 articole pe panouri diferite; 3 produse: cremă de orez, Pure Isolate, Creapure; 3 haine: hanorac Prime Squad, hanorac MNX Edge, maiou MNX), fișier `pinterest-acum-10.csv` (CSV fără „Publish date” = publicare imediată). Verificat pe profil: 10 pinuri.
+- În `lista.json` (articole/produse/haine): `programat_pinterest: true` = deja în programarea Pinterest; `postat_acum` = publicat imediat. Restul = **coada** (~217 pinuri), de urcat pe măsură ce se eliberează locuri în programare (se publică 6 pe zi, deci ~42 de locuri pe săptămână), amestecând articole, produse și haine.
+
 ## Aplicația Pinterest pentru Shopify (24.11, cu „da” de la Marius)
 - Instalată (`apps/pinterest-4`); Marius a autorizat contul în fereastra Pinterest; în Pinterest → Link către Pinterest apare asociat magazinul `primesupplements1.myshopify.com`.
 - **Configurarea nu se poate termina:** „Advertising is not available for your account – Your Pinterest account is in a country where Pinterest does not yet offer ads”. Aplicația cere cont de reclame pentru catalog și marcaj → **în România nu sincronizează produsele și nu revendică site-ul.** Aplicația a rămas instalată (de decis de Marius: o dezinstalăm, nu folosește la nimic acum).

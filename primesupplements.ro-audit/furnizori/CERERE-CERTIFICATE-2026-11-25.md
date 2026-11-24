@@ -1,4 +1,4 @@
-# Cerere de certificate de la producători (25.11.2026) – NETRIMISE, așteaptă „da”
+# Cerere de certificate de la producători (25.11.2026) – TRIMISE 25.11 de pe Yahoo (cu „da”-ul lui Marius), se așteaptă răspunsurile
 
 Cerută de Marius pe 25.11 („scrie mail de pe yahoo la petronela pentru certificare, la fel si pentru andrada mircea de la urban body”). Scop: pasul 18 din `seo/PLAN-DUPA-BLACK-FRIDAY-2026.md`. Pagina „Despre noi” afirmă deja „ISO, HACCP, TÜV, IFS, HALAL, Cologne List”, dar fără nicio dovadă, iar AI-ul ne descrie ca „brand nou, puține dovezi”. Pe site **nu numim fabrica** (regula proprietarului); trecem doar tipul certificatului, numărul și valabilitatea.
 

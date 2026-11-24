@@ -32,6 +32,6 @@ Profil: https://ro.pinterest.com/primesupplementsro/
 ## Ce rămâne
 1. ~~Revendicarea site-ului~~ făcută pe 24.11.
 2. **Articolele noi** intră prin CSV (de exemplu lunar): export nou al articolelor → `build-lista.mjs` → `make-pins.ps1 -Only <handle>` → urcare în Files → CSV doar cu ele.
-3. ~~Instagram → Pinterest~~ **legat pe 24.11** (Marius s-a logat și a aprobat): „Conectat la @primesupplements_ro”, publicare automată pornită, pe panoul **„Produse Prime Supplements”**. Pinterest a creat la conectare un panou gol „Social”, nefolosit; îl ștergem doar cu acordul lui Marius.
+3. ~~Instagram → Pinterest~~ **legat pe 24.11** (Marius s-a logat și a aprobat): „Conectat la @primesupplements_ro”, publicare automată pornită, pe panoul **„Produse Prime Supplements”**. Panoul gol „Social”, creat automat de Pinterest la conectare, a fost șters pe 24.11 cu acordul lui Marius (avea 0 pinuri); au rămas cele 8 panouri.
 4. Aplicația Pinterest din Shopify: instalată, dar fără folos în RO. **Marius (24.11): rămâne instalată deocamdată.**
 5. Peste 2–3 săptămâni: statisticile Pinterest (afișări, clicuri) + GA4 pe `utm_source=pinterest`.

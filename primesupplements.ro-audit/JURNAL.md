@@ -2189,3 +2189,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - suplimentele pe categorii: din plante, colagen, fibre, enzime, Q10, antioxidanți.
   - Feed-ul live are 411 variante, toate cu categoria nouă. Compari îl descarcă zilnic după 17:00.
   - **Rămâne la Marius:** KYC-ul Compari (Plata cu cardul → Procesul de verificare).
+- 24.11: panoul gol „Social” (creat automat de Pinterest la legarea Instagramului, 0 pinuri) a fost șters cu acordul lui Marius; au rămas cele 8 panouri.

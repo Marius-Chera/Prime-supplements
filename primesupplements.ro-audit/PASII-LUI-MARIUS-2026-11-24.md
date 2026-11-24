@@ -14,7 +14,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **Durează:** 10–15 minute; Microsoft confirmă în 1–3 zile lucrătoare.
 - **Îmi spui:** „Am trimis verificarea Microsoft” (și ce stare scrie acolo). Eu verific afișările Bing la 7 zile după aprobare. Cazul 7111834858 se mai poate redeschide până pe **27.11**: dacă vrei, scriu eu ciorna de răspuns.
 
-### 2. Compari.ro – proforma RO-2659027 (150 lei, minimul Compari) cerută pe 24.11: o plătești prin transfer (KYC nu e necesar, ține doar de Marketplace)
+### 2. ~~Compari.ro – soldul PPC~~ FĂCUT 24.11: 150 lei plătiți prin PayU, sold 150 RON; produsele apar în 3–7 zile lucrătoare
 - **De ce:** fără KYC, Compari nu aprobă contul PPC. Feed-ul e refăcut pe categoriile cerute (411 variante), iar răspunsul către ei a plecat pe 24.11.
 - **Unde:** contul Compari (contact@primesupplements.ro, partener 243256) → **Plata cu cardul → Procesul de verificare → „Doresc un link nou”** → formularul cu datele firmei și ale tale ca reprezentant.
 - **Durează:** 10–15 minute.

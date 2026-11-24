@@ -32,3 +32,9 @@ Rămâne și `www.primesupplements.ro`. Ordinea pe profil e cea din tabel (prima
 
 ## 4. „Link în bio”
 Decizie 24.11: postările de vânzare de pe Instagram se termină cu „🛒 Linkul e în bio.” (prima aplicare: postarea de mai sus).
+
+## Făcut de Claude din browser (24.11, după „da, pornește #16” și „fă tu tot, ai aprobarea mea”)
+- **#16 pornită** din Reclame Prime → Creare: „Da, creează oprit” → „Da, pornește”. Pornește doar reclama nouă (creative 1663597361841123, ad 120251765591340615), cu ad set-ul neschimbat la 40 lei/zi. Proiecția lunii: 1.981,66 / 3.000. Trecută în Jurnalul aplicației. Bara „Cumpără acum” apare după aprobarea Meta a reclamei.
+- **Story publicat pe Instagram** din Meta Business Suite → Create story, doar @primesupplements_ro. Autocolantul Link e pus prin Edit → More stickers → Link, cu textul „Vezi aromele”, spre colecția cremă de orez (UTM story-link). Autocolantul a rămas între tub și bol; mutarea prin tragere nu a funcționat în editor. Truc pentru urcare: inputul de fișier se creează la clic, așa că `HTMLInputElement.prototype.click` a fost deviat ca să rămână în pagină, apoi `file_upload`.
+- **Linkurile de pe profil: NEFĂCUTE.** Instagram web (și în modul mobil) spune „only available on mobile”, iar Business Suite → Edit Instagram Profile cere „Verify account”, adică verificarea contului de către Marius. Rămân de pus din aplicația de telefon (tabelul de mai sus).
+- De știut: Business Suite anunță că **din 26.11.2026 Meta adaugă „product browsing” la reclamele existente** (la atingerea pozei apar produse și sugestii pe Facebook/Instagram). Se poate refuza („Opt out”) până pe 26.11. E decizia lui Marius; nu am apăsat nimic.

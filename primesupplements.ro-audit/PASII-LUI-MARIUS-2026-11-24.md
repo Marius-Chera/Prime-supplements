@@ -21,7 +21,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **După aprobarea feed-ului** (vine pe e-mail, pe contact@): încarci soldul PPC de test, **100–200 lei**, din același cont, la Plata cu cardul. Nu cere factură până la aprobare (cerința lor).
 - **Îmi spui:** „KYC Compari trimis”, apoi „Compari aprobat, am încărcat X lei”. Eu urmăresc clicurile și comenzile cu sursa Compari.
 
-### 3. Pixelul vechi „SIMPROSYS” (E2) – deconectare
+### 3. ~~Pixelul vechi „SIMPROSYS” (E2)~~ FĂCUT 24.11 de Claude, cu „da”-ul tău (deconectat, nu șters; rezervă în backups/)
 - **De ce:** Google tag-ul se încarcă de 2 ori pe fiecare pagină (~360 KB în plus), iar conversiile din reclame pot fi numărate dublu. Reclamele Google și Meta optimizează pe cifre greșite.
 - **Unde:** textul gata pentru extensie e în `SETARI-VANZARI-2026-10-16.md`, §E2 (Setări → Evenimente clienți → Pixeli personalizați → „SIMPROSYS” → **Deconectează**, fără Șterge).
 - **Durează:** 5 minute.

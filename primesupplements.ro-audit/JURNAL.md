@@ -2244,3 +2244,10 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - pe site-ul live: 162 de pagini, articole și colecții fără nicio mențiune; politicile și homepage-ul curate, fără hreflang `hu`; `/ro-hu/…` face 301 spre adresa română.
   - Rămâne doar urma din Google: 283 de adrese `/ro-hu/` în Search Console (23.11), care scad singure, cam 15 pe săptămână. Mențiunea „TVA din Ungaria” vine de la Compari (firmă din Budapesta), nu de la noi.
 - 24.11: **Bannerul Compari 88×31 pe site – recomandare: NU acum** (Marius a lăsat decizia la Claude). Nu aduce nimic la SEO pentru noi: e un link de la noi spre Compari, deci folosește lor. La credibilitate contează puțin, fiindcă clienții nu cunosc sigla. În plus, e o schimbare în tema live, chiar înainte de Late Black Friday. Se reia dacă Compari îl face condiție. Pentru credibilitate rămâne prioritar widgetul Trustpilot, după primele recenzii.
+- 24.11: **E2 făcut – pixelul personalizat vechi „SIMPROSYS” DECONECTAT** (Marius: „Da, E2”). L-am deconectat din Chrome, din Shopify → Setări → Evenimente clienți → SIMPROSYS (id 228721015) → Disconnect. **Nu e șters** și se poate reconecta oricând.
+  - **Rezervă:** codul e salvat în `backups/pixel-simprosys-2026-11-24/SIMPROSYS-custom-pixel-228721015.js`. Încărca a doua oară scriptul Simprosys `gsf-scripts/custom-pixels/primesupplements1.js`, deși nu era abonat la niciun eveniment.
+  - **Starea înainte → după:**
+    - SIMPROSYS: Web conectat → **neconectat**;
+    - aplicația Simprosys Google Shopping Feed: conectată → **conectată** (neschimbată);
+    - fără schimbări la ChatGPT, Facebook & Instagram, Judge.me, theMarketer (conectate) și la Google & YouTube, Pinterest (neconectate).
+  - **Pe site:** pagina Prime Whey 2 kg nu mai încarcă sandbox-ul pixelului 228721015. A doua zi verific în PageSpeed/rețea că tag-ul Google apare o singură dată (E20: Events Manager la 24 h).

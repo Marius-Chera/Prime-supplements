@@ -636,3 +636,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - **23.11 – Late Black Friday, schimbări (Marius):** campania ține **25–28.11** (codul expiră sâmbătă 28.11 la 23:59); `LATEBF20` 20 %, **fără pachete** (confirmat); **tema nu se modifică**, doar se programează e-mailuri și SMS-uri, plus **o singură postare pe Instagram care afișează codul** și **3 postări pe Facebook**. Codul a fost creat pe 23.11; textele sunt propuse în plan și așteaptă aprobarea.
 - **23.11 – decizie Marius (Booty Pump):** glicerol monostearat (nu pulbere 65 %, fabrica nu are) + betaină 1,5 g/porție; fără beta-alanină.
 - **23.11 – Late Black Friday (Marius):** textele aprobate („Da, aprob textele”); e-mailurile fără A/B și fără retrimitere automată; e-mailul 2 exclude cei care au comandat în ultimele 4 zile; **un singur SMS** (25.11), fără SMS-ul de ultima zi.
+
+## 24.11.2026 – Instagram „Cumpără acum”
+- Instagram Shopping / etichetele de produs: **indisponibile în România** (Commerce Manager). Nu se schimbă țara.
+- Marius: bara „Cumpără acum” ca la Genius, **în bugetul existent** → postare organică folosită ca reclamă în ad set-ul [NOU] crema de orez (fără buget nou); story-uri cu autocolant Link; linkuri pe profil (cremă de orez, Prime Whey, Creapure); **în postări: „Linkul e în bio”**.

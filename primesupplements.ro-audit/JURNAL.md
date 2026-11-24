@@ -2304,3 +2304,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11: **Butonul Trustpilot din e-mailul de expediere e acum verde Trustpilot (#00B67A), cu text alb și steluță ★** (Marius: „roșu se confundă cu tema noastră”). Salvat, verificat după reîncărcare, test trimis la marius.chera@outlook.com.
 - 24.11: **Textul blocului Trustpilot rescris** (Marius: „apreciem foarte mult, suntem încă la început, dorim să ne îmbunătățim”): titlul „Părerea ta contează enorm pentru noi” + „Suntem o echipă mică din Sibiu și abia am început să strângem recenzii pe Trustpilot…”. Cere o părere sinceră, fără să ceară 5 stele și fără recompensă. Salvat, verificat, test trimis la marius.chera@outlook.com.
 - 24.11: **Fișa de cont pentru Olimpic Fitnes Star SRL** (cerută de Marius), din SAGA, de la prima factură (2024) până la 31.10.2026. 64 de operații; total facturat 104.535,34 lei, încasat 93.611,54, sold 10.923,80. Facturi neîncasate: PRS12479 (21.04, rest 1.650 – plata de 5.000 din 20.05 acoperea PRS11887 + PRS12479, adică 6.650), PRS15772 (2.10, 4.213), PRS16424 (29.10, 5.060) și 0,80 rest pe PRS11297. Excel local: `D:\Prime Supplements\contabilitate-saga\fise\FISA-OLIMPIC-FITNES-STAR-2026-10-31.xlsx`.
+- **24.11, Prime Afiliați – e-mail de bun venit pentru afiliații noi (Marius: „theMarketer”):**
+  - Pleacă automat prin API-ul tranzacțional theMarketer, de pe contact@, o singură dată, când afiliatul devine activ: adăugat din admin, aprobat sau înscris cu aprobare automată. Coloana `welcome_sent_at` ține minte cine l-a primit.
+  - Conține codul, linkul, intrarea în panou și regulile: 14 zile, voucher de la 500 lei, fără comision pe Reduceri, poze lunare.
+  - Afiliații existenți nu îl primesc.
+  - Testul se trimite din Setări, cu butonul „Trimite un test la Marius și Adelina”.
+  - **Pornește după ce Marius pune în Cloudflare secretele THEMARKETER_API_KEY și THEMARKETER_CUSTOMER_ID.**

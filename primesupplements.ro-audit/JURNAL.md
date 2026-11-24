@@ -2331,3 +2331,10 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11, **Scorul SEO Prime: 93,7** (de la 81,1). Pe părți: tehnic 19,8/20, on-page 28,4/30, date structurate 19,2/20, acoperire 18,7/20, încredere 7,6/10.
   - Ce lipsește până la 100: recenzii pe produse (doar 57 din 209; se rezolvă prin Judge.me și Trustpilot, pașii lui Marius din `PASII-LUI-MARIUS-2026-11-24.md`), FAQ și link spre ghid pe produse (după 1.12), subiecte fără pagină.
   - Paza de 90 e activă.
+
+## 2026-11-24 – Contracte sportivi semnate digital (Trans Sped)
+- Am luat din WhatsApp cele 6 contracte trimise de managera Claudia: Stana, Pais, Olteanu (probă), Nuica Mădălin nr. 22 (probă), Junghiatu nr. 21 și Sacuiu.
+- Le-am semnat ca BENEFICIAR (Prime Sport Supplements, prin Marius Chera) în Adobe Acrobat: All tools → View more → Use a certificate → Digitally sign. Certificat calificat Marius-Ilie Chera, Trans Sped QCA G3 (stick), valabil până la 9.10.2028. PIN-ul l-a introdus Marius o singură dată, apoi a rămas reținut pentru restul.
+- Acrobat a confirmat la toate „Signed and all signatures are valid”. Semnăturile sportivilor rămân neatinse. Pais și Olteanu încă nu semnaseră, iar Sacuiu doar și-a scris numele; Claudia i-l retrimite.
+- Fișierele sunt doar pe PC: originalele în `D:\Prime Supplements\contracte-sportivi\de-semnat`, cele semnate în `...\semnate` (`* - semnat.pdf`). Nu le pun în repo, pentru că au CNP-uri.
+- Observații: WhatsApp-ul logat pe PC e cel de pe monitorul G27U (apare ca „WhatsApp Beta”); cel normal nu e logat. La Nuica, semnătura Prime e pe pagina 7, iar paginile 8–9 sunt anexa GDPR.

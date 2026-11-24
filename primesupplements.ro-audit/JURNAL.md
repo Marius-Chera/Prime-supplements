@@ -2381,3 +2381,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - mostrele E1 și E2 au ajuns pe contact@ (~17:34).
   - **Fluxul Judge.me e gata.**
 - 24.11 (seara): **GBP – invitațiile în așteptare:** adelina.chera@gmail.com (rol **Proprietar**, așa a fost trimisă invitația) și contact@primesupplements.ro (Proprietar). E-mailurile Google n-au ajuns încă; se acceptă din e-mail când vin. Dacă nu vin până pe 25.11, se anulează și se retrimit din „Utilizatori și acces”.
+- 24.11: **GBP – ciornă de răspunsuri la toate recenziile** (Marius: „scrie răspunsuri la toate recenziile”): `google/GBP-RASPUNSURI-RECENZII-2026-11-24.md`. Sunt 26 de recenzii fără răspuns (25 × 5★, una de 1★ în rusă despre programul de sâmbătă); 23 de răspunsuri propuse. Recenziile de la Marius, Adelina și agentul Trif sunt semnalate ca problemă de conflict de interese (de șters de autori). Nimic postat; se postează doar cu „da”.

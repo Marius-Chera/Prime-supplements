@@ -2328,3 +2328,6 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - geo10 a fost scos de la Georgian, împreună cu cele 4 comenzi trecute greșit la el: o comandă aprobată de 20,36 lei, una în așteptare de 13,79 lei și două vechi.
   - Contul lui Moroșan îl face colega de la depozit, cu codul geo10. După aceea trebuie apăsat „Recitește ultimele 60 de zile”, ca să intre comenzile din noiembrie.
 - **24.11, e-mailul de bun venit:** cheile theMarketer sunt puse în Cloudflare de Marius, iar testul a ajuns. E-mailul e activ pentru afiliații noi.
+- 24.11, **Scorul SEO Prime: 93,7** (de la 81,1). Pe părți: tehnic 19,8/20, on-page 28,4/30, date structurate 19,2/20, acoperire 18,7/20, încredere 7,6/10.
+  - Ce lipsește până la 100: recenzii pe produse (doar 57 din 209; se rezolvă prin Judge.me și Trustpilot, pașii lui Marius din `PASII-LUI-MARIUS-2026-11-24.md`), FAQ și link spre ghid pe produse (după 1.12), subiecte fără pagină.
+  - Paza de 90 e activă.

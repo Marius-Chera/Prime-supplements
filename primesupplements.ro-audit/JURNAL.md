@@ -2167,3 +2167,15 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11 (după „da” de la Marius): **aplicația Pinterest pentru Shopify** instalată și contul autorizat, dar configurarea se oprește la „Advertising is not available for your account”. Pinterest nu oferă reclame în România, așa că aplicația nu sincronizează catalogul și nu revendică site-ul. **Marcajul de revendicare** `p:domain_verify` a fost pus în copia nepublicată „Prime – schema articole + FAQ (24.11)” (`snippets/social-meta-tags.liquid`), verificat în previzualizare; intră pe site odată cu publicarea copiei.
 - 24.11: **Marius a publicat tema „Prime – schema articole + FAQ (24.11)”** (`194436792695`, acum MAIN). Verificat pe site-ul live: articolul despre taurină are BreadcrumbList + FAQPage, produsul Creapure are FAQPage (plus BreadcrumbList-ul lui), iar pagina „Despre noi” are BreadcrumbList. Homepage-ul e neschimbat. Urmează două verificări complete la rând, apoi scorul nou.
 - 24.11: copia de temă publicată de Marius → **site-ul primesupplements.ro revendicat în Pinterest** (`domain_verified: true`). RSS-ul blogului nu e acceptat de Pinterest (Shopify are doar Atom), deci articolele noi intră tot prin CSV. Instagram nu e încă legat de Pinterest.
+- 24.11, **e-mailurile de la Compari și Microsoft, citite pe contact@** (Marius: „verifică tu pe Gmail”; citite din Chrome, fără nicio modificare):
+  - **Microsoft, 20.11, cazul 7111834858:** închis ca „rezolvat”, cu un răspuns general: magazinul e aprobat, iar vizibilitatea „depinde de mai mulți factori”. Nu dă nicio cauză. Se poate redeschide prin reply în 7 zile, adică până pe 27.11.
+  - **Microsoft, 22.11, „Acțiune necesară: Verificați-vă identitatea agent de publicitate”** (contul G145RDYP): perioada de grație a expirat, iar difuzarea poate fi oprită în țările care cer verificarea, deci în UE. **E cauza probabilă a celor 0 afișări din Bing Shopping.** Verificarea o face Marius (datele firmei, eventual un act de identitate), din Microsoft Advertising.
+  - **Compari, 17.11, „modificări categorii”:** feed-ul e citit, dar pentru aprobare cer categorii mai precise:
+    - „Pachet” (80 de produse), împărțit după conținut;
+    - îmbrăcămintea pe gen: tricouri 59, pantaloni scurți 36, hanorace 31, maiouri 23, pantaloni de trening 18;
+    - „Suplimente” (28), împărțit pe categorii specifice;
+    - „Pre-workout · intra-workout” (17), separat în două;
+    - „Băuturi instant” (15), denumite după tipul lor.
+    - Se rezolvă în `prime-indexare/src/m/feed.ts`.
+  - **Compari, 18.11, „Finalizează procesul de verificare (KYC)”:** Plata cu cardul → Procesul de verificare → „Doresc un link nou” → formular cu datele firmei și ale reprezentantului. Îl completează Marius.
+- 24.11, **Pinterest:** contul e făcut de Marius. Decizia lui: se lucrează pe Pinterest direct din Claude, nu prin Zernio, fiindcă planul gratuit Zernio permite doar 2 conturi.

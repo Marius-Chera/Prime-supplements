@@ -2258,3 +2258,8 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Pinterest (pixel neconectat) e corect:** Pinterest nu are reclame în România.
 - 24.11: pasul 4 din lista lui Marius (pagina Facebook pentru reclame-prime) era deja făcut: raportul `reclame-prime/RAPORT-2026-11-23.md` confirmă accesul la pagină și 5 creative Meta create. Punctul din DE-FACUT §40 (0) era rămas neactualizat; acum e corectat și tăiat din listă.
 - 24.11: verificat: TXT-ul pentru ChatGPT Business Hub era deja pus de Kemo (domeniu verificat, catalog trimis pe 16.11); DE-FACUT §24 și lista pașilor corectate. DNS-ul răspunde încă la `b2b` (CNAME → shops.myshopify.com) și la `old` (89.42.218.88): le șterge Kemo, la cererea lui Marius.
+- 24.11: **Secretul vechi Google ****W6DK DEZACTIVAT** (Marius: „fă tu te rog”). Locul: Google Cloud → proiectul reclame-prime → Clients → „Reclame Prime Worker”; Marius a confirmat cu passkey pe contact@.
+  - **Starea:** ****W6DK (19.11, 14:23) = Disabled; ****jz4j (19.11, 14:38, cel folosit) = Enabled.
+  - **Verificat imediat:** `POST /claude/sync` a mers (Google: 105 rânduri, 8 campanii).
+  - Google spune că dezactivarea intră în vigoare în 5 minute până la câteva ore. De aceea **ștergerea definitivă se face pe 25.11**, după sincronizarea automată de la 06:00, dacă Google merge în continuare. Dacă nu merge, secretul se reactivează („Enable”).
+- 24.11: **TVA RO46260823 în Microsoft Advertising: nefăcut de Claude.** Pagina „Setările contului” nu se încarcă în Chrome (nici pe ui.ads.microsoft.com), iar Edge poate fi doar privit, nu acționat. Îl pune Marius din Edge: Setări → Setările contului → Editați setările contului → TVA.

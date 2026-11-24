@@ -2271,3 +2271,10 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   4. **Planul Shopify anual:** explicat (economie de 108 $/an, plată de 996 $ dintr-odată, fără returnare la renunțare). Decide Marius.
   5. **eMAG, decizie:** colega verifică mereu aplicația Prime eMAG și plasează comenzile de acolo (fără Telegram). Marius întreabă de aroma EAN-ului 0704384490913.
   6. **Cargus nu ridică sâmbăta:** Prime Coș rămâne cum e (sâmbăta, zi fără predare).
+- 24.11: **Trustpilot – contul Business creat și profilul completat.** Contul l-a creat Marius pe contact@, iar „Send link”, blocat de reCAPTCHA la clicurile automate, l-a trimis el. Restul l-a completat Claude, la cererea lui Marius („continuă tu de aici”):
+  - numele „Prime Supplements”, logo-ul pătrat;
+  - descrierea de 186 de cuvinte;
+  - categoriile: Vitamin and Supplements Store (principală), Sports Nutrition Store, Health Food Store, Sportswear Store;
+  - contactul firmei.
+  - Plan gratuit; trialul Plus nepornit. Detalii: `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §9. Profilul apare „Claimed”, cu 0 recenzii.
+  - **Urmează, cu „da” de la Marius:** invitațiile (aplicația Trustpilot din Shopify, 50/lună, la 3 zile după expediere) și fraza din politica de confidențialitate.

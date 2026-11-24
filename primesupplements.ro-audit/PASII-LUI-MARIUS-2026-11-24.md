@@ -64,7 +64,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **Durează:** 20–30 de minute (extensia lucrează, tu doar te uiți).
 - **Îmi spui:** lipești raportul extensiei și scrii „testele au venit, arată bine” sau ce nu-ți place. Dacă ceva e greșit, extensia revine la textul vechi notat.
 
-### 10. Trustpilot – contul Business
+### 10. ~~Trustpilot – contul Business~~ FĂCUT 24.11 (profil completat; urmează invitațiile, cu „da”)
 - **De ce:** Google și ChatGPT spun că nu avem recenzii independente. La „prime supplements păreri” apare Trustpilot-ul altei firme, din SUA.
 - **Unde:** https://business.trustpilot.com → „Create free account”. Pașii, textul profilului, categoriile și logo-ul sunt în **`recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`**, §1–§3 (website primesupplements.ro, Prime Supplements, Romania, contact@primesupplements.ro). Parola și termenii sunt la tine.
 - **Durează:** 15 minute + confirmarea e-mailului pe contact@.

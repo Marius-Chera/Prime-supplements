@@ -201,3 +201,16 @@ primesupplements.ro
 **După trimitere:** verific pe supliscout.ro la 2–3 săptămâni (după cel puțin două actualizări, luni și joi) dacă apărem și dacă prețul pe kg e calculat corect. Știm dinainte că nu vom fi primii la preț pe kg (`03`, tabelul). Câștigul e prezența în lista citată de ChatGPT.
 
 Surse: [Trustpilot – planuri](https://no.business.trustpilot.com/plans), [Trustpilot Reviews în Shopify App Store](https://apps.shopify.com/trustpilot-reviews).
+
+## 9. Ce s-a pus în profil (24.11.2026)
+- **Contul:** creat de Marius pe contact@primesupplements.ro. La pasul 4, „Send link” refuza clicurile automate (reCAPTCHA), așa că l-a trimis el. Pe planul gratuit; „14-day free Plus trial” NU e pornit.
+- **Numele:** „Prime Supplements”, în loc de „Primesupplements”. **Domeniul:** https://primesupplements.ro. **Logo:** `trustpilot/logo-prime-trustpilot-600-alb.png`.
+- **Descrierea:** 186 de cuvinte (Trustpilot recomandă 200+). E varianta extinsă a textului din §2, cu: ce găsești pe paginile de produs, pachetele, livrarea gratuită peste 300 lei, plata cu cardul (Apple Pay / Google Pay) sau ramburs, returul în 14 zile, parteneriatele CSU Sibiu și Rapid București, blogul cu ghiduri pe studii și contactul.
+- **Categorii:** principală **Vitamin and Supplements Store**; secundare **Sports Nutrition Store**, **Health Food Store**, **Sportswear Store**.
+- **Contact:** contact@primesupplements.ro, +40 775 286 584, Str. Ioan Virgil Ispas nr. 17A, 555300 Cisnădie, Romania.
+- **Neatinse:**
+  - „Proof of identity” (actul lui Marius, opțional);
+  - „Contact details” (cere Google Business Profile, pe care nu-l avem);
+  - „Bank account” (doar pe planurile plătite);
+  - Discovery bar (doar pe planul Plus).
+- **Pagina publică** `trustpilot.com/review/primesupplements.ro` are verificare anti-robot la citirea automată. O verifică Marius în browser.

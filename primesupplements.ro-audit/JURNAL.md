@@ -2222,3 +2222,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Acum cere 319,50 lei, iar Glycerol nu apare pe factură și nici pe packing slip.
 - 222 de teste trec (inclusiv unul nou pentru comanda modificată). Publicat ca versiunea f2f642e1, commit prime-expediere 2deb432. Nu am verificat vizual în Admin.
 - 24.11 seara: **Pinterest ține cel mult 100 de pinuri programate**. Au intrat doar primele 100 de articole (25.11–11.12); produsele, hainele și ~60 de articole au fost refuzate. **10 pinuri publicate imediat** (4 articole, 3 produse, 3 haine), verificate pe profil. Restul (~217) stă în coadă (`lista.json`) și se urcă pe măsură ce se eliberează locuri.
+- 24.11: **sarcina săptămânală `pinterest-coada-saptamanala`** (lunea ~9:13, prima rulare pe 30.11) completează programarea Pinterest până la limita de 100, din coada de 217 pinuri (produse, haine, articole), cu `social/pinterest/build-csv-coada.mjs`.

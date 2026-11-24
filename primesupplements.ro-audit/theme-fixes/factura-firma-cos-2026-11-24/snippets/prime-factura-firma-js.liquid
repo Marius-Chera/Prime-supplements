@@ -1,0 +1,200 @@
+{%- comment -%}
+  Prime – „Vreau factură pe firmă” în coș (24.11.2026, după comanda 9838 / PRS16248 facturată pe firmă fără CUI).
+  - Caseta se pune singură deasupra butonului „Finalizează comanda”, în pagina coșului și în coșul lateral (și după ce se redesenează).
+  - Bifat → CUI obligatoriu, verificat la ANAF (prin Total Admin /public/anaf). Fără CUI verificat, „Finalizează comanda” e oprit.
+  - Datele se salvează ca atribute ale coșului („Factura pe firma”, „CUI”, „Denumire firma”, „Nr. Reg. Com.”), ajung pe comandă,
+    iar Total Admin le pune pe factura Oblio.
+  - Butoanele rapide (Apple Pay / Google Pay) nu pot fi oprite din temă: acolo verifică Total Admin (comanda cu firmă fără CUI nu se facturează).
+  Se încarcă o singură dată pe pagină, din snippets/prime-afiliati-ref.liquid (care e randat în layout/theme.liquid înainte de </body>).
+{%- endcomment -%}
+<style>
+  .prime-ff{margin:0 0 16px;padding:16px 18px;border:2px solid #1a1a1a;border-radius:16px;background:#fff;color:#1a1a1a;text-align:left;min-width:0;overflow-wrap:anywhere}
+  .prime-ff--sertar{margin:0 0 12px;padding:12px 14px;border-width:1px}
+  .prime-ff__bifa{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px;cursor:pointer;margin:0}
+  .prime-ff__bifa input{width:20px;height:20px;accent-color:#e91d23;margin:0;flex:0 0 auto}
+  .prime-ff__campuri{margin-top:12px}
+  .prime-ff__campuri[hidden]{display:none}
+  .prime-ff__eticheta{display:block;font-size:14px;font-weight:600;margin:0 0 6px}
+  .prime-ff__eticheta span{font-weight:400;color:#6b6b6b}
+  .prime-ff__rand{display:flex;gap:8px}
+  .prime-ff__input{flex:1 1 auto;min-width:0;height:46px;padding:0 16px;border:1px solid #c9c9c9;border-radius:60px;background:#fff;font-size:16px;text-transform:uppercase;letter-spacing:.5px;color:#1a1a1a}
+  .prime-ff__input::placeholder{text-transform:none;letter-spacing:0;color:#8a8a8a}
+  .prime-ff__input:focus{outline:2px solid #1a1a1a;outline-offset:1px;border-color:#1a1a1a}
+  .prime-ff__buton{flex:0 0 auto;height:46px;padding:0 20px;border:0;border-radius:60px;background:#e91d23;color:#fff;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.5px;cursor:pointer}
+  .prime-ff__buton[disabled]{opacity:.6;cursor:wait}
+  .prime-ff__mesaj{margin:8px 0 0;font-size:14px;line-height:1.4}
+  .prime-ff__mesaj:empty{display:none}
+  .prime-ff__mesaj.is-ok{color:#1d7a3a}
+  .prime-ff__mesaj.is-eroare{color:#c4161c;font-weight:600}
+  .prime-ff.is-blocat{border-color:#c4161c;box-shadow:0 0 0 3px rgba(196,22,28,.15)}
+</style>
+<script>
+  (function () {
+    if (window.__primeFF) return;
+    window.__primeFF = true;
+    var ANAF = 'https://prime-expediere.prime-expediere.workers.dev/public/anaf?cui=';
+    var root = (window.Shopify && Shopify.routes && Shopify.routes.root) || '/';
+    var GOL = { 'CUI': '', 'Denumire firma': '', 'Nr. Reg. Com.': '' };
+    // unde se pune caseta: deasupra formularului cu „Finalizează comanda” (pagina coșului / coșul lateral)
+    var TINTE = [
+      { sel: '.cart-order__recap form.cart-form', ctx: 'cos' },
+      { sel: 'cart-drawer form.buy-buttons', ctx: 'sertar' }
+    ];
+    var st = { vrea: false, ok: false, cui: '', nume: '', text: '', tip: '', lucru: false, apoiPlata: false };
+
+    function esc(s) { return String(s || '').replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+    function boxes() { return Array.prototype.slice.call(document.querySelectorAll('[data-prime-ff]')); }
+    function cifre(v) { return String(v || '').toUpperCase().replace(/^\s*RO/, '').replace(/[^0-9]/g, ''); }
+    function cuiValid(v) {
+      var d = cifre(v);
+      if (!/^\d{2,10}$/.test(d)) return false;
+      var b = d.slice(0, -1); while (b.length < 9) b = '0' + b;
+      var k = '753217532', s = 0;
+      for (var i = 0; i < 9; i++) s += Number(b[i]) * Number(k[i]);
+      return ((s * 10) % 11) % 10 === Number(d[d.length - 1]);
+    }
+    function okText() { return '✓ ' + (st.nume || ('CUI ' + st.cui)) + ' – factura se emite pe această firmă.'; }
+
+    function html(ctx) {
+      return '<label class="prime-ff__bifa"><input type="checkbox" data-ff-vrea' + (st.vrea ? ' checked' : '') + '><span>Vreau factură pe firmă</span></label>' +
+        '<div class="prime-ff__campuri" data-ff-campuri' + (st.vrea ? '' : ' hidden') + '>' +
+        '<label class="prime-ff__eticheta" for="prime-ff-cui-' + ctx + '">CUI-ul firmei <span>(obligatoriu)</span></label>' +
+        '<div class="prime-ff__rand"><input id="prime-ff-cui-' + ctx + '" class="prime-ff__input" type="text" data-ff-cui autocomplete="off" autocapitalize="characters" spellcheck="false" enterkeyhint="done" placeholder="ex. RO12345678" value="' + esc(st.cui) + '">' +
+        '<button type="button" class="prime-ff__buton" data-ff-verifica>Verifică</button></div>' +
+        '<p class="prime-ff__mesaj" data-ff-mesaj role="status" aria-live="polite"></p></div>';
+    }
+    function arata() {
+      boxes().forEach(function (bx) {
+        var m = bx.querySelector('[data-ff-mesaj]');
+        m.textContent = st.text;
+        m.className = 'prime-ff__mesaj' + (st.tip === 'ok' ? ' is-ok' : st.tip === 'eroare' ? ' is-eroare' : '');
+        bx.classList.toggle('is-blocat', st.tip === 'eroare');
+        bx.querySelector('[data-ff-vrea]').checked = st.vrea;
+        bx.querySelector('[data-ff-campuri]').hidden = !st.vrea;
+      });
+    }
+    function mesaj(text, tip) { st.text = text || ''; st.tip = tip || ''; arata(); }
+    function pune() {
+      var nou = false;
+      TINTE.forEach(function (t) {
+        document.querySelectorAll(t.sel).forEach(function (form) {
+          var prev = form.previousElementSibling;
+          if (prev && prev.hasAttribute('data-prime-ff')) return;
+          var d = document.createElement('div');
+          d.className = 'prime-ff' + (t.ctx === 'sertar' ? ' prime-ff--sertar' : '');
+          d.setAttribute('data-prime-ff', t.ctx);
+          d.innerHTML = html(t.ctx);
+          form.parentNode.insertBefore(d, form);
+          nou = true;
+        });
+      });
+      // doar când s-a pus o casetă nouă (altfel arata() ar declanșa din nou observatorul, la nesfârșit)
+      if (nou) arata();
+    }
+    function salveaza(attrs) {
+      return fetch(root + 'cart/update.js', {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ attributes: attrs })
+      }).then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); });
+    }
+    function toateInputurile(v) { boxes().forEach(function (bx) { bx.querySelector('[data-ff-cui]').value = v; }); }
+
+    function verifica(inp) {
+      if (st.lucru) return;
+      var v = (inp && inp.value || '').trim();
+      st.cui = v; toateInputurile(v);
+      if (!v) { st.ok = false; mesaj('Scrie CUI-ul firmei (ex. RO12345678).', 'eroare'); return; }
+      if (!cuiValid(v)) {
+        st.ok = false;
+        salveaza(GOL).catch(function () {});
+        mesaj('CUI-ul nu e corect. Verifică cifrele (fără spații sau litere în plus).', 'eroare');
+        return;
+      }
+      st.lucru = true;
+      boxes().forEach(function (bx) { var b = bx.querySelector('[data-ff-verifica]'); b.disabled = true; b.textContent = '...'; });
+      mesaj('Verific CUI-ul la ANAF…');
+      fetch(ANAF + encodeURIComponent(cifre(v)))
+        .then(function (r) { return r.json(); })
+        .catch(function () { return { ok: true, unverified: true, cui: cifre(v) }; })
+        .then(function (f) {
+          if (!f.ok) {
+            st.ok = false;
+            return salveaza(GOL).catch(function () {}).then(function () { mesaj('Nu găsim acest CUI la ANAF. Verifică-l și încearcă din nou.', 'eroare'); });
+          }
+          var cui = (f.vatPayer ? 'RO' : '') + (f.cui || cifre(v));
+          return salveaza({ 'Factura pe firma': 'Da', 'CUI': cui, 'Denumire firma': f.name || '', 'Nr. Reg. Com.': f.regCom || '' }).then(function () {
+            st.ok = true; st.vrea = true; st.cui = cui; st.nume = f.name || '';
+            toateInputurile(cui);
+            mesaj(okText() + (f.inactive ? ' Atenție: firma apare inactivă la ANAF.' : ''), 'ok');
+            if (st.apoiPlata) window.location.href = root + 'checkout';
+          });
+        })
+        .catch(function () { st.ok = false; mesaj('Nu am putut salva CUI-ul. Încearcă din nou.', 'eroare'); })
+        .then(function () {
+          st.lucru = false; st.apoiPlata = false;
+          boxes().forEach(function (bx) { var b = bx.querySelector('[data-ff-verifica]'); b.disabled = false; b.textContent = 'Verifică'; });
+        });
+    }
+
+    document.addEventListener('change', function (e) {
+      var c = e.target.closest && e.target.closest('[data-ff-vrea]');
+      if (!c) return;
+      st.vrea = c.checked; st.ok = false; st.nume = '';
+      if (!st.vrea) { st.cui = ''; toateInputurile(''); }
+      mesaj('');
+      salveaza(st.vrea ? { 'Factura pe firma': 'Da' } : Object.assign({ 'Factura pe firma': '' }, GOL)).catch(function () {});
+      if (st.vrea) { var i = c.closest('[data-prime-ff]').querySelector('[data-ff-cui]'); setTimeout(function () { i.focus(); }, 50); }
+    });
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('[data-ff-verifica]');
+      if (b) { e.preventDefault(); verifica(b.closest('[data-prime-ff]').querySelector('[data-ff-cui]')); }
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' || !(e.target.matches && e.target.matches('[data-ff-cui]'))) return;
+      e.preventDefault(); verifica(e.target);
+    });
+    document.addEventListener('input', function (e) {
+      if (!(e.target.matches && e.target.matches('[data-ff-cui]'))) return;
+      st.cui = e.target.value;
+      if (st.ok) { st.ok = false; st.nume = ''; mesaj('Apasă „Verifică” pentru CUI-ul nou.'); }
+    });
+
+    // „Finalizează comanda”: oprită cât timp factura pe firmă nu are CUI verificat
+    function blocheaza(e) {
+      if (!st.vrea || st.ok) return;
+      e.preventDefault(); e.stopImmediatePropagation();
+      var vizibil = boxes().filter(function (bx) { return bx.offsetParent !== null; })[0] || boxes()[0];
+      var inp = vizibil && vizibil.querySelector('[data-ff-cui]');
+      if (inp && cuiValid(inp.value)) { st.apoiPlata = true; verifica(inp); return; }
+      mesaj('Ai bifat „Vreau factură pe firmă”: scrie CUI-ul firmei și apasă „Verifică” (sau debifează căsuța).', 'eroare');
+      if (vizibil) { vizibil.scrollIntoView({ behavior: 'smooth', block: 'center' }); if (inp) setTimeout(function () { inp.focus(); }, 300); }
+    }
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest && e.target.closest('button[name="checkout"], input[name="checkout"], a[href$="/checkout"], a[href*="/checkout?"]');
+      if (t) blocheaza(e);
+    }, true);
+    document.addEventListener('submit', function (e) {
+      if (e.submitter && e.submitter.name === 'checkout') blocheaza(e);
+    }, true);
+
+    // starea din coș (atributele salvate), apoi caseta în coș / coșul lateral, și din nou după fiecare redesenare
+    fetch(root + 'cart.js', { credentials: 'same-origin' })
+      .then(function (r) { return r.json(); })
+      .then(function (cart) {
+        var a = (cart && cart.attributes) || {};
+        st.vrea = a['Factura pe firma'] === 'Da';
+        st.cui = a['CUI'] || '';
+        st.nume = a['Denumire firma'] || '';
+        st.ok = st.vrea && cuiValid(st.cui);
+        if (st.ok) { st.text = okText(); st.tip = 'ok'; }
+      })
+      .catch(function () {})
+      .then(function () {
+        pune();
+        var t = null;
+        new MutationObserver(function () { if (!t) t = setTimeout(function () { t = null; pune(); }, 60); })
+          .observe(document.body, { childList: true, subtree: true });
+      });
+  })();
+</script>

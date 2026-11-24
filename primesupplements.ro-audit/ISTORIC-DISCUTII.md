@@ -672,3 +672,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 ## 24.11.2026 – Google Business Profile: devine eligibil
 - Decizia veche (audit 10.2025, LOCAL-11: „magazin exclusiv online, neeligibil”) e depășită. Marius confirmă că există **magazinul fizic din Sibiu** („PrimeStore”, Str. Rahovei 45A, L–V 10–18, S 10–16, confirmat și pe 13.11).
 - Un magazin cu program, în care intră clienții, poate avea profil Google Business. Urmează pregătirea pașilor: profilul pe adresa magazinului din Sibiu, nu pe sediul din Cisnădie; verificarea Google se face de obicei cu un clip filmat la magazin.
+
+## 24.11.2026 – Factură pe firmă: CUI obligatoriu
+- Problema: firmele care comandă de pe site nu aveau unde să pună CUI-ul (exemplu: 9838 / PRS16248). Pe planul Grow, Shopify nu permite câmpuri obligatorii în pagina de plată; ar trebui Shopify Plus.
+- Decizie Marius („ok fa asa”): (1) în coș, căsuța „Vreau factură pe firmă” cu CUI obligatoriu, verificat la ANAF; (2) în Total Admin, comanda cu firmă fără CUI nu se facturează; colega sună clientul și completează CUI-ul în Total Admin → Comenzi (sau marchează „persoană fizică”).

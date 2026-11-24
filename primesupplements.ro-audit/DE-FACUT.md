@@ -197,3 +197,5 @@ Regulile permanente sunt în CLAUDE.md; tot ce s-a făcut e în JURNAL.md.
     - ștergerea secretului Google ****W6DK, dacă Reclame Prime a sincronizat normal la 06:00.
     - Pe 25–27.11: Purchase din Meta comparat cu comenzile Shopify (D11).
     - În 3–7 zile lucrătoare: produsele apar pe Compari.
+
+47. **Factură pe firmă – CUI obligatoriu (24.11, `theme-fixes/factura-firma-cos-2026-11-24/README.md`):** Total Admin e LIVE. **La Marius:** (a) publică tema „Prime – factură pe firmă CUI în coș (24.11)” (194442297719); (b) decide corectarea în Oblio (storno + factură nouă cu CUI) pentru PRS16248 (9838, GREEN 2 ENERGY SRL – colega cere CUI-ul), PRS17068 (10461, CUI 39725098) și PRS17078 (10477, CUI 48717841); (c) îi spune colegei de la depozit: comenzile „fără CUI” se deblochează din Comenzi → câmpul CUI.

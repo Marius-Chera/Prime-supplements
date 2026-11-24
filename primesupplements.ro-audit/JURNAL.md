@@ -2263,3 +2263,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Verificat imediat:** `POST /claude/sync` a mers (Google: 105 rânduri, 8 campanii).
   - Google spune că dezactivarea intră în vigoare în 5 minute până la câteva ore. De aceea **ștergerea definitivă se face pe 25.11**, după sincronizarea automată de la 06:00, dacă Google merge în continuare. Dacă nu merge, secretul se reactivează („Enable”).
 - 24.11: **TVA RO46260823 în Microsoft Advertising: nefăcut de Claude.** Pagina „Setările contului” nu se încarcă în Chrome (nici pe ui.ads.microsoft.com), iar Edge poate fi doar privit, nu acționat. Îl pune Marius din Edge: Setări → Setările contului → Editați setările contului → TVA.
+- 24.11: **TVA RO46260823 pus de Marius** în Microsoft Advertising (Edge, Setările contului). Microsoft îl arată „Valid” (verificat de Claude pe ecran, doar în citire).

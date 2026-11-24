@@ -662,3 +662,9 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
   - Factura, AWB-ul și packing slip-ul se fac pe conținutul și totalul actual al comenzii.
   - Rambursul este totalul actual, nu cel inițial.
   - Rămâne doar un avertisment fără blocare, iar la plata cu cardul mai apare unul dacă clientul are diferență de achitat. Detalii în JURNAL, 24.11.
+
+## 24.11.2026 – Decizii da/nu
+- Tema PILOT „pagina vizuală” se publică pe 29–30.11, după Late Black Friday (memento automat pe 29.11).
+- Pachetele scoase (Draft) primesc redirect 301 spre pachetul activ cel mai apropiat sau spre /collections/reduceri (19 create).
+- Comenzile eMAG: colega verifică aplicația Prime eMAG și le plasează de acolo; fără Telegram.
+- Cargus nu ridică sâmbăta; estimarea de livrare din coș rămâne neschimbată.

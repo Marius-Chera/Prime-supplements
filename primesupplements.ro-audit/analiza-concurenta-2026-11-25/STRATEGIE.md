@@ -139,8 +139,8 @@ Fiecare direcție are: ce fac cei mai buni, ce facem noi și cine face. Tot ce a
 
 ### D1. Dovezi și recenzii (impact cel mai mare, cost aproape zero)
 Liderii au mii de recenzii, Trustpilot, certificate și buletine de laborator publice.
-1. **Pornim acum fluxul de cerere de recenzii Judge.me**, aprobat pe 16.11 și pregătit (`recenzii/09-TEXT-EXTENSIE-JUDGEME-RULAREA-2.md`). Țintă: 1.000 de recenzii până la 31.03.2027 și 100 pe Prime Whey 2 kg.
-2. **Trustpilot** (`recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`): contul îl creează Marius, iar invitația automată pleacă după livrare. Țintă: 200 de recenzii, nota ≥ 4,6, până pe 31.03.
+1. **Fluxul de cerere de recenzii Judge.me e PORNIT** (confirmat de Marius pe 25.11). Țintă: 1.000 de recenzii până la 31.03.2027 și 100 pe Prime Whey 2 kg.
+2. **Trustpilot e PORNIT** (Marius, 25.11); invitația automată pleacă după livrare (`recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`). Țintă: 200 de recenzii, nota ≥ 4,6, până pe 31.03.
 3. **Certificate:** cerute pe 25.11 la Pro Nutrition și Urban Body. Le punem pe „Despre noi”, apoi o insignă „Fabricat sub ISO 22000 / HACCP” pe produs, fără numele fabricii.
 4. **Buletine de analiză pe lot**, pe pagina produsului, la Prime Whey, Creapure® și Pure Isolate. GymBeam și DY fac asta și e un argument puternic la proteină. Le cerem la fiecare comandă către producător.
 5. **Recenzii pentru puncte**, cum fac GymBeam și GymStack. Intră în D4.
@@ -222,3 +222,13 @@ Detaliile sunt în `seo/SEO-AEO-GEO-100-2026-11-25.md`. Pe scurt: Shopping cu st
 - Reducerile permanente cu preț tăiat (Nutriland, Natural Plus): regula Omnibus și decizia D2.
 - Formulările de sănătate riscante (Genius are ~50): doar mențiuni autorizate în UE.
 - Blocarea boților AI (Vitabolic blochează GPTBot și ClaudeBot): noi îi lăsăm să intre.
+
+## 7. Deciziile lui Marius (25.11)
+1. Pragul de livrare gratuită rămâne 300 lei.
+2. Creatina micronizată: reducere reală, cu prețul vechi tăiat cu negru și prețul nou cu roșu. Suma se stabilește după marja din Oblio. Regula Omnibus: prețul tăiat trebuie să fie cel mai mic preț din ultimele 30 de zile (98 lei).
+3. Oferta pe cantitate (−3 % la 2 bucăți, −5 % la 3 bucăți) poate reveni, dar fără combinare cu codurile de afiliat. Toate cele ~30 de coduri de afiliat active se combină acum cu reducerile de produs: trebuie oprit asta la ele și la reducerea automată. Se testează înainte de pornire.
+4. Puncte: sugestiile sunt în chat-ul din 25.11; urmează decizia.
+5. Prețul pe 100 g: DA, mai ales la pudre. Varianta recomandată e prețul unitar nativ Shopify, pe fiecare variantă, pe care tema îl afișează și Google Shopping îl preia.
+6. Mostre: de cerut la Pro Nutrition, dacă Marius vrea.
+7. Prețurile Prime la GymStack: le scriem.
+Judge.me și Trustpilot sunt pornite; certificatele se așteaptă.

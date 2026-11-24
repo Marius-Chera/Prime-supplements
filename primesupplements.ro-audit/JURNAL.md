@@ -2140,3 +2140,21 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Planul 25.11–24.12: 11 reel-uri + 3 caruseluri, cu scripturi (hook/problemă/dovadă/îndemn), fără subiecte de slăbit, doar mențiuni UE, fără coduri noi. Nimic programat sau postat. Fișiere: `social/2026-11-24-instagram-concurenti-plan-30-zile/` (README, captured.tsv, swipe.md, viral.json); copie `swipe.md`/`viral.json` în `C:\Users\mariu\IGStudio`.
 - 24.11 (cu „programează în Zernio … refă programul până la 1 ianuarie” de la Marius): **programul Instagram din Zernio refăcut până la 1.01**. Regula: o postare pe zi în feed (pozele la 18:00, reel-urile la 19:30). Nou: caruselul K1 „Câtă proteină ai în farfurie?” (1.12, post 6b04e2327db4eedb29dd6fdb). Postarea cu creatina de pe 21.12 a devenit caruselul K2 „Creatina: 5 întrebări”. Mutate: Nitrox 7→8.12 (text „Marți”), Pure Isolate 9→10.12, Emperor Mass 11→12.12. Nimic șters, Facebook neschimbat. Imaginile (`make.ps1`, poze reale din ședințe) sunt în Shopify Files, `carusel-k1-proteina-0x.jpg` și `carusel-k2-creatina-0x.jpg`. Cele 12 reel-uri (R1–R12) se programează când trimite Marius video-urile. Lista de filmare și explicația colaborărilor: `social/2026-11-24-instagram-concurenti-plan-30-zile/README.md` §6–9.
 - 24.11: la cererea lui Marius, **fișa de filmare** `social/2026-11-24-instagram-concurenti-plan-30-zile/FILMARI.md`. Pentru fiecare reel R1–R12: textul exact de spus (verificat pe mențiunile UE), ziua filmării, termenul de încărcare, cine apare și cine filmează, cadrele și recuzita. Sunt 5 sesiuni: 25.11 acasă, 1.12 Alex Panek, 2.12 Evo Gym, 8.12 provocarea Evo Gym, R10 afiliat/Kara până pe 16.12. Clipurile se pun în `D:\Prime Supplements\REELS\decembrie-2026\R01…R12` (folderele sunt create).
+- 24.11, **Scor SEO – cauza scăderii și reparații** (Marius: „verifică de ce a scăzut scorul SEO și fă tot ce trebuie să-l crești la 100”).
+  - **Cauza scăderii 88,2 → 81,1 (23.11, 19:00):** Shopify a limitat cererile (429), iar aplicația a notat greșit homepage-ul, robots.txt, cele 6 pagini ale firmei și recenziile. Pe site nu era nimic stricat.
+  - **Reparat în `prime-indexare` (83f8741, b9a5f6e):**
+    - paginile limitate păstrează datele din verificarea anterioară;
+    - robots și paginile firmei păstrează ultima valoare măsurată corect;
+    - linkul de autentificare Shopify (302) nu mai e numărat ca redirect;
+    - căutările cu alte mărci (Lidl, Taur Max, Alpha Booster etc.) nu mai sunt „subiecte fără pagină”.
+  - **Paza de 90 (cerută de Marius, c1a0d6c):** la coborârea sub 90, aplicația reverifică singură tot site-ul; dacă scorul rămâne sub prag, dă alertă gravă cu primele 4 pierderi. Aplicația nu scrie în temă, pentru că nu are permisiuni pe magazin.
+  - **Articole (30 modificate):** backup în `backups/blog-linkuri-h1-2026-11-24/`; datele de publicare sunt neschimbate.
+    - 27 de articole: linkurile care treceau prin redirect duc acum direct la destinație (22 de ținte).
+    - 3 rețete cu cremă de orez: H1-ul dublu din corp a fost șters.
+    - Rămase pentru după 1.12: 6 surse pe pagini de produs și de colecție (lista e în `seo/redirecturi-interne-2026-11-24.json`).
+    - De revăzut: câteva carduri „Articole Similare” poartă titlul articolului vechi, dar duc la un produs sau la o colecție.
+  - **Temă (cod pregătit din 18.11, `theme-fixes/schema-articole-faq-2026-11-18`):** Marius a șters teme vechi, fiindcă limita de 20 bloca copierea. Copia **„Prime – schema articole + FAQ (24.11)” (`194436792695`)** are cele 4 snippet-uri, cu MD5 identic cu repo-ul.
+    - Corecturi din 24.11: răspunsul din FAQPage e doar primul paragraf de după întrebare; produsele citesc FAQ din `custom.seo_produs`; spațiile dinaintea punctuației sunt scoase.
+    - Verificat în previzualizare: 2 articole, o pagină, 3 produse, o colecție și homepage-ul. JSON-ul e valid, există exact un BreadcrumbList pe pagină, iar textele din FAQPage sunt identice cu cele vizibile.
+    - **Așteaptă publicarea de către Marius.**
+  - **De ce nu 100 acum:** recenzii pe doar 57 din 209 produse (cresc doar cu recenzii reale, pasul 15), FAQ și link spre ghid pe produse (după 1.12), subiecte fără pagină (pasul 12).

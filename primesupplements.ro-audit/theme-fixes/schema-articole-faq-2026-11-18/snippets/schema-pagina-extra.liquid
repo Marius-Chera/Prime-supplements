@@ -12,7 +12,13 @@
   {%- when 'page' -%}
     {%- render 'schema-breadcrumb-page' -%}
   {%- when 'product' -%}
-    {%- render 'schema-faq-auto', html: product.description -%}
+    {%- comment -%}2026-11-24: on most products the visible FAQ is in the custom.seo_produs rich text, not in the description.{%- endcomment -%}
+    {%- if product.metafields.custom.seo_produs != blank -%}
+      {%- assign seo_produs_html = product.metafields.custom.seo_produs | metafield_tag -%}
+      {%- render 'schema-faq-auto', html: seo_produs_html -%}
+    {%- else -%}
+      {%- render 'schema-faq-auto', html: product.description -%}
+    {%- endif -%}
   {%- when 'collection' -%}
     {%- if collection.metafields.custom.seo_text != blank -%}
       {%- assign seo_text_html = collection.metafields.custom.seo_text | metafield_tag -%}

@@ -41,7 +41,15 @@
         endif
         assign q = q_tag | strip_html | strip_newlines | split: ' ' | join: ' ' | strip
         assign a_html = part | remove_first: q_html | remove_first: end_tag
-        assign a = a_html | replace: '<', ' <' | strip_html | strip_newlines | split: ' ' | join: ' ' | strip | truncate: 1000, '…'
+        comment
+          the answer is the first paragraph after the question only, so text that follows the FAQ (collection link, disclaimer, author box) never ends up in the last answer
+        endcomment
+        assign a_parts = a_html | split: '</p>'
+        assign a_src = a_parts[0]
+        unless mod_h3
+          assign a_src = a_parts[1] | default: a_parts[0]
+        endunless
+        assign a = a_src | replace: '<', ' <' | strip_html | strip_newlines | split: ' ' | join: ' ' | strip | replace: ' .', '.' | replace: ' ,', ',' | replace: ' ;', ';' | replace: ' :', ':' | replace: ' )', ')' | replace: '( ', '(' | truncate: 1000, '…'
       -%}
       {%- if q contains '?' and a != blank -%}
         {%- if count > 0 %},{% endif -%}

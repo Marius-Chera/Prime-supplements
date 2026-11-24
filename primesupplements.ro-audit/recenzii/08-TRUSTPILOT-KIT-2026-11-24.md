@@ -160,7 +160,7 @@ Echipa Prime Supplements
 ## 7. Widget pe site (mai târziu, opțional)
 Un „TrustBox” gratuit (steluțe + link spre profil) se poate pune în subsol sau pe pagina de recenzii abia după primele ~10 recenzii. E o schimbare de design, deci se face doar cu aprobarea lui Marius.
 
-## 8. SupliScout – e-mailul de înscriere (NETRIMIS, așteaptă „da”)
+## 8. SupliScout – e-mailul de înscriere (TRIMIS 24.11, 04:00, cu „da”-ul lui Marius)
 
 **Verificat 24.11.2026:** toate cele 5 linkuri răspund, produsele sunt pe stoc, iar prețurile sunt aceleași ca în tabelul din `03`: Prime Whey 2 kg 390 lei, 1 kg 215 lei, Pure Isolate 2 kg 510 lei, Creapure® 500 g 180 lei / 300 g 115 lei, micronizată 300 g 98 lei.
 

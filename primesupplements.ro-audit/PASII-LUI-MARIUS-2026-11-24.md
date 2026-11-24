@@ -71,7 +71,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 - **Nu porni nimic plătit.** Dacă îți oferă o probă, o refuzi.
 - **Îmi spui:** „Contul Trustpilot e gata”. Eu pregătesc invitațiile automate (planul gratuit = 50 pe lună) cu test la tine și la Adelina; politica de confidențialitate se schimbă doar cu „da”.
 
-### 11. SupliScout – „da” pentru e-mail
+### 11. ~~SupliScout – „da” pentru e-mail~~ TRIMIS 24.11, 04:00
 - **Ce faci:** citești e-mailul din `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md`, §8 (linkurile și prețurile sunt verificate pe 24.11).
 - **Durează:** 2 minute.
 - **Îmi spui:** „Da, trimite la SupliScout”. Îl trimit de pe contact@ (Gmail în Chrome, `/mail/u/1/`), cu tine în CC.

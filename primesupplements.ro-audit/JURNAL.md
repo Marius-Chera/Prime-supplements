@@ -2310,3 +2310,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Afiliații existenți nu îl primesc.
   - Testul se trimite din Setări, cu butonul „Trimite un test la Marius și Adelina”.
   - **Pornește după ce Marius pune în Cloudflare secretele THEMARKETER_API_KEY și THEMARKETER_CUSTOMER_ID.**
+- 24.11: **Widget-ul Trustpilot pe site: amânat până la primele 10–15 recenzii** (Marius: „la jumătatea lui ianuarie”). Memento programat pe 15.01.2027, la 10:00 (sarcina locală `prime-trustpilot-widget-ianuarie`): numără recenziile și, dacă sunt cel puțin 10, pregătește un widget pe o copie a temei, pe care o publică doar Marius.

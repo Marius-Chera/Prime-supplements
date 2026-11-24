@@ -2348,3 +2348,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Profile strength:** incomplet („Complete info”); există o recenzie nouă de 5 stele fără răspuns.
   - **Urmează:** completarea profilului și răspunsurile la recenzii (Marius: „hai să-l facem acum”).
 - 24.11: **GBP – „Complete info”:** lipsește doar **poza cu fațada magazinului**. Nu există în D:\Prime Supplements; o face Marius sau colega din telefon (Google Maps → profil → Adaugă fotografii). În panou apare și „Your edit is being reviewed” (o modificare mai veche, în verificare). Memento-ul din 1.12 a fost reformulat: verifică poza și recenziile fără răspuns, nu mai creează profil.
+- 24.11: **GBP „Magazin Suplimente - PrimeStore” completat** (Marius: „fă profilul complet”), din contul primesupplementsro@gmail.com:
+  - **Descrierea:** înainte o singură propoziție, acum 626 de caractere: magazinul fizic din Piața Rahovei; gama Prime (proteină din zer, Creapure®, cremă de orez, aminoacizi, vitamine, batoane, îmbrăcăminte); brandurile internaționale cerute de Marius (Optimum Nutrition, Scitec Nutrition, Evogen, EFX); consiliere; magazinul online cu livrare în 1–3 zile; firma din 2022.
+    - Google a respins cuvântul „cum” (filtru pentru engleză), înlocuit cu „modul de folosire”.
+    - Prima variantă a fost aprobată; varianta cu brandurile e în verificare (~10 minute).
+  - **Categorii:** principala „Magazin de nutriție sportivă” + secundare „Magazin de vitamine și suplimente” și „Magazin de alimente naturale” (în verificare).
+  - **Rămâne:** poza cu fațada magazinului, de făcut de Claudia (colega de la PrimeStore) din telefon.

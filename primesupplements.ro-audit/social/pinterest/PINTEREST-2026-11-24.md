@@ -16,10 +16,17 @@ Profil: https://ro.pinterest.com/primesupplementsro/
   - CSV încărcat în Pinterest (Setări → Importă conținut → Creează Pinuri în masă) la 24.11: „Încărcare reușită”, procesare ~2 ore; erorile vin pe e-mail la contact@.
   - **Program:** 6 pinuri/zi la 08, 11, 14, 17, 19, 21 (ora României), **25.11 → 21.12.2026**; panourile alternează, prioritatea: cremă de orez → proteine → creatină → rețete → suplimente → vitamine → antrenament (articolele cele mai noi întâi).
 
+## Aplicația Pinterest pentru Shopify (24.11, cu „da” de la Marius)
+- Instalată (); Marius a autorizat contul în fereastra Pinterest; în Pinterest → Link către Pinterest apare asociat magazinul .
+- **Configurarea nu se poate termina:** „Advertising is not available for your account – Your Pinterest account is in a country where Pinterest does not yet offer ads”. Aplicația cere cont de reclame pentru catalog și marcaj → **în România nu sincronizează produsele și nu revendică site-ul.** Aplicația a rămas instalată (de decis de Marius: o dezinstalăm, nu folosește la nimic acum).
+
+## Revendicarea site-ului prin marcaj (24.11)
+- DNS-ul domeniului e la kemo.services (fără acces) → marcajul în temă.
+- Pus în copia nepublicată **„Prime – schema articole + FAQ (24.11)” ()**, în , după  (snippetul era identic cu tema live, MD5 eae31d78…): . Verificat în previzualizare.
+- **Intră pe site când Marius publică această copie** (oricum așteaptă publicarea pentru schema articole + FAQ). Apoi: Pinterest → Setări → Link către Pinterest → Site-uri → Revendică → „Adaugă un marcaj HTML” → primesupplements.ro.
+
 ## Ce rămâne
-1. **Revendicarea site-ului** (deblochează RSS automat din blog, statistici pe domeniu, numele brandului pe pinurile de pe site). Două variante:
-   - **aplicația gratuită „Pinterest” pentru Shopify** (o propune și Pinterest la onboarding): revendică singură site-ul, aduce toate produsele ca pinuri de produs (catalog) și pune eticheta Pinterest – trebuie „da” de la Marius (aplicație nouă cu permisiuni pe magazin);
-   - sau marcajul în `<head>` al temei live: `<meta name="p:domain_verify" content="0301458a3b7e71f2cc1c64959e6f2106"/>` (tema live nu se poate scrie prin API; doar din editorul de cod).
+1. **Revendicarea site-ului:** după publicarea copiei de mai sus (marcajul e deja în ea).
 2. După revendicare: Setări → Creează Pinuri în masă → **RSS** `https://primesupplements.ro/blogs/news.atom` pe panoul „Nutriție sportivă și suplimente” → fiecare articol nou devine pin automat.
 3. **Instagram → Pinterest** (Setări → Link către Pinterest → Instagram): postările IG se publică automat ca pinuri; cere login Instagram (Marius).
 4. Articole noi până la revendicare: rulezi din nou `build-lista.mjs` + `make-pins.ps1 -Only <handle>` și un CSV doar cu ele.

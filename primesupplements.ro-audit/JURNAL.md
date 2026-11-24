@@ -2354,3 +2354,11 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Prima variantă a fost aprobată; varianta cu brandurile e în verificare (~10 minute).
   - **Categorii:** principala „Magazin de nutriție sportivă” + secundare „Magazin de vitamine și suplimente” și „Magazin de alimente naturale” (în verificare).
   - **Rămâne:** poza cu fațada magazinului, de făcut de Claudia (colega de la PrimeStore) din telefon.
+- 24.11: **GBP PrimeStore – completat mai departe** (Marius: „fixează profilul să fie complet 100%”). Toate modificările sunt în verificarea Google (~10 minute):
+  - **Rețele sociale:** pe lângă Facebook, Instagram (primesupplements_ro) și Pinterest (primesupplementsro).
+  - **Opțiuni de serviciu:** cumpărături în magazin și ridicare din magazin a comenzilor online (după răspunsurile lui Marius; livrarea nu e bifată).
+  - **Parcare:** loc de parcare gratuit.
+  - **Plăți:** existau deja (card de credit/debit, NFC, nu doar numerar).
+  - **Program de sărbători** (de la Marius): 1.12 10–16; 24.12 10–16; 25–26.12 închis; 31.12 10–16 (Marius a scris „31 ianuarie”, confirmat „da” pentru 31 decembrie); 1–2.01.2027 închis.
+  - **Neatinse intenționat:** adresa (o modificare a locației poate cere o nouă verificare; apare codul poștal de două ori, „550340, 550340 Sibiu”), zona de servicii, atributele pe care nu le știm (accesibilitate etc.).
+  - **Rămân:** poza fațadei (Claudia, mâine), răspunsul la recenzia nouă de 5 stele.

@@ -20,7 +20,7 @@
                   <td class="actions__cell">
                     <table class="button main-action-cell">
                       <tr>
-                        <td class="button__cell"><a href="https://www.trustpilot.com/evaluate/primesupplements.ro" class="button__text">Lasă o recenzie pe Trustpilot</a></td>
+                        <td class="button__cell" style="background:#00b67a;"><a href="https://www.trustpilot.com/evaluate/primesupplements.ro" class="button__text" style="color:#ffffff;">&#9733; Lasă o recenzie pe Trustpilot</a></td>
                       </tr>
                     </table>
                   </td>

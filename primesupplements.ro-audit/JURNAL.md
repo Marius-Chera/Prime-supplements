@@ -2301,3 +2301,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **(2) Butonul mov „Urmărește comanda cu Shop” scos** (Marius: „dacă nu ajută, mai bine îl elimini”). Promova aplicația Shop a Shopify, aproape nefolosită în România, care le arată clienților și alte magazine. Starea comenzii și urmărirea Cargus sunt deja în „Vezi comanda”.
     - Cum: condiția `{% if shop_app_tracking_url and … %}` a devenit `{% if false and … %}`, cu un comentariu de revenire, deci se afișează varianta standard cu un singur buton.
   - **Verificat:** salvat, reîncărcat, blocul apare o singură dată, iar butonul Shop nu mai e. Testul a plecat la marius.chera@outlook.com.
+- 24.11: **Butonul Trustpilot din e-mailul de expediere e acum verde Trustpilot (#00B67A), cu text alb și steluță ★** (Marius: „roșu se confundă cu tema noastră”). Salvat, verificat după reîncărcare, test trimis la marius.chera@outlook.com.

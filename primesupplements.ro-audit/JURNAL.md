@@ -2180,3 +2180,12 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - **Compari, 18.11, „Finalizează procesul de verificare (KYC)”:** Plata cu cardul → Procesul de verificare → „Doresc un link nou” → formular cu datele firmei și ale reprezentantului. Îl completează Marius.
 - 24.11, **Pinterest:** contul e făcut de Marius. Decizia lui: se lucrează pe Pinterest direct din Claude, nu prin Zernio, fiindcă planul gratuit Zernio permite doar 2 conturi.
 - 24.11: **Instagram legat de Pinterest** (Marius a aprobat): postările de pe @primesupplements_ro se publică automat ca pinuri pe panoul „Produse Prime Supplements”. Aplicația Pinterest din Shopify rămâne instalată deocamdată (decizia lui Marius).
+- 24.11, **feed-ul Compari refăcut pe categoriile cerute de ei pe 17.11** (Marius: „Da, refă feed-ul”). Commit `prime-indexare`.
+  - Fiecare produs primește o categorie precisă, iar „Pachet” și „Suplimente” nu mai apar ca noduri generale:
+    - pachetele, după conținut: proteine, aminoacizi, pre-workout, vitamine și minerale, creatină, cremă de orez, arzătoare de grăsimi, iar seturile de haine separat;
+    - hainele pe gen: toate modelele Prime/MNX sunt bărbătești, deci tricouri, maiouri, hanorace, pantaloni scurți, pantaloni de trening și pantaloni bărbați;
+    - pre-workout separat de intra-workout (Cluster Bomb);
+    - băuturile instant după tip: fără zahăr, energizante, izotonice;
+    - suplimentele pe categorii: din plante, colagen, fibre, enzime, Q10, antioxidanți.
+  - Feed-ul live are 411 variante, toate cu categoria nouă. Compari îl descarcă zilnic după 17:00.
+  - **Rămâne la Marius:** KYC-ul Compari (Plata cu cardul → Procesul de verificare).

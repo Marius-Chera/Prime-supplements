@@ -13,8 +13,8 @@
         <table class="container"{% if buyer_email_rtl == true %} dir="rtl"{% endif %}>
           <tr>
             <td>
-              <h3 style="margin:0 0 8px;">Cum a fost comanda ta?</h3>
-              <p style="margin:0 0 16px;">Ne spui pe Trustpilot? Livrarea, ambalajul, comunicarea cu noi: orice părere sinceră, bună sau rea, ne ajută să facem lucrurile mai bine. Durează un minut.</p>
+              <h3 style="margin:0 0 8px;">Părerea ta contează enorm pentru noi</h3>
+              <p style="margin:0 0 16px;">Suntem o echipă mică din Sibiu și abia am început să strângem recenzii pe Trustpilot. Fiecare părere ne arată ce facem bine și ce mai avem de îmbunătățit, de la livrare și ambalaj până la felul în care îți răspundem. Ne-ar ajuta mult să ne spui sincer cum a fost comanda ta. Durează un minut.</p>
               <table class="row actions">
                 <tr>
                   <td class="actions__cell">

@@ -668,3 +668,7 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - Pachetele scoase (Draft) primesc redirect 301 spre pachetul activ cel mai apropiat sau spre /collections/reduceri (19 create).
 - Comenzile eMAG: colega verifică aplicația Prime eMAG și le plasează de acolo; fără Telegram.
 - Cargus nu ridică sâmbăta; estimarea de livrare din coș rămâne neschimbată.
+
+## 24.11.2026 – Google Business Profile: devine eligibil
+- Decizia veche (audit 10.2025, LOCAL-11: „magazin exclusiv online, neeligibil”) e depășită. Marius confirmă că există **magazinul fizic din Sibiu** („PrimeStore”, Str. Rahovei 45A, L–V 10–18, S 10–16, confirmat și pe 13.11).
+- Un magazin cu program, în care intră clienții, poate avea profil Google Business. Urmează pregătirea pașilor: profilul pe adresa magazinului din Sibiu, nu pe sediul din Cisnădie; verificarea Google se face de obicei cu un clip filmat la magazin.

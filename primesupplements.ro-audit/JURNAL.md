@@ -2278,3 +2278,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - contactul firmei.
   - Plan gratuit; trialul Plus nepornit. Detalii: `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §9. Profilul apare „Claimed”, cu 0 recenzii.
   - **Urmează, cu „da” de la Marius:** invitațiile (aplicația Trustpilot din Shopify, 50/lună, la 3 zile după expediere) și fraza din politica de confidențialitate.
+- 24.11: **Google Business Profile – reevaluat:** Marius confirmă magazinul fizic din Sibiu, deci firma devine eligibilă (LOCAL-11 din audit e depășit). Trecut în ISTORIC; pașii de creare se pregătesc la cererea lui Marius.

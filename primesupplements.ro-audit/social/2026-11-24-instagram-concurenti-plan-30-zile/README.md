@@ -61,28 +61,58 @@ Nu facem: reel-uri doar cu produsul, intro cu logo, clipuri de peste 40 s fără
 
 Retenția (graficul „unde au plecat oamenii”) o arată Instagram **doar pentru reel-urile noastre**, în aplicație: reel → „Vezi statistici”. Pentru concurenți nu se poate vedea. Pas pentru Marius: după fiecare reel din plan, la 3 zile, o captură cu graficul de retenție. Claude o trece prin `/ig-perf` și spune ce tăiem la următorul.
 
-## 6. Pasul 5: calendarul 25.11 – 24.12.2026
+## 6. Pasul 5: programul Instagram 25.11 – 1.01.2027 (refăcut în Zernio pe 24.11)
 
-Deja programate (nu se schimbă): 25.11 carusel Late Black Friday; 26.11 și 28.11 postările cu pachete (Cura de Iarnă, Duo Magneziu). Mențiuni de sănătate doar cele autorizate în UE. Sportivi bărbați în cadru; ca locații, Evo Gym și ședințele foto din `D:\Prime Supplements`.
+Marius, 24.11: „programează în Zernio după noua strategie … să nu se bată cap în cap cu cele programate … refă programul până la 1 ianuarie”.
 
-| Zi | Format | Tipar | Produs | Script |
-|---|---|---|---|---|
-| Joi 27.11 | Reel 10 s | E | Cremă de orez | R1 |
-| Sâm 29.11 | Reel 15 s | C | Creatină | R2 |
-| Lun 1.12 | Carusel | D | Prime Whey | K1 |
-| Mie 3.12 | Reel collab 25 s | A | Prime Whey | R3 |
-| Vin 5.12 | Reel 8 s | E | Prime Whey | R4 |
-| Dum 7.12 | Reel 20 s | D | Creatină | R5 |
-| Mar 9.12 | Reel 12 s | C | Cremă de orez | R6 |
-| Joi 11.12 | Reel collab 30 s | B | toate | R7 |
-| Sâm 13.12 | Carusel | D | Creatină | K2 |
-| Lun 15.12 | Reel 10 s | E | Cremă de orez | R8 |
-| Mie 17.12 | Reel 20 s | D | Prime Whey | R9 |
-| Vin 19.12 | Reel collab 25 s | A | Creatină | R10 |
-| Dum 21.12 | Carusel | – | idei de cadouri (fără reducere nouă) | K3 |
-| Mar 23.12 | Reel 15 s | B | toate | R11 |
+**Regula:** o singură postare pe zi în feed. Pozele și caruselele rămân la 18:00, reel-urile merg la 19:30, în zilele fără altă postare. Facebook-ul nu s-a schimbat.
 
-Total: 11 reel-uri + 3 caruseluri. Ora: 19:00–20:00 (seara, după sală). Toate se termină cu „🛒 Linkul e în bio.” acolo unde e vorba de vânzare.
+**Ce am schimbat în Zernio (Instagram):**
+- **nou:** carusel K1 „Câtă proteină ai în farfurie?” pe 1.12, 18:00 (post `6b04e2327db4eedb29dd6fdb`, imaginile `carusel-k1-proteina-0x.jpg` în Shopify Files);
+- **21.12:** postarea cu creatina (`6af38cd317b9bcfe4f8f70b0`) e acum caruselul K2 „Creatina: 5 întrebări”, cu text nou (aceeași oră);
+- **mutate**, ca să elibereze zilele de reel: Nitrox 3D 7.12 → 8.12 (textul începe acum cu „Marți”), Pure Isolate 9.12 → 10.12, Emperor Mass 11.12 → 12.12;
+- **șters: nimic.** K3 (cadouri) nu se mai face: 13.12 și 18.12 au deja postări cu idei de cadouri.
+
+| Zi | Instagram feed | Tip |
+|---|---|---|
+| Mie 25.11 | Late Black Friday (carusel) | programat |
+| Joi 26.11 | Pachet Cura de Iarnă | programat |
+| Vin 27.11 | **R1** cremă de orez „doar 2 linguri” | reel – video de la Marius |
+| Sâm 28.11 | Pachet Duo Magneziu | programat |
+| Dum 29.11 | **R2** creatină „Așa NU / Așa DA” | reel – video |
+| Mar 1.12 | **K1** carusel proteină | programat (nou) |
+| Mie 2.12 | Creatină Creapure (poză) | programat |
+| Joi 3.12 | **R3** collab Alex Panek | reel – video |
+| Vin 4.12 | Prime Whey (poză) | programat |
+| Sâm 5.12 | **R4** POV shake | reel – video |
+| Dum 6.12 | Sf. Nicolae | programat |
+| Lun 7.12 | **R5** „3 greșeli cu creatina” | reel – video |
+| Mar 8.12 | Nitrox 3D | programat (mutat) |
+| Mie 9.12 | **R6** mic dejun greșit/corect | reel – video |
+| Joi 10.12 | Pure Isolate | programat (mutat) |
+| Vin 11.12 | **R7** provocarea de la sală (collab) | reel – video |
+| Sâm 12.12 | Emperor Mass | programat (mutat) |
+| Dum 13.12 | Idee de cadou | programat |
+| Lun 14.12 | EAA | programat |
+| Mar 15.12 | **R8** „light” de sărbători | reel – video |
+| Mie 16.12 | Combat Pro 2.0 | programat |
+| Joi 17.12 | **R9** „Câtă proteină după sală?” | reel – video |
+| Vin 18.12 | Cadouri mici | programat |
+| Sâm 19.12 | **R10** collab afiliat / Kara | reel – video |
+| Dum 20.12 | Glutamină | programat |
+| Lun 21.12 | **K2** carusel creatină | programat (înlocuit) |
+| Mie 23.12 | Daily Vitamin | programat |
+| Vin 25.12 | Crăciun fericit | programat |
+| Dum 27.12 | Cluster Bomb | programat |
+| Lun 28.12 | Energy Pump Shot | programat |
+| Mar 29.12 | **R12** „POV: a 3-a zi de sarmale, prima zi de sală” | reel – video |
+| Mie 30.12 | Obiective 2027 | programat |
+| Joi 31.12 | **R11** 2026 pe scurt | reel – montaj din filmări existente |
+| Vin 1.01 | Ziua 1 din 365 | programat |
+
+Reel-urile se programează pe măsură ce sosesc video-urile: Marius le trimite cu cel puțin 2 zile înainte; Claude pune textul pe ecran, descrierea, coperta și le urcă în Zernio (Instagram + Facebook Reels). Dacă un video nu vine la timp, ziua rămâne doar cu stories.
+
+**R12 (nou, tipar E, 8 s):** un cadru, Marius intră pe ușa sălii cu shakerul în mână. Text: „POV: a 3-a zi de sarmale, prima zi de sală”. Descriere: „Cine e cu noi? 👇”.
 
 ### Scripturile (hook 0–3 s → problemă 3–12 s → dovadă → îndemn)
 
@@ -110,10 +140,51 @@ Total: 11 reel-uri + 3 caruseluri. Ora: 19:00–20:00 (seara, după sală). Toat
 
 **K1 – „Câtă proteină ai în farfurie?” (carusel).** 6 alimente obișnuite cu gramele de proteină, ultimul slide e shake-ul Prime Whey. Bun de salvat.
 **K2 – „Creatina: 5 întrebări, 5 răspunsuri scurte”.** Doar mențiunea autorizată.
-**K3 – „Ce îi iei de Crăciun unuia care merge la sală”.** Produsele noastre la prețul normal, fără cod nou (regula: doar WELCOME5).
+**K3 – renunțat (24.11):** 13.12 și 18.12 au deja postări cu idei de cadouri.
 
 ## 7. Ce face fiecare
 
 - **Marius:** filmează R2, R5, R9 (el în cadru) și R1, R4, R6, R8 (doar mâini și produs, telefonul ajunge); îi scrie lui Alex Panek pentru R3 și unui afiliat sau Karei pentru R10; alege sala pentru R7; trimite capturile cu retenția.
 - **Claude:** subtitrări și text pe ecran pentru fiecare reel (`/ig-direct`), descrieri, caruselele K1–K3 ca imagini, programarea în Zernio **doar după „da”**, apoi `/ig-perf` pe fiecare reel și ajustarea planului la jumătate (~10.12).
 - **Opțional (nu e pornit):** DM automat la un cuvânt din comentarii, prin Zernio (discutat tot pe 24.11, înainte de acest plan). S-ar potrivi la R5 și R9 („scrie CREATINĂ și îți trimit ghidul”). Doar cu acordul lui Marius și după ce verificăm costul în Zernio.
+
+## 8. Video-urile de pregătit (Marius)
+
+Format pentru toate: telefon **vertical**, 1080×1920, lumină bună (fereastră sau sala luminată), fără text pus de tine (textul îl pun eu). Trimite-mi clipurile brute; dacă vorbești, vorbește clar, 1–2 propoziții.
+
+| Reel | Pentru | Trimite până la | Cine e în cadru | Ce filmezi (durată brută) |
+|---|---|---|---|---|
+| R1 | 27.11 | **26.11** | doar mâini | bolul, 4–5 linguri de cremă de orez puse una după alta, apoi bolul plin cu topping (15 s) |
+| R2 | 29.11 | 27.11 | doar mâini | două cadre separate: (1) borcanul de creatină pus înapoi în dulap, neatins; (2) o măsură de 3 g în shaker, dimineața, lângă cafea (2 × 6 s) |
+| R4 | 5.12 | 3.12 | mâini / din spate | pleci din cadru, te oprești, te întorci după shaker și îl iei (8 s) |
+| R5 | 7.12 | 5.12 | **Marius** | față în cameră, la sală: „3 greșeli cu creatina pe care le văd la sală” + cele 3 răspunsuri (30 s) |
+| R6 | 9.12 | 7.12 | doar mâini | (1) corn + cafea pe masă; (2) crema de orez făcută în 2 minute + shake (2 × 8 s) |
+| R8 | 15.12 | 13.12 | doar mâini | bolul de cremă de orez cu topping „de sărbători” (scorțișoară, nucă, fructe), filmat de sus (10 s) |
+| R9 | 17.12 | 15.12 | **Marius** | față în cameră: „Câtă proteină îți trebuie după sală?” 3 propoziții + măsura de Prime Whey în shaker (25 s) |
+| R12 | 29.12 | 27.12 | **Marius** | intri pe ușa sălii cu shakerul în mână, privești în cameră (8 s) |
+| R11 | 31.12 | – | – | nimic de filmat: montez eu din `video ecran valahia 2026`, `reeluri evo gym shooting` și pozele din 2026 |
+| R3 | 3.12 | 1.12 | **Alex Panek** | vezi colaborările mai jos |
+| R7 | 11.12 | 9.12 | sportivi + clienți | provocarea de la Evo Gym, vezi mai jos |
+| R10 | 19.12 | 17.12 | afiliat / Kara | vezi mai jos |
+
+**Cel mai simplu:** o singură sesiune de filmare (o oră, la Evo Gym + bucătărie) acoperă R1, R2, R4, R5, R6, R8, R9 și R12.
+
+## 9. Colaborările, pe scurt
+
+**Ce e o „colaborare” (collab) pe Instagram:** un singur reel publicat de **două conturi deodată**. Noi îl publicăm și îl invităm pe sportiv ca „colaborator”. După ce el acceptă invitația din aplicație, reel-ul apare **și pe profilul lui, și pe al nostru**. Îl văd și urmăritorii lui, și ai noștri, iar aprecierile și vizualizările se adună într-un singur loc. Nu e reclamă plătită și nu costă nimic.
+
+**De ce contează:** la GymBeam, toate cele 3 reel-uri de top din ultima lună au fost colaborări cu antrenori. Și la Pro Nutrition, cel mai bun reel e un collab (cu Fabius Antal). Alex Panek are 73,9 mii de urmăritori, de 16 ori mai mulți decât noi. Un collab cu el ajunge la publicul lui fără un leu.
+
+**Cum se face, pas cu pas:**
+1. Sportivul filmează (sau filmăm noi cu el) clipul după script și ți-l trimite.
+2. Eu îl programez în Zernio cu numele lui la „colaboratori” (până la 3 conturi).
+3. La ora publicării, Instagram îi trimite o invitație. **El trebuie să apese „Acceptă”** în aplicație. Până acceptă, reel-ul apare doar la noi.
+4. Ideal: scrie-i cu o zi înainte, ca să știe că vine invitația.
+
+**Cele 3 colaborări din plan:**
+- **R3 (3.12) – Alex Panek:** „Ce mănâncă un IFBB Pro după antrenament”. El, în sala lui (APT GYM), își face shake-ul cu Prime Whey și spune ce urmărește la proteină. 20–30 s, față în cameră. Codul lui, APT, apare în descriere.
+- **R7 (11.12) – Evo Gym (contul sălii):** provocarea „Câte flotări faci într-un minut?” cu 3–5 oameni din sală. Câștigătorul primește un produs Prime ca premiu (nu cod de reducere). Collab cu contul sălii.
+- **R10 (19.12) – un afiliat sau Kara** (am mai făcut o colaborare cu Kara pe 3.11): „Rutina mea de dimineață înainte de sală”, cu creatina pusă în shake. Fără pachetele din Reduceri (regula afiliaților).
+
+**Mesaj gata de trimis lui Alex (WhatsApp):**
+> Salut Alex! Vrem să facem un reel împreună pe 3.12, publicat pe ambele conturi (collab). Ideea: „Ce mănâncă un IFBB Pro după antrenament”: tu în sală, îți faci shake-ul cu Prime Whey și spui în 2–3 propoziții ce urmărești la proteină. 20–30 de secunde, telefon vertical. Dacă poți să mi-l trimiți până pe 1.12, îl programăm noi și îți vine invitația de colaborare pe Instagram; doar o accepți. Mersi!

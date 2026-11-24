@@ -2205,3 +2205,19 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 24.11 (04:00): **e-mailul către SupliScout TRIMIS** (Marius: „Da, trimite”). A plecat de pe contact@ (Gmail în Chrome, `/mail/u/1/`) către supliscout@gmail.com, cu Marius în CC. Subiect: „Cerere de includere în comparație: Prime Supplements (primesupplements.ro)”. Textul e cel din `recenzii/08-TRUSTPILOT-KIT-2026-11-24.md` §8, fără semnătura automată Gmail, care avea alt număr de telefon (+40 756 192 481) decât cel din text (0775 286 584). Verificat în „Trimise”, fără bounce. O primă ciornă cu destinatarii amestecați a fost ștearsă înainte de trimitere. **Urmează:** verificarea pe supliscout.ro pe ~10–15.12, după cel puțin două actualizări (luni și joi).
 - 24.11: **84 de pinuri pentru haine** (toate hainele în stoc, Prime + MNX) pe panoul nou „Haine de sală Prime”, câte 3 pe zi în perioada 25.11–22.12 (12:30, 18:00, 22:00). Pe Pinterest ies acum 12 pinuri pe zi.
 - 24.11: **Audit canale de vânzare Meta** (Marius: „Facebook și Instagram sunt legate corect cu Shopify și la ce ajută?”), doar citire: `findings/AUDIT-CANALE-META-2026-11-24.md`. Canalul Facebook & Instagram e corect legat: catalog sincronizat (197 de produse aprobate, RON), datasetul 593997668868274 conectat cu Pixel + Conversions API („Server + Web, Optimized”). **Problemă: Purchase dublat** – Meta a primit ~1.300 de Purchase în 27.10–23.11 față de 577 de comenzi Shopify, pentru că Meta Pixel e activ și în Simprosys (Pixels and tracking). Remedierea (D11): oprirea Meta în Simprosys, doar cu „da” și cu Marius logat în Facebook. Lipsesc și 12 pachete din catalog (nepublicate pe canalele Facebook și Google). Nimic modificat.
+
+## 2026-11-24 – Total Admin: comenzile modificate după plasare nu mai sunt blocate
+- Cererea lui Marius (cu poza listei Depozit, Nr.10497 „⛔ nu e gata – comanda a fost modificată după plasare (total schimbat) – verifică întâi”): „fa in asa fel incat sa se poata genera facturile, awb-urile si noile packing slips chiar daca este modificata o comanda, pentru ca daca exista o modificare inseamna ca a fost solicitata de client”.
+- **Ce s-a schimbat:**
+  - O comandă modificată în Shopify nu mai blochează butonul „Factură + AWB + Printare”.
+  - Factura, AWB-ul și packing slip-ul folosesc produsele și totalul **actual**:
+    - produsele scoase nu apar pe factură și nici pe packing slip;
+    - produsele adăugate apar.
+  - Cât rambursul era luat din totalul inițial, comanda nu putea fi lăsată să treacă (de aici blocarea). Acum, pe AWB, rambursul, valoarea declarată și câmpurile scrise pe comandă iau și ele totalul actual.
+  - Lista Depozit arată tot totalul actual.
+  - Sub comandă rămâne un avertisment galben, care nu blochează: „Comanda a fost modificată după plasare: … totalul actual X lei (inițial Y lei)”.
+  - La plata cu cardul în care clientul mai are de achitat diferența (Shopify: „parțial plătită”), apare un avertisment separat, tot fără blocare.
+- **Verificat pe Nr.10497** (doar citire în Shopify): clientul a scos Glycerol Max Pump, iar totalul a scăzut de la 396,00 la 319,50 lei.
+  - Cu codul vechi, AWB-ul ar fi cerut ramburs 396 lei.
+  - Acum cere 319,50 lei, iar Glycerol nu apare pe factură și nici pe packing slip.
+- 222 de teste trec (inclusiv unul nou pentru comanda modificată). Publicat ca versiunea f2f642e1, commit prime-expediere 2deb432. Nu am verificat vizual în Admin.

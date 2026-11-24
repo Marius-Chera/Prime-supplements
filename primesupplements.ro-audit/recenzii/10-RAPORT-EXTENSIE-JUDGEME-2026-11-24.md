@@ -37,3 +37,12 @@ Raportul a fost lipit de Marius în chat. Extensia a rulat textul din `09-TEXT-E
 
 ## Observația lui Claude
 Setarea multi-produs trimite **câte un e-mail separat pentru fiecare produs** (până la 3, la 5 zile distanță). Cu memento-ul nou, un client cu 3 produse ar putea primi până la ~6 e-mailuri. Asta contrazice decizia lui Marius din 16.11 („prea stresăm clienții”, maximum 2 e-mailuri). Recomandarea: un singur e-mail cu toate produsele, dacă setarea există; altfel maximum 1 produs pe comandă.
+
+## Rularea 2b (24.11, după-amiaza) – iar oprită, fără modificări noi
+- Capturile Chrome cad: fereastra a ajuns la peste 2800 px lățime, la zoom mic. Trebuie pusă pe jumătate de ecran, la zoom 100 %, și lăsată în față.
+- **Aflat:**
+  - opțiunea „Send a single email with requests for multiple products” există și se pornește;
+  - memento-ul e un singur e-mail cu toate produsele nerecenzate și pleacă la 7 zile după ce s-au trimis toate cererile, deci cel mult 2 e-mailuri pe comandă;
+  - bifa „și celor care n-au deschis” e necesară, altfel memento-ul se sare;
+  - `{{ buyer_first_name }}` gol apare ca „Customer”.
+- **Decizia lui Claude** pentru E2: salutul devine „Salut!”, fără prenume, ca să nu apară „Salut Customer”. E1 rămâne neschimbat.

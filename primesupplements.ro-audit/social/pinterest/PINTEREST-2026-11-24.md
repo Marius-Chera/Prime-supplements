@@ -25,9 +25,13 @@ Profil: https://ro.pinterest.com/primesupplementsro/
 - Pus în copia nepublicată **„Prime – schema articole + FAQ (24.11)” (`194436792695`)**, în `snippets/social-meta-tags.liquid`, după `og:locale` (snippetul era identic cu tema live, MD5 eae31d78…): `<meta name="p:domain_verify" content="0301458a3b7e71f2cc1c64959e6f2106"/>`. Verificat în previzualizare.
 - **Intră pe site când Marius publică această copie** (oricum așteaptă publicarea pentru schema articole + FAQ). Apoi: Pinterest → Setări → Link către Pinterest → Site-uri → Revendică → „Adaugă un marcaj HTML” → primesupplements.ro.
 
+## Revendicare + RSS (24.11, după publicarea copiei de temă)
+- Marius a publicat copia „Prime – schema articole + FAQ (24.11)” din altă sesiune, deci marcajul `p:domain_verify` e live. **Site-ul primesupplements.ro e revendicat** (Pinterest: „Conectat – Ești gata!”, `domain_verified: true`). Marcajul Pinterest pentru conversii, propus după revendicare, NU a fost instalat: pe site există deja pixel Pinterest, iar un al doilea ar dubla urmărirea.
+- **RSS nu merge:** `https://primesupplements.ro/blogs/news.atom` → „Fluxul RSS are un format necunoscut” (Shopify dă doar Atom; Pinterest vrea RSS 2.0).
+
 ## Ce rămâne
-1. **Revendicarea site-ului:** după publicarea copiei de mai sus (marcajul e deja în ea).
-2. După revendicare: Setări → Creează Pinuri în masă → **RSS** `https://primesupplements.ro/blogs/news.atom` pe panoul „Nutriție sportivă și suplimente” → fiecare articol nou devine pin automat.
-3. **Instagram → Pinterest** (Setări → Link către Pinterest → Instagram): postările IG se publică automat ca pinuri; cere login Instagram (Marius).
-4. Articole noi până la revendicare: rulezi din nou `build-lista.mjs` + `make-pins.ps1 -Only <handle>` și un CSV doar cu ele.
+1. ~~Revendicarea site-ului~~ făcută pe 24.11.
+2. **Articolele noi** intră prin CSV (de exemplu lunar): export nou al articolelor → `build-lista.mjs` → `make-pins.ps1 -Only <handle>` → urcare în Files → CSV doar cu ele.
+3. **Instagram → Pinterest** (Setări → Link către Pinterest → Instagram → Link): postările IG se publică automat ca pinuri; cere login Instagram (Marius). Încă nelegat.
+4. Aplicația Pinterest din Shopify: instalată, dar fără folos în RO. De decis dacă o dezinstalăm.
 5. Peste 2–3 săptămâni: statisticile Pinterest (afișări, clicuri) + GA4 pe `utm_source=pinterest`.

@@ -17,12 +17,12 @@ Profil: https://ro.pinterest.com/primesupplementsro/
   - **Program:** 6 pinuri/zi la 08, 11, 14, 17, 19, 21 (ora României), **25.11 → 21.12.2026**; panourile alternează, prioritatea: cremă de orez → proteine → creatină → rețete → suplimente → vitamine → antrenament (articolele cele mai noi întâi).
 
 ## Aplicația Pinterest pentru Shopify (24.11, cu „da” de la Marius)
-- Instalată (); Marius a autorizat contul în fereastra Pinterest; în Pinterest → Link către Pinterest apare asociat magazinul .
+- Instalată (`apps/pinterest-4`); Marius a autorizat contul în fereastra Pinterest; în Pinterest → Link către Pinterest apare asociat magazinul `primesupplements1.myshopify.com`.
 - **Configurarea nu se poate termina:** „Advertising is not available for your account – Your Pinterest account is in a country where Pinterest does not yet offer ads”. Aplicația cere cont de reclame pentru catalog și marcaj → **în România nu sincronizează produsele și nu revendică site-ul.** Aplicația a rămas instalată (de decis de Marius: o dezinstalăm, nu folosește la nimic acum).
 
 ## Revendicarea site-ului prin marcaj (24.11)
 - DNS-ul domeniului e la kemo.services (fără acces) → marcajul în temă.
-- Pus în copia nepublicată **„Prime – schema articole + FAQ (24.11)” ()**, în , după  (snippetul era identic cu tema live, MD5 eae31d78…): . Verificat în previzualizare.
+- Pus în copia nepublicată **„Prime – schema articole + FAQ (24.11)” (`194436792695`)**, în `snippets/social-meta-tags.liquid`, după `og:locale` (snippetul era identic cu tema live, MD5 eae31d78…): `<meta name="p:domain_verify" content="0301458a3b7e71f2cc1c64959e6f2106"/>`. Verificat în previzualizare.
 - **Intră pe site când Marius publică această copie** (oricum așteaptă publicarea pentru schema articole + FAQ). Apoi: Pinterest → Setări → Link către Pinterest → Site-uri → Revendică → „Adaugă un marcaj HTML” → primesupplements.ro.
 
 ## Ce rămâne

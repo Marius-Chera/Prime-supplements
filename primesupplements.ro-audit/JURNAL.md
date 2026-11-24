@@ -2380,3 +2380,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - previzualizarea arată 3 produse cu „Scrie o recenzie”;
   - mostrele E1 și E2 au ajuns pe contact@ (~17:34).
   - **Fluxul Judge.me e gata.**
+- 24.11 (seara): **GBP – invitațiile în așteptare:** adelina.chera@gmail.com (rol **Proprietar**, așa a fost trimisă invitația) și contact@primesupplements.ro (Proprietar). E-mailurile Google n-au ajuns încă; se acceptă din e-mail când vin. Dacă nu vin până pe 25.11, se anulează și se retrimit din „Utilizatori și acces”.

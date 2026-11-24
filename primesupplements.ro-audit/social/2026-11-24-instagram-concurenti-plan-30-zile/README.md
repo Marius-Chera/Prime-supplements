@@ -148,7 +148,7 @@ Reel-urile se programează pe măsură ce sosesc video-urile: Marius le trimite 
 - **Claude:** subtitrări și text pe ecran pentru fiecare reel (`/ig-direct`), descrieri, caruselele K1–K3 ca imagini, programarea în Zernio **doar după „da”**, apoi `/ig-perf` pe fiecare reel și ajustarea planului la jumătate (~10.12).
 - **Opțional (nu e pornit):** DM automat la un cuvânt din comentarii, prin Zernio (discutat tot pe 24.11, înainte de acest plan). S-ar potrivi la R5 și R9 („scrie CREATINĂ și îți trimit ghidul”). Doar cu acordul lui Marius și după ce verificăm costul în Zernio.
 
-## 8. Video-urile de pregătit (Marius)
+## 8. Video-urile de pregătit (Marius) – fișa completă, cu textele exacte: `FILMARI.md`
 
 Format pentru toate: telefon **vertical**, 1080×1920, lumină bună (fereastră sau sala luminată), fără text pus de tine (textul îl pun eu). Trimite-mi clipurile brute; dacă vorbești, vorbește clar, 1–2 propoziții.
 

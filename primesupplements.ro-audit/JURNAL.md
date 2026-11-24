@@ -2179,3 +2179,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Se rezolvă în `prime-indexare/src/m/feed.ts`.
   - **Compari, 18.11, „Finalizează procesul de verificare (KYC)”:** Plata cu cardul → Procesul de verificare → „Doresc un link nou” → formular cu datele firmei și ale reprezentantului. Îl completează Marius.
 - 24.11, **Pinterest:** contul e făcut de Marius. Decizia lui: se lucrează pe Pinterest direct din Claude, nu prin Zernio, fiindcă planul gratuit Zernio permite doar 2 conturi.
+- 24.11: **Instagram legat de Pinterest** (Marius a aprobat): postările de pe @primesupplements_ro se publică automat ca pinuri pe panoul „Produse Prime Supplements”. Aplicația Pinterest din Shopify rămâne instalată deocamdată (decizia lui Marius).

@@ -8,7 +8,7 @@ Bifează pe rând. După fiecare punct îmi scrii în chat propoziția de la „
 
 ## A. Săptămâna asta (aduc vânzări sau vizibilitate imediat)
 
-### 1. Microsoft Advertising – verificarea identității (cont G145RDYP)
+### 1. Microsoft Advertising – verificarea identității (cont G145RDYP) – 24.11: panoul nu oferă verificarea („(n/a)”), cazul 7111834858 redeschis; se așteaptă răspunsul Microsoft
 - **De ce:** e-mailul din 22.11 de pe contact@ („Acțiune necesară: Verificați-vă identitatea agent de publicitate”) spune că perioada de grație a expirat și că difuzarea se poate opri în UE. E cauza probabilă a celor 0 afișări pe Bing Shopping, deși avem 356 de produse active.
 - **Unde:** butonul din e-mailul din 22.11 sau https://ui.ads.microsoft.com → rotița (Setări) → „Verificare agent de publicitate” (Advertiser verification), cu contul G145RDYP. Ai nevoie de datele firmei (PRIME SPORT SUPPLEMENTS SRL, CUI 46260823, J32/1155/2022) și, posibil, de buletinul tău.
 - **Durează:** 10–15 minute; Microsoft confirmă în 1–3 zile lucrătoare.

@@ -33,3 +33,18 @@ Cererea lui Marius (26.11): facturile Meta Ads să vină și ele pe contact@, ca
 1. **Regulă în Gmail-ul adelina.fagaras@ (recomandat dacă e-mailul are PDF):** filtru „de la Meta, chitanță” → redirecționare pe contact@. O face Adelina din contul ei. Gmail trimite un cod de confirmare pe contact@. Aplicația ia apoi e-mailul și îl leagă după sumă și referință.
 2. **Descărcare de mână (sigur, merge acum):** Meta încasează de 1–3 ori pe lună. Adelina apasă „Descarcă PDF” la fiecare plată și încarcă fișierul la rândul plății din Total Admin, unde e scrisă referința.
 3. **„Date de contact” din contul de reclame = contact@:** e o setare de cont, deci doar cu „da”. Nu e sigur că aduce chitanțele (Meta o descrie pentru notificări).
+
+## Completare 26.11 (seara): e-mailul cu chitanța, găsit
+Marius: „adelina.fagaras@gmail.com s-a transformat în adelina.chera@gmail.com de când s-a căsătorit cu mine”. E aceeași căsuță: e-mailurile trimise pe adresa veche ajung în adelina.chera@, care e deschisă în Chrome-ul lui Marius.
+- **Chitanțele Meta vin deja acolo**, la fiecare plată, din 2025 încoace. **În Meta nu trebuie schimbat nimic.**
+- Expeditorul e **noreply@business-updates.facebook.com**, cu subiectul „Chitanţa pentru Meta reclame (ID cont: 1805310243181962)”.
+- Ce conține: ID-ul tranzacției, suma, intervalul, modalitatea de plată, **numărul de referință** (ex. USKDDEW6G4) și cheltuiala pe campanii.
+- **Nu are PDF atașat.** Scrie chiar „Aceasta nu este o factură”. Factura (numărul FBADS-…) e doar în PDF-ul din Ads Manager → Activități de plată → „Descarcă PDF”.
+- În subsol, Meta cere: „te rugăm să nu redirecţionezi acest e-mail”, ca să rămână profilul în siguranță. Linkurile „Vezi tranzacţia” (facebook.com/n/…) sunt legate de contul Adelinei.
+- **Concluzie: NU facem regula de redirecționare pe contact@.** E-mailul nu e factura, iar linkurile din el ar ajunge în contact@ și în Total Admin.
+
+## API-ul Meta (întrebarea lui Marius, 26.11)
+Reclame Prime are acces la API-ul Meta (utilizatorul de sistem reclame-prime), dar numai la campanii, performanțe și machete, fără facturare. Meta dă facturile prin API (`business_invoices` / „omega customer trx”, cu link de descărcare PDF) **doar conturilor cu facturare lunară** (linie de credit). Pentru conturile plătite cu cardul, cum e al nostru, nu există un endpoint documentat care să dea chitanțele. Deci API-ul nu rezolvă.
+
+## Ce rămâne
+PDF-ul se ia din Ads Manager („Descarcă PDF”). Variante: îl descarcă Adelina (1–3 pe lună), sau îl aduce Claude din Chrome-ul lui Marius, unde contul de Facebook al Adelinei e logat (cum s-a făcut pe 25.11 pentru noiembrie), și îl pune la plata din Total Admin.

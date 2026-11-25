@@ -3,7 +3,7 @@
 Cererea lui Marius (25.11): „putem face o aplicatie separata puncte de fidelitate? iar toate discounturile aici sa nu se poata combina cu cupoanele afiliatilor?” Mai târziu, tot pe 25.11: „modifica la 24 luni” (expirarea).
 Context: `analiza-concurenta-2026-11-25/STRATEGIE.md` D4 și §7 (GymBeam, GymStack și Pro Nutrition au puncte, Prime nu). Decizia e în `ISTORIC-DISCUTII.md` (25.11).
 
-**Stare: codul e scris și testat (52 de teste), aplicația rulează local. NU e publicată, NU e instalată și NU schimbă nimic în magazin.** Pornește în **mod umbră** până la „da”-ul lui Marius.
+**Stare (25.11, seara): INSTALATĂ pe magazin, în MOD UMBRĂ** (54 de teste). Dev Dashboard: aplicația „Prime Puncte” (id 451937140737), versiunea activă `v2-pagina-puncte`, scope-uri `read_orders,write_customers,write_discounts,write_app_proxy`. Pagina https://primesupplements.ro/apps/puncte merge în tema magazinului (vizitatorii văd „În curând”; doar Marius și Adelina, clienți de test, văd programul). Webhook-urile de comenzi sunt abonate din aplicație, iar sincronizarea citește comenzile. Nu se dau puncte înainte de data de pornire (1.01.2027) și nu se creează coduri. Live doar cu „da”.
 
 Codul: `D:\Proiecte Claude\Prime Supplements\prime-puncte\` (repo git local separat, ca `prime-indexare`; fără GitHub deocamdată).
 
@@ -95,7 +95,7 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
    - **Rămâne:** trimiterea datei în câmpul Birthday din theMarketer, pentru urarea din T1 2027 (`email-marketing/themarketer/SYSTEM.md`). Workerul ar avea nevoie de cheia API theMarketer, pe care n-o cer, și de un endpoint de actualizare a contactului, pe care nu l-am verificat. Variantă simplă, de făcut când pornește urarea: un export lunar din metafield în theMarketer, dintr-o sesiune cu conectorul theMarketer.
 9. **Expirarea: 24 de luni.** Mesajul din sesiunea principală mai spunea 12 luni, dar Marius a scris direct aici „modifica la 24 luni”, după aceea. Confirmat de Marius pe 25.11: „Da, 24 de luni”.
 
-## 6. Ce face Marius ca să pornească umbra (nimic nu atinge magazinul până la „live”)
+## 6. Pornirea umbrei – FĂCUT pe 25.11 (Claude, în browserul aplicației, cu acordul lui Marius: „fa tu tot, ai permisiunea mea”)
 
 1. Dev Dashboard (dev.shopify.com) → aplicație nouă **„Prime Puncte”** → versiunea `v1-mod-umbra`:
    - App URL: `https://prime-puncte.prime-expediere.workers.dev`, embedded;
@@ -132,3 +132,10 @@ Planul, cu „da”, pe un produs de test și **fără nicio comandă**:
 - `page.test.ts`: pagina fără Liquid și cu datele scăpate, regulile afișate, scriptul panoului valid, semnătura App Proxy și HMAC-ul webhook-urilor.
 
 Verificat și în browser, local (`prime-puncte-dev`, port 8792): pagina clientului pe desktop și pe telefon, generarea unui cod simulat (300 de puncte → 9 lei, minim 45 lei), anularea (punctele revin), panoul (Panou, Client, Setări).
+
+### 6b. Ce s-a făcut concret pe 25.11 (seara)
+- Dev Dashboard: aplicația „Prime Puncte” creată, `v1-mod-umbra`, apoi `v2-pagina-puncte` cu App Proxy `apps/puncte` → `…/proxy`. Shopify a cerut în plus scope-ul **`write_app_proxy`** (obligatoriu pentru App Proxy). Declarația „Network access”: niciun host sau origine externă.
+- Formularul de versiune **nu are câmp pentru webhook-uri** (se declară doar prin CLI), așa că aplicația se abonează singură prin API la prima deschidere (`ORDERS_CREATE/UPDATED/CANCELLED`, `REFUNDS_CREATE`, `APP_UNINSTALLED`). Paza permite abonarea doar spre adresa noastră. Webhook-urile GDPR (`customers/redact` etc.) nu se pot abona prin API; sunt obligatorii doar pentru aplicațiile din App Store, iar endpoint-ul există.
+- Instalată pe magazin (Install, cu acordul lui Marius); client ID-ul e în `wrangler.jsonc`. Client secret-ul l-a pus Marius în terminal: prima lipire a fost greșită (49 de caractere), a doua corectă (38). Pentru data viitoare, `scripts/pune-secret.ps1` ia secretul din clipboard și îl verifică.
+- Clienții de test în Setări: Marius și Adelina (id-urile sunt doar în D1).
+- Prima sincronizare: 77 de comenzi citite, 0 puncte (data de pornire e 1.01.2027).

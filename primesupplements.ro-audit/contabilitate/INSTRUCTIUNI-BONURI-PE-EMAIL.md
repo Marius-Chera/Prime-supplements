@@ -1,6 +1,6 @@
 # Bonuri și facturi pe e-mail – pentru Alexandra (depozit) și Claudia (magazin)
 
-Din **1 decembrie 2026**, orice bon sau factură pentru ceva cumpărat pentru firmă se trimite pe e-mail, în ziua în care ați cumpărat. Aplicația Total Admin le preia singură și le pune la luna lor (Contabilitate → Facturi), cu ce ați scris în e-mail.
+Din **1 decembrie 2026**, orice bon sau factură pentru ceva cumpărat pentru firmă se trimite pe e-mail, în ziua în care ați cumpărat. Aplicația Total Admin le preia singură și le pune la luna lor (Contabilitate → Cheltuieli + Facturi), cu ce ați scris în e-mail.
 
 ## Text gata de trimis colegelor (WhatsApp sau e-mail)
 

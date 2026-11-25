@@ -1,4 +1,6 @@
-# Total Admin → Contabilitate → Facturi (construit pe 25.11.2026, pornește cu luna decembrie 2026)
+# Total Admin → Contabilitate → Cheltuieli + Facturi (construit pe 25.11.2026, unit cu Cheltuieli pe 26.11, pornește cu luna decembrie 2026)
+
+**Din 26.11.2026 nu mai e o filă separată „Facturi”**: totul e în **Cheltuieli + Facturi** (Marius). Tabelul 1 = plățile lunii, cu coloana „Factura (găsită singur)” (sursa: e-mail contact@, SPV, eMAG, colegă) și „Document / ce lipsește” (unde e factura, e-mailuri cu aceeași sumă, 📎 Adaugă factura); tabelul 2 = facturi primite fără plată încă în extras; 3 = SPV; 4 = contracte; 5 = e-mailuri de verificat. Factura găsită se leagă și direct de plată (rămâne după închidere). Lunile se aleg din bara „Luna de lucru”.
 
 Cererea lui Marius (25.11): „toate facturile aferente plăților firmei noastre, tot ce înseamnă ieșiri … o secțiune pentru octombrie, una pentru noiembrie și așa mai departe … absolut toate facturile pe luna decembrie să fie în aplicație”. Apoi: „și pentru facturile din eMAG să preiei direct din aplicația noastră să închizi automat plata” și „un buton de download … când caut o factură anume să o pot găsi aici”.
 

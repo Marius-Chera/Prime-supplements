@@ -59,7 +59,7 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
 - `app/uninstalled` → se șterge tokenul;
 - `customers/data_request`, `customers/redact`, `shop/redact` (GDPR) → la redact se șterge tot ce ține de client.
 
-**Cron:** la fiecare oră (`23 * * * *`) se reiau comenzile modificate de la ultima rulare, ca plasă de siguranță dacă se pierde un webhook. Tot atunci punctele ajunse la termen devin disponibile, se închid codurile expirate și se citesc recenziile noi din Judge.me. Zilnic la 08:05 ora României se acordă bonusurile de zi de naștere.
+**Lucrul periodic (fără cron):** contul Cloudflare gratuit are maximum 5 cron-uri și sunt ocupate de celelalte aplicații (25.11), așa că rularea pornește la cererile care vin (webhook-urile comenzilor, pagina, panoul): o dată la cel mult o oră se reiau comenzile modificate (plasa de siguranță pentru webhook-uri pierdute), punctele ajunse la termen devin disponibile, se închid codurile expirate, se citesc recenziile Judge.me și se scriu zilele de naștere în metafield (doar live); o dată pe zi, după ora 8, se dau bonusurile de zi de naștere. Rularea se rezervă în D1, ca să nu pornească de două ori. Fără costuri; dacă se eliberează un cron, aceeași funcție merge și din cron.
 
 **Unde vede clientul soldul: pagina `primesupplements.ro/apps/puncte`** (App Proxy, subpath `puncte`, prefix `apps`, URL `https://prime-puncte.prime-expediere.workers.dev/proxy`):
 - se afișează **în tema magazinului** (răspuns `application/liquid`: antet și subsol Prime);
@@ -103,7 +103,7 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
    - App proxy: prefix `apps`, subpath `puncte`, URL `https://prime-puncte.prime-expediere.workers.dev/proxy`;
    - Webhooks (API 2025-10): cele de la §3, către `https://prime-puncte.prime-expediere.workers.dev/webhooks`;
    - Release, apoi Install pe magazin.
-2. Claude face restul pe contul Cloudflare Prime: `d1 create`, migrațiile, secretele `ENC_KEY` și `SHOPIFY_API_SECRET` (secretul îl lipește Marius în terminal, nu în chat), deploy în umbră.
+2. **Făcut pe 25.11 de Claude:** D1 `prime-puncte` (629ab131-…) creată, migrațiile aplicate, `ENC_KEY` pus, Workerul publicat în umbră la https://prime-puncte.prime-expediere.workers.dev (răspunde; fără semnătură Shopify, pagina/panoul/webhook-urile refuză cu 401). Rămâne, după ce Marius creează aplicația: client ID-ul în `wrangler.jsonc` + redeploy (Claude) și `SHOPIFY_API_SECRET`, pe care îl lipește Marius în terminal (`node scripts/wr.mjs secret put SHOPIFY_API_SECRET` în folderul prime-puncte), nu în chat.
 3. Marius deschide aplicația din admin o dată (token), iar Claude trece în Setări clienții de test.
 
 ## 7. Testul de combinare în checkout (după „da”)

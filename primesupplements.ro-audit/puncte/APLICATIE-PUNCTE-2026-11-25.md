@@ -93,7 +93,7 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
 7. **Numărul pe cod:** maximum 5.000 de puncte (150 lei), un singur cod activ odată, valabil 30 de zile. Se schimbă din Setări.
 8. **Data nașterii: rezolvată (Marius, în sesiunea principală, 25.11, „ok continua … cu regulile ce am discutat aici”).** Câmp opțional, o singură completare cu +50 de puncte, fără schimbări din pagină și metafield de client. Toate sunt făcute.
    - **Rămâne:** trimiterea datei în câmpul Birthday din theMarketer, pentru urarea din T1 2027 (`email-marketing/themarketer/SYSTEM.md`). Workerul ar avea nevoie de cheia API theMarketer, pe care n-o cer, și de un endpoint de actualizare a contactului, pe care nu l-am verificat. Variantă simplă, de făcut când pornește urarea: un export lunar din metafield în theMarketer, dintr-o sesiune cu conectorul theMarketer.
-9. **Expirarea: 24 de luni.** Mesajul din sesiunea principală mai spunea 12 luni, dar Marius a scris direct aici „modifica la 24 luni”, după aceea. Am păstrat 24; de confirmat dacă a vrut altceva.
+9. **Expirarea: 24 de luni.** Mesajul din sesiunea principală mai spunea 12 luni, dar Marius a scris direct aici „modifica la 24 luni”, după aceea. Confirmat de Marius pe 25.11: „Da, 24 de luni”.
 
 ## 6. Ce face Marius ca să pornească umbra (nimic nu atinge magazinul până la „live”)
 

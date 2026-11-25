@@ -25,7 +25,7 @@ Cererea lui Marius (25.11): „toate facturile aferente plăților firmei noastr
 
 Ce **nu** vine pe contact@ (verificat în Gmail pe 25.11): facturile Shopify (merg la proprietarul contului), Google Ads, Meta, Anthropic. Ele apar la „Plăți fără factură” cu locul exact. Ca să vină și ele singure, varianta e ca la fiecare serviciu adresa pentru facturi să fie contact@ (Marius, „orice plătim încercăm să punem la date de contact e-mailul contact@”):
 - **Shopify**: facturile merg la proprietarul contului și la utilizatorii cu permisiunea „View billing and receive billing emails”.
-- **Meta**: Facturare și plăți → setările de plată → e-mailul pentru chitanțe.
+- **Meta**: nu are câmp de e-mail pentru chitanțe (verificat 26.11, `META-CHITANTE-VERIFICARE-2026-11-26.md`). Chitanța se ia din Ads Manager → Facturare și plăți → Activități de plată → „Descarcă PDF”. Rândul plății din Total Admin arată referința (textul de după „FACEBK *” din extras).
 - **Google Ads**: profilul de plăți → utilizatori → contact@ cu e-mailurile de plată (ca la Google Workspace, care vine deja cu PDF).
 
 ## Cum funcționează (tehnic)

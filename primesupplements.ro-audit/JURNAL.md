@@ -2436,3 +2436,10 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - 60 la vânzare (52 aprobate + 8 actualizări în așteptare), 29 în validare (unele de pe 16.11, 9 zile), 1 respins.
   - Fiber a fost respins a doua oară pentru brand, deși pe borcan scrie „PRIME”, ca la produsele aprobate. Urmează o întrebare către suportul eMAG, după acordul lui Marius.
   - Descrierile sunt toate din fișele Shopify complete (ingrediente, valori nutriționale, mod de folosire, avertismente): minimum ~1.500 de caractere de text, mediana ~3.900.
+- 25.11, **Facturi eMAG – descărcare** (Marius: „adauga sectiunea de download pentru facturile de la emag nu doar vezi si tipareste”).
+  - **„Descarcă PDF” la fiecare factură:** fișierul `factura-emag-<număr>.pdf` e generat în aplicație din datele eMAG.
+    - Conține: furnizor cu IBAN, client, toate liniile, TVA, total, scadența și marcajul de plată, dacă există.
+    - Diacriticele sunt scrise fără sedile, din cauza fonturilor PDF standard.
+  - **„Descarcă lista (CSV, pentru Excel)”:** toate facturile, cu separator „;” și virgulă zecimală.
+  - **Verificat:** PDF-urile reale citite și arată corect. 38/38 teste, deploy afc6f9f0.
+  - **Mesajul către suportul eMAG** (Fiber + 29 de produse în validare) e scris în `emag/MESAJ-SUPORT-EMAG-2026-11-25.md`. Încă netrimis: eMAG a cerut reautentificarea lui Marius în Chrome.

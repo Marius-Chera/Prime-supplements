@@ -3,7 +3,7 @@
 Cererea lui Marius (25.11): „putem face o aplicatie separata puncte de fidelitate? iar toate discounturile aici sa nu se poata combina cu cupoanele afiliatilor?” Mai târziu, tot pe 25.11: „modifica la 24 luni” (expirarea).
 Context: `analiza-concurenta-2026-11-25/STRATEGIE.md` D4 și §7 (GymBeam, GymStack și Pro Nutrition au puncte, Prime nu). Decizia e în `ISTORIC-DISCUTII.md` (25.11).
 
-**Stare: codul e scris și testat (50 de teste), aplicația rulează local. NU e publicată, NU e instalată și NU schimbă nimic în magazin.** Pornește în **mod umbră** până la „da”-ul lui Marius.
+**Stare: codul e scris și testat (52 de teste), aplicația rulează local. NU e publicată, NU e instalată și NU schimbă nimic în magazin.** Pornește în **mod umbră** până la „da”-ul lui Marius.
 
 Codul: `D:\Proiecte Claude\Prime Supplements\prime-puncte\` (repo git local separat, ca `prime-indexare`; fără GitHub deocamdată).
 
@@ -17,7 +17,7 @@ Codul: `D:\Proiecte Claude\Prime Supplements\prime-puncte\` (repo git local sepa
 | 100 de puncte = 3 lei | `pointsToLei` |
 | Bonus 100 la cont nou | la **înscrierea în program** pe `/apps/puncte` (vezi §5, decizia 3) |
 | Bonus 50 pentru o recenzie, 100 cu poză (Judge.me) | doar cumpărători verificați, recenzii publicate, **indiferent de notă**; un singur bonus pe produs și client |
-| Bonus 150 de ziua clientului | clientul își scrie **ziua și luna** (fără an) pe pagina de puncte; bonusul vine dacă are cel puțin o comandă livrată, iar data a fost salvată cu cel puțin 30 de zile înainte. Data se poate schimba o dată pe an. 29 februarie se sărbătorește pe 28 în anii obișnuiți |
+| Bonus 150 de ziua clientului | clientul își scrie **ziua și luna** (fără an, opțional) pe pagina de puncte, **o singură dată, și primește 50 de puncte la completare**. După aceea data **nu se mai schimbă din pagină** (o corectură se face din panou, fără bonus nou). Cei 150 vin o dată pe an, dacă are cel puțin o comandă livrată și data a fost salvată cu cel puțin 30 de zile înainte. 29 februarie se sărbătorește pe 28 în anii obișnuiți. Data se scrie și în **metafield-ul clientului** `prime_puncte.zi_nastere` („LL-ZZ”), doar în live (regulile confirmate de Marius în sesiunea principală, 25.11) |
 | Punctele se primesc după livrare | în așteptare de la plasare; disponibile la **ultima expediere + 14 zile** (vezi §5, decizia 2) |
 | Se anulează la retur, rambursare sau anulare | înainte de livrare: linia se anulează. După livrare: se scade diferența (dacă punctele au fost deja folosite, rămâne o „datorie” acoperită din punctele următoare) |
 | Maximum 20 % din comandă | cod cu **valoare fixă** și **subtotal minim = 5 × valoarea** (ex.: 500 de puncte = 15 lei, comandă minimă 75 lei) |
@@ -51,7 +51,7 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
 
 **Scope-uri** (minimul necesar):
 - `read_orders` – comenzile (puncte, retururi, coduri folosite);
-- `read_customers` – găsirea clientului după e-mail (recenzii Judge.me, căutarea din panou) și prenumele de pe pagină;
+- `write_customers` (include citirea) – găsirea clientului după e-mail (recenzii Judge.me, căutarea din panou), prenumele de pe pagină și **doar** metafield-ul `prime_puncte.zi_nastere`. Paza respinge orice alt metafield sau orice altă schimbare de client;
 - `write_discounts` – doar crearea și oprirea codurilor PP-, prin pază.
 
 **Webhook-uri** (în versiunea aplicației, URL `https://prime-puncte.prime-expediere.workers.dev/webhooks`, verificate cu HMAC):
@@ -91,17 +91,15 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
 5. **Se primesc puncte și pe pachetele din Reduceri?** Acum da, pe tot ce plătește clientul. Doar **folosirea** e exclusă pe pachete. Dacă vrea și fără câștig pe pachete, se schimbă ușor.
 6. **Recenziile:** trebuie tokenul privat Judge.me, pe care **îl pune Marius ca secret** (`JUDGEME_API_TOKEN`; nu cer chei). Fără el, bonusurile pentru recenzii nu se acordă. Bonusul e indiferent de notă, ca să nu fie recenzii „cumpărate”.
 7. **Numărul pe cod:** maximum 5.000 de puncte (150 lei), un singur cod activ odată, valabil 30 de zile. Se schimbă din Setări.
-8. **Data nașterii (propunere din sesiunea „100/100”, 25.11):** azi nu o știm la nimeni (câmpul Birthday din theMarketer e gol peste tot, iar Shopify nu o cere). E deja în aplicație: câmp opțional pe `/apps/puncte`, doar zi și lună, bonusul de 150 o dată pe an și numai dacă data a fost salvată cu cel puțin 30 de zile înainte. Diferențe de decis:
-   - **(a)** un bonus în plus de 50 de puncte la completarea datei: nu e în regulile tale, deci nu l-am pus;
-   - **(b)** data se poate schimba o dată pe an (acum) sau deloc din pagină (propunerea);
-   - **(c)** salvarea datei și într-un metafield de client în Shopify (cere scope-ul `write_customers` și o mutație în plus în pază) și trimiterea ei în câmpul Birthday din theMarketer, pentru urarea din T1 2027 (`email-marketing/themarketer/SYSTEM.md`). Acum data stă doar în D1.
-   Politica de confidențialitate (§8) spune acum și că data e opțională și se folosește doar pentru bonus și pentru urare.
+8. **Data nașterii: rezolvată (Marius, în sesiunea principală, 25.11, „ok continua … cu regulile ce am discutat aici”).** Câmp opțional, o singură completare cu +50 de puncte, fără schimbări din pagină și metafield de client. Toate sunt făcute.
+   - **Rămâne:** trimiterea datei în câmpul Birthday din theMarketer, pentru urarea din T1 2027 (`email-marketing/themarketer/SYSTEM.md`). Workerul ar avea nevoie de cheia API theMarketer, pe care n-o cer, și de un endpoint de actualizare a contactului, pe care nu l-am verificat. Variantă simplă, de făcut când pornește urarea: un export lunar din metafield în theMarketer, dintr-o sesiune cu conectorul theMarketer.
+9. **Expirarea: 24 de luni.** Mesajul din sesiunea principală mai spunea 12 luni, dar Marius a scris direct aici „modifica la 24 luni”, după aceea. Am păstrat 24; de confirmat dacă a vrut altceva.
 
 ## 6. Ce face Marius ca să pornească umbra (nimic nu atinge magazinul până la „live”)
 
 1. Dev Dashboard (dev.shopify.com) → aplicație nouă **„Prime Puncte”** → versiunea `v1-mod-umbra`:
    - App URL: `https://prime-puncte.prime-expediere.workers.dev`, embedded;
-   - Scopes: `read_orders,read_customers,write_discounts`;
+   - Scopes: `read_orders,write_customers,write_discounts`;
    - App proxy: prefix `apps`, subpath `puncte`, URL `https://prime-puncte.prime-expediere.workers.dev/proxy`;
    - Webhooks (API 2025-10): cele de la §3, către `https://prime-puncte.prime-expediere.workers.dev/webhooks`;
    - Release, apoi Install pe magazin.
@@ -126,7 +124,7 @@ Planul, cu „da”, pe un produs de test și **fără nicio comandă**:
 
 (Fără vreo mențiune de AI. Formularea finală trebuie pusă în pagina de politică existentă.)
 
-## 9. Teste (prime-puncte, `npm test`, 50 de teste)
+## 9. Teste (prime-puncte, `npm test`, 52 de teste)
 
 - `rules.test.ts`: regulile (1 punct/leu, 3 lei/100, 20 %, 24 de luni, bonusurile), punctele comenzii, disponibilitatea după expediere, soldul FIFO cu expirare și datorie, codul exact trimis spre Shopify, refuzul oricărui cod care s-ar putea combina, **combinarea cu setările reale ale codurilor de afiliat, WELCOME5 și LATEBF20**, ziua de naștere;
 - `ledger.test.ts` (D1 în memorie, cu aceleași migrații): comenzi, anulări, retur parțial, idempotența, înscriere, zi de naștere, recenzii, cod simulat, cod refuzat de Shopify (punctele nu se pierd), anulare, expirare, cod folosit la limită, comanda anulată cu cod, setările protejate, GDPR;

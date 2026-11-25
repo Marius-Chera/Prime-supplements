@@ -14,7 +14,7 @@ Orice client cu cont pe primesupplements.ro. Înscrierea este gratuită și volu
 - **Din comenzi:** 1 punct pentru fiecare leu plătit pe produse (cu TVA, după reduceri, fără costul transportului), rotunjit în jos. Primești puncte și pentru pachetele din Reduceri și pentru comenzile în care ai folosit un cod de puncte (pe suma plătită).
 - **Bun venit:** 100 de puncte la înscrierea în program.
 - **Recenzii:** 50 de puncte pentru o recenzie publicată la un produs cumpărat, 100 dacă recenzia are și poză. Un singur bonus pe produs. Bonusul se acordă indiferent de nota dată.
-- **Ziua ta:** 50 de puncte când îți completezi ziua și luna nașterii (o singură dată) și 150 de puncte în fiecare an, de ziua ta, dacă data a fost salvată cu cel puțin 30 de zile înainte și ai cel puțin o comandă livrată.
+- **Ziua ta:** 50 de puncte când îți completezi ziua și luna nașterii (o singură dată) și 1.000 de puncte (30 lei) în fiecare an, de ziua ta, dacă data a fost salvată cu cel puțin 30 de zile înainte și ai cel puțin o comandă livrată.
 
 ## 4. Când devin disponibile punctele
 Punctele dintr-o comandă apar imediat „în așteptare” și devin disponibile la 14 zile după expedierea coletului. Bonusurile sunt disponibile imediat. Dacă o comandă este anulată, returnată sau rambursată (total ori parțial), punctele ei se anulează sau se scad proporțional. Dacă punctele fuseseră deja folosite, diferența se scade din punctele următoare.

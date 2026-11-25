@@ -159,3 +159,13 @@ Verificat și în browser, local (`prime-puncte-dev`, port 8792): pagina clientu
 - Judge.me marchează cumpărătorii verificați cu **„verified-purchase”**, nu cu „buyer”. Aplicația le acceptă pe amândouă. Nu primesc puncte recenziile marcate „nothing” (neverificate), „email” (doar e-mail confirmat) și cele nepublicate.
 - De la 26.09 sunt 69 de recenzii. **28 de bonusuri acordate (1.500 de puncte = 45 lei)**. **11 clienți au acum o recenzie în ultimele 30 de zile**, deci și-ar putea folosi punctele după pornirea live.
 - Recenziile se citesc pe bucăți de câte 15, odată cu sincronizarea comenzilor.
+
+### 5e. E-mailurile despre puncte (25.11, seara; Marius: „Da, fă-le”)
+- Trei e-mailuri prin theMarketer (tranzacțional), în designul Prime:
+  1. **„Ai X puncte Prime = Y lei”**: cel mult unul pe săptămână, când devin disponibile puncte din comenzi. Conține calculul clientului: câte puncte intră într-un cod, comanda minimă (5 × reducerea) și de ce (20 %); peste 5.000 de puncte, că restul rămân în cont; fără recenzie recentă, pasul de dinainte.
+  2. **„X puncte Prime expiră pe …”**: cu 30 de zile înainte, o dată pe fiecare dată de expirare.
+  3. **„La mulți ani! Ai primit 1.000 de puncte”**: în ziua bonusului.
+- Doar membrii înscriși care nu au oprit e-mailurile (buton pe pagina de puncte și link în subsolul fiecărui e-mail). **În mod umbră pleacă doar la clienții de test** (Marius, Adelina). E-mailul clientului se ia din Shopify la trimitere și nu se salvează.
+- Cheile theMarketer (`THEMARKETER_API_KEY`, `THEMARKETER_CUSTOMER_ID`) au fost puse pe 25.11 din Chrome-ul lui Marius (Settings → Technical integration → butoanele Copy de la REST KEY și Customer ID) și salvate din clipboard cu `scripts/secret-din-clipboard.ps1`. Valorile n-au trecut prin chat, iar clipboard-ul a fost golit după.
+- **Test trimis pe 25.11:** câte un e-mail din fiecare fel la Marius și la Adelina (6 în total, toate „trimis”). Prenumele scrise numai cu majuscule (de ex. „CHERA” în contul Adelinei) apar acum normal („Chera”).
+- Bonusul de ziua clientului: **1.000 de puncte (30 lei)**, plus 50 la completarea zilei (Marius, 25.11).

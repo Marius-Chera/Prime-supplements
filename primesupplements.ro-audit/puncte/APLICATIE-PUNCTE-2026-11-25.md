@@ -169,3 +169,10 @@ Verificat și în browser, local (`prime-puncte-dev`, port 8792): pagina clientu
 - Cheile theMarketer (`THEMARKETER_API_KEY`, `THEMARKETER_CUSTOMER_ID`) au fost puse pe 25.11 din Chrome-ul lui Marius (Settings → Technical integration → butoanele Copy de la REST KEY și Customer ID) și salvate din clipboard cu `scripts/secret-din-clipboard.ps1`. Valorile n-au trecut prin chat, iar clipboard-ul a fost golit după.
 - **Test trimis pe 25.11:** câte un e-mail din fiecare fel la Marius și la Adelina (6 în total, toate „trimis”). Prenumele scrise numai cu majuscule (de ex. „CHERA” în contul Adelinei) apar acum normal („Chera”).
 - Bonusul de ziua clientului: **1.000 de puncte (30 lei)**, plus 50 la completarea zilei (Marius, 25.11).
+
+### 5f. Raportul lunar (25.11, seara; Marius: „sa vedem daca a adus un plus sau nu aplicatia adica daca clientii ce comandau inainte au comandat mai des”)
+- Fila **„Raport lunar”** din panoul aplicației.
+- **„A adus un plus?”**: fiecare membru care comanda și înainte e comparat cu el însuși, adică numărul de comenzi pe lună dintr-o perioadă egală (30–90 de zile) dinainte și de după înscriere. Contează doar membrii înscriși de cel puțin 30 de zile. Concluzia e scrisă pe înțeles: „Da, aduce un plus” de la +10 %, „Nu se vede un plus” de la −10 %, „Diferență mică” între ele, iar sub 10 membri comparați: „Încă prea puține date”. Mai arată și câți au comandat mai des, la fel sau mai rar și câți au comandat doar după înscriere.
+- **Pe luni:** membrii față de ceilalți clienți (comenzi pe client, procentul celor care revin, valoarea medie a comenzii), codurile din puncte folosite și reducerea.
+- Limita: comenzile încep pe 26.09.2026 (fără permisiunea `read_all_orders`, Shopify dă aplicației doar ultimele 60 de zile). Prima concluzie sigură vine pe la sfârșitul lui decembrie 2026, când primii membri au 30 de zile de program.
+- La pornire, în aceeași seară, s-au înscris deja 3 clienți.

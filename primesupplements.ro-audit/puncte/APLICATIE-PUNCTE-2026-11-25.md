@@ -153,3 +153,9 @@ Verificat și în browser, local (`prime-puncte-dev`, port 8792): pagina clientu
 - 1.182 de comenzi (26.09–25.11.2026), **874 de clienți**, **377.278 de puncte ≈ 11.318 lei** (3 % din ce au plătit pe produse). Din ele, **≈ 8.746 lei sunt deja disponibile** (expediate de peste 14 zile) și **≈ 2.572 lei în așteptare**.
 - Asta e suma maximă datorată, nu un cost sigur. Un client își poate folosi punctele doar cu o recenzie în ultimele 30 de zile și doar pentru maximum 20 % dintr-o comandă nouă de cel puțin 5 × valoarea codului. Punctele expiră după 24 de luni.
 - Tehnic: planul gratuit Cloudflare dă 10 ms de procesor pe cerere, deci sincronizarea merge pe bucăți de 20 de comenzi, iar panoul le rulează una după alta.
+
+### 5d. Judge.me conectat (25.11, seara)
+- Marius a pus tokenul privat Judge.me cu `scripts/pune-token-judgeme.ps1`, care îl ia din clipboard și nu-l afișează (secretul `JUDGEME_API_TOKEN`).
+- Judge.me marchează cumpărătorii verificați cu **„verified-purchase”**, nu cu „buyer”. Aplicația le acceptă pe amândouă. Nu primesc puncte recenziile marcate „nothing” (neverificate), „email” (doar e-mail confirmat) și cele nepublicate.
+- De la 26.09 sunt 69 de recenzii. **28 de bonusuri acordate (1.500 de puncte = 45 lei)**. **11 clienți au acum o recenzie în ultimele 30 de zile**, deci și-ar putea folosi punctele după pornirea live.
+- Recenziile se citesc pe bucăți de câte 15, odată cu sincronizarea comenzilor.

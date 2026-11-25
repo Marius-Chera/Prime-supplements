@@ -16,6 +16,7 @@ Aceste reguli vin de la proprietar și se aplică în fiecare sesiune și în fi
 
 ## Reduceri și afiliați
 - Fără Black Friday. Nu se creează coduri de reducere noi (doar WELCOME5). Excepție cerută de proprietar pe 12.11.2026: campania „Late Black Friday” 25–28.11.2026 cu codul `LATEBF20` (20 %, fără pachete; prelungită la 28.11 pe 23.11) din `LATE-BLACK-FRIDAY-2026-11-24.md`.
+- Excepție acceptată de proprietar pe 25.11.2026: codurile `PP-XXXXXXXX` generate de clienți din aplicația **Prime Puncte** (LIVE din 25.11; unice, de o folosire, legate de client, maximum 20 % din comandă, fără pachetele din Reduceri, **nu se combină cu codurile de afiliat** sau alte reduceri de produs/comandă, doar cu transportul gratuit). Codurile de afiliat nu se modifică. Detalii: `puncte/APLICATIE-PUNCTE-2026-11-25.md`, oprire: `puncte/PORNIRE-LIVE.md`.
 - Afiliații nu sunt împinși să promoveze pachetele din Reduceri (nu primesc comision acolo). Fără haine MNX în kiturile afiliaților.
 - Nu se afișează numărul total de afiliați.
 

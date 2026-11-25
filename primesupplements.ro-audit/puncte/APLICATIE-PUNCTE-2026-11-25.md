@@ -3,7 +3,7 @@
 Cererea lui Marius (25.11): „putem face o aplicatie separata puncte de fidelitate? iar toate discounturile aici sa nu se poata combina cu cupoanele afiliatilor?” Mai târziu, tot pe 25.11: „modifica la 24 luni” (expirarea).
 Context: `analiza-concurenta-2026-11-25/STRATEGIE.md` D4 și §7 (GymBeam, GymStack și Pro Nutrition au puncte, Prime nu). Decizia e în `ISTORIC-DISCUTII.md` (25.11).
 
-**Stare (25.11, seara): INSTALATĂ pe magazin, în MOD UMBRĂ** (54 de teste). Dev Dashboard: aplicația „Prime Puncte” (id 451937140737), versiunea activă `v2-pagina-puncte`, scope-uri `read_orders,write_customers,write_discounts,write_app_proxy`. Pagina https://primesupplements.ro/apps/puncte merge în tema magazinului (vizitatorii văd „În curând”; doar Marius și Adelina, clienți de test, văd programul). Webhook-urile de comenzi sunt abonate din aplicație, iar sincronizarea citește comenzile. Nu se dau puncte înainte de data de pornire (1.01.2027) și nu se creează coduri. Live doar cu „da”.
+**Stare (25.11.2026, seara): LIVE** (Marius: „Pornim acum”). Programul pornit, linkul „Punctele mele” e în meniul contului de client și în subsol, regulamentul e public, punctele se calculează retroactiv de la 26.09.2026, iar e-mailurile pleacă tuturor membrilor care nu le-au oprit. Testul în checkout nu s-a făcut (decizia lui Marius: „Fără test în checkout”); combinarea e garantată de setările codului și de pază, verificate pe setările reale. Oprire: `PORNIRE-LIVE.md`.
 
 Codul: `D:\Proiecte Claude\Prime Supplements\prime-puncte\` (repo git local separat, ca `prime-indexare`; fără GitHub deocamdată).
 

@@ -91,6 +91,11 @@ Asta e testat în `prime-puncte/test/rules.test.ts`. În plus, pagina „Combina
 5. **Se primesc puncte și pe pachetele din Reduceri?** Acum da, pe tot ce plătește clientul. Doar **folosirea** e exclusă pe pachete. Dacă vrea și fără câștig pe pachete, se schimbă ușor.
 6. **Recenziile:** trebuie tokenul privat Judge.me, pe care **îl pune Marius ca secret** (`JUDGEME_API_TOKEN`; nu cer chei). Fără el, bonusurile pentru recenzii nu se acordă. Bonusul e indiferent de notă, ca să nu fie recenzii „cumpărate”.
 7. **Numărul pe cod:** maximum 5.000 de puncte (150 lei), un singur cod activ odată, valabil 30 de zile. Se schimbă din Setări.
+8. **Data nașterii (propunere din sesiunea „100/100”, 25.11):** azi nu o știm la nimeni (câmpul Birthday din theMarketer e gol peste tot, iar Shopify nu o cere). E deja în aplicație: câmp opțional pe `/apps/puncte`, doar zi și lună, bonusul de 150 o dată pe an și numai dacă data a fost salvată cu cel puțin 30 de zile înainte. Diferențe de decis:
+   - **(a)** un bonus în plus de 50 de puncte la completarea datei: nu e în regulile tale, deci nu l-am pus;
+   - **(b)** data se poate schimba o dată pe an (acum) sau deloc din pagină (propunerea);
+   - **(c)** salvarea datei și într-un metafield de client în Shopify (cere scope-ul `write_customers` și o mutație în plus în pază) și trimiterea ei în câmpul Birthday din theMarketer, pentru urarea din T1 2027 (`email-marketing/themarketer/SYSTEM.md`). Acum data stă doar în D1.
+   Politica de confidențialitate (§8) spune acum și că data e opțională și se folosește doar pentru bonus și pentru urare.
 
 ## 6. Ce face Marius ca să pornească umbra (nimic nu atinge magazinul până la „live”)
 
@@ -117,7 +122,7 @@ Planul, cu „da”, pe un produs de test și **fără nicio comandă**:
 
 ## 8. Textul pentru politica de confidențialitate (de pus cu „da”)
 
-> **Programul Prime Puncte.** Dacă te înscrii în programul de fidelitate Prime Puncte, păstrăm istoricul punctelor tale (punctele primite din comenzi, recenzii și bonusuri, punctele folosite și codurile generate), legat de contul tău de client, și, dacă ne-o spui, ziua și luna nașterii (fără an), ca să-ți oferim bonusul de ziua ta. Temeiul este executarea contractului (regulamentul programului) și, pentru data nașterii, consimțământul tău, pe care îl poți retrage oricând. Datele se păstrează cât timp ai contul și, după ștergerea contului, se șterg. Ca să-ți acordăm punctele pentru recenzii, potrivim adresa de e-mail din recenzia Judge.me cu contul tău de client; adresa nu se păstrează în program. Datele sunt găzduite la Cloudflare (UE/SUA, cu clauze contractuale standard).
+> **Programul Prime Puncte.** Dacă te înscrii în programul de fidelitate Prime Puncte, păstrăm istoricul punctelor tale (punctele primite din comenzi, recenzii și bonusuri, punctele folosite și codurile generate), legat de contul tău de client, și, dacă ne-o spui, ziua și luna nașterii (fără an). Data e opțională și o folosim doar ca să-ți oferim bonusul de ziua ta și să-ți trimitem o urare. Temeiul este executarea contractului (regulamentul programului) și, pentru data nașterii, consimțământul tău, pe care îl poți retrage oricând. Datele se păstrează cât timp ai contul și, după ștergerea contului, se șterg. Ca să-ți acordăm punctele pentru recenzii, potrivim adresa de e-mail din recenzia Judge.me cu contul tău de client; adresa nu se păstrează în program. Datele sunt găzduite la Cloudflare (UE/SUA, cu clauze contractuale standard).
 
 (Fără vreo mențiune de AI. Formularea finală trebuie pusă în pagina de politică existentă.)
 

@@ -37,7 +37,7 @@ Toate sunt pe PRIME SPORT SUPPLEMENTS SRL (cu excepția celei marcate), plătite
 | 2.000,00 | Google Ads | factura lunii noiembrie – o emite Google pe 30.11 (în noiembrie s-au plătit 519,38 + 2 × 2.000) |
 | 69,76 | OpenArt | 2026-11-10_OpenArt-Starter_14USD.pdf |
 | 990,39 | Anthropic (abonament Claude) | **lipsește** – se descarcă de Marius din claude.ai → Setări → Billing |
-| 98,83 | Google Cloud 8VHRVG | 2026-11-13_Google-Cloud-Gemini_5745504395.pdf |
+| 98,83 | Google Cloud 8VHRVG | **două facturi pe aceeași plată de 20 USD (13.11)**: 5739496712 = 0,82 USD (3,92 lei, consumul din octombrie peste credit, plătit din cei 20 USD) + 5745504395 = 19,18 USD (credit preplătit). Factura de 0,82 nu are plată separată pe card. |
 | 169,41 | OpenArt | 2026-11-15_OpenArt-Plus_34USD.pdf |
 | 65,34 | Dante International (eMAG) | **lipsește** – în contul eMAG, la comanda respectivă |
 | 9,54 | OpenAI | **neclar** – nu e ChatGPT Ads; singura altă factură OpenAI e API 6TCQAJEJ-0001 (10 USD, 16.11) |

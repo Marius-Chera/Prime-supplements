@@ -2421,3 +2421,18 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - 25.11 (seara): **Prime Puncte – e-mailurile explică drumul spre puncte + rezumat lunar** (Marius a testat pe contul Adelinei: „este ok … sa fie informati constant de cate puncte au … sa le explice sa se logheze pe cont si sa caute sectiunea Punctele mele”). Toate e-mailurile au acum caseta „Cum îți vezi oricând punctele”: 1) intră în cont pe primesupplements.ro, 2) apasă „Punctele mele” (în meniul contului și în subsol), 3) vezi punctele și generezi codul. E-mail nou: **rezumatul lunar al soldului**, în primele 7 zile ale lunii, o dată pe lună, pentru membrii cu puncte (câte puncte, cât valorează, comanda minimă și cum ajung la ele). Test trimis la contul Adelinei (rezumatul lunar și „puncte disponibile”, ambele trimise); contul lui Marius nu e înscris în program. 75 de teste.
 - 25.11 (seara): **Campanie theMarketer „Prime Puncte: fiecare comandă îți aduce puncte”** (Marius: „Da, pregătește-o”), ca să afle de program și clienții neînscriși. **Ciornă** (id 6b06fd143dc9202f420fd41f), pentru toți abonații (2.394, confirmat de Marius), fără A/B și fără retrimitere. Designul Prime; conține regulile pe scurt, pașii „intră în cont, Punctele mele” și „dacă ai comandat după 26 septembrie, ai deja puncte”. Testul a plecat la Marius și Adelina. **Programarea se face doar cu „da”.** HTML: `email-marketing/campanii/2026-11-prime-puncte-anunt.html`.
 - 25.11 (seara): **Campania Prime Puncte programată** pentru **26.11.2026, ora 10:00** (08:00 UTC), la toți abonații (2.394), cu confirmarea lui Marius („Mâine la 10:00”, „Da, programeaz-o”). Id 6b06fd143dc9202f420fd41f; până la trimitere se poate muta sau anula din theMarketer.
+- 25.11, **Prime eMAG – secțiunea „Facturi eMAG”** (Marius: „fa o sectiune unde sa tragi toate facturile din EMAG prin API … noi sa le gasim acolo si sa le platim pentru ca si acum avem nevoie de o factura de 65,34 lei”).
+  - **Cum vin facturile:** prin `invoice/read`, cu sincronizare automată din oră în oră și butonul „Actualizează din eMAG”. Se păstrează în D1 (migrarea 0002, tabelul `emag_invoices`).
+  - **Ce arată pagina:**
+    - neplătitele și totalul de plată;
+    - datele de plată: Dante International S.A., IBAN din factură, referința = numărul facturii;
+    - pentru fiecare factură, „Vezi / tipărește”, din care se poate salva ca PDF (datele vin din API; exemplarul oficial e în eMAG → Financiar și în SPV);
+    - „Marchează plătită” cu notă (OP). Marcajul se ține doar la noi, pentru că eMAG nu-l dă prin API.
+  - **Ce a adus:** 19 facturi, între 05.2025 și 03.2026. Cei 65,34 lei = C-MKTP-5300278 (comision, 17.02.2026, 32,67) + C-MKTP-5344113 (comision comenzi anulate, 02.03.2026, 32,67), lăsate „neplătite” pentru Marius.
+    - Pe 16.11 Marius a plătit restanța de 65,34 lei. Dacă e aceeași, se marchează plătite cu nota plății.
+    - Celelalte 17 sunt marcate „achitate/reținute din decontări”, pentru că la 16.11 singura restanță din Fișa de cont era 65,34.
+  - **Cod:** 36/36 teste, deploy b632fdbd.
+- 25.11, **eMAG – statusul produselor:**
+  - 60 la vânzare (52 aprobate + 8 actualizări în așteptare), 29 în validare (unele de pe 16.11, 9 zile), 1 respins.
+  - Fiber a fost respins a doua oară pentru brand, deși pe borcan scrie „PRIME”, ca la produsele aprobate. Urmează o întrebare către suportul eMAG, după acordul lui Marius.
+  - Descrierile sunt toate din fișele Shopify complete (ingrediente, valori nutriționale, mod de folosire, avertismente): minimum ~1.500 de caractere de text, mediana ~3.900.

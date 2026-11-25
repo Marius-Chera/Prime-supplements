@@ -7,47 +7,56 @@
 <style>
 :root{--red:#ec1e24;--black:#111;--grey:#5f5f5f;--line:#dcdcdc;--soft:#f5f5f5}
 *{box-sizing:border-box}
-body{margin:0;font-family:Poppins,"Segoe UI","Liberation Sans",Arial,sans-serif;font-size:10.5px;line-height:1.45;color:var(--black);background:#fff}
+body{margin:0;font-family:Poppins,"Segoe UI","Liberation Sans",Arial,sans-serif;font-size:10.4px;line-height:1.42;color:var(--black);background:#fff}
 .page{max-width:780px;margin:0 auto;padding:0 16px 20px}
 header{background:var(--black);color:#fff;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;border-bottom:4px solid var(--red)}
 header .brand{font-weight:800;font-size:20px;letter-spacing:2px;text-transform:uppercase}
 header .brand span{color:var(--red)}
 header .meta{text-align:right;font-size:10px;color:#ccc}
 header .meta b{color:#fff;font-size:12px}
-h1{font-size:19px;text-transform:uppercase;letter-spacing:1px;margin:16px 0 2px}
-.sub{color:var(--grey);margin:0 0 10px}
-.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0 14px}
+h1{font-size:19px;text-transform:uppercase;letter-spacing:1px;margin:14px 0 2px}
+.sub{color:var(--grey);margin:0 0 8px}
+.facts{display:grid;grid-template-columns:1fr .9fr 1.6fr .8fr;gap:7px;margin:8px 0 10px}
 .facts div{background:var(--soft);border-left:3px solid var(--red);padding:6px 9px}
-.facts small{display:block;color:var(--grey);font-size:8.5px;text-transform:uppercase;letter-spacing:.6px}
+.facts small{display:block;color:var(--grey);font-size:8.3px;text-transform:uppercase;letter-spacing:.6px}
 .facts b{font-size:11.5px}
-h2{font-size:12.5px;text-transform:uppercase;letter-spacing:.8px;margin:16px 0 6px;padding-bottom:3px;border-bottom:2px solid var(--black);break-after:avoid}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:6px 0 4px}
+.kpi div{border:1px solid var(--line);border-top:3px solid var(--black);padding:7px 9px}
+.kpi div.r{border-top-color:var(--red)}
+.kpi b{display:block;font-size:16px;font-weight:800;letter-spacing:.2px}
+.kpi span{color:var(--grey);font-size:8.8px}
+h2{font-size:12.5px;text-transform:uppercase;letter-spacing:.8px;margin:15px 0 6px;padding-bottom:3px;border-bottom:2px solid var(--black);break-after:avoid}
 h2 .t{color:var(--red);margin-right:8px}
 h2 .who{float:right;font-weight:500;color:var(--grey);text-transform:none;letter-spacing:0;font-size:10px}
 h3{font-size:10.5px;margin:10px 0 3px;break-after:avoid}
 p{margin:4px 0}
 ul{margin:3px 0 6px;padding-left:16px}
-li{margin:1.5px 0}
+li{margin:2px 0}
 table{width:100%;border-collapse:collapse;margin:5px 0 8px}
-thead th{background:var(--black);color:#fff;text-align:left;padding:5px 6px;font-size:8.5px;text-transform:uppercase;letter-spacing:.4px}
-tbody td{padding:4px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{background:var(--black);color:#fff;text-align:left;padding:5px 6px;font-size:8.6px;text-transform:uppercase;letter-spacing:.4px;vertical-align:bottom}
+tbody td{padding:3.5px 6px;border-bottom:1px solid var(--line);vertical-align:top}
 .num{text-align:right;white-space:nowrap}
+th.num{text-align:right;white-space:normal}
 td.b{font-weight:700}
 tr.tot td{background:#eee;font-weight:700}
+tr.me td{background:#fdeeee}
 td.late{color:var(--red);font-weight:700}
-td.fill{width:24%}
+td.fill{width:21%;border-left:1px solid var(--line)}
+table.debt tbody tr:not(.tot):not(.rest) td{height:8.5mm;vertical-align:middle}
+table.work tbody td{height:7.5mm;vertical-align:middle}
 .note{background:var(--soft);border-left:3px solid var(--red);padding:6px 9px;margin:6px 0;font-size:9.5px}
-.src{color:var(--grey);font-size:8.8px;margin:2px 0 6px}
+.src{color:#444;font-size:9px;margin:2px 0 6px}
 table.agenda td:first-child{white-space:nowrap;font-weight:700;color:var(--red);width:92px}
-table.agenda td:last-child{white-space:nowrap;color:var(--grey);width:110px}
-table.act td{height:20px}
+table.agenda td:last-child{white-space:nowrap;color:var(--grey);width:80px}
+table.act td{height:9.5mm}
 .sign{display:flex;gap:30px;margin-top:14px}
 .sign div{flex:1;border-top:1px solid var(--black);padding-top:3px;font-size:9px;color:var(--grey)}
 @media print{
   @page{size:A4;margin:11mm 10mm 12mm}
   .page{max-width:none;padding:0}
-  header,thead th,tr.tot td,.facts div,.note{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  header,thead th,tr.tot td,tr.me td,.facts div,.note{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   thead{display:table-header-group}
-  tr,.note,li{break-inside:avoid}
+  tr,.note,li,.kpi,.keep{break-inside:avoid}
   .pb{break-before:page}
 }
 </style>
@@ -57,11 +66,11 @@ table.act td{height:20px}
 
 <header>
   <div class="brand">Prime <span>Supplements</span></div>
-  <div class="meta"><b>ORDINE DE ZI</b><br>Ședință vânzări persoane juridice · document intern</div>
+  <div class="meta"><b>ORDINE DE ZI</b><br>Ședință vânzări persoane juridice · document intern · date Oblio la 10.11.2026</div>
 </header>
 
 <h1>Ședință cu agentul de vânzări</h1>
-<p class="sub">Facturile neîncasate de la persoanele juridice, anexele contractului de agent și rapoartele de vânzări B2B.</p>
+<p class="sub">Facturile neîncasate de la persoanele juridice (PJ), anexele contractului de agent și rapoartele de vânzări B2B.</p>
 
 <div class="facts">
   <div><small>Data</small><b>marți, 10.11.2026</b></div>
@@ -70,118 +79,168 @@ table.act td{height:20px}
   <div><small>Loc</small><b>____________</b></div>
 </div>
 
+<div class="kpi">
+  <div class="r"><b>648.545,92 lei</b><span>de încasat de la 95 de clienți PJ, în 520 de facturi (cu TVA)</span></div>
+  <div class="r"><b>83 %</b><span>din sumă, adică 538.104,07 lei, e restantă de peste 60 de zile</span></div>
+  <div><b>400.702,88 lei</b><span>vânzări nete către PJ, fără TVA, 01.05–10.11.2026</span></div>
+</div>
+
 <h2>Desfășurător</h2>
 <table class="agenda">
 <thead><tr><th>Ora</th><th>Subiect</th><th>Prezintă</th></tr></thead>
 <tbody>
 <tr><td>14:00 – 14:05</td><td>Deschidere: scopul ședinței și ce decizii trebuie luate până la final</td><td>Marius</td></tr>
-<tr><td>14:05 – 14:30</td><td><b>1. Facturile neîncasate de la persoanele juridice</b> – client cu client: sumă, scadență, ce a promis clientul, data plății</td><td>Agentul</td></tr>
-<tr><td>14:30 – 14:55</td><td><b>2. Anexele contractului de agent</b> – stadiul pe fiecare anexă (1–6) și punctele rămase de completat în contract</td><td>Agentul</td></tr>
-<tr><td>14:55 – 15:15</td><td><b>3. Statistici și rapoarte din Oblio</b> – comenzile și facturile pe persoane juridice</td><td>Marius</td></tr>
-<tr><td>15:15 – 15:25</td><td><b>4. Decizii</b> – termene de plată, clienți restanți, obiective noiembrie–decembrie</td><td>Amândoi</td></tr>
+<tr><td>14:05 – 14:35</td><td><b>1. Facturile neîncasate de la persoanele juridice</b> – întâi soldul PFA-ului agentului, apoi clienții pe care îi cunoaște: ce a promis fiecare și data plății</td><td>Agentul</td></tr>
+<tr><td>14:35 – 14:55</td><td><b>2. Contractul de agent și cele 6 anexe</b> – punctele rămase de completat, data de început, ce pregătește agentul pe fiecare anexă</td><td>Agentul</td></tr>
+<tr><td>14:55 – 15:15</td><td><b>3. Statistici și rapoarte din Oblio</b> – vânzări pe luni, top clienți, clienți inactivi, produse, termene, stornouri, gratuități</td><td>Marius</td></tr>
+<tr><td>15:15 – 15:25</td><td><b>4. Decizii</b> – restanțe vechi, limită de credit, termen de plată, produse gratuite, portofoliul agentului</td><td>Amândoi</td></tr>
 <tr><td>15:25 – 15:30</td><td><b>5. Concluzii</b> – acțiuni, responsabili, termene, data următoarei ședințe</td><td>Marius</td></tr>
 </tbody>
 </table>
 
-<h2><span class="t">1</span>Facturile neîncasate de la persoanele juridice <span class="who">prezintă agentul · 25 min</span></h2>
-<p>Pentru fiecare client din tabel, agentul spune: cu cine a vorbit și când, de ce nu s-a plătit, <b>data la care clientul a promis plata</b> și pasul următor (reamintire, vizită, oprirea livrărilor).</p>
+<h2><span class="t">1</span>Facturile neîncasate de la persoanele juridice <span class="who">prezintă agentul · 30 min</span></h2>
+<p>În Oblio figurează ca neîncasate <b>648.545,92 lei</b> (cu TVA) la 95 de clienți PJ. Numai <b>43.343,06 lei</b> sunt în termen. Restanțele de cel mult 30 de zile fac 25.476,30 lei; aici se poate încasa repede. Grosul, 538.104,07 lei, e mai vechi de 60 de zile și cere o decizie, nu doar un telefon.</p>
+<p><b>443.939,16 lei (68,5 %) vin din facturi emise în iunie–decembrie 2025</b>; din facturile emise de la 01.05.2026 încoace au rămas deschise 149.515,17 lei. Agentul poate influența a doua sumă și facturile noi; pentru cele vechi decide Prime, client cu client. Cifrele sunt starea din Oblio, nu un sold confirmat cu banca: înainte de orice somație se verifică dacă există plăți neoperate.</p>
 
-<h3>A. Cu scadența depășită (facturi emise în octombrie)</h3>
+<h3>A. Vechimea sumelor de încasat</h3>
 <table>
-<thead><tr><th>Client</th><th>Factură</th><th>Emisă</th><th>Scadentă</th><th class="num">Rest (lei)</th><th class="num">Zile întârziere la 10.11</th><th>Promis / data plății</th></tr></thead>
+<thead><tr><th>Interval (zile de la scadență, la 10.11.2026)</th><th class="num">Facturi</th><th class="num">Rest de încasat (lei)</th><th class="num">Pondere</th></tr></thead>
 <tbody>
-<tr><td class="b">Olimpic Fitnes Star SRL</td><td>PRS15772</td><td>2.10</td><td>27.10</td><td class="num b">4.213,00</td><td class="num late">14</td><td class="fill"></td></tr>
-<tr><td class="b">Clubul Sportiv Universitar Sibiu</td><td>PRS15807</td><td>5.10</td><td>15.10</td><td class="num b">2.260,00</td><td class="num late">26</td><td class="fill"></td></tr>
-<tr><td class="b">Cybex Fitness SRL</td><td>PRS16054</td><td>14.10</td><td>4.11</td><td class="num b">1.873,56</td><td class="num late">6</td><td class="fill"></td></tr>
-<tr><td class="b">Kom Gym Project &amp; Design SRL</td><td>PRS16052</td><td>14.10</td><td>4.11</td><td class="num b">1.582,00</td><td class="num late">6</td><td class="fill"></td></tr>
-<tr><td class="b">Downtown Fitness SRL</td><td>PRS16043</td><td>13.10</td><td>3.11</td><td class="num b">973,00</td><td class="num late">7</td><td class="fill"></td></tr>
-<tr><td class="b">Ovi Gym Moto SRL</td><td>PRS16053</td><td>14.10</td><td>4.11</td><td class="num b">920,00</td><td class="num late">6</td><td class="fill"></td></tr>
-<tr><td class="b">Extrem Nicola Sport SRL</td><td>PRS15912</td><td>8.10</td><td>18.10</td><td class="num b">870,00</td><td class="num late">23</td><td class="fill"></td></tr>
-<tr><td class="b">Teo &amp; Co SRL</td><td>PRS15832</td><td>5.10</td><td>15.10</td><td class="num b">847,00</td><td class="num late">26</td><td class="fill"></td></tr>
-<tr><td class="b">MD Concept Fitness SRL</td><td>PRS15980</td><td>12.10</td><td>2.11</td><td class="num b">779,00</td><td class="num late">8</td><td class="fill"></td></tr>
-<tr class="tot"><td colspan="4">Total restant, cele 9 facturi</td><td class="num">14.317,56</td><td></td><td></td></tr>
+<tr><td class='b'>În termen (scadența azi sau mai târziu)</td><td class='num'>48</td><td class='num b'>43.343,06</td><td class='num'>6,7 %</td></tr><tr><td class='b'>Restante 1–14 zile</td><td class='num'>22</td><td class='num b'>19.464,30</td><td class='num'>3,0 %</td></tr><tr><td class='b'>Restante 15–30 zile</td><td class='num'>7</td><td class='num b'>6.012,00</td><td class='num'>0,9 %</td></tr><tr><td class='b'>Restante 31–60 zile</td><td class='num'>41</td><td class='num b'>41.622,49</td><td class='num'>6,4 %</td></tr><tr><td class='b'>Restante peste 60 de zile</td><td class='num'>402</td><td class='num b late'>538.104,07</td><td class='num'>83,0 %</td></tr>
+<tr class="tot"><td>Total persoane juridice</td><td class="num">520</td><td class="num">648.545,92</td><td class="num">100 %</td></tr>
 </tbody>
 </table>
+<p>Mai vechi de 90 de zile de la scadență: <b>384 de facturi, 513.663,52 lei</b>. Mai vechi de un an: 228 de facturi, 328.075,21 lei. Toate sunt anterioare contractului de agent, deci nu poartă comision; de decis dacă agentul primește ceva pentru recuperarea lor.</p>
 
-<h3>B. Ajung la scadență în zilele următoare (de urmărit înainte să devină restante)</h3>
-<table>
-<thead><tr><th>Client</th><th>Scadentă</th><th class="num">Rest (lei)</th><th>Observație</th><th>Promis / data plății</th></tr></thead>
+<div class="keep">
+<h3>B. Primele 15 solduri (69,9 % din total); restanțele pe zile de la scadență</h3>
+<table class="debt">
+<thead><tr><th>#</th><th>Client</th><th class="num">Facturi</th><th class="num">În termen</th><th class="num">1–30 zile</th><th class="num">31–60 zile</th><th class="num">Peste 60 de zile</th><th class="num">Total (lei)</th><th class="num">Cea mai veche (zile)</th><th>Plan / data plății</th></tr></thead>
 <tbody>
-<tr><td class="b">Active Dee</td><td>9.11</td><td class="num b">1.040,00</td><td>scadentă ieri; mai are 1.787,47 lei cu scadența 20.11</td><td class="fill"></td></tr>
-<tr><td class="b">Kom Gym Project &amp; Design SRL</td><td>10.11</td><td class="num b">2.534,00</td><td>scadentă azi; are deja o factură restantă (1.582 lei)</td><td class="fill"></td></tr>
-<tr><td class="b">MD Concept Fitness SRL</td><td>10.11</td><td class="num b">1.676,00</td><td>scadentă azi; are deja o factură restantă (779 lei)</td><td class="fill"></td></tr>
-<tr><td class="b">Sas Gym Fitness Club</td><td>17.11</td><td class="num b">4.776,81</td><td>cea mai mare factură în termen</td><td class="fill"></td></tr>
-<tr><td class="b">Olimpic Fitnes Star SRL</td><td>19.11</td><td class="num b">5.060,00</td><td>PRS16424; clientul are deja 4.213 lei restanți</td><td class="fill"></td></tr>
-<tr><td class="b">Active Dee</td><td>20.11</td><td class="num b">1.787,47</td><td></td><td class="fill"></td></tr>
-<tr><td class="b">Unic Gym · Ovi Gym Moto · Celsius Studio</td><td>în termen</td><td class="num b">3.205,65</td><td>1.104,81 · 1.057,84 · 1.043,00</td><td class="fill"></td></tr>
-<tr><td class="b">Fitnesswelt · Cybex Fitness · Stay Fit Iride</td><td>în termen</td><td class="num b">2.686,99</td><td>926,99 · 880,00 · 880,00</td><td class="fill"></td></tr>
-<tr class="tot"><td colspan="2">Total în termen la 9.11</td><td class="num">22.766,92</td><td colspan="2"></td></tr>
+<tr><td>1</td><td class='b'>CS Rapid-București</td><td class='num'>11</td><td class='num'>–</td><td class='num'>–</td><td class='num'>–</td><td class='num late'>184.959,07</td><td class='num b'>184.959,07</td><td class='num'>423</td><td class='fill'></td></tr><tr class='me'><td>2</td><td class='b'>Trif Alexandru PFA (agentul)</td><td class='num'>51</td><td class='num'>–</td><td class='num'>1.375,00</td><td class='num'>2.424,00</td><td class='num late'>27.433,45</td><td class='num b'>31.232,45</td><td class='num'>499</td><td class='fill'></td></tr><tr><td>3</td><td class='b'>Downtown Fitness SRL</td><td class='num'>35</td><td class='num'>2.898,00</td><td class='num'>1.470,00</td><td class='num'>4.144,00</td><td class='num late'>20.156,49</td><td class='num b'>28.668,49</td><td class='num'>512</td><td class='fill'></td></tr><tr><td>4</td><td class='b'>IQ Fit SRL</td><td class='num'>14</td><td class='num'>–</td><td class='num'>–</td><td class='num'>–</td><td class='num late'>28.082,60</td><td class='num b'>28.082,60</td><td class='num'>512</td><td class='fill'></td></tr><tr><td>5</td><td class='b'>Olimpic Fitnes Star SRL</td><td class='num'>10</td><td class='num'>5.060,00</td><td class='num'>4.213,00</td><td class='num'>–</td><td class='num late'>13.647,50</td><td class='num b'>22.920,50</td><td class='num'>501</td><td class='fill'></td></tr><tr><td>6</td><td class='b'>Active Dee SRL</td><td class='num'>13</td><td class='num'>3.124,03</td><td class='num'>1.614,00</td><td class='num'>6.670,44</td><td class='num late'>10.583,15</td><td class='num b'>21.991,62</td><td class='num'>154</td><td class='fill'></td></tr><tr><td>7</td><td class='b'>Respect Club SRL</td><td class='num'>22</td><td class='num'>–</td><td class='num'>–</td><td class='num'>–</td><td class='num late'>21.363,14</td><td class='num b'>21.363,14</td><td class='num'>496</td><td class='fill'></td></tr><tr><td>8</td><td class='b'>Teo &amp; Co SRL</td><td class='num'>39</td><td class='num'>3.339,00</td><td class='num'>2.289,00</td><td class='num'>3.886,50</td><td class='num late'>11.726,30</td><td class='num b'>21.240,80</td><td class='num'>501</td><td class='fill'></td></tr><tr><td>9</td><td class='b'>Cybex Fitness SRL</td><td class='num'>13</td><td class='num'>2.019,89</td><td class='num'>1.873,56</td><td class='num'>1.348,66</td><td class='num late'>12.385,25</td><td class='num b'>17.627,36</td><td class='num'>499</td><td class='fill'></td></tr><tr><td>10</td><td class='b'>CSU din Sibiu</td><td class='num'>11</td><td class='num'>–</td><td class='num'>2.798,00</td><td class='num'>1.673,00</td><td class='num late'>10.089,00</td><td class='num b'>14.560,00</td><td class='num'>401</td><td class='fill'></td></tr><tr><td>11</td><td class='b'>CSC 1599 Șelimbăr</td><td class='num'>3</td><td class='num'>–</td><td class='num'>–</td><td class='num'>–</td><td class='num late'>13.975,00</td><td class='num b'>13.975,00</td><td class='num'>348</td><td class='fill'></td></tr><tr><td>12</td><td class='b'>MD Concept Fitness SRL</td><td class='num'>11</td><td class='num'>4.970,83</td><td class='num'>779,00</td><td class='num'>233,68</td><td class='num late'>7.517,00</td><td class='num b'>13.500,51</td><td class='num'>439</td><td class='fill'></td></tr><tr><td>13</td><td class='b'>Komfitt Expert SRL</td><td class='num'>17</td><td class='num'>532,00</td><td class='num'>553,00</td><td class='num'>–</td><td class='num late'>10.306,80</td><td class='num b'>11.391,80</td><td class='num'>491</td><td class='fill'></td></tr><tr><td>14</td><td class='b'>Gymone SRL</td><td class='num'>13</td><td class='num'>546,90</td><td class='num'>–</td><td class='num'>–</td><td class='num late'>10.818,35</td><td class='num b'>11.365,25</td><td class='num'>354</td><td class='fill'></td></tr><tr><td>15</td><td class='b'>Stay Fit Iride SA</td><td class='num'>14</td><td class='num'>1.837,00</td><td class='num'>–</td><td class='num'>3.547,00</td><td class='num late'>4.921,00</td><td class='num b'>10.305,00</td><td class='num'>488</td><td class='fill'></td></tr>
+<tr class="tot"><td></td><td>Total primii 15</td><td class="num">277</td><td class="num">24.327,65</td><td class="num">16.964,56</td><td class="num">23.927,28</td><td class="num">387.964,10</td><td class="num">453.183,59</td><td></td><td></td></tr>
+<tr class="rest"><td></td><td>Ceilalți 80 de clienți</td><td class="num">243</td><td class="num">19.015,41</td><td class="num">8.511,74</td><td class="num">17.695,21</td><td class="num">150.139,97</td><td class="num b">195.362,33</td><td></td><td></td></tr>
 </tbody>
 </table>
+</div>
 
-<h3>Expunerea pe client (restant + în termen)</h3>
-<p>Olimpic Fitnes Star <b>9.273,00</b> · Sas Gym <b>4.776,81</b> · Kom Gym <b>4.116,00</b> · Active Dee <b>2.827,47</b> · Cybex <b>2.753,56</b> · MD Concept <b>2.455,00</b> · CSU Sibiu <b>2.260,00</b> · Ovi Gym Moto <b>1.977,84</b>. Primele trei țin 49 % din suma de 37.084,48 lei de mai sus.</p>
-<p class="src">Sursa: Oblio, raportul de facturi neîncasate citit pe 9.11.2026 (contabilitate/INCHIDERE-OCTOMBRIE-2026-11-09.md). Cuprinde <b>numai facturile emise în octombrie 2026</b> și numai cele mai mari sume pe persoane juridice. Pe toți clienții (și persoane fizice), din octombrie sunt neîncasate 90 de facturi, 69.472,19 lei, din care 43 restante, 31.416,05 lei. Facturile mai vechi de 1.10 și cele din noiembrie se adaugă din Oblio înainte de ședință.</p>
-
-<div class="note"><b>De lămurit la acest punct:</b>
+<div class="note"><b>De lămurit la acest punct, în această ordine:</b>
 <ul>
-<li><b>PRS15807, CSU Sibiu (2.260 lei, 26 de zile întârziere):</b> factura nu descarcă gestiunea și are 5 cutii de batoane cu discount 100 %. Este vânzare, sponsorizare sau barter? Cine a aprobat și cine o încasează?</li>
-<li><b>Termenele de plată:</b> contractul permite maximum 14 zile de la factură (art. 8.3), după primele 3 comenzi plătite în avans sau ramburs. În Oblio, Olimpic are 25 de zile, iar Cybex, Kom Gym, Ovi Gym, Downtown și MD Concept au 21 de zile. Cine a aprobat aceste termene?</li>
-<li><b>Clienți cu factură restantă care au primit marfă din nou:</b> Olimpic, Kom Gym, MD Concept, Cybex, Ovi Gym. Se mai livrează înainte de plata restanței?</li>
+<li><b>Soldul PFA-ului agentului în Oblio:</b> 51 de facturi, <b>31.232,45 lei</b>, a doua sumă ca mărime din listă; cea mai veche din 19.06.2025, cea mai nouă din 02.10.2026; 26.963,45 lei sunt mai vechi de 90 de zile. Confirmăm întâi împreună suma (plăți neoperate, retururi), apoi ce reprezintă marfa și cum se stinge soldul. Comisionul nu îl poate acoperi: 5 % din toate vânzările PJ din 01.05–10.11.2026 înseamnă 20.035,14 lei.</li>
+<li><b>CS Rapid-București: 184.959,07 lei</b>, 28,5 % din tot neîncasatul PJ, 11 facturi din 03.09.2025 până în 04.08.2026. Înainte de orice notificare verificăm facturile: PRS 9575 și PRS 9576 (câte 29.170,00 lei) și PRS 9577 și PRS 9578 (câte 18.320,00 lei) sunt emise în aceeași zi, 23.09.2025, cu sume identice. Livrări distincte sau dubluri? Miza: 47.490,00 lei. Apoi: cine ține legătura cu clubul și care e pasul următor (confirmare de sold, eșalonare, avocat).</li>
+<li><b>Datorii vechi fără comenzi noi:</b> IQ Fit 28.082,60 lei (ultima factură 30.06.2026) și CSC 1599 Șelimbăr 13.975,00 lei (03.06.2026). Mai sunt clienți activi sau trec la recuperare?</li>
+<li><b>Primesc marfă nouă, deși au restanțe vechi și facturi recente neplătite:</b> Downtown Fitness (20.156,49 lei mai vechi de 60 de zile + 8.512,00 lei mai noi), Teo &amp; Co (11.726,30 lei mai vechi de 60 de zile + 9.514,50 lei mai noi), Cybex Fitness (12.385,25 lei mai vechi de 60 de zile + 5.242,11 lei mai noi). Toți trei datorează mai mult decât au cumpărat din 01.05.2026 încoace. <b>Respect Club e alt caz:</b> plătește la zi facturile noi (cele din 23.10, 03.11 și 09.11 sunt încasate), dar are 21.363,14 lei deschiși din facturi emise între 23.06.2025 și 02.06.2026. Olimpic Fitnes Star: 22.920,50 lei, din care 13.647,50 lei mai vechi de 60 de zile.</li>
+<li><b>CSU din Sibiu: 14.560,00 lei în 11 facturi</b>, cea mai veche cu 401 zile de întârziere. Aici intră și PRS 15807 (2.260,00 lei), care la verificarea din 09.11 nu descărca gestiunea și avea batoane cu discount 100 %: vânzare, sponsorizare sau barter? Separat, <b>Club Sportiv Universitar</b> (alt CUI) are 10.006,00 lei dintr-o singură factură, din 19.12.2025; factura lui din 10.08.2026 a fost stornată integral. E același client pe două CUI-uri?</li>
+<li><b>Sume cu minus rămase deschise:</b> 30 de documente, −16.844,46 lei. SAS Gym are −8.192,11 lei în 4 documente, de legat de factura lui deschisă de 13.097,91 lei. Club Rennes are doar un storno deschis de −2.131,50 lei (PRS 11095 din 16.01.2026) și nicio factură deschisă: de verificat dacă factura stornată fusese încasată.</li>
 </ul></div>
 
-<h2><span class="t">2</span>Anexele contractului de agent <span class="who">prezintă agentul · 25 min</span></h2>
-<p>Contractul de agent comercial din 2.11.2026 are 6 anexe. Agentul vine cu fiecare anexă completată la zi; raportul lunar se predă până în ziua de 3 a lunii (art. 3.5) și condiționează plata comisionului și a decontului.</p>
+<h3>C. Lista de lucru a agentului: cele 29 de facturi restante de cel mult 30 de zile (25.476,30 lei)</h3>
+<table class="work">
+<thead><tr><th>Client</th><th>Factură</th><th>Emisă</th><th>Scadentă</th><th class="num">Rest (lei)</th><th class="num">Zile întârziere</th><th>Promis / data plății</th></tr></thead>
+<tbody>
+<tr><td class='b'>Olimpic Fitnes Star SRL</td><td>PRS 15772</td><td>02.10</td><td>27.10</td><td class='num b'>4.213,00</td><td class='num late'>14</td><td class='fill'></td></tr><tr><td class='b'>CSU din Sibiu</td><td>PRS 15807</td><td>05.10</td><td>15.10</td><td class='num b'>2.260,00</td><td class='num late'>26</td><td class='fill'></td></tr><tr><td class='b'>Cybex Fitness SRL</td><td>PRS 16054</td><td>14.10</td><td>04.11</td><td class='num b'>1.873,56</td><td class='num late'>6</td><td class='fill'></td></tr><tr><td class='b'>Kom Gym Project &amp; Design SRL</td><td>PRS 16052</td><td>14.10</td><td>04.11</td><td class='num b'>1.582,00</td><td class='num late'>6</td><td class='fill'></td></tr><tr><td class='b'>Trif Alexandru PFA (agentul)</td><td>PRS 15773</td><td>02.10</td><td>27.10</td><td class='num b'>1.375,00</td><td class='num late'>14</td><td class='fill'></td></tr><tr><td class='b'>Active Dee SRL</td><td>PRS 16171</td><td>19.10</td><td>09.11</td><td class='num b'>1.040,00</td><td class='num late'>1</td><td class='fill'></td></tr><tr><td class='b'>Downtown Fitness SRL</td><td>PRS 16043</td><td>13.10</td><td>03.11</td><td class='num b'>973,00</td><td class='num late'>7</td><td class='fill'></td></tr><tr><td class='b'>Ovi Gym Moto SRL</td><td>PRS 16053</td><td>14.10</td><td>04.11</td><td class='num b'>920,00</td><td class='num late'>6</td><td class='fill'></td></tr><tr><td class='b'>Extrem-Nicola-Sport SRL</td><td>PRS 15912</td><td>08.10</td><td>18.10</td><td class='num b'>870,00</td><td class='num late'>23</td><td class='fill'></td></tr><tr><td class='b'>Teo &amp; Co SRL</td><td>PRS 15832</td><td>05.10</td><td>15.10</td><td class='num b'>847,00</td><td class='num late'>26</td><td class='fill'></td></tr><tr><td class='b'>MD Concept Fitness SRL</td><td>PRS 15980</td><td>12.10</td><td>02.11</td><td class='num b'>779,00</td><td class='num late'>8</td><td class='fill'></td></tr><tr><td class='b'>Teo &amp; Co SRL</td><td>PRS 16170</td><td>19.10</td><td>09.11</td><td class='num b'>756,00</td><td class='num late'>1</td><td class='fill'></td></tr><tr><td class='b'>Area 51 Gym SRL</td><td>PRS 15983</td><td>12.10</td><td>02.11</td><td class='num b'>686,00</td><td class='num late'>8</td><td class='fill'></td></tr><tr><td class='b'>Area 51 Gym SRL</td><td>PRS 15985</td><td>12.10</td><td>02.11</td><td class='num b'>686,00</td><td class='num late'>8</td><td class='fill'></td></tr><tr><td class='b'>Mednatural Supliment SRL</td><td>PRS 15986</td><td>12.10</td><td>02.11</td><td class='num b'>686,00</td><td class='num late'>8</td><td class='fill'></td></tr><tr><td class='b'>Unic Gym Fitness SRL</td><td>PRS 16135</td><td>16.10</td><td>06.11</td><td class='num b'>646,24</td><td class='num late'>4</td><td class='fill'></td></tr><tr><td class='b'>Gym Two SRL</td><td>PRS 15913</td><td>08.10</td><td>18.10</td><td class='num b'>580,00</td><td class='num late'>23</td><td class='fill'></td></tr><tr><td class='b'>Active Dee SRL</td><td>PRS 16172</td><td>19.10</td><td>09.11</td><td class='num b'>574,00</td><td class='num late'>1</td><td class='fill'></td></tr><tr><td class='b'>Komfitt Expert SRL</td><td>PRS 16138</td><td>16.10</td><td>06.11</td><td class='num b'>553,00</td><td class='num late'>4</td><td class='fill'></td></tr><tr><td class='b'>CSU din Sibiu</td><td>PRS 15889</td><td>07.10</td><td>17.10</td><td class='num b'>538,00</td><td class='num late'>24</td><td class='fill'></td></tr><tr><td class='b'>client PFA (nr. 27 în lista Oblio)</td><td>PRS 16536</td><td>03.11</td><td>03.11</td><td class='num b'>523,00</td><td class='num late'>7</td><td class='fill'></td></tr><tr><td class='b'>Downtown Fitness SRL</td><td>PRS 15868</td><td>07.10</td><td>17.10</td><td class='num b'>497,00</td><td class='num late'>24</td><td class='fill'></td></tr><tr><td class='b'>client PFA (nr. 27 în lista Oblio)</td><td>PRS 16714</td><td>09.11</td><td>09.11</td><td class='num b'>457,20</td><td class='num late'>1</td><td class='fill'></td></tr><tr><td class='b'>Teo &amp; Co SRL</td><td>PRS 15887</td><td>07.10</td><td>17.10</td><td class='num b'>420,00</td><td class='num late'>24</td><td class='fill'></td></tr><tr><td class='b'>client Î.I. (nr. 77 în lista Oblio)</td><td>PRS 16590</td><td>04.11</td><td>04.11</td><td class='num b'>388,80</td><td class='num late'>6</td><td class='fill'></td></tr><tr><td class='b'>Teo &amp; Co SRL</td><td>PRS 16139</td><td>16.10</td><td>06.11</td><td class='num b'>266,00</td><td class='num late'>4</td><td class='fill'></td></tr><tr><td class='b'>I &amp; M Polux SRL</td><td>PRS 15935</td><td>09.10</td><td>30.10</td><td class='num b'>217,50</td><td class='num late'>11</td><td class='fill'></td></tr><tr><td class='b'>Radus Taxi Transport SRL</td><td>PRS 16491</td><td>02.11</td><td>02.11</td><td class='num b'>173,00</td><td class='num late'>8</td><td class='fill'></td></tr><tr><td class='b'>Kappa System SRL</td><td>PRS 16036</td><td>13.10</td><td>03.11</td><td class='num b'>96,00</td><td class='num late'>7</td><td class='fill'></td></tr>
+</tbody>
+</table>
+<p><b>Ajung la scadență până marți, 17.11:</b> 21 de facturi, 19.714,21 lei, din care 3 scadente chiar azi (5.149,66 lei). Cele mai mari sume pe client: SAS Gym Fitness Club SRL <b>4.776,81</b> · Kom Gym Project &amp; Design SRL <b>3.199,00</b> · MD Concept Fitness SRL <b>3.036,00</b> · Celsius Studio SRL <b>1.484,00</b> · Downtown Fitness SRL <b>1.148,00</b> · Ovi Gym Moto SRL <b>1.057,84</b> · Arbos Trgovina in posredništvo d.o.o. <b>939,66</b> · Health Construct SRL <b>924,00</b>. Agentul sună înainte de scadență, nu după.</p>
+<p class="src">Sursa: Oblio, Raport facturi, citit pe 10.11.2026; toate facturile neîncasate, indiferent de data emiterii, la clienții cu CUI completat (inclusiv PFA și întreprinderi individuale). Sume cu TVA. Lista completă, factură cu factură, e în documentul „Clienți PJ – date pentru ședința cu agentul de vânzări” (claude.ai/artifact/1pcRf3vnUwL3YtFB68PPf3). Clienții PFA apar aici fără nume, cu numărul rândului din tabelul de neîncasate al acelui document.</p>
+
+<h2><span class="t">2</span>Contractul de agent și anexele <span class="who">prezintă agentul · 20 min</span></h2>
+<p>Proiectul de contract de agent comercial (versiunea din 02.11.2026, încă nesemnat și fără dată de început) are 6 anexe. Trecem prin fiecare: ce are agentul pregătit deja și ce predă în primul raport lunar. După semnare, raportul se predă până în ziua de 3 a lunii (art. 3.5) și condiționează plata comisionului și a decontului.</p>
 <table>
 <thead><tr><th style="width:150px">Anexa</th><th>Ce prezintă agentul</th><th>Ce urmărim</th></tr></thead>
 <tbody>
-<tr><td class="b">1 – Decont combustibil</td><td>Bonurile pe CUI-ul Prime și foaia de parcurs: data, traseul, sălile vizitate, km.</td><td>Stabilim plafonul lunar pentru județul Sibiu (necompletat în contract, art. 6.2).</td></tr>
+<tr><td class="b">1 – Decont combustibil</td><td>Bonurile pe CUI-ul Prime și foaia de parcurs: data, traseul, sălile vizitate, km.</td><td>Completăm autoturismul și consumul agreat (art. 6.1) și plafonul lunar pentru județul Sibiu (art. 6.2).</td></tr>
 <tr><td class="b">2 – Sălile din Sibiu, vizita lunară</td><td>Câte din cele 35 de săli (Sibiu, Șelimbăr, Cisnădie) a vizitat; la fiecare: cu cine a vorbit, produse introduse da/nu, consignație propusă da/nu, răspunsul.</td><td>Sălile nevizitate și data vizitei; săli cu raft Prime și raportul săptămânal de raft (art. 3.3); procesele-verbale de consignație.</td></tr>
-<tr><td class="b">3 – Lista de prețuri B2B</td><td>Ce prețuri a comunicat; cereri de preț mai mic sau de condiții speciale primite de la clienți.</td><td>Niciun preț sub listă fără aprobare scrisă (art. 8.2); comandă minimă 500 lei, transport gratuit de la 1.000 lei fără TVA.</td></tr>
-<tr><td class="b">4 – Comisionul agentului</td><td>Clienții pe care îi consideră în portofoliul lui și facturile pentru care așteaptă comision.</td><td>Comision 5 % numai la facturile <b>încasate</b> (art. 5.6); situația lunară de la Prime până pe 20, factura de comision până pe 28.</td></tr>
+<tr><td class="b">3 – Lista de prețuri B2B</td><td>Ce prețuri a comunicat; cereri de preț mai mic sau de condiții speciale primite de la clienți.</td><td>Niciun preț sub listă fără aprobare scrisă (art. 8.2); comandă minimă de 500 de lei, transport gratuit de la 1.000 de lei fără TVA (art. 8.3).</td></tr>
+<tr><td class="b">4 – Comisionul agentului</td><td>Clienții pe care îi consideră în portofoliul lui și facturile pentru care așteaptă comision.</td><td>Comision 5 % din valoarea fără TVA la prețul de listă, numai la facturile <b>încasate</b> ale clienților din portofoliu (art. 5.1, 5.6); situația lunară de la Prime până pe 20, factura de comision până pe 28.</td></tr>
 <tr><td class="b">5 – Traseu anual și evenimente</td><td>Propunerea de traseu pe regiuni, clienții existenți din țară, evenimente și deschideri de săli până la finalul anului.</td><td>Calendarul și bugetul deplasărilor din afara județului (se aprobă înainte, în scris).</td></tr>
-<tr><td class="b">6 – Contacte noi (min. 10 pe lună)</td><td>Lista contactelor noi din noiembrie: sală/magazin/farmacie, ce s-a discutat, motivul refuzului, consignație propusă.</td><td>Câte din 10 sunt făcute la 10.11; ce contacte s-au transformat în comandă.</td></tr>
+<tr><td class="b">6 – Contacte noi (min. 10 pe lună)</td><td>Contactele noi făcute deja, dacă există: sală/magazin/farmacie, ce s-a discutat, motivul refuzului, consignație propusă.</td><td>Ținta de 10 pe lună curge de la data de început; ce contacte s-au transformat în comandă.</td></tr>
 </tbody>
 </table>
-<div class="note"><b>Puncte rămase necompletate în contract</b> (de închis azi): data de început și perioada de probă de 3 luni (art. 2.1) · plafonul de combustibil (art. 6.2) · penalitatea de neconcurență (art. 9.5) · <b>lista clienților existenți repartizați agentului</b>, semnată de amândoi (art. 8.1) – de ea depinde pentru ce facturi se plătește comision și pe cine urmărește agentul la încasare.</div>
+<div class="note"><b>Puncte rămase necompletate în contract</b> (de închis azi): numărul și data contractului, semnăturile · data de început, de la care curg și cele 3 luni de probă (art. 2.1) · autoturismul, numărul de înmatriculare și consumul agreat în l/100 km (art. 6.1, Anexa 1) · plafonul de combustibil (art. 6.2) · penalitatea pentru încălcarea neconcurenței (art. 9.5) · <b>lista clienților existenți repartizați agentului</b>, semnată de amândoi (art. 8.1) – de ea și de clienții noi aduși de agent depinde pentru ce facturi se plătește comision și pe cine urmărește agentul la încasare.</div>
 
 <h2><span class="t">3</span>Statistici și rapoarte din Oblio – persoane juridice <span class="who">prezintă Marius · 20 min</span></h2>
-<p>Rapoartele pe care merită să le discutăm, în ordinea importanței. Toate se scot din Oblio (Rapoarte → Facturi, filtrat pe clienți cu CUI; Vânzări pe produs; Încasări).</p>
+<p>Perioada: 01.05–10.11.2026. Vânzări fără TVA, numai facturi către clienți cu CUI (116 clienți).</p>
+
+<div class="keep">
+<h3>3.1 Vânzări pe luni</h3>
 <table>
-<thead><tr><th style="width:24px">#</th><th style="width:190px">Raport</th><th>Ce arată și ce întrebare pune</th></tr></thead>
+<thead><tr><th>Luna</th><th class="num">Facturat fără TVA</th><th class="num">Nr. facturi</th><th class="num">Factura medie</th><th class="num">Stornouri</th><th class="num">Net fără TVA (lei)</th><th class="num">Facturi cu valoare 0</th></tr></thead>
 <tbody>
-<tr><td class="b">1</td><td class="b">Vânzări B2B pe luni</td><td>Valoare fără TVA, număr de facturi și factura medie pe ultimele 6–12 luni. Crește sau scade canalul? Cât din totalul lunii e B2B (octombrie, toți clienții: 759 de facturi, 270.925,67 lei)?</td></tr>
-<tr><td class="b">2</td><td class="b">Top 15 clienți după valoare</td><td>Cât cumpără fiecare și ce pondere are. Dacă 3–4 săli fac jumătate din B2B, pierderea uneia se simte imediat.</td></tr>
-<tr><td class="b">3</td><td class="b">Vechimea creanțelor</td><td>Neîncasat pe intervale: în termen, 1–14 zile, 15–30, 31–60, peste 60. Zile medii până la încasare pe client. Peste 90 de zile de la scadență agentul pierde comisionul (art. 5.6).</td></tr>
-<tr><td class="b">4</td><td class="b">Clienți activi și inactivi</td><td>Cine a comandat în ultimele 30 de zile, cine nu a mai comandat de peste 60. Lista inactivilor merge la agent pentru reactivare.</td></tr>
-<tr><td class="b">5</td><td class="b">Frecvența comenzilor</td><td>La câte zile comandă din nou fiecare sală. Arată când trebuie sunat clientul înainte să rămână fără marfă.</td></tr>
-<tr><td class="b">6</td><td class="b">Produsele vândute la B2B</td><td>Top produse ca bucăți și valoare, cu profitul Prime la prețul de listă (Anexa 3 și 4). Ce vindem mult cu marjă mică (Whey 1 kg, 2 kg, izolat) și ce ar trebui împins (capsule, shot-uri).</td></tr>
-<tr><td class="b">7</td><td class="b">Discounturi față de lista B2B</td><td>Facturile cu preț sub Anexa 3 sau cu discount 100 %. Cine a aprobat și cât costă pe lună.</td></tr>
-<tr><td class="b">8</td><td class="b">Termene de plată acordate</td><td>Scadența din fiecare factură față de regula de 14 zile. Câți clienți au 21–25 de zile și dacă rămâne așa.</td></tr>
-<tr><td class="b">9</td><td class="b">Stornouri și retururi B2B</td><td>Câte, la ce clienți, din ce motiv; dacă marfa a revenit în stoc cu document.</td></tr>
-<tr><td class="b">10</td><td class="b">Clienți noi pe lună</td><td>Persoane juridice cu prima factură în lună, legat de contactele din Anexa 6. Măsoară direct prospectarea agentului.</td></tr>
+<tr><td class='b'>Mai 2026</td><td class='num'>57.286,12</td><td class='num'>73</td><td class='num'>784,74</td><td class='num'>−2.265,12</td><td class='num b'>55.021,00</td><td class='num'>0</td></tr><tr><td class='b'>Iunie 2026</td><td class='num'>65.229,61</td><td class='num'>79</td><td class='num'>825,69</td><td class='num'>−6.754,62</td><td class='num b'>58.474,99</td><td class='num'>1</td></tr><tr><td class='b'>Iulie 2026</td><td class='num'>79.996,28</td><td class='num'>145</td><td class='num'>551,70</td><td class='num'>−1.905,86</td><td class='num b'>78.090,42</td><td class='num'>15</td></tr><tr><td class='b'>August 2026</td><td class='num'>61.620,42</td><td class='num'>61</td><td class='num'>1.010,17</td><td class='num'>−1.537,91</td><td class='num b'>60.082,51</td><td class='num'>4</td></tr><tr><td class='b'>Septembrie 2026</td><td class='num'>70.855,08</td><td class='num'>97</td><td class='num'>730,46</td><td class='num'>−3.255,26</td><td class='num b'>67.599,82</td><td class='num'>2</td></tr><tr><td class='b'>Octombrie 2026</td><td class='num'>69.993,62</td><td class='num'>100</td><td class='num'>699,94</td><td class='num'>−2.174,79</td><td class='num b'>67.818,83</td><td class='num'>3</td></tr><tr><td class='b'>Noiembrie 2026 (1–10)</td><td class='num'>14.031,84</td><td class='num'>21</td><td class='num'>668,18</td><td class='num'>−416,53</td><td class='num b'>13.615,31</td><td class='num'>2</td></tr><tr class="tot"><td class='b'>Total 01.05–10.11.2026</td><td class='num'>419.012,97</td><td class='num'>576</td><td class='num'>727,45</td><td class='num'>−18.310,09</td><td class='num b'>400.702,88</td><td class='num'>27</td></tr>
 </tbody>
 </table>
+</div>
+<p>Lunile pline stau între 55.021 și 78.090 lei net; septembrie și octombrie sunt aproape egale (67.600 și 67.819 lei). Iulie are cele mai multe facturi (145), cea mai mică factură medie (551,70 lei) și 15 facturi cu valoare 0. Soldul de încasat (648.545,92 lei, cu TVA) este mai mare decât tot ce s-a facturat către PJ în aceste șase luni și zece zile.</p>
 
-<h2><span class="t">4</span>Decizii de luat <span class="who">amândoi · 10 min</span></h2>
+<div class="keep">
+<h3>3.2 Top 15 clienți (58,5 % din vânzările nete)</h3>
+<table>
+<thead><tr><th>#</th><th>Client</th><th class="num">Net fără TVA (lei)</th><th class="num">Pondere</th><th class="num">Nr. facturi</th><th>Ultima factură</th><th class="num">Rest de încasat azi (lei)</th></tr></thead>
+<tbody>
+<tr><td>1</td><td class='b'>Active Dee SRL</td><td class='num b'>34.830,46</td><td class='num'>8,7 %</td><td class='num'>31</td><td>30.10</td><td class='num'>21.991,62</td></tr><tr><td>2</td><td class='b'>Stay Fit Iride SA</td><td class='num b'>34.517,93</td><td class='num'>8,6 %</td><td class='num'>75</td><td>04.11</td><td class='num'>10.305,00</td></tr><tr><td>3</td><td class='b'>Olimpic Fitnes Star SRL</td><td class='num b'>24.817,78</td><td class='num'>6,2 %</td><td class='num'>7</td><td>29.10</td><td class='num'>22.920,50</td></tr><tr><td>4</td><td class='b'>MD Concept Fitness SRL</td><td class='num b'>20.483,28</td><td class='num'>5,1 %</td><td class='num'>18</td><td>09.11</td><td class='num'>13.500,51</td></tr><tr><td>5</td><td class='b'>Respect Club SRL</td><td class='num b'>16.991,78</td><td class='num'>4,2 %</td><td class='num'>19</td><td>09.11</td><td class='num late'>21.363,14</td></tr><tr><td>6</td><td class='b'>Downtown Fitness SRL</td><td class='num b'>14.237,15</td><td class='num'>3,6 %</td><td class='num'>22</td><td>09.11</td><td class='num late'>28.668,49</td></tr><tr><td>7</td><td class='b'>Teo &amp; Co SRL</td><td class='num b'>14.137,97</td><td class='num'>3,5 %</td><td class='num'>25</td><td>09.11</td><td class='num late'>21.240,80</td></tr><tr><td>8</td><td class='b'>Cybex Fitness SRL</td><td class='num b'>12.264,05</td><td class='num'>3,1 %</td><td class='num'>19</td><td>30.10</td><td class='num late'>17.627,36</td></tr><tr><td>9</td><td class='b'>Asociația Sportivă CS Drobeta Fit</td><td class='num b'>10.980,50</td><td class='num'>2,7 %</td><td class='num'>7</td><td>22.10</td><td class='num'>2.280,20</td></tr><tr><td>10</td><td class='b'>I &amp; M Polux SRL</td><td class='num b'>9.244,83</td><td class='num'>2,3 %</td><td class='num'>11</td><td>21.10</td><td class='num'>9.618,50</td></tr><tr><td>11</td><td class='b'>Ovi Gym Moto SRL</td><td class='num b'>9.102,29</td><td class='num'>2,3 %</td><td class='num'>9</td><td>23.10</td><td class='num'>4.937,59</td></tr><tr><td>12</td><td class='b'>Muscle Shop SRL</td><td class='num b'>8.836,17</td><td class='num'>2,2 %</td><td class='num'>4</td><td>30.09</td><td class='num'>8.794,00</td></tr><tr><td>13</td><td class='b'>client PFA (nr. 27 în lista Oblio)</td><td class='num b'>8.352,95</td><td class='num'>2,1 %</td><td class='num'>15</td><td>09.11</td><td class='num'>6.481,28</td></tr><tr><td>14</td><td class='b'>Unic Gym Fitness SRL</td><td class='num b'>7.807,66</td><td class='num'>1,9 %</td><td class='num'>17</td><td>28.10</td><td class='num'>4.507,76</td></tr><tr><td>15</td><td class='b'>Celsius Studio SRL</td><td class='num b'>7.734,69</td><td class='num'>1,9 %</td><td class='num'>16</td><td>22.10</td><td class='num'>4.777,50</td></tr>
+<tr class="tot"><td></td><td>Total top 15</td><td class="num">234.339,49</td><td class="num">58,5 %</td><td class="num">295</td><td></td><td class="num">199.014,25</td></tr>
+</tbody>
+</table>
+</div>
+<p>Cu roșu: restul de încasat depășește tot ce a cumpărat clientul în perioadă, cu TVA inclus. Active Dee și Stay Fit Iride fac împreună 17,3 % din vânzări; Stay Fit Iride cumpără des și puțin (75 de facturi), Olimpic rar și mult (7 facturi).</p>
+
+<h3>3.3 Clienți care nu au mai comandat din 11.09.2026 (peste 60 de zile)</h3>
+<p><b>45 de clienți PJ</b>, care au adus 68.526,52 lei net în perioadă (17,1 % din vânzări). 17 dintre ei au și sold de încasat: 267.143,95 lei (82.184,88 lei fără Rapid), adică 41 % din tot neîncasatul PJ stă la clienți care nu mai comandă. Primii 12 după valoare:</p>
+<table>
+<thead><tr><th>Client</th><th>Ultima factură</th><th class="num">Zile de atunci</th><th class="num">Net în perioadă (lei)</th><th class="num">Nr. facturi</th><th class="num">Rest de încasat (lei)</th></tr></thead>
+<tbody>
+<tr><td class='b'>CS Rapid-București</td><td>04.08.2026</td><td class='num'>98</td><td class='num'>6.838,80</td><td class='num'>1</td><td class='num late'>184.959,07</td></tr><tr><td class='b'>Adi &amp; Cosmin Fit SRL</td><td>24.07.2026</td><td class='num'>109</td><td class='num'>6.300,79</td><td class='num'>7</td><td class='num late'>1.397,20</td></tr><tr><td class='b'>Comay SRL</td><td>09.09.2026</td><td class='num'>62</td><td class='num'>6.263,76</td><td class='num'>6</td><td class='num late'>8.134,00</td></tr><tr><td class='b'>Hera Cardio System SRL</td><td>30.07.2026</td><td class='num'>103</td><td class='num'>5.810,28</td><td class='num'>10</td><td class='num late'>1.434,36</td></tr><tr><td class='b'>client PFA (nr. 17 în lista Oblio)</td><td>29.07.2026</td><td class='num'>104</td><td class='num'>4.647,39</td><td class='num'>9</td><td class='num late'>9.891,38</td></tr><tr><td class='b'>CSC 1599 Șelimbăr</td><td>03.06.2026</td><td class='num'>160</td><td class='num'>4.537,18</td><td class='num'>1</td><td class='num late'>13.975,00</td></tr><tr><td class='b'>Anaeli Food SRL</td><td>17.08.2026</td><td class='num'>85</td><td class='num'>4.365,22</td><td class='num'>3</td><td class='num late'>3.526,00</td></tr><tr><td class='b'>Asociația Fotbal Club Hermannstadt</td><td>07.05.2026</td><td class='num'>187</td><td class='num'>4.050,95</td><td class='num'>1</td><td class='num'>–</td></tr><tr><td class='b'>Asociația Fotbal Club Chindia Târgoviște</td><td>17.06.2026</td><td class='num'>146</td><td class='num'>3.229,75</td><td class='num'>1</td><td class='num late'>1,99</td></tr><tr><td class='b'>Vasi &amp; Cris Gym SRL</td><td>06.08.2026</td><td class='num'>96</td><td class='num'>2.866,12</td><td class='num'>4</td><td class='num'>–</td></tr><tr><td class='b'>Cezili SRL</td><td>21.08.2026</td><td class='num'>81</td><td class='num'>1.965,78</td><td class='num'>2</td><td class='num late'>665,00</td></tr><tr><td class='b'>Mira Fit SRL</td><td>02.06.2026</td><td class='num'>161</td><td class='num'>1.878,47</td><td class='num'>2</td><td class='num'>–</td></tr>
+</tbody>
+</table>
+<p>Lista de reactivare pentru agent sunt cei fără sold (de exemplu Asociația Fotbal Club Hermannstadt, Vasi &amp; Cris Gym, Mira Fit). La cei cu rest de încasat (Rapid, CSC 1599 Șelimbăr, Comay, plus IQ Fit, care e pe locul 15 și nu apare în tabel) vine întâi încasarea.</p>
+
+<div class="keep">
+<h3>3.4 Produsele vândute către PJ (primele 10 din 294)</h3>
+<table>
+<thead><tr><th>#</th><th>Produs</th><th class="num">Bucăți (net)</th><th class="num">din care gratuite</th><th class="num">Valoare fără TVA (lei)</th><th class="num">Pondere</th><th class="num">Clienți</th></tr></thead>
+<tbody>
+<tr><td>1</td><td class='b'>Energy Pump Shot - Wild berries, 20 x 25ml</td><td class='num'>595</td><td class='num'>5</td><td class='num b'>64.048,53</td><td class='num'>16,4 %</td><td class='num'>34</td></tr><tr><td>2</td><td class='b'>Fat Burning Booster Shot - Forest Fruits, 20 x 25ml</td><td class='num'>281</td><td class='num'>1</td><td class='num b'>30.175,89</td><td class='num'>7,7 %</td><td class='num'>27</td></tr><tr><td>3</td><td class='b'>Prime Whey 2kg/66 serv - Toffee Chocolate</td><td class='num'>59</td><td class='num'>1</td><td class='num b'>13.615,16</td><td class='num'>3,5 %</td><td class='num'>21</td></tr><tr><td>4</td><td class='b'>Prime Whey 2kg/66 serv - Bourbon Vanilla</td><td class='num'>53</td><td class='num'>–</td><td class='num b'>12.080,96</td><td class='num'>3,1 %</td><td class='num'>15</td></tr><tr><td>5</td><td class='b'>Prime Creatine Ready To Go 25 × 10 g – Pink Madness</td><td class='num'>188</td><td class='num'>14</td><td class='num b'>11.072,75</td><td class='num'>2,8 %</td><td class='num'>28</td></tr><tr><td>6</td><td class='b'>Prime Creatine Ready To Go 25 × 10 g – Blue Moon</td><td class='num'>158</td><td class='num'>6</td><td class='num b'>9.694,26</td><td class='num'>2,5 %</td><td class='num'>27</td></tr><tr><td>7</td><td class='b'>Prime Whey 2kg/66 serv - White Chocolate Raspberry</td><td class='num'>40</td><td class='num'>–</td><td class='num b'>9.015,53</td><td class='num'>2,3 %</td><td class='num'>15</td></tr><tr><td>8</td><td class='b'>Prime Whey 1kg/33 serv - Salted Caramel</td><td class='num'>75</td><td class='num'>1</td><td class='num b'>8.594,07</td><td class='num'>2,2 %</td><td class='num'>19</td></tr><tr><td>9</td><td class='b'>Creatina (Creapure®) 300g/60 serv</td><td class='num'>121</td><td class='num'>–</td><td class='num b'>8.522,49</td><td class='num'>2,2 %</td><td class='num'>19</td></tr><tr><td>10</td><td class='b'>Creatina (Creapure®) 500g/100 serv</td><td class='num'>61</td><td class='num'>3</td><td class='num b'>6.837,63</td><td class='num'>1,7 %</td><td class='num'>19</td></tr>
+<tr class="tot"><td></td><td>Total primele 10</td><td class="num"></td><td class="num"></td><td class="num">173.657,27</td><td class="num">44,4 %</td><td></td></tr>
+</tbody>
+</table>
+</div>
+<p>Cele două shot-uri (Energy Pump și Fat Burning Booster) fac 24,1 % din valoarea produselor vândute către PJ; o cutie de 20 de shot-uri e o bucată. Prime Whey 1 kg și 2 kg, toate aromele din top 20, adună 71.184,81 lei. La batoanele proteice, 133 din 299 de cutii (44 %) au plecat cu discount 100 %.</p>
+
+<h3>3.5 Termene de plată, stornouri și produse gratuite</h3>
 <ul>
-<li><b>Termenul de plată standard:</b> rămâne 14 zile pentru toți sau există o listă scurtă de clienți cu termen mai lung, aprobată în scris?</li>
-<li><b>Regula pentru restanțieri:</b> după câte zile de întârziere se opresc livrările și se trece la plată în avans sau ramburs?</li>
+<li><b>Termene peste 14 zile:</b> 81 de facturi la 37 de clienți, 82.769,95 lei cu TVA, din care 67.532,36 lei încă de încasat. 76 sunt emise din 01.10.2026 încoace și 71 au exact 21 de zile, deci din octombrie termenul obișnuit a devenit 21 de zile. Facturile le emite Prime: verificăm dacă e o setare din Oblio sau o decizie. Proiectul de contract îi permite agentului să ofere fără aprobare cel mult 14 zile, după primele 3 comenzi plătite în avans sau ramburs (art. 8.3); peste 14 zile e nevoie de aprobarea scrisă a Prime (art. 8.4).</li>
+<li><b>Stornouri:</b> 33 de documente la 19 clienți, −18.310,09 lei fără TVA (4,4 % din facturat). 15 documente sunt încă deschise, −10.427,20 lei cu TVA de compensat.</li>
+</ul>
+<table>
+<thead><tr><th>Client (primii 6 după valoarea stornată)</th><th class="num">Documente</th><th class="num">Stornat fără TVA (lei)</th><th class="num">Rămas deschis, cu TVA (lei)</th></tr></thead>
+<tbody>
+<tr><td class='b'>SAS Gym Fitness Club SRL</td><td class='num'>5</td><td class='num b'>−8.150,31</td><td class='num'>−8.192,11</td></tr><tr><td class='b'>Downtown Fitness SRL</td><td class='num'>3</td><td class='num b'>−1.498,32</td><td class='num'>–</td></tr><tr><td class='b'>Farmacia Perfect Care SRL</td><td class='num'>5</td><td class='num b'>−1.436,36</td><td class='num'>−729,99</td></tr><tr><td class='b'>Club Sportiv Universitar (alt CUI decât CSU din Sibiu)</td><td class='num'>1</td><td class='num b'>−1.173,54</td><td class='num'>–</td></tr><tr><td class='b'>client PFA (nr. 27 în lista Oblio)</td><td class='num'>1</td><td class='num b'>−750,32</td><td class='num'>–</td></tr><tr><td class='b'>Cybex Fitness SRL</td><td class='num'>1</td><td class='num b'>−658,27</td><td class='num'>–</td></tr>
+</tbody>
+</table>
+<ul>
+<li><b>Produse gratuite (discount 100 %):</b> 27 de facturi PJ cu valoare 0 (15 în iulie) și 247 de linii cu discount 100 % pe 88 de documente către clienți cu CUI (facturi și bonuri fiscale). Lista pe facturi nu e completă, deci valoarea totală a gratuităților lipsește. După proiectul de contract, produsele gratuite peste mostrele uzuale le aprobă Prime, în scris (art. 8.4), și nu poartă comision (art. 5.2). De stabilit limita lunară de mostre a agentului.</li>
+</ul>
+<p class="src">Limitele cifrelor: PFA-urile și întreprinderile individuale (22 din cei 149 de clienți cu CUI din Oblio) sunt numărate la PJ; 39 de bonuri fiscale cu CUI (11.597,21 lei fără TVA) nu intră în vânzări; topul de produse e doar din facturi și nu cuprinde 31 de facturi cu linii scrise manual (9.716,30 lei). Totalul neîncasat pe toți clienții, PF și PJ, este 1.312.427,46 lei, identic cu „Total de încasat” din Panoul de control Oblio.</p>
+
+<h2 class="pb"><span class="t">4</span>Decizii de luat <span class="who">amândoi · 10 min</span></h2>
+<ul>
+<li><b>Soldul PFA-ului agentului (31.232,45 lei):</b> după confirmarea sumei, grafic de plată cu rate și date, semnat odată cu contractul.</li>
+<li><b>Restanțele de peste 60 de zile (538.104,07 lei):</b> pe fiecare client din primii 15, una din trei: eșalonare scrisă, oprirea livrărilor, notificare și recuperare.</li>
+<li><b>Limită de credit:</b> după câte zile de întârziere sau de la ce sold se opresc livrările și se trece la plată în avans sau ramburs? Azi, 23 de clienți cu restanțe de peste 60 de zile (176.955,89 lei) au și facturi emise din 01.10.2026 încoace, încă neplătite, de 63.169,90 lei.</li>
+<li><b>Restanțele dinaintea contractului:</b> agentul primește sau nu ceva pentru recuperarea lor (de exemplu un procent din suma încasată efectiv)?</li>
+<li><b>Termenul de plată standard:</b> 14 zile, cât poate oferi agentul fără aprobare, sau 21, ca în facturile din octombrie? Excepțiile se aprobă în scris.</li>
+<li><b>Produse gratuite:</b> limita lunară de mostre și cine din Prime semnează aprobarea pentru facturile cu valoare 0 și discount 100 %.</li>
 <li><b>Cine sună și când:</b> reamintire înainte de scadență, a doua zi după scadență, vizită la 7 zile – agentul; Prime trimite situația din Oblio în fiecare luni.</li>
-<li><b>Portofoliul agentului:</b> lista clienților repartizați, semnată azi.</li>
-<li><b>Obiective până la 31.12:</b> suma de încasat din restanțe, numărul de săli noi, săli cu raft în consignație.</li>
+<li><b>Portofoliul agentului:</b> lista clienților repartizați, semnată azi; pe ea și pe clienții noi aduși de agent se calculează comisionul și se urmărește încasarea.</li>
+<li><b>Obiective până la 31.12:</b> suma de încasat din restanțe, numărul de clienți reactivați din lista 3.3, săli noi, săli cu raft în consignație.</li>
 </ul>
 
 <h2><span class="t">5</span>Acțiuni după ședință</h2>
 <table class="act">
 <thead><tr><th style="width:24px">#</th><th>Acțiune</th><th style="width:130px">Responsabil</th><th style="width:90px">Termen</th></tr></thead>
 <tbody>
-<tr><td>1</td><td></td><td></td><td></td></tr>
-<tr><td>2</td><td></td><td></td><td></td></tr>
-<tr><td>3</td><td></td><td></td><td></td></tr>
-<tr><td>4</td><td></td><td></td><td></td></tr>
-<tr><td>5</td><td></td><td></td><td></td></tr>
-<tr><td>6</td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td></tr><tr><td>7</td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
 <p>Următoarea ședință: ____.____.2026, ora ____</p>

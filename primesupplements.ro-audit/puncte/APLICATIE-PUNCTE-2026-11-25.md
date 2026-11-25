@@ -139,3 +139,17 @@ Verificat și în browser, local (`prime-puncte-dev`, port 8792): pagina clientu
 - Instalată pe magazin (Install, cu acordul lui Marius); client ID-ul e în `wrangler.jsonc`. Client secret-ul l-a pus Marius în terminal: prima lipire a fost greșită (49 de caractere), a doua corectă (38). Pentru data viitoare, `scripts/pune-secret.ps1` ia secretul din clipboard și îl verifică.
 - Clienții de test în Setări: Marius și Adelina (id-urile sunt doar în D1).
 - Prima sincronizare: 77 de comenzi citite, 0 puncte (data de pornire e 1.01.2027).
+
+## 5b. Deciziile lui Marius (25.11, seara)
+1. **Codurile PP- – DA**, ca excepție de la „fără coduri noi (doar WELCOME5)”, la pornirea live.
+2. **Puncte disponibile la 14 zile după expediere** (cum era propus).
+3. **Bonusul de 100 la înscrierea în program** (prima intrare pe /apps/puncte), nu la orice client creat de Shopify.
+4. **Retroactiv, ultimele 60 de zile:** comenzile de după 26.09.2026 primesc puncte (`startAt` = 2026-09-26 în Setări). 60 de zile e și cât lasă Shopify să citească aplicația, fără `read_all_orders`.
+5. **Regulă nouă (Marius: „mai pune o regula ca sa foloseasca punctele trebuie minim 1 recenzie in ultimele 30 zile”):** ca să genereze un cod din puncte, clientul trebuie să fi scris **cel puțin o recenzie Judge.me în ultimele 30 de zile** (publicată, de la cumpărător verificat, orice notă). Pagina îi explică asta în locul formularului. Regula are nevoie de tokenul Judge.me, fără de care nimeni nu poate folosi punctele.
+   - **De reținut (legal):** recenziile scrise pentru că aduc puncte sunt recenzii stimulate. Regula UE (Omnibus) cere ca magazinul să nu păstreze doar recenziile bune și să spună cum verifică recenziile. Recompensa nu depinde de notă (așa e făcută), iar regulamentul și eventual widgetul Judge.me trebuie să spună că recenziile pot primi puncte.
+6. Fără răspuns încă: punctele pe pachete (acum: da), limitele pe cod (acum: max. 5.000 de puncte, 30 de zile), tokenul Judge.me (acum sau mai târziu).
+
+### 5c. Calculul retroactiv pe 60 de zile (25.11, seara; mod umbră, clienții nu văd nimic)
+- 1.182 de comenzi (26.09–25.11.2026), **874 de clienți**, **377.278 de puncte ≈ 11.318 lei** (3 % din ce au plătit pe produse). Din ele, **≈ 8.746 lei sunt deja disponibile** (expediate de peste 14 zile) și **≈ 2.572 lei în așteptare**.
+- Asta e suma maximă datorată, nu un cost sigur. Un client își poate folosi punctele doar cu o recenzie în ultimele 30 de zile și doar pentru maximum 20 % dintr-o comandă nouă de cel puțin 5 × valoarea codului. Punctele expiră după 24 de luni.
+- Tehnic: planul gratuit Cloudflare dă 10 ms de procesor pe cerere, deci sincronizarea merge pe bucăți de 20 de comenzi, iar panoul le rulează una după alta.

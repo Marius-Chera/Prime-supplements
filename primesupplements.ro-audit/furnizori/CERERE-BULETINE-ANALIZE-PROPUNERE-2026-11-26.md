@@ -1,4 +1,4 @@
-# Propunere: ce cerem pentru o secțiune publică de buletine de analiză (ca la GymBeam) – 26.11.2026, NETRIMISĂ
+# Propunere: ce cerem pentru o secțiune publică de buletine de analiză (ca la GymBeam) – 26.11.2026 – TRIMISĂ pe 26.11 din Yahoo, ca răspuns în firul „Prime Supplements – copii ale certificatelor de producție” (text aprobat de Marius, cu „Prime Supplements” în loc de „Prime”)
 
 Cerută de Marius pe 26.11 („zi-mi o propunere ce sa ii cerem la Petronela in cazul in care dorim sa avem si noi sectiune de buletine analize … cum are gym beam”). Buletinele actuale nu se publică deocamdată.
 

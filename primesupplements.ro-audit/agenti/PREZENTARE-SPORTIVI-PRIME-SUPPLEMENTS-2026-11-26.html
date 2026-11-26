@@ -1,0 +1,256 @@
+﻿<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sportivii Prime Supplements – echipa de parteneri 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root { --red:#ec1e24; --dark:#b5121b; --black:#0d0d0d; --grey:#6b6b6b; --line:#e4e4e4; --bg:#f5f5f5; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; padding:0; font-family:Poppins,"Segoe UI",Arial,sans-serif; color:var(--black); font-size:11px; line-height:1.5; background:#888; }
+  img { display:block; max-width:100%; }
+  .page { width:210mm; height:297mm; margin:10mm auto; background:#fff; position:relative; overflow:hidden; padding:16mm 14mm 14mm; }
+  .ph { position:absolute; top:6mm; left:14mm; right:14mm; display:flex; justify-content:space-between; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:var(--grey); font-weight:600; }
+  .pf { position:absolute; bottom:6mm; left:14mm; right:14mm; display:flex; justify-content:space-between; font-size:8.5px; color:var(--grey); border-top:1px solid var(--line); padding-top:2.5mm; }
+  .kick { color:var(--red); text-transform:uppercase; letter-spacing:2.5px; font-weight:700; font-size:10px; margin:0 0 4px; }
+  h1 { font-size:44px; line-height:1.02; margin:0; text-transform:uppercase; font-weight:900; letter-spacing:.5px; }
+  h2 { font-size:26px; line-height:1.1; margin:0 0 8px; text-transform:uppercase; font-weight:800; }
+  h2 span, h1 span { color:var(--red); }
+  h3 { font-size:13px; text-transform:uppercase; letter-spacing:1px; margin:0 0 6px; }
+  p { margin:0 0 8px; }
+  .lead { font-size:12.5px; color:#222; }
+
+  /* copertă */
+  .cover { padding:0; background:var(--black); color:#fff; }
+  .cover .bgimg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:60% 20%; opacity:.62; }
+  .cover .shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.15) 34%,rgba(0,0,0,.15) 52%,rgba(0,0,0,.95) 80%); }
+  .cover .top { position:absolute; top:14mm; left:14mm; right:14mm; display:flex; justify-content:space-between; align-items:center; }
+  .cover .logo { height:46px; width:auto; }
+  .cover .top small { font-size:9px; letter-spacing:2px; text-transform:uppercase; color:#ddd; text-align:right; }
+  .cover .bottom { position:absolute; left:14mm; right:14mm; bottom:16mm; }
+  .cover .kick { color:var(--red); }
+  .cover h1 { font-size:50px; }
+  .cover .sub { font-size:14px; color:#eee; max-width:150mm; margin:10px 0 18px; }
+  .cover .stats { display:grid; grid-template-columns:repeat(4,1fr); border-top:3px solid var(--red); }
+  .cover .stats div { padding:10px 10px 0 0; }
+  .cover .stats b { display:block; font-size:30px; font-weight:800; line-height:1; }
+  .cover .stats span { font-size:9.5px; text-transform:uppercase; letter-spacing:1px; color:#ccc; }
+
+  /* despre */
+  .two { display:grid; grid-template-columns:1.05fr 1fr; gap:9mm; align-items:start; }
+  .photo { width:100%; object-fit:cover; border-radius:4px; }
+  .facts { display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin:6mm 0; }
+  .facts div { background:var(--black); color:#fff; padding:9px 11px; border-bottom:3px solid var(--red); }
+  .facts b { display:block; font-size:24px; font-weight:800; line-height:1.1; }
+  .facts span { font-size:9px; text-transform:uppercase; letter-spacing:.8px; color:#cfcfcf; }
+  .vals { display:grid; grid-template-columns:1fr 1fr; gap:3mm 5mm; }
+  .vals div { border-left:3px solid var(--red); padding:2px 0 2px 9px; }
+  .vals b { display:block; text-transform:uppercase; font-size:10px; letter-spacing:.8px; }
+  .timeline { display:grid; grid-template-columns:repeat(4,1fr); gap:3mm; margin-top:7mm; }
+  .timeline div { border-top:3px solid var(--black); padding-top:5px; font-size:10px; }
+  .timeline b { display:block; color:var(--red); font-size:15px; }
+
+  /* hartă */
+  .mapwrap { position:relative; margin:1mm -9mm 0; }
+  .map { width:100%; height:auto; }
+  .legend { display:flex; gap:12px; flex-wrap:wrap; align-items:center; font-size:9.5px; color:#333; margin:1mm 0 3mm; }
+  .legend i { display:inline-block; width:12px; height:12px; border-radius:2px; vertical-align:-2px; margin-right:4px; }
+  .legend .pinl { display:inline-block; width:12px; height:12px; border-radius:50% 50% 50% 0; transform:rotate(-45deg); background:#111; margin-right:5px; vertical-align:-2px; }
+  .bars { display:grid; grid-template-columns:1fr 1fr; gap:1.6mm 8mm; margin-top:4mm; }
+  .bar { display:grid; grid-template-columns:28mm 1fr 8mm; align-items:center; gap:2mm; font-size:9.5px; }
+  .bar i { display:block; height:8px; background:var(--red); }
+  .bar b { text-align:right; }
+  .band { display:grid; grid-template-columns:repeat(4,1fr); gap:3mm; margin-top:2mm; }
+  .band div { background:var(--bg); padding:8px 10px; border-top:3px solid var(--red); }
+  .band b { display:block; font-size:22px; font-weight:800; line-height:1.1; }
+  .band span { font-size:9px; text-transform:uppercase; letter-spacing:.7px; color:#444; }
+
+  /* lanțuri */
+  .tiles { display:grid; grid-template-columns:repeat(4,1fr); gap:2mm; margin:3mm 0 4mm; }
+  .tile { border:1px solid var(--line); padding:7px 9px; min-height:14mm; display:flex; flex-direction:column; justify-content:center; background:#fff; }
+  .tile b { font-size:13.5px; line-height:1.15; text-transform:uppercase; font-weight:800; }
+  .tile span { font-size:9px; color:var(--grey); margin-top:2px; }
+  .tile.lant { background:var(--black); color:#fff; border-color:var(--black); border-bottom:3px solid var(--red); }
+  .tile.lant span { color:#ccc; }
+  .jgrid { columns:4; column-gap:4mm; font-size:8.6px; }
+  .jl { break-inside:avoid; margin:0 0 3mm; }
+  .jl b { display:flex; justify-content:space-between; border-bottom:2px solid var(--black); text-transform:uppercase; font-size:9.5px; letter-spacing:.6px; margin-bottom:2px; }
+  .jl b span { color:var(--red); font-weight:700; text-transform:none; letter-spacing:0; }
+  .jl i { display:block; font-style:normal; line-height:1.32; }
+  .jl i.t { font-weight:700; }
+  .jl small { color:var(--grey); font-size:8.5px; }
+
+  /* cluburi */
+  .clubs { display:grid; grid-template-columns:repeat(3,1fr); gap:2.5mm; margin:3mm 0 4mm; }
+  .club { border:1px solid var(--line); padding:5px 9px; display:flex; flex-direction:column; }
+  .club b { font-size:11.5px; text-transform:uppercase; line-height:1.2; }
+  .club span { font-size:9px; color:var(--grey); }
+  .club.top { border:none; background:var(--red); color:#fff; }
+  .club.top span { color:#ffe1e2; }
+  .shops { display:grid; grid-template-columns:repeat(4,1fr); gap:2.5mm; }
+
+  /* sportivi */
+  .ath { display:grid; grid-template-columns:repeat(3,1fr); gap:4mm; margin:4mm 0; }
+  .ath figure { margin:0; background:var(--black); color:#fff; }
+  .ath img { width:100%; height:112mm; object-fit:cover; }
+  .ath figcaption { padding:8px 10px 10px; border-top:3px solid var(--red); }
+  .ath figcaption b { display:block; font-size:13px; text-transform:uppercase; }
+  .ath figcaption span { font-size:9.5px; color:#ccc; }
+  .team { display:grid; grid-template-columns:repeat(5,1fr); gap:2.5mm; margin-top:3mm; }
+  .team div { background:var(--bg); padding:7px 10px; border-left:3px solid var(--red); }
+  .team b { display:block; font-size:11px; text-transform:uppercase; }
+  .team span { font-size:9px; color:var(--grey); }
+  .founder { display:grid; grid-template-columns:1fr 2.2fr; gap:5mm; background:var(--black); color:#fff; padding:5mm; margin-top:4mm; align-items:center; }
+  .founder b { font-size:16px; text-transform:uppercase; display:block; }
+  .founder .r { color:var(--red); font-weight:700; text-transform:uppercase; letter-spacing:1.5px; font-size:9px; }
+
+  /* produse */
+  .pgrid { display:grid; grid-template-columns:repeat(5,1fr); gap:3mm; margin-top:4mm; }
+  .pc img { margin:4px 0 6px; }
+  .pc { border:1px solid var(--line); padding:5px 6px 7px; text-align:center; }
+  .pc img { width:100%; aspect-ratio:1/1; object-fit:contain; margin-bottom:3px; }
+  .pc b { display:block; font-size:10px; text-transform:uppercase; line-height:1.2; }
+  .pc span { display:block; font-size:8.3px; color:var(--grey); line-height:1.3; }
+  .cats { display:flex; flex-wrap:wrap; gap:2mm; margin:2mm 0 0; }
+  .cats span { background:var(--black); color:#fff; font-size:9px; padding:3px 9px; text-transform:uppercase; letter-spacing:.6px; }
+
+  /* de ce */
+  .why { display:grid; grid-template-columns:1fr 1fr; gap:4mm; margin-top:4mm; }
+  .why div { border:1px solid var(--line); padding:10px 12px; border-top:4px solid var(--red); }
+  .why b { display:block; text-transform:uppercase; font-size:11px; margin-bottom:3px; }
+  .strip { display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin-top:4mm; }
+  .strip img { width:100%; height:122mm; object-fit:cover; }
+
+  /* contact */
+  .contact { background:var(--black); color:#fff; }
+  .contact .bgimg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.5; }
+  .contact .shade { position:absolute; inset:0; background:linear-gradient(180deg,rgba(0,0,0,.9),rgba(0,0,0,.35) 40%,rgba(0,0,0,.95) 75%); }
+  .contact .in { position:absolute; left:14mm; right:14mm; bottom:18mm; }
+  .contact .logo { height:44px; margin-bottom:10mm; }
+  .contact h1 { font-size:40px; }
+  .cgrid { display:grid; grid-template-columns:repeat(3,1fr); gap:4mm; margin-top:8mm; border-top:3px solid var(--red); padding-top:5mm; font-size:11px; }
+  .cgrid b { display:block; text-transform:uppercase; color:var(--red); font-size:9.5px; letter-spacing:1.2px; }
+  .note { font-size:8.5px; color:var(--grey); margin-top:3mm; }
+
+  @media print {
+    @page { size:A4; margin:0; }
+    html,body { background:#fff; }
+    .page { margin:0; break-after:page; page-break-after:always; }
+    * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+</style>
+<style>
+  .strip3 img { height:72mm !important; }
+  .big { font-size:120px; font-weight:900; line-height:.9; color:var(--red); }
+  .toplist { display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin-top:4mm; }
+  .toplist div { background:var(--black); color:#fff; padding:10px 12px; border-bottom:3px solid var(--red); display:flex; gap:10px; align-items:center; }
+  .toplist i { font-style:normal; font-size:22px; font-weight:900; color:var(--red); width:9mm; }
+  .toplist b { font-size:12.5px; text-transform:uppercase; line-height:1.2; }
+  .names { columns:3; column-gap:6mm; font-size:12px; margin-top:5mm; }
+  .names div { break-inside:avoid; padding:3px 0 3px 8px; border-left:2px solid var(--red); margin-bottom:2.6mm; line-height:1.25; }
+  .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:3mm; margin-top:4mm; }
+  .steps div { border-top:4px solid var(--red); background:var(--bg); padding:9px 11px; font-size:10px; }
+  .steps b { display:block; font-size:20px; font-weight:900; color:var(--red); line-height:1.1; }
+  .steps strong { display:block; text-transform:uppercase; font-size:10.5px; margin-bottom:2px; }
+  .hero3 { display:grid; grid-template-columns:1.25fr 1fr; gap:4mm; margin-top:4mm; }
+  .hero3 figure { margin:0; background:var(--black); color:#fff; }
+  .hero3 img { width:100%; object-fit:cover; display:block; }
+  .hero3 figcaption { padding:8px 11px 10px; border-top:3px solid var(--red); }
+  .hero3 figcaption b { display:block; font-size:15px; text-transform:uppercase; }
+  .hero3 figcaption span { font-size:10px; color:#ccc; }
+</style>
+</head>
+<body>
+
+<!-- 1. COPERTĂ -->
+<section class="page cover">
+  <img class="bgimg" src="PORTOFOLIU-NATIONAL-2026-11-26-img/cluster-1.jpg" style="object-position:58% 30%" alt="">
+  <div class="shade"></div>
+  <div class="top"><img class="logo" src="PORTOFOLIU-NATIONAL-2026-11-26-img/logo-prime-alb.svg" alt="Prime Supplements"><small>Echipa de sportivi<br>26.11.2026</small></div>
+  <div class="bottom">
+    <p class="kick">Sportivii și creatorii care recomandă Prime Supplements</p>
+    <h1>Echipa<br><span>Prime Supplements</span></h1>
+    <p class="sub">Culturiști, competitori de fitness, antrenori personali și creatori de conținut din toată țara, care folosesc zilnic produsele noastre și le recomandă comunităților lor.</p>
+    <div class="stats">
+      <div><b>82</b><span>afiliați activi</span></div>
+      <div><b>3</b><span>sportivi în ședințele foto 2026</span></div>
+      <div><b>1</b><span>fondator IFBB Pro</span></div>
+      <div><b>10%</b><span>reducere cu codul fiecărui sportiv</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. FEȚELE BRANDULUI -->
+<section class="page">
+  <div class="ph"><span>Fețele brandului</span><span>02</span></div>
+  <p class="kick">Sportivii din campaniile Prime Supplements</p>
+  <h2>Antrenați zilnic, <span>fotografiați în sală</span></h2>
+  <p class="lead">Sportivii care apar în ședințele foto și în campaniile Prime Supplements din 2026.</p>
+  <div class="hero3">
+    <figure><img src="PORTOFOLIU-NATIONAL-2026-11-26-img/crema-de-orez-3.jpg" style="height:172mm;object-position:50% 25%" alt="Mihai Diaconu cu Creamy Rice"><figcaption><b>Mihai Diaconu</b><span>Culturism · fața campaniei Creamy Rice</span></figcaption></figure>
+    <div style="display:grid;gap:4mm">
+      <figure><img src="PORTOFOLIU-NATIONAL-2026-11-26-img/cluster-1.jpg" style="height:77mm;object-position:55% 25%" alt="Ana Savici cu Cluster Bomb"><figcaption><b>Ana Savici</b><span>Fitness · ședința foto Prime Supplements 2026</span></figcaption></figure>
+      <figure><img src="PORTOFOLIU-NATIONAL-2026-11-26-img/nitrox-no-stim-5.jpg" style="height:77mm" alt="Paula Adelina Chera cu Nitrox"><figcaption><b>Paula Adelina Chera</b><span>Fitness · Evo Gym Sibiu</span></figcaption></figure>
+    </div>
+  </div>
+  <div class="founder">
+    <img src="PORTOFOLIU-NATIONAL-2026-11-26-img/logo-prime-alb.svg" alt="" style="width:100%;max-width:52mm">
+    <div><span class="r">Fondator și antrenor</span><b>Marius Chera</b>Sportiv IFBB Pro și antrenor de culturism cu peste 15 ani de experiență, lector la cursurile de instructori ale Federației Române de Culturism și Fitness. A pregătit sportivi care au obținut carduri PRO și titluri europene și mondiale. Fiecare produs Prime Supplements trece mai întâi prin sala lui.</div>
+  </div>
+  <div class="pf"><span>Sportivii apar cu acordul lor, în baza colaborării cu Prime Supplements.</span><span>primesupplements.ro</span></div>
+</section>
+
+<!-- 3. PROGRAMUL DE AFILIERE -->
+<section class="page">
+  <div class="ph"><span>Programul de afiliere</span><span>03</span></div>
+  <p class="kick">Prime Afiliați</p>
+  <div class="two" style="grid-template-columns:auto 1fr;gap:8mm;align-items:center">
+    <div class="big">82</div>
+    <div><h2 style="margin:0">de afiliați <span>activi</span></h2><p class="lead" style="margin:4px 0 0">sportivi, antrenori și creatori care recomandă Prime Supplements cu codul lor personal, la 26 noiembrie 2026.</p></div>
+  </div>
+  <div class="steps">
+    <div><b>1</b><strong>Cod personal</strong>Fiecare sportiv are un cod unic; clienții lui primesc 10% reducere pe primesupplements.ro.</div>
+    <div><b>2</b><strong>Comision</strong>Pentru fiecare comandă livrată cu codul lui, sportivul primește comision.</div>
+    <div><b>3</b><strong>Aplicație proprie</strong>Comenzile, comisionul și materialele de promovare se văd în contul de afiliat Prime Afiliați.</div>
+    <div><b>4</b><strong>Contract</strong>Colaborare pe bază de contract, pentru persoane fizice, PFA și firme.</div>
+  </div>
+  <h3 style="margin-top:7mm">Cei mai activi parteneri</h3>
+  <p class="sub" style="color:var(--grey);margin:0">Ordonați după numărul de comenzi aduse prin codul personal.</p>
+  <div class="toplist"><div><i>1</i><b>Raul Trip</b></div><div><i>2</i><b>Lucian Borza</b></div><div><i>3</i><b>Sergiu Faur</b></div><div><i>4</i><b>Maria Bratilescu</b></div><div><i>5</i><b>Tudor Stanciu</b></div><div><i>6</i><b>Cosmin Bostan</b></div><div><i>7</i><b>Robert Icee</b></div><div><i>8</i><b>Alex Panek</b></div><div><i>9</i><b>Mihai Dumitrescu</b></div><div><i>10</i><b>Ana Hojdea</b></div><div><i>11</i><b>Dionysios Filip</b></div><div><i>12</i><b>Cosmin Silaghi</b></div></div>
+  <div class="strip strip3" style="margin-top:6mm">
+    <img src="PORTOFOLIU-NATIONAL-2026-11-26-img/sportiva-instant-oats-prime-health-1.jpg" alt="Sportivă cu Instant Oats Prime Supplements">
+    <img src="PORTOFOLIU-NATIONAL-2026-11-26-img/shaker-prime-1.jpg" alt="Shaker Prime Supplements">
+    <img src="PORTOFOLIU-NATIONAL-2026-11-26-img/crema-de-orez-1.jpg" alt="Mihai Diaconu cu Creamy Rice">
+  </div>
+  <div class="pf"><span>Sursa: aplicația Prime Afiliați, afiliați activi la 26.11.2026</span><span>primesupplements.ro</span></div>
+</section>
+
+<!-- 4. TOȚI SPORTIVII -->
+<section class="page">
+  <div class="ph"><span>Echipa completă</span><span>04</span></div>
+  <p class="kick">Toți afiliații activi</p>
+  <h2>82 de oameni care <span>recomandă Prime Supplements</span></h2>
+  <p class="lead">În ordine alfabetică.</p>
+  <div class="names"><div>Adela Karoli</div><div>Adrian Cotun</div><div>Albert Huliai</div><div>Alex Capruta</div><div>Alex Chirtes</div><div>Alex Jucan</div><div>Alex Panek</div><div>Alexandru Bratu</div><div>Alexandru Trif</div><div>Alpar Rakossy</div><div>Amir Abumushin</div><div>Ana Bugan</div><div>Ana Hojdea</div><div>Anastasia Bacila</div><div>Anastasia Delia Buliga</div><div>Andreea Antonina Matei</div><div>Andreea Dinica</div><div>Andreea Raulea</div><div>Andrei Coadut</div><div>Andrei Grusea</div><div>Andrei Olteanu</div><div>Andrei Rammy</div><div>Andrei-Bogdan Junghiatu</div><div>Anwar Mohamed</div><div>Bianca Lapazan</div><div>Bogdan Duplea</div><div>Bogdan Farcas</div><div>Briana Ionescu</div><div>Catalin Niculae</div><div>Ciprian Fort</div><div>Cosmin Bostan</div><div>Cosmin Ernuteanu</div><div>Cosmin Farcas</div><div>Cosmin Silaghi</div><div>Cosmin Simina</div><div>Crina Dragu</div><div>Damian Rusu</div><div>Daniel Balaban</div><div>Daniel Curta</div><div>Darius Ardelean</div><div>Darius Stana</div><div>Dionysios Filip</div><div>Dragos Szilagyi</div><div>Eduard Floarea</div><div>Eduard Paul</div><div>Eduard Radu</div><div>Emilian-Gabriel Săcuiu</div><div>Fiorindo Beghi</div><div>George Moroșan</div><div>Georgian Dragoi</div><div>Horatiu Pop</div><div>Ionut Oancea</div><div>Ionut Pivoda</div><div>Isabela-Maria Stingu</div><div>Iulia Beatrice</div><div>Karina Ioana Huzu</div><div>Lucian Borza</div><div>Maria Bratilescu</div><div>Marian Astalas</div><div>Mariana Vizante</div><div>Matei Pintilie</div><div>Mădălin Nuică</div><div>Mihai Dumitrescu</div><div>Monica Serban</div><div>Petruț Paiș</div><div>Radu Pipas</div><div>Radu Ticau</div><div>Rares Nicolae</div><div>Raul Sacalean</div><div>Raul Trip</div><div>Robert Fratila</div><div>Robert Icee</div><div>Sebastian Stanescu</div><div>Sel Gabriel</div><div>Sergiu Faur</div><div>Silviu-Bogdan Baba</div><div>Teodor Cernica</div><div>Tudor Stanciu</div><div>Vasi Seretan</div><div>Vasile Mainea</div><div>Victor Macrea</div><div>Vlad Vacariu</div></div>
+  <div class="pf"><span>Lista afiliaților activi din Prime Afiliați, 26.11.2026</span><span>primesupplements.ro</span></div>
+</section>
+
+<!-- 5. CONTACT -->
+<section class="page contact">
+  <img class="bgimg" src="PORTOFOLIU-NATIONAL-2026-11-26-img/crema-de-orez-3.jpg" style="object-position:50% 20%" alt="">
+  <div class="shade"></div>
+  <div class="in">
+    <img class="logo" src="PORTOFOLIU-NATIONAL-2026-11-26-img/logo-prime-alb.svg" alt="Prime Supplements">
+    <p class="kick">Vrei să faci parte din echipă?</p>
+    <h1>Devino sportiv<br><span>Prime Supplements.</span></h1>
+    <div class="cgrid">
+      <div><b>Scrie-ne</b>contact@primesupplements.ro<br>0775 286 584 (și WhatsApp)</div>
+      <div><b>Online</b>primesupplements.ro<br>Instagram · TikTok · Facebook</div>
+      <div><b>Firma</b>PRIME SPORT SUPPLEMENTS SRL<br>CUI 46260823 · Cisnădie, jud. Sibiu</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Propunere: ce schimbăm pe site ca afirmațiile despre certificări să fie legale (26.11.2026) – NEAPLICATĂ, așteaptă „da”
+# Propunere: ce schimbăm pe site ca afirmațiile despre certificări să fie legale (26.11.2026) – DECIS de Marius pe 26.11: §1 aplicat (tema copie, de publicat), §2 rămâne (toate 11 produsele sunt de la același producător), §3 articolele vechi rămân, regula se aplică doar la articolele noi
 
 Cerută de Marius pe 26.11 („vino cu o propunere ce sa modificam pe site sa fim 100% legali, tine minte niciodata nu precizam nimic despre PRONUTRITION”).
 Baza: răspunsul producătorului din `RASPUNS-CERTIFICATE-PRONUTRITION-2026-11-26.md`. Are ISO 22000:2018 (include HACCP), valabil până în 06.2028. **Nu are** TÜV, IFS/BRC, HALAL, Cologne List și nu face analize în plus la private label.

@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<title>Portofoliul sportivilor Prime Supplements</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+<style>
+/* A4 portret, în stilul materialelor Prime: negru, alb, roșu Prime, Poppins. */
+:root {
+  --black: #111111;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --grey: #f4f4f4;
+  --line: #e4e4e4;
+  --muted: #6b6b6b;
+}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body { margin: 0; padding: 0; background: #888; }
+body { font-family: "Poppins", "Segoe UI", Arial, sans-serif; color: var(--black); font-size: 10.5pt; line-height: 1.5; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; background: var(--white); page-break-after: always; break-after: page; margin: 0 auto; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+@media screen { .page { margin: 10mm auto; box-shadow: 0 4px 30px rgba(0,0,0,.3); } }
+h1, h2, h3 { margin: 0; line-height: 1.12; }
+p { margin: 0; }
+.eyebrow { font-size: 8.5pt; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: var(--red); }
+.red { color: var(--red); }
+
+/* --- bandă antet + subsol (pagini interioare) --- */
+.band { height: 22mm; background: var(--black); border-bottom: 1.4mm solid var(--red); display: flex; align-items: center; justify-content: space-between; padding: 0 14mm; }
+.band img { height: 10.5mm; display: block; }
+.band .meta { color: #fff; text-align: right; font-size: 8pt; line-height: 1.45; }
+.band .meta b { font-weight: 700; letter-spacing: .04em; }
+.foot { position: absolute; left: 14mm; right: 14mm; bottom: 8mm; display: flex; justify-content: space-between; font-size: 7.5pt; color: #9a9a9a; }
+.inner { padding: 12mm 14mm 0; }
+
+.sec-title { display: flex; align-items: center; gap: 4mm; font-size: 15pt; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.sec-title::before { content: ""; width: 1.4mm; height: 9mm; background: var(--red); flex: none; }
+
+/* --- copertă --- */
+.cover { background: var(--black); color: #fff; }
+.cover .top { padding: 16mm 16mm 0; display: flex; justify-content: space-between; align-items: flex-start; }
+.cover .top img { height: 15mm; }
+.cover .top .tag { font-size: 8pt; letter-spacing: .2em; text-transform: uppercase; color: #bdbdbd; text-align: right; line-height: 1.7; }
+.cover .copy { padding: 20mm 16mm 0; }
+.cover h1 { font-size: 40pt; font-weight: 800; line-height: 1.04; margin-top: 5mm; letter-spacing: -.01em; }
+.cover .lede { margin-top: 7mm; font-size: 12pt; color: #d6d6d6; max-width: 160mm; line-height: 1.55; }
+.cover .strip { position: absolute; left: 16mm; right: 16mm; bottom: 26mm; height: 112mm; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5mm; }
+.cover .strip div { border-radius: 2.5mm; overflow: hidden; position: relative; }
+.cover .strip img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cover .strip div:nth-child(even) { margin-top: 10mm; }
+.cover .strip div:nth-child(odd) { margin-bottom: 10mm; }
+.cover .bottom { position: absolute; left: 16mm; right: 16mm; bottom: 11mm; display: flex; justify-content: space-between; font-size: 8pt; color: #a8a8a8; border-top: .3mm solid #333; padding-top: 4mm; }
+
+/* --- pagina firmei --- */
+.about { display: grid; grid-template-columns: 1fr; gap: 6mm; }
+.about h2 { font-size: 22pt; font-weight: 800; margin-top: 3mm; }
+.about .txt { font-size: 11pt; color: #2a2a2a; display: grid; gap: 3mm; }
+.bullets { list-style: none; margin: 1mm 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm 8mm; }
+.bullets li { position: relative; padding-left: 6mm; font-size: 10pt; }
+.bullets li::before { content: ""; position: absolute; left: 0; top: 1.6mm; width: 3mm; height: 3mm; border-radius: 50%; background: var(--red); }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 5mm; }
+.card { background: var(--grey); border-top: 1.1mm solid var(--red); border-radius: 0 0 2mm 2mm; padding: 5mm 5mm 5.5mm; }
+.card h3 { font-size: 9.5pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--red); margin-bottom: 2mm; }
+.card p { font-size: 9pt; color: #333; line-height: 1.5; }
+.thanks { margin-top: 8mm; display: grid; grid-template-columns: 1fr 58mm; gap: 8mm; align-items: stretch; }
+.thanks .msg { display: grid; gap: 3mm; align-content: start; }
+.thanks .msg p { font-size: 10.5pt; color: #2a2a2a; }
+.idbox { background: var(--black); color: #fff; border-radius: 2mm; padding: 5mm; font-size: 8.3pt; line-height: 1.6; display: grid; gap: 2mm; align-content: start; }
+.idbox b { font-size: 9pt; }
+.idbox .r { color: var(--red); font-weight: 700; letter-spacing: .14em; font-size: 7.5pt; text-transform: uppercase; }
+
+/* --- lotul pe scurt --- */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 6mm; }
+.stat { background: var(--black); color: #fff; border-radius: 2mm; padding: 4mm 6mm; border-bottom: 1.1mm solid var(--red); }
+.stat .v { font-size: 30pt; font-weight: 800; line-height: 1; }
+.stat .k { font-size: 8pt; letter-spacing: .14em; text-transform: uppercase; color: #bdbdbd; margin-top: 2mm; }
+.sheet { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3mm; margin-top: 7mm; }
+.sheet figure { margin: 0; }
+.sheet .ph { position: relative; aspect-ratio: 1/1.08; border-radius: 1.6mm; overflow: hidden; background: #ddd; }
+.sheet img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sheet .n { position: absolute; left: 1.5mm; top: 1.5mm; background: var(--red); color: #fff; font-size: 7pt; font-weight: 700; padding: .4mm 1.6mm; border-radius: .8mm; }
+.sheet figcaption { font-size: 7.6pt; font-weight: 600; margin-top: 1.4mm; line-height: 1.25; }
+.sheet figcaption span { display: block; font-weight: 400; color: var(--muted); font-size: 6.8pt; }
+.cats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 7mm; }
+.cats .card { padding: 4mm 4mm 4.5mm; }
+.cats .card h3 { font-size: 8pt; letter-spacing: .08em; }
+.cats .card p { font-size: 8pt; }
+
+/* --- pagina unui sportiv --- */
+.ath-top { display: grid; grid-template-columns: 92mm 1fr; gap: 9mm; height: 132mm; }
+.ath-top .photo { position: relative; border-radius: 2.5mm; overflow: hidden; background: #ddd; }
+.ath-top .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ath-top .photo .no { position: absolute; right: 3mm; bottom: 3mm; width: 15mm; height: 15mm; border-radius: 50%; background: #fff; display: grid; place-items: center; text-align: center; font-weight: 800; font-size: 12pt; line-height: 1; box-shadow: 0 1mm 4mm rgba(0,0,0,.35); }
+.ath-top .photo .no small { display: block; font-size: 5pt; font-weight: 600; letter-spacing: .12em; color: #777; margin-top: .6mm; }
+.ath-top .info { display: flex; flex-direction: column; justify-content: center; gap: 4mm; min-width: 0; }
+.idx { font-size: 9pt; font-weight: 700; color: #b5b5b5; letter-spacing: .1em; }
+.idx b { color: var(--red); }
+.ath-top h2 { font-size: 26pt; font-weight: 800; text-transform: uppercase; line-height: 1.02; }
+.pro { align-self: flex-start; background: var(--red); color: #fff; font-size: 7.5pt; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; padding: 1.4mm 3mm; border-radius: 1mm; }
+.ath-top dl { margin: 1mm 0 0; border-top: 1.1mm solid var(--red); }
+.ath-top dl div { display: grid; grid-template-columns: 27mm 1fr; gap: 3mm; padding: 2.4mm 0; border-bottom: .3mm solid var(--line); font-size: 9.3pt; }
+.ath-top dt { color: var(--muted); font-size: 7.6pt; letter-spacing: .08em; text-transform: uppercase; padding-top: .5mm; }
+.ath-top dd { margin: 0; font-weight: 600; }
+.palm { margin-top: 9mm; }
+.palm-list { margin-top: 5mm; columns: 2; column-gap: 9mm; }
+.palm-list .it { break-inside: avoid; display: grid; grid-template-columns: 12mm 1fr; gap: 2.5mm; padding: 1.9mm 0; border-bottom: .3mm solid var(--line); font-size: 8.7pt; line-height: 1.4; }
+.palm-list .y { font-weight: 800; color: var(--red); }
+.palm-list .h { break-inside: avoid; break-after: avoid; font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; padding: 3mm 0 1mm; color: var(--black); }
+.palm-list .h { padding-top: 0; }
+.palm-list.one { columns: 1; max-width: 140mm; }
+.palm-list b { font-weight: 600; }
+.creator { margin-top: 5mm; background: var(--grey); border-top: 1.1mm solid var(--red); border-radius: 0 0 2mm 2mm; padding: 6mm; font-size: 10pt; color: #333; max-width: 140mm; }
+
+/* --- ședința --- */
+.plan .cards { grid-template-columns: 1fr 1fr; margin-top: 7mm; }
+.plan .cards .card p { font-size: 9.6pt; }
+.plan-photos { margin-top: 9mm; height: 100mm; display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+.plan-photos img { width: 100%; height: 100%; object-fit: cover; border-radius: 2.5mm; display: block; }
+
+/* --- închidere --- */
+.close { background: var(--black); color: #fff; }
+.close .wrapc { position: absolute; inset: 0; padding: 18mm 16mm; display: flex; flex-direction: column; }
+.close .wrapc > img { height: 14mm; align-self: flex-start; }
+.close .bigphoto { margin-top: 12mm; height: 105mm; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5mm; }
+.close .bigphoto img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 2.5mm; }
+.close h2 { font-size: 40pt; font-weight: 800; line-height: 1.04; margin-top: 12mm; }
+.close .msg { margin-top: 6mm; font-size: 12pt; color: #d6d6d6; max-width: 160mm; }
+.close .contact { margin-top: auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6mm; border-top: .3mm solid #333; padding-top: 6mm; font-size: 8.6pt; color: #cfcfcf; line-height: 1.6; }
+.close .contact .r { color: var(--red); font-weight: 700; font-size: 7.5pt; letter-spacing: .16em; text-transform: uppercase; display: block; margin-bottom: 1mm; }
+.close .credit { margin-top: 5mm; font-size: 7.3pt; color: #8a8a8a; }
+</style>
+</head>
+<body>
+
+<!-- 1 · COPERTĂ -->
+<section class="page cover">
+  <div class="top">
+    <img src="logo-prime-alb.png" alt="Prime Hardcore Sports Nutrition">
+    <div class="tag">Portofoliu sportivi<br>Noiembrie 2026</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">Portofoliul sportivilor Prime Supplements</div>
+    <h1>Sportivii<br><span class="red">Prime Supplements</span>,<br>pe scenă și în sală.</h1>
+    <p class="lede">14 sportivi din bodybuilding, classic, men's physique, bikini, wellness și fit model, parte din echipa de <b>82 de afiliați activi</b> care recomandă Prime Supplements.</p>
+  </div>
+  <div class="strip" id="cover-strip"></div>
+  <div class="bottom"><span>Prime Sport Supplements SRL · Sibiu · primesupplements.ro</span><span>82 de afiliați activi</span></div>
+</section>
+
+<!-- 2 · CINE SUNTEM -->
+<section class="page">
+  <div class="band">
+    <img src="logo-prime-alb.png" alt="Prime">
+    <div class="meta"><b>PRIME SPORT SUPPLEMENTS SRL</b> · CUI 46260823<br>Cisnădie, Str. Ioan Virgil Ispas 17A, jud. Sibiu<br>0775 286 584 · contact@primesupplements.ro · primesupplements.ro</div>
+  </div>
+  <div class="inner">
+    <div class="about">
+      <div>
+        <div class="eyebrow">Cine suntem</div>
+        <h2>Un brand românesc de suplimente<br>sportive, din <span class="red">Sibiu</span>.</h2>
+      </div>
+      <div class="txt">
+        <p>Prime Supplements s-a născut în sala de forță și a crescut online, pe primesupplements.ro, și în sălile de fitness din țară. Produsele sunt fabricate în Uniunea Europeană, cu etichete în limba română și doar cu mențiuni de sănătate autorizate în UE.</p>
+        <p>Suntem alături de sportivi care urcă pe scenă. Îi ajutăm cu nutriția și îi susținem pe drumul lor, de la pregătire până la competiție.</p>
+      </div>
+      <ul class="bullets">
+        <li><b>55+ produse:</b> proteine, creatină, aminoacizi, pre-workout, vitamine și minerale</li>
+        <li><b>350+ articole</b> de blog despre fiecare produs, doză și moment de administrare</li>
+        <li><b>Săli partenere</b> cu raft Prime Supplements și agent de vânzări dedicat</li>
+        <li><b>Comunitate activă</b> pe Instagram, Facebook, TikTok și YouTube</li>
+        <li><b>82 de afiliați activi:</b> sportivi, antrenori și creatori cu cod personal de reducere</li>
+      </ul>
+    </div>
+
+    <div class="sec-title" style="margin-top:9mm">Echipa noastră de sportivi</div>
+    <div class="cards">
+      <div class="card"><h3>Sportivi cu palmares</h3><p><span class="pro-n">7</span> sportivi cu Pro Card și rezultate la Olympia Amateur, IFBB, NPC și campionatele naționale.</p></div>
+      <div class="card"><h3>Categorii variate</h3><p>Bodybuilding, Classic, Men's Physique, Bikini, Wellness, Fit Model și creatori de conținut.</p></div>
+      <div class="card"><h3>82 de afiliați activi</h3><p>Sportivi, antrenori și creatori care recomandă Prime Supplements comunităților lor, cu codul lor personal.</p></div>
+    </div>
+
+    <div class="thanks">
+      <div class="msg">
+        <div class="sec-title">De ce sportivii aleg Prime Supplements</div>
+        <p>Sportivii noștri muncesc tot anul pentru câteva minute pe scenă. Îi susținem cu nutriția de care au nevoie în pregătire și în competiție, iar ei recomandă Prime Supplements pentru că folosesc produsele zi de zi.</p>
+        <p>În paginile următoare găsiți fiecare sportiv, cu categoria și rezultatele obținute.</p>
+      </div>
+      <div class="idbox">
+        <span class="r">Date de contact</span>
+        <b>Prime Sport Supplements SRL</b>
+        <span>CUI 46260823<br>Cisnădie, jud. Sibiu</span>
+        <span>0775 286 584<br>contact@primesupplements.ro<br>primesupplements.ro</span>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>02 · Cine suntem</span><span>primesupplements.ro</span></div>
+</section>
+
+<!-- 3 · LOTUL PE SCURT -->
+<section class="page">
+  <div class="band"><img src="logo-prime-alb.png" alt="Prime"><div class="meta"><b>PORTOFOLIU SPORTIVI</b><br>Prime Supplements · 2026</div></div>
+  <div class="inner">
+    <div class="eyebrow">Lotul pe scurt</div>
+    <h2 style="font-size:22pt;font-weight:800;margin-top:3mm">14 sportivi, patru grupe de categorii.</h2>
+    <div class="stats">
+      <div class="stat"><div class="v">14</div><div class="k">Sportivi în portofoliu</div></div>
+      <div class="stat"><div class="v" id="pro-count">8</div><div class="k">Sportivi cu Pro Card</div></div>
+      <div class="stat"><div class="v">82</div><div class="k">Afiliați activi</div></div>
+    </div>
+    <div class="sheet" id="sheet"></div>
+    <div class="cats" id="cats"></div>
+  </div>
+  <div class="foot"><span>03 · Lotul pe scurt</span><span>primesupplements.ro</span></div>
+</section>
+
+<div id="athlete-pages"></div>
+
+<!-- ÎNCHIDERE -->
+<section class="page close">
+  <div class="wrapc">
+    <img src="logo-prime-alb.png" alt="Prime">
+    <div class="bigphoto">
+      <img src="../img/georgian-dragoi.jpg" alt="" style="object-position:50% 30%">
+      <img src="../img/crina-andreea.jpg" alt="" style="object-position:50% 25%">
+      <img src="../img/trip-raul.jpg" alt="" style="object-position:50% 25%">
+    </div>
+    <h2>Sportivii<br><span class="red">Prime Supplements.</span></h2>
+    <p class="msg">14 sportivi în acest portofoliu și 82 de afiliați activi în toată țara. Pentru colaborări, ședințe foto sau evenimente, scrie-ne.</p>
+    <div class="contact">
+      <div><span class="r">Firma</span>Prime Sport Supplements SRL<br>CUI 46260823</div>
+      <div><span class="r">Adresă</span>Str. Ioan Virgil Ispas 17A<br>Cisnădie, jud. Sibiu</div>
+      <div><span class="r">Contact</span>0775 286 584<br>contact@primesupplements.ro</div>
+    </div>
+    <div class="credit">Fotografii de concurs: Wings of Strength, Simion Liviu Photo și alți fotografi de eveniment.</div>
+  </div>
+</section>
+
+<script>
+const GROUPS = { bb: "Bodybuilding & Classic", mp: "Men's Physique", bk: "Bikini, Wellness & Fit Model", sm: "Social media" };
+// r: rezultate [an, text]; ["#", titlu] = subtitlu de grupă
+const A = [
+  { n: "Abumushin Amir", g: "bb", cat: "Classic Physique · Men's Physique", ev: "FitParade", no: "287", img: "abumushin-amir.jpg", pos: "50% 18%", r: [
+    ["2023", "Valahia Warriors Championship – <b>locul 2</b> Novice"],
+    ["2024", "Valahia Warriors Championship – <b>locul 1</b> Bodybuilding 80 kg, <b>locul 2</b> Classic Physique Open B"],
+    ["2024", "Romania Muscle Fest – locul 5 Bodybuilding 80 kg, locul 5 Classic Physique Open B"],
+    ["2025", "Olympia Amateur Eastern Europe – locul 5 Classic Physique B"],
+    ["2026", "Austria OAK – locul 6 Men's Physique, locul 6 Classic Physique B"],
+    ["2026", "Olympia Amateur Eastern Europe – <b>locul 2</b> Men's Physique"],
+    ["2026", "Valahia Warriors Championship – <b>locul 1</b> Men's Physique (locul 2 Overall), <b>locul 1</b> Classic Physique B (locul 2 Overall)"],
+    ["2026", "FitParade – locul 5 Classic Physique B"],
+  ]},
+  { n: "Albert Mufturel", g: "bb", cat: "Bodybuilding · Classic Bodybuilding", ev: "IFBB Semi Pro World Championships · Santa Susanna", no: "1343", img: "albert-mufturel-1.jpg", pos: "50% 25%", pro: true, r: [
+    ["2019", "Cupa României culturism – <b>locul 1</b>, 90 kg"],
+    ["2019", "Campionatul Național culturism – <b>locul 2</b>, 90 kg"],
+    ["2020", "Campionatul Național culturism – <b>locul 1</b>, 90 kg"],
+    ["2020", "Campionatul Balcanic – locul 4 Open Master"],
+    ["2021", "Campionatul European Master – <b>locul 2</b> Bodybuilding Classic Master"],
+    ["2021", "Campionatul Mondial – <b>locul 1</b> Bodybuilding Classic + <b>Overall</b>, <b>locul 2</b> culturism 90 kg"],
+    ["2022", "Campionatul European – <b>locul 2</b> culturism 90 kg, <b>locul 2</b> Classic Bodybuilding, <b>locul 2</b> Classic Physique, <b>locul 2</b> Mixed (Paris Open)"],
+    ["2022", "Campionatul Mondial – <b>locul 2</b> Classic Physique, <b>locul 2</b> Bodybuilding +90 kg, <b>locul 3</b> Bodybuilding 90 kg"],
+    ["2026", "IFBB Semi Pro World Championships, Santa Susanna – <b>Overall</b> și <b>IFBB Pro Card</b>"],
+  ]},
+  { n: "Alex Panek", g: "mp", cat: "Men's Physique · Bench Press", ev: "Fotografie de concurs", no: "127", img: "alex-panek.jpg", pos: "50% 22%", pro: true, r: [
+    ["#", "Men's Physique"],
+    ["2018", "Pro Nutrition MS – <b>locul 2</b>"],
+    ["2023", "Olympia Amateur Eastern Europe – <b>Overall</b> și <b>Pro Card</b>"],
+    ["2023", "Olympia Amateur Portugal – <b>locul 2</b>"],
+    ["2023", "Olympia Amateur Italy – <b>locul 2</b>"],
+    ["2024", "Romania Muscle Fest – locul 8"],
+    ["2024", "Prague MP – locul 14"],
+    ["2026", "Romania Muscle Fest – locul 12 Men's Physique PRO"],
+    ["#", "Bench Press"],
+    ["2015", "Bench Press Grand Prix – <b>locul 3</b>, 75 kg"],
+    ["2018", "Bench Press Grand Prix – <b>locul 3</b>, 75 kg"],
+    ["2018", "Pro Nutrition – <b>locul 2</b>, 85 kg"],
+    ["2019", "Pro Nutrition – <b>locul 3</b>, 95 kg"],
+    ["2019", "Codlea Power Cup – <b>locul 2</b>, 95 kg"],
+    ["2019", "Bench Press București – <b>locul 1</b>"],
+    ["", "Romania Muscle Fest Bench Press – <b>locul 2</b>, 95 kg"],
+    ["", "Bench Press Championship Tour – <b>locul 1</b>, 95 kg"],
+  ]},
+  { n: "Ana Cristina Hojdea", g: "bk", cat: "Wellness", ev: "Olympia Amateur Eastern Europe", no: "72", img: "ana-cristina-hojdea.jpg", pos: "50% 20%", pro: true, r: [
+    ["2026", "Olympia Amateur Eastern Europe – <b>Pro Card</b>"],
+    ["2026", "Romania Muscle Fest – <b>Top 5</b> Wellness"],
+    ["2026", "Spanish Grand Prix Pro – locul 7 din 15"],
+  ]},
+  { n: "Borza Lucian", g: "bb", cat: "Bodybuilding", ev: "Olympia Amateur Eastern Europe", no: null, img: "borza-lucian.jpg", pos: "45% 40%", r: [
+    ["2014", "Campionatul Național – <b>locul 3</b>"],
+    ["2015", "Cupa României – <b>locul 1</b> −75 kg + <b>Overall</b>"],
+    ["2016", "Campionatul Național – <b>vicecampion</b>"],
+    ["2017", "Campionatul Național – <b>campion</b> + <b>Overall</b>"],
+    ["2017", "Pro Nutrition GP – <b>locul 1</b> 90+ kg + <b>Overall</b>"],
+    ["2018", "Semtex GP – <b>locul 3</b>"],
+    ["2019", "Dennis James Classic – <b>locul 2</b> Heavyweight"],
+    ["2021", "Mr. O Amateur Spania – <b>locul 2</b> Heavyweight"],
+    ["2022", "Cupa Heredeu – <b>locul 1</b> + <b>Overall</b>"],
+    ["2022", "Semtex GP – <b>locul 1</b>"],
+    ["2024", "Olympia Amateur Italia – <b>locul 3</b>"],
+    ["2024", "Dennis James Classic – <b>locul 1</b> Heavyweight"],
+    ["2025", "ProMuscle Show – <b>locul 2</b> Superheavy"],
+    ["2025", "Bonac Classic – locul 5"],
+    ["2025", "Muscle Show Austria – <b>locul 1</b> Superheavy"],
+    ["2026", "Olympia Amateur Eastern Europe – <b>locul 2</b> Superheavy"],
+    ["2026", "Cupa Heredeu – <b>locul 1</b> + <b>Overall</b>"],
+    ["2026", "Semtex GP – <b>locul 2</b> +90 kg"],
+  ]},
+  { n: "Bugan Anaita", g: "bk", cat: "Bikini Fitness", ev: "Olympia Amateur", no: "28", img: "bugan-anaita.jpg", pos: "50% 20%", r: [
+    ["2021", "Valahia Warriors, Sibiu – <b>locul 2</b>"],
+    ["2022", "Valahia Warriors, Sibiu – <b>locul 3</b>"],
+    ["2023", "Olympia Amateur Eastern Europe, Cluj – locul 6"],
+    ["2023", "INBA România, București – <b>locul 1</b> și <b>locul 2</b>"],
+    ["2023", "Valahia Warriors, Sibiu – <b>locul 2</b> Open, <b>locul 2</b> Novice"],
+  ]},
+  { n: "Cosmin Bostan", g: "bb", cat: "Bodybuilding", ev: "Olympia Amateur Eastern Europe", no: "276", img: "cosmin-bostan.jpg", pos: "50% 22%", pro: true, r: [
+    ["2026", "Olympia Amateur Eastern Europe – <b>IFBB Pro Card</b>"],
+  ]},
+  { n: "Crina Andreea", g: "bk", cat: "Fit Model", ev: "Pro Qualifier", no: "218", img: "crina-andreea.jpg", pos: "48% 30%", r: [
+    ["2026", "OAK Austria – <b>locul 1</b> Novice"],
+    ["2026", "OAK Austria – <b>locul 2</b> Pro Qualifier"],
+    ["2026", "Olympia Amateur București – <b>locul 3</b> Pro Qualifier"],
+  ]},
+  { n: "Georgian Drăgoi", g: "mp", cat: "Men's Physique", ev: "Romania Muscle Fest Pro", no: "136", img: "georgian-dragoi.jpg", pos: "50% 35%", pro: true, r: [
+    ["2023", "Olympia Amateur Cluj – <b>Pro Card</b>"],
+    ["2025", "Romania Muscle Fest – participare în categoria PRO"],
+    ["2026", "Romania Muscle Fest – participare în categoria PRO"],
+  ]},
+  { n: "Horga Roxana", g: "bk", cat: "Fitness Bikini · FRCF", ev: "Fotografie de concurs", no: "48", img: "horga-roxana.jpg", pos: "55% 45%", pro: true, r: [
+    ["2025", "Campionatul Național – <b>locul 1</b>"],
+    ["2025", "Cupa României – <b>locul 1</b>"],
+    ["2025", "Cupa Heredeu – <b>locul 1</b>"],
+    ["2025", "Cupa Federației – <b>locul 1</b>"],
+    ["2025", "Campionatul Mondial – locul 9"],
+    ["2026", "Cupa României – <b>locul 1</b>"],
+    ["2026", "International Grand Prix – <b>locul 1</b> și <b>Pro Card</b>"],
+    ["2026", "Cupa Heredeu – <b>locul 1</b>"],
+    ["2026", "Semtex Grand Prix – <b>locul 1</b>"],
+  ]},
+  { n: "Iulia Beatrice Goagă", short: "Iulia", g: "sm", cat: "Social media influencer", ev: "Ședință foto în sală", no: null, img: "iulia-beatrice-goaga.jpg", pos: "45% 30%", r: null },
+  { n: "Mohamed Anwar", g: "mp", cat: "Men's Physique", ev: "NPC Valahia Warriors", no: "30", img: "mohamed-anwar.jpg", pos: "50% 25%", r: [
+    ["2025", "Valahia Warriors – locul 5 Novice B"],
+    ["2026", "Valahia Warriors – <b>locul 1</b> Novice B"],
+    ["2026", "Valahia Warriors – <b>locul 1</b> Overall Novice"],
+    ["2026", "Valahia Warriors – <b>locul 1</b> Open Men's Physique D"],
+    ["2026", "Valahia Warriors – <b>locul 1</b> Overall Men's Physique"],
+  ]},
+  { n: "Raulea Andreea", short: "Andreea", g: "sm", cat: "Social media influencer", ev: "Cupa României FRCF · Brașov", no: "116", img: "raulea-andreea.jpg", pos: "45% 30%", r: null },
+  { n: "Trip Raul", g: "bb", cat: "Bodybuilding", ev: "Olympia Amateur Eastern Europe", no: "272", img: "trip-raul.jpg", pos: "50% 22%", pro: true, r: [
+    ["2018", "Trofeul Hercule – locul 4 Junior"],
+    ["2021", "Grand Prix Pro Nutrition – <b>locul 2</b> Overall Junior"],
+    ["2022", "Grand Prix Pro Nutrition – locul 5 Juniori 80 kg"],
+    ["2022", "Semtex – <b>locul 2</b> Juniori"],
+    ["2023", "Valahia Warriors Championship – <b>locul 1</b> categoria 90 kg, <b>locul 3</b> Overall"],
+    ["2024", "Romania Muscle Fest – locul 6 Light Heavy"],
+    ["2024", "Austria Muscle Contest – locul 4 Light Heavy"],
+    ["2026", "Empro Classic – locul 6 Heavyweight"],
+    ["", "Olympia Amateur – <b>Overall Winner</b> și <b>IFBB Pro Card</b>"],
+  ]},
+];
+const pad = (i) => String(i).padStart(2, "0");
+const img = (a) => `<img src="../img/${a.img}" alt="${a.n}" style="object-position:${a.pos}">`;
+const band = `<div class="band"><img src="logo-prime-alb.png" alt="Prime"><div class="meta"><b>PORTOFOLIU SPORTIVI</b><br>Prime Supplements · 2026</div></div>`;
+
+// copertă
+const strip = ["abumushin-amir", "bugan-anaita", "cosmin-bostan", "ana-cristina-hojdea", "georgian-dragoi"].map((s) => A.find((a) => a.img === s + ".jpg"));
+document.getElementById("cover-strip").innerHTML = strip.map((a) => `<div>${img(a)}</div>`).join("");
+
+// lotul pe scurt
+document.getElementById("pro-count").textContent = A.filter((a) => a.pro).length;
+document.getElementById("sheet").innerHTML = A.map((a, i) =>
+  `<figure><div class="ph">${img(a)}<span class="n">${pad(i + 1)}</span></div><figcaption>${a.n}<span>${a.cat}</span></figcaption></figure>`).join("");
+document.getElementById("cats").innerHTML = Object.entries(GROUPS).map(([k, v]) => {
+  const names = A.filter((a) => a.g === k).map((a) => a.n);
+  return `<div class="card"><h3>${v} · ${names.length}</h3><p>${names.join(", ")}</p></div>`;
+}).join("");
+
+// o pagină pe sportiv
+let html = "";
+A.forEach((a, i) => {
+  const list = a.r
+    ? `<div class="palm"><div class="sec-title">Palmares</div><div class="palm-list${a.r.length <= 5 ? " one" : ""}">${a.r.map(([y, t]) =>
+        y === "#" ? `<div class="h">${t}</div>` : `<div class="it"><span class="y">${y || "—"}</span><span>${t}</span></div>`).join("")}</div></div>`
+    : `<div class="palm"><div class="sec-title">Creator de conținut</div><div class="creator">${a.short} creează conținut de fitness pe social media. Prezența ei online aduce ședinței foto și video un public tânăr și activ, potrivit pentru reels și materiale de promovare.</div></div>`;
+  html += `<section class="page">${band}
+    <div class="inner">
+      <div class="ath-top">
+        <div class="photo">${img(a)}${a.no ? `<div class="no"><div>${a.no}<small>NR.</small></div></div>` : ""}</div>
+        <div class="info">
+          <div class="idx"><b>${pad(i + 1)}</b> / ${A.length}</div>
+          <div class="eyebrow">${a.cat}</div>
+          <h2>${a.n}</h2>
+          ${a.pro ? `<span class="pro">Pro Card</span>` : ""}
+          <dl>
+            <div><dt>Categorie</dt><dd>${a.cat}</dd></div>
+            <div><dt>În fotografie</dt><dd>${a.ev}</dd></div>
+            <div><dt>Nr. concurs</dt><dd>${a.no || "—"}</dd></div>
+          </dl>
+        </div>
+      </div>
+      ${list}
+    </div>
+    <div class="foot"><span>${pad(i + 4)} · Sportivii</span><span>primesupplements.ro</span></div>
+  </section>`;
+});
+document.getElementById("athlete-pages").outerHTML = html;
+document.querySelectorAll(".pro-n").forEach(e => e.textContent = A.filter(a => a.pro).length);
+</script>
+</body>
+</html>

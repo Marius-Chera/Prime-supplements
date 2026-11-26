@@ -71,6 +71,7 @@ Cursul folosit este **4,50 lei/$**. L-am calculat din facturi: 1% din încasări
 
 **Cât ne costă de fapt o plată cu cardul azi:**
 - Netopia ia ≈ 1,89% cu TVA, adică 669,52 lei din 35.377,56 lei procesați, după rapoartele reale importate în Prime Expediere pe 13.11. Fără TVA e ≈ 1,56%.
+  - **Mărirea de la 29.09.2026** (verificat 26.11 în CSV-urile Netopia): până pe 28.09 comisionul era 1,19% + 0,30 lei/plată, fără TVA; din 29.09 fiecare plată are o linie în plus de 0,35% + TVA 21% (≈ +0,42%). Nu avem rapoarte mai vechi de 27.09.
 - Shopify mai adaugă 1%.
 - **Total ≈ 2,9% pe plată** (≈ 2,56% dacă TVA-ul de pe comisionul Netopia se deduce).
 

@@ -81,3 +81,12 @@ Căutăm adresele de e-mail (Oblio, apoi surse publice), facem un test către Ma
 - **Trimitem la 44 de firme:** cele 31 „Gata de trimis”, plus soldurile vechi și sumele mari care nu erau în filtru (3, 11, 14, 15, 16, 29, 36, 40, 44, 45, 47, 48, 49).
 - **Nu trimitem:** la cele 4 PFA (4, 25, 39, 46) și la cele 6 solduri foarte mici (7, 23, 33, 35, 51, 54; total 140,24 lei). Pe acestea le închide contabila, după ce verifică extrasele (vezi propunerea către Eurotax).
 - Mailul către Eurotax pentru închiderea celor 6 solduri mici îl trimite **Adelina** (Marius, 26.11). Textul e cel propus în sesiunea din 26.11.
+
+## Adresele de e-mail (26.11, seara)
+Le-am luat din clienții Shopify (pe care e trecută firma sau CUI-ul) și din surse publice: termenii și politica de confidențialitate a sălilor (cu CUI-ul), eMAG, site-urile cluburilor. Tabelul complet, cu toate adresele și sursa fiecăreia, e local: `D:\Prime Supplements\contabilitate-saga\confirmari-sold-2026-10-31\adrese-email-44-firme.tsv`.
+- **31 de firme au o adresă sigură** (pagina arată același CUI sau aceeași firmă, sau e clientul Shopify cu firma trecută pe el).
+- **Sigură pe jumătate:** Anaeli Food (doar dintr-un anunț), Unic Gym (office@unicgym.ro, site fără CUI).
+- **Nesigure:** Mandra Sibiu Cisnădie (site-ul e al Carpalat SRL), Vladgym47 (aceeași adresă ca Hera Cardio / MTM Gym).
+- **Fără adresă (10):** 3 Fitness Performer, 15 Extrem-Nicola-Sport, 16 Farmacia Perfect Care, 18 Game Spot Casino, 26 Kappa System, 32 Mednatural Supliment, 37 Olimpic Fitnes Star, 38 Ovi Gym Moto, 44 Level Max Instal, 48 Teo & Co.
+- Același grup: Celsius Studio și SAS Gym (office@sasgym.ro); Cybex, Gym Two și GymOne (Gym One Timișoara); Kom Gym și Komfitt (komfitness.ro).
+- Următorul pas: Oblio (adresele de facturare). Marius trebuie să se logheze în Chrome, pentru că e delogat.

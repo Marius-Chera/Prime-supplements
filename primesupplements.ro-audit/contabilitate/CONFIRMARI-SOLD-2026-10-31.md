@@ -76,3 +76,7 @@ Fiecare PDF are numele firmei, CUI-ul și facturile neachitate. Total: **218.676
 
 ## Următorul pas (așteaptă „da”)
 Căutăm adresele de e-mail (Oblio, apoi surse publice), facem un test către Marius și Adelina, apoi trimitem.
+
+## Decizia lui Marius (26.11, seara)
+- **Trimitem la 44 de firme:** cele 31 „Gata de trimis”, plus soldurile vechi și sumele mari care nu erau în filtru (3, 11, 14, 15, 16, 29, 36, 40, 44, 45, 47, 48, 49).
+- **Nu trimitem:** la cele 4 PFA (4, 25, 39, 46) și la cele 6 solduri foarte mici (7, 23, 33, 35, 51, 54; total 140,24 lei). Pe acestea le închide contabila, după ce verifică extrasele (vezi propunerea către Eurotax).

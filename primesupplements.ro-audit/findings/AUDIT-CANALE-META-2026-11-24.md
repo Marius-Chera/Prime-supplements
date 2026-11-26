@@ -46,3 +46,18 @@ Active pe site, nepublicate pe canalul Facebook & Instagram (deci lipsesc din re
 2. **Măsurarea vânzărilor:** Pixel + Conversions API spun Meta ce reclamă a adus o comandă. Fără ele Meta nu știe pe cine să targeteze; cu dublări (P1) învață greșit.
 3. **Publicuri:** vizitatori, coș abandonat, cumpărători (de exclus din campaniile reci).
 4. **Ce NU face în România:** shop pe Facebook/Instagram, etichete de produs, checkout în aplicație – indisponibile (Commerce Manager: „Shops isn't available in your country”, vezi `INSTAGRAM-SHOPPING-2026-11-24.md`).
+
+## Verificare D11 – 26.11.2026 (după deconectarea pixelului SIMPROSYS din Customer events, 24.11)
+
+**Dublarea NU a dispărut.** Comparat Purchase din Events Manager (pixelul 593997668868274, ora României) cu comenzile Shopify din aceeași zi:
+
+| Zi | Purchase în Meta | Comenzi Shopify | Raport |
+|---|---|---|---|
+| 22.11 | 33 | 13 | 2,5 |
+| 23.11 | 37 | 16 | 2,3 |
+| 24.11 | 46 | 18 | 2,6 |
+| 25.11 (prima zi întreagă după schimbare) | 50 | 20 | 2,5 |
+
+Defalcarea pe 25.11: **server 18** (cât comenzile: Conversions API trimis de canalul Shopify, corect) + **browser 32**. Evenimentele din browser nu se deduplică cu cele de pe server. Deci mai există cel puțin încă o sursă de Purchase în browser. Pe site încă rulează embed-ul aplicației Simprosys (`simprosys-google-shopping-feed/blocks/core_settings_block`), iar în Simprosys „Meta Pixel Event Tracking” era „Active”. Aceasta e cauza cea mai probabilă.
+
+**Pasul următor (planul din 24.11, doar cu „da” de la Marius):** Simprosys → Pixels and tracking → Meta Pixel Event Tracking → dezactivare. Pagina cere „Login with Facebook”, deci o face Marius sau o facem împreună, cu el de față. Google Ads și GA4 din Simprosys rămân neatinse. Verificare după 2–3 zile: Purchase în Meta ≈ comenzile Shopify (raport ~1,0).

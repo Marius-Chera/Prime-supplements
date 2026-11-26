@@ -90,3 +90,9 @@ Le-am luat din clienții Shopify (pe care e trecută firma sau CUI-ul) și din s
 - **Fără adresă (10):** 3 Fitness Performer, 15 Extrem-Nicola-Sport, 16 Farmacia Perfect Care, 18 Game Spot Casino, 26 Kappa System, 32 Mednatural Supliment, 37 Olimpic Fitnes Star, 38 Ovi Gym Moto, 44 Level Max Instal, 48 Teo & Co.
 - Același grup: Celsius Studio și SAS Gym (office@sasgym.ro); Cybex, Gym Two și GymOne (Gym One Timișoara); Kom Gym și Komfitt (komfitness.ro).
 - Următorul pas: Oblio (adresele de facturare). Marius trebuie să se logheze în Chrome, pentru că e delogat.
+
+## Completare din Oblio (26.11, seara)
+Am citit toți cei 3.837 de clienți din nomenclatorul Oblio (doar citire) și le-am găsit pe toate cele 44 de firme după CUI. Adresa din Oblio e trecută în coloana `email_oblio` a tabelului local.
+- **Completate din Oblio:** Game Spot Casino (gregeradina@yahoo.com), Teo & Co (stojecstefania5@gmail.com), Extrem-Nicola-Sport (alexandracozma3@gmail.com; în Oblio scrie greșit „www.” în față). Anaeli Food e confirmată (anaeli.food@gmail.com).
+- **Adrese de nefolosit din Oblio:** la Olimpic Fitnes Star e luciansuci99@gmail.com (Suci Lucian, care pleacă). La SAS Gym și Mednatural e aceeași adresă, fit24alexandru@yahoo.com, deci probabil a unui om de vânzări, nu a firmei. La Kemo și Virtual Host e adresa lui Marius.
+- **Tot fără adresă:** 3 Fitness Performer, 16 Farmacia Perfect Care, 26 Kappa System, 38 Ovi Gym Moto, 44 Level Max Instal, plus 37 Olimpic Fitnes Star (are doar adresa lui Suci) și 32 Mednatural (are doar adresa comună cu SAS Gym).

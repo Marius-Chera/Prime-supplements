@@ -64,7 +64,7 @@ ${extra}
     <div class="stats">
       <div><b>${total}</b><span>afiliați activi</span></div>
       <div><b>3</b><span>sportivi în ședințele foto 2026</span></div>
-      <div><b>1</b><span>fondator IFBB Pro</span></div>
+      <div><b>10</b><span>carduri IFBB Pro obținute de sportivii pregătiți de fondator</span></div>
       <div><b>10%</b><span>reducere cu codul fiecărui sportiv</span></div>
     </div>
   </div>
@@ -85,7 +85,7 @@ ${extra}
   </div>
   <div class="founder">
     <img src="${IMG}/logo-prime-alb.svg" alt="" style="width:100%;max-width:52mm">
-    <div><span class="r">Fondator și antrenor</span><b>Marius Chera</b>Sportiv IFBB Pro și antrenor de culturism cu peste 15 ani de experiență, lector la cursurile de instructori ale Federației Române de Culturism și Fitness. A pregătit sportivi care au obținut carduri PRO și titluri europene și mondiale. Fiecare produs Prime Supplements trece mai întâi prin sala lui.</div>
+    <div><span class="r">Fondator și antrenor</span><b>Marius Chera</b>Fost sportiv de performanță (vicecampion la Mr. Olympia Amateur Spania 2016, până la 90 kg) și antrenor de culturism, în culturism din 2009; lector la cursurile de instructori ale Federației Române de Culturism și Fitness. Sportivi pregătiți de el au obținut carduri PRO în organizația NPC și titluri europene și mondiale IFBB. Fiecare produs Prime Supplements trece mai întâi prin sala lui.</div>
   </div>
   <div class="pf"><span>Sportivii apar cu acordul lor, în baza colaborării cu Prime Supplements.</span><span>primesupplements.ro</span></div>
 </section>

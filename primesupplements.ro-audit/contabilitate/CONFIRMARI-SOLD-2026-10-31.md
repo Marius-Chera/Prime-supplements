@@ -96,3 +96,11 @@ Am citit toți cei 3.837 de clienți din nomenclatorul Oblio (doar citire) și l
 - **Completate din Oblio:** Game Spot Casino (gregeradina@yahoo.com), Teo & Co (stojecstefania5@gmail.com), Extrem-Nicola-Sport (alexandracozma3@gmail.com; în Oblio scrie greșit „www.” în față). Anaeli Food e confirmată (anaeli.food@gmail.com).
 - **Adrese de nefolosit din Oblio:** la Olimpic Fitnes Star e luciansuci99@gmail.com (Suci Lucian, care pleacă). La SAS Gym și Mednatural e aceeași adresă, fit24alexandru@yahoo.com, deci probabil a unui om de vânzări, nu a firmei. La Kemo și Virtual Host e adresa lui Marius.
 - **Tot fără adresă:** 3 Fitness Performer, 16 Farmacia Perfect Care, 26 Kappa System, 38 Ovi Gym Moto, 44 Level Max Instal, plus 37 Olimpic Fitnes Star (are doar adresa lui Suci) și 32 Mednatural (are doar adresa comună cu SAS Gym).
+
+## Mailul pregătit (26.11, NETRIMIS – așteaptă verificarea lui Marius)
+Marius: „pregătește întâi dar nu trimite până nu verific”. Sunt 37 de mailuri (sold total 195.179,58 lei), câte unul pe firmă, cu PDF-ul ei atașat. Pleacă de pe contact@, cu CC marius.chera@yahoo.com și adelina.chera@gmail.com. Pentru Muscle Shop e o variantă cu propunere de compensare. Termenul de răspuns propus e 10.12.2026.
+Fișiere locale:
+- `D:\Prime Supplements\contabilitate-saga\confirmari-sold-2026-10-31\PREVIZUALIZARE-CONFIRMARI-SOLD.html` (de verificat)
+- `plan-trimitere.json` (Către, CC, subiect, text, PDF)
+
+Subiect: „Confirmare sold la 31.10.2026 – <FIRMĂ> / PRIME SPORT SUPPLEMENTS SRL”. Textul cere: (1) confirmarea soldului sau semnalarea diferențelor; (2) fișa de cont a PRIME SPORT SUPPLEMENTS SRL din contabilitatea lor (01.01–31.10.2026), pentru punctaj. Precizează și că plățile de după 31.10 nu apar în document.

@@ -183,5 +183,25 @@
   "data": "2026-11-19",
   "pagina": "Creatină Creapure® (reclame)",
   "ce": "Campania Meta „[NOU] 3 Creatina Creapure – public nou” (24 lei/zi) a fost pornită pe 19.11 (JURNAL.md, 19.11). Factor perturbator pentru săptămânile de după 16.11, nu o schimbare pe pagină."
+ },
+ {
+  "data": "2026-11-22",
+  "pagina": "Toate paginile de creatină (măsurare)",
+  "ce": "Săptămâna 16–22.11 (a cincea „după”, prima la prețuri normale): 8 vizite din Google fără etichetă de reclamă pe cele 4 pagini (în intervalul „înainte” 2–16). Comenzile cu creatină au revenit la 23 (interval 12–27) după două săptămâni peste maxim (41 și 34) la prețuri reduse; din căutare 8 (interval 4–14). Tot magazinul a avut o săptămână slabă (97 de comenzi, 2.028 de vizite), iar cota creatinei din comenzi a fost 23,7 % (interval 13,8–26,2 %). Încă nicio schimbare confirmată din SEO."
+ },
+ {
+  "data": "2026-11-24",
+  "pagina": "Toate paginile de produs (tema magazinului)",
+  "ce": "A fost publicată tema „Prime – schema articole + FAQ (24.11)” (JURNAL.md, 24.11): pagina Creatină Creapure® are acum date structurate FAQPage, pe lângă BreadcrumbList; articolele au BreadcrumbList și FAQPage. Textul vizibil și câmpurile SEO ale paginilor de creatină nu s-au schimbat (Admin API, 26.11)."
+ },
+ {
+  "data": "2026-11-25",
+  "pagina": "Tot magazinul (promoție)",
+  "ce": "Late Black Friday: codul LATEBF20, 20 % reducere la produsele eligibile, valabil 25–28.11, anunțat prin e-mail, SMS și rețele sociale (JURNAL.md, 23.11). Factor perturbator pentru comenzile din săptămâna 23–29.11, nu o schimbare pe pagină."
+ },
+ {
+  "data": "2026-11-26",
+  "pagina": "Pagini de creatină (verificat în Shopify)",
+  "ce": "Shopify arată „actualizat” pe 25–26.11 la Creapure® (26.11), micronizată (26.11), plicuri (25.11) și colecție (26.11). Verificat în aceeași zi: titlurile SEO, meta descrierile, textele alternative, șabloanele și datele câmpurilor de conținut sunt neschimbate (ultimele modificări de conținut: Creapure® 16.11, micronizată și colecție 15–23.10); la Creapure® s-au actualizat doar câmpurile de recenzii (26.11). Prețuri normale: Creapure® 500 g 180 lei, 300 g 115 lei, micronizată 98 lei, cutia de plicuri 110 lei. Stoc: Creapure® 500 g 6 buc. (11 pe 19.11), 300 g 170, micronizată 196; plicuri Blue Moon cutie 2, Pink Madness cutie 0. Niciun articol despre creatină publicat sau modificat în 19–26.11."
  }
 ]

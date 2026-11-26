@@ -1,0 +1,660 @@
+{
+ "_sursa": "SAGA C (Eurotax), facturi de vânzare 01.01.2025–31.10.2026 către firme cu CUI, total pozitiv; fără persoane fizice, PFA/II și agentul de vânzări. Brandul sălii: din denumirea firmei + cercetare web 26.11.2026. Fără sume.",
+ "_tipuri": "lant = lanț de săli; sala = sală / studio; club = club sportiv sau asociație; magazin = magazin / distribuitor / farmacie",
+ "firme_pe_judet": {
+  "AB": 6,
+  "AG": 4,
+  "AR": 5,
+  "B": 21,
+  "BC": 2,
+  "BH": 8,
+  "BN": 4,
+  "BR": 1,
+  "BV": 5,
+  "BZ": 2,
+  "CJ": 6,
+  "CT": 8,
+  "DB": 2,
+  "DJ": 3,
+  "GJ": 1,
+  "GL": 4,
+  "GR": 1,
+  "IF": 10,
+  "IL": 1,
+  "IS": 4,
+  "MH": 2,
+  "MM": 10,
+  "MS": 2,
+  "OT": 2,
+  "PH": 2,
+  "SB": 37,
+  "SJ": 1,
+  "SM": 2,
+  "TM": 8,
+  "VL": 3,
+  "VN": 2
+ },
+ "firme_total": 169,
+ "facturi_pj": 1635,
+ "parteneri": [
+  [
+   "Stay Fit Gym",
+   "București",
+   "B",
+   "lant",
+   1,
+   "peste 50 de săli în țară"
+  ],
+  [
+   "Downtown Fitness",
+   "București",
+   "B",
+   "sala",
+   1,
+   "club + SPA"
+  ],
+  [
+   "SAS Gym",
+   "București",
+   "B",
+   "lant",
+   1,
+   "2 săli în București"
+  ],
+  [
+   "KomFitness & Spa",
+   "București · Popești-Leordeni",
+   "B",
+   "lant",
+   1,
+   "rețea de săli și SPA"
+  ],
+  [
+   "Urban Fitness & Gym",
+   "București",
+   "B",
+   "sala",
+   0
+  ],
+  [
+   "Mira Fit",
+   "București",
+   "B",
+   "sala",
+   0
+  ],
+  [
+   "CS Rapid București",
+   "București",
+   "B",
+   "club",
+   1
+  ],
+  [
+   "Club Sportiv Aspol",
+   "București",
+   "B",
+   "club",
+   0
+  ],
+  [
+   "Muscle Shop",
+   "București",
+   "B",
+   "magazin",
+   0
+  ],
+  [
+   "Nutrafit Distributions",
+   "București",
+   "B",
+   "magazin",
+   0
+  ],
+  [
+   "Farmacia Perfect Care",
+   "București",
+   "B",
+   "magazin",
+   0
+  ],
+  [
+   "Columbia Fitness Brothers",
+   "Bragadiru",
+   "IF",
+   "sala",
+   0
+  ],
+  [
+   "Laur Personal Fit",
+   "Afumați",
+   "IF",
+   "sala",
+   0
+  ],
+  [
+   "CS Andrei Stoica",
+   "Bragadiru",
+   "IF",
+   "club",
+   0
+  ],
+  [
+   "Gym One",
+   "Timișoara",
+   "TM",
+   "lant",
+   1,
+   "7 săli în Timișoara"
+  ],
+  [
+   "CS MN Fit",
+   "Timișoara",
+   "TM",
+   "club",
+   0
+  ],
+  [
+   "Fitness Gym Blum",
+   "Timiș",
+   "TM",
+   "sala",
+   0
+  ],
+  [
+   "Farmacia Propharm",
+   "Timișoara",
+   "TM",
+   "magazin",
+   0
+  ],
+  [
+   "Aria Sibiu",
+   "Sibiu",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Evo Gym",
+   "Sibiu",
+   "SB",
+   "lant",
+   1,
+   "2 săli în Sibiu"
+  ],
+  [
+   "Fitnesswelt",
+   "Cisnădie",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Unic Gym",
+   "Sibiu",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Iron Gym",
+   "Sibiu",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Wolf Gym",
+   "Sibiu",
+   "SB",
+   "sala",
+   0
+  ],
+  [
+   "Manea Fitness",
+   "Sibiu",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Enjoy It Club",
+   "Mediaș",
+   "SB",
+   "sala",
+   1
+  ],
+  [
+   "Apotheka",
+   "Mediaș",
+   "SB",
+   "magazin",
+   0
+  ],
+  [
+   "Phoenix Personal Training Studio",
+   "Sibiu",
+   "SB",
+   "sala",
+   0
+  ],
+  [
+   "Infinity EMS",
+   "Sibiu",
+   "SB",
+   "sala",
+   0
+  ],
+  [
+   "Stefano Sport",
+   "Sibiu",
+   "SB",
+   "magazin",
+   0
+  ],
+  [
+   "FC Hermannstadt",
+   "Sibiu",
+   "SB",
+   "club",
+   1
+  ],
+  [
+   "CSU Sibiu",
+   "Sibiu",
+   "SB",
+   "club",
+   1
+  ],
+  [
+   "CSM Sibiu",
+   "Sibiu",
+   "SB",
+   "club",
+   1
+  ],
+  [
+   "CSȘ Șoimii Sibiu",
+   "Sibiu",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Măgura Cisnădie",
+   "Cisnădie",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Comunal 1599 Șelimbăr",
+   "Șelimbăr",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Centurion",
+   "Sibiu",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Brothers Lăcătuș",
+   "Sibiu",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Eduard Paul",
+   "Sibiu",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "CS Alpha Sport Team",
+   "Sibiu",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "Star Mediaș",
+   "Mediaș",
+   "SB",
+   "club",
+   0
+  ],
+  [
+   "18GYM",
+   "Târgu Mureș",
+   "MS",
+   "lant",
+   1,
+   "Târgu Mureș · Sibiu · Satu Mare"
+  ],
+  [
+   "Crișan Fit Gym",
+   "Mureș",
+   "MS",
+   "sala",
+   0
+  ],
+  [
+   "Heredeu Gym",
+   "Oradea",
+   "BH",
+   "sala",
+   1
+  ],
+  [
+   "Oxygen Gym",
+   "Oradea",
+   "BH",
+   "lant",
+   1,
+   "4 săli în Oradea"
+  ],
+  [
+   "CSU Oradea",
+   "Oradea",
+   "BH",
+   "club",
+   1
+  ],
+  [
+   "Olimpic Fitness",
+   "Bistrița-Năsăud",
+   "BN",
+   "sala",
+   1
+  ],
+  [
+   "21 Fitness",
+   "Bistrița",
+   "BN",
+   "sala",
+   1
+  ],
+  [
+   "Akari Gym",
+   "Bistrița",
+   "BN",
+   "sala",
+   0
+  ],
+  [
+   "TNT Fitness",
+   "Bistrița",
+   "BN",
+   "sala",
+   0
+  ],
+  [
+   "IQ Fit",
+   "Sighetu Marmației",
+   "MM",
+   "sala",
+   1
+  ],
+  [
+   "Extrem Nicola Sport",
+   "Baia Mare",
+   "MM",
+   "sala",
+   1
+  ],
+  [
+   "AYO Gym",
+   "Baia Mare",
+   "MM",
+   "club",
+   0
+  ],
+  [
+   "MedNatural",
+   "Maramureș",
+   "MM",
+   "magazin",
+   0
+  ],
+  [
+   "Sun Gym",
+   "Alba Iulia",
+   "AB",
+   "sala",
+   1
+  ],
+  [
+   "Ovi Gold Gym",
+   "Sebeș",
+   "AB",
+   "sala",
+   1
+  ],
+  [
+   "Ciury Fitness Gym",
+   "Alba",
+   "AB",
+   "sala",
+   0
+  ],
+  [
+   "United Fitness",
+   "Pitești",
+   "AG",
+   "sala",
+   1,
+   "sală non-stop"
+  ],
+  [
+   "WLI Team Fitness",
+   "Pitești",
+   "AG",
+   "sala",
+   0
+  ],
+  [
+   "Madagym",
+   "Cluj-Napoca",
+   "CJ",
+   "sala",
+   0
+  ],
+  [
+   "Evolve Fitness Studio",
+   "Cluj-Napoca",
+   "CJ",
+   "sala",
+   0
+  ],
+  [
+   "Proteintogo",
+   "Constanța",
+   "CT",
+   "magazin",
+   0
+  ],
+  [
+   "B Max Fit",
+   "Galați",
+   "GL",
+   "sala",
+   0
+  ],
+  [
+   "Fitness Shop",
+   "Galați",
+   "GL",
+   "magazin",
+   0
+  ],
+  [
+   "CS Delphin Energy",
+   "Galați",
+   "GL",
+   "club",
+   0
+  ],
+  [
+   "Area 51 Gym",
+   "Brașov",
+   "BV",
+   "sala",
+   0
+  ],
+  [
+   "Hera Cardio System",
+   "Iași",
+   "IS",
+   "sala",
+   0
+  ],
+  [
+   "VladGym47",
+   "Iași",
+   "IS",
+   "sala",
+   0
+  ],
+  [
+   "Gold Fitbox",
+   "Craiova",
+   "DJ",
+   "magazin",
+   0
+  ],
+  [
+   "Pantera Academy Boxing",
+   "Craiova",
+   "DJ",
+   "club",
+   0
+  ],
+  [
+   "Drobeta Fit",
+   "Drobeta-Turnu Severin",
+   "MH",
+   "sala",
+   1
+  ],
+  [
+   "City Gym · Urban Fitness",
+   "Bacău",
+   "BC",
+   "lant",
+   1,
+   "rețea de săli"
+  ],
+  [
+   "Matrix Fitness Center",
+   "Olt",
+   "OT",
+   "sala",
+   0
+  ],
+  [
+   "TAV Gym",
+   "Buzău",
+   "BZ",
+   "sala",
+   0
+  ],
+  [
+   "Natural Xbody District",
+   "Buzău",
+   "BZ",
+   "sala",
+   0
+  ],
+  [
+   "Ghinea Club Fitness",
+   "Târgoviște",
+   "DB",
+   "sala",
+   0
+  ],
+  [
+   "FC Chindia Târgoviște",
+   "Târgoviște",
+   "DB",
+   "club",
+   1
+  ],
+  [
+   "The Fit Stop",
+   "Brăila",
+   "BR",
+   "sala",
+   1
+  ],
+  [
+   "SCM Râmnicu Vâlcea",
+   "Râmnicu Vâlcea",
+   "VL",
+   "club",
+   1
+  ],
+  [
+   "CS Vâlcea 1924",
+   "Râmnicu Vâlcea",
+   "VL",
+   "club",
+   0
+  ],
+  [
+   "Vasi & Cris Gym",
+   "Satu Mare",
+   "SM",
+   "sala",
+   1
+  ],
+  [
+   "Best Gym Fitness Center",
+   "Sălaj",
+   "SJ",
+   "sala",
+   0
+  ],
+  [
+   "Boa Fit Gym",
+   "Ineu",
+   "AR",
+   "sala",
+   0
+  ],
+  [
+   "Protein Expert",
+   "Arad",
+   "AR",
+   "magazin",
+   0
+  ],
+  [
+   "CFT Juventus Focșani",
+   "Focșani",
+   "VN",
+   "club",
+   0
+  ],
+  [
+   "Gorilla Gym",
+   "Craiova",
+   "DJ",
+   "sala",
+   1
+  ],
+  [
+   "Be Fit One",
+   "Iași",
+   "IS",
+   "magazin",
+   0
+  ]
+ ]
+}

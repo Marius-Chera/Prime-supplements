@@ -73,3 +73,32 @@ Cât timp o zi nu e sincronizată, profitul ei se **estimează** din Z (÷1,18; 
    - **angajați + proprietari:** „comanda X e de trimis azi”, produse care expiră în 7 zile.
    - **angajați:** la 19:00, dacă închiderea zilei nu e completată.
    - Declanșarea: cron-ul Total Admin (la 5 minute) apelează `StoreTick` din Prime Store (service binding); fiecare notificare pleacă o singură dată.
+
+## Costurile fixe din Total Admin (27.11, cerut de Marius)
+„Prime Store să preia automat și să introducă la cheltuieli fixe factura de la Piețe și salariul angajatei Claudia, factura de la Digi împărțită la 2 … din factura de la Orange 10 euro pe lună cu TVA e costul de telefonie.”
+
+| Cost | De unde (Total Admin) | Cât intră în Prime Store | Categoria |
+|---|---|---|---|
+| Piețe Sibiu (CUI 27249764) | facturile din SPV / e-mail contact@ | integral (chiria + utilitățile magazinului) | Chirie |
+| Digi (CUI 5888716) | idem | 50 % (cealaltă jumătate e a depozitului) | Utilități |
+| Orange (CUI 9010105) | idem | 10 € cu TVA × cursul EUR din ziua facturii (BCE) | Utilități |
+| Salariul Claudiei | plata din extrasul BT (beneficiar „CLAUDIA”) | brut + CAM 2,25 %; brutul din SAGA: 4.913 lei la 3.000 lei rest de plată = 5.023,54 lei/lună | Salarii |
+
+- Luna salariului = luna dinaintea plății (lichidarea vine pe ~15). Dacă suma plătită diferă de netul din setare, brutul se estimează proporțional și scrie „verifică statul de plată”. Setarea (nume, cuvinte din extras, brut, net) se schimbă din Cheltuieli → „Salariul angajatei”.
+- TVA-ul de pe facturi e trecut 21 % (presupus); se corectează din „Corectează”.
+- Fără dubluri:
+  - fiecare factură și fiecare lună de salariu se iau o singură dată;
+  - aceeași factură din SPV și din e-mail intră o dată;
+  - ce e trecut de mână în aceeași lună (furnizorul în furnizor/descriere, salariul cu numele angajatei) se sare, cu motivul afișat;
+  - ce șterge proprietarul nu revine;
+  - costul fix estimat din aceeași categorie nu se mai adună în lunile cu costuri reale din Total Admin.
+- Preluarea rulează singură la cel mult 6 ore (tick-ul din cron-ul Total Admin) și se poate porni oricând cu „Preia acum” din Cheltuieli. Angajata nu vede aceste rânduri.
+- Tehnic:
+  - Total Admin: `src/rpc-store.ts` → `CosturiPentruStore.costuri(de, pana, {cifs, nume, salariu})`, doar citire; partea pură e în `src/costuri-store.ts`.
+  - Prime Store: `src/costuri-ta.ts` (reguli, `candidati`, `dublura`, `sincronizeazaCosturi`), binding-ul `TOTAL_ADMIN_COSTURI`, tabelul `importuri_ta` (migrarea 0005).
+  - Furnizorii și cotele se schimbă în `REGULI`.
+- Prima preluare live (27.11):
+  - salariu: august 2.630,89 lei (corectat după SAGA), septembrie și octombrie 5.023,54 lei;
+  - octombrie: Piețe 1.821,13, Digi 107,40, Orange 53,31 lei;
+  - noiembrie: Piețe 1.683,04, Digi 107,67, Orange 53,49 lei.
+  - August–septembrie nu au facturi Piețe/Digi/Orange în Total Admin (SPV importat de la octombrie): se trec de mână sau se importă SPV-ul acelor luni în Total Admin. Salariul din noiembrie vine după plata din decembrie.

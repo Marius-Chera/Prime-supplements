@@ -2564,3 +2564,29 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Marius a trecut contul Cloudflare Prime pe **Workers Paid (5 $/lună)**: citirile D1 au revenit imediat.
 - Aplicat în D1 `prime-store` doar migrarea `0004_index_vanzari.sql` (indexurile `oblio_vanzari(produs_id, data)` și `oblio_profit_zi(data)`), trecută și în `d1_migrations`. Migrarea `0005` (lucru în curs al altei sesiuni) neatinsă.
 - De verificat: comenzile din intervalul blocat (seara 27.11) au primit puncte (Prime Puncte) și comision (Prime Afiliați)?
+
+## 2026-11-27 – Prime Store ← Total Admin: costurile fixe ale magazinului se preiau singure
+- Cererea lui Marius: „conectează Total Admin cu aplicația Prime Store, ca Prime Store să preia automat și să introducă la cheltuieli fixe factura de la Piețe și salariul angajatei Claudia, factura de la Digi împărțită la 2, jumate la depozit jumate la magazin, din factura de la Orange 10 euro pe lună cu TVA e costul de telefonie (factura de la Piețe este doar chiria și factura cu utilitățile de la magazin)”.
+- **Total Admin** (`prime-expediere`, commit `bf6f273`): doar un RPC nou de citire, `CosturiPentruStore` (service binding, nu e accesibil din internet). Dă facturile Piețe Sibiu (CUI 27249764), Digi (5888716) și Orange (9010105) din SPV și din e-mailul contact@, cu cursul EUR din ziua facturii (BCE, aceeași sursă ca la Facturi; ex. 16.11: 5,3493). Dă și plățile de salariu din extrasele BT al căror beneficiar conține „CLAUDIA”. Fluxurile existente nu s-au schimbat.
+- **Prime Store** (`prime-store`, commit-uri `de5e2b0` și `98b0924`, migrarea `0005_costuri_total_admin.sql`), reguli:
+  - Piețe: integral, categoria Chirie (chiria + utilitățile magazinului).
+  - Digi: 50 %, la Utilități.
+  - Orange: 10 € cu TVA × cursul din ziua facturii, la Utilități; restul facturii nu intră.
+  - Salariul Claudiei: brut + CAM 2,25 %. Brutul vine din SAGA (stat de plată, lucrător comercial): 4.913 lei brut, 3.000 lei rest de plată în septembrie–octombrie, deci 5.023,54 lei pe lună. Luna salariului = luna dinaintea plății (plata până pe 25). Dacă plata diferă de 3.000 lei, brutul se estimează proporțional și scrie „verifică”. Setarea se schimbă din Cheltuieli → „Salariul angajatei” (de ex. la o mărire).
+  - TVA 21 % presupus pe facturi, corectabil.
+- Fără dubluri:
+  - fiecare factură și fiecare lună de salariu se preiau o singură dată;
+  - aceeași factură din SPV și din e-mail intră o dată;
+  - dacă luna are deja de mână o cheltuială pentru Piețe / Digi / Orange (sau salariul cu numele angajatei), importul e sărit și scrie de ce;
+  - ce șterge proprietarul nu mai revine;
+  - într-o lună cu costuri reale din Total Admin, costul fix estimat din aceeași categorie (chirie, utilități, salarii) nu se mai adună.
+- În Cheltuieli rândurile au sursa „Total Admin (automat)”, furnizorul, numărul facturii, totalul, cota și cursul. Au butonul „Corectează” (suma, TVA) și „Șterge”. Cardul „Preluate automat din Total Admin” arată ultima preluare și butonul „Preia acum”. Angajata nu vede aceste rânduri.
+- Preluarea rulează singură la cel mult 6 ore (tick-ul din cron-ul Total Admin). La Profit intră pe luna lor; în rapoartele săptămânale, proporțional cu zilele.
+- **Live, prima preluare 27.11 (19:00):**
+  - salariul Claudiei: august 2.630,89 lei (brut 2.573 lei din SAGA, jumătate de lună; corectat de Claude după statul de plată), septembrie 5.023,54 lei, octombrie 5.023,54 lei;
+  - octombrie: Piețe 1.821,13, Digi 107,40, Orange 53,31 lei;
+  - noiembrie: Piețe 1.683,04, Digi 107,67, Orange 53,49 lei.
+  - Facturile Piețe/Digi/Orange din august–septembrie nu sunt în Total Admin (SPV-ul e importat de la octombrie), deci pentru acele luni nu au venit.
+  - Live nu exista niciun cost fix trecut de mână, deci nu a fost nimic de sărit.
+- Teste: prime-expediere 286, prime-store 21, toate trec. Testat local cu ambele aplicații pornite împreună și date de probă: preluare, a doua rulare fără dubluri, dublură de mână sărită, ștergere care nu revine, „Corectează”, Profit și rapoarte. Deploy: Total Admin `35161586`, Prime Store `b0abe93b`.
+- Problemă găsită și reparată: a apărut un folder `C:\Users\mariu\.wrangler` (doar cache/loguri, fără configurare). Când există, wrangler îl ia în locul configurației Prime (`.wrangler-prime`), așa că `scripts/wr.mjs` spunea „You are not authenticated”. L-am redenumit în `.wrangler.bak-2026-11-27` și deploy-urile au mers din nou.

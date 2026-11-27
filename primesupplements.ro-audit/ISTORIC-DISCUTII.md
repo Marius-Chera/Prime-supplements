@@ -739,3 +739,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 
 ## 2026-11-27 – Total Admin: sectorul pe facturile din București
 - Marius: când clientul din București nu completează sectorul, factura trebuie să plece în Oblio cu „Sector 2” sau „Sector 4”, nu manual. Decis: sectorul vine din adresă, apoi din codul poștal, iar implicit e **Sector 2** (constanta `DEFAULT_BUC_SECTOR` din `prime-expediere/src/calc/invoice.ts`).
+
+## 2026-11-27 – Cloudflare Prime pe Workers Paid
+- După blocarea D1 (limita gratuită de citiri depășită de Prime Store), Marius a ales să treacă contul Cloudflare Prime pe **Workers Paid, 5 $/lună**, în loc să aștepte resetarea de la 02:00. Contul nu mai e pe planul gratuit; limitele de D1 și de cron nu mai sunt cele gratuite.

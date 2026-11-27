@@ -53,3 +53,7 @@ Cât timp o zi nu e sincronizată, profitul ei se **estimează** din Z (÷1,18; 
 3. **Sincronizarea Oblio:** în Oblio logat, butonul „Prime Store ← Oblio”; prima dată cere cheia SYNC_TOKEN din același fișier (Marius o lipește, Claude nu o scrie în pagini). Prima rulare aduce tot anul 2026 (1.01 → azi; durează câteva minute).
 4. **Angajata:** din ziua stabilită de Marius, completează în aplicație în loc de foaia Google (de pe telefon sau de pe PC-ul din magazin; se poate pune pe ecranul telefonului ca aplicație).
 5. De verificat categoriile puse automat la import (ex. „rafturi depozit”, „băieți depozit”: magazin sau depozitul online?).
+
+## Completare 27.11 (după prima sincronizare)
+- Marius: **„era altă casă de marcat primele luni din an”**. În ianuarie–februarie, Oblio are doar o parte din bonuri (ex. 5.01: 2 bonuri, 343,50 lei). Regula din aplicație: când bonurile Oblio acoperă sub 90 % din Z (în zilele sincronizate sau din totalul lunii din raportul vechi), vânzarea se ia din Z, iar costul mărfii cu **marja reală din bonurile Oblio** ale lunii; luna apare „Oblio X % din Z” la Profit.
+- Cheia de sincronizare se lipește acum într-un panou din pagina Oblio (căsuța „prompt” era închisă automat cât Claude lucra în tab). Prima sincronizare (1.01 → 27.11) pornită pe 27.11; durează ~1 oră, tab-ul Oblio rămâne deschis.

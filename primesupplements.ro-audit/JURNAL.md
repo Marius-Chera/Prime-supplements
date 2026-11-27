@@ -2597,4 +2597,11 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Live nu exista niciun cost fix trecut de mână, deci nu a fost nimic de sărit.
 - Teste: prime-expediere 286, prime-store 21, toate trec. Testat local cu ambele aplicații pornite împreună și date de probă: preluare, a doua rulare fără dubluri, dublură de mână sărită, ștergere care nu revine, „Corectează”, Profit și rapoarte. Deploy: Total Admin `35161586`, Prime Store `b0abe93b`.
 - Problemă găsită și reparată: a apărut un folder `C:\Users\mariu\.wrangler` (doar cache/loguri, fără configurare). Când există, wrangler îl ia în locul configurației Prime (`.wrangler-prime`), așa că `scripts/wr.mjs` spunea „You are not authenticated”. L-am redenumit în `.wrangler.bak-2026-11-27` și deploy-urile au mers din nou.
+- 27.11 (seara), Prime Store: Marius – „nu apar desfășurat cheltuielile fixe, m-am uitat acum pe luna octombrie”.
+  - **Cauza:** rândurile din Total Admin existau, dar apăreau doar în lista mare de cheltuieli. Tabelul „Costuri lunare fixe” arăta numai costurile puse de mână, deci era gol. La Profit costurile erau adunate pe categorii, iar „din care fixe” arăta 0.
+  - **Reparat** (commit `3eb2369`, deploy `07127f0c`):
+    - Profit are cardul nou „Costuri fixe în <luna> (desfășurat)”, cu fiecare cost (Piețe, Digi 50 %, Orange, salariul Claudiei, plus cele puse de mână), sursa, suma fără TVA și totalul. „Din care fixe” le include.
+    - Cheltuieli → „Costuri lunare fixe” are lista lunii „venite din Total Admin” (sumă și fără TVA), cu total.
+    - În lista mare, rândurile din Total Admin au o descriere scurtă, iar sursa (factura, cota, cursul) e strânsă sub „sursa”.
+  - Verificat local pe octombrie, pe calculator și la 375 px: nimic nu iese din ecran și nu apare derulare pe orizontală.
 - 27.11 (seara, completare): contul Cloudflare Prime e acum pe **Workers Paid**, iar D1 răspunde din nou. Indexurile `oblio_vanzari_produs_data` și `oblio_profit_zi_data` sunt aplicate live (verificat). Sarcina unică de la 02:20 a fost ștearsă, pentru că nu mai era necesară; sincronizarea obișnuită de la 23:00 rămâne.

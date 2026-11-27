@@ -2604,4 +2604,5 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - Cheltuieli → „Costuri lunare fixe” are lista lunii „venite din Total Admin” (sumă și fără TVA), cu total.
     - În lista mare, rândurile din Total Admin au o descriere scurtă, iar sursa (factura, cota, cursul) e strânsă sub „sursa”.
   - Verificat local pe octombrie, pe calculator și la 375 px: nimic nu iese din ecran și nu apare derulare pe orizontală.
+- 27.11 (seara), Prime Store: la cererea lui Marius, butonul „Preia acum” din Cheltuieli e verde (commit `7325bf8`, deploy `8f63a31c`).
 - 27.11 (seara, completare): contul Cloudflare Prime e acum pe **Workers Paid**, iar D1 răspunde din nou. Indexurile `oblio_vanzari_produs_data` și `oblio_profit_zi_data` sunt aplicate live (verificat). Sarcina unică de la 02:20 a fost ștearsă, pentru că nu mai era necesară; sincronizarea obișnuită de la 23:00 rămâne.

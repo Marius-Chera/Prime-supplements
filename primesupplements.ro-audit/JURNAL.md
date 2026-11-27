@@ -2501,3 +2501,9 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Opțiune: bifa „și clienții neînscriși care au puncte” arată și cei ~890 de clienți cu puncte strânse retroactiv din comenzi.
 - Reparat în treacăt: căutarea numelor și e-mailurilor din fila „Analiză” era stricată (interogarea GraphQL își pierduse variabila `$ids`), așa că acolo apăreau doar id-uri; acum folosește aceeași funcție ca lista nouă.
 - Doar citire (nicio schimbare în magazin sau în puncte). Rută nouă `/api/members`; verificat live în Shopify Admin pe 27.11. Cod: repo local `prime-puncte`.
+
+## 2026-11-27 – Curățenie în sesiunile din aplicație
+- La cererea proprietarului („să se țină minte informațiile, dar să fie ordine”) am arhivat **109 sesiuni** vechi din folderul Prime Supplements: toate cele cu ultima activitate înainte de 26.11, plus 2 sesiuni-copil terminate din 26.11, pe care aplicația le-a arhivat automat odată cu sesiunea care le-a pornit. Nimic nu s-a șters: se redeschid din bara laterală → Arhivate.
+- Înainte de arhivare: repo-ul nu avea nimic necomis, iar un sondaj pe 13 subiecte (Pandectes, Netopia, Nechifor, Booty Pump, Creapure 2027, Pinterest, Clarity, CUI etc.) a arătat că toate sunt deja în JURNAL / ISTORIC / DE-FACUT.
+- Indexul complet, cu titlu, dată și ID pentru fiecare sesiune arhivată, plus lista celor rămase: `SESIUNI-ARHIVATE-2026-11-27.md`.
+- Au rămas deschise 28: cele din 26–27.11 și cele din alte foldere (jocuri, OpenArt, LinkedIn Paula, Contabilitate Prime, fit supps, portofoliu sportivi), neatinse intenționat.

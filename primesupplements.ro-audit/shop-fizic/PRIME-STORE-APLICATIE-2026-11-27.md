@@ -57,3 +57,8 @@ Cât timp o zi nu e sincronizată, profitul ei se **estimează** din Z (÷1,18; 
 ## Completare 27.11 (după prima sincronizare)
 - Marius: **„era altă casă de marcat primele luni din an”**. În ianuarie–februarie, Oblio are doar o parte din bonuri (ex. 5.01: 2 bonuri, 343,50 lei). Regula din aplicație: când bonurile Oblio acoperă sub 90 % din Z (în zilele sincronizate sau din totalul lunii din raportul vechi), vânzarea se ia din Z, iar costul mărfii cu **marja reală din bonurile Oblio** ale lunii; luna apare „Oblio X % din Z” la Profit.
 - Cheia de sincronizare se lipește acum într-un panou din pagina Oblio (căsuța „prompt” era închisă automat cât Claude lucra în tab). Prima sincronizare (1.01 → 27.11) pornită pe 27.11; durează ~1 oră, tab-ul Oblio rămâne deschis.
+
+## Comenzile (27.11)
+- **Stoc & comenzi** (văzut și de angajată): „Comanda Depozit Prime” (săptămânal) și „Comanda Muscle Shop” (la 2 săptămâni), fiecare cu produsele care nu ajung până la livrarea următoare, cantitatea propusă (depozit ~10 zile, Muscle Shop ~3 săptămâni de vânzări), bifă, cantitate editabilă, „Adaugă un produs”, textul comenzii, „Copiază comanda” și „Am trimis-o” (salvează data; arată următoarea dată sau „de trimis azi”).
+- Furnizorul: produsele Prime (cod 6421766…, haine 400…, „Prime” în nume) → depozit; restul → Muscle Shop. Se schimbă pe produs din coloana „De la” (o poate face și angajata).
+- Comanda pentru depozit arată și stocul din depozitul online (gestiunea Oblio 228124), adus la sincronizare.

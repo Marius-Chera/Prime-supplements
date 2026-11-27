@@ -155,3 +155,17 @@ Neatinse intenționat: sesiunile din alte foldere (jocuri, OpenArt, LinkedIn Pau
 | 2026-11-10 | Conectare OPENART AI pentru TikTok | OpenArt - AI |
 | 2026-10-23 | Hardware engineers Timișoara | fit supps |
 | 2026-10-22 | Conectare la desktop | fit supps |
+
+## Arhivate în al doilea pas (7), alte foldere, la „da”-ul lui Marius
+
+| Ultima activitate | Titlu | Folder | ID |
+|---|---|---|---|
+| 2026-11-13 | Personaj educativ nutriție TikTok/Instagram | OpenArt - AI | `local_1b804be5-2589-4278-ae03-24cb327522de` |
+| 2026-11-11 | Serie TikTok Prime Supplements | OpenArt - AI | `local_74c70b22-2e39-4583-9243-dd191b361ed6` |
+| 2026-11-10 | Conectare OPENART AI pentru TikTok | OpenArt - AI | `local_1816159c-20c1-4b69-aaaf-50c9084b3b2a` |
+| 2026-11-11 | Estimare consum cremă de orez 3 luni | Contabilitate Prime | `local_07dc51c5-0078-4941-9035-c0e1f8e073bc` |
+| 2026-11-10 | Contabilitate și optimizare cash flow | Contabilitate Prime | `local_3f522e3c-f5a8-4713-9145-77925f1e2cab` |
+| 2026-10-23 | Hardware engineers Timișoara | fit supps | `local_40b3b560-913a-47ea-b708-5069365b61d6` |
+| 2026-10-22 | Conectare la desktop | fit supps | `local_7f3178af-b701-4202-879d-6461c050bf20` |
+
+Încă deschise în alte foldere: jocurile (SHAMAL ×3, ASHKAR), TalentRadar (LinkedIn Paula), Portofoliu THE GYM Makers.

@@ -2507,3 +2507,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Înainte de arhivare: repo-ul nu avea nimic necomis, iar un sondaj pe 13 subiecte (Pandectes, Netopia, Nechifor, Booty Pump, Creapure 2027, Pinterest, Clarity, CUI etc.) a arătat că toate sunt deja în JURNAL / ISTORIC / DE-FACUT.
 - Indexul complet, cu titlu, dată și ID pentru fiecare sesiune arhivată, plus lista celor rămase: `SESIUNI-ARHIVATE-2026-11-27.md`.
 - Au rămas deschise 28: cele din 26–27.11 și cele din alte foldere (jocuri, OpenArt, LinkedIn Paula, Contabilitate Prime, fit supps, portofoliu sportivi), neatinse intenționat.
+- Pasul 2 (la „da”-ul proprietarului): arhivate încă 7 sesiuni din alte foldere (OpenArt ×3, Contabilitate Prime ×2, fit supps ×2), trecute în același index. Au rămas deschise jocurile, TalentRadar și Portofoliul THE GYM Makers.

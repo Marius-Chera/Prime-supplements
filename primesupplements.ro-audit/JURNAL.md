@@ -2508,3 +2508,7 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Indexul complet, cu titlu, dată și ID pentru fiecare sesiune arhivată, plus lista celor rămase: `SESIUNI-ARHIVATE-2026-11-27.md`.
 - Au rămas deschise 28: cele din 26–27.11 și cele din alte foldere (jocuri, OpenArt, LinkedIn Paula, Contabilitate Prime, fit supps, portofoliu sportivi), neatinse intenționat.
 - Pasul 2 (la „da”-ul proprietarului): arhivate încă 7 sesiuni din alte foldere (OpenArt ×3, Contabilitate Prime ×2, fit supps ×2), trecute în același index. Au rămas deschise jocurile, TalentRadar și Portofoliul THE GYM Makers.
+
+## 2026-11-27 – WhatsApp App Review (Meta): verificare
+- Verificat contact@ (Gmail, inclusiv Spam/Coș, ultimele 7 zile): de la Meta există doar e-mailul din 23.11 „Your app has been submitted and pending review” (Prime Total Admin 28828799866802107). **Încă niciun răspuns** (nici aprobare, nici respingere); ziua 4 din termenul Meta de ~20 de zile (până pe ~13.12). Pașii G–M din DE-FACUT #39 așteaptă.
+- În Spam sunt mesaje „The Meta Business T.” („insignă albastră”, „Am limitat publicitatea pe site-ul dvs.”), cu aspect tipic de phishing; neatinse, fără clic. Starea reală a reclamelor se vede doar în Business Suite / Reclame Prime.

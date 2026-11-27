@@ -2567,7 +2567,7 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Verificare după blocaj (cerută de Marius): bazele D1 n-au mai acceptat scrieri între **~17:12 și 18:56 ora României** (15:12–16:56 UTC). Cron-urile de la 17:00 au mers.
   - **Shopify:** o singură comandă nouă în jurul intervalului, Nr.10566 (16:55, cod trip10), plasată înainte de blocaj; nicio comandă, ciornă sau anulare în interval. Clienții modificați în interval nu sunt urmăriți de aplicații.
   - **Prime Puncte:** a primit Nr.10566 (58 de puncte în așteptare); nimic pierdut (webhook-uri doar pe comenzi/rambursări).
-  - **Prime Afiliați:** rulările de la 17:17 și 18:17 au căzut; sincronizarea continuă de la cursorul salvat (16:17 → 10 min suprapunere), deci Nr.10565 și Nr.10566 intră la rularea următoare. Click-urile pe linkurile de afiliat din interval nu s-au putut salva (nerecuperabile, doar statistică).
+  - **Prime Afiliați:** rulările de la 17:17 și 18:17 au căzut; sincronizarea continuă de la cursorul salvat (16:17 → 10 min suprapunere), **recuperat la 19:17**: Nr.10565 (BRATU10, 64,71 lei) și Nr.10566 (trip10, 7,85 lei) sunt acum în aplicație, în așteptare. Click-urile pe linkurile de afiliat din interval nu s-au putut salva (nerecuperabile, doar statistică).
   - **Total Admin:** cron-ul */5 (stoc, Cargus, decontări) reia singur; scriptul Gmail de facturi reîncearcă e-mailurile eșuate până la 2 zile.
   - **eMAG:** a repornit la 19:00 (stoc + comenzi, de la ultima rulare reușită); 0 comenzi eMAG.
   - **Prime Store:** nu există încă închiderea zilei 27.11; dacă angajata a încercat s-o salveze între 17:12 și 18:56, trebuie introdusă din nou.

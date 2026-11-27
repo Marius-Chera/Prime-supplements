@@ -736,3 +736,6 @@ Cererea proprietarului: un instrument gratuit pentru sportivii care au fost deja
 - 27.11 (Total Admin – etichete): Marius vrea evidența stocului de etichete în Total Admin, încărcată lunar din Excel-ul furnizorului (pe SKU/aromă), cu notificare când se comandă la tipografie. Decizii: termen tipografie ~2 săptămâni, alertă la termen + 30 de zile, comanda propusă pe 6 luni, consum din vânzările Oblio. Construit în aceeași zi (Stocuri → Etichete).
 - 27.11 (Total Admin – etichete): raportul lunar vine de la Pro Nutrition („Stocuri la moment ambalaje + etichete”, Excel, pe denumiri, fără EAN; include și cutii, stickere, folie). Se urmăresc etichetele, cutiile și stickerele; folia (kg) rămâne doar ca stoc.
 - 27.11 (Total Admin – etichete): Marius a confirmat că „DELICIOUS BAR CHOCOLATE” din raportul Pro Nutrition = batonul ciocolată și caramel.
+
+## 2026-11-27 – Total Admin: sectorul pe facturile din București
+- Marius: când clientul din București nu completează sectorul, factura trebuie să plece în Oblio cu „Sector 2” sau „Sector 4”, nu manual. Decis: sectorul vine din adresă, apoi din codul poștal, iar implicit e **Sector 2** (constanta `DEFAULT_BUC_SECTOR` din `prime-expediere/src/calc/invoice.ts`).

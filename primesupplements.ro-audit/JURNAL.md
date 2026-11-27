@@ -2605,4 +2605,11 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
     - În lista mare, rândurile din Total Admin au o descriere scurtă, iar sursa (factura, cota, cursul) e strânsă sub „sursa”.
   - Verificat local pe octombrie, pe calculator și la 375 px: nimic nu iese din ecran și nu apare derulare pe orizontală.
 - 27.11 (seara), Prime Store: la cererea lui Marius, butonul „Preia acum” din Cheltuieli e verde (commit `7325bf8`, deploy `8f63a31c`).
+- 27.11 (seara), Prime Store: Marius – „la câmpul Categorie fă-l editabil, ca să pot selecta eu când o cheltuială e pe shop sau doar o decontez din casă, dar ea e de fapt fie pe ambele, fie pe online”.
+  - În Cheltuieli, la fiecare rând (doar proprietarii), categoria se schimbă direct din tabel.
+  - Al doilea câmp, „a cui e”, are trei variante: **Magazin (100 %)**, **Ambele (50 % magazin)** și **Online (0 % magazin)**.
+  - La Profit și în rapoarte intră doar partea magazinului (fără TVA). Restul apare separat, la „Nu intră în profitul magazinului”, ca „Partea online”.
+  - Verificarea casei nu se schimbă (banii au ieșit oricum din casă).
+  - Migrarea `0006_cheltuieli_pe_cine.sql` (toate cheltuielile existente rămân „Magazin”). Commit `55f43b9`, deploy `507ea3af`.
+  - Testat local pe calculator și la 375 px (câmpuri de 16 px, nimic nu iese din ecran). Ambele = 50 % presupus (ca la Digi); dacă vrei altă cotă, se schimbă.
 - 27.11 (seara, completare): contul Cloudflare Prime e acum pe **Workers Paid**, iar D1 răspunde din nou. Indexurile `oblio_vanzari_produs_data` și `oblio_profit_zi_data` sunt aplicate live (verificat). Sarcina unică de la 02:20 a fost ștearsă, pentru că nu mai era necesară; sincronizarea obișnuită de la 23:00 rămâne.

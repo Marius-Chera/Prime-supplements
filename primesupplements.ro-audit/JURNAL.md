@@ -2564,6 +2564,13 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
 - Marius a trecut contul Cloudflare Prime pe **Workers Paid (5 $/lună)**: citirile D1 au revenit imediat.
 - Aplicat în D1 `prime-store` doar migrarea `0004_index_vanzari.sql` (indexurile `oblio_vanzari(produs_id, data)` și `oblio_profit_zi(data)`), trecută și în `d1_migrations`. Migrarea `0005` (lucru în curs al altei sesiuni) neatinsă.
 - De verificat: comenzile din intervalul blocat (seara 27.11) au primit puncte (Prime Puncte) și comision (Prime Afiliați)?
+- Verificare după blocaj (cerută de Marius): bazele D1 n-au mai acceptat scrieri între **~17:12 și 18:56 ora României** (15:12–16:56 UTC). Cron-urile de la 17:00 au mers.
+  - **Shopify:** o singură comandă nouă în jurul intervalului, Nr.10566 (16:55, cod trip10), plasată înainte de blocaj; nicio comandă, ciornă sau anulare în interval. Clienții modificați în interval nu sunt urmăriți de aplicații.
+  - **Prime Puncte:** a primit Nr.10566 (58 de puncte în așteptare); nimic pierdut (webhook-uri doar pe comenzi/rambursări).
+  - **Prime Afiliați:** rulările de la 17:17 și 18:17 au căzut; sincronizarea continuă de la cursorul salvat (16:17 → 10 min suprapunere), deci Nr.10565 și Nr.10566 intră la rularea următoare. Click-urile pe linkurile de afiliat din interval nu s-au putut salva (nerecuperabile, doar statistică).
+  - **Total Admin:** cron-ul */5 (stoc, Cargus, decontări) reia singur; scriptul Gmail de facturi reîncearcă e-mailurile eșuate până la 2 zile.
+  - **eMAG:** a repornit la 19:00 (stoc + comenzi, de la ultima rulare reușită); 0 comenzi eMAG.
+  - **Prime Store:** nu există încă închiderea zilei 27.11; dacă angajata a încercat s-o salveze între 17:12 și 18:56, trebuie introdusă din nou.
 
 ## 2026-11-27 – Prime Store ← Total Admin: costurile fixe ale magazinului se preiau singure
 - Cererea lui Marius: „conectează Total Admin cu aplicația Prime Store, ca Prime Store să preia automat și să introducă la cheltuieli fixe factura de la Piețe și salariul angajatei Claudia, factura de la Digi împărțită la 2, jumate la depozit jumate la magazin, din factura de la Orange 10 euro pe lună cu TVA e costul de telefonie (factura de la Piețe este doar chiria și factura cu utilitățile de la magazin)”.
@@ -2590,3 +2597,4 @@ eclame-prime` (repo local, ca prime-afiliati; commit a3781dd). Conectori Meta (M
   - Live nu exista niciun cost fix trecut de mână, deci nu a fost nimic de sărit.
 - Teste: prime-expediere 286, prime-store 21, toate trec. Testat local cu ambele aplicații pornite împreună și date de probă: preluare, a doua rulare fără dubluri, dublură de mână sărită, ștergere care nu revine, „Corectează”, Profit și rapoarte. Deploy: Total Admin `35161586`, Prime Store `b0abe93b`.
 - Problemă găsită și reparată: a apărut un folder `C:\Users\mariu\.wrangler` (doar cache/loguri, fără configurare). Când există, wrangler îl ia în locul configurației Prime (`.wrangler-prime`), așa că `scripts/wr.mjs` spunea „You are not authenticated”. L-am redenumit în `.wrangler.bak-2026-11-27` și deploy-urile au mers din nou.
+- 27.11 (seara, completare): contul Cloudflare Prime e acum pe **Workers Paid**, iar D1 răspunde din nou. Indexurile `oblio_vanzari_produs_data` și `oblio_profit_zi_data` sunt aplicate live (verificat). Sarcina unică de la 02:20 a fost ștearsă, pentru că nu mai era necesară; sincronizarea obișnuită de la 23:00 rămâne.

@@ -65,3 +65,20 @@ Defalcarea pe 25.11: **server 18** (cât comenzile: Conversions API trimis de ca
 **26.11, după verificare: OPRIT** (Marius: „Da, acum”; s-a logat el cu Facebook în Simprosys). Simprosys → Pixels and tracking → Meta Pixel Event Tracking → debifat „Enable Facebook Pixel event tracking” → „Disable Pixel setup”. Mesajul: „Facebook event tracking disabled”, iar cardul arată acum „Not set up”. Rămân active în Simprosys: Google Ads conversion tracking, GA4 și Consent mode (verificat). Meta primește Purchase doar prin canalul Shopify Facebook & Instagram (Pixel + CAPI).
 Observație (nemodificat): în Simprosys → Settings → Facebook Shopping, feedul Facebook e pornit spre un catalog separat, „Prime Supplements Catalog” (1727243842368218). Canalul Shopify folosește catalogul 1152350635382402. Sunt două cataloage paralele; de discutat separat.
 **De verificat pe 28–29.11:** Purchase în Events Manager / zi ≈ comenzile Shopify (raport ~1,0; browser ≈ server).
+
+## Verificare D11 – 28.11.2026 (după oprirea Meta Pixel din Simprosys, 26.11): REZOLVAT
+
+Sursa: Events Manager, pixelul 593997668868274 → Purchase. Graficul are intervale de 6 ore (browserProcessedCount / serverProcessedCount), adunate pe zile după ora României (granițele zilei sunt aproximate cu ±2 ore). Comenzile web din Shopify sunt numărate pe aceleași zile (ora României).
+
+| Zi | Browser | Server (CAPI Shopify) | Comenzi web Shopify | Browser / server |
+|---|---|---|---|---|
+| 22.11 | 24 | 12 | 13 | 2,0 |
+| 24.11 | 30 | 16 | 18 | 1,9 |
+| 25.11 | 32 | 18 | 20 | 1,8 |
+| 26.11 (Simprosys oprit în cursul zilei) | 12 | 12 | 14 | 1,0 |
+| 27.11 (prima zi întreagă) | 14 | 12 | 14 | 1,2 |
+
+- **Sursa în plus din browser a dispărut.** Pixelul din browser și Conversions API trimit acum fiecare câte un eveniment pe comandă (~1 la 1), iar Meta le deduplică după Event ID, care e prezent pe 100% din evenimente, și din browser, și de pe server.
+- Suma brută browser + server (26 pe 27.11) rămâne ~2× comenzile. Așa trebuie să fie: e aceeași comandă, primită pe ambele canale. Înainte, browserul trimitea ~1,8× cât serverul.
+- Fila „Event deduplication” (media ultimelor 7 zile, deci include și zilele dinainte de 26.11): acoperirea Event ID e 42,55%, acoperirea totală 70,92% (Meta recomandă ≥75%). Se verifică iar pe ~5.12, după 7 zile curate. Dacă rămâne sub 75%, e o problemă a canalului Shopify, nu a noastră.
+- Nimic modificat. Doar citire, în Events Manager (Chrome) și în Shopify (GraphQL).

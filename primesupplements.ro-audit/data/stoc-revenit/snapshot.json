@@ -1,5 +1,5 @@
 {
- "data": "2026-11-27",
+ "data": "2026-11-28",
  "produse_active": 213,
  "nota": "Produsele MNX/haine cu stoc mic (<=11) nu sunt listate individual; sunt excluse oricum din campanii. Produsele absente din snapshot sunt tratate ca stoc 0. Variantele pe arome nu mai sunt salvate (se compară doar totalInventory). Pachetele neindividualizate din snapshotul vechi (pachet-trio..., pachet-rutina-zilnica..., etc.) nu mai sunt active azi. Actualizat 21.11: valorile suplimentelor/cremelor reîmprospătate din Shopify; produsele cu stoc 0 neschimbate.",
  "produse": {
@@ -20,7 +20,7 @@
    "publishedAt": "2025-05-05"
   },
   "vitamina-d3-k2": {
-   "totalInventory": 933,
+   "totalInventory": 932,
    "publishedAt": "2025-11-19"
   },
   "testo-revive-500-ml": {
@@ -76,7 +76,7 @@
    "publishedAt": "2025-05-05"
   },
   "scortisoara-ceylon-bio-200g": {
-   "totalInventory": 34,
+   "totalInventory": 32,
    "publishedAt": "2025-05-05"
   },
   "baton-proteic-cocos-si-caramel": {
@@ -84,15 +84,15 @@
    "publishedAt": "2025-05-05"
   },
   "magneziu-bisglicinat-80-caps": {
-   "totalInventory": 739,
+   "totalInventory": 738,
    "publishedAt": "2025-05-05"
   },
   "daily-vitamin-formula": {
-   "totalInventory": 46,
+   "totalInventory": 44,
    "publishedAt": "2025-10-30"
   },
   "creatina-creapure": {
-   "totalInventory": 175,
+   "totalInventory": 173,
    "publishedAt": "2025-05-05"
   },
   "eaa-aminoacizi-esentiali": {
@@ -100,15 +100,15 @@
    "publishedAt": "2025-05-05"
   },
   "emperor-mass_3000g": {
-   "totalInventory": 109,
+   "totalInventory": 108,
    "publishedAt": "2025-05-05"
   },
   "nitrox": {
-   "totalInventory": 158,
+   "totalInventory": 157,
    "publishedAt": "2025-05-05"
   },
   "omega-3": {
-   "totalInventory": 107,
+   "totalInventory": 104,
    "publishedAt": "2025-05-05"
   },
   "pure-isolate-2000g": {
@@ -176,7 +176,7 @@
    "publishedAt": "2025-05-05"
   },
   "unt-de-caju": {
-   "totalInventory": 1,
+   "totalInventory": 0,
    "publishedAt": "2025-05-05"
   },
   "prime-whey-1000g": {
@@ -184,11 +184,11 @@
    "publishedAt": "2025-05-05"
   },
   "prime-whey-2000g": {
-   "totalInventory": 450,
+   "totalInventory": 442,
    "publishedAt": "2025-05-05"
   },
   "cluster-bomb-1000g": {
-   "totalInventory": 100,
+   "totalInventory": 99,
    "publishedAt": "2025-05-05"
   },
   "nitrox-no-stim": {
@@ -208,7 +208,7 @@
    "publishedAt": "2025-05-05"
   },
   "silimarina-80-caps": {
-   "totalInventory": 72,
+   "totalInventory": 71,
    "publishedAt": "2025-05-05"
   },
   "enzima-nattokinaza-80-caps": {
@@ -232,7 +232,7 @@
    "publishedAt": "2025-06-03"
   },
   "creatina-monohidrat-micronized-300g-fara-aroma": {
-   "totalInventory": 195,
+   "totalInventory": 194,
    "publishedAt": "2026-03-03"
   },
   "creatine-ready-to-go-plicuri-prime-supplements": {
@@ -264,19 +264,19 @@
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-biscuiti-cu-crema": {
-   "totalInventory": 221,
+   "totalInventory": 218,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-plactina-cu-cocos": {
-   "totalInventory": 224,
+   "totalInventory": 220,
    "publishedAt": "2026-07-02"
   },
   "crema-de-orez-tort-de-ciocolata": {
-   "totalInventory": 207,
+   "totalInventory": 202,
    "publishedAt": "2026-07-02"
   },
   "instant-drink-frutilu-almond-10g": {
-   "totalInventory": 218,
+   "totalInventory": 213,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-apricot-10g": {
@@ -288,7 +288,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-cola-10g": {
-   "totalInventory": 34,
+   "totalInventory": 24,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-energy-cranberry-10g": {
@@ -300,7 +300,7 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-green-apple-10g": {
-   "totalInventory": 67,
+   "totalInventory": 62,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-ice-tea-peach-10g": {
@@ -312,27 +312,27 @@
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon": {
-   "totalInventory": 176,
+   "totalInventory": 171,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-lemon-lime-10g": {
-   "totalInventory": 28,
+   "totalInventory": 18,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-mango-10g": {
-   "totalInventory": 20,
+   "totalInventory": 15,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-orange-10g": {
-   "totalInventory": 66,
+   "totalInventory": 61,
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-tropic-10-g": {
-   "totalInventory": 104,
+   "totalInventory": 94,
    "publishedAt": "2026-07-24"
   },
   "instant-drink-frutilu-watermelon-10g": {
-   "totalInventory": 107,
+   "totalInventory": 97,
    "publishedAt": "2026-07-24"
   },
   "frutilu-instant-drink-sport-red-orange-10-g": {
@@ -426,9 +426,14 @@
   "frutilu-instant-drink-strawberry-10-g": {
    "totalInventory": 0,
    "publishedAt": "2025-05-05"
+  },
+  "pachet-mix-arome-bautura-instant-frutilu-fara-zahar-18-plicuri-x-10g-set-degustare": {
+   "totalInventory": 0,
+   "publishedAt": "2026-09-16"
   }
  },
  "nota_2026_11_12": "Actualizat parțial: valorile produselor cheie și ale celor cu stoc 0; restul au rămas neschimbate (diferențe mici de stoc nu afectează regula >=10). Pachetele Black Friday/noi nu sunt urmărite.",
  "nota_2026_11_13": "Actualizat din lista completă Shopify (3 pagini). Pachetele Black Friday/noi și hainele nu sunt urmărite individual.",
- "nota_2026_11_23": "Actualizat din lista completă Shopify (3 pagini); valori reîmprospătate pentru suplimente/creme/Frutilu. Haine și pachete nu sunt urmărite individual."
+ "nota_2026_11_23": "Actualizat din lista completă Shopify (3 pagini); valori reîmprospătate pentru suplimente/creme/Frutilu. Haine și pachete nu sunt urmărite individual.",
+ "nota_2026_11_28": "Actualizat din lista completă Shopify (3 pagini). Haine și pachete nu sunt urmărite individual."
 }
